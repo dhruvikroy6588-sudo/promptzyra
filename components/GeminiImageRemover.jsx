@@ -58,14 +58,31 @@ export default function GeminiImageRemover() {
       image.src = source.url;
       await image.decode();
       const processed = await removeWatermarkFromImage(image);
-      if (!processed?.canvas || typeof processed.canvas.toBlob !== "function") {
-        throw new Error("The image engine did not return a processed image.");
+      // The SDK may return either an HTMLCanvasElement (toBlob) or an
+      // OffscreenCanvas (convertToBlob), depending on the browser/runtime.
+      const outputCanvas = processed?.canvas ?? null;
+      if (!outputCanvas) {
+        throw new Error("The image engine did not return a canvas. Please refresh the page and try a standard Gemini-generated PNG or JPG image.");
       }
-      const blob = await new Promise((resolve, reject) => {
-        processed.canvas.toBlob((value) => value ? resolve(value) : reject(new Error("Could not prepare the processed image for download.")), "image/png");
-      });
+
+      let blob;
+      if (typeof outputCanvas.convertToBlob === "function") {
+        blob = await outputCanvas.convertToBlob({ type: "image/png" });
+      } else if (typeof outputCanvas.toBlob === "function") {
+        blob = await new Promise((resolve, reject) => {
+          outputCanvas.toBlob(
+            (value) => value ? resolve(value) : reject(new Error("The browser could not export the processed image. Try another image or browser.")),
+            "image/png"
+          );
+        });
+      } else {
+        throw new Error("The image engine returned an unsupported canvas type. Please update the page and try again.");
+      }
+      if (!(blob instanceof Blob) || blob.size === 0) {
+        throw new Error("The processed image was empty. Please try another original Gemini image.");
+      }
       resultUrl = URL.createObjectURL(blob);
-      setResult({ url: resultUrl, blob, width: processed.canvas.width, height: processed.canvas.height });
+      setResult({ url: resultUrl, blob, width: outputCanvas.width, height: outputCanvas.height });
       const applied = processed.meta?.applied;
       setStatus("done");
       if (applied === false) {

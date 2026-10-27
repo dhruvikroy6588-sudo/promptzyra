@@ -12,7 +12,7 @@ Gemini watermark page is a guide, not an automatic watermark-removal engine. No 
 - `/prompt/[slug]` — prompt detail page with copy/share, tags, suggested settings, before/after visuals, usage steps, tips, FAQ and related prompts.
 - `/blog` — editorial guide index.
 - `/blog/[slug]` — individual SEO guide with metadata and Article structured data.
-- `/gemini-watermark-guide` — educational guidance page; it is not an automatic watermark remover.
+- `/gemini-watermark-remover` — educational guidance page; it is not an automatic watermark remover.
 
 The top navigation has exactly three primary links: Prompt Library, Blog, and Gemini Watermark Remover.
 
