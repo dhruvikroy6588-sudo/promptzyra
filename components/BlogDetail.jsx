@@ -17,12 +17,12 @@ export default function BlogDetail({ slug, initialPost = null }) {
   const copy=async()=>{try{await navigator.clipboard.writeText(post.prompt||"");setCopied(true);setTimeout(()=>setCopied(false),1800);}catch{setCopyLabel("Select and copy below");}};
   const share=async()=>{try{await navigator.share({title:post.title,text:post.excerpt,url:location.href});}catch{}};
   return <main className="article-page">
-    <div className="article-top"><Link href="/" className="back-link"><ArrowLeft size={16}/> Back to library</Link><span className="article-breadcrumb">Prompt library <span>/</span> {post.category}</span></div>
+    <div className="article-top"><Link href="/blog" className="back-link"><ArrowLeft size={16}/> Back to articles</Link>{!isBlog && <span className="article-breadcrumb">Prompt library <span>/</span> {post.category}</span>}</div>
     <article className="article-layout">
       <div className="article-main">
-        <div className="article-kicker"><span>{post.category}</span><span className="kicker-line"/><span><Clock3 size={13}/> {post.readTime || "4 min read"}</span></div>
+        {!isBlog && <div className="article-kicker"><span>{post.category}</span><span className="kicker-line"/><span><Clock3 size={13}/> {post.readTime || "4 min read"}</span></div>}
         <h1>{post.title}</h1><p className="article-deck">{post.excerpt}</p>
-        <div className="article-byline"><div className="author-avatar">PV</div><span><b>{post.author || "Promptzyra Team"}</b><small>Creative prompt guide · Updated {post.publishedAt || "2026-10-27"}</small></span><button className="share-button" onClick={share}><Share2 size={15}/> Share</button></div>
+        <div className="article-byline"><div className="author-avatar">PV</div><span><b>{post.author || "Promptzyra Team"}</b>{!isBlog && <small>Creative prompt guide · Updated {post.publishedAt || "2026-10-27"}</small>}</span><button className="share-button" onClick={share}><Share2 size={15}/> Share</button></div>
         {(post.thumbnail || post.image2 || post.image1) && <div className="article-hero-image"><img src={post.thumbnail || post.image2 || post.image1} alt={`${post.title} AI image example`} /><span>IMAGE PREVIEW</span></div>}
         {post.prompt && <div className="detail-facts" aria-label="Prompt overview"><div><small>BEST FOR</small><b>{post.category || "AI image creation"}</b></div><div><small>TOOL</small><b>{post.model || "Gemini / compatible image tools"}</b></div><div><small>FORMAT</small><b>{post.aspect_ratio || "4:5 portrait (customizable)"}</b></div></div>}
         {isBlog && <div className="article-body">{(post.content||post.excerpt||'').split(/\n+/).filter(Boolean).map((line,i)=>line.startsWith('## ')?<h2 key={i}>{line.slice(3)}</h2>:line.startsWith('# ')?<h2 key={i}>{line.slice(2)}</h2>:line.startsWith('- ')?<p key={i}>• {line.slice(2)}</p>:<p key={i}>{line}</p>)}</div>}
