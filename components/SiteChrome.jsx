@@ -6,9 +6,9 @@ export function SiteHeader() {
     <div className="nav-wrap">
       <Link href="/" className="brand"><span className="brand-mark"><Sparkles size={20}/></span><span>prompt<span className="brand-accent">zyra</span><small>CREATE WHAT'S TRENDING</small></span></Link>
       <nav className="main-nav">
-        <Link href="/#trending">Trending</Link><Link href="/#categories">Categories</Link><Link href="/#guides">SEO Guides</Link><Link href="/gemini-watermark-guide">Gemini Watermark Guide</Link>
+        <Link href="/">Prompt Library</Link><Link href="/blog">Blog</Link><Link href="/gemini-watermark-guide">Gemini Watermark Remover</Link>
       </nav>
-      <Link className="nav-cta" href="/#trending">Explore prompts <ArrowUpRight size={15}/></Link>
+      <Link className="nav-cta" href="/#trending">Browse library <ArrowUpRight size={15}/></Link>
     </div>
   </header>;
 }

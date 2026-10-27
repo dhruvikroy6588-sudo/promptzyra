@@ -33,3 +33,36 @@ html,body{background:#0b0d13!important;color:#eef0fa!important}
 
 /* Promptzyra editorial additions */
 .guide-cta{display:flex;justify-content:flex-end;margin-top:22px}.card-action.liked{color:#fb7185!important;border-color:#fb7185!important}.card-action.liked svg{fill:#fb7185}.guide-section{border-top:1px solid #252838}.brand{letter-spacing:-1px}.brand-accent{color:#b7a5ff}.image-tag{max-width:82%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.results-toolbar{display:flex;justify-content:space-between;align-items:center;margin:0 0 15px;color:#9da3b8;font-size:11px}.results-toolbar label{display:flex;align-items:center;gap:9px}.results-toolbar select{background:#151824;color:#e6e8f5;border:1px solid #303449;border-radius:8px;padding:8px 11px;font:inherit}.prompt-grid .card-image{height:220px}.featured-card .card-image{height:280px}.card-image img{object-position:center;image-rendering:auto}.card-image img[src$=".svg"]{object-fit:cover}
+
+/* Prompt detail page refinement: strong image hierarchy, scan-friendly information */
+.card-image{aspect-ratio:4/3;height:auto;min-height:190px;background:#171b28;}
+.prompt-grid .card-image{height:auto;aspect-ratio:4/3;min-height:185px;}
+.featured-card .card-image{height:auto;aspect-ratio:5/4;min-height:250px;}
+.card-image img{object-fit:cover;object-position:center;width:100%;height:100%;display:block;}
+.card-body h3{font-size:17px;line-height:1.38;}
+.card-body p{font-size:12px;line-height:1.75;}
+.article-hero-image{aspect-ratio:5/3;height:auto;max-height:620px;background:#11141e;border:1px solid #2b2e40;}
+.article-hero-image img{display:block;width:100%;height:100%;object-fit:contain;object-position:center;background:#10131c;}
+.detail-facts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:0 0 28px;}
+.detail-facts>div{display:flex;flex-direction:column;gap:7px;min-width:0;padding:14px 15px;background:#141722;border:1px solid #2b2e40;border-radius:12px;}
+.detail-facts small{font-size:9px;font-weight:800;letter-spacing:1.1px;color:#9da3b8;}
+.detail-facts b{font-size:12px;line-height:1.5;color:#edf0fa;}
+.how-to-panel,.creator-settings,.faq-panel{padding:22px;margin:28px 0;border:1px solid #2b2e40;background:#121520;border-radius:16px;}
+.how-to-panel h2,.creator-settings h2,.faq-panel h2{margin:0 0 15px!important;font-size:23px!important;color:#f5f6ff!important;}
+.how-to-panel ol{margin:0;padding:0;list-style:none;counter-reset:howto;display:grid;gap:13px;}
+.how-to-panel li{counter-increment:howto;display:grid;grid-template-columns:34px minmax(0,1fr);gap:0 12px;align-items:start;}
+.how-to-panel li:before{content:counter(howto,decimal-leading-zero);grid-row:span 2;display:grid;place-items:center;width:32px;height:32px;border-radius:10px;background:#27213e;color:#c4b5fd;font-size:10px;font-weight:900;}
+.how-to-panel li b{font-size:13px;color:#e9eafa;}
+.how-to-panel li span{font-size:12px;line-height:1.75;color:#aeb4c8;margin-top:3px;}
+.setting-row{display:flex;justify-content:space-between;gap:18px;padding:11px 0;border-bottom:1px solid #292d3e;font-size:12px;}
+.setting-row span{color:#a7aec2;}
+.setting-row b{text-align:right;color:#eceefe;}
+.creator-settings>p,.faq-panel details p{font-size:12px;line-height:1.8;color:#aeb4c8;margin:14px 0 0;}
+.faq-panel details{padding:14px 0;border-top:1px solid #292d3e;}
+.faq-panel summary{cursor:pointer;font-size:13px;font-weight:700;color:#e9eafa;}
+.faq-panel details p{margin:10px 0 0;}
+@media(max-width:600px){.detail-facts{grid-template-columns:1fr;gap:8px}.detail-facts>div{padding:11px 13px}.article-hero-image{aspect-ratio:4/3}.how-to-panel,.creator-settings,.faq-panel{padding:17px}.setting-row{flex-direction:column;gap:5px}.setting-row b{text-align:left}.prompt-grid .card-image{min-height:205px}}
+
+/* Admin-uploaded media only: neutral empty states instead of fake placeholder artwork */
+.card-image-empty,.hero-upload-empty{width:100%;height:100%;min-height:190px;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:10px;padding:24px;text-align:center;color:#aeb4c8;background:radial-gradient(ellipse at top,#27223e,#11141e 72%);font-size:12px}.card-image-empty{min-height:100%;font-weight:600}.hero-upload-empty{min-height:310px;border:1px dashed #494364;border-radius:20px}.hero-upload-empty b{font-size:15px;color:#f1efff}.hero-upload-empty span{font-size:12px;color:#aeb4c8}.festival-visual .hero-upload-empty{height:100%;width:100%}

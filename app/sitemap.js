@@ -1,8 +1,2 @@
-import { seedPosts } from "@/lib/seed-posts";
-export default function sitemap() {
-  const base = "https://promptzyra.com";
-  return [{url:base,lastModified:new Date(),changeFrequency:"daily",priority:1},
-    {url:`${base}/about`,lastModified:new Date(),changeFrequency:"monthly",priority:0.4},
-    ...seedPosts.map(p=>({url:`${base}/blog/${p.slug}`,lastModified:new Date(p.publishedAt||"2026-10-27"),changeFrequency:"monthly",priority:0.7})),
-    ...["/contact","/privacy-policy","/terms"].map(path=>({url:`${base}${path}`,lastModified:new Date(),changeFrequency:"yearly",priority:0.3}))];
-}
+import {getSupabaseServer} from '@/lib/supabase-server';
+export default async function sitemap(){const base='https://promptzyra.com';const fixed=['/','/about','/blog','/gemini-watermark-guide','/contact','/privacy-policy','/terms'].map(path=>({url:`${base}${path}`,lastModified:new Date(),changeFrequency:path==='/'?'daily':'monthly',priority:path==='/'?1:path==='/blog'?.8:.3}));const sb=getSupabaseServer();if(!sb)return fixed;const {data}=await sb.from('promptzyra_posts').select('slug,kind,updated_at,created_at').eq('published',true);const dynamic=(data||[]).map(p=>({url:`${base}/${p.kind==='SEO guide'||p.kind==='Gemini watermark guide'?'blog':'prompt'}/${p.slug}`,lastModified:new Date(p.updated_at||p.created_at||Date.now()),changeFrequency:'monthly',priority:.7}));return [...fixed,...dynamic];}

@@ -1,16 +1,6 @@
-import BlogDetail from "@/components/BlogDetail";
-import { seedPosts } from "@/lib/seed-posts";
-
-export function generateStaticParams() {
-  return seedPosts.map(post => ({ slug: post.slug }));
-}
-export async function generateMetadata({ params }) {
-  const { slug } = await params;
-  const post = seedPosts.find(item => item.slug === slug);
-  if (!post) return { title: "Prompt not found", robots: { index: false, follow: false } };
-  return { title: post.title, description: post.excerpt, keywords: post.keywords, alternates: { canonical: `https://promptzyra.com/blog/${post.slug}` }, openGraph: { title: post.title, description: post.excerpt, images: [post.thumbnail || post.image2] } };
-}
-export default async function BlogPage({ params }) {
-  const { slug } = await params;
-  return <BlogDetail slug={slug} />;
-}
+import BlogDetail from '@/components/BlogDetail';
+import {getSupabaseServer} from '@/lib/supabase-server';
+export const dynamic='force-dynamic';
+async function getPost(slug){const sb=getSupabaseServer();if(!sb)return null;const {data}=await sb.from('promptzyra_posts').select('*').eq('slug',slug).eq('published',true).maybeSingle();return data;}
+export async function generateMetadata({params}){const {slug}=await params;const post=await getPost(slug);if(!post)return {title:'Article not found | Promptzyra',robots:{index:false,follow:false}};const url=`https://promptzyra.com/blog/${post.slug}`;const image=post.thumbnail||post.image2||post.image1;return {title:`${post.title} | Promptzyra`,description:post.excerpt,keywords:post.keywords,alternates:{canonical:url},openGraph:{type:'article',title:post.title,description:post.excerpt,url,images:image?[{url:image,alt:`${post.title} image`}]:[]},twitter:{card:'summary_large_image',title:post.title,description:post.excerpt,images:image?[image]:[]}};}
+export default async function BlogPage({params}){const {slug}=await params;const post=await getPost(slug);const schema=post?{'@context':'https://schema.org','@type':'Article',headline:post.title,description:post.excerpt,mainEntityOfPage:`https://promptzyra.com/blog/${post.slug}`,image:[post.thumbnail||post.image2||post.image1].filter(Boolean),author:{'@type':'Organization',name:post.author||'Promptzyra Team'},publisher:{'@type':'Organization',name:'Promptzyra',url:'https://promptzyra.com'},datePublished:post.created_at,dateModified:post.updated_at}:null;return <>{schema&&<script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(schema).replace(/</g,'\\u003c')}}/>}<BlogDetail slug={slug} initialPost={post}/></>}
