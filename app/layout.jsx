@@ -2,7 +2,7 @@ import "./globals.css";
 import Script from "next/script";
 import { SiteHeader, SiteFooter } from "@/components/SiteChrome";
 
-const gaId = process.env.NEXT_PUBLIC_GA_ID;
+const gaId = process.env.NEXT_PUBLIC_GA_ID || 'G-MBDBKQHL54';
 const googleSiteVerification = process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION;
 
 export const metadata = {
