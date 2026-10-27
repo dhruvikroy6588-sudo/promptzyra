@@ -22,9 +22,3 @@ The public prompt and blog listings load published rows from the Promptzyra Supa
 
 ## Verification status
 Source files and ZIP archive were updated, but a full production build could not be confirmed in this environment because dependency installation timed out. Follow SETUP.md and run the build before deploying.
-
-## Blog publishing and homepage display update
-- Blog editor now includes a featured-image upload / public image URL field with preview.
-- The **Publish blog** action validates title, article content, and featured image, then saves the article with `published = true`.
-- Published blog articles are rendered as blog-linked cards on the homepage and link to `/blog/<slug>`.
-- Blog autosave persists the featured image and preserves the current publish state while editing.
