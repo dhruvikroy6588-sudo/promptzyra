@@ -1,23 +1,18 @@
 'use client';
 import Link from "next/link";
-import { ArrowUpRight, Copy, Clock3, Check, Share2, Heart } from "lucide-react";
+import { ArrowUpRight, Clock3, Share2, Heart, Instagram, MessageCircle } from "lucide-react";
 import { useEffect, useState } from "react";
 
 export default function PromptCard({ post, featured = false }) {
-  const [copied, setCopied] = useState(false);
   const [liked, setLiked] = useState(false);
   useEffect(() => { try { setLiked((JSON.parse(localStorage.getItem("pz_likes") || "[]")).includes(post.id)); } catch {} }, [post.id]);
   const toggleLike = (e) => { e.preventDefault(); e.stopPropagation(); try { const ids = JSON.parse(localStorage.getItem("pz_likes") || "[]"); const next = ids.includes(post.id) ? ids.filter(id => id !== post.id) : [...ids, post.id]; localStorage.setItem("pz_likes", JSON.stringify(next)); setLiked(next.includes(post.id)); } catch {} };
-  const copyPrompt = async (e) => {
-    e.preventDefault(); e.stopPropagation();
-    try { await navigator.clipboard.writeText(post.prompt || ""); setCopied(true); setTimeout(() => setCopied(false), 1600); } catch {}
-  };
   const sharePrompt = async (e) => {
     e.preventDefault(); e.stopPropagation();
     const url = `${location.origin}${detailHref}`;
     try {
       if (navigator.share) await navigator.share({ title: post.title, text: post.excerpt, url });
-      else { await navigator.clipboard.writeText(url); setCopied(true); setTimeout(() => setCopied(false), 1600); }
+      else window.open(`https://wa.me/?text=${encodeURIComponent(`${post.title} ${url}`)}`, "_blank", "noopener,noreferrer");
     } catch {}
   };
   const detailHref = (post.kind === "SEO guide" || post.kind === "Gemini watermark guide") ? `/blog/${post.slug}` : `/prompt/${post.slug}`;
@@ -31,7 +26,7 @@ export default function PromptCard({ post, featured = false }) {
       <div className="card-meta"><span>{post.kind || post.category}</span><span className="dot"/> <span><Clock3 size={12}/>{post.readTime || "4 min read"}</span></div>
       <h3><Link href={detailHref}>{post.title}</Link></h3>
       <p>{post.excerpt}</p>
-      <div className="card-bottom"><span className="prompt-ready"><span/> Copy-ready prompt</span><div className="card-actions"><button type="button" className={`card-action ${liked?"liked":""}`} onClick={toggleLike} aria-label={liked?"Unlike prompt":"Like prompt"}>{<Heart size={15} fill={liked?"currentColor":"none"}/>}<span>{liked?"Liked":"Like"}</span></button><button type="button" className="card-action" onClick={copyPrompt} aria-label="Copy prompt">{copied?<Check size={15}/>:<Copy size={15}/>}<span>{copied?"Copied":"Copy"}</span></button><button type="button" className="card-action" onClick={sharePrompt} aria-label="Share prompt"><Share2 size={15}/><span>Share</span></button><Link className="text-link" href={detailHref}>Open <ArrowUpRight size={15}/></Link></div></div>
+      <div className="card-bottom"><span className="prompt-ready"><span/> Explore prompt</span><div className="card-actions"><button type="button" className={`card-action ${liked?"liked":""}`} onClick={toggleLike} aria-label={liked?"Unlike prompt":"Like prompt"}><Heart size={15} fill={liked?"currentColor":"none"}/><span>{liked?"Liked":"Like"}</span></button><button type="button" className="card-action" onClick={sharePrompt} aria-label="Share prompt"><Share2 size={15}/><span>Share</span></button><button type="button" className="card-action social-action" onClick={(e)=>{e.preventDefault();e.stopPropagation();const url=`${location.origin}${detailHref}`;window.open(`https://wa.me/?text=${encodeURIComponent(`${post.title} ${url}`)}`,"_blank","noopener,noreferrer");}} aria-label="Share on WhatsApp"><MessageCircle size={15}/><span>WhatsApp</span></button><button type="button" className="card-action social-action" onClick={(e)=>{e.preventDefault();e.stopPropagation();window.open('https://www.instagram.com/','_blank','noopener,noreferrer');}} aria-label="Open Instagram"><Instagram size={15}/><span>Instagram</span></button><Link className="text-link" href={detailHref}>Open <ArrowUpRight size={15}/></Link></div></div>
     </div>
   </article>;
 }

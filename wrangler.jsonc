@@ -12,11 +12,5 @@
   },
   "observability": {
     "enabled": true
-  },
-  "r2_buckets": [
-    {
-      "binding": "PROMPTZYRA_IMAGES",
-      "bucket_name": "promptzyra-images"
-    }
-  ]
+  }
 }
