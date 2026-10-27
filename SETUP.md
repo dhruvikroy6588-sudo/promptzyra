@@ -80,6 +80,40 @@ for delete to authenticated using (bucket_id = 'promptzyra-images' and (auth.jwt
 
 If the table already exists, `CREATE TABLE IF NOT EXISTS` will not add missing columns. Compare its columns with the list above and add any missing columns before testing.
 
+
+## 2A) Persistent category manager (required for add / rename / delete)
+
+Run this in the **Promptzyra** SQL Editor after the posts table setup above. It creates a dedicated category table so category changes persist across reloads.
+
+```sql
+create table if not exists public.promptzyra_categories (
+  id uuid primary key default gen_random_uuid(),
+  name text not null unique,
+  created_at timestamptz not null default now()
+);
+alter table public.promptzyra_categories enable row level security;
+grant select on public.promptzyra_categories to anon, authenticated;
+grant insert, update, delete on public.promptzyra_categories to authenticated;
+
+drop policy if exists "Public can read Promptzyra categories" on public.promptzyra_categories;
+create policy "Public can read Promptzyra categories" on public.promptzyra_categories
+for select to anon, authenticated using (true);
+drop policy if exists "Promptzyra admin adds categories" on public.promptzyra_categories;
+create policy "Promptzyra admin adds categories" on public.promptzyra_categories
+for insert to authenticated with check ((auth.jwt() ->> 'email') = 'dhruvikroy6588@gmail.com');
+drop policy if exists "Promptzyra admin renames categories" on public.promptzyra_categories;
+create policy "Promptzyra admin renames categories" on public.promptzyra_categories
+for update to authenticated using ((auth.jwt() ->> 'email') = 'dhruvikroy6588@gmail.com')
+with check ((auth.jwt() ->> 'email') = 'dhruvikroy6588@gmail.com');
+drop policy if exists "Promptzyra admin deletes categories" on public.promptzyra_categories;
+create policy "Promptzyra admin deletes categories" on public.promptzyra_categories
+for delete to authenticated using ((auth.jwt() ->> 'email') = 'dhruvikroy6588@gmail.com');
+
+insert into public.promptzyra_categories (name) values
+('AI Photo Trends'),('AI Art & Design'),('Seasonal & Festivals'),('Portrait Prompts'),('Video & Reels'),('Product Photography'),('SEO Guides')
+on conflict (name) do nothing;
+```
+
 ## 3) Supabase Google provider and URL settings
 
 - Authentication → Providers → Google enabled with your Google OAuth Web Client ID and Client Secret.
