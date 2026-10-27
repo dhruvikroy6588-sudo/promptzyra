@@ -71,3 +71,10 @@ AdSense acceptance is not guaranteed. Thin, repeated, automatically generated, o
 
 ### Deployment configuration note
 The Cloudflare OpenNext files are a starting configuration, not proof of a successful production build. Install dependencies and test `npm run preview` before connecting production traffic. The `/admin` dashboard is still a localStorage prototype and is not safe as a public production CMS until access protection and server-side authorization/storage are implemented.
+
+
+## Important production notes
+- The included admin dashboard is a browser-local prototype. It is **not secure authentication** and does not sync content across devices. Do not expose `/admin` publicly until Supabase Auth (Google sign-in with an email allowlist), server-side authorization, and database-backed CRUD are implemented.
+- The included 20 editorial guides are starter drafts. Review, fact-check, enrich with original examples, and update publication dates before launch. Search ranking and AdSense approval are not guaranteed.
+- Visual examples currently use bundled local concept SVGs for reliable loading. Replace these with original, licensed or generated photorealistic before/after images before claiming they are real AI outputs. Do not hotlink third-party images in production.
+- The Gemini watermark page is a responsible-use guide, not a watermark-removal tool.

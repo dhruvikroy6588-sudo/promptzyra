@@ -33,7 +33,7 @@ export default function HomeContent() {
         <p className="hero-copy">Viral AI photo trends, festival poster concepts and ready-to-copy prompts — made for creators who want to create, not start from scratch.</p>
         <div className="hero-search"><Search size={20}/><input value={query} onChange={e=>setQuery(e.target.value)} placeholder="Search prompts, festivals, styles..." aria-label="Search prompts"/><span className="search-shortcut">⌕</span></div>
         <div className="hero-tags"><span>Try:</span>{["80s photo","Diwali poster","3D character","cinematic"].map(t=><button key={t} onClick={()=>setQuery(t)}>{t}</button>)}</div>
-        <div className="hero-proof"><div className="avatar-stack"><span>✦</span><span>✳</span><span>◉</span></div><span><strong>30 starter guides</strong><br/>Fresh ideas for your next creation</span><span className="proof-divider"/><span className="proof-mini"><Sparkles size={15}/> Copy. Create. Share.</span></div>
+        <div className="hero-proof"><div className="avatar-stack"><span>✦</span><span>✳</span><span>◉</span></div><span><strong>70 creative resources</strong><br/>Fresh ideas for your next creation</span><span className="proof-divider"/><span className="proof-mini"><Sparkles size={15}/> Copy. Create. Share.</span></div>
       </div>
       <div className="hero-art" aria-label="Featured prompt preview">
         <div className="art-orbit orbit-a"/><div className="art-orbit orbit-b"/>
@@ -59,6 +59,8 @@ export default function HomeContent() {
       <div className="filter-row"><button className={`filter-pill ${category==="All prompts"?"active":""}`} onClick={()=>setCategory("All prompts")}>All prompts</button>{seedCategories.map(c=><button key={c} className={`filter-pill ${category===c?"active":""}`} onClick={()=>setCategory(c)}>{c}</button>)}</div>
       {filtered.length ? <div className="prompt-grid">{filtered.map(p=><PromptCard key={p.id} post={p}/>)}</div> : <div className="empty-state"><Search size={28}/><h3>No prompts found</h3><p>Try a different keyword or category.</p><button className="primary-button" onClick={()=>{setQuery("");setCategory("All prompts")}}>Clear filters</button></div>}
     </section>
+    <section className="section-wrap guide-section" id="guides"><div className="section-heading"><div><div className="section-kicker"><Sparkles size={15}/> PRACTICAL LEARNING</div><h2>Guides for smarter <em>creating.</em></h2><p>Original how-to articles about AI image prompts, image SEO, privacy and creator workflows.</p></div><span className="result-count">20 editorial guides</span></div><div className="prompt-grid">{posts.filter(p=>p.kind==="SEO guide").slice(0,6).map(p=><PromptCard key={p.id} post={p}/>)}</div><div className="guide-cta"><Link href="/gemini-watermark-guide" className="section-link">Gemini watermark guidance <ArrowRight size={16}/></Link></div></section>
+
     <section className="newsletter-band"><div className="newsletter-icon"><Sparkles size={24}/></div><div><h2>Your next great idea starts here.</h2><p>Save this library and come back when inspiration strikes.</p></div><Link href="/about" className="newsletter-link">How it works <ArrowRight size={16}/></Link></section>
   </main>;
 }

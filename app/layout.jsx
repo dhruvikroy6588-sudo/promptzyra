@@ -2,10 +2,10 @@ import "./globals.css";
 import { SiteHeader, SiteFooter } from "@/components/SiteChrome";
 
 export const metadata = {
-  title: { default: "Promptzyra — Trending AI Prompts & Creative Studio", template: "%s | Promptzyra" },
-  description: "Discover original viral AI photo prompts, trending ChatGPT ideas, creative tutorials and ready-to-copy prompts.",
+  title: { default: "Promptzyra — Trending AI Photo Prompts & Creator Guides", template: "%s | Promptzyra" },
+  description: "Explore original AI photo prompts, Gemini and ChatGPT image ideas, copy-ready creative cards, practical AI tutorials and SEO guides from Promptzyra.",
   metadataBase: new URL("https://promptzyra.com"),
-  openGraph: { title: "Promptzyra — Trending AI Prompts", description: "Discover and copy creative AI prompts.", type: "website" },
+  openGraph: { title: "Promptzyra — Trending AI Photo Prompts", description: "Explore visual ideas, copy prompts and learn practical AI workflows.", type: "website", url: "https://promptzyra.com" },
   robots: { index: true, follow: true }
 };
 
