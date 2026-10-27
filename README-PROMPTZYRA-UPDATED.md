@@ -22,3 +22,13 @@ The public prompt and blog listings load published rows from the Promptzyra Supa
 
 ## Verification status
 Source files and ZIP archive were updated, but a full production build could not be confirmed in this environment because dependency installation timed out. Follow SETUP.md and run the build before deploying.
+
+
+## Google Analytics 4 + Google Search Console
+
+Set these environment variables in Cloudflare Workers (Settings → Variables and Secrets), then redeploy:
+
+- `NEXT_PUBLIC_GA_ID` — your GA4 Measurement ID, e.g. `G-XXXXXXXXXX`.
+- `NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION` — the verification token from Search Console's HTML tag method (paste only the `content` token, not the full meta tag).
+
+In Google Analytics, create a GA4 web data stream for `https://promptzyra.com` and copy its Measurement ID. In Google Search Console, add `https://promptzyra.com` as a URL-prefix property, choose HTML tag verification, and copy the token from `content="..."`. Add both values in Cloudflare and redeploy. Then verify the property in Search Console. Analytics collection starts only when the GA ID is configured. Search Console verification does not itself submit the sitemap; submit `https://promptzyra.com/sitemap.xml` in Search Console after verification.
