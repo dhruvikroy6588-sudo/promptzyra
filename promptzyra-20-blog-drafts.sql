@@ -1,0 +1,441 @@
+-- Promptzyra: 20 original 2026 AI image trend blog drafts
+-- Run ONLY in the Promptzyra Supabase project, not EPSNIX.
+-- These are unpublished drafts with empty image fields. Upload your own thumbnail and up to two supporting images in Admin, review content, then publish.
+-- Requires public.promptzyra_posts columns from SETUP.md.
+
+insert into public.promptzyra_posts
+(title, slug, category, excerpt, prompt, content, keywords, tags, image1, image2, thumbnail, author, read_time, kind, tips, published)
+values
+('20 AI Image Prompt Trends to Try in 2026: A Practical Creator Guide', 'ai-image-prompt-trends-2026', 'AI Photo Trends', 'Explore practical 2026 AI image styles—from natural editorial portraits to retro edits—and learn how to adapt each idea with a clear, reusable prompt.', 'Create an original editorial-style image about [YOUR SUBJECT] for [YOUR PLATFORM]. Use a clear focal point, believable lighting, natural texture, intentional composition and a restrained color palette. Specify the camera angle and aspect ratio. Keep important details consistent with the reference image if one is provided. Avoid accidental text, logos, distorted anatomy and decorative elements that do not support the idea. Produce a polished but believable result that feels made for this specific brief.', 'AI image trends are most useful when you treat them as creative directions, not guaranteed viral formulas. In 2026, creators are experimenting with natural-looking editorial photography, cinematic portraits, personal avatars, retro film treatments, product scenes, character consistency and images designed for vertical social posts. The right direction depends on the audience and the story you want the image to tell.
+
+## Start with a clear visual brief
+Before writing a long prompt, define five things: the subject, the setting, the mood, the composition and the final use. “A portrait” is vague; “a relaxed waist-up portrait beside a window, soft morning light, neutral clothing and a vertical 4:5 crop” gives an image model much more useful direction. Add a reference image only when it helps preserve a person, product or design.
+
+## Copy-ready AI image prompt
+Use the prompt above as a starting template. Replace each bracketed phrase with your actual subject, platform and creative goal. If the first output is close but not right, change one variable at a time—such as lighting or camera angle—instead of rewriting everything.
+
+## How to make a trend your own
+Choose a style that fits your content. A cinematic look can help tell a story; a clean studio setup can clarify a product; a retro treatment can communicate nostalgia. Avoid copying another creator’s exact composition or branded artwork. Make the subject, setting, color palette and message distinct.
+
+## Quality checklist
+Review faces, hands, edges, reflections and small objects. If the image contains text, zoom in and check spelling before publishing. Keep a record of the prompt and the settings that worked so you can reproduce a consistent series. Always check the image tool’s terms before using generated work commercially.
+
+## FAQ
+**Do trends guarantee reach?** No. Performance depends on audience fit, originality, timing and the value of the post. **Should every prompt be long?** No; clear, specific instructions are more useful than filler adjectives. **What image size should I use?** Choose the aspect ratio for the destination—vertical for many social posts, square for avatars and wide for banners—and inspect the final crop on mobile.', 'AI image prompt trends 2026, viral AI image prompts, trending AI photos', ARRAY['AI image trends','2026 prompts','creator workflow','visual storytelling']::text[], '', '', '', 'Promptzyra Editorial Team', '3 min read', 'SEO guide', ARRAY['Customize the bracketed fields before using the prompt.','Review the generated image for visual errors and factual accuracy.','Upload original images you have rights to use before publishing.']::text[], false),
+('Realistic AI Portrait Prompts: Natural Skin, Light and Camera Detail', 'realistic-ai-portrait-prompts-natural-skin', 'Portrait Prompts', 'Build believable AI portraits with controlled light, natural skin texture, thoughtful framing and clear reference-photo instructions.', 'Use the uploaded photo as a visual reference. Create a natural editorial portrait of [SUBJECT] in [SETTING], framed [CLOSE-UP / HALF-BODY / FULL-LENGTH]. Use [LIGHT SOURCE] from [DIRECTION], realistic skin texture, natural facial proportions, subtle shadow detail and a believable lens perspective. Keep the subject recognizable without over-smoothing or changing defining features. Use a restrained color grade and clean background. Avoid plastic skin, exaggerated eyes, warped ears, asymmetrical pupils, artificial sharpening and unwanted text.', 'A convincing AI portrait is usually built from specific photographic choices rather than a stack of quality buzzwords. Decide how close the camera is, where the light comes from and what the subject is doing. These choices help the result feel intentional and reduce the overly polished look that can make generated faces seem artificial.
+
+## Define the shot first
+Choose close-up, half-body or full-length framing. A close-up emphasizes expression and skin texture; a half-body portrait leaves room for clothing and setting; a full-length image needs clear pose and foot placement. Describe the background in simple terms so it supports rather than competes with the subject.
+
+## Copy-ready portrait prompt
+Start with the template above. Replace the subject, setting, framing and light source. For a reference-photo edit, clearly state what must remain unchanged. Models can still alter small features, so inspect the output rather than assuming identity preservation is perfect.
+
+## Light and texture
+Window light creates a soft, familiar look. A larger studio source can produce controlled shadows. Direct flash gives a more candid editorial mood. Ask for natural pores, fine hair and believable fabric only when those details suit the image; too many texture instructions can create noise.
+
+## Common mistakes
+“Make it perfect” often encourages excessive smoothing. Instead, ask for realistic skin and restrained retouching. Avoid listing contradictory lighting styles such as hard noon sun and soft window light in the same shot. Check eyes, teeth, hairline, hands and background edges at full size.
+
+## FAQ
+**Can a prompt guarantee the same face?** No; reference tools vary, so review carefully. **Should I include camera jargon?** Use only terms that help explain the framing or light. **Can I use the output commercially?** Check the generator’s current terms and any rights attached to reference photos.', 'realistic AI portrait prompt, natural skin texture prompt, photorealistic portrait', ARRAY['realistic portrait','natural skin','lighting','reference photo']::text[], '', '', '', 'Promptzyra Editorial Team', '3 min read', 'SEO guide', ARRAY['Customize the bracketed fields before using the prompt.','Review the generated image for visual errors and factual accuracy.','Upload original images you have rights to use before publishing.']::text[], false),
+('AI Headshot Prompt for LinkedIn: A Clean Professional Portrait', 'ai-headshot-prompt-linkedin-professional', 'Professional Portraits', 'Create a credible professional headshot with clear framing, understated wardrobe, soft lighting and a background that does not distract.', 'Create a professional, approachable headshot of [PERSON] for a [INDUSTRY] profile. Frame from mid-chest upward with relaxed shoulders, natural expression and direct but friendly eye contact. Use soft key light, subtle fill, realistic skin texture and a clean neutral background. Wardrobe: [OUTFIT]. Preserve recognizable facial features from the reference image and avoid dramatic beauty retouching. Keep the composition simple, with enough space around the head for a square crop. No logos, fake badges, text or exaggerated blur.', 'A professional headshot should help people recognize you and understand the tone of your work. A useful AI prompt therefore focuses on expression, framing, clothing and light—not on making the person look like someone else. For a profile photo, a simple background and natural proportions are usually more versatile than a dramatic scene.
+
+## Choose a style that fits your field
+A consultant may prefer a neutral studio portrait, while a creative professional may choose a softer editorial background. Keep clothing aligned with how you normally present yourself. A headshot that feels too formal or heavily retouched can create a mismatch with the real person.
+
+## Copy-ready LinkedIn prompt
+Use the prompt above with a photo you have permission to edit. Replace the industry and outfit details. If you need multiple versions, generate a neutral background first and vary only the wardrobe or light direction afterward.
+
+## Crop and export
+Leave a little space above the head and around the shoulders. Check how the image looks inside a small circular crop, because profile platforms may mask the corners. Avoid text, fake company logos and invented credentials in the image.
+
+## Final review
+Make sure the result still looks like the person, the eyes are aligned naturally and clothing edges are clean. Do not use AI to fabricate professional credentials or misrepresent a person’s identity. A good profile image supports a truthful professional presence.
+
+## FAQ
+**Is a suit always necessary?** No; choose clothing that matches your industry. **Should the background be busy?** Usually not for a small profile image. **Can this replace a real photo?** It can be a creative option, but ensure the result is an honest representation and follow platform rules.', 'AI headshot prompt, LinkedIn AI portrait, professional headshot prompt', ARRAY['LinkedIn headshot','professional portrait','studio lighting','personal branding']::text[], '', '', '', 'Promptzyra Editorial Team', '3 min read', 'SEO guide', ARRAY['Customize the bracketed fields before using the prompt.','Review the generated image for visual errors and factual accuracy.','Upload original images you have rights to use before publishing.']::text[], false),
+('Cinematic Portrait Collage Prompt: Build a Story in One Image', 'cinematic-portrait-collage-ai-prompt', 'Creative Photo Edits', 'Design a cohesive portrait collage with layered frames, a clear focal subject and coordinated colors without cluttering the composition.', 'Create an original cinematic portrait collage featuring [SUBJECT] and the theme [STORY]. Use one clear main portrait supported by two or three smaller visual frames, subtle film texture, cohesive warm/cool color grading and deliberate negative space. Keep the face consistent across frames when a reference is supplied. Make the hierarchy easy to read at phone size. Avoid random cutouts, duplicate facial features, unreadable captions, logos and excessive decorative borders. Output in [4:5 / 9:16] format.', 'A collage works when its panels feel like parts of one story. If every frame has equal weight, the image becomes noisy; if one image leads and the others support it, the viewer understands where to look. Use a short theme—such as a travel memory, a fashion mood or a day-in-the-life sequence—to keep the design coherent.
+
+## Plan the hierarchy
+Choose one hero portrait, then use supporting frames for setting, detail or mood. Limit the palette to a few related colors. Decide whether the frames should look like film stills, editorial contact sheets or clean digital panels before generating.
+
+## Copy-ready collage prompt
+Use the prompt above and replace the subject, story and aspect ratio. If your tool struggles with multi-panel layouts, generate each frame separately and assemble the collage in a design editor. This can give you more control over spacing and face consistency.
+
+## Keep it readable on mobile
+Preview the image at a small size. The main subject should remain obvious, and tiny text should not carry essential information. Use real captions in your social post when generated lettering is inaccurate.
+
+## Avoid common problems
+Look for duplicated eyes, merged hands, inconsistent clothing and frames that change the subject’s identity. Use a reference photo only if you have permission. Keep the final composition original rather than recreating another artist’s exact collage.
+
+## FAQ
+**Can one prompt create the whole collage?** Sometimes, but separate generation gives more control. **What ratio works best?** Use 4:5 for many feed posts or 9:16 for vertical stories. **Do I need text in the image?** No; a clean collage often works better with a caption outside the artwork.', 'cinematic portrait collage prompt, AI photo collage, editorial collage prompt', ARRAY['cinematic collage','editorial design','portrait','social media']::text[], '', '', '', 'Promptzyra Editorial Team', '3 min read', 'SEO guide', ARRAY['Customize the bracketed fields before using the prompt.','Review the generated image for visual errors and factual accuracy.','Upload original images you have rights to use before publishing.']::text[], false),
+('AI Photo Lighting Fix Prompt: Improve Harsh or Uneven Light', 'ai-photo-lighting-fix-prompt', 'Photo Editing Tutorials', 'Improve uneven exposure and harsh shadows while preserving the original subject, colors and scene details.', 'Edit the uploaded photo to correct [HARSH SHADOWS / OVEREXPOSURE / UNEVEN INDOOR LIGHT]. Preserve the original person, pose, clothing, background objects and camera perspective. Balance highlights and shadows, restore detail where possible, keep skin tones natural and maintain a realistic light direction. Do not invent new objects or change the scene. Avoid halos, waxy skin, excessive HDR, oversaturated colors and artificial blur. Make the correction subtle and believable.', 'Lighting corrections are most successful when the prompt says what should change and what must stay untouched. A broad instruction such as “make this photo better” can cause an editor to change color, skin, background and objects at the same time. A targeted instruction helps preserve the original photograph.
+
+## Identify the problem
+Harsh shadows may need softer contrast; a bright window may require highlight recovery; mixed indoor lighting may create uneven color. Name the issue you see and ask for a natural correction rather than a dramatic new look.
+
+## Copy-ready lighting prompt
+Use the prompt above and select the main issue. If the photo has several problems, correct exposure first and color balance second. Save a copy of the original so you can compare the result and return to it if needed.
+
+## Inspect the edit
+Check the face, white clothing, sky, reflective surfaces and shadow edges. AI tools may invent detail in clipped highlights or deep shadows, so do not assume every recovered texture is authentic. Keep the light direction consistent across the scene.
+
+## Troubleshooting
+If the result looks flat, ask for gentle contrast while preserving highlight detail. If skin looks orange, request neutral skin tones and a restrained white balance. If halos appear around hair or buildings, reduce the strength of the edit or use a more local adjustment tool.
+
+## FAQ
+**Can AI restore detail that was never captured?** It may estimate detail, but that estimate is not guaranteed to match reality. **Should I request HDR?** Only if that look suits the image; excessive HDR often looks artificial. **Will every tool preserve the scene?** No, so compare the output with the original.', 'AI photo lighting fix prompt, fix harsh lighting AI, improve portrait lighting', ARRAY['photo editing','lighting correction','image restoration','natural results']::text[], '', '', '', 'Promptzyra Editorial Team', '3 min read', 'SEO guide', ARRAY['Customize the bracketed fields before using the prompt.','Review the generated image for visual errors and factual accuracy.','Upload original images you have rights to use before publishing.']::text[], false),
+('AI Anime Avatar Prompt: Turn a Photo into an Original Character', 'ai-anime-avatar-prompt-original-character', 'Anime & Illustration', 'Create a distinctive anime-inspired avatar with a clear expression, intentional palette and recognizable visual details.', 'Transform the provided reference into an original anime-inspired avatar. Preserve the subject’s recognizable hairstyle, general face shape and key accessories while translating them into clean expressive linework, controlled cel shading and a coordinated [COLOR PALETTE]. Use a simple background and a clear head-and-shoulders composition suitable for a profile image. Make the character design original; do not copy a named franchise character or logo. Avoid inconsistent eyes, extra accessories, muddy linework and text.', 'An avatar needs to be recognizable at a small size. Start with one defining feature—hair silhouette, glasses, color palette or expression—and keep the rest of the design simple. A clear head-and-shoulders composition is easier to use across profile platforms than a crowded full-scene illustration.
+
+## Choose an illustration direction
+Anime is a broad family of visual approaches. You can ask for clean modern linework, soft pastel shading, a graphic manga look or a more painterly finish. Describe the palette and mood so the output has a consistent identity.
+
+## Copy-ready avatar prompt
+Use the template above and replace the palette. If you are editing your own photo, use an image you have rights to and review how the model interprets your features. If you need several expressions, create a base character first and reuse it as a reference where supported.
+
+## Keep the design original
+Avoid asking for a direct copy of a copyrighted character, franchise logo or specific artist’s exact signature style. Instead, describe the visual qualities you want—bold linework, cel shading, warm colors or dynamic shapes—in your own terms.
+
+## Final checks
+Inspect eyes, glasses, hair strands and accessories. Keep the background simple enough that the avatar remains legible inside a circle crop. Use a square output for most profile images and test the crop before uploading.
+
+## FAQ
+**Can I make a matching avatar set?** Yes; reuse the same palette and character description. **Will every tool preserve the face?** No; reference support varies. **Can I use it for a brand?** Check the generator’s license and make sure the design does not imitate a protected mark.', 'AI anime avatar prompt, anime profile picture prompt, photo to anime prompt', ARRAY['anime avatar','character design','profile picture','illustration']::text[], '', '', '', 'Promptzyra Editorial Team', '3 min read', 'SEO guide', ARRAY['Customize the bracketed fields before using the prompt.','Review the generated image for visual errors and factual accuracy.','Upload original images you have rights to use before publishing.']::text[], false),
+('AI 3D Desk Figurine Prompt: Make a Miniature Collectible Concept', 'ai-3d-desk-figurine-prompt', '3D & Character Prompts', 'Create a polished miniature figure concept with a stable pose, believable materials, a simple display base and studio lighting.', 'Create a premium 3D collectible figurine inspired by [SUBJECT], standing on a simple display base on a tidy desk. Use compact stylized proportions, believable material separation, soft studio lighting, subtle contact shadows and a three-quarter camera view. Include only [KEY ACCESSORIES] and keep the silhouette readable. The result should look like a product concept render, not a real manufactured item. Avoid extra limbs, floating objects, illegible labels, brand logos and cluttered scenery.', 'A miniature figurine concept is easier to read when the silhouette, pose and accessories are clearly defined. The goal is not to list every possible object; it is to choose a few details that make the character recognizable and then show them with clean lighting.
+
+## Define the collectible
+Pick the subject, pose, base shape and two or three accessories. A neutral desk scene gives the figure context without competing with it. Use a three-quarter view to reveal both the front and side of the model.
+
+## Copy-ready 3D prompt
+Replace the subject and accessories in the prompt above. For a consistent series, keep the camera angle, base and lighting the same while changing the character. If the output is too busy, remove accessories before adding more detail.
+
+## Materials and lighting
+Ask for matte fabric, smooth painted resin, translucent plastic or brushed metal only where appropriate. Soft studio lighting reveals shape while contact shadows make the figure feel grounded. Too many material descriptions can confuse the result, so prioritize the most important surface.
+
+## Review before sharing
+Check the hands, feet, base contact and accessory placement. Text on miniature packaging may be unreliable; add labels separately in a design editor if accurate text is needed. Do not present a generated concept as a real product for sale unless it has actually been manufactured.
+
+## FAQ
+**Can I use this for product mockups?** It can support concept visualization, but disclose that it is a render when necessary. **How do I make a series?** Reuse the same framing and base. **Should I add a logo?** Add only marks you own or are authorized to use.', 'AI 3D figurine prompt, miniature desk toy prompt, collectible character AI', ARRAY['3D figurine','miniature character','collectible design','studio render']::text[], '', '', '', 'Promptzyra Editorial Team', '3 min read', 'SEO guide', ARRAY['Customize the bracketed fields before using the prompt.','Review the generated image for visual errors and factual accuracy.','Upload original images you have rights to use before publishing.']::text[], false),
+('AI Fashion Editorial Prompt: Create a Magazine-Style Outfit Portrait', 'ai-fashion-editorial-prompt-magazine-style', 'Fashion Prompts', 'Direct a fashion-style image with a clear pose, garment details, purposeful lighting and an editorial composition.', 'Create an original fashion editorial image featuring [SUBJECT] wearing [OUTFIT] in [LOCATION]. Use a confident natural pose, intentional garment silhouette, realistic fabric texture and lighting that supports the mood: [MOOD]. Frame the subject with clear negative space and a controlled color palette. Preserve body proportions and fabric construction; avoid extra accessories, fused fingers, distorted seams, fake brand marks and text. Output in [ASPECT RATIO] with the outfit clearly visible.', 'A strong fashion image tells the viewer what the outfit is and why it belongs in the scene. The prompt should describe garment shape, materials, pose and setting before adding mood words. If the outfit is the main subject, keep the background quiet enough for its silhouette to stand out.
+
+## Describe the clothing precisely
+Name the key pieces, their colors and the materials that matter. “A structured charcoal jacket over a cream knit top” is more actionable than “luxury fashion.” Avoid mixing too many unrelated style directions in one prompt.
+
+## Copy-ready fashion prompt
+Replace the subject, outfit, location, mood and aspect ratio. If you are creating a campaign concept, generate a small set with consistent lighting and color grading. Keep each variation focused on one change, such as the background or camera angle.
+
+## Composition and lighting
+A full-length image needs space around shoes and head. A waist-up crop can emphasize tailoring and expression. Side light helps reveal fabric texture; soft frontal light keeps the look clean. Match the setting to the intended story rather than adding decorative elements at random.
+
+## Responsible use
+Do not add a real brand logo unless you have permission. If a real person is used as reference, ensure you have the right to use the image. Generated fashion concepts can help with moodboards, but they do not prove that a garment exists or fits exactly as shown.
+
+## FAQ
+**Can I make an outfit moodboard?** Yes; keep colors and lighting consistent. **Will the model render text correctly?** Not reliably in every tool. **What should I inspect?** Seams, hands, shoes, fabric edges and garment symmetry.', 'AI fashion editorial prompt, magazine fashion photo prompt, outfit portrait AI', ARRAY['fashion editorial','outfit inspiration','portrait lighting','style concept']::text[], '', '', '', 'Promptzyra Editorial Team', '3 min read', 'SEO guide', ARRAY['Customize the bracketed fields before using the prompt.','Review the generated image for visual errors and factual accuracy.','Upload original images you have rights to use before publishing.']::text[], false),
+('1980s AI Photo Prompt: Create a Nostalgic Retro Portrait', '1980s-ai-photo-prompt-retro-portrait', 'Retro Photo Trends', 'Build a believable 1980s-inspired portrait with era-aware styling, direct flash, analog grain and natural facial detail.', 'Use the uploaded photo as a reference and create an original 1980s-inspired portrait. Keep the person recognizable while styling the scene with era-appropriate [CLOTHING], a simple period-inspired backdrop, direct camera flash, subtle analog grain and slightly warm film colors. Preserve realistic skin texture and natural proportions. Make the image feel like a personal editorial photograph rather than a costume parody. Avoid exaggerated neon, fake date stamps, distorted hair, logos and unwanted text.', 'Retro portraits work when they capture the photographic character of a period without turning every detail into a cliché. The 1980s can suggest bold silhouettes, direct flash, warm film color and confident editorial posing, but the styling should still feel coherent for the subject.
+
+## Pick a specific reference point
+Decide whether the image should feel like a studio portrait, a casual snapshot or a fashion editorial. Use one or two era cues—such as a jacket silhouette or analog grain—rather than stacking every recognizable 80s detail into one frame.
+
+## Copy-ready 1980s prompt
+Use the template above with your clothing choice. When editing a personal photo, clearly ask the model to preserve recognizable features. Keep the background simple so the portrait remains the focus.
+
+## Make the film effect believable
+Subtle grain, direct flash and a slightly imperfect composition often feel more natural than heavy scratches or extreme color shifts. Ask for period-inspired colors rather than a modern filter layered on top of the image.
+
+## Final checks
+Review hair edges, jewelry, clothing folds and skin texture. Remove accidental date stamps or generated lettering if they look fake. Avoid recreating a specific copyrighted poster or a celebrity photograph exactly; build your own composition.
+
+## FAQ
+**Can I use this for a social profile?** Yes, if the crop remains clear. **Should I request maximum grain?** Usually not; it can obscure details. **Will every image tool keep the same face?** Results vary, so inspect before sharing.', '1980s AI photo prompt, 80s retro portrait, vintage selfie AI prompt', ARRAY['1980s aesthetic','retro portrait','film grain','vintage fashion']::text[], '', '', '', 'Promptzyra Editorial Team', '3 min read', 'SEO guide', ARRAY['Customize the bracketed fields before using the prompt.','Review the generated image for visual errors and factual accuracy.','Upload original images you have rights to use before publishing.']::text[], false),
+('AI Travel Postcard Prompt: Turn a Destination into a Visual Memory', 'ai-travel-postcard-prompt-visual-memory', 'Travel Prompts', 'Create a postcard-inspired travel visual with a clear destination mood, layered details and a composition that works on social media.', 'Create an original travel postcard-style image inspired by [DESTINATION] and the feeling [MOOD]. Use one dominant scenic view, a small number of supporting details such as a ticket or instant-photo frame, and a coordinated palette drawn from the location. Keep landmarks plausible and the main subject readable. Use [ASPECT RATIO] and leave clean space for optional text to be added later. Avoid fake official seals, inaccurate signage, clutter and watermarks.', 'A travel postcard image should communicate a place and a feeling quickly. Choose one destination cue—a coastline, mountain skyline, street market or distinctive architectural detail—and let it lead the composition. Supporting elements should suggest a memory, not overwhelm the scene.
+
+## Plan the destination
+Be specific about the location and season. If the image must depict a real landmark accurately, verify the output against a reliable reference because image models can invent architectural details and signs. For a moodboard, a destination-inspired scene may be enough; for travel information, factual accuracy matters more.
+
+## Copy-ready postcard prompt
+Replace the destination, mood and aspect ratio. If you want text, consider leaving space and adding the wording later in a design editor. This gives you control over spelling and layout.
+
+## Make it feel personal
+Use a consistent palette, a clear focal point and one or two subtle paper or film details. Avoid adding too many stamps, frames and decorative objects. The image should remain legible when viewed on a phone.
+
+## Review before posting
+Check landmark details, signs, map labels and any implied travel claims. If the image is AI-generated, do not present an invented scene as documentary evidence of a real trip. Use a caption that explains the creative concept when that distinction matters.
+
+## FAQ
+**Can this be used for a travel blog?** Yes as an illustrative visual, with appropriate labeling. **What ratio should I use?** Choose a vertical ratio for stories and a wider ratio for banners. **Should text be generated inside the image?** Add important copy separately for reliable spelling.', 'AI travel postcard prompt, travel collage AI, destination photo prompt', ARRAY['travel collage','postcard aesthetic','destination photography','social content']::text[], '', '', '', 'Promptzyra Editorial Team', '3 min read', 'SEO guide', ARRAY['Customize the bracketed fields before using the prompt.','Review the generated image for visual errors and factual accuracy.','Upload original images you have rights to use before publishing.']::text[], false),
+('AI Product Photography Prompt: Clean Studio Images for Small Brands', 'ai-product-photography-prompt-small-brands', 'Product Photography', 'Create a clean product concept with controlled reflections, accurate shape, useful negative space and a background suited to a product page.', 'Create a studio product image of [PRODUCT] on [SURFACE] with a simple [BACKGROUND]. Preserve the product’s recognizable shape, proportions, label placement and material. Use a large soft key light, controlled fill, believable contact shadow and reflections appropriate to [MATERIAL]. Frame the item clearly with space for a layout crop. Do not invent features, alter safety labels, create fake certifications or add logos that are not present. Output in [ASPECT RATIO].', 'AI product imagery can help explore campaign directions, moodboards and background concepts, but product accuracy matters. The prompt should distinguish between the real item that must remain unchanged and the environment that can be creatively adjusted. If exact packaging or label details are important, inspect the output carefully or use a workflow that preserves the original product photo.
+
+## Define what must stay accurate
+List the product shape, color, label and material as fixed details. Then describe the background, surface and lighting. This separation reduces the risk of the model redesigning the product while trying to improve the scene.
+
+## Copy-ready product prompt
+Replace the product, surface, background, material and ratio. For a consistent product catalog, reuse the same camera angle and light direction. Create alternate backgrounds separately rather than changing every visual variable at once.
+
+## Lighting and composition
+A large soft source creates broad reflections on glossy objects; a more directional light can reveal texture. Keep a believable contact shadow so the product does not appear to float. Leave enough negative space for a website layout or ad copy.
+
+## Commercial accuracy checklist
+Compare logos, labels, buttons, ports, ingredients and packaging claims with the actual item. Do not publish generated certifications, fake ingredients or altered product features. Check the AI tool’s license and disclose mockups where required.
+
+## FAQ
+**Can AI create e-commerce product photos?** It can create concepts, but final product images must accurately represent what customers receive. **Can I add text?** Add important text in a design tool. **What ratio is best?** Follow the marketplace or site layout specifications.', 'AI product photography prompt, product mockup prompt, studio product image AI', ARRAY['product photography','small business','studio lighting','product mockup']::text[], '', '', '', 'Promptzyra Editorial Team', '3 min read', 'SEO guide', ARRAY['Customize the bracketed fields before using the prompt.','Review the generated image for visual errors and factual accuracy.','Upload original images you have rights to use before publishing.']::text[], false),
+('AI Character Consistency Prompt: Keep One Character Across Scenes', 'ai-character-consistency-prompt-multiple-scenes', 'Character Design', 'Create a repeatable character brief for a visual series with stable facial traits, clothing cues, palette and scene-specific changes.', 'Use the supplied character reference to create [SCENE]. Keep the character’s defining traits consistent: [HAIR], [FACE DETAILS], [OUTFIT CUES] and [COLOR PALETTE]. Change only the requested scene, pose and expression. Match the established proportions and visual style, and keep lighting plausible for the new setting. Avoid redesigning the character, adding unrequested accessories, changing age, inconsistent eye color or introducing text and logos.', 'Character consistency helps a series feel connected. It is useful for storyboards, educational explainers, branded mascots and social content that features the same fictional person in different settings. A prompt alone cannot guarantee identical results, but a concise character sheet and a reference image can improve continuity in tools that support references.
+
+## Build a character sheet
+Write down the details that should not change: hairstyle, clothing silhouette, signature accessory, palette and approximate proportions. Keep the description short enough to reuse. Add a reference image where the tool supports it and has permission to use the image.
+
+## Copy-ready consistency prompt
+Replace the scene and the character details. Ask for one or two scene changes at a time. If the face drifts, return to the original reference and simplify the new scene description rather than adding more adjectives.
+
+## Separate fixed traits from flexible details
+Fixed traits include the character’s core appearance and signature outfit. Flexible details might include pose, facial expression, weather or background. Being explicit about this distinction helps the model understand what the series needs.
+
+## Review continuity
+Compare images side by side. Check face shape, hairstyle, clothing, accessory placement and palette. If the images will be animated or used in a campaign, document the accepted version and do not rely on memory alone.
+
+## FAQ
+**Can every model keep a character identical?** No; capabilities vary and small changes may occur. **Should I generate scenes one by one?** Often yes, because it makes errors easier to spot. **Can I use a real person?** Get appropriate permission and avoid misleading uses.', 'AI character consistency prompt, same character multiple images, character reference AI', ARRAY['character consistency','visual storytelling','reference image','series design']::text[], '', '', '', 'Promptzyra Editorial Team', '3 min read', 'SEO guide', ARRAY['Customize the bracketed fields before using the prompt.','Review the generated image for visual errors and factual accuracy.','Upload original images you have rights to use before publishing.']::text[], false),
+('AI Poster Prompt with Readable Typography: Better Social Graphics', 'ai-poster-prompt-readable-typography-social', 'Posters & Design', 'Plan a social poster with a strong hierarchy, intentional negative space and a safer workflow for accurate text.', 'Create a clean poster concept for [EVENT / MESSAGE] with a single strong visual, a clear focal point and a deliberate hierarchy. Use [COLOR PALETTE], [VISUAL STYLE] and generous negative space. Reserve a clearly defined area for headline and supporting text; if text rendering is unreliable, leave that area blank for typesetting later. Keep margins balanced and contrast high enough for mobile viewing. Avoid crowded ornaments, fake logos, misspelled words and watermarks. Format: [ASPECT RATIO].', 'A poster has to communicate its main message quickly. A good prompt therefore describes hierarchy and space, not just the visual style. The viewer should notice the main image first, then the headline, then any supporting information. When accurate text matters, generate the artwork and add typography separately in a design editor.
+
+## Define the hierarchy
+Decide what the audience must read first. Keep the headline short, give it room and use supporting copy sparingly. Describe the palette and contrast so the poster remains legible on a phone.
+
+## Copy-ready poster prompt
+Replace the event or message, palette, style and ratio. Ask the image model to leave a clean text area if it cannot reliably render the words. Add the final headline, date and call to action in a layout tool where you can proofread them.
+
+## Design for small screens
+Check the poster at reduced size. Avoid placing essential copy near the edges, where social crops may cut it off. Use enough contrast between text and background and keep visual decoration subordinate to the message.
+
+## Common mistakes
+Too many fonts, conflicting focal points and fake lettering make a poster look unfinished. Keep the composition original and avoid reproducing another designer’s exact layout or protected brand elements.
+
+## FAQ
+**Can AI render perfect text?** Some tools do better than others, but proofreading is still essential. **What ratio should I use?** Match the intended platform. **Can I use this commercially?** Review licensing and ensure all assets and marks are authorized.', 'AI poster prompt, readable text image AI, social media poster prompt', ARRAY['poster design','typography','social media graphics','layout']::text[], '', '', '', 'Promptzyra Editorial Team', '3 min read', 'SEO guide', ARRAY['Customize the bracketed fields before using the prompt.','Review the generated image for visual errors and factual accuracy.','Upload original images you have rights to use before publishing.']::text[], false),
+('AI Instagram Carousel Prompt: Build a Consistent Multi-Slide Story', 'ai-instagram-carousel-prompt-consistent-slides', 'Social Media Prompts', 'Plan a cohesive carousel system with one visual language, readable space and a repeatable layout across slides.', 'Design a visual system for a [NUMBER]-slide social carousel about [TOPIC]. Use a consistent [COLOR PALETTE], typography-safe space, recurring graphic motif and clear visual hierarchy. Slide 1 should communicate the hook; middle slides should each focus on one idea; the final slide should leave room for a practical next step. Keep each slide uncluttered and consistent in margins. Avoid generating tiny paragraphs inside the artwork; leave text zones blank for accurate typesetting. Ratio: 4:5.', 'A carousel is a sequence, not a collection of unrelated images. Its visual system should make each slide feel connected while allowing each idea to stand on its own. Start by outlining the story before generating visuals: a hook, a few useful points and a clear conclusion.
+
+## Plan the sequence
+Give each slide one job. The opening introduces the problem or promise, middle slides explain steps or examples, and the final slide offers a practical takeaway. Avoid packing every detail into the first slide.
+
+## Copy-ready carousel prompt
+Use the prompt above to establish a consistent visual direction. Generate a background or illustration system, then add text in a design editor so spelling, line breaks and accessibility remain under your control. Keep the same palette and margins throughout.
+
+## Make the carousel useful
+Include concrete steps, a before/after comparison when relevant, or a small example readers can try. Avoid empty slides that repeat the same claim. Use captions to add context and image alt text to describe meaningful visuals.
+
+## Quality review
+Preview all slides in order. Check that colors, character details and margins match. Confirm that the first slide communicates the topic without requiring the reader to guess. If one slide feels crowded, split the idea rather than shrinking the text.
+
+## FAQ
+**How many slides should I use?** Use only as many as needed to explain the idea. **Should text be generated inside images?** Usually add it later for accuracy. **What makes a carousel worth saving?** Clear steps, useful examples and a coherent visual flow.', 'AI Instagram carousel prompt, social media carousel design, consistent carousel slides', ARRAY['Instagram carousel','social content','visual system','creator tips']::text[], '', '', '', 'Promptzyra Editorial Team', '3 min read', 'SEO guide', ARRAY['Customize the bracketed fields before using the prompt.','Review the generated image for visual errors and factual accuracy.','Upload original images you have rights to use before publishing.']::text[], false),
+('Fantasy Newspaper AI Prompt: Create a Fictional Editorial Cover', 'fantasy-newspaper-ai-prompt-fictional-cover', 'Creative Photo Edits', 'Create a clearly fictional newspaper-inspired visual with an editorial portrait, structured layout and room for accurate text.', 'Create a fictional newspaper-cover concept starring [SUBJECT] in a playful [THEME] story. Use an editorial portrait, structured columns, paper-inspired texture and a restrained palette. Leave headline and article text areas blank or use clearly abstract placeholder lines so accurate copy can be added later. Make the design visibly fictional and avoid real newspaper mastheads, official seals, fake breaking-news claims or misleading factual headlines. Keep the main portrait clear and the layout readable.', 'A fictional newspaper cover can be a fun way to frame a portrait as a story. The key is to make the concept playful and clearly fictional, especially if the layout resembles a real news publication. Avoid real mastheads and fabricated claims that could be mistaken for genuine reporting.
+
+## Choose the story angle
+Decide whether the cover is humorous, celebratory, fantasy-inspired or personal. A single headline concept and one dominant portrait are usually enough. Supporting columns and paper texture should reinforce the look without making the page hard to read.
+
+## Copy-ready cover prompt
+Use the prompt above and replace the subject and theme. For accurate headlines, generate a blank text layout and typeset the final wording separately. This also gives you control over font size and spelling.
+
+## Keep the result clearly fictional
+Use invented publication names and avoid official seals, real outlet logos or fake claims about real people. If the visual is shared publicly, a caption can clarify that it is an AI-generated creative concept.
+
+## Design checks
+Make sure the portrait remains the focal point, the headline area has enough contrast and the page does not become cluttered. Review all generated marks because image models can invent letter-like symbols that look like accidental text.
+
+## FAQ
+**Can I use a real person’s photo?** Only when you have the right to use it and the context is not deceptive. **Can the model write the headline?** Text quality varies, so proofread or add it separately. **Is this a real newspaper?** It should be clearly labeled as a fictional design.', 'AI fantasy newspaper prompt, fictional newspaper cover AI, editorial portrait prompt', ARRAY['fantasy newspaper','editorial cover','creative portrait','typography']::text[], '', '', '', 'Promptzyra Editorial Team', '3 min read', 'SEO guide', ARRAY['Customize the bracketed fields before using the prompt.','Review the generated image for visual errors and factual accuracy.','Upload original images you have rights to use before publishing.']::text[], false),
+('AI Manga Comic Strip Prompt: Turn an Idea into Three Panels', 'ai-manga-comic-strip-prompt-three-panels', 'Anime & Illustration', 'Create a short comic concept with readable panel order, consistent character design and a simple visual beat.', 'Create an original three-panel black-and-white manga-inspired comic about [SIMPLE STORY]. Keep the same character design across panels: [CHARACTER DESCRIPTION]. Panel 1 establishes the setting, panel 2 shows the action or surprise, and panel 3 delivers the reaction or resolution. Use clear gutters, expressive but consistent faces, readable silhouettes and controlled screentone shading. Leave speech balloons empty for later lettering. Avoid copied franchise characters, logos, confusing panel order and unreadable text.', 'A short comic works best when each panel changes something. The first establishes context, the second creates movement or surprise, and the third provides a reaction or resolution. If every panel shows the same pose, the sequence feels static.
+
+## Outline before generating
+Write a one-sentence story and break it into three visual beats. Keep the cast small and the setting simple. Define the character’s hair, clothing and signature features so the design stays recognizable across panels.
+
+## Copy-ready manga prompt
+Use the prompt above and replace the story and character description. If your image tool struggles with multi-panel layouts, generate each panel separately and assemble them in a layout editor. This often improves panel order and consistency.
+
+## Add lettering carefully
+Leave speech balloons blank and add dialogue separately. That prevents misspelled text and lets you choose a readable font. Keep the reading order obvious and avoid overly dense dialogue.
+
+## Review the sequence
+Check that the same character appears in each panel, the action makes sense and the gutters separate the frames. Use original characters rather than directly copying a protected franchise design.
+
+## FAQ
+**Can one prompt make a complete comic page?** Some tools can, but separate panels may offer more control. **How much dialogue should I use?** Keep each balloon short. **Can I publish it?** Check tool licensing and ensure the story and character design are original.', 'AI manga comic prompt, three panel comic AI, manga story prompt', ARRAY['manga comic','storytelling','character design','three panels']::text[], '', '', '', 'Promptzyra Editorial Team', '3 min read', 'SEO guide', ARRAY['Customize the bracketed fields before using the prompt.','Review the generated image for visual errors and factual accuracy.','Upload original images you have rights to use before publishing.']::text[], false),
+('AI Interior Design Prompt: Visualize a Room Makeover', 'ai-interior-design-prompt-room-makeover', 'Interior & Lifestyle', 'Explore a room redesign with a defined style, preserved architecture, practical furniture layout and controlled lighting.', 'Create an interior design concept for a [ROOM TYPE] in a [DESIGN STYLE] direction. Preserve the room’s main architecture and camera viewpoint from the reference photo. Use [COLOR PALETTE], practical furniture scale, believable materials and natural light from [WINDOW DIRECTION]. Keep walkways clear and avoid changing structural features unless requested. Show realistic shadows and contact points. Do not invent doors, windows or impossible furniture dimensions. Treat the image as a concept visualization, not a construction plan.', 'AI room visualizations can help compare styles before making changes, but the image should be treated as a concept rather than a measured plan. The most useful prompt separates what must remain fixed—room dimensions, windows and doors—from what can change, such as paint, furniture and accessories.
+
+## Start with the existing room
+Use a clear reference photo and state which architectural features must stay. Identify the room type, desired style and palette. If you need a realistic layout, provide measurements separately and verify them with a professional or a floor-planning tool.
+
+## Copy-ready interior prompt
+Replace the room, style, palette and light direction. Try one style direction at a time. If the model changes windows or walls, strengthen the preservation instruction and simplify the requested makeover.
+
+## Make the visualization practical
+Ask for realistic furniture scale, clear walkways and believable material textures. Avoid overcrowding the room with decorative objects. Natural light should have a consistent direction and shadows should match the windows or lamps shown.
+
+## Limitations and safety
+AI images can misrepresent dimensions, structural feasibility, electrical placement or material properties. Do not use a generated image as a substitute for a technical drawing or professional advice for structural work.
+
+## FAQ
+**Can I compare paint colors?** Use the image as a rough visual guide, then test real samples. **Can AI plan furniture dimensions?** It may estimate poorly; verify measurements. **Can I keep the same room?** Reference editing can help, but inspect architecture carefully.', 'AI interior design prompt, room makeover AI, interior visualization prompt', ARRAY['interior design','room makeover','home styling','visualization']::text[], '', '', '', 'Promptzyra Editorial Team', '3 min read', 'SEO guide', ARRAY['Customize the bracketed fields before using the prompt.','Review the generated image for visual errors and factual accuracy.','Upload original images you have rights to use before publishing.']::text[], false),
+('AI Food Photography Prompt: Natural Restaurant and Recipe Images', 'ai-food-photography-prompt-natural-styling', 'Food Photography', 'Create appetizing food visuals with clear plating, believable textures, directional light and a simple background.', 'Create a realistic food photograph of [DISH] served in [PLATE / BOWL] on [SURFACE]. Show believable ingredient textures, natural color, carefully arranged garnish and soft directional light from [DIRECTION]. Use a close three-quarter angle or overhead view appropriate to the dish. Keep the serving size plausible and the background simple. Avoid plastic-looking food, impossible ingredients, duplicated utensils, fake restaurant logos and text. Output in [ASPECT RATIO].', 'Food photography depends on texture, light and a clear focal point. A prompt should identify the dish, serving style and camera angle before adding mood. A close three-quarter view can emphasize height and texture, while an overhead view is useful for flat layouts and multiple ingredients.
+
+## Describe the dish accurately
+Name the main ingredients, cooking method and plating style. If the image represents a real menu item, ensure the visual matches what the customer will actually receive. AI can invent garnish or change portion size, so generated images should not mislead customers.
+
+## Copy-ready food prompt
+Replace the dish, plate, surface, light direction and aspect ratio. Try a single light direction and a restrained background. If the food looks artificial, ask for natural texture and realistic moisture rather than extra gloss.
+
+## Lighting and composition
+Side light reveals texture in bread, vegetables and sauces. Soft light can help prevent harsh reflections on glossy dishes. Keep utensils and napkins secondary to the food. Choose the camera angle based on the dish’s shape.
+
+## Review before publishing
+Check ingredient accuracy, steam, cutlery, plate edges and portion size. For a restaurant, compare the result with the actual dish and follow local advertising rules. Use real photography when accuracy is essential.
+
+## FAQ
+**Can AI create recipe thumbnails?** It can create illustrative thumbnails, but verify the dish. **Should I add text?** Add recipe titles separately. **What matters most?** Clear food styling, believable texture and accurate representation.', 'AI food photography prompt, restaurant food image AI, recipe photo prompt', ARRAY['food photography','recipe content','restaurant visuals','natural light']::text[], '', '', '', 'Promptzyra Editorial Team', '3 min read', 'SEO guide', ARRAY['Customize the bracketed fields before using the prompt.','Review the generated image for visual errors and factual accuracy.','Upload original images you have rights to use before publishing.']::text[], false),
+('AI Underwater Portrait Prompt: Blue Light and Realistic Water Effects', 'ai-underwater-portrait-prompt-realistic-water', 'Creative Photo Edits', 'Create an underwater-inspired portrait with coherent light rays, realistic refraction and a calm blue palette.', 'Create an underwater-inspired portrait of [SUBJECT] in a calm [WATER ENVIRONMENT]. Use believable blue-green light, soft caustic patterns, subtle floating particles and natural refraction around hair and fabric. Keep the face recognizable if a reference is supplied and preserve realistic proportions. Make the mood [CALM / DREAMLIKE / DRAMATIC] with a clear focal point. Avoid distorted facial features, excessive bubbles, impossible reflections and text. Treat this as a creative visual, not documentary evidence.', 'An underwater-inspired portrait is built from a few coordinated effects: blue-green color, filtered light, water distortion and a sense of depth. Adding too many bubbles or bright effects can make the scene feel like fantasy art instead of a controlled photographic concept.
+
+## Choose the mood
+A calm portrait can use soft light and muted blue-green tones. A dramatic scene may use stronger contrast and directional rays. Pick one mood and keep the effects consistent with it.
+
+## Copy-ready underwater prompt
+Replace the subject and mood. If editing a portrait, use a reference image where appropriate and ask to preserve recognizable features. Keep hair and clothing behavior plausible for the intended scene, while recognizing that generated physics may not be accurate.
+
+## Make water effects coherent
+Light rays should have a clear direction. Reflections and caustics should be subtle enough not to obscure the face. Avoid putting sharp highlights everywhere; water usually softens and distorts details.
+
+## Review the image
+Check eyes, hair edges, bubbles and the boundary between subject and background. If the image is meant to be realistic, reduce fantasy elements. If it is deliberately surreal, make that intention clear in the caption.
+
+## FAQ
+**Can this be made from a normal selfie?** Some image editors can create the effect, but results vary. **What colors work?** Blue-green is a useful starting point. **Is it a real underwater photograph?** No; label it as an AI-created concept if that could be unclear.', 'AI underwater portrait prompt, underwater photo effect AI, blue light portrait', ARRAY['underwater portrait','water effects','cinematic lighting','portrait edit']::text[], '', '', '', 'Promptzyra Editorial Team', '3 min read', 'SEO guide', ARRAY['Customize the bracketed fields before using the prompt.','Review the generated image for visual errors and factual accuracy.','Upload original images you have rights to use before publishing.']::text[], false),
+('AI Mini-Me Prompt: Create a Tiny 3D Version of Yourself', 'ai-mini-me-prompt-tiny-3d-character', '3D & Character Prompts', 'Create a playful miniature character interacting with an everyday object while keeping scale, pose and lighting understandable.', 'Create a playful miniature 3D version of [SUBJECT] interacting with [EVERYDAY OBJECT] in a real-world setting. Use stylized but believable proportions, a clear scale contrast, soft contact shadows and matching light direction between the miniature and environment. Preserve key appearance cues from the reference when appropriate. Keep the scene simple and the interaction readable. Avoid floating feet, inconsistent shadows, extra fingers, duplicate faces and logos. Use [ASPECT RATIO].', 'The mini-me concept works by creating a clear contrast between a small character and an ordinary object. The viewer should understand the scale immediately. A simple desk, coffee cup or book can be more effective than a complicated fantasy environment.
+
+## Choose one interaction
+Decide what the miniature is doing: climbing a notebook, sitting beside a mug or examining a keyboard. One readable action is enough. Too many props make the scale harder to understand.
+
+## Copy-ready mini-me prompt
+Replace the subject, object and aspect ratio. If the miniature should resemble a person, use a reference image you have permission to edit and inspect the output for likeness drift. You can create a series by keeping the character description consistent while changing the object.
+
+## Make the scale believable
+Use contact shadows and consistent light direction. The miniature’s feet should touch the surface, and the large object should have believable proportions. Ask for a clear camera angle so the relationship between subject and object is easy to read.
+
+## Final review
+Check hands, shoes, object edges and shadows. If the scene is meant to be humorous, exaggerate scale intentionally rather than letting proportions change randomly.
+
+## FAQ
+**Can it look photorealistic?** Some tools can create convincing materials, but inspect details. **Can I use it as an avatar?** A square crop may work well. **Can I make multiple scenes?** Reuse the same reference and character details where the tool supports it.', 'AI mini me prompt, tiny 3D self prompt, miniature person AI image', ARRAY['mini me','3D character','miniature world','social trend']::text[], '', '', '', 'Promptzyra Editorial Team', '3 min read', 'SEO guide', ARRAY['Customize the bracketed fields before using the prompt.','Review the generated image for visual errors and factual accuracy.','Upload original images you have rights to use before publishing.']::text[], false),
+('AI Before-and-After Photo Editing: A Responsible Workflow', 'ai-before-after-photo-editing-workflow', 'Photo Editing Tutorials', 'Create a useful before-and-after comparison by preserving the original, documenting the edit and showing the actual change clearly.', 'Edit the supplied original image to [SPECIFIC CHANGE]. Preserve all unrelated details, including [FIXED ELEMENTS]. Keep lighting and perspective believable, avoid adding unrequested objects, and do not alter factual details that matter to the image’s meaning. Produce a clean final image suitable for side-by-side comparison with the original. Avoid fake labels, watermarks and exaggerated changes. Document the edit goal separately in the caption.', 'Before-and-after images are useful when they demonstrate a real, understandable change. The comparison becomes misleading if the “before” is altered, the edit is not described or the final image implies that an AI estimate is a factual restoration.
+
+## Preserve the original
+Keep an untouched copy of the source file. Record what you asked the tool to change and avoid making additional edits to the before image. This makes the comparison easier to understand and reproduce.
+
+## Copy-ready editing prompt
+Use the prompt above and replace the specific change and fixed elements. Ask for a targeted edit instead of a complete redesign if the goal is to demonstrate one improvement. For example, request a lighting correction while preserving the scene.
+
+## Present the comparison clearly
+Use equal dimensions, consistent crop and clear labels outside the images. Describe what changed and what may have been inferred by the model. Do not imply that AI-generated details are recovered facts when the original did not contain them.
+
+## Quality and ethics
+Check for altered faces, changed product labels, invented background details and misleading visual claims. Get permission for photos of other people. If the comparison is used commercially, ensure it accurately represents the service or product.
+
+## FAQ
+**Should the before image be edited?** No, keep it original for a fair comparison. **Can AI restore missing detail?** It may estimate it, not necessarily recover it. **What makes a useful comparison?** A clear change, matched framing and an honest explanation.', 'AI before after photo editing, photo edit prompt workflow, compare AI image edits', ARRAY['before after','photo editing','workflow','image comparison']::text[], '', '', '', 'Promptzyra Editorial Team', '3 min read', 'SEO guide', ARRAY['Customize the bracketed fields before using the prompt.','Review the generated image for visual errors and factual accuracy.','Upload original images you have rights to use before publishing.']::text[], false),
+('AI Photo Prompt Formula: Subject, Setting, Lighting and Composition', 'ai-photo-prompt-formula-subject-lighting-composition', 'AI Tutorials', 'Use a repeatable prompt structure to describe the subject, environment, light, composition, style and constraints clearly.', 'Create [SUBJECT] in [SETTING] for [PURPOSE]. Composition: [SHOT TYPE AND CAMERA ANGLE]. Lighting: [SOURCE, DIRECTION AND QUALITY]. Visual style: [STYLE AND PALETTE]. Important details to preserve: [FIXED DETAILS]. Output format: [ASPECT RATIO]. Avoid [SPECIFIC UNWANTED RESULTS]. Prioritize a clear focal point, coherent perspective and believable materials over unnecessary decoration.', 'A repeatable prompt structure makes image generation easier to troubleshoot. Instead of adding adjectives randomly, describe the subject, setting, composition, lighting, style, fixed details and output format. This structure works as a starting point across many image tools, although each model may interpret the wording differently.
+
+## The six-part formula
+**Subject:** who or what should be visible. **Setting:** where the scene takes place. **Composition:** close-up, wide shot, overhead or three-quarter view. **Lighting:** source, direction and softness. **Style:** editorial, illustrative, minimalist or retro. **Constraints:** details that must remain fixed and errors to avoid.
+
+## Copy-ready prompt formula
+Use the prompt above and replace each bracket. Be selective: the goal is to remove ambiguity, not to make the prompt as long as possible. If a result is wrong, identify which part of the brief was unclear.
+
+## Iterate methodically
+Generate a first version, inspect it and change one variable. If the subject is correct but the background is busy, adjust the setting or composition only. If the light looks artificial, describe the direction and softness more clearly. Save prompts that work so you can reuse them.
+
+## Use negative instructions sparingly
+A short list of relevant constraints can help, such as “no logos” or “avoid distorted hands.” A huge list of negatives can conflict with the main request. Focus on the errors most likely to affect your image.
+
+## FAQ
+**Is there one perfect prompt?** No; prompts depend on the model and the task. **Should I include 8K every time?** Not necessarily; describe the actual output quality and use. **How do I get consistency?** Reuse a stable template and reference assets where supported.', 'AI photo prompt formula, how to write image prompts, image prompt structure', ARRAY['prompt writing','AI tutorial','lighting','composition']::text[], '', '', '', 'Promptzyra Editorial Team', '3 min read', 'SEO guide', ARRAY['Customize the bracketed fields before using the prompt.','Review the generated image for visual errors and factual accuracy.','Upload original images you have rights to use before publishing.']::text[], false),
+('AI Image Prompt for Small Business Ads: Create a Clear Product Concept', 'ai-image-prompt-small-business-ad-concept', 'Product Photography', 'Build a focused ad concept with one message, a strong product focal point and space for accurate copy to be added later.', 'Create an original advertising visual for [PRODUCT / SERVICE] aimed at [AUDIENCE]. Show one clear benefit through the scene rather than making unsupported claims. Use [BRAND COLORS], a strong focal point and negative space for a headline and call to action to be added later. Keep the product accurate and the composition readable on mobile. Avoid fake testimonials, invented certifications, unverified performance claims, logos you do not own and generated fine print. Ratio: [FORMAT].', 'A useful ad visual should communicate one idea quickly. Before generating, define the audience, the product and the benefit you can honestly support. The image should draw attention to that message rather than rely on generic “premium” styling.
+
+## Write the brief
+Describe the product or service, target audience, brand colors and one visual idea. If the product itself must remain accurate, use a real product reference and clearly identify the features that cannot change.
+
+## Copy-ready ad prompt
+Replace the product, audience, colors and format. Ask for clean space where copy can be added later. Typeset the headline and call to action separately so they remain readable and accurate.
+
+## Avoid misleading visuals
+Do not generate fake reviews, certifications, awards or claims that the business cannot substantiate. AI product imagery may alter packaging or features, so compare the result with the real product before publishing.
+
+## Test useful variations
+Create variations that change one thing: background, lighting, crop or mood. Compare how clearly the product reads at mobile size. Track actual performance rather than assuming a particular aesthetic will go viral.
+
+## FAQ
+**Can AI generate a complete ad?** It can create a concept, but final copy and claims need review. **Should I use generated text?** Add important text separately. **Can this be used commercially?** Check tool licensing and advertising requirements.', 'AI ad image prompt, small business product ad, marketing visual prompt', ARRAY['small business marketing','ad creative','product visual','campaign design']::text[], '', '', '', 'Promptzyra Editorial Team', '3 min read', 'SEO guide', ARRAY['Customize the bracketed fields before using the prompt.','Review the generated image for visual errors and factual accuracy.','Upload original images you have rights to use before publishing.']::text[], false),
+('AI Social Profile Picture Prompt: A Distinctive Creator Avatar', 'ai-social-profile-picture-prompt-creator-avatar', 'Portrait Prompts', 'Create a memorable profile image with a clear silhouette, balanced crop, recognizable features and a simple background.', 'Create a distinctive profile picture for [CREATOR / BRAND] using [VISUAL DIRECTION]. Frame the subject centrally with a clear silhouette and enough margin for a circular crop. Use [COLOR PALETTE], readable contrast and a simple background. Preserve key identity cues from the reference when appropriate. Keep the image recognizable at small size; avoid tiny details, fake logos, text, excessive retouching and clutter. Output a square image.', 'A profile picture has to work at a very small size, so simplicity matters. A clear silhouette, readable contrast and one recognizable feature often work better than a detailed scene. Choose a visual direction that matches your creator brand and use it consistently across platforms.
+
+## Choose your identity cues
+Decide whether the avatar should be a natural portrait, stylized illustration or abstract brand mark. Select one or two colors and keep the background simple. If using a personal photo, use an image you have permission to edit and preserve features that make the person recognizable.
+
+## Copy-ready profile prompt
+Replace the creator or brand and visual direction. Generate a square image with room around the head or main icon so the circular crop does not cut off important details.
+
+## Check small-size legibility
+Preview the image at thumbnail size. If the face or symbol disappears, simplify the background and increase contrast. Avoid thin lines and tiny text that will not survive downscaling.
+
+## Build a consistent brand
+Use the same palette and visual tone for profile pictures, thumbnails and social graphics. Consistency makes the content easier to recognize without copying another brand’s logo or visual identity.
+
+## FAQ
+**Should a profile picture contain text?** Usually not; text is hard to read at small sizes. **Can I make several variants?** Yes, keep the key identity cues stable. **Can I use a generated avatar for a business?** Check licensing and avoid marks that resemble protected logos.', 'AI profile picture prompt, creator avatar prompt, social media portrait AI', ARRAY['profile picture','creator branding','avatar','portrait']::text[], '', '', '', 'Promptzyra Editorial Team', '3 min read', 'SEO guide', ARRAY['Customize the bracketed fields before using the prompt.','Review the generated image for visual errors and factual accuracy.','Upload original images you have rights to use before publishing.']::text[], false),
+('AI Travel Portrait Prompt: Place a Portrait in a Cinematic Destination Scene', 'ai-travel-portrait-prompt-cinematic-destination', 'Travel Prompts', 'Create a travel-inspired portrait with believable environmental light, a clear subject and destination details that support the scene.', 'Create a cinematic travel portrait of [SUBJECT] in a scene inspired by [DESTINATION]. Keep the person clearly visible and use a believable relationship between subject and background. Match light direction, shadow softness and color temperature across the scene. Use [TIME OF DAY], natural clothing texture and a restrained cinematic grade. Preserve recognizable features from a reference image where supported. Avoid inaccurate landmark details, floating shadows, fake signage and text. Format: [ASPECT RATIO].', 'A travel portrait feels convincing when the person and the destination belong in the same light. A common weakness in generated composites is a subject with studio lighting placed against a background with completely different shadows or color temperature. Describe the time of day and light direction to help the image feel coherent.
+
+## Choose a destination and mood
+Pick a specific setting and decide whether the mood is relaxed, adventurous or editorial. If the image shows a real landmark, verify the architecture and signs because generated scenes may be inaccurate.
+
+## Copy-ready travel portrait prompt
+Replace the subject, destination, time of day and ratio. If the image is based on a real person, use an appropriate reference and review the result for likeness drift. Keep the background detailed enough to suggest a place but not so busy that it competes with the subject.
+
+## Match the light
+Golden-hour light is warm and directional; overcast light is soft and low contrast; nighttime scenes may use practical lights and reflections. Keep the subject’s shadows and color grade consistent with the environment.
+
+## Be transparent
+Do not present a generated composite as proof that someone visited a location. If used in travel editorial content, label illustrative visuals where readers might otherwise mistake them for documentary photographs.
+
+## FAQ
+**Can AI place me at a landmark?** It can create a visual composite, but landmark details may be wrong. **What should I check?** Face, shadows, signage and perspective. **What is the best ratio?** Choose the crop for the platform before generating.', 'AI travel portrait prompt, cinematic travel photo prompt, destination portrait AI', ARRAY['travel portrait','cinematic photography','destination scene','portrait edit']::text[], '', '', '', 'Promptzyra Editorial Team', '3 min read', 'SEO guide', ARRAY['Customize the bracketed fields before using the prompt.','Review the generated image for visual errors and factual accuracy.','Upload original images you have rights to use before publishing.']::text[], false),
+('AI Thumbnail Prompt for Blog Posts: Clear Visuals That Match the Topic', 'ai-blog-thumbnail-prompt-clear-topic-visuals', 'Content Creator Tools', 'Design an article thumbnail with one focal subject, a topic-relevant scene and a crop that remains clear in a card grid.', 'Create a featured image for an article about [ARTICLE TOPIC]. Show one clear visual metaphor or subject that directly supports the topic. Use [COLOR PALETTE], natural contrast and a composition that remains recognizable when cropped to a 4:3 card. Leave room for a small overlay label if needed, but do not render the article title inside the image. Avoid generic stock-like clutter, irrelevant objects, fake logos, watermarks and tiny text.', 'A blog thumbnail should help readers understand the topic before they click. It should not be a decorative image unrelated to the article. Choose one visual idea and make it readable at the small size used by a card grid.
+
+## Match the article intent
+A guide about portrait lighting might show a portrait and a clear light source; a prompt-writing tutorial might show a visual brief or a clean creative workspace. Avoid unrelated futuristic imagery simply because it looks impressive.
+
+## Copy-ready thumbnail prompt
+Replace the article topic and palette. Use a 4:3 or site-specific ratio that fits your card layout, and keep the focal point away from edges that may be cropped. Add the article title in HTML near the image rather than embedding text into the generated art.
+
+## Accessibility and SEO
+Write descriptive alt text for meaningful images. Use a short, descriptive filename and compress the image to a reasonable file size. Avoid keyword stuffing in alt text; describe what the image actually shows.
+
+## Quality checklist
+Preview the thumbnail on desktop and mobile. Check that the subject is clear, the crop is balanced and the image matches the article. Use original or properly licensed visuals and avoid misleading before/after comparisons.
+
+## FAQ
+**Should every article have a thumbnail?** A relevant featured image can improve clarity, but quality matters more than quantity. **Should I put text in the image?** Usually keep text in the page layout. **Does image SEO guarantee rankings?** No; it is one part of a useful, accessible page.', 'AI blog thumbnail prompt, blog featured image AI, SEO article image prompt', ARRAY['blog thumbnail','featured image','content design','image SEO']::text[], '', '', '', 'Promptzyra Editorial Team', '3 min read', 'SEO guide', ARRAY['Customize the bracketed fields before using the prompt.','Review the generated image for visual errors and factual accuracy.','Upload original images you have rights to use before publishing.']::text[], false),
+('How to Refresh AI Prompt Articles Without Creating Thin SEO Pages', 'refresh-ai-prompt-articles-useful-seo-content', 'SEO & Publishing', 'Keep prompt articles useful with original examples, tested instructions, clear limitations and meaningful updates rather than repetitive pages.', 'Create an original illustrative image for a practical article about improving AI prompt tutorials. Show a creator reviewing a prompt, comparing outputs and making a thoughtful revision. Use a clean editorial composition, realistic workspace details and a restrained palette. Leave all text out of the image. Avoid fake analytics, invented rankings, brand logos and misleading interface details. Format for a blog thumbnail.', 'Publishing many similar pages does not automatically create a useful resource. A prompt article should answer a distinct question, include a usable example and explain how readers can adapt or troubleshoot it. If two pages serve the same purpose, consider combining them instead of publishing near-duplicates.
+
+## Give every article a clear purpose
+Write down the reader’s question before drafting. Explain who the prompt is for, which details can be changed and what limitations to expect. Include a copy-ready prompt and a practical checklist rather than repeating the same introduction across every post.
+
+## Add original value
+Use examples created for your own article, screenshots or images you have permission to publish, and observations from testing the workflow. Be honest about whether a prompt was tested, and avoid fabricated performance claims or claims that a style is guaranteed to go viral.
+
+## Keep pages maintained
+Review tool instructions when they change. Update broken links, clarify limitations and refresh examples when the change helps readers. Keep URLs stable when the page still serves the same intent. A new date alone is not a meaningful update.
+
+## Publishing checklist
+Proofread the article, verify every prompt button, check mobile layout, add descriptive alt text and confirm metadata. Link to related guides where it genuinely helps. Do not publish empty image placeholders as if they were finished examples.
+
+## FAQ
+**How many words must an article have?** There is no universal ideal; cover the question thoroughly without padding. **Will SEO metadata guarantee rankings?** No. **Can useful content guarantee AdSense approval?** No, but original, helpful content is a stronger foundation than thin or repetitive pages.', 'AI prompt blog SEO, update AI tutorials, useful SEO content', ARRAY['SEO content','editorial workflow','original examples','content quality']::text[], '', '', '', 'Promptzyra Editorial Team', '3 min read', 'SEO guide', ARRAY['Customize the bracketed fields before using the prompt.','Review the generated image for visual errors and factual accuracy.','Upload original images you have rights to use before publishing.']::text[], false)
+on conflict (slug) do nothing;
