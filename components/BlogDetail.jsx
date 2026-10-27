@@ -9,10 +9,10 @@ export default function BlogDetail({ slug, initialPost = null }) {
   const [posts,setPosts] = useState(initialPost ? [{...initialPost, readTime:initialPost.read_time||"4 min read", thumbnail:initialPost.thumbnail||"", tags:initialPost.tags||[], tips:initialPost.tips||[]}] : []);
   const [copied,setCopied] = useState(false);
   const [copyLabel,setCopyLabel] = useState("Copy full prompt");
-  useEffect(()=>{let active=true;const sb=getSupabase();if(sb)sb.from("promptzyra_posts").select("*").eq("published",true).then(({data})=>{if(!active)return;const rows=(data||[]).map(p=>({...p,readTime:p.read_time||"4 min read",thumbnail:p.thumbnail||"",tags:p.tags||[],tips:p.tips||[]}));setPosts(rows);});return()=>{active=false;};},[]);
+  useEffect(()=>{let active=true;const sb=getSupabase();if(sb&&initialPost){sb.from("promptzyra_posts").select("id,title,slug,category,excerpt,prompt,content,thumbnail,image1,image2,author,read_time,tags,tips,kind,published,updated_at").eq("published",true).eq("category",initialPost.category).neq("slug",initialPost.slug).order("updated_at",{ascending:false}).limit(6).then(({data,error})=>{if(!active)return;if(error){console.error("Related prompt query failed:",error.message);return;}const main={...initialPost,readTime:initialPost.read_time||"4 min read",thumbnail:initialPost.thumbnail||"",tags:initialPost.tags||[],tips:initialPost.tips||[]};const related=(data||[]).map(p=>({...p,readTime:p.read_time||"4 min read",thumbnail:p.thumbnail||"",tags:p.tags||[],tips:p.tips||[]}));setPosts([main,...related]);});}return()=>{active=false;};},[initialPost]);
   const post=posts.find(p=>p.slug===slug);
   if(!post) return <main className="not-found"><span className="section-kicker">404 / PROMPT NOT FOUND</span><h1>This idea wandered off.</h1><p>The article may have been removed or its URL has changed.</p><Link className="primary-button" href="/">Back to prompts <ArrowRight size={16}/></Link></main>;
-  const related=posts.filter(p=>p.category===post.category&&p.slug!==post.slug).slice(0,3);
+  const related=posts.filter(p=>p.category===post.category&&p.slug!==post.slug).slice(0,6);
   const copy=async()=>{try{await navigator.clipboard.writeText(post.prompt||"");setCopied(true);setTimeout(()=>setCopied(false),1800);}catch{setCopyLabel("Select and copy below");}};
   const share=async()=>{try{await navigator.share({title:post.title,text:post.excerpt,url:location.href});}catch{}};
   return <main className="article-page">

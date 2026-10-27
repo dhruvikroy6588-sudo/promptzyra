@@ -114,6 +114,15 @@ insert into public.promptzyra_categories (name) values
 on conflict (name) do nothing;
 ```
 
+
+## 2B) Load 50 starter prompt cards (optional starter content)
+
+After running the table and Storage setup, run `promptzyra-50-starter-cards.sql` in the Promptzyra Supabase SQL Editor. It inserts 50 published starter prompt records with preview image URLs and copy-ready prompt text. It skips any slug already present. These are starter previews, not a claim that you personally created or licensed each image; replace each thumbnail in `/admin` with your own image before using it as your final portfolio content. The main library shows the newest 50 matching prompts first and the **Load more prompts** button fetches the next 50.
+
+## 2C) Capacity for thousands of posts and images
+
+The app stores prompt cards and blog articles in `promptzyra_posts`; there is no hard-coded 5,000-image or 1,000-article limit in the UI. Homepage prompt browsing and the blog index fetch 50 rows at a time; prompt detail pages fetch up to six related cards from the same category. Actual capacity depends on your Supabase database/storage plan, image sizes, bandwidth and project limits. Uploads are limited to 8 MB per image in the admin UI and the Storage bucket policy. Back up your database and use compressed WebP/JPEG images for a large library.
+
 ## 3) Supabase Google provider and URL settings
 
 - Authentication → Providers → Google enabled with your Google OAuth Web Client ID and Client Secret.

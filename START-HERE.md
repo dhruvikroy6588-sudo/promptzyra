@@ -16,3 +16,7 @@ If Save/Publish shows an error, copy the exact error text. Common causes are mis
 - Admin > Categories supports add, rename (updates posts assigned to that category), and delete (only when no posts use the category).
 - For persistent category management, run the new `promptzyra_categories` SQL section in `SETUP.md` in the Promptzyra Supabase project.
 - This package has not been production-built or tested against the user's live Supabase project. Deploy and test in staging/backup first.
+
+
+## Starter cards and pagination
+Run `promptzyra-50-starter-cards.sql` in the Promptzyra Supabase SQL Editor after the schema setup if you want 50 starter prompt cards. The public prompt library and blog list show 50 items per batch with Load More. Replace starter preview images with your own uploads from `/admin`. See SETUP.md for the database and storage capacity notes.

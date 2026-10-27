@@ -99,3 +99,13 @@ html,body{background:#0b0d13!important;color:#eef0fa!important}
 .admin-auth-shell .setup-card a{color:#c7bbff}
 .admin-auth-shell .setup-card .warning-note{overflow-wrap:anywhere;line-height:1.7}
 @media(max-width:600px){.admin-shell.admin-auth-shell{padding:20px 14px}.admin-auth-shell .setup-card{padding:26px 22px;border-radius:16px}.admin-auth-shell .setup-card h1{font-size:30px}.admin-auth-shell .setup-card p{font-size:13px}}
+
+.load-more-wrap{display:flex;justify-content:center;padding:32px 0 4px}.load-more-button{min-width:180px;min-height:44px;box-shadow:0 8px 22px rgba(85,88,255,.2)}.load-more-button:disabled{opacity:.65;cursor:wait}
+/* Admin sign-in must be centered and readable at every viewport width. */
+.admin-shell.admin-auth-shell{display:flex;min-height:100vh;width:100%;align-items:center;justify-content:center;padding:40px 20px;box-sizing:border-box}
+.admin-auth-shell .admin-main{width:100%;min-width:0;display:flex;align-items:center;justify-content:center;padding:0;margin:0;box-sizing:border-box}
+.admin-auth-shell .setup-card{width:min(100%,520px);max-width:520px!important;min-width:0;margin:0!important;padding:38px;box-sizing:border-box;overflow-wrap:anywhere}
+.admin-auth-shell .setup-card h1{font-size:clamp(28px,4vw,38px);line-height:1.15;overflow-wrap:normal}
+.admin-auth-shell .setup-card p{max-width:100%;line-height:1.75}
+.admin-auth-shell .admin-primary{width:100%;min-height:46px;justify-content:center;white-space:normal}
+@media(max-width:600px){.admin-shell.admin-auth-shell{padding:20px 14px}.admin-auth-shell .setup-card{width:100%;padding:26px 22px}.admin-auth-shell .setup-card h1{font-size:29px}}
