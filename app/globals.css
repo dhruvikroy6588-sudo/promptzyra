@@ -82,3 +82,20 @@ html,body{background:#0b0d13!important;color:#eef0fa!important}
 .studio-preview-small{min-height:300px!important}.poster-small{height:230px;width:64%;transform:rotate(3deg);background:linear-gradient(145deg,#a8c9c6,#7e87bd 48%,#3c315e)}
 .category-info{display:flex;flex-direction:column;gap:4px;flex:1;min-width:0}.category-info small{font-size:11px;color:#9da4ba}.category-actions{display:flex;gap:7px}.category-actions button{display:inline-flex;align-items:center;gap:6px;padding:8px 10px;border:1px solid #35394d;border-radius:9px;background:#1b1f2d;color:#e4e6f4;font-size:11px;cursor:pointer}.category-actions button:hover{border-color:#9d8af5;background:#28233e}.category-actions button:disabled{opacity:.5;cursor:not-allowed}.category-footnote{font-size:11px;line-height:1.6;color:#9da4ba;margin-top:16px}
 @media(max-width:650px){.studio-preview{min-height:260px!important}.preview-poster{height:205px;width:72%}.poster-small{height:190px}.preview-chip{font-size:9px;padding:7px 9px}.chip-one{left:4%;bottom:10%}.chip-two{right:3%;top:10%}.category-actions{flex-wrap:wrap}.category-actions button{padding:7px 8px}}
+
+
+/* Admin authentication page layout fix: the dashboard grid must not constrain the signed-out screen to the sidebar column. */
+.admin-shell.admin-auth-shell{display:flex;align-items:center;justify-content:center;grid-template-columns:none;width:100%;min-height:100vh;padding:32px 20px;background:#0b0c12;color:#eef0ff}
+.admin-auth-shell .admin-main{width:100%;max-width:560px;min-width:0;margin:0 auto;padding:0}
+.admin-auth-shell .admin-main>h1{width:100%;max-width:560px;margin:0 auto;font-size:18px;color:#eef0ff}
+.admin-auth-shell .setup-card{display:block;width:100%;max-width:520px;margin:0 auto!important;padding:36px;background:#11131d;border:1px solid #292d3e;border-radius:20px;overflow:hidden;color:#eef0ff}
+.admin-auth-shell .setup-card .setup-icon{width:48px;height:48px;display:grid;place-items:center;margin:0 0 20px;border-radius:14px;background:#eeeaff;color:#7057f5}
+.admin-auth-shell .setup-card .section-kicker{display:block;margin:0 0 10px;color:#a99aff;font-size:10px;letter-spacing:1.8px;line-height:1.6;overflow-wrap:anywhere}
+.admin-auth-shell .setup-card h1{width:100%;max-width:none;margin:10px 0 18px;color:#f5f5ff;font-size:clamp(30px,4vw,38px);line-height:1.15;letter-spacing:-1.2px;overflow-wrap:anywhere;word-break:normal}
+.admin-auth-shell .setup-card p{width:100%;max-width:none;margin:0 0 22px;color:#aeb4c8;font-size:14px;line-height:1.8;overflow-wrap:anywhere;word-break:normal}
+.admin-auth-shell .setup-card p b{color:#e5ddff;overflow-wrap:anywhere;word-break:break-word}
+.admin-auth-shell .setup-card .admin-primary{display:flex;width:100%;min-height:48px;white-space:normal;text-align:center;line-height:1.4;padding:12px 18px;font-size:13px;border-radius:10px}
+.admin-auth-shell .setup-card p:last-child{margin:18px 0 0;font-size:13px}
+.admin-auth-shell .setup-card a{color:#c7bbff}
+.admin-auth-shell .setup-card .warning-note{overflow-wrap:anywhere;line-height:1.7}
+@media(max-width:600px){.admin-shell.admin-auth-shell{padding:20px 14px}.admin-auth-shell .setup-card{padding:26px 22px;border-radius:16px}.admin-auth-shell .setup-card h1{font-size:30px}.admin-auth-shell .setup-card p{font-size:13px}}
