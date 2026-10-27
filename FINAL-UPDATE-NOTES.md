@@ -17,3 +17,13 @@
 
 ## Capacity
 The app does not hard-code a maximum of 5,000 images or 1,000 articles. Real capacity is determined by Supabase database/storage quotas and traffic. Each uploaded image is limited to 8 MB by the current admin UI and bucket setup. Replace starter preview URLs with images you own or are authorized to use before publishing at scale.
+
+## October 27, 2026 — Footer information pages and Gemini image tool
+
+- Reworked the public footer into grouped Explore, Information, and Creator Notes sections, with clearer links and contact information.
+- Expanded About, Contact, Privacy Policy, and Terms pages with site-specific information; added a Disclaimer page and included it in the sitemap.
+- Corrected the old “Promptverse” label and changed the navigation label to “Image Watermark Tool.”
+- Added an image-only Gemini watermark processing UI with PNG/JPG/WebP upload, 20 MB validation, browser-side processing, before/after preview, PNG download, and error/status messaging.
+- Added the `@pilio/gemini-watermark-remover` 1.0.45 dependency and included its MIT license text in `THIRD-PARTY-NOTICES.md`.
+- Added tool limitations and responsible-use notes. The engine targets supported visible Gemini watermark patterns and does not remove invisible SynthID signals.
+- Validation: JSON/package metadata parsed and all 22 app/component JS/JSX files passed a TypeScript transpile syntax check. A full Next.js production build could not be run in this environment because project dependencies are not installed and network access to the package registry is unavailable. Deploy only after Cloudflare/GitHub installs dependencies and the deployed tool is tested with representative images.

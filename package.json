@@ -17,7 +17,8 @@
     "react-dom": "^19.1.0",
     "lucide-react": "^0.468.0",
     "@opennextjs/cloudflare": "latest",
-    "@supabase/supabase-js": "^2.57.0"
+    "@supabase/supabase-js": "^2.57.0",
+    "@pilio/gemini-watermark-remover": "1.0.45"
   },
   "devDependencies": {
     "eslint": "^9.0.0",
