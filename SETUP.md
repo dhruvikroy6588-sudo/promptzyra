@@ -150,3 +150,10 @@ The app stores prompt cards and blog articles in `promptzyra_posts`; there is no
 ## Gemini watermark tool note
 
 The included Gemini watermark page is educational guidance, not a guaranteed automatic watermark-removal engine. Do not describe it as removing Google's invisible SynthID/provenance watermark. Use only images you own or are authorized to edit. This package does not bundle an unverified third-party watermark-removal library.
+
+
+## Featured image upload (Cloudflare R2)
+
+The admin image uploader compresses images in the browser to WebP (maximum 1800 px on the longest side, quality 82%) and sends them to `/api/admin/upload`. The Cloudflare Worker must have an R2 bucket binding named `PROMPTZYRA_IMAGES` pointing to `promptzyra-images` (also declared in `wrangler.jsonc`). The bucket's custom domain `images.promptzyra.com` must be active and publicly serve uploaded objects. If the uploader reports that the binding is missing, add that binding in Cloudflare Worker Settings → Bindings → R2 bucket, then redeploy.
+
+The upload API checks the Supabase access token and permits only the configured admin email. The Supabase post save still requires valid table permissions/RLS and a public image URL.

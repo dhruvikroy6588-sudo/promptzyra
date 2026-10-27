@@ -15,7 +15,7 @@ export default function PromptCard({ post, featured = false }) {
       else window.open(`https://wa.me/?text=${encodeURIComponent(`${post.title} ${url}`)}`, "_blank", "noopener,noreferrer");
     } catch {}
   };
-  const detailHref = (post.kind === "SEO guide" || post.kind === "Gemini watermark guide") ? `/blog/${post.slug}` : `/prompt/${post.slug}`;
+  const detailHref = (["blog", "Blog", "SEO guide", "Gemini watermark guide"].includes(post.kind)) ? `/blog/${post.slug}` : `/prompt/${post.slug}`;
   return <article className={`prompt-card ${featured ? "featured-card" : ""}`}>
     <Link href={detailHref} className="card-image-link" aria-label={`Read ${post.title}`}>
       <div className="card-image">{(post.thumbnail || post.image2 || post.image1) ? <img src={post.thumbnail || post.image2 || post.image1} alt={`${post.title} visual example`} loading="lazy"/> : <div className="card-image-empty">Image not uploaded</div>}

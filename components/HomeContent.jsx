@@ -25,7 +25,7 @@ export default function HomeContent() {
     const sb = getSupabase();
     if (!sb) { setLoading(false); setLoadingMore(false); return; }
     if (append) setLoadingMore(true); else { setLoading(true); setPosts([]); setHasMore(false); }
-    let request = sb.from("promptzyra_posts").select("*", { count: "exact" }).eq("published", true).neq("kind", "SEO guide").neq("kind", "Gemini watermark guide");
+    let request = sb.from("promptzyra_posts").select("*", { count: "exact" }).eq("published", true).neq("kind", "SEO guide").neq("kind", "Gemini watermark guide").neq("kind", "blog").neq("kind", "Blog");
     if (category !== "All prompts") request = request.eq("category", category);
     const term = query.trim().replace(/[%,()]/g, " ");
     if (term) request = request.or(`title.ilike.%${term}%,excerpt.ilike.%${term}%,prompt.ilike.%${term}%,keywords.ilike.%${term}%`);
@@ -47,7 +47,7 @@ export default function HomeContent() {
     if (!sb) return () => { active = false; };
     Promise.all([
       sb.from("promptzyra_categories").select("name").order("name"),
-      sb.from("promptzyra_posts").select("*").eq("published", true).in("kind", ["SEO guide", "Gemini watermark guide"]).order("updated_at", { ascending: false }).limit(6)
+      sb.from("promptzyra_posts").select("*").eq("published", true).in("kind", ["blog", "Blog", "SEO guide", "Gemini watermark guide"]).order("updated_at", { ascending: false }).limit(6)
     ]).then(([cats, blogs]) => {
       if (!active) return;
       if (cats.data?.length) setCategories(prev => [...new Set([...prev, ...cats.data.map(c => c.name)])].sort((a,b)=>a.localeCompare(b)));
