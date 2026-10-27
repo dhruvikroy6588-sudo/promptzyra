@@ -4,8 +4,10 @@ import Script from "next/script";
 
 export const metadata = {
   title: { default: "Promptzyra — Trending AI Photo Prompts & Creator Guides", template: "%s | Promptzyra" },
-  description: "Explore original AI photo prompts, Gemini and ChatGPT image ideas, copy-ready creative cards, practical AI tutorials and SEO guides from Promptzyra.",
+  description: "Explore original GPT image prompts, AI photo ideas, copy-ready creative cards, practical tutorials and SEO guides from Promptzyra.",
   metadataBase: new URL("https://promptzyra.com"),
+  alternates: { canonical: "https://promptzyra.com" },
+  twitter: { card: "summary_large_image", title: "Promptzyra — Trending AI Photo Prompts & Creator Guides" },
   openGraph: { title: "Promptzyra — Trending AI Photo Prompts", description: "Explore visual ideas, copy prompts and learn practical AI workflows.", type: "website", url: "https://promptzyra.com" },
   robots: { index: true, follow: true }
 };
