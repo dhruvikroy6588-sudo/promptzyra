@@ -20,3 +20,10 @@ If Save/Publish shows an error, copy the exact error text. Common causes are mis
 
 ## Starter cards and pagination
 Run `promptzyra-50-starter-cards.sql` in the Promptzyra Supabase SQL Editor after the schema setup if you want 50 starter prompt cards. The public prompt library and blog list show 50 items per batch with Load More. Replace starter preview images with your own uploads from `/admin`. See SETUP.md for the database and storage capacity notes.
+
+## R2 image upload integration (added)
+- Cloudflare Worker binding required: `PROMPTZYRA_IMAGES` -> bucket `promptzyra-images`.
+- R2 custom domain expected: `https://images.promptzyra.com`.
+- Admin uploads are compressed in the browser to WebP (max 1800px, quality 82) and sent to `/api/admin/upload`.
+- The route verifies the Supabase bearer session and restricts uploads to `dhruvikroy6588@gmail.com` before writing to R2.
+- Deploy the updated repository after adding the R2 binding to `wrangler.jsonc`. Test one image in `/admin`; do not expose R2 secret keys in client variables.
