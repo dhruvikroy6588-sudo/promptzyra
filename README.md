@@ -22,12 +22,17 @@ The `/admin` screen stores edits in the current browser's `localStorage`. It is 
 
 Before launch, implement Supabase Auth with server-side authorization, Supabase database CRUD, Cloudflare R2 image uploads, server-side validation, and dynamic sitemap/metadata. Never expose service-role keys in client code.
 
-## Cloudflare + GitHub deployment
-1. Create a GitHub repository and push this project.
-2. In Cloudflare, use the currently supported Next.js deployment path (Cloudflare Workers with the OpenNext adapter is the usual full Next.js route; Pages static export is not compatible with every dynamic Next.js feature).
-3. Add your domain after you decide on it, then update `metadataBase` in `app/layout.jsx`, `app/robots.js`, and `app/sitemap.js`.
-4. Set production environment variables only after adding Supabase; do not commit `.env` files.
-5. Run `npm run build` locally before deploying.
+## Cloudflare Workers + GitHub deployment
+This starter now includes an OpenNext adapter configuration for Cloudflare Workers (`open-next.config.ts`, `wrangler.jsonc`) and `preview`, `deploy`, and `cf-typegen` scripts.
+
+1. Run `npm install` in the project directory to resolve the current adapter and Wrangler packages.
+2. Run `npm run lint` and test the site locally. Then run `npm run preview` to test it in the Workers runtime.
+3. Commit the updated project to the `main` branch of the `promptzyra` repository.
+4. In Cloudflare Workers Builds, connect only `dhruvikroy6588-sudo/promptzyra`, branch `main`. Set Build command to `npm install` and Deploy command to `npm run deploy` (or follow the current Cloudflare build workflow if the dashboard performs dependency installation separately).
+5. Keep the existing `promptzyra.com` custom domain attached to the `promptzyra` Worker. Do not connect or change the `epsnix` repository/Worker.
+6. Confirm the first deployment logs and preview before treating the site as live.
+
+The adapter configuration is provided but has **not been dependency-installed or build-tested in this environment**. Resolve any version or build errors before production deployment. Update canonical URLs in `app/layout.jsx`, `app/robots.js`, and `app/sitemap.js` to `https://promptzyra.com` if any placeholders remain.
 
 ## Seed content
 30 English starter articles target a mix of image trends, portrait prompts, upcoming Indian festivals, 3D characters, product ads and short-form video ideas. The vector images are original concept previews labelled BEFORE/AFTER. Replace them with your own high-quality original AI outputs before relying on the site for organic traffic or ad approval. Search interest is not guaranteed and trend claims should be refreshed before publication.
@@ -62,3 +67,7 @@ The `/admin` dashboard in this starter still stores edits in the current browser
 7. Deploy Next.js to Cloudflare Workers using the current OpenNext adapter workflow; the existing Hello World Worker is only a domain placeholder until the app is deployed.
 
 AdSense acceptance is not guaranteed. Thin, repeated, automatically generated, or unreviewed starter content should not be submitted as a finished publication.
+
+
+### Deployment configuration note
+The Cloudflare OpenNext files are a starting configuration, not proof of a successful production build. Install dependencies and test `npm run preview` before connecting production traffic. The `/admin` dashboard is still a localStorage prototype and is not safe as a public production CMS until access protection and server-side authorization/storage are implemented.
