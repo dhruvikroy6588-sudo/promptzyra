@@ -80,6 +80,10 @@ export default function HomeContent() {
       </div>
     </section>
 
+    <section className="ipb-home-cta"><div className="ipb-home-icon"><WandSparkles size={22}/></div><div><span>FREE CREATOR TOOL</span><h2>Build your own AI image prompt.</h2><p>Choose a style, lighting, camera and composition. Get a structured prompt ready to copy.</p></div><Link href="/image-prompt-generator">Open prompt builder <ArrowRight size={16}/></Link></section>
+
+    <section className="visual-gallery-cta"><div className="visual-gallery-cta-icon"><WandSparkles size={22}/></div><div><span>VISUAL PROMPT LIBRARY</span><h2>Explore the image prompt gallery.</h2><p>Discover image previews, browse by AI model and tags, and open any prompt to copy or customize it.</p></div><Link href="/image-prompts">Explore image gallery <ArrowRight size={16}/></Link></section>
+
     <section className="trust-strip"><div><TrendingUp size={17}/><span>Trend-inspired ideas</span></div><i/><div><Copy size={17}/><span>Copy-ready prompts</span></div><i/><div><WandSparkles size={17}/><span>Made for creators</span></div><i/><div><CalendarDays size={17}/><span>Seasonal collections</span></div></section>
 
     <section className="section-wrap" id="trending">
