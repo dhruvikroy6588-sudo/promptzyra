@@ -1,0 +1,2673 @@
+[
+ {
+  "slug": "redecora",
+  "name": "Redecora",
+  "category": "design",
+  "website_url": "https://redecora.ai/",
+  "pricing": "Freemium",
+  "tagline": "AI room redesign tool that restyles a photo of your space while keeping its layout.",
+  "best_for": "Homeowners, stagers and interior designers",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Redecora takes a photo of an existing room and returns a redesigned version in a style you choose. The pitch is that the walls, windows and overall layout stay as they were, so the result looks like your room with different furniture and finishes rather than a made-up space. The directory listing mentions more than ten styles, including Modern, Minimalist, Bohemian and Industrial.\n\nYou can also tune how strongly the room is transformed and nudge colours or furniture preferences, then download or share the result. It is aimed at people planning a renovation, renters, interior designers sketching concepts, real estate agents doing virtual staging and furniture sellers who want shoppers to picture a product at home. Treat the output as inspiration: AI renders can misjudge scale and real furniture availability. The listing says new users get a free trial of 10 renders; check the official site for current plans.",
+  "use_steps": [
+   "Upload a clear, well-lit photo of the room.",
+   "Pick a design style such as Modern or Minimalist.",
+   "Adjust transformation level, colours or furniture preferences.",
+   "Generate, compare results, then download or share your favourite."
+  ],
+  "pros": [
+   "Keeps the original room structure",
+   "Several style presets",
+   "Quick results for concept work"
+  ],
+  "cons": [
+   "Output can misjudge scale and real furniture",
+   "Free trial is limited to a few renders"
+  ],
+  "alternatives": [
+   "interior-ai",
+   "reimagine-home",
+   "roomgpt"
+  ],
+  "tags": [
+   "interior-design",
+   "staging",
+   "room-redesign",
+   "image-to-image"
+  ],
+  "features": [
+   "Redesign from a room photo",
+   "10+ style presets",
+   "Adjustable transformation level",
+   "Color and furniture preferences",
+   "Download and share"
+  ],
+  "use_cases": [
+   "Testing paint and furniture ideas before renovating",
+   "Virtual staging for listings",
+   "Quick client concept boards"
+  ],
+  "pricing_details": "Listed as freemium with a free trial of 10 renders. Paid plan details were not given in the source, so check the official site.",
+  "faq": [
+   {
+    "q": "Does it change my room's layout?",
+    "a": "The listing says it preserves the original structure and layout and changes the style, though results should still be checked by eye."
+   },
+   {
+    "q": "Who is it meant for?",
+    "a": "Homeowners, renters, interior designers, home stagers, real estate agents and furniture retailers."
+   },
+   {
+    "q": "Is there a free option?",
+    "a": "The listing mentions a free trial that includes 10 renders; paid pricing is not described there."
+   }
+  ],
+  "seo_title": "Redecora: what it does, pricing and alternatives",
+  "seo_description": "AI room redesign tool that restyles a photo of your space while keeping its layout.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "video-ocean",
+  "name": "Video Ocean",
+  "category": "video",
+  "website_url": "https://video-ocean.com/",
+  "pricing": "Freemium",
+  "tagline": "AI studio for text-to-video, image-to-video and lip-synced clips with several reference modes.",
+  "best_for": "Marketers and creators making short AI video",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Video Ocean bundles several AI video modes into one web studio. You can write a prompt, start from a still image, or feed in audio for lip sync. It also lists a Frame Flow mode that builds a transition between a first and last frame. Reference modes let you keep a character or scene consistent from one image, or combine up to four reference images.\n\nOutput goes up to 2K and 4K according to the listing, with style presets such as Cinematic, Anime, Pixel Art, Ink and Neon, and controls for aspect ratio, resolution and length. An AI video agent is described as a brainstorming helper. It suits marketers, social creators and hobby filmmakers who want quick clips without a camera. Credits are sold as one-off packs and as subscriptions; the source gave no prices, so check the official site before committing.",
+  "use_steps": [
+   "Choose a mode such as text-to-video or image-to-video.",
+   "Write a prompt or upload reference images or audio.",
+   "Set style, aspect ratio, resolution and duration.",
+   "Generate, review the clip, and re-run with tweaked prompts."
+  ],
+  "pros": [
+   "Many generation modes in one place",
+   "Reference modes help keep characters consistent",
+   "High resolution outputs listed"
+  ],
+  "cons": [
+   "Credit-based, so heavy use adds up",
+   "Prices not confirmed from the source"
+  ],
+  "alternatives": [
+   "pika",
+   "luma-dream-machine",
+   "hailuo-ai"
+  ],
+  "tags": [
+   "ai-video",
+   "text-to-video",
+   "lip-sync",
+   "image-to-video"
+  ],
+  "features": [
+   "Text-to-video and image-to-video",
+   "Frame Flow first/last frame transitions",
+   "Multi-reference video (up to four images)",
+   "Lip sync to uploaded audio",
+   "Style presets"
+  ],
+  "use_cases": [
+   "Short social video ads",
+   "Animating concept art",
+   "Lip-synced character clips"
+  ],
+  "pricing_details": "Freemium per the directory; credits are sold as one-time packs plus monthly, quarterly and yearly subscriptions. Check the official site for current prices.",
+  "faq": [
+   {
+    "q": "What can it generate?",
+    "a": "Videos and images from text, images or audio, including lip sync and transitions between two frames."
+   },
+   {
+    "q": "What resolution does it output?",
+    "a": "The listing mentions up to 2K and 4K, depending on settings."
+   },
+   {
+    "q": "How is it paid for?",
+    "a": "Through credits, bought once or via subscriptions; exact prices should be checked on the site."
+   }
+  ],
+  "seo_title": "Video Ocean: what it does, pricing and alternatives",
+  "seo_description": "AI studio for text-to-video, image-to-video and lip-synced clips with several reference modes.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "iconwizardai",
+  "name": "IconWizardAI",
+  "category": "design",
+  "website_url": "https://iconwizardai.com/",
+  "pricing": "Paid",
+  "tagline": "Text-to-icon generator with style options and pay-as-you-go credits.",
+  "best_for": "App and web designers needing quick icons",
+  "platforms": [
+   "Web"
+  ],
+  "description": "IconWizardAI generates icons from a written description. You pick a colour and a style, such as flat, 3D, minimalist, cartoon, pixel art or line art, and it returns one or several variations from a single prompt. Results are saved to a personal cloud library so you can come back to them.\n\nThe audience is app developers, web designers, marketers and small business owners who need an icon set quickly and do not have an illustrator on hand, though designers also use it for fast prototypes. Output is described as high resolution for sites, apps and marketing material. Pricing in the listing is credit-based with no monthly subscription, which suits occasional use. Expect to iterate on prompts, and check licensing terms for commercial work on the official site, since the source does not cover them.",
+  "use_steps": [
+   "Describe the icon you want in a short prompt.",
+   "Choose a colour and one of the style options.",
+   "Generate a batch of variations.",
+   "Download your favourites and keep them in your library."
+  ],
+  "pros": [
+   "No subscription needed",
+   "Many style options",
+   "Batch variations per prompt"
+  ],
+  "cons": [
+   "Icon consistency across a set may take effort",
+   "Licensing details not confirmed in the source"
+  ],
+  "alternatives": [
+   "flaticon",
+   "icons8",
+   "recraft"
+  ],
+  "tags": [
+   "icons",
+   "ai-design",
+   "text-to-image",
+   "ui-assets"
+  ],
+  "features": [
+   "Text-to-icon generation",
+   "Flat, 3D, pixel and line styles",
+   "Batch variations",
+   "Personal icon library",
+   "High-resolution output"
+  ],
+  "use_cases": [
+   "App icons",
+   "Website feature icons",
+   "Marketing graphics"
+  ],
+  "pricing_details": "Credit-based, pay as you go with no monthly plan according to the directory. Check the official site for current credit packs.",
+  "faq": [
+   {
+    "q": "Is it a subscription?",
+    "a": "The listing describes pay-as-you-go credits with no monthly subscription."
+   },
+   {
+    "q": "Which styles are offered?",
+    "a": "Flat, 3D, minimalist, cartoon, pixel art and line art are named."
+   },
+   {
+    "q": "Can I get several options at once?",
+    "a": "Yes, batch generation of variations from one prompt is listed."
+   }
+  ],
+  "seo_title": "IconWizardAI: what it does, pricing and alternatives",
+  "seo_description": "Text-to-icon generator with style options and pay-as-you-go credits.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "aimylogo",
+  "name": "Aimylogo",
+  "category": "design",
+  "website_url": "https://aimylogo.com/",
+  "pricing": "Paid",
+  "tagline": "Credit-based AI logo generator that leans on stylised text and 3D looks.",
+  "best_for": "Small businesses and creators needing a quick logo",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Aimylogo turns a text prompt into logo concepts. The listing says it is particularly good with stylised lettering and 3D designs, and it produces up to five variations per prompt. A remix function lets you tweak the prompt for new takes, and there are over 700 prompt templates to start from.\n\nDownloads come in PNG, JPG or WebP, with a 4K upscaling option. Each generation costs one credit, bought in packs, and unused credits expire after a set period according to the source. The audience ranges from YouTubers and podcasters to cafes, gyms and studios that want branding without hiring a designer. A generated logo is a starting point: check trademark conflicts and whether you need a vector file for print. Confirm current packs and usage rights on the official site.",
+  "use_steps": [
+   "Describe your brand and preferred style in a prompt, or pick a template.",
+   "Generate up to five variations.",
+   "Remix the prompt until one direction works.",
+   "Upscale to 4K and download in your preferred format."
+  ],
+  "pros": [
+   "Strong on stylised text and 3D",
+   "Template library to start from",
+   "No subscription required"
+  ],
+  "cons": [
+   "Raster output may not suit all print work",
+   "Credits expire"
+  ],
+  "alternatives": [
+   "looka",
+   "brandmark",
+   "tailor-brands"
+  ],
+  "tags": [
+   "logo",
+   "branding",
+   "ai-design",
+   "text-to-image"
+  ],
+  "features": [
+   "Prompt-based logo creation",
+   "Up to 5 variations",
+   "Remix prompts",
+   "4K upscaling",
+   "PNG, JPG and WebP downloads"
+  ],
+  "use_cases": [
+   "Channel or podcast branding",
+   "Small business logos",
+   "Quick concept exploration"
+  ],
+  "pricing_details": "Paid, credit-based packs per the directory (one credit per generation). Prices and expiry may change; check the official site.",
+  "faq": [
+   {
+    "q": "How do I pay?",
+    "a": "By buying credit packs; each generation uses one credit."
+   },
+   {
+    "q": "What file formats can I download?",
+    "a": "PNG, JPG or WebP are listed."
+   },
+   {
+    "q": "Do credits expire?",
+    "a": "The source says unused credits expire after a set period, so check the terms before buying."
+   }
+  ],
+  "seo_title": "Aimylogo: what it does, pricing and alternatives",
+  "seo_description": "Credit-based AI logo generator that leans on stylised text and 3D looks.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "imagineqr",
+  "name": "ImagineQr",
+  "category": "design",
+  "website_url": "https://imagineqr.io/",
+  "pricing": "Freemium",
+  "tagline": "Generates artistic QR codes from a link and a text prompt.",
+  "best_for": "Marketers and designers wanting QR codes with visual style",
+  "platforms": [
+   "Web"
+  ],
+  "description": "ImagineQr takes a destination URL and a prompt and produces an image with a scannable QR code woven into the artwork. Instead of the usual black and white squares, the code becomes part of a scene, texture or illustration. You can add negative prompts to steer the result away from things you do not want.\n\nA template gallery gives ideas and a dashboard keeps past creations available to re-download. It is aimed at marketers, restaurants, event planners, artists and anyone who wants a QR code that looks designed. Artistic codes can scan less reliably than plain ones, so test with several phones before printing in bulk. The listing shows a free plan with a small monthly allowance of generations and watermark-free downloads; paid plans and prices should be checked on the official site.",
+  "use_steps": [
+   "Enter the URL you want the QR code to open.",
+   "Write a prompt describing the artwork, plus any negative prompt.",
+   "Generate and compare the options.",
+   "Test scanning on a few phones, then download."
+  ],
+  "pros": [
+   "Distinctive look versus plain QR codes",
+   "Free plan available",
+   "Saved history for re-downloads"
+  ],
+  "cons": [
+   "Scan reliability needs testing",
+   "Free allowance is small"
+  ],
+  "alternatives": [
+   "recraft",
+   "canva"
+  ],
+  "tags": [
+   "qr-code",
+   "ai-art",
+   "marketing-design",
+   "text-to-image"
+  ],
+  "features": [
+   "Prompt-based QR artwork",
+   "Negative prompts",
+   "Template gallery",
+   "Creation history dashboard",
+   "Watermark-free downloads on free plan"
+  ],
+  "use_cases": [
+   "Restaurant menus",
+   "Event posters",
+   "Packaging and flyers"
+  ],
+  "pricing_details": "Freemium; the listing shows a free plan with 5 generations per month and paid plans with more. Check the site for current prices.",
+  "faq": [
+   {
+    "q": "Will the QR code still scan?",
+    "a": "The vendor claims high scannability, but artistic codes vary, so test before printing."
+   },
+   {
+    "q": "Is it free?",
+    "a": "A free plan with a small monthly allowance is listed."
+   },
+   {
+    "q": "Can I reuse earlier designs?",
+    "a": "A personal dashboard stores past creations for re-download."
+   }
+  ],
+  "seo_title": "ImagineQr: what it does, pricing and alternatives",
+  "seo_description": "Generates artistic QR codes from a link and a text prompt.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "promptperfect",
+  "name": "PromptPerfect",
+  "category": "productivity",
+  "website_url": "https://promptperfect.jina.ai/",
+  "pricing": "Freemium",
+  "tagline": "Prompt optimiser that rewrites and compares prompts for language and image models.",
+  "best_for": "People who write a lot of prompts for chat or image models",
+  "platforms": [
+   "Web",
+   "API"
+  ],
+  "description": "PromptPerfect is a prompt engineering tool. You paste in a rough prompt and it tunes it for clarity, context and detail, aiming at models such as GPT-4, Claude, Llama, Stable Diffusion and Midjourney. It also supports prompts in several non-English languages.\n\nBeyond one-click optimisation, the listing mentions an Arena that runs the same prompt across different models side by side, an assistant chatbot that helps turn ideas into prompts, and a Prompt as a Service option that exposes an optimised prompt as an API. The audience is content creators, marketers and developers. Optimised prompts still need testing on your real task, since a rewrite is not guaranteed to be better. The free tier has a small daily request limit; check the official site for current plans.",
+  "use_steps": [
+   "Paste your draft prompt and pick the target model.",
+   "Run auto-tune optimisation.",
+   "Compare original and optimised outputs, optionally in the Arena.",
+   "Save the winner or deploy it as a prompt service via the API."
+  ],
+  "pros": [
+   "Side-by-side model comparison",
+   "Works for text and image models",
+   "API option for developers"
+  ],
+  "cons": [
+   "Free tier limits daily requests",
+   "Rewrites need human checking"
+  ],
+  "alternatives": [
+   "promptbase",
+   "promptlayer",
+   "promptfoo"
+  ],
+  "tags": [
+   "prompt-engineering",
+   "prompts",
+   "llm",
+   "optimization"
+  ],
+  "features": [
+   "Auto-tune prompt optimisation",
+   "Multi-model support",
+   "Arena comparison",
+   "Prompt as a Service API",
+   "Multi-language prompts"
+  ],
+  "use_cases": [
+   "Cleaning up image prompts",
+   "Comparing models on the same task",
+   "Shipping a tuned prompt inside an app"
+  ],
+  "pricing_details": "Freemium; the listing shows a free tier with a daily request cap and paid monthly plans with higher limits and API access. Verify current plans on the official site.",
+  "faq": [
+   {
+    "q": "Which models does it target?",
+    "a": "Language models such as GPT-4, Claude and Llama, and image models such as Stable Diffusion and Midjourney."
+   },
+   {
+    "q": "What is the Arena?",
+    "a": "A feature that compares the same prompt across models side by side."
+   },
+   {
+    "q": "Can developers use it in code?",
+    "a": "Yes, a Prompt as a Service API is listed on higher plans."
+   }
+  ],
+  "seo_title": "PromptPerfect: what it does, pricing and alternatives",
+  "seo_description": "Prompt optimiser that rewrites and compares prompts for language and image models.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "neolocus",
+  "name": "Neolocus",
+  "category": "design",
+  "website_url": "https://neolocus.ai/",
+  "pricing": "Freemium",
+  "tagline": "AI rendering platform that turns sketches and 3D screenshots into photorealistic architectural renders.",
+  "best_for": "Architects, interior designers and 3D artists",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Neolocus converts sketches, 3D models and screenshots, including ones from SketchUp and Revit, into photorealistic interior and exterior renders. It sits between early massing work and expensive final visualisation. Beyond the core render, there are tools to swap style from a reference image, edit part of a render, test facade and floor materials, remove objects and upscale to 4K.\n\nThat mix suits architects and designers who need concept images fast, and real estate developers who want visuals for marketing. Quality depends heavily on the input: a clear screenshot with good proportions gives better results than a rough sketch. According to the directory, most tasks cost a set number of credits, with a free tier that includes a starter balance and a commercial licence, plus paid options. Confirm current terms on the official site before using renders in client work.",
+  "use_steps": [
+   "Upload a sketch, 3D screenshot or model view.",
+   "Choose interior or exterior mode and describe the look you want.",
+   "Refine with style swap, material tiling or modify tools.",
+   "Upscale and download the final render."
+  ],
+  "pros": [
+   "Works from SketchUp and Revit screenshots",
+   "Editing tools beyond one-shot render",
+   "Free tier with starter credits"
+  ],
+  "cons": [
+   "Results depend on input quality",
+   "Credits limit heavy use"
+  ],
+  "alternatives": [
+   "interior-ai",
+   "homestyler",
+   "reimagine-home"
+  ],
+  "tags": [
+   "architecture",
+   "rendering",
+   "3d-to-image",
+   "interior-design"
+  ],
+  "features": [
+   "Interior and exterior AI rendering",
+   "Style swap from a reference",
+   "Material tiling",
+   "Magic removal",
+   "4K upscaling"
+  ],
+  "use_cases": [
+   "Concept renders for client pitches",
+   "Testing facade materials",
+   "Visualising interiors from sketches"
+  ],
+  "pricing_details": "Freemium per the directory, with a free tier, a one-time starter credit pack and a monthly plan. Prices there were not verified against the official site.",
+  "faq": [
+   {
+    "q": "What inputs work?",
+    "a": "Sketches, 3D model screenshots (SketchUp, Revit) and text prompts."
+   },
+   {
+    "q": "Is there a free tier?",
+    "a": "The listing shows a free plan with starter credits and a commercial licence."
+   },
+   {
+    "q": "Can I upscale results?",
+    "a": "Yes, a 4K upscale tool is listed."
+   }
+  ],
+  "seo_title": "Neolocus: what it does, pricing and alternatives",
+  "seo_description": "AI rendering platform that turns sketches and 3D screenshots into photorealistic architectural renders.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "aicanvas",
+  "name": "AiCanvas",
+  "category": "image",
+  "website_url": "https://aicanvas.app/",
+  "pricing": "Free",
+  "tagline": "Free browser canvas editor with text-to-image, inpainting and simple video or GIF tools.",
+  "best_for": "Social media managers and casual creators",
+  "platforms": [
+   "Web"
+  ],
+  "description": "AiCanvas is a layer-based canvas editor in the browser with AI generation built in. You can create images from text, edit them with inpainting, outpainting, object removal and upscaling, and assemble the results on a canvas alongside text, shapes and stickers. The listing names Stable Diffusion XL among the models and exposes settings such as steps, CFG scale and seed.\n\nIt also handles GIFs, Lottie and Rive animations and can export PNG, JPG, WEBP, GIF or video, which makes it handy for social posts. The listing states that all features are free with no premium tier. Free tools like this can change terms or limits without warning, so check the official site and avoid relying on it for critical client work until you have tested output quality and licence terms.",
+  "use_steps": [
+   "Open the canvas and generate an image from a text prompt.",
+   "Use inpainting or object removal to fix details.",
+   "Add text, shapes, stickers or GIFs on layers.",
+   "Export in the format you need."
+  ],
+  "pros": [
+   "Free according to the listing",
+   "Combines generation and layout",
+   "Advanced generation settings exposed"
+  ],
+  "cons": [
+   "Free service terms can change",
+   "Fewer pro features than paid editors"
+  ],
+  "alternatives": [
+   "canva",
+   "pixlr",
+   "fotor"
+  ],
+  "tags": [
+   "image-editor",
+   "text-to-image",
+   "inpainting",
+   "canvas"
+  ],
+  "features": [
+   "Text-to-image",
+   "Inpainting and outpainting",
+   "Object removal and upscaling",
+   "Layer canvas with text and shapes",
+   "GIF and video export"
+  ],
+  "use_cases": [
+   "Social media graphics",
+   "Cleaning up AI images",
+   "Quick animated GIFs"
+  ],
+  "pricing_details": "Listed as free with no subscriptions or premium tiers. Confirm current terms on the official site.",
+  "faq": [
+   {
+    "q": "Is it really free?",
+    "a": "The listing says all features are free with no premium tier; check the site for any changes."
+   },
+   {
+    "q": "What can it export?",
+    "a": "PNG, JPG, WEBP, GIF and video."
+   },
+   {
+    "q": "Can it edit existing images?",
+    "a": "Yes, with inpainting, outpainting, object removal and upscaling."
+   }
+  ],
+  "seo_title": "AiCanvas: what it does, pricing and alternatives",
+  "seo_description": "Free browser canvas editor with text-to-image, inpainting and simple video or GIF tools.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "ttsforge",
+  "name": "TTSForge",
+  "category": "audio",
+  "website_url": "https://ttsforge.com/",
+  "pricing": "Freemium",
+  "tagline": "Online text-to-speech with 40+ languages and MP3, WAV or OGG downloads.",
+  "best_for": "Creators and educators needing quick voiceovers",
+  "platforms": [
+   "Web"
+  ],
+  "description": "TTSForge converts typed text into speech using neural voices in more than 40 languages and accents. Audio downloads as MP3, WAV or OGG, so it slots into video editors and e-learning builders without conversion. An SSML toolbar lets you adjust pauses, emphasis and how numbers or dates are read.\n\nThe free tier is limited by daily character counts and shows ads, while paid tiers raise the character allowance, unlock all voices, remove ads and allow commercial use. The listing also says user text and audio are not used for AI training. It fits YouTubers, teachers, podcasters and businesses making explainer or training audio. Listen to long passages before publishing, since pronunciation of names and jargon often needs SSML fixes. Verify current limits and prices on the official site.",
+  "use_steps": [
+   "Paste or type your text.",
+   "Choose a language and voice.",
+   "Add pauses or emphasis with the SSML toolbar if needed.",
+   "Generate and download as MP3, WAV or OGG."
+  ],
+  "pros": [
+   "Several download formats",
+   "SSML controls",
+   "Free tier available"
+  ],
+  "cons": [
+   "Free tier has tight character limits",
+   "Commercial use needs a paid plan"
+  ],
+  "alternatives": [
+   "naturalreaders",
+   "play-ht",
+   "narakeet"
+  ],
+  "tags": [
+   "text-to-speech",
+   "voiceover",
+   "ssml",
+   "audio"
+  ],
+  "features": [
+   "40+ languages",
+   "MP3, WAV, OGG export",
+   "SSML toolbar",
+   "Free tier for personal use",
+   "Paid tiers with commercial use"
+  ],
+  "use_cases": [
+   "YouTube voiceovers",
+   "E-learning narration",
+   "Accessibility read-aloud"
+  ],
+  "pricing_details": "Freemium with a free daily-limited tier and several monthly paid tiers per the directory. Limits and prices change; check the site.",
+  "faq": [
+   {
+    "q": "Which formats can I download?",
+    "a": "MP3, WAV and OGG."
+   },
+   {
+    "q": "Can I use output commercially?",
+    "a": "The listing says commercial use is permitted on paid plans."
+   },
+   {
+    "q": "Does it support SSML?",
+    "a": "Yes, a toolbar for pauses, emphasis and say-as is listed."
+   }
+  ],
+  "seo_title": "TTSForge: what it does, pricing and alternatives",
+  "seo_description": "Online text-to-speech with 40+ languages and MP3, WAV or OGG downloads.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "hookdrop",
+  "name": "Hookdrop",
+  "category": "marketing",
+  "website_url": "https://hookdrop.org/",
+  "pricing": "Freemium",
+  "tagline": "Content tool for social hooks, scripts, captions, tweets and text-to-speech.",
+  "best_for": "Short-form creators and social media managers",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Hookdrop gathers five small generators in one place: a hook writer for opening lines, a script writer, a caption generator with hashtags, an X post and thread writer, and a text-to-speech tool. The idea is to get from a topic to a postable draft without bouncing between apps.\n\nIt is aimed at creators, marketers and influencers producing short video, podcasts or social posts. Paid tiers add extras such as research through a search integration, multi-format export and priority processing, per the listing. As with any generator, drafts tend to sound generic until you edit them with your own voice and facts. The listing shows a free tier without a credit card and monthly or yearly paid plans; check the official site for current pricing.",
+  "use_steps": [
+   "Pick a tool such as the hook generator or script writer.",
+   "Enter your topic, audience and tone.",
+   "Generate several options and choose the best.",
+   "Edit for your voice, then export or voice it with text-to-speech."
+  ],
+  "pros": [
+   "Several generators in one tool",
+   "Free tier, no card",
+   "Text-to-speech included"
+  ],
+  "cons": [
+   "Generic drafts need editing",
+   "Advanced features are paid"
+  ],
+  "alternatives": [
+   "copy-ai",
+   "taplio",
+   "predis-ai"
+  ],
+  "tags": [
+   "hooks",
+   "scripts",
+   "captions",
+   "social-media"
+  ],
+  "features": [
+   "Hook generator",
+   "Script writer",
+   "Caption and hashtag generator",
+   "X post and thread writer",
+   "Text-to-speech with SSML"
+  ],
+  "use_cases": [
+   "Opening lines for Reels or TikToks",
+   "Video scripts",
+   "Tweet threads"
+  ],
+  "pricing_details": "Freemium; the listing shows a free tier plus monthly and yearly paid plans. Check the official site for current prices.",
+  "faq": [
+   {
+    "q": "What does it generate?",
+    "a": "Hooks, scripts, captions, X posts and text-to-speech audio."
+   },
+   {
+    "q": "Do I need a card for the free tier?",
+    "a": "The listing says no credit card is required."
+   },
+   {
+    "q": "What do paid plans add?",
+    "a": "Extras like research integration, export formats and priority processing are listed."
+   }
+  ],
+  "seo_title": "Hookdrop: what it does, pricing and alternatives",
+  "seo_description": "Content tool for social hooks, scripts, captions, tweets and text-to-speech.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "voiceslab",
+  "name": "Voiceslab",
+  "category": "audio",
+  "website_url": "https://voiceslab.io/",
+  "pricing": "Freemium",
+  "tagline": "Voice cloning and text-to-speech from a short audio sample.",
+  "best_for": "Creators needing a consistent cloned voice",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Voiceslab clones a voice from a 10 to 60 second sample and uses it for text-to-speech. The cloned voice can speak eight languages, including English, Spanish, French, German, Japanese and Chinese, while keeping the speaker's accent, according to the listing. Each conversion has a character cap and output downloads as MP3.\n\nThe audience is creators, marketers and businesses making audiobooks, podcasts, marketing voiceovers and e-learning. Paid plans add file transcription and larger monthly character allowances, and an API is described as coming soon. Cloning a voice raises consent questions: only clone your own voice or one you have clear permission to use. The free plan is small, so test quality before paying. Check the official site for current limits and prices.",
+  "use_steps": [
+   "Upload a clean 10 to 60 second voice sample.",
+   "Create your clone and choose a language.",
+   "Paste your text, within the per-conversion limit.",
+   "Generate and download the MP3."
+  ],
+  "pros": [
+   "Short sample is enough",
+   "Eight languages",
+   "Free plan to test"
+  ],
+  "cons": [
+   "Free allowance is small",
+   "Consent and misuse risks with cloning"
+  ],
+  "alternatives": [
+   "elevenlabs",
+   "resemble-ai",
+   "fish-audio"
+  ],
+  "tags": [
+   "voice-cloning",
+   "text-to-speech",
+   "voiceover",
+   "podcast"
+  ],
+  "features": [
+   "Voice cloning from a short sample",
+   "Multilingual speech",
+   "MP3 export",
+   "File transcription on paid plans",
+   "Encrypted voice data (stated)"
+  ],
+  "use_cases": [
+   "Narrating audiobooks in your voice",
+   "Consistent podcast intros",
+   "E-learning narration"
+  ],
+  "pricing_details": "Freemium with a free tier and two annual-billed paid plans per the directory. Details change; check the official site.",
+  "faq": [
+   {
+    "q": "How long should the sample be?",
+    "a": "The listing says 10 to 60 seconds."
+   },
+   {
+    "q": "Which languages work?",
+    "a": "Eight, including English, Spanish, Korean, French, Japanese, Chinese, German and Arabic."
+   },
+   {
+    "q": "Is there an API?",
+    "a": "It is listed as coming soon for Pro users."
+   }
+  ],
+  "seo_title": "Voiceslab: what it does, pricing and alternatives",
+  "seo_description": "Voice cloning and text-to-speech from a short audio sample.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "audiox",
+  "name": "AudioX",
+  "category": "audio",
+  "website_url": "https://audiox.app/",
+  "pricing": "Freemium",
+  "tagline": "Generates music, sound effects and voiceovers from text, images or video.",
+  "best_for": "Video creators needing music and sound effects",
+  "platforms": [
+   "Web"
+  ],
+  "description": "AudioX produces audio from several kinds of input: text prompts, images, existing clips and video. That includes music in over thirty styles, sound effects, voice generation and text-to-speech. A Video-to-Audio mode aims to fit sound to a clip you upload.\n\nExtras listed include a talking-photo feature that animates a portrait with synchronised audio, multi-track editing, export presets and small utilities for adding, removing or extracting audio from video. It suits YouTubers, podcasters, social media managers and filmmakers who need quick soundtracks. Generated music is no substitute for a composer on big projects, and you should check licence terms for commercial use. The listing shows several paid tiers with no watermark and a commercial licence; confirm prices on the official site.",
+  "use_steps": [
+   "Choose a mode such as text-to-music or video-to-audio.",
+   "Enter a prompt or upload an image or clip.",
+   "Adjust style or parameters and generate.",
+   "Edit in the multi-track editor and export."
+  ],
+  "pros": [
+   "Many input types",
+   "Sound effects and music in one tool",
+   "Basic editing built in"
+  ],
+  "cons": [
+   "Quality varies by prompt",
+   "Commercial licence only on paid plans"
+  ],
+  "alternatives": [
+   "suno",
+   "stable-audio",
+   "soundraw"
+  ],
+  "tags": [
+   "ai-music",
+   "sound-effects",
+   "video-to-audio",
+   "voiceover"
+  ],
+  "features": [
+   "Text, image and video to audio",
+   "Music in 30+ styles",
+   "Sound effects generator",
+   "Talking photo",
+   "Multi-track editing"
+  ],
+  "use_cases": [
+   "Background music for videos",
+   "Custom sound effects",
+   "Quick voiceovers"
+  ],
+  "pricing_details": "Freemium with tiered monthly plans per the directory (annual billing discounted). Prices there were third-party; check the site.",
+  "faq": [
+   {
+    "q": "What inputs does it accept?",
+    "a": "Text, images, video and existing audio."
+   },
+   {
+    "q": "Can I use it commercially?",
+    "a": "The listing says paid plans include a commercial licence."
+   },
+   {
+    "q": "Does it edit audio too?",
+    "a": "Basic multi-track editing and audio utilities are listed."
+   }
+  ],
+  "seo_title": "AudioX: what it does, pricing and alternatives",
+  "seo_description": "Generates music, sound effects and voiceovers from text, images or video.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "ttsmonster",
+  "name": "TTS.Monster",
+  "category": "audio",
+  "website_url": "https://tts.monster/",
+  "pricing": "Free",
+  "tagline": "Text-to-speech for streamers that reads donation messages aloud.",
+  "best_for": "Twitch and YouTube streamers",
+  "platforms": [
+   "Web"
+  ],
+  "description": "TTS.Monster reads viewer donation messages out loud during a livestream using AI voices, from announcers to character and celebrity-style options. The listing counts over a hundred voices plus sound effects and meme sounds for alerts. Setup is a browser source link added to OBS or Streamlabs Desktop.\n\nIt connects with StreamElements, Streamlabs and Ko-fi so a donation triggers the voice, and generation runs in the cloud, so no heavy local hardware is needed. A developer API is also mentioned. The site says there are no subscriptions or commissions on donations, though claims about donation increases are the vendor's and unverified. Moderate your alerts: text-to-speech can be abused by trolls, so use filters and cooldowns. Check the official site for current terms.",
+  "use_steps": [
+   "Sign in and connect your donation platform.",
+   "Pick a default voice and sound effects.",
+   "Add the browser source URL to OBS or Streamlabs.",
+   "Test an alert, then tune filters and volume."
+  ],
+  "pros": [
+   "Free per the listing",
+   "Large voice and sound library",
+   "Works with common donation services"
+  ],
+  "cons": [
+   "Alerts can be abused without moderation",
+   "Built for streaming, not general voiceover"
+  ],
+  "alternatives": [
+   "voicemod",
+   "elevenlabs"
+  ],
+  "tags": [
+   "streaming",
+   "text-to-speech",
+   "twitch",
+   "alerts"
+  ],
+  "features": [
+   "100+ AI voices",
+   "Meme sounds and effects",
+   "StreamElements, Streamlabs, Ko-fi integrations",
+   "OBS browser source",
+   "Developer API"
+  ],
+  "use_cases": [
+   "Reading donations aloud",
+   "Fun stream alerts",
+   "Voice features in small apps"
+  ],
+  "pricing_details": "Listed as free with no subscriptions or donation commissions. Confirm current terms on the official site.",
+  "faq": [
+   {
+    "q": "Does it cost anything?",
+    "a": "The listing says it is free with no subscription or commission."
+   },
+   {
+    "q": "Which platforms does it connect to?",
+    "a": "StreamElements, Streamlabs and Ko-fi."
+   },
+   {
+    "q": "How do I add it to my stream?",
+    "a": "Through a browser source URL in OBS or Streamlabs Desktop."
+   }
+  ],
+  "seo_title": "TTS.Monster: what it does, pricing and alternatives",
+  "seo_description": "Text-to-speech for streamers that reads donation messages aloud.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "voxify",
+  "name": "Voxify",
+  "category": "audio",
+  "website_url": "https://voxify.ai/",
+  "pricing": "Freemium",
+  "tagline": "Text-to-speech with hundreds of voices, 140+ languages and emotion controls.",
+  "best_for": "Creators and teams needing multilingual voiceovers",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Voxify turns text into spoken audio with a large voice library, described as roughly 450 to 475 voices across more than 140 languages and accents. You can filter by gender, age and accent and adjust pitch, speed and tone. Emotional styles such as happy, sad or excited are also listed.\n\nOutput downloads as MP3. The listed use cases include e-learning, audiobooks, game and animation characters, corporate audio and accessibility. Commercial rights are tied to the paid plans, which are priced by monthly character allowance. Counts of voices vary within the listing itself, so do not rely on a precise number. As with any TTS tool, preview long scripts for odd pronunciation before publishing, and check the official site for current plans.",
+  "use_steps": [
+   "Paste your script into the editor.",
+   "Filter voices by language, gender, age or accent.",
+   "Adjust pitch, speed and emotion.",
+   "Generate and download the MP3."
+  ],
+  "pros": [
+   "Large voice and language range",
+   "Emotion and pitch controls",
+   "Low-cost paid tiers listed"
+  ],
+  "cons": [
+   "Free plan limits not stated",
+   "Commercial rights need a paid plan"
+  ],
+  "alternatives": [
+   "murf-ai",
+   "lovo-ai",
+   "wellsaid-labs"
+  ],
+  "tags": [
+   "text-to-speech",
+   "voiceover",
+   "multilingual",
+   "audiobooks"
+  ],
+  "features": [
+   "450+ voices",
+   "140+ languages",
+   "Pitch, speed and emotion controls",
+   "MP3 download",
+   "Commercial rights on paid plans"
+  ],
+  "use_cases": [
+   "Course narration",
+   "Game character voices",
+   "Marketing voiceovers"
+  ],
+  "pricing_details": "Freemium; the listing shows a free plan plus Standard and Pro plans by character allowance and a custom plan. Check the site for current prices.",
+  "faq": [
+   {
+    "q": "How many voices does it have?",
+    "a": "The listing says over 450, in some places over 475."
+   },
+   {
+    "q": "Can I control emotion?",
+    "a": "Yes, emotional expression and pitch and speed settings are listed."
+   },
+   {
+    "q": "Is commercial use allowed?",
+    "a": "The listing ties commercial rights to paid plans."
+   }
+  ],
+  "seo_title": "Voxify: what it does, pricing and alternatives",
+  "seo_description": "Text-to-speech with hundreds of voices, 140+ languages and emotion controls.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "async",
+  "name": "Async",
+  "category": "audio",
+  "website_url": "https://async.com/",
+  "pricing": "Freemium",
+  "tagline": "Developer-focused text-to-speech API with instant voice cloning.",
+  "best_for": "Developers adding speech to apps",
+  "platforms": [
+   "API",
+   "Web"
+  ],
+  "description": "Async offers a text-to-speech API and instant voice cloning. Its own model, asyncFlow, lets you shape intonation, emotion and rhythm, and speech can be streamed for real-time use or returned as a full file. Cloning can work from a sample as short as three seconds, according to the listing.\n\nThe catalogue is described as over a thousand voices in more than twenty languages, with WAV and MP3 output and code examples in Python, JavaScript and cURL. A free plan gives some starting credit, then pricing is pay as you go or custom for volume. It suits developers building assistants, narration or game features, from prototype to production. Test latency and voice quality on your real text before committing, and only clone voices you have permission to use. Check the official site for current pricing.",
+  "use_steps": [
+   "Create an account and get an API key.",
+   "Pick a voice or clone one from a short sample.",
+   "Call the API in Python, JavaScript or cURL.",
+   "Stream or save the audio and tune settings."
+  ],
+  "pros": [
+   "Streaming for real-time use",
+   "Instant cloning",
+   "Free credits to try"
+  ],
+  "cons": [
+   "Aimed at developers, less at casual users",
+   "Cloning has consent risks"
+  ],
+  "alternatives": [
+   "elevenlabs",
+   "cartesia",
+   "deepgram"
+  ],
+  "tags": [
+   "tts-api",
+   "voice-cloning",
+   "streaming",
+   "developers"
+  ],
+  "features": [
+   "asyncFlow TTS model",
+   "Instant voice cloning",
+   "Streaming and file output",
+   "1,000+ voices",
+   "Code samples in three languages"
+  ],
+  "use_cases": [
+   "Voice agents",
+   "Narration in apps",
+   "Game dialogue"
+  ],
+  "pricing_details": "Freemium; the listing shows a free credit allotment, pay-as-you-go pricing and custom plans. Check the official site for rates.",
+  "faq": [
+   {
+    "q": "How short can a cloning sample be?",
+    "a": "The listing says as short as 3 seconds."
+   },
+   {
+    "q": "Does it support streaming?",
+    "a": "Yes, streaming audio is listed for real-time use."
+   },
+   {
+    "q": "What languages are there?",
+    "a": "Over 20 languages according to the listing."
+   }
+  ],
+  "seo_title": "Async: what it does, pricing and alternatives",
+  "seo_description": "Developer-focused text-to-speech API with instant voice cloning.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "lunabot",
+  "name": "Lunabot",
+  "category": "chat-assistants",
+  "website_url": "https://lunabot.ai",
+  "pricing": "Freemium",
+  "tagline": "Multi-model AI assistant across browser, desktop, mobile and Telegram.",
+  "best_for": "People who want several chat models in one app",
+  "platforms": [
+   "Web",
+   "Chrome",
+   "Windows",
+   "macOS",
+   "iOS",
+   "Android"
+  ],
+  "description": "Lunabot gives access to several large models, including GPT-4o, Gemini, Claude, Llama and Mistral, through one account. The point is to avoid separate subscriptions and switch models depending on the task. It is available as a Chrome extension, desktop apps, mobile apps, a Telegram bot and Siri integration.\n\nOther features in the listing include chatting with PDFs and Word files, image generation, custom prompts and shortcut commands, voice input and output, cross-device sync and chat memory, and a developer API. A free tier has daily usage limits and paid tiers raise them. Model names and availability shift quickly, so confirm which models your plan includes and read the privacy terms before uploading sensitive documents. Check the official site for current prices.",
+  "use_steps": [
+   "Install the extension or app and sign in.",
+   "Choose a model from the list.",
+   "Chat, or upload a document to ask questions about it.",
+   "Save useful prompts as shortcuts."
+  ],
+  "pros": [
+   "Several models under one plan",
+   "Many platforms supported",
+   "Document chat"
+  ],
+  "cons": [
+   "Daily limits on free plan",
+   "Model lineup changes often"
+  ],
+  "alternatives": [
+   "poe",
+   "monica-ai",
+   "merlin-ai"
+  ],
+  "tags": [
+   "multi-model",
+   "chatbot",
+   "browser-extension",
+   "assistant"
+  ],
+  "features": [
+   "Multiple model access",
+   "Document chat",
+   "Image generation",
+   "Voice input and output",
+   "Cross-device sync"
+  ],
+  "use_cases": [
+   "Switching models for different tasks",
+   "Summarising PDFs",
+   "Quick help inside the browser"
+  ],
+  "pricing_details": "Freemium with a free tier and three paid monthly tiers per the directory, with an annual discount. Verify prices on the official site.",
+  "faq": [
+   {
+    "q": "Which models can I use?",
+    "a": "The listing names GPT-4o, Gemini, Claude, Llama and Mistral."
+   },
+   {
+    "q": "Where does it run?",
+    "a": "Browser, desktop, mobile, Telegram and via Siri."
+   },
+   {
+    "q": "Is there a free plan?",
+    "a": "Yes, with daily usage limits."
+   }
+  ],
+  "seo_title": "Lunabot: what it does, pricing and alternatives",
+  "seo_description": "Multi-model AI assistant across browser, desktop, mobile and Telegram.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "insertchatgpt",
+  "name": "InsertChatGPT",
+  "category": "chat-assistants",
+  "website_url": "https://insertchatgpt.com/",
+  "pricing": "Freemium",
+  "tagline": "Browser extension that brings ChatGPT into any website for drafting and summarising.",
+  "best_for": "Professionals who write or read a lot in the browser",
+  "platforms": [
+   "Chrome"
+  ],
+  "description": "InsertChatGPT is a browser extension that puts ChatGPT-style help on the page you are already using, such as Gmail, Google Docs or LinkedIn. A floating icon or right-click menu opens it, and it uses the selected text or page as context. It can draft emails and posts, rephrase or shorten text, change tone and summarise articles or email threads.\n\nA custom prompt library stores the instructions you reuse. The audience in the listing is students, professionals, content creators, developers and support agents. A free plan gives a daily number of queries, and a paid plan raises limits and unlocks more advanced models. Any extension that reads page content raises privacy questions, so check what it sends and avoid using it on confidential pages. Confirm current plans on the official site.",
+  "use_steps": [
+   "Install the extension in your browser.",
+   "Select text on a page or open the floating icon.",
+   "Pick an action such as reply, rewrite or summarise.",
+   "Insert the result or copy it."
+  ],
+  "pros": [
+   "Works where you already write",
+   "Prompt library",
+   "Free plan"
+  ],
+  "cons": [
+   "Reads page content, so privacy matters",
+   "Daily query limits"
+  ],
+  "alternatives": [
+   "monica-ai",
+   "merlin-ai",
+   "sider"
+  ],
+  "tags": [
+   "chatgpt",
+   "browser-extension",
+   "writing-assistant",
+   "summariser"
+  ],
+  "features": [
+   "Works on Gmail, Docs and social sites",
+   "Right-click and floating icon",
+   "Rewrite and tone change",
+   "Summarizer",
+   "Custom prompt library"
+  ],
+  "use_cases": [
+   "Replying to emails faster",
+   "Summarising long threads",
+   "Drafting social posts"
+  ],
+  "pricing_details": "Freemium; the listing shows a free daily allowance and a Pro plan at an approximate monthly price. Check the site.",
+  "faq": [
+   {
+    "q": "Which sites does it work on?",
+    "a": "Sites such as Gmail, Google Docs, LinkedIn, Twitter and Facebook are named."
+   },
+   {
+    "q": "Is it free?",
+    "a": "A free plan with a daily query allowance is listed."
+   },
+   {
+    "q": "What does Pro add?",
+    "a": "More advanced models, faster responses and priority support, per the listing."
+   }
+  ],
+  "seo_title": "InsertChatGPT: what it does, pricing and alternatives",
+  "seo_description": "Browser extension that brings ChatGPT into any website for drafting and summarising.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "rikigpt",
+  "name": "RikiGPT",
+  "category": "writing",
+  "website_url": "https://rikigpt.com/",
+  "pricing": "Freemium",
+  "tagline": "Academic writing assistant for essays, assignments and quotes with citations.",
+  "best_for": "Students and researchers",
+  "platforms": [
+   "Web"
+  ],
+  "description": "RikiGPT is aimed at academic work. An essay writer produces structured papers from your specifications after you choose among outlines, an assignment solver works from uploaded instructions, and a quote extractor pulls and organises quotes from sources with page numbers. Citations can be generated in APA, MLA and Harvard styles.\n\nThe listing says it draws on a large source database and supports over a hundred languages. Pricing is credit-based, with a small free allowance, a monthly membership and credit packs. Using AI to write submitted work may break your school's rules, and generated citations and quotes should be checked against the original sources. Treat output as a draft or study aid. Check the official site for current plans and terms.",
+  "use_steps": [
+   "Choose the tool: essay writer, assignment solver or quote extractor.",
+   "Enter the topic, requirements or upload instructions.",
+   "Pick an outline and generate the draft.",
+   "Verify citations and rewrite in your own words."
+  ],
+  "pros": [
+   "Citation styles supported",
+   "Quote extraction with page numbers",
+   "Free allowance to test"
+  ],
+  "cons": [
+   "Must verify citations and facts",
+   "Academic integrity risk if submitted as-is"
+  ],
+  "alternatives": [
+   "jenni-ai",
+   "paperpal",
+   "scispace"
+  ],
+  "tags": [
+   "academic-writing",
+   "essays",
+   "citations",
+   "students"
+  ],
+  "features": [
+   "Essay writer with outlines",
+   "Assignment solver",
+   "Quote extractor",
+   "APA, MLA, Harvard citations",
+   "100+ languages"
+  ],
+  "use_cases": [
+   "Drafting an essay skeleton",
+   "Collecting quotes for a literature review",
+   "Translating academic text"
+  ],
+  "pricing_details": "Freemium; the listing shows free credits, a monthly Gold membership and credit packs. Check the site for current prices.",
+  "faq": [
+   {
+    "q": "Is it free to try?",
+    "a": "A small number of free credits is listed."
+   },
+   {
+    "q": "Which citation styles?",
+    "a": "APA, MLA and Harvard."
+   },
+   {
+    "q": "Can I submit its output directly?",
+    "a": "Not safely; check sources and follow your institution's AI policy."
+   }
+  ],
+  "seo_title": "RikiGPT: what it does, pricing and alternatives",
+  "seo_description": "Academic writing assistant for essays, assignments and quotes with citations.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "samwell",
+  "name": "Samwell",
+  "category": "writing",
+  "website_url": "https://samwell.ai/",
+  "pricing": "Freemium",
+  "tagline": "Academic writer with citations, a literature review generator and an editor.",
+  "best_for": "Students and researchers drafting papers",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Samwell generates essays and research papers with in-text citations and bibliographies. It can also produce literature reviews, check plagiarism and run AI-detection checks, and it lets you upload your own PDFs or links as source material. You can generate an outline before drafting.\n\nA Power Editor handles rephrasing, expanding paragraphs, adding citations and even building charts and tables, and an AI tutor can build study courses from your materials. Citation styles include APA, MLA, Harvard, Chicago and IEEE. The vendor claims about beating AI detectors and user numbers are not independently verified, and detectors are unreliable anyway. Verify every reference exists and say what the text claims. The free plan has a small word allowance; check the official site for plans.",
+  "use_steps": [
+   "Enter your topic or upload source files.",
+   "Generate and approve an outline.",
+   "Draft sections and add citations.",
+   "Refine in the editor and verify every reference."
+  ],
+  "pros": [
+   "Uses your own sources",
+   "Many citation styles",
+   "Editor and tutor included"
+  ],
+  "cons": [
+   "Small free allowance",
+   "References must be verified manually"
+  ],
+  "alternatives": [
+   "jenni-ai",
+   "paperpal",
+   "writefull"
+  ],
+  "tags": [
+   "research-papers",
+   "citations",
+   "literature-review",
+   "students"
+  ],
+  "features": [
+   "Essay and paper generation",
+   "Literature review generator",
+   "Power Editor",
+   "Plagiarism and AI checks",
+   "Source upload"
+  ],
+  "use_cases": [
+   "Literature review drafts",
+   "Reworking paragraphs",
+   "Building citations"
+  ],
+  "pricing_details": "Freemium; the listing shows a free plan with a small word count, an Academic plan billed yearly and custom plans. Check the site.",
+  "faq": [
+   {
+    "q": "Can it use my own sources?",
+    "a": "Yes, you can upload PDFs, links or text."
+   },
+   {
+    "q": "Which citation styles?",
+    "a": "APA, MLA, Harvard, Chicago and IEEE are named."
+   },
+   {
+    "q": "Is it free?",
+    "a": "A free plan with a small AI word allowance is listed."
+   }
+  ],
+  "seo_title": "Samwell: what it does, pricing and alternatives",
+  "seo_description": "Academic writer with citations, a literature review generator and an editor.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "gptinf",
+  "name": "GPTinf",
+  "category": "writing",
+  "website_url": "https://gptinf.com/",
+  "pricing": "Freemium",
+  "tagline": "AI text humanizer paired with a free AI content detector.",
+  "best_for": "Writers revising AI-assisted drafts",
+  "platforms": [
+   "Web"
+  ],
+  "description": "GPTinf rewrites AI-generated text so that it reads more naturally and runs a free detector that gives a percentage score and highlights sentences that look machine-written. A Freeze Keywords option keeps names, terms or citations untouched during rewriting. The vendor says it uses non-AI algorithms and does not train on customer input.\n\nClaims about passing detectors such as Turnitin, GPTZero and Originality.ai are the vendor's own and are not verified; detectors are inconsistent, and rewriting text to hide AI use can violate school or workplace rules. A more honest use is polishing stiff drafts. The free tier limits how many words you can humanize while the detector is unlimited, and paid tiers raise the monthly word count. Check the official site for current plans.",
+  "use_steps": [
+   "Paste your text into the humanizer.",
+   "Add any keywords to freeze.",
+   "Run it and read the rewrite carefully.",
+   "Check it with the detector and edit by hand."
+  ],
+  "pros": [
+   "Free detector",
+   "Freeze keywords option",
+   "Tiered word plans"
+  ],
+  "cons": [
+   "Detector-evasion claims unverified",
+   "May breach academic rules if misused"
+  ],
+  "alternatives": [
+   "undetectable-ai",
+   "wordtune",
+   "quillbot"
+  ],
+  "tags": [
+   "humanizer",
+   "ai-detector",
+   "rewriting",
+   "writing"
+  ],
+  "features": [
+   "AI text humanizer",
+   "Free AI detector",
+   "Freeze Keywords",
+   "Sentence highlighting",
+   "Multiple paid word plans"
+  ],
+  "use_cases": [
+   "Smoothing robotic drafts",
+   "Checking how text reads",
+   "Rewriting emails"
+  ],
+  "pricing_details": "Freemium; the listing shows a small free humanizer allowance, unlimited detection and paid monthly plans. Check the site.",
+  "faq": [
+   {
+    "q": "Is the detector free?",
+    "a": "The listing says unlimited detector use with no sign-up."
+   },
+   {
+    "q": "Does it guarantee passing detectors?",
+    "a": "No; the success rate is a vendor claim and detectors vary."
+   },
+   {
+    "q": "What is Freeze Keywords?",
+    "a": "A setting that keeps chosen terms unchanged while rewriting."
+   }
+  ],
+  "seo_title": "GPTinf: what it does, pricing and alternatives",
+  "seo_description": "AI text humanizer paired with a free AI content detector.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "studypro",
+  "name": "StudyPro",
+  "category": "study",
+  "website_url": "https://studypro.com/",
+  "pricing": "Freemium",
+  "tagline": "Academic assistant with a writer, paraphraser, plagiarism checker and AI detector.",
+  "best_for": "Students and educators",
+  "platforms": [
+   "Web"
+  ],
+  "description": "StudyPro puts four academic tools in one place: an AI writer that drafts and structures papers, a paraphraser, a plagiarism checker that reports suspect passages, and an AI detector. The writer can take uploaded assignment instructions and an academic level.\n\nThe listing says all premium features are free during its beta, with no word limits, and that core features are intended to stay free. Beta terms often change, so do not plan a semester around them. Use the plagiarism and AI checks as rough signals rather than proof, and follow your institution's rules on AI assistance. Always check facts and sources in anything generated. Visit the official site for current pricing.",
+  "use_steps": [
+   "Sign up and open the writer.",
+   "Enter your topic or upload instructions and choose a level.",
+   "Draft, then paraphrase and edit.",
+   "Run the plagiarism and AI checks and fix flagged parts."
+  ],
+  "pros": [
+   "Four tools in one",
+   "Free during beta per the listing",
+   "Accepts assignment instructions"
+  ],
+  "cons": [
+   "Beta terms may change",
+   "Checker results are only indicative"
+  ],
+  "alternatives": [
+   "quillbot",
+   "paperpal",
+   "grammarly"
+  ],
+  "tags": [
+   "academic-writing",
+   "plagiarism",
+   "paraphraser",
+   "students"
+  ],
+  "features": [
+   "AI writer",
+   "AI paraphraser",
+   "Plagiarism checker",
+   "AI detector",
+   "Level settings"
+  ],
+  "use_cases": [
+   "Structuring an essay",
+   "Checking originality",
+   "Paraphrasing notes"
+  ],
+  "pricing_details": "Listed as freemium with premium features free during beta. Check the official site for current terms.",
+  "faq": [
+   {
+    "q": "Is it free?",
+    "a": "The listing says all premium features are free during beta."
+   },
+   {
+    "q": "What tools are included?",
+    "a": "Writer, paraphraser, plagiarism checker and AI detector."
+   },
+   {
+    "q": "Are checker results reliable?",
+    "a": "Treat them as rough signals only."
+   }
+  ],
+  "seo_title": "StudyPro: what it does, pricing and alternatives",
+  "seo_description": "Academic assistant with a writer, paraphraser, plagiarism checker and AI detector.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "copiecolle",
+  "name": "Copiecolle",
+  "category": "marketing",
+  "website_url": "https://www.copiecolle.ai/",
+  "pricing": "Freemium",
+  "tagline": "AI mockup generator for product photos and animated video mockups.",
+  "best_for": "Online sellers and print-on-demand businesses",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Copiecolle makes product mockups without Photoshop. You upload a design onto a template, or upload a blank product photo and describe the scene you want, and the AI handles lighting, shadows and texture wrapping. It can also produce short animated video mockups and exports 4K images.\n\nThe audience is e-commerce sellers, print-on-demand shops, graphic designers and marketers. The listing mentions a commercial licence for generated images, credit packs for pay-as-you-go use and a monthly membership with a free trial period, in Canadian dollars. Mockups should still be checked for realism, since AI can warp prints or text on products. Verify current plans and licence terms on the official site before using images in a store.",
+  "use_steps": [
+   "Upload your design or a blank product photo.",
+   "Choose a template or describe the scene.",
+   "Generate image or video mockups.",
+   "Download in 4K and check the print placement."
+  ],
+  "pros": [
+   "No Photoshop needed",
+   "Image and video mockups",
+   "Commercial licence listed"
+  ],
+  "cons": [
+   "Print or text can look warped",
+   "Video mockups cost extra credits"
+  ],
+  "alternatives": [
+   "smartmockups",
+   "pacdora"
+  ],
+  "tags": [
+   "mockups",
+   "ecommerce",
+   "print-on-demand",
+   "product-photos"
+  ],
+  "features": [
+   "Template mockups",
+   "Custom scenes from text",
+   "Animated video mockups",
+   "4K export",
+   "Commercial licence"
+  ],
+  "use_cases": [
+   "Etsy and POD listings",
+   "Ad creatives",
+   "Product launch visuals"
+  ],
+  "pricing_details": "Freemium per the directory, with credit packs and a monthly membership priced in CAD. Check the site for current prices.",
+  "faq": [
+   {
+    "q": "Does it do video?",
+    "a": "Yes, animated video mockups are listed."
+   },
+   {
+    "q": "Can I use the images commercially?",
+    "a": "The listing says a commercial licence is included."
+   },
+   {
+    "q": "How is it priced?",
+    "a": "Credit packs or a monthly membership, per the listing."
+   }
+  ],
+  "seo_title": "Copiecolle: what it does, pricing and alternatives",
+  "seo_description": "AI mockup generator for product photos and animated video mockups.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "rubygpt",
+  "name": "RubyGPT",
+  "category": "writing",
+  "website_url": "https://rubygpt.ai/",
+  "pricing": "Freemium",
+  "tagline": "General AI writing helper for essays, emails, taglines and poems.",
+  "best_for": "Students, marketers and bloggers who want quick drafts",
+  "platforms": [
+   "Web"
+  ],
+  "description": "RubyGPT is a writing assistant built around templates and a free-form ask box. It drafts essays, marketing taglines, product descriptions, poems and professional emails, and summarises or explains text on request. A Make it better tool improves grammar, tone and readability, and simple explain-it modes rewrite hard passages in plain language.\n\nA semantic search for word and phrase meanings is also listed, and sign-in is via a Google account. The listing says users get a limited number of free generations, and describes paid plans only vaguely, so pricing is unclear until you check the site. It is a general helper rather than a specialist, so expect to edit for voice and accuracy. Check the official site for what free users actually receive.",
+  "use_steps": [
+   "Sign in with Google.",
+   "Choose a template or type a request.",
+   "Generate and use Make it better to polish.",
+   "Edit and fact-check before using."
+  ],
+  "pros": [
+   "Simple templates",
+   "Explain-it modes",
+   "Free generations after sign-in"
+  ],
+  "cons": [
+   "Paid plan details unclear",
+   "General drafts need editing"
+  ],
+  "alternatives": [
+   "rytr",
+   "copy-ai",
+   "hyperwrite"
+  ],
+  "tags": [
+   "writing-assistant",
+   "essays",
+   "emails",
+   "copywriting"
+  ],
+  "features": [
+   "Writing templates",
+   "Make it better editor",
+   "Summarisation",
+   "Idea generation",
+   "Explain simply modes"
+  ],
+  "use_cases": [
+   "Email drafts",
+   "Taglines",
+   "Study summaries"
+  ],
+  "pricing_details": "Listed as freemium; paid plan prices were not given in the source. Check the official site.",
+  "faq": [
+   {
+    "q": "How do I sign in?",
+    "a": "Through a Google account, per the listing."
+   },
+   {
+    "q": "What can it write?",
+    "a": "Essays, taglines, poems, emails and product descriptions."
+   },
+   {
+    "q": "Are paid plans described?",
+    "a": "Not clearly; check the official site."
+   }
+  ],
+  "seo_title": "RubyGPT: what it does, pricing and alternatives",
+  "seo_description": "General AI writing helper for essays, emails, taglines and poems.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "writeapp",
+  "name": "WriteApp",
+  "category": "writing",
+  "website_url": "https://writeapp.co/",
+  "pricing": "Paid",
+  "tagline": "Project-based academic writing service priced by order.",
+  "best_for": "Students wanting drafts of papers or theses",
+  "platforms": [
+   "Web"
+  ],
+  "description": "WriteApp is pitched as an AI-powered academic writing assistant that drafts essays, research papers, theses, dissertations, coursework and book reports from your prompt, with formatting handled for styles such as APA, MLA, Chicago, Harvard and Vancouver. You can set details like word count and topic.\n\nUnlike subscription tools, pricing is project-based: cost depends on paper type, length, complexity and deadline, and you request a quote through an order form. Claims in the listing, such as plagiarism-free output, confidentiality and round-the-clock support, are the vendor's own. Handing in generated work as your own can violate academic integrity policies, so treat results as a reference draft and learn from it. Check the official site for current quotes and terms.",
+  "use_steps": [
+   "Fill in the order form with topic, type, length and deadline.",
+   "Request and review a quote.",
+   "Receive the draft and check formatting and citations.",
+   "Revise and rewrite in your own words."
+  ],
+  "pros": [
+   "Handles formatting styles",
+   "Custom length and deadline",
+   "Covers long documents"
+  ],
+  "cons": [
+   "Pay per project",
+   "Integrity risks if submitted as-is"
+  ],
+  "alternatives": [
+   "samwell",
+   "jenni-ai",
+   "studypro"
+  ],
+  "tags": [
+   "academic-writing",
+   "theses",
+   "essays",
+   "citations"
+  ],
+  "features": [
+   "Essays and theses",
+   "Formatting styles",
+   "Custom word count",
+   "Quote-based pricing",
+   "Support (as stated)"
+  ],
+  "use_cases": [
+   "Drafting longer papers",
+   "Formatting references",
+   "Time-pressed assignments"
+  ],
+  "pricing_details": "Paid and project-based; cost depends on type, length, complexity and deadline, via a quote form. Check the official site.",
+  "faq": [
+   {
+    "q": "How is it priced?",
+    "a": "Per project, via a quote based on type, length and deadline."
+   },
+   {
+    "q": "Which styles does it support?",
+    "a": "APA, MLA, Chicago, Harvard and Vancouver are listed."
+   },
+   {
+    "q": "Is submitting the output safe?",
+    "a": "Check your school's AI rules and verify all sources first."
+   }
+  ],
+  "seo_title": "WriteApp: what it does, pricing and alternatives",
+  "seo_description": "Project-based academic writing service priced by order.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "writetone",
+  "name": "Writetone",
+  "category": "writing",
+  "website_url": "https://writetone.com/",
+  "pricing": "Freemium",
+  "tagline": "Writing suite with paraphraser, grammar checker, summariser and tone options.",
+  "best_for": "Students, bloggers and marketers",
+  "platforms": [
+   "Web",
+   "Chrome"
+  ],
+  "description": "Writetone bundles several writing helpers: a paraphraser covering 50+ languages, a grammar checker, a summariser that accepts PDF uploads, a co-writer with citation generation and an AI tutor. It also lists over 90 tones and over 100 templates, plus a Chrome extension.\n\nA feature called HumanGPT rewrites AI text and is marketed as helping it pass detectors, a claim you should treat sceptically, as detectors are inconsistent and some institutions ban the practice. The free plan caps monthly characters and supports ads; paid Plus and Pro plans raise limits, with annual billing options. For ordinary editing and tone adjustments it is a reasonable all-in-one. Check the official site for current limits and prices.",
+  "use_steps": [
+   "Paste your text into the paraphraser or editor.",
+   "Pick a tone or mode.",
+   "Run grammar and summary checks.",
+   "Review changes and export."
+  ],
+  "pros": [
+   "Many tools in one",
+   "Tone and template variety",
+   "Free plan available"
+  ],
+  "cons": [
+   "Free plan has ads and caps",
+   "Detector-evasion claims are unverified"
+  ],
+  "alternatives": [
+   "quillbot",
+   "wordtune",
+   "grammarly"
+  ],
+  "tags": [
+   "paraphraser",
+   "grammar",
+   "summariser",
+   "tone"
+  ],
+  "features": [
+   "Paraphraser in 50+ languages",
+   "Grammar checker",
+   "PDF summariser",
+   "90+ tones",
+   "Chrome extension"
+  ],
+  "use_cases": [
+   "Rewording drafts",
+   "Summarising papers",
+   "Adjusting email tone"
+  ],
+  "pricing_details": "Freemium with a free ad-supported plan and Plus and Pro tiers per the directory. Check the official site for current prices.",
+  "faq": [
+   {
+    "q": "Does it have a browser extension?",
+    "a": "Yes, a Chrome extension is listed."
+   },
+   {
+    "q": "Is there a free plan?",
+    "a": "Yes, with a monthly character cap and ads."
+   },
+   {
+    "q": "Can the summariser read PDFs?",
+    "a": "Yes, PDF uploads are listed."
+   }
+  ],
+  "seo_title": "Writetone: what it does, pricing and alternatives",
+  "seo_description": "Writing suite with paraphraser, grammar checker, summariser and tone options.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "aimindcrafter",
+  "name": "Aimindcrafter",
+  "category": "writing",
+  "website_url": "https://aimindcrafter.com/",
+  "pricing": "Freemium",
+  "tagline": "All-in-one platform for text, images, voices, transcription, code and chatbots.",
+  "best_for": "Small teams wanting many content tools in one login",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Aimindcrafter combines text generation with over 70 templates for articles, ad copy, social posts and email campaigns, image creation using DALL-E 3 and Stable Diffusion, a photo editing studio, speech-to-text transcription, code generation and trainable chatbots. Its text-to-speech engine is listed with more than 540 voices across 144 languages and dialects.\n\nIt is aimed at marketers, bloggers, business owners, developers and podcasters who would rather pay for one platform than several. Text-to-video and avatars are listed as coming soon. The listing says specific plans and prices were not published at review time and mentions a free trial and a 30-day money-back guarantee, so confirm what you actually get. All-in-one suites are rarely best-in-class at everything, so test the tool you need most first.",
+  "use_steps": [
+   "Create an account and choose a tool such as the writer or image generator.",
+   "Select a template or enter a prompt.",
+   "Generate and edit the result.",
+   "Export or save to your workspace."
+  ],
+  "pros": [
+   "Wide range of tools in one place",
+   "Large voice library",
+   "Trial and refund policy mentioned"
+  ],
+  "cons": [
+   "Pricing unclear in the source",
+   "Jack of all trades"
+  ],
+  "alternatives": [
+   "jasper",
+   "writesonic",
+   "copy-ai"
+  ],
+  "tags": [
+   "all-in-one",
+   "content-creation",
+   "text-to-speech",
+   "chatbots"
+  ],
+  "features": [
+   "70+ writing templates",
+   "Image generation",
+   "540+ voice TTS",
+   "Speech-to-text",
+   "Trainable chatbots"
+  ],
+  "use_cases": [
+   "Blog and ad copy",
+   "Voiceovers",
+   "Customer chatbot"
+  ],
+  "pricing_details": "Listed as freemium; plan prices were not given in the source. Check the official site for the trial and current plans.",
+  "faq": [
+   {
+    "q": "What can it do?",
+    "a": "Write copy, generate images, create voices, transcribe audio, write code and build chatbots."
+   },
+   {
+    "q": "Is there a refund?",
+    "a": "The listing mentions a 30-day money-back guarantee."
+   },
+   {
+    "q": "Does it make video?",
+    "a": "Text-to-video and avatars are listed as upcoming."
+   }
+  ],
+  "seo_title": "Aimindcrafter: what it does, pricing and alternatives",
+  "seo_description": "All-in-one platform for text, images, voices, transcription, code and chatbots.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "vibecodly",
+  "name": "Vibecodly",
+  "category": "coding",
+  "website_url": "https://vibecodly.app/",
+  "pricing": "Freemium",
+  "tagline": "No-code builder that turns a description into native iOS and Android apps.",
+  "best_for": "Small business owners and non-technical founders",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "Vibecodly generates native mobile apps from a plain-language description. The apps are built on Expo and React Native, previewed live on your phone through a QR code, and published to the App Store and Google Play under your own developer accounts. Changes are requested through chat.\n\nTemplates cover things like salon booking, restaurant menus and orders, and gym class booking, and payment options include cards, subscriptions and in-app purchases. The listing says you keep code ownership and can export it, and that the interface is available in Spanish. It targets salons, restaurants, shops, clubs and solo entrepreneurs. Generated apps still need testing, and store review and compliance remain your responsibility. The listing shows a small free tier with a few credits and paid Pro and Team plans; check the official site.",
+  "use_steps": [
+   "Describe your app and pick a template if one fits.",
+   "Scan the QR code to preview it on your phone.",
+   "Request changes through chat.",
+   "Connect your developer accounts and publish."
+  ],
+  "pros": [
+   "Native apps from a description",
+   "Own developer accounts for publishing",
+   "Code export"
+  ],
+  "cons": [
+   "Credit-limited free tier",
+   "You still handle store review"
+  ],
+  "alternatives": [
+   "flutterflow",
+   "bolt-new",
+   "lovable"
+  ],
+  "tags": [
+   "app-builder",
+   "no-code",
+   "react-native",
+   "mobile"
+  ],
+  "features": [
+   "Native iOS and Android output",
+   "Live phone preview",
+   "Chat-based edits",
+   "Business templates",
+   "Code export"
+  ],
+  "use_cases": [
+   "Booking apps for salons",
+   "Restaurant ordering app",
+   "Community or club app"
+  ],
+  "pricing_details": "Freemium; the listing shows a free tier with credits and monthly Pro and Team plans. Check the official site.",
+  "faq": [
+   {
+    "q": "Which platforms does it build for?",
+    "a": "iOS and Android, using Expo and React Native."
+   },
+   {
+    "q": "Do I own the code?",
+    "a": "The listing says yes, with export capability."
+   },
+   {
+    "q": "Is there a free plan?",
+    "a": "Yes, with a small number of credits."
+   }
+  ],
+  "seo_title": "Vibecodly: what it does, pricing and alternatives",
+  "seo_description": "No-code builder that turns a description into native iOS and Android apps.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "fetchsandbox",
+  "name": "FetchSandbox",
+  "category": "coding",
+  "website_url": "https://fetchsandbox.com",
+  "pricing": "Freemium",
+  "tagline": "API and webhook sandbox that AI coding assistants and developers can drive via MCP or CLI.",
+  "best_for": "Developers testing payment, email and auth integrations",
+  "platforms": [
+   "CLI",
+   "MCP"
+  ],
+  "description": "FetchSandbox runs stateful simulations of third-party APIs and webhooks so you can build and test an integration without real API keys or hitting quotas. State carries between steps and webhooks fire, so you check workflow behaviour, not just HTTP status codes. It exposes an MCP server and a CLI that work with tools like Cursor, Claude Code, VS Code and Windsurf.\n\nIt can simulate failures such as duplicate or out-of-order webhooks, expired tokens and rate limits, and offers receipt URLs for pull requests plus OpenAPI spec import. Bundled integrations include Stripe, Twilio and Resend. A simulation is not the real service, so run a final test against the real sandbox of each provider. The listing says the MCP package and CLI are MIT-licensed, with a free tier and paid plans by run count. Check the official site.",
+  "use_steps": [
+   "Install the CLI or add the MCP server to your editor.",
+   "Pick the API you want to simulate.",
+   "Run your integration and trigger failure scenarios.",
+   "Share the receipt link in your PR."
+  ],
+  "pros": [
+   "Simulates webhooks and failures",
+   "Works with AI coding tools",
+   "Free tier"
+  ],
+  "cons": [
+   "Simulation may differ from live APIs",
+   "Run-based limits"
+  ],
+  "alternatives": [
+   "postman",
+   "keploy",
+   "mabl"
+  ],
+  "tags": [
+   "api-testing",
+   "webhooks",
+   "mcp",
+   "sandbox"
+  ],
+  "features": [
+   "MCP server and CLI",
+   "Stateful sandbox",
+   "Failure simulation",
+   "50+ bundled APIs",
+   "Shareable receipts"
+  ],
+  "use_cases": [
+   "Testing Stripe webhooks",
+   "Rate limit handling",
+   "AI agents testing code"
+  ],
+  "pricing_details": "Freemium; the listing shows a free monthly run allowance and a low-cost Pro plan. Check the official site.",
+  "faq": [
+   {
+    "q": "Do I need real API keys?",
+    "a": "No; the point is to test without them."
+   },
+   {
+    "q": "Which editors work?",
+    "a": "Cursor, Claude Code, VS Code and Windsurf are named."
+   },
+   {
+    "q": "Is it open source?",
+    "a": "The listing says the MCP package and CLI are MIT-licensed."
+   }
+  ],
+  "seo_title": "FetchSandbox: what it does, pricing and alternatives",
+  "seo_description": "API and webhook sandbox that AI coding assistants and developers can drive via MCP or CLI.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "siliconflow",
+  "name": "SiliconFlow",
+  "category": "coding",
+  "website_url": "https://siliconflow.com/",
+  "pricing": "Freemium",
+  "tagline": "Inference platform with an OpenAI-compatible API for language, image and video models.",
+  "best_for": "Developers and teams running open models via API",
+  "platforms": [
+   "API",
+   "Web"
+  ],
+  "description": "SiliconFlow is an AI infrastructure platform for running models. It offers serverless pay-as-you-go inference, reserved GPUs and fine-tuning behind a single OpenAI-compatible API. The listing names models such as gpt-oss, Qwen3, DeepSeek, GLM-4.5, FLUX.1 for images and Wan2.2 for video.\n\nBecause the API is OpenAI-compatible, existing integrations can often switch with small code changes. A dashboard shows usage and lets you set monthly spending limits, and the vendor says it does not store data sent through the API. New users receive a small credit. Prices per token or per image change often, so check the current rate card and compare latency against other providers for your workload.",
+  "use_steps": [
+   "Sign up and create an API key.",
+   "Point your OpenAI-compatible client at the SiliconFlow endpoint.",
+   "Choose a model and test a request.",
+   "Set spending limits and monitor usage."
+  ],
+  "pros": [
+   "OpenAI-compatible API",
+   "Many model types",
+   "Spending limits"
+  ],
+  "cons": [
+   "Model list and prices change often",
+   "Data-handling claims should be verified"
+  ],
+  "alternatives": [
+   "together-ai",
+   "fireworks-ai",
+   "openrouter"
+  ],
+  "tags": [
+   "inference",
+   "api",
+   "llm",
+   "gpu"
+  ],
+  "features": [
+   "Serverless inference",
+   "Reserved GPUs",
+   "Fine-tuning",
+   "OpenAI-compatible API",
+   "Usage dashboard"
+  ],
+  "use_cases": [
+   "Hosting open models",
+   "Image or video generation APIs",
+   "Fine-tuned model serving"
+  ],
+  "pricing_details": "Freemium with pay-as-you-go pricing and a small signup credit per the directory. Verify rates on the official site.",
+  "faq": [
+   {
+    "q": "Is the API compatible with OpenAI clients?",
+    "a": "Yes, it is described as OpenAI-compatible."
+   },
+   {
+    "q": "Does it host image and video models?",
+    "a": "FLUX.1 and Wan2.2 are named."
+   },
+   {
+    "q": "How is it billed?",
+    "a": "Pay as you go by token, image or video, with reserved GPU options."
+   }
+  ],
+  "seo_title": "SiliconFlow: what it does, pricing and alternatives",
+  "seo_description": "Inference platform with an OpenAI-compatible API for language, image and video models.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "abacusai",
+  "name": "Abacus.AI",
+  "category": "chat-assistants",
+  "website_url": "https://abacus.ai/",
+  "pricing": "Freemium",
+  "tagline": "AI assistant and platform for agents, chatbots and enterprise machine learning.",
+  "best_for": "Individuals wanting a multi-model assistant and enterprises building agents",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Abacus.AI covers two audiences. ChatLLM is a general assistant for chat, code, voice, images and video aimed at individuals and small teams, while the Enterprise platform helps larger organisations build AI workflows and chatbots. DeepAgent is a general agent for multi-step tasks like research and building small apps.\n\nThe listing also mentions permission-aware chatbots using retrieval on company data, traditional ML tools for forecasting and anomaly detection, over a hundred integrations and enterprise security options such as SSO and SOC 2. Public pricing for the enterprise side is not posted, and ChatLLM details should be checked on the site. Agents that act on your data need careful permissions and review.",
+  "use_steps": [
+   "Choose ChatLLM or the Enterprise platform.",
+   "Connect your data or tools if needed.",
+   "Run a task with the assistant or DeepAgent.",
+   "Review output and refine permissions."
+  ],
+  "pros": [
+   "Covers individual and enterprise needs",
+   "Agent and chatbot builder",
+   "Enterprise security options"
+  ],
+  "cons": [
+   "Enterprise pricing is not public",
+   "Broad scope can feel complex"
+  ],
+  "alternatives": [
+   "poe",
+   "dify",
+   "glean"
+  ],
+  "tags": [
+   "agents",
+   "chatbots",
+   "enterprise-ai",
+   "machine-learning"
+  ],
+  "features": [
+   "ChatLLM assistant",
+   "DeepAgent",
+   "RAG chatbots",
+   "ML forecasting tools",
+   "100+ integrations"
+  ],
+  "use_cases": [
+   "Internal knowledge chatbots",
+   "Automating research",
+   "Forecasting"
+  ],
+  "pricing_details": "Listed as freemium; enterprise pricing is custom. Check the official site for ChatLLM plans.",
+  "faq": [
+   {
+    "q": "What is ChatLLM?",
+    "a": "An assistant for chat, code, voice, images and video."
+   },
+   {
+    "q": "Is enterprise pricing public?",
+    "a": "No; it requires a consultation."
+   },
+   {
+    "q": "What is DeepAgent?",
+    "a": "A general-purpose agent for multi-step tasks."
+   }
+  ],
+  "seo_title": "Abacus.AI: what it does, pricing and alternatives",
+  "seo_description": "AI assistant and platform for agents, chatbots and enterprise machine learning.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "samtts",
+  "name": "Samtts",
+  "category": "audio",
+  "website_url": "https://samtts.com/",
+  "pricing": "Free",
+  "tagline": "Free browser text-to-speech that recreates the retro Microsoft SAM voice.",
+  "best_for": "Retro-computing fans, game developers and meme makers",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Samtts recreates the robotic Microsoft SAM voice from old Windows in the browser. It offers presets such as Microsoft Sam, Mike, Mary and BonziBUDDY, and sliders for pitch, speed, mouth and throat. It also gives access to the open-weight Kokoro TTS model for more natural multilingual speech, including English and Japanese.\n\nAudio downloads as WAV and the listing says no sign-up is needed. A JavaScript API is mentioned for developers. The audience includes content creators, game developers and anyone prototyping a demo or doing a joke voiceover. Check the site's terms if you plan commercial use, and note that the retro voices are for novelty rather than accessibility-grade narration.",
+  "use_steps": [
+   "Type or paste your text.",
+   "Choose a preset voice or Kokoro.",
+   "Adjust pitch, speed, mouth and throat.",
+   "Generate and download the WAV file."
+  ],
+  "pros": [
+   "Free, no sign-up",
+   "Fun retro voices",
+   "Kokoro option"
+  ],
+  "cons": [
+   "Novelty voices only",
+   "Commercial terms unclear"
+  ],
+  "alternatives": [
+   "naturalreaders",
+   "voicemod",
+   "fish-audio"
+  ],
+  "tags": [
+   "tts",
+   "retro",
+   "sam",
+   "wav"
+  ],
+  "features": [
+   "SAM voice presets",
+   "Pitch and speed controls",
+   "Kokoro TTS model",
+   "WAV download",
+   "JavaScript API"
+  ],
+  "use_cases": [
+   "Meme videos",
+   "Game placeholder dialogue",
+   "Demo prototypes"
+  ],
+  "pricing_details": "Listed as free with no sign-up. Check the official site for terms.",
+  "faq": [
+   {
+    "q": "Does it need an account?",
+    "a": "The listing says no sign-up is required."
+   },
+   {
+    "q": "What format is the output?",
+    "a": "WAV."
+   },
+   {
+    "q": "Is there a better-quality voice?",
+    "a": "Kokoro TTS is offered for more natural output."
+   }
+  ],
+  "seo_title": "Samtts: what it does, pricing and alternatives",
+  "seo_description": "Free browser text-to-speech that recreates the retro Microsoft SAM voice.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "dreamina",
+  "name": "Dreamina",
+  "category": "image",
+  "website_url": "https://dreamina.capcut.com/",
+  "pricing": "Freemium",
+  "tagline": "CapCut's AI creative suite for generating and editing images and video.",
+  "best_for": "Marketers, designers and content creators",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Dreamina is an AI creative suite from CapCut that generates images from text or from other images and offers tools to refine them. Image-to-image supports style transfer, background replacement and composition matching. The listing also mentions video generation.\n\nA multi-layer canvas supports inpainting, outpainting and object removal, with an upscaler that goes to 4K and styles such as photorealistic, anime and cyberpunk. A community gallery lets you browse and reuse shared prompts. The page says users start free with a credit allotment and that paid plans exist for higher volume; no prices are given. Since it ties into the CapCut ecosystem, it suits people already editing short video there. Check the official site for current plans.",
+  "use_steps": [
+   "Open Dreamina and sign in.",
+   "Write a prompt or upload a reference image.",
+   "Generate, then refine with inpainting or upscaling.",
+   "Download or send to your editor."
+  ],
+  "pros": [
+   "Image and video in one suite",
+   "Layer canvas editing",
+   "Free credits to start"
+  ],
+  "cons": [
+   "Credits limit free use",
+   "Prices not listed in the source"
+  ],
+  "alternatives": [
+   "leonardo-ai",
+   "midjourney",
+   "ideogram"
+  ],
+  "tags": [
+   "image-generation",
+   "capcut",
+   "ai-art",
+   "editing"
+  ],
+  "features": [
+   "Text-to-image",
+   "Image-to-image",
+   "Inpainting and outpainting",
+   "4K upscaler",
+   "Prompt gallery"
+  ],
+  "use_cases": [
+   "Social visuals",
+   "Ad creatives",
+   "Concept art"
+  ],
+  "pricing_details": "Freemium with a free credit allotment; paid plans exist but were not detailed in the source. Check the site.",
+  "faq": [
+   {
+    "q": "Who makes it?",
+    "a": "It is described as a CapCut product."
+   },
+   {
+    "q": "Can it edit parts of an image?",
+    "a": "Yes, with inpainting, outpainting and object removal."
+   },
+   {
+    "q": "Is there a free tier?",
+    "a": "Yes, with starting credits."
+   }
+  ],
+  "seo_title": "Dreamina: what it does, pricing and alternatives",
+  "seo_description": "CapCut's AI creative suite for generating and editing images and video.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "dupdub",
+  "name": "Dupdub",
+  "category": "audio",
+  "website_url": "https://www.dupdub.com/",
+  "pricing": "Freemium",
+  "tagline": "Text-to-speech, voice cloning, talking photos and video dubbing in one platform.",
+  "best_for": "Marketers and creators localising audio and video",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Dupdub is an audio and video platform whose centre is text-to-speech: over 700 voices in more than 90 languages and accents, with controls for pitch, speed and pauses. It adds voice cloning from a short sample. A Talking Photo feature animates a still image with lip-synced speech.\n\nThe video side includes an editor with auto-transcription and subtitles, plus translation and dubbing into over 40 languages. Other bundled extras are a GPT writing assistant, transcription of YouTube links, a background remover and Canva integration and API. The listing describes a short free trial, a limited free plan and paid plans with more credits and premium voices. Dubbing quality varies by language, so have a native speaker review important content. Check the official site.",
+  "use_steps": [
+   "Choose a tool such as text-to-speech or video dubbing.",
+   "Add text or upload your video.",
+   "Select voice, language and settings.",
+   "Review and export audio, subtitles or video."
+  ],
+  "pros": [
+   "Many tools in one",
+   "Large voice and language range",
+   "Dubbing and subtitles"
+  ],
+  "cons": [
+   "Dubbing quality varies",
+   "Credits limit free use"
+  ],
+  "alternatives": [
+   "elevenlabs",
+   "heygen",
+   "murf-ai"
+  ],
+  "tags": [
+   "voiceover",
+   "dubbing",
+   "voice-cloning",
+   "talking-photo"
+  ],
+  "features": [
+   "700+ voices",
+   "Voice cloning",
+   "Talking photo",
+   "Video translation and dubbing",
+   "Subtitle generation"
+  ],
+  "use_cases": [
+   "Localising a video",
+   "Explainer voiceovers",
+   "Podcast narration"
+  ],
+  "pricing_details": "Freemium with a trial, a limited free plan and paid subscriptions per the directory. Check the official pricing page.",
+  "faq": [
+   {
+    "q": "What languages does dubbing cover?",
+    "a": "Over 40, per the listing."
+   },
+   {
+    "q": "Can it clone voices?",
+    "a": "Yes, from a short audio sample."
+   },
+   {
+    "q": "Does it have an API?",
+    "a": "API access and Canva integration are listed."
+   }
+  ],
+  "seo_title": "Dupdub: what it does, pricing and alternatives",
+  "seo_description": "Text-to-speech, voice cloning, talking photos and video dubbing in one platform.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "studio-neiro",
+  "name": "Studio Neiro",
+  "category": "video",
+  "website_url": "https://studio.neiro.ai/",
+  "pricing": "Freemium",
+  "tagline": "Script-to-video platform with customizable AI avatars.",
+  "best_for": "Businesses producing training and marketing videos",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Studio Neiro turns a script into a video presented by a digital avatar. You type or paste text, pick an avatar and a voice, and generate the clip. Avatars come from a library and custom avatars can be created.\n\nListed features include multi-language voices with different accents and emotional tones, an AI script assistant, selectable backgrounds and an API for automated video creation. Use cases include social ads, onboarding, e-learning, sales pitches and video FAQs. The listing names Free, Creator, Business and Enterprise plans but gives no prices and hedges details, so verify them. Avatar videos can feel stiff for emotional content, so test an audience reaction before publishing at scale.",
+  "use_steps": [
+   "Write or paste your script.",
+   "Choose an avatar and voice.",
+   "Set the background and language.",
+   "Generate and export the video."
+  ],
+  "pros": [
+   "No filming required",
+   "Multi-language voices",
+   "API for automation"
+  ],
+  "cons": [
+   "Avatar delivery can feel stiff",
+   "Plan details unclear in source"
+  ],
+  "alternatives": [
+   "synthesia",
+   "heygen",
+   "d-id"
+  ],
+  "tags": [
+   "avatar-video",
+   "text-to-video",
+   "training-videos",
+   "marketing"
+  ],
+  "features": [
+   "AI avatar library",
+   "Custom avatars",
+   "Multi-language TTS",
+   "Script assistant",
+   "API"
+  ],
+  "use_cases": [
+   "Employee onboarding",
+   "Sales explainers",
+   "Video FAQs"
+  ],
+  "pricing_details": "Listed as freemium with Free, Creator, Business and Enterprise plans; prices were not given. Check the site.",
+  "faq": [
+   {
+    "q": "Can I create my own avatar?",
+    "a": "Custom avatar creation is listed."
+   },
+   {
+    "q": "Does it support multiple languages?",
+    "a": "Yes, with accents and emotional tones."
+   },
+   {
+    "q": "Is there an API?",
+    "a": "Yes, integrations and API access are listed."
+   }
+  ],
+  "seo_title": "Studio Neiro: what it does, pricing and alternatives",
+  "seo_description": "Script-to-video platform with customizable AI avatars.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "humanizey",
+  "name": "Humanizey",
+  "category": "writing",
+  "website_url": "https://humanizey.ai/",
+  "pricing": "Freemium",
+  "tagline": "AI text humanizer with several rewrite modes and a built-in detector.",
+  "best_for": "Writers editing AI-assisted drafts",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Humanizey rewrites AI-generated text to read as more natural. It offers three modes, Standard, Enhanced and Undetectable, depending on plan, supports over a hundred languages and includes a grammar fix and a built-in AI detector. The vendor says it does not store or view input.\n\nMarketing claims, including bypassing Turnitin or GPTZero and accuracy percentages, are the vendor's own and unverified. Detectors are unreliable, and using such tools to hide AI use may break academic or workplace rules. Used honestly, it can loosen stiff phrasing. The listing shows a short free trial by word count and monthly plans with growing word and input limits. Check the official site for current plans.",
+  "use_steps": [
+   "Paste your text within the input limit.",
+   "Pick a rewrite mode.",
+   "Run it and compare with the original.",
+   "Edit by hand and check with the detector."
+  ],
+  "pros": [
+   "Multiple modes",
+   "Many languages",
+   "Built-in detector"
+  ],
+  "cons": [
+   "Detector claims unverified",
+   "Input limits per plan"
+  ],
+  "alternatives": [
+   "undetectable-ai",
+   "gptzero",
+   "quillbot"
+  ],
+  "tags": [
+   "humanizer",
+   "ai-detector",
+   "rewriting",
+   "seo-writing"
+  ],
+  "features": [
+   "Three rewrite modes",
+   "100+ languages",
+   "Built-in AI detector",
+   "Grammar correction",
+   "SEO-oriented output"
+  ],
+  "use_cases": [
+   "Smoothing AI drafts",
+   "Blog rewriting",
+   "Checking tone"
+  ],
+  "pricing_details": "Freemium with a small free trial and Standard, Pro and Unlimited plans per the directory. Check the site.",
+  "faq": [
+   {
+    "q": "How many words in the free trial?",
+    "a": "The listing says up to 150 words."
+   },
+   {
+    "q": "Does it guarantee detector bypass?",
+    "a": "No; those are vendor claims."
+   },
+   {
+    "q": "Which languages?",
+    "a": "Over 100."
+   }
+  ],
+  "seo_title": "Humanizey: what it does, pricing and alternatives",
+  "seo_description": "AI text humanizer with several rewrite modes and a built-in detector.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "ai-writer",
+  "name": "AI Writer",
+  "category": "writing",
+  "website_url": "https://ai-writer.app/",
+  "pricing": "Freemium",
+  "tagline": "GPT-4 based writing suite with templates, paraphrasing, grammar and summaries.",
+  "best_for": "Students, marketers and bloggers",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "AI Writer is a suite of writing tools on GPT-4. It covers essays, articles, emails and social posts, plus a paraphraser, grammar and punctuation checker, summariser and a sentence expander. The listing groups tools by task: academic writing, SEO content, professional email and creative writing.\n\nExamples include a thesis statement generator, blog idea and meta description tools, email subject lines, story and poem generators and hashtag writers. A tool to humanize AI text is also listed, with the usual caveats about detectors. It works in dozens of languages and is available on web, iOS and Android. The free plan offers a monthly word count across over ninety content types, with premium plans for unlimited words; prices are not given in the source, so check the official site.",
+  "use_steps": [
+   "Pick a content type from the tool list.",
+   "Enter your topic and any details.",
+   "Generate and refine with paraphrase or grammar tools.",
+   "Check facts and export."
+  ],
+  "pros": [
+   "Over 90 content types",
+   "Mobile apps",
+   "Free monthly words"
+  ],
+  "cons": [
+   "Generic output needs editing",
+   "Prices not in source"
+  ],
+  "alternatives": [
+   "rytr",
+   "writesonic",
+   "copy-ai"
+  ],
+  "tags": [
+   "writing-assistant",
+   "gpt-4",
+   "seo",
+   "paraphraser"
+  ],
+  "features": [
+   "Essay and article writer",
+   "Paraphraser and grammar check",
+   "Email and subject line tools",
+   "Social post generators",
+   "Mobile apps"
+  ],
+  "use_cases": [
+   "Blog drafts",
+   "Email replies",
+   "Study summaries"
+  ],
+  "pricing_details": "Freemium; the listing shows 2,000 free words a month and premium plans without prices. Check the site.",
+  "faq": [
+   {
+    "q": "How many free words?",
+    "a": "The listing says 2,000 per month."
+   },
+   {
+    "q": "Is there a mobile app?",
+    "a": "Yes, iOS and Android."
+   },
+   {
+    "q": "Can it paraphrase?",
+    "a": "Yes, plus grammar and summarising."
+   }
+  ],
+  "seo_title": "AI Writer: what it does, pricing and alternatives",
+  "seo_description": "GPT-4 based writing suite with templates, paraphrasing, grammar and summaries.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "portraitia",
+  "name": "PortraitIA",
+  "category": "image",
+  "website_url": "https://www.portraitia.net/en",
+  "pricing": "Paid",
+  "tagline": "AI headshot generator that trains on your selfies for professional portraits.",
+  "best_for": "People needing profile photos for LinkedIn or a CV",
+  "platforms": [
+   "Web"
+  ],
+  "description": "PortraitIA trains a personal model from the selfies you upload and then produces photorealistic portraits in styles such as professional, corporate, casual and artistic. The listing recommends 10 to 20 photos with varied angles, lighting and expressions, and no sunglasses or other people. Turnaround is described as minutes.\n\nIt is aimed at professionals and job seekers, social media and dating profiles, personal branding and companies that want uniform staff headshots. Payment is typically a one-time package with a satisfaction guarantee under stated conditions, and no subscription is mentioned. AI portraits can smooth or alter features, so check they look like you before using them for hiring or ID-adjacent purposes. Verify packages and refund terms on the official site.",
+  "use_steps": [
+   "Gather 10 to 20 varied, clear selfies.",
+   "Upload them and choose styles.",
+   "Wait for the model to train and generate portraits.",
+   "Download and check likeness before using."
+  ],
+  "pros": [
+   "No photoshoot needed",
+   "Multiple style options",
+   "Refund policy stated"
+  ],
+  "cons": [
+   "Likeness may drift",
+   "Paid per package"
+  ],
+  "alternatives": [
+   "headshotpro",
+   "betterpic",
+   "profilepicture-ai"
+  ],
+  "tags": [
+   "headshots",
+   "portraits",
+   "linkedin",
+   "ai-photos"
+  ],
+  "features": [
+   "Personal model from selfies",
+   "Multiple styles",
+   "High-resolution output",
+   "Fast turnaround",
+   "Satisfaction guarantee"
+  ],
+  "use_cases": [
+   "LinkedIn photo",
+   "CV photo",
+   "Team headshots"
+  ],
+  "pricing_details": "Paid, usually a one-time package; specific prices vary. Check the official site for current packages and refund terms.",
+  "faq": [
+   {
+    "q": "How many photos should I upload?",
+    "a": "10 to 20 varied photos are recommended."
+   },
+   {
+    "q": "Is it a subscription?",
+    "a": "The listing does not mention a recurring subscription."
+   },
+   {
+    "q": "Is there a guarantee?",
+    "a": "A refund is described under stated conditions."
+   }
+  ],
+  "seo_title": "PortraitIA: what it does, pricing and alternatives",
+  "seo_description": "AI headshot generator that trains on your selfies for professional portraits.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "pictoflux",
+  "name": "Pictoflux",
+  "category": "image",
+  "website_url": "https://pictoflux.com/",
+  "pricing": "Free",
+  "tagline": "Free text-to-image generator built on open Flux models with no login.",
+  "best_for": "Hobbyists and creators wanting quick, free images",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Pictoflux generates images from text prompts using open-source models such as Flux.1 Dev. The listing says it is free, with no stated limits, no login or credits and up to four variations per prompt. Style and aspect ratio can be selected, and generation typically takes 5 to 15 seconds.\n\nThe page claims there are no content filters and that prompts and images are not stored; both are the vendor's own statements and unverified. Lack of filters means you are responsible for what you create and share, and free unlimited services can change or disappear without notice. It suits artists, writers, students and marketers wanting quick visuals. Check licence and usage terms on the official site before using images commercially.",
+  "use_steps": [
+   "Open the site and type a prompt.",
+   "Choose a style and aspect ratio.",
+   "Generate up to four variations.",
+   "Download the one you like."
+  ],
+  "pros": [
+   "Free with no login",
+   "Fast results",
+   "Open Flux model"
+  ],
+  "cons": [
+   "No guarantee of limits or longevity",
+   "Content responsibility is on you"
+  ],
+  "alternatives": [
+   "flux",
+   "craiyon",
+   "pollinations"
+  ],
+  "tags": [
+   "text-to-image",
+   "flux",
+   "free",
+   "no-login"
+  ],
+  "features": [
+   "Flux.1 Dev based",
+   "No login",
+   "Up to 4 variations",
+   "Style and aspect ratio",
+   "5-15 second generation"
+  ],
+  "use_cases": [
+   "Blog illustrations",
+   "Concept sketches",
+   "Quick mood boards"
+  ],
+  "pricing_details": "Listed as free with no subscription. Check the official site for terms and usage rights.",
+  "faq": [
+   {
+    "q": "Do I need an account?",
+    "a": "The listing says no login is required."
+   },
+   {
+    "q": "How many images per prompt?",
+    "a": "Up to four variations."
+   },
+   {
+    "q": "Can I use results commercially?",
+    "a": "Not stated in the listing; check the site's terms."
+   }
+  ],
+  "seo_title": "Pictoflux: what it does, pricing and alternatives",
+  "seo_description": "Free text-to-image generator built on open Flux models with no login.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ }
+]

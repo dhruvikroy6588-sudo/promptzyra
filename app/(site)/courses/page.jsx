@@ -1,3 +1,5 @@
+import SectionTitle from '@/components/v2/SectionTitle';
+import AutoForm from '@/components/v2/AutoForm';
 import Link from 'next/link';
 import { buildMetadata, breadcrumbJsonLd, faqJsonLd } from '@/lib/seo';
 import { listCourses, courseCounts } from '@/lib/data';
@@ -24,11 +26,11 @@ export default async function Page({ searchParams }) {
   const filtered = !!(q || category || cost || format || level || sort !== 'popular');
   return (<>
     <div className="wrap sk-hero">
-      <h1 style={{ marginTop: 32, fontSize: 'clamp(1.8rem,4vw,2.6rem)' }}>{counts.__total > 0 ? `${counts.__total} AI courses` : 'AI courses'}: free and paid</h1>
+      <SectionTitle icon="courses" count={counts.__total || 0} noun={counts.__total === 1 ? 'course' : 'courses'}>AI courses: free and paid</SectionTitle>
       <p className="muted prose">Learn AI at your own pace with courses, YouTube playlists and tutorials from well-known providers. Every entry shows the cost, level, format and language so you can choose quickly.</p>
     </div>
     <div className="wrap sk-list">
-      <form className="toolbar pzl-bar" action="/courses" role="search">
+      <AutoForm className="toolbar pzl-bar" action="/courses" role="search">
         <input name="q" defaultValue={q} placeholder="Search courses, providers…" aria-label="Search courses" style={{ flex: 1, minWidth: 180 }} />
         <select name="category" defaultValue={category} aria-label="Category"><option value="">All topics</option>{COURSE_CATS.map(([s, n]) => <option key={s} value={s}>{n}</option>)}</select>
         <select name="cost" defaultValue={cost} aria-label="Cost"><option value="">Free or paid</option>{COURSE_COSTS.map((c) => <option key={c}>{c}</option>)}</select>
@@ -36,9 +38,9 @@ export default async function Page({ searchParams }) {
         <select name="level" defaultValue={level} aria-label="Level"><option value="">Any level</option>{COURSE_LEVELS.map((c) => <option key={c}>{c}</option>)}</select>
         <button className="btn btn-primary" type="submit">Apply</button>
         {filtered && <Link className="btn" href="/courses" rel="nofollow">Clear</Link>}
-      </form>
+      </AutoForm>
       <p className="muted small pzl-count">{res.total} {res.total === 1 ? 'course' : 'courses'}</p>
-      {res.rows.length ? <div className="pz-grid">{res.rows.map((c) => <CourseCard key={c.slug} c={c} />)}</div> : <div className="empty">{filtered ? 'No courses match these filters.' : 'New courses are being reviewed and will appear here soon.'}</div>}
+      {res.rows.length ? <div className="pz-grid">{res.rows.map((c) => <CourseCard key={c.slug} c={c} />)}</div> : <div className="empty">{filtered ? 'No courses match these filters.' : 'New courses will be added here soon.'}</div>}
       <Pager page={page} total={res.total} pageSize={24} base="/courses" params={{ q, category, cost, format, level, sort: sort !== 'popular' ? sort : '' }} />
     </div>
     <PromptFaq items={FAQ} title="AI courses FAQ" />

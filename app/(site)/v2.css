@@ -575,3 +575,17 @@ html[data-theme="light"] .ph2-dark,:root[data-theme="light"] .ph2-dark{backgroun
 .sk-h2{font-family:'Playfair Display Variable',Georgia,serif}
 .ph2-make{background:linear-gradient(135deg,#0e7a52,#3ddc97);color:#06130d}
 .logo-mark{background:var(--ac);color:var(--ac-ink)}
+
+/* agent-ui2: bigger cards, wrapping titles, section header icon + count */
+.pz-grid{grid-template-columns:repeat(auto-fill,minmax(min(100%,340px),1fr));gap:20px}
+.pz-card{padding:22px;gap:12px}
+.cp-card .cp-top{align-items:flex-start}
+.cp-card .pz-title{overflow-wrap:anywhere;word-break:normal;white-space:normal;line-height:1.3;font-size:1rem}
+.cp-id{min-width:0;flex:1 1 auto}
+.cp-card .pz-tags{flex-wrap:wrap;gap:6px}
+.cp-card .pz-meta{flex-wrap:wrap;gap:8px 14px}
+.cp-card .pz-sum{overflow-wrap:anywhere}
+.pz-h1{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.pz-h1-ic{display:grid;place-items:center;width:48px;height:48px;border-radius:12px;background:color-mix(in srgb,var(--ac) 14%,transparent);color:var(--ac);border:1px solid color-mix(in srgb,var(--ac) 35%,var(--line));flex:none}
+.pz-h1-n{font:600 .8rem 'JetBrains Mono Variable',monospace;padding:4px 12px;border-radius:999px;border:1px solid var(--line);color:var(--mut)}
+@media(max-width:640px){.pz-grid{grid-template-columns:1fr}.pz-card{padding:18px}}

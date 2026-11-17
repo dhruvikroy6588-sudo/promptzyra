@@ -1,3 +1,4 @@
+import AutoForm from './AutoForm';
 import Link from 'next/link';
 import { listPrompts, getCategories, promptAudiences, promptSubcategories } from '@/lib/data';
 import { PromptCard } from './Cards';
@@ -37,7 +38,7 @@ export default async function PromptList({ category, sp = {}, base, fixed = {} }
       <div>
         <div className="chips tab-row pl-tabs" role="tablist" aria-label="Prompt type">{tab('', 'All')}{tab('text', 'Text prompts')}{tab('image', 'Image prompts')}</div>
         {subs.length > 0 && <div className="chips pl-subs" aria-label="Subcategories"><Link className={`chip${!sub ? ' on' : ''}`} href={`${base}${qs({ ...keep, sub: '', type }) ? '?' + qs({ ...keep, sub: '', type }) : ''}`} rel="nofollow">All</Link>{subs.map((s) => <Link key={s.name} rel="nofollow" className={`chip${sub === s.name ? ' on' : ''}`} href={`${base}?${qs({ ...keep, sub: s.name, type })}`}>{s.name} <b>{s.n}</b></Link>)}</div>}
-        <form className="toolbar pzl-bar" action={base} role="search">
+        <AutoForm className="toolbar pzl-bar" action={base} role="search">
           <input name="q" defaultValue={q} placeholder="Search prompts…" aria-label="Search prompts" style={{ flex: 1, minWidth: 180 }} />
           {type && <input type="hidden" name="type" value={type} />}
           {sub && <input type="hidden" name="sub" value={sub} />}
@@ -46,7 +47,7 @@ export default async function PromptList({ category, sp = {}, base, fixed = {} }
           <select name="level" defaultValue={level} aria-label="Level"><option value="">Any level</option>{LEVELS.map((l) => <option key={l}>{l}</option>)}</select>
           <select name="sort" defaultValue={sort} aria-label="Sort"><option value="popular">Popular</option><option value="latest">Latest</option><option value="title">A–Z</option></select>
           <button className="btn btn-primary" type="submit">Apply</button>
-        </form>
+        </AutoForm>
         <p className="muted small pzl-count">{res.total} {res.total === 1 ? 'prompt' : 'prompts'}</p>
         {showSections && <>
           <h2 className="pl-h">Popular right now</h2>
@@ -54,7 +55,7 @@ export default async function PromptList({ category, sp = {}, base, fixed = {} }
           {fresh.length > 0 && <><h2 className="pl-h">New this week</h2><div className="pz-grid">{fresh.map((p) => <PromptCard key={p.slug} p={p} catName={names[p.category]} />)}</div></>}
           <h2 className="pl-h">All prompts</h2>
         </>}
-        {res.rows.length ? <div className="pz-grid">{(showSections ? res.rows : res.rows).map((p) => <PromptCard key={p.slug} p={p} catName={names[p.category]} />)}</div> : <div className="empty">{userFiltered ? 'No prompts match these filters.' : 'New prompts are being reviewed and will appear here soon.'}</div>}
+        {res.rows.length ? <div className="pz-grid">{(showSections ? res.rows : res.rows).map((p) => <PromptCard key={p.slug} p={p} catName={names[p.category]} />)}</div> : <div className="empty">{userFiltered ? 'No prompts match these filters.' : 'New prompts will be added here soon.'}</div>}
         <Pager page={page} total={res.total} pageSize={PAGE_SIZE} base={base} params={{ q, model: fixed.model ? '' : model, audience: fixed.audience ? '' : audience, level, type, sub, sort: sort !== 'popular' ? sort : '' }} />
       </div>
     </div>

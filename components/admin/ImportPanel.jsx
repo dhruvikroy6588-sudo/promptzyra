@@ -22,7 +22,7 @@ export default function ImportPanel({ sb, notify }) {
     r.slug = slugify(r.slug || r[tk] || ''); if (kind === 'blog') { const live = r.go_live === true; delete r.go_live; delete r.image_kw; r.published = live; r.kind = r.kind || 'blog'; r.publish_at = live ? new Date().toISOString() : null; r.thumbnail = r.thumbnail || ''; } else { r.status = 'draft'; r.publish_at = null; } delete r.id; delete r.copy_count;
     if (kind === 'tool') { if (!['Free', 'Freemium', 'Free trial', 'Paid', 'Open source', 'Unknown'].includes(r.pricing)) delete r.pricing; const lc = String(r.last_checked || ''); r.last_checked = /^\d{4}-\d{2}-\d{2}$/.test(lc) ? lc : /^\d{4}-\d{2}$/.test(lc) ? lc + '-01' : null; }
     if (kind === 'component' && r.stars != null) r.stars = parseInt(r.stars) || 0;
-    if (kind === 'photo') { r.category = PHOTO_CATEGORY; if (!r.subject || r.subject === 'other') r.subject = detectPhotoSubject(r.title, r.tags, r.prompt); if (!r.tool) r.tool = 'any'; }
+    if (kind === 'photo') { r.category = r.category || PHOTO_CATEGORY; if (!r.subject || r.subject === 'other') r.subject = detectPhotoSubject(r.title, r.tags, r.prompt); r.tool = 'chatgpt'; }
     return r;
   };
   const parse = async () => {

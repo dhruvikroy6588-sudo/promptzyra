@@ -1,3 +1,4 @@
+import AutoForm from './AutoForm';
 import Link from 'next/link';
 import { Search, X } from 'lucide-react';
 import { listTools, getCategories, toolCounts } from '@/lib/data';
@@ -34,16 +35,16 @@ export default async function ToolList({ category, sp, base, fixedPricing }) {
           <Link href={href({ pricing: '', page: '' })} className={`chip${!pricing ? ' on' : ''}`}>Any price</Link>
           {PRICING.map((l) => <Link key={l} href={href({ pricing: l, page: '' })} className={`chip${pricing === l ? ' on' : ''}`}>{l}</Link>)}
         </div>}
-        <form className="toolbar pzl-bar" action={base} role="search">
+        <AutoForm className="toolbar pzl-bar" action={base} role="search">
           <div className="tl-search"><Search size={16} aria-hidden="true" /><input name="q" type="search" defaultValue={q} placeholder="Search AI tools by name or task…" aria-label="Search AI tools" maxLength={80} /></div>
           {!fixedPricing && pricing && <input type="hidden" name="pricing" value={pricing} />}
           <select name="platform" defaultValue={platform} aria-label="Platform"><option value="">Any platform</option>{TOOL_PLATFORMS.map((p) => <option key={p}>{p}</option>)}</select>
           <select name="sort" defaultValue={sort} aria-label="Sort by">{SORTS.map(([k, l]) => <option key={k} value={k}>{l}</option>)}</select>
           <button className="btn btn-primary" type="submit">Apply</button>
           {filtered && <Link className="btn tl-clear" href={base}><X size={14} aria-hidden="true" />Clear</Link>}
-        </form>
+        </AutoForm>
         <p className="muted small pzl-count" role="status">{res.total ? <>Showing {from}–{to} of {res.total.toLocaleString('en-US')} {res.total === 1 ? 'tool' : 'tools'}{pages > 1 ? ` · page ${page} of ${pages}` : ''}</> : '0 tools'}</p>
-        {res.rows.length ? <div className="pz-grid">{res.rows.map((t) => <ToolCard key={t.slug} t={t} catName={names[t.category]} />)}</div> : <div className="empty">{filtered ? 'No tools match these filters. Try a shorter search or clear the filters.' : 'Tool guides are being reviewed and will appear here soon.'}</div>}
+        {res.rows.length ? <div className="pz-grid">{res.rows.map((t) => <ToolCard key={t.slug} t={t} catName={names[t.category]} />)}</div> : <div className="empty">{filtered ? 'No tools match these filters. Try a shorter search or clear the filters.' : 'Tool guides will be added here soon.'}</div>}
         <Pager page={page} total={res.total} pageSize={PAGE_SIZE} base={base} params={clean} />
         <p className="disclose" style={{ marginTop: 24 }}>Pricing types are general guidance and change often — always confirm on the tool’s official site. Listings are chosen editorially; any paid placement or affiliate link will be labelled clearly and never changes how we describe a tool. <Link href="/ai-tools/submit">Submit a tool</Link>.</p>
       </div>

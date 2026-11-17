@@ -1,0 +1,1973 @@
+[
+ {
+  "slug": "raydian",
+  "name": "Raydian",
+  "category": "productivity",
+  "website_url": "https://raydian.ai",
+  "pricing": "Freemium",
+  "tagline": "An AI planner that turns rough requirements into tasks, estimates, dependencies and roadmaps.",
+  "best_for": "Startups, agencies and freelancers planning projects",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Raydian starts from a vague brief. You type a sentence or paste rough requirements, and it produces a structured plan: tasks, estimates, dependencies and a roadmap. A Kanban board then tracks the work as it moves, so the plan does not stay stuck in a document.\n\nBeyond generation, it tries to flag bottlenecks and risks, maps dependencies between tasks and supports sprint planning. The audience listed includes startups, project managers, developers, agencies handling client work, freelancers and growing enterprises. The free plan was described as including a block of AI prompts and credits, access to the planner and roadmaps, and room for a small team, with extra credits bought as one-time packs that do not expire. Specific prices were not stated, so look at the official site before relying on any figure.",
+  "use_steps": [
+   "Describe your project or paste your requirements.",
+   "Review the generated tasks, estimates and dependencies.",
+   "Adjust the roadmap and set up sprints.",
+   "Move tasks across the Kanban board as work progresses."
+  ],
+  "pros": [
+   "Turns a rough idea into a usable plan quickly",
+   "Dependency mapping and risk flags",
+   "Free plan with credits and small-team access"
+  ],
+  "cons": [
+   "Estimates are generated and need human sanity checks",
+   "Credit limits may constrain heavy use"
+  ],
+  "alternatives": [
+   "asana",
+   "linear",
+   "clickup"
+  ],
+  "tags": [
+   "project-planning",
+   "roadmap",
+   "kanban",
+   "ai-planner"
+  ],
+  "features": [
+   "Task generation from a sentence or rough brief",
+   "AI roadmaps",
+   "Dependency mapping and sprint planning",
+   "Bottleneck and risk detection",
+   "Kanban board"
+  ],
+  "use_cases": [
+   "Scoping a client project",
+   "Planning an MVP build",
+   "Turning meeting notes into a task list"
+  ],
+  "pricing_details": "A free plan with prompt and credit allowances and purchasable credit packs were listed. Plans change, so check the official site.",
+  "faq": [
+   {
+    "q": "What does Raydian generate?",
+    "a": "Tasks, estimates, dependencies and roadmaps from a short description or messy requirements."
+   },
+   {
+    "q": "Is there a free plan?",
+    "a": "Yes, a free plan with AI credits and small-team support was described, with no card needed."
+   },
+   {
+    "q": "Do extra credits expire?",
+    "a": "The listing says purchased credits are one-time and do not expire. Confirm on the official site."
+   }
+  ],
+  "seo_title": "Raydian: Features, Pricing and Use Cases",
+  "seo_description": "An AI planner that turns rough requirements into tasks, estimates, dependencies and roadmaps.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "onboarding0",
+  "name": "Onboarding0",
+  "category": "career",
+  "website_url": "https://www.onboarding0.ai/",
+  "pricing": "Freemium",
+  "tagline": "An AI platform that builds role-specific 30-day onboarding plans from your company's own documents.",
+  "best_for": "HR and people-ops teams and engineering managers onboarding new hires",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Onboarding0 connects to the tools a company already uses, indexes its knowledge, and generates a 30-day onboarding plan for each new hire. Plans include milestones, tasks, time estimates and links to the documents that matter, so a new engineer is not hunting through wikis on day two.\n\nA chat assistant answers questions from the company knowledge base and can suggest a daily plan in two-to-three-hour blocks. A knowledge hub organizes docs and policies for search, and a team dashboard lets managers invite people, assign roles and see who is stuck. Integrations named include GitHub, Jira, Confluence, Notion and Google Drive. It is aimed at remote teams, engineering groups and fast-growing companies. The listing calls it freemium with a trial but gives no plan prices, so check the official site.",
+  "use_steps": [
+   "Connect your knowledge sources, such as Notion, Confluence or Drive.",
+   "Create a role and add the new hire.",
+   "Review the generated 30-day plan and adjust milestones.",
+   "Track progress from the manager dashboard."
+  ],
+  "pros": [
+   "Plans are built from your own documentation",
+   "Gives managers visibility into new-hire progress",
+   "Integrates with common dev and docs tools"
+  ],
+  "cons": [
+   "Quality depends on how good your docs are",
+   "No plan prices were stated"
+  ],
+  "alternatives": [
+   "notion-ai",
+   "glean",
+   "360learning"
+  ],
+  "tags": [
+   "onboarding",
+   "hr",
+   "knowledge-base",
+   "new-hires"
+  ],
+  "features": [
+   "30-day AI onboarding plans",
+   "Chat assistant over company knowledge",
+   "Knowledge hub for docs and policies",
+   "Team and role management",
+   "Progress tracking"
+  ],
+  "use_cases": [
+   "Onboarding remote engineers",
+   "Standardizing onboarding across teams",
+   "Answering repetitive new-hire questions"
+  ],
+  "pricing_details": "Listed as freemium with a trial; specific prices were not stated. Plans change, so check the official site.",
+  "faq": [
+   {
+    "q": "What does Onboarding0 produce?",
+    "a": "Role-specific 30-day plans with milestones, tasks, time estimates and document links."
+   },
+   {
+    "q": "Which tools does it connect to?",
+    "a": "GitHub, Jira, Confluence, Notion and Google Drive were among those named."
+   },
+   {
+    "q": "Is it free?",
+    "a": "It was listed as freemium with a trial. Check the official site for current terms."
+   }
+  ],
+  "seo_title": "Onboarding0: Features, Pricing and Use Cases",
+  "seo_description": "An AI platform that builds role-specific 30-day onboarding plans from your company's own documents.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "autonoma",
+  "name": "Autonoma",
+  "category": "research",
+  "website_url": "https://autonoma.pro/",
+  "pricing": "Freemium",
+  "tagline": "An AI procurement tool that finds suppliers, drafts outreach and compares proposals.",
+  "best_for": "Procurement teams at mid-market and growth-stage companies",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Autonoma covers the early, tedious part of sourcing. You describe the supplier you need in plain language, and it searches live web data rather than a static database, then returns candidates enriched with company details, contact emails, relevance scores and trust signals.\n\nFrom there it drafts RFI or RFP messages tailored to each supplier and can launch email campaigns. When replies arrive, it scores and compares proposals on price, lead times and terms in a side-by-side dashboard. The work is split into three agents: find and enrich, draft and connect, analyze and trade. Lists export to spreadsheet formats. The free plan was described as a small number of searches with capped results per search; the custom tier adds unlimited searches, API access and support. Verify current limits on the official site.",
+  "use_steps": [
+   "Describe the supplier or category you are sourcing.",
+   "Review the enriched supplier list and scores.",
+   "Let it draft and send RFI or RFP outreach.",
+   "Compare incoming proposals in the dashboard and export the shortlist."
+  ],
+  "pros": [
+   "Searches live web data",
+   "Covers search, outreach and proposal comparison",
+   "Free tier to test with"
+  ],
+  "cons": [
+   "Free tier is limited to a few searches",
+   "Outreach drafts should be checked before sending"
+  ],
+  "alternatives": [
+   "apollo-io",
+   "zoominfo",
+   "clay"
+  ],
+  "tags": [
+   "procurement",
+   "sourcing",
+   "suppliers",
+   "rfp"
+  ],
+  "features": [
+   "Supplier search from plain-language descriptions",
+   "Contact and trust enrichment",
+   "RFI/RFP drafting and outreach",
+   "Side-by-side proposal scoring",
+   "CSV export"
+  ],
+  "use_cases": [
+   "Finding suppliers in a new category",
+   "Running an RFP outreach round",
+   "Comparing quotes on price and lead time"
+  ],
+  "pricing_details": "A free tier and a custom tier with unlimited searches were listed. Plans change, so check the official site.",
+  "faq": [
+   {
+    "q": "Who uses Autonoma?",
+    "a": "Procurement teams, such as heads of procurement and strategic buyers sourcing in new categories."
+   },
+   {
+    "q": "Where does supplier data come from?",
+    "a": "The page says it searches live web data rather than static databases."
+   },
+   {
+    "q": "Is there a free plan?",
+    "a": "Yes, a free tier with a few AI searches was described. Confirm limits on the official site."
+   }
+  ],
+  "seo_title": "Autonoma: Features, Pricing and Use Cases",
+  "seo_description": "An AI procurement tool that finds suppliers, drafts outreach and compares proposals.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "plsfixai",
+  "name": "PlsFixAI",
+  "category": "productivity",
+  "website_url": "https://plsfixai.com/",
+  "pricing": "Free trial",
+  "tagline": "An email-based AI worker that drafts replies, summarizes reports and fixes attached documents.",
+  "best_for": "Professionals with high-volume email and document chores",
+  "platforms": [
+   "Email"
+  ],
+  "description": "PlsFixAI works through ordinary email instead of a new app. You create an AI worker with its own address, then forward a message or CC the worker on a thread. It reads the email and any attachments and replies with a draft, a summary, a proofread version or a corrected file.\n\nAttachments it handles include PDFs, Word documents and Excel spreadsheets. Use cases on the page include drafting answers to customer or internal emails, condensing long reports, spotting broken spreadsheet formulas or contract inconsistencies, and cleaning up grammar and style. The listing describes a small free trial without a card, then monthly plans by email volume and number of workers, plus a refund window. Exact limits and prices can change, so read the official pricing page before subscribing.",
+  "use_steps": [
+   "Create an account and set up an AI worker.",
+   "Forward an email or CC the worker's address.",
+   "Wait for its reply with the draft, summary or fixed file.",
+   "Review the result before sending or using it."
+  ],
+  "pros": [
+   "No separate app to learn",
+   "Handles PDF, Word and Excel attachments",
+   "Free trial with no card"
+  ],
+  "cons": [
+   "Monthly email caps limit heavy users",
+   "Sensitive documents go to a third-party service"
+  ],
+  "alternatives": [
+   "superhuman",
+   "shortwave",
+   "spark-mail"
+  ],
+  "tags": [
+   "email",
+   "assistant",
+   "documents",
+   "proofreading"
+  ],
+  "features": [
+   "Dedicated AI worker with its own email address",
+   "Attachment reading (PDF, Word, Excel)",
+   "Draft replies",
+   "Report summaries",
+   "Error and formula checks"
+  ],
+  "use_cases": [
+   "Drafting customer support replies",
+   "Summarizing a long report",
+   "Checking a spreadsheet for broken formulas"
+  ],
+  "pricing_details": "A short free trial and tiered monthly plans with email caps were listed. Plans change, so check the official site.",
+  "faq": [
+   {
+    "q": "How do I use PlsFixAI?",
+    "a": "Forward an email or CC your AI worker's address, and it replies with the result."
+   },
+   {
+    "q": "What files can it read?",
+    "a": "PDFs, Word documents and Excel spreadsheets were listed."
+   },
+   {
+    "q": "Is there a free trial?",
+    "a": "A small free trial without a card was listed. Check the official site for current limits."
+   }
+  ],
+  "seo_title": "PlsFixAI: Features, Pricing and Use Cases",
+  "seo_description": "An email-based AI worker that drafts replies, summarizes reports and fixes attached documents.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "jstrux",
+  "name": "Jstrux",
+  "category": "productivity",
+  "website_url": "https://www.jstrux.com/",
+  "pricing": "Freemium",
+  "tagline": "A startup toolkit that scores an idea, then builds a roadmap, financial model and business documents.",
+  "best_for": "First-time founders, consultants and business students",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Jstrux takes a business idea and tries to turn it into a structured company plan. It scores the idea, looks at competitors and market size, and drafts a phased execution roadmap with department tasks and timelines.\n\nThe financial side covers revenue models, pricing strategies, margin simulations and break-even calculations. It can also generate business plans, pitch decks and marketing strategies, give weekly AI coaching tied to the roadmap, and run simulations of different scenarios. It is pitched at first-time entrepreneurs, startup teams formalizing a plan, consultants and students modelling concepts. A free tier covers a few idea analyses; paid tiers add more and a team plan adds collaboration. Treat market and financial figures as starting estimates and verify plans on the official site.",
+  "use_steps": [
+   "Enter your business idea and its basics.",
+   "Review the idea score, competitor and market analysis.",
+   "Generate the roadmap and financial model.",
+   "Export the plan or deck and follow the weekly coaching."
+  ],
+  "pros": [
+   "Covers validation through financial modelling",
+   "Free tier for a few idea analyses",
+   "Useful structure for first-time founders"
+  ],
+  "cons": [
+   "Market estimates are AI-generated and need checking",
+   "Advanced collaboration is on the team plan"
+  ],
+  "alternatives": [
+   "gamma",
+   "notion-ai",
+   "beautiful-ai"
+  ],
+  "tags": [
+   "startup",
+   "business-plan",
+   "financial-model",
+   "validation"
+  ],
+  "features": [
+   "Idea scoring and validation",
+   "Competitor and TAM/SAM/SOM analysis",
+   "Phased execution roadmap",
+   "Financial and break-even modelling",
+   "Weekly AI coaching"
+  ],
+  "use_cases": [
+   "Testing a side-project idea",
+   "Drafting a business plan for a pitch",
+   "Modelling break-even for a class project"
+  ],
+  "pricing_details": "A free tier plus monthly or annual paid tiers and a team plan were listed. Prices change, so check the official site.",
+  "faq": [
+   {
+    "q": "What does Jstrux do?",
+    "a": "It validates a business idea, builds a roadmap and financial model, and generates plan documents."
+   },
+   {
+    "q": "Is there a free version?",
+    "a": "A free tier with a few idea analyses was listed."
+   },
+   {
+    "q": "Can I trust its market numbers?",
+    "a": "Treat them as rough AI estimates and verify with real research."
+   }
+  ],
+  "seo_title": "Jstrux: Features, Pricing and Use Cases",
+  "seo_description": "A startup toolkit that scores an idea, then builds a roadmap, financial model and business documents.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "heycaddie",
+  "name": "Heycaddie",
+  "category": "marketing",
+  "website_url": "https://heycaddie.live",
+  "pricing": "Freemium",
+  "tagline": "A live-call copilot that pulls answers from your own knowledge base while you talk to prospects or customers.",
+  "best_for": "Sales reps, customer success and support teams",
+  "platforms": [
+   "Zoom",
+   "Google Meet",
+   "Microsoft Teams"
+  ],
+  "description": "Heycaddie listens to a live call, spots the questions being asked, and surfaces answers from a private knowledge base you control. The point is to stop the awkward pause where someone says they will check and get back later.\n\nIt joins scheduled meetings on Zoom, Google Meet or Teams without manual links, and answers are grounded only in your own docs, site, pricing and emails. It can notice hesitation, flag misstated numbers, and respond to a spoken wake phrase. Unanswered questions are logged so you can fill gaps, and a dashboard keeps transcripts and analytics for coaching. It connects to Google Calendar, Gmail and Drive. The listing says it was free during a beta period and described a free tier with limited call minutes plus a custom team plan. Check the official site for the current setup.",
+  "use_steps": [
+   "Sign up and connect your calendar, Gmail and Drive.",
+   "Add your docs, pricing and site to the knowledge base.",
+   "Join a scheduled call and let it listen.",
+   "Review the transcript and fill gaps from logged questions."
+  ],
+  "pros": [
+   "Answers come only from your own content",
+   "Works on major meeting platforms",
+   "Logs gaps in the knowledge base"
+  ],
+  "cons": [
+   "Answer quality depends on your documentation",
+   "Recording calls needs consent in many places"
+  ],
+  "alternatives": [
+   "gong",
+   "fireflies-ai",
+   "read-ai"
+  ],
+  "tags": [
+   "sales",
+   "calls",
+   "copilot",
+   "knowledge-base"
+  ],
+  "features": [
+   "Live answer retrieval from a private knowledge base",
+   "Stall detection",
+   "Real-time fact checks",
+   "Voice wake command",
+   "Call transcripts and analytics"
+  ],
+  "use_cases": [
+   "Handling product questions on demo calls",
+   "Supporting complex troubleshooting calls",
+   "Coaching reps from call transcripts"
+  ],
+  "pricing_details": "A free tier with limited call minutes and a custom team plan were listed, with beta pricing noted. Check the official site.",
+  "faq": [
+   {
+    "q": "Which platforms does Heycaddie support?",
+    "a": "Zoom, Google Meet and Microsoft Teams were listed."
+   },
+   {
+    "q": "Where do the answers come from?",
+    "a": "Only from the knowledge base you provide, such as docs, website, pricing and emails."
+   },
+   {
+    "q": "Is it free?",
+    "a": "A free tier with limited call minutes was listed, and the service was in beta. Verify on the official site."
+   }
+  ],
+  "seo_title": "Heycaddie: Features, Pricing and Use Cases",
+  "seo_description": "A live-call copilot that pulls answers from your own knowledge base while you talk to prospects or customers.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "onform",
+  "name": "Onform",
+  "category": "productivity",
+  "website_url": "https://onform.work",
+  "pricing": "Freemium",
+  "tagline": "A form builder with unlimited forms and submissions that AI tools can manage through MCP.",
+  "best_for": "Developers and teams collecting leads, feedback or registrations",
+  "platforms": [
+   "Web",
+   "Self-hosted (Docker)"
+  ],
+  "description": "Onform is a form builder whose main twist is an MCP server. Tools such as Claude or Cursor can create forms, manage them and read submissions through natural-language commands, so form work can sit inside an AI workflow instead of a separate dashboard.\n\nIt also offers a conversational mode that shows one question at a time, with show-and-hide logic across a set of field types, a drag-and-drop builder and a template library. Data can sync to Google Sheets, trigger Zapier or n8n through webhooks, and send email alerts, and forms embed by link, iframe, script or popup. For regulated teams, it can be self-hosted with Docker for full data control, alongside a cloud option. The listing shows a limited free tier and annual paid plans without per-response fees; confirm current terms on the official site.",
+  "use_steps": [
+   "Create an account or deploy the Docker version.",
+   "Build a form by dragging fields or asking an AI tool through MCP.",
+   "Embed it with a link, iframe or script.",
+   "Review submissions and sync them to Sheets or a webhook."
+  ],
+  "pros": [
+   "MCP support lets AI tools manage forms",
+   "Self-hosting option for data control",
+   "No per-response fees on paid plans"
+  ],
+  "cons": [
+   "Free tier is capped on forms and responses",
+   "MCP setup suits technical users best"
+  ],
+  "alternatives": [
+   "typebot",
+   "airtable",
+   "softr"
+  ],
+  "tags": [
+   "forms",
+   "mcp",
+   "self-hosted",
+   "lead-capture"
+  ],
+  "features": [
+   "Built-in MCP server",
+   "Conversational one-question-at-a-time mode",
+   "Drag-and-drop builder and templates",
+   "Google Sheets sync and webhooks",
+   "Self-hosting with Docker"
+  ],
+  "use_cases": [
+   "Lead capture forms",
+   "Customer feedback surveys",
+   "Event registration"
+  ],
+  "pricing_details": "A free tier and annual paid plans plus custom self-hosted terms were listed. Plans change, so check the official site.",
+  "faq": [
+   {
+    "q": "What makes Onform MCP-native?",
+    "a": "It has a built-in MCP server so AI tools can create and manage forms and read submissions."
+   },
+   {
+    "q": "Can I self-host it?",
+    "a": "Yes, a Docker deployment was listed for data control."
+   },
+   {
+    "q": "Is there a free plan?",
+    "a": "A free tier with a limited number of forms and monthly responses was listed."
+   }
+  ],
+  "seo_title": "Onform: Features, Pricing and Use Cases",
+  "seo_description": "A form builder with unlimited forms and submissions that AI tools can manage through MCP.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "plurai",
+  "name": "Plurai",
+  "category": "coding",
+  "website_url": "https://www.plurai.ai",
+  "pricing": "Freemium",
+  "tagline": "A platform for simulating, evaluating and guarding production AI agents.",
+  "best_for": "AI and MLOps teams shipping conversational agents",
+  "platforms": [
+   "Web",
+   "API"
+  ],
+  "description": "Plurai describes itself as a trust platform for AI agents. Teams use it to generate synthetic test scenarios, evaluate agent behavior against their own policies, and put guardrails around agents once they are live.\n\nThe simulation engine can create scenarios including voice and document inputs, tailored to the product and its rules. Evaluation and runtime protection use small language models, which the vendor says are far cheaper than calling a large model for the same check; that figure is a vendor claim. It plugs into CI/CD pipelines for automated testing, and enterprise options include on-prem deployment and single sign-on. The listing describes a free starter allowance, usage-based pay-as-you-go pricing and custom business terms. Check the official site for current rates.",
+  "use_steps": [
+   "Sign up and connect your agent or endpoint.",
+   "Generate synthetic test scenarios for your use case.",
+   "Run evaluations and review failures.",
+   "Turn on guardrails for the production agent."
+  ],
+  "pros": [
+   "Covers testing and runtime protection together",
+   "CI/CD integration",
+   "Free starter allowance"
+  ],
+  "cons": [
+   "Cost claims are the vendor's own",
+   "Best suited to teams that already run agents"
+  ],
+  "alternatives": [
+   "guardrails-ai",
+   "promptfoo",
+   "langsmith"
+  ],
+  "tags": [
+   "ai-agents",
+   "evaluation",
+   "guardrails",
+   "testing"
+  ],
+  "features": [
+   "Simulation engine for test scenarios",
+   "Small-model evaluations",
+   "Real-time guardrails",
+   "CI/CD integration",
+   "On-prem and SSO options"
+  ],
+  "use_cases": [
+   "Testing a support agent before launch",
+   "Blocking policy violations in production",
+   "Regression testing after prompt changes"
+  ],
+  "pricing_details": "A free starter allowance, pay-as-you-go tokens and custom enterprise terms were listed. Rates change, so check the official site.",
+  "faq": [
+   {
+    "q": "What does Plurai do?",
+    "a": "It simulates, evaluates and adds guardrails to AI agents in production."
+   },
+   {
+    "q": "Who is it for?",
+    "a": "AI development and MLOps teams, especially those with compliance requirements."
+   },
+   {
+    "q": "Can it be deployed on-prem?",
+    "a": "On-prem deployment was listed for enterprise customers."
+   }
+  ],
+  "seo_title": "Plurai: Features, Pricing and Use Cases",
+  "seo_description": "A platform for simulating, evaluating and guarding production AI agents.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "getlinkai",
+  "name": "Link AI",
+  "category": "chat-assistants",
+  "website_url": "https://www.getlinkai.com/",
+  "pricing": "Freemium",
+  "tagline": "A no-code suite for building conversational agents across web chat, WhatsApp, Instagram, SMS and phone.",
+  "best_for": "Small businesses and service teams automating customer conversations",
+  "platforms": [
+   "Web",
+   "WhatsApp",
+   "Instagram",
+   "SMS",
+   "Voice"
+  ],
+  "description": "Link AI (listed as Getlinkai) lets a business build conversational agents without code and deploy them where customers already talk: website chat, WhatsApp, Instagram, Messenger, SMS and phone calls. Agents handle bookings, order processing, support questions and data collection.\n\nAutomation covers follow-ups, CRM updates and ticket creation. Voice agents can answer calls on your own number, orders can include payment links, and calendar booking syncs with Google Calendar. Agents learn from uploaded knowledge, and an in-dashboard assistant helps manage agents, tickets and contacts. Integrations include Stripe, Slack and Zapier. The listing describes a limited free plan, a trial of the growth tier and tiered monthly plans with message allowances and overages. Because message and voice usage affect cost, read the official pricing page first.",
+  "use_steps": [
+   "Create an account and add your knowledge base.",
+   "Build an agent and choose its channels.",
+   "Connect calendar, payments or CRM integrations.",
+   "Test conversations, then go live and monitor tickets."
+  ],
+  "pros": [
+   "Many channels from one builder",
+   "Voice agents on your own number",
+   "Free plan and trial to test"
+  ],
+  "cons": [
+   "Usage-based overages can add up",
+   "Voice and phone need higher plans"
+  ],
+  "alternatives": [
+   "botpress",
+   "tidio",
+   "chatfuel"
+  ],
+  "tags": [
+   "chatbot",
+   "voice-agent",
+   "whatsapp",
+   "customer-support"
+  ],
+  "features": [
+   "Agents on web, WhatsApp, Instagram, SMS and phone",
+   "Workflow automation and CRM updates",
+   "Voice agents",
+   "Order management with payment links",
+   "Calendar booking"
+  ],
+  "use_cases": [
+   "Booking appointments by WhatsApp",
+   "Answering phone calls for a clinic",
+   "Taking orders with payment links"
+  ],
+  "pricing_details": "A limited free plan, a trial and tiered monthly plans with overages were listed. Prices change, so check the official site.",
+  "faq": [
+   {
+    "q": "Which channels does it support?",
+    "a": "Web chat, WhatsApp, Instagram, Messenger, SMS and phone calls."
+   },
+   {
+    "q": "Do I need to code?",
+    "a": "No, it is a no-code builder."
+   },
+   {
+    "q": "Are there extra usage charges?",
+    "a": "Overage rates for messages, searches and voice minutes were listed. Check the official site."
+   }
+  ],
+  "seo_title": "Link AI: Features, Pricing and Use Cases",
+  "seo_description": "A no-code suite for building conversational agents across web chat, WhatsApp, Instagram, SMS and phone.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "infros",
+  "name": "Infros",
+  "category": "coding",
+  "website_url": "https://infros.io/",
+  "pricing": "Free trial",
+  "tagline": "An AI platform that designs and validates cloud architectures and outputs Terraform.",
+  "best_for": "Cloud architects, DevOps engineers and FinOps teams",
+  "platforms": [
+   "AWS",
+   "Azure",
+   "Google Cloud"
+  ],
+  "description": "Infros designs cloud architectures and tests them before anything is provisioned. It emulates and benchmarks candidate designs in a sandbox, searches a wide space of options, and can reverse-engineer requirements from an architecture you already run.\n\nOutput arrives as ready-to-deploy Terraform with documentation and policy and cost guardrails built in. After deployment, it aims to keep governing the setup as workloads change, and it supports migrations from on-premises or another cloud with minimal downtime. Pricing is credit-based: a trial of credits, then monthly tiers where actions such as a design or a simulation use credits that last a year. Claims about spend reduction and design speed are the vendor's, not independently confirmed. Check the official site for plans.",
+  "use_steps": [
+   "Describe the workload and constraints, or import an existing architecture.",
+   "Let it generate and emulate candidate designs.",
+   "Review benchmarks and cost estimates.",
+   "Export the Terraform and apply it in your pipeline."
+  ],
+  "pros": [
+   "Validates designs before deployment",
+   "Terraform output with guardrails",
+   "Covers AWS, Azure and GCP"
+  ],
+  "cons": [
+   "Credit costs per action need watching",
+   "Savings claims are unverified"
+  ],
+  "alternatives": [],
+  "tags": [
+   "cloud",
+   "terraform",
+   "finops",
+   "architecture"
+  ],
+  "features": [
+   "Emulation-based design validation",
+   "Solution-space search",
+   "Terraform output",
+   "Continuous governance",
+   "Migration support"
+  ],
+  "use_cases": [
+   "Designing a new AWS deployment",
+   "Planning a cloud migration",
+   "Reviewing an existing setup for cost"
+  ],
+  "pricing_details": "A credit trial and credit-based monthly tiers were listed, with credits valid for a year. Plans change, so check the official site.",
+  "faq": [
+   {
+    "q": "What does Infros output?",
+    "a": "Ready-to-deploy Terraform code with documentation and guardrails."
+   },
+   {
+    "q": "Which clouds does it cover?",
+    "a": "AWS, Azure, Google Cloud, plus hybrid and on-prem environments."
+   },
+   {
+    "q": "How is it priced?",
+    "a": "By credits consumed per action, with a trial allowance. Check the official site."
+   }
+  ],
+  "seo_title": "Infros: Features, Pricing and Use Cases",
+  "seo_description": "An AI platform that designs and validates cloud architectures and outputs Terraform.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "pinza",
+  "name": "Pinza",
+  "category": "productivity",
+  "website_url": "https://pinza.ai",
+  "pricing": "Paid",
+  "tagline": "A managed service that sets up and hosts a personal AI assistant for email, calendar and lead tasks.",
+  "best_for": "Freelancers and small businesses that do not want to run servers",
+  "platforms": [
+   "Web",
+   "Telegram"
+  ],
+  "description": "Pinza sets up and hosts a personal OpenClaw AI assistant on your behalf, so you do not touch servers or configuration. According to the page, setup takes under a day, and the assistant then helps with things like scheduling meetings, summarizing email and managing leads.\n\nIt is aimed at freelancers and small to mid-sized businesses, with lawyers, consultants, dentists, real estate agents, coaches and accountants given as examples. The service is maintained and updated for you, available around the clock, and connects to Gmail, calendars, Telegram and sales platforms. Keys and data are encrypted with AES-256. Plans are monthly subscriptions you can cancel anytime, in euro-priced tiers, plus a custom plan for teams. Discount labels on the page may change, so confirm what is current on the official site.",
+  "use_steps": [
+   "Pick a plan on the site.",
+   "Share which accounts and tools the assistant should use.",
+   "Wait for setup, usually within a day.",
+   "Message the assistant and refine what you delegate."
+  ],
+  "pros": [
+   "No servers or coding needed",
+   "Maintained and updated for you",
+   "Cancel anytime"
+  ],
+  "cons": [
+   "Paid only, with no free tier listed",
+   "You rely on a third party for hosting your assistant"
+  ],
+  "alternatives": [
+   "lindy",
+   "motion",
+   "reclaim-ai"
+  ],
+  "tags": [
+   "assistant",
+   "managed-service",
+   "email",
+   "scheduling"
+  ],
+  "features": [
+   "Managed hosting of an OpenClaw assistant",
+   "Setup within about 24 hours",
+   "Gmail, calendar and Telegram integrations",
+   "AES-256 encryption",
+   "Automatic updates"
+  ],
+  "use_cases": [
+   "Triaging a busy inbox",
+   "Scheduling client meetings",
+   "Tracking incoming leads"
+  ],
+  "pricing_details": "Monthly euro-priced tiers plus custom team pricing were listed. Prices and discounts change, so check the official site.",
+  "faq": [
+   {
+    "q": "What is Pinza?",
+    "a": "A managed service that sets up and hosts a personal OpenClaw AI assistant for you."
+   },
+   {
+    "q": "How fast is setup?",
+    "a": "The page says usually within 24 hours."
+   },
+   {
+    "q": "Can I cancel?",
+    "a": "Subscriptions were described as cancel-anytime with no long-term commitment."
+   }
+  ],
+  "seo_title": "Pinza: Features, Pricing and Use Cases",
+  "seo_description": "A managed service that sets up and hosts a personal AI assistant for email, calendar and lead tasks.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "wurlo",
+  "name": "Wurlo",
+  "category": "study",
+  "website_url": "https://wurlo.org/",
+  "pricing": "Unknown",
+  "tagline": "An AI platform that builds personalized, adaptive math courses.",
+  "best_for": "Students and adult learners who want a tailored math path",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Wurlo builds a math course around what you already know. A placement test maps your gaps at the start, so the course skips material you have covered, and quiz results reshape the remaining modules as you go.\n\nContent comes in several forms: short text lessons, curated YouTube videos, and AI-generated podcasts and explainer videos. The roadmap is tied to a goal and regenerates after each milestone. The page names students preparing for exams such as the GCSE, professionals brushing up for roles like data science or engineering, and lifelong learners. Pricing and supported platforms were not stated in the listing, so check the official site for plans and for how well it works on a phone before you commit.",
+  "use_steps": [
+   "Set your goal, such as an exam or a job skill.",
+   "Take the placement test.",
+   "Work through the generated modules and quizzes.",
+   "Let the roadmap update and continue after each milestone."
+  ],
+  "pros": [
+   "Skips topics you already know",
+   "Mixes text, video and audio",
+   "Roadmap adapts after each quiz"
+  ],
+  "cons": [
+   "Pricing was not stated",
+   "AI-generated content should be checked against a trusted syllabus"
+  ],
+  "alternatives": [
+   "khan-academy-khanmigo",
+   "brilliant",
+   "mathway"
+  ],
+  "tags": [
+   "math",
+   "adaptive-learning",
+   "placement-test",
+   "gcse"
+  ],
+  "features": [
+   "Placement test",
+   "Adaptive quizzes",
+   "Text lessons and curated videos",
+   "AI podcasts and explainers",
+   "Goal-locked roadmap"
+  ],
+  "use_cases": [
+   "Preparing for a GCSE maths exam",
+   "Refreshing math for a data job",
+   "Self-paced adult learning"
+  ],
+  "pricing_details": "Pricing was not stated. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "How does Wurlo personalize a course?",
+    "a": "Through a placement test and quiz results that reshape the remaining modules."
+   },
+   {
+    "q": "What formats does it use?",
+    "a": "Short text lessons, curated YouTube videos and AI-generated podcasts and explainers."
+   },
+   {
+    "q": "How much does it cost?",
+    "a": "The listing did not say. Check the official site."
+   }
+  ],
+  "seo_title": "Wurlo: Features, Pricing and Use Cases",
+  "seo_description": "An AI platform that builds personalized, adaptive math courses.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "kollab",
+  "name": "Kollab",
+  "category": "productivity",
+  "website_url": "https://kollab.im/",
+  "pricing": "Freemium",
+  "tagline": "A shared AI workspace that runs tasks and scheduled jobs on a credit system with unlimited seats.",
+  "best_for": "Teams wanting shared access to AI without per-seat fees",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Kollab is a workspace where a team runs AI tasks together, manages scheduled tasks and watches several sessions at once. Instead of charging per seat, it uses credits, and every plan allows unlimited team members.\n\nCredits come in three flavors: daily refresh credits, monthly subscription credits and top-up packs that do not expire. Tiers differ in the number of concurrent sessions and scheduled tasks and in storage, from a free level suited to small teams to higher tiers for heavy workloads. The page suggests uses such as content creation, code generation, data analysis and research. Billing runs through Stripe. Credit amounts and prices are listed on the page, but they may change, so confirm them on the official site.",
+  "use_steps": [
+   "Sign up with email or Google.",
+   "Invite teammates; seats are not capped.",
+   "Run tasks and set up scheduled jobs.",
+   "Monitor credit use and top up if needed."
+  ],
+  "pros": [
+   "No per-seat pricing",
+   "Free tier to try",
+   "Top-up credits do not expire"
+  ],
+  "cons": [
+   "Credit use can be hard to predict",
+   "Free tier has small limits"
+  ],
+  "alternatives": [
+   "taskade",
+   "coda",
+   "notion-ai"
+  ],
+  "tags": [
+   "workspace",
+   "credits",
+   "team",
+   "scheduled-tasks"
+  ],
+  "features": [
+   "Credit-based billing",
+   "Unlimited team seats",
+   "Concurrent sessions",
+   "Scheduled tasks",
+   "Stripe billing"
+  ],
+  "use_cases": [
+   "Shared research tasks",
+   "Recurring content jobs",
+   "Team data analysis"
+  ],
+  "pricing_details": "A free tier, monthly paid tiers and top-up packs were listed. Prices change, so check the official site.",
+  "faq": [
+   {
+    "q": "Does Kollab charge per seat?",
+    "a": "No, all plans allow unlimited team seats and use credits instead."
+   },
+   {
+    "q": "Do credits expire?",
+    "a": "Top-up pack credits were described as non-expiring; daily credits refresh."
+   },
+   {
+    "q": "Is there a free tier?",
+    "a": "Yes, with daily credits and lower limits on sessions and tasks."
+   }
+  ],
+  "seo_title": "Kollab: Features, Pricing and Use Cases",
+  "seo_description": "A shared AI workspace that runs tasks and scheduled jobs on a credit system with unlimited seats.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "jentic",
+  "name": "Jentic",
+  "category": "coding",
+  "website_url": "https://jentic.com/",
+  "pricing": "Freemium",
+  "tagline": "An enterprise layer that governs how AI agents securely call internal and public APIs.",
+  "best_for": "Platform, dev and security teams putting agents into production",
+  "platforms": [
+   "Web",
+   "API"
+  ],
+  "description": "Jentic sits between AI agents and the APIs they need. It handles integration, workflow orchestration and governance, and is built on the open OpenAPI and Arazzo standards, so it is not tied to one model or cloud.\n\nTeams can ingest and score internal APIs and connect to a large catalog of public SaaS APIs. An agentic sandbox lets you test behavior in simulated systems and convert successful runs into Arazzo workflows. Governance features include role-based access, policy enforcement, credential management and audit logs, and execution is separated from exploration so credentials stay protected. It works with existing identity and secrets managers. A core edition is free for a single user with access to public APIs; the enterprise edition has custom pricing and flexible hosting. Check the official site for details.",
+  "use_steps": [
+   "Connect your internal APIs or pick from the public catalog.",
+   "Test an agent against the sandbox.",
+   "Turn successful runs into reusable workflows.",
+   "Apply access policies and watch the audit log."
+  ],
+  "pros": [
+   "Built on open API standards",
+   "Governance with audit logs",
+   "Free single-user core edition"
+  ],
+  "cons": [
+   "Enterprise features need a sales conversation",
+   "Aimed at teams with real agent workloads"
+  ],
+  "alternatives": [
+   "zapier",
+   "pipedream",
+   "n8n"
+  ],
+  "tags": [
+   "api",
+   "agents",
+   "governance",
+   "enterprise"
+  ],
+  "features": [
+   "API ingestion and scoring",
+   "Agentic sandbox",
+   "Arazzo workflows",
+   "Role-based access and audit logs",
+   "Vendor-neutral design"
+  ],
+  "use_cases": [
+   "Governing agent access to internal APIs",
+   "Prototyping agent workflows safely",
+   "Meeting compliance requirements"
+  ],
+  "pricing_details": "A free core edition and custom enterprise pricing were listed. Check the official site for current terms.",
+  "faq": [
+   {
+    "q": "What standards does Jentic use?",
+    "a": "OpenAPI and Arazzo."
+   },
+   {
+    "q": "Is there a free edition?",
+    "a": "A free core edition for one user was listed."
+   },
+   {
+    "q": "Which models does it work with?",
+    "a": "It is described as vendor-neutral, working with any agent, model or cloud."
+   }
+  ],
+  "seo_title": "Jentic: Features, Pricing and Use Cases",
+  "seo_description": "An enterprise layer that governs how AI agents securely call internal and public APIs.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "people-loop",
+  "name": "People Loop",
+  "category": "chat-assistants",
+  "website_url": "https://peopleloop.io/",
+  "pricing": "Freemium",
+  "tagline": "A no-code support chatbot platform that hands tricky conversations to human agents.",
+  "best_for": "Businesses wanting support bots without developers",
+  "platforms": [
+   "Web",
+   "WhatsApp",
+   "Slack"
+  ],
+  "description": "People Loop builds chatbots that answer customer questions with large language models, trained on your own documents, policies and FAQs. The distinguishing feature is escalation: when a conversation shows frustration or confusion, it transfers to a human through a desk interface.\n\nSetup is no-code, aimed at non-technical teams, and the same knowledge base can power internal retrieval and lead capture. It integrates with tools such as Slack, HubSpot, Salesforce, WhatsApp, Notion, Zapier and Shopify, and chat history analytics help spot knowledge gaps. Plans scale by message volume, number of bots and whether human escalation is metered; there is a free plan, a trial on paid ones and discounts for annual billing. Add-ons cover extra seats and removing branding. Check the official site for what is current.",
+  "use_steps": [
+   "Create a bot and upload your documents and FAQs.",
+   "Configure escalation to human agents.",
+   "Embed the widget or connect WhatsApp or Slack.",
+   "Review chat analytics to fill knowledge gaps."
+  ],
+  "pros": [
+   "Human escalation built in",
+   "No-code setup",
+   "Free plan and trial"
+  ],
+  "cons": [
+   "Message limits by tier",
+   "Quality depends on the documents you provide"
+  ],
+  "alternatives": [
+   "intercom",
+   "tidio",
+   "ada"
+  ],
+  "tags": [
+   "chatbot",
+   "support",
+   "escalation",
+   "no-code"
+  ],
+  "features": [
+   "Human escalation on frustration",
+   "Semantic-search knowledge base",
+   "No-code agent creation",
+   "Integrations with CRM and chat tools",
+   "Chat analytics"
+  ],
+  "use_cases": [
+   "Website support bot",
+   "Internal knowledge lookup",
+   "Lead capture"
+  ],
+  "pricing_details": "A free plan, paid tiers by message volume and add-ons were listed. Prices change, so check the official site.",
+  "faq": [
+   {
+    "q": "How does escalation work?",
+    "a": "It detects frustration or confusion and transfers the chat to a human."
+   },
+   {
+    "q": "Do I need developers?",
+    "a": "No, bots are created without code."
+   },
+   {
+    "q": "Is there a free plan?",
+    "a": "A free plan and a trial on paid plans were listed."
+   }
+  ],
+  "seo_title": "People Loop: Features, Pricing and Use Cases",
+  "seo_description": "A no-code support chatbot platform that hands tricky conversations to human agents.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "naadi",
+  "name": "NAADI",
+  "category": "productivity",
+  "website_url": "https://naadiai.com",
+  "pricing": "Freemium",
+  "tagline": "A corporation tax platform for UK accounting practices that estimates tax early from bookkeeping data.",
+  "best_for": "UK accounting practices serving SME clients",
+  "platforms": [
+   "Web"
+  ],
+  "description": "NAADI is built for UK accountants who want to talk about corporation tax before the year ends rather than after. It takes bookkeeping data, estimates the position early, and highlights reliefs and savings that might otherwise be missed.\n\nThe workflow is three steps: export data from Xero, QuickBooks, Sage or FreeAgent, upload it, and review the breakdown. It classifies transactions, flags anomalies and risks, and keeps an audit trail of the working for each calculation. Clients can see a plain-English view of their position. The pitch is advisory capacity without more admin. The listing calls it freemium but does not say what the free level contains or what paid plans cost, and tax outputs are estimates, so review them professionally. Check the official site.",
+  "use_steps": [
+   "Export bookkeeping data from your accounting software.",
+   "Upload it to NAADI.",
+   "Review the estimate, reliefs and flagged risks.",
+   "Share the client view and keep the audit trail."
+  ],
+  "pros": [
+   "Works from existing bookkeeping exports",
+   "Audit trail for each calculation",
+   "Early estimates support advisory work"
+  ],
+  "cons": [
+   "UK corporation tax only",
+   "Plan details were not stated"
+  ],
+  "alternatives": [
+   "xero",
+   "quickbooks",
+   "zoho-books"
+  ],
+  "tags": [
+   "tax",
+   "accounting",
+   "uk",
+   "corporation-tax"
+  ],
+  "features": [
+   "Corporation tax estimation",
+   "Transaction classification",
+   "Relief identification",
+   "Risk flagging",
+   "Audit trail"
+  ],
+  "use_cases": [
+   "Mid-year tax planning for clients",
+   "Spotting missed reliefs",
+   "Preparing advisory conversations"
+  ],
+  "pricing_details": "Listed as freemium without prices. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "Which accounting systems does it work with?",
+    "a": "Data exported from Xero, QuickBooks, Sage and FreeAgent."
+   },
+   {
+    "q": "Is it for individuals?",
+    "a": "No, it targets UK accounting practices and their SME clients."
+   },
+   {
+    "q": "Are the figures final?",
+    "a": "They are estimates for planning and should be reviewed by a professional."
+   }
+  ],
+  "seo_title": "NAADI: Features, Pricing and Use Cases",
+  "seo_description": "A corporation tax platform for UK accounting practices that estimates tax early from bookkeeping data.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "raccoon-ai",
+  "name": "Raccoon AI",
+  "category": "productivity",
+  "website_url": "https://raccoonai.tech",
+  "pricing": "Freemium",
+  "tagline": "A collaborative agent workspace that builds apps, presentations and reports from conversation.",
+  "best_for": "Marketers, developers, analysts and business teams",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Raccoon AI is an agentic workspace where you describe a task in chat and it produces the result: a web app, a presentation, a document, a data analysis or media assets. It can connect to services like Gmail and Google Calendar and use uploaded files as context.\n\nApps get live previews and can be deployed to a production URL with SSL. Presentations and documents export in several formats, data analysis includes visualization, and a media studio handles images and video. There are dozens of connectors, several agent modes that trade speed against depth, and reusable skills and subagents. The workspace includes a file explorer, inline editors and code sandboxes. The listing shows a free tier and several paid tiers with launch discounts; those offers may have ended, so check the official site.",
+  "use_steps": [
+   "Sign in and describe what you want built.",
+   "Connect Gmail, Calendar or other services if needed.",
+   "Preview the output and refine it in chat.",
+   "Export or deploy the result."
+  ],
+  "pros": [
+   "Wide range of outputs from one chat",
+   "One-click deployment of apps",
+   "Free tier available"
+  ],
+  "cons": [
+   "Usage limits differ by tier",
+   "Generated apps and reports need review"
+  ],
+  "alternatives": [
+   "manus",
+   "genspark",
+   "gamma"
+  ],
+  "tags": [
+   "agent",
+   "workspace",
+   "app-builder",
+   "presentations"
+  ],
+  "features": [
+   "Web app builder with deployment",
+   "Presentation and document creation",
+   "Data analysis",
+   "Media studio",
+   "40+ connectors"
+  ],
+  "use_cases": [
+   "Building a landing page",
+   "Drafting a deck from notes",
+   "Analyzing a spreadsheet"
+  ],
+  "pricing_details": "A free tier and tiered paid plans with launch discounts were listed. Offers change, so check the official site.",
+  "faq": [
+   {
+    "q": "What can Raccoon AI create?",
+    "a": "Web apps, presentations, documents, data analyses, images and video."
+   },
+   {
+    "q": "Can it deploy apps?",
+    "a": "Yes, to a production URL with SSL, per the listing."
+   },
+   {
+    "q": "Is there a free tier?",
+    "a": "Yes, with standard limits and one concurrent task."
+   }
+  ],
+  "seo_title": "Raccoon AI: Features, Pricing and Use Cases",
+  "seo_description": "A collaborative agent workspace that builds apps, presentations and reports from conversation.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "memoriq",
+  "name": "Memoriq",
+  "category": "research",
+  "website_url": "https://memoriq.me",
+  "pricing": "Freemium",
+  "tagline": "An encrypted, searchable archive for your ChatGPT, Claude, Gemini and Grok conversations.",
+  "best_for": "People who do long research or planning across several AI assistants",
+  "platforms": [
+   "Web",
+   "Chrome extension",
+   "Self-hosted"
+  ],
+  "description": "Memoriq saves chats from several AI assistants into one place you can search. A Chrome extension captures a conversation in one click, and you can also import exported conversations by hand.\n\nChats are encrypted on your device with AES-256 before upload, so the service cannot read them. You can organize by project, tag, source and date, reopen a conversation in its original formatting, and export or delete your data at any time. The code is open source under AGPL, so you can audit it or self-host. The page describes a free hosted version without listing paid prices, so check the official site for current limits. It is useful if your best thinking is scattered across several chat apps and you keep losing it.",
+  "use_steps": [
+   "Install the Chrome extension and sign in.",
+   "Save conversations from your AI chat sites.",
+   "Tag and organize them by project.",
+   "Search across providers when you need an old answer."
+  ],
+  "pros": [
+   "Client-side encryption",
+   "Searches across several AI providers",
+   "Open source and self-hostable"
+  ],
+  "cons": [
+   "Needs a Chrome extension for easy capture",
+   "Paid plan details were not stated"
+  ],
+  "alternatives": [
+   "mem",
+   "notion-ai",
+   "capacities"
+  ],
+  "tags": [
+   "chat-archive",
+   "encryption",
+   "open-source",
+   "knowledge"
+  ],
+  "features": [
+   "Client-side AES-256 encryption",
+   "Chrome extension capture",
+   "Manual import",
+   "Cross-provider search",
+   "Export and delete anytime"
+  ],
+  "use_cases": [
+   "Archiving research chats",
+   "Finding an old prompt result",
+   "Keeping project discussions together"
+  ],
+  "pricing_details": "A free hosted version was described; paid details were not stated. Check the official site.",
+  "faq": [
+   {
+    "q": "Can Memoriq read my chats?",
+    "a": "The page says chats are encrypted on your device before upload so the service cannot read them."
+   },
+   {
+    "q": "Which assistants work?",
+    "a": "ChatGPT, Claude, Gemini and Grok were named."
+   },
+   {
+    "q": "Is it open source?",
+    "a": "Yes, under AGPL, with self-hosting possible."
+   }
+  ],
+  "seo_title": "Memoriq: Features, Pricing and Use Cases",
+  "seo_description": "An encrypted, searchable archive for your ChatGPT, Claude, Gemini and Grok conversations.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "audexa",
+  "name": "Audexa",
+  "category": "audio",
+  "website_url": "https://audexa.app",
+  "pricing": "Freemium",
+  "tagline": "An app that turns topics, news, email and calendar into short two-host audio briefings.",
+  "best_for": "Busy people who prefer listening to reading",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "Audexa produces short podcast-style briefings. You pick a topic, or point it at news, emails or calendar events, and two AI hosts discuss the material in an episode that usually runs around ten minutes and includes sources.\n\nPersonalized daily briefings can be built from topics you bookmark, and the page says an episode generates in a couple of minutes. Email and calendar summaries can be read aloud in the same format. Topics, bookmarks and listening progress sync across devices, with apps on iOS and Android as well as a web version. The listing says you can start free and that premium removes ads and allows offline downloads, but it gives no prices. As with any AI summary, check the cited sources before relying on details.",
+  "use_steps": [
+   "Open the app and choose a topic or connect email and calendar.",
+   "Generate a briefing and listen to the two hosts.",
+   "Bookmark topics for a daily briefing.",
+   "Open the cited sources for anything important."
+  ],
+  "pros": [
+   "Short, sourced episodes",
+   "Works on web, iOS and Android",
+   "Can summarize email and calendar"
+  ],
+  "cons": [
+   "Premium prices were not stated",
+   "Summaries may miss nuance"
+  ],
+  "alternatives": [
+   "notebooklm",
+   "podcastle",
+   "speechify"
+  ],
+  "tags": [
+   "podcast",
+   "briefing",
+   "audio",
+   "summaries"
+  ],
+  "features": [
+   "Two-host AI briefings",
+   "Sources included",
+   "Daily personalized briefings",
+   "Email and calendar summaries",
+   "Cross-device sync"
+  ],
+  "use_cases": [
+   "Commute news catch-up",
+   "Learning a topic quickly",
+   "Hearing your day's schedule"
+  ],
+  "pricing_details": "A free start with premium for ad-free listening and downloads was listed. Check the official site for plans.",
+  "faq": [
+   {
+    "q": "What is an Audexa briefing?",
+    "a": "A short podcast-style discussion between two AI hosts about a topic, with sources."
+   },
+   {
+    "q": "Where does it run?",
+    "a": "Web, iOS and Android were listed."
+   },
+   {
+    "q": "What does premium add?",
+    "a": "Ad-free listening and offline downloads, per the listing."
+   }
+  ],
+  "seo_title": "Audexa: Features, Pricing and Use Cases",
+  "seo_description": "An app that turns topics, news, email and calendar into short two-host audio briefings.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "creem",
+  "name": "Creem",
+  "category": "productivity",
+  "website_url": "https://www.creem.io/",
+  "pricing": "Paid",
+  "tagline": "A merchant-of-record payments platform that handles global tax, fraud and payouts for online sellers.",
+  "best_for": "SaaS founders, AI startups and indie hackers selling globally",
+  "platforms": [
+   "Web",
+   "API",
+   "CLI"
+  ],
+  "description": "Creem acts as the merchant of record for online sales. That means it takes on payment processing, sales tax and VAT compliance, refunds, chargebacks and currency conversion, so a small team can sell to customers in many countries without registering everywhere.\n\nIt supports subscriptions, trials, one-time purchases and discount codes, recovers failed payments, and automates revenue splits and scheduled payouts. An AI assistant answers plain-language questions about payment data, such as revenue trends and churn, and AI-based fraud prevention is included. A developer API handles integration. The page states a per-transaction percentage plus a fixed fee with no monthly subscription, and makes comparisons with competitors that are the vendor's own claims. Check the official site for current rates and supported countries.",
+  "use_steps": [
+   "Create an account and add your products.",
+   "Integrate checkout through the API or links.",
+   "Set up payouts and any revenue splits.",
+   "Use the assistant to review revenue and churn."
+  ],
+  "pros": [
+   "Tax compliance handled for you",
+   "No monthly fee listed",
+   "Revenue splits and payouts"
+  ],
+  "cons": [
+   "Per-transaction fees apply",
+   "Competitor comparisons are vendor claims"
+  ],
+  "alternatives": [],
+  "tags": [
+   "payments",
+   "merchant-of-record",
+   "saas",
+   "tax"
+  ],
+  "features": [
+   "Merchant of record services",
+   "100+ country coverage",
+   "AI business assistant",
+   "Fraud prevention",
+   "Failed payment recovery"
+  ],
+  "use_cases": [
+   "Selling a SaaS globally",
+   "Revenue sharing with partners",
+   "Handling VAT without registrations"
+  ],
+  "pricing_details": "Described as a per-transaction fee with no monthly cost. Rates change, so check the official site.",
+  "faq": [
+   {
+    "q": "What is a merchant of record?",
+    "a": "The seller of record who handles tax, refunds and chargebacks on your behalf."
+   },
+   {
+    "q": "Is there a monthly fee?",
+    "a": "The page lists a per-transaction fee with no subscription."
+   },
+   {
+    "q": "Can I query my data?",
+    "a": "Yes, through an AI assistant for payment analytics."
+   }
+  ],
+  "seo_title": "Creem: Features, Pricing and Use Cases",
+  "seo_description": "A merchant-of-record payments platform that handles global tax, fraud and payouts for online sellers.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "quickrecruit",
+  "name": "Quick Recruit",
+  "category": "career",
+  "website_url": "https://quickrecruit.com/",
+  "pricing": "Freemium",
+  "tagline": "An AI recruiting platform covering ATS, resume screening, scheduling and video interviews.",
+  "best_for": "Tech companies, campus recruiters, startups and agencies",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Quick Recruit packages most of the hiring pipeline in one dashboard. It includes an applicant tracking system and talent CRM, AI resume screening and candidate matching, and automated interview scheduling.\n\nA video interviewing tool adds a coding environment, proctoring and recordings, and an interview-as-a-service option outsources technical interviews to a network of vetted experts. There are campus recruitment features for events and graduate programs, free candidate tools such as a resume builder and ATS resume checker, and integrations with many ATS platforms. The vendor says it can speed up hiring considerably, a claim that is unverified. Candidate tools are free; business pricing was not listed and may require contacting sales. Check the official site and keep humans in hiring decisions.",
+  "use_steps": [
+   "Create job postings in the dashboard.",
+   "Let AI screen and match resumes.",
+   "Schedule interviews or use the video platform.",
+   "Review feedback and move candidates forward."
+  ],
+  "pros": [
+   "Broad pipeline in one tool",
+   "Technical interview outsourcing",
+   "Free tools for candidates"
+  ],
+  "cons": [
+   "Business pricing is not public",
+   "Speed claims are vendor-stated"
+  ],
+  "alternatives": [
+   "greenhouse",
+   "workable",
+   "ashby"
+  ],
+  "tags": [
+   "recruiting",
+   "ats",
+   "interviews",
+   "resume-screening"
+  ],
+  "features": [
+   "ATS and talent CRM",
+   "AI resume screening",
+   "Automated scheduling",
+   "Video interviews with coding",
+   "Interview as a service"
+  ],
+  "use_cases": [
+   "High-volume engineering hiring",
+   "Campus recruitment",
+   "Agency candidate management"
+  ],
+  "pricing_details": "Free candidate tools and unlisted business pricing. Contact the vendor via the official site.",
+  "faq": [
+   {
+    "q": "What does Quick Recruit cover?",
+    "a": "ATS, AI screening, scheduling, video interviews and outsourced technical interviews."
+   },
+   {
+    "q": "Are there free tools?",
+    "a": "Yes, for candidates, such as a resume builder and ATS checker."
+   },
+   {
+    "q": "Is pricing listed?",
+    "a": "Not for business plans; check the official site."
+   }
+  ],
+  "seo_title": "Quick Recruit: Features, Pricing and Use Cases",
+  "seo_description": "An AI recruiting platform covering ATS, resume screening, scheduling and video interviews.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "ideasberg",
+  "name": "IdeasBerg",
+  "category": "research",
+  "website_url": "https://ideasberg.com",
+  "pricing": "Unknown",
+  "tagline": "A database that extracts, researches and scores business ideas pitched on a well-known startup video channel.",
+  "best_for": "Entrepreneurs and market researchers hunting for micro-SaaS and agency ideas",
+  "platforms": [
+   "Web"
+  ],
+  "description": "IdeasBerg collects business ideas pitched on one YouTuber's channel, researches each against market data and gives it a score out of 100, called the Berg Score. The result is a ranked, browsable list of ideas rather than a blank page.\n\nEach idea page lays out the concept, financial ranges such as revenue potential, required investment and burn, a verdict and a competitor landscape. You can browse by model, such as SaaS, agency or consumer app, and by sector, with top-rated and latest views, and a weekly email digest highlights top-ranked ideas. Pricing and plans were not stated in the listing. Scores come from the site's own method, so treat them as a prompt for your own validation, and check the official site for how it currently works.",
+  "use_steps": [
+   "Browse top-rated or latest ideas.",
+   "Filter by model and sector.",
+   "Open an idea page and read the financials and competitors.",
+   "Subscribe to the digest and validate promising ideas yourself."
+  ],
+  "pros": [
+   "Structured idea pages",
+   "Filters by model and sector",
+   "Weekly digest"
+  ],
+  "cons": [
+   "Scoring method is proprietary",
+   "Pricing was not stated"
+  ],
+  "alternatives": [
+   "similarweb",
+   "sparktoro"
+  ],
+  "tags": [
+   "startup-ideas",
+   "research",
+   "validation",
+   "micro-saas"
+  ],
+  "features": [
+   "Automated idea extraction",
+   "Berg Score out of 100",
+   "Financial and competitor details",
+   "Browse by model and sector",
+   "Weekly digest"
+  ],
+  "use_cases": [
+   "Finding a side-project idea",
+   "Studio idea pipelines",
+   "Market trend scanning"
+  ],
+  "pricing_details": "Pricing was not stated. Check the official site.",
+  "faq": [
+   {
+    "q": "What is the Berg Score?",
+    "a": "A score out of 100 the site assigns to each researched idea."
+   },
+   {
+    "q": "Where do ideas come from?",
+    "a": "Ideas pitched on a specific video channel."
+   },
+   {
+    "q": "Should I rely on the scores?",
+    "a": "Use them as a starting point and validate independently."
+   }
+  ],
+  "seo_title": "IdeasBerg: Features, Pricing and Use Cases",
+  "seo_description": "A database that extracts, researches and scores business ideas pitched on a well-known startup video channel.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "picttools",
+  "name": "PictTools",
+  "category": "image",
+  "website_url": "https://www.picttools.com",
+  "pricing": "Free",
+  "tagline": "A free browser-based set of single-purpose photo tools such as background removal, resizing and conversion.",
+  "best_for": "Creators, sellers and small businesses needing quick image fixes",
+  "platforms": [
+   "Web"
+  ],
+  "description": "PictTools is a collection of small image utilities that run in the browser. Rather than one big editor, each task has its own tool: remove a background, change a color, convert to monochrome, blur a background, crop, resize, convert formats or compress.\n\nCropping includes social media presets and rotation or flipping, resizing works by pixels or percentage, and conversion covers JPG, PNG, WebP and HEIC. The listing says every tool is free, with no watermarks, paywalls or premium tiers, and no sign-up is needed. It works on Mac, Windows, iPhone, iPad and Android through the browser, so nothing needs installing. It suits e-commerce sellers, social media managers, designers and students who just need a quick job done. Check the official site for current features and privacy handling of uploads.",
+  "use_steps": [
+   "Open the tool you need in the browser.",
+   "Upload your image.",
+   "Adjust the settings and apply the change.",
+   "Download the result."
+  ],
+  "pros": [
+   "Free with no watermark",
+   "No sign-up needed",
+   "Covers many small tasks"
+  ],
+  "cons": [
+   "Tools are basic compared with full editors",
+   "Check how uploads are handled for private images"
+  ],
+  "alternatives": [
+   "remove-bg",
+   "photopea",
+   "pixlr"
+  ],
+  "tags": [
+   "photo-editor",
+   "background-remover",
+   "image-converter",
+   "free"
+  ],
+  "features": [
+   "AI background remover",
+   "Color changer",
+   "Resize and format converter",
+   "Image compressor",
+   "Crop and rotate presets"
+  ],
+  "use_cases": [
+   "Product photos for a shop",
+   "Social media image sizing",
+   "Converting HEIC to JPG"
+  ],
+  "pricing_details": "Described as free with no premium tiers. Check the official site.",
+  "faq": [
+   {
+    "q": "Is PictTools free?",
+    "a": "The listing says all tools are free with no watermarks."
+   },
+   {
+    "q": "Do I need an account?",
+    "a": "No sign-up was required."
+   },
+   {
+    "q": "Which formats can it convert?",
+    "a": "JPG, PNG, WebP and HEIC were listed."
+   }
+  ],
+  "seo_title": "PictTools: Features, Pricing and Use Cases",
+  "seo_description": "A free browser-based set of single-purpose photo tools such as background removal, resizing and conversion.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "rustic-ai",
+  "name": "Rustic AI",
+  "category": "design",
+  "website_url": "https://www.rusticai.art/",
+  "pricing": "Freemium",
+  "tagline": "An AI design editor and image generator with tools for product photos, upscaling and background removal.",
+  "best_for": "E-commerce brands, small businesses and creators without design training",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Rustic AI generates images from text prompts or reworks existing photos, and bundles it with an upscaler and a background remover. It leans toward commercial use, including product photography for e-commerce and marketing visuals.\n\nThere are separate generators for anime-style, realistic, graphic and general art, plus bulk processing, which is limited on the free level and unlimited on paid ones. Higher tiers add an AI chat assistant, access to image and video models and more storage. The page lists a free plan with a monthly credit allowance and three paid plans priced monthly or annually. Credit amounts, storage and prices may change, so check the official site. As with any generator, review outputs before using them in ads or listings.",
+  "use_steps": [
+   "Sign up and choose a generator or the editor.",
+   "Enter a prompt or upload a photo.",
+   "Refine, upscale or remove the background.",
+   "Download the finished image."
+  ],
+  "pros": [
+   "Product-photo focus",
+   "Free plan with credits",
+   "Bulk processing on paid tiers"
+  ],
+  "cons": [
+   "Credits cap free usage",
+   "Generated product images need accuracy checks"
+  ],
+  "alternatives": [
+   "pebblely",
+   "photoroom",
+   "canva"
+  ],
+  "tags": [
+   "ai-design",
+   "product-photography",
+   "upscaler",
+   "image-generator"
+  ],
+  "features": [
+   "Text-to-image and image-to-image",
+   "Image upscaler",
+   "Background remover",
+   "Product photography generation",
+   "Bulk processing"
+  ],
+  "use_cases": [
+   "Product shots for a store",
+   "Ad creatives",
+   "Social media visuals"
+  ],
+  "pricing_details": "A free plan and three paid tiers with monthly or annual billing were listed. Prices change, so check the official site.",
+  "faq": [
+   {
+    "q": "What can Rustic AI make?",
+    "a": "Images from prompts or photos, upscaled images, and cut-outs, including product photography."
+   },
+   {
+    "q": "Is there a free plan?",
+    "a": "Yes, with a monthly credit allowance."
+   },
+   {
+    "q": "Does it do bulk edits?",
+    "a": "Yes, limited on free and unlimited on paid plans."
+   }
+  ],
+  "seo_title": "Rustic AI: Features, Pricing and Use Cases",
+  "seo_description": "An AI design editor and image generator with tools for product photos, upscaling and background removal.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "mailead",
+  "name": "Mailead",
+  "category": "marketing",
+  "website_url": "https://www.mailead.io/",
+  "pricing": "Freemium",
+  "tagline": "A cold email platform covering lead finding, inbox warmup, sequences and a unified reply inbox.",
+  "best_for": "B2B sales teams, founders and agencies running outreach",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Mailead handles cold outreach end to end. You can find leads, connect as many mailboxes as you like, warm them up, send multi-step sequences with automated follow-ups, and manage replies in one inbox.\n\nSmart rotation spreads sending across accounts, A/B testing compares subject lines, bodies and calls to action, and higher tiers add LinkedIn scraping credits for finding contacts. Teammates can work in one account. All plans include unlimited mailboxes, warmup, the unified inbox, rotation and testing, with tiers differing by monthly email volume, contacts and teammates. Cold email is regulated, so comply with anti-spam and data-protection law, and keep lists clean to protect sender reputation. Prices were on the page but may change, so check the official site.",
+  "use_steps": [
+   "Connect your sending mailboxes and start warmup.",
+   "Import or find leads.",
+   "Build a sequence and A/B test the copy.",
+   "Handle replies from the unified inbox."
+  ],
+  "pros": [
+   "Unlimited mailboxes on all plans",
+   "Built-in warmup and rotation",
+   "A/B testing"
+  ],
+  "cons": [
+   "Cold email carries compliance and deliverability risk",
+   "Volume limits by tier"
+  ],
+  "alternatives": [
+   "instantly",
+   "smartlead",
+   "lemlist"
+  ],
+  "tags": [
+   "cold-email",
+   "outreach",
+   "warmup",
+   "sales"
+  ],
+  "features": [
+   "Unlimited mailbox connections",
+   "AI email warmup",
+   "Smart inbox rotation",
+   "A/B testing",
+   "Unified inbox"
+  ],
+  "use_cases": [
+   "B2B prospecting",
+   "Agency client outreach",
+   "Partnership pitches"
+  ],
+  "pricing_details": "Tiered monthly plans by email volume were listed. Prices change, so check the official site.",
+  "faq": [
+   {
+    "q": "What does Mailead include on all plans?",
+    "a": "Unlimited mailboxes, warmup, a unified inbox, rotation and A/B testing."
+   },
+   {
+    "q": "Can it find leads?",
+    "a": "Higher tiers include LinkedIn scraping credits."
+   },
+   {
+    "q": "Is cold email risky?",
+    "a": "Yes, mind consent laws and deliverability."
+   }
+  ],
+  "seo_title": "Mailead: Features, Pricing and Use Cases",
+  "seo_description": "A cold email platform covering lead finding, inbox warmup, sequences and a unified reply inbox.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "trademarkability",
+  "name": "Trademarkability",
+  "category": "productivity",
+  "website_url": "https://www.trademarkability.com.au/",
+  "pricing": "Paid",
+  "tagline": "An online service for registering Australian trademarks through IP Australia.",
+  "best_for": "Australian startups, small businesses and sellers",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Trademarkability simplifies applying for a trademark in Australia. Applications go through IP Australia, and the service wraps the process in four steps: search, choose classes and enter details, pay and submit, then follow progress alerts.\n\nA free search of the IP Australia database helps you check for existing word or logo marks, and applicants get a free short consultation with a trademark expert. Extras include eligibility reports that flag obstacles, international registration through a single WIPO application, brand monitoring, support with infringement action and the ten-year renewal. Fees listed on the page are a service fee per class plus a government charge per class, in Australian dollars, and the page claims savings versus typical legal fees, which is the vendor's claim. This is not legal advice; check current fees on the official site.",
+  "use_steps": [
+   "Search the register for conflicting marks.",
+   "Select classes and enter your details.",
+   "Pay and submit the application.",
+   "Track progress and renew when due."
+  ],
+  "pros": [
+   "Clear four-step process",
+   "Free search and consultation",
+   "Handles renewals and monitoring"
+  ],
+  "cons": [
+   "Australia-focused",
+   "Registration outcomes are not guaranteed"
+  ],
+  "alternatives": [
+   "legalzoom",
+   "rocket-lawyer",
+   "tailor-brands"
+  ],
+  "tags": [
+   "trademark",
+   "legal",
+   "australia",
+   "branding"
+  ],
+  "features": [
+   "Four-step online application",
+   "Database search",
+   "Free expert consultation",
+   "International registration via WIPO",
+   "Brand monitoring"
+  ],
+  "use_cases": [
+   "Registering a new brand name",
+   "Protecting a logo",
+   "Expanding overseas"
+  ],
+  "pricing_details": "Per-class service fees plus government charges, listed in AUD. Fees change, so check the official site.",
+  "faq": [
+   {
+    "q": "Which country is it for?",
+    "a": "Australia, through IP Australia."
+   },
+   {
+    "q": "Can I search first?",
+    "a": "Yes, a free trademark search was listed."
+   },
+   {
+    "q": "Is it legal advice?",
+    "a": "No. Consult an attorney for complex matters."
+   }
+  ],
+  "seo_title": "Trademarkability: Features, Pricing and Use Cases",
+  "seo_description": "An online service for registering Australian trademarks through IP Australia.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "lazy-admin",
+  "name": "Lazy Admin",
+  "category": "research",
+  "website_url": "https://lazyadmin.httpeak.com/",
+  "pricing": "Unknown",
+  "tagline": "A Salesforce-focused tool that answers data questions in plain English with charts and dashboards.",
+  "best_for": "Sales, marketing and operations teams using Salesforce",
+  "platforms": [
+   "Salesforce"
+  ],
+  "description": "Lazy Admin lets people ask questions about their Salesforce data in natural language and get back results, charts and KPI dashboards. The goal is to cut the dependency on admins and analysts for routine reports.\n\nIt can query standard and custom objects including parent-child relationships, turn a chart into a written analysis with recommendations, learn company-specific terms and acronyms, and save favorite queries. Results export to CSV. It respects existing Salesforce security settings and permissions, and the vendor states data stays in your environment. It is distributed through AppExchange and can be customized for other apps and external databases. Pricing is custom and not public, so contact the vendor. Verify any AI-generated number against the source records before acting on it.",
+  "use_steps": [
+   "Install it from Salesforce AppExchange.",
+   "Teach it your terminology.",
+   "Ask questions in plain English.",
+   "Save useful queries and export results."
+  ],
+  "pros": [
+   "Respects Salesforce permissions",
+   "Charts and narrative analysis",
+   "Learns your terminology"
+  ],
+  "cons": [
+   "Salesforce-centric",
+   "Pricing is not public"
+  ],
+  "alternatives": [
+   "julius-ai",
+   "hex",
+   "salesforce-einstein"
+  ],
+  "tags": [
+   "salesforce",
+   "analytics",
+   "reporting",
+   "natural-language"
+  ],
+  "features": [
+   "Natural-language Salesforce queries",
+   "Automatic charts and KPIs",
+   "Narrative chart analysis",
+   "Custom terminology",
+   "CSV export"
+  ],
+  "use_cases": [
+   "Pipeline questions from sales managers",
+   "Quick KPI dashboards",
+   "Ad hoc reporting for executives"
+  ],
+  "pricing_details": "Custom pricing, quoted by the vendor. Check the official site.",
+  "faq": [
+   {
+    "q": "Which system does it target?",
+    "a": "Salesforce, available through AppExchange."
+   },
+   {
+    "q": "Does it respect permissions?",
+    "a": "Yes, existing Salesforce security settings apply."
+   },
+   {
+    "q": "Is pricing public?",
+    "a": "No, it is custom."
+   }
+  ],
+  "seo_title": "Lazy Admin: Features, Pricing and Use Cases",
+  "seo_description": "A Salesforce-focused tool that answers data questions in plain English with charts and dashboards.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "convo",
+  "name": "Convo",
+  "category": "research",
+  "website_url": "https://getconvo.ai",
+  "pricing": "Free trial",
+  "tagline": "An AI interviewer for qualitative research that runs interviews and summarizes the themes.",
+  "best_for": "Product, UX and marketing teams doing customer research",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Convo uses an AI voice agent to interview participants, then transcribes the audio, analyzes responses and surfaces themes, personas and highlight reels. It lets a small team run far more interviews than a single researcher could.\n\nThe interviewer's tone and persona can be tuned. Studies can embed Figma prototypes, images or videos for concept testing, use screener questions to target participants, and accept existing transcripts for analysis. Audio and video recordings capture tone, and researchers can refine or expand the AI findings. An embedded widget collects feedback inside a product, and enterprise plans add body-language analysis and API access. The listing mentions a free trial but no prices. Participants should be told they are talking to an AI, so check consent practices and the official site.",
+  "use_steps": [
+   "Create a study and write the interview guide.",
+   "Choose the AI interviewer's persona.",
+   "Send the link to participants.",
+   "Review themes and edit the findings."
+  ],
+  "pros": [
+   "Scales interviews",
+   "Concept testing with prototypes",
+   "Human review of AI findings"
+  ],
+  "cons": [
+   "Prices are not listed",
+   "AI interviewing may feel impersonal to some participants"
+  ],
+  "alternatives": [
+   "dovetail",
+   "synthetic-users",
+   "maze"
+  ],
+  "tags": [
+   "user-research",
+   "interviews",
+   "qualitative",
+   "insights"
+  ],
+  "features": [
+   "AI voice interviewer",
+   "Instant theme analysis",
+   "Prototype testing",
+   "Transcript upload",
+   "Screener questions"
+  ],
+  "use_cases": [
+   "Testing a new concept",
+   "Collecting UX feedback",
+   "Message testing"
+  ],
+  "pricing_details": "A free trial was mentioned; no prices were listed. Check the official site.",
+  "faq": [
+   {
+    "q": "What does Convo analyze?",
+    "a": "Interview audio, producing themes, personas and highlight reels."
+   },
+   {
+    "q": "Can I upload past transcripts?",
+    "a": "Yes, from any source."
+   },
+   {
+    "q": "Can researchers edit the AI's findings?",
+    "a": "Yes, there is a human-in-the-loop step."
+   }
+  ],
+  "seo_title": "Convo: Features, Pricing and Use Cases",
+  "seo_description": "An AI interviewer for qualitative research that runs interviews and summarizes the themes.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ }
+]

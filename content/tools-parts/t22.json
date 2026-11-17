@@ -1,0 +1,1665 @@
+[
+ {
+  "slug": "trophi-ai",
+  "name": "Trophi.ai",
+  "category": "study",
+  "website_url": "https://www.trophi.ai/",
+  "pricing": "Freemium",
+  "tagline": "AI coaching for sim racers, built on your own telemetry.",
+  "best_for": "Sim racers who want structured feedback on laps",
+  "platforms": [
+   "Web",
+   "Windows"
+  ],
+  "description": "Trophi.ai is a coaching platform for people who race in simulators. It reads the telemetry from your sessions and turns it into a report on single laps and longer stints, so you can see where time is lost instead of guessing. Support is listed for iRacing, Assetto Corsa Competizione, recent F1 titles and Le Mans Ultimate on PC.\n\nBeyond reports, it offers live overlays showing brake, throttle, speed, gear and steering, plus a voice coach called Mansell AI that gives audio technique tips and brake point help. Higher plans add setup data packs and monthly one-on-one sessions with a human coach. It suits beginners learning a new car as much as competitive drivers chasing consistency. Check the official site for the current plan list and the free trial terms.",
+  "use_steps": [
+   "Create an account and install the Trophi.ai app on the PC you race on.",
+   "Link a supported sim such as iRacing or Assetto Corsa Competizione.",
+   "Drive a practice session and open the AI Coach report afterwards.",
+   "Turn on the overlays or voice coach and repeat laps to track change."
+  ],
+  "pros": [
+   "Analysis tied to your own driving data",
+   "Voice coaching during the session",
+   "Covers several popular PC sims",
+   "Trial and money-back guarantee listed"
+  ],
+  "cons": [
+   "Tied to PC sims on its supported list",
+   "Top plans cost noticeably more"
+  ],
+  "alternatives": [],
+  "tags": [
+   "sim-racing",
+   "coaching",
+   "telemetry",
+   "esports",
+   "training"
+  ],
+  "features": [
+   "Post-session AI Coach report",
+   "Live telemetry overlays",
+   "Mansell AI voice coach",
+   "Setup and reference lap data packs",
+   "Interactive training and mini-games"
+  ],
+  "use_cases": [
+   "Learning a new car or circuit",
+   "Breaking through a lap time plateau",
+   "Reviewing stints before a race",
+   "Building consistency for esports events"
+  ],
+  "pricing_details": "Listed as freemium with a 7-day free trial and a 30-day money-back guarantee, then monthly or annual Premium, Premium plus Setups and Professional plans. Plans change, so confirm on the official site.",
+  "faq": [
+   {
+    "q": "Which games does Trophi.ai support?",
+    "a": "The page lists iRacing, Assetto Corsa Competizione, F1 23/24/25 and Le Mans Ultimate, all on PC."
+   },
+   {
+    "q": "Does it include human coaching?",
+    "a": "The Professional plan lists monthly 45-minute one-on-one sessions with a Driver61 coach."
+   },
+   {
+    "q": "Is there a free trial?",
+    "a": "A 7-day trial and a 30-day money-back guarantee are listed. Verify the terms on the official site."
+   }
+  ],
+  "seo_title": "Trophi.ai Review: Features and Pricing",
+  "seo_description": "AI coaching for sim racers, built on your own telemetry. Features, pricing and who it suits.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "humanizeai",
+  "name": "Humanizeai",
+  "category": "writing",
+  "website_url": "https://humanizeai.io/",
+  "pricing": "Freemium",
+  "tagline": "Rewrites AI-generated text so it reads more like a person wrote it.",
+  "best_for": "Writers and students polishing AI drafts",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Humanizeai takes text produced by assistants such as ChatGPT, Gemini or Claude and rewrites it so the phrasing feels less mechanical. You paste a passage, pick a mode and a readability level, and get a reworked version back. The free mode needs no registration and is capped at 200 words per request.\n\nPaid modes add heavier rewriting and a keyword freezer that locks chosen terms so SEO phrases survive the rewrite. A Show Difference view on the top plan lets you compare original and result. The vendor says output avoids detectors like Turnitin or Originality.ai, but that is its own claim and detectors change often, so treat it as unproven. Use it as an editing aid, and follow your school or employer rules on AI use. Check the official site for current limits.",
+  "use_steps": [
+   "Open the site and paste a short AI-written passage.",
+   "Choose a mode and a readability level such as University.",
+   "Run the rewrite and read the result against the original.",
+   "Edit by hand for accuracy and voice before using it."
+  ],
+  "pros": [
+   "Free mode without sign-up",
+   "Readability level choices",
+   "Keyword locking on paid plans",
+   "Several languages in the free version"
+  ],
+  "cons": [
+   "Detector-evasion claims are not independently verified",
+   "Free requests are short"
+  ],
+  "alternatives": [],
+  "tags": [
+   "rewriting",
+   "ai-text",
+   "editing",
+   "seo",
+   "readability"
+  ],
+  "features": [
+   "Basic, Aggressive and Enhanced modes",
+   "Readability levels",
+   "Keyword Freezer",
+   "Multi-language support",
+   "Show Difference comparison"
+  ],
+  "use_cases": [
+   "Smoothing a stiff blog draft",
+   "Adjusting tone of an essay outline",
+   "Keeping target keywords in marketing copy",
+   "Reworking short social posts"
+  ],
+  "pricing_details": "Freemium: a free Basic mode with a per-request word cap, and annual-billed Standard, Premium and Elite plans. Prices as listed may change; check the official site.",
+  "faq": [
+   {
+    "q": "Can I use it without an account?",
+    "a": "Yes, the free version is described as needing no registration."
+   },
+   {
+    "q": "What does the keyword freezer do?",
+    "a": "It keeps chosen keywords unchanged in the rewritten text, and it is a paid feature."
+   },
+   {
+    "q": "Will it beat AI detectors?",
+    "a": "The site claims so, but that is unverified. Review your institution's policy before relying on it."
+   }
+  ],
+  "seo_title": "Humanizeai Review: Features and Pricing",
+  "seo_description": "Rewrites AI-generated text so it reads more like a person wrote it. Features, pricing and who it suits.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "robomotion",
+  "name": "Robomotion",
+  "category": "productivity",
+  "website_url": "https://robomotion.io/",
+  "pricing": "Free trial",
+  "tagline": "Low-code cloud RPA for automating web and desktop work.",
+  "best_for": "Developers and small teams automating repetitive app tasks",
+  "platforms": [
+   "Web",
+   "Windows",
+   "macOS",
+   "Linux"
+  ],
+  "description": "Robomotion is a low-code robotic process automation platform that runs in the cloud. You build workflows in a browser-based visual Flow Designer, and software robots then operate web and desktop applications, pull data out of them and carry processes from start to finish.\n\nIt adds AI Agents that accept natural-language input, plus triggers for schedules, email, files, HTTP and queues. Robots can run in the cloud or on your own machines, and an Admin Console covers users, audit logs, job history and queues. Teams can package reusable components in a private repository and expose flows through public forms. It is aimed at developers and solo operators more than casual users, even though little coding is required. Paid plans begin with a 14-day trial; check the official site for limits.",
+  "use_steps": [
+   "Sign up for the trial and open the Flow Designer.",
+   "Drag nodes to model one small task, such as copying data between apps.",
+   "Choose a trigger like a schedule or an incoming email.",
+   "Deploy to a cloud or local robot and review the job history."
+  ],
+  "pros": [
+   "Visual builder needs little code",
+   "Cloud or on-premise robots",
+   "Audit logs and queue management",
+   "Several trigger types"
+  ],
+  "cons": [
+   "Plans are priced for teams, not hobbyists",
+   "Needs time to learn RPA concepts"
+  ],
+  "alternatives": [],
+  "tags": [
+   "rpa",
+   "automation",
+   "workflow",
+   "low-code",
+   "ai-agents"
+  ],
+  "features": [
+   "Visual Flow Designer",
+   "AI Agents",
+   "Schedule, email, file, HTTP and queue triggers",
+   "Admin Console with audit logs",
+   "Custom packages and web forms"
+  ],
+  "use_cases": [
+   "Extracting data from web portals",
+   "Automating invoice or form entry",
+   "Running scheduled back-office jobs",
+   "Triggering flows from email"
+  ],
+  "pricing_details": "A 14-day trial is listed, followed by tiered monthly plans that scale with users, robots, flows and cloud hours. Details change; confirm on the official site.",
+  "faq": [
+   {
+    "q": "Do I need to code?",
+    "a": "Mostly no. Workflows are built visually, though developers can extend them."
+   },
+   {
+    "q": "Where do robots run?",
+    "a": "Either in Robomotion's cloud or locally on your own machines."
+   },
+   {
+    "q": "Is there a free option?",
+    "a": "A 14-day trial is listed; ongoing plans are paid."
+   }
+  ],
+  "seo_title": "Robomotion Review: Features and Pricing",
+  "seo_description": "Low-code cloud RPA for automating web and desktop work. Features, pricing and who it suits.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "pictoflux",
+  "name": "Pictoflux",
+  "category": "image",
+  "website_url": "https://pictoflux.com/",
+  "pricing": "Free",
+  "tagline": "A no-login text-to-image generator built on open Flux models.",
+  "best_for": "Anyone who wants quick images without an account",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Pictoflux generates images from a written prompt. You describe what you want, pick a style and an aspect ratio, and press Generate. The listing says it runs on open-source models such as Flux.1 Dev and returns up to four variations per prompt, usually in a matter of seconds.\n\nWhat stands out is the lack of friction: no account, no credits and no personal details are asked for, and the page says prompts and results are not stored on its servers. It also says there are no content filters, which means you are responsible for what you create and how you use it. Those privacy and limit claims come from the site itself, and the FAQ on commercial use and resolution was left unanswered in the listing, so check the licence before using images in paid work.",
+  "use_steps": [
+   "Open the website in your browser.",
+   "Write a prompt describing subject, setting and style.",
+   "Pick a style and aspect ratio, then click Generate.",
+   "Download the variation you like, or rewrite the prompt and retry."
+  ],
+  "pros": [
+   "No login or sign-up",
+   "Free with no stated caps",
+   "Several variations per prompt",
+   "Quick results"
+  ],
+  "cons": [
+   "Commercial use terms are unclear",
+   "No content filtering puts the burden on you"
+  ],
+  "alternatives": [],
+  "tags": [
+   "text-to-image",
+   "flux",
+   "free",
+   "no-login",
+   "generator"
+  ],
+  "features": [
+   "Text-to-image generation",
+   "Style and aspect ratio selection",
+   "Up to four variations",
+   "No account needed"
+  ],
+  "use_cases": [
+   "Blog and social post visuals",
+   "Concept art sketches",
+   "Storyboard ideas",
+   "Quick mood boards"
+  ],
+  "pricing_details": "Listed as free with no credits or subscription. Terms can change, so check the official site, especially for commercial use.",
+  "faq": [
+   {
+    "q": "Do I need an account?",
+    "a": "No, the listing says no login is required."
+   },
+   {
+    "q": "Which model does it use?",
+    "a": "It says open-source models such as Flux.1 Dev."
+   },
+   {
+    "q": "Can I use images commercially?",
+    "a": "The listing does not answer this. Check the site's terms first."
+   }
+  ],
+  "seo_title": "Pictoflux Review: Features and Pricing",
+  "seo_description": "A no-login text-to-image generator built on open Flux models. Features, pricing and who it suits.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "monster-mash",
+  "name": "Monster Mash",
+  "category": "design",
+  "website_url": "https://monstermash.zone/",
+  "pricing": "Free",
+  "tagline": "Sketch a character, inflate it to 3D and animate it in the browser.",
+  "best_for": "Hobbyists and prototypers wanting quick 3D animation",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Monster Mash is a browser tool that turns a flat sketch into a 3D model you can animate. You draw a character with closed strokes for the body and open strokes for limbs, inflate it into a mesh, then move into animation mode.\n\nAnimation works by placing control pins and dragging them in a 2D view, so there is no rigging or keyframing to learn. Drawing order sets depth between parts, and you can import images as textures or backgrounds. Static models export as .obj files and animations as .glb, which open in Blender and similar apps. The listing describes it as a research demo made free for evaluation, with source code under Apache-2.0. It runs in any browser with WebGL, so nothing needs installing.",
+  "use_steps": [
+   "Open the site in a WebGL-capable browser.",
+   "Draw the body as a closed stroke and limbs as open strokes.",
+   "Switch to Inflate to preview the 3D mesh.",
+   "Place pins, drag them to animate, then export as .glb or .obj."
+  ],
+  "pros": [
+   "No rigging needed",
+   "Free to use",
+   "Exports open in Blender",
+   "Source code is open"
+  ],
+  "cons": [
+   "Research demo, not a production suite",
+   "Limited to simple character shapes"
+  ],
+  "alternatives": [],
+  "tags": [
+   "3d",
+   "animation",
+   "sketch",
+   "webgl",
+   "prototyping"
+  ],
+  "features": [
+   "Sketch-to-3D inflation",
+   "Pin-based animation",
+   "Layer-based depth",
+   "Texture and background import",
+   "OBJ and glTF export"
+  ],
+  "use_cases": [
+   "Prototyping a game character",
+   "Teaching 3D basics",
+   "Quick animated doodles",
+   "Concept tests for animators"
+  ],
+  "pricing_details": "Described as free for evaluation and research. Check the official site for current terms.",
+  "faq": [
+   {
+    "q": "Is it free?",
+    "a": "Yes, the listing describes it as free with no paid plans."
+   },
+   {
+    "q": "What can I export?",
+    "a": "Static models as .obj with textures and animations as .glb."
+   },
+   {
+    "q": "Do I need to install anything?",
+    "a": "No, it runs in a browser with WebGL."
+   }
+  ],
+  "seo_title": "Monster Mash Review: Features and Pricing",
+  "seo_description": "Sketch a character, inflate it to 3D and animate it in the browser. Features, pricing and who it suits.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "retorio",
+  "name": "Retorio",
+  "category": "career",
+  "website_url": "https://retorio.com/",
+  "pricing": "Paid",
+  "tagline": "AI role-play coaching for sales, service and leadership teams.",
+  "best_for": "Large companies training customer-facing staff",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Retorio is a coaching platform where employees practise conversations against AI avatars. Teams run role-plays for sales calls, customer service and leadership situations, and the system reacts to what is said and to non-verbal cues, then gives individual feedback.\n\nAn AI Coaching Generator builds scenarios from company documents in more than twenty languages, and ready-made templates are included. After each session it assesses perceived warmth and competence and suggests what to work on. Dashboards track engagement and skill growth, and an API links to CRM, HR and learning systems. The site says it is GDPR and EU AI Act compliant. It targets mid-sized and large organisations, so individuals are not the audience. Performance figures in the listing are vendor-reported. Pricing is by quote.",
+  "use_steps": [
+   "Book a demo and agree on the skills to train.",
+   "Upload product or policy documents to generate scenarios.",
+   "Have employees complete role-plays and read their feedback.",
+   "Review dashboards and adjust the training plan."
+  ],
+  "pros": [
+   "Scenarios built from your own documents",
+   "Feedback on verbal and non-verbal delivery",
+   "Integrates with CRM and LMS systems",
+   "Multi-language"
+  ],
+  "cons": [
+   "Quote-only pricing",
+   "Aimed at large organisations"
+  ],
+  "alternatives": [],
+  "tags": [
+   "coaching",
+   "sales-training",
+   "role-play",
+   "hr",
+   "enterprise"
+  ],
+  "features": [
+   "AI Coaching Generator",
+   "Dynamic avatar role-plays",
+   "Behavioural feedback",
+   "Analytics dashboards",
+   "API integrations"
+  ],
+  "use_cases": [
+   "Sales call practice",
+   "Customer service training",
+   "Leadership development",
+   "Onboarding new reps"
+  ],
+  "pricing_details": "Custom pricing based on scale and use case; demos are offered. Confirm details with the vendor.",
+  "faq": [
+   {
+    "q": "Who is it built for?",
+    "a": "Mainly enterprises, typically with many customer-facing staff."
+   },
+   {
+    "q": "Does it analyse body language?",
+    "a": "It says it assesses both what is said and non-verbal communication."
+   },
+   {
+    "q": "Is pricing public?",
+    "a": "No, it is by custom quote after a demo."
+   }
+  ],
+  "seo_title": "Retorio Review: Features and Pricing",
+  "seo_description": "AI role-play coaching for sales, service and leadership teams. Features, pricing and who it suits.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "jusrecruit",
+  "name": "JusRecruit",
+  "category": "career",
+  "website_url": "https://jusrecruit.com/",
+  "pricing": "Freemium",
+  "tagline": "AI phone screens and first interviews with a light built-in ATS.",
+  "best_for": "Hiring teams and agencies screening many candidates",
+  "platforms": [
+   "Web"
+  ],
+  "description": "JusRecruit automates the first stages of hiring. Its AI interviewer, Saina, runs phone screens and first-round interviews as a two-way conversation, then returns ranked shortlists so recruiters spend time on the people worth meeting.\n\nEach candidate gets a scorecard with skill ratings, conversation evidence and video playback. A lightweight applicant tracking system pulls every source into one pipeline, and job postings are unlimited. It connects to Google Meet, Microsoft Teams and several ATS products, with an API for custom flows. Staffing agencies can screen for multiple clients. The bias-reduction claims come from the listing and are unverified, so keep a human in the decision. A free tier covers posts and the ATS; paid tiers add AI screens. Check current limits on the site.",
+  "use_steps": [
+   "Create an account and post a job.",
+   "Set the skills and questions Saina should assess.",
+   "Send candidates the screening link.",
+   "Review scorecards and shortlist for human interviews."
+  ],
+  "pros": [
+   "Free ATS and unlimited job posts",
+   "Scorecards with evidence",
+   "Meeting and ATS integrations",
+   "Useful for high-volume roles"
+  ],
+  "cons": [
+   "AI screening still needs human oversight",
+   "Fair-hiring claims are vendor-stated"
+  ],
+  "alternatives": [],
+  "tags": [
+   "recruiting",
+   "hr",
+   "interviews",
+   "ats",
+   "screening"
+  ],
+  "features": [
+   "AI interviewer Saina",
+   "Lightweight ATS",
+   "Skill-based scorecards",
+   "Meeting and ATS integrations",
+   "Developer API"
+  ],
+  "use_cases": [
+   "High-volume phone screening",
+   "Agency candidate triage",
+   "Standardising first interviews",
+   "Consolidating applicants in one pipeline"
+  ],
+  "pricing_details": "Free plan plus paid tiers priced by seats and AI screen volume, with discounts for longer billing. Prices change; check the official site.",
+  "faq": [
+   {
+    "q": "Is there a free plan?",
+    "a": "Yes, with unlimited posts and the light ATS."
+   },
+   {
+    "q": "What does the AI interviewer do?",
+    "a": "It conducts phone screens and first-round interviews and scores candidates."
+   },
+   {
+    "q": "Can agencies use it?",
+    "a": "Yes, the listing mentions agencies screening for multiple clients."
+   }
+  ],
+  "seo_title": "JusRecruit Review: Features and Pricing",
+  "seo_description": "AI phone screens and first interviews with a light built-in ATS. Features, pricing and who it suits.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "orango-ai",
+  "name": "Orango AI",
+  "category": "productivity",
+  "website_url": "https://orango.ai/",
+  "pricing": "Freemium",
+  "tagline": "An in-product agent that shows users what to click next.",
+  "best_for": "Product teams working on onboarding and activation",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Orango AI is an agent you embed inside your own web product. Instead of sending users to help docs, it moves a virtual cursor on screen to demonstrate how to finish a task, find a setting or complete a long form.\n\nIt also notices when someone seems stuck and suggests a next step, adapting to how experienced they are. Setup is a one-line script, flows are mapped visually without code, and you control what the agent may and may not do. Analytics show where users struggle, and its knowledge base updates with each release. It is meant for startups and larger firms trying to lift activation and cut support load. The page mentions autonomous task completion as a future feature only. Plans are priced by monthly active users; verify tiers on the official site.",
+  "use_steps": [
+   "Sign up and add the one-line script to your app.",
+   "Map a key workflow, such as first-time setup, in the visual editor.",
+   "Set limits on what the agent can do.",
+   "Watch analytics and refine flows that users abandon."
+  ],
+  "pros": [
+   "Guides users inside the product",
+   "No-code flow mapping",
+   "Free tier to test",
+   "Control over agent limits"
+  ],
+  "cons": [
+   "Priced by active users, which grows with success",
+   "Autonomous mode is not yet available"
+  ],
+  "alternatives": [],
+  "tags": [
+   "onboarding",
+   "user-activation",
+   "saas",
+   "agents",
+   "product-tours"
+  ],
+  "features": [
+   "Virtual cursor guidance",
+   "Context-aware suggestions",
+   "No-code flow mapping",
+   "Behaviour analytics",
+   "One-line script install"
+  ],
+  "use_cases": [
+   "New user onboarding",
+   "Walking users through settings",
+   "Completing multi-step forms",
+   "Promoting unused features"
+  ],
+  "pricing_details": "Freemium by monthly active users, with a free Bootstrap tier, paid Startup and Organizations tiers, and custom Enterprise. Check the official site for current numbers.",
+  "faq": [
+   {
+    "q": "How do I install it?",
+    "a": "By adding a single script line to your product."
+   },
+   {
+    "q": "Is there a free tier?",
+    "a": "Yes, a limited Bootstrap plan is listed."
+   },
+   {
+    "q": "Can it act on its own?",
+    "a": "Not yet; autonomous task performance is described as upcoming."
+   }
+  ],
+  "seo_title": "Orango AI Review: Features and Pricing",
+  "seo_description": "An in-product agent that shows users what to click next. Features, pricing and who it suits.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "ourbabyai",
+  "name": "OurBabyAI",
+  "category": "image",
+  "website_url": "https://ourbabyai.com/",
+  "pricing": "Paid",
+  "tagline": "Upload two parent photos and get an imagined child by email.",
+  "best_for": "Couples and gift givers wanting a fun keepsake",
+  "platforms": [
+   "Web"
+  ],
+  "description": "OurBabyAI creates pictures of what a couple's child might look like. You upload one clear, front-facing photo of each parent and the service returns high-resolution images by email. No account is needed and payment goes through Stripe.\n\nThe basic pack returns a set of boy and girl images, while the premium pack adds the imagined child at several ages up to old age. Delivery takes minutes to roughly half an hour depending on the pack. The site says uploaded photos are deleted after delivery and offers a refund if results have major flaws. Treat the output as entertainment, not a prediction; the site's own claims about being first or number one are marketing. It suits gender reveals, baby showers and gifts. Confirm current prices and policy on the site.",
+  "use_steps": [
+   "Choose the Basic or Premium pack.",
+   "Upload one clear front-facing photo per parent.",
+   "Pay and enter your email address.",
+   "Wait for the images to arrive and check them."
+  ],
+  "pros": [
+   "One-time payment, no subscription",
+   "No account required",
+   "Photos stated as deleted after delivery",
+   "Refund promise listed"
+  ],
+  "cons": [
+   "Results are for fun, not accurate predictions",
+   "Photo quality strongly affects output"
+  ],
+  "alternatives": [],
+  "tags": [
+   "baby-generator",
+   "photos",
+   "gift",
+   "entertainment",
+   "family"
+  ],
+  "features": [
+   "Two-parent photo input",
+   "High-resolution output",
+   "Multiple life-stage images (Premium)",
+   "Email delivery",
+   "Money-back guarantee"
+  ],
+  "use_cases": [
+   "Gender reveal parties",
+   "Baby shower gifts",
+   "Anniversary surprises",
+   "Just-for-fun celebrity pairings"
+  ],
+  "pricing_details": "One-time payment per pack, no subscription. Prices and offers change; check the official site.",
+  "faq": [
+   {
+    "q": "Is it a subscription?",
+    "a": "No, it is a one-time payment."
+   },
+   {
+    "q": "What happens to my photos?",
+    "a": "The site says they are deleted after delivery."
+   },
+   {
+    "q": "How accurate is it?",
+    "a": "Not a prediction; it is an entertainment image."
+   }
+  ],
+  "seo_title": "OurBabyAI Review: Features and Pricing",
+  "seo_description": "Upload two parent photos and get an imagined child by email. Features, pricing and who it suits.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "dhime",
+  "name": "Dhime",
+  "category": "study",
+  "website_url": "https://www.dhime.in/",
+  "pricing": "Unknown",
+  "tagline": "AI dance practice that scores posture, rhythm and timing.",
+  "best_for": "Beginners and academies teaching dance",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Dhime is a dance learning platform that uses computer vision to watch your movements and respond in real time. It scores posture, rhythm, timing and form so you know what to fix without waiting for a teacher.\n\nLearners follow personalised paths matched to skill and pace, replay lessons and routines, and track scores on a progress dashboard. The library spans styles from classical to modern hip-hop. Tutors and academies can upload their own lessons, manage students and follow progress, which makes it usable as a home practice companion between classes. The listing calls it freemium but gives no plan details, so pricing is unconfirmed. Camera quality and room space will affect how well movement analysis works. Visit the official site to see what is free and what is not.",
+  "use_steps": [
+   "Create an account and pick your skill level.",
+   "Choose a dance style from the library.",
+   "Allow camera access and follow the lesson.",
+   "Check your scores and repeat weaker sections."
+  ],
+  "pros": [
+   "Real-time feedback without an instructor",
+   "Many dance styles",
+   "Progress tracking",
+   "Tools for tutors and academies"
+  ],
+  "cons": [
+   "Pricing details not published in the listing",
+   "Needs a camera and clear floor space"
+  ],
+  "alternatives": [],
+  "tags": [
+   "dance",
+   "computer-vision",
+   "learning",
+   "fitness",
+   "feedback"
+  ],
+  "features": [
+   "Real-time movement analysis",
+   "Personalised learning paths",
+   "Replayable lessons",
+   "Progress dashboard",
+   "Tutor and academy tools"
+  ],
+  "use_cases": [
+   "Home practice between classes",
+   "Learning a first routine",
+   "Academy homework tracking",
+   "Self-paced dance hobby"
+  ],
+  "pricing_details": "Pricing is not confirmed; a free tier may exist. Check the official site.",
+  "faq": [
+   {
+    "q": "What does it measure?",
+    "a": "Posture, rhythm, timing and form, according to the listing."
+   },
+   {
+    "q": "Can teachers use it?",
+    "a": "Yes, tutors and academies can upload lessons and track students."
+   },
+   {
+    "q": "Is it free?",
+    "a": "Unclear; check the official site."
+   }
+  ],
+  "seo_title": "Dhime Review: Features and Pricing",
+  "seo_description": "AI dance practice that scores posture, rhythm and timing. Features, pricing and who it suits.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "elaborate",
+  "name": "Elaborate",
+  "category": "writing",
+  "website_url": "https://elaborate.ai/",
+  "pricing": "Free",
+  "tagline": "Turns a topic or outline into a written narrative and slides.",
+  "best_for": "Presenters and writers who start from rough ideas",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Elaborate takes a topic, an outline or a set of plot points and produces both a written narrative and a slide presentation from it. The result follows a familiar structure with an introduction, main points and a conclusion.\n\nYou can feed it anything from a broad subject to a detailed plot, then edit step by step: change text, reorder points or add detail. That makes it handy for professionals preparing talks, researchers outlining findings, teachers building lessons and storytellers shaping an arc. It is in beta and currently free under a credit system that recharges automatically, and beta users are asked to answer surveys. Final pricing has not been announced, so what is free now may change. Check the official site for updates before building a workflow around it.",
+  "use_steps": [
+   "Open the site and enter a topic, outline or plot.",
+   "Generate the narrative and slides.",
+   "Edit points, reorder sections and add details.",
+   "Review facts and export or copy the result."
+  ],
+  "pros": [
+   "Text and slides from one input",
+   "Accepts rough or detailed starting points",
+   "Editable step by step",
+   "Free during beta"
+  ],
+  "cons": [
+   "Beta; future pricing unknown",
+   "Facts need checking by you"
+  ],
+  "alternatives": [],
+  "tags": [
+   "presentations",
+   "storytelling",
+   "outlines",
+   "slides",
+   "beta"
+  ],
+  "features": [
+   "Narrative generation",
+   "Slide creation",
+   "Topic, outline or plot input",
+   "Step-by-step editing",
+   "Intro, body, conclusion structure"
+  ],
+  "use_cases": [
+   "Drafting a talk",
+   "Turning notes into slides",
+   "Classroom lesson outlines",
+   "Story structure drafts"
+  ],
+  "pricing_details": "Free in beta with an auto-recharging credit system; final pricing not announced. Check the official site.",
+  "faq": [
+   {
+    "q": "Is Elaborate free?",
+    "a": "Currently yes during beta, with credits."
+   },
+   {
+    "q": "What can I give it?",
+    "a": "A topic, an outline or detailed plot points."
+   },
+   {
+    "q": "Will pricing change?",
+    "a": "Likely; final pricing is to be announced before launch."
+   }
+  ],
+  "seo_title": "Elaborate Review: Features and Pricing",
+  "seo_description": "Turns a topic or outline into a written narrative and slides. Features, pricing and who it suits.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "healthifyme",
+  "name": "HealthifyMe",
+  "category": "productivity",
+  "website_url": "https://www.healthifyme.com/in/",
+  "pricing": "Freemium",
+  "tagline": "Calorie tracking and diet plans with an AI coach and optional human coaches.",
+  "best_for": "People managing weight, nutrition or fitness habits",
+  "platforms": [
+   "iOS",
+   "Android",
+   "Web"
+  ],
+  "description": "HealthifyMe is a nutrition and fitness app that combines calorie tracking with AI help. An assistant called Ria answers questions on food, exercise and motivation, and HealthifySnap logs a meal from a photo by estimating items, calories and macros.\n\nPersonalised diet and workout plans are built from your goals and preferences, and charts follow weight and body measurements. Premium tiers unlock fuller AI access and can include sessions with human nutritionists and fitness coaches. A separate HealthifyRx programme offers medically supervised weight loss with doctor consultations. The free tier covers manual calorie and water tracking. Photo-based estimates are approximate, and nothing here replaces advice from your own doctor, especially with medical conditions. Pricing varies by region, so check the app or site.",
+  "use_steps": [
+   "Install the app and set your goal and body details.",
+   "Log meals manually or with a photo.",
+   "Ask the AI coach for plan adjustments.",
+   "Review progress charts weekly."
+  ],
+  "pros": [
+   "Free calorie and water tracking",
+   "Photo meal logging",
+   "Optional human coaching",
+   "Medical programme available"
+  ],
+  "cons": [
+   "Best features sit behind paid plans",
+   "Photo estimates are approximate"
+  ],
+  "alternatives": [],
+  "tags": [
+   "nutrition",
+   "fitness",
+   "calorie-tracker",
+   "weight",
+   "health"
+  ],
+  "features": [
+   "AI coach Ria",
+   "HealthifySnap photo logging",
+   "Personalised plans",
+   "Macro and micronutrient tracking",
+   "HealthifyRx medical programme"
+  ],
+  "use_cases": [
+   "Losing or gaining weight",
+   "Tracking macros for training",
+   "Quick meal logging for busy people",
+   "Doctor-supervised weight programmes"
+  ],
+  "pricing_details": "Free tier plus paid premium plans and a separate HealthifyRx price; varies by region. Confirm in the app.",
+  "faq": [
+   {
+    "q": "Is there a free version?",
+    "a": "Yes, with manual calorie and water tracking."
+   },
+   {
+    "q": "Can I log food by photo?",
+    "a": "Yes, via HealthifySnap on supported plans."
+   },
+   {
+    "q": "Does it replace a doctor?",
+    "a": "No; consult a medical professional for health conditions."
+   }
+  ],
+  "seo_title": "HealthifyMe Review: Features and Pricing",
+  "seo_description": "Calorie tracking and diet plans with an AI coach and optional human coaches. Features, pricing and who it suits.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "foqus",
+  "name": "Foqus",
+  "category": "marketing",
+  "website_url": "https://foqus.live/",
+  "pricing": "Paid",
+  "tagline": "Behavioural segmentation and churn prediction for marketing teams.",
+  "best_for": "Marketing teams with traffic and customer data to mine",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Foqus is a behavioural intelligence platform. You add a tracking script or API to your site or app, and it studies how people interact, builds individual profiles and sorts users into segments that refresh on their own.\n\nOn top of segmentation it offers predictive scores for churn, lifetime value and purchase intent, processed in real time. A personalisation engine can adjust site content, product recommendations and messages, and a dashboard suggests actions. APIs connect to CRMs, email platforms and ad networks. Listed use cases cover e-commerce, SaaS, media and agencies. Pricing is not public and depends on tracked users and features, so expect a quote process. As with any tracking tool, check consent and privacy rules for your audience before switching it on.",
+  "use_steps": [
+   "Request access and get the tracking script or API key.",
+   "Install it on your site or app.",
+   "Connect your CRM, email or ad tools.",
+   "Review segments and apply the personalisation suggestions."
+  ],
+  "pros": [
+   "Automatic segments that stay current",
+   "Churn and LTV prediction",
+   "Connects to common marketing stacks",
+   "Real-time processing"
+  ],
+  "cons": [
+   "No public pricing",
+   "Needs enough traffic data to be useful"
+  ],
+  "alternatives": [],
+  "tags": [
+   "segmentation",
+   "analytics",
+   "personalization",
+   "churn",
+   "marketing"
+  ],
+  "features": [
+   "AI behavioural segmentation",
+   "Customer profiles",
+   "Predictive analytics",
+   "Personalisation engine",
+   "API integrations"
+  ],
+  "use_cases": [
+   "Reducing churn in a SaaS product",
+   "Product recommendations in a store",
+   "Targeted email audiences",
+   "Agency client reporting"
+  ],
+  "pricing_details": "Paid B2B with custom quotes based on tracked users and features. Contact the vendor.",
+  "faq": [
+   {
+    "q": "How is it installed?",
+    "a": "Through a tracking script or API on your site or app."
+   },
+   {
+    "q": "What does it predict?",
+    "a": "Churn probability, lifetime value and purchase intent."
+   },
+   {
+    "q": "Is pricing listed?",
+    "a": "No, quotes are provided on request."
+   }
+  ],
+  "seo_title": "Foqus Review: Features and Pricing",
+  "seo_description": "Behavioural segmentation and churn prediction for marketing teams. Features, pricing and who it suits.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "nijimap",
+  "name": "Nijimap",
+  "category": "productivity",
+  "website_url": "https://nijimap.com/",
+  "pricing": "Free",
+  "tagline": "Event discovery and live venue info for Malaysian conventions and festivals.",
+  "best_for": "Event-goers in Malaysia, especially anime and games fans",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Nijimap is an event hub focused on Malaysia. It collects listings from many sources, with particular attention to anime, comics and games conventions, and also covers cultural festivals, university exhibitions and career fairs.\n\nInteractive venue maps show booths, stages and facilities, and visitors can submit on-site observations about crowd levels, parking and venue status so others see current conditions. Event pages carry schedules, categories, dates, times and entrance fees. The site is free for visitors, though individual events may charge admission. Because live updates are crowdsourced, their accuracy depends on how many attendees contribute, so treat them as hints rather than guarantees. It is useful mainly if you attend events in Malaysia; elsewhere it offers little.",
+  "use_steps": [
+   "Open Nijimap and browse upcoming events.",
+   "Open an event page and check schedule and entrance fee.",
+   "Use the venue map to plan your route inside.",
+   "Share your own crowd or parking updates on the day."
+  ],
+  "pros": [
+   "Free to use",
+   "Venue maps with booths and stages",
+   "Live community updates",
+   "Gathers listings in one place"
+  ],
+  "cons": [
+   "Limited to Malaysia",
+   "Live data depends on contributors"
+  ],
+  "alternatives": [],
+  "tags": [
+   "events",
+   "malaysia",
+   "maps",
+   "anime",
+   "community"
+  ],
+  "features": [
+   "Event discovery",
+   "Interactive venue maps",
+   "Crowdsourced crowd and parking updates",
+   "Full schedules",
+   "Community contributions"
+  ],
+  "use_cases": [
+   "Planning a convention day",
+   "Finding a fireworks festival",
+   "Checking career fairs",
+   "Avoiding parking surprises"
+  ],
+  "pricing_details": "Free for visitors; events may charge their own entry fees.",
+  "faq": [
+   {
+    "q": "Is Nijimap free?",
+    "a": "Yes for visitors, though events may charge entry."
+   },
+   {
+    "q": "Where does it work?",
+    "a": "The platform focuses on events in Malaysia."
+   },
+   {
+    "q": "Where do live updates come from?",
+    "a": "From community submissions by attendees."
+   }
+  ],
+  "seo_title": "Nijimap Review: Features and Pricing",
+  "seo_description": "Event discovery and live venue info for Malaysian conventions and festivals. Features, pricing and who it suits.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "memora-health",
+  "name": "Memora Health",
+  "category": "productivity",
+  "website_url": "https://www.memorahealth.com/",
+  "pricing": "Paid",
+  "tagline": "Text-based AI care assistant for health systems.",
+  "best_for": "Healthcare organisations managing patient follow-up",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Memora Health is a care enablement platform for healthcare providers. A conversational assistant talks with patients over text message, so nobody has to download an app, answering questions, giving education and escalating complicated cases to the care team.\n\nIt automates clinical workflows such as check-ins, appointment reminders, medication adherence tracking and collecting patient-reported outcomes, and it supports remote monitoring with alerts for clinicians. Integration with electronic health records is done through APIs, and a library of evidence-based care programmes covers areas like oncology, maternity, surgery, chronic care and fertility. Analytics report on engagement and outcomes. It is sold to organisations, not individuals, with pricing set after a consultation and scoping process. Book a demo through the official site for details.",
+  "use_steps": [
+   "Book a demo and describe the care pathway you want to automate.",
+   "Scope programmes and EHR integration with the vendor.",
+   "Enrol patients so they receive text-based check-ins.",
+   "Monitor escalations and outcome reports."
+  ],
+  "pros": [
+   "No app download for patients",
+   "EHR integration",
+   "Escalation to clinicians",
+   "Care programme library"
+  ],
+  "cons": [
+   "Enterprise sales process",
+   "No public pricing"
+  ],
+  "alternatives": [],
+  "tags": [
+   "healthcare",
+   "patient-engagement",
+   "remote-monitoring",
+   "sms",
+   "ehr"
+  ],
+  "features": [
+   "Conversational AI assistant",
+   "Workflow automation",
+   "Remote monitoring alerts",
+   "EHR integration",
+   "Analytics and reporting"
+  ],
+  "use_cases": [
+   "Post-surgery follow-up",
+   "Postpartum check-ins",
+   "Chronic condition monitoring",
+   "Medication adherence reminders"
+  ],
+  "pricing_details": "Custom pricing after consultation; not published.",
+  "faq": [
+   {
+    "q": "Do patients need an app?",
+    "a": "No, it works over text messaging."
+   },
+   {
+    "q": "Who buys it?",
+    "a": "Healthcare organisations."
+   },
+   {
+    "q": "How much does it cost?",
+    "a": "Pricing is customised and not published."
+   }
+  ],
+  "seo_title": "Memora Health Review: Features and Pricing",
+  "seo_description": "Text-based AI care assistant for health systems. Features, pricing and who it suits.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "samtts",
+  "name": "Samtts",
+  "category": "audio",
+  "website_url": "https://samtts.com",
+  "pricing": "Free",
+  "tagline": "Free retro Microsoft SAM style text-to-speech in the browser.",
+  "best_for": "Retro fans, game developers and meme makers",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Samtts is a browser text-to-speech tool that recreates the robotic Microsoft SAM voice from the Windows XP era. You type text, choose a voice preset, tweak the settings and hear it immediately, with no install or sign-up.\n\nPresets include Sam, Mike, Mary and BonziBUDDY plus several robotic and effect voices, and sliders adjust pitch, speed, mouth and throat. It also offers Kokoro TTS, an open-weight model with English and Japanese support, for cleaner speech. Output downloads as WAV. Developers get a lightweight client-side JavaScript engine and an API for websites, Unity and Godot. The listing says everything, including commercial use, is free. Confirm the licence terms on the site before shipping a product with it.",
+  "use_steps": [
+   "Open the site and type or paste your text.",
+   "Choose a voice preset such as Sam.",
+   "Adjust pitch, speed, mouth and throat.",
+   "Play it back and download the WAV file."
+  ],
+  "pros": [
+   "Free with WAV download",
+   "No sign-up",
+   "Many retro presets",
+   "Developer API available"
+  ],
+  "cons": [
+   "Robotic voices suit only some projects",
+   "Check commercial licence terms"
+  ],
+  "alternatives": [],
+  "tags": [
+   "text-to-speech",
+   "retro",
+   "wav",
+   "game-dev",
+   "free"
+  ],
+  "features": [
+   "SAM voice presets",
+   "Adjustable voice sliders",
+   "Kokoro TTS option",
+   "WAV export",
+   "JavaScript API"
+  ],
+  "use_cases": [
+   "Retro game dialogue",
+   "Meme and video voiceovers",
+   "Prototype narration",
+   "Testing Unity or Godot speech"
+  ],
+  "pricing_details": "Listed as completely free including commercial use; verify on the official site.",
+  "faq": [
+   {
+    "q": "Does it need an account?",
+    "a": "No sign-up is required."
+   },
+   {
+    "q": "What can I download?",
+    "a": "Audio as WAV files."
+   },
+   {
+    "q": "Can developers use it?",
+    "a": "Yes, there is a JavaScript engine and API for web, Unity and Godot."
+   }
+  ],
+  "seo_title": "Samtts Review: Features and Pricing",
+  "seo_description": "Free retro Microsoft SAM style text-to-speech in the browser. Features, pricing and who it suits.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "snapss",
+  "name": "Snapss",
+  "category": "marketing",
+  "website_url": "https://snapss.io/",
+  "pricing": "Paid",
+  "tagline": "Loyalty cards and passes in Apple Wallet and Google Wallet.",
+  "best_for": "Shops and venues running loyalty or membership programmes",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "Snapss lets businesses create membership cards, rewards programmes and event passes that live in customers' Apple Wallet or Google Wallet. Customers add a card by QR code, email or link, and no app is required.\n\nBusinesses can send push notifications that appear on the lock screen, track points automatically for in-store and online purchases and import existing member lists. Integrations cover Shopify, WooCommerce, Magento, CRMs and cash register systems, and custom domains keep links and emails on-brand. A GDPR statement is listed. Subscriptions are tiered by the number of cards issued each month, and exact prices are not shown, so request a quote or demo. It fits retail, hospitality, beauty services and event organisers.",
+  "use_steps": [
+   "Request a demo or sign up.",
+   "Design a card with your branding and reward rules.",
+   "Share it by QR code, link or email.",
+   "Send wallet notifications and watch points activity."
+  ],
+  "pros": [
+   "No customer app needed",
+   "Lock-screen notifications",
+   "Shop and POS integrations",
+   "Custom branding and domain"
+  ],
+  "cons": [
+   "Prices not listed publicly",
+   "Pricing scales with cards issued"
+  ],
+  "alternatives": [],
+  "tags": [
+   "loyalty",
+   "wallet-pass",
+   "retail",
+   "membership",
+   "push-notifications"
+  ],
+  "features": [
+   "Apple and Google Wallet cards",
+   "App-less push messages",
+   "Automatic points tracking",
+   "E-commerce and POS integrations",
+   "Member data import"
+  ],
+  "use_cases": [
+   "Coffee shop loyalty",
+   "Retail rewards",
+   "Event passes",
+   "Salon memberships"
+  ],
+  "pricing_details": "Paid subscription tiered by monthly digital cards; exact prices not published here. Check the official site.",
+  "faq": [
+   {
+    "q": "Do customers install an app?",
+    "a": "No, cards sit in their phone wallet."
+   },
+   {
+    "q": "Which platforms integrate?",
+    "a": "Shopify, WooCommerce, Magento, CRMs and cash registers are listed."
+   },
+   {
+    "q": "How is it priced?",
+    "a": "By number of cards per month; ask for a quote."
+   }
+  ],
+  "seo_title": "Snapss Review: Features and Pricing",
+  "seo_description": "Loyalty cards and passes in Apple Wallet and Google Wallet. Features, pricing and who it suits.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "strawberry-browser",
+  "name": "Strawberry Browser",
+  "category": "productivity",
+  "website_url": "https://strawberrybrowser.com/",
+  "pricing": "Freemium",
+  "tagline": "An AI browser with assistants that automate repetitive web tasks.",
+  "best_for": "Sales, research and ops people doing repeat browser work",
+  "platforms": [
+   "Web",
+   "macOS"
+  ],
+  "description": "Strawberry Browser is a browser built around AI assistants called Companions. Each handles a job such as research, data extraction, lead gathering or newsletter curation, and you can teach one a task by showing it once.\n\nCompanions work on sites using your own logins, including pages behind sign-in forms, and ask for approval before critical actions like sending an email or posting. Pre-built ones exist for competitor analysis, LinkedIn work and data extraction, or you can make your own. Messages, profile data and logs are stored locally, and the site says data sent to AI providers is not used to train their models. Passwords can be migrated from another browser. Plans are credit-based with a free Hobby tier; check the site for limits.",
+  "use_steps": [
+   "Download the browser and import your passwords.",
+   "Pick a pre-built Companion or create a new one.",
+   "Demonstrate the task once on the page.",
+   "Approve any critical actions and review the results."
+  ],
+  "pros": [
+   "Teach by demonstration",
+   "Works with your own logins",
+   "Asks approval for risky actions",
+   "Free tier"
+  ],
+  "cons": [
+   "Credit limits cap heavy use",
+   "Some transcription features are Mac only"
+  ],
+  "alternatives": [],
+  "tags": [
+   "ai-browser",
+   "automation",
+   "agents",
+   "research",
+   "lead-generation"
+  ],
+  "features": [
+   "Customisable Companions",
+   "Workflow automation",
+   "Page-aware assistance",
+   "Approval prompts",
+   "Local data storage"
+  ],
+  "use_cases": [
+   "Lead lists from the web",
+   "Competitor monitoring",
+   "Scraping into spreadsheets",
+   "Newsletter curation"
+  ],
+  "pricing_details": "Free Hobby plan, a monthly Pro plan and custom Team pricing, all credit-based. Plans change; check the site.",
+  "faq": [
+   {
+    "q": "Can it use sites I'm logged into?",
+    "a": "Yes, it works with your own accounts."
+   },
+   {
+    "q": "Will it act without asking?",
+    "a": "It asks approval before critical actions such as sending emails."
+   },
+   {
+    "q": "Is there a free plan?",
+    "a": "Yes, a Hobby tier with monthly credits."
+   }
+  ],
+  "seo_title": "Strawberry Browser Review: Features and Pricing",
+  "seo_description": "An AI browser with assistants that automate repetitive web tasks. Features, pricing and who it suits.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "alya",
+  "name": "Alya",
+  "category": "chat-assistants",
+  "website_url": "https://alyatherapist.xyz/",
+  "pricing": "Unknown",
+  "tagline": "An AI companion for mood tracking, goals and CBT-style conversations.",
+  "best_for": "People wanting a low-stakes space for self-reflection",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Alya presents itself as a personal AI therapist for mental wellness and personal growth. You chat with it using CBT-inspired techniques, set goals with reminders, and log mood and emotions so trends become visible.\n\nIt also offers a situation analysis view, a library of mindfulness, breathing and meditation exercises and a choice of personalities from empathetic to analytical. The listing says it is available around the clock and claims encryption and confidentiality. Important limits: the listing does not say whether licensed professionals supervise it or what crisis support exists, so it should not replace a therapist or emergency help. If you are in distress, contact local crisis services. Pricing is unconfirmed, so check the official site.",
+  "use_steps": [
+   "Open the site and create an account.",
+   "Pick an AI personality and describe how you feel.",
+   "Log your mood and set one small goal.",
+   "Try a breathing exercise and review trends later."
+  ],
+  "pros": [
+   "Always available",
+   "Mood tracking with trends",
+   "Goal reminders",
+   "Choice of tone"
+  ],
+  "cons": [
+   "Not a substitute for professional care",
+   "Supervision and crisis support not stated"
+  ],
+  "alternatives": [],
+  "tags": [
+   "mental-wellness",
+   "mood-tracking",
+   "cbt",
+   "journaling",
+   "self-care"
+  ],
+  "features": [
+   "CBT-inspired chat",
+   "Goal setting",
+   "Mood and emotion tracking",
+   "Mindfulness exercise library",
+   "Selectable AI personalities"
+  ],
+  "use_cases": [
+   "Daily stress check-ins",
+   "Building journaling habits",
+   "Reflecting on a hard day",
+   "Tracking mood over weeks"
+  ],
+  "pricing_details": "Pricing not confirmed in the listing; check the official site.",
+  "faq": [
+   {
+    "q": "Is Alya a real therapist?",
+    "a": "No, it is an AI tool and not a replacement for professional care."
+   },
+   {
+    "q": "What does it track?",
+    "a": "Mood and emotions, with visual trends."
+   },
+   {
+    "q": "What if I'm in crisis?",
+    "a": "Contact local emergency or crisis services; do not rely on the app."
+   }
+  ],
+  "seo_title": "Alya Review: Features and Pricing",
+  "seo_description": "An AI companion for mood tracking, goals and CBT-style conversations. Features, pricing and who it suits.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "smartdraftai",
+  "name": "SmartDraftai",
+  "category": "writing",
+  "website_url": "https://www.smartdraftai.co/",
+  "pricing": "Freemium",
+  "tagline": "Chat your way to contracts, policies and other startup legal documents.",
+  "best_for": "Founders and small business owners drafting legal paperwork",
+  "platforms": [
+   "Web"
+  ],
+  "description": "SmartDraftai generates legal documents through a conversation. You describe your business in chat instead of filling in forms, and it recommends and drafts contracts, policies and agreements that fit your industry and stage.\n\nThe library lists more than fifty document types across team and equity, funding, operations and intellectual property. An editor offers real-time collaboration, version control and suggestions, and files export to PDF, Word and HTML. Jurisdiction support starts with Nigeria and other African regions, with wider expansion planned. The site claims SOC 2 Type II compliance and AES-256 encryption, which is vendor-stated. Generated documents are drafts; have a qualified lawyer review anything high stakes. A free plan caps monthly documents; check current tiers on the site.",
+  "use_steps": [
+   "Sign up and describe your business in the chat.",
+   "Choose a recommended document type.",
+   "Edit clauses and invite collaborators.",
+   "Export and have a lawyer review it."
+  ],
+  "pros": [
+   "Chat replaces long forms",
+   "Many document types",
+   "Collaboration and version control",
+   "Free tier"
+  ],
+  "cons": [
+   "Not a substitute for legal advice",
+   "Jurisdiction coverage is still growing"
+  ],
+  "alternatives": [],
+  "tags": [
+   "legal",
+   "contracts",
+   "startups",
+   "documents",
+   "drafting"
+  ],
+  "features": [
+   "Chat-based generation",
+   "Document recommendations",
+   "50+ document types",
+   "Collaborative editor",
+   "PDF and Word export"
+  ],
+  "use_cases": [
+   "Founder agreements",
+   "Privacy policies",
+   "Employment contracts",
+   "IP assignments"
+  ],
+  "pricing_details": "Free plan with monthly document limits plus paid Pro, Business and custom Enterprise tiers. Check the official site for current prices.",
+  "faq": [
+   {
+    "q": "Where does it work?",
+    "a": "It starts with Nigeria and other African regions, expanding later."
+   },
+   {
+    "q": "Which formats export?",
+    "a": "PDF, Word, HTML and others."
+   },
+   {
+    "q": "Is legal review needed?",
+    "a": "Yes, treat output as a draft."
+   }
+  ],
+  "seo_title": "SmartDraftai Review: Features and Pricing",
+  "seo_description": "Chat your way to contracts, policies and other startup legal documents. Features, pricing and who it suits.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "abacus-ai",
+  "name": "Abacus.AI",
+  "category": "chat-assistants",
+  "website_url": "https://abacus.ai/",
+  "pricing": "Unknown",
+  "tagline": "Generative AI platform with ChatLLM for individuals and an enterprise suite.",
+  "best_for": "Teams building AI agents and chatbots on their own data",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Abacus.AI is a generative AI platform with two main faces. ChatLLM is a multi-modal assistant for chat, code, voice, image and video work aimed at individuals and small teams, while the enterprise platform targets larger organisations.\n\nOn the enterprise side it offers DeepAgent for multi-step tasks across apps, tools for building workflows and custom chatbots with retrieval over company data and permission-aware access, plus classic machine learning for forecasting, prediction and anomaly detection. It connects to over one hundred enterprise applications and lists SSO, SAML, SOC 2, GDPR and HIPAA support with several deployment options. Prices are not shown publicly; ChatLLM has direct sign-up, and enterprise quotes come after a consultation. Check the official site for plans.",
+  "use_steps": [
+   "Sign up for ChatLLM to try the assistant.",
+   "Test it on a real task such as a code or report draft.",
+   "For enterprise, book a consultation about your data.",
+   "Build and test a chatbot or workflow before rollout."
+  ],
+  "pros": [
+   "Covers chat, agents and classic ML",
+   "Enterprise security options listed",
+   "Many app integrations",
+   "Simple sign-up for ChatLLM"
+  ],
+  "cons": [
+   "Pricing not public",
+   "Broad scope takes time to learn"
+  ],
+  "alternatives": [],
+  "tags": [
+   "agents",
+   "chatbots",
+   "enterprise-ai",
+   "machine-learning",
+   "rag"
+  ],
+  "features": [
+   "ChatLLM assistant",
+   "DeepAgent",
+   "Custom RAG chatbots",
+   "Structured ML platform",
+   "Enterprise integrations"
+  ],
+  "use_cases": [
+   "Company knowledge chatbot",
+   "Forecasting demand",
+   "Multi-step task agents",
+   "Anomaly detection"
+  ],
+  "pricing_details": "Prices not publicly listed; enterprise is custom. Check the official site.",
+  "faq": [
+   {
+    "q": "What is ChatLLM?",
+    "a": "A multi-modal assistant for individuals and small teams."
+   },
+   {
+    "q": "Who is the enterprise product for?",
+    "a": "Larger organisations building agents and chatbots."
+   },
+   {
+    "q": "Is pricing public?",
+    "a": "Not on the page I read; ask the vendor."
+   }
+  ],
+  "seo_title": "Abacus.AI Review: Features and Pricing",
+  "seo_description": "Generative AI platform with ChatLLM for individuals and an enterprise suite. Features, pricing and who it suits.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "radical-customer-experience",
+  "name": "Radical Customer Experience",
+  "category": "marketing",
+  "website_url": "https://radicalcustomerexperience.com/",
+  "pricing": "Paid",
+  "tagline": "Brand-health and PR-risk modules combining AI with psychometrics.",
+  "best_for": "Brands monitoring reputation and campaign risk",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Radical Customer Experience sells the Rx Platform, a set of AI modules for brand management that mixes sentiment analysis with psychometrics. The idea is to spot reputational trouble early instead of reacting after it spreads.\n\nFour modules are listed: BV-Score.AI tracks and predicts brand health and vulnerability, ContentRx checks copy and imagery for misreadings or cultural insensitivity before launch, CultureRx assesses risks tied to social issues, and CrisisRx provides crisis communication tools. Companies can buy single modules or the full platform. Listed examples include consumer, fashion, tech and food brands. Predictive claims are the vendor's own and worth testing on a pilot. The listing shows monthly per-module and bundle prices; confirm current ones on the official site.",
+  "use_steps": [
+   "Choose the module that matches your biggest risk.",
+   "Connect your brand and campaign content.",
+   "Review scores and flagged content before launch.",
+   "Use CrisisRx playbooks when issues escalate."
+  ],
+  "pros": [
+   "Pre-launch content checks",
+   "Module-by-module purchase",
+   "Crisis toolkit",
+   "Brand health scoring"
+  ],
+  "cons": [
+   "Predictions are vendor-claimed",
+   "Monthly cost suits businesses, not individuals"
+  ],
+  "alternatives": [],
+  "tags": [
+   "brand-management",
+   "pr",
+   "sentiment",
+   "risk",
+   "reputation"
+  ],
+  "features": [
+   "BV-Score.AI brand health",
+   "ContentRx content analysis",
+   "CultureRx risk assessment",
+   "CrisisRx toolkit"
+  ],
+  "use_cases": [
+   "Vetting an ad campaign",
+   "Tracking brand vulnerability",
+   "Preparing crisis responses",
+   "Cultural sensitivity review"
+  ],
+  "pricing_details": "Listed per module monthly or as a full-platform bundle; prices may change. Check the official site.",
+  "faq": [
+   {
+    "q": "Can I buy one module?",
+    "a": "Yes, modules are listed individually and as a bundle."
+   },
+   {
+    "q": "What does ContentRx do?",
+    "a": "It checks copy and imagery for misinterpretation and sentiment before launch."
+   },
+   {
+    "q": "Who is it for?",
+    "a": "Businesses protecting brand reputation."
+   }
+  ],
+  "seo_title": "Radical Customer Experience Review: Features and Pricing",
+  "seo_description": "Brand-health and PR-risk modules combining AI with psychometrics. Features, pricing and who it suits.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "kira",
+  "name": "Kira",
+  "category": "image",
+  "website_url": "https://kira.art/",
+  "pricing": "Unknown",
+  "tagline": "AI image generator and editor focused on keeping style and characters consistent.",
+  "best_for": "Marketers, designers and illustrators editing many images",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Kira combines text-to-image generation with a set of editing tools. You write a detailed prompt in the Generator or the Think engine, then refine the result without leaving the platform.\n\nEditing options include background removal and replacement, inpainting and an eraser, outpainting to extend the canvas, upscaling and stylisation. Its stated focus is consistency, keeping a style or character stable across several images and edits, which matters for campaign sets and product visuals. Results download in high resolution. The listing targets marketing, e-commerce, content creation, design and illustration. Plan names and prices were not confirmed on the page, so check the official site for what is free and what is paid before relying on it.",
+  "use_steps": [
+   "Open Kira and write a detailed prompt.",
+   "Generate images and pick a base.",
+   "Use Remove BG, Inpaint or Expand to refine.",
+   "Upscale and download the final image."
+  ],
+  "pros": [
+   "Generation and editing in one place",
+   "Consistency across images",
+   "Many editing tools",
+   "High-res download"
+  ],
+  "cons": [
+   "Pricing unclear from the listing",
+   "Consistency quality varies by prompt"
+  ],
+  "alternatives": [],
+  "tags": [
+   "image-generation",
+   "editing",
+   "inpainting",
+   "upscale",
+   "consistency"
+  ],
+  "features": [
+   "Text-to-image",
+   "Background removal and replacement",
+   "Inpaint and eraser",
+   "Expand and upscale",
+   "Stylize"
+  ],
+  "use_cases": [
+   "Ad creative sets",
+   "Product photo cleanup",
+   "Illustration variations",
+   "Social content"
+  ],
+  "pricing_details": "Freemium listed but plan details unconfirmed. Check the official site.",
+  "faq": [
+   {
+    "q": "What editing tools exist?",
+    "a": "Background removal, inpainting, eraser, expand, upscale and stylize."
+   },
+   {
+    "q": "What is its focus?",
+    "a": "Keeping style and characters consistent across images."
+   },
+   {
+    "q": "Is it free?",
+    "a": "Unconfirmed; see the official site."
+   }
+  ],
+  "seo_title": "Kira Review: Features and Pricing",
+  "seo_description": "AI image generator and editor focused on keeping style and characters consistent. Features, pricing and who it suits.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "toolin",
+  "name": "Toolin",
+  "category": "research",
+  "website_url": "https://toolin.ai/",
+  "pricing": "Unknown",
+  "tagline": "A curated directory of AI tools with community-shared Skill Packs.",
+  "best_for": "People hunting for AI tools to fit a workflow",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Toolin is a directory for discovering and organising AI tools. The listing counts more than 250 tools across groups like AI browsers, image and video generation, design, content creation, programming and office work.\n\nYou can search and filter by keyword, category or AI model, browse editor's picks and trending tools, and see which ones offer free access. A distinctive feature is AI Skill Packs: community-shared collections of tools for a specific workflow. Anyone can submit tools or packs, though creating and publishing Skill Packs needs account activation with an invitation code. It suits creators, developers, marketers and students who want a shortlist instead of searching blindly. Pricing is not stated in the listing, so check the official site.",
+  "use_steps": [
+   "Open Toolin and search by task or category.",
+   "Filter by model or free access.",
+   "Open a Skill Pack that matches your workflow.",
+   "Submit a tool you rely on."
+  ],
+  "pros": [
+   "Curated, filterable directory",
+   "Workflow-based Skill Packs",
+   "Flags free options",
+   "Open to submissions"
+  ],
+  "cons": [
+   "Publishing needs an invitation code",
+   "Directory size is modest"
+  ],
+  "alternatives": [],
+  "tags": [
+   "directory",
+   "ai-tools",
+   "discovery",
+   "skill-packs",
+   "curation"
+  ],
+  "features": [
+   "Searchable AI tool directory",
+   "Skill Packs",
+   "Editor's picks",
+   "Free-access flags",
+   "Community submissions"
+  ],
+  "use_cases": [
+   "Finding a tool for a task",
+   "Comparing options in a category",
+   "Sharing a workflow",
+   "Keeping up with new tools"
+  ],
+  "pricing_details": "Pricing not stated; listed as freemium elsewhere. Check the official site.",
+  "faq": [
+   {
+    "q": "What are Skill Packs?",
+    "a": "Community-shared collections of tools for a workflow."
+   },
+   {
+    "q": "Can I submit tools?",
+    "a": "Yes, the site accepts submissions."
+   },
+   {
+    "q": "Do I need an invite?",
+    "a": "For creating and publishing Skill Packs, yes."
+   }
+  ],
+  "seo_title": "Toolin Review: Features and Pricing",
+  "seo_description": "A curated directory of AI tools with community-shared Skill Packs. Features, pricing and who it suits.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ }
+]

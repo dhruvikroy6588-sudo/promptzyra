@@ -19,7 +19,7 @@ export const NAV_GROUPS = [
     { label: 'Mods', href: '/mods', icon: Braces, count: 'mods' },
     { label: 'Plugins', href: '/plugins', icon: Wrench, count: 'plugins' },
     { label: 'AI Prompts', href: '/prompts', icon: Sparkles, expand: 'prompt', count: 'prompt' },
-    { label: 'Photo Prompts', href: '/photo-prompts', icon: Camera, count: 'photo', staticSub: [{ name: 'AI Photo Trends', href: '/photo-prompts' }, ...PHOTO_SUBJECTS.map(([name, slug]) => ({ name, href: `/photo-prompts/for/${slug}` }))] },
+    { label: 'Photo Prompts', href: '/photo-prompts', icon: Camera, count: 'photo', expand: 'photo' },
     { label: 'AI Tools', href: '/ai-tools', icon: Wrench, expand: 'tool', count: 'tool' },
     { label: 'Resume Builder', href: '/resume-builder', icon: FileText },
     { label: 'Free Tools', href: '/tools', icon: Hammer },

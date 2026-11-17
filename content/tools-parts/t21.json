@@ -1,0 +1,1959 @@
+[
+ {
+  "slug": "colorcraft",
+  "name": "ColorCraft",
+  "category": "design",
+  "website_url": "https://colorcraft.ai",
+  "pricing": "Free trial",
+  "tagline": "Browser-based AI for building coloring, story and puzzle books for Amazon KDP.",
+  "best_for": "Self-publishers making low-content books for KDP",
+  "platforms": [
+   "Web"
+  ],
+  "description": "ColorCraft is a browser tool aimed at people who publish coloring books, illustrated children's storybooks and puzzle books on Amazon KDP. It generates the page artwork, lets you tidy pages in a visual editor, and exports interior PDFs at common trim sizes along with a full cover wrap for front, spine and back.\n\nAround the books themselves it adds lifestyle mockups and a listing generator that drafts a description and keyword ideas. Storybooks can reuse a character saved from a few photos, and puzzle books come with answer keys. It does not upload anything to Amazon, and it is not built for journals, planners or Kindle ebook files. Check the official site for current plans and licensing terms.",
+  "use_steps": [
+   "Choose the book type: coloring, storybook or puzzle.",
+   "Generate pages and fix weak ones in the visual editor.",
+   "Pick a trim size and export the interior PDF plus cover wrap.",
+   "Create mockups and listing copy, then upload the files to KDP yourself."
+  ],
+  "pros": [
+   "Covers interior, cover and listing copy in one workflow",
+   "Puzzle books include answer keys",
+   "Character reuse helps storybook consistency"
+  ],
+  "cons": [
+   "Narrow focus: no journals, planners or ebooks",
+   "Does not publish to Amazon for you"
+  ],
+  "alternatives": [
+   "canva",
+   "midjourney",
+   "leonardo-ai"
+  ],
+  "tags": [
+   "kdp",
+   "coloring-book",
+   "publishing",
+   "ai-art",
+   "puzzle"
+  ],
+  "features": [
+   "Coloring page generation with editor",
+   "Storybooks with saved characters",
+   "Sudoku, maze, crossword and word search books",
+   "Interior PDF and cover wrap export",
+   "Mockups and KDP listing generator"
+  ],
+  "use_cases": [
+   "Launching a coloring book series",
+   "Making a children's picture book",
+   "Producing puzzle books with answer keys",
+   "Creating covers and mockups for Etsy listings"
+  ],
+  "pricing_details": "A free trial exists with watermarked downloads, followed by monthly plans and a single-book unlock. Plans change, so check the official site.",
+  "faq": [
+   {
+    "q": "Does ColorCraft upload books to Amazon KDP?",
+    "a": "No. It produces the PDFs, covers, mockups and listing text, and you upload them to KDP yourself."
+   },
+   {
+    "q": "What kinds of books does it make?",
+    "a": "Coloring books, illustrated storybooks and puzzle books. Journals, planners, notebooks and Kindle ebooks are outside its scope."
+   },
+   {
+    "q": "Is there a free trial?",
+    "a": "The listing mentions a trial that watermarks downloads. Confirm current terms on the official site."
+   }
+  ],
+  "seo_title": "ColorCraft: Features, Pricing and Alternatives",
+  "seo_description": "What ColorCraft does, who it suits, key features, pricing model and alternatives. Original guide on Promptzyra.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "fetchsandbox",
+  "name": "FetchSandbox",
+  "category": "coding",
+  "website_url": "https://fetchsandbox.com",
+  "pricing": "Freemium",
+  "tagline": "Stateful API sandbox for testing integrations and webhooks from your IDE.",
+  "best_for": "Developers and AI coding agents testing third-party API integrations",
+  "platforms": [
+   "Web",
+   "CLI"
+  ],
+  "description": "FetchSandbox gives developers a sandbox for third-party APIs that remembers state between calls. It is reached through MCP and a CLI, so an AI coding agent or a person can run an integration test inside the editor without real API keys or burning quota on the live service.\n\nWhat sets it apart from a simple mock is that it fires the webhooks the real API would send and can check them against rules you define. It can also simulate trouble such as duplicate or out-of-order webhooks, expired tokens and rate limits. Environments come from bundled APIs or from an imported OpenAPI spec. The MCP package and CLI are described as MIT-licensed, with paid tiers covering the hosted backend. Check the official site for current limits.",
+  "use_steps": [
+   "Install the CLI or add the MCP server to your editor.",
+   "Pick a bundled API or import an OpenAPI spec.",
+   "Run a scenario and let it fire webhooks and simulate failures.",
+   "Share the run receipt link in a pull request."
+  ],
+  "pros": [
+   "Tests webhooks and workflow state, not only status codes",
+   "Failure simulation covers retries and rate limits",
+   "Works with several AI coding editors"
+  ],
+  "cons": [
+   "Mostly useful if you integrate with supported APIs",
+   "Hosted features need a paid tier"
+  ],
+  "alternatives": [
+   "postman",
+   "cursor",
+   "claude-code"
+  ],
+  "tags": [
+   "api",
+   "sandbox",
+   "webhooks",
+   "mcp",
+   "testing"
+  ],
+  "features": [
+   "MCP and CLI access",
+   "Stateful sandbox with real-style webhooks",
+   "Failure and retry simulation",
+   "OpenAPI spec import",
+   "Shareable run receipts"
+  ],
+  "use_cases": [
+   "Testing a payment integration",
+   "Checking webhook replay and idempotency",
+   "Reviewing AI-generated integration code",
+   "Contract testing against an OpenAPI spec"
+  ],
+  "pricing_details": "Described as having a free tier, a low-cost Pro tier and custom Enterprise pricing. Limits and prices change, so check the official site.",
+  "faq": [
+   {
+    "q": "Do I need real API keys?",
+    "a": "No. The point of the sandbox is to test without real keys or live quota."
+   },
+   {
+    "q": "Which editors does it support?",
+    "a": "The listing names Cursor, Claude Code, Codex CLI, Windsurf, VS Code and Cline, among others."
+   },
+   {
+    "q": "Is it free?",
+    "a": "There is a free tier with a monthly run limit, plus paid tiers. Verify current numbers on the official site."
+   }
+  ],
+  "seo_title": "FetchSandbox: Features, Pricing and Alternatives",
+  "seo_description": "What FetchSandbox does, who it suits, key features, pricing model and alternatives. Original guide on Promptzyra.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "construct",
+  "name": "Construct",
+  "category": "productivity",
+  "website_url": "https://construct.computer",
+  "pricing": "Free trial",
+  "tagline": "An AI employee with its own persistent cloud desktop for ongoing work.",
+  "best_for": "Solo founders and small teams delegating recurring research and ops tasks",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Construct is built around the idea of an AI worker that has its own cloud computer. The workspace is a browser desktop with chat, files, a browser, terminal, email, calendar and workflows, and files and memory persist between sessions so work can continue while you do something else.\n\nIt can run scheduled jobs, produce cited research reports, and build small internal tools from a plain description. You can reach it from the web, Slack, Telegram, Discord or its own email inbox, and connect outside apps through a SaaS catalog or custom MCP servers. Memory is meant to be inspectable, so you can correct or remove what it kept. The Pro tier lets you bring your own model keys. Pricing on listings has been inconsistent, so check the official site.",
+  "use_steps": [
+   "Sign up and start the trial workspace.",
+   "Give the agent a task or describe a workflow in plain language.",
+   "Connect the apps it needs, such as email or Slack.",
+   "Schedule recurring jobs and review its memory and activity."
+  ],
+  "pros": [
+   "Persistent workspace and memory between sessions",
+   "Scheduled jobs and workflows",
+   "Reachable from chat apps and email"
+  ],
+  "cons": [
+   "Pricing details looked inconsistent on the listing",
+   "Autonomous agents need supervision on important tasks"
+  ],
+  "alternatives": [
+   "n8n",
+   "make",
+   "notion-ai"
+  ],
+  "tags": [
+   "ai-agent",
+   "automation",
+   "workflows",
+   "cloud-desktop",
+   "mcp"
+  ],
+  "features": [
+   "Persistent cloud workspace",
+   "Scheduled workflows",
+   "Internal tool builder",
+   "Cited research reports",
+   "Team roles and access controls"
+  ],
+  "use_cases": [
+   "Weekly competitor research",
+   "Drafting email replies",
+   "Building a small internal dashboard",
+   "Running overnight scheduled checks"
+  ],
+  "pricing_details": "Listed as tiered monthly plans with a short trial and custom enterprise pricing. Figures vary between sources, so check the official site.",
+  "faq": [
+   {
+    "q": "What is the AI's workspace?",
+    "a": "A browser-based cloud desktop with files, terminal, email, calendar and workflows that persists between sessions."
+   },
+   {
+    "q": "Can I use my own model keys?",
+    "a": "The listing says bring-your-own-key is available on the Pro plan."
+   },
+   {
+    "q": "Is there a trial?",
+    "a": "A 7-day trial is mentioned. Confirm current terms on the official site."
+   }
+  ],
+  "seo_title": "Construct: Features, Pricing and Alternatives",
+  "seo_description": "What Construct does, who it suits, key features, pricing model and alternatives. Original guide on Promptzyra.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "viktor",
+  "name": "Viktor",
+  "category": "productivity",
+  "website_url": "https://viktor.com/",
+  "pricing": "Freemium",
+  "tagline": "AI coworker inside Slack and Teams that builds finished work on its own cloud computer.",
+  "best_for": "Teams that want reports, dashboards and apps produced from a chat message",
+  "platforms": [
+   "Web",
+   "Slack",
+   "Microsoft Teams"
+  ],
+  "description": "Viktor is an AI assistant that lives in Slack and Microsoft Teams. Instead of only replying with text, it has a cloud computer where it writes and runs code, so a request in chat can come back as a deck, a dashboard or a small web app deployed at a link.\n\nIt connects to a large catalogue of business tools and can write custom integrations from documentation. Scheduled tasks handle recurring reports and overnight checks, and it remembers company preferences and past decisions. Irreversible actions are meant to wait for approval, with permissions set per person and privacy per channel. You can choose among models from several providers, and API and audit-log access exist for larger setups. Check the official site for current credits and plans.",
+  "use_steps": [
+   "Add Viktor to your Slack or Teams workspace.",
+   "Connect the tools it should read from.",
+   "Ask for a concrete output such as a weekly report.",
+   "Review it and schedule the task to repeat."
+  ],
+  "pros": [
+   "Produces finished files and apps, not only text",
+   "Approval step before irreversible actions",
+   "Choice of underlying models"
+  ],
+  "cons": [
+   "Credit-based usage can be hard to forecast",
+   "Works best when your tools are connected"
+  ],
+  "alternatives": [
+   "notion-ai",
+   "make",
+   "microsoft-copilot"
+  ],
+  "tags": [
+   "slack",
+   "ai-agent",
+   "automation",
+   "teams",
+   "reports"
+  ],
+  "features": [
+   "Chat-based requests in Slack or Teams",
+   "Deck, dashboard and web app output",
+   "Scheduled tasks",
+   "Custom integrations",
+   "Per-person permissions"
+  ],
+  "use_cases": [
+   "Weekly sales or marketing reports",
+   "Building an internal dashboard",
+   "Overnight data checks",
+   "Drafting a client deck"
+  ],
+  "pricing_details": "Described as freemium with starter credits, then paid monthly and team tiers and custom enterprise terms. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "Where does Viktor run?",
+    "a": "Inside Slack and Microsoft Teams, backed by its own cloud computer."
+   },
+   {
+    "q": "Does it act without asking?",
+    "a": "The listing says it asks for approval before irreversible actions."
+   },
+   {
+    "q": "Is there a free tier?",
+    "a": "Free starter credits are mentioned. Confirm amounts on the official site."
+   }
+  ],
+  "seo_title": "Viktor: Features, Pricing and Alternatives",
+  "seo_description": "What Viktor does, who it suits, key features, pricing model and alternatives. Original guide on Promptzyra.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "shape",
+  "name": "Shape",
+  "category": "coding",
+  "website_url": "https://www.useshape.org/",
+  "pricing": "Freemium",
+  "tagline": "Desktop IDE that combines visual design editing, code, Git and an AI agent.",
+  "best_for": "Design engineers and frontend developers who move between design and code",
+  "platforms": [
+   "Windows",
+   "macOS"
+  ],
+  "description": "Shape is a desktop app that puts visual design editing and a code editor in one place. You select an element in a live preview, change layout, fill, type or radius in a sidebar, and the edit is written back to your source files rather than living in a separate design file.\n\nAn AI agent chat sits alongside, able to search the web, read docs, edit files and run checks. Git is built in, with a commit graph, pull requests, CI status and hunk-by-hunk staging. Settings and files are stored locally first. It is aimed at web projects across major languages and frameworks, and there is a small analytics view for signups and revenue. Platform support is not detailed on the listing, so confirm it on the official site along with current plans.",
+  "use_steps": [
+   "Download the app and open a web project.",
+   "Select elements in the live preview and adjust them in the sidebar.",
+   "Ask the agent to make or review a change.",
+   "Stage hunks, commit and open a pull request."
+  ],
+  "pros": [
+   "Visual edits sync to real source code",
+   "Git and AI chat in the same window",
+   "Local-first storage"
+  ],
+  "cons": [
+   "Another editor to learn",
+   "Heavier use depends on paid credits"
+  ],
+  "alternatives": [
+   "cursor",
+   "figma",
+   "framer"
+  ],
+  "tags": [
+   "ide",
+   "design-to-code",
+   "git",
+   "frontend",
+   "ai-agent"
+  ],
+  "features": [
+   "Live visual editing synced to code",
+   "Design token controls",
+   "AI agent chat",
+   "Git graph and pull requests",
+   "Analytics dashboard"
+  ],
+  "use_cases": [
+   "Tweaking spacing without hand-editing CSS",
+   "Reviewing diffs hunk by hunk",
+   "Prototyping UI with an agent",
+   "Small-team frontend work"
+  ],
+  "pricing_details": "Described as having a free tier plus several paid credit tiers. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "Is Shape a design tool or a code editor?",
+    "a": "Both. Visual changes are applied directly to your source files."
+   },
+   {
+    "q": "Does it include Git?",
+    "a": "Yes, with a graph, pull requests, CI checks and staged hunks."
+   },
+   {
+    "q": "Is it free?",
+    "a": "A free tier is mentioned with paid tiers above it. Verify on the official site."
+   }
+  ],
+  "seo_title": "Shape: Features, Pricing and Alternatives",
+  "seo_description": "What Shape does, who it suits, key features, pricing model and alternatives. Original guide on Promptzyra.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "vibecodly",
+  "name": "Vibecodly",
+  "category": "coding",
+  "website_url": "https://vibecodly.app/",
+  "pricing": "Freemium",
+  "tagline": "No-code builder that turns a description into native iOS and Android apps.",
+  "best_for": "Non-technical founders and small businesses wanting a mobile app",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "Vibecodly generates native mobile apps from a written description, using Expo and React Native under the hood. After the first build you can scan a QR code to preview it on your phone, then keep asking for changes in plain language instead of editing code.\n\nStarter templates cover common small-business cases such as salon booking, restaurant menus and orders, a store with a cart, gym classes, expense tracking and club membership. Publishing to the App Store and Google Play goes through your own developer accounts, and the code can be exported. Payment options are listed for several regions. The platform interface is in Spanish, which matters if you are not comfortable reading it. Check the official site for current credits and plans.",
+  "use_steps": [
+   "Describe the app you want, or start from a template.",
+   "Scan the QR code to preview it on your phone.",
+   "Request design or feature changes in chat.",
+   "Publish through your own App Store and Google Play accounts."
+  ],
+  "pros": [
+   "Real native apps rather than a wrapped website",
+   "Code ownership and export",
+   "Templates for common small-business apps"
+  ],
+  "cons": [
+   "Interface is in Spanish",
+   "Credit limits on free and lower plans"
+  ],
+  "alternatives": [
+   "lovable",
+   "bolt-new",
+   "flutterflow"
+  ],
+  "tags": [
+   "no-code",
+   "mobile-app",
+   "react-native",
+   "expo",
+   "app-builder"
+  ],
+  "features": [
+   "Text-to-app generation",
+   "QR phone preview",
+   "Chat-based edits",
+   "Business templates",
+   "Store publishing and code export"
+  ],
+  "use_cases": [
+   "Salon or gym booking app",
+   "Restaurant ordering app",
+   "Personal expense tracker",
+   "Community membership app"
+  ],
+  "pricing_details": "Listed as freemium with a small free allowance and paid Pro and Team tiers. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "Which stack does it generate?",
+    "a": "Expo and React Native, producing iOS and Android apps."
+   },
+   {
+    "q": "Do I own the code?",
+    "a": "The listing says you keep ownership and can export it."
+   },
+   {
+    "q": "Can I publish to the stores?",
+    "a": "Yes, using your own Apple and Google developer accounts."
+   }
+  ],
+  "seo_title": "Vibecodly: Features, Pricing and Alternatives",
+  "seo_description": "What Vibecodly does, who it suits, key features, pricing model and alternatives. Original guide on Promptzyra.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "peach",
+  "name": "Peach",
+  "category": "marketing",
+  "website_url": "https://trypeach.ai/",
+  "pricing": "Freemium",
+  "tagline": "AI agents and shared inbox for sales and support on WhatsApp.",
+  "best_for": "Sales and D2C teams handling heavy WhatsApp message volume",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Peach is a WhatsApp-focused platform that deploys AI agents for specific jobs: qualifying leads, answering support questions, onboarding customers and recovering abandoned carts. When a conversation needs a person, it hands over with the context attached.\n\nBehind the agents sits a shared inbox with assignments, notes and handoffs, and a visual builder for setting an agent's goals, knowledge, guardrails and escalation rules. Developers get a REST API, webhooks and MCP support to link CRMs and internal tools, and there is conversation analysis for friction and sentiment. Broadcast sending and voice agents are available on certain plans, and a free pricing calculator covers WhatsApp message fees by country. Accuracy figures on the listing are vendor claims, so check the official site.",
+  "use_steps": [
+   "Connect a WhatsApp Business number.",
+   "Build an agent with its goal, knowledge and escalation rules.",
+   "Route conversations through the shared inbox.",
+   "Review conversation insights and tune the agent."
+  ],
+  "pros": [
+   "Human handoff keeps context",
+   "Visual agent builder with guardrails",
+   "API, webhooks and MCP for integration"
+  ],
+  "cons": [
+   "WhatsApp-only focus",
+   "Seats and AI credits scale cost quickly"
+  ],
+  "alternatives": [
+   "hubspot",
+   "mailchimp",
+   "make"
+  ],
+  "tags": [
+   "whatsapp",
+   "sales",
+   "support",
+   "ai-agents",
+   "crm"
+  ],
+  "features": [
+   "Specialised AI agents",
+   "Shared inbox",
+   "Visual agent builder",
+   "Broadcasts",
+   "Conversation intelligence"
+  ],
+  "use_cases": [
+   "Qualifying inbound leads",
+   "Recovering abandoned carts",
+   "Answering support questions",
+   "Onboarding new customers"
+  ],
+  "pricing_details": "Described as freemium with a free tier and several paid seat-and-credit plans plus enterprise. Check the official site for current pricing.",
+  "faq": [
+   {
+    "q": "Is Peach only for WhatsApp?",
+    "a": "Yes, the platform is built around WhatsApp conversations."
+   },
+   {
+    "q": "What happens when the AI cannot help?",
+    "a": "The conversation is handed to a human with context."
+   },
+   {
+    "q": "Does it have an API?",
+    "a": "A REST API, webhooks and MCP support are listed."
+   }
+  ],
+  "seo_title": "Peach: Features, Pricing and Alternatives",
+  "seo_description": "What Peach does, who it suits, key features, pricing model and alternatives. Original guide on Promptzyra.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "meetstream",
+  "name": "MeetStream",
+  "category": "coding",
+  "website_url": "https://meetstream.ai",
+  "pricing": "Paid",
+  "tagline": "Meeting bot API for Zoom, Google Meet and Teams with live transcripts.",
+  "best_for": "Developers building AI notetakers and real-time meeting agents",
+  "platforms": [
+   "API"
+  ],
+  "description": "MeetStream is an API for developers who need a bot to join video calls. One request sends a bot into Zoom, Google Meet or Microsoft Teams, where it captures audio and video and returns speaker-labelled transcripts, so you do not have to build separate integrations for each platform.\n\nIt can stream live audio, video and transcripts over WebSocket, supply per-participant streams, save MP4 recordings, read and send chat messages, and speak in the meeting through output audio. Calendar integration allows automatic joining, and webhooks report bot, recording and transcript events. Storage can go to your own S3 bucket. Pricing is usage-based per bot hour with some free starting credit. Security claims on the listing are the vendor's own, so check the official site.",
+  "use_steps": [
+   "Create an account and get an API key.",
+   "Send a request with the meeting link to launch a bot.",
+   "Receive live transcripts or recordings via WebSocket and webhooks.",
+   "Feed the output to your own AI features."
+  ],
+  "pros": [
+   "One API across three meeting platforms",
+   "Real-time streams as well as post-call files",
+   "Usage-based billing with no seat fees"
+  ],
+  "cons": [
+   "Developer product, not an end-user notetaker",
+   "Add-ons such as diarization cost extra"
+  ],
+  "alternatives": [
+   "fireflies-ai",
+   "otter-ai",
+   "deepgram"
+  ],
+  "tags": [
+   "meeting-bot",
+   "api",
+   "transcription",
+   "zoom",
+   "developer"
+  ],
+  "features": [
+   "Zoom, Meet and Teams support",
+   "Live audio and transcript streaming",
+   "Speaker labels",
+   "MP4 recordings",
+   "Calendar auto-join"
+  ],
+  "use_cases": [
+   "Building an AI notetaker",
+   "CRM enrichment from calls",
+   "Interview analysis",
+   "Compliance recording"
+  ],
+  "pricing_details": "Described as usage-based per bot hour with a small free credit on signup. Rates change, so check the official site.",
+  "faq": [
+   {
+    "q": "Who is MeetStream for?",
+    "a": "Developers building meeting products, not end users looking for a ready notetaker."
+   },
+   {
+    "q": "Which platforms does the bot join?",
+    "a": "Zoom, Google Meet and Microsoft Teams."
+   },
+   {
+    "q": "How is it billed?",
+    "a": "By usage, with starting credit mentioned on the listing."
+   }
+  ],
+  "seo_title": "MeetStream: Features, Pricing and Alternatives",
+  "seo_description": "What MeetStream does, who it suits, key features, pricing model and alternatives. Original guide on Promptzyra.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "prized",
+  "name": "Prized",
+  "category": "productivity",
+  "website_url": "https://prized.dev/",
+  "pricing": "Freemium",
+  "tagline": "AI internal-tool builder with role-scoped data access and audit logs.",
+  "best_for": "Ops, support and finance teams that need internal tools on company data",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Prized turns a plain-language request into an internal tool that runs on company data an admin has approved. The tool is published to a live URL, and each one carries its own role and list of permitted data grants instead of inheriting broad access.\n\nAdmins connect sources such as Salesforce, Postgres or Zendesk and decide what each tool may touch. A workspace audit log records who ran which tool, what it accessed and when. You can try changes in preview sandboxes and edit by clicking. Once published, a tool stays live and using it does not consume credits, which are spent on building. The listing points to operations, support, finance, RevOps and customer success teams. Check the official site for current plans.",
+  "use_steps": [
+   "Describe the tool you need in a sentence or two.",
+   "Connect and scope the data sources it may use.",
+   "Preview it in the sandbox and adjust.",
+   "Publish it and check the audit log."
+  ],
+  "pros": [
+   "Scoped access and audit trail by design",
+   "Deployed tools do not use credits",
+   "Free tier allows one deployed tool"
+  ],
+  "cons": [
+   "Free workspace is single-member",
+   "More connectors need a paid plan"
+  ],
+  "alternatives": [
+   "retool",
+   "appsmith",
+   "budibase"
+  ],
+  "tags": [
+   "internal-tools",
+   "low-code",
+   "ai-builder",
+   "audit-log",
+   "rbac"
+  ],
+  "features": [
+   "Tool generation from a description",
+   "Admin-approved connectors",
+   "Role-scoped execution",
+   "Audit log",
+   "Live preview sandboxes"
+  ],
+  "use_cases": [
+   "Support lookup tool",
+   "Finance reconciliation view",
+   "RevOps dashboard",
+   "Approval workflow for ops"
+  ],
+  "pricing_details": "Described as a free tier, a per-workspace Teams plan and custom Enterprise. Check the official site for current limits.",
+  "faq": [
+   {
+    "q": "What data can the tools use?",
+    "a": "Only sources an admin has connected and scoped."
+   },
+   {
+    "q": "Is usage logged?",
+    "a": "Yes, an audit log shows who ran each tool and what it accessed."
+   },
+   {
+    "q": "Does running a tool use credits?",
+    "a": "The listing says deployed tools stay live and using them does not consume credits."
+   }
+  ],
+  "seo_title": "Prized: Features, Pricing and Alternatives",
+  "seo_description": "What Prized does, who it suits, key features, pricing model and alternatives. Original guide on Promptzyra.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "embent",
+  "name": "Embent",
+  "category": "chat-assistants",
+  "website_url": "https://embent.com",
+  "pricing": "Freemium",
+  "tagline": "Website chat agent that answers from your pages with citations.",
+  "best_for": "Site owners who want visitor questions answered from existing content",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Embent is a chat widget that reads the content already published on your website and answers visitors' questions from it. Each reply links back to the source page, and when the site does not contain an answer, the bot says so and logs the question instead of guessing.\n\nIt crawls pages automatically, including ones rendered with JavaScript, and replies in the visitor's language. When it senses buying intent it can ask for a name and email, and collected leads export to CSV. A conversation inbox and an unanswered-questions log help you spot content gaps. Installation is a single script tag, with guides for WordPress, Shopify, Wix, Squarespace, Webflow and others. Check the official site for current message and page limits.",
+  "use_steps": [
+   "Enter your site address so Embent can crawl it.",
+   "Style the widget to match your design.",
+   "Paste the script tag, or follow your platform's guide.",
+   "Review the inbox and unanswered-questions log."
+  ],
+  "pros": [
+   "Citations make answers checkable",
+   "Logs questions it cannot answer",
+   "Quick script-tag setup"
+  ],
+  "cons": [
+   "Only as good as your published content",
+   "Free plan shows a badge"
+  ],
+  "alternatives": [
+   "chatgpt",
+   "hubspot",
+   "tidio"
+  ],
+  "tags": [
+   "website-chat",
+   "lead-capture",
+   "support",
+   "widget",
+   "rag"
+  ],
+  "features": [
+   "Answers with source links",
+   "Automatic crawling",
+   "Lead capture with CSV export",
+   "Unanswered-question log",
+   "Multilingual replies"
+  ],
+  "use_cases": [
+   "Answering docs questions on a SaaS site",
+   "Shipping and returns questions in a shop",
+   "Hours and booking questions for a local service",
+   "Capturing leads on a coaching site"
+  ],
+  "pricing_details": "Described as flat monthly plans including a free one with a badge. Check the official site for current limits.",
+  "faq": [
+   {
+    "q": "Where does it get answers?",
+    "a": "From the content published on your own website."
+   },
+   {
+    "q": "What if it does not know?",
+    "a": "It says so and logs the question."
+   },
+   {
+    "q": "Which site builders are supported?",
+    "a": "Guides cover WordPress, Shopify, Wix, Squarespace, Webflow and more."
+   }
+  ],
+  "seo_title": "Embent: Features, Pricing and Alternatives",
+  "seo_description": "What Embent does, who it suits, key features, pricing model and alternatives. Original guide on Promptzyra.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "appstorestatistics",
+  "name": "AppStoreStatistics",
+  "category": "marketing",
+  "website_url": "https://appstorestatistics.com/",
+  "pricing": "Freemium",
+  "tagline": "App Store rank tracking and keyword research for ASO.",
+  "best_for": "Indie developers and ASO specialists tracking iOS rankings",
+  "platforms": [
+   "Web"
+  ],
+  "description": "AppStoreStatistics is an App Store optimisation platform for iOS apps. It tracks chart positions across many countries, researches keywords, monitors where your app ranks for specific search terms, and lets you compare competitors side by side.\n\nKeyword tools include suggestions, per-app keyword profiles and a difficulty score that the site itself notes is modelled, not an Apple metric. A keyword gap tool shows terms competitors rank for, and a beta AI agent answers strategy questions with linked sources. There are free utilities, a rank checker and a metadata analyzer, plus top charts, new releases, gainers and losers, a watchlist and a newsletter. Ads intelligence for TikTok and Meta is in beta. Check the official site for current plans.",
+  "use_steps": [
+   "Search for your app and add it to the watchlist.",
+   "Add keywords to the ranking tracker for your storefronts.",
+   "Run the keyword gap tool against a competitor.",
+   "Update your metadata and watch rankings over time."
+  ],
+  "pros": [
+   "Free rank checker and metadata analyzer",
+   "Low-cost paid access with one tier",
+   "Multi-country competitor comparison"
+  ],
+  "cons": [
+   "iOS App Store focus",
+   "Difficulty score is modelled, not official"
+  ],
+  "alternatives": [
+   "ahrefs",
+   "google-trends",
+   "google-search-console"
+  ],
+  "tags": [
+   "aso",
+   "app-store",
+   "keywords",
+   "rank-tracking",
+   "ios"
+  ],
+  "features": [
+   "Keyword research and difficulty score",
+   "Keyword ranking tracker",
+   "Keyword gap tool",
+   "Competitor comparison",
+   "Top charts and movers"
+  ],
+  "use_cases": [
+   "Choosing keywords for a new app",
+   "Tracking rankings after a release",
+   "Spotting competitor moves",
+   "Auditing app metadata"
+  ],
+  "pricing_details": "Described as a free tier and a single paid access tier, monthly or one-time. Check the official site for current offers.",
+  "faq": [
+   {
+    "q": "Is the keyword difficulty an Apple number?",
+    "a": "No. It is a modelled score from the site."
+   },
+   {
+    "q": "Is there a free option?",
+    "a": "Yes, limited chart views plus a free rank checker and metadata analyzer."
+   },
+   {
+    "q": "Does it cover Google Play?",
+    "a": "The listing describes App Store data only."
+   }
+  ],
+  "seo_title": "AppStoreStatistics: Features, Pricing and Alternatives",
+  "seo_description": "What AppStoreStatistics does, who it suits, key features, pricing model and alternatives. Original guide on Promptzyra.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "minimax-design",
+  "name": "MiniMax Design",
+  "category": "video",
+  "website_url": "https://design.minimax.io/",
+  "pricing": "Free trial",
+  "tagline": "Multimodal workspace for generating images, video, music and speech.",
+  "best_for": "Creators and teams producing ads, visuals and short video assets",
+  "platforms": [
+   "Web"
+  ],
+  "description": "MiniMax Design is a creation workspace from MiniMax that handles text, images, audio and video in one place. You generate assets from prompts and then refine visuals, sound and story details with editing controls, rather than moving files between separate apps.\n\nThe listing names several models available inside it, including MiniMax's own video, music and speech models alongside third-party image models. It targets film and advertising work, brand campaigns, e-commerce visuals, game assets and social content. Usage runs on monthly credits for video, image, music and speech, with one-time credit packs and a code redemption option. The listing describes credits as valid for a year after purchase. Details come from a directory, so check the official site for current models and pricing.",
+  "use_steps": [
+   "Sign in and pick a generation type.",
+   "Write a prompt or upload a reference.",
+   "Refine the result with the editing tools.",
+   "Export the asset and track credit use."
+  ],
+  "pros": [
+   "Image, video, music and speech in one workspace",
+   "Several models to choose from",
+   "Credit packs for occasional use"
+  ],
+  "cons": [
+   "Credit costs can add up for video",
+   "Pricing details came from a third-party listing"
+  ],
+  "alternatives": [
+   "kling-ai",
+   "luma-dream-machine",
+   "pika"
+  ],
+  "tags": [
+   "video-generation",
+   "multimodal",
+   "music",
+   "speech",
+   "creative"
+  ],
+  "features": [
+   "Text and image to video",
+   "Music and speech generation",
+   "Multimodal editing",
+   "Monthly credits and packs",
+   "Multiple model options"
+  ],
+  "use_cases": [
+   "Short ad clips",
+   "E-commerce visuals",
+   "Game asset concepts",
+   "Social media content"
+  ],
+  "pricing_details": "Described as a free trial with monthly credit plans and one-time credit packs. Check the official site for current pricing.",
+  "faq": [
+   {
+    "q": "What can it generate?",
+    "a": "Images, video, music and speech."
+   },
+   {
+    "q": "How is usage charged?",
+    "a": "With credits, from monthly plans or one-time packs."
+   },
+   {
+    "q": "Do credits expire?",
+    "a": "The listing says packs are valid for one year; confirm on the official site."
+   }
+  ],
+  "seo_title": "MiniMax Design: Features, Pricing and Alternatives",
+  "seo_description": "What MiniMax Design does, who it suits, key features, pricing model and alternatives. Original guide on Promptzyra.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "cloudways",
+  "name": "Cloudways",
+  "category": "coding",
+  "website_url": "https://www.cloudways.com/",
+  "pricing": "Free trial",
+  "tagline": "Managed cloud hosting for WordPress, Laravel and PHP on major clouds.",
+  "best_for": "Agencies and site owners wanting managed hosting without running servers",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Cloudways is a managed hosting platform that sits on top of cloud providers, namely DigitalOcean, Google Cloud and Amazon Web Services. You pick a provider and server size, and Cloudways handles server setup, updates and monitoring for WordPress, Magento, Laravel and general PHP apps.\n\nServers allow unlimited apps and one-click deployment, and its stack is built on NGINX and PHP-FPM. Security tooling includes malware scanning, vulnerability alerts, SSL certificates and backups, and there is round-the-clock monitoring with bot notifications. A managed WordPress option adds autoscaling and load balancers. Team access and server transfer suit agencies handling client sites. Speed and uptime numbers on the listing are the company's claims. Check the official site for plans and the current trial.",
+  "use_steps": [
+   "Start a trial and choose a cloud provider and server size.",
+   "Launch an app such as WordPress.",
+   "Point your domain and enable SSL and backups.",
+   "Monitor the server and scale it when traffic grows."
+  ],
+  "pros": [
+   "Choice of three cloud providers",
+   "Security and backups included",
+   "Handy for agencies with several client sites"
+  ],
+  "cons": [
+   "Less hands-on control than a bare server",
+   "Costs depend on provider and server size"
+  ],
+  "alternatives": [
+   "vercel",
+   "render",
+   "fly-io"
+  ],
+  "tags": [
+   "hosting",
+   "wordpress",
+   "laravel",
+   "cloud",
+   "managed"
+  ],
+  "features": [
+   "Multi-cloud server choice",
+   "One-click app deployment",
+   "Malware scanning and backups",
+   "24/7 monitoring",
+   "Managed WordPress with autoscaling"
+  ],
+  "use_cases": [
+   "Hosting a WordPress store",
+   "Running client sites for an agency",
+   "Deploying a Laravel app",
+   "Handling seasonal traffic peaks"
+  ],
+  "pricing_details": "A free trial is offered; plan prices depend on cloud provider and server size and change often. Check the official site.",
+  "faq": [
+   {
+    "q": "Which clouds does it use?",
+    "a": "DigitalOcean, Google Cloud and Amazon Web Services."
+   },
+   {
+    "q": "Which apps does it host?",
+    "a": "WordPress, Magento, Laravel and general PHP apps."
+   },
+   {
+    "q": "Is there a trial?",
+    "a": "Yes, one can be started from the dashboard."
+   }
+  ],
+  "seo_title": "Cloudways: Features, Pricing and Alternatives",
+  "seo_description": "What Cloudways does, who it suits, key features, pricing model and alternatives. Original guide on Promptzyra.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "astute",
+  "name": "Astute",
+  "category": "marketing",
+  "website_url": "https://www.joinastute.com/",
+  "pricing": "Paid",
+  "tagline": "B2B creator marketing platform for newsletter, podcast and social sponsorships.",
+  "best_for": "B2B marketers buying sponsorships from newsletters and podcasts",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Astute connects B2B brands with creators who run newsletters, Substack publications, podcasts and social accounts. You search a vetted creator pool, and the platform handles the paperwork around a sponsorship: sourcing, negotiation, briefs, contracts, scheduling, payment and a single invoice.\n\nCreators must approve before a placement is booked, and each placement is checked afterwards using open rate, click-through or listen-through data. Reporting covers reach, engagement, conversions, AI visibility and earned media value. A monitoring feature tracks topics, competitors and chosen threads or URLs to help find the right outlets. Plans are tiered by number of collaborations per month, with a media fee on spend and a short trial mentioned. The match accuracy claim is the vendor's own. Check the official site for current terms.",
+  "use_steps": [
+   "Define your audience and goals.",
+   "Browse or get matched with vetted creators.",
+   "Approve the brief and let Astute handle contracts and payment.",
+   "Review per-placement results and reporting."
+  ],
+  "pros": [
+   "Handles contracts, payment and invoicing in one place",
+   "Placement-level verification",
+   "Suited to always-on programs"
+  ],
+  "cons": [
+   "Monthly fee plus a media fee",
+   "Focused on B2B only"
+  ],
+  "alternatives": [
+   "hubspot",
+   "hootsuite",
+   "buffer"
+  ],
+  "tags": [
+   "creator-marketing",
+   "b2b",
+   "newsletters",
+   "sponsorships",
+   "podcasts"
+  ],
+  "features": [
+   "Creator matching",
+   "Social listening",
+   "End-to-end campaign management",
+   "Placement verification",
+   "Reporting on reach and conversions"
+  ],
+  "use_cases": [
+   "Customer acquisition via newsletters",
+   "Product launches",
+   "Founder-led brand building",
+   "Hiring campaigns"
+  ],
+  "pricing_details": "Described as tiered monthly plans plus a media fee on creator spend, with a short trial. Check the official site for current pricing.",
+  "faq": [
+   {
+    "q": "What does it help with?",
+    "a": "Finding, booking and measuring B2B creator sponsorships."
+   },
+   {
+    "q": "Do creators have to agree?",
+    "a": "Yes, creator approval is required before booking."
+   },
+   {
+    "q": "Is it free?",
+    "a": "The directory label said free but the page described paid plans; check the official site."
+   }
+  ],
+  "seo_title": "Astute: Features, Pricing and Alternatives",
+  "seo_description": "What Astute does, who it suits, key features, pricing model and alternatives. Original guide on Promptzyra.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "portraitia",
+  "name": "PortraitIA",
+  "category": "image",
+  "website_url": "https://www.portraitia.net/en",
+  "pricing": "Paid",
+  "tagline": "AI headshots trained on your own selfies.",
+  "best_for": "Professionals wanting LinkedIn or CV portraits without a studio",
+  "platforms": [
+   "Web"
+  ],
+  "description": "PortraitIA makes AI portraits from your own photos. You upload a set of selfies, it trains a personalised model on them, and it then generates photorealistic headshots in several looks, such as professional, corporate, casual and artistic.\n\nThe page recommends roughly ten to twenty varied photos and suggests avoiding sunglasses, hats, heavy makeup and other people in the frame, since those confuse the training. Typical uses are LinkedIn photos, resumes, speaker bios, social profiles, dating apps and consistent headshots for a team. Outputs are high resolution. A refund guarantee is described if you are unhappy with the generated portraits and have not downloaded any. The listing gives no prices, so check the official site for packages.",
+  "use_steps": [
+   "Gather 10 to 20 varied, clear selfies.",
+   "Upload them and choose styles.",
+   "Wait for the model to train and generate portraits.",
+   "Download your favorites within the refund conditions."
+  ],
+  "pros": [
+   "Trained on your own face",
+   "Several styles for different uses",
+   "Refund guarantee described"
+  ],
+  "cons": [
+   "Results depend on photo quality",
+   "Pricing not shown on the listing"
+  ],
+  "alternatives": [
+   "photoroom",
+   "leonardo-ai",
+   "remini"
+  ],
+  "tags": [
+   "headshots",
+   "portraits",
+   "linkedin",
+   "ai-photo",
+   "selfie"
+  ],
+  "features": [
+   "Custom model from your photos",
+   "Multiple portrait styles",
+   "High-resolution output",
+   "Team headshot use",
+   "Refund guarantee"
+  ],
+  "use_cases": [
+   "LinkedIn profile photo",
+   "Resume headshot",
+   "Speaker bio picture",
+   "Consistent team portraits"
+  ],
+  "pricing_details": "Described as a one-time payment for a portrait package rather than a subscription, with no prices on the listing. Check the official site.",
+  "faq": [
+   {
+    "q": "How many photos should I upload?",
+    "a": "The page recommends about 10 to 20 varied photos."
+   },
+   {
+    "q": "Is it a subscription?",
+    "a": "It is described as a one-time package payment."
+   },
+   {
+    "q": "What if I dislike the results?",
+    "a": "A refund is described if you have not downloaded any images; read the exact terms on the official site."
+   }
+  ],
+  "seo_title": "PortraitIA: Features, Pricing and Alternatives",
+  "seo_description": "What PortraitIA does, who it suits, key features, pricing model and alternatives. Original guide on Promptzyra.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "usevelvet",
+  "name": "Velvet",
+  "category": "coding",
+  "website_url": "https://usevelvet.com/",
+  "pricing": "Freemium",
+  "tagline": "LLM gateway and observability, now part of Arize AI.",
+  "best_for": "Developers monitoring and evaluating LLM-powered features",
+  "platforms": [
+   "Web",
+   "API"
+  ],
+  "description": "Velvet began as a developer gateway for analysing and monitoring AI features, and the listing says it is now part of Arize AI with its technology folded into that platform. The job it covers is LLM observability: seeing what your app sent to a model, what came back and how it behaved.\n\nThe description mentions tracing and evaluation built on the open-source Phoenix library, production monitoring for drift and data-quality issues, and root cause analysis. A multi-model gateway through LiteLLM is listed, with fallbacks, retries and spend tracking across many models. Users include teams building chatbots, retrieval systems and agents, plus MLOps staff and product managers. Because the product has been absorbed, pricing follows Arize's, so check the official site and Arize for what is current.",
+  "use_steps": [
+   "Check the official site for how Velvet now maps to Arize.",
+   "Route your model calls through the gateway or tracer.",
+   "Run evaluations on sample traffic.",
+   "Set monitoring for drift and failures."
+  ],
+  "pros": [
+   "Tracing and evaluation in one place",
+   "Gateway adds fallbacks and spend tracking",
+   "Free tier for early projects"
+  ],
+  "cons": [
+   "Product now sits inside Arize",
+   "Pricing details not on the listing"
+  ],
+  "alternatives": [
+   "langchain",
+   "weights-biases",
+   "openrouter"
+  ],
+  "tags": [
+   "llm",
+   "observability",
+   "gateway",
+   "tracing",
+   "evaluation"
+  ],
+  "features": [
+   "LLM tracing and evaluation",
+   "Production monitoring",
+   "Root cause analysis",
+   "Multi-LLM gateway",
+   "Spend tracking"
+  ],
+  "use_cases": [
+   "Debugging a RAG pipeline",
+   "Monitoring a chatbot",
+   "Comparing model outputs",
+   "Tracking LLM spend"
+  ],
+  "pricing_details": "Listed as freemium with free, Pro and Enterprise tiers following Arize's model. Check the official sites for current prices.",
+  "faq": [
+   {
+    "q": "Is Velvet still independent?",
+    "a": "The listing says it is now part of Arize AI."
+   },
+   {
+    "q": "What does it monitor?",
+    "a": "Model behaviour, drift, data quality and traces for LLM apps."
+   },
+   {
+    "q": "Does it have a free tier?",
+    "a": "A free tier with usage limits is described."
+   }
+  ],
+  "seo_title": "Velvet: Features, Pricing and Alternatives",
+  "seo_description": "What Velvet does, who it suits, key features, pricing model and alternatives. Original guide on Promptzyra.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "dabuun",
+  "name": "Dabuun",
+  "category": "video",
+  "website_url": "https://dabuun.com/",
+  "pricing": "Paid",
+  "tagline": "AI video studio that writes scripts, scenes and voices for you.",
+  "best_for": "Creators making anime or realistic story videos from an idea",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Dabuun is an AI video studio that starts from an idea and builds toward a finished clip. It drafts the script, generates a visual for each scene in either an anime or realistic style, adds character voices and narration, and renders the result for export.\n\nVoice synthesis covers several languages, which helps if you publish to different audiences. The listing names creators, marketing teams, filmmakers, educators and agencies as users. Plans are credit-based with a monthly export cap, and the listing gives approximate counts of one-minute and five-minute videos per tier. Those figures came from a directory page, so check the official site for current credit costs. Treat AI-generated scenes as a first pass and review for consistency before publishing.",
+  "use_steps": [
+   "Write an idea or paste a script.",
+   "Pick anime or realistic visuals.",
+   "Choose voices and languages.",
+   "Render and export the video."
+  ],
+  "pros": [
+   "Script, visuals and voice in one tool",
+   "Anime and realistic styles",
+   "Multiple voice languages"
+  ],
+  "cons": [
+   "Paid plans only on the listing",
+   "Credits limit monthly output"
+  ],
+  "alternatives": [
+   "invideo-ai",
+   "heygen",
+   "kling-ai"
+  ],
+  "tags": [
+   "ai-video",
+   "anime",
+   "storytelling",
+   "voiceover",
+   "script"
+  ],
+  "features": [
+   "AI scenario writing",
+   "Scene image generation",
+   "Voice synthesis",
+   "Fast rendering",
+   "Monthly export limits"
+  ],
+  "use_cases": [
+   "Short story videos",
+   "Explainer clips",
+   "Educational content",
+   "Marketing shorts"
+  ],
+  "pricing_details": "Described as three paid monthly credit tiers. Check the official site for current prices and limits.",
+  "faq": [
+   {
+    "q": "What styles can scenes use?",
+    "a": "Anime or realistic."
+   },
+   {
+    "q": "Does it write the script?",
+    "a": "Yes, it can generate scripts from your idea."
+   },
+   {
+    "q": "Is there a free plan?",
+    "a": "The listing describes paid tiers only; verify on the official site."
+   }
+  ],
+  "seo_title": "Dabuun: Features, Pricing and Alternatives",
+  "seo_description": "What Dabuun does, who it suits, key features, pricing model and alternatives. Original guide on Promptzyra.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "siliconflow",
+  "name": "SiliconFlow",
+  "category": "coding",
+  "website_url": "https://siliconflow.com/",
+  "pricing": "Freemium",
+  "tagline": "Inference platform with an OpenAI-compatible API for text, image, video and audio models.",
+  "best_for": "Developers who want hosted open models behind one API",
+  "platforms": [
+   "Web",
+   "API"
+  ],
+  "description": "SiliconFlow is an AI infrastructure service for running models without managing GPUs yourself. It offers serverless pay-as-you-go APIs, reserved GPUs for guaranteed capacity and fine-tuning, all exposed through an OpenAI-compatible interface.\n\nBecause the API follows OpenAI's format, existing code can often be pointed at it with small changes. The catalogue spans language models such as Qwen3, DeepSeek and GLM, image models like FLUX.1 and video models like Wan2.2, plus audio. A dashboard shows usage and lets you set monthly spending limits. The page claims data sent through the API is not stored. Per-token and per-image prices on the listing may be outdated, so check the official site for current rates and the free signup credit.",
+  "use_steps": [
+   "Create an account and generate an API key.",
+   "Point an OpenAI-compatible client at the SiliconFlow endpoint.",
+   "Pick a model and test with a small request.",
+   "Set a spending limit in the dashboard."
+  ],
+  "pros": [
+   "OpenAI-compatible API",
+   "Text, image, video and audio models",
+   "Spending limits in the dashboard"
+  ],
+  "cons": [
+   "Prices change per model",
+   "Reserved GPUs mean a bigger commitment"
+  ],
+  "alternatives": [
+   "together-ai",
+   "fireworks-ai",
+   "openrouter"
+  ],
+  "tags": [
+   "inference",
+   "api",
+   "llm",
+   "gpu",
+   "fine-tuning"
+  ],
+  "features": [
+   "Serverless inference",
+   "Reserved GPUs",
+   "Fine-tuning",
+   "OpenAI-compatible API",
+   "Usage dashboard"
+  ],
+  "use_cases": [
+   "Running Qwen or DeepSeek models via API",
+   "Image generation in an app",
+   "Fine-tuning an open model",
+   "Cost-capped prototyping"
+  ],
+  "pricing_details": "Described as pay-as-you-go per token, image or video with a small free credit for new users. Check the official site for current rates.",
+  "faq": [
+   {
+    "q": "Is the API OpenAI-compatible?",
+    "a": "Yes, so existing OpenAI code often needs few changes."
+   },
+   {
+    "q": "What models are available?",
+    "a": "Language, image, video and audio models including Qwen3, DeepSeek, FLUX.1 and Wan2.2."
+   },
+   {
+    "q": "How is it billed?",
+    "a": "Per usage for serverless, or reserved GPUs; confirm current rates on the official site."
+   }
+  ],
+  "seo_title": "SiliconFlow: Features, Pricing and Alternatives",
+  "seo_description": "What SiliconFlow does, who it suits, key features, pricing model and alternatives. Original guide on Promptzyra.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "raygun",
+  "name": "Raygun",
+  "category": "coding",
+  "website_url": "https://raygun.com/",
+  "pricing": "Freemium",
+  "tagline": "Error, crash and performance monitoring with AI-assisted fixes.",
+  "best_for": "Development teams tracking errors and slow pages in web and mobile apps",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "Raygun is an application monitoring service covering three areas: crash and error reporting, real user monitoring and application performance monitoring. It collects stack traces, user details and version information so you can see which release introduced a problem and who was affected.\n\nIts AI error resolution feature prompts a language model of your choice with the stack trace, environment and affected code to suggest a fix. Real user monitoring tracks Core Web Vitals, load times and sessions, while the back-end side gives code-level views of requests. Deployment tracking ties releases to new errors. Integrations include GitHub, Jira, Slack, Azure DevOps, Trello and PagerDuty. A 14-day trial without a card is described, and paid usage is based on data volume. Check the official site.",
+  "use_steps": [
+   "Create a project and add the SDK to your app.",
+   "Send a test error and confirm it appears.",
+   "Connect Slack or Jira for alerts and tickets.",
+   "Track deployments and review affected users."
+  ],
+  "pros": [
+   "Errors, RUM and APM in one product",
+   "Shows which users are affected",
+   "Many issue-tracker integrations"
+  ],
+  "cons": [
+   "Usage-based pricing needs watching",
+   "Several modules to configure"
+  ],
+  "alternatives": [
+   "sentry",
+   "snyk",
+   "google-analytics"
+  ],
+  "tags": [
+   "monitoring",
+   "crash-reporting",
+   "rum",
+   "apm",
+   "errors"
+  ],
+  "features": [
+   "Crash reporting",
+   "Real user monitoring",
+   "APM",
+   "AI error resolution",
+   "Deployment tracking"
+  ],
+  "use_cases": [
+   "Finding a regression after release",
+   "Watching Core Web Vitals",
+   "Triaging errors into Jira",
+   "Tracing slow API requests"
+  ],
+  "pricing_details": "Freemium with a no-card trial, then usage-based paid plans. Check the official site for current pricing.",
+  "faq": [
+   {
+    "q": "What does it monitor?",
+    "a": "Crashes and errors, real user performance and back-end application performance."
+   },
+   {
+    "q": "What is the AI feature?",
+    "a": "It prompts an LLM with the error context to suggest a resolution."
+   },
+   {
+    "q": "Is there a trial?",
+    "a": "A 14-day trial without a card is described."
+   }
+  ],
+  "seo_title": "Raygun: Features, Pricing and Alternatives",
+  "seo_description": "What Raygun does, who it suits, key features, pricing model and alternatives. Original guide on Promptzyra.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "tweeties",
+  "name": "Tweeties",
+  "category": "productivity",
+  "website_url": "https://www.tweeties.xyz/",
+  "pricing": "Freemium",
+  "tagline": "iOS app for saving and reading X posts and threads offline.",
+  "best_for": "Creators and researchers who keep swipe files of posts",
+  "platforms": [
+   "iOS"
+  ],
+  "description": "Tweeties is an iPhone app for saving tweets and threads from X so you can read them later without a connection. You save from the iOS Share Sheet, and content is stored locally on the device.\n\nSaved posts can be sorted into collections, tagged and annotated, and searched by keyword, author or tag. Full threads and quote tweets are captured. The paid Plus plan adds persistent backups, so a post stays in your archive even if the original is deleted or made private, which does not hold on the free plan. People who build swipe files of hooks, archive research or collect campaign ideas are the obvious fit. Export, Android and refund details were not stated on the listing, so check the official site.",
+  "use_steps": [
+   "Install the app and open a post in X.",
+   "Use the Share Sheet to save it to Tweeties.",
+   "File it under a collection with tags or notes.",
+   "Search or read it offline later."
+  ],
+  "pros": [
+   "Offline reading with local storage",
+   "Collections, tags and notes",
+   "Captures full threads"
+  ],
+  "cons": [
+   "iOS only per the listing",
+   "Permanent archive needs the paid plan"
+  ],
+  "alternatives": [
+   "notion",
+   "obsidian",
+   "anki"
+  ],
+  "tags": [
+   "twitter",
+   "x",
+   "bookmarks",
+   "offline",
+   "archive"
+  ],
+  "features": [
+   "Share Sheet saving",
+   "Offline reading",
+   "Collections and tags",
+   "Keyword and author search",
+   "Thread and quote capture"
+  ],
+  "use_cases": [
+   "Keeping a hooks swipe file",
+   "Archiving investor research",
+   "Collecting campaign ideas",
+   "Offline reading on a flight"
+  ],
+  "pricing_details": "Free download with a low-cost monthly Plus plan for persistent backups. Check the official site for current pricing.",
+  "faq": [
+   {
+    "q": "Does it work without internet?",
+    "a": "Yes, saved posts can be read offline."
+   },
+   {
+    "q": "What if the original post is deleted?",
+    "a": "On the free plan it disappears; the paid plan keeps a persistent backup."
+   },
+   {
+    "q": "Is there an Android version?",
+    "a": "Not stated on the listing."
+   }
+  ],
+  "seo_title": "Tweeties: Features, Pricing and Alternatives",
+  "seo_description": "What Tweeties does, who it suits, key features, pricing model and alternatives. Original guide on Promptzyra.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "blitzbear",
+  "name": "BlitzBear",
+  "category": "marketing",
+  "website_url": "https://blitzbear.com/",
+  "pricing": "Paid",
+  "tagline": "SEO tool that compares your article with top-ranking pages and refreshes it.",
+  "best_for": "Content marketers and agencies refreshing declining articles",
+  "platforms": [
+   "Web"
+  ],
+  "description": "BlitzBear is an SEO tool built around content refreshes. You give it a target keyword and an existing article, it looks at the pages ranking at the top of Google, finds what yours is missing, and suggests or writes improvements.\n\nRecommendations can include added statistics, examples and restructured sections, using GPT-based models and a focus on search intent. It can also draft new articles. It connects to Google Search Console to find decaying pages, to WordPress for publishing and to Unsplash for images. Plans are monthly and priced by the number of refreshes, with several team seats and one project included, and agencies can add projects. Check the official site for current plans before committing.",
+  "use_steps": [
+   "Connect Search Console and WordPress.",
+   "Pick an article that has lost traffic.",
+   "Review the competitor gap analysis and suggestions.",
+   "Publish the refreshed version and watch rankings."
+  ],
+  "pros": [
+   "Built for refreshing existing content",
+   "Search Console and WordPress integrations",
+   "Multi-seat plans for agencies"
+  ],
+  "cons": [
+   "Suggestions still need an editor",
+   "Pricing scales with refresh count"
+  ],
+  "alternatives": [
+   "ahrefs",
+   "jasper",
+   "copy-ai"
+  ],
+  "tags": [
+   "seo",
+   "content-refresh",
+   "serp",
+   "wordpress",
+   "ai-writing"
+  ],
+  "features": [
+   "Top-ranking page analysis",
+   "GPT-based optimisation",
+   "Content refresh",
+   "New article creation",
+   "GSC and WordPress integration"
+  ],
+  "use_cases": [
+   "Reviving older blog posts",
+   "Agency client content audits",
+   "Closing keyword content gaps",
+   "Drafting SEO articles"
+  ],
+  "pricing_details": "Described as monthly plans priced by number of refreshes, with extra projects at an add-on cost. Check the official site.",
+  "faq": [
+   {
+    "q": "What does it analyse?",
+    "a": "Top-ranking Google pages for your target keywords versus your article."
+   },
+   {
+    "q": "Does it publish to WordPress?",
+    "a": "Yes, via integration."
+   },
+   {
+    "q": "Is there a free plan?",
+    "a": "The listing shows paid plans only."
+   }
+  ],
+  "seo_title": "BlitzBear: Features, Pricing and Alternatives",
+  "seo_description": "What BlitzBear does, who it suits, key features, pricing model and alternatives. Original guide on Promptzyra.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "paraphrase-tool",
+  "name": "Paraphrase Tool",
+  "category": "writing",
+  "website_url": "https://www.paraphrasetool.ai/",
+  "pricing": "Freemium",
+  "tagline": "Online paraphraser with rewrite modes, summarizer and grammar check.",
+  "best_for": "Students and writers rewording text in different tones",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Paraphrase Tool is a web rewriter. You paste or upload text, choose a mode, and it returns a reworded version through word substitution and sentence restructuring. Modes named on the listing are Creative, Anti-Plagiarism, Fluency, Formal, Academic and SEO, the last of which keeps chosen keywords.\n\nAlongside it sit a grammar checker, summarizer, article rewriter and AI detector, plus a humanizer meant to smooth text from chatbots. Several languages are supported. The free version covers three modes with a per-submission word limit and no registration; Premium removes the limit and unlocks the other modes. Claims about uniqueness and slipping past detectors are the site's own and should not be relied on. Rewrites need a read-through, and academic rules on tool use still apply. Check the official site for prices.",
+  "use_steps": [
+   "Paste text or upload a file.",
+   "Select a mode such as Fluency or Academic.",
+   "Run the rewrite and compare it with the original.",
+   "Edit by hand and check meaning and facts."
+  ],
+  "pros": [
+   "Many rewrite modes",
+   "No sign-up for basic use",
+   "Extra tools like summarizer in the same site"
+  ],
+  "cons": [
+   "Free tier has a word cap",
+   "Detector-evasion claims are unreliable"
+  ],
+  "alternatives": [
+   "quillbot",
+   "grammarly",
+   "prowritingaid"
+  ],
+  "tags": [
+   "paraphrase",
+   "rewriter",
+   "writing",
+   "summarizer",
+   "grammar"
+  ],
+  "features": [
+   "Six rewrite modes",
+   "Humanizer",
+   "Summarizer and grammar checker",
+   "Multi-language support",
+   "File upload"
+  ],
+  "use_cases": [
+   "Rewording a draft for clarity",
+   "Formalising an email",
+   "Keeping keywords in SEO copy",
+   "Simplifying a dense paragraph"
+  ],
+  "pricing_details": "Free with limits, plus a Premium plan that removes word limits. Prices are not on the listing, so check the official site.",
+  "faq": [
+   {
+    "q": "Is it free?",
+    "a": "A limited free version exists; Premium lifts limits and unlocks more modes."
+   },
+   {
+    "q": "Do I need an account?",
+    "a": "The listing says no registration is needed for the free tier."
+   },
+   {
+    "q": "Can I rely on it to pass AI detectors?",
+    "a": "No. Treat that claim cautiously and follow your school or workplace rules."
+   }
+  ],
+  "seo_title": "Paraphrase Tool: Features, Pricing and Alternatives",
+  "seo_description": "What Paraphrase Tool does, who it suits, key features, pricing model and alternatives. Original guide on Promptzyra.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "aptori",
+  "name": "Aptori",
+  "category": "coding",
+  "website_url": "https://www.aptori.com/",
+  "pricing": "Paid",
+  "tagline": "AI security engineer that finds, prioritises and fixes vulnerabilities.",
+  "best_for": "Dev and security teams securing APIs and applications",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Aptori is an application security platform that presents itself as an AI security engineer. It scans code, APIs and cloud configuration, then triages findings and suggests code-level fixes rather than leaving you with a raw list of alerts.\n\nIt builds a semantic map of how code, APIs and infrastructure connect, which helps it find business logic flaws such as BOLA and IDOR as well as injection issues and runtime misconfiguration. Findings are scored by exploitability and business impact, and fix suggestions appear in the IDE and pull requests. It plugs into GitHub, GitLab, Jenkins and VS Code, and can produce evidence for PCI DSS, SOC 2, HIPAA and NIST. Pricing is quote-based, so contact the vendor through the official site.",
+  "use_steps": [
+   "Connect your repository and CI pipeline.",
+   "Let it map your APIs and run scans.",
+   "Review prioritised findings.",
+   "Apply suggested fixes through pull requests."
+  ],
+  "pros": [
+   "Triage and fixes, not just alerts",
+   "Targets API and business logic flaws",
+   "Compliance evidence reports"
+  ],
+  "cons": [
+   "Custom pricing only",
+   "Suggested fixes still need review"
+  ],
+  "alternatives": [
+   "snyk",
+   "sonarqube",
+   "codacy"
+  ],
+  "tags": [
+   "appsec",
+   "api-security",
+   "devsecops",
+   "vulnerabilities",
+   "compliance"
+  ],
+  "features": [
+   "AI vulnerability triage",
+   "Semantic code and API mapping",
+   "Fix suggestions in IDE and PRs",
+   "CI integrations",
+   "Compliance reporting"
+  ],
+  "use_cases": [
+   "Continuous API security testing",
+   "Reducing alert noise",
+   "Preparing SOC 2 evidence",
+   "Automated code review"
+  ],
+  "pricing_details": "Quote-based pricing depending on team and applications. Contact the vendor via the official site.",
+  "faq": [
+   {
+    "q": "What does it scan?",
+    "a": "Code, APIs, applications and cloud infrastructure."
+   },
+   {
+    "q": "Does it fix issues?",
+    "a": "It suggests code-level fixes in the IDE and pull requests."
+   },
+   {
+    "q": "Is there public pricing?",
+    "a": "No, quotes come via demo or sales."
+   }
+  ],
+  "seo_title": "Aptori: Features, Pricing and Alternatives",
+  "seo_description": "What Aptori does, who it suits, key features, pricing model and alternatives. Original guide on Promptzyra.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "receiptix",
+  "name": "Receiptix",
+  "category": "productivity",
+  "website_url": "https://receiptix.io/",
+  "pricing": "Freemium",
+  "tagline": "Mobile expense tracker with receipt scanning and voice logging.",
+  "best_for": "Individuals and families tracking everyday spending",
+  "platforms": [
+   "iOS",
+   "Android"
+  ],
+  "description": "Receiptix is a mobile expense tracker for iOS and Android. You can log spending by hand, photograph a receipt so the vendor, date, total and items are extracted, or speak an expense aloud, and it sorts entries into categories and shows charts of where the money goes.\n\nThe free tier allows unlimited manual entries with basic categories, reports, multi-currency conversion and cloud sync. Premium adds AI receipt scanning, smart categorisation, voice logging, a Telegram bot and a Chrome extension for online receipts. PDF upload is also mentioned. The page points to beginners, travellers handling several currencies, students and families watching grocery bills. The premium price is not stated on the listing and appears in the app, so check the official site.",
+  "use_steps": [
+   "Install the app and create an account.",
+   "Add an expense manually or scan a receipt.",
+   "Review categories and fix any mistakes.",
+   "Check the charts and reports each month."
+  ],
+  "pros": [
+   "Free tier has no entry limit",
+   "Multi-currency support",
+   "Several capture methods"
+  ],
+  "cons": [
+   "AI features need Premium",
+   "Price not listed on the page"
+  ],
+  "alternatives": [
+   "notion",
+   "airtable",
+   "google-colab"
+  ],
+  "tags": [
+   "expenses",
+   "budget",
+   "receipt-scanner",
+   "finance",
+   "mobile"
+  ],
+  "features": [
+   "Receipt photo extraction",
+   "Voice logging",
+   "Auto categorisation",
+   "Charts and reports",
+   "Multi-currency sync"
+  ],
+  "use_cases": [
+   "Tracking travel spending",
+   "Student budgeting",
+   "Family grocery costs",
+   "Reviewing subscriptions"
+  ],
+  "pricing_details": "Free Essential tier and a Premium tier with AI features; Premium pricing is shown in the app. Check the official site.",
+  "faq": [
+   {
+    "q": "Is manual entry free?",
+    "a": "Yes, unlimited manual expenses are on the free tier."
+   },
+   {
+    "q": "Which features need Premium?",
+    "a": "AI scanning, voice logging, Telegram and the Chrome extension."
+   },
+   {
+    "q": "Which platforms?",
+    "a": "iOS and Android."
+   }
+  ],
+  "seo_title": "Receiptix: Features, Pricing and Alternatives",
+  "seo_description": "What Receiptix does, who it suits, key features, pricing model and alternatives. Original guide on Promptzyra.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "predraft-ai",
+  "name": "predraft.ai",
+  "category": "writing",
+  "website_url": "https://predraft.ai",
+  "pricing": "Freemium",
+  "tagline": "SEO article generator that researches live search results and cites sources.",
+  "best_for": "Bloggers and content marketers drafting researched SEO articles",
+  "platforms": [
+   "Web"
+  ],
+  "description": "predraft.ai drafts SEO articles starting from research. It pulls live Google search results, suggests related keywords, builds an editable outline and then writes the article with in-line citations and source links, so claims can be checked before publishing.\n\nYou can set the tone, add your own research links or block competitor domains. An editor and plagiarism checker are built in, articles can be translated into twelve languages, and finished pieces go straight to WordPress or export elsewhere. Higher plans add internal link embedding, duplicate content detection, seats, scheduling and CSV bulk upload. Length goes up to about two thousand words per article. The site states user content is not used to train other models. Check the official site for current plans and the GPT-4o add-on.",
+  "use_steps": [
+   "Enter your topic or keyword.",
+   "Review the research and edit the outline.",
+   "Generate the draft and check the citations.",
+   "Edit, run the plagiarism check and publish to WordPress."
+  ],
+  "pros": [
+   "Citations support fact-checking",
+   "Free tier with unlimited outlines",
+   "Direct WordPress publishing"
+  ],
+  "cons": [
+   "Free tier limits article count",
+   "Drafts still need human editing"
+  ],
+  "alternatives": [
+   "jasper",
+   "copy-ai",
+   "blitzbear"
+  ],
+  "tags": [
+   "seo",
+   "ai-writing",
+   "citations",
+   "wordpress",
+   "blog"
+  ],
+  "features": [
+   "Live search research",
+   "Editable outlines",
+   "Citations",
+   "Plagiarism checker",
+   "Translation and bulk creation"
+  ],
+  "use_cases": [
+   "Writing a researched blog post",
+   "Producing bulk content briefs",
+   "Translating articles",
+   "Building internal links"
+  ],
+  "pricing_details": "Described as a free starter plan, paid Pro and Expert tiers, enterprise pricing and an optional model add-on. Check the official site.",
+  "faq": [
+   {
+    "q": "Does it cite sources?",
+    "a": "Yes, with in-line citations and source links."
+   },
+   {
+    "q": "Can it publish to WordPress?",
+    "a": "Yes, to WordPress.com and WordPress.org."
+   },
+   {
+    "q": "Is there a free plan?",
+    "a": "A Starter plan with a limited number of articles per month is described."
+   }
+  ],
+  "seo_title": "predraft.ai: Features, Pricing and Alternatives",
+  "seo_description": "What predraft.ai does, who it suits, key features, pricing model and alternatives. Original guide on Promptzyra.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "joyfun",
+  "name": "Joyfun",
+  "category": "video",
+  "website_url": "http://joyfun.ai",
+  "pricing": "Unknown",
+  "tagline": "Text-to-video, image-to-video and face swap in one site.",
+  "best_for": "Casual creators and marketers making short AI video clips",
+  "platforms": [
+   "Web",
+   "Mobile"
+  ],
+  "description": "Joyfun is an AI video site with two main functions. It generates short clips from a text prompt or from a still image, and it swaps faces in photos and in video. It lists a long run of models you can pick from, including its own and several third-party video models.\n\nOutput controls include clip length, resolution up to 1080p and aspect ratio. Direct generation is listed as up to about ten seconds, with longer runs on certain models. The listing says a mobile app exists. Intended users range from filmmakers storyboarding and marketers making ads to teachers and people animating family photos. Face swapping needs care: only use images of people who have agreed. The listing claims it is free with no limits, which is unverified, so check the official site.",
+  "use_steps": [
+   "Choose text-to-video, image-to-video or face swap.",
+   "Enter a prompt or upload an image.",
+   "Select a model, length and aspect ratio.",
+   "Generate, review and download."
+  ],
+  "pros": [
+   "Several models in one place",
+   "Image-to-video animation",
+   "Aspect ratio and resolution controls"
+  ],
+  "cons": [
+   "Face swap raises consent concerns",
+   "Free and unlimited claim is unverified"
+  ],
+  "alternatives": [
+   "kling-ai",
+   "luma-dream-machine",
+   "pika"
+  ],
+  "tags": [
+   "text-to-video",
+   "image-to-video",
+   "face-swap",
+   "ai-video",
+   "short-clips"
+  ],
+  "features": [
+   "Text-to-video",
+   "Image-to-video",
+   "Image and video face swap",
+   "Multiple model choice",
+   "Resolution and aspect controls"
+  ],
+  "use_cases": [
+   "Animating a still illustration",
+   "Short social ads",
+   "Storyboard previews",
+   "Classroom visuals"
+  ],
+  "pricing_details": "The listing calls it free, but this is unverified. Check the official site for current terms.",
+  "faq": [
+   {
+    "q": "What can it generate?",
+    "a": "Video from text or images, plus face swaps."
+   },
+   {
+    "q": "How long can clips be?",
+    "a": "Listed as up to about 10 seconds directly, longer on some models."
+   },
+   {
+    "q": "Is face swap safe to use?",
+    "a": "Only use images of people who consent and follow local laws."
+   }
+  ],
+  "seo_title": "Joyfun: Features, Pricing and Alternatives",
+  "seo_description": "What Joyfun does, who it suits, key features, pricing model and alternatives. Original guide on Promptzyra.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "spyne",
+  "name": "Spyne",
+  "category": "image",
+  "website_url": "https://www.spyne.ai/",
+  "pricing": "Freemium",
+  "tagline": "AI photo, 360 spin and video tools for car dealerships.",
+  "best_for": "Car dealers and automotive marketplaces listing vehicles online",
+  "platforms": [
+   "Web",
+   "Mobile"
+  ],
+  "description": "Spyne is an AI platform for the automotive trade. It takes ordinary phone photos of vehicles and turns them into clean studio-style images, 360-degree spin views and walkaround videos, so listings look consistent without a physical studio.\n\nTools listed include background replacement with virtual or branded backdrops, automatic lighting and colour correction, and automatic blurring of licence plates. A visual customiser lets buyers preview colour, wheel and tint changes, and a free VIN decoder returns vehicle specifications. The audience is dealerships, online marketplaces, manufacturers and customisation shops. Some editing tools are free, while commercial plans are priced by volume or features through sales. Check the official site for current options.",
+  "use_steps": [
+   "Shoot the vehicle with a phone or camera.",
+   "Upload the photos and choose a background.",
+   "Generate the spin view or video.",
+   "Publish the images to your listings."
+  ],
+  "pros": [
+   "Built specifically for car listings",
+   "Plate blurring and spin views included",
+   "Free tools to try"
+  ],
+  "cons": [
+   "Niche, not a general photo editor",
+   "Commercial pricing is quote-based"
+  ],
+  "alternatives": [
+   "photoroom",
+   "pixlr",
+   "canva"
+  ],
+  "tags": [
+   "automotive",
+   "car-photos",
+   "360-view",
+   "background-removal",
+   "dealership"
+  ],
+  "features": [
+   "Background replacement",
+   "360 virtual studio",
+   "Walkaround video maker",
+   "Colour, wheel and tint customiser",
+   "VIN decoder"
+  ],
+  "use_cases": [
+   "Dealer inventory photos",
+   "Marketplace listing imagery",
+   "Branded walkaround videos",
+   "Previewing car customisations"
+  ],
+  "pricing_details": "Described as freemium with free tools and paid plans quoted by volume or features. Check the official site.",
+  "faq": [
+   {
+    "q": "Who is Spyne for?",
+    "a": "Car dealerships, marketplaces, manufacturers and customisation shops."
+   },
+   {
+    "q": "Does it blur plates?",
+    "a": "Yes, automatically in photos and videos."
+   },
+   {
+    "q": "Is anything free?",
+    "a": "Some tools such as the photo editor and VIN decoder are listed as free."
+   }
+  ],
+  "seo_title": "Spyne: Features, Pricing and Alternatives",
+  "seo_description": "What Spyne does, who it suits, key features, pricing model and alternatives. Original guide on Promptzyra.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ }
+]

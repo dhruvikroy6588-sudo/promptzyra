@@ -77,6 +77,7 @@ export const PHOTO_FIELDS_FULL = [
 export const PHOTO_FIELDS = [
   { k: 'image_url', l: 'Image', t: 'image', hint: 'upload or paste a URL' },
   { k: 'title', l: 'Title', t: 'text', req: 1 },
+  { k: 'category', l: 'Category (add more in the Categories tab)', t: 'cat' },
   { k: 'tags', l: 'Tags — comma separated', t: 'list', comma: 1, rows: 2 },
   { k: 'summary', l: 'Description', t: 'area', rows: 3 },
   { k: 'prompt', l: 'Prompt', t: 'area', rows: 12, req: 1, mono: 1 },
@@ -89,10 +90,10 @@ export function detectPhotoSubject(title, tags, prompt) {
 }
 const keepIf = (oldVal, oldSrc, next) => (!oldVal || oldVal === oldSrc ? next : oldVal);
 export const PHOTO_SIMPLE = {
-  defaults: { category: PHOTO_CATEGORY, tool: 'any', subject: 'portrait' },
+  defaults: { category: PHOTO_CATEGORY, tool: 'chatgpt', subject: 'portrait' },
   derive: (r, old) => ({
-    category: PHOTO_CATEGORY,
-    tool: old?.tool || 'any',
+    category: r.category || old?.category || PHOTO_CATEGORY,
+    tool: 'chatgpt',
     subject: old?.subject && old.subject !== 'other' ? old.subject : detectPhotoSubject(r.title, r.tags, r.prompt),
     image_alt: keepIf(old?.image_alt, old?.title, r.title),
     seo_title: keepIf(old?.seo_title, old?.title, r.title),

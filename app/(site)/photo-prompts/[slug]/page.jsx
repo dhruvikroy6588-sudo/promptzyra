@@ -42,7 +42,7 @@ export default async function Page({ params }) {
   const readMin = Math.max(2, Math.ceil(nWords / 200));
   const updated = new Date(p.updated_at || p.created_at).toLocaleDateString('en-GB', { year: 'numeric', month: 'long', day: 'numeric' });
   const faq = [
-    { q: `Can I use this prompt with ${p.tool === 'any' ? 'Gemini, ChatGPT or Midjourney' : tl}?`, a: p.tool === 'any' ? 'Yes. It is not tied to one tool, though you may need small wording changes between them.' : `Yes, it was written with ${tl} in mind. Other tools may work too, but results can differ.` },
+    { q: `Can I use this prompt with ${'ChatGPT'}?`, a: false ? '' : `Yes, it was written with ${tl} in mind. Other tools may work too, but results can differ.` },
     { q: 'Why does my result look different from the preview?', a: 'AI tools vary from run to run and depend on your reference photo, lighting and the tool version. Regenerate and adjust one detail at a time.' },
     { q: 'Can I use someone else\'s photo?', a: 'Only with their clear permission. Use photos you own or have the right to edit, and label AI-generated images as AI-generated.' },
     { q: 'Is it safe to upload my photo?', a: 'Read the AI tool\'s privacy settings first, and avoid photos that show sensitive background details.' },

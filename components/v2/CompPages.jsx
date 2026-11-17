@@ -1,3 +1,4 @@
+import SectionTitle from './SectionTitle';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { buildMetadata, breadcrumbJsonLd, faqJsonLd } from '@/lib/seo';
@@ -27,7 +28,7 @@ export async function ListPage({ type, searchParams }) {
   ];
   return (<>
     <div className="wrap sk-hero">
-      <h1 style={{ marginTop: 32, fontSize: 'clamp(1.8rem,4vw,2.6rem)' }}>{n > 0 ? `${n} ${m.label.toLowerCase()}` : m.label} for AI assistants</h1>
+      <SectionTitle icon={m.icon} count={n} noun={n === 1 ? m.single.toLowerCase() : m.label.toLowerCase()}>{m.label} for AI assistants</SectionTitle>
       <p className="muted prose">{m.blurb}</p>
     </div>
     <CompList type={type} meta={m} sp={sp} />
