@@ -11,7 +11,7 @@ export default async function sitemap() {
     ...['cover-letter-builder', 'ats-resume-checker', 'prompt-builder', 'study-planner'].map((s) => u(`/${s}`, null, 'monthly', 0.7)),
     ...['about', 'contact', 'privacy-policy', 'terms', 'disclaimer', 'editorial-policy', 'advertising-disclosure', 'cookie-policy', 'ai-policy', 'faq', 'how-it-works', 'site-map'].map((s) => u(`/${s}`, null, 'yearly', 0.3)),
     ...CATEGORIES.map((c) => u(`/resume-templates/${c.slug}`, null, 'monthly', 0.6)),
-    ...['/free-guides', ...['free','freemium','free-trial','paid','open-source'].map((t) => `/ai-tools/pricing/${t}`), ...['chatgpt','claude','gemini','copilot','grok','deepseek','midjourney'].map((m) => `/prompts/model/${m}`), '/image-prompt-generator', '/image-prompts', '/poster-prompts', '/gemini-watermark-remover'].map((p) => u(p, null, 'monthly', 0.4))];
+    ...['/free-guides', ...['free','freemium','free-trial','paid','open-source'].map((t) => `/ai-tools/pricing/${t}`), ...['chatgpt','claude','gemini','copilot','grok','deepseek','midjourney'].map((m) => `/prompts/model/${m}`), '/poster-prompts'].map((p) => u(p, null, 'monthly', 0.4))];
   const [pcats, tcats, bcats, prompts, tools, auds, phcats, photos] = await Promise.all([getCategories('prompt'), getCategories('tool'), getCategories('blog'), allSlugs('pz_prompts'), allSlugs('pz_tools'), promptAudiences(), getCategories('photo'), allSlugs('pz_photo_prompts')]);
   const sb = getSupabaseServer(); let posts = [];
   if (sb) { const { data } = await sb.from('promptzyra_posts').select('slug,kind,updated_at,created_at').eq('published', true).limit(5000); posts = data || []; }
