@@ -2,7 +2,7 @@
 import { useCallback, useEffect, useState } from 'react';
 import { slugify } from '@/lib/site';
 import { Loading, ErrorBanner } from './ui';
-const KINDS = [['prompt', 'Prompt categories'], ['tool', 'AI tool categories'], ['blog', 'Blog categories'], ['skill', 'Skill categories'], ['photo', 'Photo categories']]; switcher
+const KINDS = [['prompt', 'Prompt categories'], ['tool', 'AI tool categories'], ['blog', 'Blog categories'], ['skill', 'Skill categories'], ['photo', 'Photo categories']];
 export default function Categories({ sb, notify, onChange }) {
   const [kind, setKind] = useState('prompt'); const [rows, setRows] = useState([]); const [f, setF] = useState(null); const [loading, setLoading] = useState(true); const [err, setErr] = useState('');
   const load = useCallback(async () => { setLoading(true); setErr(''); const { data, error } = await sb.from('pz_categories').select('*').eq('kind', kind).order('sort_order').order('name'); if (error) setErr(error.message); else setRows(data || []); setLoading(false); }, [sb, kind]);
