@@ -1,0 +1,2031 @@
+[
+ {
+  "slug": "chatgpt",
+  "name": "ChatGPT",
+  "category": "chat-assistants",
+  "website_url": "https://chatgpt.com",
+  "pricing": "Freemium",
+  "tagline": "General-purpose AI assistant for writing, learning and analysis.",
+  "best_for": "Everyday questions, drafting and study help",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android",
+   "Desktop"
+  ],
+  "description": "ChatGPT is a conversational assistant from OpenAI. You type a question or instruction and it replies in plain language, which makes it useful for explaining ideas, drafting emails, brainstorming, summarising text and practising a new subject.\n\nIts biggest strength is flexibility: the same chat can help you outline an essay, check a spreadsheet formula and rehearse an interview. Paid plans typically add access to stronger models and extra features such as file uploads and image tools, but what is included changes over time, so check the official plans page. Like every AI assistant it can sound confident while being wrong, so treat answers as a first draft and verify facts, numbers and quotes before using them in schoolwork or at work.",
+  "use_steps": [
+   "Open the website or app and sign in.",
+   "Describe the task, your level and the format you want.",
+   "Ask follow-up questions, then verify important facts elsewhere."
+  ],
+  "pros": [
+   "Handles many kinds of tasks in one place",
+   "Easy for beginners to start",
+   "Mobile, web and desktop apps"
+  ],
+  "cons": [
+   "Can state wrong facts confidently",
+   "Usage limits on free access"
+  ],
+  "alternatives": [
+   "claude",
+   "google-gemini",
+   "microsoft-copilot"
+  ],
+  "tags": [
+   "assistant",
+   "writing",
+   "study"
+  ],
+  "status": "draft",
+  "last_checked": null
+ },
+ {
+  "slug": "claude",
+  "name": "Claude",
+  "category": "chat-assistants",
+  "website_url": "https://claude.ai",
+  "pricing": "Freemium",
+  "tagline": "AI assistant known for long documents and careful writing.",
+  "best_for": "Reading long texts and structured writing",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android",
+   "Desktop"
+  ],
+  "description": "Claude is an AI assistant made by Anthropic. People often choose it for working with long documents and for careful, readable writing. You can paste or upload a report, ask for a summary, then ask follow-up questions about specific sections.\n\nIt is a good fit for editing drafts, explaining dense material in simpler words and thinking through a problem step by step. As with other assistants, it can make mistakes, so check names, dates and calculations yourself. Features, limits and plans change regularly; the official site shows what your account includes. For sensitive documents, read the privacy information before uploading anything.",
+  "use_steps": [
+   "Sign in on the website or app.",
+   "Paste text or attach a document and say what you need.",
+   "Refine with follow-up questions and check key facts."
+  ],
+  "pros": [
+   "Handles long text well",
+   "Clear, natural writing style",
+   "Good for editing and explaining"
+  ],
+  "cons": [
+   "Free access has usage limits",
+   "Can still be wrong on facts"
+  ],
+  "alternatives": [
+   "chatgpt",
+   "google-gemini",
+   "perplexity"
+  ],
+  "tags": [
+   "assistant",
+   "writing",
+   "documents"
+  ],
+  "status": "draft",
+  "last_checked": null
+ },
+ {
+  "slug": "google-gemini",
+  "name": "Google Gemini",
+  "category": "chat-assistants",
+  "website_url": "https://gemini.google.com",
+  "pricing": "Freemium",
+  "tagline": "Google’s AI assistant connected to Google apps.",
+  "best_for": "People who live in Google Workspace",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "Gemini is Google's AI assistant. Its main appeal is the link with Google services: depending on your account and settings it can work with things like Gmail, Docs, Drive and Search, so you can ask it to summarise a long email thread or help draft a document without copying text between apps.\n\nIt can also take images as input, which helps when you want a photo of a diagram or a worksheet explained. If you already live in a Google account, it is a low-friction place to start. Availability of features varies by country, age and account type, and Google changes plans often, so confirm what you get on the official page. Always double-check factual answers.",
+  "use_steps": [
+   "Open the Gemini site or app with a Google account.",
+   "Ask a question or attach a file or image.",
+   "Use the share or export options to move results into Docs."
+  ],
+  "pros": [
+   "Works with the Google ecosystem",
+   "Accepts images as input",
+   "Free to try"
+  ],
+  "cons": [
+   "Features depend on account and region",
+   "Answers need fact-checking"
+  ],
+  "alternatives": [
+   "chatgpt",
+   "claude",
+   "microsoft-copilot"
+  ],
+  "tags": [
+   "assistant",
+   "google",
+   "study"
+  ],
+  "status": "draft",
+  "last_checked": null
+ },
+ {
+  "slug": "microsoft-copilot",
+  "name": "Microsoft Copilot",
+  "category": "chat-assistants",
+  "website_url": "https://copilot.microsoft.com",
+  "pricing": "Freemium",
+  "tagline": "AI assistant built into Microsoft products and the web.",
+  "best_for": "Microsoft 365 users",
+  "platforms": [
+   "Web",
+   "Windows",
+   "iOS",
+   "Android"
+  ],
+  "description": "Microsoft Copilot is an assistant that appears on the web, in Windows and inside Microsoft 365 apps such as Word, Excel, PowerPoint and Outlook. In those apps it can draft text, summarise long emails, suggest formulas and build a first-draft slide deck from a document.\n\nIt is most useful if your school or workplace already uses Microsoft 365, because it can work with the files you have access to. Which features you see depends on your licence and organisation settings, and some are paid add-ons, so check with your administrator or the official page. As with all AI output, review it before sending or submitting.",
+  "use_steps": [
+   "Open Copilot on the web or inside a Microsoft app.",
+   "Describe what you want, or select a document to work on.",
+   "Review the result and edit it before sharing."
+  ],
+  "pros": [
+   "Built into familiar Office apps",
+   "Helps with documents, email and slides",
+   "Good for workplace use"
+  ],
+  "cons": [
+   "Best features need a paid licence",
+   "Output still needs review"
+  ],
+  "alternatives": [
+   "chatgpt",
+   "google-gemini",
+   "claude"
+  ],
+  "tags": [
+   "assistant",
+   "microsoft",
+   "office"
+  ],
+  "status": "draft",
+  "last_checked": null
+ },
+ {
+  "slug": "perplexity",
+  "name": "Perplexity",
+  "category": "research",
+  "website_url": "https://www.perplexity.ai",
+  "pricing": "Freemium",
+  "tagline": "AI answer engine that cites its sources.",
+  "best_for": "Quick research with links to check",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "Perplexity works like a search engine that writes a short answer and shows numbered sources next to it. That makes it handy for quick research, because you can click through to the original pages and check what was actually said.\n\nIt is strong for questions where you want recent information and links, and weaker when you need deep reasoning about your own documents. Remember that a cited answer is not automatically correct: read the sources, especially for health, legal or money topics. Plans and limits change, so look at the official page for what the free and paid versions include.",
+  "use_steps": [
+   "Open the site and type your question.",
+   "Read the answer and open two or three of the cited sources.",
+   "Use follow-up questions to narrow the topic."
+  ],
+  "pros": [
+   "Shows sources for each answer",
+   "Good for current topics",
+   "Simple search-like interface"
+  ],
+  "cons": [
+   "Sources can be low quality",
+   "Not ideal for creative writing"
+  ],
+  "alternatives": [
+   "chatgpt",
+   "elicit",
+   "consensus"
+  ],
+  "tags": [
+   "research",
+   "search",
+   "sources"
+  ],
+  "status": "draft",
+  "last_checked": null
+ },
+ {
+  "slug": "grok",
+  "name": "Grok",
+  "category": "chat-assistants",
+  "website_url": "https://grok.com",
+  "pricing": "Freemium",
+  "tagline": "AI assistant from xAI with live social data.",
+  "best_for": "Following fast-moving topics",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "Grok is the AI assistant from xAI. It is available on the Grok website and apps and is closely tied to the X platform, which means it can talk about what people are discussing there in real time.\n\nThat can be useful for following fast-moving topics, but social posts are noisy and often wrong, so treat anything it says about breaking news carefully and confirm with trusted outlets. Like other assistants it can also help with writing, code and general questions. Access levels and prices have changed several times; check the official site for what is free and what needs a subscription today.",
+  "use_steps": [
+   "Open Grok on the web or in the app.",
+   "Ask a question or request a draft.",
+   "Check time-sensitive claims against reliable news sources."
+  ],
+  "pros": [
+   "Awareness of current conversations",
+   "General writing and coding help",
+   "Web and mobile access"
+  ],
+  "cons": [
+   "Social data can be unreliable",
+   "Plan details change often"
+  ],
+  "alternatives": [
+   "chatgpt",
+   "perplexity",
+   "claude"
+  ],
+  "tags": [
+   "assistant",
+   "news"
+  ],
+  "status": "draft",
+  "last_checked": null
+ },
+ {
+  "slug": "deepseek",
+  "name": "DeepSeek",
+  "category": "chat-assistants",
+  "website_url": "https://www.deepseek.com",
+  "pricing": "Freemium",
+  "tagline": "Open-weights AI assistant focused on reasoning and coding.",
+  "best_for": "Coding and maths questions",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "DeepSeek is an AI assistant and model family known for strong reasoning and coding results at low cost. You can chat with it on its website and app, and some of its models are published as open weights, which lets developers run them on their own systems.\n\nIt is popular with students and programmers who want step-by-step solutions to maths and code problems. Because the hosted service is operated by a company outside many users' own country, read its privacy policy and avoid entering personal or confidential information. Check the official site for current models and limits.",
+  "use_steps": [
+   "Open the DeepSeek site or app.",
+   "Paste a problem and ask for step-by-step reasoning.",
+   "Verify the final answer by running the code or checking the maths."
+  ],
+  "pros": [
+   "Good at reasoning and code",
+   "Some models are open weights",
+   "Low-cost access"
+  ],
+  "cons": [
+   "Privacy needs careful reading",
+   "Features and availability change"
+  ],
+  "alternatives": [
+   "chatgpt",
+   "claude",
+   "github-copilot"
+  ],
+  "tags": [
+   "assistant",
+   "coding",
+   "maths"
+  ],
+  "status": "draft",
+  "last_checked": null
+ },
+ {
+  "slug": "grammarly",
+  "name": "Grammarly",
+  "category": "writing",
+  "website_url": "https://www.grammarly.com",
+  "pricing": "Freemium",
+  "tagline": "Grammar, tone and clarity checker.",
+  "best_for": "Polishing emails and essays",
+  "platforms": [
+   "Web",
+   "Browser extension",
+   "Desktop"
+  ],
+  "description": "Grammarly checks writing as you type and suggests fixes for spelling, grammar, punctuation and clarity. It works in browsers, desktop apps and many text boxes, so you can use it in email, documents and social posts.\n\nBeyond corrections, it can suggest changes in tone and conciseness, and newer versions include generative writing features. It is a safe way to learn from your mistakes if you read each suggestion rather than clicking accept on all of them. Because it reads what you type, check the privacy settings before using it with confidential text. Plans and features change, so see the official pricing page.",
+  "use_steps": [
+   "Install the browser extension or desktop app.",
+   "Write as usual and review the underlined suggestions.",
+   "Accept only the changes that keep your meaning."
+  ],
+  "pros": [
+   "Catches many common errors",
+   "Works across many apps",
+   "Helps you learn patterns"
+  ],
+  "cons": [
+   "Can flatten your personal style",
+   "Advanced features are paid"
+  ],
+  "alternatives": [
+   "quillbot",
+   "chatgpt",
+   "claude"
+  ],
+  "tags": [
+   "writing",
+   "grammar",
+   "editing"
+  ],
+  "status": "draft",
+  "last_checked": null
+ },
+ {
+  "slug": "quillbot",
+  "name": "QuillBot",
+  "category": "writing",
+  "website_url": "https://quillbot.com",
+  "pricing": "Freemium",
+  "tagline": "Paraphrasing, summarising and grammar tools.",
+  "best_for": "Rewording and summarising text",
+  "platforms": [
+   "Web",
+   "Browser extension"
+  ],
+  "description": "QuillBot offers a set of writing tools, mainly a paraphraser, a summariser, a grammar checker and a citation helper. The paraphraser rewrites a sentence in different words and lets you choose how much to change.\n\nStudents use it to simplify heavy text or to find a clearer way to say something. Be careful with academic work: rewording someone else's text without credit is still plagiarism, and many schools have rules about AI assistance. Use it to improve your own writing, not to hide copied material. Check the official site for current limits and plans.",
+  "use_steps": [
+   "Open the paraphraser or summariser.",
+   "Paste your own text and pick a mode.",
+   "Compare with the original and edit by hand."
+  ],
+  "pros": [
+   "Several writing tools in one place",
+   "Useful for simplifying text",
+   "Browser extension available"
+  ],
+  "cons": [
+   "Easy to misuse for plagiarism",
+   "Limits on free use"
+  ],
+  "alternatives": [
+   "grammarly",
+   "chatgpt",
+   "claude"
+  ],
+  "tags": [
+   "writing",
+   "paraphrase",
+   "summary"
+  ],
+  "status": "draft",
+  "last_checked": null
+ },
+ {
+  "slug": "notion-ai",
+  "name": "Notion AI",
+  "category": "productivity",
+  "website_url": "https://www.notion.com",
+  "pricing": "Freemium",
+  "tagline": "AI features inside the Notion workspace.",
+  "best_for": "Notes and project docs in Notion",
+  "platforms": [
+   "Web",
+   "Desktop",
+   "Mobile"
+  ],
+  "description": "Notion AI adds writing and organising help inside the Notion workspace where many people keep notes, tasks and wikis. It can summarise a page, pull out action items, rewrite a paragraph and answer questions about the content you store there.\n\nIts value comes from being where your notes already live: you do not need to copy text into another tool. If you do not use Notion, it offers little. Notion has a free plan, but the AI features depend on your plan and can change, so check the official pricing page before you rely on them. Review any generated summary against the original notes.",
+  "use_steps": [
+   "Open a Notion page and invoke the AI menu.",
+   "Choose summarise, action items or write.",
+   "Edit the result and keep the original text nearby."
+  ],
+  "pros": [
+   "Works inside your existing notes",
+   "Good for meeting notes and wikis",
+   "Saves copy-paste steps"
+  ],
+  "cons": [
+   "Only useful if you use Notion",
+   "AI access depends on plan"
+  ],
+  "alternatives": [
+   "otter-ai",
+   "chatgpt",
+   "microsoft-copilot"
+  ],
+  "tags": [
+   "notes",
+   "productivity"
+  ],
+  "status": "draft",
+  "last_checked": null
+ },
+ {
+  "slug": "otter-ai",
+  "name": "Otter.ai",
+  "category": "productivity",
+  "website_url": "https://otter.ai",
+  "pricing": "Freemium",
+  "tagline": "Meeting transcription and summaries.",
+  "best_for": "Recording and summarising meetings",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "Otter records and transcribes meetings, lectures and interviews, then produces searchable notes and a short summary. It can join online meetings, and there is also a phone app for recording in person.\n\nIt saves time when you want to focus on the conversation instead of typing. Accuracy depends on audio quality and accents, so skim the transcript before quoting anyone. Always tell participants when you record and follow your school's or employer's rules and local laws. Free and paid limits change, so confirm on the official page.",
+  "use_steps": [
+   "Connect your calendar or open the app.",
+   "Start recording or add the bot to a meeting.",
+   "Review the summary and fix names or terms."
+  ],
+  "pros": [
+   "Searchable transcripts",
+   "Summaries and action items",
+   "Works for online and in-person"
+  ],
+  "cons": [
+   "Accuracy drops with noise",
+   "Recording needs consent"
+  ],
+  "alternatives": [
+   "fireflies-ai",
+   "notion-ai",
+   "whisper-openai"
+  ],
+  "tags": [
+   "transcription",
+   "meetings"
+  ],
+  "status": "draft",
+  "last_checked": null
+ },
+ {
+  "slug": "fireflies-ai",
+  "name": "Fireflies.ai",
+  "category": "productivity",
+  "website_url": "https://fireflies.ai",
+  "pricing": "Freemium",
+  "tagline": "AI meeting recorder and note taker.",
+  "best_for": "Teams that meet on video calls",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Fireflies is an AI note taker that joins video calls, records them with permission and creates a transcript, summary and list of action items. It connects with common meeting platforms and can send notes to other tools.\n\nTeams like it because everyone can search past meetings by keyword. Make sure all participants know the meeting is being recorded and check your organisation's rules before using it with confidential topics. Transcripts are rarely perfect, so review key decisions. Plans and limits change, so see the official site for the current free and paid options.",
+  "use_steps": [
+   "Connect your calendar and meeting app.",
+   "Let the bot join and record with consent.",
+   "Review the summary and share action items."
+  ],
+  "pros": [
+   "Automatic notes after each call",
+   "Search across past meetings",
+   "Integrations with other apps"
+  ],
+  "cons": [
+   "Needs everyone to accept recording",
+   "Transcript errors happen"
+  ],
+  "alternatives": [
+   "otter-ai",
+   "notion-ai",
+   "zapier"
+  ],
+  "tags": [
+   "meetings",
+   "transcription"
+  ],
+  "status": "draft",
+  "last_checked": null
+ },
+ {
+  "slug": "zapier",
+  "name": "Zapier",
+  "category": "productivity",
+  "website_url": "https://zapier.com",
+  "pricing": "Freemium",
+  "tagline": "Connects apps and automates workflows.",
+  "best_for": "Automating repetitive tasks without code",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Zapier connects different web apps so they can pass information to each other without code. You build a workflow, called a Zap, from a trigger (for example, a new form response) and one or more actions (add a row to a sheet, send an email, post a message).\n\nIt is useful for small teams and individuals who repeat the same copy-and-paste tasks. Start with one simple automation and test it before relying on it, because a wrong setting can send messages to the wrong people. Task limits and plans change, so check the official pricing page.",
+  "use_steps": [
+   "Create an account and choose a trigger app.",
+   "Pick the action you want to happen automatically.",
+   "Test the Zap with sample data before turning it on."
+  ],
+  "pros": [
+   "No programming needed",
+   "Thousands of app connections",
+   "Saves repetitive work"
+  ],
+  "cons": [
+   "Costs rise with volume",
+   "Errors can spread quickly"
+  ],
+  "alternatives": [
+   "notion-ai",
+   "fireflies-ai",
+   "chatgpt"
+  ],
+  "tags": [
+   "automation",
+   "productivity"
+  ],
+  "status": "draft",
+  "last_checked": null
+ },
+ {
+  "slug": "canva",
+  "name": "Canva",
+  "category": "design",
+  "website_url": "https://www.canva.com",
+  "pricing": "Freemium",
+  "tagline": "Design tool with AI image and writing features.",
+  "best_for": "Posters, slides and social graphics",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android",
+   "Desktop"
+  ],
+  "description": "Canva is a browser-based design tool with templates for presentations, posters, social posts, resumes and videos. You drag elements onto a page, change colours and fonts, and export the result as an image or PDF.\n\nIt also includes AI helpers for things like generating images or rewriting text. It is a good starting point for people without design training because templates handle layout. Some templates, photos and features are limited to paid plans, and licence rules apply to stock content, so check the official terms before using designs commercially.",
+  "use_steps": [
+   "Choose a template for your format.",
+   "Replace the text and images with your own.",
+   "Download as PDF or PNG."
+  ],
+  "pros": [
+   "Huge template library",
+   "Easy for beginners",
+   "Works on web and mobile"
+  ],
+  "cons": [
+   "Many assets need a paid plan",
+   "Designs can look generic"
+  ],
+  "alternatives": [
+   "gamma",
+   "figma",
+   "adobe-firefly"
+  ],
+  "tags": [
+   "design",
+   "poster",
+   "presentation"
+  ],
+  "status": "draft",
+  "last_checked": null
+ },
+ {
+  "slug": "gamma",
+  "name": "Gamma",
+  "category": "design",
+  "website_url": "https://gamma.app",
+  "pricing": "Freemium",
+  "tagline": "AI-assisted presentations and documents.",
+  "best_for": "Quick slide decks",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Gamma generates a presentation, document or simple web page from a prompt or an outline. You describe the topic, pick a style, and it builds slides you can edit with a card-based editor.\n\nIt is useful for getting past the blank page quickly. Treat the first version as a draft: check every claim, replace generic text with your own examples and remove slides that do not support your point. Free access and credits change, so look at the official page for the current limits.",
+  "use_steps": [
+   "Enter a topic or paste an outline.",
+   "Choose a theme and generate.",
+   "Edit each card and export or share."
+  ],
+  "pros": [
+   "Fast first draft",
+   "Clean modern look",
+   "Easy sharing as a link"
+  ],
+  "cons": [
+   "Content is often generic",
+   "Limits on free use"
+  ],
+  "alternatives": [
+   "canva",
+   "beautiful-ai",
+   "chatgpt"
+  ],
+  "tags": [
+   "presentation",
+   "slides"
+  ],
+  "status": "draft",
+  "last_checked": null
+ },
+ {
+  "slug": "beautiful-ai",
+  "name": "Beautiful.ai",
+  "category": "design",
+  "website_url": "https://www.beautiful.ai",
+  "pricing": "Free trial",
+  "tagline": "Presentation software with smart layouts.",
+  "best_for": "Clean business slides",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Beautiful.ai is presentation software that keeps slides tidy automatically. When you add or move content, its smart templates adjust spacing and alignment, so you spend less time fixing layout.\n\nIt also includes AI features to draft slides. It suits business presentations where consistency matters. It is a paid product with a free trial that has changed over time, so confirm current terms before you start, and export a backup of your deck.",
+  "use_steps": [
+   "Start from a template or generate a draft.",
+   "Add your own content in the smart slides.",
+   "Present online or export."
+  ],
+  "pros": [
+   "Automatic layout",
+   "Consistent look",
+   "Good for business decks"
+  ],
+  "cons": [
+   "Not a long-term free tool",
+   "Less design freedom"
+  ],
+  "alternatives": [
+   "gamma",
+   "canva",
+   "chatgpt"
+  ],
+  "tags": [
+   "presentation",
+   "business"
+  ],
+  "status": "draft",
+  "last_checked": null
+ },
+ {
+  "slug": "figma",
+  "name": "Figma",
+  "category": "design",
+  "website_url": "https://www.figma.com",
+  "pricing": "Freemium",
+  "tagline": "Collaborative interface design tool.",
+  "best_for": "UI design and prototypes",
+  "platforms": [
+   "Web",
+   "Desktop"
+  ],
+  "description": "Figma is a collaborative design tool that runs in the browser. Designers use it to create app screens, website layouts, icons and prototypes, and teammates can comment or edit in the same file at the same time.\n\nIt has a learning curve compared with simple graphic tools, but it is the standard for interface design and has a large community of free templates. Students can often find education plans. Features and limits on free plans change, so check the official site.",
+  "use_steps": [
+   "Create a free account and open a new design file.",
+   "Draw frames and add components.",
+   "Share a link for feedback and use prototype mode to test flows."
+  ],
+  "pros": [
+   "Real-time collaboration",
+   "Industry standard for UI",
+   "Large community resources"
+  ],
+  "cons": [
+   "Takes time to learn",
+   "Not for photo editing"
+  ],
+  "alternatives": [
+   "canva",
+   "adobe-firefly"
+  ],
+  "tags": [
+   "design",
+   "ui",
+   "prototype"
+  ],
+  "status": "draft",
+  "last_checked": null
+ },
+ {
+  "slug": "midjourney",
+  "name": "Midjourney",
+  "category": "image",
+  "website_url": "https://www.midjourney.com",
+  "pricing": "Paid",
+  "tagline": "AI image generator known for artistic output.",
+  "best_for": "Concept art and stylised images",
+  "platforms": [
+   "Web",
+   "Discord"
+  ],
+  "description": "Midjourney generates images from text prompts and is known for a distinctive artistic look. It is used for concept art, mood boards, book covers and stylised illustrations.\n\nYou describe the image, review variations and refine by adjusting the prompt or choosing options. Results are strong on style but can struggle with accurate text and anatomy. Check the terms about commercial use and whether your images are public by default. It is a paid service, so see the official site for current plans.",
+  "use_steps": [
+   "Sign in and open the creation interface.",
+   "Write a prompt describing subject, style and lighting.",
+   "Pick a variation and refine the prompt."
+  ],
+  "pros": [
+   "Strong artistic quality",
+   "Many style options",
+   "Active community"
+  ],
+  "cons": [
+   "Paid access",
+   "Text in images is unreliable"
+  ],
+  "alternatives": [
+   "adobe-firefly",
+   "leonardo-ai",
+   "ideogram"
+  ],
+  "tags": [
+   "image generation",
+   "art"
+  ],
+  "status": "draft",
+  "last_checked": null
+ },
+ {
+  "slug": "adobe-firefly",
+  "name": "Adobe Firefly",
+  "category": "image",
+  "website_url": "https://firefly.adobe.com",
+  "pricing": "Freemium",
+  "tagline": "Adobe’s generative AI for images and effects.",
+  "best_for": "Creators using Adobe apps",
+  "platforms": [
+   "Web",
+   "Desktop"
+  ],
+  "description": "Adobe Firefly is Adobe's family of generative AI tools for creating images, extending photos and applying text effects. Adobe says its models are trained on licensed and public-domain content, which matters to people who worry about copyright.\n\nFirefly also connects with Photoshop and Illustrator, so you can fill or expand an image inside the apps you already use. Usage is measured in credits, and free credits and paid plans change, so check the official page. Always review generated images for errors.",
+  "use_steps": [
+   "Open Firefly on the web or in an Adobe app.",
+   "Describe the image or select an area to edit.",
+   "Download or continue editing in Photoshop."
+  ],
+  "pros": [
+   "Integrates with Adobe apps",
+   "Focus on commercially safer content",
+   "Good editing tools"
+  ],
+  "cons": [
+   "Credits are limited",
+   "Adobe account needed"
+  ],
+  "alternatives": [
+   "midjourney",
+   "canva",
+   "leonardo-ai"
+  ],
+  "tags": [
+   "image generation",
+   "editing"
+  ],
+  "status": "draft",
+  "last_checked": null
+ },
+ {
+  "slug": "leonardo-ai",
+  "name": "Leonardo AI",
+  "category": "image",
+  "website_url": "https://leonardo.ai",
+  "pricing": "Freemium",
+  "tagline": "AI image generation with style controls.",
+  "best_for": "Game and concept art",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Leonardo AI is an image generation platform popular with game artists and designers. It offers different models and style presets, plus tools for refining images, creating variations and training small custom styles.\n\nIt is a good choice when you want more control than a single prompt box gives you. Free tokens and plan details change, so check the official site. Review licence terms before commercial use and double-check generated images for flaws.",
+  "use_steps": [
+   "Create an account and choose a model.",
+   "Write a prompt and select a style preset.",
+   "Refine with variations or editing tools."
+  ],
+  "pros": [
+   "Many models and presets",
+   "Good control options",
+   "Free daily allowance has existed"
+  ],
+  "cons": [
+   "Interface can overwhelm beginners",
+   "Plan limits change"
+  ],
+  "alternatives": [
+   "midjourney",
+   "ideogram",
+   "adobe-firefly"
+  ],
+  "tags": [
+   "image generation",
+   "game art"
+  ],
+  "status": "draft",
+  "last_checked": null
+ },
+ {
+  "slug": "ideogram",
+  "name": "Ideogram",
+  "category": "image",
+  "website_url": "https://ideogram.ai",
+  "pricing": "Freemium",
+  "tagline": "AI image generator good at text in images.",
+  "best_for": "Posters and logos with lettering",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Ideogram is an AI image generator that is better than many tools at putting readable text into pictures, such as poster titles, logos and signs.\n\nYou write a prompt, choose a style and aspect ratio, and compare results. Text can still contain errors, so zoom in and proofread before publishing. Free and paid options change, so check the official site and read the terms on commercial use.",
+  "use_steps": [
+   "Open the site and write your prompt, including the exact text.",
+   "Choose a style and ratio.",
+   "Generate and proofread the lettering."
+  ],
+  "pros": [
+   "Better text rendering",
+   "Simple interface",
+   "Good for posters and logos"
+  ],
+  "cons": [
+   "Spelling mistakes still happen",
+   "Plan limits"
+  ],
+  "alternatives": [
+   "midjourney",
+   "leonardo-ai",
+   "canva"
+  ],
+  "tags": [
+   "image generation",
+   "poster",
+   "text"
+  ],
+  "status": "draft",
+  "last_checked": null
+ },
+ {
+  "slug": "remove-bg",
+  "name": "Remove.bg",
+  "category": "image",
+  "website_url": "https://www.remove.bg",
+  "pricing": "Freemium",
+  "tagline": "Removes image backgrounds automatically.",
+  "best_for": "Product and profile photos",
+  "platforms": [
+   "Web",
+   "API"
+  ],
+  "description": "Remove.bg removes the background from a photo automatically in seconds. Upload an image of a person, product or object and download a version with a transparent background.\n\nIt is handy for ID photos, product pictures for online shops and design projects. Complex hair or glass edges may need touch-ups. Free downloads are usually smaller than paid high-resolution ones, and pricing changes, so check the official site.",
+  "use_steps": [
+   "Upload your photo.",
+   "Wait for the automatic cut-out.",
+   "Download the transparent PNG or add a new background."
+  ],
+  "pros": [
+   "Very fast",
+   "No skills needed",
+   "API for developers"
+  ],
+  "cons": [
+   "High resolution needs payment",
+   "Fine edges can be rough"
+  ],
+  "alternatives": [
+   "canva",
+   "adobe-firefly"
+  ],
+  "tags": [
+   "photo editing",
+   "background"
+  ],
+  "status": "draft",
+  "last_checked": null
+ },
+ {
+  "slug": "upscayl",
+  "name": "Upscayl",
+  "category": "image",
+  "website_url": "https://upscayl.org",
+  "pricing": "Open source",
+  "tagline": "Free open-source AI image upscaler.",
+  "best_for": "Enlarging low-resolution images",
+  "platforms": [
+   "Desktop"
+  ],
+  "description": "Upscayl is a free, open-source desktop app that enlarges low-resolution images using AI models running on your own computer. Because it runs locally, your pictures are not uploaded to a server.\n\nIt works best on clean images and can add artefacts to very poor ones. A computer with a decent graphics card makes it faster. Download it only from the official project page and check the licence and release notes.",
+  "use_steps": [
+   "Download from the official page and install.",
+   "Select an image and choose a model and scale.",
+   "Upscale and compare with the original."
+  ],
+  "pros": [
+   "Free and open source",
+   "Private, works offline",
+   "Several models"
+  ],
+  "cons": [
+   "Needs a capable computer",
+   "Not magic on very blurry images"
+  ],
+  "alternatives": [
+   "remove-bg",
+   "adobe-firefly"
+  ],
+  "tags": [
+   "image",
+   "upscale",
+   "open source"
+  ],
+  "status": "draft",
+  "last_checked": null
+ },
+ {
+  "slug": "runway",
+  "name": "Runway",
+  "category": "video",
+  "website_url": "https://runwayml.com",
+  "pricing": "Freemium",
+  "tagline": "AI video generation and editing suite.",
+  "best_for": "Short AI video clips",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Runway is a creative suite for AI video. You can generate short clips from text or images, remove backgrounds from video, and use editing tools that normally take hours.\n\nIt is used by filmmakers, marketers and students experimenting with new ideas. Generated clips are short and may show visual glitches, so plan to edit and combine them. Usage is based on credits and plans change, so check the official site and the rules about commercial use.",
+  "use_steps": [
+   "Create an account and choose a generation tool.",
+   "Describe the scene or upload a start image.",
+   "Download the clip and edit it in your video editor."
+  ],
+  "pros": [
+   "Powerful video features",
+   "Good for experiments",
+   "Browser-based"
+  ],
+  "cons": [
+   "Clips are short",
+   "Credit costs add up"
+  ],
+  "alternatives": [
+   "pika",
+   "capcut",
+   "descript"
+  ],
+  "tags": [
+   "video generation",
+   "editing"
+  ],
+  "status": "draft",
+  "last_checked": null
+ },
+ {
+  "slug": "pika",
+  "name": "Pika",
+  "category": "video",
+  "website_url": "https://pika.art",
+  "pricing": "Freemium",
+  "tagline": "Text and image to video generator.",
+  "best_for": "Short social clips",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Pika turns text prompts or images into short video clips and offers effects such as adding or transforming objects in a scene. It is popular with social media creators who want eye-catching short clips quickly.\n\nExpect short outputs and occasional visual oddities. Free access, credits and commercial-use rules have changed, so check the official page before using clips in a business. Always review results for artefacts before posting.",
+  "use_steps": [
+   "Sign in and pick text-to-video or image-to-video.",
+   "Describe the motion you want.",
+   "Download and trim in an editor."
+  ],
+  "pros": [
+   "Fast and playful",
+   "Good for social clips",
+   "Simple interface"
+  ],
+  "cons": [
+   "Short clips only",
+   "Terms and limits change"
+  ],
+  "alternatives": [
+   "runway",
+   "capcut"
+  ],
+  "tags": [
+   "video generation",
+   "social"
+  ],
+  "status": "draft",
+  "last_checked": null
+ },
+ {
+  "slug": "capcut",
+  "name": "CapCut",
+  "category": "video",
+  "website_url": "https://www.capcut.com",
+  "pricing": "Freemium",
+  "tagline": "Video editor with auto-captions and AI tools.",
+  "best_for": "Short-form video editing",
+  "platforms": [
+   "Web",
+   "Desktop",
+   "iOS",
+   "Android"
+  ],
+  "description": "CapCut is a video editor for phone, desktop and browser that is especially popular for short-form videos. It includes templates, automatic captions, background removal and many effects.\n\nIt suits beginners who want to make a polished clip quickly. Some effects and exports are limited to the paid version, and the app's terms and availability can vary by country, so check the official site. Review auto captions for mistakes before posting.",
+  "use_steps": [
+   "Import clips into a new project.",
+   "Trim, add captions and effects.",
+   "Export in the size your platform needs."
+  ],
+  "pros": [
+   "Easy for beginners",
+   "Auto captions",
+   "Lots of templates"
+  ],
+  "cons": [
+   "Some features paid",
+   "Availability varies by region"
+  ],
+  "alternatives": [
+   "descript",
+   "runway",
+   "canva"
+  ],
+  "tags": [
+   "video editing",
+   "captions"
+  ],
+  "status": "draft",
+  "last_checked": null
+ },
+ {
+  "slug": "descript",
+  "name": "Descript",
+  "category": "video",
+  "website_url": "https://www.descript.com",
+  "pricing": "Freemium",
+  "tagline": "Edit video and audio by editing text.",
+  "best_for": "Podcasts and talking-head video",
+  "platforms": [
+   "Web",
+   "Desktop"
+  ],
+  "description": "Descript lets you edit audio and video by editing a transcript. Delete a word from the text and it disappears from the recording, which makes cutting filler words and mistakes very quick.\n\nIt is popular for podcasts, interviews and talking-head videos. It also offers features such as screen recording and AI voice tools. Transcription is not perfect, so check names. Plans and limits change; see the official site.",
+  "use_steps": [
+   "Import a recording and let it transcribe.",
+   "Edit the text to cut or reorder sections.",
+   "Export audio or video."
+  ],
+  "pros": [
+   "Very fast spoken-word editing",
+   "Screen recording built in",
+   "Good for podcasts"
+  ],
+  "cons": [
+   "Learning curve for video",
+   "Free plan limits"
+  ],
+  "alternatives": [
+   "capcut",
+   "audacity",
+   "otter-ai"
+  ],
+  "tags": [
+   "video",
+   "podcast",
+   "editing"
+  ],
+  "status": "draft",
+  "last_checked": null
+ },
+ {
+  "slug": "elevenlabs",
+  "name": "ElevenLabs",
+  "category": "audio",
+  "website_url": "https://elevenlabs.io",
+  "pricing": "Freemium",
+  "tagline": "Realistic AI voice generation.",
+  "best_for": "Voice-overs and narration",
+  "platforms": [
+   "Web",
+   "API"
+  ],
+  "description": "ElevenLabs creates natural-sounding AI voices from text and can also clone a voice when you have the right to do so. It is used for narration, audiobooks, videos and accessibility.\n\nUse only voices you have permission to copy and follow the service's rules on consent. Listen to the whole result for mispronunciations. Free allowances and paid plans change, so check the official site and licence terms for commercial use.",
+  "use_steps": [
+   "Paste your script and choose a voice.",
+   "Adjust speed and stability settings.",
+   "Generate, listen fully and download."
+  ],
+  "pros": [
+   "Realistic voices",
+   "Many languages",
+   "API available"
+  ],
+  "cons": [
+   "Voice misuse risks",
+   "Credits are limited"
+  ],
+  "alternatives": [
+   "whisper-openai",
+   "descript",
+   "audacity"
+  ],
+  "tags": [
+   "voice",
+   "text to speech"
+  ],
+  "status": "draft",
+  "last_checked": null
+ },
+ {
+  "slug": "whisper-openai",
+  "name": "Whisper (OpenAI)",
+  "category": "audio",
+  "website_url": "https://github.com/openai/whisper",
+  "pricing": "Open source",
+  "tagline": "Open-source speech recognition model.",
+  "best_for": "Transcribing audio offline",
+  "platforms": [
+   "CLI"
+  ],
+  "description": "Whisper is an open-source speech recognition model released by OpenAI. It turns spoken audio into text in many languages and can also translate speech to English.\n\nBecause the code is available, developers can run it on their own computers so audio stays private. It is a command-line or code-based tool, so it is better suited to people comfortable with Python than to beginners, though many apps are built on top of it. Accuracy depends on audio quality.",
+  "use_steps": [
+   "Install it following the project instructions.",
+   "Run it on an audio file with your chosen model size.",
+   "Proofread the transcript."
+  ],
+  "pros": [
+   "Free and open source",
+   "Works offline",
+   "Supports many languages"
+  ],
+  "cons": [
+   "Needs technical setup",
+   "Slow on weak computers"
+  ],
+  "alternatives": [
+   "otter-ai",
+   "descript",
+   "audacity"
+  ],
+  "tags": [
+   "transcription",
+   "open source"
+  ],
+  "status": "draft",
+  "last_checked": null
+ },
+ {
+  "slug": "audacity",
+  "name": "Audacity",
+  "category": "audio",
+  "website_url": "https://www.audacityteam.org",
+  "pricing": "Open source",
+  "tagline": "Free open-source audio editor.",
+  "best_for": "Recording and cleaning audio",
+  "platforms": [
+   "Desktop"
+  ],
+  "description": "Audacity is a free, open-source audio editor for Windows, macOS and Linux. You can record, cut, merge and clean up audio, remove background noise and apply effects.\n\nIt is a classic choice for podcasts and voice-overs, though its interface looks dated. Download it only from the official site to avoid fake installers. It does not use AI to edit for you, but it is reliable and has no cost.",
+  "use_steps": [
+   "Download from the official site and install.",
+   "Record or import audio.",
+   "Apply noise reduction and export as MP3 or WAV."
+  ],
+  "pros": [
+   "Completely free",
+   "Powerful editing tools",
+   "Works offline"
+  ],
+  "cons": [
+   "Interface looks old",
+   "No automatic AI editing"
+  ],
+  "alternatives": [
+   "descript",
+   "elevenlabs"
+  ],
+  "tags": [
+   "audio",
+   "editing",
+   "open source"
+  ],
+  "status": "draft",
+  "last_checked": null
+ },
+ {
+  "slug": "github-copilot",
+  "name": "GitHub Copilot",
+  "category": "coding",
+  "website_url": "https://github.com/features/copilot",
+  "pricing": "Paid",
+  "tagline": "AI pair programmer inside your editor.",
+  "best_for": "Developers writing code daily",
+  "platforms": [
+   "VS Code",
+   "JetBrains"
+  ],
+  "description": "GitHub Copilot suggests code as you type inside editors such as VS Code and JetBrains IDEs. It can complete a line, write a function from a comment and answer questions about your code in a chat panel.\n\nIt speeds up routine work but can propose incorrect or insecure code, so read and test everything. It is a paid product with some education access and free options that have varied, so check the official page for what applies to you.",
+  "use_steps": [
+   "Install the extension in your editor and sign in.",
+   "Write a comment describing the function you want.",
+   "Review, test and edit the suggestion."
+  ],
+  "pros": [
+   "Works inside your editor",
+   "Speeds up routine code",
+   "Chat for explanations"
+  ],
+  "cons": [
+   "Can suggest wrong code",
+   "Paid for most users"
+  ],
+  "alternatives": [
+   "cursor",
+   "codeium-windsurf",
+   "replit"
+  ],
+  "tags": [
+   "coding",
+   "ide"
+  ],
+  "status": "draft",
+  "last_checked": null
+ },
+ {
+  "slug": "cursor",
+  "name": "Cursor",
+  "category": "coding",
+  "website_url": "https://www.cursor.com",
+  "pricing": "Freemium",
+  "tagline": "AI-first code editor.",
+  "best_for": "Working across a codebase with AI",
+  "platforms": [
+   "Desktop"
+  ],
+  "description": "Cursor is a code editor built around AI. It looks like VS Code but adds chat and editing features that can read your project, suggest changes across several files and explain unfamiliar code.\n\nIt is helpful for learning a codebase and for repetitive edits. Review every change it proposes and use version control so you can undo mistakes. It offers a free tier with limits and paid plans; the details change often, so check the official pricing page.",
+  "use_steps": [
+   "Download and open your project folder.",
+   "Ask the chat to explain or change a file.",
+   "Review the diff before accepting."
+  ],
+  "pros": [
+   "Understands your project context",
+   "Familiar VS Code feel",
+   "Multi-file edits"
+  ],
+  "cons": [
+   "Usage limits",
+   "Changes need careful review"
+  ],
+  "alternatives": [
+   "github-copilot",
+   "codeium-windsurf",
+   "replit"
+  ],
+  "tags": [
+   "coding",
+   "editor"
+  ],
+  "status": "draft",
+  "last_checked": null
+ },
+ {
+  "slug": "replit",
+  "name": "Replit",
+  "category": "coding",
+  "website_url": "https://replit.com",
+  "pricing": "Freemium",
+  "tagline": "Browser-based coding environment with AI help.",
+  "best_for": "Learning and quick prototypes",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Replit is an online coding environment: you write, run and share programs from the browser with nothing to install. It supports many languages and includes an AI assistant that can help write or explain code.\n\nIt is excellent for learning and for quickly sharing small projects. For large or sensitive projects, consider hosting and costs carefully. Free options and paid plans change, so check the official site.",
+  "use_steps": [
+   "Create an account and start a new project.",
+   "Write code and press run.",
+   "Share the link or deploy."
+  ],
+  "pros": [
+   "No setup needed",
+   "Good for beginners",
+   "Easy sharing"
+  ],
+  "cons": [
+   "Limits on free resources",
+   "Less suited to big projects"
+  ],
+  "alternatives": [
+   "google-colab",
+   "cursor",
+   "github-copilot"
+  ],
+  "tags": [
+   "coding",
+   "learning"
+  ],
+  "status": "draft",
+  "last_checked": null
+ },
+ {
+  "slug": "codeium-windsurf",
+  "name": "Codeium (Windsurf)",
+  "category": "coding",
+  "website_url": "https://windsurf.com",
+  "pricing": "Freemium",
+  "tagline": "AI coding assistant and editor.",
+  "best_for": "Autocomplete and chat in the IDE",
+  "platforms": [
+   "Desktop"
+  ],
+  "description": "Windsurf, from the team behind Codeium, is an AI code editor and assistant. It offers autocomplete and an agent-style chat that can read and edit files in your project.\n\nIt competes with tools like Cursor and Copilot. Features and branding have changed over time, so check the official site for the current product names, free tier and limits. As with any coding assistant, test the results and avoid pasting secrets.",
+  "use_steps": [
+   "Install the editor or plugin.",
+   "Open a project and try autocomplete and chat.",
+   "Review and test generated code."
+  ],
+  "pros": [
+   "Free tier has been offered",
+   "Project-aware chat",
+   "Works in an editor"
+  ],
+  "cons": [
+   "Product and plans change",
+   "Code needs review"
+  ],
+  "alternatives": [
+   "cursor",
+   "github-copilot"
+  ],
+  "tags": [
+   "coding",
+   "editor"
+  ],
+  "status": "draft",
+  "last_checked": null
+ },
+ {
+  "slug": "google-colab",
+  "name": "Google Colab",
+  "category": "coding",
+  "website_url": "https://colab.research.google.com",
+  "pricing": "Freemium",
+  "tagline": "Free hosted notebooks for Python and ML.",
+  "best_for": "Data science practice",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Google Colab provides free notebooks in the browser where you can run Python code, which makes it popular for data science, machine learning and teaching. Notebooks live in your Google Drive and can be shared like documents.\n\nFree sessions have time and resource limits, and optional paid plans offer more power. It is a great way to learn without installing software. Do not upload private data you are not allowed to share.",
+  "use_steps": [
+   "Open Colab with a Google account.",
+   "Create a notebook and run a code cell.",
+   "Share or save to Drive."
+  ],
+  "pros": [
+   "Free to start",
+   "No installation",
+   "Easy sharing"
+  ],
+  "cons": [
+   "Session limits",
+   "Not for long production jobs"
+  ],
+  "alternatives": [
+   "replit",
+   "cursor"
+  ],
+  "tags": [
+   "python",
+   "data science",
+   "notebook"
+  ],
+  "status": "draft",
+  "last_checked": null
+ },
+ {
+  "slug": "notebooklm",
+  "name": "NotebookLM",
+  "category": "study",
+  "website_url": "https://notebooklm.google.com",
+  "pricing": "Freemium",
+  "tagline": "Chat with your own documents and get summaries.",
+  "best_for": "Studying from your own sources",
+  "platforms": [
+   "Web"
+  ],
+  "description": "NotebookLM from Google lets you upload your own sources, such as PDFs, notes or web pages, and then ask questions about only that material. Answers include references to the passages used, which makes checking easier.\n\nIt can also create summaries, study guides and audio overviews. It is useful for revising from your own readings, because it is less likely to wander off topic. Still compare important points with the original text. Availability and limits change, so check the official page.",
+  "use_steps": [
+   "Create a notebook and add your sources.",
+   "Ask questions or request a study guide.",
+   "Check each answer against the cited passage."
+  ],
+  "pros": [
+   "Grounded in your documents",
+   "Citations to sources",
+   "Study aids"
+  ],
+  "cons": [
+   "Only as good as your sources",
+   "Limits on sources"
+  ],
+  "alternatives": [
+   "chatgpt",
+   "claude",
+   "elicit"
+  ],
+  "tags": [
+   "study",
+   "research",
+   "notes"
+  ],
+  "status": "draft",
+  "last_checked": null
+ },
+ {
+  "slug": "quizlet",
+  "name": "Quizlet",
+  "category": "study",
+  "website_url": "https://quizlet.com",
+  "pricing": "Freemium",
+  "tagline": "Flashcards and study modes.",
+  "best_for": "Memorising terms",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "Quizlet is a study platform built around flashcards, practice tests and games. You can create your own sets or use sets made by other learners, and the app tracks what you know.\n\nActive recall and repetition make flashcards effective, but community sets can contain errors, so verify them with your textbook. Some modes and AI features are paid, and plans change; see the official site.",
+  "use_steps": [
+   "Create a set of terms and definitions.",
+   "Study with flashcards and learn mode.",
+   "Take a practice test."
+  ],
+  "pros": [
+   "Easy to start",
+   "Multiple study modes",
+   "Mobile apps"
+  ],
+  "cons": [
+   "User sets may be wrong",
+   "Some features paid"
+  ],
+  "alternatives": [
+   "anki",
+   "chatgpt",
+   "notebooklm"
+  ],
+  "tags": [
+   "flashcards",
+   "study"
+  ],
+  "status": "draft",
+  "last_checked": null
+ },
+ {
+  "slug": "anki",
+  "name": "Anki",
+  "category": "study",
+  "website_url": "https://apps.ankiweb.net",
+  "pricing": "Open source",
+  "tagline": "Spaced-repetition flashcards.",
+  "best_for": "Long-term memorisation",
+  "platforms": [
+   "Desktop",
+   "Android",
+   "iOS"
+  ],
+  "description": "Anki is a free, open-source flashcard program built around spaced repetition: cards you find hard come back sooner, and easy ones appear less often. This is one of the most evidence-supported ways to remember facts for the long term.\n\nIt takes some time to learn and the desktop interface is plain, but it is very flexible and has add-ons and shared decks. Medical and language learners use it heavily. Download from the official site; some mobile versions have different pricing.",
+  "use_steps": [
+   "Install Anki and create a deck.",
+   "Add cards and study a few minutes every day.",
+   "Rate each card honestly to tune the schedule."
+  ],
+  "pros": [
+   "Strong spaced repetition",
+   "Free on desktop",
+   "Very customisable"
+  ],
+  "cons": [
+   "Steeper learning curve",
+   "Plain design"
+  ],
+  "alternatives": [
+   "quizlet",
+   "notebooklm"
+  ],
+  "tags": [
+   "flashcards",
+   "memory",
+   "open source"
+  ],
+  "status": "draft",
+  "last_checked": null
+ },
+ {
+  "slug": "khan-academy-khanmigo",
+  "name": "Khan Academy (Khanmigo)",
+  "category": "study",
+  "website_url": "https://www.khanacademy.org",
+  "pricing": "Freemium",
+  "tagline": "Free lessons with an AI tutor option.",
+  "best_for": "School subjects and test prep",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "Khan Academy offers free lessons, practice and tests across school subjects, from early maths to advanced topics. Khanmigo is its AI tutor, designed to guide students with hints and questions instead of just giving answers.\n\nThe core courses are free. Khanmigo availability and cost can vary by country and account type, so check the official site. It is a good option when you want structured learning with built-in practice.",
+  "use_steps": [
+   "Create a free account and choose a course.",
+   "Watch the lesson and do the exercises.",
+   "Try the AI tutor where it is available."
+  ],
+  "pros": [
+   "Free core content",
+   "Structured courses",
+   "Tutor that guides"
+  ],
+  "cons": [
+   "AI tutor access varies",
+   "Not all subjects covered"
+  ],
+  "alternatives": [
+   "duolingo",
+   "wolfram-alpha",
+   "chatgpt"
+  ],
+  "tags": [
+   "education",
+   "school",
+   "tutor"
+  ],
+  "status": "draft",
+  "last_checked": null
+ },
+ {
+  "slug": "duolingo",
+  "name": "Duolingo",
+  "category": "study",
+  "website_url": "https://www.duolingo.com",
+  "pricing": "Freemium",
+  "tagline": "Gamified language learning.",
+  "best_for": "Daily language practice",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "Duolingo teaches languages through short, game-like lessons on your phone or browser. It tracks streaks, gives points and mixes reading, listening and speaking exercises.\n\nIt is excellent for building a daily habit and learning basic vocabulary, though most learners need extra practice such as conversation to become fluent. It has a free version with ads and paid tiers; check the official site for current features.",
+  "use_steps": [
+   "Pick a language and set a daily goal.",
+   "Complete a short lesson each day.",
+   "Add real conversation practice."
+  ],
+  "pros": [
+   "Fun and motivating",
+   "Free version available",
+   "Short lessons"
+  ],
+  "cons": [
+   "Not enough alone for fluency",
+   "Ads or limits on free plan"
+  ],
+  "alternatives": [
+   "khan-academy-khanmigo",
+   "chatgpt"
+  ],
+  "tags": [
+   "languages",
+   "learning"
+  ],
+  "status": "draft",
+  "last_checked": null
+ },
+ {
+  "slug": "wolfram-alpha",
+  "name": "Wolfram Alpha",
+  "category": "study",
+  "website_url": "https://www.wolframalpha.com",
+  "pricing": "Freemium",
+  "tagline": "Computational knowledge engine for maths and science.",
+  "best_for": "Step-by-step maths and data answers",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "Wolfram Alpha is a computational knowledge engine. Instead of searching the web, it calculates answers: solve equations, plot functions, convert units, show chemistry data and more.\n\nIt is excellent for checking maths homework steps and for reliable factual data, because results come from curated data and computation. Step-by-step solutions are often part of the paid tier. Its input style can need practice, but it is very accurate on supported topics.",
+  "use_steps": [
+   "Type an equation or question.",
+   "Read the result and the extra information.",
+   "Use step-by-step options to learn the method."
+  ],
+  "pros": [
+   "Accurate calculations",
+   "Wide subject coverage",
+   "Good for checking work"
+  ],
+  "cons": [
+   "Step-by-step is limited on free use",
+   "Understanding of natural language is limited"
+  ],
+  "alternatives": [
+   "chatgpt",
+   "khan-academy-khanmigo"
+  ],
+  "tags": [
+   "maths",
+   "science",
+   "calculator"
+  ],
+  "status": "draft",
+  "last_checked": null
+ },
+ {
+  "slug": "elicit",
+  "name": "Elicit",
+  "category": "research",
+  "website_url": "https://elicit.com",
+  "pricing": "Freemium",
+  "tagline": "AI research assistant for academic papers.",
+  "best_for": "Literature search and summaries",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Elicit helps with literature review. You ask a research question and it finds relevant academic papers, extracts key details such as methods and findings into a table and summarises them.\n\nIt can save hours at the start of a project, but you must still read the papers and check that summaries are accurate. Free and paid features change, so check the official page.",
+  "use_steps": [
+   "Enter your research question.",
+   "Review the table of papers.",
+   "Open and read the important papers yourself."
+  ],
+  "pros": [
+   "Speeds up literature search",
+   "Structured comparison tables",
+   "Academic focus"
+  ],
+  "cons": [
+   "Summaries can miss nuance",
+   "Limited free usage"
+  ],
+  "alternatives": [
+   "consensus",
+   "scholarcy",
+   "zotero"
+  ],
+  "tags": [
+   "research",
+   "papers"
+  ],
+  "status": "draft",
+  "last_checked": null
+ },
+ {
+  "slug": "consensus",
+  "name": "Consensus",
+  "category": "research",
+  "website_url": "https://consensus.app",
+  "pricing": "Freemium",
+  "tagline": "Search engine for scientific papers.",
+  "best_for": "Finding evidence in studies",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Consensus is a search engine for scientific research. You ask a question such as whether a habit affects health, and it shows findings from peer-reviewed papers along with links.\n\nIt is a good way to find evidence quickly, but a single summary line cannot capture a study's limits. Open the papers and check study size and quality. Features and plans change; see the official site.",
+  "use_steps": [
+   "Type a yes/no or research question.",
+   "Browse the listed studies.",
+   "Open the full papers for details."
+  ],
+  "pros": [
+   "Evidence-focused",
+   "Links to papers",
+   "Simple interface"
+  ],
+  "cons": [
+   "Summaries are brief",
+   "Some features are paid"
+  ],
+  "alternatives": [
+   "elicit",
+   "scholarcy",
+   "perplexity"
+  ],
+  "tags": [
+   "research",
+   "science"
+  ],
+  "status": "draft",
+  "last_checked": null
+ },
+ {
+  "slug": "scholarcy",
+  "name": "Scholarcy",
+  "category": "research",
+  "website_url": "https://www.scholarcy.com",
+  "pricing": "Freemium",
+  "tagline": "Summarises research articles into flashcards.",
+  "best_for": "Reading papers faster",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Scholarcy turns long research papers and articles into short summary cards with key points, figures, references and limitations. It also creates flashcards.\n\nIt can speed up skimming a stack of readings, but it does not replace reading. Use it to decide what is worth a careful read. Pricing and limits change, so check the official site.",
+  "use_steps": [
+   "Upload a paper or paste a link.",
+   "Read the summary card.",
+   "Read the original for details you will cite."
+  ],
+  "pros": [
+   "Fast skimming",
+   "Extracts references",
+   "Flashcard export"
+  ],
+  "cons": [
+   "Not a substitute for reading",
+   "Limits on free use"
+  ],
+  "alternatives": [
+   "elicit",
+   "consensus",
+   "zotero"
+  ],
+  "tags": [
+   "research",
+   "summary"
+  ],
+  "status": "draft",
+  "last_checked": null
+ },
+ {
+  "slug": "zotero",
+  "name": "Zotero",
+  "category": "research",
+  "website_url": "https://www.zotero.org",
+  "pricing": "Open source",
+  "tagline": "Free reference manager.",
+  "best_for": "Collecting and citing sources",
+  "platforms": [
+   "Desktop",
+   "Browser extension"
+  ],
+  "description": "Zotero is a free, open-source reference manager. A browser button saves papers and web pages with their details, stores PDFs, and helps you create citations and bibliographies in Word and Google Docs.\n\nIt is trusted by students and researchers, supports many citation styles and works across devices. A limited amount of cloud storage is free; more is paid. Download from the official site.",
+  "use_steps": [
+   "Install Zotero and the browser connector.",
+   "Save sources as you read.",
+   "Insert citations in your word processor."
+  ],
+  "pros": [
+   "Free and open source",
+   "Many citation styles",
+   "Browser saving"
+  ],
+  "cons": [
+   "Free storage is limited",
+   "Takes a short time to learn"
+  ],
+  "alternatives": [
+   "elicit",
+   "scholarcy"
+  ],
+  "tags": [
+   "citations",
+   "research",
+   "open source"
+  ],
+  "status": "draft",
+  "last_checked": null
+ },
+ {
+  "slug": "semrush",
+  "name": "Semrush",
+  "category": "marketing",
+  "website_url": "https://www.semrush.com",
+  "pricing": "Paid",
+  "tagline": "SEO and marketing research suite.",
+  "best_for": "Keyword and competitor research",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Semrush is an online marketing suite best known for SEO. It helps you find keywords, check which sites rank for a topic, audit a website for technical issues and study competitors.\n\nIt is powerful but expensive for hobbyists, and its data is estimated, not exact. A limited free account exists in some regions, and plans change, so check the official page. Use it to guide decisions, then confirm with your own Search Console data.",
+  "use_steps": [
+   "Create an account and enter your domain or topic.",
+   "Explore keyword and competitor reports.",
+   "Compare with Search Console data."
+  ],
+  "pros": [
+   "Very broad toolset",
+   "Competitor insight",
+   "Site audit"
+  ],
+  "cons": [
+   "Costly",
+   "Data is estimated"
+  ],
+  "alternatives": [
+   "ubersuggest",
+   "google-search-console"
+  ],
+  "tags": [
+   "seo",
+   "keywords"
+  ],
+  "status": "draft",
+  "last_checked": null
+ },
+ {
+  "slug": "ubersuggest",
+  "name": "Ubersuggest",
+  "category": "marketing",
+  "website_url": "https://neilpatel.com/ubersuggest",
+  "pricing": "Freemium",
+  "tagline": "Keyword ideas and basic SEO audits.",
+  "best_for": "Small sites starting with SEO",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Ubersuggest, from Neil Patel, offers keyword ideas, a site audit and basic backlink information. It is more affordable than big SEO suites and has a limited free option, which suits small sites and beginners.\n\nTreat its volume and difficulty numbers as rough estimates. Pricing and limits change; check the official site.",
+  "use_steps": [
+   "Enter a keyword or your domain.",
+   "Review keyword ideas and the audit.",
+   "Prioritise topics you can actually write well."
+  ],
+  "pros": [
+   "Beginner friendly",
+   "More affordable",
+   "Simple reports"
+  ],
+  "cons": [
+   "Less data depth",
+   "Free use is limited"
+  ],
+  "alternatives": [
+   "semrush",
+   "google-search-console"
+  ],
+  "tags": [
+   "seo",
+   "keywords"
+  ],
+  "status": "draft",
+  "last_checked": null
+ },
+ {
+  "slug": "google-search-console",
+  "name": "Google Search Console",
+  "category": "marketing",
+  "website_url": "https://search.google.com/search-console",
+  "pricing": "Free",
+  "tagline": "Free tool to monitor your site in Google Search.",
+  "best_for": "Every website owner",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Google Search Console is a free tool that shows how your website appears in Google Search. It reports which queries bring visitors, which pages are indexed, mobile and speed issues, and any security or manual action problems.\n\nEvery site owner should set it up. You verify ownership, submit your sitemap and then check the performance and indexing reports regularly. It gives real data from Google, which no third-party estimate can match.",
+  "use_steps": [
+   "Add your site and verify ownership.",
+   "Submit your sitemap.",
+   "Check Performance and Pages reports weekly."
+  ],
+  "pros": [
+   "Free and official",
+   "Real search data",
+   "Finds indexing problems"
+  ],
+  "cons": [
+   "Data is delayed",
+   "Not a keyword research tool"
+  ],
+  "alternatives": [
+   "semrush",
+   "ubersuggest"
+  ],
+  "tags": [
+   "seo",
+   "analytics",
+   "google"
+  ],
+  "status": "draft",
+  "last_checked": null
+ },
+ {
+  "slug": "jasper",
+  "name": "Jasper",
+  "category": "marketing",
+  "website_url": "https://www.jasper.ai",
+  "pricing": "Free trial",
+  "tagline": "AI writing platform for marketing teams.",
+  "best_for": "Brand-consistent marketing copy",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Jasper is an AI writing platform aimed at marketing teams. It offers templates for ads, blog posts and emails and lets you save brand voice and style guidance so that content stays consistent across a team.\n\nIt is built for business use and is mostly paid, with trials that have changed over time. Generated copy should always be fact-checked and edited by a person, especially claims about products. Compare with general assistants before paying.",
+  "use_steps": [
+   "Set up your brand voice.",
+   "Choose a template and brief.",
+   "Edit and fact-check before publishing."
+  ],
+  "pros": [
+   "Brand voice features",
+   "Marketing templates",
+   "Team workflows"
+  ],
+  "cons": [
+   "Paid and relatively costly",
+   "Generic output without editing"
+  ],
+  "alternatives": [
+   "chatgpt",
+   "claude",
+   "grammarly"
+  ],
+  "tags": [
+   "marketing",
+   "writing"
+  ],
+  "status": "draft",
+  "last_checked": null
+ },
+ {
+  "slug": "resume-worded",
+  "name": "Resume Worded",
+  "category": "career",
+  "website_url": "https://resumeworded.com",
+  "pricing": "Freemium",
+  "tagline": "Resume and LinkedIn review tool.",
+  "best_for": "Quick resume feedback",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Resume Worded reviews your resume and LinkedIn profile and gives a score with suggestions about wording, impact and formatting. It highlights weak phrases and missing results.\n\nThe free check gives a taste; deeper feedback is paid. Treat scores as hints, not truth, and keep your content honest. Pair it with feedback from a real person who knows your field. Pricing changes, so check the official site.",
+  "use_steps": [
+   "Upload your resume.",
+   "Read the score and suggestions.",
+   "Rewrite weak bullets with real numbers."
+  ],
+  "pros": [
+   "Specific, actionable tips",
+   "Covers LinkedIn too",
+   "Quick feedback"
+  ],
+  "cons": [
+   "Deeper feedback paid",
+   "Score is not a guarantee"
+  ],
+  "alternatives": [
+   "jobscan",
+   "chatgpt"
+  ],
+  "tags": [
+   "resume",
+   "career"
+  ],
+  "status": "draft",
+  "last_checked": null
+ },
+ {
+  "slug": "jobscan",
+  "name": "Jobscan",
+  "category": "career",
+  "website_url": "https://www.jobscan.co",
+  "pricing": "Freemium",
+  "tagline": "Compares your resume with a job description.",
+  "best_for": "ATS keyword matching",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Jobscan compares your resume with a job description and shows which keywords and skills match or are missing. It also checks formatting issues that can confuse applicant tracking systems.\n\nThis helps you tailor each application, as long as you add only skills you truly have. A few scans are typically free and more need a subscription; check the official page. It is a guide, not a guarantee of an interview.",
+  "use_steps": [
+   "Paste your resume and the job description.",
+   "Review missing keywords.",
+   "Add them only where they are true."
+  ],
+  "pros": [
+   "Keyword comparison",
+   "ATS formatting tips",
+   "Easy to use"
+  ],
+  "cons": [
+   "Limited free scans",
+   "Can encourage keyword stuffing"
+  ],
+  "alternatives": [
+   "resume-worded",
+   "chatgpt"
+  ],
+  "tags": [
+   "resume",
+   "ats",
+   "career"
+  ],
+  "status": "draft",
+  "last_checked": null
+ },
+ {
+  "slug": "interview-warmup-google",
+  "name": "Interview Warmup (Google)",
+  "category": "career",
+  "website_url": "https://grow.google/certificates/interview-warmup",
+  "pricing": "Free",
+  "tagline": "Practise interview questions with Google.",
+  "best_for": "Interview practice",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Interview Warmup is a free practice tool from Google. You choose a field, see common interview questions, answer them out loud and get a transcript with insights, for example about the topics you mentioned and how long you spoke.\n\nIt is useful for building comfort speaking about yourself. It is practice, not a prediction of how a real interviewer will judge you. Combine it with your own notes and a friend's feedback.",
+  "use_steps": [
+   "Open the tool and pick a role area.",
+   "Answer questions by voice.",
+   "Review the transcript and improve."
+  ],
+  "pros": [
+   "Free",
+   "Low pressure practice",
+   "Instant transcript"
+  ],
+  "cons": [
+   "Limited role coverage",
+   "Generic feedback"
+  ],
+  "alternatives": [
+   "chatgpt",
+   "jobscan"
+  ],
+  "tags": [
+   "interview",
+   "career"
+  ],
+  "status": "draft",
+  "last_checked": null
+ }
+]

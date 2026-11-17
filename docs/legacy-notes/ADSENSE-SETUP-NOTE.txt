@@ -1,0 +1,5 @@
+Promptzyra AdSense setup
+
+Do not publish a made-up ads.txt entry. After your AdSense account is approved and Google provides your publisher ID, create public/ads.txt with the exact seller line shown in your AdSense account (usually beginning with google.com, pub-...). Then deploy and verify https://promptzyra.com/ads.txt.
+
+The Privacy Policy and Advertising Disclosure pages are templates and must accurately reflect the services, consent banner, and advertising actually enabled on the live site. Having policy pages or this note does not guarantee AdSense approval.

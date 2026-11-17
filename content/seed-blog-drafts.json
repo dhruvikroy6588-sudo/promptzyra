@@ -1,0 +1,67 @@
+[
+ {
+  "slug": "how-to-use-ai-for-studying-without-cheating",
+  "title": "How to Use AI for Studying Without Cheating",
+  "category": "AI for Students",
+  "excerpt": "A practical guide for students on using AI to learn faster while following academic integrity rules.",
+  "content": "## Start with your school's rules\nPolicies differ. Read your course or school guidance first, and when in doubt ask your teacher. Using AI to explain ideas is very different from submitting AI text as your own work.\n\n## Ways AI helps learning\n- **Explain it simply.** Ask for an explanation and an example, then restate it in your own words.\n- **Quiz yourself.** Ask the assistant to ask you questions one at a time and correct you.\n- **Plan revision.** Give subjects and dates and ask for a schedule, then adjust it to your life.\n- **Get feedback, not answers.** Ask what is unclear in your draft instead of asking for a rewrite.\n\n## Habits that keep you safe\n- Verify facts with your textbook or a trusted source.\n- Keep a short note of how you used AI.\n- Never paste personal data.\n\nTry the [study planner](/study-planner) and the [student prompts](/prompts/category/students).",
+  "kind": "blog",
+  "published": false,
+  "author": "Promptzyra Editorial Team",
+  "read_time": "5 min read",
+  "tags": [],
+  "keywords": ""
+ },
+ {
+  "slug": "how-to-write-a-resume-bullet-that-shows-results",
+  "title": "How to Write a Resume Bullet That Shows Results",
+  "category": "Careers & Resume",
+  "excerpt": "Turn job duties into achievements with a simple formula and examples.",
+  "content": "## The formula\nAction verb + what you did + measurable result.\n\n## Before and after\n- Before: Responsible for customer emails.\n- After: Answered 60+ customer emails daily and reduced average reply time from 8 hours to 3.\n\n## No numbers?\nUse scope (how many people, projects, or how often), time saved, or quality feedback. Never invent figures.\n\n## Next step\nBuild your resume in the free [resume builder](/resume-builder) and check it with the [ATS checker](/ats-resume-checker).",
+  "kind": "blog",
+  "published": false,
+  "author": "Promptzyra Editorial Team",
+  "read_time": "5 min read",
+  "tags": [],
+  "keywords": ""
+ },
+ {
+  "slug": "prompt-basics-the-five-parts-of-a-good-prompt",
+  "title": "Prompt Basics: The Five Parts of a Good Prompt",
+  "category": "Prompt Engineering",
+  "excerpt": "Role, task, context, format and rules — a simple structure for clearer AI answers.",
+  "content": "## 1. Role\nTell the AI who to act as, for example a patient tutor.\n\n## 2. Task\nSay exactly what you want done.\n\n## 3. Context\nGive background the AI cannot guess: your level, audience, constraints.\n\n## 4. Format\nAsk for a table, list, word limit or steps.\n\n## 5. Rules\nList what to avoid and ask it to flag uncertainty.\n\nUse the [prompt builder](/prompt-builder) to practise.",
+  "kind": "blog",
+  "published": false,
+  "author": "Promptzyra Editorial Team",
+  "read_time": "5 min read",
+  "tags": [],
+  "keywords": ""
+ },
+ {
+  "slug": "ats-resumes-what-applicant-tracking-systems-actually-read",
+  "title": "ATS Resumes: What Applicant Tracking Systems Actually Read",
+  "category": "Careers & Resume",
+  "excerpt": "Understand how resume software parses your document and how to avoid common mistakes.",
+  "content": "## What an ATS does\nIt stores applications and tries to read your resume into fields. Simple, text-based layouts are the safest.\n\n## Practical tips\n- Use standard headings (Experience, Education, Skills).\n- Avoid text inside images and unusual symbols.\n- Match keywords from the job post when they truthfully apply.\n\nSee our [ATS-friendly templates](/resume-templates/ats-friendly).",
+  "kind": "blog",
+  "published": false,
+  "author": "Promptzyra Editorial Team",
+  "read_time": "5 min read",
+  "tags": [],
+  "keywords": ""
+ },
+ {
+  "slug": "how-to-choose-an-ai-tool-five-questions-to-ask-first",
+  "title": "How to Choose an AI Tool: Five Questions to Ask First",
+  "category": "AI Tools Guides",
+  "excerpt": "A checklist for picking an AI tool that fits your task and budget.",
+  "content": "## 1. What exactly do I need to do?\nStart with the task, not the tool.\n\n## 2. What does it cost over time?\nCheck the official pricing page; plans change.\n\n## 3. What happens to my data?\nRead the privacy section before uploading anything sensitive.\n\n## 4. Can I check the output?\nPrefer tools that show sources or let you review changes.\n\n## 5. Is there an alternative?\nBrowse the [AI tools directory](/ai-tools) and compare.",
+  "kind": "blog",
+  "published": false,
+  "author": "Promptzyra Editorial Team",
+  "read_time": "5 min read",
+  "tags": [],
+  "keywords": ""
+ }
+]

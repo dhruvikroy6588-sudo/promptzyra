@@ -1,0 +1,1176 @@
+[
+ {
+  "slug": "create-a-45-minute-lesson-plan-with-a-clear-objective",
+  "title": "Create a 45-minute lesson plan with a clear objective",
+  "category": "education",
+  "level": "Beginner",
+  "audience": "Teacher",
+  "summary": "Build a timed lesson plan with objective, activities, checks for understanding and homework.",
+  "prompt": "Act as an experienced {{subject}} teacher. Create a 45-minute lesson plan for {{grade level}} students on \"{{topic}}\".\nInclude: 1) one measurable learning objective, 2) a 5-minute starter, 3) the main teaching segment with timings, 4) one student activity in pairs, 5) two questions to check understanding, 6) a 5-minute exit ticket, 7) optional homework.\nKeep language suitable for {{grade level}}. Flag any common misconception students have about this topic.",
+  "when_to_use": "You need a ready structure for tomorrow’s class and want it timed.",
+  "how_to_use": "Replace the four placeholders with your subject, grade, and topic.\nPaste the prompt into your AI assistant.\nCheck the timings add up to 45 minutes and adapt activities to your room.",
+  "tips": [
+   "Add the exam board or curriculum standard for closer alignment.",
+   "Ask for a differentiated version for struggling and advanced learners."
+  ],
+  "tags": [
+   "lesson plan",
+   "teaching"
+  ],
+  "models": [
+   "chatgpt",
+   "claude",
+   "gemini"
+  ],
+  "status": "draft"
+ },
+ {
+  "slug": "generate-a-multiple-choice-quiz-with-explanations",
+  "title": "Generate a multiple-choice quiz with explanations",
+  "category": "education",
+  "level": "Beginner",
+  "audience": "Teacher",
+  "summary": "Create a quiz with plausible wrong answers and a one-line explanation for each correct answer.",
+  "prompt": "Write {{number}} multiple-choice questions on \"{{topic}}\" for {{level}} learners. Each question needs four options, only one correct. Make wrong options plausible (based on common mistakes). After the quiz, give an answer key with a one-sentence explanation per question. Mix recall and application questions.",
+  "when_to_use": "You want a quick formative check or revision quiz.",
+  "how_to_use": "Fill in number, topic and level.\nGenerate and read every question for accuracy.\nRemove or fix any question you disagree with before using it.",
+  "tips": [
+   "Ask for the quiz in a table you can paste into a form.",
+   "Always verify answers; AI can be confidently wrong."
+  ],
+  "tags": [
+   "quiz",
+   "assessment"
+  ],
+  "models": [
+   "chatgpt",
+   "claude",
+   "gemini"
+  ],
+  "status": "draft"
+ },
+ {
+  "slug": "explain-a-hard-concept-three-ways",
+  "title": "Explain a hard concept three ways",
+  "category": "education",
+  "level": "Beginner",
+  "audience": "Teacher",
+  "summary": "Get a simple explanation, an analogy and a worked example for a tricky topic.",
+  "prompt": "Explain \"{{concept}}\" to {{audience}} in three ways: (1) a plain-language explanation in under 100 words, (2) an everyday analogy, (3) a short worked example with steps. Then list two misunderstandings learners often have and how to correct them.",
+  "when_to_use": "A topic keeps confusing students and one explanation is not enough.",
+  "how_to_use": "Name the concept and the audience.\nUse the three explanations in different moments of the lesson.\nAsk students which one made sense and why.",
+  "tips": [
+   "Specify what the learners already know to avoid mismatched difficulty."
+  ],
+  "tags": [
+   "explanation",
+   "analogy"
+  ],
+  "models": [
+   "chatgpt",
+   "claude",
+   "gemini"
+  ],
+  "status": "draft"
+ },
+ {
+  "slug": "design-a-rubric-for-a-written-assignment",
+  "title": "Design a rubric for a written assignment",
+  "category": "education",
+  "level": "Intermediate",
+  "audience": "Teacher",
+  "summary": "Produce a four-level rubric with clear descriptors you can share with students.",
+  "prompt": "Create a grading rubric for a {{assignment type}} for {{grade level}}. Use four performance levels (Excellent, Good, Developing, Beginning) and these criteria: {{criteria, e.g. argument, evidence, structure, language}}. Write observable descriptors for each cell, in student-friendly language. Add total marks of {{total}}.",
+  "when_to_use": "You need transparent marking criteria before handing out a task.",
+  "how_to_use": "List your own criteria.\nGenerate the rubric as a table.\nShare it with students before they start.",
+  "tips": [
+   "Ask for a “what to do next” sentence for each level."
+  ],
+  "tags": [
+   "rubric",
+   "grading"
+  ],
+  "models": [
+   "chatgpt",
+   "claude",
+   "gemini"
+  ],
+  "status": "draft"
+ },
+ {
+  "slug": "write-differentiated-tasks-for-mixed-ability-classes",
+  "title": "Write differentiated tasks for mixed-ability classes",
+  "category": "education",
+  "level": "Intermediate",
+  "audience": "Teacher",
+  "summary": "Turn one learning goal into three task levels so every learner can progress.",
+  "prompt": "My learning goal is: \"{{goal}}\" for a mixed-ability {{grade level}} class. Write three versions of one task: supported, core and extension. Keep the same topic, change the scaffolding. Add one sentence on how to assess all three fairly.",
+  "when_to_use": "Students are at different levels and you want one coherent lesson.",
+  "how_to_use": "State one clear goal.\nGenerate three versions.\nCheck that the supported version still requires thinking.",
+  "tips": [
+   "Mention specific needs (for example reading support) to get more relevant scaffolds."
+  ],
+  "tags": [
+   "differentiation",
+   "inclusion"
+  ],
+  "models": [
+   "chatgpt",
+   "claude",
+   "gemini"
+  ],
+  "status": "draft"
+ },
+ {
+  "slug": "build-a-day-by-day-exam-study-plan",
+  "title": "Build a day-by-day exam study plan",
+  "category": "students",
+  "level": "Beginner",
+  "audience": "Student",
+  "summary": "Turn your subjects and exam date into a realistic daily study schedule.",
+  "prompt": "I have exams in {{number}} days for these subjects: {{subjects}}. I can study {{hours}} hours per day and I find {{hardest subject}} hardest. Create a day-by-day plan with short sessions, one rest day per week, and the last two days for revision only. Use the pattern learn → practise → recall. Present it as a table.",
+  "when_to_use": "You feel overwhelmed and need a structure.",
+  "how_to_use": "Fill in days, subjects, hours and your weakest subject.\nCopy the table into your calendar.\nAdjust after the first three days based on what actually works.",
+  "tips": [
+   "Be honest about hours; a smaller realistic plan beats a perfect one you skip."
+  ],
+  "tags": [
+   "study plan",
+   "exams"
+  ],
+  "models": [
+   "chatgpt",
+   "claude",
+   "gemini"
+  ],
+  "status": "draft"
+ },
+ {
+  "slug": "turn-lecture-notes-into-flashcards",
+  "title": "Turn lecture notes into flashcards",
+  "category": "students",
+  "level": "Beginner",
+  "audience": "Student",
+  "summary": "Convert pasted notes into question-and-answer flashcards for active recall.",
+  "prompt": "Here are my notes:\n{{paste notes}}\nCreate {{number}} flashcards in the format \"Q: … / A: …\". Focus on key terms, cause-and-effect and definitions. Avoid trivial questions. Keep each answer under 25 words.",
+  "when_to_use": "You have notes but passive re-reading is not working.",
+  "how_to_use": "Paste your own notes.\nReview the cards and delete weak ones.\nImport them into your flashcard app or write them by hand.",
+  "tips": [
+   "Making cards by hand from the answers helps memory even more."
+  ],
+  "tags": [
+   "flashcards",
+   "active recall"
+  ],
+  "models": [
+   "chatgpt",
+   "claude",
+   "gemini"
+  ],
+  "status": "draft"
+ },
+ {
+  "slug": "explain-a-topic-like-i-am-a-beginner-then-test-me",
+  "title": "Explain a topic like I am a beginner, then test me",
+  "category": "students",
+  "level": "Beginner",
+  "audience": "Student",
+  "summary": "Get a simple explanation followed by questions that check whether you really understood.",
+  "prompt": "Teach me \"{{topic}}\" as if I am a beginner. First, explain it in simple words with one example. Then ask me three questions, one at a time, and wait for my answer before giving feedback. Correct me kindly and say what to review.",
+  "when_to_use": "You want a tutor-like back-and-forth instead of a wall of text.",
+  "how_to_use": "Replace the topic.\nAnswer each question in your own words.\nNote the gaps it points out and revise them.",
+  "tips": [
+   "Type your answers even when unsure; guessing helps learning."
+  ],
+  "tags": [
+   "tutor",
+   "self-test"
+  ],
+  "models": [
+   "chatgpt",
+   "claude",
+   "gemini"
+  ],
+  "status": "draft"
+ },
+ {
+  "slug": "summarise-a-chapter-into-a-one-page-revision-sheet",
+  "title": "Summarise a chapter into a one-page revision sheet",
+  "category": "students",
+  "level": "Beginner",
+  "audience": "Student",
+  "summary": "Compress long reading into headings, key points and a short list of formulas or dates.",
+  "prompt": "Summarise the following chapter into a one-page revision sheet with headings, bullet points, key terms in bold and a \"remember this\" box of the five most important ideas:\n{{paste text}}",
+  "when_to_use": "You need a quick review before a test.",
+  "how_to_use": "Paste a chapter section by section if it is long.\nCompare the summary with your textbook.\nAdd anything it missed.",
+  "tips": [
+   "Never rely only on the summary for facts; verify with the source."
+  ],
+  "tags": [
+   "summary",
+   "revision"
+  ],
+  "models": [
+   "chatgpt",
+   "claude",
+   "gemini"
+  ],
+  "status": "draft"
+ },
+ {
+  "slug": "check-my-essay-argument-without-rewriting-it",
+  "title": "Check my essay argument without rewriting it",
+  "category": "students",
+  "level": "Intermediate",
+  "audience": "Student",
+  "summary": "Get feedback on structure and evidence while keeping the writing your own.",
+  "prompt": "Read my essay below. Do not rewrite it. Instead, tell me: (1) my main claim in one sentence, (2) the two weakest paragraphs and why, (3) where I need stronger evidence, (4) three questions a skeptical reader would ask. Essay:\n{{paste essay}}",
+  "when_to_use": "You want feedback and need to follow academic integrity rules.",
+  "how_to_use": "Paste your own draft.\nRevise it yourself using the feedback.\nFollow your school’s AI policy on disclosure.",
+  "tips": [
+   "Ask for feedback against the marking criteria if you have them."
+  ],
+  "tags": [
+   "essay",
+   "feedback"
+  ],
+  "models": [
+   "chatgpt",
+   "claude",
+   "gemini"
+  ],
+  "status": "draft"
+ },
+ {
+  "slug": "rewrite-a-resume-bullet-with-measurable-impact",
+  "title": "Rewrite a resume bullet with measurable impact",
+  "category": "careers",
+  "level": "Beginner",
+  "audience": "Job seeker",
+  "summary": "Turn a duty into an achievement bullet with action verb, task and result.",
+  "prompt": "Rewrite this resume bullet to show impact: \"{{original bullet}}\". Give three versions using the pattern Action verb + what I did + result (number, percent, time saved, or scope). If a number is missing, put [add number] rather than inventing one.",
+  "when_to_use": "Your bullets list duties but not results.",
+  "how_to_use": "Paste one bullet at a time.\nReplace placeholders with your real numbers.\nKeep the version that sounds like you.",
+  "tips": [
+   "Never invent figures; recruiters may ask about them."
+  ],
+  "tags": [
+   "resume",
+   "bullets"
+  ],
+  "models": [
+   "chatgpt",
+   "claude",
+   "gemini"
+  ],
+  "status": "draft"
+ },
+ {
+  "slug": "tailor-your-resume-to-a-job-description",
+  "title": "Tailor your resume to a job description",
+  "category": "careers",
+  "level": "Intermediate",
+  "audience": "Job seeker",
+  "summary": "Find the keywords and skills a job post asks for and map them to your real experience.",
+  "prompt": "Here is a job description:\n{{job description}}\nHere is my resume text:\n{{resume}}\nList the top 10 skills or keywords the employer wants, mark which ones appear in my resume, and suggest truthful ways to reword my bullets to reflect them. Do not add experience I do not have.",
+  "when_to_use": "You are applying to a specific role and want a closer match.",
+  "how_to_use": "Paste both texts.\nEdit your resume only with true statements.\nCheck the result in the ATS resume checker tool.",
+  "tips": [
+   "Tailor each application; one generic resume is weaker."
+  ],
+  "tags": [
+   "tailoring",
+   "ATS"
+  ],
+  "models": [
+   "chatgpt",
+   "claude",
+   "gemini"
+  ],
+  "status": "draft"
+ },
+ {
+  "slug": "draft-a-concise-cover-letter",
+  "title": "Draft a concise cover letter",
+  "category": "careers",
+  "level": "Beginner",
+  "audience": "Job seeker",
+  "summary": "Get a three-paragraph letter that names the role, one achievement and why you want this company.",
+  "prompt": "Write a cover letter under 250 words for the role of {{job title}} at {{company}}. Paragraph 1: why I am applying. Paragraph 2: one achievement with a result: {{achievement}}. Paragraph 3: why this company: {{reason}}. Tone: professional and warm. Avoid clichés like \"team player\" and \"hard worker\".",
+  "when_to_use": "You need a strong first draft fast.",
+  "how_to_use": "Fill in the role, company and facts.\nRead it aloud and change anything that does not sound like you.\nSend only after checking names and details.",
+  "tips": [
+   "Ask for two tone options: formal and friendly."
+  ],
+  "tags": [
+   "cover letter"
+  ],
+  "models": [
+   "chatgpt",
+   "claude",
+   "gemini"
+  ],
+  "status": "draft"
+ },
+ {
+  "slug": "practice-a-mock-interview-with-feedback",
+  "title": "Practice a mock interview with feedback",
+  "category": "careers",
+  "level": "Intermediate",
+  "audience": "Job seeker",
+  "summary": "Run a realistic interview one question at a time and get feedback on each answer.",
+  "prompt": "Act as an interviewer for a {{job title}} role at a {{company type}}. Ask me one question at a time, starting with a warm-up and moving to behavioural and role-specific questions. After each answer, give feedback on clarity, evidence and structure (use the STAR method) and a stronger sample answer. Do five questions.",
+  "when_to_use": "You have an interview coming up and want to practise out loud.",
+  "how_to_use": "Answer each question in writing or voice.\nCompare with the sample but keep your own story.\nRepeat until you can answer without notes.",
+  "tips": [
+   "Ask it to be a tougher interviewer for a second round."
+  ],
+  "tags": [
+   "interview",
+   "STAR"
+  ],
+  "models": [
+   "chatgpt",
+   "claude",
+   "gemini"
+  ],
+  "status": "draft"
+ },
+ {
+  "slug": "write-a-short-linkedin-about-section",
+  "title": "Write a short LinkedIn About section",
+  "category": "careers",
+  "level": "Beginner",
+  "audience": "Job seeker",
+  "summary": "Create a first-person profile summary of 120 words that highlights strengths and goals.",
+  "prompt": "Write a LinkedIn \"About\" section of about 120 words in first person. Background: {{background}}. Strengths: {{strengths}}. What I am looking for: {{goal}}. Use plain language, no buzzwords, and end with an invitation to connect.",
+  "when_to_use": "Your profile is empty or reads like a list of job titles.",
+  "how_to_use": "Fill the brackets honestly.\nTrim anything you would not say aloud.\nUpdate it every few months.",
+  "tips": [
+   "Add one concrete achievement for credibility."
+  ],
+  "tags": [
+   "LinkedIn",
+   "profile"
+  ],
+  "models": [
+   "chatgpt",
+   "claude",
+   "gemini"
+  ],
+  "status": "draft"
+ },
+ {
+  "slug": "outline-an-article-before-writing",
+  "title": "Outline an article before writing",
+  "category": "writing",
+  "level": "Beginner",
+  "audience": "Writer",
+  "summary": "Create a clear outline with working headings, key points and the reader’s question.",
+  "prompt": "I am writing an article on \"{{topic}}\" for {{audience}}. Create an outline with: the main question the reader has, a working title, an introduction angle, 5–7 headings with 2 bullet points each, and a conclusion that tells readers what to do next. Suggest where an example or statistic would help.",
+  "when_to_use": "You stare at a blank page.",
+  "how_to_use": "Add your topic and audience.\nRearrange the headings to fit your voice.\nWrite each section yourself, using the outline as a guide.",
+  "tips": [
+   "Ask for three alternative angles before choosing one."
+  ],
+  "tags": [
+   "outline"
+  ],
+  "models": [
+   "chatgpt",
+   "claude",
+   "gemini"
+  ],
+  "status": "draft"
+ },
+ {
+  "slug": "edit-for-clarity-without-changing-my-voice",
+  "title": "Edit for clarity without changing my voice",
+  "category": "writing",
+  "level": "Beginner",
+  "audience": "Writer",
+  "summary": "Tighten sentences and remove filler while keeping your style.",
+  "prompt": "Edit the text below for clarity and concision. Keep my voice and meaning. Show the edited version, then list the five biggest changes you made and why. Do not add new facts.\n{{paste text}}",
+  "when_to_use": "Your draft is wordy or unclear.",
+  "how_to_use": "Paste a few paragraphs at a time.\nAccept changes that help; reject those that do not.\nRead the final version aloud.",
+  "tips": [
+   "Ask for a “changes only” list if you do not want a full rewrite."
+  ],
+  "tags": [
+   "editing",
+   "clarity"
+  ],
+  "models": [
+   "chatgpt",
+   "claude",
+   "gemini"
+  ],
+  "status": "draft"
+ },
+ {
+  "slug": "create-a-reader-friendly-email",
+  "title": "Create a reader-friendly email",
+  "category": "writing",
+  "level": "Beginner",
+  "audience": "Anyone",
+  "summary": "Write a short email with a clear ask and polite tone.",
+  "prompt": "Write a short email to {{recipient}} about {{purpose}}. The one thing I need from them is {{ask}} by {{date}}. Tone: {{tone}}. Keep it under 120 words with a clear subject line.",
+  "when_to_use": "You need to send a request or follow-up.",
+  "how_to_use": "Fill in who, what and when.\nCheck names, dates and tone.\nSend from your own account.",
+  "tips": [
+   "Offer two subject-line options."
+  ],
+  "tags": [
+   "email"
+  ],
+  "models": [
+   "chatgpt",
+   "claude",
+   "gemini"
+  ],
+  "status": "draft"
+ },
+ {
+  "slug": "turn-bullet-points-into-a-clear-paragraph",
+  "title": "Turn bullet points into a clear paragraph",
+  "category": "writing",
+  "level": "Beginner",
+  "audience": "Writer",
+  "summary": "Convert rough notes into well-linked prose.",
+  "prompt": "Turn these notes into a clear paragraph of about {{length}} words for {{audience}}. Keep the order, add smooth transitions, and do not add facts that are not in the notes:\n{{notes}}",
+  "when_to_use": "You have ideas but not sentences.",
+  "how_to_use": "Paste notes.\nCheck that no claim was added.\nEdit for your voice.",
+  "tips": [
+   "Ask for two versions: formal and conversational."
+  ],
+  "tags": [
+   "paragraph"
+  ],
+  "models": [
+   "chatgpt",
+   "claude",
+   "gemini"
+  ],
+  "status": "draft"
+ },
+ {
+  "slug": "proofread-and-explain-each-correction",
+  "title": "Proofread and explain each correction",
+  "category": "writing",
+  "level": "Beginner",
+  "audience": "Writer",
+  "summary": "Learn from your mistakes by seeing why each change was made.",
+  "prompt": "Proofread this text for grammar, spelling and punctuation. Output a corrected version, then a table with columns: original, corrected, reason. Use {{English variant}} spelling.\n{{text}}",
+  "when_to_use": "You want to improve, not just fix.",
+  "how_to_use": "Paste text.\nReview the table and learn the patterns.\nApply them next time.",
+  "tips": [
+   "Ask for a short list of your most frequent errors."
+  ],
+  "tags": [
+   "proofreading",
+   "grammar"
+  ],
+  "models": [
+   "chatgpt",
+   "claude",
+   "gemini"
+  ],
+  "status": "draft"
+ },
+ {
+  "slug": "plan-a-week-from-a-messy-to-do-list",
+  "title": "Plan a week from a messy to-do list",
+  "category": "productivity",
+  "level": "Beginner",
+  "audience": "Anyone",
+  "summary": "Sort tasks by importance and fit them into a realistic weekly plan.",
+  "prompt": "Here are my tasks and deadlines: {{task list}}. I have {{hours}} focused hours per day on {{days}}. Prioritise using urgent/important, group similar tasks, and propose a weekly schedule. Point out tasks I should delay, delegate or drop.",
+  "when_to_use": "Your list is long and you do not know where to start.",
+  "how_to_use": "List everything, even small tasks.\nReview the plan and move things to match your energy.\nCheck progress mid-week.",
+  "tips": [
+   "Include fixed commitments so the plan is realistic."
+  ],
+  "tags": [
+   "planning",
+   "prioritisation"
+  ],
+  "models": [
+   "chatgpt",
+   "claude",
+   "gemini"
+  ],
+  "status": "draft"
+ },
+ {
+  "slug": "summarise-meeting-notes-into-actions",
+  "title": "Summarise meeting notes into actions",
+  "category": "productivity",
+  "level": "Beginner",
+  "audience": "Professional",
+  "summary": "Extract decisions, owners and deadlines from messy notes.",
+  "prompt": "From these meeting notes, produce: (1) a three-sentence summary, (2) decisions made, (3) action items as a table with owner and due date, (4) open questions. Do not invent owners or dates; write \"unassigned\" if unclear.\n{{notes}}",
+  "when_to_use": "You have notes but no clear follow-up.",
+  "how_to_use": "Paste notes.\nFill in unassigned owners.\nShare the summary with attendees.",
+  "tips": [
+   "Remove confidential details before using public AI tools."
+  ],
+  "tags": [
+   "meetings"
+  ],
+  "models": [
+   "chatgpt",
+   "claude",
+   "gemini"
+  ],
+  "status": "draft"
+ },
+ {
+  "slug": "break-a-big-goal-into-weekly-milestones",
+  "title": "Break a big goal into weekly milestones",
+  "category": "productivity",
+  "level": "Intermediate",
+  "audience": "Anyone",
+  "summary": "Create a milestone plan with checkpoints and risks.",
+  "prompt": "My goal is \"{{goal}}\" by {{deadline}}. I can spend {{hours}} hours per week. Break it into weekly milestones with deliverables, a checkpoint at the halfway mark, the three biggest risks and how to reduce them.",
+  "when_to_use": "A goal feels too large to start.",
+  "how_to_use": "State a specific goal and deadline.\nAdd the plan to your calendar.\nReview weekly.",
+  "tips": [
+   "Ask for the smallest first step you can finish today."
+  ],
+  "tags": [
+   "goals",
+   "milestones"
+  ],
+  "models": [
+   "chatgpt",
+   "claude",
+   "gemini"
+  ],
+  "status": "draft"
+ },
+ {
+  "slug": "decide-between-two-options-with-a-pros-cons-matrix",
+  "title": "Decide between two options with a pros-cons matrix",
+  "category": "productivity",
+  "level": "Beginner",
+  "audience": "Anyone",
+  "summary": "Compare options against criteria that matter to you.",
+  "prompt": "Help me decide between {{option A}} and {{option B}}. My priorities are: {{priorities}}. Make a weighted decision table (weights 1–5), list risks of each, and ask me three clarifying questions before suggesting which fits better. The decision is mine.",
+  "when_to_use": "You are stuck between two reasonable choices.",
+  "how_to_use": "List your real priorities.\nAnswer the clarifying questions.\nUse the table as input, not as the final answer.",
+  "tips": [
+   "Add what you would regret not trying."
+  ],
+  "tags": [
+   "decisions"
+  ],
+  "models": [
+   "chatgpt",
+   "claude",
+   "gemini"
+  ],
+  "status": "draft"
+ },
+ {
+  "slug": "create-a-simple-daily-routine-template",
+  "title": "Create a simple daily routine template",
+  "category": "productivity",
+  "level": "Beginner",
+  "audience": "Anyone",
+  "summary": "Design a flexible routine around your fixed commitments.",
+  "prompt": "Design a daily routine for a {{role}} who wakes at {{time}}, has fixed commitments {{commitments}}, and wants to include {{habit}}. Provide a weekday and a weekend version with buffer time and one 'if I fall behind' rule.",
+  "when_to_use": "You want structure without rigidity.",
+  "how_to_use": "Fill in your constraints.\nTry it for one week.\nAdjust what is unrealistic.",
+  "tips": [
+   "Start with two habits, not ten."
+  ],
+  "tags": [
+   "routine",
+   "habits"
+  ],
+  "models": [
+   "chatgpt",
+   "claude",
+   "gemini"
+  ],
+  "status": "draft"
+ },
+ {
+  "slug": "explain-this-code-line-by-line",
+  "title": "Explain this code line by line",
+  "category": "coding",
+  "level": "Beginner",
+  "audience": "Student",
+  "summary": "Understand unfamiliar code in plain language.",
+  "prompt": "Explain this {{language}} code to a beginner. Go through it step by step, describe what each part does, what the output will be for the example input {{example}}, and any potential bugs.\n```\n{{code}}\n```",
+  "when_to_use": "You inherited or copied code you do not understand.",
+  "how_to_use": "Paste a small piece of code.\nRun it yourself to confirm the explanation.\nAsk follow-up questions on parts you still find unclear.",
+  "tips": [
+   "Never paste secrets or private keys into any AI tool."
+  ],
+  "tags": [
+   "code explanation"
+  ],
+  "models": [
+   "chatgpt",
+   "claude",
+   "gemini"
+  ],
+  "status": "draft"
+ },
+ {
+  "slug": "debug-an-error-message-systematically",
+  "title": "Debug an error message systematically",
+  "category": "coding",
+  "level": "Intermediate",
+  "audience": "Developer",
+  "summary": "Narrow down the cause instead of guessing.",
+  "prompt": "I get this error in {{language/framework}}: {{error message}}. Relevant code:\n```\n{{code}}\n```\nList the three most likely causes in order, how to test each one, and the smallest fix for the most likely cause. Ask me for missing information if needed.",
+  "when_to_use": "You are stuck on a bug.",
+  "how_to_use": "Include the exact error and minimal code.\nTest causes in the suggested order.\nUnderstand the fix before applying it.",
+  "tips": [
+   "Describe what you already tried."
+  ],
+  "tags": [
+   "debugging"
+  ],
+  "models": [
+   "chatgpt",
+   "claude",
+   "gemini"
+  ],
+  "status": "draft"
+ },
+ {
+  "slug": "write-unit-tests-for-a-function",
+  "title": "Write unit tests for a function",
+  "category": "coding",
+  "level": "Intermediate",
+  "audience": "Developer",
+  "summary": "Generate test cases including edge cases.",
+  "prompt": "Write unit tests using {{test framework}} for this {{language}} function. Include normal cases, edge cases (empty, null, large, invalid input) and one test that should fail if a common bug exists. Explain what each test checks.\n```\n{{function}}\n```",
+  "when_to_use": "You want better test coverage.",
+  "how_to_use": "Paste the function.\nRun the tests.\nReview that the tests actually assert the right behaviour.",
+  "tips": [
+   "Treat generated tests as a draft; review each assertion."
+  ],
+  "tags": [
+   "testing"
+  ],
+  "models": [
+   "chatgpt",
+   "claude",
+   "gemini"
+  ],
+  "status": "draft"
+ },
+ {
+  "slug": "create-a-4-week-learning-plan-for-a-programming-language",
+  "title": "Create a 4-week learning plan for a programming language",
+  "category": "coding",
+  "level": "Beginner",
+  "audience": "Student",
+  "summary": "Get a project-based path with weekly goals.",
+  "prompt": "Create a 4-week plan to learn {{language}} for someone who already knows {{prior knowledge}}. I can study {{hours}} hours per week. Each week: topics, a small project, and a self-check. End with a portfolio project idea.",
+  "when_to_use": "You want direction instead of random tutorials.",
+  "how_to_use": "Fill in your background.\nFollow the plan and build the projects.\nAdjust the pace after week 1.",
+  "tips": [
+   "Prefer building to watching videos."
+  ],
+  "tags": [
+   "learning",
+   "roadmap"
+  ],
+  "models": [
+   "chatgpt",
+   "claude",
+   "gemini"
+  ],
+  "status": "draft"
+ },
+ {
+  "slug": "review-my-code-for-readability",
+  "title": "Review my code for readability",
+  "category": "coding",
+  "level": "Intermediate",
+  "audience": "Developer",
+  "summary": "Get suggestions on naming, structure and simplification.",
+  "prompt": "Review this {{language}} code for readability and maintainability. Give a prioritised list of improvements with short before/after examples. Do not change behaviour.\n```\n{{code}}\n```",
+  "when_to_use": "You want a second pair of eyes.",
+  "how_to_use": "Paste a function or class.\nApply changes one at a time and run tests.\nKeep your team style guide as the final authority.",
+  "tips": [
+   "Ask for the top three changes only to avoid overload."
+  ],
+  "tags": [
+   "code review"
+  ],
+  "models": [
+   "chatgpt",
+   "claude",
+   "gemini"
+  ],
+  "status": "draft"
+ },
+ {
+  "slug": "write-a-one-page-business-plan-outline",
+  "title": "Write a one-page business plan outline",
+  "category": "business",
+  "level": "Beginner",
+  "audience": "Entrepreneur",
+  "summary": "Get a structured outline to think through your idea.",
+  "prompt": "Create a one-page business plan outline for {{business idea}} in {{location}}. Sections: problem, target customer, solution, how it makes money, main costs, marketing channels, three risks, first 30-day actions. Ask me five questions where my idea is vague.",
+  "when_to_use": "You are validating an idea.",
+  "how_to_use": "Describe your idea honestly.\nAnswer the questions.\nTest assumptions with real customers.",
+  "tips": [
+   "Numbers should come from your research, not the AI."
+  ],
+  "tags": [
+   "plan"
+  ],
+  "models": [
+   "chatgpt",
+   "claude",
+   "gemini"
+  ],
+  "status": "draft"
+ },
+ {
+  "slug": "draft-a-polite-customer-reply-to-a-complaint",
+  "title": "Draft a polite customer reply to a complaint",
+  "category": "business",
+  "level": "Beginner",
+  "audience": "Professional",
+  "summary": "Respond with empathy, facts and a clear next step.",
+  "prompt": "A customer wrote: \"{{complaint}}\". Draft a reply that acknowledges the problem, apologises where appropriate, explains what we will do ({{resolution}}) and when, and invites them to reply. Tone: calm and respectful. Under 150 words.",
+  "when_to_use": "You want a consistent, professional tone.",
+  "how_to_use": "Paste the complaint and your resolution.\nEdit for accuracy.\nSend with your name.",
+  "tips": [
+   "Remove personal data before using public AI tools."
+  ],
+  "tags": [
+   "customer service"
+  ],
+  "models": [
+   "chatgpt",
+   "claude",
+   "gemini"
+  ],
+  "status": "draft"
+ },
+ {
+  "slug": "create-product-description-variations",
+  "title": "Create product description variations",
+  "category": "business",
+  "level": "Beginner",
+  "audience": "Marketer",
+  "summary": "Write benefit-focused descriptions for different audiences.",
+  "prompt": "Write three versions of a product description for {{product}}: (1) 50 words for a product page, (2) 20 words for a social post, (3) 100 words for an email. Lead with benefits for {{audience}}, mention {{features}}, and avoid exaggerated claims.",
+  "when_to_use": "You need copy for multiple channels.",
+  "how_to_use": "List real features.\nCheck every claim is true.\nA/B test versions.",
+  "tips": [
+   "Ban words you never use in your brand voice."
+  ],
+  "tags": [
+   "copywriting"
+  ],
+  "models": [
+   "chatgpt",
+   "claude",
+   "gemini"
+  ],
+  "status": "draft"
+ },
+ {
+  "slug": "summarise-competitors-from-public-information",
+  "title": "Summarise competitors from public information",
+  "category": "business",
+  "level": "Intermediate",
+  "audience": "Entrepreneur",
+  "summary": "Compare competitors using only sources you provide.",
+  "prompt": "Using only the text I provide below, compare these competitors on target customer, pricing approach, strengths and gaps. If information is missing, say \"not stated\". Provide a table and three opportunities for us.\n{{pasted public information}}",
+  "when_to_use": "You researched competitors and need to organise it.",
+  "how_to_use": "Paste public information you collected.\nVerify the table.\nDecide your positioning yourself.",
+  "tips": [
+   "Do not ask the AI to guess prices."
+  ],
+  "tags": [
+   "competitor analysis"
+  ],
+  "models": [
+   "chatgpt",
+   "claude",
+   "gemini"
+  ],
+  "status": "draft"
+ },
+ {
+  "slug": "plan-a-simple-launch-email-sequence",
+  "title": "Plan a simple launch email sequence",
+  "category": "business",
+  "level": "Intermediate",
+  "audience": "Marketer",
+  "summary": "Outline a three-email sequence with goals and subject lines.",
+  "prompt": "Plan a 3-email launch sequence for {{product}} aimed at {{audience}}. For each email: goal, subject line options, key message, call to action, and send timing. Keep claims honest and include an unsubscribe reminder.",
+  "when_to_use": "You are launching something small.",
+  "how_to_use": "Fill details.\nWrite final emails yourself using the outline.\nTrack opens and clicks.",
+  "tips": [
+   "Follow email marketing laws in your region."
+  ],
+  "tags": [
+   "email marketing"
+  ],
+  "models": [
+   "chatgpt",
+   "claude",
+   "gemini"
+  ],
+  "status": "draft"
+ },
+ {
+  "slug": "plan-a-four-week-content-calendar",
+  "title": "Plan a four-week content calendar",
+  "category": "social-media",
+  "level": "Beginner",
+  "audience": "Creator",
+  "summary": "Get themes and post ideas for a month.",
+  "prompt": "Create a 4-week content calendar for a {{niche}} account on {{platform}} posting {{frequency}}. Give weekly themes, post ideas with format (video, carousel, text), a hook for each, and one engagement question per week.",
+  "when_to_use": "You post inconsistently.",
+  "how_to_use": "Fill niche, platform and frequency.\nChoose ideas you can really make.\nReview results after four weeks.",
+  "tips": [
+   "Batch-create content to save time."
+  ],
+  "tags": [
+   "calendar"
+  ],
+  "models": [
+   "chatgpt",
+   "claude",
+   "gemini"
+  ],
+  "status": "draft"
+ },
+ {
+  "slug": "write-hooks-for-a-short-video",
+  "title": "Write hooks for a short video",
+  "category": "social-media",
+  "level": "Beginner",
+  "audience": "Creator",
+  "summary": "Generate several opening lines that stop the scroll honestly.",
+  "prompt": "Write 10 opening hooks (under 12 words) for a short video about \"{{topic}}\" for {{audience}}. Mix styles: question, surprising fact, mistake, promise. Avoid clickbait that the video cannot deliver.",
+  "when_to_use": "You struggle with the first line.",
+  "how_to_use": "Pick two hooks.\nRecord both versions.\nKeep the one that retains viewers.",
+  "tips": [
+   "The video must deliver on the hook."
+  ],
+  "tags": [
+   "video",
+   "hooks"
+  ],
+  "models": [
+   "chatgpt",
+   "claude",
+   "gemini"
+  ],
+  "status": "draft"
+ },
+ {
+  "slug": "repurpose-a-blog-post-into-social-posts",
+  "title": "Repurpose a blog post into social posts",
+  "category": "social-media",
+  "level": "Intermediate",
+  "audience": "Creator",
+  "summary": "Create posts for several platforms from one article.",
+  "prompt": "Repurpose this article into: a LinkedIn post (150 words), five short posts, and a 30-second video script. Keep the main message and add a link placeholder.\n{{article text}}",
+  "when_to_use": "You want more reach from content you already made.",
+  "how_to_use": "Paste your own article.\nEdit each output for the platform.\nSchedule posts.",
+  "tips": [
+   "Credit and link the original."
+  ],
+  "tags": [
+   "repurposing"
+  ],
+  "models": [
+   "chatgpt",
+   "claude",
+   "gemini"
+  ],
+  "status": "draft"
+ },
+ {
+  "slug": "write-a-caption-with-three-tone-options",
+  "title": "Write a caption with three tone options",
+  "category": "social-media",
+  "level": "Beginner",
+  "audience": "Creator",
+  "summary": "See formal, friendly and playful versions side by side.",
+  "prompt": "Write three captions for a post about {{subject}}: professional, friendly and playful. Each under 40 words with 3 relevant hashtags and one call to action.",
+  "when_to_use": "You want options quickly.",
+  "how_to_use": "Add the subject.\nPick or mix.\nAvoid misleading claims.",
+  "tips": [
+   "Add your brand words as a style hint."
+  ],
+  "tags": [
+   "captions"
+  ],
+  "models": [
+   "chatgpt",
+   "claude",
+   "gemini"
+  ],
+  "status": "draft"
+ },
+ {
+  "slug": "create-a-posting-checklist-before-publishing",
+  "title": "Create a posting checklist before publishing",
+  "category": "social-media",
+  "level": "Beginner",
+  "audience": "Creator",
+  "summary": "Catch errors before you hit publish.",
+  "prompt": "Create a pre-publish checklist for a {{platform}} post about {{topic}}: accuracy, permission for images and music, accessibility (alt text, captions), links, hashtags and tone. Keep it to 10 items.",
+  "when_to_use": "You want fewer mistakes.",
+  "how_to_use": "Use the checklist every time.\nAdapt it to your account.\nKeep it somewhere visible.",
+  "tips": [
+   "Add legal items for your region."
+  ],
+  "tags": [
+   "checklist"
+  ],
+  "models": [
+   "chatgpt",
+   "claude",
+   "gemini"
+  ],
+  "status": "draft"
+ },
+ {
+  "slug": "photo-style-prompt-formula-for-a-product-shot",
+  "title": "Photo-style prompt formula for a product shot",
+  "category": "ai-images",
+  "level": "Beginner",
+  "audience": "Creator",
+  "summary": "Structure a prompt with subject, light, lens and background.",
+  "prompt": "A professional product photo of {{product}} on {{surface}}, {{lighting}} lighting, shallow depth of field, 50mm lens, clean {{background colour}} background, high detail, soft shadows, no text.",
+  "when_to_use": "You need a clean image concept for a mock-up.",
+  "how_to_use": "Fill the blanks.\nGenerate a few variations.\nCheck hands, text and logos in the result.",
+  "tips": [
+   "Change one variable at a time."
+  ],
+  "tags": [
+   "product photo"
+  ],
+  "models": [
+   "chatgpt",
+   "gemini",
+   "midjourney"
+  ],
+  "status": "draft"
+ },
+ {
+  "slug": "illustration-style-prompt-for-a-classroom-poster",
+  "title": "Illustration style prompt for a classroom poster",
+  "category": "ai-images",
+  "level": "Beginner",
+  "audience": "Teacher",
+  "summary": "Create a friendly illustration idea for a learning poster.",
+  "prompt": "A bright, friendly flat illustration for a classroom poster about {{topic}}, simple shapes, {{colour palette}}, space at the top for a title, suitable for {{age group}}.",
+  "when_to_use": "You want a visual for teaching material.",
+  "how_to_use": "Fill topic and age.\nAdd the text yourself in a design tool.\nCheck that the image is accurate.",
+  "tips": [
+   "AI often garbles text; add text separately."
+  ],
+  "tags": [
+   "poster",
+   "illustration"
+  ],
+  "models": [
+   "chatgpt",
+   "gemini",
+   "midjourney"
+  ],
+  "status": "draft"
+ },
+ {
+  "slug": "portrait-lighting-prompt-guide",
+  "title": "Portrait lighting prompt guide",
+  "category": "ai-images",
+  "level": "Intermediate",
+  "audience": "Creator",
+  "summary": "Describe light direction and mood clearly.",
+  "prompt": "A portrait of {{subject}} with {{light direction}} soft window light, {{mood}} mood, neutral background, natural skin texture, 85mm lens, shallow depth of field.",
+  "when_to_use": "You want consistent, natural-looking results.",
+  "how_to_use": "Choose light and mood.\nGenerate and compare.\nUse only images you have the right to use.",
+  "tips": [
+   "Avoid imitating a living artist’s style."
+  ],
+  "tags": [
+   "portrait"
+  ],
+  "models": [
+   "chatgpt",
+   "gemini",
+   "midjourney"
+  ],
+  "status": "draft"
+ },
+ {
+  "slug": "infographic-layout-prompt",
+  "title": "Infographic layout prompt",
+  "category": "ai-images",
+  "level": "Intermediate",
+  "audience": "Creator",
+  "summary": "Plan an infographic’s structure for a designer or AI tool.",
+  "prompt": "Describe a clean infographic layout about {{topic}}: title area, three sections with icon placeholders, a data callout and a footer. Use {{palette}} and plenty of white space. Provide the exact short text for each section.",
+  "when_to_use": "You need a structured layout idea.",
+  "how_to_use": "Provide the text.\nBuild the final in a design tool.\nCheck facts before publishing.",
+  "tips": [
+   "Keep text short for readability."
+  ],
+  "tags": [
+   "infographic"
+  ],
+  "models": [
+   "chatgpt",
+   "claude",
+   "gemini"
+  ],
+  "status": "draft"
+ },
+ {
+  "slug": "photo-edit-instruction-for-a-background-change",
+  "title": "Photo edit instruction for a background change",
+  "category": "ai-images",
+  "level": "Beginner",
+  "audience": "Anyone",
+  "summary": "Ask an image editor for a precise change while keeping the subject.",
+  "prompt": "Keep the person and their pose exactly the same. Replace the background with {{new background}}, match the lighting and shadows, keep natural edges around hair, no extra objects.",
+  "when_to_use": "You edit photos you own.",
+  "how_to_use": "Upload your own photo.\nRun the edit.\nZoom in to check edges.",
+  "tips": [
+   "Only edit photos you have permission to use."
+  ],
+  "tags": [
+   "photo edit"
+  ],
+  "models": [
+   "chatgpt",
+   "gemini"
+  ],
+  "status": "draft"
+ },
+ {
+  "slug": "plan-a-budget-trip-itinerary",
+  "title": "Plan a budget trip itinerary",
+  "category": "daily-life",
+  "level": "Beginner",
+  "audience": "Anyone",
+  "summary": "Create a day-by-day plan around your budget and interests.",
+  "prompt": "Plan a {{days}}-day trip to {{destination}} with a budget of {{budget}} per person. Interests: {{interests}}. Give a day-by-day outline, rough cost categories, transport tips and what to book early. Remind me to verify opening hours and prices.",
+  "when_to_use": "You want a first draft of a trip plan.",
+  "how_to_use": "Fill details.\nVerify every price and time on official sites.\nSave the plan offline.",
+  "tips": [
+   "Prices change; treat estimates as rough."
+  ],
+  "tags": [
+   "travel"
+  ],
+  "models": [
+   "chatgpt",
+   "claude",
+   "gemini"
+  ],
+  "status": "draft"
+ },
+ {
+  "slug": "create-a-simple-monthly-budget",
+  "title": "Create a simple monthly budget",
+  "category": "daily-life",
+  "level": "Beginner",
+  "audience": "Anyone",
+  "summary": "Organise income and spending categories.",
+  "prompt": "Help me create a simple monthly budget. Income: {{income}}. Fixed costs: {{fixed costs}}. Goals: {{goal}}. Suggest a category split, where I could save, and a weekly check-in routine. This is general information, not financial advice.",
+  "when_to_use": "You want clarity on spending.",
+  "how_to_use": "Use your real numbers.\nTrack for a month.\nAdjust categories.",
+  "tips": [
+   "Do not share account numbers."
+  ],
+  "tags": [
+   "budget"
+  ],
+  "models": [
+   "chatgpt",
+   "claude",
+   "gemini"
+  ],
+  "status": "draft"
+ },
+ {
+  "slug": "learn-a-new-skill-in-30-days",
+  "title": "Learn a new skill in 30 days",
+  "category": "daily-life",
+  "level": "Beginner",
+  "audience": "Anyone",
+  "summary": "Get a small daily practice plan.",
+  "prompt": "I want to learn {{skill}} in 30 days with {{minutes}} minutes a day. Create a plan with weekly themes, daily tasks, a mini-project each week, and how to measure progress.",
+  "when_to_use": "You want a manageable habit.",
+  "how_to_use": "Fill in the skill and time.\nDo day 1 today.\nReview on day 10.",
+  "tips": [
+   "Short daily practice beats long rare sessions."
+  ],
+  "tags": [
+   "learning",
+   "habit"
+  ],
+  "models": [
+   "chatgpt",
+   "claude",
+   "gemini"
+  ],
+  "status": "draft"
+ },
+ {
+  "slug": "meal-plan-with-a-shopping-list",
+  "title": "Meal plan with a shopping list",
+  "category": "daily-life",
+  "level": "Beginner",
+  "audience": "Anyone",
+  "summary": "Plan simple meals for a week with ingredients.",
+  "prompt": "Create a 5-day dinner plan for {{people}} people with a budget of {{budget}}, avoiding {{foods to avoid}}. Use overlapping ingredients to reduce waste and give a consolidated shopping list. Note: I will check nutrition and allergy information myself.",
+  "when_to_use": "You want less food waste.",
+  "how_to_use": "List allergies and preferences.\nCheck recipes.\nShop with the list.",
+  "tips": [
+   "For medical diets consult a professional."
+  ],
+  "tags": [
+   "meal plan"
+  ],
+  "models": [
+   "chatgpt",
+   "claude",
+   "gemini"
+  ],
+  "status": "draft"
+ },
+ {
+  "slug": "prepare-questions-for-a-doctor-or-service-appointment",
+  "title": "Prepare questions for a doctor or service appointment",
+  "category": "daily-life",
+  "level": "Beginner",
+  "audience": "Anyone",
+  "summary": "Organise your thoughts before an appointment.",
+  "prompt": "Help me prepare for an appointment about {{topic}}. Create a list of questions to ask, information to bring, and a short summary of my situation: {{situation}}. Do not give a diagnosis or treatment advice.",
+  "when_to_use": "You forget what to ask when you are there.",
+  "how_to_use": "Add your situation.\nPrint or save the list.\nTake notes during the appointment.",
+  "tips": [
+   "This is preparation only, not medical advice."
+  ],
+  "tags": [
+   "appointments"
+  ],
+  "models": [
+   "chatgpt",
+   "claude",
+   "gemini"
+  ],
+  "status": "draft"
+ }
+]
