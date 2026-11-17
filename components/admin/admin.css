@@ -1,4 +1,4 @@
-:root{--bg:#0e1017;--p:#151925;--p2:#1c2131;--ln:#272d41;--tx:#eceef6;--mu:#98a1b8;--ac:#8b7bff;--ok:#37e0b0;--wn:#ffb454;--er:#ff6b81}
+:root{--bg:#0e1017;--p:#151925;--p2:#1c2131;--ln:#272d41;--tx:#eceef6;--mu:#98a1b8;--ac:#3ddc97;--ok:#3ddc97;--wn:#ffb454;--er:#ff6b81}
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--tx);font:14px/1.5 'Inter Variable',system-ui,sans-serif}
 a{color:var(--ac)}h1,h2,h3{margin:0 0 .5em}h1{font-size:1.5rem}h2{font-size:1.15rem}
 .ad-shell{display:grid;grid-template-columns:220px 1fr;min-height:100vh}

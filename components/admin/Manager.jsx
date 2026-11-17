@@ -67,14 +67,14 @@ export default function Manager({ sb, table, kind, label, fields, simple, titleK
   };
   const publishNext = async () => {
     const n = Math.max(1, +sch.n || 5);
-    const pool = rows.filter((r) => r.status === 'reviewed').sort((a, b) => new Date(a.created_at) - new Date(b.created_at)).slice(0, n);
-    if (!pool.length) return notify('No "reviewed" items to publish. Mark items as Reviewed first.', true);
+    const pool = rows.filter((r) => r.status === 'draft' || r.status === 'reviewed').sort((a, b) => new Date(a.created_at) - new Date(b.created_at)).slice(0, n);
+    if (!pool.length) return notify('No draft items to publish.', true);
     await bulk({ status: 'published', publish_at: new Date().toISOString() }, pool.map((r) => r.id));
   };
   const schedule = async () => {
     const n = Math.max(1, +sch.n || 5);
-    const pool = rows.filter((r) => r.status === 'reviewed').sort((a, b) => new Date(a.created_at) - new Date(b.created_at));
-    if (!pool.length) return notify('No "reviewed" items to schedule.', true);
+    const pool = rows.filter((r) => r.status === 'draft' || r.status === 'reviewed').sort((a, b) => new Date(a.created_at) - new Date(b.created_at));
+    if (!pool.length) return notify('No draft items to schedule.', true);
     setBusy(true);
     for (let i = 0; i < pool.length; i++) {
       const d = new Date(`${sch.start}T09:00:00`); d.setDate(d.getDate() + Math.floor(i / n)); d.setMinutes(d.getMinutes() + (i % n) * 7);
@@ -94,15 +94,14 @@ export default function Manager({ sb, table, kind, label, fields, simple, titleK
         <select style={{ width: 'auto' }} value={st} onChange={(e) => setSt(e.target.value)}><option value="">All statuses</option>{STATUSES.map((s) => <option key={s}>{s}</option>)}</select>
         {!simple && <select style={{ width: 'auto' }} value={cat} onChange={(e) => setCat(e.target.value)}><option value="">All categories</option>{cats.map((c) => <option key={c.slug} value={c.slug}>{c.name}</option>)}</select>}</div>
       <div className="bar"><b>Selected: {sel.size}</b>
-        <button className="btn sm" disabled={busy} onClick={() => bulk({ status: 'reviewed' })}>Mark reviewed</button>
         <button className="btn sm" disabled={busy} onClick={() => bulk({ status: 'published', publish_at: new Date().toISOString() })}>Publish now</button>
         <button className="btn sm" disabled={busy} onClick={() => bulk({ status: 'draft', publish_at: null })}>Unpublish → draft</button>
         <button className="btn sm dng" disabled={busy} onClick={() => del([...sel])}>Delete</button></div>
       <div className="bar" style={{ borderTop: '1px solid var(--ln)', paddingTop: 10 }}><b>Daily publishing:</b>
         <input type="number" min="1" style={{ width: 70 }} value={sch.n} onChange={(e) => setSch({ ...sch, n: e.target.value })} /> per day
-        <button className="btn sm" disabled={busy} onClick={publishNext}>Publish next {sch.n} reviewed now</button>
-        <span style={{ color: 'var(--mu)' }}>or schedule all reviewed from</span><input type="date" style={{ width: 'auto' }} value={sch.start} onChange={(e) => setSch({ ...sch, start: e.target.value })} />
-        <button className="btn sm" disabled={busy} onClick={schedule}>Schedule all reviewed</button></div>
+        <button className="btn sm" disabled={busy} onClick={publishNext}>Publish next {sch.n} drafts now</button>
+        <span style={{ color: 'var(--mu)' }}>or schedule all drafts from</span><input type="date" style={{ width: 'auto' }} value={sch.start} onChange={(e) => setSch({ ...sch, start: e.target.value })} />
+        <button className="btn sm" disabled={busy} onClick={schedule}>Schedule all drafts</button></div>
     </div>
     <div className="ad-card" style={{ padding: 0, overflow: 'auto' }}>
       {loading ? <Loading what={`Loading ${label.toLowerCase()}`} /> : <table><thead><tr><th><input type="checkbox" aria-label="Select all" checked={shown.length > 0 && shown.every((r) => sel.has(r.id))} onChange={(e) => setSel(e.target.checked ? new Set(shown.map((r) => r.id)) : new Set())} /></th><th>{titleKey === 'name' ? 'Name' : 'Title'}</th><th>Category</th><th>Status</th><th>Go-live</th><th></th></tr></thead>
@@ -130,7 +129,7 @@ export default function Manager({ sb, table, kind, label, fields, simple, titleK
           {fd.t === 'bool' && <label style={{ display: 'flex', gap: 8, alignItems: 'center', color: 'var(--tx)' }}><input type="checkbox" checked={!!v} onChange={(e) => setF(fd.k, e.target.checked)} />{fd.l}</label>}
         </div>); })}
       </div>
-      <div className="ed-f"><button className="btn" disabled={busy} onClick={() => setEdit(null)}>Cancel</button><button className="btn" disabled={busy} onClick={() => save('draft')}>Save as draft</button><button className="btn" disabled={busy} onClick={() => save('reviewed')}>Save as reviewed</button><button className="btn pri" disabled={busy} onClick={() => save()}>{busy ? 'Saving…' : `Save (${edit.status})`}</button></div>
+      <div className="ed-f"><button className="btn" disabled={busy} onClick={() => setEdit(null)}>Cancel</button><button className="btn" disabled={busy} onClick={() => save('draft')}>Save as draft</button><button className="btn pri" disabled={busy} onClick={() => save('published')}>{busy ? 'Saving…' : 'Save & publish'}</button></div>
     </div></div>}
   </div>);
 }

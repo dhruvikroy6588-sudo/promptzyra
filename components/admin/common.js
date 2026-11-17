@@ -116,7 +116,7 @@ export const SKILL_FIELDS = [
   { k: 'og_image', l: 'OG image URL (optional, 1200x630)', t: 'image' },
   { k: 'featured', l: 'Featured (shown first)', t: 'bool' },
 ];
-export const COMP_CAT_OPTS = [['study-learning', 'Study & Learning'], ['teaching', 'Teaching'], ['assessment', 'Assessment'], ['writing-research', 'Writing & Research'], ['language', 'Language Learning'], ['coding-education', 'Coding Education'], ['productivity', 'Productivity'], ['admin-ops', 'Admin & Setup']].map(([slug, name]) => ({ slug, name }));
+export const COMP_CAT_OPTS = [['study-learning', 'Study & Learning'], ['teaching', 'Teaching'], ['assessment', 'Assessment'], ['writing-research', 'Writing & Research'], ['language', 'Language Learning'], ['coding-education', 'Coding Education'], ['productivity', 'Productivity'], ['admin-ops', 'Admin & Setup'], ['development', 'Development'], ['devops-cloud', 'DevOps & Cloud'], ['data-ai', 'Data & AI'], ['security', 'Security'], ['testing-quality', 'Testing & Quality'], ['design-frontend', 'Design & Frontend'], ['automation', 'Automation']].map(([slug, name]) => ({ slug, name }));
 export const COMPONENT_FIELDS = [
   { k: 'name', l: 'Name', t: 'text', req: 1 },
   { k: 'slug', l: 'URL slug (also the zip folder name)', t: 'slug' },

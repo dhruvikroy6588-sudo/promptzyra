@@ -96,3 +96,8 @@ Then /admin -> Import Drafts and import these files (everything arrives as DRAFT
 Before publishing anything: open the link, check the price/plan on the official site, and fix wording. Tools and courses were written without live web access (last_checked = "unverified"), pricing is "Unknown" unless certain. Publish a few per day from the admin tab (Mark reviewed -> Publish now/Schedule).
 The "stars" field is empty on purpose: enter only a number you checked on GitHub.
 Blog: in the editor press "Auto-fill SEO fields from content" (title, description, slug, tags, read time, image alt); empty fields are also filled automatically when you save.
+
+## Update 6: aitmpl-style components (MIT)
+Import `content/seed-aitmpl-agents.json`, `seed-aitmpl-commands.json`, `seed-aitmpl-mcps-hooks-settings-mods.json` with the "Agents/Commands/MCPs…" button. Source: github.com/davila7/claude-code-templates (MIT). Credit it on your About page: "Some components are from Claude Code Templates by Daniel Ávila, MIT License." These are copied components: add your own description/use cases and publish a few per day.
+Admin: no more "reviewed" step. Use "Save as draft" or "Save & publish".
+Design: new emerald/gold palette, flat bordered cards, mono labels, Playfair Display headings.
