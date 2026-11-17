@@ -29,7 +29,7 @@ export default function ImportPanel({ sb, notify }) {
     try {
       const t = text.trim(); let arr = t.startsWith('[') ? JSON.parse(t) : parseCsv(t);
       arr = arr.map(normalize).filter((r) => r[tk] && r.slug && r.category);
-      const { data, error: se } = await sb.from(table).select('slug').limit(5000); if (se) return notify('Could not check existing slugs: ' + se.message, true); const have = new Set((data || []).map((x) => x.slug));
+      const have = new Set(); for (let from = 0; ; from += 1000) { const { data, error: se } = await sb.from(table).select('slug').range(from, from + 999); if (se) return notify('Could not check existing slugs: ' + se.message, true); (data || []).forEach((x) => have.add(x.slug)); if ((data || []).length < 1000) break; }
       const seen = new Set(); const ok = [], dup = [];
       for (const r of arr) { if (have.has(r.slug) || seen.has(r.slug)) dup.push(r); else { seen.add(r.slug); ok.push(r); } }
       setPrev({ ok, dup });
@@ -37,8 +37,14 @@ export default function ImportPanel({ sb, notify }) {
   };
   const run = async () => {
     setBusy(true);
-    for (let i = 0; i < prev.ok.length; i += 40) { const { error } = await sb.from(table).insert(prev.ok.slice(i, i + 40)); if (error) { setBusy(false); return notify(`Stopped at row ${i + 1}: ${error.message}`, true); } }
-    setBusy(false); notify(`${prev.ok.length} drafts imported`); setPrev(null); setText('');
+    let done = 0, skipped = 0;
+    for (let i = 0; i < prev.ok.length; i += 40) {
+      const chunk = prev.ok.slice(i, i + 40);
+      const { error } = await sb.from(table).insert(chunk);
+      if (!error) { done += chunk.length; continue; }
+      for (const r of chunk) { const { error: e2 } = await sb.from(table).insert(r); if (!e2) done++; else if (e2.code === '23505') skipped++; else { setBusy(false); return notify(`Stopped at "${r.slug}": ${e2.message}`, true); } }
+    }
+    setBusy(false); notify(`${done} drafts imported${skipped ? `, ${skipped} skipped (already exist)` : ''}`); setPrev(null); setText('');
   };
   const template = () => { const f = (kind === 'prompt' ? PROMPT_FIELDS : kind === 'photo' ? PHOTO_FIELDS_FULL : kind === 'blog' ? [{k:'title'},{k:'slug'},{k:'category'},{k:'excerpt'},{k:'content'},{k:'tags'},{k:'author'},{k:'read_time'}] : kind === 'skill' ? SKILL_FIELDS : kind === 'course' ? [{k:'title'},{k:'slug'},{k:'category'},{k:'provider'},{k:'url'},{k:'cost'},{k:'format'},{k:'level'},{k:'language'},{k:'duration'},{k:'description'}] : kind === 'component' ? [{k:'type'},{k:'name'},{k:'slug'},{k:'category'},{k:'description'},{k:'author'},{k:'github_url'},{k:'install'},{k:'tags'}] : TOOL_FIELDS).filter((x) => !['bool'].includes(x.t)).map((x) => x.k); const b = new Blob([f.join(',') + '\n'], { type: 'text/csv' }); const a = document.createElement('a'); a.href = URL.createObjectURL(b); a.download = `${kind}-import-template.csv`; a.click(); };
   return (<div><h1>Import drafts</h1><p style={{ color: 'var(--mu)', maxWidth: 760 }}>Paste a JSON array or CSV. Every row is saved as a <b>draft</b> — nothing goes live until you review it. Existing slugs are skipped. In CSV, separate list values with <code>|</code>. Required columns: <code>{tk}</code> and <code>category</code> (category slug).</p>
