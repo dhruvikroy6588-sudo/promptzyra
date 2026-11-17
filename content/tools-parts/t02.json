@@ -1,0 +1,1493 @@
+[
+ {
+  "slug": "claude-code",
+  "name": "Claude Code",
+  "category": "coding",
+  "website_url": "https://www.anthropic.com/claude-code",
+  "pricing": "Unknown",
+  "tagline": "Anthropic's agentic coding tool that works from your terminal.",
+  "best_for": "Developers who want an agent that reads and edits a whole repository",
+  "platforms": [
+   "Terminal",
+   "macOS",
+   "Linux",
+   "Windows"
+  ],
+  "description": "Claude Code is a coding agent from Anthropic that you run from the command line inside a project folder. You describe a task in plain language and it can read files, propose edits, run commands such as tests, and explain what it changed.\n\nIt is aimed at multi-file work like refactors, bug hunts and onboarding to an unfamiliar codebase. Because it can run commands, it is worth reviewing each permission prompt and keeping work under version control so changes are easy to inspect or undo. Plans and features change, so check the official site for current details.",
+  "use_steps": [
+   "Install it following the official instructions.",
+   "Open a terminal in your project folder and start it.",
+   "Describe a small, specific task and review the plan.",
+   "Run your tests and review the diff before committing."
+  ],
+  "pros": [
+   "Works across many files in one task",
+   "Runs from the terminal in your own project",
+   "Explains changes in plain language",
+   "Open repository with public documentation"
+  ],
+  "cons": [
+   "Needs a Claude subscription or API access",
+   "Output must be reviewed like any generated code"
+  ],
+  "alternatives": [
+   "cursor",
+   "github-copilot",
+   "aider"
+  ],
+  "tags": [
+   "agent",
+   "terminal",
+   "anthropic",
+   "refactoring",
+   "cli"
+  ],
+  "features": [
+   "Repository-aware editing",
+   "Command execution with permission prompts",
+   "Explaining unfamiliar code",
+   "Test-driven fix loops",
+   "Integrations with editors"
+  ],
+  "use_cases": [
+   "Refactoring across modules",
+   "Fixing failing tests",
+   "Learning a new codebase",
+   "Drafting small features"
+  ],
+  "pricing_details": "Access is typically tied to an Anthropic subscription or API usage; the exact plans and limits change over time. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Claude Code?",
+    "a": "It is Anthropic's terminal-based coding agent that can read your project, edit files and run commands based on instructions you give in natural language."
+   },
+   {
+    "q": "Is Claude Code free?",
+    "a": "Access generally requires a paid Claude plan or API usage. Confirm current options on the official site."
+   },
+   {
+    "q": "Is it safe to let it run commands?",
+    "a": "It asks for permission for actions, but you should still review each request, work on a branch and check diffs before merging."
+   }
+  ],
+  "seo_title": "Claude Code: Features, Pricing and Alternatives",
+  "seo_description": "Anthropic's agentic coding tool that works from your terminal. See what Claude Code does, who it suits, pros and cons, pricing notes and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "openai-codex",
+  "name": "OpenAI Codex",
+  "category": "coding",
+  "website_url": "https://openai.com/codex",
+  "pricing": "Unknown",
+  "tagline": "OpenAI's software engineering agent for delegating coding tasks.",
+  "best_for": "Developers delegating well-scoped tasks like bug fixes and tests",
+  "platforms": [
+   "Web",
+   "Terminal",
+   "IDE"
+  ],
+  "description": "Codex is OpenAI's coding agent. First introduced in 2025 as a cloud-based software engineering agent inside ChatGPT, it can take tasks such as writing a feature, answering questions about a codebase, fixing a bug or proposing a pull request.\n\nIt is best with clearly worded tasks and a repository that has tests, since it can check its own work against them. Treat its output as a proposed change: read the diff, run the checks yourself and keep sensitive data out of prompts unless your organisation permits it. Plans and features change, so check the official site for current details.",
+  "use_steps": [
+   "Sign in with your OpenAI account and connect a repository.",
+   "Write a focused task description.",
+   "Let the agent work, then read its summary and diff.",
+   "Run tests and merge only what you have reviewed."
+  ],
+  "pros": [
+   "Can handle several tasks in parallel",
+   "Works against your own repository",
+   "Produces reviewable diffs",
+   "Backed by OpenAI models"
+  ],
+  "cons": [
+   "Access depends on your OpenAI plan",
+   "Vague tasks give weak results"
+  ],
+  "alternatives": [
+   "claude-code",
+   "github-copilot",
+   "cursor"
+  ],
+  "tags": [
+   "agent",
+   "openai",
+   "pull-requests",
+   "cloud",
+   "automation"
+  ],
+  "features": [
+   "Task delegation to an agent",
+   "Codebase question answering",
+   "Bug fixing",
+   "Test writing",
+   "Pull request proposals"
+  ],
+  "use_cases": [
+   "Fixing small bugs",
+   "Adding unit tests",
+   "Explaining legacy code",
+   "Routine refactors"
+  ],
+  "pricing_details": "Availability and limits depend on the OpenAI plan you use and change over time. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is OpenAI Codex?",
+    "a": "A coding agent from OpenAI that completes software tasks such as features, fixes and tests and returns changes for you to review."
+   },
+   {
+    "q": "Do I still need to review the code?",
+    "a": "Yes. Review diffs and run tests before merging anything."
+   },
+   {
+    "q": "How do I find current pricing?",
+    "a": "Pricing follows OpenAI plans, so check the official page."
+   }
+  ],
+  "seo_title": "OpenAI Codex: Features, Pricing and Alternatives",
+  "seo_description": "OpenAI's software engineering agent for delegating coding tasks. See what OpenAI Codex does, who it suits, pros and cons, pricing notes and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "gemini-code-assist",
+  "name": "Gemini Code Assist",
+  "category": "coding",
+  "website_url": "https://developers.google.com/gemini-code-assist/docs",
+  "pricing": "Unknown",
+  "tagline": "Google's Gemini-powered coding assistant for IDEs and Google Cloud.",
+  "best_for": "Teams already working in Google Cloud and common IDEs",
+  "platforms": [
+   "VS Code",
+   "JetBrains IDEs",
+   "Cloud"
+  ],
+  "description": "Gemini Code Assist is Google's AI coding assistant. It offers code completion, generation and chat inside supported editors, and has editions aimed at individuals and at organisations using Google Cloud.\n\nIts documentation covers use in popular IDEs and enterprise features such as customisation to private code on higher tiers. If you work with Google Cloud services, it can help explain APIs and infrastructure code, though suggestions still need review and testing. Plans and features change, so check the official site for current details.",
+  "use_steps": [
+   "Open the official documentation and pick an edition.",
+   "Install the extension in your IDE and sign in.",
+   "Use chat or inline prompts for a small task.",
+   "Check and test the suggestions before accepting."
+  ],
+  "pros": [
+   "Works in common IDEs",
+   "Fits Google Cloud workflows",
+   "Has individual and enterprise editions",
+   "Documented by Google"
+  ],
+  "cons": [
+   "Best value for Google Cloud users",
+   "Edition features differ"
+  ],
+  "alternatives": [
+   "github-copilot",
+   "tabnine",
+   "jetbrains-ai-assistant"
+  ],
+  "tags": [
+   "google",
+   "gemini",
+   "ide",
+   "completion",
+   "cloud"
+  ],
+  "features": [
+   "Code completion",
+   "Chat in the IDE",
+   "Code explanation",
+   "Enterprise editions",
+   "Google Cloud context"
+  ],
+  "use_cases": [
+   "Writing boilerplate",
+   "Explaining unfamiliar code",
+   "Generating tests",
+   "Working with Google Cloud APIs"
+  ],
+  "pricing_details": "Google offers different editions with different features; details are listed in its documentation. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Gemini Code Assist?",
+    "a": "It is Google's AI assistant for coding that works inside supported IDEs."
+   },
+   {
+    "q": "Which editors does it support?",
+    "a": "The official docs list the supported IDEs, which include popular ones."
+   },
+   {
+    "q": "Is it free?",
+    "a": "Edition pricing varies, so check the official site."
+   }
+  ],
+  "seo_title": "Gemini Code Assist: Features, Pricing and Alternatives",
+  "seo_description": "Google's Gemini-powered coding assistant for IDEs and Google Cloud. See what Gemini Code Assist does, who it suits, pros and cons, pricing notes and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "gemini-cli",
+  "name": "Gemini CLI",
+  "category": "coding",
+  "website_url": "https://google-gemini.github.io/gemini-cli",
+  "pricing": "Open source",
+  "tagline": "Open-source command-line AI agent from Google built on Gemini.",
+  "best_for": "Terminal users who want an open-source agent",
+  "platforms": [
+   "Terminal",
+   "macOS",
+   "Linux",
+   "Windows"
+  ],
+  "description": "Gemini CLI is an open-source AI agent from Google that runs in your terminal. You chat with it about a project, ask it to explain code, write scripts or edit files, and it can use tools to carry out steps.\n\nBecause the source is public on GitHub, you can read how it works and extend it. Like other agents it can run commands, so check what it proposes, and review the official documentation for sign-in options and usage limits. Plans and features change, so check the official site for current details.",
+  "use_steps": [
+   "Install it using the official docs.",
+   "Start it in your project folder and sign in.",
+   "Ask it to explain a file or make a small change.",
+   "Review the result before keeping it."
+  ],
+  "pros": [
+   "Open-source code",
+   "Runs in the terminal",
+   "Can read and edit project files",
+   "Documented on the official site"
+  ],
+  "cons": [
+   "Terminal workflow has a learning curve",
+   "Usage limits depend on how you sign in"
+  ],
+  "alternatives": [
+   "claude-code",
+   "aider"
+  ],
+  "tags": [
+   "open-source",
+   "gemini",
+   "cli",
+   "agent",
+   "google"
+  ],
+  "features": [
+   "Terminal chat with a project",
+   "File reading and editing",
+   "Tool use",
+   "Script generation",
+   "Extensible design"
+  ],
+  "use_cases": [
+   "Explaining a repo",
+   "Writing shell scripts",
+   "Small refactors",
+   "Drafting docs"
+  ],
+  "pricing_details": "The tool itself is open source; model access and limits depend on how you sign in. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Gemini CLI?",
+    "a": "An open-source terminal agent from Google powered by Gemini models."
+   },
+   {
+    "q": "Is it open source?",
+    "a": "Yes, its code is published on GitHub."
+   },
+   {
+    "q": "Does it need an account?",
+    "a": "Sign-in and limits are explained in the official docs."
+   }
+  ],
+  "seo_title": "Gemini CLI: Features, Pricing and Alternatives",
+  "seo_description": "Open-source command-line AI agent from Google built on Gemini. See what Gemini CLI does, who it suits, pros and cons, pricing notes and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "amazon-q-developer",
+  "name": "Amazon Q Developer",
+  "category": "coding",
+  "website_url": "https://aws.amazon.com/q/developer",
+  "pricing": "Unknown",
+  "tagline": "AWS's generative AI assistant for building, testing and operating software.",
+  "best_for": "Developers building on AWS",
+  "platforms": [
+   "IDE",
+   "Web",
+   "CLI"
+  ],
+  "description": "Amazon Q Developer is AWS's generative AI assistant for software work. It became generally available in April 2024 and builds on what was earlier known as CodeWhisperer, offering code suggestions, chat, and help with AWS services.\n\nIt is most useful when your project lives on AWS, since it can answer questions about services and help with infrastructure and application code. AWS publishes FAQs and documentation on supported IDEs and plans, so read those before relying on it for production work. Plans and features change, so check the official site for current details.",
+  "use_steps": [
+   "Review the official page and FAQs.",
+   "Install the plugin in a supported IDE.",
+   "Ask a question about your code or an AWS service.",
+   "Verify suggestions and security impact."
+  ],
+  "pros": [
+   "Focus on AWS knowledge",
+   "Works in IDEs",
+   "Evolved from CodeWhisperer",
+   "Official FAQs available"
+  ],
+  "cons": [
+   "Strongest within the AWS ecosystem",
+   "Plan details vary"
+  ],
+  "alternatives": [
+   "github-copilot",
+   "gemini-code-assist",
+   "tabnine"
+  ],
+  "tags": [
+   "aws",
+   "amazon",
+   "assistant",
+   "cloud",
+   "ide"
+  ],
+  "features": [
+   "Code suggestions",
+   "Chat about AWS",
+   "Code explanation",
+   "Security scanning features",
+   "IDE plugins"
+  ],
+  "use_cases": [
+   "Building AWS apps",
+   "Understanding cloud services",
+   "Writing tests",
+   "Modernising code"
+  ],
+  "pricing_details": "AWS describes free and paid options on its site; they change over time. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Amazon Q Developer?",
+    "a": "AWS's AI assistant for developers, available in IDEs and other AWS surfaces."
+   },
+   {
+    "q": "Is it the same as CodeWhisperer?",
+    "a": "It builds on CodeWhisperer, according to AWS."
+   },
+   {
+    "q": "Is it only for AWS?",
+    "a": "It can help with general code, but its strength is AWS topics."
+   }
+  ],
+  "seo_title": "Amazon Q Developer: Features, Pricing and Alternatives",
+  "seo_description": "AWS's generative AI assistant for building, testing and operating software. See what Amazon Q Developer does, who it suits, pros and cons, pricing notes and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "kiro",
+  "name": "Kiro",
+  "category": "coding",
+  "website_url": "https://kiro.dev",
+  "pricing": "Unknown",
+  "tagline": "Agentic IDE from AWS built around spec-driven development.",
+  "best_for": "Developers who want structured specs before code",
+  "platforms": [
+   "Desktop"
+  ],
+  "description": "Kiro is an agentic IDE from AWS announced in 2025. Its pitch is spec-driven development: instead of jumping straight to code, the agent helps write requirements, a design and a task list that it then works through.\n\nThat structure suits larger features where a plain chat prompt would lose track. It is still an AI agent, so review its specs and code, and check the official site for current plans, models and platform support. Plans and features change, so check the official site for current details.",
+  "use_steps": [
+   "Download the IDE from the official site.",
+   "Open a project and describe a feature.",
+   "Review the generated requirements, design and tasks.",
+   "Run the work and check each change."
+  ],
+  "pros": [
+   "Spec-first workflow",
+   "Task breakdown from requirements",
+   "From AWS",
+   "Agent-driven implementation"
+  ],
+  "cons": [
+   "Newer product that changes quickly",
+   "Spec steps add overhead for tiny tasks"
+  ],
+  "alternatives": [
+   "cursor",
+   "codeium-windsurf",
+   "claude-code"
+  ],
+  "tags": [
+   "aws",
+   "ide",
+   "spec-driven",
+   "agent",
+   "vibe-coding"
+  ],
+  "features": [
+   "Specs from prompts",
+   "Design documents",
+   "Task lists",
+   "Agent coding",
+   "Project steering"
+  ],
+  "use_cases": [
+   "Planning a new feature",
+   "Documenting requirements",
+   "Building prototypes",
+   "Structured refactors"
+  ],
+  "pricing_details": "Plans and usage rules are set by AWS and may change. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Kiro?",
+    "a": "An AI IDE from AWS that uses specs to guide agent coding."
+   },
+   {
+    "q": "What is spec-driven development?",
+    "a": "Writing requirements and design first, then tasks, before code."
+   },
+   {
+    "q": "Who makes it?",
+    "a": "Amazon Web Services."
+   }
+  ],
+  "seo_title": "Kiro: Features, Pricing and Alternatives",
+  "seo_description": "Agentic IDE from AWS built around spec-driven development. See what Kiro does, who it suits, pros and cons, pricing notes and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "cline",
+  "name": "Cline",
+  "category": "coding",
+  "website_url": "https://cline.bot",
+  "pricing": "Open source",
+  "tagline": "Open-source coding agent that lives in your editor.",
+  "best_for": "Developers who want to bring their own model and API key",
+  "platforms": [
+   "VS Code"
+  ],
+  "description": "Cline is an open-source AI coding agent that runs as an editor extension. You describe a task and it can read files, propose edits, run terminal commands and iterate, asking for your approval along the way.\n\nA common pattern is bringing your own API key for a model provider, so costs depend on the provider you pick. Because it can execute commands, review each step, and check the official site for current features and any hosted options. Plans and features change, so check the official site for current details.",
+  "use_steps": [
+   "Install the extension from your editor's marketplace.",
+   "Add a model provider or API key.",
+   "Describe a small task and read the plan.",
+   "Approve steps individually and test the result."
+  ],
+  "pros": [
+   "Open source",
+   "Approval step before actions",
+   "Flexible model choice",
+   "Works inside the editor"
+  ],
+  "cons": [
+   "Model usage costs depend on your provider",
+   "Needs careful review of commands"
+  ],
+  "alternatives": [
+   "roo-code",
+   "continue",
+   "cursor"
+  ],
+  "tags": [
+   "open-source",
+   "agent",
+   "vs-code",
+   "byok",
+   "extension"
+  ],
+  "features": [
+   "File edits with approval",
+   "Terminal command execution",
+   "Multiple model providers",
+   "Plan and act modes",
+   "Context from the project"
+  ],
+  "use_cases": [
+   "Building features step by step",
+   "Fixing bugs",
+   "Writing tests",
+   "Exploring a codebase"
+  ],
+  "pricing_details": "The extension is open source; you generally pay your chosen model provider for usage. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Cline?",
+    "a": "An open-source AI coding agent extension for your editor."
+   },
+   {
+    "q": "Is Cline free?",
+    "a": "The software is open source, but model usage may cost money."
+   },
+   {
+    "q": "Is it safe?",
+    "a": "It asks for approval, but you should review everything."
+   }
+  ],
+  "seo_title": "Cline: Features, Pricing and Alternatives",
+  "seo_description": "Open-source coding agent that lives in your editor. See what Cline does, who it suits, pros and cons, pricing notes and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "roo-code",
+  "name": "Roo Code",
+  "category": "coding",
+  "website_url": "https://roocodeinc.github.io/Roo-Code/",
+  "pricing": "Open source",
+  "tagline": "Open-source AI coding agent extension with customisable modes.",
+  "best_for": "Users who want configurable agent roles in VS Code",
+  "platforms": [
+   "VS Code"
+  ],
+  "description": "Roo Code is an open-source AI coding agent for the editor. It lets you chat to plan, write, debug and explain code, and offers different modes so the agent behaves differently for architecture, coding or debugging.\n\nModes and custom instructions make it adaptable to team habits. It works with model providers you configure, so check their pricing and data terms, and read the project documentation for current features. Plans and features change, so check the official site for current details.",
+  "use_steps": [
+   "Install the extension in VS Code.",
+   "Configure your model provider.",
+   "Pick a mode that matches the task.",
+   "Review changes and run tests."
+  ],
+  "pros": [
+   "Open source",
+   "Task-specific modes",
+   "Configurable behaviour",
+   "Works with several models"
+  ],
+  "cons": [
+   "Setup takes some configuring",
+   "Provider costs apply"
+  ],
+  "alternatives": [
+   "cline",
+   "continue"
+  ],
+  "tags": [
+   "open-source",
+   "agent",
+   "modes",
+   "vs-code",
+   "customisation"
+  ],
+  "features": [
+   "Modes for different roles",
+   "Chat-driven edits",
+   "Debug assistance",
+   "Custom instructions",
+   "Provider flexibility"
+  ],
+  "use_cases": [
+   "Planning architecture",
+   "Debugging",
+   "Code explanation",
+   "Refactoring"
+  ],
+  "pricing_details": "The project is open source; model provider costs are separate. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Roo Code?",
+    "a": "An open-source coding agent extension with customisable modes."
+   },
+   {
+    "q": "Do I need an API key?",
+    "a": "You configure a model provider, which may need one."
+   },
+   {
+    "q": "Where is the documentation?",
+    "a": "On the project site linked here."
+   }
+  ],
+  "seo_title": "Roo Code: Features, Pricing and Alternatives",
+  "seo_description": "Open-source AI coding agent extension with customisable modes. See what Roo Code does, who it suits, pros and cons, pricing notes and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "continue",
+  "name": "Continue",
+  "category": "coding",
+  "website_url": "https://docs.continue.dev",
+  "pricing": "Open source",
+  "tagline": "Open-source AI code assistant you can wire to your own models.",
+  "best_for": "Teams wanting customisable, model-agnostic assistance",
+  "platforms": [
+   "VS Code",
+   "JetBrains IDEs"
+  ],
+  "description": "Continue is an open-source AI code assistant that works inside IDEs. It supports chat, autocomplete and edit features, and lets you choose which models and context sources it uses.\n\nThat flexibility appeals to teams that want local models or specific providers, or that need to control what code leaves their environment. Setup requires some configuration, and the documentation explains current options. Plans and features change, so check the official site for current details.",
+  "use_steps": [
+   "Install the extension for your IDE.",
+   "Edit the configuration to add a model.",
+   "Try chat or autocomplete on a small file.",
+   "Tune context and rules for your project."
+  ],
+  "pros": [
+   "Open source",
+   "Model choice is yours",
+   "Works in popular IDEs",
+   "Configurable context"
+  ],
+  "cons": [
+   "More setup than turnkey tools",
+   "Quality depends on chosen model"
+  ],
+  "alternatives": [
+   "cline",
+   "tabnine",
+   "github-copilot"
+  ],
+  "tags": [
+   "open-source",
+   "autocomplete",
+   "ide",
+   "local-models",
+   "configurable"
+  ],
+  "features": [
+   "Chat",
+   "Autocomplete",
+   "Inline edits",
+   "Custom models",
+   "Context providers"
+  ],
+  "use_cases": [
+   "Using local models",
+   "Team-wide assistant setup",
+   "Code explanation",
+   "Quick edits"
+  ],
+  "pricing_details": "The core is open source; hosted or team options and model costs may apply. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Continue?",
+    "a": "An open-source assistant for coding in your IDE."
+   },
+   {
+    "q": "Can I use local models?",
+    "a": "The docs describe connecting different models."
+   },
+   {
+    "q": "Is it hard to set up?",
+    "a": "It needs some configuration."
+   }
+  ],
+  "seo_title": "Continue: Features, Pricing and Alternatives",
+  "seo_description": "Open-source AI code assistant you can wire to your own models. See what Continue does, who it suits, pros and cons, pricing notes and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "aider",
+  "name": "Aider",
+  "category": "coding",
+  "website_url": "https://aider.chat",
+  "pricing": "Open source",
+  "tagline": "Terminal AI pair programmer that edits files and commits with git.",
+  "best_for": "Command-line users who like git-based workflows",
+  "platforms": [
+   "Terminal",
+   "macOS",
+   "Linux",
+   "Windows"
+  ],
+  "description": "Aider is an open-source tool for AI pair programming in your terminal. You add files to a chat, describe changes, and it edits them directly, typically recording changes as git commits so they are easy to review or undo.\n\nIt supports many language models through your own keys, and its documentation covers usage and supported languages. It suits people comfortable on the command line; as always, read diffs and run tests. Plans and features change, so check the official site for current details.",
+  "use_steps": [
+   "Install it with pip as shown in the docs.",
+   "Start it in a git repository.",
+   "Add files and describe a change.",
+   "Review the commit and test."
+  ],
+  "pros": [
+   "Open source",
+   "Git-aware edits",
+   "Supports many models",
+   "Documented thoroughly"
+  ],
+  "cons": [
+   "Terminal only",
+   "Model costs depend on provider"
+  ],
+  "alternatives": [
+   "claude-code",
+   "cline",
+   "gemini-cli"
+  ],
+  "tags": [
+   "open-source",
+   "terminal",
+   "git",
+   "pair-programming",
+   "cli"
+  ],
+  "features": [
+   "Chat-based file edits",
+   "Automatic git commits",
+   "Multi-model support",
+   "Repository map",
+   "Many languages"
+  ],
+  "use_cases": [
+   "Refactoring",
+   "Adding features",
+   "Fixing bugs",
+   "Writing tests"
+  ],
+  "pricing_details": "Aider itself is free open-source software; language model usage is paid to the provider you choose. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Aider?",
+    "a": "A terminal AI pair programming tool."
+   },
+   {
+    "q": "Does it use git?",
+    "a": "Yes, it works with git repositories."
+   },
+   {
+    "q": "Is it free?",
+    "a": "The tool is open source; models may cost."
+   }
+  ],
+  "seo_title": "Aider: Features, Pricing and Alternatives",
+  "seo_description": "Terminal AI pair programmer that edits files and commits with git. See what Aider does, who it suits, pros and cons, pricing notes and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "zed",
+  "name": "Zed",
+  "category": "coding",
+  "website_url": "https://zed.dev",
+  "pricing": "Open source",
+  "tagline": "High-performance code editor with built-in AI and collaboration.",
+  "best_for": "Developers who want a fast editor with agent features",
+  "platforms": [
+   "macOS",
+   "Linux",
+   "Windows"
+  ],
+  "description": "Zed is a code editor with AI features built in and real-time multiplayer collaboration. It is open source and designed around speed, with an agent panel that can edit code and connect to external coding agents.\n\nYou can bring different models or agents into the same editor, which makes it handy for comparing approaches. Check the official site for which AI features are free and which need a plan. Plans and features change, so check the official site for current details.",
+  "use_steps": [
+   "Download Zed from the official site.",
+   "Open a project folder.",
+   "Open the agent panel and describe a task.",
+   "Review proposed edits before accepting."
+  ],
+  "pros": [
+   "Open-source editor",
+   "Fast, native feel",
+   "Collaboration features",
+   "Agent integrations"
+  ],
+  "cons": [
+   "Smaller extension ecosystem than older editors",
+   "AI plan details vary"
+  ],
+  "alternatives": [
+   "visual-studio-code",
+   "cursor",
+   "codeium-windsurf"
+  ],
+  "tags": [
+   "editor",
+   "open-source",
+   "agent",
+   "collaboration",
+   "native"
+  ],
+  "features": [
+   "Agent panel",
+   "Multiplayer editing",
+   "Inline assistance",
+   "Language server support",
+   "External agent support"
+  ],
+  "use_cases": [
+   "Everyday coding",
+   "Pair programming",
+   "Agent-assisted edits",
+   "Reviewing diffs"
+  ],
+  "pricing_details": "The editor is open source; some AI features may be tied to a plan. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Zed?",
+    "a": "A fast code editor with built-in AI and collaboration."
+   },
+   {
+    "q": "Is it open source?",
+    "a": "Yes."
+   },
+   {
+    "q": "Does AI cost extra?",
+    "a": "Check the official site."
+   }
+  ],
+  "seo_title": "Zed: Features, Pricing and Alternatives",
+  "seo_description": "High-performance code editor with built-in AI and collaboration. See what Zed does, who it suits, pros and cons, pricing notes and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "amp",
+  "name": "Amp",
+  "category": "coding",
+  "website_url": "https://ampcode.com",
+  "pricing": "Unknown",
+  "tagline": "Coding agent for terminal and editor use.",
+  "best_for": "Developers who want an agent with strong codebase context",
+  "platforms": [
+   "Terminal",
+   "VS Code"
+  ],
+  "description": "Amp is a coding agent available at ampcode.com with a published manual. It works from the terminal and editor, taking tasks in natural language and making changes across a project.\n\nIts documentation covers how threads, tools and configuration work. Because it can act on your code, review its changes and check the site for current availability and pricing. Plans and features change, so check the official site for current details.",
+  "use_steps": [
+   "Read the manual and install it.",
+   "Open a project and start a thread.",
+   "Describe one clear task.",
+   "Review changes and run tests."
+  ],
+  "pros": [
+   "Documented manual",
+   "Terminal and editor use",
+   "Multi-file changes",
+   "Agent-focused design"
+  ],
+  "cons": [
+   "Pricing and access need checking",
+   "Newer product"
+  ],
+  "alternatives": [
+   "claude-code",
+   "cursor",
+   "aider"
+  ],
+  "tags": [
+   "agent",
+   "terminal",
+   "coding",
+   "amp",
+   "cli"
+  ],
+  "features": [
+   "Agent threads",
+   "Multi-file edits",
+   "Tool use",
+   "Editor integration",
+   "Configurable behaviour"
+  ],
+  "use_cases": [
+   "Refactoring",
+   "Debugging",
+   "Feature drafts",
+   "Codebase questions"
+  ],
+  "pricing_details": "Pricing is set by the vendor and may change. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Amp?",
+    "a": "A coding agent with a terminal and editor interface."
+   },
+   {
+    "q": "Where is the guide?",
+    "a": "In its online manual."
+   },
+   {
+    "q": "Is it free?",
+    "a": "Check the official site."
+   }
+  ],
+  "seo_title": "Amp: Features, Pricing and Alternatives",
+  "seo_description": "Coding agent for terminal and editor use. See what Amp does, who it suits, pros and cons, pricing notes and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "augment-code",
+  "name": "Augment Code",
+  "category": "coding",
+  "website_url": "https://www.augmentcode.com",
+  "pricing": "Unknown",
+  "tagline": "AI coding assistant focused on large, complex codebases.",
+  "best_for": "Teams working in big existing codebases",
+  "platforms": [
+   "VS Code",
+   "JetBrains IDEs",
+   "Terminal"
+  ],
+  "description": "Augment Code is an AI coding assistant positioned at professional teams. It emphasises understanding large codebases so that chat and agents can answer questions and make changes with project context.\n\nThat makes it relevant for onboarding and legacy work. Evaluate it on your own repository, and read the vendor's pricing and data-handling pages before sharing proprietary code. Plans and features change, so check the official site for current details.",
+  "use_steps": [
+   "Install the extension from the official site.",
+   "Let it index your project.",
+   "Ask a question about the codebase.",
+   "Review suggested edits."
+  ],
+  "pros": [
+   "Codebase context focus",
+   "Works in IDEs",
+   "Aimed at teams",
+   "Agent features"
+  ],
+  "cons": [
+   "Indexing needs your code access",
+   "Pricing needs checking"
+  ],
+  "alternatives": [
+   "github-copilot",
+   "cursor",
+   "tabnine"
+  ],
+  "tags": [
+   "codebase",
+   "enterprise",
+   "agent",
+   "ide",
+   "context"
+  ],
+  "features": [
+   "Codebase indexing",
+   "Chat with context",
+   "Agent tasks",
+   "IDE extensions",
+   "Team features"
+  ],
+  "use_cases": [
+   "Onboarding",
+   "Legacy code",
+   "Cross-file changes",
+   "Code explanation"
+  ],
+  "pricing_details": "See the vendor's pricing page; plans change. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Augment Code?",
+    "a": "An AI coding assistant for large codebases."
+   },
+   {
+    "q": "Who is it for?",
+    "a": "Mostly professional teams."
+   },
+   {
+    "q": "Is my code private?",
+    "a": "Read the vendor's data policy."
+   }
+  ],
+  "seo_title": "Augment Code: Features, Pricing and Alternatives",
+  "seo_description": "AI coding assistant focused on large, complex codebases. See what Augment Code does, who it suits, pros and cons, pricing notes and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "qodo",
+  "name": "Qodo",
+  "category": "coding",
+  "website_url": "https://www.qodo.ai",
+  "pricing": "Freemium",
+  "tagline": "Code review and test generation platform, formerly CodiumAI.",
+  "best_for": "Teams wanting AI review and tests in the workflow",
+  "platforms": [
+   "IDE",
+   "Git platforms",
+   "CLI"
+  ],
+  "description": "Qodo, formerly known as CodiumAI, focuses on code quality: AI-assisted code review and test generation, delivered in IDEs and in pull requests.\n\nPublic pricing guides describe free, team and enterprise tiers. Use it as a second reviewer, not a replacement, and check the official site for current plans. Plans and features change, so check the official site for current details.",
+  "use_steps": [
+   "Sign up on the official site.",
+   "Install the IDE plugin or Git integration.",
+   "Run a review or test generation on a change.",
+   "Evaluate the suggestions yourself."
+  ],
+  "pros": [
+   "Review and tests in one tool",
+   "Pull request integration",
+   "Formerly CodiumAI",
+   "Free tier reported"
+  ],
+  "cons": [
+   "Suggestions can be noisy",
+   "Tier details change"
+  ],
+  "alternatives": [
+   "coderabbit",
+   "sourcery",
+   "github-copilot"
+  ],
+  "tags": [
+   "code-review",
+   "testing",
+   "pull-requests",
+   "quality",
+   "codiumai"
+  ],
+  "features": [
+   "AI code review",
+   "Test generation",
+   "IDE plugin",
+   "Git integration",
+   "Rules for teams"
+  ],
+  "use_cases": [
+   "Reviewing pull requests",
+   "Generating unit tests",
+   "Catching edge cases",
+   "Raising coverage"
+  ],
+  "pricing_details": "Third-party pricing guides list free, team and enterprise tiers. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Qodo?",
+    "a": "An AI code review and testing platform, formerly CodiumAI."
+   },
+   {
+    "q": "Does it write tests?",
+    "a": "Test generation is a core feature."
+   },
+   {
+    "q": "Is there a free plan?",
+    "a": "A free tier is reported; verify on the official site."
+   }
+  ],
+  "seo_title": "Qodo: Features, Pricing and Alternatives",
+  "seo_description": "Code review and test generation platform, formerly CodiumAI. See what Qodo does, who it suits, pros and cons, pricing notes and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "coderabbit",
+  "name": "CodeRabbit",
+  "category": "coding",
+  "website_url": "https://www.coderabbit.ai",
+  "pricing": "Freemium",
+  "tagline": "AI code reviewer that comments on pull requests.",
+  "best_for": "Teams wanting automated first-pass pull request review",
+  "platforms": [
+   "GitHub",
+   "GitLab",
+   "Web"
+  ],
+  "description": "CodeRabbit is an AI code review tool that posts summaries and line comments on pull requests. It connects to Git hosting and tries to flag bugs, style problems and risky changes.\n\nIt acts as an automated first reviewer so humans can focus on design. A pricing page and docs describe plans, with guides noting a free tier; verify current limits before adopting. Plans and features change, so check the official site for current details.",
+  "use_steps": [
+   "Install the app on your repo.",
+   "Open a pull request.",
+   "Read the summary and comments.",
+   "Resolve or dismiss suggestions."
+  ],
+  "pros": [
+   "Automated PR summaries",
+   "Line-level comments",
+   "Docs on plans",
+   "Free tier reported"
+  ],
+  "cons": [
+   "Can produce false positives",
+   "Plan limits change"
+  ],
+  "alternatives": [
+   "qodo",
+   "greptile",
+   "graphite"
+  ],
+  "tags": [
+   "code-review",
+   "pull-requests",
+   "github",
+   "automation",
+   "review"
+  ],
+  "features": [
+   "PR summaries",
+   "Inline comments",
+   "Git integration",
+   "Chat on PRs",
+   "Configurable rules"
+  ],
+  "use_cases": [
+   "Speeding up reviews",
+   "Catching bugs",
+   "Onboarding reviewers",
+   "Open-source PRs"
+  ],
+  "pricing_details": "The vendor's pricing page lists current plans; guides mention a free tier. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is CodeRabbit?",
+    "a": "An AI tool that reviews pull requests."
+   },
+   {
+    "q": "Does it replace humans?",
+    "a": "No, treat it as a first pass."
+   },
+   {
+    "q": "Where is pricing?",
+    "a": "On its pricing page."
+   }
+  ],
+  "seo_title": "CodeRabbit: Features, Pricing and Alternatives",
+  "seo_description": "AI code reviewer that comments on pull requests. See what CodeRabbit does, who it suits, pros and cons, pricing notes and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "graphite",
+  "name": "Graphite",
+  "category": "coding",
+  "website_url": "https://graphite.dev",
+  "pricing": "Unknown",
+  "tagline": "Code review platform for stacked pull requests with an AI reviewer.",
+  "best_for": "Teams using stacked PR workflows",
+  "platforms": [
+   "Web",
+   "CLI",
+   "GitHub"
+  ],
+  "description": "Graphite is a code review platform built around stacked pull requests, with a CLI and web interface. Its AI reviewer, first called Graphite Reviewer and later Diamond, adds automated feedback.\n\nStacking splits big changes into small dependent PRs, which can speed review. Check the site for current naming, plans and GitHub support. Plans and features change, so check the official site for current details.",
+  "use_steps": [
+   "Sign in with GitHub.",
+   "Install the CLI.",
+   "Create a stack of small PRs.",
+   "Review AI feedback."
+  ],
+  "pros": [
+   "Stacked PR workflow",
+   "AI reviewer",
+   "CLI and web",
+   "Detailed docs"
+  ],
+  "cons": [
+   "Workflow change for teams",
+   "Naming and plans evolve"
+  ],
+  "alternatives": [
+   "coderabbit",
+   "qodo",
+   "greptile"
+  ],
+  "tags": [
+   "code-review",
+   "stacked-prs",
+   "github",
+   "workflow",
+   "ai-reviewer"
+  ],
+  "features": [
+   "Stacked pull requests",
+   "CLI",
+   "AI review",
+   "Merge queue features",
+   "PR inbox"
+  ],
+  "use_cases": [
+   "Small incremental PRs",
+   "Faster reviews",
+   "Team workflow",
+   "Bug checks"
+  ],
+  "pricing_details": "Pricing is on the vendor site and may change. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Graphite?",
+    "a": "A code review platform for stacked PRs."
+   },
+   {
+    "q": "What is Diamond?",
+    "a": "The AI reviewer, formerly Graphite Reviewer."
+   },
+   {
+    "q": "Is it GitHub only?",
+    "a": "Check the docs."
+   }
+  ],
+  "seo_title": "Graphite: Features, Pricing and Alternatives",
+  "seo_description": "Code review platform for stacked pull requests with an AI reviewer. See what Graphite does, who it suits, pros and cons, pricing notes and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "greptile",
+  "name": "Greptile",
+  "category": "coding",
+  "website_url": "https://www.greptile.com",
+  "pricing": "Unknown",
+  "tagline": "AI code review that understands your whole codebase.",
+  "best_for": "Teams wanting context-aware pull request review",
+  "platforms": [
+   "GitHub",
+   "GitLab",
+   "API"
+  ],
+  "description": "Greptile provides an AI code reviewer and an API that index a repository. Its bot reviews pull requests on GitHub and GitLab using wider codebase context.\n\nDocs describe setup and an API. Evaluate comment quality on your own repo, and check the site for plans. Plans and features change, so check the official site for current details.",
+  "use_steps": [
+   "Connect your Git provider.",
+   "Enable the reviewer on a repo.",
+   "Open a PR.",
+   "Triage its comments."
+  ],
+  "pros": [
+   "Codebase-aware review",
+   "GitHub and GitLab",
+   "API available",
+   "Docs and changelog"
+  ],
+  "cons": [
+   "Needs repo access",
+   "Pricing unclear"
+  ],
+  "alternatives": [
+   "coderabbit",
+   "qodo",
+   "graphite"
+  ],
+  "tags": [
+   "code-review",
+   "api",
+   "codebase",
+   "pull-requests",
+   "bugs"
+  ],
+  "features": [
+   "PR review bot",
+   "Codebase indexing",
+   "API",
+   "Custom rules",
+   "Changelog"
+  ],
+  "use_cases": [
+   "Review automation",
+   "Bug detection",
+   "Codebase Q&A",
+   "Standards enforcement"
+  ],
+  "pricing_details": "See the vendor's pricing page. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Greptile?",
+    "a": "An AI reviewer that understands the full repo."
+   },
+   {
+    "q": "Which platforms?",
+    "a": "GitHub and GitLab are documented."
+   },
+   {
+    "q": "Has an API?",
+    "a": "Yes."
+   }
+  ],
+  "seo_title": "Greptile: Features, Pricing and Alternatives",
+  "seo_description": "AI code review that understands your whole codebase. See what Greptile does, who it suits, pros and cons, pricing notes and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "sourcery",
+  "name": "Sourcery",
+  "category": "coding",
+  "website_url": "https://sourcery.ai",
+  "pricing": "Unknown",
+  "tagline": "AI code review and refactoring suggestions, originally for Python.",
+  "best_for": "Python and multi-language teams wanting review comments",
+  "platforms": [
+   "GitHub",
+   "IDE"
+  ],
+  "description": "Sourcery began as a Python refactoring tool and now offers AI code review and security scanning for pull requests and IDEs.\n\nIt publishes docs and a changelog. Try it on a project, and verify languages and pricing on the site. Plans and features change, so check the official site for current details.",
+  "use_steps": [
+   "Install the GitHub app or IDE plugin.",
+   "Open a PR.",
+   "Read its comments.",
+   "Apply helpful changes."
+  ],
+  "pros": [
+   "Refactoring heritage",
+   "PR review",
+   "IDE plugin",
+   "Open-source repo exists"
+  ],
+  "cons": [
+   "Fewer features than big suites",
+   "Pricing needs checking"
+  ],
+  "alternatives": [
+   "codacy",
+   "coderabbit",
+   "qodo"
+  ],
+  "tags": [
+   "refactoring",
+   "python",
+   "code-review",
+   "quality",
+   "ide"
+  ],
+  "features": [
+   "PR review",
+   "Refactoring tips",
+   "Security checks",
+   "IDE plugin",
+   "Custom rules"
+  ],
+  "use_cases": [
+   "Clean-up",
+   "Review",
+   "Quality gates",
+   "Learning"
+  ],
+  "pricing_details": "See the official pricing page. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Sourcery?",
+    "a": "An AI code review and refactoring tool."
+   },
+   {
+    "q": "Python only?",
+    "a": "It started there; check supported languages."
+   },
+   {
+    "q": "Does it have docs?",
+    "a": "Yes."
+   }
+  ],
+  "seo_title": "Sourcery: Features, Pricing and Alternatives",
+  "seo_description": "AI code review and refactoring suggestions, originally for Python. See what Sourcery does, who it suits, pros and cons, pricing notes and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "codacy",
+  "name": "Codacy",
+  "category": "coding",
+  "website_url": "https://www.codacy.com",
+  "pricing": "Unknown",
+  "tagline": "Automated code quality and security analysis platform.",
+  "best_for": "Teams adding quality gates to CI",
+  "platforms": [
+   "Web",
+   "GitHub",
+   "GitLab"
+  ],
+  "description": "Codacy is a code quality platform that runs static analysis, tracks coverage and flags security issues across repositories.\n\nIt publishes a pricing page and information for AI assistants. Check which languages and rules fit your stack. Plans and features change, so check the official site for current details.",
+  "use_steps": [
+   "Sign up and connect a repo.",
+   "Let it analyse.",
+   "Review issues.",
+   "Set quality gates."
+  ],
+  "pros": [
+   "Static analysis",
+   "Coverage tracking",
+   "Quality gates",
+   "Many integrations"
+  ],
+  "cons": [
+   "Rule tuning needed",
+   "Pricing varies"
+  ],
+  "alternatives": [
+   "sonarqube",
+   "sourcery",
+   "qodo"
+  ],
+  "tags": [
+   "static-analysis",
+   "quality",
+   "security",
+   "ci",
+   "coverage"
+  ],
+  "features": [
+   "Static analysis",
+   "Coverage",
+   "Security scanning",
+   "Quality gates",
+   "Dashboards"
+  ],
+  "use_cases": [
+   "CI checks",
+   "Tech debt",
+   "Compliance",
+   "PR gating"
+  ],
+  "pricing_details": "See codacy.com/pricing. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Codacy?",
+    "a": "A code quality platform."
+   },
+   {
+    "q": "Does it use AI?",
+    "a": "It markets AI features; see site."
+   },
+   {
+    "q": "Where is pricing?",
+    "a": "On its pricing page."
+   }
+  ],
+  "seo_title": "Codacy: Features, Pricing and Alternatives",
+  "seo_description": "Automated code quality and security analysis platform. See what Codacy does, who it suits, pros and cons, pricing notes and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "sonarqube",
+  "name": "SonarQube",
+  "category": "coding",
+  "website_url": "https://www.sonarsource.com/products/sonarqube/",
+  "pricing": "Unknown",
+  "tagline": "Code quality and security analysis from Sonar.",
+  "best_for": "Teams enforcing code quality in CI",
+  "platforms": [
+   "Self-hosted",
+   "Cloud"
+  ],
+  "description": "SonarQube is Sonar's code quality and security analysis product, available as a self-managed server and as SonarQube Cloud. It scans code for bugs, vulnerabilities and code smells.\n\nIts extensive docs cover versions and setup. It is long established and suits teams building quality gates, but check editions and pricing on the official site. Plans and features change, so check the official site for current details.",
+  "use_steps": [
+   "Choose Server or Cloud.",
+   "Add the scanner to CI.",
+   "Review findings.",
+   "Set a quality gate."
+  ],
+  "pros": [
+   "Quality gates",
+   "Detailed docs",
+   "Server and cloud options",
+   "Wide language coverage"
+  ],
+  "cons": [
+   "Setup effort for self-hosting",
+   "Edition differences"
+  ],
+  "alternatives": [
+   "codacy",
+   "sourcery",
+   "qodo"
+  ],
+  "tags": [
+   "static-analysis",
+   "quality-gate",
+   "security",
+   "ci",
+   "sonar"
+  ],
+  "features": [
+   "Static analysis",
+   "Quality gates",
+   "Security rules",
+   "CI integration",
+   "Reports"
+  ],
+  "use_cases": [
+   "Blocking bad merges",
+   "Tracking debt",
+   "Security checks",
+   "Multi-repo standards"
+  ],
+  "pricing_details": "Editions and pricing are on the vendor site. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is SonarQube?",
+    "a": "A code quality and security scanner."
+   },
+   {
+    "q": "Self-hosted?",
+    "a": "Yes, and a cloud version."
+   },
+   {
+    "q": "Is it AI?",
+    "a": "Primarily rule-based; check site."
+   }
+  ],
+  "seo_title": "SonarQube: Features, Pricing and Alternatives",
+  "seo_description": "Code quality and security analysis from Sonar. See what SonarQube does, who it suits, pros and cons, pricing notes and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ }
+]

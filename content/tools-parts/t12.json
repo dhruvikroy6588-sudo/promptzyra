@@ -1,0 +1,580 @@
+[
+ {
+  "slug": "granola",
+  "name": "Granola",
+  "category": "productivity",
+  "website_url": "https://granola.ai",
+  "pricing": "Unknown",
+  "tagline": "AI notepad that enriches your own meeting notes.",
+  "best_for": "People in back-to-back meetings who want notes without a visible bot",
+  "platforms": [
+   "Web",
+   "macOS",
+   "iOS"
+  ],
+  "description": "Granola is an AI notepad aimed at meetings. You jot down rough notes while you talk, and the tool combines them with a transcript of the conversation to produce a structured, readable set of notes afterwards.\n\nThe approach keeps you in control of what matters, since your own typed points guide the final summary. It suits consultants, founders and managers who sit in many calls and want searchable records. Always tell participants when a call is being transcribed and review the output for errors. Platform support and plans change, so check the official site for current details.",
+  "use_steps": [
+   "Install the app and sign in.",
+   "Open it at the start of a meeting.",
+   "Type short notes as the discussion goes on.",
+   "Review and edit the enhanced notes afterwards."
+  ],
+  "pros": [
+   "Notes guided by your own jottings",
+   "Useful for back-to-back calls",
+   "Searchable record of meetings",
+   "Simple notepad-style interface"
+  ],
+  "cons": [
+   "Transcription needs consent from participants",
+   "AI summaries can miss context"
+  ],
+  "alternatives": [
+   "fireflies-ai",
+   "otter-ai",
+   "fathom-ai"
+  ],
+  "tags": [
+   "meetings",
+   "notes",
+   "transcription",
+   "summaries"
+  ],
+  "features": [
+   "Transcript-backed note enhancement",
+   "Notepad-style capture",
+   "Meeting summaries",
+   "Search across past notes"
+  ],
+  "use_cases": [
+   "Client calls",
+   "Team stand-ups",
+   "User interviews"
+  ],
+  "pricing_details": "Granola Pricing is not verified here. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Granola?",
+    "a": "AI notepad that enriches your own meeting notes. Check the official site for the current feature set."
+   },
+   {
+    "q": "Is Granola free?",
+    "a": "Pricing was not verified for this listing. Check the official website for current plans."
+   },
+   {
+    "q": "Who is Granola for?",
+    "a": "People in back-to-back meetings who want notes without a visible bot. Compare it with the alternatives listed before choosing."
+   }
+  ],
+  "seo_title": "Granola: What It Is and How to Use It",
+  "seo_description": "Learn what Granola is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "fathom-ai",
+  "name": "Fathom",
+  "category": "productivity",
+  "website_url": "https://fathom.ai",
+  "pricing": "Unknown",
+  "tagline": "AI meeting assistant that records, transcribes and summarizes calls.",
+  "best_for": "Teams that want automatic call summaries and action items",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Fathom is an AI meeting assistant that joins video calls to record, transcribe and summarize them. After a call it produces a summary, highlights and action items you can review and share.\n\nIt fits sales, customer success and project teams who want a record of what was agreed without writing minutes by hand. Recording laws and company policies differ, so get consent and review summaries before sharing them. Supported meeting platforms, limits and plans can change, so check the official site for current details.",
+  "use_steps": [
+   "Sign up and connect your calendar.",
+   "Allow the assistant to join your calls.",
+   "Hold the meeting as usual.",
+   "Review the summary and action items afterwards."
+  ],
+  "pros": [
+   "Automatic summaries and action items",
+   "Shareable highlights",
+   "Saves manual note taking",
+   "Works alongside your calendar"
+  ],
+  "cons": [
+   "Recording needs participant consent",
+   "Summaries should be proofread"
+  ],
+  "alternatives": [
+   "fireflies-ai",
+   "otter-ai",
+   "granola"
+  ],
+  "tags": [
+   "meetings",
+   "recording",
+   "summaries",
+   "action-items"
+  ],
+  "features": [
+   "Call recording and transcripts",
+   "AI summaries",
+   "Action item extraction",
+   "Shareable clips"
+  ],
+  "use_cases": [
+   "Sales calls",
+   "Client check-ins",
+   "Project syncs"
+  ],
+  "pricing_details": "Pricing is not verified here. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Fathom?",
+    "a": "AI meeting assistant that records, transcribes and summarizes calls. Check the official site for the current feature set."
+   },
+   {
+    "q": "Is Fathom free?",
+    "a": "Pricing was not verified for this listing. Check the official website for current plans."
+   },
+   {
+    "q": "Who is Fathom for?",
+    "a": "Teams that want automatic call summaries and action items. Compare it with the alternatives listed before choosing."
+   }
+  ],
+  "seo_title": "Fathom: What It Is and How to Use It",
+  "seo_description": "Learn what Fathom is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "coda",
+  "name": "Coda",
+  "category": "productivity",
+  "website_url": "https://coda.io",
+  "pricing": "Unknown",
+  "tagline": "Doc-based workspace that mixes text, tables and automations.",
+  "best_for": "Teams that want docs, tables and lightweight apps in one place",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android",
+   "Desktop"
+  ],
+  "description": "Coda is a workspace where a document can contain text, structured tables, buttons and automations. Instead of separate spreadsheet, wiki and tracker tools, a single doc can hold all of them and link the data together.\n\nTeams use it for project trackers, planning docs, wikis and small internal tools. It has a learning curve because formulas and tables are central. Features, AI options and plans change, so check the official site for current details.",
+  "use_steps": [
+   "Create an account and a new doc.",
+   "Add text, then insert a table for structured data.",
+   "Add buttons or automations for repeat steps.",
+   "Share the doc with teammates."
+  ],
+  "pros": [
+   "Docs and tables in one place",
+   "Flexible building blocks",
+   "Templates to start from",
+   "Good for team wikis and trackers"
+  ],
+  "cons": [
+   "Formulas take time to learn",
+   "Feature set can feel complex"
+  ],
+  "alternatives": [
+   "notion",
+   "airtable",
+   "trello"
+  ],
+  "tags": [
+   "docs",
+   "workspace",
+   "tables",
+   "automation"
+  ],
+  "features": [
+   "Docs with embedded tables",
+   "Buttons and automations",
+   "Templates",
+   "Integrations with other apps"
+  ],
+  "use_cases": [
+   "Project trackers",
+   "Team wikis",
+   "Planning docs"
+  ],
+  "pricing_details": "Pricing is not verified here. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Coda?",
+    "a": "Doc-based workspace that mixes text, tables and automations. Check the official site for the current feature set."
+   },
+   {
+    "q": "Is Coda free?",
+    "a": "Pricing was not verified for this listing. Check the official website for current plans."
+   },
+   {
+    "q": "Who is Coda for?",
+    "a": "Teams that want docs, tables and lightweight apps in one place. Compare it with the alternatives listed before choosing."
+   }
+  ],
+  "seo_title": "Coda: What It Is and How to Use It",
+  "seo_description": "Learn what Coda is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "tana",
+  "name": "Tana",
+  "category": "productivity",
+  "website_url": "https://tana.inc",
+  "pricing": "Unknown",
+  "tagline": "Outliner and knowledge graph for notes with AI features.",
+  "best_for": "People who like outlining and structured notes",
+  "platforms": [
+   "Web",
+   "Desktop",
+   "Mobile"
+  ],
+  "description": "Tana is a note-taking tool built around an outliner. Each bullet can be tagged with a type, and those tags give the note fields, so your notes behave like a connected knowledge graph rather than loose text.\n\nIt appeals to people who build personal knowledge systems, plan projects or capture meetings and want structure without folders. It takes effort to learn its tags and fields. AI features and plans change, so check the official site for current details.",
+  "use_steps": [
+   "Sign up and open a workspace.",
+   "Write notes as nested bullets.",
+   "Tag bullets to give them structure.",
+   "Search and filter your notes through views."
+  ],
+  "pros": [
+   "Structured notes through tags",
+   "Flexible outliner",
+   "Links between ideas",
+   "AI assistance options"
+  ],
+  "cons": [
+   "Steep learning curve",
+   "Can feel complex for simple notes"
+  ],
+  "alternatives": [
+   "notion",
+   "obsidian",
+   "capacities"
+  ],
+  "tags": [
+   "notes",
+   "outliner",
+   "knowledge-graph",
+   "pkm"
+  ],
+  "features": [
+   "Outliner editor",
+   "Supertags",
+   "Search views",
+   "AI features"
+  ],
+  "use_cases": [
+   "Personal knowledge base",
+   "Project planning",
+   "Meeting notes"
+  ],
+  "pricing_details": "Pricing is not verified here. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Tana?",
+    "a": "Outliner and knowledge graph for notes with AI features. Check the official site for the current feature set."
+   },
+   {
+    "q": "Is Tana free?",
+    "a": "Pricing was not verified for this listing. Check the official website for current plans."
+   },
+   {
+    "q": "Who is Tana for?",
+    "a": "People who like outlining and structured notes. Compare it with the alternatives listed before choosing."
+   }
+  ],
+  "seo_title": "Tana: What It Is and How to Use It",
+  "seo_description": "Learn what Tana is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "capacities",
+  "name": "Capacities",
+  "category": "productivity",
+  "website_url": "https://capacities.io",
+  "pricing": "Unknown",
+  "tagline": "Note app organized around object types instead of folders.",
+  "best_for": "People who want to organize notes as people, books and ideas",
+  "platforms": [
+   "Web",
+   "Desktop",
+   "iOS",
+   "Android"
+  ],
+  "description": "Capacities is a note-taking and knowledge tool that treats everything as an object, such as a person, book, meeting or idea. Each object type has its own properties, and objects link to one another.\n\nThis makes it a fit for researchers, writers and students who want a connected library instead of nested folders. Daily notes and a graph view help you revisit material. Features and plans change, so check the official site for current details.",
+  "use_steps": [
+   "Create an account.",
+   "Pick or create object types.",
+   "Write notes and link them to related objects.",
+   "Use search and the graph to revisit ideas."
+  ],
+  "pros": [
+   "Object types instead of folders",
+   "Linked notes",
+   "Daily notes",
+   "Clean interface"
+  ],
+  "cons": [
+   "Different mental model to learn",
+   "Features may vary by plan"
+  ],
+  "alternatives": [
+   "obsidian",
+   "notion",
+   "tana"
+  ],
+  "tags": [
+   "notes",
+   "pkm",
+   "linking",
+   "knowledge-base"
+  ],
+  "features": [
+   "Object types",
+   "Backlinks and graph",
+   "Daily notes",
+   "Web clipping"
+  ],
+  "use_cases": [
+   "Reading notes",
+   "Research libraries",
+   "Personal wiki"
+  ],
+  "pricing_details": "Pricing is not verified here. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Capacities?",
+    "a": "Note app organized around object types instead of folders. Check the official site for the current feature set."
+   },
+   {
+    "q": "Is Capacities free?",
+    "a": "Pricing was not verified for this listing. Check the official website for current plans."
+   },
+   {
+    "q": "Who is Capacities for?",
+    "a": "People who want to organize notes as people, books and ideas. Compare it with the alternatives listed before choosing."
+   }
+  ],
+  "seo_title": "Capacities: What It Is and How to Use It",
+  "seo_description": "Learn what Capacities is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "taskade",
+  "name": "Taskade",
+  "category": "productivity",
+  "website_url": "https://www.taskade.com",
+  "pricing": "Unknown",
+  "tagline": "Workspace combining tasks, docs and AI agents.",
+  "best_for": "Small teams that want tasks, notes and AI agents together",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android",
+   "Desktop"
+  ],
+  "description": "Taskade is a collaborative workspace with task lists, notes, mind maps and boards. It adds AI agents and workflow generation, so you can describe a project or process and have the tool draft a structure.\n\nIt suits small teams, freelancers and students who want planning and light automation in one app. Review any AI-generated plan before relying on it. Features and plans change, so check the official site for current details.",
+  "use_steps": [
+   "Create a workspace.",
+   "Add a project as a list, board or mind map.",
+   "Try the AI to draft tasks or an agent.",
+   "Invite teammates to collaborate."
+  ],
+  "pros": [
+   "Several views of the same project",
+   "AI agents and generation",
+   "Real-time collaboration",
+   "Templates"
+  ],
+  "cons": [
+   "AI drafts need review",
+   "Many features can overwhelm beginners"
+  ],
+  "alternatives": [
+   "trello",
+   "notion",
+   "todoist"
+  ],
+  "tags": [
+   "tasks",
+   "ai-agents",
+   "collaboration",
+   "planning"
+  ],
+  "features": [
+   "Lists, boards and mind maps",
+   "AI agents",
+   "Templates",
+   "Team collaboration"
+  ],
+  "use_cases": [
+   "Project planning",
+   "Meeting agendas",
+   "Study planning"
+  ],
+  "pricing_details": "Pricing is not verified here. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Taskade?",
+    "a": "Workspace combining tasks, docs and AI agents. Check the official site for the current feature set."
+   },
+   {
+    "q": "Is Taskade free?",
+    "a": "Pricing was not verified for this listing. Check the official website for current plans."
+   },
+   {
+    "q": "Who is Taskade for?",
+    "a": "Small teams that want tasks, notes and AI agents together. Compare it with the alternatives listed before choosing."
+   }
+  ],
+  "seo_title": "Taskade: What It Is and How to Use It",
+  "seo_description": "Learn what Taskade is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "sunsama",
+  "name": "Sunsama",
+  "category": "productivity",
+  "website_url": "https://www.sunsama.com",
+  "pricing": "Unknown",
+  "tagline": "Daily planner that pulls tasks and calendar into one plan.",
+  "best_for": "Professionals who want a deliberate daily planning ritual",
+  "platforms": [
+   "Web",
+   "Desktop",
+   "iOS",
+   "Android"
+  ],
+  "description": "Sunsama is a daily planning app. Each day you pull tasks from other tools into one list, check them against your calendar and decide what fits, then close the day with a short shutdown review.\n\nThe guided ritual helps people who feel overloaded, though it favors deliberate planning over automatic scheduling. Integrations and plans can change, so check the official site for current details.",
+  "use_steps": [
+   "Sign up and connect your calendar.",
+   "Import tasks from your other tools.",
+   "Plan the day against your calendar.",
+   "Do a shutdown review at day end."
+  ],
+  "pros": [
+   "Guided daily planning",
+   "Brings tasks and calendar together",
+   "Focus on realistic workloads",
+   "Shutdown ritual"
+  ],
+  "cons": [
+   "Manual planning takes a few minutes daily",
+   "May not suit people who want full automation"
+  ],
+  "alternatives": [
+   "todoist",
+   "reclaim-ai",
+   "trello"
+  ],
+  "tags": [
+   "planner",
+   "tasks",
+   "calendar",
+   "focus"
+  ],
+  "features": [
+   "Daily planning flow",
+   "Calendar integration",
+   "Task imports",
+   "Shutdown review"
+  ],
+  "use_cases": [
+   "Daily planning",
+   "Workload balancing",
+   "Weekly reviews"
+  ],
+  "pricing_details": "Pricing is not verified here. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Sunsama?",
+    "a": "Daily planner that pulls tasks and calendar into one plan. Check the official site for the current feature set."
+   },
+   {
+    "q": "Is Sunsama free?",
+    "a": "Pricing was not verified for this listing. Check the official website for current plans."
+   },
+   {
+    "q": "Who is Sunsama for?",
+    "a": "Professionals who want a deliberate daily planning ritual. Compare it with the alternatives listed before choosing."
+   }
+  ],
+  "seo_title": "Sunsama: What It Is and How to Use It",
+  "seo_description": "Learn what Sunsama is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "reflect-notes",
+  "name": "Reflect",
+  "category": "productivity",
+  "website_url": "https://reflect.app",
+  "pricing": "Unknown",
+  "tagline": "Networked notes app with backlinks and AI assistance.",
+  "best_for": "People who want fast linked notes and daily notes",
+  "platforms": [
+   "Web",
+   "Desktop",
+   "iOS"
+  ],
+  "description": "Reflect is a note-taking app built around linked notes. You write in daily notes, connect ideas with backlinks and search across everything.\n\nIt adds AI features for tasks like summarizing or rewriting notes, and it targets people who want a quick, minimal place to think. As with any AI feature, check outputs for accuracy. Platforms and plans change, so check the official site for current details.",
+  "use_steps": [
+   "Sign up and open today's daily note.",
+   "Write and link related notes with backlinks.",
+   "Use search to find past ideas.",
+   "Try the AI helper on a note."
+  ],
+  "pros": [
+   "Backlinks between notes",
+   "Daily notes",
+   "Minimal interface",
+   "AI helpers"
+  ],
+  "cons": [
+   "Fewer plugins than some rivals",
+   "Features may vary by plan"
+  ],
+  "alternatives": [
+   "obsidian",
+   "notion",
+   "capacities"
+  ],
+  "tags": [
+   "notes",
+   "backlinks",
+   "pkm",
+   "ai"
+  ],
+  "features": [
+   "Daily notes",
+   "Backlinks",
+   "Search",
+   "AI assistant"
+  ],
+  "use_cases": [
+   "Journaling",
+   "Idea capture",
+   "Meeting notes"
+  ],
+  "pricing_details": "Pricing is not verified here. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Reflect?",
+    "a": "Networked notes app with backlinks and AI assistance. Check the official site for the current feature set."
+   },
+   {
+    "q": "Is Reflect free?",
+    "a": "Pricing was not verified for this listing. Check the official website for current plans."
+   },
+   {
+    "q": "Who is Reflect for?",
+    "a": "People who want fast linked notes and daily notes. Compare it with the alternatives listed before choosing."
+   }
+  ],
+  "seo_title": "Reflect: What It Is and How to Use It",
+  "seo_description": "Learn what Reflect is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ }
+]

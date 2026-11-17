@@ -1,10 +1,11 @@
 'use client';
 import { useCallback, useEffect, useState } from 'react';
 import { getSupabase, ADMIN_EMAIL } from '@/lib/supabase';
-import { PROMPT_FIELDS, TOOL_FIELDS, PHOTO_FIELDS, STATUSES } from './common';
+import { PROMPT_FIELDS, TOOL_FIELDS, PHOTO_FIELDS, PHOTO_SIMPLE, SKILL_FIELDS, COMPONENT_FIELDS, COMP_CAT_OPTS, COURSE_FIELDS, COURSE_CAT_OPTS, STATUSES } from './common';
 import Manager from './Manager';
 import BlogManager from './BlogManager';
 import Subscribers from './Subscribers';
+import ToolSubmissions from './ToolSubmissions';
 import Categories from './Categories';
 import ImportPanel from './ImportPanel';
 import { Loading, ErrorBanner } from './ui';
@@ -13,6 +14,12 @@ import { BLOG_KINDS } from '@/lib/blog-kinds';
 const fmtBytes = (n) => (n >= 1048576 ? `${(n / 1048576).toFixed(1)} MB` : n >= 1024 ? `${(n / 1024).toFixed(1)} KB` : `${n} B`);
 const ago = (iso) => { if (!iso) return '—'; const m = Math.max(0, Math.round((Date.now() - new Date(iso)) / 60000)); return m < 1 ? 'just now' : m < 60 ? `${m} min ago` : m < 1440 ? `${Math.round(m / 60)} h ago` : `${Math.round(m / 1440)} d ago`; };
 
+const COMP_TYPES = [['agents', 'Agents'], ['commands', 'Commands'], ['settings', 'Settings'], ['hooks', 'Hooks'], ['mcps', 'MCPs'], ['mods', 'Mods'], ['plugins', 'Plugins']];
+function Components({ sb, cats, notify }) {
+  const [t, setT] = useState('agents');
+  return (<div><div className="bar" style={{ gap: 6, flexWrap: 'wrap' }}>{COMP_TYPES.map(([k, l]) => <button key={k} className={`btn sm ${t === k ? 'pri' : ''}`} onClick={() => setT(k)}>{l}</button>)}</div>
+    <Manager key={t} sb={sb} table="pz_components" kind="component" label={COMP_TYPES.find((x) => x[0] === t)[1]} fields={COMPONENT_FIELDS} titleKey="name" path={`/${t}`} cats={cats} fixed={{ type: t }} notify={notify} /></div>);
+}
 function Overview({ sb, go }) {
   const [d, setD] = useState(null); const [err, setErr] = useState(''); const [loading, setLoading] = useState(true);
   const load = useCallback(async () => {
@@ -114,13 +121,13 @@ export default function AdminApp() {
   const sb = getSupabase();
   const [session, setSession] = useState(undefined);
   const [tab, setTab] = useState('overview');
-  const [cats, setCats] = useState({ prompt: [], tool: [], blog: [], photo: [] });
+  const [cats, setCats] = useState({ prompt: [], tool: [], blog: [], photo: [], skill: [] });
   const [note, setNote] = useState(null);
   const notify = useCallback((m, err) => { setNote({ m, err }); setTimeout(() => setNote(null), err ? 7000 : 3000); }, []);
 
   useEffect(() => { if (!sb) { setSession(null); return; } sb.auth.getSession().then(({ data }) => setSession(data.session || null)); const { data } = sb.auth.onAuthStateChange((_e, s) => setSession(s || null)); return () => data.subscription.unsubscribe(); }, [sb]);
   const email = session?.user?.email?.toLowerCase(); const ok = email === ADMIN_EMAIL;
-  const loadCats = useCallback(async () => { if (!sb) return; const { data, error } = await sb.from('pz_categories').select('kind,slug,name,sort_order').order('sort_order').order('name'); const g = { prompt: [], tool: [], blog: [], photo: [] }; if (error) notify(`Could not load categories: ${error.message}`, true); (data || []).forEach((r) => g[r.kind]?.push(r)); setCats(g); }, [sb, notify]);
+  const loadCats = useCallback(async () => { if (!sb) return; const { data, error } = await sb.from('pz_categories').select('kind,slug,name,sort_order').order('sort_order').order('name'); const g = { prompt: [], tool: [], blog: [], photo: [], skill: [] }; if (error) notify(`Could not load categories: ${error.message}`, true); (data || []).forEach((r) => g[r.kind]?.push(r)); setCats(g); }, [sb, notify]);
   useEffect(() => { if (ok) loadCats(); }, [ok, loadCats]);
 
   if (!sb) return <div className="login"><div><h1>Supabase not configured</h1><p>Set NEXT_PUBLIC_SUPABASE_URL and NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY.</p></div></div>;
@@ -128,7 +135,7 @@ export default function AdminApp() {
   if (!session) return <div className="login"><div className="ad-card" style={{ maxWidth: 380 }}><h1>Promptzyra Admin</h1><p style={{ color: 'var(--mu)' }}>Sign in with the authorised Google account.</p><button className="btn pri" onClick={() => sb.auth.signInWithOAuth({ provider: 'google', options: { redirectTo: `${location.origin}/admin` } })}>Continue with Google</button></div></div>;
   if (!ok) return <div className="login"><div className="ad-card" style={{ maxWidth: 420 }}><h1>Access denied</h1><p style={{ color: 'var(--mu)' }}>{session.user.email} is not authorised. Only one account can use this panel.</p><button className="btn" onClick={() => sb.auth.signOut()}>Sign out</button></div></div>;
 
-  const NAV = [['overview', 'Overview'], ['prompts', 'Prompts'], ['photo', 'Photo Prompts'], ['tools', 'AI Tools'], ['blog', 'Blog'], ['categories', 'Categories'], ['import', 'Import Drafts'], ['subscribers', 'Subscribers'], ['settings', 'Settings']];
+  const NAV = [['overview', 'Overview'], ['prompts', 'Prompts'], ['photo', 'Photo Prompts'], ['skills', 'Skills'], ['courses', 'AI Courses'], ['components', 'Agents, MCPs & more'], ['tools', 'AI Tools'], ['blog', 'Blog'], ['categories', 'Categories'], ['import', 'Import Drafts'], ['subscribers', 'Subscribers'], ['submissions', 'Submissions'], ['settings', 'Settings']];
   return (<div className="ad-shell">
     <aside className="ad-side"><div className="ad-brand">Promptzyra<small>Admin · {email}</small></div>
       {NAV.map(([k, l]) => <button key={k} className={`ad-nav ${tab === k ? 'on' : ''}`} onClick={() => setTab(k)}>{l}</button>)}
@@ -137,9 +144,13 @@ export default function AdminApp() {
       {tab === 'overview' && <Overview sb={sb} go={setTab} />}
       {tab === 'prompts' && <Manager key="p" sb={sb} table="pz_prompts" kind="prompt" label="Prompts" fields={PROMPT_FIELDS} titleKey="title" path="/prompts" cats={cats.prompt} notify={notify} />}
       {tab === 'tools' && <Manager key="t" sb={sb} table="pz_tools" kind="tool" label="AI Tools" fields={TOOL_FIELDS} titleKey="name" path="/ai-tools" cats={cats.tool} notify={notify} />}
-      {tab === 'photo' && <Manager key="ph" sb={sb} table="pz_photo_prompts" kind="photo" label="Photo Prompts" fields={PHOTO_FIELDS} titleKey="title" path="/photo-prompts" cats={cats.photo} notify={notify} />}
+      {tab === 'skills' && <Manager key="sk" sb={sb} table="pz_skills" kind="skill" label="Skills" fields={SKILL_FIELDS} titleKey="name" path="/skills" cats={cats.skill} notify={notify} />}
+      {tab === 'courses' && <Manager key="crs" sb={sb} table="pz_courses" kind="course" label="AI Courses" fields={COURSE_FIELDS} titleKey="title" path="/courses" cats={COURSE_CAT_OPTS} notify={notify} />}
+      {tab === 'components' && <Components sb={sb} cats={COMP_CAT_OPTS} notify={notify} />}
+      {tab === 'photo' && <Manager key="ph" sb={sb} table="pz_photo_prompts" kind="photo" label="Photo Prompts" fields={PHOTO_FIELDS} simple={PHOTO_SIMPLE} titleKey="title" path="/photo-prompts" cats={cats.photo} notify={notify} />}
       {tab === 'blog' && <BlogManager sb={sb} cats={cats.blog} notify={notify} token={session.access_token} onCatsChange={loadCats} />}
       {tab === 'subscribers' && <Subscribers sb={sb} notify={notify} />}
+      {tab === 'submissions' && <ToolSubmissions sb={sb} notify={notify} cats={cats.tool} />}
       {tab === 'categories' && <Categories sb={sb} notify={notify} onChange={loadCats} />}
       {tab === 'import' && <ImportPanel sb={sb} notify={notify} />}
       {tab === 'settings' && <Settings sb={sb} notify={notify} />}

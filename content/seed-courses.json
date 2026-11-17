@@ -1,0 +1,4202 @@
+[
+ {
+  "slug": "elements-of-ai",
+  "title": "Elements of AI",
+  "provider": "University of Helsinki & MinnaLearn",
+  "description": "A non-technical introduction to what AI is, what it can and cannot do, and how it affects society. Built for people with no programming or maths background.",
+  "category": "ai-basics",
+  "level": "Beginner",
+  "cost": "Free",
+  "format": "Website",
+  "language": "English",
+  "duration": "",
+  "url": "https://www.elementsofai.com/",
+  "what_you_learn": [
+   "What AI and machine learning mean",
+   "Basics of neural networks",
+   "How to spot AI hype",
+   "Societal implications of AI"
+  ],
+  "who_for": "Curious beginners and professionals who want AI literacy without coding.",
+  "tags": [
+   "ai basics",
+   "beginner",
+   "no-code",
+   "literacy"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "cs50-ai-python",
+  "title": "CS50's Introduction to Artificial Intelligence with Python",
+  "provider": "Harvard University (CS50)",
+  "description": "Harvard's course on the ideas behind modern AI, taught with Python projects. It covers search, knowledge, uncertainty, optimization, learning, neural networks and language.",
+  "category": "ai-basics",
+  "level": "Intermediate",
+  "cost": "Free",
+  "format": "Website",
+  "language": "English",
+  "duration": "",
+  "url": "https://cs50.harvard.edu/ai/",
+  "what_you_learn": [
+   "Search and game-playing algorithms",
+   "Probability and reasoning under uncertainty",
+   "Machine learning fundamentals",
+   "Neural networks and NLP basics"
+  ],
+  "who_for": "Learners who know basic Python and want a rigorous but friendly AI foundation.",
+  "tags": [
+   "cs50",
+   "python",
+   "harvard",
+   "ai fundamentals"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "google-ai-essentials",
+  "title": "Google AI Essentials",
+  "provider": "Google",
+  "description": "A short beginner course on using generative AI tools at work. It focuses on practical tasks, prompting and responsible use rather than building models.",
+  "category": "ai-for-business",
+  "level": "Beginner",
+  "cost": "Freemium",
+  "format": "Platform",
+  "language": "English",
+  "duration": "",
+  "url": "https://grow.google/ai-essentials/",
+  "what_you_learn": [
+   "What generative AI is",
+   "Writing effective prompts",
+   "Using AI for everyday work tasks",
+   "Using AI responsibly"
+  ],
+  "who_for": "Office workers and job seekers who want to use AI tools productively.",
+  "tags": [
+   "google",
+   "genai",
+   "workplace",
+   "beginner"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "ai-for-everyone",
+  "title": "AI For Everyone",
+  "provider": "DeepLearning.AI",
+  "description": "Andrew Ng's non-technical course on AI terminology, project workflow and strategy. It helps managers and non-engineers talk sensibly about AI projects.",
+  "category": "ai-for-business",
+  "level": "Beginner",
+  "cost": "Freemium",
+  "format": "Platform",
+  "language": "English",
+  "duration": "",
+  "url": "https://www.coursera.org/learn/ai-for-everyone",
+  "what_you_learn": [
+   "Common AI terms and concepts",
+   "What makes an AI project feasible",
+   "How AI teams work",
+   "Ethical and societal issues"
+  ],
+  "who_for": "Managers, founders and non-technical professionals.",
+  "tags": [
+   "andrew ng",
+   "strategy",
+   "non-technical",
+   "business"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "generative-ai-for-everyone",
+  "title": "Generative AI for Everyone",
+  "provider": "DeepLearning.AI",
+  "description": "Andrew Ng's introduction to how generative AI works and how to apply it at work and in projects. It combines concepts with hands-on prompting examples.",
+  "category": "generative-ai",
+  "level": "Beginner",
+  "cost": "Freemium",
+  "format": "Platform",
+  "language": "English",
+  "duration": "",
+  "url": "https://www.coursera.org/learn/generative-ai-for-everyone",
+  "what_you_learn": [
+   "How generative AI works",
+   "Typical use cases and limits",
+   "Prompting techniques",
+   "Planning generative AI projects"
+  ],
+  "who_for": "Anyone wanting a clear, non-coding overview of generative AI.",
+  "tags": [
+   "generative ai",
+   "andrew ng",
+   "beginner",
+   "prompting"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "ai-for-beginners-microsoft",
+  "title": "AI for Beginners",
+  "provider": "Microsoft",
+  "description": "An open-source 12-week curriculum with lessons, quizzes and notebooks covering symbolic AI, neural networks, computer vision and NLP. Runs in Colab or locally.",
+  "category": "ai-basics",
+  "level": "Beginner",
+  "cost": "Free",
+  "format": "Website",
+  "language": "English",
+  "duration": "12 weeks (self-paced)",
+  "url": "https://github.com/microsoft/AI-For-Beginners",
+  "what_you_learn": [
+   "Symbolic AI and knowledge representation",
+   "Neural networks with PyTorch and TensorFlow",
+   "Computer vision and NLP basics",
+   "AI ethics"
+  ],
+  "who_for": "Self-learners comfortable with basic Python.",
+  "tags": [
+   "microsoft",
+   "curriculum",
+   "github",
+   "deep learning"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "ml-for-beginners-microsoft",
+  "title": "Machine Learning for Beginners",
+  "provider": "Microsoft",
+  "description": "A classic-ML curriculum built around world cultures as datasets, using Scikit-learn. Each lesson has pre- and post-quizzes and assignments.",
+  "category": "machine-learning",
+  "level": "Beginner",
+  "cost": "Free",
+  "format": "Website",
+  "language": "English",
+  "duration": "12 weeks (self-paced)",
+  "url": "https://github.com/microsoft/ML-For-Beginners",
+  "what_you_learn": [
+   "Regression and classification",
+   "Clustering",
+   "NLP and time series basics",
+   "Intro to reinforcement learning"
+  ],
+  "who_for": "Beginners who want classical ML before deep learning.",
+  "tags": [
+   "scikit-learn",
+   "microsoft",
+   "classical ml",
+   "github"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "generative-ai-for-beginners",
+  "title": "Generative AI for Beginners",
+  "provider": "Microsoft",
+  "description": "A lesson series that teaches how to build generative AI applications. Lessons include concept videos and Python and TypeScript code samples.",
+  "category": "generative-ai",
+  "level": "Beginner",
+  "cost": "Free",
+  "format": "Website",
+  "language": "English",
+  "duration": "",
+  "url": "https://github.com/microsoft/generative-ai-for-beginners",
+  "what_you_learn": [
+   "Prompt engineering basics",
+   "Building chat and text apps",
+   "Working with RAG and vector databases",
+   "Responsible generative AI"
+  ],
+  "who_for": "Developers starting with LLM-powered apps.",
+  "tags": [
+   "microsoft",
+   "llm apps",
+   "github",
+   "python"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "ai-agents-for-beginners",
+  "title": "AI Agents for Beginners",
+  "provider": "Microsoft",
+  "description": "A lesson-by-lesson course on designing and building AI agents. It covers agentic design patterns, tool use, RAG and multi-agent setups with code.",
+  "category": "coding-with-ai",
+  "level": "Beginner",
+  "cost": "Free",
+  "format": "Website",
+  "language": "English",
+  "duration": "",
+  "url": "https://github.com/microsoft/ai-agents-for-beginners",
+  "what_you_learn": [
+   "Agent design patterns",
+   "Tool use and function calling",
+   "Agentic RAG",
+   "Multi-agent systems"
+  ],
+  "who_for": "Developers curious about agent-based apps.",
+  "tags": [
+   "agents",
+   "microsoft",
+   "github",
+   "llm"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "data-science-for-beginners",
+  "title": "Data Science for Beginners",
+  "provider": "Microsoft",
+  "description": "A 10-week, 20-lesson curriculum on data science foundations with quizzes and notebooks. It walks from data ethics to visualization and the data science lifecycle.",
+  "category": "data-science",
+  "level": "Beginner",
+  "cost": "Free",
+  "format": "Website",
+  "language": "English",
+  "duration": "10 weeks (self-paced)",
+  "url": "https://github.com/microsoft/Data-Science-For-Beginners",
+  "what_you_learn": [
+   "Data types and ethics",
+   "Working with data in Python",
+   "Data visualization",
+   "The data science lifecycle"
+  ],
+  "who_for": "Beginners starting a data science path.",
+  "tags": [
+   "data science",
+   "microsoft",
+   "python",
+   "github"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "azure-ai-fundamentals",
+  "title": "Azure AI Fundamentals (AI-900) learning path",
+  "provider": "Microsoft Learn",
+  "description": "Microsoft's entry-level certification page, linking to free self-paced Learn modules on AI workloads and Azure AI services. A paid exam is optional.",
+  "category": "ai-basics",
+  "level": "Beginner",
+  "cost": "Free",
+  "format": "Platform",
+  "language": "English",
+  "duration": "",
+  "url": "https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/",
+  "what_you_learn": [
+   "Core AI and ML concepts",
+   "Computer vision and NLP workloads",
+   "Generative AI on Azure",
+   "Responsible AI principles"
+  ],
+  "who_for": "Beginners wanting a cloud-flavoured AI foundation.",
+  "tags": [
+   "azure",
+   "microsoft learn",
+   "certification",
+   "cloud"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "google-ml-crash-course",
+  "title": "Machine Learning Crash Course",
+  "provider": "Google for Developers",
+  "description": "Google's self-study ML course with explanations, interactive exercises and videos. It covers core concepts through to neural networks and data handling.",
+  "category": "machine-learning",
+  "level": "Beginner",
+  "cost": "Free",
+  "format": "Website",
+  "language": "English",
+  "duration": "",
+  "url": "https://developers.google.com/machine-learning/crash-course",
+  "what_you_learn": [
+   "Linear and logistic regression",
+   "Classification and evaluation metrics",
+   "Neural networks",
+   "Working with data and embeddings"
+  ],
+  "who_for": "Learners with basic programming and algebra.",
+  "tags": [
+   "google",
+   "ml",
+   "tensorflow",
+   "crash course"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "google-cloud-ml-ai-training",
+  "title": "Google Cloud ML and AI training",
+  "provider": "Google Cloud",
+  "description": "Google Cloud's catalog of courses, labs and learning paths on ML and generative AI. Some content is free; hands-on labs may need credits.",
+  "category": "machine-learning",
+  "level": "Intermediate",
+  "cost": "Freemium",
+  "format": "Platform",
+  "language": "English",
+  "duration": "",
+  "url": "https://cloud.google.com/learn/training/machinelearning-ai",
+  "what_you_learn": [
+   "Vertex AI workflows",
+   "Generative AI on Google Cloud",
+   "ML engineering practices",
+   "Hands-on labs"
+  ],
+  "who_for": "Cloud and data practitioners who want to use Google's AI stack.",
+  "tags": [
+   "google cloud",
+   "vertex ai",
+   "labs",
+   "mlops"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "ml-specialization-ng",
+  "title": "Machine Learning Specialization",
+  "provider": "DeepLearning.AI & Stanford Online",
+  "description": "Andrew Ng's updated beginner-friendly ML sequence using Python. It covers supervised and unsupervised learning, neural networks and recommenders.",
+  "category": "machine-learning",
+  "level": "Beginner",
+  "cost": "Freemium",
+  "format": "Platform",
+  "language": "English",
+  "duration": "",
+  "url": "https://www.coursera.org/specializations/machine-learning-introduction",
+  "what_you_learn": [
+   "Regression and classification",
+   "Neural networks with TensorFlow",
+   "Decision trees and ensembles",
+   "Unsupervised learning and recommenders"
+  ],
+  "who_for": "Aspiring ML practitioners with basic Python.",
+  "tags": [
+   "andrew ng",
+   "supervised learning",
+   "coursera",
+   "python"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "deep-learning-specialization",
+  "title": "Deep Learning Specialization",
+  "provider": "DeepLearning.AI",
+  "description": "A five-course sequence on neural networks, CNNs, sequence models and structuring ML projects. Taught by Andrew Ng with programming assignments.",
+  "category": "machine-learning",
+  "level": "Intermediate",
+  "cost": "Freemium",
+  "format": "Platform",
+  "language": "English",
+  "duration": "",
+  "url": "https://www.coursera.org/specializations/deep-learning",
+  "what_you_learn": [
+   "Deep neural networks",
+   "Convolutional networks",
+   "Sequence models",
+   "Improving and tuning models"
+  ],
+  "who_for": "Learners who know basic ML and Python.",
+  "tags": [
+   "deep learning",
+   "cnn",
+   "rnn",
+   "coursera"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "dl-ai-short-courses",
+  "title": "DeepLearning.AI Short Courses",
+  "provider": "DeepLearning.AI",
+  "description": "A library of short, hands-on courses built with industry partners on LLMs, RAG, agents and more. Each is video plus runnable notebooks.",
+  "category": "generative-ai",
+  "level": "Beginner",
+  "cost": "Free",
+  "format": "Website",
+  "language": "English",
+  "duration": "1-2 hours each",
+  "url": "https://www.deeplearning.ai/short-courses/",
+  "what_you_learn": [
+   "Prompting and LLM APIs",
+   "RAG and vector search",
+   "Agents and tools",
+   "Evaluation of LLM apps"
+  ],
+  "who_for": "Developers wanting quick practical skills.",
+  "tags": [
+   "short courses",
+   "llm",
+   "rag",
+   "agents"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "chatgpt-prompt-eng-devs",
+  "title": "ChatGPT Prompt Engineering for Developers",
+  "provider": "DeepLearning.AI & OpenAI",
+  "description": "A short course with Isa Fulford and Andrew Ng on prompting LLMs through an API. It demonstrates summarizing, inferring, transforming and expanding text.",
+  "category": "prompt-engineering",
+  "level": "Beginner",
+  "cost": "Free",
+  "format": "Website",
+  "language": "English",
+  "duration": "1 hour approx.",
+  "url": "https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/",
+  "what_you_learn": [
+   "Prompting principles",
+   "Iterating on prompts",
+   "Summarizing and inferring",
+   "Building a simple chatbot"
+  ],
+  "who_for": "Python-literate developers new to LLM prompting.",
+  "tags": [
+   "prompting",
+   "openai api",
+   "python",
+   "short course"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "generative-ai-with-llms",
+  "title": "Generative AI with Large Language Models",
+  "provider": "DeepLearning.AI & AWS",
+  "description": "A course on the LLM lifecycle: transformers, pre-training, fine-tuning and deployment. It includes labs and discusses scaling and alignment.",
+  "category": "generative-ai",
+  "level": "Intermediate",
+  "cost": "Freemium",
+  "format": "Platform",
+  "language": "English",
+  "duration": "",
+  "url": "https://www.coursera.org/learn/generative-ai-with-llms",
+  "what_you_learn": [
+   "Transformer architecture",
+   "Fine-tuning and PEFT",
+   "RLHF concepts",
+   "Deploying LLM apps"
+  ],
+  "who_for": "ML-curious developers and data scientists.",
+  "tags": [
+   "llm",
+   "fine-tuning",
+   "aws",
+   "coursera"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "prompt-engineering-vanderbilt",
+  "title": "Prompt Engineering for ChatGPT",
+  "provider": "Vanderbilt University",
+  "description": "A Coursera course on prompt patterns for large language models, taught by Jules White. It treats prompts as reusable patterns for varied tasks.",
+  "category": "prompt-engineering",
+  "level": "Beginner",
+  "cost": "Freemium",
+  "format": "Platform",
+  "language": "English",
+  "duration": "",
+  "url": "https://www.coursera.org/learn/prompt-engineering",
+  "what_you_learn": [
+   "Prompt patterns",
+   "Persona and template approaches",
+   "Refining outputs",
+   "Applying LLMs to everyday tasks"
+  ],
+  "who_for": "Beginners and professionals using ChatGPT-style tools.",
+  "tags": [
+   "prompt patterns",
+   "chatgpt",
+   "coursera",
+   "vanderbilt"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "learn-prompting",
+  "title": "Learn Prompting",
+  "provider": "Learn Prompting",
+  "description": "A long-running prompt engineering guide and course platform for generative AI. It has free guides and structured material from basics to advanced techniques.",
+  "category": "prompt-engineering",
+  "level": "Beginner",
+  "cost": "Freemium",
+  "format": "Website",
+  "language": "English",
+  "duration": "",
+  "url": "https://learnprompting.org/",
+  "what_you_learn": [
+   "Core prompting techniques",
+   "Few-shot and chain-of-thought",
+   "Prompt security",
+   "Applying prompts to tasks"
+  ],
+  "who_for": "Anyone learning to prompt LLMs well.",
+  "tags": [
+   "prompting",
+   "guide",
+   "genai",
+   "beginner"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "prompting-guide",
+  "title": "Prompt Engineering Guide",
+  "provider": "DAIR.AI",
+  "description": "An open guide collecting prompting techniques, research papers and tool notes. It covers zero-shot, few-shot, CoT, RAG and agents.",
+  "category": "prompt-engineering",
+  "level": "Intermediate",
+  "cost": "Free",
+  "format": "Website",
+  "language": "English",
+  "duration": "",
+  "url": "https://www.promptingguide.ai/",
+  "what_you_learn": [
+   "Prompting techniques",
+   "Advanced methods like ReAct",
+   "Model-specific tips",
+   "Risks and misuses"
+  ],
+  "who_for": "Developers and researchers wanting a reference.",
+  "tags": [
+   "prompting",
+   "reference",
+   "research",
+   "open source"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "openai-academy",
+  "title": "OpenAI Academy",
+  "provider": "OpenAI",
+  "description": "OpenAI's learning hub with videos, guides and community resources about using ChatGPT and OpenAI tools. Content ranges from basics to workplace and developer topics.",
+  "category": "ai-basics",
+  "level": "Beginner",
+  "cost": "Free",
+  "format": "Website",
+  "language": "English",
+  "duration": "",
+  "url": "https://academy.openai.com/",
+  "what_you_learn": [
+   "Using ChatGPT effectively",
+   "AI at work",
+   "Developer tools overview",
+   "Responsible use"
+  ],
+  "who_for": "General users, educators and developers.",
+  "tags": [
+   "openai",
+   "chatgpt",
+   "academy",
+   "beginner"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "openai-prompt-engineering-guide",
+  "title": "OpenAI Prompt Engineering Guide",
+  "provider": "OpenAI",
+  "description": "OpenAI's official documentation on writing better prompts for its models. It lists strategies and tactics with examples.",
+  "category": "prompt-engineering",
+  "level": "Intermediate",
+  "cost": "Free",
+  "format": "Website",
+  "language": "English",
+  "duration": "",
+  "url": "https://platform.openai.com/docs/guides/prompt-engineering",
+  "what_you_learn": [
+   "Writing clear instructions",
+   "Providing reference text",
+   "Splitting complex tasks",
+   "Testing changes systematically"
+  ],
+  "who_for": "Developers using OpenAI models.",
+  "tags": [
+   "openai",
+   "docs",
+   "prompting",
+   "api"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "openai-cookbook",
+  "title": "OpenAI Cookbook",
+  "provider": "OpenAI",
+  "description": "A collection of example code and guides for tasks with the OpenAI API. It spans embeddings, function calling, RAG and evaluation.",
+  "category": "coding-with-ai",
+  "level": "Intermediate",
+  "cost": "Free",
+  "format": "Website",
+  "language": "English",
+  "duration": "",
+  "url": "https://cookbook.openai.com/",
+  "what_you_learn": [
+   "API usage patterns",
+   "Embeddings and search",
+   "Function calling",
+   "Evaluation recipes"
+  ],
+  "who_for": "Developers building with OpenAI APIs.",
+  "tags": [
+   "openai",
+   "api",
+   "examples",
+   "python"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "anthropic-courses-github",
+  "title": "Anthropic Courses",
+  "provider": "Anthropic",
+  "description": "Anthropic's GitHub repository of educational courses, including API fundamentals, prompt engineering and tool use. Delivered as Jupyter notebooks.",
+  "category": "prompt-engineering",
+  "level": "Intermediate",
+  "cost": "Free",
+  "format": "Website",
+  "language": "English",
+  "duration": "",
+  "url": "https://github.com/anthropics/courses",
+  "what_you_learn": [
+   "Claude API basics",
+   "Prompt engineering",
+   "Tool use",
+   "Evaluations"
+  ],
+  "who_for": "Developers who want hands-on Claude skills.",
+  "tags": [
+   "anthropic",
+   "claude",
+   "notebooks",
+   "api"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "anthropic-prompt-eng-tutorial",
+  "title": "Prompt Engineering Interactive Tutorial",
+  "provider": "Anthropic",
+  "description": "A step-by-step interactive tutorial with exercises on prompting Claude. It moves from basic structure to advanced techniques.",
+  "category": "prompt-engineering",
+  "level": "Beginner",
+  "cost": "Free",
+  "format": "Website",
+  "language": "English",
+  "duration": "",
+  "url": "https://github.com/anthropics/prompt-eng-interactive-tutorial",
+  "what_you_learn": [
+   "Basic prompt structure",
+   "Role prompting and XML tags",
+   "Chain of thought",
+   "Avoiding hallucinations"
+  ],
+  "who_for": "Beginners to intermediate prompt writers.",
+  "tags": [
+   "anthropic",
+   "claude",
+   "prompting",
+   "exercises"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "anthropic-academy",
+  "title": "Anthropic Academy",
+  "provider": "Anthropic",
+  "description": "Anthropic's course platform with training on Claude, the API and related tools. Course lineup changes over time.",
+  "category": "ai-basics",
+  "level": "Beginner",
+  "cost": "Free",
+  "format": "Platform",
+  "language": "English",
+  "duration": "",
+  "url": "https://anthropic.skilljar.com/",
+  "what_you_learn": [
+   "Using Claude effectively",
+   "API and tool use",
+   "Building with Claude",
+   "AI fluency concepts"
+  ],
+  "who_for": "Users and developers working with Claude.",
+  "tags": [
+   "anthropic",
+   "claude",
+   "courses",
+   "api"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "anthropic-cookbook",
+  "title": "Anthropic Cookbook",
+  "provider": "Anthropic",
+  "description": "Code examples and guides for building with Claude. Topics include tool use, RAG, classification and multimodal tasks.",
+  "category": "coding-with-ai",
+  "level": "Intermediate",
+  "cost": "Free",
+  "format": "Website",
+  "language": "English",
+  "duration": "",
+  "url": "https://github.com/anthropics/anthropic-cookbook",
+  "what_you_learn": [
+   "Tool use patterns",
+   "RAG recipes",
+   "Classification and extraction",
+   "Multimodal usage"
+  ],
+  "who_for": "Developers building on the Claude API.",
+  "tags": [
+   "anthropic",
+   "claude",
+   "examples",
+   "github"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "hf-llm-course",
+  "title": "Hugging Face LLM Course",
+  "provider": "Hugging Face",
+  "description": "A free course on using the Hugging Face ecosystem for transformers and LLMs. It covers Transformers, Datasets, Tokenizers and fine-tuning.",
+  "category": "generative-ai",
+  "level": "Intermediate",
+  "cost": "Free",
+  "format": "Website",
+  "language": "English",
+  "duration": "",
+  "url": "https://huggingface.co/learn/llm-course",
+  "what_you_learn": [
+   "Using pretrained transformers",
+   "Tokenization and datasets",
+   "Fine-tuning models",
+   "Sharing models on the Hub"
+  ],
+  "who_for": "Python developers moving into NLP and LLMs.",
+  "tags": [
+   "hugging face",
+   "transformers",
+   "nlp",
+   "fine-tuning"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "hf-agents-course",
+  "title": "Hugging Face AI Agents Course",
+  "provider": "Hugging Face",
+  "description": "A course on building AI agents, from fundamentals to frameworks like smolagents, LangGraph and LlamaIndex.",
+  "category": "coding-with-ai",
+  "level": "Intermediate",
+  "cost": "Free",
+  "format": "Website",
+  "language": "English",
+  "duration": "",
+  "url": "https://huggingface.co/learn/agents-course",
+  "what_you_learn": [
+   "Agent fundamentals",
+   "Tools and actions",
+   "Agent frameworks",
+   "Building a final agent"
+  ],
+  "who_for": "Developers wanting to build agents.",
+  "tags": [
+   "agents",
+   "hugging face",
+   "smolagents",
+   "llm"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "hf-mcp-course",
+  "title": "Hugging Face MCP Course",
+  "provider": "Hugging Face",
+  "description": "A course on the Model Context Protocol and building MCP servers and clients. Includes hands-on units.",
+  "category": "coding-with-ai",
+  "level": "Intermediate",
+  "cost": "Free",
+  "format": "Website",
+  "language": "English",
+  "duration": "",
+  "url": "https://huggingface.co/learn/mcp-course",
+  "what_you_learn": [
+   "MCP concepts",
+   "Building servers",
+   "Building clients",
+   "Integrating with agents"
+  ],
+  "who_for": "Developers connecting LLMs to tools.",
+  "tags": [
+   "mcp",
+   "hugging face",
+   "agents",
+   "tools"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "hf-deep-rl-course",
+  "title": "Hugging Face Deep Reinforcement Learning Course",
+  "provider": "Hugging Face",
+  "description": "A hands-on course on deep reinforcement learning with libraries such as Stable Baselines3 and CleanRL. Students train agents in game environments.",
+  "category": "machine-learning",
+  "level": "Intermediate",
+  "cost": "Free",
+  "format": "Website",
+  "language": "English",
+  "duration": "",
+  "url": "https://huggingface.co/learn/deep-rl-course",
+  "what_you_learn": [
+   "Q-learning",
+   "Policy gradients",
+   "Actor-critic methods",
+   "Training agents in games"
+  ],
+  "who_for": "Learners with Python and basic deep learning.",
+  "tags": [
+   "reinforcement learning",
+   "hugging face",
+   "games",
+   "pytorch"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "hf-audio-course",
+  "title": "Hugging Face Audio Course",
+  "provider": "Hugging Face",
+  "description": "A course on applying transformers to audio tasks like speech recognition and generation.",
+  "category": "machine-learning",
+  "level": "Intermediate",
+  "cost": "Free",
+  "format": "Website",
+  "language": "English",
+  "duration": "",
+  "url": "https://huggingface.co/learn/audio-course",
+  "what_you_learn": [
+   "Audio data basics",
+   "Speech recognition",
+   "Audio classification",
+   "Text-to-speech"
+  ],
+  "who_for": "Developers interested in audio ML.",
+  "tags": [
+   "audio",
+   "speech",
+   "transformers",
+   "hugging face"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "hf-diffusion-course",
+  "title": "Hugging Face Diffusion Models Course",
+  "provider": "Hugging Face",
+  "description": "A course on how diffusion models work and how to use and train them with the Diffusers library.",
+  "category": "generative-ai",
+  "level": "Intermediate",
+  "cost": "Free",
+  "format": "Website",
+  "language": "English",
+  "duration": "",
+  "url": "https://huggingface.co/learn/diffusion-course",
+  "what_you_learn": [
+   "Diffusion model theory",
+   "Using Diffusers",
+   "Fine-tuning",
+   "Stable Diffusion basics"
+  ],
+  "who_for": "Learners curious about image generation internals.",
+  "tags": [
+   "diffusion",
+   "image generation",
+   "diffusers",
+   "hugging face"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "hf-cookbook",
+  "title": "Hugging Face Open-Source AI Cookbook",
+  "provider": "Hugging Face",
+  "description": "A collection of notebooks applying open-source models to practical problems. Topics include RAG, fine-tuning and evaluation.",
+  "category": "tools-tutorials",
+  "level": "Intermediate",
+  "cost": "Free",
+  "format": "Website",
+  "language": "English",
+  "duration": "",
+  "url": "https://huggingface.co/learn/cookbook",
+  "what_you_learn": [
+   "RAG with open models",
+   "Fine-tuning recipes",
+   "Evaluation",
+   "Multimodal tasks"
+  ],
+  "who_for": "Practitioners wanting runnable examples.",
+  "tags": [
+   "notebooks",
+   "rag",
+   "open source",
+   "hugging face"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "fast-ai-practical-dl",
+  "title": "Practical Deep Learning for Coders",
+  "provider": "fast.ai",
+  "description": "Jeremy Howard's top-down deep learning course. You train models early and learn the theory as you go.",
+  "category": "machine-learning",
+  "level": "Intermediate",
+  "cost": "Free",
+  "format": "Website",
+  "language": "English",
+  "duration": "",
+  "url": "https://course.fast.ai/",
+  "what_you_learn": [
+   "Training image and text models",
+   "Using the fastai library",
+   "Deep learning foundations",
+   "Deployment"
+  ],
+  "who_for": "Coders who want to get models working fast.",
+  "tags": [
+   "fast.ai",
+   "deep learning",
+   "pytorch",
+   "practical"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "kaggle-learn",
+  "title": "Kaggle Learn",
+  "provider": "Kaggle",
+  "description": "Short, hands-on micro-courses with in-browser notebooks. Topics include Python, pandas, SQL, ML and intro to deep learning.",
+  "category": "data-science",
+  "level": "Beginner",
+  "cost": "Free",
+  "format": "Platform",
+  "language": "English",
+  "duration": "",
+  "url": "https://www.kaggle.com/learn",
+  "what_you_learn": [
+   "Python and pandas",
+   "Data visualization",
+   "Intro to ML",
+   "SQL for analysis"
+  ],
+  "who_for": "Beginners wanting short practical lessons.",
+  "tags": [
+   "kaggle",
+   "pandas",
+   "python",
+   "micro-courses"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "kaggle-ai-ethics",
+  "title": "Intro to AI Ethics (Kaggle)",
+  "provider": "Kaggle",
+  "description": "A short Kaggle course on bias, fairness and transparency in AI systems, with practical notebook exercises.",
+  "category": "ai-ethics",
+  "level": "Beginner",
+  "cost": "Free",
+  "format": "Platform",
+  "language": "English",
+  "duration": "",
+  "url": "https://www.kaggle.com/learn/intro-to-ai-ethics",
+  "what_you_learn": [
+   "Human-centered design for AI",
+   "Identifying AI bias",
+   "AI fairness",
+   "Model cards and transparency"
+  ],
+  "who_for": "Practitioners new to AI ethics.",
+  "tags": [
+   "ethics",
+   "fairness",
+   "bias",
+   "kaggle"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "ethics-fast-ai",
+  "title": "Practical Data Ethics",
+  "provider": "fast.ai",
+  "description": "A free course on ethical issues in data science and AI, with case studies. It covers disinformation, bias, privacy and accountability.",
+  "category": "ai-ethics",
+  "level": "Intermediate",
+  "cost": "Free",
+  "format": "Website",
+  "language": "English",
+  "duration": "",
+  "url": "https://ethics.fast.ai/",
+  "what_you_learn": [
+   "Case studies of harm",
+   "Bias and fairness",
+   "Privacy and surveillance",
+   "Accountability"
+  ],
+  "who_for": "Data scientists and engineers.",
+  "tags": [
+   "ethics",
+   "fast.ai",
+   "case studies",
+   "bias"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "google-responsible-ai",
+  "title": "Google Responsible AI Practices",
+  "provider": "Google",
+  "description": "Google's published recommended practices for building AI responsibly. Covers fairness, interpretability, privacy and safety.",
+  "category": "ai-ethics",
+  "level": "Intermediate",
+  "cost": "Free",
+  "format": "Website",
+  "language": "English",
+  "duration": "",
+  "url": "https://ai.google/responsibility/responsible-ai-practices/",
+  "what_you_learn": [
+   "Human-centered design",
+   "Fairness and bias testing",
+   "Interpretability",
+   "Privacy and safety"
+  ],
+  "who_for": "Product and ML teams.",
+  "tags": [
+   "responsible ai",
+   "google",
+   "fairness",
+   "practices"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "nist-ai-rmf",
+  "title": "NIST AI Risk Management Framework",
+  "provider": "NIST",
+  "description": "A US government framework for managing AI risks, with playbook and resources. Organizes work into govern, map, measure and manage.",
+  "category": "ai-ethics",
+  "level": "Advanced",
+  "cost": "Free",
+  "format": "Website",
+  "language": "English",
+  "duration": "",
+  "url": "https://www.nist.gov/itl/ai-risk-management-framework",
+  "what_you_learn": [
+   "AI risk concepts",
+   "Govern/map/measure/manage",
+   "Trustworthy AI characteristics",
+   "Using the playbook"
+  ],
+  "who_for": "Risk, compliance and AI governance professionals.",
+  "tags": [
+   "governance",
+   "risk",
+   "nist",
+   "framework"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "unesco-ai-ethics",
+  "title": "UNESCO Recommendation on the Ethics of AI",
+  "provider": "UNESCO",
+  "description": "UNESCO's global standard-setting document on AI ethics, with explainers and resources. It sets out values and policy actions.",
+  "category": "ai-ethics",
+  "level": "Intermediate",
+  "cost": "Free",
+  "format": "Website",
+  "language": "English",
+  "duration": "",
+  "url": "https://www.unesco.org/en/artificial-intelligence/recommendation-ethics",
+  "what_you_learn": [
+   "Core ethical values",
+   "Policy action areas",
+   "Human rights and AI",
+   "Global governance"
+  ],
+  "who_for": "Policy makers, educators and students of AI ethics.",
+  "tags": [
+   "unesco",
+   "policy",
+   "ethics",
+   "governance"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "microsoft-responsible-ai",
+  "title": "Microsoft Responsible AI",
+  "provider": "Microsoft",
+  "description": "Microsoft's resource hub on its responsible AI principles, standard and tools.",
+  "category": "ai-ethics",
+  "level": "Intermediate",
+  "cost": "Free",
+  "format": "Website",
+  "language": "English",
+  "duration": "",
+  "url": "https://www.microsoft.com/en-us/ai/responsible-ai",
+  "what_you_learn": [
+   "Responsible AI principles",
+   "Governance approaches",
+   "Tooling for fairness",
+   "Transparency practices"
+  ],
+  "who_for": "Teams building AI products.",
+  "tags": [
+   "responsible ai",
+   "microsoft",
+   "principles",
+   "tools"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "ai-incident-database",
+  "title": "AI Incident Database",
+  "provider": "Responsible AI Collaborative",
+  "description": "A searchable database of real-world AI harms and failures. Useful for learning from past incidents.",
+  "category": "ai-ethics",
+  "level": "Beginner",
+  "cost": "Free",
+  "format": "Website",
+  "language": "English",
+  "duration": "",
+  "url": "https://incidentdatabase.ai/",
+  "what_you_learn": [
+   "Real AI failure cases",
+   "Common harm patterns",
+   "Reporting incidents",
+   "Lessons for design"
+  ],
+  "who_for": "Anyone studying AI risk.",
+  "tags": [
+   "incidents",
+   "safety",
+   "case studies",
+   "risk"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "montreal-ai-ethics",
+  "title": "Montreal AI Ethics Institute",
+  "provider": "Montreal AI Ethics Institute",
+  "description": "A nonprofit publishing research summaries and a newsletter on AI ethics.",
+  "category": "ai-ethics",
+  "level": "Intermediate",
+  "cost": "Free",
+  "format": "Website",
+  "language": "English",
+  "duration": "",
+  "url": "https://montrealethics.ai/",
+  "what_you_learn": [
+   "Ethics research summaries",
+   "Policy developments",
+   "Community perspectives",
+   "Practical frameworks"
+  ],
+  "who_for": "Readers following AI ethics.",
+  "tags": [
+   "ethics",
+   "research",
+   "newsletter",
+   "policy"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "yt-3blue1brown",
+  "title": "3Blue1Brown",
+  "provider": "3Blue1Brown (Grant Sanderson)",
+  "description": "Visual math explanations, including a well-known neural networks and transformers series. Great for building intuition.",
+  "category": "machine-learning",
+  "level": "Beginner",
+  "cost": "Free",
+  "format": "YouTube",
+  "language": "English",
+  "duration": "",
+  "url": "https://www.youtube.com/@3blue1brown",
+  "what_you_learn": [
+   "How neural networks learn",
+   "Gradient descent visually",
+   "Transformers and attention",
+   "Linear algebra intuition"
+  ],
+  "who_for": "Visual learners.",
+  "tags": [
+   "math",
+   "neural networks",
+   "visual",
+   "intuition"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "yt-karpathy",
+  "title": "Andrej Karpathy",
+  "provider": "Andrej Karpathy",
+  "description": "Long-form, code-along lectures on building neural networks and language models from scratch.",
+  "category": "generative-ai",
+  "level": "Intermediate",
+  "cost": "Free",
+  "format": "YouTube",
+  "language": "English",
+  "duration": "",
+  "url": "https://www.youtube.com/@AndrejKarpathy",
+  "what_you_learn": [
+   "Backpropagation from scratch",
+   "Building a GPT",
+   "Tokenization",
+   "How LLMs work"
+  ],
+  "who_for": "Programmers wanting deep understanding.",
+  "tags": [
+   "llm",
+   "from scratch",
+   "gpt",
+   "deep learning"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "karpathy-zero-to-hero",
+  "title": "Neural Networks: Zero to Hero",
+  "provider": "Andrej Karpathy",
+  "description": "Karpathy's lecture series that builds from micrograd to a GPT with code. Index page links all videos.",
+  "category": "machine-learning",
+  "level": "Intermediate",
+  "cost": "Free",
+  "format": "Website",
+  "language": "English",
+  "duration": "",
+  "url": "https://karpathy.ai/zero-to-hero.html",
+  "what_you_learn": [
+   "Autograd engine",
+   "Language modelling",
+   "MLP and batch norm",
+   "GPT implementation"
+  ],
+  "who_for": "Python programmers.",
+  "tags": [
+   "karpathy",
+   "gpt",
+   "backprop",
+   "from scratch"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "yt-freecodecamp",
+  "title": "freeCodeCamp.org",
+  "provider": "freeCodeCamp",
+  "description": "A large channel with free long-form courses, including many on Python, ML and AI.",
+  "category": "coding-with-ai",
+  "level": "Beginner",
+  "cost": "Free",
+  "format": "YouTube",
+  "language": "English",
+  "duration": "",
+  "url": "https://www.youtube.com/@freecodecamp",
+  "what_you_learn": [
+   "Python for ML",
+   "Deep learning courses",
+   "LLM app building",
+   "Data science projects"
+  ],
+  "who_for": "Self-taught coders.",
+  "tags": [
+   "freecodecamp",
+   "python",
+   "courses",
+   "ml"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "yt-statquest",
+  "title": "StatQuest with Josh Starmer",
+  "provider": "StatQuest",
+  "description": "Friendly explanations of statistics and machine learning concepts.",
+  "category": "data-science",
+  "level": "Beginner",
+  "cost": "Free",
+  "format": "YouTube",
+  "language": "English",
+  "duration": "",
+  "url": "https://www.youtube.com/@statquest",
+  "what_you_learn": [
+   "Statistics fundamentals",
+   "Regression and trees",
+   "Neural networks",
+   "ML evaluation"
+  ],
+  "who_for": "Beginners who find stats intimidating.",
+  "tags": [
+   "statistics",
+   "ml",
+   "explainers",
+   "beginner"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "yt-sentdex",
+  "title": "sentdex",
+  "provider": "Harrison Kinsley",
+  "description": "Python programming and machine learning tutorials, including neural networks from scratch.",
+  "category": "machine-learning",
+  "level": "Intermediate",
+  "cost": "Free",
+  "format": "YouTube",
+  "language": "English",
+  "duration": "",
+  "url": "https://www.youtube.com/@sentdex",
+  "what_you_learn": [
+   "Python ML projects",
+   "Neural nets from scratch",
+   "Practical tutorials",
+   "Self-driving experiments"
+  ],
+  "who_for": "Python learners.",
+  "tags": [
+   "python",
+   "neural networks",
+   "tutorials",
+   "projects"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "yt-two-minute-papers",
+  "title": "Two Minute Papers",
+  "provider": "Károly Zsolnai-Fehér",
+  "description": "Short summaries of recent AI and graphics research papers.",
+  "category": "generative-ai",
+  "level": "Beginner",
+  "cost": "Free",
+  "format": "YouTube",
+  "language": "English",
+  "duration": "",
+  "url": "https://www.youtube.com/@TwoMinutePapers",
+  "what_you_learn": [
+   "Recent research highlights",
+   "Generative models",
+   "Simulation and graphics",
+   "Reading the research landscape"
+  ],
+  "who_for": "People who want to track AI progress.",
+  "tags": [
+   "research",
+   "papers",
+   "news",
+   "graphics"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "yt-yannic-kilcher",
+  "title": "Yannic Kilcher",
+  "provider": "Yannic Kilcher",
+  "description": "Deep dives into machine learning papers and AI news.",
+  "category": "machine-learning",
+  "level": "Advanced",
+  "cost": "Free",
+  "format": "YouTube",
+  "language": "English",
+  "duration": "",
+  "url": "https://www.youtube.com/@YannicKilcher",
+  "what_you_learn": [
+   "Paper walkthroughs",
+   "Transformer variants",
+   "Research critique",
+   "ML news"
+  ],
+  "who_for": "Learners comfortable with ML.",
+  "tags": [
+   "papers",
+   "research",
+   "transformers",
+   "advanced"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "yt-computerphile",
+  "title": "Computerphile",
+  "provider": "University of Nottingham",
+  "description": "Accessible computer science talks including many on AI, language models and safety.",
+  "category": "ai-basics",
+  "level": "Beginner",
+  "cost": "Free",
+  "format": "YouTube",
+  "language": "English",
+  "duration": "",
+  "url": "https://www.youtube.com/@Computerphile",
+  "what_you_learn": [
+   "Explaining AI concepts",
+   "AI safety discussions",
+   "How language models work",
+   "CS foundations"
+  ],
+  "who_for": "Curious viewers.",
+  "tags": [
+   "explainers",
+   "computer science",
+   "safety",
+   "talks"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "yt-ai-explained",
+  "title": "AI Explained",
+  "provider": "AI Explained",
+  "description": "Analysis of new AI models, benchmarks and papers.",
+  "category": "generative-ai",
+  "level": "Intermediate",
+  "cost": "Free",
+  "format": "YouTube",
+  "language": "English",
+  "duration": "",
+  "url": "https://www.youtube.com/@aiexplained-official",
+  "what_you_learn": [
+   "Model comparisons",
+   "Benchmark reading",
+   "Capability analysis",
+   "AI news"
+  ],
+  "who_for": "Followers of frontier AI.",
+  "tags": [
+   "news",
+   "benchmarks",
+   "llm",
+   "analysis"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "yt-deeplearningai",
+  "title": "DeepLearning.AI YouTube",
+  "provider": "DeepLearning.AI",
+  "description": "Channel with talks, interviews and course snippets from DeepLearning.AI.",
+  "category": "machine-learning",
+  "level": "Beginner",
+  "cost": "Free",
+  "format": "YouTube",
+  "language": "English",
+  "duration": "",
+  "url": "https://www.youtube.com/@Deeplearningai",
+  "what_you_learn": [
+   "Talks from AI leaders",
+   "Course previews",
+   "Applied AI discussions",
+   "Industry trends"
+  ],
+  "who_for": "Learners following Andrew Ng's ecosystem.",
+  "tags": [
+   "deeplearning.ai",
+   "andrew ng",
+   "talks",
+   "ai"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "yt-stanford-online",
+  "title": "Stanford Online",
+  "provider": "Stanford University",
+  "description": "Stanford's channel hosting full lecture series, including AI and ML courses.",
+  "category": "machine-learning",
+  "level": "Advanced",
+  "cost": "Free",
+  "format": "YouTube",
+  "language": "English",
+  "duration": "",
+  "url": "https://www.youtube.com/@stanfordonline",
+  "what_you_learn": [
+   "Full university lectures",
+   "Deep learning",
+   "NLP",
+   "Reinforcement learning"
+  ],
+  "who_for": "Serious self-learners.",
+  "tags": [
+   "stanford",
+   "lectures",
+   "university",
+   "ml"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "yt-mit-ocw",
+  "title": "MIT OpenCourseWare",
+  "provider": "MIT",
+  "description": "MIT's open lectures, including courses on AI, statistics and linear algebra.",
+  "category": "machine-learning",
+  "level": "Advanced",
+  "cost": "Free",
+  "format": "YouTube",
+  "language": "English",
+  "duration": "",
+  "url": "https://www.youtube.com/@mitocw",
+  "what_you_learn": [
+   "Linear algebra",
+   "Probability and stats",
+   "AI courses",
+   "Algorithms"
+  ],
+  "who_for": "Learners wanting rigorous lectures.",
+  "tags": [
+   "mit",
+   "lectures",
+   "math",
+   "university"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "yt-anthropic",
+  "title": "Anthropic YouTube",
+  "provider": "Anthropic",
+  "description": "Anthropic's channel with talks, product walkthroughs and research discussions.",
+  "category": "ai-basics",
+  "level": "Beginner",
+  "cost": "Free",
+  "format": "YouTube",
+  "language": "English",
+  "duration": "",
+  "url": "https://www.youtube.com/@anthropic-ai",
+  "what_you_learn": [
+   "Claude product demos",
+   "Interpretability talks",
+   "AI safety topics",
+   "Developer sessions"
+  ],
+  "who_for": "Anyone following Claude and AI safety.",
+  "tags": [
+   "anthropic",
+   "claude",
+   "safety",
+   "talks"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "yt-openai",
+  "title": "OpenAI YouTube",
+  "provider": "OpenAI",
+  "description": "OpenAI's official channel with product demos and announcements.",
+  "category": "ai-basics",
+  "level": "Beginner",
+  "cost": "Free",
+  "format": "YouTube",
+  "language": "English",
+  "duration": "",
+  "url": "https://www.youtube.com/@OpenAI",
+  "what_you_learn": [
+   "Product capabilities",
+   "Feature walkthroughs",
+   "Developer updates",
+   "Research highlights"
+  ],
+  "who_for": "Users following OpenAI products.",
+  "tags": [
+   "openai",
+   "chatgpt",
+   "demos",
+   "announcements"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "yt-google-deepmind",
+  "title": "Google DeepMind",
+  "provider": "Google DeepMind",
+  "description": "Videos on DeepMind research, science applications and podcasts.",
+  "category": "ai-basics",
+  "level": "Beginner",
+  "cost": "Free",
+  "format": "YouTube",
+  "language": "English",
+  "duration": "",
+  "url": "https://www.youtube.com/@googledeepmind",
+  "what_you_learn": [
+   "AI in science",
+   "Research overviews",
+   "Interviews",
+   "Model announcements"
+  ],
+  "who_for": "General audience.",
+  "tags": [
+   "deepmind",
+   "research",
+   "science",
+   "podcast"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "yt-nvidia-developer",
+  "title": "NVIDIA Developer",
+  "provider": "NVIDIA",
+  "description": "Talks and tutorials on GPU computing, deep learning and generative AI.",
+  "category": "machine-learning",
+  "level": "Intermediate",
+  "cost": "Free",
+  "format": "YouTube",
+  "language": "English",
+  "duration": "",
+  "url": "https://www.youtube.com/@NVIDIADeveloper",
+  "what_you_learn": [
+   "GPU computing",
+   "Deep learning frameworks",
+   "Generative AI workflows",
+   "Conference talks"
+  ],
+  "who_for": "Developers using GPUs.",
+  "tags": [
+   "nvidia",
+   "gpu",
+   "deep learning",
+   "developers"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "yt-assemblyai",
+  "title": "AssemblyAI",
+  "provider": "AssemblyAI",
+  "description": "Tutorials on speech recognition, NLP and deep learning with Python.",
+  "category": "machine-learning",
+  "level": "Intermediate",
+  "cost": "Free",
+  "format": "YouTube",
+  "language": "English",
+  "duration": "",
+  "url": "https://www.youtube.com/@AssemblyAI",
+  "what_you_learn": [
+   "Speech-to-text",
+   "NLP projects",
+   "PyTorch tutorials",
+   "ML explainers"
+  ],
+  "who_for": "Python developers.",
+  "tags": [
+   "speech",
+   "nlp",
+   "pytorch",
+   "tutorials"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "yt-patrick-loeber",
+  "title": "Patrick Loeber",
+  "provider": "Patrick Loeber",
+  "description": "Python, PyTorch and ML tutorials.",
+  "category": "machine-learning",
+  "level": "Beginner",
+  "cost": "Free",
+  "format": "YouTube",
+  "language": "English",
+  "duration": "",
+  "url": "https://www.youtube.com/@patloeber",
+  "what_you_learn": [
+   "PyTorch basics",
+   "ML algorithms from scratch",
+   "Python tips",
+   "Project tutorials"
+  ],
+  "who_for": "Beginner-intermediate Python learners.",
+  "tags": [
+   "pytorch",
+   "python",
+   "tutorials",
+   "ml"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "yt-luke-barousse",
+  "title": "Luke Barousse",
+  "provider": "Luke Barousse",
+  "description": "Data analytics and data science career and skill videos.",
+  "category": "data-science",
+  "level": "Beginner",
+  "cost": "Free",
+  "format": "YouTube",
+  "language": "English",
+  "duration": "",
+  "url": "https://www.youtube.com/@LukeBarousse",
+  "what_you_learn": [
+   "Data analyst skills",
+   "Python for data",
+   "SQL",
+   "Career guidance"
+  ],
+  "who_for": "Aspiring data analysts.",
+  "tags": [
+   "data analytics",
+   "career",
+   "python",
+   "sql"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "yt-alex-the-analyst",
+  "title": "Alex The Analyst",
+  "provider": "Alex Freberg",
+  "description": "Tutorials on SQL, Excel, Tableau, Power BI and Python for analysts.",
+  "category": "data-science",
+  "level": "Beginner",
+  "cost": "Free",
+  "format": "YouTube",
+  "language": "English",
+  "duration": "",
+  "url": "https://www.youtube.com/@AlexTheAnalyst",
+  "what_you_learn": [
+   "SQL queries",
+   "Excel and Power BI",
+   "Tableau",
+   "Portfolio projects"
+  ],
+  "who_for": "Beginner analysts.",
+  "tags": [
+   "sql",
+   "power bi",
+   "tableau",
+   "analytics"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "yt-dataprofessor",
+  "title": "Data Professor",
+  "provider": "Chanin Nantasenamat",
+  "description": "Data science and ML tutorials, including building web apps with Streamlit.",
+  "category": "data-science",
+  "level": "Beginner",
+  "cost": "Free",
+  "format": "YouTube",
+  "language": "English",
+  "duration": "",
+  "url": "https://www.youtube.com/@DataProfessor",
+  "what_you_learn": [
+   "Data science workflow",
+   "Streamlit apps",
+   "ML projects",
+   "Bioinformatics examples"
+  ],
+  "who_for": "Beginners wanting practical projects.",
+  "tags": [
+   "data science",
+   "streamlit",
+   "python",
+   "projects"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "yt-tech-with-tim",
+  "title": "Tech With Tim",
+  "provider": "Tim Ruscica",
+  "description": "Python programming tutorials, with series on AI and ML.",
+  "category": "coding-with-ai",
+  "level": "Beginner",
+  "cost": "Free",
+  "format": "YouTube",
+  "language": "English",
+  "duration": "",
+  "url": "https://www.youtube.com/@TechWithTim",
+  "what_you_learn": [
+   "Python fundamentals",
+   "ML tutorials",
+   "Project-based learning",
+   "Software tips"
+  ],
+  "who_for": "Beginner programmers.",
+  "tags": [
+   "python",
+   "tutorials",
+   "beginner",
+   "ml"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "yt-neuralnine",
+  "title": "NeuralNine",
+  "provider": "NeuralNine",
+  "description": "Python, ML and algorithm tutorials.",
+  "category": "machine-learning",
+  "level": "Intermediate",
+  "cost": "Free",
+  "format": "YouTube",
+  "language": "English",
+  "duration": "",
+  "url": "https://www.youtube.com/@NeuralNine",
+  "what_you_learn": [
+   "Python libraries",
+   "ML algorithms",
+   "Neural nets",
+   "Data tools"
+  ],
+  "who_for": "Python learners.",
+  "tags": [
+   "python",
+   "ml",
+   "tutorials",
+   "libraries"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "yt-codebasics",
+  "title": "codebasics",
+  "provider": "Dhaval Patel",
+  "description": "Easy-to-follow data science and ML tutorials with Python.",
+  "category": "data-science",
+  "level": "Beginner",
+  "cost": "Free",
+  "format": "YouTube",
+  "language": "English",
+  "duration": "",
+  "url": "https://www.youtube.com/@codebasics",
+  "what_you_learn": [
+   "ML fundamentals",
+   "Python for data",
+   "Deep learning basics",
+   "Career advice"
+  ],
+  "who_for": "Beginners in data science.",
+  "tags": [
+   "machine learning",
+   "python",
+   "tutorials",
+   "career"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "yt-matt-wolfe",
+  "title": "Matt Wolfe",
+  "provider": "Matt Wolfe",
+  "description": "Weekly news and tool demos covering the latest AI products.",
+  "category": "tools-tutorials",
+  "level": "Beginner",
+  "cost": "Free",
+  "format": "YouTube",
+  "language": "English",
+  "duration": "",
+  "url": "https://www.youtube.com/@mreflow",
+  "what_you_learn": [
+   "New AI tools",
+   "Tool demos",
+   "AI news",
+   "Workflow ideas"
+  ],
+  "who_for": "Non-technical users keeping up with tools.",
+  "tags": [
+   "ai tools",
+   "news",
+   "demos",
+   "productivity"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "yt-langchain",
+  "title": "LangChain YouTube",
+  "provider": "LangChain",
+  "description": "Tutorials and talks on building LLM apps and agents with LangChain and LangGraph.",
+  "category": "coding-with-ai",
+  "level": "Intermediate",
+  "cost": "Free",
+  "format": "YouTube",
+  "language": "English",
+  "duration": "",
+  "url": "https://www.youtube.com/@LangChain",
+  "what_you_learn": [
+   "LangChain basics",
+   "Agents with LangGraph",
+   "RAG patterns",
+   "Evaluation tooling"
+  ],
+  "who_for": "Developers building LLM apps.",
+  "tags": [
+   "langchain",
+   "agents",
+   "rag",
+   "llm"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "yt-campusx",
+  "title": "CampusX",
+  "provider": "CampusX",
+  "description": "Hindi-language channel with long playlists on machine learning, deep learning and data science. Explains concepts with intuition and code.",
+  "category": "machine-learning",
+  "level": "Intermediate",
+  "cost": "Free",
+  "format": "YouTube",
+  "language": "Hindi",
+  "duration": "",
+  "url": "https://www.youtube.com/@campusx-official",
+  "what_you_learn": [
+   "Machine learning algorithms",
+   "Deep learning",
+   "Data science tooling",
+   "Interview prep"
+  ],
+  "who_for": "Hindi speakers wanting detailed ML teaching.",
+  "tags": [
+   "hindi",
+   "machine learning",
+   "deep learning",
+   "data science"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "yt-codewithharry",
+  "title": "CodeWithHarry",
+  "provider": "Haris Ali Khan (CodeWithHarry)",
+  "description": "Popular Hindi programming channel covering Python and web development, useful as a base for AI and ML.",
+  "category": "coding-with-ai",
+  "level": "Beginner",
+  "cost": "Free",
+  "format": "YouTube",
+  "language": "Hindi",
+  "duration": "",
+  "url": "https://www.youtube.com/@CodeWithHarry",
+  "what_you_learn": [
+   "Python basics",
+   "Web development",
+   "Programming projects",
+   "Developer career tips"
+  ],
+  "who_for": "Hindi-speaking beginners starting to code.",
+  "tags": [
+   "hindi",
+   "python",
+   "programming",
+   "beginner"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "yt-apna-college",
+  "title": "Apna College",
+  "provider": "Apna College",
+  "description": "Hindi channel with programming, DSA and career content, including tutorials on Python and data topics.",
+  "category": "coding-with-ai",
+  "level": "Beginner",
+  "cost": "Free",
+  "format": "YouTube",
+  "language": "Hindi",
+  "duration": "",
+  "url": "https://www.youtube.com/@ApnaCollegeOfficial",
+  "what_you_learn": [
+   "Programming foundations",
+   "DSA",
+   "Web dev",
+   "Career guidance"
+  ],
+  "who_for": "Hindi-speaking students.",
+  "tags": [
+   "hindi",
+   "dsa",
+   "programming",
+   "students"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "yt-krish-naik-hindi",
+  "title": "Krish Naik Hindi",
+  "provider": "Krish Naik",
+  "description": "Hindi sibling of Krish Naik's channel with ML, deep learning and generative AI tutorials.",
+  "category": "machine-learning",
+  "level": "Beginner",
+  "cost": "Free",
+  "format": "YouTube",
+  "language": "Hindi",
+  "duration": "",
+  "url": "https://www.youtube.com/@krishnaikhindi",
+  "what_you_learn": [
+   "ML basics",
+   "Deep learning",
+   "Generative AI",
+   "Data science projects"
+  ],
+  "who_for": "Hindi speakers learning ML.",
+  "tags": [
+   "hindi",
+   "krish naik",
+   "ml",
+   "genai"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "yt-krish-naik",
+  "title": "Krish Naik",
+  "provider": "Krish Naik",
+  "description": "Large channel with ML, deep learning, MLOps and generative AI tutorials in English.",
+  "category": "machine-learning",
+  "level": "Beginner",
+  "cost": "Free",
+  "format": "YouTube",
+  "language": "English",
+  "duration": "",
+  "url": "https://www.youtube.com/@krishnaik06",
+  "what_you_learn": [
+   "ML algorithms",
+   "Deep learning",
+   "Generative AI apps",
+   "Interview prep"
+  ],
+  "who_for": "Aspiring data scientists.",
+  "tags": [
+   "ml",
+   "deep learning",
+   "genai",
+   "mlops"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "yt-chai-aur-code",
+  "title": "Chai aur Code",
+  "provider": "Hitesh Choudhary",
+  "description": "Hindi channel with programming and web development courses, and growing content on AI tools and development.",
+  "category": "coding-with-ai",
+  "level": "Beginner",
+  "cost": "Free",
+  "format": "YouTube",
+  "language": "Hindi",
+  "duration": "",
+  "url": "https://www.youtube.com/@chaiaurcode",
+  "what_you_learn": [
+   "JavaScript and web dev",
+   "Backend basics",
+   "Git and tooling",
+   "AI-assisted development"
+  ],
+  "who_for": "Hindi-speaking developers.",
+  "tags": [
+   "hindi",
+   "web dev",
+   "javascript",
+   "tools"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "yt-wscube-tech",
+  "title": "WsCube Tech",
+  "provider": "WsCube Tech",
+  "description": "Indian channel with Hindi tutorials on programming, data and tech skills.",
+  "category": "coding-with-ai",
+  "level": "Beginner",
+  "cost": "Free",
+  "format": "YouTube",
+  "language": "Hindi",
+  "duration": "",
+  "url": "https://www.youtube.com/@WsCubeTech",
+  "what_you_learn": [
+   "Programming basics",
+   "Data skills",
+   "Tech career paths",
+   "Tool tutorials"
+  ],
+  "who_for": "Hindi-speaking learners.",
+  "tags": [
+   "hindi",
+   "tutorials",
+   "tech skills",
+   "india"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "yt-telusko",
+  "title": "Telusko",
+  "provider": "Navin Reddy",
+  "description": "Programming tutorials with Python, Java and ML/AI topics.",
+  "category": "coding-with-ai",
+  "level": "Beginner",
+  "cost": "Free",
+  "format": "YouTube",
+  "language": "English",
+  "duration": "",
+  "url": "https://www.youtube.com/@Telusko",
+  "what_you_learn": [
+   "Python",
+   "Java",
+   "ML intro",
+   "Developer topics"
+  ],
+  "who_for": "Beginner programmers.",
+  "tags": [
+   "python",
+   "java",
+   "ml",
+   "tutorials"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "stanford-cs229",
+  "title": "Stanford CS229: Machine Learning",
+  "provider": "Stanford University",
+  "description": "Course page for Stanford's graduate ML course with notes and materials. Strong on mathematical foundations.",
+  "category": "machine-learning",
+  "level": "Advanced",
+  "cost": "Free",
+  "format": "Website",
+  "language": "English",
+  "duration": "",
+  "url": "https://cs229.stanford.edu/",
+  "what_you_learn": [
+   "Supervised learning",
+   "Generative models",
+   "Unsupervised learning",
+   "Learning theory"
+  ],
+  "who_for": "Learners with solid maths.",
+  "tags": [
+   "stanford",
+   "ml",
+   "theory",
+   "university"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "stanford-cs224n",
+  "title": "Stanford CS224N: NLP with Deep Learning",
+  "provider": "Stanford University",
+  "description": "Course page for Stanford's NLP with deep learning course, covering word vectors to transformers and LLMs.",
+  "category": "machine-learning",
+  "level": "Advanced",
+  "cost": "Free",
+  "format": "Website",
+  "language": "English",
+  "duration": "",
+  "url": "https://web.stanford.edu/class/cs224n/",
+  "what_you_learn": [
+   "Word embeddings",
+   "Transformers",
+   "Pretraining",
+   "Language model applications"
+  ],
+  "who_for": "Advanced learners interested in NLP.",
+  "tags": [
+   "nlp",
+   "stanford",
+   "transformers",
+   "llm"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "stanford-cs231n",
+  "title": "Stanford CS231n: Deep Learning for Computer Vision",
+  "provider": "Stanford University",
+  "description": "Course page for Stanford's computer vision with deep learning class, with notes and assignments.",
+  "category": "machine-learning",
+  "level": "Advanced",
+  "cost": "Free",
+  "format": "Website",
+  "language": "English",
+  "duration": "",
+  "url": "https://cs231n.stanford.edu/",
+  "what_you_learn": [
+   "CNNs",
+   "Image classification",
+   "Detection and segmentation",
+   "Generative models"
+  ],
+  "who_for": "Learners with ML background.",
+  "tags": [
+   "computer vision",
+   "cnn",
+   "stanford",
+   "deep learning"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "stanford-cs25",
+  "title": "Stanford CS25: Transformers United",
+  "provider": "Stanford University",
+  "description": "A seminar series on transformers with guest researcher talks.",
+  "category": "generative-ai",
+  "level": "Advanced",
+  "cost": "Free",
+  "format": "Website",
+  "language": "English",
+  "duration": "",
+  "url": "https://web.stanford.edu/class/cs25/",
+  "what_you_learn": [
+   "Transformer architecture",
+   "LLM research",
+   "Applications",
+   "Frontier talks"
+  ],
+  "who_for": "Advanced learners.",
+  "tags": [
+   "transformers",
+   "seminar",
+   "research",
+   "llm"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "stanford-cs336",
+  "title": "Stanford CS336: Language Modeling from Scratch",
+  "provider": "Stanford University",
+  "description": "A course on building language models end to end, including data, training and systems.",
+  "category": "generative-ai",
+  "level": "Advanced",
+  "cost": "Free",
+  "format": "Website",
+  "language": "English",
+  "duration": "",
+  "url": "https://stanford-cs336.github.io/spring2025/",
+  "what_you_learn": [
+   "Tokenization",
+   "Model training",
+   "Systems efficiency",
+   "Data pipelines"
+  ],
+  "who_for": "Strong programmers wanting depth.",
+  "tags": [
+   "llm",
+   "from scratch",
+   "stanford",
+   "systems"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "mit-6s191",
+  "title": "MIT 6.S191 Introduction to Deep Learning",
+  "provider": "MIT",
+  "description": "MIT's short intensive deep learning course with lectures and software labs.",
+  "category": "machine-learning",
+  "level": "Intermediate",
+  "cost": "Free",
+  "format": "Website",
+  "language": "English",
+  "duration": "",
+  "url": "https://introtodeeplearning.com/",
+  "what_you_learn": [
+   "Deep learning basics",
+   "CNNs",
+   "Generative models",
+   "Reinforcement learning"
+  ],
+  "who_for": "Learners with basic programming.",
+  "tags": [
+   "mit",
+   "deep learning",
+   "labs",
+   "lectures"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "berkeley-cs188",
+  "title": "UC Berkeley CS188: Introduction to AI",
+  "provider": "UC Berkeley",
+  "description": "Berkeley's classic AI course with Pacman-themed projects.",
+  "category": "ai-basics",
+  "level": "Intermediate",
+  "cost": "Free",
+  "format": "Website",
+  "language": "English",
+  "duration": "",
+  "url": "https://inst.eecs.berkeley.edu/~cs188/",
+  "what_you_learn": [
+   "Search",
+   "Constraint satisfaction",
+   "Probabilistic reasoning",
+   "Reinforcement learning"
+  ],
+  "who_for": "CS students.",
+  "tags": [
+   "berkeley",
+   "pacman",
+   "ai",
+   "university"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "berkeley-llm-agents",
+  "title": "Berkeley LLM Agents",
+  "provider": "UC Berkeley",
+  "description": "MOOC-style course on LLM agents with guest lectures.",
+  "category": "coding-with-ai",
+  "level": "Advanced",
+  "cost": "Free",
+  "format": "Website",
+  "language": "English",
+  "duration": "",
+  "url": "https://llmagents-learning.org/",
+  "what_you_learn": [
+   "Agent frameworks",
+   "Reasoning",
+   "Tool use",
+   "Safety"
+  ],
+  "who_for": "Developers and researchers.",
+  "tags": [
+   "agents",
+   "berkeley",
+   "llm",
+   "mooc"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "d2l",
+  "title": "Dive into Deep Learning",
+  "provider": "Zhang, Lipton, Li, Smola",
+  "description": "Interactive open textbook with code in multiple frameworks.",
+  "category": "machine-learning",
+  "level": "Intermediate",
+  "cost": "Free",
+  "format": "Website",
+  "language": "English",
+  "duration": "",
+  "url": "https://d2l.ai/",
+  "what_you_learn": [
+   "Deep learning theory",
+   "PyTorch implementations",
+   "CNN and RNN",
+   "Attention"
+  ],
+  "who_for": "Students and practitioners.",
+  "tags": [
+   "textbook",
+   "deep learning",
+   "code",
+   "open"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "nn-deep-learning-book",
+  "title": "Neural Networks and Deep Learning",
+  "provider": "Michael Nielsen",
+  "description": "Free online book that explains neural networks with intuition and code.",
+  "category": "machine-learning",
+  "level": "Beginner",
+  "cost": "Free",
+  "format": "Website",
+  "language": "English",
+  "duration": "",
+  "url": "http://neuralnetworksanddeeplearning.com/",
+  "what_you_learn": [
+   "Neural net basics",
+   "Backprop",
+   "Improving learning",
+   "Intuition for deep nets"
+  ],
+  "who_for": "Beginners wanting a book.",
+  "tags": [
+   "book",
+   "neural networks",
+   "backprop",
+   "intuition"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "full-stack-deep-learning",
+  "title": "Full Stack Deep Learning",
+  "provider": "Full Stack Deep Learning",
+  "description": "Course materials on taking ML products to production.",
+  "category": "machine-learning",
+  "level": "Advanced",
+  "cost": "Free",
+  "format": "Website",
+  "language": "English",
+  "duration": "",
+  "url": "https://fullstackdeeplearning.com/",
+  "what_you_learn": [
+   "Project planning",
+   "Data management",
+   "Deployment",
+   "Monitoring"
+  ],
+  "who_for": "ML engineers.",
+  "tags": [
+   "mlops",
+   "production",
+   "fsdl",
+   "engineering"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "made-with-ml",
+  "title": "Made With ML",
+  "provider": "Goku Mohandas",
+  "description": "A free guide on MLOps and building production ML systems.",
+  "category": "machine-learning",
+  "level": "Intermediate",
+  "cost": "Free",
+  "format": "Website",
+  "language": "English",
+  "duration": "",
+  "url": "https://madewithml.com/",
+  "what_you_learn": [
+   "MLOps",
+   "Experiment tracking",
+   "Testing ML code",
+   "Deployment"
+  ],
+  "who_for": "ML engineers.",
+  "tags": [
+   "mlops",
+   "production",
+   "python",
+   "guide"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "ml-zoomcamp",
+  "title": "Machine Learning Zoomcamp",
+  "provider": "DataTalks.Club",
+  "description": "A free practical ML course with projects and community support.",
+  "category": "machine-learning",
+  "level": "Intermediate",
+  "cost": "Free",
+  "format": "Website",
+  "language": "English",
+  "duration": "",
+  "url": "https://github.com/DataTalksClub/machine-learning-zoomcamp",
+  "what_you_learn": [
+   "ML fundamentals",
+   "Model deployment",
+   "Capstone project",
+   "Tooling"
+  ],
+  "who_for": "Learners wanting structure.",
+  "tags": [
+   "zoomcamp",
+   "ml",
+   "deployment",
+   "projects"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "llm-zoomcamp",
+  "title": "LLM Zoomcamp",
+  "provider": "DataTalks.Club",
+  "description": "A free course on building RAG and LLM applications.",
+  "category": "generative-ai",
+  "level": "Intermediate",
+  "cost": "Free",
+  "format": "Website",
+  "language": "English",
+  "duration": "",
+  "url": "https://github.com/DataTalksClub/llm-zoomcamp",
+  "what_you_learn": [
+   "RAG",
+   "Vector search",
+   "Evaluation",
+   "Monitoring"
+  ],
+  "who_for": "Developers.",
+  "tags": [
+   "rag",
+   "llm",
+   "zoomcamp",
+   "projects"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "nptel",
+  "title": "NPTEL",
+  "provider": "IIT and IISc faculty",
+  "description": "India's national platform of university-level courses including AI, ML and data science. Course videos are free; certificates need a paid exam.",
+  "category": "machine-learning",
+  "level": "Intermediate",
+  "cost": "Free + paid certificate",
+  "format": "Platform",
+  "language": "English",
+  "duration": "",
+  "url": "https://nptel.ac.in/",
+  "what_you_learn": [
+   "University-level AI/ML courses",
+   "Data science",
+   "Programming",
+   "Maths foundations"
+  ],
+  "who_for": "Indian students and anyone wanting structured courses.",
+  "tags": [
+   "nptel",
+   "india",
+   "iit",
+   "university"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "swayam",
+  "title": "SWAYAM",
+  "provider": "Government of India",
+  "description": "India's MOOC platform with courses from Indian institutions including AI topics.",
+  "category": "ai-basics",
+  "level": "Beginner",
+  "cost": "Free + paid certificate",
+  "format": "Platform",
+  "language": "English",
+  "duration": "",
+  "url": "https://swayam.gov.in/",
+  "what_you_learn": [
+   "AI foundations",
+   "Programming",
+   "Data courses",
+   "University credit options"
+  ],
+  "who_for": "Indian learners.",
+  "tags": [
+   "swayam",
+   "india",
+   "mooc",
+   "government"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "futureskills-prime",
+  "title": "FutureSkills Prime",
+  "provider": "MeitY & NASSCOM",
+  "description": "Indian government skilling platform with emerging-technology courses including AI.",
+  "category": "ai-basics",
+  "level": "Beginner",
+  "cost": "Freemium",
+  "format": "Platform",
+  "language": "English",
+  "duration": "",
+  "url": "https://futureskillsprime.in/",
+  "what_you_learn": [
+   "AI basics",
+   "Data skills",
+   "Emerging tech",
+   "Career-aligned courses"
+  ],
+  "who_for": "Indian students and professionals.",
+  "tags": [
+   "india",
+   "skilling",
+   "nasscom",
+   "ai"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "ibm-skillsbuild",
+  "title": "IBM SkillsBuild",
+  "provider": "IBM",
+  "description": "IBM's learning platform with courses on AI, data and professional skills.",
+  "category": "ai-basics",
+  "level": "Beginner",
+  "cost": "Free",
+  "format": "Platform",
+  "language": "English",
+  "duration": "",
+  "url": "https://skillsbuild.org/",
+  "what_you_learn": [
+   "AI fundamentals",
+   "Data analytics",
+   "Professional skills",
+   "Cloud basics"
+  ],
+  "who_for": "Students and career changers.",
+  "tags": [
+   "ibm",
+   "skills",
+   "ai",
+   "beginner"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "aws-skill-builder",
+  "title": "AWS Skill Builder",
+  "provider": "Amazon Web Services",
+  "description": "AWS's learning center with courses and labs on ML and generative AI, with free and subscription content.",
+  "category": "machine-learning",
+  "level": "Intermediate",
+  "cost": "Freemium",
+  "format": "Platform",
+  "language": "English",
+  "duration": "",
+  "url": "https://skillbuilder.aws/",
+  "what_you_learn": [
+   "Amazon SageMaker",
+   "Generative AI on AWS",
+   "Cloud ML",
+   "Labs"
+  ],
+  "who_for": "Cloud practitioners.",
+  "tags": [
+   "aws",
+   "sagemaker",
+   "cloud",
+   "ml"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "aws-mlu",
+  "title": "AWS Machine Learning University",
+  "provider": "Amazon Web Services",
+  "description": "Amazon's public ML education resources, with courses and tutorials.",
+  "category": "machine-learning",
+  "level": "Intermediate",
+  "cost": "Free",
+  "format": "Website",
+  "language": "English",
+  "duration": "",
+  "url": "https://aws.amazon.com/machine-learning/mlu/",
+  "what_you_learn": [
+   "ML fundamentals",
+   "Deep learning",
+   "NLP",
+   "Tabular data"
+  ],
+  "who_for": "Learners.",
+  "tags": [
+   "aws",
+   "ml",
+   "education",
+   "courses"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "nvidia-dli",
+  "title": "NVIDIA Deep Learning Institute",
+  "provider": "NVIDIA",
+  "description": "Hands-on training in deep learning, accelerated computing and generative AI.",
+  "category": "machine-learning",
+  "level": "Intermediate",
+  "cost": "Freemium",
+  "format": "Platform",
+  "language": "English",
+  "duration": "",
+  "url": "https://www.nvidia.com/en-us/training/",
+  "what_you_learn": [
+   "GPU computing",
+   "Deep learning",
+   "Generative AI",
+   "Hands-on labs"
+  ],
+  "who_for": "Developers.",
+  "tags": [
+   "nvidia",
+   "gpu",
+   "training",
+   "labs"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "datacamp-ai",
+  "title": "DataCamp AI courses",
+  "provider": "DataCamp",
+  "description": "Interactive in-browser lessons on AI, ML and data science.",
+  "category": "data-science",
+  "level": "Beginner",
+  "cost": "Freemium",
+  "format": "Platform",
+  "language": "English",
+  "duration": "",
+  "url": "https://www.datacamp.com/category/artificial-intelligence",
+  "what_you_learn": [
+   "Python for AI",
+   "ML basics",
+   "LLM concepts",
+   "Hands-on exercises"
+  ],
+  "who_for": "Beginners.",
+  "tags": [
+   "datacamp",
+   "interactive",
+   "python",
+   "ai"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "codecademy-ai",
+  "title": "Codecademy AI courses",
+  "provider": "Codecademy",
+  "description": "Interactive lessons on AI and ML topics with coding exercises.",
+  "category": "coding-with-ai",
+  "level": "Beginner",
+  "cost": "Freemium",
+  "format": "Platform",
+  "language": "English",
+  "duration": "",
+  "url": "https://www.codecademy.com/catalog/subject/artificial-intelligence",
+  "what_you_learn": [
+   "Python for ML",
+   "AI concepts",
+   "Prompt basics",
+   "Projects"
+  ],
+  "who_for": "Beginners.",
+  "tags": [
+   "codecademy",
+   "interactive",
+   "python",
+   "ai"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "dataquest",
+  "title": "Dataquest",
+  "provider": "Dataquest",
+  "description": "Project-based data science and ML paths in the browser.",
+  "category": "data-science",
+  "level": "Beginner",
+  "cost": "Freemium",
+  "format": "Platform",
+  "language": "English",
+  "duration": "",
+  "url": "https://www.dataquest.io/",
+  "what_you_learn": [
+   "Python and SQL",
+   "Data analysis",
+   "ML",
+   "Projects"
+  ],
+  "who_for": "Career changers.",
+  "tags": [
+   "dataquest",
+   "python",
+   "sql",
+   "projects"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "analytics-vidhya",
+  "title": "Analytics Vidhya",
+  "provider": "Analytics Vidhya",
+  "description": "Indian data science community offering blogs, courses and tutorials.",
+  "category": "data-science",
+  "level": "Beginner",
+  "cost": "Freemium",
+  "format": "Website",
+  "language": "English",
+  "duration": "",
+  "url": "https://www.analyticsvidhya.com/",
+  "what_you_learn": [
+   "Data science tutorials",
+   "ML guides",
+   "GenAI content",
+   "Career help"
+  ],
+  "who_for": "Data science learners in India.",
+  "tags": [
+   "analytics vidhya",
+   "india",
+   "blog",
+   "courses"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "great-learning-academy",
+  "title": "Great Learning Academy",
+  "provider": "Great Learning",
+  "description": "Platform with short free courses on AI, ML and data topics.",
+  "category": "ai-basics",
+  "level": "Beginner",
+  "cost": "Freemium",
+  "format": "Platform",
+  "language": "English",
+  "duration": "",
+  "url": "https://www.mygreatlearning.com/academy",
+  "what_you_learn": [
+   "AI basics",
+   "Data skills",
+   "Python",
+   "ML intro"
+  ],
+  "who_for": "Beginners in India.",
+  "tags": [
+   "great learning",
+   "free courses",
+   "india",
+   "ml"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "trailhead",
+  "title": "Salesforce Trailhead",
+  "provider": "Salesforce",
+  "description": "Free gamified learning platform with trails on AI for business and Salesforce products.",
+  "category": "ai-for-business",
+  "level": "Beginner",
+  "cost": "Free",
+  "format": "Platform",
+  "language": "English",
+  "duration": "",
+  "url": "https://trailhead.salesforce.com/",
+  "what_you_learn": [
+   "AI in CRM",
+   "Data basics",
+   "Business use cases",
+   "Responsible AI"
+  ],
+  "who_for": "Business professionals.",
+  "tags": [
+   "salesforce",
+   "crm",
+   "business",
+   "trails"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "hubspot-academy",
+  "title": "HubSpot Academy",
+  "provider": "HubSpot",
+  "description": "Free marketing and sales training, including courses on using AI in marketing.",
+  "category": "ai-for-business",
+  "level": "Beginner",
+  "cost": "Free",
+  "format": "Platform",
+  "language": "English",
+  "duration": "",
+  "url": "https://academy.hubspot.com/",
+  "what_you_learn": [
+   "AI for marketing",
+   "Content workflows",
+   "Sales automation",
+   "Strategy"
+  ],
+  "who_for": "Marketers.",
+  "tags": [
+   "hubspot",
+   "marketing",
+   "ai",
+   "business"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "google-skillshop",
+  "title": "Google Skillshop",
+  "provider": "Google",
+  "description": "Google's training for its marketing and business products, including AI features.",
+  "category": "ai-for-business",
+  "level": "Beginner",
+  "cost": "Free",
+  "format": "Platform",
+  "language": "English",
+  "duration": "",
+  "url": "https://skillshop.withgoogle.com/",
+  "what_you_learn": [
+   "Google Ads and AI",
+   "Analytics",
+   "Marketing automation",
+   "Certifications"
+  ],
+  "who_for": "Marketers.",
+  "tags": [
+   "google",
+   "marketing",
+   "skillshop",
+   "analytics"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "one-useful-thing",
+  "title": "One Useful Thing",
+  "provider": "Ethan Mollick",
+  "description": "Newsletter by a Wharton professor on practical AI use in work and education.",
+  "category": "ai-for-business",
+  "level": "Beginner",
+  "cost": "Free",
+  "format": "Website",
+  "language": "English",
+  "duration": "",
+  "url": "https://www.oneusefulthing.org/",
+  "what_you_learn": [
+   "Practical AI use",
+   "Research findings",
+   "Workflows",
+   "Education impact"
+  ],
+  "who_for": "Professionals and educators.",
+  "tags": [
+   "newsletter",
+   "wharton",
+   "practical",
+   "ai use"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "experience-ai",
+  "title": "Experience AI",
+  "provider": "Raspberry Pi Foundation & Google DeepMind",
+  "description": "Free lesson resources for teaching AI and ML to young people.",
+  "category": "ai-for-education",
+  "level": "Beginner",
+  "cost": "Free",
+  "format": "Website",
+  "language": "English",
+  "duration": "",
+  "url": "https://experience-ai.org/",
+  "what_you_learn": [
+   "AI concepts for teens",
+   "Classroom activities",
+   "ML basics",
+   "Ethics discussion"
+  ],
+  "who_for": "Teachers.",
+  "tags": [
+   "teaching",
+   "schools",
+   "raspberry pi",
+   "ai literacy"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "ai4k12",
+  "title": "AI4K12",
+  "provider": "AAAI & CSTA",
+  "description": "Initiative defining guidelines for teaching AI in K-12.",
+  "category": "ai-for-education",
+  "level": "Beginner",
+  "cost": "Free",
+  "format": "Website",
+  "language": "English",
+  "duration": "",
+  "url": "https://ai4k12.org/",
+  "what_you_learn": [
+   "Big ideas in AI",
+   "Grade-band guidance",
+   "Teaching resources",
+   "Curriculum planning"
+  ],
+  "who_for": "K-12 educators.",
+  "tags": [
+   "k12",
+   "guidelines",
+   "teaching",
+   "curriculum"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "code-org-ai",
+  "title": "Code.org AI",
+  "provider": "Code.org",
+  "description": "Free lessons and resources for teaching about AI.",
+  "category": "ai-for-education",
+  "level": "Beginner",
+  "cost": "Free",
+  "format": "Website",
+  "language": "English",
+  "duration": "",
+  "url": "https://code.org/ai",
+  "what_you_learn": [
+   "AI basics for students",
+   "Classroom activities",
+   "Ethics",
+   "Teacher support"
+  ],
+  "who_for": "Teachers.",
+  "tags": [
+   "code.org",
+   "teaching",
+   "students",
+   "ai"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "day-of-ai",
+  "title": "Day of AI",
+  "provider": "MIT RAISE",
+  "description": "Free AI literacy curriculum for schools from MIT.",
+  "category": "ai-for-education",
+  "level": "Beginner",
+  "cost": "Free",
+  "format": "Website",
+  "language": "English",
+  "duration": "",
+  "url": "https://dayofai.org/",
+  "what_you_learn": [
+   "AI literacy",
+   "Ethics",
+   "Classroom curriculum",
+   "Teacher resources"
+  ],
+  "who_for": "Teachers and schools.",
+  "tags": [
+   "mit",
+   "ai literacy",
+   "k12",
+   "curriculum"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "teachable-machine",
+  "title": "Teachable Machine",
+  "provider": "Google",
+  "description": "Browser tool for training simple ML models with no code.",
+  "category": "tools-tutorials",
+  "level": "Beginner",
+  "cost": "Free",
+  "format": "Website",
+  "language": "English",
+  "duration": "",
+  "url": "https://teachablemachine.withgoogle.com/",
+  "what_you_learn": [
+   "Training image models",
+   "Audio models",
+   "Exporting models",
+   "ML intuition"
+  ],
+  "who_for": "Students and teachers.",
+  "tags": [
+   "no-code",
+   "google",
+   "classification",
+   "demo"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "khan-statistics",
+  "title": "Khan Academy Statistics and Probability",
+  "provider": "Khan Academy",
+  "description": "Free lessons on statistics, essential background for data science.",
+  "category": "data-science",
+  "level": "Beginner",
+  "cost": "Free",
+  "format": "Website",
+  "language": "English",
+  "duration": "",
+  "url": "https://www.khanacademy.org/math/statistics-probability",
+  "what_you_learn": [
+   "Probability",
+   "Distributions",
+   "Inference",
+   "Regression"
+  ],
+  "who_for": "Maths foundation seekers.",
+  "tags": [
+   "statistics",
+   "probability",
+   "maths",
+   "foundations"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "khan-linear-algebra",
+  "title": "Khan Academy Linear Algebra",
+  "provider": "Khan Academy",
+  "description": "Free linear algebra lessons that underpin ML.",
+  "category": "machine-learning",
+  "level": "Beginner",
+  "cost": "Free",
+  "format": "Website",
+  "language": "English",
+  "duration": "",
+  "url": "https://www.khanacademy.org/math/linear-algebra",
+  "what_you_learn": [
+   "Vectors",
+   "Matrices",
+   "Transformations",
+   "Eigenvalues"
+  ],
+  "who_for": "ML beginners.",
+  "tags": [
+   "linear algebra",
+   "maths",
+   "foundations",
+   "ml"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "py4e",
+  "title": "Python for Everybody",
+  "provider": "Charles Severance",
+  "description": "Free Python course and book for beginners.",
+  "category": "coding-with-ai",
+  "level": "Beginner",
+  "cost": "Free",
+  "format": "Website",
+  "language": "English",
+  "duration": "",
+  "url": "https://www.py4e.com/",
+  "what_you_learn": [
+   "Python basics",
+   "Data structures",
+   "Web data",
+   "Databases"
+  ],
+  "who_for": "Complete beginners.",
+  "tags": [
+   "python",
+   "beginner",
+   "book",
+   "free"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "sqlbolt",
+  "title": "SQLBolt",
+  "provider": "SQLBolt",
+  "description": "Interactive SQL lessons in the browser.",
+  "category": "data-science",
+  "level": "Beginner",
+  "cost": "Free",
+  "format": "Website",
+  "language": "English",
+  "duration": "",
+  "url": "https://sqlbolt.com/",
+  "what_you_learn": [
+   "SELECT queries",
+   "Joins",
+   "Aggregates",
+   "Schema design"
+  ],
+  "who_for": "Data beginners.",
+  "tags": [
+   "sql",
+   "interactive",
+   "beginner",
+   "data"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "pandas-10min",
+  "title": "10 minutes to pandas",
+  "provider": "pandas",
+  "description": "Official quick introduction to pandas.",
+  "category": "data-science",
+  "level": "Beginner",
+  "cost": "Free",
+  "format": "Website",
+  "language": "English",
+  "duration": "",
+  "url": "https://pandas.pydata.org/docs/user_guide/10min.html",
+  "what_you_learn": [
+   "DataFrames",
+   "Selection",
+   "Grouping",
+   "IO"
+  ],
+  "who_for": "Python beginners.",
+  "tags": [
+   "pandas",
+   "python",
+   "docs",
+   "quickstart"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "numpy-learn",
+  "title": "NumPy Learn",
+  "provider": "NumPy",
+  "description": "Official hub for NumPy tutorials and learning resources.",
+  "category": "data-science",
+  "level": "Beginner",
+  "cost": "Free",
+  "format": "Website",
+  "language": "English",
+  "duration": "",
+  "url": "https://numpy.org/learn/",
+  "what_you_learn": [
+   "Array basics",
+   "Broadcasting",
+   "Linear algebra",
+   "Tutorials"
+  ],
+  "who_for": "Python users.",
+  "tags": [
+   "numpy",
+   "python",
+   "arrays",
+   "docs"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "scikit-learn-tutorials",
+  "title": "scikit-learn Tutorials",
+  "provider": "scikit-learn",
+  "description": "Official tutorials for scikit-learn.",
+  "category": "machine-learning",
+  "level": "Beginner",
+  "cost": "Free",
+  "format": "Website",
+  "language": "English",
+  "duration": "",
+  "url": "https://scikit-learn.org/stable/tutorial/index.html",
+  "what_you_learn": [
+   "ML workflow",
+   "Model selection",
+   "Text data",
+   "Statistical learning"
+  ],
+  "who_for": "Python ML learners.",
+  "tags": [
+   "scikit-learn",
+   "python",
+   "docs",
+   "ml"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "pytorch-tutorials",
+  "title": "PyTorch Tutorials",
+  "provider": "PyTorch",
+  "description": "Official tutorials for PyTorch.",
+  "category": "machine-learning",
+  "level": "Intermediate",
+  "cost": "Free",
+  "format": "Website",
+  "language": "English",
+  "duration": "",
+  "url": "https://pytorch.org/tutorials/",
+  "what_you_learn": [
+   "Tensors",
+   "Autograd",
+   "Training loops",
+   "Deployment"
+  ],
+  "who_for": "Deep learning learners.",
+  "tags": [
+   "pytorch",
+   "docs",
+   "deep learning",
+   "tutorials"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "tensorflow-tutorials",
+  "title": "TensorFlow Tutorials",
+  "provider": "TensorFlow",
+  "description": "Official tutorials for TensorFlow and Keras.",
+  "category": "machine-learning",
+  "level": "Intermediate",
+  "cost": "Free",
+  "format": "Website",
+  "language": "English",
+  "duration": "",
+  "url": "https://www.tensorflow.org/tutorials",
+  "what_you_learn": [
+   "Keras basics",
+   "Image classification",
+   "Text",
+   "Generative models"
+  ],
+  "who_for": "TensorFlow users.",
+  "tags": [
+   "tensorflow",
+   "keras",
+   "docs",
+   "tutorials"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "machine-learning-mastery",
+  "title": "Machine Learning Mastery",
+  "provider": "Jason Brownlee",
+  "description": "Practical ML tutorials and guides.",
+  "category": "machine-learning",
+  "level": "Beginner",
+  "cost": "Freemium",
+  "format": "Website",
+  "language": "English",
+  "duration": "",
+  "url": "https://machinelearningmastery.com/",
+  "what_you_learn": [
+   "Python ML tutorials",
+   "Deep learning",
+   "Time series",
+   "LLM basics"
+  ],
+  "who_for": "Practitioners.",
+  "tags": [
+   "tutorials",
+   "python",
+   "ml",
+   "blog"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "seeing-theory",
+  "title": "Seeing Theory",
+  "provider": "Brown University",
+  "description": "Visual introduction to probability and statistics.",
+  "category": "data-science",
+  "level": "Beginner",
+  "cost": "Free",
+  "format": "Website",
+  "language": "English",
+  "duration": "",
+  "url": "https://seeing-theory.brown.edu/",
+  "what_you_learn": [
+   "Probability",
+   "Distributions",
+   "Inference",
+   "Regression"
+  ],
+  "who_for": "Visual learners.",
+  "tags": [
+   "statistics",
+   "visual",
+   "probability",
+   "brown"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "github-copilot-docs",
+  "title": "GitHub Copilot Documentation",
+  "provider": "GitHub",
+  "description": "Official documentation for GitHub Copilot.",
+  "category": "coding-with-ai",
+  "level": "Beginner",
+  "cost": "Free",
+  "format": "Website",
+  "language": "English",
+  "duration": "",
+  "url": "https://docs.github.com/en/copilot",
+  "what_you_learn": [
+   "Setup",
+   "Code completion",
+   "Chat",
+   "Best practices"
+  ],
+  "who_for": "Developers.",
+  "tags": [
+   "github",
+   "copilot",
+   "docs",
+   "coding"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "claude-code-docs",
+  "title": "Claude Code Documentation",
+  "provider": "Anthropic",
+  "description": "Official docs for Claude Code, Anthropic's agentic coding tool.",
+  "category": "coding-with-ai",
+  "level": "Intermediate",
+  "cost": "Free",
+  "format": "Website",
+  "language": "English",
+  "duration": "",
+  "url": "https://docs.claude.com/en/docs/claude-code/overview",
+  "what_you_learn": [
+   "Setup",
+   "Workflows",
+   "Settings",
+   "Integrations"
+  ],
+  "who_for": "Developers.",
+  "tags": [
+   "claude code",
+   "anthropic",
+   "docs",
+   "agents"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "cursor-docs",
+  "title": "Cursor Documentation",
+  "provider": "Cursor",
+  "description": "Official documentation for the Cursor AI code editor.",
+  "category": "coding-with-ai",
+  "level": "Beginner",
+  "cost": "Free",
+  "format": "Website",
+  "language": "English",
+  "duration": "",
+  "url": "https://docs.cursor.com/",
+  "what_you_learn": [
+   "Setup",
+   "Chat and edit",
+   "Rules",
+   "Agent mode"
+  ],
+  "who_for": "Developers.",
+  "tags": [
+   "cursor",
+   "editor",
+   "docs",
+   "ai coding"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "gemini-api-docs",
+  "title": "Gemini API Documentation",
+  "provider": "Google",
+  "description": "Official docs for the Gemini API.",
+  "category": "coding-with-ai",
+  "level": "Intermediate",
+  "cost": "Free",
+  "format": "Website",
+  "language": "English",
+  "duration": "",
+  "url": "https://ai.google.dev/gemini-api/docs",
+  "what_you_learn": [
+   "API quickstart",
+   "Prompting",
+   "Function calling",
+   "Multimodal"
+  ],
+  "who_for": "Developers.",
+  "tags": [
+   "gemini",
+   "google",
+   "api",
+   "docs"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "langchain-docs",
+  "title": "LangChain Documentation",
+  "provider": "LangChain",
+  "description": "Official docs for LangChain.",
+  "category": "coding-with-ai",
+  "level": "Intermediate",
+  "cost": "Free",
+  "format": "Website",
+  "language": "English",
+  "duration": "",
+  "url": "https://python.langchain.com/docs/introduction/",
+  "what_you_learn": [
+   "Chains",
+   "Retrieval",
+   "Agents",
+   "Integrations"
+  ],
+  "who_for": "Python developers.",
+  "tags": [
+   "langchain",
+   "docs",
+   "rag",
+   "agents"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "langchain-academy",
+  "title": "LangChain Academy",
+  "provider": "LangChain",
+  "description": "Free courses on LangGraph and LLM agents.",
+  "category": "coding-with-ai",
+  "level": "Intermediate",
+  "cost": "Free",
+  "format": "Platform",
+  "language": "English",
+  "duration": "",
+  "url": "https://academy.langchain.com/",
+  "what_you_learn": [
+   "LangGraph basics",
+   "Agent design",
+   "State management",
+   "Evaluation"
+  ],
+  "who_for": "Developers.",
+  "tags": [
+   "langgraph",
+   "agents",
+   "courses",
+   "llm"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "cohere-llmu",
+  "title": "LLM University",
+  "provider": "Cohere",
+  "description": "Cohere's learning hub on LLMs, embeddings, RAG and applications.",
+  "category": "generative-ai",
+  "level": "Beginner",
+  "cost": "Free",
+  "format": "Website",
+  "language": "English",
+  "duration": "",
+  "url": "https://cohere.com/llmu",
+  "what_you_learn": [
+   "LLM basics",
+   "Embeddings",
+   "RAG",
+   "Deployment"
+  ],
+  "who_for": "Developers and learners.",
+  "tags": [
+   "cohere",
+   "llm",
+   "rag",
+   "embeddings"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "pinecone-learn",
+  "title": "Pinecone Learning Center",
+  "provider": "Pinecone",
+  "description": "Articles and guides on vector search, RAG and embeddings.",
+  "category": "generative-ai",
+  "level": "Intermediate",
+  "cost": "Free",
+  "format": "Website",
+  "language": "English",
+  "duration": "",
+  "url": "https://www.pinecone.io/learn/",
+  "what_you_learn": [
+   "Vector databases",
+   "Embeddings",
+   "RAG",
+   "Search"
+  ],
+  "who_for": "Developers.",
+  "tags": [
+   "vector database",
+   "rag",
+   "embeddings",
+   "pinecone"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "wandb-courses",
+  "title": "Weights & Biases Courses",
+  "provider": "Weights & Biases",
+  "description": "Free courses on ML experiment tracking and LLM tooling.",
+  "category": "machine-learning",
+  "level": "Intermediate",
+  "cost": "Free",
+  "format": "Website",
+  "language": "English",
+  "duration": "",
+  "url": "https://wandb.ai/site/courses/",
+  "what_you_learn": [
+   "Experiment tracking",
+   "LLM evaluation",
+   "MLOps",
+   "Tooling"
+  ],
+  "who_for": "ML engineers.",
+  "tags": [
+   "wandb",
+   "mlops",
+   "tracking",
+   "llm"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "gradio-guides",
+  "title": "Gradio Guides",
+  "provider": "Gradio",
+  "description": "Official guides for building ML demos with Gradio.",
+  "category": "tools-tutorials",
+  "level": "Beginner",
+  "cost": "Free",
+  "format": "Website",
+  "language": "English",
+  "duration": "",
+  "url": "https://www.gradio.app/guides",
+  "what_you_learn": [
+   "Build demos",
+   "Chat interfaces",
+   "Deploy to Spaces",
+   "Customization"
+  ],
+  "who_for": "Python ML practitioners.",
+  "tags": [
+   "gradio",
+   "demos",
+   "python",
+   "ui"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "streamlit-docs",
+  "title": "Streamlit Documentation",
+  "provider": "Streamlit",
+  "description": "Official docs for building data apps in Python.",
+  "category": "tools-tutorials",
+  "level": "Beginner",
+  "cost": "Free",
+  "format": "Website",
+  "language": "English",
+  "duration": "",
+  "url": "https://docs.streamlit.io/",
+  "what_you_learn": [
+   "Build apps",
+   "Charts",
+   "State",
+   "Deployment"
+  ],
+  "who_for": "Data scientists.",
+  "tags": [
+   "streamlit",
+   "python",
+   "apps",
+   "docs"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "ollama",
+  "title": "Ollama",
+  "provider": "Ollama",
+  "description": "Tool and model library for running LLMs locally.",
+  "category": "tools-tutorials",
+  "level": "Intermediate",
+  "cost": "Free",
+  "format": "Website",
+  "language": "English",
+  "duration": "",
+  "url": "https://ollama.com/",
+  "what_you_learn": [
+   "Run local models",
+   "Model library",
+   "API use",
+   "Customizing models"
+  ],
+  "who_for": "Developers.",
+  "tags": [
+   "local llm",
+   "ollama",
+   "open source",
+   "tools"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "google-colab",
+  "title": "Google Colab",
+  "provider": "Google",
+  "description": "Hosted notebooks for running Python and ML experiments in the browser.",
+  "category": "tools-tutorials",
+  "level": "Beginner",
+  "cost": "Freemium",
+  "format": "Platform",
+  "language": "English",
+  "duration": "",
+  "url": "https://colab.research.google.com/",
+  "what_you_learn": [
+   "Running notebooks",
+   "Using GPUs",
+   "Sharing work",
+   "Importing data"
+  ],
+  "who_for": "Beginners.",
+  "tags": [
+   "colab",
+   "notebooks",
+   "python",
+   "cloud"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "vercel-ai-sdk",
+  "title": "Vercel AI SDK",
+  "provider": "Vercel",
+  "description": "Docs for the TypeScript AI SDK.",
+  "category": "coding-with-ai",
+  "level": "Intermediate",
+  "cost": "Free",
+  "format": "Website",
+  "language": "English",
+  "duration": "",
+  "url": "https://ai-sdk.dev/docs",
+  "what_you_learn": [
+   "Streaming",
+   "Tool calling",
+   "Chat UIs",
+   "Providers"
+  ],
+  "who_for": "JavaScript developers.",
+  "tags": [
+   "typescript",
+   "sdk",
+   "streaming",
+   "docs"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "github-skills",
+  "title": "GitHub Skills",
+  "provider": "GitHub",
+  "description": "Interactive GitHub-hosted courses including Copilot tutorials.",
+  "category": "tools-tutorials",
+  "level": "Beginner",
+  "cost": "Free",
+  "format": "Website",
+  "language": "English",
+  "duration": "",
+  "url": "https://skills.github.com/",
+  "what_you_learn": [
+   "Git and GitHub",
+   "Copilot",
+   "Actions",
+   "Collaboration"
+  ],
+  "who_for": "Beginners.",
+  "tags": [
+   "github",
+   "copilot",
+   "interactive",
+   "git"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "replit-learn",
+  "title": "Replit Learn",
+  "provider": "Replit",
+  "description": "Tutorials for learning to code in Replit, including AI tooling.",
+  "category": "coding-with-ai",
+  "level": "Beginner",
+  "cost": "Free",
+  "format": "Website",
+  "language": "English",
+  "duration": "",
+  "url": "https://replit.com/learn",
+  "what_you_learn": [
+   "Coding basics",
+   "AI-assisted building",
+   "Deploying",
+   "Projects"
+  ],
+  "who_for": "Beginners.",
+  "tags": [
+   "replit",
+   "coding",
+   "beginner",
+   "ai tools"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "ai-index-stanford",
+  "title": "Stanford AI Index",
+  "provider": "Stanford HAI",
+  "description": "Annual report tracking AI trends, research and policy.",
+  "category": "ai-basics",
+  "level": "Intermediate",
+  "cost": "Free",
+  "format": "Website",
+  "language": "English",
+  "duration": "",
+  "url": "https://hai.stanford.edu/ai-index",
+  "what_you_learn": [
+   "AI trends",
+   "Research",
+   "Economy",
+   "Policy"
+  ],
+  "who_for": "Researchers and analysts.",
+  "tags": [
+   "report",
+   "trends",
+   "stanford",
+   "hai"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "lex-fridman",
+  "title": "Lex Fridman Podcast",
+  "provider": "Lex Fridman",
+  "description": "Long-form interviews with AI researchers and technologists.",
+  "category": "ai-basics",
+  "level": "Beginner",
+  "cost": "Free",
+  "format": "YouTube",
+  "language": "English",
+  "duration": "",
+  "url": "https://www.youtube.com/@lexfridman",
+  "what_you_learn": [
+   "Researcher viewpoints",
+   "AI history",
+   "Future debates",
+   "Technical discussions"
+  ],
+  "who_for": "Listeners.",
+  "tags": [
+   "podcast",
+   "interviews",
+   "research",
+   "ai"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "microsoft-learn-ai",
+  "title": "Microsoft Learn AI training",
+  "provider": "Microsoft Learn",
+  "description": "Microsoft's free learning catalog with modules and paths on AI, Azure AI and Copilot.",
+  "category": "tools-tutorials",
+  "level": "Beginner",
+  "cost": "Free",
+  "format": "Platform",
+  "language": "English",
+  "duration": "",
+  "url": "https://learn.microsoft.com/en-us/training/",
+  "what_you_learn": [
+   "Azure AI services",
+   "Copilot topics",
+   "Data and ML",
+   "Hands-on modules"
+  ],
+  "who_for": "Professionals.",
+  "tags": [
+   "microsoft",
+   "azure",
+   "copilot",
+   "learn"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "hf-nlp-course-ml3d",
+  "title": "Hugging Face Computer Vision Course",
+  "provider": "Hugging Face",
+  "description": "Community-built course on computer vision with deep learning.",
+  "category": "machine-learning",
+  "level": "Intermediate",
+  "cost": "Free",
+  "format": "Website",
+  "language": "English",
+  "duration": "",
+  "url": "https://huggingface.co/learn/computer-vision-course",
+  "what_you_learn": [
+   "Vision basics",
+   "CNNs and transformers",
+   "Detection",
+   "Generative vision"
+  ],
+  "who_for": "Learners.",
+  "tags": [
+   "computer vision",
+   "hugging face",
+   "transformers",
+   "course"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "caltech-learning-from-data",
+  "title": "Learning From Data",
+  "provider": "Caltech",
+  "description": "Caltech's introductory ML theory course with lecture videos.",
+  "category": "machine-learning",
+  "level": "Advanced",
+  "cost": "Free",
+  "format": "Website",
+  "language": "English",
+  "duration": "",
+  "url": "https://work.caltech.edu/telecourse",
+  "what_you_learn": [
+   "Learning feasibility",
+   "Linear models",
+   "Overfitting",
+   "Regularization"
+  ],
+  "who_for": "Maths-ready learners.",
+  "tags": [
+   "caltech",
+   "theory",
+   "ml",
+   "lectures"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "yt-simplilearn",
+  "title": "Simplilearn",
+  "provider": "Simplilearn",
+  "description": "Channel with tutorials and full-length videos on AI, ML and data science.",
+  "category": "ai-basics",
+  "level": "Beginner",
+  "cost": "Free",
+  "format": "YouTube",
+  "language": "English",
+  "duration": "",
+  "url": "https://www.youtube.com/@SimplilearnOfficial",
+  "what_you_learn": [
+   "AI overviews",
+   "ML tutorials",
+   "Career roadmaps",
+   "Tool intros"
+  ],
+  "who_for": "Beginners.",
+  "tags": [
+   "tutorials",
+   "ai",
+   "ml",
+   "career"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "yt-edureka",
+  "title": "edureka!",
+  "provider": "Edureka",
+  "description": "Tutorials on AI, ML, data science and programming.",
+  "category": "machine-learning",
+  "level": "Beginner",
+  "cost": "Free",
+  "format": "YouTube",
+  "language": "English",
+  "duration": "",
+  "url": "https://www.youtube.com/@edurekaIN",
+  "what_you_learn": [
+   "ML basics",
+   "Data science",
+   "Python",
+   "Interview prep"
+  ],
+  "who_for": "Beginners.",
+  "tags": [
+   "tutorials",
+   "ml",
+   "data science",
+   "interview"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "yt-google-developers",
+  "title": "Google for Developers",
+  "provider": "Google",
+  "description": "Google's developer channel with ML, Gemini and TensorFlow content.",
+  "category": "coding-with-ai",
+  "level": "Intermediate",
+  "cost": "Free",
+  "format": "YouTube",
+  "language": "English",
+  "duration": "",
+  "url": "https://www.youtube.com/@GoogleDevelopers",
+  "what_you_learn": [
+   "Gemini API",
+   "TensorFlow",
+   "ML tutorials",
+   "Developer talks"
+  ],
+  "who_for": "Developers.",
+  "tags": [
+   "google",
+   "gemini",
+   "tensorflow",
+   "talks"
+  ],
+  "status": "draft",
+  "last_checked": "unverified"
+ }
+]

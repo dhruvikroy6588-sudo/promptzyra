@@ -1,0 +1,729 @@
+[
+  {
+    "type": "mcps",
+    "slug": "filesystem-mcp",
+    "name": "Filesystem MCP Server",
+    "description": "Lets Claude read, write, search and organise files inside folders you explicitly allow. Handy for working through a folder of notes, essays or lesson plans.",
+    "category": "productivity",
+    "tags": [
+      "files",
+      "notes",
+      "local",
+      "reference-server"
+    ],
+    "author": "Model Context Protocol maintainers",
+    "github_url": "https://github.com/modelcontextprotocol/servers",
+    "install": "1. Pick the folders Claude may touch (it cannot leave them).\n2. Add the config below to your MCP client's config file, replacing the paths.\n3. Restart the client; the file tools should appear.\n4. On Windows the README launches npx through cmd /c.",
+    "files": [
+      {
+        "path": "mcp-config.json",
+        "content": "{\n  \"mcpServers\": {\n    \"filesystem\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"@modelcontextprotocol/server-filesystem\",\n        \"/Users/username/Desktop\",\n        \"/path/to/other/allowed/dir\"\n      ]\n    }\n  }\n}"
+      }
+    ],
+    "use_cases": [
+      "Summarise a folder of lecture notes",
+      "Rename and sort downloaded study material",
+      "Draft files directly into a project folder",
+      "Read a student essay folder for feedback"
+    ],
+    "example_prompts": [
+      "List every markdown file in my notes folder and group them by topic.",
+      "Read essay1.txt and give feedback on structure."
+    ],
+    "level": "Beginner",
+    "audience": "Anyone"
+  },
+  {
+    "type": "mcps",
+    "slug": "fetch-mcp",
+    "name": "Fetch MCP Server",
+    "description": "Gives Claude a way to download a web page and convert it to clean text, so it can read articles, docs and reference pages you point it at.",
+    "category": "writing-research",
+    "tags": [
+      "web",
+      "research",
+      "reading",
+      "reference-server"
+    ],
+    "author": "Model Context Protocol maintainers",
+    "github_url": "https://github.com/modelcontextprotocol/servers",
+    "install": "1. Install uv (the README uses uvx), or use the pip or docker variants it lists.\n2. Add the config below to your MCP client.\n3. Restart the client and ask Claude to open a URL.",
+    "files": [
+      {
+        "path": "mcp-config.json",
+        "content": "{\n  \"mcpServers\": {\n    \"fetch\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"mcp-server-fetch\"\n      ]\n    }\n  }\n}"
+      }
+    ],
+    "use_cases": [
+      "Summarise a news article or paper page",
+      "Pull a documentation page into a study guide",
+      "Compare two web sources on one topic",
+      "Check a cited link actually says what is claimed"
+    ],
+    "example_prompts": [
+      "Fetch this URL and give me a 5-bullet summary.",
+      "Read this page and make 10 quiz questions from it."
+    ],
+    "level": "Beginner",
+    "audience": "Students"
+  },
+  {
+    "type": "mcps",
+    "slug": "memory-mcp",
+    "name": "Memory MCP Server",
+    "description": "A knowledge-graph style memory that lets Claude remember people, topics and facts across chats. Useful for long courses or ongoing research.",
+    "category": "study-learning",
+    "tags": [
+      "memory",
+      "knowledge-graph",
+      "study",
+      "reference-server"
+    ],
+    "author": "Model Context Protocol maintainers",
+    "github_url": "https://github.com/modelcontextprotocol/servers",
+    "install": "1. Add the npx config below to your MCP client (a docker variant also exists in the README).\n2. Restart the client.\n3. Tell Claude what to remember; it stores entities and relations locally.",
+    "files": [
+      {
+        "path": "mcp-config.json",
+        "content": "{\n  \"mcpServers\": {\n    \"memory\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"@modelcontextprotocol/server-memory\"\n      ]\n    }\n  }\n}"
+      }
+    ],
+    "use_cases": [
+      "Remember a student's weak topics across sessions",
+      "Build a concept map as a course progresses",
+      "Track reading list and key authors",
+      "Keep project context between chats"
+    ],
+    "example_prompts": [
+      "Remember that my exam is on chemistry bonding next Friday.",
+      "What topics have I said I find hard so far?"
+    ],
+    "level": "Beginner",
+    "audience": "Anyone"
+  },
+  {
+    "type": "mcps",
+    "slug": "sequential-thinking-mcp",
+    "name": "Sequential Thinking MCP Server",
+    "description": "Provides a tool for working through a problem in numbered, revisable steps. Good for maths proofs, planning essays and debugging reasoning.",
+    "category": "study-learning",
+    "tags": [
+      "reasoning",
+      "problem-solving",
+      "planning",
+      "reference-server"
+    ],
+    "author": "Model Context Protocol maintainers",
+    "github_url": "https://github.com/modelcontextprotocol/servers",
+    "install": "1. Add the npx config below to your MCP client.\n2. Restart the client.\n3. Ask Claude to think a problem through step by step using the tool.",
+    "files": [
+      {
+        "path": "mcp-config.json",
+        "content": "{\n  \"mcpServers\": {\n    \"sequential-thinking\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"@modelcontextprotocol/server-sequential-thinking\"\n      ]\n    }\n  }\n}"
+      }
+    ],
+    "use_cases": [
+      "Work through a multi-step maths problem",
+      "Plan an essay outline and revise it",
+      "Break a project into stages",
+      "Show reasoning steps for a lesson"
+    ],
+    "example_prompts": [
+      "Use sequential thinking to plan my 2000-word essay on climate policy.",
+      "Solve this physics problem step by step and revisit any weak step."
+    ],
+    "level": "Beginner",
+    "audience": "Students"
+  },
+  {
+    "type": "mcps",
+    "slug": "git-mcp",
+    "name": "Git MCP Server",
+    "description": "Lets Claude inspect and work with a local Git repository: status, diffs, logs and commits. Suits coding classes and student project reviews.",
+    "category": "coding-education",
+    "tags": [
+      "git",
+      "version-control",
+      "code",
+      "reference-server"
+    ],
+    "author": "Model Context Protocol maintainers",
+    "github_url": "https://github.com/modelcontextprotocol/servers",
+    "install": "1. Install uv (README uses uvx) or use its pip/docker options.\n2. Add the config below, pointing --repository at your repo.\n3. Restart the client and ask about the repo history.",
+    "files": [
+      {
+        "path": "mcp-config.json",
+        "content": "{\n  \"mcpServers\": {\n    \"git\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"mcp-server-git\",\n        \"--repository\",\n        \"path/to/git/repo\"\n      ]\n    }\n  }\n}"
+      }
+    ],
+    "use_cases": [
+      "Explain what changed between two commits",
+      "Review a student's project history",
+      "Write clearer commit messages",
+      "Teach Git by walking through a repo"
+    ],
+    "example_prompts": [
+      "Show the last 5 commits and summarise them.",
+      "What files changed in the latest commit?"
+    ],
+    "level": "Intermediate",
+    "audience": "Developers"
+  },
+  {
+    "type": "mcps",
+    "slug": "time-mcp",
+    "name": "Time MCP Server",
+    "description": "Adds current-time and timezone conversion tools so Claude stops guessing dates. Useful for scheduling classes and study timetables across regions.",
+    "category": "admin-ops",
+    "tags": [
+      "time",
+      "timezone",
+      "scheduling",
+      "reference-server"
+    ],
+    "author": "Model Context Protocol maintainers",
+    "github_url": "https://github.com/modelcontextprotocol/servers",
+    "install": "1. Install uv (README uses uvx) or use pip/docker variants.\n2. Add the config below to your MCP client.\n3. Restart and ask for a time conversion.",
+    "files": [
+      {
+        "path": "mcp-config.json",
+        "content": "{\n  \"mcpServers\": {\n    \"time\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"mcp-server-time\"\n      ]\n    }\n  }\n}"
+      }
+    ],
+    "use_cases": [
+      "Convert class times between timezones",
+      "Plan a revision schedule with real dates",
+      "Set exam countdowns",
+      "Coordinate online tutoring slots"
+    ],
+    "example_prompts": [
+      "What time is 9am IST in London and New York?",
+      "How many days until 15 March?"
+    ],
+    "level": "Beginner",
+    "audience": "Anyone"
+  },
+  {
+    "type": "mcps",
+    "slug": "notion-mcp-server",
+    "name": "Notion MCP Server (self-hosted)",
+    "description": "Connects Claude to a Notion workspace through the Notion API so it can search and edit pages and databases. The repo now recommends Notion's hosted remote MCP instead.",
+    "category": "productivity",
+    "tags": [
+      "notion",
+      "notes",
+      "knowledge-base",
+      "workspace"
+    ],
+    "author": "Notion",
+    "github_url": "https://github.com/makenotion/notion-mcp-server",
+    "install": "1. Note: the README says this local server is no longer actively maintained and points to Notion's hosted Remote MCP (developers.notion.com/docs/mcp) as preferred.\n2. For the local one, create a Notion integration token and share pages with it.\n3. Add the config below to your MCP client, replacing the token.\n4. Restart the client.",
+    "files": [
+      {
+        "path": "mcp-config.json",
+        "content": "{\n  \"mcpServers\": {\n    \"notionApi\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"@notionhq/notion-mcp-server\"\n      ],\n      \"env\": {\n        \"NOTION_TOKEN\": \"ntn_****\"\n      }\n    }\n  }\n}"
+      }
+    ],
+    "use_cases": [
+      "Search class notes stored in Notion",
+      "Create a lesson-plan page",
+      "Update a study tracker database",
+      "Turn meeting notes into tasks"
+    ],
+    "example_prompts": [
+      "Find my notes page on photosynthesis and summarise it.",
+      "Add a new row to my assignments database."
+    ],
+    "level": "Intermediate",
+    "audience": "Anyone"
+  },
+  {
+    "type": "mcps",
+    "slug": "github-mcp-server",
+    "name": "GitHub MCP Server",
+    "description": "GitHub's official server for reading repositories, issues and pull requests from an AI assistant. Fits coding courses and open-source learning.",
+    "category": "coding-education",
+    "tags": [
+      "github",
+      "issues",
+      "pull-requests",
+      "code"
+    ],
+    "author": "GitHub",
+    "github_url": "https://github.com/github/github-mcp-server",
+    "install": "1. Docker is needed to run the local server image ghcr.io/github/github-mcp-server (the README also has a hosted option).\n2. Create a GitHub personal access token with only the permissions you are comfortable granting.\n3. Claude Code command from the README: claude mcp add github -e GITHUB_PERSONAL_ACCESS_TOKEN=$GITHUB_PAT -- docker run -i --rm -e GITHUB_PERSONAL_ACCESS_TOKEN ghcr.io/github/github-mcp-server\n4. Or put the config below in your client config.",
+    "files": [
+      {
+        "path": "mcp-config.json",
+        "content": "{\n  \"mcpServers\": {\n    \"github\": {\n      \"command\": \"docker\",\n      \"args\": [\n        \"run\",\n        \"-i\",\n        \"--rm\",\n        \"-e\",\n        \"GITHUB_PERSONAL_ACCESS_TOKEN\",\n        \"ghcr.io/github/github-mcp-server\"\n      ],\n      \"env\": {\n        \"GITHUB_PERSONAL_ACCESS_TOKEN\": \"YOUR_TOKEN_HERE\"\n      }\n    }\n  }\n}"
+      }
+    ],
+    "use_cases": [
+      "Triage issues in a class project repo",
+      "Summarise a pull request for review",
+      "Teach open-source contribution flow",
+      "Search code across repositories"
+    ],
+    "example_prompts": [
+      "List open issues labelled 'good first issue' in my repo.",
+      "Summarise the latest pull request."
+    ],
+    "level": "Intermediate",
+    "audience": "Developers"
+  },
+  {
+    "type": "mcps",
+    "slug": "playwright-mcp",
+    "name": "Playwright MCP Server",
+    "description": "Microsoft's browser-automation server: Claude can open pages, click, fill forms and read page structure. Great for teaching web testing or scripted research.",
+    "category": "coding-education",
+    "tags": [
+      "browser",
+      "automation",
+      "testing",
+      "web"
+    ],
+    "author": "Microsoft",
+    "github_url": "https://github.com/microsoft/playwright-mcp",
+    "install": "1. Needs Node.js.\n2. Claude Code command from the README: claude mcp add playwright npx @playwright/mcp@latest\n3. Or add the config below to any MCP client and restart.",
+    "files": [
+      {
+        "path": "mcp-config.json",
+        "content": "{\n  \"mcpServers\": {\n    \"playwright\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"@playwright/mcp@latest\"\n      ]\n    }\n  }\n}"
+      }
+    ],
+    "use_cases": [
+      "Demonstrate end-to-end web testing",
+      "Walk through a website to document steps",
+      "Fill and test a form",
+      "Collect public information from pages"
+    ],
+    "example_prompts": [
+      "Open example.com and describe the page structure.",
+      "Test the signup form on my local site."
+    ],
+    "level": "Intermediate",
+    "audience": "Developers"
+  },
+  {
+    "type": "mcps",
+    "slug": "context7-mcp",
+    "name": "Context7 MCP Server",
+    "description": "Fetches current, version-specific library documentation so coding answers rely on up-to-date docs rather than old training data. Useful for programming students.",
+    "category": "coding-education",
+    "tags": [
+      "documentation",
+      "libraries",
+      "coding",
+      "up-to-date"
+    ],
+    "author": "Upstash",
+    "github_url": "https://github.com/upstash/context7",
+    "install": "1. The README quick setup is: npx ctx7 setup (needs a recent Node.js; it handles login and offers skill or MCP mode).\n2. Manual option: point your MCP client at https://mcp.context7.com/mcp with an Authorization: Bearer header using your API key.\n3. In prompts, add 'use context7' to trigger it.",
+    "files": [
+      {
+        "path": "mcp-config.json",
+        "content": "{\n  \"mcpServers\": {\n    \"context7\": {\n      \"url\": \"https://mcp.context7.com/mcp\",\n      \"headers\": {\n        \"Authorization\": \"Bearer YOUR_API_KEY\"\n      }\n    }\n  }\n}"
+      }
+    ],
+    "use_cases": [
+      "Learn a framework from its latest docs",
+      "Avoid outdated code examples in assignments",
+      "Compare API versions",
+      "Look up library usage while coding"
+    ],
+    "example_prompts": [
+      "Show how to set up routing in Next.js. use context7",
+      "Explain pandas groupby using current docs. use context7"
+    ],
+    "level": "Intermediate",
+    "audience": "Developers"
+  },
+  {
+    "type": "mcps",
+    "slug": "brave-search-mcp",
+    "name": "Brave Search MCP Server",
+    "description": "Brave's official server giving Claude web, news, image and local search through the Brave Search API. Good for research tasks that need fresh sources.",
+    "category": "writing-research",
+    "tags": [
+      "search",
+      "web",
+      "research",
+      "news"
+    ],
+    "author": "Brave",
+    "github_url": "https://github.com/brave/brave-search-mcp-server",
+    "install": "1. Get a Brave Search API key.\n2. Add the npx config below to your MCP client, replacing the key.\n3. Restart and ask Claude to search the web.",
+    "files": [
+      {
+        "path": "mcp-config.json",
+        "content": "{\n  \"mcpServers\": {\n    \"brave-search\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"@brave/brave-search-mcp-server\",\n        \"--transport\",\n        \"stdio\"\n      ],\n      \"env\": {\n        \"BRAVE_API_KEY\": \"YOUR_API_KEY_HERE\"\n      }\n    }\n  }\n}"
+      }
+    ],
+    "use_cases": [
+      "Find recent sources for a research paper",
+      "Check current news on a topic",
+      "Compare viewpoints from multiple sites",
+      "Find local libraries or study spots"
+    ],
+    "example_prompts": [
+      "Search for recent studies on spaced repetition and list 5 sources.",
+      "What is the latest news on the topic of my essay?"
+    ],
+    "level": "Beginner",
+    "audience": "Students"
+  },
+  {
+    "type": "mcps",
+    "slug": "everything-mcp",
+    "name": "Everything MCP Test Server",
+    "description": "A reference server that exposes prompts, resources and tools in one place. Meant for learning how MCP works and testing clients, not for daily use.",
+    "category": "coding-education",
+    "tags": [
+      "mcp",
+      "testing",
+      "learning",
+      "reference-server"
+    ],
+    "author": "Model Context Protocol maintainers",
+    "github_url": "https://github.com/modelcontextprotocol/servers",
+    "install": "1. Read src/everything in the servers repo for current run instructions (it is the one reference server that also supports Streamable HTTP).\n2. Register it in your MCP client like the other servers, then inspect which tools, prompts and resources appear.\n3. Use it to teach or learn how MCP clients behave.",
+    "files": [
+      {
+        "path": "mcp-config.json",
+        "content": "{\n  \"mcpServers\": {\n    \"everything\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"@modelcontextprotocol/server-everything\"\n      ]\n    }\n  }\n}"
+      }
+    ],
+    "use_cases": [
+      "Teach students what MCP tools/resources/prompts are",
+      "Test a new MCP client",
+      "Demo an MCP connection in class",
+      "Debug config problems safely"
+    ],
+    "example_prompts": [
+      "List the tools the everything server provides.",
+      "Call the echo tool with 'hello'."
+    ],
+    "level": "Advanced",
+    "audience": "Developers"
+  },
+  {
+    "type": "plugins",
+    "slug": "claude-plugins-official",
+    "name": "Claude Plugins Official Marketplace",
+    "description": "Anthropic's official plugin marketplace for Claude Code, holding its own plugins and some legacy third-party ones. The easiest starting point for adding plugins.",
+    "category": "productivity",
+    "tags": [
+      "marketplace",
+      "official",
+      "claude-code",
+      "plugins"
+    ],
+    "author": "Anthropic",
+    "github_url": "https://github.com/anthropics/claude-plugins-official",
+    "install": "1. Inside Claude Code run: /plugin install {plugin-name}@claude-plugins-official\n2. Or open /plugin and use the Discover tab.\n3. Only install plugins you trust; the README warns plugins can bundle MCP servers and other software.",
+    "files": [],
+    "use_cases": [
+      "Browse vetted plugins",
+      "Install plugins with one command",
+      "See the standard plugin folder layout",
+      "Learn how plugins bundle commands, agents and MCP"
+    ],
+    "example_prompts": [
+      "Show me how to install a plugin from the official marketplace.",
+      "What does a plugin folder contain?"
+    ],
+    "level": "Beginner",
+    "audience": "Anyone"
+  },
+  {
+    "type": "plugins",
+    "slug": "claude-code-plugins-marketplace",
+    "name": "Claude Code Plugins Directory",
+    "description": "The plugins folder inside the Claude Code repository, explaining plugin structure and a marketplace that points to Anthropic-built plugins. Good for learning the format.",
+    "category": "coding-education",
+    "tags": [
+      "plugins",
+      "structure",
+      "docs",
+      "claude-code"
+    ],
+    "author": "Anthropic",
+    "github_url": "https://github.com/anthropics/claude-code",
+    "install": "1. Install Claude Code using the README method for your OS.\n2. Run claude in your project, then use /plugin to install from marketplaces.\n3. Read plugins/README.md in the repo for the plugin layout (plugin.json, commands, agents, skills, hooks, .mcp.json).",
+    "files": [],
+    "use_cases": [
+      "Learn plugin anatomy",
+      "Teach extending Claude Code",
+      "Find official examples",
+      "Understand where plugins now live"
+    ],
+    "example_prompts": [
+      "Explain each folder in a Claude Code plugin.",
+      "How do I add a marketplace?"
+    ],
+    "level": "Beginner",
+    "audience": "Developers"
+  },
+  {
+    "type": "plugins",
+    "slug": "anthropic-agent-skills",
+    "name": "Anthropic Agent Skills Marketplace",
+    "description": "Anthropic's example skills repo, usable as a Claude Code marketplace. Includes document skills (docx, pdf, pptx, xlsx) and example skills for creative and technical work.",
+    "category": "productivity",
+    "tags": [
+      "skills",
+      "documents",
+      "pdf",
+      "marketplace"
+    ],
+    "author": "Anthropic",
+    "github_url": "https://github.com/anthropics/skills",
+    "install": "1. In Claude Code run: /plugin marketplace add anthropics/skills\n2. Install a set: /plugin install document-skills@anthropic-agent-skills (or example-skills@anthropic-agent-skills)\n3. Then just mention the task, e.g. use the PDF skill.\n4. The README says these are demonstration and educational examples; test before relying on them.",
+    "files": [],
+    "use_cases": [
+      "Create and edit Word/PowerPoint/Excel files",
+      "Study how skills are written",
+      "Fill or read PDFs",
+      "Start your own skill from the template"
+    ],
+    "example_prompts": [
+      "Use the PDF skill to extract the form fields from this file.",
+      "Make a slide deck from my lesson outline."
+    ],
+    "level": "Beginner",
+    "audience": "Anyone"
+  },
+  {
+    "type": "plugins",
+    "slug": "knowledge-work-plugins",
+    "name": "Knowledge Work Plugins",
+    "description": "Role-based plugin collection from Anthropic for Cowork and Claude Code, bundling skills, commands and connectors for jobs like productivity, data, enterprise search and bio-research.",
+    "category": "productivity",
+    "tags": [
+      "roles",
+      "productivity",
+      "data",
+      "cowork"
+    ],
+    "author": "Anthropic",
+    "github_url": "https://github.com/anthropics/knowledge-work-plugins",
+    "install": "1. In Claude Code run: claude plugin marketplace add anthropics/knowledge-work-plugins\n2. Then install one, e.g.: claude plugin install sales@knowledge-work-plugins (swap in the plugin you want, such as productivity or data)\n3. In Cowork, install from claude.com/plugins instead.",
+    "files": [],
+    "use_cases": [
+      "Manage tasks and daily workflows",
+      "Write and check SQL for data classes",
+      "Search across team tools",
+      "Customise plugins for a school or team"
+    ],
+    "example_prompts": [
+      "Use the productivity plugin to plan my week.",
+      "Help me write a SQL query for this dataset."
+    ],
+    "level": "Intermediate",
+    "audience": "Anyone"
+  },
+  {
+    "type": "plugins",
+    "slug": "life-sciences-marketplace",
+    "name": "Life Sciences Marketplace",
+    "description": "Anthropic marketplace of research skills for life sciences, such as clinical protocol drafting and structured scientific problem selection. Handy for science students and researchers.",
+    "category": "writing-research",
+    "tags": [
+      "science",
+      "research",
+      "skills",
+      "marketplace"
+    ],
+    "author": "Anthropic",
+    "github_url": "https://github.com/anthropics/life-sciences",
+    "install": "1. In Claude Code run: /plugin marketplace add anthropics/life-sciences\n2. Install a skill, e.g.: /plugin install scientific-problem-selection@life-sciences\n3. Others listed in the README include clinical-trial-protocol and binder-gauntlet.",
+    "files": [],
+    "use_cases": [
+      "Choose and refine a research question",
+      "Assess project risk and feasibility",
+      "Draft protocol outlines",
+      "Plan next steps on a stuck project"
+    ],
+    "example_prompts": [
+      "Help me pick between two thesis topics.",
+      "Pressure-test my research idea."
+    ],
+    "level": "Advanced",
+    "audience": "Students"
+  },
+  {
+    "type": "plugins",
+    "slug": "superpowers",
+    "name": "Superpowers",
+    "description": "A software-development methodology packaged as skills: brainstorming a spec, planning, test-first work and review. Teaches disciplined habits to coding learners.",
+    "category": "coding-education",
+    "tags": [
+      "workflow",
+      "tdd",
+      "planning",
+      "skills"
+    ],
+    "author": "Jesse Vincent (obra)",
+    "github_url": "https://github.com/obra/superpowers",
+    "install": "1. In Claude Code run: /plugin install superpowers@claude-plugins-official\n2. Alternatively: /plugin marketplace add obra/superpowers-marketplace then /plugin install superpowers@superpowers-marketplace\n3. Start a build task and Claude will begin by asking what you want to achieve.",
+    "files": [],
+    "use_cases": [
+      "Practise spec-first development",
+      "Learn test-driven workflow",
+      "Plan small projects step by step",
+      "Teach structured debugging"
+    ],
+    "example_prompts": [
+      "Help me build a to-do app; start with the design.",
+      "Plan this feature before writing code."
+    ],
+    "level": "Intermediate",
+    "audience": "Developers"
+  },
+  {
+    "type": "plugins",
+    "slug": "superpowers-marketplace",
+    "name": "Superpowers Marketplace",
+    "description": "A small curated Claude Code marketplace from the Superpowers author, listing Superpowers and related workflow plugins.",
+    "category": "productivity",
+    "tags": [
+      "marketplace",
+      "workflow",
+      "skills",
+      "community"
+    ],
+    "author": "Jesse Vincent (obra)",
+    "github_url": "https://github.com/obra/superpowers-marketplace",
+    "install": "1. In Claude Code run: /plugin marketplace add obra/superpowers-marketplace\n2. Then: /plugin install superpowers@superpowers-marketplace\n3. Check its README for the other plugins listed.",
+    "files": [],
+    "use_cases": [
+      "Add a community marketplace",
+      "Install a skills library",
+      "Compare workflow plugins",
+      "Learn how marketplaces are laid out"
+    ],
+    "example_prompts": [
+      "What plugins does this marketplace offer?",
+      "Install the core skills library."
+    ],
+    "level": "Beginner",
+    "audience": "Developers"
+  },
+  {
+    "type": "plugins",
+    "slug": "wshobson-agents",
+    "name": "Agents, Skills and Plugins Collection",
+    "description": "A large open collection of Claude Code plugins covering Python, JavaScript, testing, security and more, installed via a marketplace.",
+    "category": "coding-education",
+    "tags": [
+      "agents",
+      "python",
+      "javascript",
+      "marketplace"
+    ],
+    "author": "Seth Hobson (wshobson)",
+    "github_url": "https://github.com/wshobson/agents",
+    "install": "1. In Claude Code run: /plugin marketplace add wshobson/agents\n2. Then: /plugin install python-development@claude-code-workflows\n3. Try the plugin's command, e.g. /python-development:python-scaffold Create a FastAPI service with tests",
+    "files": [],
+    "use_cases": [
+      "Scaffold small Python projects",
+      "Get code-review help",
+      "Learn security-scanning basics",
+      "Browse many ready-made agents"
+    ],
+    "example_prompts": [
+      "Scaffold a FastAPI service with tests.",
+      "Review this function for bugs."
+    ],
+    "level": "Intermediate",
+    "audience": "Developers"
+  },
+  {
+    "type": "plugins",
+    "slug": "claude-code-templates",
+    "name": "Claude Code Templates",
+    "description": "A big browsable catalog (aitmpl.com) of skills, agents, commands, hooks and MCP servers with a CLI that installs chosen components into your project.",
+    "category": "productivity",
+    "tags": [
+      "catalog",
+      "templates",
+      "cli",
+      "community"
+    ],
+    "author": "Daniel Avila (davila7)",
+    "github_url": "https://github.com/davila7/claude-code-templates",
+    "install": "1. The README says it runs with npx, no global install: npx claude-code-templates@latest\n2. Install one item, e.g.: npx claude-code-templates@latest --agent development-tools/code-reviewer\n3. Search from terminal: npx claude-code-templates@latest --search \"code review\"",
+    "files": [],
+    "use_cases": [
+      "Find ready-made agents and commands",
+      "Preview files before installing",
+      "Set up a project quickly",
+      "Browse examples to learn from"
+    ],
+    "example_prompts": [
+      "Search the catalog for a code review agent.",
+      "Install a frontend design skill."
+    ],
+    "level": "Beginner",
+    "audience": "Developers"
+  },
+  {
+    "type": "plugins",
+    "slug": "awesome-claude-code",
+    "name": "Awesome Claude Code",
+    "description": "A hand-curated list of Claude Code resources: guides, skills, agents, status lines, tools and plugins. Includes learning guides, good for self-study.",
+    "category": "coding-education",
+    "tags": [
+      "curated-list",
+      "guides",
+      "resources",
+      "community"
+    ],
+    "author": "hesreallyhim and contributors",
+    "github_url": "https://github.com/hesreallyhim/awesome-claude-code",
+    "install": "1. This is a reading list, not a plugin to install.\n2. Browse the README sections and open linked projects you like.\n3. Follow each linked project's own install steps.",
+    "files": [],
+    "use_cases": [
+      "Find Claude Code learning guides",
+      "Discover community skills and agents",
+      "Compare tooling options",
+      "Collect ideas for classroom demos"
+    ],
+    "example_prompts": [
+      "Which resources in this list help beginners learn Claude Code?",
+      "Find hooks examples."
+    ],
+    "level": "Beginner",
+    "audience": "Anyone"
+  },
+  {
+    "type": "plugins",
+    "slug": "awesome-claude-plugins",
+    "name": "Awesome Claude Plugins (Composio)",
+    "description": "A curated list of Claude Code plugins from Composio, featuring a connect-apps plugin that lets Claude act in many external apps via Composio.",
+    "category": "productivity",
+    "tags": [
+      "curated-list",
+      "plugins",
+      "integrations",
+      "community"
+    ],
+    "author": "ComposioHQ",
+    "github_url": "https://github.com/ComposioHQ/awesome-claude-plugins",
+    "install": "1. Clone the repo: git clone https://github.com/composiohq/awesome-claude-plugins.git then cd awesome-claude-plugins\n2. Load a plugin locally: claude --plugin-dir ./connect-apps\n3. Run its setup command inside Claude and paste your Composio API key when asked.",
+    "files": [],
+    "use_cases": [
+      "Browse plugin ideas",
+      "Connect Claude to email or issue trackers",
+      "Try a plugin from a local folder",
+      "Learn the plugin-dir workflow"
+    ],
+    "example_prompts": [
+      "Run the connect-apps setup.",
+      "What plugins are listed for productivity?"
+    ],
+    "level": "Intermediate",
+    "audience": "Developers"
+  }
+]

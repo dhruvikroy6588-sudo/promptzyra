@@ -16,7 +16,7 @@ const TYPES = {
 export async function generateMetadata({ params, searchParams }) {
   const { type } = await params; const sp = await searchParams; const t = TYPES[type];
   if (!t) return { title: 'Not found', robots: { index: false } };
-  return buildMetadata({ title: `${t.h} — Guides & Alternatives`, description: t.d, path: `/ai-tools/pricing/${type}`, noindex: !!(sp.q || sp.sort) || parseInt(sp.page) > 1 });
+  return buildMetadata({ title: `${t.h} — Guides & Alternatives`, description: t.d, path: `/ai-tools/pricing/${type}`, noindex: !!(sp.q || sp.sort || sp.platform) || parseInt(sp.page) > 1 });
 }
 export default async function Page({ params, searchParams }) {
   const { type } = await params; const sp = await searchParams; const t = TYPES[type];

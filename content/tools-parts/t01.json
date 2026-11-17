@@ -1,0 +1,2980 @@
+[
+ {
+  "slug": "kimi",
+  "name": "Kimi",
+  "category": "chat-assistants",
+  "website_url": "https://www.kimi.com",
+  "pricing": "Unknown",
+  "tagline": "Chat assistant from Moonshot AI built around long documents and agentic tools.",
+  "best_for": "Reading and summarizing long documents in a chat",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "Kimi is an AI assistant developed by the Chinese company Moonshot AI. It became known for handling long inputs, so you can paste or upload lengthy articles, reports or papers and ask questions about them in conversation.\n\nStudents and researchers can use it to condense a long reading into notes, compare passages or draft an outline. Writers and analysts may also try its search and agent-style tools for gathering material. Because it is a language model, summaries can miss details, so keep the source open while you check important claims. Features and plans change, so check the official site for current plans.",
+  "use_steps": [
+   "Open the official site for Kimi and review what it offers.",
+   "Set up access, such as an account, download or API key, as the site describes.",
+   "Start with a small real task and give clear context in your prompt.",
+   "Check the results against reliable sources before using them."
+  ],
+  "pros": [
+   "Built with long inputs in mind",
+   "Useful for reading-heavy work",
+   "Official help center explains features",
+   "Available on the web"
+  ],
+  "cons": [
+   "Features vary by region and plan",
+   "Summaries can omit detail"
+  ],
+  "alternatives": [
+   "deepseek",
+   "chatgpt",
+   "claude"
+  ],
+  "tags": [
+   "chat",
+   "assistant",
+   "long-context",
+   "documents",
+   "llm"
+  ],
+  "features": [
+   "Long-document question answering",
+   "File upload for analysis",
+   "Web search in chat",
+   "Agent-style task tools",
+   "Help center and guides"
+  ],
+  "use_cases": [
+   "Summarizing a long report",
+   "Asking questions about an uploaded paper",
+   "Drafting an outline from source material",
+   "Comparing two documents"
+  ],
+  "pricing_details": "We did not verify current pricing for Kimi. Plans, free limits and trials can change, so check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Kimi?",
+    "a": "Chat assistant from Moonshot AI built around long documents and agentic tools. It is listed here in the chat assistants category so you can compare it with similar tools."
+   },
+   {
+    "q": "Is Kimi free to use?",
+    "a": "We did not verify current pricing for Kimi. Plans, free limits and trials can change, so check the official site for current plans."
+   },
+   {
+    "q": "How should I check results from Kimi?",
+    "a": "Treat outputs as a first draft. Verify facts, numbers and code yourself, follow your school or workplace rules on AI, and read the privacy terms on the official site before sharing sensitive information."
+   }
+  ],
+  "seo_title": "Kimi: What It Is and How to Use It",
+  "seo_description": "Learn what Kimi is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "qwen-chat",
+  "name": "Qwen Chat",
+  "category": "chat-assistants",
+  "website_url": "https://chat.qwen.ai",
+  "pricing": "Free",
+  "tagline": "Web chat interface for Alibaba's Qwen family of language models.",
+  "best_for": "Trying Qwen models for writing, coding and reasoning tasks",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Qwen Chat is the web interface Alibaba uses to let people talk to its Qwen models. After signing in you can pick among available models and ask questions, draft text, write code or work through reasoning problems in a conversation.\n\nIt is a convenient way to see how Qwen models answer compared with other assistants, which helps if you are deciding which models to use or build on. Developers who follow open model releases often test new Qwen versions here first. Treat answers as drafts and verify anything factual or technical, as with any language model. Features and plans change, so check the official site for current plans.",
+  "use_steps": [
+   "Open the official site for Qwen Chat and review what it offers.",
+   "Set up access, such as an account, download or API key, as the site describes.",
+   "Start with a small real task and give clear context in your prompt.",
+   "Check the results against reliable sources before using them."
+  ],
+  "pros": [
+   "Direct access to Qwen models",
+   "Easy to compare against other chatbots",
+   "Browser-based, no install",
+   "Reported as free to use"
+  ],
+  "cons": [
+   "Available models and limits can change",
+   "Answers still need fact-checking"
+  ],
+  "alternatives": [
+   "deepseek",
+   "chatgpt",
+   "mistral-le-chat"
+  ],
+  "tags": [
+   "chat",
+   "qwen",
+   "alibaba",
+   "llm",
+   "reasoning"
+  ],
+  "features": [
+   "Model picker for Qwen versions",
+   "Text chat and drafting",
+   "Coding help",
+   "Reasoning-focused models",
+   "Free web access at launch"
+  ],
+  "use_cases": [
+   "Comparing Qwen with other assistants",
+   "Drafting and rewriting text",
+   "Debugging a small script",
+   "Testing new model releases"
+  ],
+  "pricing_details": "Qwen Chat has been described as free to use, but limits, models and terms can change. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Qwen Chat?",
+    "a": "Web chat interface for Alibaba's Qwen family of language models. It is listed here in the chat assistants category so you can compare it with similar tools."
+   },
+   {
+    "q": "Is Qwen Chat free to use?",
+    "a": "Qwen Chat has been described as free to use, but limits, models and terms can change. Check the official site for current plans."
+   },
+   {
+    "q": "How should I check results from Qwen Chat?",
+    "a": "Treat outputs as a first draft. Verify facts, numbers and code yourself, follow your school or workplace rules on AI, and read the privacy terms on the official site before sharing sensitive information."
+   }
+  ],
+  "seo_title": "Qwen Chat: What It Is and How to Use It",
+  "seo_description": "Learn what Qwen Chat is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "z-ai-chat",
+  "name": "Z.ai Chat",
+  "category": "chat-assistants",
+  "website_url": "https://chat.z.ai",
+  "pricing": "Free",
+  "tagline": "Free chat platform from Zhipu AI for its GLM models.",
+  "best_for": "Testing GLM models for chat, writing and coding",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Z.ai is the international chat platform from Zhipu AI, the company behind the GLM family of models. The site lets you chat with its latest models in the browser for general questions, writing, analysis and coding help.\n\nIt suits anyone curious about non-US model families or comparing GLM output with other assistants. Developers sometimes use the chat to sanity-check prompts before moving to the company's API. As always, confirm facts and test any generated code yourself, and review how your data is handled before sharing anything sensitive. Features and plans change, so check the official site for current plans.",
+  "use_steps": [
+   "Open the official site for Z.ai Chat and review what it offers.",
+   "Set up access, such as an account, download or API key, as the site describes.",
+   "Start with a small real task and give clear context in your prompt.",
+   "Check the results against reliable sources before using them."
+  ],
+  "pros": [
+   "Access to GLM models without setup",
+   "Useful for model comparison",
+   "Reported as a free platform",
+   "Simple web interface"
+  ],
+  "cons": [
+   "Model lineup changes often",
+   "Data-handling terms need a read before sensitive use"
+  ],
+  "alternatives": [
+   "qwen-chat",
+   "deepseek",
+   "chatgpt"
+  ],
+  "tags": [
+   "chat",
+   "glm",
+   "zhipu",
+   "llm",
+   "coding"
+  ],
+  "features": [
+   "GLM model chat",
+   "Writing and summarizing",
+   "Coding assistance",
+   "Browser-based access",
+   "Link to developer platform"
+  ],
+  "use_cases": [
+   "Comparing GLM with other models",
+   "Drafting short documents",
+   "Generating small code snippets",
+   "Prototyping prompts before API use"
+  ],
+  "pricing_details": "Z.ai Chat has been described as free to use, but limits, models and terms can change. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Z.ai Chat?",
+    "a": "Free chat platform from Zhipu AI for its GLM models. It is listed here in the chat assistants category so you can compare it with similar tools."
+   },
+   {
+    "q": "Is Z.ai Chat free to use?",
+    "a": "Z.ai Chat has been described as free to use, but limits, models and terms can change. Check the official site for current plans."
+   },
+   {
+    "q": "How should I check results from Z.ai Chat?",
+    "a": "Treat outputs as a first draft. Verify facts, numbers and code yourself, follow your school or workplace rules on AI, and read the privacy terms on the official site before sharing sensitive information."
+   }
+  ],
+  "seo_title": "Z.ai Chat: What It Is and How to Use It",
+  "seo_description": "Learn what Z.ai Chat is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "pi-ai",
+  "name": "Pi",
+  "category": "chat-assistants",
+  "website_url": "https://pi.ai",
+  "pricing": "Unknown",
+  "tagline": "Conversational personal AI assistant from Inflection AI.",
+  "best_for": "Casual, supportive back-and-forth conversation",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "Pi, short for personal intelligence, is a conversational assistant created by Inflection AI. It was designed to feel like a friendly, supportive chat partner rather than a tool for producing long documents or code.\n\nPeople use it to talk through an idea, practice a conversation or get a sounding board for everyday decisions. It is not a replacement for professional advice on health, legal or financial matters. Inflection has published posts about the future of Pi as the company's focus has evolved, so check the official site for the product's current status and what it offers. Features and plans change, so check the official site for current plans.",
+  "use_steps": [
+   "Open the official site for Pi and review what it offers.",
+   "Set up access, such as an account, download or API key, as the site describes.",
+   "Start with a small real task and give clear context in your prompt.",
+   "Check the results against reliable sources before using them."
+  ],
+  "pros": [
+   "Warm, conversational style",
+   "Voice option",
+   "Simple to start",
+   "Available beyond the web"
+  ],
+  "cons": [
+   "Less suited to heavy document or code work",
+   "Company focus and features have shifted over time"
+  ],
+  "alternatives": [
+   "chatgpt",
+   "claude",
+   "replika"
+  ],
+  "tags": [
+   "chat",
+   "companion",
+   "voice",
+   "personal-ai",
+   "assistant"
+  ],
+  "features": [
+   "Conversational chat",
+   "Voice conversations",
+   "Mobile apps",
+   "Friendly, supportive tone",
+   "Everyday advice prompts"
+  ],
+  "use_cases": [
+   "Talking through a decision",
+   "Practicing a difficult conversation",
+   "Brainstorming casual ideas",
+   "Spoken chat while commuting"
+  ],
+  "pricing_details": "We did not verify current pricing for Pi. Plans, free limits and trials can change, so check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Pi?",
+    "a": "Conversational personal AI assistant from Inflection AI. It is listed here in the chat assistants category so you can compare it with similar tools."
+   },
+   {
+    "q": "Is Pi free to use?",
+    "a": "We did not verify current pricing for Pi. Plans, free limits and trials can change, so check the official site for current plans."
+   },
+   {
+    "q": "How should I check results from Pi?",
+    "a": "Treat outputs as a first draft. Verify facts, numbers and code yourself, follow your school or workplace rules on AI, and read the privacy terms on the official site before sharing sensitive information."
+   }
+  ],
+  "seo_title": "Pi: What It Is and How to Use It",
+  "seo_description": "Learn what Pi is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "duck-ai",
+  "name": "Duck.ai",
+  "category": "chat-assistants",
+  "website_url": "https://duck.ai",
+  "pricing": "Freemium",
+  "tagline": "DuckDuckGo's chat that lets you use several AI models with privacy protections.",
+  "best_for": "Trying popular chatbots with an emphasis on privacy",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Duck.ai is DuckDuckGo's AI chat service. It puts a selection of third-party and open models behind one interface and says it anonymizes requests so that chats are not tied to your identity.\n\nIt appeals to people who want a quick assistant without creating accounts at each AI company. You can ask the same question across models to compare answers and then decide which one you prefer. Chat history handling and available models change, so read DuckDuckGo's privacy notes before relying on any specific protection. Features and plans change, so check the official site for current plans.",
+  "use_steps": [
+   "Open the official site for Duck.ai and review what it offers.",
+   "Set up access, such as an account, download or API key, as the site describes.",
+   "Start with a small real task and give clear context in your prompt.",
+   "Check the results against reliable sources before using them."
+  ],
+  "pros": [
+   "No separate sign-up needed for basic use",
+   "Model choice",
+   "Privacy messaging is clear",
+   "Easy entry point"
+  ],
+  "cons": [
+   "Free usage has limits",
+   "Fewer advanced features than dedicated apps"
+  ],
+  "alternatives": [
+   "chatgpt",
+   "claude",
+   "brave-leo"
+  ],
+  "tags": [
+   "chat",
+   "privacy",
+   "duckduckgo",
+   "multi-model",
+   "assistant"
+  ],
+  "features": [
+   "Multiple models in one place",
+   "Privacy-focused approach",
+   "Optional chat history controls",
+   "Works in a browser",
+   "Tied to DuckDuckGo search"
+  ],
+  "use_cases": [
+   "Quick questions without a new account",
+   "Comparing answers across models",
+   "Drafting short text",
+   "Summarizing pasted passages"
+  ],
+  "pricing_details": "Duck.ai generally has a free way to try it alongside paid options with more features or usage. What each tier includes can change over time. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Duck.ai?",
+    "a": "DuckDuckGo's chat that lets you use several AI models with privacy protections. It is listed here in the chat assistants category so you can compare it with similar tools."
+   },
+   {
+    "q": "Is Duck.ai free to use?",
+    "a": "Duck.ai generally has a free way to try it alongside paid options with more features or usage. What each tier includes can change over time. Check the official site for current plans."
+   },
+   {
+    "q": "How should I check results from Duck.ai?",
+    "a": "Treat outputs as a first draft. Verify facts, numbers and code yourself, follow your school or workplace rules on AI, and read the privacy terms on the official site before sharing sensitive information."
+   }
+  ],
+  "seo_title": "Duck.ai: What It Is and How to Use It",
+  "seo_description": "Learn what Duck.ai is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "brave-leo",
+  "name": "Brave Leo",
+  "category": "chat-assistants",
+  "website_url": "https://brave.com/leo",
+  "pricing": "Freemium",
+  "tagline": "Privacy-minded AI assistant built into the Brave browser.",
+  "best_for": "Asking questions about the page you are reading",
+  "platforms": [
+   "Web",
+   "Windows",
+   "macOS",
+   "Linux",
+   "iOS",
+   "Android"
+  ],
+  "description": "Leo is the AI assistant inside the Brave browser. You can open it from the sidebar or address bar to ask questions, and it can work on the page or document you currently have open, such as summarizing an article.\n\nIt is handy for students and professionals who read a lot online and want quick summaries or explanations without switching tabs. Brave describes Leo as privacy-preserving and has offered a free option plus a premium subscription with more models and higher limits. Details change, so check Brave's own page for the current offering. Features and plans change, so check the official site for current plans.",
+  "use_steps": [
+   "Open the official site for Brave Leo and review what it offers.",
+   "Set up access, such as an account, download or API key, as the site describes.",
+   "Start with a small real task and give clear context in your prompt.",
+   "Check the results against reliable sources before using them."
+  ],
+  "pros": [
+   "Lives inside the browser",
+   "Context from the open page",
+   "Free option exists",
+   "Privacy emphasis"
+  ],
+  "cons": [
+   "Requires using Brave",
+   "Premium features sit behind a subscription"
+  ],
+  "alternatives": [
+   "microsoft-copilot",
+   "duck-ai",
+   "chatgpt"
+  ],
+  "tags": [
+   "browser",
+   "assistant",
+   "privacy",
+   "summarize",
+   "chat"
+  ],
+  "features": [
+   "Sidebar assistant in the browser",
+   "Page and PDF summarizing",
+   "Multiple underlying models",
+   "Optional premium tier",
+   "Privacy-focused design"
+  ],
+  "use_cases": [
+   "Summarizing a long article",
+   "Explaining a confusing paragraph",
+   "Asking about a PDF",
+   "Drafting a short reply"
+  ],
+  "pricing_details": "Brave Leo generally has a free way to try it alongside paid options with more features or usage. What each tier includes can change over time. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Brave Leo?",
+    "a": "Privacy-minded AI assistant built into the Brave browser. It is listed here in the chat assistants category so you can compare it with similar tools."
+   },
+   {
+    "q": "Is Brave Leo free to use?",
+    "a": "Brave Leo generally has a free way to try it alongside paid options with more features or usage. What each tier includes can change over time. Check the official site for current plans."
+   },
+   {
+    "q": "How should I check results from Brave Leo?",
+    "a": "Treat outputs as a first draft. Verify facts, numbers and code yourself, follow your school or workplace rules on AI, and read the privacy terms on the official site before sharing sensitive information."
+   }
+  ],
+  "seo_title": "Brave Leo: What It Is and How to Use It",
+  "seo_description": "Learn what Brave Leo is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "kagi-assistant",
+  "name": "Kagi Assistant",
+  "category": "chat-assistants",
+  "website_url": "https://kagi.com/assistant",
+  "pricing": "Paid",
+  "tagline": "AI chat from the Kagi search team, with access to multiple models.",
+  "best_for": "Subscribers who want search-aware chat without ads",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "Kagi Assistant is the AI chat feature from Kagi, the subscription search engine. It lets you converse with several large language models and can pull in Kagi search results to ground its answers.\n\nBecause Kagi is paid and ad-free, the assistant is aimed at people already using or considering that ecosystem. You can switch models, create custom assistants and keep threads organized. Kagi has also announced mobile apps for the assistant, though availability and plan limits can change, so check the official help pages. Features and plans change, so check the official site for current plans.",
+  "use_steps": [
+   "Open the official site for Kagi Assistant and review what it offers.",
+   "Set up access, such as an account, download or API key, as the site describes.",
+   "Start with a small real task and give clear context in your prompt.",
+   "Check the results against reliable sources before using them."
+  ],
+  "pros": [
+   "Ties into a quality-focused search product",
+   "Model choice",
+   "Custom assistant options",
+   "No ad-driven model"
+  ],
+  "cons": [
+   "Needs a Kagi subscription",
+   "Less appealing if you do not use Kagi search"
+  ],
+  "alternatives": [
+   "perplexity",
+   "you-com",
+   "chatgpt"
+  ],
+  "tags": [
+   "chat",
+   "search",
+   "subscription",
+   "multi-model",
+   "assistant"
+  ],
+  "features": [
+   "Multiple model access",
+   "Search-grounded answers",
+   "Custom assistants",
+   "Thread history",
+   "Mobile apps announced"
+  ],
+  "use_cases": [
+   "Researching a topic with sources",
+   "Comparing model answers",
+   "Building a reusable custom assistant",
+   "Summarizing a web page"
+  ],
+  "pricing_details": "Kagi Assistant is offered as a paid product. Exact tiers, trials and prices change, so check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Kagi Assistant?",
+    "a": "AI chat from the Kagi search team, with access to multiple models. It is listed here in the chat assistants category so you can compare it with similar tools."
+   },
+   {
+    "q": "Is Kagi Assistant free to use?",
+    "a": "Kagi Assistant is offered as a paid product. Exact tiers, trials and prices change, so check the official site for current plans."
+   },
+   {
+    "q": "How should I check results from Kagi Assistant?",
+    "a": "Treat outputs as a first draft. Verify facts, numbers and code yourself, follow your school or workplace rules on AI, and read the privacy terms on the official site before sharing sensitive information."
+   }
+  ],
+  "seo_title": "Kagi Assistant: What It Is and How to Use It",
+  "seo_description": "Learn what Kagi Assistant is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "felo-ai",
+  "name": "Felo",
+  "category": "chat-assistants",
+  "website_url": "https://felo.ai",
+  "pricing": "Unknown",
+  "tagline": "AI search engine that answers questions with cited sources.",
+  "best_for": "Getting sourced answers and quick research summaries",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "Felo is an AI search engine from a company that also publishes a blog about its search agent. You ask a question in natural language and it returns a written answer with sources rather than a list of links.\n\nIt is useful for quick fact-finding, background reading and multilingual lookups, and it can be used on the web and through a mobile app. As with any answer engine, open the cited pages for anything important, since a summary can be incomplete. Plans and features are listed by Felo, so check its official site for what is currently available. Features and plans change, so check the official site for current plans.",
+  "use_steps": [
+   "Open the official site for Felo and review what it offers.",
+   "Set up access, such as an account, download or API key, as the site describes.",
+   "Start with a small real task and give clear context in your prompt.",
+   "Check the results against reliable sources before using them."
+  ],
+  "pros": [
+   "Answers come with sources",
+   "Mobile app available",
+   "Designed around search",
+   "Handy for fast lookups"
+  ],
+  "cons": [
+   "Cited pages still need checking",
+   "Plan details are not fixed"
+  ],
+  "alternatives": [
+   "perplexity",
+   "you-com",
+   "genspark"
+  ],
+  "tags": [
+   "search",
+   "answer-engine",
+   "citations",
+   "research",
+   "chat"
+  ],
+  "features": [
+   "Natural-language answers",
+   "Source citations",
+   "Multilingual use",
+   "Web and mobile access",
+   "Search agent features"
+  ],
+  "use_cases": [
+   "Quick background research",
+   "Looking up a topic in another language",
+   "Collecting sources for notes",
+   "Summarizing a subject"
+  ],
+  "pricing_details": "We did not verify current pricing for Felo. Plans, free limits and trials can change, so check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Felo?",
+    "a": "AI search engine that answers questions with cited sources. It is listed here in the chat assistants category so you can compare it with similar tools."
+   },
+   {
+    "q": "Is Felo free to use?",
+    "a": "We did not verify current pricing for Felo. Plans, free limits and trials can change, so check the official site for current plans."
+   },
+   {
+    "q": "How should I check results from Felo?",
+    "a": "Treat outputs as a first draft. Verify facts, numbers and code yourself, follow your school or workplace rules on AI, and read the privacy terms on the official site before sharing sensitive information."
+   }
+  ],
+  "seo_title": "Felo: What It Is and How to Use It",
+  "seo_description": "Learn what Felo is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "genspark",
+  "name": "Genspark",
+  "category": "chat-assistants",
+  "website_url": "https://www.genspark.ai",
+  "pricing": "Unknown",
+  "tagline": "AI search and agent platform that produces pages and deliverables.",
+  "best_for": "Turning a question into a finished page or report",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Genspark started as an AI search product and has expanded into what it calls a super agent. Instead of only listing results, it can assemble custom pages and carry out multi-step tasks that end in a deliverable.\n\nThat makes it interesting for people who want a research summary, slide-like page or comparison built for them. The company has a blog describing its approach and a case study published by Anthropic on its use of Claude. Automated outputs can contain mistakes, so review sources and numbers before sharing anything built with it. Features and plans change, so check the official site for current plans.",
+  "use_steps": [
+   "Open the official site for Genspark and review what it offers.",
+   "Set up access, such as an account, download or API key, as the site describes.",
+   "Start with a small real task and give clear context in your prompt.",
+   "Check the results against reliable sources before using them."
+  ],
+  "pros": [
+   "Goes beyond a plain answer",
+   "Produces shareable output",
+   "Active product development",
+   "Combines search and agents"
+  ],
+  "cons": [
+   "Agent results need review",
+   "Pricing and credits vary and change"
+  ],
+  "alternatives": [
+   "perplexity",
+   "manus",
+   "chatgpt"
+  ],
+  "tags": [
+   "agent",
+   "search",
+   "research",
+   "reports",
+   "assistant"
+  ],
+  "features": [
+   "AI search with synthesized pages",
+   "Super agent for multi-step tasks",
+   "Document-style outputs",
+   "Multiple underlying models",
+   "Company blog and updates"
+  ],
+  "use_cases": [
+   "Researching a product category",
+   "Building a comparison page",
+   "Drafting a report from sources",
+   "Planning a task with several steps"
+  ],
+  "pricing_details": "We did not verify current pricing for Genspark. Plans, free limits and trials can change, so check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Genspark?",
+    "a": "AI search and agent platform that produces pages and deliverables. It is listed here in the chat assistants category so you can compare it with similar tools."
+   },
+   {
+    "q": "Is Genspark free to use?",
+    "a": "We did not verify current pricing for Genspark. Plans, free limits and trials can change, so check the official site for current plans."
+   },
+   {
+    "q": "How should I check results from Genspark?",
+    "a": "Treat outputs as a first draft. Verify facts, numbers and code yourself, follow your school or workplace rules on AI, and read the privacy terms on the official site before sharing sensitive information."
+   }
+  ],
+  "seo_title": "Genspark: What It Is and How to Use It",
+  "seo_description": "Learn what Genspark is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "manus",
+  "name": "Manus",
+  "category": "chat-assistants",
+  "website_url": "https://manus.im",
+  "pricing": "Unknown",
+  "tagline": "General AI agent that works through multi-step tasks on your behalf.",
+  "best_for": "Delegating research and multi-step tasks to an agent",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Manus is a general-purpose AI agent. You describe a goal, such as researching a topic or gathering information, and it breaks the work into steps and runs them rather than just replying with text.\n\nPress coverage describes it as an autonomous assistant, and the company publishes an about page and downloads. It can be useful for tasks that would otherwise need many manual searches and copy-paste steps. Autonomous agents can make wrong turns, so check the work and avoid handing over sensitive accounts or data without understanding how it is handled. Features and plans change, so check the official site for current plans.",
+  "use_steps": [
+   "Open the official site for Manus and review what it offers.",
+   "Set up access, such as an account, download or API key, as the site describes.",
+   "Start with a small real task and give clear context in your prompt.",
+   "Check the results against reliable sources before using them."
+  ],
+  "pros": [
+   "Handles multi-step goals",
+   "Saves manual searching",
+   "Active development",
+   "Clear task-oriented design"
+  ],
+  "cons": [
+   "Autonomous steps can go wrong",
+   "Usage limits and pricing can change"
+  ],
+  "alternatives": [
+   "genspark",
+   "chatgpt",
+   "claude"
+  ],
+  "tags": [
+   "agent",
+   "autonomous",
+   "research",
+   "tasks",
+   "assistant"
+  ],
+  "features": [
+   "Task planning and execution",
+   "Research workflows",
+   "Downloadable app",
+   "Multi-step agent behavior",
+   "Output as files and summaries"
+  ],
+  "use_cases": [
+   "Compiling research on a topic",
+   "Gathering and organizing data",
+   "Drafting a summary document",
+   "Automating a repetitive web task"
+  ],
+  "pricing_details": "We did not verify current pricing for Manus. Plans, free limits and trials can change, so check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Manus?",
+    "a": "General AI agent that works through multi-step tasks on your behalf. It is listed here in the chat assistants category so you can compare it with similar tools."
+   },
+   {
+    "q": "Is Manus free to use?",
+    "a": "We did not verify current pricing for Manus. Plans, free limits and trials can change, so check the official site for current plans."
+   },
+   {
+    "q": "How should I check results from Manus?",
+    "a": "Treat outputs as a first draft. Verify facts, numbers and code yourself, follow your school or workplace rules on AI, and read the privacy terms on the official site before sharing sensitive information."
+   }
+  ],
+  "seo_title": "Manus: What It Is and How to Use It",
+  "seo_description": "Learn what Manus is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "venice-ai",
+  "name": "Venice AI",
+  "category": "chat-assistants",
+  "website_url": "https://venice.ai",
+  "pricing": "Freemium",
+  "tagline": "Privacy-oriented AI chat and generation platform.",
+  "best_for": "Chatting with open models while limiting data retention",
+  "platforms": [
+   "Web",
+   "iOS"
+  ],
+  "description": "Venice AI offers chat and image generation through open-source models, with a stated emphasis on privacy and fewer content restrictions than some mainstream assistants. Coverage of the service describes it as privacy-focused and founded by Erik Voorhees.\n\nIt appeals to users who prefer open models and want control over how their conversations are stored. There is a free tier and paid options according to published reviews, but limits and models change. Fewer restrictions means you should be extra careful about accuracy and appropriate use, and you should read the privacy policy to see exactly what is stored. Features and plans change, so check the official site for current plans.",
+  "use_steps": [
+   "Open the official site for Venice AI and review what it offers.",
+   "Set up access, such as an account, download or API key, as the site describes.",
+   "Start with a small real task and give clear context in your prompt.",
+   "Check the results against reliable sources before using them."
+  ],
+  "pros": [
+   "Open model selection",
+   "Privacy emphasis",
+   "Free way to try it",
+   "Chat plus image tools"
+  ],
+  "cons": [
+   "Fewer guardrails require careful use",
+   "Free limits and models change"
+  ],
+  "alternatives": [
+   "mistral-le-chat",
+   "duck-ai",
+   "chatgpt"
+  ],
+  "tags": [
+   "privacy",
+   "open-models",
+   "chat",
+   "uncensored",
+   "assistant"
+  ],
+  "features": [
+   "Chat with open models",
+   "Image generation",
+   "Privacy-oriented design",
+   "Custom character options",
+   "Mobile app"
+  ],
+  "use_cases": [
+   "Private-feeling brainstorming",
+   "Testing open models",
+   "Creative writing",
+   "Generating images alongside chat"
+  ],
+  "pricing_details": "Venice AI generally has a free way to try it alongside paid options with more features or usage. What each tier includes can change over time. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Venice AI?",
+    "a": "Privacy-oriented AI chat and generation platform. It is listed here in the chat assistants category so you can compare it with similar tools."
+   },
+   {
+    "q": "Is Venice AI free to use?",
+    "a": "Venice AI generally has a free way to try it alongside paid options with more features or usage. What each tier includes can change over time. Check the official site for current plans."
+   },
+   {
+    "q": "How should I check results from Venice AI?",
+    "a": "Treat outputs as a first draft. Verify facts, numbers and code yourself, follow your school or workplace rules on AI, and read the privacy terms on the official site before sharing sensitive information."
+   }
+  ],
+  "seo_title": "Venice AI: What It Is and How to Use It",
+  "seo_description": "Learn what Venice AI is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "monica-ai",
+  "name": "Monica",
+  "category": "chat-assistants",
+  "website_url": "https://monica.im",
+  "pricing": "Unknown",
+  "tagline": "Browser-extension AI assistant that bundles several models.",
+  "best_for": "Everyday AI help in the browser sidebar",
+  "platforms": [
+   "Chrome",
+   "Edge",
+   "Web"
+  ],
+  "description": "Monica is an AI assistant offered as a browser extension for Chrome and Edge, with a web app as well. It describes itself as an all-in-one assistant that connects several popular models.\n\nFrom the sidebar you can chat, summarize a page, translate text or ask for help writing a reply without leaving what you are reading. This is convenient for people who want AI in every tab. Extensions need permissions to read pages, so review what access you grant, and check the official site for which models and limits are included in each plan. Features and plans change, so check the official site for current plans.",
+  "use_steps": [
+   "Open the official site for Monica and review what it offers.",
+   "Set up access, such as an account, download or API key, as the site describes.",
+   "Start with a small real task and give clear context in your prompt.",
+   "Check the results against reliable sources before using them."
+  ],
+  "pros": [
+   "Fast access in any tab",
+   "Several models in one tool",
+   "Works across tasks",
+   "Easy to install"
+  ],
+  "cons": [
+   "Extension permissions deserve review",
+   "Model access depends on plan"
+  ],
+  "alternatives": [
+   "sider",
+   "merlin-ai",
+   "chatgpt"
+  ],
+  "tags": [
+   "extension",
+   "browser",
+   "assistant",
+   "summarize",
+   "multi-model"
+  ],
+  "features": [
+   "Browser sidebar chat",
+   "Page summaries",
+   "Translation help",
+   "Multiple models",
+   "Writing assistance"
+  ],
+  "use_cases": [
+   "Summarizing an article",
+   "Translating a paragraph",
+   "Drafting an email reply",
+   "Asking follow-up questions about a page"
+  ],
+  "pricing_details": "We did not verify current pricing for Monica. Plans, free limits and trials can change, so check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Monica?",
+    "a": "Browser-extension AI assistant that bundles several models. It is listed here in the chat assistants category so you can compare it with similar tools."
+   },
+   {
+    "q": "Is Monica free to use?",
+    "a": "We did not verify current pricing for Monica. Plans, free limits and trials can change, so check the official site for current plans."
+   },
+   {
+    "q": "How should I check results from Monica?",
+    "a": "Treat outputs as a first draft. Verify facts, numbers and code yourself, follow your school or workplace rules on AI, and read the privacy terms on the official site before sharing sensitive information."
+   }
+  ],
+  "seo_title": "Monica: What It Is and How to Use It",
+  "seo_description": "Learn what Monica is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "sider",
+  "name": "Sider",
+  "category": "chat-assistants",
+  "website_url": "https://sider.ai",
+  "pricing": "Freemium",
+  "tagline": "Sidebar assistant that lets you chat with multiple AI models.",
+  "best_for": "Chatting, summarizing and researching from a browser sidebar",
+  "platforms": [
+   "Chrome",
+   "Edge",
+   "Web"
+  ],
+  "description": "Sider is an AI sidebar for the browser that connects to several well-known models, according to its extension listing. You can ask questions, summarize pages and videos and keep working on the page you are viewing.\n\nIt has expanded toward deep research and a knowledge workspace, and directories note a free plan with paid tiers. That makes it handy for students or professionals who read a lot online. Review the permissions an extension asks for, and check Sider's site for current model access and limits. Features and plans change, so check the official site for current plans.",
+  "use_steps": [
+   "Open the official site for Sider and review what it offers.",
+   "Set up access, such as an account, download or API key, as the site describes.",
+   "Start with a small real task and give clear context in your prompt.",
+   "Check the results against reliable sources before using them."
+  ],
+  "pros": [
+   "Many models in one sidebar",
+   "Context from the current page",
+   "Free tier available",
+   "Quick setup"
+  ],
+  "cons": [
+   "Extension needs page access",
+   "Higher usage needs a paid plan"
+  ],
+  "alternatives": [
+   "monica-ai",
+   "merlin-ai",
+   "perplexity"
+  ],
+  "tags": [
+   "extension",
+   "sidebar",
+   "multi-model",
+   "summarize",
+   "research"
+  ],
+  "features": [
+   "Browser sidebar",
+   "Multi-model chat",
+   "Page and video summaries",
+   "Research-style workflows",
+   "Free plan reported"
+  ],
+  "use_cases": [
+   "Summarizing long pages",
+   "Researching while reading",
+   "Translating text",
+   "Drafting notes from a source"
+  ],
+  "pricing_details": "Sider generally has a free way to try it alongside paid options with more features or usage. What each tier includes can change over time. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Sider?",
+    "a": "Sidebar assistant that lets you chat with multiple AI models. It is listed here in the chat assistants category so you can compare it with similar tools."
+   },
+   {
+    "q": "Is Sider free to use?",
+    "a": "Sider generally has a free way to try it alongside paid options with more features or usage. What each tier includes can change over time. Check the official site for current plans."
+   },
+   {
+    "q": "How should I check results from Sider?",
+    "a": "Treat outputs as a first draft. Verify facts, numbers and code yourself, follow your school or workplace rules on AI, and read the privacy terms on the official site before sharing sensitive information."
+   }
+  ],
+  "seo_title": "Sider: What It Is and How to Use It",
+  "seo_description": "Learn what Sider is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "merlin-ai",
+  "name": "Merlin",
+  "category": "chat-assistants",
+  "website_url": "https://getmerlin.in",
+  "pricing": "Unknown",
+  "tagline": "Browser extension that adds an AI assistant to websites and workflows.",
+  "best_for": "One-click AI help while browsing",
+  "platforms": [
+   "Chrome",
+   "Web"
+  ],
+  "description": "Merlin is an AI assistant delivered mainly as a Chrome extension. Its store listing describes asking AI to research, write and review from within the pages you visit.\n\nIt is aimed at people who want quick summaries, rewrites or answers without opening a separate chat tab. As with other extensions, it reads page content to work, so consider the permissions and your privacy needs. Its name and listing text have changed over the years, so check the official site for the current feature set and pricing. Features and plans change, so check the official site for current plans.",
+  "use_steps": [
+   "Open the official site for Merlin and review what it offers.",
+   "Set up access, such as an account, download or API key, as the site describes.",
+   "Start with a small real task and give clear context in your prompt.",
+   "Check the results against reliable sources before using them."
+  ],
+  "pros": [
+   "Convenient in-page access",
+   "Covers writing and research",
+   "Simple to try",
+   "Works with Chrome"
+  ],
+  "cons": [
+   "Permission scope needs a look",
+   "Plans and models change often"
+  ],
+  "alternatives": [
+   "monica-ai",
+   "sider",
+   "chatgpt"
+  ],
+  "tags": [
+   "extension",
+   "browser",
+   "writing",
+   "summarize",
+   "assistant"
+  ],
+  "features": [
+   "Browser extension",
+   "Research and writing help",
+   "Page summaries",
+   "Rewrite and reply tools",
+   "Chat interface"
+  ],
+  "use_cases": [
+   "Rewriting a paragraph",
+   "Summarizing a web page",
+   "Drafting a quick reply",
+   "Answering a question about an article"
+  ],
+  "pricing_details": "We did not verify current pricing for Merlin. Plans, free limits and trials can change, so check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Merlin?",
+    "a": "Browser extension that adds an AI assistant to websites and workflows. It is listed here in the chat assistants category so you can compare it with similar tools."
+   },
+   {
+    "q": "Is Merlin free to use?",
+    "a": "We did not verify current pricing for Merlin. Plans, free limits and trials can change, so check the official site for current plans."
+   },
+   {
+    "q": "How should I check results from Merlin?",
+    "a": "Treat outputs as a first draft. Verify facts, numbers and code yourself, follow your school or workplace rules on AI, and read the privacy terms on the official site before sharing sensitive information."
+   }
+  ],
+  "seo_title": "Merlin: What It Is and How to Use It",
+  "seo_description": "Learn what Merlin is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "typingmind",
+  "name": "TypingMind",
+  "category": "chat-assistants",
+  "website_url": "https://www.typingmind.com",
+  "pricing": "Unknown",
+  "tagline": "Chat interface for LLMs where you bring your own API keys.",
+  "best_for": "Using several AI providers through one polished chat UI",
+  "platforms": [
+   "Web"
+  ],
+  "description": "TypingMind is a chat front end for large language models. Instead of selling its own model, it lets you connect your own API keys, with guides for providers such as Claude and DeepSeek.\n\nThis suits people who want one clean interface, prompt libraries and conversation organization while paying providers directly for usage. A team edition is also offered for organizations. Because you supply the keys, your costs depend on usage, and you should keep keys private. Check the official site for current pricing and licensing. Features and plans change, so check the official site for current plans.",
+  "use_steps": [
+   "Open the official site for TypingMind and review what it offers.",
+   "Set up access, such as an account, download or API key, as the site describes.",
+   "Start with a small real task and give clear context in your prompt.",
+   "Check the results against reliable sources before using them."
+  ],
+  "pros": [
+   "Provider flexibility",
+   "Clean interface",
+   "Pay-per-use API costs",
+   "Docs for many providers"
+  ],
+  "cons": [
+   "Requires your own API accounts",
+   "Setup is less beginner-friendly"
+  ],
+  "alternatives": [
+   "librechat",
+   "chatbox",
+   "open-webui"
+  ],
+  "tags": [
+   "chat-ui",
+   "api-keys",
+   "multi-provider",
+   "productivity",
+   "assistant"
+  ],
+  "features": [
+   "Bring your own API keys",
+   "Multiple providers",
+   "Conversation organization",
+   "Team chat portal option",
+   "Documentation and guides"
+  ],
+  "use_cases": [
+   "Chatting with several providers in one UI",
+   "Managing a prompt library",
+   "Setting up a team chat portal",
+   "Keeping costs tied to actual usage"
+  ],
+  "pricing_details": "We did not verify current pricing for TypingMind. Plans, free limits and trials can change, so check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is TypingMind?",
+    "a": "Chat interface for LLMs where you bring your own API keys. It is listed here in the chat assistants category so you can compare it with similar tools."
+   },
+   {
+    "q": "Is TypingMind free to use?",
+    "a": "We did not verify current pricing for TypingMind. Plans, free limits and trials can change, so check the official site for current plans."
+   },
+   {
+    "q": "How should I check results from TypingMind?",
+    "a": "Treat outputs as a first draft. Verify facts, numbers and code yourself, follow your school or workplace rules on AI, and read the privacy terms on the official site before sharing sensitive information."
+   }
+  ],
+  "seo_title": "TypingMind: What It Is and How to Use It",
+  "seo_description": "Learn what TypingMind is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "chatbox",
+  "name": "Chatbox",
+  "category": "chat-assistants",
+  "website_url": "https://chatboxai.app",
+  "pricing": "Unknown",
+  "tagline": "Desktop and mobile AI client that connects to several model providers.",
+  "best_for": "A simple local-first chat client for your own API keys",
+  "platforms": [
+   "Windows",
+   "macOS",
+   "Linux",
+   "iOS",
+   "Android"
+  ],
+  "description": "Chatbox is a client application for talking to AI models. A GitHub project under the chatboxai organization hosts its code, and the app is positioned as a cross-platform desktop client.\n\nYou add API keys or connect to local servers and then chat, keeping conversation data on your device in the usual client style. It is popular with people who want a straightforward interface rather than a full self-hosted server. Features and licensing for hosted versus community editions can differ, so check the official site and repository. Features and plans change, so check the official site for current plans.",
+  "use_steps": [
+   "Open the official site for Chatbox and review what it offers.",
+   "Set up access, such as an account, download or API key, as the site describes.",
+   "Start with a small real task and give clear context in your prompt.",
+   "Check the results against reliable sources before using them."
+  ],
+  "pros": [
+   "Easy to install",
+   "Provider flexibility",
+   "Code is public",
+   "Light compared with full servers"
+  ],
+  "cons": [
+   "Needs API access to be useful",
+   "Edition differences can confuse"
+  ],
+  "alternatives": [
+   "typingmind",
+   "lobechat",
+   "jan-ai"
+  ],
+  "tags": [
+   "client",
+   "desktop",
+   "api-keys",
+   "local",
+   "chat"
+  ],
+  "features": [
+   "Desktop client",
+   "Bring your own keys",
+   "Multiple providers",
+   "Local model support via compatible servers",
+   "Open repository"
+  ],
+  "use_cases": [
+   "Chatting with an API key you own",
+   "Trying local models through a server",
+   "Organizing conversation history",
+   "Testing prompts across providers"
+  ],
+  "pricing_details": "We did not verify current pricing for Chatbox. Plans, free limits and trials can change, so check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Chatbox?",
+    "a": "Desktop and mobile AI client that connects to several model providers. It is listed here in the chat assistants category so you can compare it with similar tools."
+   },
+   {
+    "q": "Is Chatbox free to use?",
+    "a": "We did not verify current pricing for Chatbox. Plans, free limits and trials can change, so check the official site for current plans."
+   },
+   {
+    "q": "How should I check results from Chatbox?",
+    "a": "Treat outputs as a first draft. Verify facts, numbers and code yourself, follow your school or workplace rules on AI, and read the privacy terms on the official site before sharing sensitive information."
+   }
+  ],
+  "seo_title": "Chatbox: What It Is and How to Use It",
+  "seo_description": "Learn what Chatbox is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "librechat",
+  "name": "LibreChat",
+  "category": "chat-assistants",
+  "website_url": "https://www.librechat.ai",
+  "pricing": "Open source",
+  "tagline": "Open-source, self-hostable chat interface for many AI providers.",
+  "best_for": "Hosting your own multi-provider ChatGPT-style interface",
+  "platforms": [
+   "Web"
+  ],
+  "description": "LibreChat is an open-source project that gives you a ChatGPT-like web interface you can run yourself. It is developed in the danny-avila repository on GitHub and supports connecting to a range of AI providers.\n\nTeams and hobbyists use it to centralize access to several models, manage users and keep control of their data. Because you host it, you are responsible for deployment, updates and security. Reviews describe it as an alternative to Open WebUI, so compare the two. Check the official documentation for supported providers and setup steps. Features and plans change, so check the official site for current plans.",
+  "use_steps": [
+   "Open the official site for LibreChat and review what it offers.",
+   "Set up access, such as an account, download or API key, as the site describes.",
+   "Start with a small real task and give clear context in your prompt.",
+   "Check the results against reliable sources before using them."
+  ],
+  "pros": [
+   "Full control when self-hosted",
+   "Familiar chat layout",
+   "Active open-source project",
+   "No vendor lock-in"
+  ],
+  "cons": [
+   "Requires server setup",
+   "You manage updates and security"
+  ],
+  "alternatives": [
+   "open-webui",
+   "lobechat",
+   "typingmind"
+  ],
+  "tags": [
+   "open-source",
+   "self-hosted",
+   "chat-ui",
+   "multi-provider",
+   "teams"
+  ],
+  "features": [
+   "Self-hosted web UI",
+   "Multiple providers",
+   "Multi-user support",
+   "Open-source code",
+   "Plugin and agent features"
+  ],
+  "use_cases": [
+   "Running a private team chat",
+   "Switching between providers",
+   "Experimenting with agents",
+   "Keeping data on your own server"
+  ],
+  "pricing_details": "LibreChat is distributed as an open-source project, so the software itself can be downloaded at no cost. You may still pay for hosting, hardware or API usage with the models you connect. Check the official site or repository for licensing and current details.",
+  "faq": [
+   {
+    "q": "What is LibreChat?",
+    "a": "Open-source, self-hostable chat interface for many AI providers. It is listed here in the chat assistants category so you can compare it with similar tools."
+   },
+   {
+    "q": "Is LibreChat free to use?",
+    "a": "LibreChat is distributed as an open-source project, so the software itself can be downloaded at no cost. You may still pay for hosting, hardware or API usage with the models you connect. Check the official site or repository for licensing and current details."
+   },
+   {
+    "q": "How should I check results from LibreChat?",
+    "a": "Treat outputs as a first draft. Verify facts, numbers and code yourself, follow your school or workplace rules on AI, and read the privacy terms on the official site before sharing sensitive information."
+   }
+  ],
+  "seo_title": "LibreChat: What It Is and How to Use It",
+  "seo_description": "Learn what LibreChat is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "open-webui",
+  "name": "Open WebUI",
+  "category": "chat-assistants",
+  "website_url": "https://openwebui.com",
+  "pricing": "Open source",
+  "tagline": "Self-hosted web interface for local and remote language models.",
+  "best_for": "A self-hosted front end for Ollama and OpenAI-compatible servers",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Open WebUI is a self-hosted interface for AI models. Guides describe it as a ChatGPT-style web app that connects to local runtimes such as Ollama as well as other compatible APIs.\n\nIt is popular with people who run models on their own hardware and want a friendly UI with conversation history, model switching and community-shared prompts or tools. Because you host it, you manage installation and updates. Check the project's documentation for current features and any licensing terms before deploying it for a team. Features and plans change, so check the official site for current plans.",
+  "use_steps": [
+   "Open the official site for Open WebUI and review what it offers.",
+   "Set up access, such as an account, download or API key, as the site describes.",
+   "Start with a small real task and give clear context in your prompt.",
+   "Check the results against reliable sources before using them."
+  ],
+  "pros": [
+   "Pairs well with Ollama",
+   "Feature-rich UI",
+   "Community extensions",
+   "Runs on your own machine"
+  ],
+  "cons": [
+   "Setup requires some technical comfort",
+   "Self-hosting means self-maintenance"
+  ],
+  "alternatives": [
+   "librechat",
+   "ollama",
+   "lm-studio"
+  ],
+  "tags": [
+   "self-hosted",
+   "open-source",
+   "ollama",
+   "chat-ui",
+   "local"
+  ],
+  "features": [
+   "Self-hosted interface",
+   "Works with Ollama",
+   "Conversation history",
+   "Community prompts and tools",
+   "Multi-user options"
+  ],
+  "use_cases": [
+   "Putting a UI on local models",
+   "Sharing models with a household or team",
+   "Trying community tools",
+   "Comparing local and cloud models"
+  ],
+  "pricing_details": "Open WebUI is distributed as an open-source project, so the software itself can be downloaded at no cost. You may still pay for hosting, hardware or API usage with the models you connect. Check the official site or repository for licensing and current details.",
+  "faq": [
+   {
+    "q": "What is Open WebUI?",
+    "a": "Self-hosted web interface for local and remote language models. It is listed here in the chat assistants category so you can compare it with similar tools."
+   },
+   {
+    "q": "Is Open WebUI free to use?",
+    "a": "Open WebUI is distributed as an open-source project, so the software itself can be downloaded at no cost. You may still pay for hosting, hardware or API usage with the models you connect. Check the official site or repository for licensing and current details."
+   },
+   {
+    "q": "How should I check results from Open WebUI?",
+    "a": "Treat outputs as a first draft. Verify facts, numbers and code yourself, follow your school or workplace rules on AI, and read the privacy terms on the official site before sharing sensitive information."
+   }
+  ],
+  "seo_title": "Open WebUI: What It Is and How to Use It",
+  "seo_description": "Learn what Open WebUI is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "lobechat",
+  "name": "LobeChat",
+  "category": "chat-assistants",
+  "website_url": "https://lobehub.com",
+  "pricing": "Open source",
+  "tagline": "Open-source chat framework with a polished interface and many providers.",
+  "best_for": "Deploying a stylish private chat app with plugins",
+  "platforms": [
+   "Web"
+  ],
+  "description": "LobeChat, now associated with LobeHub, is an open-source chatbot framework. Code listings describe it as a high-performance chat framework you can deploy for yourself with a modern interface.\n\nIt supports multiple model providers and extension-style plugins, which makes it attractive to developers who want to ship a branded or private assistant quickly. As with any self-hosted project, you handle deployment and security. Product direction has moved under the LobeHub name, so check the official site for current offerings. Features and plans change, so check the official site for current plans.",
+  "use_steps": [
+   "Open the official site for LobeChat and review what it offers.",
+   "Set up access, such as an account, download or API key, as the site describes.",
+   "Start with a small real task and give clear context in your prompt.",
+   "Check the results against reliable sources before using them."
+  ],
+  "pros": [
+   "Attractive interface",
+   "Flexible deployment",
+   "Developer-friendly",
+   "Broad provider support"
+  ],
+  "cons": [
+   "Self-hosting takes effort",
+   "Branding and direction have changed"
+  ],
+  "alternatives": [
+   "librechat",
+   "open-webui",
+   "nextchat"
+  ],
+  "tags": [
+   "open-source",
+   "chat-framework",
+   "self-hosted",
+   "plugins",
+   "multi-provider"
+  ],
+  "features": [
+   "Open-source framework",
+   "Multiple model providers",
+   "Plugin system",
+   "Modern UI",
+   "Self-deployable"
+  ],
+  "use_cases": [
+   "Deploying a private assistant",
+   "Testing several providers",
+   "Building a team chatbot",
+   "Customizing an AI interface"
+  ],
+  "pricing_details": "LobeChat is distributed as an open-source project, so the software itself can be downloaded at no cost. You may still pay for hosting, hardware or API usage with the models you connect. Check the official site or repository for licensing and current details.",
+  "faq": [
+   {
+    "q": "What is LobeChat?",
+    "a": "Open-source chat framework with a polished interface and many providers. It is listed here in the chat assistants category so you can compare it with similar tools."
+   },
+   {
+    "q": "Is LobeChat free to use?",
+    "a": "LobeChat is distributed as an open-source project, so the software itself can be downloaded at no cost. You may still pay for hosting, hardware or API usage with the models you connect. Check the official site or repository for licensing and current details."
+   },
+   {
+    "q": "How should I check results from LobeChat?",
+    "a": "Treat outputs as a first draft. Verify facts, numbers and code yourself, follow your school or workplace rules on AI, and read the privacy terms on the official site before sharing sensitive information."
+   }
+  ],
+  "seo_title": "LobeChat: What It Is and How to Use It",
+  "seo_description": "Learn what LobeChat is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "anythingllm",
+  "name": "AnythingLLM",
+  "category": "chat-assistants",
+  "website_url": "https://anythingllm.com",
+  "pricing": "Open source",
+  "tagline": "Private AI app for chatting with your documents using local or cloud models.",
+  "best_for": "Chatting with your own files in a private desktop app",
+  "platforms": [
+   "Windows",
+   "macOS",
+   "Linux"
+  ],
+  "description": "AnythingLLM is an application from Mintplex Labs that lets you chat with your documents. It is covered in tutorials as a desktop app and open-source project that works with local models or hosted providers.\n\nYou add files such as PDFs and notes, and the app retrieves relevant passages to answer questions about them. That makes it useful for private knowledge bases, study notes or small teams who do not want to upload documents to a public chatbot. Answer quality depends on the model you pick, so check the official site for setup options. Features and plans change, so check the official site for current plans.",
+  "use_steps": [
+   "Open the official site for AnythingLLM and review what it offers.",
+   "Set up access, such as an account, download or API key, as the site describes.",
+   "Start with a small real task and give clear context in your prompt.",
+   "Check the results against reliable sources before using them."
+  ],
+  "pros": [
+   "Document-grounded answers",
+   "Privacy-friendly options",
+   "Works with several models",
+   "No code needed for basics"
+  ],
+  "cons": [
+   "Quality depends on chosen model",
+   "Setup involves choices"
+  ],
+  "alternatives": [
+   "open-webui",
+   "gpt4all",
+   "jan-ai"
+  ],
+  "tags": [
+   "rag",
+   "documents",
+   "local",
+   "private",
+   "open-source"
+  ],
+  "features": [
+   "Chat with documents",
+   "Local or cloud models",
+   "Workspaces",
+   "Desktop app",
+   "Open-source project"
+  ],
+  "use_cases": [
+   "Querying a folder of PDFs",
+   "Building a private knowledge base",
+   "Studying from your own notes",
+   "Testing local models"
+  ],
+  "pricing_details": "AnythingLLM is distributed as an open-source project, so the software itself can be downloaded at no cost. You may still pay for hosting, hardware or API usage with the models you connect. Check the official site or repository for licensing and current details.",
+  "faq": [
+   {
+    "q": "What is AnythingLLM?",
+    "a": "Private AI app for chatting with your documents using local or cloud models. It is listed here in the chat assistants category so you can compare it with similar tools."
+   },
+   {
+    "q": "Is AnythingLLM free to use?",
+    "a": "AnythingLLM is distributed as an open-source project, so the software itself can be downloaded at no cost. You may still pay for hosting, hardware or API usage with the models you connect. Check the official site or repository for licensing and current details."
+   },
+   {
+    "q": "How should I check results from AnythingLLM?",
+    "a": "Treat outputs as a first draft. Verify facts, numbers and code yourself, follow your school or workplace rules on AI, and read the privacy terms on the official site before sharing sensitive information."
+   }
+  ],
+  "seo_title": "AnythingLLM: What It Is and How to Use It",
+  "seo_description": "Learn what AnythingLLM is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "msty",
+  "name": "Msty",
+  "category": "chat-assistants",
+  "website_url": "https://msty.ai",
+  "pricing": "Freemium",
+  "tagline": "Desktop app for using local and online AI models in one place.",
+  "best_for": "Running and comparing local models with a friendly desktop app",
+  "platforms": [
+   "Windows",
+   "macOS",
+   "Linux"
+  ],
+  "description": "Msty, now called Msty Studio, is a desktop application for chatting with local and online models. Its documentation covers managing local models and getting started quickly, and the company announced a free desktop edition.\n\nIt targets people who want a polished interface without wrestling with command-line tools. You can download models, compare answers and organize conversations. Reviews and comparisons often place it next to Ollama and LM Studio. Check the official site for what the free edition includes and what is part of paid plans. Features and plans change, so check the official site for current plans.",
+  "use_steps": [
+   "Open the official site for Msty and review what it offers.",
+   "Set up access, such as an account, download or API key, as the site describes.",
+   "Start with a small real task and give clear context in your prompt.",
+   "Check the results against reliable sources before using them."
+  ],
+  "pros": [
+   "Friendly interface",
+   "Free edition exists",
+   "Local and cloud in one app",
+   "Good documentation"
+  ],
+  "cons": [
+   "Feature split between free and paid",
+   "Local models need capable hardware"
+  ],
+  "alternatives": [
+   "lm-studio",
+   "ollama",
+   "jan-ai"
+  ],
+  "tags": [
+   "local",
+   "desktop",
+   "models",
+   "offline",
+   "chat"
+  ],
+  "features": [
+   "Local model management",
+   "Online provider support",
+   "Conversation organization",
+   "Desktop app",
+   "Free desktop edition"
+  ],
+  "use_cases": [
+   "Trying local models without a terminal",
+   "Comparing answers across models",
+   "Organizing chats by topic",
+   "Running offline experiments"
+  ],
+  "pricing_details": "Msty generally has a free way to try it alongside paid options with more features or usage. What each tier includes can change over time. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Msty?",
+    "a": "Desktop app for using local and online AI models in one place. It is listed here in the chat assistants category so you can compare it with similar tools."
+   },
+   {
+    "q": "Is Msty free to use?",
+    "a": "Msty generally has a free way to try it alongside paid options with more features or usage. What each tier includes can change over time. Check the official site for current plans."
+   },
+   {
+    "q": "How should I check results from Msty?",
+    "a": "Treat outputs as a first draft. Verify facts, numbers and code yourself, follow your school or workplace rules on AI, and read the privacy terms on the official site before sharing sensitive information."
+   }
+  ],
+  "seo_title": "Msty: What It Is and How to Use It",
+  "seo_description": "Learn what Msty is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "sillytavern",
+  "name": "SillyTavern",
+  "category": "chat-assistants",
+  "website_url": "https://sillytavern.app",
+  "pricing": "Open source",
+  "tagline": "Open-source front end for roleplay and character chat with many backends.",
+  "best_for": "Advanced character chat with your own model backends",
+  "platforms": [
+   "Windows",
+   "macOS",
+   "Linux",
+   "Web"
+  ],
+  "description": "SillyTavern is an open-source user interface for talking to language models, with a strong focus on characters, roleplay and long-running stories. It connects to many back ends, from local engines to hosted APIs.\n\nHobbyists use it to import character cards, manage lore and tune prompts and sampling settings in great detail. The flexibility comes with a learning curve, and you provide the model or API yourself. Content depends on the model you connect, so choose settings and sources responsibly and check the project docs for installation steps. Features and plans change, so check the official site for current plans.",
+  "use_steps": [
+   "Open the official site for SillyTavern and review what it offers.",
+   "Set up access, such as an account, download or API key, as the site describes.",
+   "Start with a small real task and give clear context in your prompt.",
+   "Check the results against reliable sources before using them."
+  ],
+  "pros": [
+   "Highly customizable",
+   "Works with many back ends",
+   "Community-driven",
+   "Runs on your own machine"
+  ],
+  "cons": [
+   "Steep learning curve",
+   "Needs a separate model or API"
+  ],
+  "alternatives": [
+   "character-ai",
+   "koboldcpp",
+   "text-generation-webui"
+  ],
+  "tags": [
+   "roleplay",
+   "characters",
+   "open-source",
+   "frontend",
+   "local"
+  ],
+  "features": [
+   "Character card support",
+   "Many model back ends",
+   "Prompt and sampler controls",
+   "Lorebook-style memory",
+   "Runs locally"
+  ],
+  "use_cases": [
+   "Running a long roleplay story",
+   "Testing local models in character",
+   "Managing multiple personas",
+   "Experimenting with prompts"
+  ],
+  "pricing_details": "SillyTavern is distributed as an open-source project, so the software itself can be downloaded at no cost. You may still pay for hosting, hardware or API usage with the models you connect. Check the official site or repository for licensing and current details.",
+  "faq": [
+   {
+    "q": "What is SillyTavern?",
+    "a": "Open-source front end for roleplay and character chat with many backends. It is listed here in the chat assistants category so you can compare it with similar tools."
+   },
+   {
+    "q": "Is SillyTavern free to use?",
+    "a": "SillyTavern is distributed as an open-source project, so the software itself can be downloaded at no cost. You may still pay for hosting, hardware or API usage with the models you connect. Check the official site or repository for licensing and current details."
+   },
+   {
+    "q": "How should I check results from SillyTavern?",
+    "a": "Treat outputs as a first draft. Verify facts, numbers and code yourself, follow your school or workplace rules on AI, and read the privacy terms on the official site before sharing sensitive information."
+   }
+  ],
+  "seo_title": "SillyTavern: What It Is and How to Use It",
+  "seo_description": "Learn what SillyTavern is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "localai",
+  "name": "LocalAI",
+  "category": "chat-assistants",
+  "website_url": "https://localai.io",
+  "pricing": "Open source",
+  "tagline": "Self-hosted, OpenAI-compatible API for running models locally.",
+  "best_for": "Hosting a drop-in local replacement for the OpenAI API",
+  "platforms": [
+   "Linux",
+   "macOS",
+   "Windows",
+   "Docker"
+  ],
+  "description": "LocalAI is an open-source project that exposes a REST API compatible with the OpenAI API format, so existing tools can talk to models running on your own hardware. It is developed by mudler and distributed through GitHub and Docker.\n\nDevelopers use it to test applications offline, avoid sending data to third parties or run models for several tools from one server. It is not a polished chat app on its own, so you usually pair it with a UI. Hardware needs vary by model, and the project documentation lists current capabilities. Features and plans change, so check the official site for current plans.",
+  "use_steps": [
+   "Open the official site for LocalAI and review what it offers.",
+   "Set up access, such as an account, download or API key, as the site describes.",
+   "Start with a small real task and give clear context in your prompt.",
+   "Check the results against reliable sources before using them."
+  ],
+  "pros": [
+   "Drop-in compatible API",
+   "Full control of data",
+   "Open source",
+   "Works with many tools"
+  ],
+  "cons": [
+   "Needs technical setup",
+   "Performance depends on hardware"
+  ],
+  "alternatives": [
+   "ollama",
+   "open-webui",
+   "lm-studio"
+  ],
+  "tags": [
+   "local",
+   "api",
+   "self-hosted",
+   "open-source",
+   "developer"
+  ],
+  "features": [
+   "OpenAI-compatible API",
+   "Runs on your hardware",
+   "Docker images",
+   "Open-source code",
+   "Support for various model types"
+  ],
+  "use_cases": [
+   "Testing apps without cloud calls",
+   "Serving local models to a UI",
+   "Keeping data in-house",
+   "Offline prototyping"
+  ],
+  "pricing_details": "LocalAI is distributed as an open-source project, so the software itself can be downloaded at no cost. You may still pay for hosting, hardware or API usage with the models you connect. Check the official site or repository for licensing and current details.",
+  "faq": [
+   {
+    "q": "What is LocalAI?",
+    "a": "Self-hosted, OpenAI-compatible API for running models locally. It is listed here in the chat assistants category so you can compare it with similar tools."
+   },
+   {
+    "q": "Is LocalAI free to use?",
+    "a": "LocalAI is distributed as an open-source project, so the software itself can be downloaded at no cost. You may still pay for hosting, hardware or API usage with the models you connect. Check the official site or repository for licensing and current details."
+   },
+   {
+    "q": "How should I check results from LocalAI?",
+    "a": "Treat outputs as a first draft. Verify facts, numbers and code yourself, follow your school or workplace rules on AI, and read the privacy terms on the official site before sharing sensitive information."
+   }
+  ],
+  "seo_title": "LocalAI: What It Is and How to Use It",
+  "seo_description": "Learn what LocalAI is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "cherry-studio",
+  "name": "Cherry Studio",
+  "category": "chat-assistants",
+  "website_url": "https://www.cherry-ai.com",
+  "pricing": "Open source",
+  "tagline": "Desktop AI client that supports many model providers and local models.",
+  "best_for": "Managing many AI providers in one desktop app",
+  "platforms": [
+   "Windows",
+   "macOS",
+   "Linux"
+  ],
+  "description": "Cherry Studio is a desktop client that brings multiple LLM providers into one application. Open-source directories and a CherryHQ repository describe it as a cross-platform AI client.\n\nUsers can switch between providers, work with local models and organize assistants and knowledge in a single place. Several cloud documentation pages even include Cherry Studio setup guides. It is aimed at power users comfortable adding API keys, so check the official site for current features and download options. Features and plans change, so check the official site for current plans.",
+  "use_steps": [
+   "Open the official site for Cherry Studio and review what it offers.",
+   "Set up access, such as an account, download or API key, as the site describes.",
+   "Start with a small real task and give clear context in your prompt.",
+   "Check the results against reliable sources before using them."
+  ],
+  "pros": [
+   "Many providers in one place",
+   "Active open-source repo",
+   "Works across desktop platforms",
+   "Documented in third-party guides"
+  ],
+  "cons": [
+   "Needs API setup",
+   "Interface can feel dense"
+  ],
+  "alternatives": [
+   "chatbox",
+   "lobechat",
+   "jan-ai"
+  ],
+  "tags": [
+   "desktop",
+   "client",
+   "multi-provider",
+   "open-source",
+   "local"
+  ],
+  "features": [
+   "Multi-provider desktop client",
+   "Local model support",
+   "Assistant presets",
+   "Knowledge features",
+   "Open-source code"
+  ],
+  "use_cases": [
+   "Switching between model providers",
+   "Saving assistants for repeat tasks",
+   "Using a company API through a desktop UI",
+   "Running local models"
+  ],
+  "pricing_details": "Cherry Studio is distributed as an open-source project, so the software itself can be downloaded at no cost. You may still pay for hosting, hardware or API usage with the models you connect. Check the official site or repository for licensing and current details.",
+  "faq": [
+   {
+    "q": "What is Cherry Studio?",
+    "a": "Desktop AI client that supports many model providers and local models. It is listed here in the chat assistants category so you can compare it with similar tools."
+   },
+   {
+    "q": "Is Cherry Studio free to use?",
+    "a": "Cherry Studio is distributed as an open-source project, so the software itself can be downloaded at no cost. You may still pay for hosting, hardware or API usage with the models you connect. Check the official site or repository for licensing and current details."
+   },
+   {
+    "q": "How should I check results from Cherry Studio?",
+    "a": "Treat outputs as a first draft. Verify facts, numbers and code yourself, follow your school or workplace rules on AI, and read the privacy terms on the official site before sharing sensitive information."
+   }
+  ],
+  "seo_title": "Cherry Studio: What It Is and How to Use It",
+  "seo_description": "Learn what Cherry Studio is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "koboldcpp",
+  "name": "KoboldCpp",
+  "category": "chat-assistants",
+  "website_url": "https://github.com/LostRuins/koboldcpp",
+  "pricing": "Open source",
+  "tagline": "Single-file tool for running GGUF models with a built-in web UI.",
+  "best_for": "Running local text models with minimal setup",
+  "platforms": [
+   "Windows",
+   "macOS",
+   "Linux"
+  ],
+  "description": "KoboldCpp is an open-source project by LostRuins for running GGUF language models locally. It packages the engine and a web interface, with a wiki and regular releases on GitHub.\n\nIt is popular for story writing and roleplay and is often paired with SillyTavern. Because it is a single download, it is less intimidating than many setups, though you still pick models and tune settings yourself. Hardware limits what models run well, so read the project wiki before choosing. Features and plans change, so check the official site for current plans.",
+  "use_steps": [
+   "Open the official site for KoboldCpp and review what it offers.",
+   "Set up access, such as an account, download or API key, as the site describes.",
+   "Start with a small real task and give clear context in your prompt.",
+   "Check the results against reliable sources before using them."
+  ],
+  "pros": [
+   "Easy to launch",
+   "Works offline",
+   "Frequent releases",
+   "Pairs with other front ends"
+  ],
+  "cons": [
+   "Settings can overwhelm beginners",
+   "Needs decent hardware for larger models"
+  ],
+  "alternatives": [
+   "sillytavern",
+   "text-generation-webui",
+   "ollama"
+  ],
+  "tags": [
+   "local",
+   "gguf",
+   "open-source",
+   "storytelling",
+   "offline"
+  ],
+  "features": [
+   "Runs GGUF models",
+   "Built-in web UI",
+   "GPU acceleration options",
+   "Story and chat modes",
+   "Open-source releases"
+  ],
+  "use_cases": [
+   "Writing interactive stories",
+   "Powering a roleplay front end",
+   "Testing downloaded models",
+   "Running chat offline"
+  ],
+  "pricing_details": "KoboldCpp is distributed as an open-source project, so the software itself can be downloaded at no cost. You may still pay for hosting, hardware or API usage with the models you connect. Check the official site or repository for licensing and current details.",
+  "faq": [
+   {
+    "q": "What is KoboldCpp?",
+    "a": "Single-file tool for running GGUF models with a built-in web UI. It is listed here in the chat assistants category so you can compare it with similar tools."
+   },
+   {
+    "q": "Is KoboldCpp free to use?",
+    "a": "KoboldCpp is distributed as an open-source project, so the software itself can be downloaded at no cost. You may still pay for hosting, hardware or API usage with the models you connect. Check the official site or repository for licensing and current details."
+   },
+   {
+    "q": "How should I check results from KoboldCpp?",
+    "a": "Treat outputs as a first draft. Verify facts, numbers and code yourself, follow your school or workplace rules on AI, and read the privacy terms on the official site before sharing sensitive information."
+   }
+  ],
+  "seo_title": "KoboldCpp: What It Is and How to Use It",
+  "seo_description": "Learn what KoboldCpp is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "text-generation-webui",
+  "name": "Text Generation WebUI",
+  "category": "chat-assistants",
+  "website_url": "https://github.com/oobabooga/text-generation-webui",
+  "pricing": "Open source",
+  "tagline": "Gradio-based web UI for running and chatting with local language models.",
+  "best_for": "Experimenting with many local model formats in one interface",
+  "platforms": [
+   "Windows",
+   "macOS",
+   "Linux"
+  ],
+  "description": "Text generation web UI, maintained by oobabooga, is an open-source web interface for loading and chatting with language models on your own computer. It is widely listed in open-source AI directories.\n\nIt supports several model loaders and formats and offers chat, notebook-style writing and extensions. That breadth makes it a favorite for tinkerers testing new releases. It is more hands-on than apps like LM Studio, so expect to manage Python environments and settings, and consult the repository for the current install instructions. Features and plans change, so check the official site for current plans.",
+  "use_steps": [
+   "Open the official site for Text Generation WebUI and review what it offers.",
+   "Set up access, such as an account, download or API key, as the site describes.",
+   "Start with a small real task and give clear context in your prompt.",
+   "Check the results against reliable sources before using them."
+  ],
+  "pros": [
+   "Very flexible",
+   "Supports many formats",
+   "Open source",
+   "Large user community"
+  ],
+  "cons": [
+   "Setup can be technical",
+   "Interface changes between versions"
+  ],
+  "alternatives": [
+   "koboldcpp",
+   "open-webui",
+   "lm-studio"
+  ],
+  "tags": [
+   "local",
+   "open-source",
+   "webui",
+   "models",
+   "developer"
+  ],
+  "features": [
+   "Web-based interface",
+   "Multiple model loaders",
+   "Chat and notebook modes",
+   "Extension support",
+   "Runs locally"
+  ],
+  "use_cases": [
+   "Testing new open models",
+   "Tuning generation parameters",
+   "Running local chat",
+   "Writing with a local model"
+  ],
+  "pricing_details": "Text Generation WebUI is distributed as an open-source project, so the software itself can be downloaded at no cost. You may still pay for hosting, hardware or API usage with the models you connect. Check the official site or repository for licensing and current details.",
+  "faq": [
+   {
+    "q": "What is Text Generation WebUI?",
+    "a": "Gradio-based web UI for running and chatting with local language models. It is listed here in the chat assistants category so you can compare it with similar tools."
+   },
+   {
+    "q": "Is Text Generation WebUI free to use?",
+    "a": "Text Generation WebUI is distributed as an open-source project, so the software itself can be downloaded at no cost. You may still pay for hosting, hardware or API usage with the models you connect. Check the official site or repository for licensing and current details."
+   },
+   {
+    "q": "How should I check results from Text Generation WebUI?",
+    "a": "Treat outputs as a first draft. Verify facts, numbers and code yourself, follow your school or workplace rules on AI, and read the privacy terms on the official site before sharing sensitive information."
+   }
+  ],
+  "seo_title": "Text Generation WebUI: What It Is and How to Use It",
+  "seo_description": "Learn what Text Generation WebUI is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "replika",
+  "name": "Replika",
+  "category": "chat-assistants",
+  "website_url": "https://replika.com",
+  "pricing": "Freemium",
+  "tagline": "AI companion app for ongoing friendly conversation.",
+  "best_for": "Casual companionship-style chat",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "Replika is an AI companion app where you create a character and chat with it over time. App store listings describe it as an AI friend for growth and support, with the conversation shaped by your interactions.\n\nPeople use it for casual conversation, reflection or practicing communication. It is an entertainment and companionship product, not a therapist or medical service, and users should be mindful of emotional reliance and privacy. Pricing includes a free tier and subscription options in app stores, but details change, so check the official site and app listing. Features and plans change, so check the official site for current plans.",
+  "use_steps": [
+   "Open the official site for Replika and review what it offers.",
+   "Set up access, such as an account, download or API key, as the site describes.",
+   "Start with a small real task and give clear context in your prompt.",
+   "Check the results against reliable sources before using them."
+  ],
+  "pros": [
+   "Easy to start",
+   "Personalizable character",
+   "Mobile-first design",
+   "Long-running conversations"
+  ],
+  "cons": [
+   "Not a substitute for professional support",
+   "Some features require subscription"
+  ],
+  "alternatives": [
+   "nomi-ai",
+   "kindroid",
+   "character-ai"
+  ],
+  "tags": [
+   "companion",
+   "chat",
+   "mobile",
+   "persona",
+   "social"
+  ],
+  "features": [
+   "Customizable AI companion",
+   "Text chat",
+   "Mobile apps",
+   "Conversation memory features",
+   "Subscription options"
+  ],
+  "use_cases": [
+   "Casual daily conversation",
+   "Journaling-style reflection",
+   "Practicing small talk",
+   "Exploring a character persona"
+  ],
+  "pricing_details": "Replika generally has a free way to try it alongside paid options with more features or usage. What each tier includes can change over time. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Replika?",
+    "a": "AI companion app for ongoing friendly conversation. It is listed here in the chat assistants category so you can compare it with similar tools."
+   },
+   {
+    "q": "Is Replika free to use?",
+    "a": "Replika generally has a free way to try it alongside paid options with more features or usage. What each tier includes can change over time. Check the official site for current plans."
+   },
+   {
+    "q": "How should I check results from Replika?",
+    "a": "Treat outputs as a first draft. Verify facts, numbers and code yourself, follow your school or workplace rules on AI, and read the privacy terms on the official site before sharing sensitive information."
+   }
+  ],
+  "seo_title": "Replika: What It Is and How to Use It",
+  "seo_description": "Learn what Replika is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "chai",
+  "name": "Chai",
+  "category": "chat-assistants",
+  "website_url": "https://www.chai-research.com",
+  "pricing": "Freemium",
+  "tagline": "Social AI platform with a large library of user-made chatbots.",
+  "best_for": "Browsing and chatting with community-created AI characters",
+  "platforms": [
+   "iOS",
+   "Android"
+  ],
+  "description": "Chai, by Chai Research, is a social AI chat platform where users can talk to many different chatbots and create their own. App store listings and Wikipedia describe it as a platform for conversational AI characters.\n\nIt is mainly for entertainment, storytelling and casual conversation. Because bots are made by a wide community, content quality and appropriateness vary, and the app carries age ratings and safety considerations. Subscription options exist in app stores, so check the official site and your app store for current terms. Features and plans change, so check the official site for current plans.",
+  "use_steps": [
+   "Open the official site for Chai and review what it offers.",
+   "Set up access, such as an account, download or API key, as the site describes.",
+   "Start with a small real task and give clear context in your prompt.",
+   "Check the results against reliable sources before using them."
+  ],
+  "pros": [
+   "Huge variety of characters",
+   "Mobile-friendly",
+   "Creator tools",
+   "Easy to start"
+  ],
+  "cons": [
+   "Content varies by creator",
+   "Age and safety awareness required"
+  ],
+  "alternatives": [
+   "character-ai",
+   "janitor-ai",
+   "polybuzz"
+  ],
+  "tags": [
+   "characters",
+   "chatbots",
+   "social",
+   "mobile",
+   "entertainment"
+  ],
+  "features": [
+   "Library of community bots",
+   "Create your own chatbot",
+   "Mobile apps",
+   "Casual chat focus",
+   "Subscription options"
+  ],
+  "use_cases": [
+   "Chatting with fictional characters",
+   "Building a custom bot",
+   "Practicing storytelling",
+   "Passing time with light conversation"
+  ],
+  "pricing_details": "Chai generally has a free way to try it alongside paid options with more features or usage. What each tier includes can change over time. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Chai?",
+    "a": "Social AI platform with a large library of user-made chatbots. It is listed here in the chat assistants category so you can compare it with similar tools."
+   },
+   {
+    "q": "Is Chai free to use?",
+    "a": "Chai generally has a free way to try it alongside paid options with more features or usage. What each tier includes can change over time. Check the official site for current plans."
+   },
+   {
+    "q": "How should I check results from Chai?",
+    "a": "Treat outputs as a first draft. Verify facts, numbers and code yourself, follow your school or workplace rules on AI, and read the privacy terms on the official site before sharing sensitive information."
+   }
+  ],
+  "seo_title": "Chai: What It Is and How to Use It",
+  "seo_description": "Learn what Chai is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "janitor-ai",
+  "name": "Janitor AI",
+  "category": "chat-assistants",
+  "website_url": "https://janitorai.com",
+  "pricing": "Unknown",
+  "tagline": "Character chat platform with a large community of user-made characters.",
+  "best_for": "Roleplay-style chat with community characters",
+  "platforms": [
+   "Web",
+   "iOS"
+  ],
+  "description": "Janitor AI is a character-chat platform where users create and talk to AI personas. Guides and reviews describe it as a place for roleplay and story-driven conversations, and it has an iOS app listing.\n\nMany users connect it to external model back ends or use the site's own options, so the experience varies with the model behind it. Characters are made by the community, so content and quality differ, and mature material appears on some bots. Read the site's rules and age requirements, and check the official site for current options. Features and plans change, so check the official site for current plans.",
+  "use_steps": [
+   "Open the official site for Janitor AI and review what it offers.",
+   "Set up access, such as an account, download or API key, as the site describes.",
+   "Start with a small real task and give clear context in your prompt.",
+   "Check the results against reliable sources before using them."
+  ],
+  "pros": [
+   "Large character selection",
+   "Flexible setup options",
+   "Creative freedom",
+   "Active community"
+  ],
+  "cons": [
+   "Content varies and may be mature",
+   "Setup can be confusing"
+  ],
+  "alternatives": [
+   "character-ai",
+   "chai",
+   "sillytavern"
+  ],
+  "tags": [
+   "characters",
+   "roleplay",
+   "community",
+   "chat",
+   "creative"
+  ],
+  "features": [
+   "Character creation",
+   "Community character library",
+   "Roleplay chat",
+   "Model or proxy options",
+   "iOS app listing"
+  ],
+  "use_cases": [
+   "Roleplaying a story",
+   "Creating a custom character",
+   "Trying characters from others",
+   "Testing different model back ends"
+  ],
+  "pricing_details": "We did not verify current pricing for Janitor AI. Plans, free limits and trials can change, so check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Janitor AI?",
+    "a": "Character chat platform with a large community of user-made characters. It is listed here in the chat assistants category so you can compare it with similar tools."
+   },
+   {
+    "q": "Is Janitor AI free to use?",
+    "a": "We did not verify current pricing for Janitor AI. Plans, free limits and trials can change, so check the official site for current plans."
+   },
+   {
+    "q": "How should I check results from Janitor AI?",
+    "a": "Treat outputs as a first draft. Verify facts, numbers and code yourself, follow your school or workplace rules on AI, and read the privacy terms on the official site before sharing sensitive information."
+   }
+  ],
+  "seo_title": "Janitor AI: What It Is and How to Use It",
+  "seo_description": "Learn what Janitor AI is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "talkie-ai",
+  "name": "Talkie",
+  "category": "chat-assistants",
+  "website_url": "https://www.talkie-ai.com",
+  "pricing": "Unknown",
+  "tagline": "Mobile app for chatting with AI characters and personas.",
+  "best_for": "Casual character chat on a phone",
+  "platforms": [
+   "iOS",
+   "Android"
+  ],
+  "description": "Talkie is a mobile app for chatting with AI characters. App store listings call it an AI character chat app with personalized conversations, and it also appears in several regional versions.\n\nYou can browse characters, talk to them and, in some versions, create your own. It is entertainment oriented and rated for older audiences on the iOS store. Features and age ratings differ across regional apps, so review the privacy information and check the official site for the version available to you. Features and plans change, so check the official site for current plans.",
+  "use_steps": [
+   "Open the official site for Talkie and review what it offers.",
+   "Set up access, such as an account, download or API key, as the site describes.",
+   "Start with a small real task and give clear context in your prompt.",
+   "Check the results against reliable sources before using them."
+  ],
+  "pros": [
+   "Mobile-first",
+   "Lots of characters",
+   "Simple interface",
+   "Easy onboarding"
+  ],
+  "cons": [
+   "Content and ratings vary by version",
+   "Premium features may be paid"
+  ],
+  "alternatives": [
+   "character-ai",
+   "polybuzz",
+   "chai"
+  ],
+  "tags": [
+   "characters",
+   "mobile",
+   "chat",
+   "entertainment",
+   "personas"
+  ],
+  "features": [
+   "Character browsing",
+   "Personalized chat",
+   "Mobile apps",
+   "Character creation options",
+   "Voice-style interactions"
+  ],
+  "use_cases": [
+   "Light roleplay",
+   "Talking to a favorite fictional persona",
+   "Creating a simple character",
+   "Passing time with chat"
+  ],
+  "pricing_details": "We did not verify current pricing for Talkie. Plans, free limits and trials can change, so check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Talkie?",
+    "a": "Mobile app for chatting with AI characters and personas. It is listed here in the chat assistants category so you can compare it with similar tools."
+   },
+   {
+    "q": "Is Talkie free to use?",
+    "a": "We did not verify current pricing for Talkie. Plans, free limits and trials can change, so check the official site for current plans."
+   },
+   {
+    "q": "How should I check results from Talkie?",
+    "a": "Treat outputs as a first draft. Verify facts, numbers and code yourself, follow your school or workplace rules on AI, and read the privacy terms on the official site before sharing sensitive information."
+   }
+  ],
+  "seo_title": "Talkie: What It Is and How to Use It",
+  "seo_description": "Learn what Talkie is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "polybuzz",
+  "name": "PolyBuzz",
+  "category": "chat-assistants",
+  "website_url": "https://www.polybuzz.ai",
+  "pricing": "Unknown",
+  "tagline": "AI character chat app, formerly known as Poly.AI.",
+  "best_for": "Chatting with AI characters across web and mobile",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "PolyBuzz, formerly Poly.AI, is a platform for chatting with AI characters. TechRadar has compared it with Character.AI, and it is available through app stores as well as on the web.\n\nUsers browse a catalog of characters and talk with them, and can often create their own. It is designed for entertainment and casual storytelling rather than factual research. Content is largely user created, so quality varies, and subscription options may apply. Check the official site for current features and age guidance. Features and plans change, so check the official site for current plans.",
+  "use_steps": [
+   "Open the official site for PolyBuzz and review what it offers.",
+   "Set up access, such as an account, download or API key, as the site describes.",
+   "Start with a small real task and give clear context in your prompt.",
+   "Check the results against reliable sources before using them."
+  ],
+  "pros": [
+   "Wide character selection",
+   "Cross-platform",
+   "Creation tools",
+   "Active development"
+  ],
+  "cons": [
+   "Content quality varies",
+   "Some features may need payment"
+  ],
+  "alternatives": [
+   "character-ai",
+   "chai",
+   "talkie-ai"
+  ],
+  "tags": [
+   "characters",
+   "chat",
+   "mobile",
+   "creator",
+   "entertainment"
+  ],
+  "features": [
+   "Character catalog",
+   "Create your own characters",
+   "Web and mobile",
+   "Story-style chat",
+   "Subscription options"
+  ],
+  "use_cases": [
+   "Casual roleplay",
+   "Exploring fictional scenarios",
+   "Making a custom persona",
+   "Daily light conversation"
+  ],
+  "pricing_details": "We did not verify current pricing for PolyBuzz. Plans, free limits and trials can change, so check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is PolyBuzz?",
+    "a": "AI character chat app, formerly known as Poly.AI. It is listed here in the chat assistants category so you can compare it with similar tools."
+   },
+   {
+    "q": "Is PolyBuzz free to use?",
+    "a": "We did not verify current pricing for PolyBuzz. Plans, free limits and trials can change, so check the official site for current plans."
+   },
+   {
+    "q": "How should I check results from PolyBuzz?",
+    "a": "Treat outputs as a first draft. Verify facts, numbers and code yourself, follow your school or workplace rules on AI, and read the privacy terms on the official site before sharing sensitive information."
+   }
+  ],
+  "seo_title": "PolyBuzz: What It Is and How to Use It",
+  "seo_description": "Learn what PolyBuzz is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "kindroid",
+  "name": "Kindroid",
+  "category": "chat-assistants",
+  "website_url": "https://kindroid.ai",
+  "pricing": "Unknown",
+  "tagline": "Customizable AI companion app with text and voice interaction.",
+  "best_for": "Building a personalized companion character",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "Kindroid is an AI companion app where you design a personality and appearance and then chat with it. App store listings describe it as a personal AI, and reviews highlight customization.\n\nYou can adjust backstory and traits and talk by text or voice. It is a companionship and entertainment product, not professional support, so keep expectations realistic and think about what personal information you share. Plans and features change, so check the official site and your app store for current pricing. Features and plans change, so check the official site for current plans.",
+  "use_steps": [
+   "Open the official site for Kindroid and review what it offers.",
+   "Set up access, such as an account, download or API key, as the site describes.",
+   "Start with a small real task and give clear context in your prompt.",
+   "Check the results against reliable sources before using them."
+  ],
+  "pros": [
+   "Deep customization",
+   "Mobile apps",
+   "Voice options",
+   "Active community"
+  ],
+  "cons": [
+   "Not a substitute for real support",
+   "Pricing and limits can change"
+  ],
+  "alternatives": [
+   "replika",
+   "nomi-ai",
+   "character-ai"
+  ],
+  "tags": [
+   "companion",
+   "customizable",
+   "voice",
+   "mobile",
+   "persona"
+  ],
+  "features": [
+   "Companion customization",
+   "Text and voice chat",
+   "Mobile apps",
+   "Memory features",
+   "Backstory settings"
+  ],
+  "use_cases": [
+   "Personalized conversation",
+   "Voice chat practice",
+   "Exploring a created persona",
+   "Journaling out loud"
+  ],
+  "pricing_details": "We did not verify current pricing for Kindroid. Plans, free limits and trials can change, so check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Kindroid?",
+    "a": "Customizable AI companion app with text and voice interaction. It is listed here in the chat assistants category so you can compare it with similar tools."
+   },
+   {
+    "q": "Is Kindroid free to use?",
+    "a": "We did not verify current pricing for Kindroid. Plans, free limits and trials can change, so check the official site for current plans."
+   },
+   {
+    "q": "How should I check results from Kindroid?",
+    "a": "Treat outputs as a first draft. Verify facts, numbers and code yourself, follow your school or workplace rules on AI, and read the privacy terms on the official site before sharing sensitive information."
+   }
+  ],
+  "seo_title": "Kindroid: What It Is and How to Use It",
+  "seo_description": "Learn what Kindroid is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "nomi-ai",
+  "name": "Nomi",
+  "category": "chat-assistants",
+  "website_url": "https://nomi.ai",
+  "pricing": "Unknown",
+  "tagline": "AI companion app focused on persistent, personalized relationships.",
+  "best_for": "Ongoing companion-style conversation with a persistent character",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "Nomi is an AI companion service where you create a character, called a Nomi, and chat with it over time. App store listings describe it as an AI companion with a soul, emphasizing memory and personality.\n\nUsers treat it as a friend-style companion for conversation. Like similar apps it is not a therapist or medical resource, and it can encourage emotional attachment, so it helps to stay aware of your own boundaries and privacy. Check the official site and app store for current plans and age guidance. Features and plans change, so check the official site for current plans.",
+  "use_steps": [
+   "Open the official site for Nomi and review what it offers.",
+   "Set up access, such as an account, download or API key, as the site describes.",
+   "Start with a small real task and give clear context in your prompt.",
+   "Check the results against reliable sources before using them."
+  ],
+  "pros": [
+   "Focus on memory and continuity",
+   "Customizable personality",
+   "Available on several platforms",
+   "Easy to start"
+  ],
+  "cons": [
+   "Not professional support",
+   "Subscriptions may be needed for full features"
+  ],
+  "alternatives": [
+   "replika",
+   "kindroid",
+   "character-ai"
+  ],
+  "tags": [
+   "companion",
+   "memory",
+   "chat",
+   "mobile",
+   "persona"
+  ],
+  "features": [
+   "Persistent companion",
+   "Memory of conversations",
+   "Mobile and web access",
+   "Personality customization",
+   "Voice and text options"
+  ],
+  "use_cases": [
+   "Daily friendly chat",
+   "Practicing conversation",
+   "Exploring a persona",
+   "Creative storytelling with one character"
+  ],
+  "pricing_details": "We did not verify current pricing for Nomi. Plans, free limits and trials can change, so check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Nomi?",
+    "a": "AI companion app focused on persistent, personalized relationships. It is listed here in the chat assistants category so you can compare it with similar tools."
+   },
+   {
+    "q": "Is Nomi free to use?",
+    "a": "We did not verify current pricing for Nomi. Plans, free limits and trials can change, so check the official site for current plans."
+   },
+   {
+    "q": "How should I check results from Nomi?",
+    "a": "Treat outputs as a first draft. Verify facts, numbers and code yourself, follow your school or workplace rules on AI, and read the privacy terms on the official site before sharing sensitive information."
+   }
+  ],
+  "seo_title": "Nomi: What It Is and How to Use It",
+  "seo_description": "Learn what Nomi is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "liner",
+  "name": "Liner",
+  "category": "chat-assistants",
+  "website_url": "https://liner.com",
+  "pricing": "Unknown",
+  "tagline": "AI research assistant with cited answers and research agents.",
+  "best_for": "Academic-style searching and cited summaries",
+  "platforms": [
+   "Web",
+   "Chrome"
+  ],
+  "description": "Liner is an AI research tool that grew out of a web highlighter. Today it offers answer search with citations and research agents, as described on its feature pages.\n\nStudents and professionals use it to find sources, summarize them and keep highlights organized. It is a good fit when you want to trace a claim back to its source rather than rely on an unsupported answer. Always open the cited material for important work, and check the official site for current plans. Features and plans change, so check the official site for current plans.",
+  "use_steps": [
+   "Open the official site for Liner and review what it offers.",
+   "Set up access, such as an account, download or API key, as the site describes.",
+   "Start with a small real task and give clear context in your prompt.",
+   "Check the results against reliable sources before using them."
+  ],
+  "pros": [
+   "Citations built in",
+   "Research-focused",
+   "Extension for in-page use",
+   "Helps with sources"
+  ],
+  "cons": [
+   "Still needs source verification",
+   "Plans change"
+  ],
+  "alternatives": [
+   "perplexity",
+   "consensus",
+   "elicit"
+  ],
+  "tags": [
+   "research",
+   "citations",
+   "search",
+   "students",
+   "assistant"
+  ],
+  "features": [
+   "Cited answer search",
+   "Research agents",
+   "Highlighting heritage",
+   "Source organization",
+   "Web and extension"
+  ],
+  "use_cases": [
+   "Finding sources for an essay",
+   "Summarizing papers",
+   "Organizing highlighted passages",
+   "Quick literature scans"
+  ],
+  "pricing_details": "We did not verify current pricing for Liner. Plans, free limits and trials can change, so check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Liner?",
+    "a": "AI research assistant with cited answers and research agents. It is listed here in the chat assistants category so you can compare it with similar tools."
+   },
+   {
+    "q": "Is Liner free to use?",
+    "a": "We did not verify current pricing for Liner. Plans, free limits and trials can change, so check the official site for current plans."
+   },
+   {
+    "q": "How should I check results from Liner?",
+    "a": "Treat outputs as a first draft. Verify facts, numbers and code yourself, follow your school or workplace rules on AI, and read the privacy terms on the official site before sharing sensitive information."
+   }
+  ],
+  "seo_title": "Liner: What It Is and How to Use It",
+  "seo_description": "Learn what Liner is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "doubao",
+  "name": "Doubao",
+  "category": "chat-assistants",
+  "website_url": "https://www.doubao.com",
+  "pricing": "Unknown",
+  "tagline": "ByteDance's AI assistant, widely used in China.",
+  "best_for": "Chinese-language AI chat and everyday assistance",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "Doubao is the consumer AI assistant from ByteDance, the company behind TikTok. Overviews describe it as a chatbot that handles questions, writing, image and other tasks, mostly aimed at users in China.\n\nByteDance has also been working to embed it at the phone operating-system level. It is primarily Chinese-language, so international users may find less localized support. Because the product evolves quickly, check the official site for what is currently available and in which regions. Features and plans change, so check the official site for current plans.",
+  "use_steps": [
+   "Open the official site for Doubao and review what it offers.",
+   "Set up access, such as an account, download or API key, as the site describes.",
+   "Start with a small real task and give clear context in your prompt.",
+   "Check the results against reliable sources before using them."
+  ],
+  "pros": [
+   "Backed by a large tech company",
+   "Strong mobile focus",
+   "Integrated with other ByteDance services",
+   "Frequent updates"
+  ],
+  "cons": [
+   "Mainly Chinese-focused",
+   "Availability varies by region"
+  ],
+  "alternatives": [
+   "kimi",
+   "qwen-chat",
+   "deepseek"
+  ],
+  "tags": [
+   "chat",
+   "bytedance",
+   "mobile",
+   "chinese",
+   "assistant"
+  ],
+  "features": [
+   "Conversational assistant",
+   "Writing help",
+   "Mobile apps",
+   "Chinese-language focus",
+   "Phone integration efforts"
+  ],
+  "use_cases": [
+   "Chinese-language Q&A",
+   "Drafting text",
+   "Mobile everyday help",
+   "Trying ByteDance's models"
+  ],
+  "pricing_details": "We did not verify current pricing for Doubao. Plans, free limits and trials can change, so check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Doubao?",
+    "a": "ByteDance's AI assistant, widely used in China. It is listed here in the chat assistants category so you can compare it with similar tools."
+   },
+   {
+    "q": "Is Doubao free to use?",
+    "a": "We did not verify current pricing for Doubao. Plans, free limits and trials can change, so check the official site for current plans."
+   },
+   {
+    "q": "How should I check results from Doubao?",
+    "a": "Treat outputs as a first draft. Verify facts, numbers and code yourself, follow your school or workplace rules on AI, and read the privacy terms on the official site before sharing sensitive information."
+   }
+  ],
+  "seo_title": "Doubao: What It Is and How to Use It",
+  "seo_description": "Learn what Doubao is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "tencent-yuanbao",
+  "name": "Tencent Yuanbao",
+  "category": "chat-assistants",
+  "website_url": "https://yuanbao.tencent.com",
+  "pricing": "Unknown",
+  "tagline": "Tencent's AI assistant app built on its Hunyuan models.",
+  "best_for": "AI search, summarizing and writing inside Tencent's ecosystem",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "Yuanbao is an AI assistant app from Tencent, launched in 2024 and built on the company's Hunyuan models. Coverage describes support for AI search, document summarization and writing.\n\nIt is tied to the WeChat ecosystem, which can help with reading articles and handling content from that platform. The service is aimed mainly at Chinese-language users. Models and features have been upgraded since launch, so check Tencent's official site for the current version and regional availability. Features and plans change, so check the official site for current plans.",
+  "use_steps": [
+   "Open the official site for Tencent Yuanbao and review what it offers.",
+   "Set up access, such as an account, download or API key, as the site describes.",
+   "Start with a small real task and give clear context in your prompt.",
+   "Check the results against reliable sources before using them."
+  ],
+  "pros": [
+   "Backed by Tencent",
+   "Ecosystem integration",
+   "Mobile availability",
+   "Regular model upgrades"
+  ],
+  "cons": [
+   "Mostly Chinese-language",
+   "Regional availability varies"
+  ],
+  "alternatives": [
+   "doubao",
+   "kimi",
+   "qwen-chat"
+  ],
+  "tags": [
+   "tencent",
+   "hunyuan",
+   "chat",
+   "summarize",
+   "assistant"
+  ],
+  "features": [
+   "Hunyuan model chat",
+   "AI search",
+   "Document summarization",
+   "WeChat ecosystem links",
+   "Writing assistance"
+  ],
+  "use_cases": [
+   "Summarizing an article",
+   "Chinese-language drafting",
+   "Searching with AI assistance",
+   "Reading long files"
+  ],
+  "pricing_details": "We did not verify current pricing for Tencent Yuanbao. Plans, free limits and trials can change, so check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Tencent Yuanbao?",
+    "a": "Tencent's AI assistant app built on its Hunyuan models. It is listed here in the chat assistants category so you can compare it with similar tools."
+   },
+   {
+    "q": "Is Tencent Yuanbao free to use?",
+    "a": "We did not verify current pricing for Tencent Yuanbao. Plans, free limits and trials can change, so check the official site for current plans."
+   },
+   {
+    "q": "How should I check results from Tencent Yuanbao?",
+    "a": "Treat outputs as a first draft. Verify facts, numbers and code yourself, follow your school or workplace rules on AI, and read the privacy terms on the official site before sharing sensitive information."
+   }
+  ],
+  "seo_title": "Tencent Yuanbao: What It Is and How to Use It",
+  "seo_description": "Learn what Tencent Yuanbao is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "coze",
+  "name": "Coze",
+  "category": "chat-assistants",
+  "website_url": "https://www.coze.com",
+  "pricing": "Unknown",
+  "tagline": "ByteDance's platform for building and chatting with AI bots and agents.",
+  "best_for": "Building no-code AI chatbots and agents",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Coze is a ByteDance platform for creating AI bots and agents. News coverage describes it as a GPTs-style bot builder, and it later expanded with agent-collaboration features.\n\nYou can assemble a bot with prompts, plugins and knowledge, then publish it to messaging and other channels. It suits hobbyists and small teams who want working assistants without coding. Quality depends on how you configure the bot and the underlying model, so check the official site for available models and current limits. Features and plans change, so check the official site for current plans.",
+  "use_steps": [
+   "Open the official site for Coze and review what it offers.",
+   "Set up access, such as an account, download or API key, as the site describes.",
+   "Start with a small real task and give clear context in your prompt.",
+   "Check the results against reliable sources before using them."
+  ],
+  "pros": [
+   "Quick bot creation",
+   "Plugin ecosystem",
+   "Visual building tools",
+   "Backed by ByteDance"
+  ],
+  "cons": [
+   "Advanced setups take learning",
+   "Features and limits vary"
+  ],
+  "alternatives": [
+   "poe",
+   "chatgpt",
+   "zapier"
+  ],
+  "tags": [
+   "bot-builder",
+   "agents",
+   "no-code",
+   "chat",
+   "bytedance"
+  ],
+  "features": [
+   "No-code bot builder",
+   "Plugins and workflows",
+   "Knowledge sources",
+   "Publishing channels",
+   "Agent features"
+  ],
+  "use_cases": [
+   "Making a support bot",
+   "Building a personal assistant",
+   "Prototyping an agent",
+   "Testing workflow automation"
+  ],
+  "pricing_details": "We did not verify current pricing for Coze. Plans, free limits and trials can change, so check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Coze?",
+    "a": "ByteDance's platform for building and chatting with AI bots and agents. It is listed here in the chat assistants category so you can compare it with similar tools."
+   },
+   {
+    "q": "Is Coze free to use?",
+    "a": "We did not verify current pricing for Coze. Plans, free limits and trials can change, so check the official site for current plans."
+   },
+   {
+    "q": "How should I check results from Coze?",
+    "a": "Treat outputs as a first draft. Verify facts, numbers and code yourself, follow your school or workplace rules on AI, and read the privacy terms on the official site before sharing sensitive information."
+   }
+  ],
+  "seo_title": "Coze: What It Is and How to Use It",
+  "seo_description": "Learn what Coze is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "cohere-north",
+  "name": "Cohere North",
+  "category": "chat-assistants",
+  "website_url": "https://cohere.com/north",
+  "pricing": "Paid",
+  "tagline": "Enterprise AI workspace from Cohere with agents and secure search.",
+  "best_for": "Companies wanting a secure AI workspace",
+  "platforms": [
+   "Web"
+  ],
+  "description": "North is Cohere's AI workspace product for businesses. News coverage describes it as an enterprise agent platform for tasks that need security and customization.\n\nIt aims to connect company data to AI assistants and agents so employees can search, summarize and automate work in one place. This is aimed at organizations rather than individuals, and it is typically sold through sales conversations. Check Cohere's site for availability, deployment options and pricing. Features and plans change, so check the official site for current plans.",
+  "use_steps": [
+   "Open the official site for Cohere North and review what it offers.",
+   "Set up access, such as an account, download or API key, as the site describes.",
+   "Start with a small real task and give clear context in your prompt.",
+   "Check the results against reliable sources before using them."
+  ],
+  "pros": [
+   "Built for business needs",
+   "Security emphasis",
+   "Customizable agents",
+   "From an established model provider"
+  ],
+  "cons": [
+   "Aimed at enterprises",
+   "Pricing usually requires contacting sales"
+  ],
+  "alternatives": [
+   "microsoft-copilot",
+   "chatgpt",
+   "claude"
+  ],
+  "tags": [
+   "enterprise",
+   "agents",
+   "workspace",
+   "cohere",
+   "business"
+  ],
+  "features": [
+   "Enterprise AI workspace",
+   "Agent capabilities",
+   "Data connections",
+   "Security and customization focus",
+   "Business deployment options"
+  ],
+  "use_cases": [
+   "Searching internal knowledge",
+   "Automating report drafting",
+   "Building company agents",
+   "Secure assistant rollout"
+  ],
+  "pricing_details": "Cohere North is offered as a paid product. Exact tiers, trials and prices change, so check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Cohere North?",
+    "a": "Enterprise AI workspace from Cohere with agents and secure search. It is listed here in the chat assistants category so you can compare it with similar tools."
+   },
+   {
+    "q": "Is Cohere North free to use?",
+    "a": "Cohere North is offered as a paid product. Exact tiers, trials and prices change, so check the official site for current plans."
+   },
+   {
+    "q": "How should I check results from Cohere North?",
+    "a": "Treat outputs as a first draft. Verify facts, numbers and code yourself, follow your school or workplace rules on AI, and read the privacy terms on the official site before sharing sensitive information."
+   }
+  ],
+  "seo_title": "Cohere North: What It Is and How to Use It",
+  "seo_description": "Learn what Cohere North is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "arena",
+  "name": "LMArena",
+  "category": "chat-assistants",
+  "website_url": "https://arena.ai",
+  "pricing": "Free",
+  "tagline": "Platform for chatting with and comparing AI models head to head.",
+  "best_for": "Comparing two models' answers side by side",
+  "platforms": [
+   "Web"
+  ],
+  "description": "LMArena, which now publishes at arena.ai, grew from the Chatbot Arena project. It lets you enter a prompt, see answers from different models and vote, and those votes feed public leaderboards.\n\nThis is helpful for seeing how models differ on your own questions rather than relying on marketing claims. Directories describe it as a way to compare models in battle mode. Rankings reflect user votes and can change, so treat them as one signal, and check the official site for current features. Features and plans change, so check the official site for current plans.",
+  "use_steps": [
+   "Open the official site for LMArena and review what it offers.",
+   "Set up access, such as an account, download or API key, as the site describes.",
+   "Start with a small real task and give clear context in your prompt.",
+   "Check the results against reliable sources before using them."
+  ],
+  "pros": [
+   "Direct comparison",
+   "Wide model variety",
+   "Community-driven",
+   "Easy to try"
+  ],
+  "cons": [
+   "Votes are subjective",
+   "Prompts may be used for research"
+  ],
+  "alternatives": [
+   "poe",
+   "chatgpt",
+   "claude"
+  ],
+  "tags": [
+   "comparison",
+   "leaderboard",
+   "models",
+   "benchmark",
+   "chat"
+  ],
+  "features": [
+   "Side-by-side model comparison",
+   "Community voting",
+   "Leaderboards",
+   "Many models",
+   "Free web access"
+  ],
+  "use_cases": [
+   "Comparing answers to the same prompt",
+   "Discovering new models",
+   "Judging writing or code quality",
+   "Tracking model rankings"
+  ],
+  "pricing_details": "LMArena has been described as free to use, but limits, models and terms can change. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is LMArena?",
+    "a": "Platform for chatting with and comparing AI models head to head. It is listed here in the chat assistants category so you can compare it with similar tools."
+   },
+   {
+    "q": "Is LMArena free to use?",
+    "a": "LMArena has been described as free to use, but limits, models and terms can change. Check the official site for current plans."
+   },
+   {
+    "q": "How should I check results from LMArena?",
+    "a": "Treat outputs as a first draft. Verify facts, numbers and code yourself, follow your school or workplace rules on AI, and read the privacy terms on the official site before sharing sensitive information."
+   }
+  ],
+  "seo_title": "LMArena: What It Is and How to Use It",
+  "seo_description": "Learn what LMArena is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "nextchat",
+  "name": "NextChat",
+  "category": "chat-assistants",
+  "website_url": "https://github.com/ChatGPTNextWeb/NextChat",
+  "pricing": "Open source",
+  "tagline": "Lightweight, cross-platform open-source chat client for AI APIs.",
+  "best_for": "Quick self-deployed chat app with your own API keys",
+  "platforms": [
+   "Web",
+   "Windows",
+   "macOS",
+   "Linux"
+  ],
+  "description": "NextChat, formerly ChatGPT-Next-Web, is an open-source chat interface maintained by the ChatGPTNextWeb community. Tutorials describe how to deploy it quickly and use it with your own keys.\n\nIt is popular for being light and easy to host on common platforms, giving individuals or small groups a private chat page. You are responsible for API costs, keys and updates. Details vary by version, so read the repository documentation for supported providers and deployment steps. Features and plans change, so check the official site for current plans.",
+  "use_steps": [
+   "Open the official site for NextChat and review what it offers.",
+   "Set up access, such as an account, download or API key, as the site describes.",
+   "Start with a small real task and give clear context in your prompt.",
+   "Check the results against reliable sources before using them."
+  ],
+  "pros": [
+   "Lightweight",
+   "Easy to deploy",
+   "Open code",
+   "Popular community"
+  ],
+  "cons": [
+   "You manage keys and hosting",
+   "Features depend on version"
+  ],
+  "alternatives": [
+   "lobechat",
+   "librechat",
+   "chatbox"
+  ],
+  "tags": [
+   "open-source",
+   "self-hosted",
+   "chat-ui",
+   "api",
+   "lightweight"
+  ],
+  "features": [
+   "Open-source chat interface",
+   "One-click deployment",
+   "Multiple providers",
+   "Desktop options",
+   "Prompt templates"
+  ],
+  "use_cases": [
+   "Hosting a personal chat page",
+   "Sharing access with friends",
+   "Using your API key through a UI",
+   "Testing providers"
+  ],
+  "pricing_details": "NextChat is distributed as an open-source project, so the software itself can be downloaded at no cost. You may still pay for hosting, hardware or API usage with the models you connect. Check the official site or repository for licensing and current details.",
+  "faq": [
+   {
+    "q": "What is NextChat?",
+    "a": "Lightweight, cross-platform open-source chat client for AI APIs. It is listed here in the chat assistants category so you can compare it with similar tools."
+   },
+   {
+    "q": "Is NextChat free to use?",
+    "a": "NextChat is distributed as an open-source project, so the software itself can be downloaded at no cost. You may still pay for hosting, hardware or API usage with the models you connect. Check the official site or repository for licensing and current details."
+   },
+   {
+    "q": "How should I check results from NextChat?",
+    "a": "Treat outputs as a first draft. Verify facts, numbers and code yourself, follow your school or workplace rules on AI, and read the privacy terms on the official site before sharing sensitive information."
+   }
+  ],
+  "seo_title": "NextChat: What It Is and How to Use It",
+  "seo_description": "Learn what NextChat is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ }
+]

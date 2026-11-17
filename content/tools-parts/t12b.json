@@ -1,0 +1,3195 @@
+[
+ {
+  "slug": "mem",
+  "name": "Mem",
+  "category": "productivity",
+  "website_url": "https://mem.ai",
+  "pricing": "Unknown",
+  "tagline": "AI-assisted notes app that organizes itself around search.",
+  "best_for": "People who want notes found by search and AI rather than folders",
+  "platforms": [
+   "Web",
+   "macOS",
+   "iOS"
+  ],
+  "description": "Mem is a note-taking app built around the idea that you should not have to file things by hand. Notes are captured quickly and the app uses AI to help surface related material, so retrieval relies on search and connections more than on a folder tree.\n\nIt suits professionals who collect lots of meeting notes, ideas and references and want one place to ask questions about them. As with any AI notes tool, check generated answers against the original notes before relying on them. Check the official site for current plans.",
+  "use_steps": [
+   "Create an account and open a new note.",
+   "Capture ideas, meeting notes or clippings.",
+   "Use search or the AI assistant to find related notes.",
+   "Review and tidy anything the AI summarizes."
+  ],
+  "pros": [
+   "Low-friction note capture",
+   "Search-first retrieval",
+   "AI help across your notes",
+   "Fits busy professional workflows"
+  ],
+  "cons": [
+   "AI answers depend on note quality",
+   "Smaller ecosystem than the largest note apps"
+  ],
+  "alternatives": [
+   "notion-ai",
+   "obsidian",
+   "reflect-notes"
+  ],
+  "tags": [
+   "notes",
+   "ai-search",
+   "knowledge",
+   "writing"
+  ],
+  "features": [
+   "Quick note capture",
+   "AI-assisted search",
+   "Related-note suggestions",
+   "Cross-device access"
+  ],
+  "use_cases": [
+   "Meeting notes",
+   "Idea capture",
+   "Personal knowledge base"
+  ],
+  "pricing_details": "Mem plans change over time and were not verified for this listing. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Mem?",
+    "a": "AI-assisted notes app that organizes itself around search. Check the official site for the current feature set."
+   },
+   {
+    "q": "Is Mem free?",
+    "a": "Pricing was not verified for this listing. Check the official website for current plans."
+   },
+   {
+    "q": "Who is Mem for?",
+    "a": "People who want notes found by search and AI rather than folders. Compare it with the alternatives listed before choosing."
+   }
+  ],
+  "seo_title": "Mem: What It Is and How to Use It",
+  "seo_description": "Learn what Mem is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "logseq",
+  "name": "Logseq",
+  "category": "productivity",
+  "website_url": "https://logseq.com",
+  "pricing": "Open source",
+  "tagline": "Open-source outliner for linked, privacy-focused notes.",
+  "best_for": "People who like outliners, backlinks and local-first notes",
+  "platforms": [
+   "Windows",
+   "macOS",
+   "Linux",
+   "iOS",
+   "Android"
+  ],
+  "description": "Logseq is an open-source knowledge management tool built around outlines and bi-directional links. Each bullet can be linked to others, and a daily journal page is the default place to start writing.\n\nNotes are stored as plain files on your own device, which appeals to people who care about data ownership and long-term access. It rewards some setup time and has a learning curve, and it is not an AI product by default, though plugins exist. Check the official site for current sync options.",
+  "use_steps": [
+   "Download the app for your device.",
+   "Choose a local folder for your graph.",
+   "Write in the daily journal and link pages with double brackets.",
+   "Browse backlinks to see connected ideas."
+  ],
+  "pros": [
+   "Open source",
+   "Local, plain-file storage",
+   "Strong linking and backlinks",
+   "Active plugin community"
+  ],
+  "cons": [
+   "Learning curve for new users",
+   "Sync setup takes some effort"
+  ],
+  "alternatives": [
+   "obsidian",
+   "roam-research",
+   "remnote"
+  ],
+  "tags": [
+   "notes",
+   "outliner",
+   "open-source",
+   "pkm"
+  ],
+  "features": [
+   "Outliner editing",
+   "Bi-directional links",
+   "Daily journals",
+   "Plugins and themes"
+  ],
+  "use_cases": [
+   "Personal knowledge base",
+   "Research notes",
+   "Daily journaling"
+  ],
+  "pricing_details": "Logseq plans change over time and were not verified for this listing. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Logseq?",
+    "a": "Open-source outliner for linked, privacy-focused notes. Check the official site for the current feature set."
+   },
+   {
+    "q": "Is Logseq free?",
+    "a": "Pricing was not verified for this listing. Check the official website for current plans."
+   },
+   {
+    "q": "Who is Logseq for?",
+    "a": "People who like outliners, backlinks and local-first notes. Compare it with the alternatives listed before choosing."
+   }
+  ],
+  "seo_title": "Logseq: What It Is and How to Use It",
+  "seo_description": "Learn what Logseq is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "heptabase",
+  "name": "Heptabase",
+  "category": "productivity",
+  "website_url": "https://heptabase.com",
+  "pricing": "Unknown",
+  "tagline": "Visual note-taking tool for learning and research with whiteboards.",
+  "best_for": "Researchers and learners who think spatially",
+  "platforms": [
+   "Web",
+   "Windows",
+   "macOS",
+   "iOS",
+   "Android"
+  ],
+  "description": "Heptabase combines note cards with infinite whiteboards so you can lay ideas out spatially and see how they connect. Instead of one long document, you work with smaller cards that can be reused across several boards.\n\nIt is aimed at people who study complex topics, write long pieces or do ongoing research and prefer a visual layout over a nested list. The visual approach can feel heavy if you only want simple quick notes. Check the official site for current plans and platform support.",
+  "use_steps": [
+   "Sign up and create a whiteboard.",
+   "Add note cards for each idea or source.",
+   "Arrange and link cards on the board.",
+   "Reuse cards on other boards as projects grow."
+  ],
+  "pros": [
+   "Visual way to organize ideas",
+   "Cards can be reused across boards",
+   "Good for deep research",
+   "Clean interface"
+  ],
+  "cons": [
+   "Overkill for quick notes",
+   "Paid product, no long-term free option assumed"
+  ],
+  "alternatives": [
+   "obsidian",
+   "miro",
+   "capacities"
+  ],
+  "tags": [
+   "notes",
+   "whiteboard",
+   "research",
+   "learning"
+  ],
+  "features": [
+   "Note cards",
+   "Infinite whiteboards",
+   "Card linking",
+   "Journal and tags"
+  ],
+  "use_cases": [
+   "Literature review",
+   "Learning a new subject",
+   "Planning long writing"
+  ],
+  "pricing_details": "Heptabase plans change over time and were not verified for this listing. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Heptabase?",
+    "a": "Visual note-taking tool for learning and research with whiteboards. Check the official site for the current feature set."
+   },
+   {
+    "q": "Is Heptabase free?",
+    "a": "Pricing was not verified for this listing. Check the official website for current plans."
+   },
+   {
+    "q": "Who is Heptabase for?",
+    "a": "Researchers and learners who think spatially. Compare it with the alternatives listed before choosing."
+   }
+  ],
+  "seo_title": "Heptabase: What It Is and How to Use It",
+  "seo_description": "Learn what Heptabase is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "linear",
+  "name": "Linear",
+  "category": "productivity",
+  "website_url": "https://linear.app",
+  "pricing": "Unknown",
+  "tagline": "Issue tracking and project planning tool built for software teams.",
+  "best_for": "Product and engineering teams that want a fast issue tracker",
+  "platforms": [
+   "Web",
+   "Windows",
+   "macOS",
+   "iOS",
+   "Android"
+  ],
+  "description": "Linear is a project management tool for software teams, centered on issues, cycles and roadmaps. It is known for a fast, keyboard-friendly interface and tight structure around how product teams plan and ship.\n\nIt includes AI-assisted features in some areas, and integrates with common developer tools such as code hosting services. It is opinionated, so teams that want a highly customizable work tracker may prefer other tools. Check the official site for current features and plans.",
+  "use_steps": [
+   "Create a workspace and a team.",
+   "Add issues and group them into projects or cycles.",
+   "Connect your code hosting and chat tools.",
+   "Track progress on roadmaps and boards."
+  ],
+  "pros": [
+   "Fast, focused interface",
+   "Keyboard-driven workflow",
+   "Good developer integrations",
+   "Clear cycle and roadmap model"
+  ],
+  "cons": [
+   "Opinionated workflow",
+   "Less suited to non-software teams"
+  ],
+  "alternatives": [
+   "clickup",
+   "asana",
+   "monday"
+  ],
+  "tags": [
+   "issue-tracking",
+   "project-management",
+   "engineering",
+   "roadmap"
+  ],
+  "features": [
+   "Issues and sub-issues",
+   "Cycles",
+   "Roadmaps",
+   "Integrations"
+  ],
+  "use_cases": [
+   "Sprint planning",
+   "Bug tracking",
+   "Product roadmaps"
+  ],
+  "pricing_details": "Linear plans change over time and were not verified for this listing. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Linear?",
+    "a": "Issue tracking and project planning tool built for software teams. Check the official site for the current feature set."
+   },
+   {
+    "q": "Is Linear free?",
+    "a": "Pricing was not verified for this listing. Check the official website for current plans."
+   },
+   {
+    "q": "Who is Linear for?",
+    "a": "Product and engineering teams that want a fast issue tracker. Compare it with the alternatives listed before choosing."
+   }
+  ],
+  "seo_title": "Linear: What It Is and How to Use It",
+  "seo_description": "Learn what Linear is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "motion",
+  "name": "Motion",
+  "category": "productivity",
+  "website_url": "https://www.usemotion.com",
+  "pricing": "Unknown",
+  "tagline": "AI planner that schedules tasks and projects on your calendar.",
+  "best_for": "People who want tasks auto-placed on their calendar",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android",
+   "macOS",
+   "Windows"
+  ],
+  "description": "Motion combines a task list, project management and a calendar, and uses automation to place work into open time slots. When priorities or meetings change, it can reshuffle the plan so you do not rebuild the schedule by hand.\n\nIt is aimed at busy individuals and small teams who struggle to balance deadlines and meetings. Automatic scheduling works best when tasks have realistic durations and deadlines, so some setup discipline is needed. Check the official site for current plans.",
+  "use_steps": [
+   "Connect your calendar.",
+   "Add tasks with durations and deadlines.",
+   "Let the planner place them in free time.",
+   "Adjust priorities when plans change."
+  ],
+  "pros": [
+   "Reduces manual planning",
+   "Combines tasks and calendar",
+   "Reschedules when things change",
+   "Useful for deadline-heavy work"
+  ],
+  "cons": [
+   "Needs accurate task estimates",
+   "Can feel rigid if you prefer manual control"
+  ],
+  "alternatives": [
+   "reclaim-ai",
+   "sunsama",
+   "akiflow"
+  ],
+  "tags": [
+   "scheduling",
+   "calendar",
+   "tasks",
+   "planning"
+  ],
+  "features": [
+   "Auto-scheduling",
+   "Task and project views",
+   "Calendar sync",
+   "Meeting booking"
+  ],
+  "use_cases": [
+   "Daily planning",
+   "Deadline management",
+   "Team project scheduling"
+  ],
+  "pricing_details": "Motion plans change over time and were not verified for this listing. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Motion?",
+    "a": "AI planner that schedules tasks and projects on your calendar. Check the official site for the current feature set."
+   },
+   {
+    "q": "Is Motion free?",
+    "a": "Pricing was not verified for this listing. Check the official website for current plans."
+   },
+   {
+    "q": "Who is Motion for?",
+    "a": "People who want tasks auto-placed on their calendar. Compare it with the alternatives listed before choosing."
+   }
+  ],
+  "seo_title": "Motion: What It Is and How to Use It",
+  "seo_description": "Learn what Motion is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "clockwise",
+  "name": "Clockwise",
+  "category": "productivity",
+  "website_url": "https://www.getclockwise.com",
+  "pricing": "Unknown",
+  "tagline": "Calendar assistant that optimizes meeting times and focus blocks.",
+  "best_for": "Teams that want fewer fragmented calendars",
+  "platforms": [
+   "Web",
+   "Chrome extension"
+  ],
+  "description": "Clockwise is a calendar tool that rearranges flexible meetings to open up longer blocks of focus time. It works on top of existing calendars and aims to reduce the scattered gaps that make deep work difficult.\n\nIt is most useful for teams where many people share meetings and are willing to let an assistant propose better times. Its value depends on how many of your meetings are actually movable. Check the official site for supported calendars and current plans, since offerings can change.",
+  "use_steps": [
+   "Connect your work calendar.",
+   "Set your focus-time preferences.",
+   "Review suggested meeting moves.",
+   "Share scheduling links with colleagues."
+  ],
+  "pros": [
+   "Protects focus time",
+   "Works with existing calendars",
+   "Helps coordinate team schedules",
+   "Low setup effort"
+  ],
+  "cons": [
+   "Gains depend on flexible meetings",
+   "Calendar support may be limited"
+  ],
+  "alternatives": [
+   "reclaim-ai",
+   "motion",
+   "calendly"
+  ],
+  "tags": [
+   "calendar",
+   "focus-time",
+   "scheduling",
+   "teams"
+  ],
+  "features": [
+   "Focus-time blocks",
+   "Meeting rescheduling",
+   "Scheduling links",
+   "Team coordination"
+  ],
+  "use_cases": [
+   "Team calendar hygiene",
+   "Deep-work protection",
+   "Meeting coordination"
+  ],
+  "pricing_details": "Clockwise plans change over time and were not verified for this listing. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Clockwise?",
+    "a": "Calendar assistant that optimizes meeting times and focus blocks. Check the official site for the current feature set."
+   },
+   {
+    "q": "Is Clockwise free?",
+    "a": "Pricing was not verified for this listing. Check the official website for current plans."
+   },
+   {
+    "q": "Who is Clockwise for?",
+    "a": "Teams that want fewer fragmented calendars. Compare it with the alternatives listed before choosing."
+   }
+  ],
+  "seo_title": "Clockwise: What It Is and How to Use It",
+  "seo_description": "Learn what Clockwise is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "superhuman",
+  "name": "Superhuman",
+  "category": "productivity",
+  "website_url": "https://superhuman.com",
+  "pricing": "Paid",
+  "tagline": "Fast, keyboard-first email client with AI features.",
+  "best_for": "Heavy email users who want speed and shortcuts",
+  "platforms": [
+   "Web",
+   "macOS",
+   "iOS",
+   "Android"
+  ],
+  "description": "Superhuman is an email client layered on top of accounts such as Gmail and Outlook. It focuses on speed, keyboard shortcuts and a triage approach to the inbox, and has added AI help for drafting and summarizing messages.\n\nIt targets professionals who process large volumes of mail and are willing to pay for a faster workflow. Because it is a premium client, it makes the most sense if email is a major part of your day. Check the official site for supported accounts and current pricing.",
+  "use_steps": [
+   "Sign in with a supported email account.",
+   "Learn the core keyboard shortcuts.",
+   "Triage the inbox with reminders and splits.",
+   "Use the AI tools to draft or summarize replies."
+  ],
+  "pros": [
+   "Very fast interface",
+   "Strong keyboard workflow",
+   "AI drafting help",
+   "Reminders and follow-ups"
+  ],
+  "cons": [
+   "Premium positioning",
+   "Limited account types"
+  ],
+  "alternatives": [
+   "spark-mail",
+   "shortwave",
+   "grammarly"
+  ],
+  "tags": [
+   "email",
+   "inbox",
+   "ai-drafting",
+   "shortcuts"
+  ],
+  "features": [
+   "Keyboard shortcuts",
+   "Inbox triage",
+   "Follow-up reminders",
+   "AI drafting"
+  ],
+  "use_cases": [
+   "Inbox zero",
+   "Sales follow-ups",
+   "Executive email"
+  ],
+  "pricing_details": "Superhuman plans change over time and were not verified for this listing. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Superhuman?",
+    "a": "Fast, keyboard-first email client with AI features. Check the official site for the current feature set."
+   },
+   {
+    "q": "Is Superhuman free?",
+    "a": "Pricing was not verified for this listing. Check the official website for current plans."
+   },
+   {
+    "q": "Who is Superhuman for?",
+    "a": "Heavy email users who want speed and shortcuts. Compare it with the alternatives listed before choosing."
+   }
+  ],
+  "seo_title": "Superhuman: What It Is and How to Use It",
+  "seo_description": "Learn what Superhuman is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "lindy",
+  "name": "Lindy",
+  "category": "productivity",
+  "website_url": "https://www.lindy.ai",
+  "pricing": "Unknown",
+  "tagline": "Build AI agents that handle email, scheduling and routine tasks.",
+  "best_for": "Non-developers who want no-code AI agents for busy work",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Lindy lets you create AI agents without writing code. You describe a job such as triaging email or handling meeting scheduling, then connect the apps the agent needs and let it run on triggers.\n\nIt is aimed at professionals and small teams who want automation with more flexibility than rule-based workflows. Agents can make mistakes, so keep a person in the loop for anything sensitive. Check the official site for the current integration list and plans.",
+  "use_steps": [
+   "Sign up and choose or create an agent.",
+   "Describe the task in plain language.",
+   "Connect the apps it needs.",
+   "Test it on sample cases before relying on it."
+  ],
+  "pros": [
+   "No-code setup",
+   "Works across common apps",
+   "Plain-language instructions",
+   "Useful for repetitive admin"
+  ],
+  "cons": [
+   "AI errors need human review",
+   "Setup quality depends on clear instructions"
+  ],
+  "alternatives": [
+   "zapier",
+   "make",
+   "n8n"
+  ],
+  "tags": [
+   "agents",
+   "automation",
+   "no-code",
+   "assistant"
+  ],
+  "features": [
+   "No-code agent builder",
+   "App integrations",
+   "Trigger-based runs",
+   "Templates"
+  ],
+  "use_cases": [
+   "Email triage",
+   "Meeting scheduling",
+   "Lead follow-up"
+  ],
+  "pricing_details": "Lindy plans change over time and were not verified for this listing. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Lindy?",
+    "a": "Build AI agents that handle email, scheduling and routine tasks. Check the official site for the current feature set."
+   },
+   {
+    "q": "Is Lindy free?",
+    "a": "Pricing was not verified for this listing. Check the official website for current plans."
+   },
+   {
+    "q": "Who is Lindy for?",
+    "a": "Non-developers who want no-code AI agents for busy work. Compare it with the alternatives listed before choosing."
+   }
+  ],
+  "seo_title": "Lindy: What It Is and How to Use It",
+  "seo_description": "Learn what Lindy is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "bardeen",
+  "name": "Bardeen",
+  "category": "productivity",
+  "website_url": "https://www.bardeen.ai",
+  "pricing": "Unknown",
+  "tagline": "Browser-based automation for scraping, copying and moving data between apps.",
+  "best_for": "Sales and ops people automating repetitive browser work",
+  "platforms": [
+   "Chrome extension",
+   "Web"
+  ],
+  "description": "Bardeen is a workflow automation tool that runs in the browser. It can capture data from web pages and send it to other tools, and it offers AI help to build automations from a plain description.\n\nIt is popular with sales, recruiting and operations users who copy information from sites into spreadsheets or CRMs. Because it works with web pages, automations may need adjustment when a site changes. Always respect website terms of service. Check the official site for current plans.",
+  "use_steps": [
+   "Install the browser extension.",
+   "Pick a template or describe an automation.",
+   "Connect the apps you want to use.",
+   "Run it on a page and check the output."
+  ],
+  "pros": [
+   "Works directly in the browser",
+   "Templates for common tasks",
+   "Useful for data capture",
+   "Reduces copy-paste work"
+  ],
+  "cons": [
+   "Can break when sites change",
+   "Needs care with site terms"
+  ],
+  "alternatives": [
+   "zapier",
+   "make",
+   "lindy"
+  ],
+  "tags": [
+   "automation",
+   "browser",
+   "scraping",
+   "no-code"
+  ],
+  "features": [
+   "Page data capture",
+   "Templates",
+   "App connections",
+   "AI-assisted builder"
+  ],
+  "use_cases": [
+   "Lead research",
+   "Spreadsheet updates",
+   "Recruiting sourcing"
+  ],
+  "pricing_details": "Bardeen plans change over time and were not verified for this listing. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Bardeen?",
+    "a": "Browser-based automation for scraping, copying and moving data between apps. Check the official site for the current feature set."
+   },
+   {
+    "q": "Is Bardeen free?",
+    "a": "Pricing was not verified for this listing. Check the official website for current plans."
+   },
+   {
+    "q": "Who is Bardeen for?",
+    "a": "Sales and ops people automating repetitive browser work. Compare it with the alternatives listed before choosing."
+   }
+  ],
+  "seo_title": "Bardeen: What It Is and How to Use It",
+  "seo_description": "Learn what Bardeen is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "pipedream",
+  "name": "Pipedream",
+  "category": "productivity",
+  "website_url": "https://pipedream.com",
+  "pricing": "Unknown",
+  "tagline": "Workflow automation platform that mixes no-code steps with custom code.",
+  "best_for": "Developers who want integrations plus code control",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Pipedream is an integration and automation platform where workflows are built from triggers and steps. Steps can be pre-built app actions or custom code, so it sits between visual automation tools and writing full scripts.\n\nIt tends to suit technical users who like connecting APIs, handling webhooks and writing small pieces of code inside a workflow. Non-technical users may find a purely visual tool easier. Check the official site for the current app list and plans.",
+  "use_steps": [
+   "Create a workflow and choose a trigger.",
+   "Add app steps or code steps.",
+   "Test with sample event data.",
+   "Deploy and monitor runs."
+  ],
+  "pros": [
+   "Code and no-code in one place",
+   "Many app integrations",
+   "Good for webhooks and APIs",
+   "Developer-friendly"
+  ],
+  "cons": [
+   "Less approachable for beginners",
+   "Complex flows need debugging"
+  ],
+  "alternatives": [
+   "zapier",
+   "n8n",
+   "make"
+  ],
+  "tags": [
+   "automation",
+   "api",
+   "webhooks",
+   "developer"
+  ],
+  "features": [
+   "Triggers and steps",
+   "Custom code steps",
+   "App integrations",
+   "Run history"
+  ],
+  "use_cases": [
+   "API glue",
+   "Webhook handling",
+   "Data syncing"
+  ],
+  "pricing_details": "Pipedream plans change over time and were not verified for this listing. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Pipedream?",
+    "a": "Workflow automation platform that mixes no-code steps with custom code. Check the official site for the current feature set."
+   },
+   {
+    "q": "Is Pipedream free?",
+    "a": "Pricing was not verified for this listing. Check the official website for current plans."
+   },
+   {
+    "q": "Who is Pipedream for?",
+    "a": "Developers who want integrations plus code control. Compare it with the alternatives listed before choosing."
+   }
+  ],
+  "seo_title": "Pipedream: What It Is and How to Use It",
+  "seo_description": "Learn what Pipedream is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "ifttt",
+  "name": "IFTTT",
+  "category": "productivity",
+  "website_url": "https://ifttt.com",
+  "pricing": "Unknown",
+  "tagline": "Simple if-this-then-that automations for apps and smart devices.",
+  "best_for": "Beginners connecting everyday apps and smart-home gear",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "IFTTT, short for If This Then That, connects services through simple trigger-and-action rules called applets. It has long been used for linking smart-home devices, social accounts and everyday apps.\n\nIt is easy for beginners and works well for light personal automations. Heavier business workflows with branching logic are usually better served by more advanced automation platforms. Available services and plan limits change, so check the official site.",
+  "use_steps": [
+   "Sign in and browse applets.",
+   "Choose or create a trigger and an action.",
+   "Connect the services involved.",
+   "Turn the applet on and test it."
+  ],
+  "pros": [
+   "Very easy to start",
+   "Smart-home friendly",
+   "Simple rule model",
+   "Many ready-made applets"
+  ],
+  "cons": [
+   "Limited for complex logic",
+   "Service availability can change"
+  ],
+  "alternatives": [
+   "zapier",
+   "make",
+   "pipedream"
+  ],
+  "tags": [
+   "automation",
+   "applets",
+   "smart-home",
+   "beginner"
+  ],
+  "features": [
+   "Applets",
+   "Trigger and action rules",
+   "Smart-device support",
+   "Mobile app"
+  ],
+  "use_cases": [
+   "Smart-home routines",
+   "Social posting",
+   "Personal reminders"
+  ],
+  "pricing_details": "IFTTT plans change over time and were not verified for this listing. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is IFTTT?",
+    "a": "Simple if-this-then-that automations for apps and smart devices. Check the official site for the current feature set."
+   },
+   {
+    "q": "Is IFTTT free?",
+    "a": "Pricing was not verified for this listing. Check the official website for current plans."
+   },
+   {
+    "q": "Who is IFTTT for?",
+    "a": "Beginners connecting everyday apps and smart-home gear. Compare it with the alternatives listed before choosing."
+   }
+  ],
+  "seo_title": "IFTTT: What It Is and How to Use It",
+  "seo_description": "Learn what IFTTT is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "clickup",
+  "name": "ClickUp",
+  "category": "productivity",
+  "website_url": "https://clickup.com",
+  "pricing": "Unknown",
+  "tagline": "All-in-one work management platform with tasks, docs and AI help.",
+  "best_for": "Teams that want one customizable workspace",
+  "platforms": [
+   "Web",
+   "Windows",
+   "macOS",
+   "iOS",
+   "Android"
+  ],
+  "description": "ClickUp is a work management platform that brings tasks, documents, goals and dashboards into one workspace. Tasks can be viewed as lists, boards or calendars, and the tool is highly configurable.\n\nIt also offers AI features for drafting and summarizing within the workspace. Its flexibility is the main draw, but the number of options can overwhelm new teams, so a clear setup plan helps. Check the official site for current plans and AI add-ons.",
+  "use_steps": [
+   "Create a workspace and a space for your team.",
+   "Add lists, tasks and statuses.",
+   "Choose views such as board or calendar.",
+   "Set up dashboards and automations."
+  ],
+  "pros": [
+   "Highly customizable",
+   "Many views",
+   "Docs and tasks together",
+   "Automations built in"
+  ],
+  "cons": [
+   "Can feel overwhelming",
+   "Setup takes time"
+  ],
+  "alternatives": [
+   "asana",
+   "monday",
+   "linear"
+  ],
+  "tags": [
+   "project-management",
+   "tasks",
+   "teams",
+   "workspace"
+  ],
+  "features": [
+   "Task views",
+   "Docs",
+   "Dashboards",
+   "Automations"
+  ],
+  "use_cases": [
+   "Team projects",
+   "Content calendars",
+   "Client work tracking"
+  ],
+  "pricing_details": "ClickUp plans change over time and were not verified for this listing. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is ClickUp?",
+    "a": "All-in-one work management platform with tasks, docs and AI help. Check the official site for the current feature set."
+   },
+   {
+    "q": "Is ClickUp free?",
+    "a": "Pricing was not verified for this listing. Check the official website for current plans."
+   },
+   {
+    "q": "Who is ClickUp for?",
+    "a": "Teams that want one customizable workspace. Compare it with the alternatives listed before choosing."
+   }
+  ],
+  "seo_title": "ClickUp: What It Is and How to Use It",
+  "seo_description": "Learn what ClickUp is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "asana",
+  "name": "Asana",
+  "category": "productivity",
+  "website_url": "https://asana.com",
+  "pricing": "Unknown",
+  "tagline": "Project and task management tool for coordinating team work.",
+  "best_for": "Teams that need clear ownership and timelines",
+  "platforms": [
+   "Web",
+   "Windows",
+   "macOS",
+   "iOS",
+   "Android"
+  ],
+  "description": "Asana is a work management tool for planning projects, assigning tasks and tracking progress across teams. It offers list, board, timeline and calendar views plus goals and reporting.\n\nIt has added AI features for tasks such as summarizing and drafting in some plans. It suits cross-functional teams that need clarity on who is doing what by when. Very small teams may find it more structure than they need. Check the official site for current plans.",
+  "use_steps": [
+   "Create a project from a template.",
+   "Add tasks, owners and due dates.",
+   "Pick a view such as board or timeline.",
+   "Track progress and report to stakeholders."
+  ],
+  "pros": [
+   "Clear task ownership",
+   "Several project views",
+   "Goals and reporting",
+   "Wide integrations"
+  ],
+  "cons": [
+   "Can be heavy for small teams",
+   "Advanced features depend on plan"
+  ],
+  "alternatives": [
+   "clickup",
+   "monday",
+   "trello"
+  ],
+  "tags": [
+   "project-management",
+   "tasks",
+   "collaboration",
+   "timeline"
+  ],
+  "features": [
+   "Task management",
+   "Timeline view",
+   "Goals",
+   "Integrations"
+  ],
+  "use_cases": [
+   "Campaign planning",
+   "Product launches",
+   "Team workload planning"
+  ],
+  "pricing_details": "Asana plans change over time and were not verified for this listing. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Asana?",
+    "a": "Project and task management tool for coordinating team work. Check the official site for the current feature set."
+   },
+   {
+    "q": "Is Asana free?",
+    "a": "Pricing was not verified for this listing. Check the official website for current plans."
+   },
+   {
+    "q": "Who is Asana for?",
+    "a": "Teams that need clear ownership and timelines. Compare it with the alternatives listed before choosing."
+   }
+  ],
+  "seo_title": "Asana: What It Is and How to Use It",
+  "seo_description": "Learn what Asana is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "monday",
+  "name": "monday.com",
+  "category": "productivity",
+  "website_url": "https://monday.com",
+  "pricing": "Unknown",
+  "tagline": "Visual work management platform built on customizable boards.",
+  "best_for": "Teams that want colorful, configurable boards",
+  "platforms": [
+   "Web",
+   "Windows",
+   "macOS",
+   "iOS",
+   "Android"
+  ],
+  "description": "monday.com is a work management platform where teams build boards to track projects, pipelines and processes. Columns can hold statuses, dates, people and other data, and boards can be viewed in several layouts.\n\nIt includes automations and AI assistance in various places, and offers products aimed at areas like sales and software work. It fits teams that want a visual, spreadsheet-like tracker without writing code. Check the official site for current products and plans.",
+  "use_steps": [
+   "Create a board from a template.",
+   "Customize columns and statuses.",
+   "Add automations for routine updates.",
+   "Share dashboards with stakeholders."
+  ],
+  "pros": [
+   "Visual and flexible",
+   "No-code automations",
+   "Templates for many teams",
+   "Dashboards"
+  ],
+  "cons": [
+   "Costs can grow with seats and features",
+   "Many options to configure"
+  ],
+  "alternatives": [
+   "asana",
+   "clickup",
+   "airtable"
+  ],
+  "tags": [
+   "project-management",
+   "boards",
+   "automation",
+   "no-code"
+  ],
+  "features": [
+   "Customizable boards",
+   "Automations",
+   "Dashboards",
+   "Templates"
+  ],
+  "use_cases": [
+   "Sales pipelines",
+   "Marketing calendars",
+   "Operations tracking"
+  ],
+  "pricing_details": "monday.com plans change over time and were not verified for this listing. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is monday.com?",
+    "a": "Visual work management platform built on customizable boards. Check the official site for the current feature set."
+   },
+   {
+    "q": "Is monday.com free?",
+    "a": "Pricing was not verified for this listing. Check the official website for current plans."
+   },
+   {
+    "q": "Who is monday.com for?",
+    "a": "Teams that want colorful, configurable boards. Compare it with the alternatives listed before choosing."
+   }
+  ],
+  "seo_title": "monday.com: What It Is and How to Use It",
+  "seo_description": "Learn what monday.com is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "zoom-ai-companion",
+  "name": "Zoom AI Companion",
+  "category": "productivity",
+  "website_url": "https://www.zoom.com",
+  "pricing": "Unknown",
+  "tagline": "Zoom's built-in AI assistant for meeting summaries and writing help.",
+  "best_for": "Zoom users who want summaries inside the meeting platform",
+  "platforms": [
+   "Web",
+   "Windows",
+   "macOS",
+   "iOS",
+   "Android"
+  ],
+  "description": "Zoom AI Companion is the assistant built into Zoom's platform. It is designed to help with tasks like summarizing meetings, catching up on what was missed and drafting messages within Zoom products.\n\nBecause it lives inside Zoom, it suits organizations that already run meetings and chat there and want fewer separate tools. Feature availability depends on your plan and admin settings, and participants should be informed when AI features are active. Check the official site for current details.",
+  "use_steps": [
+   "Sign in to your Zoom account.",
+   "Ask your admin whether AI Companion is enabled.",
+   "Turn it on at the start of a meeting.",
+   "Review the summary before sharing."
+  ],
+  "pros": [
+   "Built into existing Zoom workflow",
+   "No extra bot to invite",
+   "Helps with catch-up",
+   "Admin controls"
+  ],
+  "cons": [
+   "Tied to the Zoom ecosystem",
+   "Features vary by plan"
+  ],
+  "alternatives": [
+   "otter-ai",
+   "fireflies-ai",
+   "read-ai"
+  ],
+  "tags": [
+   "meetings",
+   "summaries",
+   "zoom",
+   "assistant"
+  ],
+  "features": [
+   "Meeting summaries",
+   "Catch-up for late joiners",
+   "Message drafting",
+   "Admin controls"
+  ],
+  "use_cases": [
+   "Weekly team calls",
+   "Customer meetings",
+   "Missed-meeting recaps"
+  ],
+  "pricing_details": "Zoom AI Companion plans change over time and were not verified for this listing. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Zoom AI Companion?",
+    "a": "Zoom's built-in AI assistant for meeting summaries and writing help. Check the official site for the current feature set."
+   },
+   {
+    "q": "Is Zoom AI Companion free?",
+    "a": "Pricing was not verified for this listing. Check the official website for current plans."
+   },
+   {
+    "q": "Who is Zoom AI Companion for?",
+    "a": "Zoom users who want summaries inside the meeting platform. Compare it with the alternatives listed before choosing."
+   }
+  ],
+  "seo_title": "Zoom AI Companion: What It Is and How to Use It",
+  "seo_description": "Learn what Zoom AI Companion is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "read-ai",
+  "name": "Read AI",
+  "category": "productivity",
+  "website_url": "https://www.read.ai",
+  "pricing": "Unknown",
+  "tagline": "Meeting notetaker with summaries, analytics and cross-app search.",
+  "best_for": "Teams who want meeting recaps and engagement insights",
+  "platforms": [
+   "Web",
+   "Chrome extension"
+  ],
+  "description": "Read AI joins or captures online meetings to produce summaries, action items and transcripts. It also reports on meeting patterns, and extends to email and messaging summaries in some offerings.\n\nIt suits managers and teams that want a record of conversations plus some analytics about how meetings run. As with all recording tools, get consent from participants and review summaries for accuracy. Check the official site for supported platforms and current plans.",
+  "use_steps": [
+   "Sign up and connect your calendar.",
+   "Allow it to join your meetings.",
+   "Open the summary after the call.",
+   "Share action items with attendees."
+  ],
+  "pros": [
+   "Automatic summaries",
+   "Meeting analytics",
+   "Works across popular meeting apps",
+   "Searchable records"
+  ],
+  "cons": [
+   "Recording needs consent",
+   "Summaries can miss nuance"
+  ],
+  "alternatives": [
+   "otter-ai",
+   "fireflies-ai",
+   "tldv"
+  ],
+  "tags": [
+   "meetings",
+   "notetaker",
+   "summaries",
+   "analytics"
+  ],
+  "features": [
+   "Transcripts",
+   "Summaries",
+   "Action items",
+   "Meeting analytics"
+  ],
+  "use_cases": [
+   "Sales calls",
+   "Team stand-ups",
+   "Interview debriefs"
+  ],
+  "pricing_details": "Read AI plans change over time and were not verified for this listing. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Read AI?",
+    "a": "Meeting notetaker with summaries, analytics and cross-app search. Check the official site for the current feature set."
+   },
+   {
+    "q": "Is Read AI free?",
+    "a": "Pricing was not verified for this listing. Check the official website for current plans."
+   },
+   {
+    "q": "Who is Read AI for?",
+    "a": "Teams who want meeting recaps and engagement insights. Compare it with the alternatives listed before choosing."
+   }
+  ],
+  "seo_title": "Read AI: What It Is and How to Use It",
+  "seo_description": "Learn what Read AI is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "raycast",
+  "name": "Raycast",
+  "category": "productivity",
+  "website_url": "https://www.raycast.com",
+  "pricing": "Unknown",
+  "tagline": "Keyboard launcher with extensions and AI commands for Mac.",
+  "best_for": "Mac users who want one launcher for apps and quick tasks",
+  "platforms": [
+   "macOS"
+  ],
+  "description": "Raycast is a launcher for macOS that lets you open apps, search files, run commands and use extensions from one keyboard-driven window. It replaces a mix of small utilities with a single tool.\n\nIt also offers AI features for quick questions and text help. Its extension store connects it to many developer and productivity services. It is a good fit for people who like shortcuts and customization. Platform support and plans change, so check the official site.",
+  "use_steps": [
+   "Install the app on your Mac.",
+   "Set a global hotkey.",
+   "Add extensions you use.",
+   "Try AI commands for quick questions."
+  ],
+  "pros": [
+   "Fast keyboard workflow",
+   "Large extension store",
+   "Replaces several utilities",
+   "AI commands"
+  ],
+  "cons": [
+   "Primarily for Mac",
+   "Gains depend on setup"
+  ],
+  "alternatives": [
+   "notion-ai",
+   "chatgpt",
+   "glean"
+  ],
+  "tags": [
+   "launcher",
+   "mac",
+   "shortcuts",
+   "ai"
+  ],
+  "features": [
+   "App launcher",
+   "Extensions",
+   "Clipboard and snippets",
+   "AI commands"
+  ],
+  "use_cases": [
+   "Quick app switching",
+   "Developer workflows",
+   "Text snippets"
+  ],
+  "pricing_details": "Raycast plans change over time and were not verified for this listing. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Raycast?",
+    "a": "Keyboard launcher with extensions and AI commands for Mac. Check the official site for the current feature set."
+   },
+   {
+    "q": "Is Raycast free?",
+    "a": "Pricing was not verified for this listing. Check the official website for current plans."
+   },
+   {
+    "q": "Who is Raycast for?",
+    "a": "Mac users who want one launcher for apps and quick tasks. Compare it with the alternatives listed before choosing."
+   }
+  ],
+  "seo_title": "Raycast: What It Is and How to Use It",
+  "seo_description": "Learn what Raycast is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "glean",
+  "name": "Glean",
+  "category": "productivity",
+  "website_url": "https://www.glean.com",
+  "pricing": "Unknown",
+  "tagline": "Workplace AI search across a company's apps and documents.",
+  "best_for": "Companies wanting unified search over internal tools",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Glean is an enterprise search and assistant product that connects to a company's work apps such as documents, chat and ticketing tools. It lets employees search across them and ask questions in one place.\n\nIt is sold to organizations rather than individuals, and works by respecting existing permissions in connected tools. Value depends on how fragmented a company's knowledge is. Setup involves IT administration. Check the official site for deployment details and pricing.",
+  "use_steps": [
+   "Your admin connects company apps.",
+   "Sign in with your work account.",
+   "Search or ask questions in plain language.",
+   "Open the original source to verify answers."
+  ],
+  "pros": [
+   "Search across many apps",
+   "Respects source permissions",
+   "Helps find internal knowledge",
+   "Assistant features"
+  ],
+  "cons": [
+   "Enterprise setup required",
+   "Not aimed at individual users"
+  ],
+  "alternatives": [
+   "slack-ai",
+   "microsoft-copilot",
+   "notion-ai"
+  ],
+  "tags": [
+   "enterprise",
+   "search",
+   "knowledge",
+   "assistant"
+  ],
+  "features": [
+   "Unified search",
+   "Connectors",
+   "Permission-aware results",
+   "Assistant"
+  ],
+  "use_cases": [
+   "Finding internal docs",
+   "Onboarding new hires",
+   "Support research"
+  ],
+  "pricing_details": "Glean plans change over time and were not verified for this listing. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Glean?",
+    "a": "Workplace AI search across a company's apps and documents. Check the official site for the current feature set."
+   },
+   {
+    "q": "Is Glean free?",
+    "a": "Pricing was not verified for this listing. Check the official website for current plans."
+   },
+   {
+    "q": "Who is Glean for?",
+    "a": "Companies wanting unified search over internal tools. Compare it with the alternatives listed before choosing."
+   }
+  ],
+  "seo_title": "Glean: What It Is and How to Use It",
+  "seo_description": "Learn what Glean is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "slack-ai",
+  "name": "Slack AI",
+  "category": "productivity",
+  "website_url": "https://slack.com",
+  "pricing": "Unknown",
+  "tagline": "AI features in Slack for channel recaps, search and summaries.",
+  "best_for": "Teams already working in Slack who want quick catch-up",
+  "platforms": [
+   "Web",
+   "Windows",
+   "macOS",
+   "iOS",
+   "Android"
+  ],
+  "description": "Slack AI refers to the AI features added to Slack. They are designed to summarize channels and threads, help answer questions from past conversations, and reduce the time spent catching up on busy workspaces.\n\nIt suits teams with high message volume where important decisions get buried. Availability depends on the Slack plan and workspace settings, and summaries should be checked against the original messages. Check the official site for current plans and features.",
+  "use_steps": [
+   "Confirm AI features are enabled in your workspace.",
+   "Open a busy channel or thread.",
+   "Request a summary or recap.",
+   "Jump to the source messages to verify."
+  ],
+  "pros": [
+   "Built into daily chat",
+   "Helps with catch-up",
+   "Searchable answers",
+   "No extra app"
+  ],
+  "cons": [
+   "Depends on plan and admin",
+   "Summaries may miss context"
+  ],
+  "alternatives": [
+   "glean",
+   "zoom-ai-companion",
+   "microsoft-copilot"
+  ],
+  "tags": [
+   "slack",
+   "summaries",
+   "chat",
+   "teams"
+  ],
+  "features": [
+   "Channel recaps",
+   "Thread summaries",
+   "Conversation search",
+   "Workspace answers"
+  ],
+  "use_cases": [
+   "Catching up after leave",
+   "Decision tracking",
+   "Onboarding"
+  ],
+  "pricing_details": "Slack AI plans change over time and were not verified for this listing. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Slack AI?",
+    "a": "AI features in Slack for channel recaps, search and summaries. Check the official site for the current feature set."
+   },
+   {
+    "q": "Is Slack AI free?",
+    "a": "Pricing was not verified for this listing. Check the official website for current plans."
+   },
+   {
+    "q": "Who is Slack AI for?",
+    "a": "Teams already working in Slack who want quick catch-up. Compare it with the alternatives listed before choosing."
+   }
+  ],
+  "seo_title": "Slack AI: What It Is and How to Use It",
+  "seo_description": "Learn what Slack AI is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "tella",
+  "name": "Tella",
+  "category": "productivity",
+  "website_url": "https://www.tella.com",
+  "pricing": "Unknown",
+  "tagline": "Screen recording and editing tool for polished product videos.",
+  "best_for": "Creators making demos and tutorials without heavy editing",
+  "platforms": [
+   "Web",
+   "macOS"
+  ],
+  "description": "Tella is a screen recorder that records in clips, lets you rearrange and trim them, and adds backgrounds and layouts to make demos look polished. It is built for short explainers and tutorials.\n\nIt suits founders, educators and marketers who want a nicer result than a raw screen capture but do not want a full video editor. Check what it offers on your platform before relying on specific effects. Check the official site for current plans.",
+  "use_steps": [
+   "Open the recorder and choose your layout.",
+   "Record in short clips.",
+   "Trim and reorder clips.",
+   "Export or share a link."
+  ],
+  "pros": [
+   "Clip-based recording",
+   "Polished backgrounds and layouts",
+   "Simple editing",
+   "Good for demos"
+  ],
+  "cons": [
+   "Not a full video editor",
+   "Feature set depends on plan"
+  ],
+  "alternatives": [
+   "loom",
+   "descript",
+   "veed"
+  ],
+  "tags": [
+   "screen-recording",
+   "video",
+   "tutorials",
+   "demos"
+  ],
+  "features": [
+   "Clip recording",
+   "Layouts",
+   "Trimming",
+   "Sharing links"
+  ],
+  "use_cases": [
+   "Product demos",
+   "Online lessons",
+   "Async updates"
+  ],
+  "pricing_details": "Tella plans change over time and were not verified for this listing. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Tella?",
+    "a": "Screen recording and editing tool for polished product videos. Check the official site for the current feature set."
+   },
+   {
+    "q": "Is Tella free?",
+    "a": "Pricing was not verified for this listing. Check the official website for current plans."
+   },
+   {
+    "q": "Who is Tella for?",
+    "a": "Creators making demos and tutorials without heavy editing. Compare it with the alternatives listed before choosing."
+   }
+  ],
+  "seo_title": "Tella: What It Is and How to Use It",
+  "seo_description": "Learn what Tella is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "craft",
+  "name": "Craft",
+  "category": "productivity",
+  "website_url": "https://www.craft.do",
+  "pricing": "Unknown",
+  "tagline": "Polished document and notes app with Apple-platform focus.",
+  "best_for": "People who want attractive docs and notes",
+  "platforms": [
+   "Web",
+   "macOS",
+   "iOS",
+   "Windows"
+  ],
+  "description": "Craft is a document and note-taking app with a clean, visual design. Pages can be nested, linked and shared as web pages, and it works well for both personal notes and lightweight team documents.\n\nIt has been strongest on Apple devices, with an emphasis on design and offline use. It also offers AI writing help in some plans. Heavy database-style needs may be better handled by other tools. Check the official site for current platforms and plans.",
+  "use_steps": [
+   "Create an account and a space.",
+   "Write pages with nested blocks.",
+   "Link related documents.",
+   "Share a page as a web link."
+  ],
+  "pros": [
+   "Attractive design",
+   "Nested blocks and linking",
+   "Shareable pages",
+   "Good on Apple devices"
+  ],
+  "cons": [
+   "Less suited to databases",
+   "Experience varies by platform"
+  ],
+  "alternatives": [
+   "notion",
+   "bear-notes",
+   "evernote"
+  ],
+  "tags": [
+   "notes",
+   "documents",
+   "design",
+   "apple"
+  ],
+  "features": [
+   "Block-based pages",
+   "Linking",
+   "Shareable docs",
+   "AI writing help"
+  ],
+  "use_cases": [
+   "Personal notes",
+   "Meeting docs",
+   "Shared knowledge pages"
+  ],
+  "pricing_details": "Craft plans change over time and were not verified for this listing. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Craft?",
+    "a": "Polished document and notes app with Apple-platform focus. Check the official site for the current feature set."
+   },
+   {
+    "q": "Is Craft free?",
+    "a": "Pricing was not verified for this listing. Check the official website for current plans."
+   },
+   {
+    "q": "Who is Craft for?",
+    "a": "People who want attractive docs and notes. Compare it with the alternatives listed before choosing."
+   }
+  ],
+  "seo_title": "Craft: What It Is and How to Use It",
+  "seo_description": "Learn what Craft is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "evernote",
+  "name": "Evernote",
+  "category": "productivity",
+  "website_url": "https://evernote.com",
+  "pricing": "Unknown",
+  "tagline": "Long-running note and web-clipping app for personal organization.",
+  "best_for": "People storing notes, clippings and documents in one place",
+  "platforms": [
+   "Web",
+   "Windows",
+   "macOS",
+   "iOS",
+   "Android"
+  ],
+  "description": "Evernote is one of the older note-taking apps, known for notebooks, tags and a web clipper that saves articles and pages. It also supports attachments, scanned documents and search.\n\nIts ownership and plans have changed over the years, so confirm current limits before moving large archives in or out. It remains a familiar choice for people with years of notes who want simple capture. Check the official site for current plans and features.",
+  "use_steps": [
+   "Install the app and sign in.",
+   "Create notebooks and tags.",
+   "Use the web clipper to save pages.",
+   "Search to find notes later."
+  ],
+  "pros": [
+   "Familiar and simple",
+   "Web clipper",
+   "Search across notes",
+   "Works across devices"
+  ],
+  "cons": [
+   "Plan limits have changed over time",
+   "Newer rivals offer more flexible structure"
+  ],
+  "alternatives": [
+   "notion",
+   "obsidian",
+   "simplenote"
+  ],
+  "tags": [
+   "notes",
+   "web-clipper",
+   "organization",
+   "archive"
+  ],
+  "features": [
+   "Notebooks and tags",
+   "Web clipper",
+   "Attachments",
+   "Search"
+  ],
+  "use_cases": [
+   "Saving articles",
+   "Receipts and documents",
+   "Personal notes"
+  ],
+  "pricing_details": "Evernote plans change over time and were not verified for this listing. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Evernote?",
+    "a": "Long-running note and web-clipping app for personal organization. Check the official site for the current feature set."
+   },
+   {
+    "q": "Is Evernote free?",
+    "a": "Pricing was not verified for this listing. Check the official website for current plans."
+   },
+   {
+    "q": "Who is Evernote for?",
+    "a": "People storing notes, clippings and documents in one place. Compare it with the alternatives listed before choosing."
+   }
+  ],
+  "seo_title": "Evernote: What It Is and How to Use It",
+  "seo_description": "Learn what Evernote is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "roam-research",
+  "name": "Roam Research",
+  "category": "productivity",
+  "website_url": "https://roamresearch.com",
+  "pricing": "Unknown",
+  "tagline": "Networked note-taking tool built on outlines and bidirectional links.",
+  "best_for": "Writers and researchers who think in linked notes",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Roam Research popularized bi-directional linking in note-taking. Notes are written as outlines, and typing a link creates a connection that is visible from both pages.\n\nIt is used by researchers, writers and thinkers who like building a web of ideas over time. It has a distinct style that takes some getting used to, and newer tools have added similar features. Check the official site for current pricing and platform support.",
+  "use_steps": [
+   "Open the daily notes page.",
+   "Write in nested bullets.",
+   "Link ideas with double brackets.",
+   "Review backlinks to find connections."
+  ],
+  "pros": [
+   "Pioneering linking model",
+   "Outliner workflow",
+   "Daily notes",
+   "Block references"
+  ],
+  "cons": [
+   "Learning curve",
+   "Less polished mobile experience may apply"
+  ],
+  "alternatives": [
+   "logseq",
+   "obsidian",
+   "remnote"
+  ],
+  "tags": [
+   "notes",
+   "outliner",
+   "backlinks",
+   "research"
+  ],
+  "features": [
+   "Bi-directional links",
+   "Block references",
+   "Daily notes",
+   "Graph view"
+  ],
+  "use_cases": [
+   "Research notes",
+   "Writing projects",
+   "Idea development"
+  ],
+  "pricing_details": "Roam Research plans change over time and were not verified for this listing. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Roam Research?",
+    "a": "Networked note-taking tool built on outlines and bidirectional links. Check the official site for the current feature set."
+   },
+   {
+    "q": "Is Roam Research free?",
+    "a": "Pricing was not verified for this listing. Check the official website for current plans."
+   },
+   {
+    "q": "Who is Roam Research for?",
+    "a": "Writers and researchers who think in linked notes. Compare it with the alternatives listed before choosing."
+   }
+  ],
+  "seo_title": "Roam Research: What It Is and How to Use It",
+  "seo_description": "Learn what Roam Research is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "cal-com",
+  "name": "Cal.com",
+  "category": "productivity",
+  "website_url": "https://cal.com",
+  "pricing": "Open source",
+  "tagline": "Open-source scheduling platform for booking meetings.",
+  "best_for": "Individuals and teams wanting a flexible Calendly alternative",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Cal.com is an open-source scheduling platform. You share a booking page, people pick an available time, and events are added to connected calendars. It supports team and round-robin style scheduling.\n\nBecause the code is open, it can be self-hosted by teams that want control over their data, and there is also a hosted service. It suits freelancers, sales teams and businesses wanting customizable booking. Check the official site for current hosted plans and features.",
+  "use_steps": [
+   "Sign up or self-host.",
+   "Connect your calendar.",
+   "Set availability and event types.",
+   "Share your booking link."
+  ],
+  "pros": [
+   "Open source",
+   "Self-hosting option",
+   "Team scheduling",
+   "Customizable"
+  ],
+  "cons": [
+   "Self-hosting needs technical skill",
+   "Some features may depend on plan"
+  ],
+  "alternatives": [
+   "calendly",
+   "reclaim-ai",
+   "clockwise"
+  ],
+  "tags": [
+   "scheduling",
+   "open-source",
+   "calendar",
+   "booking"
+  ],
+  "features": [
+   "Booking pages",
+   "Calendar integrations",
+   "Team scheduling",
+   "Self-host option"
+  ],
+  "use_cases": [
+   "Client bookings",
+   "Sales demos",
+   "Interview scheduling"
+  ],
+  "pricing_details": "Cal.com plans change over time and were not verified for this listing. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Cal.com?",
+    "a": "Open-source scheduling platform for booking meetings. Check the official site for the current feature set."
+   },
+   {
+    "q": "Is Cal.com free?",
+    "a": "Pricing was not verified for this listing. Check the official website for current plans."
+   },
+   {
+    "q": "Who is Cal.com for?",
+    "a": "Individuals and teams wanting a flexible Calendly alternative. Compare it with the alternatives listed before choosing."
+   }
+  ],
+  "seo_title": "Cal.com: What It Is and How to Use It",
+  "seo_description": "Learn what Cal.com is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "spark-mail",
+  "name": "Spark Mail",
+  "category": "productivity",
+  "website_url": "https://sparkmailapp.com",
+  "pricing": "Unknown",
+  "tagline": "Email client with smart inbox, team collaboration and AI writing help.",
+  "best_for": "People managing several inboxes who share email with a team",
+  "platforms": [
+   "macOS",
+   "iOS",
+   "Android",
+   "Windows"
+  ],
+  "description": "Spark is an email client that combines multiple accounts in one smart inbox. It prioritizes important messages and offers team features such as shared drafts and comments on emails.\n\nIt also provides AI help for writing and summarizing messages. It is a good fit for individuals and small teams who collaborate on email. Features differ between personal and team plans. Check the official site for supported accounts and current pricing.",
+  "use_steps": [
+   "Download the app and add your email accounts.",
+   "Review the smart inbox.",
+   "Snooze or pin important messages.",
+   "Use AI to draft replies."
+  ],
+  "pros": [
+   "Unified inbox",
+   "Team collaboration",
+   "AI writing help",
+   "Cross-platform"
+  ],
+  "cons": [
+   "Some features need paid plans",
+   "Not as keyboard-centric as some rivals"
+  ],
+  "alternatives": [
+   "superhuman",
+   "shortwave",
+   "grammarly"
+  ],
+  "tags": [
+   "email",
+   "inbox",
+   "collaboration",
+   "ai"
+  ],
+  "features": [
+   "Smart inbox",
+   "Shared drafts",
+   "Snooze",
+   "AI writing"
+  ],
+  "use_cases": [
+   "Multi-account email",
+   "Shared support mail",
+   "Quick replies"
+  ],
+  "pricing_details": "Spark Mail plans change over time and were not verified for this listing. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Spark Mail?",
+    "a": "Email client with smart inbox, team collaboration and AI writing help. Check the official site for the current feature set."
+   },
+   {
+    "q": "Is Spark Mail free?",
+    "a": "Pricing was not verified for this listing. Check the official website for current plans."
+   },
+   {
+    "q": "Who is Spark Mail for?",
+    "a": "People managing several inboxes who share email with a team. Compare it with the alternatives listed before choosing."
+   }
+  ],
+  "seo_title": "Spark Mail: What It Is and How to Use It",
+  "seo_description": "Learn what Spark Mail is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "shortwave",
+  "name": "Shortwave",
+  "category": "productivity",
+  "website_url": "https://www.shortwave.com",
+  "pricing": "Unknown",
+  "tagline": "Gmail-based email client with AI search and summaries.",
+  "best_for": "Gmail users who want AI built into their inbox",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android",
+   "macOS"
+  ],
+  "description": "Shortwave is an email client designed for Gmail accounts. It groups messages into conversation threads with bundles and offers AI features such as summaries and natural-language search across your mail.\n\nIt suits people who live in Gmail and want an assistant for finding information and drafting replies. Since it works with Gmail, it is not intended for other providers. Check the official site for supported accounts and current plans.",
+  "use_steps": [
+   "Sign in with your Gmail account.",
+   "Set up bundles and labels.",
+   "Ask the AI to search or summarize.",
+   "Draft replies with AI suggestions."
+  ],
+  "pros": [
+   "AI search over mail",
+   "Thread summaries",
+   "Gmail integration",
+   "Clean interface"
+  ],
+  "cons": [
+   "Gmail-focused",
+   "AI results need checking"
+  ],
+  "alternatives": [
+   "superhuman",
+   "spark-mail",
+   "grammarly"
+  ],
+  "tags": [
+   "email",
+   "gmail",
+   "ai-search",
+   "inbox"
+  ],
+  "features": [
+   "AI search",
+   "Summaries",
+   "Bundles",
+   "Draft assistance"
+  ],
+  "use_cases": [
+   "Finding old emails",
+   "Inbox triage",
+   "Fast replies"
+  ],
+  "pricing_details": "Shortwave plans change over time and were not verified for this listing. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Shortwave?",
+    "a": "Gmail-based email client with AI search and summaries. Check the official site for the current feature set."
+   },
+   {
+    "q": "Is Shortwave free?",
+    "a": "Pricing was not verified for this listing. Check the official website for current plans."
+   },
+   {
+    "q": "Who is Shortwave for?",
+    "a": "Gmail users who want AI built into their inbox. Compare it with the alternatives listed before choosing."
+   }
+  ],
+  "seo_title": "Shortwave: What It Is and How to Use It",
+  "seo_description": "Learn what Shortwave is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "limitless",
+  "name": "Limitless",
+  "category": "productivity",
+  "website_url": "https://www.limitless.ai",
+  "pricing": "Unknown",
+  "tagline": "AI memory assistant that captures and searches conversations.",
+  "best_for": "People wanting searchable recall of meetings and conversations",
+  "platforms": [
+   "Web",
+   "macOS",
+   "iOS"
+  ],
+  "description": "Limitless is an AI memory product that records and transcribes conversations so you can search and summarize them later. It grew out of the earlier Rewind app and has offered both software and wearable options.\n\nIt suits people in many meetings who want to look up what was said. Recording raises serious privacy and legal concerns, so always follow local consent laws and tell others. Product lineup has changed over time, so check the official site for current status and plans.",
+  "use_steps": [
+   "Install the app and sign in.",
+   "Grant the required permissions.",
+   "Record or capture conversations with consent.",
+   "Search and summarize past conversations."
+  ],
+  "pros": [
+   "Searchable conversation history",
+   "Summaries",
+   "Useful for meeting recall",
+   "Personal knowledge capture"
+  ],
+  "cons": [
+   "Privacy and consent considerations",
+   "Product offerings have changed"
+  ],
+  "alternatives": [
+   "otter-ai",
+   "granola",
+   "read-ai"
+  ],
+  "tags": [
+   "memory",
+   "transcription",
+   "meetings",
+   "privacy"
+  ],
+  "features": [
+   "Transcription",
+   "Search",
+   "Summaries",
+   "Meeting recall"
+  ],
+  "use_cases": [
+   "Meeting follow-up",
+   "Personal recall",
+   "Interview notes"
+  ],
+  "pricing_details": "Limitless plans change over time and were not verified for this listing. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Limitless?",
+    "a": "AI memory assistant that captures and searches conversations. Check the official site for the current feature set."
+   },
+   {
+    "q": "Is Limitless free?",
+    "a": "Pricing was not verified for this listing. Check the official website for current plans."
+   },
+   {
+    "q": "Who is Limitless for?",
+    "a": "People wanting searchable recall of meetings and conversations. Compare it with the alternatives listed before choosing."
+   }
+  ],
+  "seo_title": "Limitless: What It Is and How to Use It",
+  "seo_description": "Learn what Limitless is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "tldv",
+  "name": "tl;dv",
+  "category": "productivity",
+  "website_url": "https://tldv.io",
+  "pricing": "Unknown",
+  "tagline": "AI meeting recorder for Zoom, Google Meet and Teams.",
+  "best_for": "Teams that want recorded, timestamped meeting notes",
+  "platforms": [
+   "Web",
+   "Chrome extension"
+  ],
+  "description": "tl;dv records online meetings and provides transcripts, summaries and timestamped highlights. It supports popular video platforms and lets you share clips from calls with colleagues.\n\nIt is popular with product, sales and research teams that want to revisit what customers said. Inform participants about recording and review AI notes for accuracy. Supported platforms and plans change, so check the official site for current details.",
+  "use_steps": [
+   "Connect your calendar and meeting app.",
+   "Let it join and record the meeting.",
+   "Open the transcript and highlights.",
+   "Share clips with your team."
+  ],
+  "pros": [
+   "Timestamped highlights",
+   "Works with popular meeting tools",
+   "Shareable clips",
+   "Transcripts"
+  ],
+  "cons": [
+   "Recording needs consent",
+   "Summaries can be imperfect"
+  ],
+  "alternatives": [
+   "fireflies-ai",
+   "otter-ai",
+   "read-ai"
+  ],
+  "tags": [
+   "meetings",
+   "recording",
+   "transcripts",
+   "clips"
+  ],
+  "features": [
+   "Recording",
+   "Transcripts",
+   "Highlights",
+   "Clip sharing"
+  ],
+  "use_cases": [
+   "Customer interviews",
+   "Sales calls",
+   "Team syncs"
+  ],
+  "pricing_details": "tl;dv plans change over time and were not verified for this listing. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is tl;dv?",
+    "a": "AI meeting recorder for Zoom, Google Meet and Teams. Check the official site for the current feature set."
+   },
+   {
+    "q": "Is tl;dv free?",
+    "a": "Pricing was not verified for this listing. Check the official website for current plans."
+   },
+   {
+    "q": "Who is tl;dv for?",
+    "a": "Teams that want recorded, timestamped meeting notes. Compare it with the alternatives listed before choosing."
+   }
+  ],
+  "seo_title": "tl;dv: What It Is and How to Use It",
+  "seo_description": "Learn what tl;dv is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "krisp",
+  "name": "Krisp",
+  "category": "productivity",
+  "website_url": "https://krisp.ai",
+  "pricing": "Unknown",
+  "tagline": "Noise cancellation and AI meeting notes without a bot.",
+  "best_for": "Remote workers on noisy calls",
+  "platforms": [
+   "Windows",
+   "macOS",
+   "iOS",
+   "Android",
+   "Chrome extension"
+  ],
+  "description": "Krisp began as an AI noise cancellation app that removes background sound from calls. It has expanded to meeting transcription and notes that run on your device without a bot joining the call.\n\nIt suits remote workers, support agents and anyone dealing with noisy environments. It works alongside calling apps, so setup involves choosing it as your microphone and speaker. Check the official site for current features and plans.",
+  "use_steps": [
+   "Install the app.",
+   "Select Krisp as microphone and speaker in your call app.",
+   "Enable noise cancellation.",
+   "Turn on notes if you want transcripts."
+  ],
+  "pros": [
+   "Reduces background noise",
+   "Works with many calling apps",
+   "Notes without a bot",
+   "Easy to try"
+  ],
+  "cons": [
+   "Needs audio setup",
+   "Notes features depend on plan"
+  ],
+  "alternatives": [
+   "otter-ai",
+   "read-ai",
+   "fireflies-ai"
+  ],
+  "tags": [
+   "noise-cancellation",
+   "meetings",
+   "audio",
+   "notes"
+  ],
+  "features": [
+   "Noise cancellation",
+   "Meeting notes",
+   "Works with calling apps",
+   "Echo removal"
+  ],
+  "use_cases": [
+   "Remote calls",
+   "Contact centers",
+   "Interviews"
+  ],
+  "pricing_details": "Krisp plans change over time and were not verified for this listing. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Krisp?",
+    "a": "Noise cancellation and AI meeting notes without a bot. Check the official site for the current feature set."
+   },
+   {
+    "q": "Is Krisp free?",
+    "a": "Pricing was not verified for this listing. Check the official website for current plans."
+   },
+   {
+    "q": "Who is Krisp for?",
+    "a": "Remote workers on noisy calls. Compare it with the alternatives listed before choosing."
+   }
+  ],
+  "seo_title": "Krisp: What It Is and How to Use It",
+  "seo_description": "Learn what Krisp is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "ticktick",
+  "name": "TickTick",
+  "category": "productivity",
+  "website_url": "https://ticktick.com",
+  "pricing": "Unknown",
+  "tagline": "To-do list and calendar app with habits and focus timer.",
+  "best_for": "Individuals who want tasks, calendar and habits together",
+  "platforms": [
+   "Web",
+   "Windows",
+   "macOS",
+   "iOS",
+   "Android"
+  ],
+  "description": "TickTick is a task manager that combines lists, reminders, a calendar view, habit tracking and a Pomodoro-style focus timer. It supports tags, subtasks and recurring tasks.\n\nIt suits students and professionals who want a single personal planner across devices. Some features, such as advanced calendar views, may require a paid plan. Check the official site for current plans and platform support.",
+  "use_steps": [
+   "Create lists for your projects.",
+   "Add tasks with dates and reminders.",
+   "Open the calendar view.",
+   "Track habits and use the focus timer."
+  ],
+  "pros": [
+   "Combines tasks and habits",
+   "Calendar view",
+   "Cross-platform",
+   "Recurring tasks"
+  ],
+  "cons": [
+   "Some features behind paid plan",
+   "Interface can feel busy"
+  ],
+  "alternatives": [
+   "todoist",
+   "things",
+   "any-do"
+  ],
+  "tags": [
+   "tasks",
+   "to-do",
+   "habits",
+   "calendar"
+  ],
+  "features": [
+   "Lists and subtasks",
+   "Calendar",
+   "Habit tracking",
+   "Focus timer"
+  ],
+  "use_cases": [
+   "Personal planning",
+   "Study schedules",
+   "Habit building"
+  ],
+  "pricing_details": "TickTick plans change over time and were not verified for this listing. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is TickTick?",
+    "a": "To-do list and calendar app with habits and focus timer. Check the official site for the current feature set."
+   },
+   {
+    "q": "Is TickTick free?",
+    "a": "Pricing was not verified for this listing. Check the official website for current plans."
+   },
+   {
+    "q": "Who is TickTick for?",
+    "a": "Individuals who want tasks, calendar and habits together. Compare it with the alternatives listed before choosing."
+   }
+  ],
+  "seo_title": "TickTick: What It Is and How to Use It",
+  "seo_description": "Learn what TickTick is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "things",
+  "name": "Things",
+  "category": "productivity",
+  "website_url": "https://culturedcode.com/things",
+  "pricing": "Paid",
+  "tagline": "Apple-only task manager known for a clean design.",
+  "best_for": "Apple users who want a calm, simple to-do app",
+  "platforms": [
+   "macOS",
+   "iOS"
+  ],
+  "description": "Things is a to-do app from Cultured Code for Apple devices. It organizes work into areas, projects and headings, with a Today view and an Upcoming view for planning.\n\nIt does not focus on collaboration or AI, which keeps it simple. It suits individuals who want a personal system and use only Apple hardware. It is sold as a paid app rather than a subscription, but check the official site for the current purchase model.",
+  "use_steps": [
+   "Install on your Apple device.",
+   "Create areas and projects.",
+   "Add tasks to Inbox and plan into Today.",
+   "Review Upcoming each week."
+  ],
+  "pros": [
+   "Clean and calm design",
+   "Simple structure",
+   "Quick entry",
+   "Good Apple integration"
+  ],
+  "cons": [
+   "Apple devices only",
+   "Limited team features"
+  ],
+  "alternatives": [
+   "todoist",
+   "ticktick",
+   "any-do"
+  ],
+  "tags": [
+   "tasks",
+   "apple",
+   "gtd",
+   "personal"
+  ],
+  "features": [
+   "Areas and projects",
+   "Today view",
+   "Quick entry",
+   "Reminders"
+  ],
+  "use_cases": [
+   "Personal to-do lists",
+   "Project tracking",
+   "Weekly reviews"
+  ],
+  "pricing_details": "Things plans change over time and were not verified for this listing. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Things?",
+    "a": "Apple-only task manager known for a clean design. Check the official site for the current feature set."
+   },
+   {
+    "q": "Is Things free?",
+    "a": "Pricing was not verified for this listing. Check the official website for current plans."
+   },
+   {
+    "q": "Who is Things for?",
+    "a": "Apple users who want a calm, simple to-do app. Compare it with the alternatives listed before choosing."
+   }
+  ],
+  "seo_title": "Things: What It Is and How to Use It",
+  "seo_description": "Learn what Things is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "akiflow",
+  "name": "Akiflow",
+  "category": "productivity",
+  "website_url": "https://akiflow.com",
+  "pricing": "Unknown",
+  "tagline": "Time-blocking planner that pulls tasks into your calendar.",
+  "best_for": "People who gather tasks from many apps and want to time-block",
+  "platforms": [
+   "Web",
+   "macOS",
+   "Windows",
+   "iOS",
+   "Android"
+  ],
+  "description": "Akiflow collects tasks from different sources such as email and project tools into one inbox, then lets you drag them onto your calendar as time blocks. It supports keyboard shortcuts and daily planning.\n\nIt is aimed at professionals who juggle many tools and want a single daily plan. It requires a habit of planning each day to deliver value. Check the official site for current integrations and plans.",
+  "use_steps": [
+   "Connect your calendar and task sources.",
+   "Capture tasks into the inbox.",
+   "Time-block them onto your day.",
+   "Review and reschedule leftovers."
+  ],
+  "pros": [
+   "Unifies tasks from many apps",
+   "Time-blocking workflow",
+   "Keyboard shortcuts",
+   "Daily planning"
+  ],
+  "cons": [
+   "Needs a planning habit",
+   "Paid product"
+  ],
+  "alternatives": [
+   "motion",
+   "sunsama",
+   "reclaim-ai"
+  ],
+  "tags": [
+   "time-blocking",
+   "planning",
+   "tasks",
+   "calendar"
+  ],
+  "features": [
+   "Task inbox",
+   "Time-blocking",
+   "Integrations",
+   "Keyboard shortcuts"
+  ],
+  "use_cases": [
+   "Daily planning",
+   "Consolidating tasks",
+   "Calendar management"
+  ],
+  "pricing_details": "Akiflow plans change over time and were not verified for this listing. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Akiflow?",
+    "a": "Time-blocking planner that pulls tasks into your calendar. Check the official site for the current feature set."
+   },
+   {
+    "q": "Is Akiflow free?",
+    "a": "Pricing was not verified for this listing. Check the official website for current plans."
+   },
+   {
+    "q": "Who is Akiflow for?",
+    "a": "People who gather tasks from many apps and want to time-block. Compare it with the alternatives listed before choosing."
+   }
+  ],
+  "seo_title": "Akiflow: What It Is and How to Use It",
+  "seo_description": "Learn what Akiflow is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "fantastical",
+  "name": "Fantastical",
+  "category": "productivity",
+  "website_url": "https://flexibits.com/fantastical",
+  "pricing": "Unknown",
+  "tagline": "Calendar app with natural-language event entry.",
+  "best_for": "Apple users wanting a richer calendar than the default",
+  "platforms": [
+   "macOS",
+   "iOS",
+   "Windows",
+   "Web"
+  ],
+  "description": "Fantastical is a calendar app that lets you type events in plain language, like a lunch next Tuesday, and have it parsed. It shows multiple calendars and tasks together and includes scheduling tools.\n\nIt has been strongest on Apple platforms and has expanded elsewhere. It suits people with several calendars who want a better view and quick event entry. Some features need a paid plan. Check the official site for current platforms and pricing.",
+  "use_steps": [
+   "Install and connect your calendar accounts.",
+   "Type an event in natural language.",
+   "Use scheduling links to propose times.",
+   "View tasks alongside events."
+  ],
+  "pros": [
+   "Natural-language entry",
+   "Multiple calendar support",
+   "Scheduling tools",
+   "Polished interface"
+  ],
+  "cons": [
+   "Some features need subscription",
+   "Platform parity varies"
+  ],
+  "alternatives": [
+   "calendly",
+   "cal-com",
+   "clockwise"
+  ],
+  "tags": [
+   "calendar",
+   "natural-language",
+   "apple",
+   "scheduling"
+  ],
+  "features": [
+   "Natural-language events",
+   "Calendar sets",
+   "Scheduling links",
+   "Task integration"
+  ],
+  "use_cases": [
+   "Managing many calendars",
+   "Quick scheduling",
+   "Meeting proposals"
+  ],
+  "pricing_details": "Fantastical plans change over time and were not verified for this listing. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Fantastical?",
+    "a": "Calendar app with natural-language event entry. Check the official site for the current feature set."
+   },
+   {
+    "q": "Is Fantastical free?",
+    "a": "Pricing was not verified for this listing. Check the official website for current plans."
+   },
+   {
+    "q": "Who is Fantastical for?",
+    "a": "Apple users wanting a richer calendar than the default. Compare it with the alternatives listed before choosing."
+   }
+  ],
+  "seo_title": "Fantastical: What It Is and How to Use It",
+  "seo_description": "Learn what Fantastical is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "fellow",
+  "name": "Fellow",
+  "category": "productivity",
+  "website_url": "https://fellow.ai",
+  "pricing": "Unknown",
+  "tagline": "Meeting agenda and notes platform with AI notetaking.",
+  "best_for": "Managers running recurring one-on-ones and team meetings",
+  "platforms": [
+   "Web",
+   "Chrome extension"
+  ],
+  "description": "Fellow helps teams plan meetings with shared agendas, take notes and track action items. It also offers an AI notetaker that records, summarizes and files notes after calls.\n\nIt suits managers and teams who run recurring meetings and want accountability afterward. The value comes from consistent use of agendas and action tracking. Check the official site for current integrations and plans.",
+  "use_steps": [
+   "Connect your calendar.",
+   "Create a shared agenda before meetings.",
+   "Take notes or use the AI notetaker.",
+   "Assign and follow up on action items."
+  ],
+  "pros": [
+   "Shared agendas",
+   "Action item tracking",
+   "AI notes",
+   "Calendar integration"
+  ],
+  "cons": [
+   "Needs team adoption",
+   "Recording needs consent"
+  ],
+  "alternatives": [
+   "otter-ai",
+   "read-ai",
+   "granola"
+  ],
+  "tags": [
+   "meetings",
+   "agendas",
+   "action-items",
+   "teams"
+  ],
+  "features": [
+   "Agendas",
+   "Notes",
+   "Action items",
+   "AI notetaker"
+  ],
+  "use_cases": [
+   "One-on-ones",
+   "Team meetings",
+   "Project reviews"
+  ],
+  "pricing_details": "Fellow plans change over time and were not verified for this listing. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Fellow?",
+    "a": "Meeting agenda and notes platform with AI notetaking. Check the official site for the current feature set."
+   },
+   {
+    "q": "Is Fellow free?",
+    "a": "Pricing was not verified for this listing. Check the official website for current plans."
+   },
+   {
+    "q": "Who is Fellow for?",
+    "a": "Managers running recurring one-on-ones and team meetings. Compare it with the alternatives listed before choosing."
+   }
+  ],
+  "seo_title": "Fellow: What It Is and How to Use It",
+  "seo_description": "Learn what Fellow is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "basecamp",
+  "name": "Basecamp",
+  "category": "productivity",
+  "website_url": "https://basecamp.com",
+  "pricing": "Unknown",
+  "tagline": "Simple project management and team communication tool.",
+  "best_for": "Small teams that want a straightforward, all-in-one tool",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android",
+   "macOS",
+   "Windows"
+  ],
+  "description": "Basecamp is a project management and team communication tool built around projects containing to-dos, message boards, schedules and file storage. It aims for simplicity over configurability.\n\nIt suits small businesses, agencies and teams that dislike complex setups. It is not an AI-first product and has fewer advanced views than some competitors. Check the official site for current plans and features.",
+  "use_steps": [
+   "Create a project.",
+   "Add to-dos and assign people.",
+   "Post updates to the message board.",
+   "Use schedules and check-ins."
+  ],
+  "pros": [
+   "Simple structure",
+   "All-in-one communication",
+   "Easy onboarding",
+   "Client access options"
+  ],
+  "cons": [
+   "Fewer advanced views",
+   "Less customization"
+  ],
+  "alternatives": [
+   "asana",
+   "trello",
+   "clickup"
+  ],
+  "tags": [
+   "project-management",
+   "teams",
+   "communication",
+   "simple"
+  ],
+  "features": [
+   "To-dos",
+   "Message boards",
+   "Schedules",
+   "Check-ins"
+  ],
+  "use_cases": [
+   "Client projects",
+   "Small business teams",
+   "Agency work"
+  ],
+  "pricing_details": "Basecamp plans change over time and were not verified for this listing. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Basecamp?",
+    "a": "Simple project management and team communication tool. Check the official site for the current feature set."
+   },
+   {
+    "q": "Is Basecamp free?",
+    "a": "Pricing was not verified for this listing. Check the official website for current plans."
+   },
+   {
+    "q": "Who is Basecamp for?",
+    "a": "Small teams that want a straightforward, all-in-one tool. Compare it with the alternatives listed before choosing."
+   }
+  ],
+  "seo_title": "Basecamp: What It Is and How to Use It",
+  "seo_description": "Learn what Basecamp is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "wrike",
+  "name": "Wrike",
+  "category": "productivity",
+  "website_url": "https://www.wrike.com",
+  "pricing": "Unknown",
+  "tagline": "Work management platform for larger teams and workflows.",
+  "best_for": "Mid-size and enterprise teams needing structured workflows",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "Wrike is a work management platform used for planning projects, managing requests and reporting on progress. It offers Gantt charts, custom workflows, dashboards and proofing tools.\n\nIt tends to appeal to larger teams in marketing, operations and professional services that need approvals and visibility. It also adds AI features in some plans. Smaller teams may find simpler tools sufficient. Check the official site for current plans.",
+  "use_steps": [
+   "Create a space and project.",
+   "Build workflows and request forms.",
+   "Plan with Gantt or board views.",
+   "Report with dashboards."
+  ],
+  "pros": [
+   "Structured workflows",
+   "Gantt charts",
+   "Request forms",
+   "Dashboards"
+  ],
+  "cons": [
+   "Can be complex for small teams",
+   "Features vary by plan"
+  ],
+  "alternatives": [
+   "asana",
+   "smartsheet",
+   "monday"
+  ],
+  "tags": [
+   "project-management",
+   "workflow",
+   "enterprise",
+   "gantt"
+  ],
+  "features": [
+   "Gantt charts",
+   "Custom workflows",
+   "Request forms",
+   "Reporting"
+  ],
+  "use_cases": [
+   "Marketing operations",
+   "Creative approvals",
+   "Portfolio reporting"
+  ],
+  "pricing_details": "Wrike plans change over time and were not verified for this listing. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Wrike?",
+    "a": "Work management platform for larger teams and workflows. Check the official site for the current feature set."
+   },
+   {
+    "q": "Is Wrike free?",
+    "a": "Pricing was not verified for this listing. Check the official website for current plans."
+   },
+   {
+    "q": "Who is Wrike for?",
+    "a": "Mid-size and enterprise teams needing structured workflows. Compare it with the alternatives listed before choosing."
+   }
+  ],
+  "seo_title": "Wrike: What It Is and How to Use It",
+  "seo_description": "Learn what Wrike is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "smartsheet",
+  "name": "Smartsheet",
+  "category": "productivity",
+  "website_url": "https://www.smartsheet.com",
+  "pricing": "Unknown",
+  "tagline": "Spreadsheet-style work management platform for planning and reporting.",
+  "best_for": "Teams that think in spreadsheets but need project features",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Smartsheet is a work management platform that uses a spreadsheet-like grid as its base, with Gantt, card and calendar views, forms, automations and dashboards on top.\n\nIt suits operations, PMO and business teams that are comfortable with spreadsheets but need collaboration and process control. It also offers AI-assisted features in some areas. Check the official site for current plans.",
+  "use_steps": [
+   "Create a sheet or use a template.",
+   "Add columns and rows for tasks.",
+   "Switch to Gantt or card views.",
+   "Build dashboards and automations."
+  ],
+  "pros": [
+   "Familiar grid layout",
+   "Several project views",
+   "Forms and automations",
+   "Reporting dashboards"
+  ],
+  "cons": [
+   "Can be costly at scale",
+   "Less modern feel to some users"
+  ],
+  "alternatives": [
+   "airtable",
+   "wrike",
+   "monday"
+  ],
+  "tags": [
+   "project-management",
+   "spreadsheet",
+   "reporting",
+   "enterprise"
+  ],
+  "features": [
+   "Grid view",
+   "Gantt",
+   "Forms",
+   "Dashboards"
+  ],
+  "use_cases": [
+   "PMO tracking",
+   "Resource planning",
+   "Operational reporting"
+  ],
+  "pricing_details": "Smartsheet plans change over time and were not verified for this listing. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Smartsheet?",
+    "a": "Spreadsheet-style work management platform for planning and reporting. Check the official site for the current feature set."
+   },
+   {
+    "q": "Is Smartsheet free?",
+    "a": "Pricing was not verified for this listing. Check the official website for current plans."
+   },
+   {
+    "q": "Who is Smartsheet for?",
+    "a": "Teams that think in spreadsheets but need project features. Compare it with the alternatives listed before choosing."
+   }
+  ],
+  "seo_title": "Smartsheet: What It Is and How to Use It",
+  "seo_description": "Learn what Smartsheet is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "joplin",
+  "name": "Joplin",
+  "category": "productivity",
+  "website_url": "https://joplinapp.org",
+  "pricing": "Open source",
+  "tagline": "Open-source note-taking app with end-to-end encrypted sync.",
+  "best_for": "Privacy-minded users who want open notes in Markdown",
+  "platforms": [
+   "Windows",
+   "macOS",
+   "Linux",
+   "iOS",
+   "Android"
+  ],
+  "description": "Joplin is an open-source note app that stores notes in Markdown and organizes them in notebooks with tags. It supports attachments and a web clipper.\n\nIt can sync via services you choose, with optional end-to-end encryption. It suits users who value control and portability. The interface is functional rather than flashy, and AI features are not a core focus. Check the official site for current sync options.",
+  "use_steps": [
+   "Install on your device.",
+   "Create notebooks and notes in Markdown.",
+   "Choose a sync target and enable encryption.",
+   "Use the web clipper to save pages."
+  ],
+  "pros": [
+   "Open source",
+   "Markdown notes",
+   "Encrypted sync option",
+   "Cross-platform"
+  ],
+  "cons": [
+   "Plainer interface",
+   "Setup of sync takes effort"
+  ],
+  "alternatives": [
+   "obsidian",
+   "standard-notes",
+   "evernote"
+  ],
+  "tags": [
+   "notes",
+   "markdown",
+   "open-source",
+   "privacy"
+  ],
+  "features": [
+   "Markdown editing",
+   "Notebooks and tags",
+   "Encrypted sync",
+   "Web clipper"
+  ],
+  "use_cases": [
+   "Private notes",
+   "Technical notes",
+   "Cross-device writing"
+  ],
+  "pricing_details": "Joplin plans change over time and were not verified for this listing. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Joplin?",
+    "a": "Open-source note-taking app with end-to-end encrypted sync. Check the official site for the current feature set."
+   },
+   {
+    "q": "Is Joplin free?",
+    "a": "Pricing was not verified for this listing. Check the official website for current plans."
+   },
+   {
+    "q": "Who is Joplin for?",
+    "a": "Privacy-minded users who want open notes in Markdown. Compare it with the alternatives listed before choosing."
+   }
+  ],
+  "seo_title": "Joplin: What It Is and How to Use It",
+  "seo_description": "Learn what Joplin is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "standard-notes",
+  "name": "Standard Notes",
+  "category": "productivity",
+  "website_url": "https://standardnotes.com",
+  "pricing": "Unknown",
+  "tagline": "Privacy-focused notes app with end-to-end encryption.",
+  "best_for": "People who prioritize privacy and longevity in notes",
+  "platforms": [
+   "Web",
+   "Windows",
+   "macOS",
+   "Linux",
+   "iOS",
+   "Android"
+  ],
+  "description": "Standard Notes is a note-taking app built around end-to-end encryption and simplicity. Notes sync across devices with an emphasis on keeping content private.\n\nIt suits users who want a minimal, secure place for notes and are comfortable with fewer features than large workspace tools. Extra editors and features may depend on a paid plan. The project's ownership and plans have shifted over time, so check the official site for current details.",
+  "use_steps": [
+   "Create an account.",
+   "Write a note in the default editor.",
+   "Organize with tags.",
+   "Sync across devices."
+  ],
+  "pros": [
+   "End-to-end encryption",
+   "Minimal and focused",
+   "Cross-platform",
+   "Long-term access emphasis"
+  ],
+  "cons": [
+   "Fewer features than big tools",
+   "Some extras may be paid"
+  ],
+  "alternatives": [
+   "joplin",
+   "simplenote",
+   "obsidian"
+  ],
+  "tags": [
+   "notes",
+   "privacy",
+   "encryption",
+   "minimal"
+  ],
+  "features": [
+   "End-to-end encryption",
+   "Tags",
+   "Cross-device sync",
+   "Simple editor"
+  ],
+  "use_cases": [
+   "Private journaling",
+   "Sensitive notes",
+   "Minimal notes"
+  ],
+  "pricing_details": "Standard Notes plans change over time and were not verified for this listing. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Standard Notes?",
+    "a": "Privacy-focused notes app with end-to-end encryption. Check the official site for the current feature set."
+   },
+   {
+    "q": "Is Standard Notes free?",
+    "a": "Pricing was not verified for this listing. Check the official website for current plans."
+   },
+   {
+    "q": "Who is Standard Notes for?",
+    "a": "People who prioritize privacy and longevity in notes. Compare it with the alternatives listed before choosing."
+   }
+  ],
+  "seo_title": "Standard Notes: What It Is and How to Use It",
+  "seo_description": "Learn what Standard Notes is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "anytype",
+  "name": "Anytype",
+  "category": "productivity",
+  "website_url": "https://anytype.io",
+  "pricing": "Unknown",
+  "tagline": "Local-first, encrypted workspace for notes and structured data.",
+  "best_for": "Users who want an offline-first Notion-style workspace",
+  "platforms": [
+   "Windows",
+   "macOS",
+   "Linux",
+   "iOS",
+   "Android"
+  ],
+  "description": "Anytype is a local-first workspace where you create objects such as notes, tasks and pages and link them with types and relations. Data is stored on your devices and syncs with encryption.\n\nIt appeals to people who like Notion-style flexibility but want more control over their data. It is a newer tool that is still evolving, so expect changes. Check the official site for current sync options and plans.",
+  "use_steps": [
+   "Install and create a vault.",
+   "Create objects and choose types.",
+   "Link objects with relations.",
+   "Sync across devices."
+  ],
+  "pros": [
+   "Local-first",
+   "Encrypted sync",
+   "Flexible objects",
+   "Cross-platform"
+  ],
+  "cons": [
+   "Still evolving",
+   "Smaller ecosystem"
+  ],
+  "alternatives": [
+   "notion",
+   "obsidian",
+   "appflowy"
+  ],
+  "tags": [
+   "workspace",
+   "local-first",
+   "privacy",
+   "notes"
+  ],
+  "features": [
+   "Objects and types",
+   "Relations",
+   "Local-first storage",
+   "Encrypted sync"
+  ],
+  "use_cases": [
+   "Personal wiki",
+   "Project notes",
+   "Structured knowledge"
+  ],
+  "pricing_details": "Anytype plans change over time and were not verified for this listing. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Anytype?",
+    "a": "Local-first, encrypted workspace for notes and structured data. Check the official site for the current feature set."
+   },
+   {
+    "q": "Is Anytype free?",
+    "a": "Pricing was not verified for this listing. Check the official website for current plans."
+   },
+   {
+    "q": "Who is Anytype for?",
+    "a": "Users who want an offline-first Notion-style workspace. Compare it with the alternatives listed before choosing."
+   }
+  ],
+  "seo_title": "Anytype: What It Is and How to Use It",
+  "seo_description": "Learn what Anytype is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "appflowy",
+  "name": "AppFlowy",
+  "category": "productivity",
+  "website_url": "https://appflowy.io",
+  "pricing": "Open source",
+  "tagline": "Open-source Notion alternative you can self-host.",
+  "best_for": "Teams wanting an open, self-hostable workspace",
+  "platforms": [
+   "Windows",
+   "macOS",
+   "Linux",
+   "iOS",
+   "Android"
+  ],
+  "description": "AppFlowy is an open-source workspace for notes, wikis and project boards. It is positioned as an alternative to Notion with an emphasis on data ownership and the option to self-host.\n\nIt offers AI features that can be configured, and suits teams that have privacy requirements or technical staff to run it. As a young project, its feature set is smaller than the biggest workspaces. Check the official site for current hosting options.",
+  "use_steps": [
+   "Download the app or self-host.",
+   "Create pages and databases.",
+   "Invite collaborators.",
+   "Configure AI features if needed."
+  ],
+  "pros": [
+   "Open source",
+   "Self-host option",
+   "Notion-like experience",
+   "Data ownership"
+  ],
+  "cons": [
+   "Younger and less mature",
+   "Self-hosting needs skills"
+  ],
+  "alternatives": [
+   "notion",
+   "anytype",
+   "obsidian"
+  ],
+  "tags": [
+   "workspace",
+   "open-source",
+   "wiki",
+   "self-host"
+  ],
+  "features": [
+   "Pages and databases",
+   "Boards",
+   "Self-hosting",
+   "AI options"
+  ],
+  "use_cases": [
+   "Team wiki",
+   "Private knowledge base",
+   "Project tracking"
+  ],
+  "pricing_details": "AppFlowy plans change over time and were not verified for this listing. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is AppFlowy?",
+    "a": "Open-source Notion alternative you can self-host. Check the official site for the current feature set."
+   },
+   {
+    "q": "Is AppFlowy free?",
+    "a": "Pricing was not verified for this listing. Check the official website for current plans."
+   },
+   {
+    "q": "Who is AppFlowy for?",
+    "a": "Teams wanting an open, self-hostable workspace. Compare it with the alternatives listed before choosing."
+   }
+  ],
+  "seo_title": "AppFlowy: What It Is and How to Use It",
+  "seo_description": "Learn what AppFlowy is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "simplenote",
+  "name": "Simplenote",
+  "category": "productivity",
+  "website_url": "https://simplenote.com",
+  "pricing": "Free",
+  "tagline": "Lightweight free note-taking app with sync.",
+  "best_for": "People who want fast, minimal notes",
+  "platforms": [
+   "Web",
+   "Windows",
+   "macOS",
+   "Linux",
+   "iOS",
+   "Android"
+  ],
+  "description": "Simplenote is a minimalist note app from Automattic. It offers fast text notes, tags, search and syncing across devices, with Markdown support.\n\nIt suits people who want quick capture without folders or heavy features. It lacks rich media, databases and AI features. It has been a free service, but confirm current terms on the official site. Check the official site for current plans.",
+  "use_steps": [
+   "Create an account.",
+   "Write notes and add tags.",
+   "Pin important notes.",
+   "Sync across devices."
+  ],
+  "pros": [
+   "Fast and minimal",
+   "Free to use",
+   "Tags and search",
+   "Cross-platform"
+  ],
+  "cons": [
+   "Limited features",
+   "No rich media focus"
+  ],
+  "alternatives": [
+   "standard-notes",
+   "joplin",
+   "evernote"
+  ],
+  "tags": [
+   "notes",
+   "minimal",
+   "free",
+   "sync"
+  ],
+  "features": [
+   "Plain-text notes",
+   "Tags",
+   "Search",
+   "Sync"
+  ],
+  "use_cases": [
+   "Quick capture",
+   "Lists",
+   "Drafts"
+  ],
+  "pricing_details": "Simplenote plans change over time and were not verified for this listing. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Simplenote?",
+    "a": "Lightweight free note-taking app with sync. Check the official site for the current feature set."
+   },
+   {
+    "q": "Is Simplenote free?",
+    "a": "Pricing was not verified for this listing. Check the official website for current plans."
+   },
+   {
+    "q": "Who is Simplenote for?",
+    "a": "People who want fast, minimal notes. Compare it with the alternatives listed before choosing."
+   }
+  ],
+  "seo_title": "Simplenote: What It Is and How to Use It",
+  "seo_description": "Learn what Simplenote is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "bear-notes",
+  "name": "Bear",
+  "category": "productivity",
+  "website_url": "https://bear.app",
+  "pricing": "Unknown",
+  "tagline": "Markdown notes app for Apple devices with a clean writing experience.",
+  "best_for": "Apple users who write often and like tags",
+  "platforms": [
+   "macOS",
+   "iOS"
+  ],
+  "description": "Bear is a notes and writing app for Apple devices. It uses Markdown-style formatting, nested tags and cross-note links, with a focus on a pleasant writing experience.\n\nIt suits writers and students on Apple hardware. It is not available on Windows or Android, and syncing relies on Apple's services. Advanced features such as sync and export may need a subscription. Check the official site for current pricing.",
+  "use_steps": [
+   "Install on your Apple device.",
+   "Create a note and add tags.",
+   "Link notes together.",
+   "Export when you need to share."
+  ],
+  "pros": [
+   "Pleasant writing",
+   "Tag-based organization",
+   "Note linking",
+   "Fast"
+  ],
+  "cons": [
+   "Apple only",
+   "Some features need subscription"
+  ],
+  "alternatives": [
+   "craft",
+   "obsidian",
+   "simplenote"
+  ],
+  "tags": [
+   "notes",
+   "markdown",
+   "apple",
+   "writing"
+  ],
+  "features": [
+   "Markdown editing",
+   "Nested tags",
+   "Note links",
+   "Export options"
+  ],
+  "use_cases": [
+   "Writing drafts",
+   "Study notes",
+   "Personal journal"
+  ],
+  "pricing_details": "Bear plans change over time and were not verified for this listing. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Bear?",
+    "a": "Markdown notes app for Apple devices with a clean writing experience. Check the official site for the current feature set."
+   },
+   {
+    "q": "Is Bear free?",
+    "a": "Pricing was not verified for this listing. Check the official website for current plans."
+   },
+   {
+    "q": "Who is Bear for?",
+    "a": "Apple users who write often and like tags. Compare it with the alternatives listed before choosing."
+   }
+  ],
+  "seo_title": "Bear: What It Is and How to Use It",
+  "seo_description": "Learn what Bear is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "any-do",
+  "name": "Any.do",
+  "category": "productivity",
+  "website_url": "https://www.any.do",
+  "pricing": "Unknown",
+  "tagline": "To-do list, calendar and reminders app.",
+  "best_for": "People wanting a simple daily planner on mobile",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android",
+   "macOS",
+   "Windows"
+  ],
+  "description": "Any.do is a task management app that combines to-do lists, reminders and a calendar. It offers daily planning prompts, shared lists and recurring tasks.\n\nIt suits individuals and families who want a straightforward planner. It is lighter than project management suites. Some features, such as calendar sync and extra lists, may need a paid plan. Check the official site for current plans.",
+  "use_steps": [
+   "Create an account.",
+   "Add tasks and reminders.",
+   "Plan your day with the calendar.",
+   "Share a list with family or colleagues."
+  ],
+  "pros": [
+   "Easy to use",
+   "Reminders and calendar",
+   "Shared lists",
+   "Cross-platform"
+  ],
+  "cons": [
+   "Limited project features",
+   "Some features paid"
+  ],
+  "alternatives": [
+   "todoist",
+   "ticktick",
+   "things"
+  ],
+  "tags": [
+   "to-do",
+   "reminders",
+   "calendar",
+   "planner"
+  ],
+  "features": [
+   "Task lists",
+   "Reminders",
+   "Calendar",
+   "Shared lists"
+  ],
+  "use_cases": [
+   "Daily to-dos",
+   "Family lists",
+   "Simple planning"
+  ],
+  "pricing_details": "Any.do plans change over time and were not verified for this listing. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Any.do?",
+    "a": "To-do list, calendar and reminders app. Check the official site for the current feature set."
+   },
+   {
+    "q": "Is Any.do free?",
+    "a": "Pricing was not verified for this listing. Check the official website for current plans."
+   },
+   {
+    "q": "Who is Any.do for?",
+    "a": "People wanting a simple daily planner on mobile. Compare it with the alternatives listed before choosing."
+   }
+  ],
+  "seo_title": "Any.do: What It Is and How to Use It",
+  "seo_description": "Learn what Any.do is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ }
+]

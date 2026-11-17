@@ -11,7 +11,10 @@ export default async function sitemap() {
     ...['cover-letter-builder', 'ats-resume-checker', 'prompt-builder', 'study-planner'].map((s) => u(`/${s}`, null, 'monthly', 0.7)),
     ...['about', 'contact', 'privacy-policy', 'terms', 'disclaimer', 'editorial-policy', 'advertising-disclosure', 'cookie-policy', 'ai-policy', 'faq', 'how-it-works', 'site-map'].map((s) => u(`/${s}`, null, 'yearly', 0.3)),
     ...CATEGORIES.map((c) => u(`/resume-templates/${c.slug}`, null, 'monthly', 0.6)),
-    ...['/free-guides', ...['free','freemium','free-trial','paid','open-source'].map((t) => `/ai-tools/pricing/${t}`), ...['chatgpt','claude','gemini','copilot','grok','deepseek','midjourney'].map((m) => `/prompts/model/${m}`), '/poster-prompts'].map((p) => u(p, null, 'monthly', 0.4))];
+    ...['/free-guides', '/ai-tools/submit', ...['free','freemium','free-trial','paid','open-source'].map((t) => `/ai-tools/pricing/${t}`), ...['chatgpt','claude','gemini','copilot','grok','deepseek','midjourney'].map((m) => `/prompts/model/${m}`), '/poster-prompts'].map((p) => u(p, null, 'monthly', 0.4))];
+  const [skcats, skills] = await Promise.all([getCategories('skill'), allSlugs('pz_skills')]);
+  const courses = await allSlugs('pz_courses');
+  const comps = await allSlugs('pz_components', (q) => q.select('slug,updated_at,created_at,publish_at,type'));
   const [pcats, tcats, bcats, prompts, tools, auds, phcats, photos] = await Promise.all([getCategories('prompt'), getCategories('tool'), getCategories('blog'), allSlugs('pz_prompts'), allSlugs('pz_tools'), promptAudiences(), getCategories('photo'), allSlugs('pz_photo_prompts')]);
   const sb = getSupabaseServer(); let posts = [];
   if (sb) { const { data } = await sb.from('promptzyra_posts').select('slug,kind,updated_at,created_at').eq('published', true).limit(5000); posts = data || []; }
@@ -22,6 +25,13 @@ export default async function sitemap() {
     ...pcats.map((c) => u(`/prompts/category/${c.slug}`, null, 'daily', 0.7)),
     ...tcats.map((c) => u(`/ai-tools/category/${c.slug}`, null, 'daily', 0.7)),
     ...bcats.map((c) => u(`/blog/category/${c.slug}`, null, 'weekly', 0.5)),
+    u('/skills', null, 'daily', 0.8),
+    u('/courses', null, 'daily', 0.8),
+    ...courses.map((p) => u(`/courses/${p.slug}`, p.updated_at || p.created_at, 'monthly', 0.6)),
+    ...['agents','commands','settings','hooks','mcps','mods','plugins'].map((t) => u(`/${t}`, null, 'daily', 0.7)),
+    ...comps.map((p) => u(`/${p.type}/${p.slug}`, p.updated_at || p.created_at, 'monthly', 0.6)),
+    ...skcats.map((c) => u(`/skills/category/${c.slug}`, null, 'weekly', 0.6)),
+    ...skills.map((p) => u(`/skills/${p.slug}`, p.updated_at || p.created_at, 'monthly', 0.7)),
     ...phcats.map((c) => u(`/photo-prompts/category/${c.slug}`, null, 'weekly', 0.6)),
     ...photos.map((p) => u(`/photo-prompts/${p.slug}`, p.updated_at || p.created_at, 'monthly', 0.7)),
     ...prompts.map((p) => u(`/prompts/${p.slug}`, p.updated_at || p.created_at, 'monthly', 0.7)),

@@ -1,0 +1,3637 @@
+[
+ {
+  "slug": "topaz-labs",
+  "name": "Topaz Labs",
+  "category": "image",
+  "website_url": "https://www.topazlabs.com",
+  "pricing": "Unknown",
+  "tagline": "AI software for upscaling, sharpening and denoising photos and video.",
+  "best_for": "Enlarging and cleaning up photos and footage",
+  "platforms": [
+   "Windows",
+   "macOS"
+  ],
+  "description": "Topaz Labs makes desktop software that uses machine learning to improve image and video quality. Its tools cover jobs such as enlarging photos, reducing noise and sharpening soft shots.\n\nPhotographers use it as a finishing step after capture, especially for older or heavily cropped images. It runs as separate apps and sometimes as a plug-in to other editors, so check the official site for what is included.",
+  "use_steps": [
+   "Open the tool and import the low-resolution or soft image.",
+   "Choose the enhancement or upscaling option that matches the image type.",
+   "Preview the result at full size and compare it with the original.",
+   "Export a copy and keep the original file untouched."
+  ],
+  "pros": [
+   "Focused on a specific image task",
+   "Saves time on repetitive edits",
+   "Easy to try on a sample photo",
+   "Available on Windows, macOS"
+  ],
+  "cons": [
+   "Added detail is generated, so fine textures may not match the real scene",
+   "Results vary with the quality of the source image"
+  ],
+  "alternatives": [
+   "magnific",
+   "upscayl",
+   "dxo-photolab"
+  ],
+  "tags": [
+   "image",
+   "ai",
+   "photo editing",
+   "upscaler",
+   "tools"
+  ],
+  "features": [
+   "Image upscaling",
+   "Detail and sharpness enhancement",
+   "Noise reduction",
+   "Before and after preview"
+  ],
+  "use_cases": [
+   "Enlarging small images for print",
+   "Improving old or low-quality photos",
+   "Preparing sharper web or social graphics"
+  ],
+  "pricing_details": "Pricing for Topaz Labs was not verified for this entry. Plans, free options and limits change over time, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Topaz Labs?",
+    "a": "Topaz Labs is an image tool: aI software for upscaling, sharpening and denoising photos and video. Check the official site for its current feature set."
+   },
+   {
+    "q": "Is Topaz Labs free?",
+    "a": "Free options, trials and paid plans change over time and were not verified here. Check the official site for current pricing."
+   },
+   {
+    "q": "Who is Topaz Labs best for?",
+    "a": "It is best for enlarging and cleaning up photos and footage. Compare it with the alternatives listed here and test it on a sample image before relying on it."
+   }
+  ],
+  "seo_title": "Topaz Labs: What It Is and How to Use It",
+  "seo_description": "Learn what Topaz Labs is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "magnific",
+  "name": "Magnific",
+  "category": "image",
+  "website_url": "https://magnific.ai",
+  "pricing": "Unknown",
+  "tagline": "AI upscaler and enhancer that adds generated detail to images.",
+  "best_for": "Creative upscaling of AI art and photos",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Magnific is an AI image upscaler and enhancer. Rather than only enlarging pixels, it can add new generated detail guided by settings and an optional prompt.\n\nThis makes it popular for AI-generated art, illustrations and concept images where extra texture is welcome. Because the detail is invented, it is less suited to work where strict accuracy matters. Check the official site for current plans.",
+  "use_steps": [
+   "Open the tool and import the low-resolution or soft image.",
+   "Choose the enhancement or upscaling option that matches the image type.",
+   "Preview the result at full size and compare it with the original.",
+   "Export a copy and keep the original file untouched."
+  ],
+  "pros": [
+   "Focused on a specific image task",
+   "Saves time on repetitive edits",
+   "Easy to try on a sample photo"
+  ],
+  "cons": [
+   "Added detail is generated, so fine textures may not match the real scene",
+   "Results vary with the quality of the source image"
+  ],
+  "alternatives": [
+   "topaz-labs",
+   "upscale-media",
+   "upscayl"
+  ],
+  "tags": [
+   "image",
+   "ai",
+   "photo editing",
+   "upscaler",
+   "tools"
+  ],
+  "features": [
+   "Image upscaling",
+   "Detail and sharpness enhancement",
+   "Noise reduction",
+   "Before and after preview"
+  ],
+  "use_cases": [
+   "Enlarging small images for print",
+   "Improving old or low-quality photos",
+   "Preparing sharper web or social graphics"
+  ],
+  "pricing_details": "Pricing for Magnific was not verified for this entry. Plans, free options and limits change over time, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Magnific?",
+    "a": "Magnific is an image tool: aI upscaler and enhancer that adds generated detail to images. Check the official site for its current feature set."
+   },
+   {
+    "q": "Is Magnific free?",
+    "a": "Free options, trials and paid plans change over time and were not verified here. Check the official site for current pricing."
+   },
+   {
+    "q": "Who is Magnific best for?",
+    "a": "It is best for creative upscaling of AI art and photos. Compare it with the alternatives listed here and test it on a sample image before relying on it."
+   }
+  ],
+  "seo_title": "Magnific: What It Is and How to Use It",
+  "seo_description": "Learn what Magnific is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "fotor",
+  "name": "Fotor",
+  "category": "image",
+  "website_url": "https://www.fotor.com",
+  "pricing": "Freemium",
+  "tagline": "Online photo editor and design tool with AI enhancement and background removal.",
+  "best_for": "Beginners editing photos in the browser",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "Fotor is a browser-based photo editor with companion mobile apps. It combines basic editing, collage and design templates with AI tools such as background removal and photo enhancement.\n\nIt suits people who want quick results without learning professional software. Many tools run in the browser, so there is nothing to install. Some features may need a paid plan, so check the official site.",
+  "use_steps": [
+   "Open the editor and import a photo.",
+   "Apply basic edits first, such as crop, light and colour.",
+   "Try the AI tools for the specific job you need.",
+   "Export a copy and keep the original."
+  ],
+  "pros": [
+   "Focused on a specific image task",
+   "Saves time on repetitive edits",
+   "Easy to try on a sample photo",
+   "Available on Web, iOS, Android"
+  ],
+  "cons": [
+   "Some features may sit behind a paid plan",
+   "AI edits need a human check before publishing"
+  ],
+  "alternatives": [
+   "picsart",
+   "befunky",
+   "pixelcut"
+  ],
+  "tags": [
+   "image",
+   "ai",
+   "photo editing",
+   "photo editor",
+   "tools"
+  ],
+  "features": [
+   "Photo editing tools",
+   "AI-assisted enhancements",
+   "Filters and effects",
+   "Export and share options"
+  ],
+  "use_cases": [
+   "Quick edits for social posts",
+   "Improving everyday photos",
+   "Creating simple graphics"
+  ],
+  "pricing_details": "Pricing for Fotor was not verified for this entry. Plans, free options and limits change over time, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Fotor?",
+    "a": "Fotor is an image tool: online photo editor and design tool with AI enhancement and background removal. Check the official site for its current feature set."
+   },
+   {
+    "q": "Is Fotor free?",
+    "a": "Free options, trials and paid plans change over time and were not verified here. Check the official site for current pricing."
+   },
+   {
+    "q": "Who is Fotor best for?",
+    "a": "It is best for beginners editing photos in the browser. Compare it with the alternatives listed here and test it on a sample image before relying on it."
+   }
+  ],
+  "seo_title": "Fotor: What It Is and How to Use It",
+  "seo_description": "Learn what Fotor is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "luminar-neo",
+  "name": "Luminar Neo",
+  "category": "image",
+  "website_url": "https://skylum.com/luminar",
+  "pricing": "Unknown",
+  "tagline": "AI-assisted photo editor from Skylum for landscapes, portraits and general photography.",
+  "best_for": "Photographers wanting AI-assisted editing",
+  "platforms": [
+   "Windows",
+   "macOS"
+  ],
+  "description": "Luminar Neo is a desktop photo editor from Skylum that leans on AI-assisted tools. These are aimed at common tasks such as improving skies, adjusting light and retouching portraits.\n\nIt can work on its own or as a plug-in with other photo software. It is a fit for hobbyists who prefer guided sliders over manual masking. Licensing options have changed over time, so check the official site.",
+  "use_steps": [
+   "Import your photos or RAW files.",
+   "Apply the automatic or AI-assisted adjustments.",
+   "Fine-tune exposure, colour and detail by hand.",
+   "Export the edits in the format you need."
+  ],
+  "pros": [
+   "Focused on a specific image task",
+   "Saves time on repetitive edits",
+   "Easy to try on a sample photo",
+   "Available on Windows, macOS"
+  ],
+  "cons": [
+   "Desktop software has a learning curve",
+   "Computer performance affects speed on large files"
+  ],
+  "alternatives": [
+   "lightroom",
+   "on1-photo-raw",
+   "dxo-photolab"
+  ],
+  "tags": [
+   "image",
+   "ai",
+   "photo editing",
+   "raw editing",
+   "tools"
+  ],
+  "features": [
+   "Photo editing and development",
+   "AI-assisted adjustments",
+   "Non-destructive workflow",
+   "Export presets"
+  ],
+  "use_cases": [
+   "Editing photo shoots",
+   "Batch-improving travel photos",
+   "Developing RAW images"
+  ],
+  "pricing_details": "Pricing for Luminar Neo was not verified for this entry. Plans, free options and limits change over time, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Luminar Neo?",
+    "a": "Luminar Neo is an image tool: aI-assisted photo editor from Skylum for landscapes, portraits and general photography. Check the official site for its current feature set."
+   },
+   {
+    "q": "Is Luminar Neo free?",
+    "a": "Free options, trials and paid plans change over time and were not verified here. Check the official site for current pricing."
+   },
+   {
+    "q": "Who is Luminar Neo best for?",
+    "a": "It is best for photographers wanting AI-assisted editing. Compare it with the alternatives listed here and test it on a sample image before relying on it."
+   }
+  ],
+  "seo_title": "Luminar Neo: What It Is and How to Use It",
+  "seo_description": "Learn what Luminar Neo is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "evoto",
+  "name": "Evoto",
+  "category": "image",
+  "website_url": "https://www.evoto.ai",
+  "pricing": "Unknown",
+  "tagline": "AI portrait retouching software aimed at photographers.",
+  "best_for": "Batch retouching portrait sessions",
+  "platforms": [
+   "Web",
+   "Windows",
+   "macOS"
+  ],
+  "description": "Evoto is an AI-based portrait retouching tool built for photographers who edit many portraits per session. It aims to automate skin, face and body adjustments.\n\nThe batch angle is the main appeal: similar edits can be applied across a set, leaving time for final tweaks. As with any retouching software, subtle settings usually look better than extreme ones. Check the official site for platforms and plans.",
+  "use_steps": [
+   "Open or import your portrait photos.",
+   "Pick the retouching or enhancement options you want.",
+   "Adjust the strength so the result still looks natural.",
+   "Export the finished images and compare them with the originals."
+  ],
+  "pros": [
+   "Focused on a specific image task",
+   "Saves time on repetitive edits",
+   "Easy to try on a sample photo",
+   "Available on Web, Windows, macOS"
+  ],
+  "cons": [
+   "Heavy retouching can look artificial",
+   "Learning which settings suit each photo takes practice"
+  ],
+  "alternatives": [
+   "retouch4me",
+   "facetune",
+   "imagen-ai"
+  ],
+  "tags": [
+   "image",
+   "ai",
+   "photo editing",
+   "retouching",
+   "tools"
+  ],
+  "features": [
+   "Skin and portrait retouching",
+   "Adjustable effect strength",
+   "Batch-friendly workflow",
+   "Export for web or print"
+  ],
+  "use_cases": [
+   "Retouching portrait sessions",
+   "Touching up selfies and profile photos",
+   "Speeding up repetitive edits"
+  ],
+  "pricing_details": "Pricing for Evoto was not verified for this entry. Plans, free options and limits change over time, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Evoto?",
+    "a": "Evoto is an image tool: aI portrait retouching software aimed at photographers. Check the official site for its current feature set."
+   },
+   {
+    "q": "Is Evoto free?",
+    "a": "Free options, trials and paid plans change over time and were not verified here. Check the official site for current pricing."
+   },
+   {
+    "q": "Who is Evoto best for?",
+    "a": "It is best for batch retouching portrait sessions. Compare it with the alternatives listed here and test it on a sample image before relying on it."
+   }
+  ],
+  "seo_title": "Evoto: What It Is and How to Use It",
+  "seo_description": "Learn what Evoto is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "retouch4me",
+  "name": "Retouch4me",
+  "category": "image",
+  "website_url": "https://retouch4.me",
+  "pricing": "Unknown",
+  "tagline": "Neural-network plug-ins for automating portrait retouching.",
+  "best_for": "Professional portrait retouchers",
+  "platforms": [
+   "Windows",
+   "macOS"
+  ],
+  "description": "Retouch4me offers a set of AI-powered retouching tools, each focused on a specific job such as skin, eyes or colour. They are designed to take over repetitive steps in a portrait workflow.\n\nProfessional retouchers use them to save time on routine work while keeping control over the final look. Many tools work alongside common photo editors. Check the official site for the current list of tools and how they are licensed.",
+  "use_steps": [
+   "Open or import your portrait photos.",
+   "Pick the retouching or enhancement options you want.",
+   "Adjust the strength so the result still looks natural.",
+   "Export the finished images and compare them with the originals."
+  ],
+  "pros": [
+   "Focused on a specific image task",
+   "Saves time on repetitive edits",
+   "Easy to try on a sample photo",
+   "Available on Windows, macOS"
+  ],
+  "cons": [
+   "Heavy retouching can look artificial",
+   "Learning which settings suit each photo takes practice"
+  ],
+  "alternatives": [
+   "evoto",
+   "facetune",
+   "photoshop"
+  ],
+  "tags": [
+   "image",
+   "ai",
+   "photo editing",
+   "retouching",
+   "tools"
+  ],
+  "features": [
+   "Skin and portrait retouching",
+   "Adjustable effect strength",
+   "Batch-friendly workflow",
+   "Export for web or print"
+  ],
+  "use_cases": [
+   "Retouching portrait sessions",
+   "Touching up selfies and profile photos",
+   "Speeding up repetitive edits"
+  ],
+  "pricing_details": "Pricing for Retouch4me was not verified for this entry. Plans, free options and limits change over time, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Retouch4me?",
+    "a": "Retouch4me is an image tool: neural-network plug-ins for automating portrait retouching. Check the official site for its current feature set."
+   },
+   {
+    "q": "Is Retouch4me free?",
+    "a": "Free options, trials and paid plans change over time and were not verified here. Check the official site for current pricing."
+   },
+   {
+    "q": "Who is Retouch4me best for?",
+    "a": "It is best for professional portrait retouchers. Compare it with the alternatives listed here and test it on a sample image before relying on it."
+   }
+  ],
+  "seo_title": "Retouch4me: What It Is and How to Use It",
+  "seo_description": "Learn what Retouch4me is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "photoshop",
+  "name": "Adobe Photoshop",
+  "category": "image",
+  "website_url": "https://www.adobe.com/products/photoshop.html",
+  "pricing": "Unknown",
+  "tagline": "Industry-standard image editor with generative AI tools from Adobe.",
+  "best_for": "Detailed image editing and compositing",
+  "platforms": [
+   "Windows",
+   "macOS",
+   "Web",
+   "iOS"
+  ],
+  "description": "Adobe Photoshop is a long-established image editor used for retouching, compositing and design. It now includes generative AI features powered by Adobe Firefly, such as generative fill and expand.\n\nThese let you add, remove or extend parts of an image from a text prompt, alongside the traditional layer, selection and mask tools. It has a steep learning curve but wide capabilities. Check the official site for current plans.",
+  "use_steps": [
+   "Open the editor and import a photo.",
+   "Apply basic edits first, such as crop, light and colour.",
+   "Try the AI tools for the specific job you need.",
+   "Export a copy and keep the original."
+  ],
+  "pros": [
+   "Focused on a specific image task",
+   "Saves time on repetitive edits",
+   "Easy to try on a sample photo",
+   "Available on Windows, macOS, Web, iOS"
+  ],
+  "cons": [
+   "Some features may sit behind a paid plan",
+   "AI edits need a human check before publishing"
+  ],
+  "alternatives": [
+   "adobe-firefly",
+   "lightroom",
+   "photopea"
+  ],
+  "tags": [
+   "image",
+   "ai",
+   "photo editing",
+   "photo editor",
+   "tools"
+  ],
+  "features": [
+   "Photo editing tools",
+   "AI-assisted enhancements",
+   "Filters and effects",
+   "Export and share options"
+  ],
+  "use_cases": [
+   "Quick edits for social posts",
+   "Improving everyday photos",
+   "Creating simple graphics"
+  ],
+  "pricing_details": "Pricing for Adobe Photoshop was not verified for this entry. Plans, free options and limits change over time, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Adobe Photoshop?",
+    "a": "Adobe Photoshop is an image tool: industry-standard image editor with generative AI tools from Adobe. Check the official site for its current feature set."
+   },
+   {
+    "q": "Is Adobe Photoshop free?",
+    "a": "Free options, trials and paid plans change over time and were not verified here. Check the official site for current pricing."
+   },
+   {
+    "q": "Who is Adobe Photoshop best for?",
+    "a": "It is best for detailed image editing and compositing. Compare it with the alternatives listed here and test it on a sample image before relying on it."
+   }
+  ],
+  "seo_title": "Adobe Photoshop: What It Is and How to Use It",
+  "seo_description": "Learn what Adobe Photoshop is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "lightroom",
+  "name": "Adobe Lightroom",
+  "category": "image",
+  "website_url": "https://www.adobe.com/products/photoshop-lightroom.html",
+  "pricing": "Unknown",
+  "tagline": "Photo organising and editing app with AI-assisted masking and denoise.",
+  "best_for": "Editing and managing large photo libraries",
+  "platforms": [
+   "Windows",
+   "macOS",
+   "iOS",
+   "Android",
+   "Web"
+  ],
+  "description": "Adobe Lightroom is a photo editing and library app for developing RAW files and keeping large collections organised. Edits are non-destructive, so originals stay intact.\n\nIt includes AI-assisted features such as subject and sky masks and noise reduction. Cloud-based and classic versions have existed, so details differ. Check the official site for the current lineup and plans.",
+  "use_steps": [
+   "Import your photos or RAW files.",
+   "Apply the automatic or AI-assisted adjustments.",
+   "Fine-tune exposure, colour and detail by hand.",
+   "Export the edits in the format you need."
+  ],
+  "pros": [
+   "Focused on a specific image task",
+   "Saves time on repetitive edits",
+   "Easy to try on a sample photo",
+   "Available on Windows, macOS, iOS, Android, Web"
+  ],
+  "cons": [
+   "Desktop software has a learning curve",
+   "Computer performance affects speed on large files"
+  ],
+  "alternatives": [
+   "photoshop",
+   "luminar-neo",
+   "capture-one"
+  ],
+  "tags": [
+   "image",
+   "ai",
+   "photo editing",
+   "raw editing",
+   "tools"
+  ],
+  "features": [
+   "Photo editing and development",
+   "AI-assisted adjustments",
+   "Non-destructive workflow",
+   "Export presets"
+  ],
+  "use_cases": [
+   "Editing photo shoots",
+   "Batch-improving travel photos",
+   "Developing RAW images"
+  ],
+  "pricing_details": "Pricing for Adobe Lightroom was not verified for this entry. Plans, free options and limits change over time, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Adobe Lightroom?",
+    "a": "Adobe Lightroom is an image tool: photo organising and editing app with AI-assisted masking and denoise. Check the official site for its current feature set."
+   },
+   {
+    "q": "Is Adobe Lightroom free?",
+    "a": "Free options, trials and paid plans change over time and were not verified here. Check the official site for current pricing."
+   },
+   {
+    "q": "Who is Adobe Lightroom best for?",
+    "a": "It is best for editing and managing large photo libraries. Compare it with the alternatives listed here and test it on a sample image before relying on it."
+   }
+  ],
+  "seo_title": "Adobe Lightroom: What It Is and How to Use It",
+  "seo_description": "Learn what Adobe Lightroom is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "cleanup-pictures",
+  "name": "Cleanup.pictures",
+  "category": "image",
+  "website_url": "https://cleanup.pictures",
+  "pricing": "Freemium",
+  "tagline": "Browser tool for removing objects, people and text from photos.",
+  "best_for": "Quick object removal",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Cleanup.pictures is a simple web tool for erasing unwanted things from an image. You brush over the object and the tool fills the gap using the surrounding pixels.\n\nIt is built for fast, one-off fixes such as stray people, power lines or text. Higher-resolution output may depend on the plan. Check the official site for current limits.",
+  "use_steps": [
+   "Upload the image you want to clean up.",
+   "Brush over the object, text or blemish to remove.",
+   "Run the removal and inspect the filled area.",
+   "Repeat on any leftover marks, then download the result."
+  ],
+  "pros": [
+   "Focused on a specific image task",
+   "Saves time on repetitive edits",
+   "Easy to try on a sample photo"
+  ],
+  "cons": [
+   "Complex backgrounds can leave visible patches",
+   "Only remove items you have the right to edit"
+  ],
+  "alternatives": [
+   "inpaint",
+   "snapedit",
+   "clipdrop"
+  ],
+  "tags": [
+   "image",
+   "ai",
+   "photo editing",
+   "object remover",
+   "tools"
+  ],
+  "features": [
+   "Object removal by brushing",
+   "Automatic fill of the removed area",
+   "Text and watermark cleanup",
+   "Simple browser workflow"
+  ],
+  "use_cases": [
+   "Removing distractions from travel photos",
+   "Cleaning up product shots",
+   "Erasing marks from scanned images"
+  ],
+  "pricing_details": "Pricing for Cleanup.pictures was not verified for this entry. Plans, free options and limits change over time, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Cleanup.pictures?",
+    "a": "Cleanup.pictures is an image tool: browser tool for removing objects, people and text from photos. Check the official site for its current feature set."
+   },
+   {
+    "q": "Is Cleanup.pictures free?",
+    "a": "Free options, trials and paid plans change over time and were not verified here. Check the official site for current pricing."
+   },
+   {
+    "q": "Who is Cleanup.pictures best for?",
+    "a": "It is best for quick object removal. Compare it with the alternatives listed here and test it on a sample image before relying on it."
+   }
+  ],
+  "seo_title": "Cleanup.pictures: What It Is and How to Use It",
+  "seo_description": "Learn what Cleanup.pictures is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "pixelcut",
+  "name": "Pixelcut",
+  "category": "image",
+  "website_url": "https://www.pixelcut.ai",
+  "pricing": "Freemium",
+  "tagline": "Mobile and web photo editor for product images and ads.",
+  "best_for": "Small sellers making product photos",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "Pixelcut is an app and website for making product photos and marketing images. Tools include background removal, backdrops and an AI eraser.\n\nIt targets small online sellers who want clean visuals without a studio. Templates and batch features may vary by plan. Check the official site for what is included.",
+  "use_steps": [
+   "Upload a clear photo of your product.",
+   "Choose or describe the background or scene you want.",
+   "Generate a few versions and compare them.",
+   "Download the best image and check it against your marketplace rules."
+  ],
+  "pros": [
+   "Focused on a specific image task",
+   "Saves time on repetitive edits",
+   "Easy to try on a sample photo",
+   "Available on Web, iOS, Android"
+  ],
+  "cons": [
+   "Generated scenes may need checking for odd shadows or details",
+   "Marketplace image rules still apply to the final file"
+  ],
+  "alternatives": [
+   "photoroom",
+   "mokker",
+   "claid-ai"
+  ],
+  "tags": [
+   "image",
+   "ai",
+   "photo editing",
+   "product photos",
+   "tools"
+  ],
+  "features": [
+   "Product background generation",
+   "Automatic cutouts",
+   "Scene and style choices",
+   "Export for online stores"
+  ],
+  "use_cases": [
+   "Listing images for online shops",
+   "Social media product posts",
+   "Quick ad creative mockups"
+  ],
+  "pricing_details": "Pricing for Pixelcut was not verified for this entry. Plans, free options and limits change over time, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Pixelcut?",
+    "a": "Pixelcut is an image tool: mobile and web photo editor for product images and ads. Check the official site for its current feature set."
+   },
+   {
+    "q": "Is Pixelcut free?",
+    "a": "Free options, trials and paid plans change over time and were not verified here. Check the official site for current pricing."
+   },
+   {
+    "q": "Who is Pixelcut best for?",
+    "a": "It is best for small sellers making product photos. Compare it with the alternatives listed here and test it on a sample image before relying on it."
+   }
+  ],
+  "seo_title": "Pixelcut: What It Is and How to Use It",
+  "seo_description": "Learn what Pixelcut is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "picsart",
+  "name": "Picsart",
+  "category": "image",
+  "website_url": "https://picsart.com",
+  "pricing": "Freemium",
+  "tagline": "Creative editing platform with AI tools for photos, video and design.",
+  "best_for": "Social creators editing and designing",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "Picsart is a creative platform that combines photo and video editing with design templates and stickers. AI tools sit alongside, covering background removal, enhancement and image generation.\n\nIt is aimed at social media creators and casual designers who work mostly on a phone. A community library of templates and effects is part of the product. Check the official site for plan details.",
+  "use_steps": [
+   "Open the editor and import a photo.",
+   "Apply basic edits first, such as crop, light and colour.",
+   "Try the AI tools for the specific job you need.",
+   "Export a copy and keep the original."
+  ],
+  "pros": [
+   "Focused on a specific image task",
+   "Saves time on repetitive edits",
+   "Easy to try on a sample photo",
+   "Available on Web, iOS, Android"
+  ],
+  "cons": [
+   "Some features may sit behind a paid plan",
+   "AI edits need a human check before publishing"
+  ],
+  "alternatives": [
+   "canva",
+   "fotor",
+   "befunky"
+  ],
+  "tags": [
+   "image",
+   "ai",
+   "photo editing",
+   "photo editor",
+   "tools"
+  ],
+  "features": [
+   "Photo editing tools",
+   "AI-assisted enhancements",
+   "Filters and effects",
+   "Export and share options"
+  ],
+  "use_cases": [
+   "Quick edits for social posts",
+   "Improving everyday photos",
+   "Creating simple graphics"
+  ],
+  "pricing_details": "Pricing for Picsart was not verified for this entry. Plans, free options and limits change over time, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Picsart?",
+    "a": "Picsart is an image tool: creative editing platform with AI tools for photos, video and design. Check the official site for its current feature set."
+   },
+   {
+    "q": "Is Picsart free?",
+    "a": "Free options, trials and paid plans change over time and were not verified here. Check the official site for current pricing."
+   },
+   {
+    "q": "Who is Picsart best for?",
+    "a": "It is best for social creators editing and designing. Compare it with the alternatives listed here and test it on a sample image before relying on it."
+   }
+  ],
+  "seo_title": "Picsart: What It Is and How to Use It",
+  "seo_description": "Learn what Picsart is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "lensa",
+  "name": "Lensa",
+  "category": "image",
+  "website_url": "https://lensa.ai",
+  "pricing": "Unknown",
+  "tagline": "Mobile photo editing app from Prisma Labs with AI portrait features.",
+  "best_for": "Selfie editing on a phone",
+  "platforms": [
+   "iOS",
+   "Android"
+  ],
+  "description": "Lensa is a mobile app by Prisma Labs focused on selfies and portraits. It offers retouching and enhancement tools and has also offered AI-generated avatar styles.\n\nThe editing side suits quick touch-ups from a phone. Because avatar features involve uploading face photos, read the privacy terms first. Check the official site for current features.",
+  "use_steps": [
+   "Open or import your portrait photos.",
+   "Pick the retouching or enhancement options you want.",
+   "Adjust the strength so the result still looks natural.",
+   "Export the finished images and compare them with the originals."
+  ],
+  "pros": [
+   "Focused on a specific image task",
+   "Saves time on repetitive edits",
+   "Easy to try on a sample photo",
+   "Available on iOS, Android"
+  ],
+  "cons": [
+   "Heavy retouching can look artificial",
+   "Learning which settings suit each photo takes practice"
+  ],
+  "alternatives": [
+   "facetune",
+   "photoleap",
+   "youcam-perfect"
+  ],
+  "tags": [
+   "image",
+   "ai",
+   "photo editing",
+   "retouching",
+   "tools"
+  ],
+  "features": [
+   "Skin and portrait retouching",
+   "Adjustable effect strength",
+   "Batch-friendly workflow",
+   "Export for web or print"
+  ],
+  "use_cases": [
+   "Retouching portrait sessions",
+   "Touching up selfies and profile photos",
+   "Speeding up repetitive edits"
+  ],
+  "pricing_details": "Pricing for Lensa was not verified for this entry. Plans, free options and limits change over time, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Lensa?",
+    "a": "Lensa is an image tool: mobile photo editing app from Prisma Labs with AI portrait features. Check the official site for its current feature set."
+   },
+   {
+    "q": "Is Lensa free?",
+    "a": "Free options, trials and paid plans change over time and were not verified here. Check the official site for current pricing."
+   },
+   {
+    "q": "Who is Lensa best for?",
+    "a": "It is best for selfie editing on a phone. Compare it with the alternatives listed here and test it on a sample image before relying on it."
+   }
+  ],
+  "seo_title": "Lensa: What It Is and How to Use It",
+  "seo_description": "Learn what Lensa is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "befunky",
+  "name": "BeFunky",
+  "category": "image",
+  "website_url": "https://www.befunky.com",
+  "pricing": "Freemium",
+  "tagline": "Browser-based photo editor, collage maker and graphic designer.",
+  "best_for": "Easy browser editing and collages",
+  "platforms": [
+   "Web"
+  ],
+  "description": "BeFunky is an online photo editor that bundles editing, collage making and simple graphic design in one site. It also offers AI-assisted tools for tasks such as background removal and enhancement.\n\nIts layout is friendly to beginners, with templates and one-click effects. Some tools are limited to paid plans. Check the official site for what is free.",
+  "use_steps": [
+   "Open the editor and import a photo.",
+   "Apply basic edits first, such as crop, light and colour.",
+   "Try the AI tools for the specific job you need.",
+   "Export a copy and keep the original."
+  ],
+  "pros": [
+   "Focused on a specific image task",
+   "Saves time on repetitive edits",
+   "Easy to try on a sample photo"
+  ],
+  "cons": [
+   "Some features may sit behind a paid plan",
+   "AI edits need a human check before publishing"
+  ],
+  "alternatives": [
+   "fotor",
+   "picsart",
+   "pixlr"
+  ],
+  "tags": [
+   "image",
+   "ai",
+   "photo editing",
+   "photo editor",
+   "tools"
+  ],
+  "features": [
+   "Photo editing tools",
+   "AI-assisted enhancements",
+   "Filters and effects",
+   "Export and share options"
+  ],
+  "use_cases": [
+   "Quick edits for social posts",
+   "Improving everyday photos",
+   "Creating simple graphics"
+  ],
+  "pricing_details": "Pricing for BeFunky was not verified for this entry. Plans, free options and limits change over time, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is BeFunky?",
+    "a": "BeFunky is an image tool: browser-based photo editor, collage maker and graphic designer. Check the official site for its current feature set."
+   },
+   {
+    "q": "Is BeFunky free?",
+    "a": "Free options, trials and paid plans change over time and were not verified here. Check the official site for current pricing."
+   },
+   {
+    "q": "Who is BeFunky best for?",
+    "a": "It is best for easy browser editing and collages. Compare it with the alternatives listed here and test it on a sample image before relying on it."
+   }
+  ],
+  "seo_title": "BeFunky: What It Is and How to Use It",
+  "seo_description": "Learn what BeFunky is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "hotpot-ai",
+  "name": "Hotpot AI",
+  "category": "image",
+  "website_url": "https://hotpot.ai",
+  "pricing": "Unknown",
+  "tagline": "Web toolkit for AI image generation, restoration and editing.",
+  "best_for": "Occasional image tasks in one place",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Hotpot AI is a web service that collects several image tools in one site. It has offered features such as picture restoration, background removal and AI art generation.\n\nIt suits people who only occasionally need these jobs and prefer not to install software. Offerings have grown over time, so check the official site for what is available.",
+  "use_steps": [
+   "Open the editor and import a photo.",
+   "Apply basic edits first, such as crop, light and colour.",
+   "Try the AI tools for the specific job you need.",
+   "Export a copy and keep the original."
+  ],
+  "pros": [
+   "Focused on a specific image task",
+   "Saves time on repetitive edits",
+   "Easy to try on a sample photo"
+  ],
+  "cons": [
+   "Some features may sit behind a paid plan",
+   "AI edits need a human check before publishing"
+  ],
+  "alternatives": [
+   "vanceai",
+   "fotor",
+   "deepai"
+  ],
+  "tags": [
+   "image",
+   "ai",
+   "photo editing",
+   "photo editor",
+   "tools"
+  ],
+  "features": [
+   "Photo editing tools",
+   "AI-assisted enhancements",
+   "Filters and effects",
+   "Export and share options"
+  ],
+  "use_cases": [
+   "Quick edits for social posts",
+   "Improving everyday photos",
+   "Creating simple graphics"
+  ],
+  "pricing_details": "Pricing for Hotpot AI was not verified for this entry. Plans, free options and limits change over time, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Hotpot AI?",
+    "a": "Hotpot AI is an image tool: web toolkit for AI image generation, restoration and editing. Check the official site for its current feature set."
+   },
+   {
+    "q": "Is Hotpot AI free?",
+    "a": "Free options, trials and paid plans change over time and were not verified here. Check the official site for current pricing."
+   },
+   {
+    "q": "Who is Hotpot AI best for?",
+    "a": "It is best for occasional image tasks in one place. Compare it with the alternatives listed here and test it on a sample image before relying on it."
+   }
+  ],
+  "seo_title": "Hotpot AI: What It Is and How to Use It",
+  "seo_description": "Learn what Hotpot AI is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "vanceai",
+  "name": "VanceAI",
+  "category": "image",
+  "website_url": "https://vanceai.com",
+  "pricing": "Unknown",
+  "tagline": "Online AI tools for enlarging, denoising and cleaning images.",
+  "best_for": "Enhancing images in the browser",
+  "platforms": [
+   "Web"
+  ],
+  "description": "VanceAI is a web-based set of image tools that includes upscaling, noise reduction, sharpening and background removal. Each job is a separate tool you open and run on an upload.\n\nIt is aimed at people who want a quick browser fix without installing software. Credit-based usage is common in this kind of service, so check the official site for how it works now.",
+  "use_steps": [
+   "Open the tool and import the low-resolution or soft image.",
+   "Choose the enhancement or upscaling option that matches the image type.",
+   "Preview the result at full size and compare it with the original.",
+   "Export a copy and keep the original file untouched."
+  ],
+  "pros": [
+   "Focused on a specific image task",
+   "Saves time on repetitive edits",
+   "Easy to try on a sample photo"
+  ],
+  "cons": [
+   "Added detail is generated, so fine textures may not match the real scene",
+   "Results vary with the quality of the source image"
+  ],
+  "alternatives": [
+   "upscale-media",
+   "bigjpg",
+   "topaz-labs"
+  ],
+  "tags": [
+   "image",
+   "ai",
+   "photo editing",
+   "upscaler",
+   "tools"
+  ],
+  "features": [
+   "Image upscaling",
+   "Detail and sharpness enhancement",
+   "Noise reduction",
+   "Before and after preview"
+  ],
+  "use_cases": [
+   "Enlarging small images for print",
+   "Improving old or low-quality photos",
+   "Preparing sharper web or social graphics"
+  ],
+  "pricing_details": "Pricing for VanceAI was not verified for this entry. Plans, free options and limits change over time, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is VanceAI?",
+    "a": "VanceAI is an image tool: online AI tools for enlarging, denoising and cleaning images. Check the official site for its current feature set."
+   },
+   {
+    "q": "Is VanceAI free?",
+    "a": "Free options, trials and paid plans change over time and were not verified here. Check the official site for current pricing."
+   },
+   {
+    "q": "Who is VanceAI best for?",
+    "a": "It is best for enhancing images in the browser. Compare it with the alternatives listed here and test it on a sample image before relying on it."
+   }
+  ],
+  "seo_title": "VanceAI: What It Is and How to Use It",
+  "seo_description": "Learn what VanceAI is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "icons8-photo-tools",
+  "name": "Icons8 Photo Tools",
+  "category": "image",
+  "website_url": "https://icons8.com",
+  "pricing": "Unknown",
+  "tagline": "Icons8 suite of AI image tools alongside its icon and design library.",
+  "best_for": "Designers who already use Icons8 assets",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Icons8 is best known for icons, illustrations and stock assets, and also offers AI image tools such as upscaling and background removal. They sit within the same account.\n\nDesigners who already use its assets can handle small image fixes without switching sites. Which tools exist and how they are priced can change, so check the official site.",
+  "use_steps": [
+   "Open the editor and import a photo.",
+   "Apply basic edits first, such as crop, light and colour.",
+   "Try the AI tools for the specific job you need.",
+   "Export a copy and keep the original."
+  ],
+  "pros": [
+   "Focused on a specific image task",
+   "Saves time on repetitive edits",
+   "Easy to try on a sample photo"
+  ],
+  "cons": [
+   "Some features may sit behind a paid plan",
+   "AI edits need a human check before publishing"
+  ],
+  "alternatives": [
+   "hotpot-ai",
+   "vanceai",
+   "fotor"
+  ],
+  "tags": [
+   "image",
+   "ai",
+   "photo editing",
+   "photo editor",
+   "tools"
+  ],
+  "features": [
+   "Photo editing tools",
+   "AI-assisted enhancements",
+   "Filters and effects",
+   "Export and share options"
+  ],
+  "use_cases": [
+   "Quick edits for social posts",
+   "Improving everyday photos",
+   "Creating simple graphics"
+  ],
+  "pricing_details": "Pricing for Icons8 Photo Tools was not verified for this entry. Plans, free options and limits change over time, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Icons8 Photo Tools?",
+    "a": "Icons8 Photo Tools is an image tool: icons8 suite of AI image tools alongside its icon and design library. Check the official site for its current feature set."
+   },
+   {
+    "q": "Is Icons8 Photo Tools free?",
+    "a": "Free options, trials and paid plans change over time and were not verified here. Check the official site for current pricing."
+   },
+   {
+    "q": "Who is Icons8 Photo Tools best for?",
+    "a": "It is best for designers who already use Icons8 assets. Compare it with the alternatives listed here and test it on a sample image before relying on it."
+   }
+  ],
+  "seo_title": "Icons8 Photo Tools: What It Is and How to Use It",
+  "seo_description": "Learn what Icons8 Photo Tools is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "headshotpro",
+  "name": "HeadshotPro",
+  "category": "image",
+  "website_url": "https://www.headshotpro.com",
+  "pricing": "Unknown",
+  "tagline": "AI service that turns selfies into professional-style headshots.",
+  "best_for": "Business profile photos without a studio",
+  "platforms": [
+   "Web"
+  ],
+  "description": "HeadshotPro generates professional-looking headshots from selfies you upload. Instead of booking a photographer, you submit photos and receive a set of images in business styles.\n\nIt is used for LinkedIn pictures, company pages and team profiles. Quality depends on the input photos, so follow its guidance. Check the official site for pricing and the data policy.",
+  "use_steps": [
+   "Create an account and read how the service handles your photos.",
+   "Upload the selfies it asks for, following its photo guidelines.",
+   "Choose styles or settings for the headshots you want.",
+   "Review the generated images and download the ones you like."
+  ],
+  "pros": [
+   "Focused on a specific image task",
+   "Saves time on repetitive edits",
+   "Easy to try on a sample photo"
+  ],
+  "cons": [
+   "Some results may not look like you, so review every image",
+   "Check the privacy and data-retention terms before uploading photos"
+  ],
+  "alternatives": [
+   "aragon-ai",
+   "betterpic",
+   "profilepicture-ai"
+  ],
+  "tags": [
+   "image",
+   "ai",
+   "photo editing",
+   "headshots",
+   "tools"
+  ],
+  "features": [
+   "AI-generated headshots from selfies",
+   "Choice of styles and outfits",
+   "Downloadable image sets",
+   "Online upload workflow"
+  ],
+  "use_cases": [
+   "Refreshing a LinkedIn or CV photo",
+   "Team and company profile pictures",
+   "Speaker and author bios"
+  ],
+  "pricing_details": "Pricing for HeadshotPro was not verified for this entry. Plans, free options and limits change over time, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is HeadshotPro?",
+    "a": "HeadshotPro is an image tool: aI service that turns selfies into professional-style headshots. Check the official site for its current feature set."
+   },
+   {
+    "q": "Is HeadshotPro free?",
+    "a": "Free options, trials and paid plans change over time and were not verified here. Check the official site for current pricing."
+   },
+   {
+    "q": "Who is HeadshotPro best for?",
+    "a": "It is best for business profile photos without a studio. Compare it with the alternatives listed here and test it on a sample image before relying on it."
+   }
+  ],
+  "seo_title": "HeadshotPro: What It Is and How to Use It",
+  "seo_description": "Learn what HeadshotPro is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "aragon-ai",
+  "name": "Aragon AI",
+  "category": "image",
+  "website_url": "https://www.aragon.ai",
+  "pricing": "Unknown",
+  "tagline": "AI headshot generator for professional profile photos.",
+  "best_for": "Professionals refreshing their online photos",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Aragon AI creates headshots from photos you provide, with options for different looks and settings. It is aimed at people who need a polished profile image quickly.\n\nIndividuals and small teams use this type of service as an alternative to a photo session. Review each result critically to ensure it still looks like you. Check the official site for the current offer.",
+  "use_steps": [
+   "Create an account and read how the service handles your photos.",
+   "Upload the selfies it asks for, following its photo guidelines.",
+   "Choose styles or settings for the headshots you want.",
+   "Review the generated images and download the ones you like."
+  ],
+  "pros": [
+   "Focused on a specific image task",
+   "Saves time on repetitive edits",
+   "Easy to try on a sample photo"
+  ],
+  "cons": [
+   "Some results may not look like you, so review every image",
+   "Check the privacy and data-retention terms before uploading photos"
+  ],
+  "alternatives": [
+   "headshotpro",
+   "betterpic",
+   "photoai"
+  ],
+  "tags": [
+   "image",
+   "ai",
+   "photo editing",
+   "headshots",
+   "tools"
+  ],
+  "features": [
+   "AI-generated headshots from selfies",
+   "Choice of styles and outfits",
+   "Downloadable image sets",
+   "Online upload workflow"
+  ],
+  "use_cases": [
+   "Refreshing a LinkedIn or CV photo",
+   "Team and company profile pictures",
+   "Speaker and author bios"
+  ],
+  "pricing_details": "Pricing for Aragon AI was not verified for this entry. Plans, free options and limits change over time, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Aragon AI?",
+    "a": "Aragon AI is an image tool: aI headshot generator for professional profile photos. Check the official site for its current feature set."
+   },
+   {
+    "q": "Is Aragon AI free?",
+    "a": "Free options, trials and paid plans change over time and were not verified here. Check the official site for current pricing."
+   },
+   {
+    "q": "Who is Aragon AI best for?",
+    "a": "It is best for professionals refreshing their online photos. Compare it with the alternatives listed here and test it on a sample image before relying on it."
+   }
+  ],
+  "seo_title": "Aragon AI: What It Is and How to Use It",
+  "seo_description": "Learn what Aragon AI is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "betterpic",
+  "name": "BetterPic",
+  "category": "image",
+  "website_url": "https://betterpic.io",
+  "pricing": "Unknown",
+  "tagline": "AI headshots from your own photos for professional use.",
+  "best_for": "Quick professional-style portraits",
+  "platforms": [
+   "Web"
+  ],
+  "description": "BetterPic is an AI headshot service where you upload personal photos and receive generated portraits in professional styles. It focuses on business-ready images.\n\nTeams may use it to keep staff photos consistent across a website. Because it handles face images, read its privacy terms before uploading. Check the official site for plans.",
+  "use_steps": [
+   "Create an account and read how the service handles your photos.",
+   "Upload the selfies it asks for, following its photo guidelines.",
+   "Choose styles or settings for the headshots you want.",
+   "Review the generated images and download the ones you like."
+  ],
+  "pros": [
+   "Focused on a specific image task",
+   "Saves time on repetitive edits",
+   "Easy to try on a sample photo"
+  ],
+  "cons": [
+   "Some results may not look like you, so review every image",
+   "Check the privacy and data-retention terms before uploading photos"
+  ],
+  "alternatives": [
+   "headshotpro",
+   "aragon-ai",
+   "profilepicture-ai"
+  ],
+  "tags": [
+   "image",
+   "ai",
+   "photo editing",
+   "headshots",
+   "tools"
+  ],
+  "features": [
+   "AI-generated headshots from selfies",
+   "Choice of styles and outfits",
+   "Downloadable image sets",
+   "Online upload workflow"
+  ],
+  "use_cases": [
+   "Refreshing a LinkedIn or CV photo",
+   "Team and company profile pictures",
+   "Speaker and author bios"
+  ],
+  "pricing_details": "Pricing for BetterPic was not verified for this entry. Plans, free options and limits change over time, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is BetterPic?",
+    "a": "BetterPic is an image tool: aI headshots from your own photos for professional use. Check the official site for its current feature set."
+   },
+   {
+    "q": "Is BetterPic free?",
+    "a": "Free options, trials and paid plans change over time and were not verified here. Check the official site for current pricing."
+   },
+   {
+    "q": "Who is BetterPic best for?",
+    "a": "It is best for quick professional-style portraits. Compare it with the alternatives listed here and test it on a sample image before relying on it."
+   }
+  ],
+  "seo_title": "BetterPic: What It Is and How to Use It",
+  "seo_description": "Learn what BetterPic is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "mokker",
+  "name": "Mokker",
+  "category": "image",
+  "website_url": "https://mokker.ai",
+  "pricing": "Unknown",
+  "tagline": "AI product photo tool that places items into generated scenes.",
+  "best_for": "Online sellers needing styled product shots",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Mokker is a web tool for creating product photography with AI. You upload an item photo and the tool places it in a new generated setting.\n\nIt targets e-commerce sellers and marketers who need many images quickly. Check results for realistic shadows and proportions. Check the official site for current features and pricing.",
+  "use_steps": [
+   "Upload a clear photo of your product.",
+   "Choose or describe the background or scene you want.",
+   "Generate a few versions and compare them.",
+   "Download the best image and check it against your marketplace rules."
+  ],
+  "pros": [
+   "Focused on a specific image task",
+   "Saves time on repetitive edits",
+   "Easy to try on a sample photo"
+  ],
+  "cons": [
+   "Generated scenes may need checking for odd shadows or details",
+   "Marketplace image rules still apply to the final file"
+  ],
+  "alternatives": [
+   "pebblely",
+   "flair-ai",
+   "claid-ai"
+  ],
+  "tags": [
+   "image",
+   "ai",
+   "photo editing",
+   "product photos",
+   "tools"
+  ],
+  "features": [
+   "Product background generation",
+   "Automatic cutouts",
+   "Scene and style choices",
+   "Export for online stores"
+  ],
+  "use_cases": [
+   "Listing images for online shops",
+   "Social media product posts",
+   "Quick ad creative mockups"
+  ],
+  "pricing_details": "Pricing for Mokker was not verified for this entry. Plans, free options and limits change over time, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Mokker?",
+    "a": "Mokker is an image tool: aI product photo tool that places items into generated scenes. Check the official site for its current feature set."
+   },
+   {
+    "q": "Is Mokker free?",
+    "a": "Free options, trials and paid plans change over time and were not verified here. Check the official site for current pricing."
+   },
+   {
+    "q": "Who is Mokker best for?",
+    "a": "It is best for online sellers needing styled product shots. Compare it with the alternatives listed here and test it on a sample image before relying on it."
+   }
+  ],
+  "seo_title": "Mokker: What It Is and How to Use It",
+  "seo_description": "Learn what Mokker is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "claid-ai",
+  "name": "Claid.ai",
+  "category": "image",
+  "website_url": "https://claid.ai",
+  "pricing": "Unknown",
+  "tagline": "AI image enhancement and product photo service with API access.",
+  "best_for": "E-commerce teams processing many images",
+  "platforms": [
+   "Web",
+   "API"
+  ],
+  "description": "Claid.ai is an image preparation service for online retail. It offers enhancement, upscaling and background tools that can be used in a browser or through an API.\n\nThe API option makes it relevant to marketplaces that process large catalogues. Smaller sellers can use the web version. Check the official site for plans and developer details.",
+  "use_steps": [
+   "Upload a clear photo of your product.",
+   "Choose or describe the background or scene you want.",
+   "Generate a few versions and compare them.",
+   "Download the best image and check it against your marketplace rules."
+  ],
+  "pros": [
+   "Focused on a specific image task",
+   "Saves time on repetitive edits",
+   "Easy to try on a sample photo",
+   "Available on Web, API"
+  ],
+  "cons": [
+   "Generated scenes may need checking for odd shadows or details",
+   "Marketplace image rules still apply to the final file"
+  ],
+  "alternatives": [
+   "pixelcut",
+   "photoroom",
+   "mokker"
+  ],
+  "tags": [
+   "image",
+   "ai",
+   "photo editing",
+   "product photos",
+   "tools"
+  ],
+  "features": [
+   "Product background generation",
+   "Automatic cutouts",
+   "Scene and style choices",
+   "Export for online stores"
+  ],
+  "use_cases": [
+   "Listing images for online shops",
+   "Social media product posts",
+   "Quick ad creative mockups"
+  ],
+  "pricing_details": "Pricing for Claid.ai was not verified for this entry. Plans, free options and limits change over time, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Claid.ai?",
+    "a": "Claid.ai is an image tool: aI image enhancement and product photo service with API access. Check the official site for its current feature set."
+   },
+   {
+    "q": "Is Claid.ai free?",
+    "a": "Free options, trials and paid plans change over time and were not verified here. Check the official site for current pricing."
+   },
+   {
+    "q": "Who is Claid.ai best for?",
+    "a": "It is best for e-commerce teams processing many images. Compare it with the alternatives listed here and test it on a sample image before relying on it."
+   }
+  ],
+  "seo_title": "Claid.ai: What It Is and How to Use It",
+  "seo_description": "Learn what Claid.ai is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "photoleap",
+  "name": "Photoleap",
+  "category": "image",
+  "website_url": "https://www.photoleapapp.com",
+  "pricing": "Freemium",
+  "tagline": "Mobile photo editor from Lightricks with AI effects and compositing.",
+  "best_for": "Creative photo editing on a phone",
+  "platforms": [
+   "iOS",
+   "Android"
+  ],
+  "description": "Photoleap is a mobile photo editing app from Lightricks. It combines layers, filters and compositing with AI tools for effects and image creation.\n\nIt fits creators who like experimenting with surreal edits on their phone. Some features need a subscription. Check the official site or store listing for current details.",
+  "use_steps": [
+   "Open the editor and import a photo.",
+   "Apply basic edits first, such as crop, light and colour.",
+   "Try the AI tools for the specific job you need.",
+   "Export a copy and keep the original."
+  ],
+  "pros": [
+   "Focused on a specific image task",
+   "Saves time on repetitive edits",
+   "Easy to try on a sample photo",
+   "Available on iOS, Android"
+  ],
+  "cons": [
+   "Some features may sit behind a paid plan",
+   "AI edits need a human check before publishing"
+  ],
+  "alternatives": [
+   "facetune",
+   "picsart",
+   "lensa"
+  ],
+  "tags": [
+   "image",
+   "ai",
+   "photo editing",
+   "photo editor",
+   "tools"
+  ],
+  "features": [
+   "Photo editing tools",
+   "AI-assisted enhancements",
+   "Filters and effects",
+   "Export and share options"
+  ],
+  "use_cases": [
+   "Quick edits for social posts",
+   "Improving everyday photos",
+   "Creating simple graphics"
+  ],
+  "pricing_details": "Pricing for Photoleap was not verified for this entry. Plans, free options and limits change over time, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Photoleap?",
+    "a": "Photoleap is an image tool: mobile photo editor from Lightricks with AI effects and compositing. Check the official site for its current feature set."
+   },
+   {
+    "q": "Is Photoleap free?",
+    "a": "Free options, trials and paid plans change over time and were not verified here. Check the official site for current pricing."
+   },
+   {
+    "q": "Who is Photoleap best for?",
+    "a": "It is best for creative photo editing on a phone. Compare it with the alternatives listed here and test it on a sample image before relying on it."
+   }
+  ],
+  "seo_title": "Photoleap: What It Is and How to Use It",
+  "seo_description": "Learn what Photoleap is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "facetune",
+  "name": "Facetune",
+  "category": "image",
+  "website_url": "https://www.facetuneapp.com",
+  "pricing": "Freemium",
+  "tagline": "Mobile selfie retouching app from Lightricks.",
+  "best_for": "Touching up selfies",
+  "platforms": [
+   "iOS",
+   "Android"
+  ],
+  "description": "Facetune is a phone app built for retouching selfies. It offers tools for skin smoothing, teeth, eyes and background tweaks.\n\nIt is simple to use and quick, though heavy edits can look unnatural. It is worth thinking about how much retouching suits the setting, such as a professional profile. Check the official site for plans.",
+  "use_steps": [
+   "Open or import your portrait photos.",
+   "Pick the retouching or enhancement options you want.",
+   "Adjust the strength so the result still looks natural.",
+   "Export the finished images and compare them with the originals."
+  ],
+  "pros": [
+   "Focused on a specific image task",
+   "Saves time on repetitive edits",
+   "Easy to try on a sample photo",
+   "Available on iOS, Android"
+  ],
+  "cons": [
+   "Heavy retouching can look artificial",
+   "Learning which settings suit each photo takes practice"
+  ],
+  "alternatives": [
+   "lensa",
+   "youcam-perfect",
+   "photoleap"
+  ],
+  "tags": [
+   "image",
+   "ai",
+   "photo editing",
+   "retouching",
+   "tools"
+  ],
+  "features": [
+   "Skin and portrait retouching",
+   "Adjustable effect strength",
+   "Batch-friendly workflow",
+   "Export for web or print"
+  ],
+  "use_cases": [
+   "Retouching portrait sessions",
+   "Touching up selfies and profile photos",
+   "Speeding up repetitive edits"
+  ],
+  "pricing_details": "Pricing for Facetune was not verified for this entry. Plans, free options and limits change over time, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Facetune?",
+    "a": "Facetune is an image tool: mobile selfie retouching app from Lightricks. Check the official site for its current feature set."
+   },
+   {
+    "q": "Is Facetune free?",
+    "a": "Free options, trials and paid plans change over time and were not verified here. Check the official site for current pricing."
+   },
+   {
+    "q": "Who is Facetune best for?",
+    "a": "It is best for touching up selfies. Compare it with the alternatives listed here and test it on a sample image before relying on it."
+   }
+  ],
+  "seo_title": "Facetune: What It Is and How to Use It",
+  "seo_description": "Learn what Facetune is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "dxo-photolab",
+  "name": "DxO PhotoLab",
+  "category": "image",
+  "website_url": "https://www.dxo.com/dxo-photolab/",
+  "pricing": "Unknown",
+  "tagline": "RAW editor known for noise reduction and lens corrections.",
+  "best_for": "RAW processing with strong noise handling",
+  "platforms": [
+   "Windows",
+   "macOS"
+  ],
+  "description": "DxO PhotoLab is a desktop RAW photo editor. It is known for denoising technology and lens and camera corrections based on tested equipment profiles.\n\nIt suits photographers who shoot in low light or want accurate corrections. It includes local adjustment tools and can run as a plug-in. Check the official site for editions and licences.",
+  "use_steps": [
+   "Import your photos or RAW files.",
+   "Apply the automatic or AI-assisted adjustments.",
+   "Fine-tune exposure, colour and detail by hand.",
+   "Export the edits in the format you need."
+  ],
+  "pros": [
+   "Focused on a specific image task",
+   "Saves time on repetitive edits",
+   "Easy to try on a sample photo",
+   "Available on Windows, macOS"
+  ],
+  "cons": [
+   "Desktop software has a learning curve",
+   "Computer performance affects speed on large files"
+  ],
+  "alternatives": [
+   "lightroom",
+   "on1-photo-raw",
+   "topaz-labs"
+  ],
+  "tags": [
+   "image",
+   "ai",
+   "photo editing",
+   "raw editing",
+   "tools"
+  ],
+  "features": [
+   "Photo editing and development",
+   "AI-assisted adjustments",
+   "Non-destructive workflow",
+   "Export presets"
+  ],
+  "use_cases": [
+   "Editing photo shoots",
+   "Batch-improving travel photos",
+   "Developing RAW images"
+  ],
+  "pricing_details": "Pricing for DxO PhotoLab was not verified for this entry. Plans, free options and limits change over time, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is DxO PhotoLab?",
+    "a": "DxO PhotoLab is an image tool: rAW editor known for noise reduction and lens corrections. Check the official site for its current feature set."
+   },
+   {
+    "q": "Is DxO PhotoLab free?",
+    "a": "Free options, trials and paid plans change over time and were not verified here. Check the official site for current pricing."
+   },
+   {
+    "q": "Who is DxO PhotoLab best for?",
+    "a": "It is best for rAW processing with strong noise handling. Compare it with the alternatives listed here and test it on a sample image before relying on it."
+   }
+  ],
+  "seo_title": "DxO PhotoLab: What It Is and How to Use It",
+  "seo_description": "Learn what DxO PhotoLab is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "on1-photo-raw",
+  "name": "ON1 Photo RAW",
+  "category": "image",
+  "website_url": "https://www.on1.com",
+  "pricing": "Unknown",
+  "tagline": "Photo editor and organiser with AI-powered masking and noise reduction.",
+  "best_for": "Photographers wanting an all-in-one editor",
+  "platforms": [
+   "Windows",
+   "macOS"
+  ],
+  "description": "ON1 Photo RAW is a desktop photo editor and organiser. It includes AI-assisted features such as automatic masking, noise reduction and resizing.\n\nIt can work standalone or as a plug-in to other editors. It appeals to photographers who want browsing and editing in one program. Check the official site for current versions and licensing.",
+  "use_steps": [
+   "Import your photos or RAW files.",
+   "Apply the automatic or AI-assisted adjustments.",
+   "Fine-tune exposure, colour and detail by hand.",
+   "Export the edits in the format you need."
+  ],
+  "pros": [
+   "Focused on a specific image task",
+   "Saves time on repetitive edits",
+   "Easy to try on a sample photo",
+   "Available on Windows, macOS"
+  ],
+  "cons": [
+   "Desktop software has a learning curve",
+   "Computer performance affects speed on large files"
+  ],
+  "alternatives": [
+   "luminar-neo",
+   "lightroom",
+   "dxo-photolab"
+  ],
+  "tags": [
+   "image",
+   "ai",
+   "photo editing",
+   "raw editing",
+   "tools"
+  ],
+  "features": [
+   "Photo editing and development",
+   "AI-assisted adjustments",
+   "Non-destructive workflow",
+   "Export presets"
+  ],
+  "use_cases": [
+   "Editing photo shoots",
+   "Batch-improving travel photos",
+   "Developing RAW images"
+  ],
+  "pricing_details": "Pricing for ON1 Photo RAW was not verified for this entry. Plans, free options and limits change over time, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is ON1 Photo RAW?",
+    "a": "ON1 Photo RAW is an image tool: photo editor and organiser with AI-powered masking and noise reduction. Check the official site for its current feature set."
+   },
+   {
+    "q": "Is ON1 Photo RAW free?",
+    "a": "Free options, trials and paid plans change over time and were not verified here. Check the official site for current pricing."
+   },
+   {
+    "q": "Who is ON1 Photo RAW best for?",
+    "a": "It is best for photographers wanting an all-in-one editor. Compare it with the alternatives listed here and test it on a sample image before relying on it."
+   }
+  ],
+  "seo_title": "ON1 Photo RAW: What It Is and How to Use It",
+  "seo_description": "Learn what ON1 Photo RAW is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "imagen-ai",
+  "name": "Imagen AI",
+  "category": "image",
+  "website_url": "https://imagen-ai.com",
+  "pricing": "Unknown",
+  "tagline": "AI editing assistant that learns your style for photo culling and editing.",
+  "best_for": "Event and wedding photographers with large shoots",
+  "platforms": [
+   "Windows",
+   "macOS"
+  ],
+  "description": "Imagen AI is a service for professional photographers that applies edits to a shoot based on a style learned from the photographer's earlier work. It works with Lightroom-style workflows.\n\nThe point is to save hours on large sets such as weddings. Photographers still review the output before delivery. Check the official site for supported software and pricing.",
+  "use_steps": [
+   "Import your photos or RAW files.",
+   "Apply the automatic or AI-assisted adjustments.",
+   "Fine-tune exposure, colour and detail by hand.",
+   "Export the edits in the format you need."
+  ],
+  "pros": [
+   "Focused on a specific image task",
+   "Saves time on repetitive edits",
+   "Easy to try on a sample photo",
+   "Available on Windows, macOS"
+  ],
+  "cons": [
+   "Desktop software has a learning curve",
+   "Computer performance affects speed on large files"
+  ],
+  "alternatives": [
+   "aftershoot",
+   "evoto",
+   "lightroom"
+  ],
+  "tags": [
+   "image",
+   "ai",
+   "photo editing",
+   "raw editing",
+   "tools"
+  ],
+  "features": [
+   "Photo editing and development",
+   "AI-assisted adjustments",
+   "Non-destructive workflow",
+   "Export presets"
+  ],
+  "use_cases": [
+   "Editing photo shoots",
+   "Batch-improving travel photos",
+   "Developing RAW images"
+  ],
+  "pricing_details": "Pricing for Imagen AI was not verified for this entry. Plans, free options and limits change over time, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Imagen AI?",
+    "a": "Imagen AI is an image tool: aI editing assistant that learns your style for photo culling and editing. Check the official site for its current feature set."
+   },
+   {
+    "q": "Is Imagen AI free?",
+    "a": "Free options, trials and paid plans change over time and were not verified here. Check the official site for current pricing."
+   },
+   {
+    "q": "Who is Imagen AI best for?",
+    "a": "It is best for event and wedding photographers with large shoots. Compare it with the alternatives listed here and test it on a sample image before relying on it."
+   }
+  ],
+  "seo_title": "Imagen AI: What It Is and How to Use It",
+  "seo_description": "Learn what Imagen AI is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "aftershoot",
+  "name": "Aftershoot",
+  "category": "image",
+  "website_url": "https://aftershoot.com",
+  "pricing": "Unknown",
+  "tagline": "AI culling and editing tool for professional photographers.",
+  "best_for": "Culling and editing large photo shoots",
+  "platforms": [
+   "Windows",
+   "macOS"
+  ],
+  "description": "Aftershoot is a tool for photographers that helps with culling, which means choosing the best frames, and with applying edits learned from your style.\n\nThe goal is to cut the time spent on post-production. It works alongside common editing apps. Check the official site for supported software and plans.",
+  "use_steps": [
+   "Import your photos or RAW files.",
+   "Apply the automatic or AI-assisted adjustments.",
+   "Fine-tune exposure, colour and detail by hand.",
+   "Export the edits in the format you need."
+  ],
+  "pros": [
+   "Focused on a specific image task",
+   "Saves time on repetitive edits",
+   "Easy to try on a sample photo",
+   "Available on Windows, macOS"
+  ],
+  "cons": [
+   "Desktop software has a learning curve",
+   "Computer performance affects speed on large files"
+  ],
+  "alternatives": [
+   "imagen-ai",
+   "lightroom",
+   "evoto"
+  ],
+  "tags": [
+   "image",
+   "ai",
+   "photo editing",
+   "raw editing",
+   "tools"
+  ],
+  "features": [
+   "Photo editing and development",
+   "AI-assisted adjustments",
+   "Non-destructive workflow",
+   "Export presets"
+  ],
+  "use_cases": [
+   "Editing photo shoots",
+   "Batch-improving travel photos",
+   "Developing RAW images"
+  ],
+  "pricing_details": "Pricing for Aftershoot was not verified for this entry. Plans, free options and limits change over time, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Aftershoot?",
+    "a": "Aftershoot is an image tool: aI culling and editing tool for professional photographers. Check the official site for its current feature set."
+   },
+   {
+    "q": "Is Aftershoot free?",
+    "a": "Free options, trials and paid plans change over time and were not verified here. Check the official site for current pricing."
+   },
+   {
+    "q": "Who is Aftershoot best for?",
+    "a": "It is best for culling and editing large photo shoots. Compare it with the alternatives listed here and test it on a sample image before relying on it."
+   }
+  ],
+  "seo_title": "Aftershoot: What It Is and How to Use It",
+  "seo_description": "Learn what Aftershoot is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "cutout-pro",
+  "name": "Cutout.Pro",
+  "category": "image",
+  "website_url": "https://www.cutout.pro",
+  "pricing": "Unknown",
+  "tagline": "Web service for background removal, photo enhancement and more.",
+  "best_for": "Several image fixes in one site",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Cutout.Pro is a website with a range of AI image tools, including background removal, enhancement and photo colourisation. Each is accessed from its own page.\n\nIt is used for quick edits by designers and sellers alike. Some tools may use credits or paid access. Check the official site for what is available.",
+  "use_steps": [
+   "Upload a photo or drag it into the tool.",
+   "Let the tool detect and cut out the main subject.",
+   "Check the edges and refine the cutout if needed.",
+   "Download the transparent image or place it on a new background."
+  ],
+  "pros": [
+   "Focused on a specific image task",
+   "Saves time on repetitive edits",
+   "Easy to try on a sample photo"
+  ],
+  "cons": [
+   "Hair, glass and fine edges can need manual cleanup",
+   "Export size or quality limits can depend on the plan"
+  ],
+  "alternatives": [
+   "remove-bg",
+   "removal-ai",
+   "picwish"
+  ],
+  "tags": [
+   "image",
+   "ai",
+   "photo editing",
+   "background remover",
+   "tools"
+  ],
+  "features": [
+   "Automatic background removal",
+   "Transparent PNG export",
+   "Replacement backgrounds",
+   "Edge refinement"
+  ],
+  "use_cases": [
+   "Making product images for a store",
+   "Creating profile and ID-style photos",
+   "Compositing subjects into new designs"
+  ],
+  "pricing_details": "Pricing for Cutout.Pro was not verified for this entry. Plans, free options and limits change over time, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Cutout.Pro?",
+    "a": "Cutout.Pro is an image tool: web service for background removal, photo enhancement and more. Check the official site for its current feature set."
+   },
+   {
+    "q": "Is Cutout.Pro free?",
+    "a": "Free options, trials and paid plans change over time and were not verified here. Check the official site for current pricing."
+   },
+   {
+    "q": "Who is Cutout.Pro best for?",
+    "a": "It is best for several image fixes in one site. Compare it with the alternatives listed here and test it on a sample image before relying on it."
+   }
+  ],
+  "seo_title": "Cutout.Pro: What It Is and How to Use It",
+  "seo_description": "Learn what Cutout.Pro is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "photoscissors",
+  "name": "PhotoScissors",
+  "category": "image",
+  "website_url": "https://photoscissors.com",
+  "pricing": "Unknown",
+  "tagline": "Simple online tool for cutting out the background of a photo.",
+  "best_for": "Fast background removal",
+  "platforms": [
+   "Web"
+  ],
+  "description": "PhotoScissors is a straightforward web tool that removes backgrounds. You upload an image and it separates the foreground, with simple tools to refine the edges.\n\nIt is meant for people who want a single quick job done without learning an editor. Check the official site for the current limits.",
+  "use_steps": [
+   "Upload a photo or drag it into the tool.",
+   "Let the tool detect and cut out the main subject.",
+   "Check the edges and refine the cutout if needed.",
+   "Download the transparent image or place it on a new background."
+  ],
+  "pros": [
+   "Focused on a specific image task",
+   "Saves time on repetitive edits",
+   "Easy to try on a sample photo"
+  ],
+  "cons": [
+   "Hair, glass and fine edges can need manual cleanup",
+   "Export size or quality limits can depend on the plan"
+  ],
+  "alternatives": [
+   "remove-bg",
+   "slazzer",
+   "erase-bg"
+  ],
+  "tags": [
+   "image",
+   "ai",
+   "photo editing",
+   "background remover",
+   "tools"
+  ],
+  "features": [
+   "Automatic background removal",
+   "Transparent PNG export",
+   "Replacement backgrounds",
+   "Edge refinement"
+  ],
+  "use_cases": [
+   "Making product images for a store",
+   "Creating profile and ID-style photos",
+   "Compositing subjects into new designs"
+  ],
+  "pricing_details": "Pricing for PhotoScissors was not verified for this entry. Plans, free options and limits change over time, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is PhotoScissors?",
+    "a": "PhotoScissors is an image tool: simple online tool for cutting out the background of a photo. Check the official site for its current feature set."
+   },
+   {
+    "q": "Is PhotoScissors free?",
+    "a": "Free options, trials and paid plans change over time and were not verified here. Check the official site for current pricing."
+   },
+   {
+    "q": "Who is PhotoScissors best for?",
+    "a": "It is best for fast background removal. Compare it with the alternatives listed here and test it on a sample image before relying on it."
+   }
+  ],
+  "seo_title": "PhotoScissors: What It Is and How to Use It",
+  "seo_description": "Learn what PhotoScissors is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "removal-ai",
+  "name": "Removal.AI",
+  "category": "image",
+  "website_url": "https://removal.ai",
+  "pricing": "Unknown",
+  "tagline": "Background removal service with web and API options.",
+  "best_for": "Background removal for sellers and developers",
+  "platforms": [
+   "Web",
+   "API"
+  ],
+  "description": "Removal.AI offers automatic background removal through a website and an API. It targets e-commerce and developers who need to process pictures at scale.\n\nSmaller users can work through the web interface. Check the official site for developer documentation and plans.",
+  "use_steps": [
+   "Upload a photo or drag it into the tool.",
+   "Let the tool detect and cut out the main subject.",
+   "Check the edges and refine the cutout if needed.",
+   "Download the transparent image or place it on a new background."
+  ],
+  "pros": [
+   "Focused on a specific image task",
+   "Saves time on repetitive edits",
+   "Easy to try on a sample photo",
+   "Available on Web, API"
+  ],
+  "cons": [
+   "Hair, glass and fine edges can need manual cleanup",
+   "Export size or quality limits can depend on the plan"
+  ],
+  "alternatives": [
+   "remove-bg",
+   "cutout-pro",
+   "slazzer"
+  ],
+  "tags": [
+   "image",
+   "ai",
+   "photo editing",
+   "background remover",
+   "tools"
+  ],
+  "features": [
+   "Automatic background removal",
+   "Transparent PNG export",
+   "Replacement backgrounds",
+   "Edge refinement"
+  ],
+  "use_cases": [
+   "Making product images for a store",
+   "Creating profile and ID-style photos",
+   "Compositing subjects into new designs"
+  ],
+  "pricing_details": "Pricing for Removal.AI was not verified for this entry. Plans, free options and limits change over time, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Removal.AI?",
+    "a": "Removal.AI is an image tool: background removal service with web and API options. Check the official site for its current feature set."
+   },
+   {
+    "q": "Is Removal.AI free?",
+    "a": "Free options, trials and paid plans change over time and were not verified here. Check the official site for current pricing."
+   },
+   {
+    "q": "Who is Removal.AI best for?",
+    "a": "It is best for background removal for sellers and developers. Compare it with the alternatives listed here and test it on a sample image before relying on it."
+   }
+  ],
+  "seo_title": "Removal.AI: What It Is and How to Use It",
+  "seo_description": "Learn what Removal.AI is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "slazzer",
+  "name": "Slazzer",
+  "category": "image",
+  "website_url": "https://www.slazzer.com",
+  "pricing": "Unknown",
+  "tagline": "AI background remover with web, plug-in and API access.",
+  "best_for": "Background removal across platforms",
+  "platforms": [
+   "Web",
+   "API"
+  ],
+  "description": "Slazzer is an automatic background removal service available as a web tool, with integrations and an API for bulk use.\n\nIt suits online stores that need consistent cutouts across many photos. Check the official site for supported integrations and plans.",
+  "use_steps": [
+   "Upload a photo or drag it into the tool.",
+   "Let the tool detect and cut out the main subject.",
+   "Check the edges and refine the cutout if needed.",
+   "Download the transparent image or place it on a new background."
+  ],
+  "pros": [
+   "Focused on a specific image task",
+   "Saves time on repetitive edits",
+   "Easy to try on a sample photo",
+   "Available on Web, API"
+  ],
+  "cons": [
+   "Hair, glass and fine edges can need manual cleanup",
+   "Export size or quality limits can depend on the plan"
+  ],
+  "alternatives": [
+   "remove-bg",
+   "removal-ai",
+   "erase-bg"
+  ],
+  "tags": [
+   "image",
+   "ai",
+   "photo editing",
+   "background remover",
+   "tools"
+  ],
+  "features": [
+   "Automatic background removal",
+   "Transparent PNG export",
+   "Replacement backgrounds",
+   "Edge refinement"
+  ],
+  "use_cases": [
+   "Making product images for a store",
+   "Creating profile and ID-style photos",
+   "Compositing subjects into new designs"
+  ],
+  "pricing_details": "Pricing for Slazzer was not verified for this entry. Plans, free options and limits change over time, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Slazzer?",
+    "a": "Slazzer is an image tool: aI background remover with web, plug-in and API access. Check the official site for its current feature set."
+   },
+   {
+    "q": "Is Slazzer free?",
+    "a": "Free options, trials and paid plans change over time and were not verified here. Check the official site for current pricing."
+   },
+   {
+    "q": "Who is Slazzer best for?",
+    "a": "It is best for background removal across platforms. Compare it with the alternatives listed here and test it on a sample image before relying on it."
+   }
+  ],
+  "seo_title": "Slazzer: What It Is and How to Use It",
+  "seo_description": "Learn what Slazzer is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "erase-bg",
+  "name": "Erase.bg",
+  "category": "image",
+  "website_url": "https://www.erase.bg",
+  "pricing": "Unknown",
+  "tagline": "Free-to-try web tool for removing image backgrounds.",
+  "best_for": "Quick transparent PNG cutouts",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Erase.bg is a web tool that removes the background from an uploaded image and returns a transparent version. It requires no editing skills.\n\nIt suits casual use such as profile pictures and simple product images. Check the official site for current limits.",
+  "use_steps": [
+   "Upload a photo or drag it into the tool.",
+   "Let the tool detect and cut out the main subject.",
+   "Check the edges and refine the cutout if needed.",
+   "Download the transparent image or place it on a new background."
+  ],
+  "pros": [
+   "Focused on a specific image task",
+   "Saves time on repetitive edits",
+   "Easy to try on a sample photo"
+  ],
+  "cons": [
+   "Hair, glass and fine edges can need manual cleanup",
+   "Export size or quality limits can depend on the plan"
+  ],
+  "alternatives": [
+   "photoscissors",
+   "remove-bg",
+   "picwish"
+  ],
+  "tags": [
+   "image",
+   "ai",
+   "photo editing",
+   "background remover",
+   "tools"
+  ],
+  "features": [
+   "Automatic background removal",
+   "Transparent PNG export",
+   "Replacement backgrounds",
+   "Edge refinement"
+  ],
+  "use_cases": [
+   "Making product images for a store",
+   "Creating profile and ID-style photos",
+   "Compositing subjects into new designs"
+  ],
+  "pricing_details": "Pricing for Erase.bg was not verified for this entry. Plans, free options and limits change over time, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Erase.bg?",
+    "a": "Erase.bg is an image tool: free-to-try web tool for removing image backgrounds. Check the official site for its current feature set."
+   },
+   {
+    "q": "Is Erase.bg free?",
+    "a": "Free options, trials and paid plans change over time and were not verified here. Check the official site for current pricing."
+   },
+   {
+    "q": "Who is Erase.bg best for?",
+    "a": "It is best for quick transparent PNG cutouts. Compare it with the alternatives listed here and test it on a sample image before relying on it."
+   }
+  ],
+  "seo_title": "Erase.bg: What It Is and How to Use It",
+  "seo_description": "Learn what Erase.bg is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "insmind",
+  "name": "insMind",
+  "category": "image",
+  "website_url": "https://www.insmind.com",
+  "pricing": "Unknown",
+  "tagline": "AI design and photo tool for product images and backgrounds.",
+  "best_for": "Product and social visuals",
+  "platforms": [
+   "Web"
+  ],
+  "description": "insMind is a web platform offering AI photo tools, including background removal, backdrops for product shots and design templates.\n\nSellers and marketers use it to produce visuals without a studio. Check the official site for the current tools and plans.",
+  "use_steps": [
+   "Upload a clear photo of your product.",
+   "Choose or describe the background or scene you want.",
+   "Generate a few versions and compare them.",
+   "Download the best image and check it against your marketplace rules."
+  ],
+  "pros": [
+   "Focused on a specific image task",
+   "Saves time on repetitive edits",
+   "Easy to try on a sample photo"
+  ],
+  "cons": [
+   "Generated scenes may need checking for odd shadows or details",
+   "Marketplace image rules still apply to the final file"
+  ],
+  "alternatives": [
+   "pebblely",
+   "pixelcut",
+   "mokker"
+  ],
+  "tags": [
+   "image",
+   "ai",
+   "photo editing",
+   "product photos",
+   "tools"
+  ],
+  "features": [
+   "Product background generation",
+   "Automatic cutouts",
+   "Scene and style choices",
+   "Export for online stores"
+  ],
+  "use_cases": [
+   "Listing images for online shops",
+   "Social media product posts",
+   "Quick ad creative mockups"
+  ],
+  "pricing_details": "Pricing for insMind was not verified for this entry. Plans, free options and limits change over time, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is insMind?",
+    "a": "insMind is an image tool: aI design and photo tool for product images and backgrounds. Check the official site for its current feature set."
+   },
+   {
+    "q": "Is insMind free?",
+    "a": "Free options, trials and paid plans change over time and were not verified here. Check the official site for current pricing."
+   },
+   {
+    "q": "Who is insMind best for?",
+    "a": "It is best for product and social visuals. Compare it with the alternatives listed here and test it on a sample image before relying on it."
+   }
+  ],
+  "seo_title": "insMind: What It Is and How to Use It",
+  "seo_description": "Learn what insMind is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "pebblely",
+  "name": "Pebblely",
+  "category": "image",
+  "website_url": "https://pebblely.com",
+  "pricing": "Unknown",
+  "tagline": "AI tool for generating product photo backgrounds.",
+  "best_for": "Product photography without a studio",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Pebblely generates backgrounds for product photos. You upload an item and choose a theme, and the tool builds a scene around it.\n\nIt is aimed at small online businesses wanting varied visuals. Review each image for accuracy of the product. Check the official site for plans.",
+  "use_steps": [
+   "Upload a clear photo of your product.",
+   "Choose or describe the background or scene you want.",
+   "Generate a few versions and compare them.",
+   "Download the best image and check it against your marketplace rules."
+  ],
+  "pros": [
+   "Focused on a specific image task",
+   "Saves time on repetitive edits",
+   "Easy to try on a sample photo"
+  ],
+  "cons": [
+   "Generated scenes may need checking for odd shadows or details",
+   "Marketplace image rules still apply to the final file"
+  ],
+  "alternatives": [
+   "mokker",
+   "flair-ai",
+   "photoroom"
+  ],
+  "tags": [
+   "image",
+   "ai",
+   "photo editing",
+   "product photos",
+   "tools"
+  ],
+  "features": [
+   "Product background generation",
+   "Automatic cutouts",
+   "Scene and style choices",
+   "Export for online stores"
+  ],
+  "use_cases": [
+   "Listing images for online shops",
+   "Social media product posts",
+   "Quick ad creative mockups"
+  ],
+  "pricing_details": "Pricing for Pebblely was not verified for this entry. Plans, free options and limits change over time, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Pebblely?",
+    "a": "Pebblely is an image tool: aI tool for generating product photo backgrounds. Check the official site for its current feature set."
+   },
+   {
+    "q": "Is Pebblely free?",
+    "a": "Free options, trials and paid plans change over time and were not verified here. Check the official site for current pricing."
+   },
+   {
+    "q": "Who is Pebblely best for?",
+    "a": "It is best for product photography without a studio. Compare it with the alternatives listed here and test it on a sample image before relying on it."
+   }
+  ],
+  "seo_title": "Pebblely: What It Is and How to Use It",
+  "seo_description": "Learn what Pebblely is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "flair-ai",
+  "name": "Flair.ai",
+  "category": "image",
+  "website_url": "https://flair.ai",
+  "pricing": "Unknown",
+  "tagline": "AI design tool for product mockups and branded scenes.",
+  "best_for": "Branded product scenes",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Flair.ai is a web tool for building product scenes and mockups with AI. You place a product in a layout and the tool renders it in a styled setting.\n\nMarketers use it for ad and campaign visuals. It works more like a design canvas than a one-click tool. Check the official site for current features.",
+  "use_steps": [
+   "Upload a clear photo of your product.",
+   "Choose or describe the background or scene you want.",
+   "Generate a few versions and compare them.",
+   "Download the best image and check it against your marketplace rules."
+  ],
+  "pros": [
+   "Focused on a specific image task",
+   "Saves time on repetitive edits",
+   "Easy to try on a sample photo"
+  ],
+  "cons": [
+   "Generated scenes may need checking for odd shadows or details",
+   "Marketplace image rules still apply to the final file"
+  ],
+  "alternatives": [
+   "pebblely",
+   "mokker",
+   "insmind"
+  ],
+  "tags": [
+   "image",
+   "ai",
+   "photo editing",
+   "product photos",
+   "tools"
+  ],
+  "features": [
+   "Product background generation",
+   "Automatic cutouts",
+   "Scene and style choices",
+   "Export for online stores"
+  ],
+  "use_cases": [
+   "Listing images for online shops",
+   "Social media product posts",
+   "Quick ad creative mockups"
+  ],
+  "pricing_details": "Pricing for Flair.ai was not verified for this entry. Plans, free options and limits change over time, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Flair.ai?",
+    "a": "Flair.ai is an image tool: aI design tool for product mockups and branded scenes. Check the official site for its current feature set."
+   },
+   {
+    "q": "Is Flair.ai free?",
+    "a": "Free options, trials and paid plans change over time and were not verified here. Check the official site for current pricing."
+   },
+   {
+    "q": "Who is Flair.ai best for?",
+    "a": "It is best for branded product scenes. Compare it with the alternatives listed here and test it on a sample image before relying on it."
+   }
+  ],
+  "seo_title": "Flair.ai: What It Is and How to Use It",
+  "seo_description": "Learn what Flair.ai is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "photoai",
+  "name": "Photo AI",
+  "category": "image",
+  "website_url": "https://photoai.com",
+  "pricing": "Unknown",
+  "tagline": "AI service that creates photos of a person from uploaded images.",
+  "best_for": "Generating personal photos from selfies",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Photo AI is a service that trains on photos you upload and then generates new images of that person in different settings and styles.\n\nIt is used for profile images and creative portraits. Because it works with face images, read the privacy terms carefully. Check the official site for current plans.",
+  "use_steps": [
+   "Create an account and read how the service handles your photos.",
+   "Upload the selfies it asks for, following its photo guidelines.",
+   "Choose styles or settings for the headshots you want.",
+   "Review the generated images and download the ones you like."
+  ],
+  "pros": [
+   "Focused on a specific image task",
+   "Saves time on repetitive edits",
+   "Easy to try on a sample photo"
+  ],
+  "cons": [
+   "Some results may not look like you, so review every image",
+   "Check the privacy and data-retention terms before uploading photos"
+  ],
+  "alternatives": [
+   "aragon-ai",
+   "headshotpro",
+   "betterpic"
+  ],
+  "tags": [
+   "image",
+   "ai",
+   "photo editing",
+   "headshots",
+   "tools"
+  ],
+  "features": [
+   "AI-generated headshots from selfies",
+   "Choice of styles and outfits",
+   "Downloadable image sets",
+   "Online upload workflow"
+  ],
+  "use_cases": [
+   "Refreshing a LinkedIn or CV photo",
+   "Team and company profile pictures",
+   "Speaker and author bios"
+  ],
+  "pricing_details": "Pricing for Photo AI was not verified for this entry. Plans, free options and limits change over time, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Photo AI?",
+    "a": "Photo AI is an image tool: aI service that creates photos of a person from uploaded images. Check the official site for its current feature set."
+   },
+   {
+    "q": "Is Photo AI free?",
+    "a": "Free options, trials and paid plans change over time and were not verified here. Check the official site for current pricing."
+   },
+   {
+    "q": "Who is Photo AI best for?",
+    "a": "It is best for generating personal photos from selfies. Compare it with the alternatives listed here and test it on a sample image before relying on it."
+   }
+  ],
+  "seo_title": "Photo AI: What It Is and How to Use It",
+  "seo_description": "Learn what Photo AI is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "profilepicture-ai",
+  "name": "ProfilePicture.AI",
+  "category": "image",
+  "website_url": "https://www.profilepicture.ai",
+  "pricing": "Unknown",
+  "tagline": "AI generator for profile pictures and headshots from selfies.",
+  "best_for": "Social and professional profile pictures",
+  "platforms": [
+   "Web"
+  ],
+  "description": "ProfilePicture.AI generates profile pictures from selfies you upload. It offers styles suited to professional and social profiles.\n\nUsers compare outputs and pick their favourites. As with similar services, review privacy terms and result quality. Check the official site for plans.",
+  "use_steps": [
+   "Create an account and read how the service handles your photos.",
+   "Upload the selfies it asks for, following its photo guidelines.",
+   "Choose styles or settings for the headshots you want.",
+   "Review the generated images and download the ones you like."
+  ],
+  "pros": [
+   "Focused on a specific image task",
+   "Saves time on repetitive edits",
+   "Easy to try on a sample photo"
+  ],
+  "cons": [
+   "Some results may not look like you, so review every image",
+   "Check the privacy and data-retention terms before uploading photos"
+  ],
+  "alternatives": [
+   "headshotpro",
+   "betterpic",
+   "photoai"
+  ],
+  "tags": [
+   "image",
+   "ai",
+   "photo editing",
+   "headshots",
+   "tools"
+  ],
+  "features": [
+   "AI-generated headshots from selfies",
+   "Choice of styles and outfits",
+   "Downloadable image sets",
+   "Online upload workflow"
+  ],
+  "use_cases": [
+   "Refreshing a LinkedIn or CV photo",
+   "Team and company profile pictures",
+   "Speaker and author bios"
+  ],
+  "pricing_details": "Pricing for ProfilePicture.AI was not verified for this entry. Plans, free options and limits change over time, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is ProfilePicture.AI?",
+    "a": "ProfilePicture.AI is an image tool: aI generator for profile pictures and headshots from selfies. Check the official site for its current feature set."
+   },
+   {
+    "q": "Is ProfilePicture.AI free?",
+    "a": "Free options, trials and paid plans change over time and were not verified here. Check the official site for current pricing."
+   },
+   {
+    "q": "Who is ProfilePicture.AI best for?",
+    "a": "It is best for social and professional profile pictures. Compare it with the alternatives listed here and test it on a sample image before relying on it."
+   }
+  ],
+  "seo_title": "ProfilePicture.AI: What It Is and How to Use It",
+  "seo_description": "Learn what ProfilePicture.AI is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "remaker",
+  "name": "Remaker",
+  "category": "image",
+  "website_url": "https://remaker.ai",
+  "pricing": "Unknown",
+  "tagline": "Web tool collection for face swap, avatars and image generation.",
+  "best_for": "Playful face and image effects",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Remaker is a web service that bundles face swap, AI portraits and image generation. It is focused on creative and entertainment uses.\n\nFace-swapping tools raise consent concerns, so only use photos of people who have agreed. Check the official site for features and rules.",
+  "use_steps": [
+   "Open the editor and import a photo.",
+   "Apply basic edits first, such as crop, light and colour.",
+   "Try the AI tools for the specific job you need.",
+   "Export a copy and keep the original."
+  ],
+  "pros": [
+   "Focused on a specific image task",
+   "Saves time on repetitive edits",
+   "Easy to try on a sample photo"
+  ],
+  "cons": [
+   "Some features may sit behind a paid plan",
+   "AI edits need a human check before publishing"
+  ],
+  "alternatives": [
+   "lensa",
+   "hotpot-ai",
+   "photoleap"
+  ],
+  "tags": [
+   "image",
+   "ai",
+   "photo editing",
+   "photo editor",
+   "tools"
+  ],
+  "features": [
+   "Photo editing tools",
+   "AI-assisted enhancements",
+   "Filters and effects",
+   "Export and share options"
+  ],
+  "use_cases": [
+   "Quick edits for social posts",
+   "Improving everyday photos",
+   "Creating simple graphics"
+  ],
+  "pricing_details": "Pricing for Remaker was not verified for this entry. Plans, free options and limits change over time, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Remaker?",
+    "a": "Remaker is an image tool: web tool collection for face swap, avatars and image generation. Check the official site for its current feature set."
+   },
+   {
+    "q": "Is Remaker free?",
+    "a": "Free options, trials and paid plans change over time and were not verified here. Check the official site for current pricing."
+   },
+   {
+    "q": "Who is Remaker best for?",
+    "a": "It is best for playful face and image effects. Compare it with the alternatives listed here and test it on a sample image before relying on it."
+   }
+  ],
+  "seo_title": "Remaker: What It Is and How to Use It",
+  "seo_description": "Learn what Remaker is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "artbreeder",
+  "name": "Artbreeder",
+  "category": "image",
+  "website_url": "https://www.artbreeder.com",
+  "pricing": "Unknown",
+  "tagline": "Collaborative platform for blending and evolving AI images.",
+  "best_for": "Creative image exploration",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Artbreeder is an online platform where images are created by blending and adjusting AI-generated elements with sliders. Users can also build on each other's creations.\n\nIt is used by artists and writers for characters, landscapes and concept art. Check the official site for the current workflow and plans.",
+  "use_steps": [
+   "Open the editor and import a photo.",
+   "Apply basic edits first, such as crop, light and colour.",
+   "Try the AI tools for the specific job you need.",
+   "Export a copy and keep the original."
+  ],
+  "pros": [
+   "Focused on a specific image task",
+   "Saves time on repetitive edits",
+   "Easy to try on a sample photo"
+  ],
+  "cons": [
+   "Some features may sit behind a paid plan",
+   "AI edits need a human check before publishing"
+  ],
+  "alternatives": [
+   "hotpot-ai",
+   "deepai",
+   "remaker"
+  ],
+  "tags": [
+   "image",
+   "ai",
+   "photo editing",
+   "photo editor",
+   "tools"
+  ],
+  "features": [
+   "Photo editing tools",
+   "AI-assisted enhancements",
+   "Filters and effects",
+   "Export and share options"
+  ],
+  "use_cases": [
+   "Quick edits for social posts",
+   "Improving everyday photos",
+   "Creating simple graphics"
+  ],
+  "pricing_details": "Pricing for Artbreeder was not verified for this entry. Plans, free options and limits change over time, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Artbreeder?",
+    "a": "Artbreeder is an image tool: collaborative platform for blending and evolving AI images. Check the official site for its current feature set."
+   },
+   {
+    "q": "Is Artbreeder free?",
+    "a": "Free options, trials and paid plans change over time and were not verified here. Check the official site for current pricing."
+   },
+   {
+    "q": "Who is Artbreeder best for?",
+    "a": "It is best for creative image exploration. Compare it with the alternatives listed here and test it on a sample image before relying on it."
+   }
+  ],
+  "seo_title": "Artbreeder: What It Is and How to Use It",
+  "seo_description": "Learn what Artbreeder is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "deepai",
+  "name": "DeepAI",
+  "category": "image",
+  "website_url": "https://deepai.org",
+  "pricing": "Unknown",
+  "tagline": "Website offering assorted AI tools for images and text.",
+  "best_for": "Trying simple AI image tools",
+  "platforms": [
+   "Web"
+  ],
+  "description": "DeepAI is a long-running website that hosts several AI tools, including image generation and image editing utilities, plus text features.\n\nIt is a lightweight place to try ideas without setup. Output quality varies by tool. Check the official site for what is currently offered.",
+  "use_steps": [
+   "Open the editor and import a photo.",
+   "Apply basic edits first, such as crop, light and colour.",
+   "Try the AI tools for the specific job you need.",
+   "Export a copy and keep the original."
+  ],
+  "pros": [
+   "Focused on a specific image task",
+   "Saves time on repetitive edits",
+   "Easy to try on a sample photo"
+  ],
+  "cons": [
+   "Some features may sit behind a paid plan",
+   "AI edits need a human check before publishing"
+  ],
+  "alternatives": [
+   "hotpot-ai",
+   "artbreeder",
+   "fotor"
+  ],
+  "tags": [
+   "image",
+   "ai",
+   "photo editing",
+   "photo editor",
+   "tools"
+  ],
+  "features": [
+   "Photo editing tools",
+   "AI-assisted enhancements",
+   "Filters and effects",
+   "Export and share options"
+  ],
+  "use_cases": [
+   "Quick edits for social posts",
+   "Improving everyday photos",
+   "Creating simple graphics"
+  ],
+  "pricing_details": "Pricing for DeepAI was not verified for this entry. Plans, free options and limits change over time, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is DeepAI?",
+    "a": "DeepAI is an image tool: website offering assorted AI tools for images and text. Check the official site for its current feature set."
+   },
+   {
+    "q": "Is DeepAI free?",
+    "a": "Free options, trials and paid plans change over time and were not verified here. Check the official site for current pricing."
+   },
+   {
+    "q": "Who is DeepAI best for?",
+    "a": "It is best for trying simple AI image tools. Compare it with the alternatives listed here and test it on a sample image before relying on it."
+   }
+  ],
+  "seo_title": "DeepAI: What It Is and How to Use It",
+  "seo_description": "Learn what DeepAI is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "bigjpg",
+  "name": "Bigjpg",
+  "category": "image",
+  "website_url": "https://bigjpg.com",
+  "pricing": "Unknown",
+  "tagline": "Online tool for enlarging images, often anime and illustrations.",
+  "best_for": "Enlarging illustrations and artwork",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Bigjpg is a web tool for enlarging images using a neural-network approach. It is often used for anime art and illustrations, as well as photos.\n\nYou upload an image, choose enlargement and noise options, and download the result. Check the official site for size limits and plans.",
+  "use_steps": [
+   "Open the tool and import the low-resolution or soft image.",
+   "Choose the enhancement or upscaling option that matches the image type.",
+   "Preview the result at full size and compare it with the original.",
+   "Export a copy and keep the original file untouched."
+  ],
+  "pros": [
+   "Focused on a specific image task",
+   "Saves time on repetitive edits",
+   "Easy to try on a sample photo"
+  ],
+  "cons": [
+   "Added detail is generated, so fine textures may not match the real scene",
+   "Results vary with the quality of the source image"
+  ],
+  "alternatives": [
+   "upscale-media",
+   "imglarger",
+   "upscayl"
+  ],
+  "tags": [
+   "image",
+   "ai",
+   "photo editing",
+   "upscaler",
+   "tools"
+  ],
+  "features": [
+   "Image upscaling",
+   "Detail and sharpness enhancement",
+   "Noise reduction",
+   "Before and after preview"
+  ],
+  "use_cases": [
+   "Enlarging small images for print",
+   "Improving old or low-quality photos",
+   "Preparing sharper web or social graphics"
+  ],
+  "pricing_details": "Pricing for Bigjpg was not verified for this entry. Plans, free options and limits change over time, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Bigjpg?",
+    "a": "Bigjpg is an image tool: online tool for enlarging images, often anime and illustrations. Check the official site for its current feature set."
+   },
+   {
+    "q": "Is Bigjpg free?",
+    "a": "Free options, trials and paid plans change over time and were not verified here. Check the official site for current pricing."
+   },
+   {
+    "q": "Who is Bigjpg best for?",
+    "a": "It is best for enlarging illustrations and artwork. Compare it with the alternatives listed here and test it on a sample image before relying on it."
+   }
+  ],
+  "seo_title": "Bigjpg: What It Is and How to Use It",
+  "seo_description": "Learn what Bigjpg is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "imglarger",
+  "name": "Imglarger",
+  "category": "image",
+  "website_url": "https://imglarger.com",
+  "pricing": "Unknown",
+  "tagline": "Online AI upscaler and image enhancer.",
+  "best_for": "Enlarging and sharpening images online",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Imglarger is a browser-based tool for upscaling and improving images, with options for photos and artwork.\n\nIt is meant for quick enlargements without installing software. Check the official site for the limits and plans.",
+  "use_steps": [
+   "Open the tool and import the low-resolution or soft image.",
+   "Choose the enhancement or upscaling option that matches the image type.",
+   "Preview the result at full size and compare it with the original.",
+   "Export a copy and keep the original file untouched."
+  ],
+  "pros": [
+   "Focused on a specific image task",
+   "Saves time on repetitive edits",
+   "Easy to try on a sample photo"
+  ],
+  "cons": [
+   "Added detail is generated, so fine textures may not match the real scene",
+   "Results vary with the quality of the source image"
+  ],
+  "alternatives": [
+   "bigjpg",
+   "upscale-media",
+   "vanceai"
+  ],
+  "tags": [
+   "image",
+   "ai",
+   "photo editing",
+   "upscaler",
+   "tools"
+  ],
+  "features": [
+   "Image upscaling",
+   "Detail and sharpness enhancement",
+   "Noise reduction",
+   "Before and after preview"
+  ],
+  "use_cases": [
+   "Enlarging small images for print",
+   "Improving old or low-quality photos",
+   "Preparing sharper web or social graphics"
+  ],
+  "pricing_details": "Pricing for Imglarger was not verified for this entry. Plans, free options and limits change over time, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Imglarger?",
+    "a": "Imglarger is an image tool: online AI upscaler and image enhancer. Check the official site for its current feature set."
+   },
+   {
+    "q": "Is Imglarger free?",
+    "a": "Free options, trials and paid plans change over time and were not verified here. Check the official site for current pricing."
+   },
+   {
+    "q": "Who is Imglarger best for?",
+    "a": "It is best for enlarging and sharpening images online. Compare it with the alternatives listed here and test it on a sample image before relying on it."
+   }
+  ],
+  "seo_title": "Imglarger: What It Is and How to Use It",
+  "seo_description": "Learn what Imglarger is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "upscale-media",
+  "name": "Upscale.media",
+  "category": "image",
+  "website_url": "https://www.upscale.media",
+  "pricing": "Unknown",
+  "tagline": "Free-to-try web upscaler from the Pixelbin team.",
+  "best_for": "Quick image enlargement in the browser",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Upscale.media is a web tool for increasing image size and quality with AI. You upload a picture and download the enlarged version.\n\nIt is offered alongside other image tools from the same company. Check the official site for the limits and options.",
+  "use_steps": [
+   "Open the tool and import the low-resolution or soft image.",
+   "Choose the enhancement or upscaling option that matches the image type.",
+   "Preview the result at full size and compare it with the original.",
+   "Export a copy and keep the original file untouched."
+  ],
+  "pros": [
+   "Focused on a specific image task",
+   "Saves time on repetitive edits",
+   "Easy to try on a sample photo"
+  ],
+  "cons": [
+   "Added detail is generated, so fine textures may not match the real scene",
+   "Results vary with the quality of the source image"
+  ],
+  "alternatives": [
+   "bigjpg",
+   "imglarger",
+   "pixelbin"
+  ],
+  "tags": [
+   "image",
+   "ai",
+   "photo editing",
+   "upscaler",
+   "tools"
+  ],
+  "features": [
+   "Image upscaling",
+   "Detail and sharpness enhancement",
+   "Noise reduction",
+   "Before and after preview"
+  ],
+  "use_cases": [
+   "Enlarging small images for print",
+   "Improving old or low-quality photos",
+   "Preparing sharper web or social graphics"
+  ],
+  "pricing_details": "Pricing for Upscale.media was not verified for this entry. Plans, free options and limits change over time, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Upscale.media?",
+    "a": "Upscale.media is an image tool: free-to-try web upscaler from the Pixelbin team. Check the official site for its current feature set."
+   },
+   {
+    "q": "Is Upscale.media free?",
+    "a": "Free options, trials and paid plans change over time and were not verified here. Check the official site for current pricing."
+   },
+   {
+    "q": "Who is Upscale.media best for?",
+    "a": "It is best for quick image enlargement in the browser. Compare it with the alternatives listed here and test it on a sample image before relying on it."
+   }
+  ],
+  "seo_title": "Upscale.media: What It Is and How to Use It",
+  "seo_description": "Learn what Upscale.media is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "hitpaw",
+  "name": "HitPaw Photo Enhancer",
+  "category": "image",
+  "website_url": "https://www.hitpaw.com",
+  "pricing": "Unknown",
+  "tagline": "Desktop and online AI photo enhancement and background removal.",
+  "best_for": "Improving blurry or low-resolution photos",
+  "platforms": [
+   "Windows",
+   "macOS",
+   "Web"
+  ],
+  "description": "HitPaw publishes a range of media tools, including an AI photo enhancer for sharpening and enlarging images and a background remover.\n\nDesktop apps are available alongside web options. Check the official site for the current product lineup and licences.",
+  "use_steps": [
+   "Open the tool and import the low-resolution or soft image.",
+   "Choose the enhancement or upscaling option that matches the image type.",
+   "Preview the result at full size and compare it with the original.",
+   "Export a copy and keep the original file untouched."
+  ],
+  "pros": [
+   "Focused on a specific image task",
+   "Saves time on repetitive edits",
+   "Easy to try on a sample photo",
+   "Available on Windows, macOS, Web"
+  ],
+  "cons": [
+   "Added detail is generated, so fine textures may not match the real scene",
+   "Results vary with the quality of the source image"
+  ],
+  "alternatives": [
+   "vanceai",
+   "topaz-labs",
+   "imglarger"
+  ],
+  "tags": [
+   "image",
+   "ai",
+   "photo editing",
+   "upscaler",
+   "tools"
+  ],
+  "features": [
+   "Image upscaling",
+   "Detail and sharpness enhancement",
+   "Noise reduction",
+   "Before and after preview"
+  ],
+  "use_cases": [
+   "Enlarging small images for print",
+   "Improving old or low-quality photos",
+   "Preparing sharper web or social graphics"
+  ],
+  "pricing_details": "Pricing for HitPaw Photo Enhancer was not verified for this entry. Plans, free options and limits change over time, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is HitPaw Photo Enhancer?",
+    "a": "HitPaw Photo Enhancer is an image tool: desktop and online AI photo enhancement and background removal. Check the official site for its current feature set."
+   },
+   {
+    "q": "Is HitPaw Photo Enhancer free?",
+    "a": "Free options, trials and paid plans change over time and were not verified here. Check the official site for current pricing."
+   },
+   {
+    "q": "Who is HitPaw Photo Enhancer best for?",
+    "a": "It is best for improving blurry or low-resolution photos. Compare it with the alternatives listed here and test it on a sample image before relying on it."
+   }
+  ],
+  "seo_title": "HitPaw Photo Enhancer: What It Is and How to Use It",
+  "seo_description": "Learn what HitPaw Photo Enhancer is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "pixelbin",
+  "name": "Pixelbin",
+  "category": "image",
+  "website_url": "https://www.pixelbin.io",
+  "pricing": "Unknown",
+  "tagline": "Image tools and delivery platform with AI editing features.",
+  "best_for": "Teams managing and transforming product images",
+  "platforms": [
+   "Web",
+   "API"
+  ],
+  "description": "Pixelbin is a platform that combines AI image tools, such as background removal and upscaling, with image storage and delivery for developers and online businesses.\n\nIt targets teams that handle many images on an ecommerce site. Check the official site for plans and developer features.",
+  "use_steps": [
+   "Upload a clear photo of your product.",
+   "Choose or describe the background or scene you want.",
+   "Generate a few versions and compare them.",
+   "Download the best image and check it against your marketplace rules."
+  ],
+  "pros": [
+   "Focused on a specific image task",
+   "Saves time on repetitive edits",
+   "Easy to try on a sample photo",
+   "Available on Web, API"
+  ],
+  "cons": [
+   "Generated scenes may need checking for odd shadows or details",
+   "Marketplace image rules still apply to the final file"
+  ],
+  "alternatives": [
+   "claid-ai",
+   "upscale-media",
+   "removal-ai"
+  ],
+  "tags": [
+   "image",
+   "ai",
+   "photo editing",
+   "product photos",
+   "tools"
+  ],
+  "features": [
+   "Product background generation",
+   "Automatic cutouts",
+   "Scene and style choices",
+   "Export for online stores"
+  ],
+  "use_cases": [
+   "Listing images for online shops",
+   "Social media product posts",
+   "Quick ad creative mockups"
+  ],
+  "pricing_details": "Pricing for Pixelbin was not verified for this entry. Plans, free options and limits change over time, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Pixelbin?",
+    "a": "Pixelbin is an image tool: image tools and delivery platform with AI editing features. Check the official site for its current feature set."
+   },
+   {
+    "q": "Is Pixelbin free?",
+    "a": "Free options, trials and paid plans change over time and were not verified here. Check the official site for current pricing."
+   },
+   {
+    "q": "Who is Pixelbin best for?",
+    "a": "It is best for teams managing and transforming product images. Compare it with the alternatives listed here and test it on a sample image before relying on it."
+   }
+  ],
+  "seo_title": "Pixelbin: What It Is and How to Use It",
+  "seo_description": "Learn what Pixelbin is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "picwish",
+  "name": "PicWish",
+  "category": "image",
+  "website_url": "https://picwish.com",
+  "pricing": "Unknown",
+  "tagline": "AI photo tools for background removal, enhancement and retouching.",
+  "best_for": "Everyday photo cleanup",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "PicWish is a set of AI photo tools including background removal, photo enhancement and object erasing, available on web and phone.\n\nIt suits casual users and small sellers. Check the official site for current tools and plans.",
+  "use_steps": [
+   "Upload a photo or drag it into the tool.",
+   "Let the tool detect and cut out the main subject.",
+   "Check the edges and refine the cutout if needed.",
+   "Download the transparent image or place it on a new background."
+  ],
+  "pros": [
+   "Focused on a specific image task",
+   "Saves time on repetitive edits",
+   "Easy to try on a sample photo",
+   "Available on Web, iOS, Android"
+  ],
+  "cons": [
+   "Hair, glass and fine edges can need manual cleanup",
+   "Export size or quality limits can depend on the plan"
+  ],
+  "alternatives": [
+   "cutout-pro",
+   "erase-bg",
+   "photoscissors"
+  ],
+  "tags": [
+   "image",
+   "ai",
+   "photo editing",
+   "background remover",
+   "tools"
+  ],
+  "features": [
+   "Automatic background removal",
+   "Transparent PNG export",
+   "Replacement backgrounds",
+   "Edge refinement"
+  ],
+  "use_cases": [
+   "Making product images for a store",
+   "Creating profile and ID-style photos",
+   "Compositing subjects into new designs"
+  ],
+  "pricing_details": "Pricing for PicWish was not verified for this entry. Plans, free options and limits change over time, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is PicWish?",
+    "a": "PicWish is an image tool: aI photo tools for background removal, enhancement and retouching. Check the official site for its current feature set."
+   },
+   {
+    "q": "Is PicWish free?",
+    "a": "Free options, trials and paid plans change over time and were not verified here. Check the official site for current pricing."
+   },
+   {
+    "q": "Who is PicWish best for?",
+    "a": "It is best for everyday photo cleanup. Compare it with the alternatives listed here and test it on a sample image before relying on it."
+   }
+  ],
+  "seo_title": "PicWish: What It Is and How to Use It",
+  "seo_description": "Learn what PicWish is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "designify",
+  "name": "Designify",
+  "category": "image",
+  "website_url": "https://www.designify.com",
+  "pricing": "Unknown",
+  "tagline": "Tool that auto-edits images with a cleaned background and styling.",
+  "best_for": "Making images look polished in one click",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Designify automatically removes a background and applies a styled, professional look to the image, including shadows and colour balance.\n\nIt is meant for people who want a ready-to-use graphic without manual editing. Check the official site for current plans.",
+  "use_steps": [
+   "Upload a clear photo of your product.",
+   "Choose or describe the background or scene you want.",
+   "Generate a few versions and compare them.",
+   "Download the best image and check it against your marketplace rules."
+  ],
+  "pros": [
+   "Focused on a specific image task",
+   "Saves time on repetitive edits",
+   "Easy to try on a sample photo"
+  ],
+  "cons": [
+   "Generated scenes may need checking for odd shadows or details",
+   "Marketplace image rules still apply to the final file"
+  ],
+  "alternatives": [
+   "pixelcut",
+   "photoroom",
+   "pebblely"
+  ],
+  "tags": [
+   "image",
+   "ai",
+   "photo editing",
+   "product photos",
+   "tools"
+  ],
+  "features": [
+   "Product background generation",
+   "Automatic cutouts",
+   "Scene and style choices",
+   "Export for online stores"
+  ],
+  "use_cases": [
+   "Listing images for online shops",
+   "Social media product posts",
+   "Quick ad creative mockups"
+  ],
+  "pricing_details": "Pricing for Designify was not verified for this entry. Plans, free options and limits change over time, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Designify?",
+    "a": "Designify is an image tool: tool that auto-edits images with a cleaned background and styling. Check the official site for its current feature set."
+   },
+   {
+    "q": "Is Designify free?",
+    "a": "Free options, trials and paid plans change over time and were not verified here. Check the official site for current pricing."
+   },
+   {
+    "q": "Who is Designify best for?",
+    "a": "It is best for making images look polished in one click. Compare it with the alternatives listed here and test it on a sample image before relying on it."
+   }
+  ],
+  "seo_title": "Designify: What It Is and How to Use It",
+  "seo_description": "Learn what Designify is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "youcam-perfect",
+  "name": "YouCam Perfect",
+  "category": "image",
+  "website_url": "https://www.perfectcorp.com/consumer/apps/ycp",
+  "pricing": "Unknown",
+  "tagline": "Mobile selfie and photo editor from Perfect Corp.",
+  "best_for": "Selfie retouching and effects on mobile",
+  "platforms": [
+   "iOS",
+   "Android"
+  ],
+  "description": "YouCam Perfect is a mobile app by Perfect Corp that combines selfie retouching, filters and background tools.\n\nIt is aimed at casual phone users. Moderation with retouching generally gives more natural results. Check the official site or store page for plans.",
+  "use_steps": [
+   "Open or import your portrait photos.",
+   "Pick the retouching or enhancement options you want.",
+   "Adjust the strength so the result still looks natural.",
+   "Export the finished images and compare them with the originals."
+  ],
+  "pros": [
+   "Focused on a specific image task",
+   "Saves time on repetitive edits",
+   "Easy to try on a sample photo",
+   "Available on iOS, Android"
+  ],
+  "cons": [
+   "Heavy retouching can look artificial",
+   "Learning which settings suit each photo takes practice"
+  ],
+  "alternatives": [
+   "facetune",
+   "lensa",
+   "photoleap"
+  ],
+  "tags": [
+   "image",
+   "ai",
+   "photo editing",
+   "retouching",
+   "tools"
+  ],
+  "features": [
+   "Skin and portrait retouching",
+   "Adjustable effect strength",
+   "Batch-friendly workflow",
+   "Export for web or print"
+  ],
+  "use_cases": [
+   "Retouching portrait sessions",
+   "Touching up selfies and profile photos",
+   "Speeding up repetitive edits"
+  ],
+  "pricing_details": "Pricing for YouCam Perfect was not verified for this entry. Plans, free options and limits change over time, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is YouCam Perfect?",
+    "a": "YouCam Perfect is an image tool: mobile selfie and photo editor from Perfect Corp. Check the official site for its current feature set."
+   },
+   {
+    "q": "Is YouCam Perfect free?",
+    "a": "Free options, trials and paid plans change over time and were not verified here. Check the official site for current pricing."
+   },
+   {
+    "q": "Who is YouCam Perfect best for?",
+    "a": "It is best for selfie retouching and effects on mobile. Compare it with the alternatives listed here and test it on a sample image before relying on it."
+   }
+  ],
+  "seo_title": "YouCam Perfect: What It Is and How to Use It",
+  "seo_description": "Learn what YouCam Perfect is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "capture-one",
+  "name": "Capture One",
+  "category": "image",
+  "website_url": "https://www.captureone.com",
+  "pricing": "Unknown",
+  "tagline": "Professional RAW photo editor with tethered shooting.",
+  "best_for": "Studio and commercial photographers",
+  "platforms": [
+   "Windows",
+   "macOS"
+  ],
+  "description": "Capture One is a professional RAW editor known for colour control and tethered shooting. Recent versions have added AI-assisted tools such as automatic masking.\n\nIt is used in studio and commercial photography. It has a learning curve. Check the official site for the current options.",
+  "use_steps": [
+   "Import your photos or RAW files.",
+   "Apply the automatic or AI-assisted adjustments.",
+   "Fine-tune exposure, colour and detail by hand.",
+   "Export the edits in the format you need."
+  ],
+  "pros": [
+   "Focused on a specific image task",
+   "Saves time on repetitive edits",
+   "Easy to try on a sample photo",
+   "Available on Windows, macOS"
+  ],
+  "cons": [
+   "Desktop software has a learning curve",
+   "Computer performance affects speed on large files"
+  ],
+  "alternatives": [
+   "lightroom",
+   "dxo-photolab",
+   "on1-photo-raw"
+  ],
+  "tags": [
+   "image",
+   "ai",
+   "photo editing",
+   "raw editing",
+   "tools"
+  ],
+  "features": [
+   "Photo editing and development",
+   "AI-assisted adjustments",
+   "Non-destructive workflow",
+   "Export presets"
+  ],
+  "use_cases": [
+   "Editing photo shoots",
+   "Batch-improving travel photos",
+   "Developing RAW images"
+  ],
+  "pricing_details": "Pricing for Capture One was not verified for this entry. Plans, free options and limits change over time, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Capture One?",
+    "a": "Capture One is an image tool: professional RAW photo editor with tethered shooting. Check the official site for its current feature set."
+   },
+   {
+    "q": "Is Capture One free?",
+    "a": "Free options, trials and paid plans change over time and were not verified here. Check the official site for current pricing."
+   },
+   {
+    "q": "Who is Capture One best for?",
+    "a": "It is best for studio and commercial photographers. Compare it with the alternatives listed here and test it on a sample image before relying on it."
+   }
+  ],
+  "seo_title": "Capture One: What It Is and How to Use It",
+  "seo_description": "Learn what Capture One is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "inpaint",
+  "name": "Inpaint",
+  "category": "image",
+  "website_url": "https://theinpaint.com",
+  "pricing": "Unknown",
+  "tagline": "Online and desktop tool for removing unwanted objects from photos.",
+  "best_for": "Removing watermarks-free objects and blemishes",
+  "platforms": [
+   "Web",
+   "Windows",
+   "macOS"
+  ],
+  "description": "Inpaint is a tool for erasing unwanted objects, such as tourists, cables or blemishes, by filling the area from the surroundings. It is available online and as software.\n\nIt is aimed at simple restoration jobs. Check the official site for the versions and pricing.",
+  "use_steps": [
+   "Upload the image you want to clean up.",
+   "Brush over the object, text or blemish to remove.",
+   "Run the removal and inspect the filled area.",
+   "Repeat on any leftover marks, then download the result."
+  ],
+  "pros": [
+   "Focused on a specific image task",
+   "Saves time on repetitive edits",
+   "Easy to try on a sample photo",
+   "Available on Web, Windows, macOS"
+  ],
+  "cons": [
+   "Complex backgrounds can leave visible patches",
+   "Only remove items you have the right to edit"
+  ],
+  "alternatives": [
+   "cleanup-pictures",
+   "snapedit",
+   "picwish"
+  ],
+  "tags": [
+   "image",
+   "ai",
+   "photo editing",
+   "object remover",
+   "tools"
+  ],
+  "features": [
+   "Object removal by brushing",
+   "Automatic fill of the removed area",
+   "Text and watermark cleanup",
+   "Simple browser workflow"
+  ],
+  "use_cases": [
+   "Removing distractions from travel photos",
+   "Cleaning up product shots",
+   "Erasing marks from scanned images"
+  ],
+  "pricing_details": "Pricing for Inpaint was not verified for this entry. Plans, free options and limits change over time, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Inpaint?",
+    "a": "Inpaint is an image tool: online and desktop tool for removing unwanted objects from photos. Check the official site for its current feature set."
+   },
+   {
+    "q": "Is Inpaint free?",
+    "a": "Free options, trials and paid plans change over time and were not verified here. Check the official site for current pricing."
+   },
+   {
+    "q": "Who is Inpaint best for?",
+    "a": "It is best for removing watermarks-free objects and blemishes. Compare it with the alternatives listed here and test it on a sample image before relying on it."
+   }
+  ],
+  "seo_title": "Inpaint: What It Is and How to Use It",
+  "seo_description": "Learn what Inpaint is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "snapedit",
+  "name": "Snapedit",
+  "category": "image",
+  "website_url": "https://snapedit.app",
+  "pricing": "Unknown",
+  "tagline": "AI editor for object removal, background change and enhancement.",
+  "best_for": "Quick mobile and web fixes",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "Snapedit is an app and website offering AI object removal, background changes and photo enhancement.\n\nIt suits users who want quick edits from a phone. Check the official site for the feature list and plans.",
+  "use_steps": [
+   "Upload the image you want to clean up.",
+   "Brush over the object, text or blemish to remove.",
+   "Run the removal and inspect the filled area.",
+   "Repeat on any leftover marks, then download the result."
+  ],
+  "pros": [
+   "Focused on a specific image task",
+   "Saves time on repetitive edits",
+   "Easy to try on a sample photo",
+   "Available on Web, iOS, Android"
+  ],
+  "cons": [
+   "Complex backgrounds can leave visible patches",
+   "Only remove items you have the right to edit"
+  ],
+  "alternatives": [
+   "cleanup-pictures",
+   "inpaint",
+   "pixelcut"
+  ],
+  "tags": [
+   "image",
+   "ai",
+   "photo editing",
+   "object remover",
+   "tools"
+  ],
+  "features": [
+   "Object removal by brushing",
+   "Automatic fill of the removed area",
+   "Text and watermark cleanup",
+   "Simple browser workflow"
+  ],
+  "use_cases": [
+   "Removing distractions from travel photos",
+   "Cleaning up product shots",
+   "Erasing marks from scanned images"
+  ],
+  "pricing_details": "Pricing for Snapedit was not verified for this entry. Plans, free options and limits change over time, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Snapedit?",
+    "a": "Snapedit is an image tool: aI editor for object removal, background change and enhancement. Check the official site for its current feature set."
+   },
+   {
+    "q": "Is Snapedit free?",
+    "a": "Free options, trials and paid plans change over time and were not verified here. Check the official site for current pricing."
+   },
+   {
+    "q": "Who is Snapedit best for?",
+    "a": "It is best for quick mobile and web fixes. Compare it with the alternatives listed here and test it on a sample image before relying on it."
+   }
+  ],
+  "seo_title": "Snapedit: What It Is and How to Use It",
+  "seo_description": "Learn what Snapedit is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ }
+]

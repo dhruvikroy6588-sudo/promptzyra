@@ -1,0 +1,998 @@
+[
+  {
+    "type": "settings",
+    "slug": "learning-output-style",
+    "name": "Learning Output Style",
+    "description": "Turns on the built-in Learning style: Claude explains its choices and leaves small TODO(human) pieces for you to code.",
+    "category": "study-learning",
+    "tags": [
+      "output-style",
+      "learning",
+      "practice",
+      "beginner"
+    ],
+    "author": "Promptzyra",
+    "github_url": "https://code.claude.com/docs/en/output-styles.md",
+    "install": "1. Open ~/.claude/settings.json (create it if it does not exist).\n2. Merge the keys from settings.json below into your file; keep any keys you already have.\n3. Save, then restart Claude Code (or run /config to confirm the value).\n4. Remove a key at any time to go back to the default.",
+    "files": [
+      {
+        "path": "settings.json",
+        "content": "{\n  \"outputStyle\": \"Learning\"\n}\n"
+      }
+    ],
+    "use_cases": [
+      "Practice coding while a project still gets built",
+      "Understand why each choice was made",
+      "Self-paced programming homework"
+    ],
+    "example_prompts": [
+      "Add a login form and leave the validation for me to write",
+      "Walk me through what you just built"
+    ],
+    "level": "Beginner",
+    "audience": "Students"
+  },
+  {
+    "type": "settings",
+    "slug": "explanatory-output-style",
+    "name": "Explanatory Output Style",
+    "description": "Turns on the built-in Explanatory style, which adds short Insight blocks explaining the reasoning behind code changes.",
+    "category": "teaching",
+    "tags": [
+      "output-style",
+      "explanatory",
+      "insight",
+      "onboarding"
+    ],
+    "author": "Promptzyra",
+    "github_url": "https://code.claude.com/docs/en/output-styles.md",
+    "install": "1. Open ~/.claude/settings.json (create it if it does not exist).\n2. Merge the keys from settings.json below into your file; keep any keys you already have.\n3. Save, then restart Claude Code (or run /config to confirm the value).\n4. Remove a key at any time to go back to the default.",
+    "files": [
+      {
+        "path": "settings.json",
+        "content": "{\n  \"outputStyle\": \"Explanatory\"\n}\n"
+      }
+    ],
+    "use_cases": [
+      "Reading an unfamiliar codebase",
+      "Demonstrating reasoning in a class demo",
+      "Code review walkthroughs"
+    ],
+    "example_prompts": [
+      "Explain how routing works in this repo",
+      "Add an endpoint and tell me why you chose this pattern"
+    ],
+    "level": "Beginner",
+    "audience": "Teachers"
+  },
+  {
+    "type": "settings",
+    "slug": "concise-output-style",
+    "name": "Concise Output Style",
+    "description": "Turns on the built-in Concise style so replies lead with the result and skip preamble and recaps. Needs Claude Code v2.1.237 or later.",
+    "category": "productivity",
+    "tags": [
+      "output-style",
+      "concise",
+      "short",
+      "focus"
+    ],
+    "author": "Promptzyra",
+    "github_url": "https://code.claude.com/docs/en/output-styles.md",
+    "install": "1. Open ~/.claude/settings.json (create it if it does not exist).\n2. Merge the keys from settings.json below into your file; keep any keys you already have.\n3. Save, then restart Claude Code (or run /config to confirm the value).\n4. Remove a key at any time to go back to the default.",
+    "files": [
+      {
+        "path": "settings.json",
+        "content": "{\n  \"outputStyle\": \"Concise\"\n}\n"
+      }
+    ],
+    "use_cases": [
+      "Quick lookups between lectures",
+      "Less scrolling on small screens",
+      "Fast iteration when you already know the topic"
+    ],
+    "example_prompts": [
+      "What does this error mean?",
+      "Rename this function everywhere"
+    ],
+    "level": "Beginner",
+    "audience": "Anyone"
+  },
+  {
+    "type": "settings",
+    "slug": "student-safe-permissions",
+    "name": "Student Safe Permissions",
+    "description": "Pre-approves read-only git commands and common test runs, asks before pushing, and denies reads of .env files and a secrets folder.",
+    "category": "coding-education",
+    "tags": [
+      "permissions",
+      "safety",
+      "allow-deny",
+      "git"
+    ],
+    "author": "Promptzyra",
+    "github_url": "https://code.claude.com/docs/en/settings-example.md",
+    "install": "1. Open ~/.claude/settings.json (all projects) or .claude/settings.json (one project) (create it if it does not exist).\n2. Merge the keys from settings.json below into your file; keep any keys you already have.\n3. Save, then restart Claude Code (or run /config to confirm the value).\n4. Remove a key at any time to go back to the default.",
+    "files": [
+      {
+        "path": "settings.json",
+        "content": "{\n  \"permissions\": {\n    \"allow\": [\n      \"Bash(git status *)\",\n      \"Bash(git diff *)\",\n      \"Bash(git log *)\",\n      \"Bash(npm run test *)\"\n    ],\n    \"ask\": [\n      \"Bash(git push *)\"\n    ],\n    \"deny\": [\n      \"Read(./.env)\",\n      \"Read(./.env.*)\",\n      \"Read(./secrets/**)\"\n    ]\n  }\n}\n"
+      }
+    ],
+    "use_cases": [
+      "Fewer permission prompts while learning",
+      "Keep API keys out of Claude's reach",
+      "Shared lab machines"
+    ],
+    "example_prompts": [
+      "Show me what changed since my last commit",
+      "Run the tests and explain failures"
+    ],
+    "level": "Beginner",
+    "audience": "Students"
+  },
+  {
+    "type": "settings",
+    "slug": "plan-mode-default",
+    "name": "Plan Mode by Default",
+    "description": "Starts every session in plan mode, so Claude proposes changes and waits for approval before editing source files.",
+    "category": "study-learning",
+    "tags": [
+      "permissions",
+      "plan-mode",
+      "exploration",
+      "read-only"
+    ],
+    "author": "Promptzyra",
+    "github_url": "https://code.claude.com/docs/en/permission-modes.md",
+    "install": "1. Open ~/.claude/settings.json (create it if it does not exist).\n2. Merge the keys from settings.json below into your file; keep any keys you already have.\n3. Save, then restart Claude Code (or run /config to confirm the value).\n4. Remove a key at any time to go back to the default.",
+    "files": [
+      {
+        "path": "settings.json",
+        "content": "{\n  \"permissions\": {\n    \"defaultMode\": \"plan\"\n  }\n}\n"
+      }
+    ],
+    "use_cases": [
+      "Explore a new codebase safely",
+      "Review a plan before any file changes",
+      "Teach planning before coding"
+    ],
+    "example_prompts": [
+      "Plan how to add dark mode to this app",
+      "Outline a refactor of the grading module"
+    ],
+    "level": "Beginner",
+    "audience": "Anyone"
+  },
+  {
+    "type": "settings",
+    "slug": "accept-edits-practice",
+    "name": "Accept Edits Mode",
+    "description": "Starts sessions in acceptEdits mode: file edits in the working directory run without asking, while other actions still prompt. Not honoured for auto or bypass modes in project files.",
+    "category": "coding-education",
+    "tags": [
+      "permissions",
+      "acceptedits",
+      "workflow",
+      "iteration"
+    ],
+    "author": "Promptzyra",
+    "github_url": "https://code.claude.com/docs/en/permission-modes.md",
+    "install": "1. Open ~/.claude/settings.json (create it if it does not exist).\n2. Merge the keys from settings.json below into your file; keep any keys you already have.\n3. Save, then restart Claude Code (or run /config to confirm the value).\n4. Remove a key at any time to go back to the default.",
+    "files": [
+      {
+        "path": "settings.json",
+        "content": "{\n  \"permissions\": {\n    \"defaultMode\": \"acceptEdits\"\n  }\n}\n"
+      }
+    ],
+    "use_cases": [
+      "Iterate quickly on code you review in git",
+      "Workshop exercises",
+      "Hackathon prototyping"
+    ],
+    "example_prompts": [
+      "Fix the failing test and keep the change small",
+      "Add input validation to this form"
+    ],
+    "level": "Intermediate",
+    "audience": "Developers"
+  },
+  {
+    "type": "settings",
+    "slug": "quiet-interface",
+    "name": "Quiet Interface",
+    "description": "Hides the rotating spinner tips and the session recap shown when you return to the terminal, for a calmer screen.",
+    "category": "productivity",
+    "tags": [
+      "ui",
+      "spinner",
+      "distraction-free",
+      "focus"
+    ],
+    "author": "Promptzyra",
+    "github_url": "https://code.claude.com/docs/en/settings-reference.md",
+    "install": "1. Open ~/.claude/settings.json (create it if it does not exist).\n2. Merge the keys from settings.json below into your file; keep any keys you already have.\n3. Save, then restart Claude Code (or run /config to confirm the value).\n4. Remove a key at any time to go back to the default.",
+    "files": [
+      {
+        "path": "settings.json",
+        "content": "{\n  \"spinnerTipsEnabled\": false,\n  \"awaySummaryEnabled\": false\n}\n"
+      }
+    ],
+    "use_cases": [
+      "Distraction-free study sessions",
+      "Screen recordings and demos",
+      "Reduce visual noise"
+    ],
+    "example_prompts": [
+      "Summarize this file",
+      "Explain this function line by line"
+    ],
+    "level": "Beginner",
+    "audience": "Anyone"
+  },
+  {
+    "type": "settings",
+    "slug": "response-language",
+    "name": "Response Language",
+    "description": "Sets the language Claude replies in. The value is any language name and is not validated.",
+    "category": "language",
+    "tags": [
+      "language",
+      "localization",
+      "hindi",
+      "multilingual"
+    ],
+    "author": "Promptzyra",
+    "github_url": "https://code.claude.com/docs/en/settings-reference.md",
+    "install": "1. Open ~/.claude/settings.json (create it if it does not exist).\n2. Merge the keys from settings.json below into your file; keep any keys you already have.\n3. Save, then restart Claude Code (or run /config to confirm the value).\n4. Remove a key at any time to go back to the default.",
+    "files": [
+      {
+        "path": "settings.json",
+        "content": "{\n  \"language\": \"Hindi\"\n}\n"
+      }
+    ],
+    "use_cases": [
+      "Learn concepts in your first language",
+      "Bilingual classrooms",
+      "Practice reading technical text in another language"
+    ],
+    "example_prompts": [
+      "Explain recursion with a simple example",
+      "Is code ka matlab samjhao"
+    ],
+    "level": "Beginner",
+    "audience": "Students"
+  },
+  {
+    "type": "settings",
+    "slug": "context-status-line",
+    "name": "Model and Context Status Line",
+    "description": "Shows the model name and how much of the context window is used in a status line below the prompt, using a small jq command.",
+    "category": "productivity",
+    "tags": [
+      "statusline",
+      "context",
+      "jq",
+      "monitoring"
+    ],
+    "author": "Promptzyra",
+    "github_url": "https://code.claude.com/docs/en/statusline.md",
+    "install": "1. Open ~/.claude/settings.json (create it if it does not exist).\n2. Merge the keys from settings.json below into your file; keep any keys you already have.\n3. Save, then restart Claude Code (or run /config to confirm the value).\n4. Remove a key at any time to go back to the default.",
+    "files": [
+      {
+        "path": "settings.json",
+        "content": "{\n  \"statusLine\": {\n    \"type\": \"command\",\n    \"command\": \"jq -r '\\\"[\\\\(.model.display_name)] \\\\(.context_window.used_percentage // 0)% context\\\"'\",\n    \"padding\": 2\n  }\n}\n"
+      }
+    ],
+    "use_cases": [
+      "Know when a long study session needs /clear",
+      "Teach about context limits",
+      "Track which model is active"
+    ],
+    "example_prompts": [
+      "Summarize our conversation so far",
+      "Start a fresh topic"
+    ],
+    "level": "Intermediate",
+    "audience": "Anyone"
+  },
+  {
+    "type": "settings",
+    "slug": "classroom-shared-project",
+    "name": "Classroom Shared Project Settings",
+    "description": "A committed .claude/settings.json for a class repo: allows npm scripts, asks before push, denies env and secrets reads, and enables the sandbox with a limited network allowlist.",
+    "category": "admin-ops",
+    "tags": [
+      "classroom",
+      "team",
+      "sandbox",
+      "permissions"
+    ],
+    "author": "Promptzyra",
+    "github_url": "https://code.claude.com/docs/en/settings-example.md",
+    "install": "1. Open .claude/settings.json at the top of the repository (commit it) (create it if it does not exist).\n2. Merge the keys from settings.json below into your file; keep any keys you already have.\n3. Save, then restart Claude Code (or run /config to confirm the value).\n4. Remove a key at any time to go back to the default.",
+    "files": [
+      {
+        "path": "settings.json",
+        "content": "{\n  \"permissions\": {\n    \"allow\": [\n      \"Bash(npm run *)\"\n    ],\n    \"ask\": [\n      \"Bash(git push *)\"\n    ],\n    \"deny\": [\n      \"Read(./.env)\",\n      \"Read(./.env.*)\",\n      \"Read(./secrets/**)\"\n    ]\n  },\n  \"sandbox\": {\n    \"enabled\": true,\n    \"network\": {\n      \"allowedDomains\": [\n        \"registry.npmjs.org\",\n        \"github.com\"\n      ]\n    }\n  },\n  \"plansDirectory\": \"./plans\"\n}\n"
+      }
+    ],
+    "use_cases": [
+      "Same safe defaults for every student who clones the repo",
+      "Assignment starter templates",
+      "Lab environments"
+    ],
+    "example_prompts": [
+      "Run the assignment tests",
+      "Plan the next exercise"
+    ],
+    "level": "Intermediate",
+    "audience": "Teachers"
+  },
+  {
+    "type": "hooks",
+    "slug": "notify-when-waiting",
+    "name": "Desktop Notification When Claude Waits",
+    "description": "Sends a desktop notification on Linux when Claude Code needs your input, so you can study or read elsewhere meanwhile.",
+    "category": "productivity",
+    "tags": [
+      "notification",
+      "hooks",
+      "desktop",
+      "focus"
+    ],
+    "author": "Promptzyra",
+    "github_url": "https://code.claude.com/docs/en/hooks-guide.md",
+    "install": "1. Copy the \"hooks\" block from settings-hooks.json into ~/.claude/settings.json or .claude/settings.json.\n2. Save, then start a new Claude Code session.\n3. On macOS replace the command with an osascript notification; on Linux install notify-send (libnotify).\nHooks run shell commands with your permissions, so read every script before enabling it.",
+    "files": [
+      {
+        "path": "settings-hooks.json",
+        "content": "{\n  \"hooks\": {\n    \"Notification\": [\n      {\n        \"matcher\": \"\",\n        \"hooks\": [\n          {\n            \"type\": \"command\",\n            \"command\": \"notify-send 'Claude Code' 'Claude needs your attention'\"\n          }\n        ]\n      }\n    ]\n  }\n}\n"
+      }
+    ],
+    "use_cases": [
+      "Step away during long tasks",
+      "Know when a permission prompt is waiting",
+      "Multitask during labs"
+    ],
+    "example_prompts": [
+      "Refactor this module and run the tests",
+      "Generate practice questions for chapter 4"
+    ],
+    "level": "Beginner",
+    "audience": "Anyone"
+  },
+  {
+    "type": "hooks",
+    "slug": "block-rm-rf",
+    "name": "Block rm -rf Commands",
+    "description": "A PreToolUse hook that denies Bash commands containing rm -rf and tells Claude why, protecting student projects from accidental deletion.",
+    "category": "admin-ops",
+    "tags": [
+      "pretooluse",
+      "safety",
+      "bash",
+      "deny"
+    ],
+    "author": "Promptzyra",
+    "github_url": "https://code.claude.com/docs/en/hooks.md",
+    "install": "1. Save the script under .claude/hooks/ and make it executable (chmod +x).\n2. Copy the \"hooks\" block from settings-hooks.json into .claude/settings.json.\n3. Start a new Claude Code session.\n4. Requires jq installed.\nHooks run shell commands with your permissions, so read every script before enabling it.",
+    "files": [
+      {
+        "path": "settings-hooks.json",
+        "content": "{\n  \"hooks\": {\n    \"PreToolUse\": [\n      {\n        \"matcher\": \"Bash\",\n        \"hooks\": [\n          {\n            \"type\": \"command\",\n            \"if\": \"Bash(rm *)\",\n            \"command\": \"${CLAUDE_PROJECT_DIR}/.claude/hooks/block-rm.sh\"\n          }\n        ]\n      }\n    ]\n  }\n}\n"
+      },
+      {
+        "path": ".claude/hooks/block-rm.sh",
+        "content": "#!/bin/bash\n# Reads the hook input JSON on stdin and denies recursive force deletes.\nCOMMAND=$(jq -r '.tool_input.command')\nif echo \"$COMMAND\" | grep -q 'rm -rf'; then\n  jq -n '{hookSpecificOutput: {hookEventName: \"PreToolUse\", permissionDecision: \"deny\", permissionDecisionReason: \"rm -rf is blocked in this project. Ask the user to delete manually.\"}}'\nelse\n  exit 0\nfi\n"
+      }
+    ],
+    "use_cases": [
+      "Protect lab and classroom repos",
+      "Safe sandbox for beginners",
+      "Teach safe shell habits"
+    ],
+    "example_prompts": [
+      "Clean up the build folder",
+      "Delete all temp files"
+    ],
+    "level": "Intermediate",
+    "audience": "Teachers"
+  },
+  {
+    "type": "hooks",
+    "slug": "protect-env-files",
+    "name": "Protect .env and Secret Files",
+    "description": "A PreToolUse hook that blocks Edit and Write calls to .env files or a secrets folder using exit code 2, with the reason fed back to Claude.",
+    "category": "admin-ops",
+    "tags": [
+      "pretooluse",
+      "secrets",
+      "env",
+      "exit-code-2"
+    ],
+    "author": "Promptzyra",
+    "github_url": "https://code.claude.com/docs/en/hooks.md",
+    "install": "1. Save the script under .claude/hooks/ and make it executable (chmod +x).\n2. Copy the \"hooks\" block from settings-hooks.json into .claude/settings.json.\n3. Start a new Claude Code session.\n4. Requires jq installed.\nHooks run shell commands with your permissions, so read every script before enabling it.",
+    "files": [
+      {
+        "path": "settings-hooks.json",
+        "content": "{\n  \"hooks\": {\n    \"PreToolUse\": [\n      {\n        \"matcher\": \"Edit|Write\",\n        \"hooks\": [\n          {\n            \"type\": \"command\",\n            \"command\": \"${CLAUDE_PROJECT_DIR}/.claude/hooks/protect-env.sh\"\n          }\n        ]\n      }\n    ]\n  }\n}\n"
+      },
+      {
+        "path": ".claude/hooks/protect-env.sh",
+        "content": "#!/bin/bash\n# Exit code 2 blocks the tool call and sends stderr to Claude.\nFILE=$(jq -r '.tool_input.file_path // empty')\ncase \"$FILE\" in\n  *.env|*.env.*|*/secrets/*)\n    echo \"Blocked: $FILE is a protected file. Ask the user to edit it.\" >&2\n    exit 2\n    ;;\nesac\nexit 0\n"
+      }
+    ],
+    "use_cases": [
+      "Stop students overwriting API keys",
+      "Shared repos with secrets",
+      "Teach what must never be committed"
+    ],
+    "example_prompts": [
+      "Add my API key to the config",
+      "Update the .env with a new port"
+    ],
+    "level": "Intermediate",
+    "audience": "Developers"
+  },
+  {
+    "type": "hooks",
+    "slug": "prettier-after-edit",
+    "name": "Format Files After Every Edit",
+    "description": "A PostToolUse hook that runs Prettier on each file Claude edits or writes, keeping student code consistently formatted.",
+    "category": "coding-education",
+    "tags": [
+      "posttooluse",
+      "formatting",
+      "prettier",
+      "edit"
+    ],
+    "author": "Promptzyra",
+    "github_url": "https://code.claude.com/docs/en/hooks.md",
+    "install": "1. Copy the \"hooks\" block from settings-hooks.json into ~/.claude/settings.json or .claude/settings.json.\n2. Save, then start a new Claude Code session.\n3. Requires jq and Node.js with npx; Prettier is fetched by npx if missing. Swap the command for your formatter of choice.\nHooks run shell commands with your permissions, so read every script before enabling it.",
+    "files": [
+      {
+        "path": "settings-hooks.json",
+        "content": "{\n  \"hooks\": {\n    \"PostToolUse\": [\n      {\n        \"matcher\": \"Edit|Write\",\n        \"hooks\": [\n          {\n            \"type\": \"command\",\n            \"command\": \"jq -r '.tool_input.file_path' | xargs -r npx prettier --write\"\n          }\n        ]\n      }\n    ]\n  }\n}\n"
+      }
+    ],
+    "use_cases": [
+      "Consistent style in group projects",
+      "Show formatting without extra prompts",
+      "Clean diffs for assignments"
+    ],
+    "example_prompts": [
+      "Add a footer component",
+      "Rewrite this function to be shorter"
+    ],
+    "level": "Intermediate",
+    "audience": "Developers"
+  },
+  {
+    "type": "hooks",
+    "slug": "log-bash-commands",
+    "name": "Log Every Shell Command",
+    "description": "A PostToolUse hook that appends every Bash command Claude runs to a log file, so teachers or learners can review what happened.",
+    "category": "assessment",
+    "tags": [
+      "posttooluse",
+      "audit",
+      "bash",
+      "log"
+    ],
+    "author": "Promptzyra",
+    "github_url": "https://code.claude.com/docs/en/hooks.md",
+    "install": "1. Copy the \"hooks\" block from settings-hooks.json into ~/.claude/settings.json or .claude/settings.json.\n2. Save, then start a new Claude Code session.\n3. Read the log with: cat ~/.claude/bash-command-log.txt\n4. Requires jq installed.\nHooks run shell commands with your permissions, so read every script before enabling it.",
+    "files": [
+      {
+        "path": "settings-hooks.json",
+        "content": "{\n  \"hooks\": {\n    \"PostToolUse\": [\n      {\n        \"matcher\": \"Bash\",\n        \"hooks\": [\n          {\n            \"type\": \"command\",\n            \"command\": \"jq -r '.tool_input.command' >> ~/.claude/bash-command-log.txt\"\n          }\n        ]\n      }\n    ]\n  }\n}\n"
+      }
+    ],
+    "use_cases": [
+      "Review what an AI ran during an assignment",
+      "Learn shell commands by reading the log",
+      "Basic audit trail"
+    ],
+    "example_prompts": [
+      "Set up the project dependencies",
+      "Run the linter and fix issues"
+    ],
+    "level": "Beginner",
+    "audience": "Teachers"
+  },
+  {
+    "type": "hooks",
+    "slug": "session-start-learner-context",
+    "name": "Learner Context at Session Start",
+    "description": "A SessionStart hook that injects a short reminder as additional context so Claude explains things at beginner level every session.",
+    "category": "study-learning",
+    "tags": [
+      "sessionstart",
+      "context",
+      "beginner",
+      "additionalcontext"
+    ],
+    "author": "Promptzyra",
+    "github_url": "https://code.claude.com/docs/en/hooks.md",
+    "install": "1. Copy the \"hooks\" block from settings-hooks.json into ~/.claude/settings.json or .claude/settings.json.\n2. Save, then start a new Claude Code session.\n3. Edit the additionalContext text to match your course. Requires jq.\nHooks run shell commands with your permissions, so read every script before enabling it.",
+    "files": [
+      {
+        "path": "settings-hooks.json",
+        "content": "{\n  \"hooks\": {\n    \"SessionStart\": [\n      {\n        \"hooks\": [\n          {\n            \"type\": \"command\",\n            \"command\": \"jq -n '{hookSpecificOutput: {hookEventName: \\\"SessionStart\\\", additionalContext: \\\"The user is a beginner student. Explain new terms briefly and prefer small steps.\\\"}}'\"\n          }\n        ]\n      }\n    ]\n  }\n}\n"
+      }
+    ],
+    "use_cases": [
+      "Consistent beginner-friendly tone",
+      "Per-course reminders",
+      "Classroom defaults without editing prompts"
+    ],
+    "example_prompts": [
+      "Explain this error",
+      "Why does this loop never end?"
+    ],
+    "level": "Beginner",
+    "audience": "Students"
+  },
+  {
+    "type": "hooks",
+    "slug": "study-session-log",
+    "name": "Study Session Log on Stop",
+    "description": "A Stop hook that appends a timestamp every time Claude finishes responding, giving a simple record of when you studied.",
+    "category": "study-learning",
+    "tags": [
+      "stop",
+      "log",
+      "timestamp",
+      "habit"
+    ],
+    "author": "Promptzyra",
+    "github_url": "https://code.claude.com/docs/en/hooks.md",
+    "install": "1. Copy the \"hooks\" block from settings-hooks.json into ~/.claude/settings.json or .claude/settings.json.\n2. Save, then start a new Claude Code session.\nHooks run shell commands with your permissions, so read every script before enabling it.",
+    "files": [
+      {
+        "path": "settings-hooks.json",
+        "content": "{\n  \"hooks\": {\n    \"Stop\": [\n      {\n        \"hooks\": [\n          {\n            \"type\": \"command\",\n            \"command\": \"date '+%Y-%m-%d %H:%M finished a turn' >> ~/.claude/study-log.txt\"\n          }\n        ]\n      }\n    ]\n  }\n}\n"
+      }
+    ],
+    "use_cases": [
+      "Track study habits",
+      "Estimate time spent on assignments",
+      "Evidence of work sessions"
+    ],
+    "example_prompts": [
+      "Quiz me on chapter 2",
+      "Explain pointers again"
+    ],
+    "level": "Beginner",
+    "audience": "Students"
+  },
+  {
+    "type": "hooks",
+    "slug": "backup-before-compact",
+    "name": "Back Up Transcript Before Compaction",
+    "description": "A PreCompact hook that copies the conversation transcript to a backup folder before Claude compacts it, so notes from a long lesson are not lost.",
+    "category": "writing-research",
+    "tags": [
+      "precompact",
+      "backup",
+      "transcript",
+      "notes"
+    ],
+    "author": "Promptzyra",
+    "github_url": "https://code.claude.com/docs/en/hooks.md",
+    "install": "1. Copy the \"hooks\" block from settings-hooks.json into ~/.claude/settings.json or .claude/settings.json.\n2. Save, then start a new Claude Code session.\n3. Requires jq. Backups land in ~/.claude/transcript-backups/.\nHooks run shell commands with your permissions, so read every script before enabling it.",
+    "files": [
+      {
+        "path": "settings-hooks.json",
+        "content": "{\n  \"hooks\": {\n    \"PreCompact\": [\n      {\n        \"hooks\": [\n          {\n            \"type\": \"command\",\n            \"command\": \"mkdir -p ~/.claude/transcript-backups && jq -r '.transcript_path' | xargs -I{} cp {} ~/.claude/transcript-backups/\"\n          }\n        ]\n      }\n    ]\n  }\n}\n"
+      }
+    ],
+    "use_cases": [
+      "Keep long research chats",
+      "Revisit explanations later",
+      "Archive lesson sessions"
+    ],
+    "example_prompts": [
+      "Summarize the paper section by section",
+      "Continue our literature review"
+    ],
+    "level": "Intermediate",
+    "audience": "Anyone"
+  },
+  {
+    "type": "hooks",
+    "slug": "http-audit-endpoint",
+    "name": "Send Tool Events to an HTTP Endpoint",
+    "description": "A PreToolUse hook of type http that posts each Bash tool event to a local or school server with a bearer token read from an environment variable.",
+    "category": "admin-ops",
+    "tags": [
+      "http",
+      "audit",
+      "pretooluse",
+      "endpoint"
+    ],
+    "author": "Promptzyra",
+    "github_url": "https://code.claude.com/docs/en/hooks.md",
+    "install": "1. Start a server that accepts POST requests at the URL (replace localhost:8080 with yours).\n2. Export MY_TOKEN in your shell.\n3. Copy the \"hooks\" block into your settings file and start a new session.\nHooks run shell commands with your permissions, so read every script before enabling it.",
+    "files": [
+      {
+        "path": "settings-hooks.json",
+        "content": "{\n  \"hooks\": {\n    \"PreToolUse\": [\n      {\n        \"matcher\": \"Bash\",\n        \"hooks\": [\n          {\n            \"type\": \"http\",\n            \"url\": \"http://localhost:8080/hooks/pre-tool-use\",\n            \"timeout\": 30,\n            \"headers\": {\n              \"Authorization\": \"Bearer $MY_TOKEN\"\n            },\n            \"allowedEnvVars\": [\n              \"MY_TOKEN\"\n            ]\n          }\n        ]\n      }\n    ]\n  }\n}\n"
+      }
+    ],
+    "use_cases": [
+      "Central logging for a lab",
+      "Build a teaching dashboard",
+      "Learn how hook input JSON looks"
+    ],
+    "example_prompts": [
+      "List the files in this folder",
+      "Run the test suite"
+    ],
+    "level": "Advanced",
+    "audience": "Developers"
+  },
+  {
+    "type": "hooks",
+    "slug": "confirm-git-push",
+    "name": "Ask Before Git Push",
+    "description": "A PreToolUse hook that returns permissionDecision ask for git push commands, so a human confirms before anything leaves the machine.",
+    "category": "coding-education",
+    "tags": [
+      "pretooluse",
+      "git",
+      "ask",
+      "safety"
+    ],
+    "author": "Promptzyra",
+    "github_url": "https://code.claude.com/docs/en/hooks.md",
+    "install": "1. Copy the \"hooks\" block from settings-hooks.json into ~/.claude/settings.json or .claude/settings.json.\n2. Save, then start a new Claude Code session.\n3. Requires jq installed.\nHooks run shell commands with your permissions, so read every script before enabling it.",
+    "files": [
+      {
+        "path": "settings-hooks.json",
+        "content": "{\n  \"hooks\": {\n    \"PreToolUse\": [\n      {\n        \"matcher\": \"Bash\",\n        \"hooks\": [\n          {\n            \"type\": \"command\",\n            \"if\": \"Bash(git push *)\",\n            \"command\": \"jq -n '{hookSpecificOutput: {hookEventName: \\\"PreToolUse\\\", permissionDecision: \\\"ask\\\", permissionDecisionReason: \\\"Pushing shares your code. Confirm to continue.\\\"}}'\"\n          }\n        ]\n      }\n    ]\n  }\n}\n"
+      }
+    ],
+    "use_cases": [
+      "Teach safe Git habits",
+      "Avoid pushing unfinished assignments",
+      "Team repositories"
+    ],
+    "example_prompts": [
+      "Commit this and push it",
+      "Push my branch"
+    ],
+    "level": "Beginner",
+    "audience": "Students"
+  },
+  {
+    "type": "mods",
+    "slug": "tool-call-tally",
+    "name": "Tool Call Tally",
+    "description": "Counts the tool calls Claude makes, shows the count beside the spinner, and adds a /tally command. Based on the official first-mod tutorial.",
+    "category": "coding-education",
+    "tags": [
+      "mod",
+      "spinner",
+      "command",
+      "tutorial"
+    ],
+    "author": "Promptzyra",
+    "github_url": "https://code.claude.com/docs/en/plugins/mods/create.md",
+    "install": "1. Create the folder tool-call-tally/ with the three files below (needs Claude Code v2.1.287 or later).\n2. Check what it does: claude plugin validate ./tool-call-tally\n3. Try it for one session: claude --plugin-dir ./tool-call-tally\n4. A mod runs code with your permissions, so read register.js first. Written from the docs' mods API but not run by Promptzyra, so validate before relying on it.",
+    "files": [
+      {
+        "path": "tool-call-tally/.claude-plugin/plugin.json",
+        "content": "{\n  \"name\": \"tool-call-tally\",\n  \"version\": \"0.1.0\",\n  \"description\": \"Counts tool calls and shows them beside the spinner\",\n  \"author\": {\n    \"name\": \"Promptzyra\"\n  }\n}\n"
+      },
+      {
+        "path": "tool-call-tally/hooks/hooks.json",
+        "content": "{\n  \"description\": \"Counts tool calls and shows them beside the spinner\",\n  \"modules\": [\n    \"./register.js\"\n  ]\n}\n"
+      },
+      {
+        "path": "tool-call-tally/hooks/register.js",
+        "content": "// Counts tool calls; the count is shared by the hooks below.\nlet calls = 0\n\nexport function register(on) {\n  on('session.start', async ($, e, next) => {\n    await $.command.register({ name: 'tally', description: 'Show how many tool calls Claude has made' })\n    return next(e)\n  })\n  on('tool.call', async ($, e, next) => {\n    calls += 1\n    $.ui.invalidate('ui.render')\n    return next(e)\n  })\n  on('command.run', { command: 'tally' }, async () => {\n    return { text: 'Claude has made ' + calls + ' tool calls since this mod loaded' }\n  })\n  on('ui.render', { component: 'Spinner' }, async ($, e, next) => {\n    return next({ ...e, props: { ...e.props, suffix: ' · tool calls: ' + calls + '…' } })\n  })\n}\n"
+      }
+    ],
+    "use_cases": [
+      "Learn how mod hooks work",
+      "See how much work Claude does per task",
+      "Teach the observe/rewrite/answer pattern"
+    ],
+    "example_prompts": [
+      "list the files here and read the README",
+      "/tally"
+    ],
+    "level": "Intermediate",
+    "audience": "Developers"
+  },
+  {
+    "type": "mods",
+    "slug": "study-tip-spinner",
+    "name": "Study Tip Spinner",
+    "description": "Adds a short study tip after the spinner word while Claude works, rotating on each tool call.",
+    "category": "study-learning",
+    "tags": [
+      "mod",
+      "spinner",
+      "study-tips",
+      "ui"
+    ],
+    "author": "Promptzyra",
+    "github_url": "https://code.claude.com/docs/en/plugins/mods/create.md",
+    "install": "1. Create the folder study-tip-spinner/ with the three files below (needs Claude Code v2.1.287 or later).\n2. Check what it does: claude plugin validate ./study-tip-spinner\n3. Try it for one session: claude --plugin-dir ./study-tip-spinner\n4. A mod runs code with your permissions, so read register.js first. Written from the docs' mods API but not run by Promptzyra, so validate before relying on it.",
+    "files": [
+      {
+        "path": "study-tip-spinner/.claude-plugin/plugin.json",
+        "content": "{\n  \"name\": \"study-tip-spinner\",\n  \"version\": \"0.1.0\",\n  \"description\": \"Shows rotating study tips beside the spinner\",\n  \"author\": {\n    \"name\": \"Promptzyra\"\n  }\n}\n"
+      },
+      {
+        "path": "study-tip-spinner/hooks/hooks.json",
+        "content": "{\n  \"description\": \"Shows rotating study tips beside the spinner\",\n  \"modules\": [\n    \"./register.js\"\n  ]\n}\n"
+      },
+      {
+        "path": "study-tip-spinner/hooks/register.js",
+        "content": "// Rotates a study tip beside the spinner each time Claude uses a tool.\nconst tips = [\n  'Explain it aloud in your own words',\n  'Take a 5 minute break every 25 minutes',\n  'Try to answer before reading the solution',\n  'Write one question about what you just learned'\n]\nlet i = 0\n\nexport function register(on) {\n  on('tool.call', async ($, e, next) => {\n    i = (i + 1) % tips.length\n    $.ui.invalidate('ui.render')\n    return next(e)\n  })\n  on('ui.render', { component: 'Spinner' }, async ($, e, next) => {\n    return next({ ...e, props: { ...e.props, suffix: ' · tip: ' + tips[i] + '…' } })\n  })\n}\n"
+      }
+    ],
+    "use_cases": [
+      "Gentle study reminders while waiting",
+      "Classroom demo of rewriting what Claude Code draws",
+      "Replace tips with your course vocabulary"
+    ],
+    "example_prompts": [
+      "Explain photosynthesis step by step",
+      "Review my essay outline"
+    ],
+    "level": "Beginner",
+    "audience": "Students"
+  },
+  {
+    "type": "mods",
+    "slug": "pomodoro-toast",
+    "name": "Pomodoro Toast",
+    "description": "Adds a /pomodoro command that starts a 25 minute timer and shows a toast when it is time for a break.",
+    "category": "productivity",
+    "tags": [
+      "mod",
+      "timer",
+      "toast",
+      "pomodoro"
+    ],
+    "author": "Promptzyra",
+    "github_url": "https://code.claude.com/docs/en/plugins/mods/api.md",
+    "install": "1. Create the folder pomodoro-toast/ with the three files below (needs Claude Code v2.1.287 or later).\n2. Check what it does: claude plugin validate ./pomodoro-toast\n3. Try it for one session: claude --plugin-dir ./pomodoro-toast\n4. A mod runs code with your permissions, so read register.js first. Written from the docs' mods API but not run by Promptzyra, so validate before relying on it.",
+    "files": [
+      {
+        "path": "pomodoro-toast/.claude-plugin/plugin.json",
+        "content": "{\n  \"name\": \"pomodoro-toast\",\n  \"version\": \"0.1.0\",\n  \"description\": \"Adds a /pomodoro focus timer with a toast when it ends\",\n  \"author\": {\n    \"name\": \"Promptzyra\"\n  }\n}\n"
+      },
+      {
+        "path": "pomodoro-toast/hooks/hooks.json",
+        "content": "{\n  \"description\": \"Adds a /pomodoro focus timer with a toast when it ends\",\n  \"modules\": [\n    \"./register.js\"\n  ]\n}\n"
+      },
+      {
+        "path": "pomodoro-toast/hooks/register.js",
+        "content": "// /pomodoro [minutes] starts a timer; a toast appears when it ends.\nlet timer = null\n\nexport function register(on) {\n  on('session.start', async ($, e, next) => {\n    await $.command.register({ name: 'pomodoro', description: 'Start a focus timer', argumentHint: '[minutes]', immediate: true })\n    return next(e)\n  })\n  on('command.run', { command: 'pomodoro' }, async ($, e) => {\n    const minutes = Number(e.args) > 0 ? Number(e.args) : 25\n    if (timer) timer.cancel()\n    timer = $.clock.after(minutes * 60 * 1000, () => {\n      $.ui.toast('Time for a break. ' + minutes + ' minutes are up.')\n    })\n    return { text: 'Focus timer started for ' + minutes + ' minutes' }\n  })\n}\n"
+      }
+    ],
+    "use_cases": [
+      "Structured study blocks",
+      "Timed coding exercises",
+      "Break reminders"
+    ],
+    "example_prompts": [
+      "/pomodoro",
+      "/pomodoro 45"
+    ],
+    "level": "Beginner",
+    "audience": "Students"
+  },
+  {
+    "type": "mods",
+    "slug": "session-clock-status",
+    "name": "Session Clock Status Line",
+    "description": "Shows how many minutes the session has been open in the line under the prompt, updated once a minute.",
+    "category": "productivity",
+    "tags": [
+      "mod",
+      "status",
+      "clock",
+      "time-tracking"
+    ],
+    "author": "Promptzyra",
+    "github_url": "https://code.claude.com/docs/en/plugins/mods/api.md",
+    "install": "1. Create the folder session-clock-status/ with the three files below (needs Claude Code v2.1.287 or later).\n2. Check what it does: claude plugin validate ./session-clock-status\n3. Try it for one session: claude --plugin-dir ./session-clock-status\n4. A mod runs code with your permissions, so read register.js first. Written from the docs' mods API but not run by Promptzyra, so validate before relying on it.",
+    "files": [
+      {
+        "path": "session-clock-status/.claude-plugin/plugin.json",
+        "content": "{\n  \"name\": \"session-clock-status\",\n  \"version\": \"0.1.0\",\n  \"description\": \"Shows elapsed session minutes under the prompt\",\n  \"author\": {\n    \"name\": \"Promptzyra\"\n  }\n}\n"
+      },
+      {
+        "path": "session-clock-status/hooks/hooks.json",
+        "content": "{\n  \"description\": \"Shows elapsed session minutes under the prompt\",\n  \"modules\": [\n    \"./register.js\"\n  ]\n}\n"
+      },
+      {
+        "path": "session-clock-status/hooks/register.js",
+        "content": "// Updates a one-line status under the prompt every minute.\nexport function register(on) {\n  on('session.start', async ($, e, next) => {\n    let minutes = 0\n    $.ui.status('session open: 0 min')\n    $.clock.every(60_000, () => {\n      minutes += 1\n      $.ui.status('session open: ' + minutes + ' min')\n    })\n    return next(e)\n  })\n}\n"
+      }
+    ],
+    "use_cases": [
+      "Be aware of how long you have studied",
+      "Time-boxed lab sessions",
+      "Learn about background timers in mods"
+    ],
+    "example_prompts": [
+      "Help me debug this loop",
+      "Quiz me on SQL joins"
+    ],
+    "level": "Beginner",
+    "audience": "Anyone"
+  },
+  {
+    "type": "mods",
+    "slug": "bash-command-log-line",
+    "name": "Shell Command Log Line",
+    "description": "Writes a dim transcript line each time Claude is about to run a tool, naming the tool so learners can follow what is happening.",
+    "category": "coding-education",
+    "tags": [
+      "mod",
+      "logging",
+      "tool-call",
+      "transparency"
+    ],
+    "author": "Promptzyra",
+    "github_url": "https://code.claude.com/docs/en/plugins/mods/api.md",
+    "install": "1. Create the folder bash-command-log-line/ with the three files below (needs Claude Code v2.1.287 or later).\n2. Check what it does: claude plugin validate ./bash-command-log-line\n3. Try it for one session: claude --plugin-dir ./bash-command-log-line\n4. A mod runs code with your permissions, so read register.js first. Written from the docs' mods API but not run by Promptzyra, so validate before relying on it.",
+    "files": [
+      {
+        "path": "bash-command-log-line/.claude-plugin/plugin.json",
+        "content": "{\n  \"name\": \"bash-command-log-line\",\n  \"version\": \"0.1.0\",\n  \"description\": \"Prints a dim line naming each tool Claude uses\",\n  \"author\": {\n    \"name\": \"Promptzyra\"\n  }\n}\n"
+      },
+      {
+        "path": "bash-command-log-line/hooks/hooks.json",
+        "content": "{\n  \"description\": \"Prints a dim line naming each tool Claude uses\",\n  \"modules\": [\n    \"./register.js\"\n  ]\n}\n"
+      },
+      {
+        "path": "bash-command-log-line/hooks/register.js",
+        "content": "// Prints a dim line (Claude does not read it) naming each tool call.\nexport function register(on) {\n  on('tool.call', async ($, e, next) => {\n    $.ui.log('tool call: ' + e.tool)\n    return next(e)\n  })\n}\n"
+      }
+    ],
+    "use_cases": [
+      "See what an AI agent actually does",
+      "Teach transparency in AI tools",
+      "Debug unexpected behaviour"
+    ],
+    "example_prompts": [
+      "Set up a Python virtual environment",
+      "Find where login is handled"
+    ],
+    "level": "Beginner",
+    "audience": "Teachers"
+  },
+  {
+    "type": "mods",
+    "slug": "quick-notes-command",
+    "name": "Quick Notes Command",
+    "description": "Adds a /note command that appends your text to notes.md in the working directory, without starting a Claude turn.",
+    "category": "writing-research",
+    "tags": [
+      "mod",
+      "notes",
+      "command",
+      "files"
+    ],
+    "author": "Promptzyra",
+    "github_url": "https://code.claude.com/docs/en/plugins/mods/api.md",
+    "install": "1. Create the folder quick-notes-command/ with the three files below (needs Claude Code v2.1.287 or later).\n2. Check what it does: claude plugin validate ./quick-notes-command\n3. Try it for one session: claude --plugin-dir ./quick-notes-command\n4. A mod runs code with your permissions, so read register.js first. Written from the docs' mods API but not run by Promptzyra, so validate before relying on it.",
+    "files": [
+      {
+        "path": "quick-notes-command/.claude-plugin/plugin.json",
+        "content": "{\n  \"name\": \"quick-notes-command\",\n  \"version\": \"0.1.0\",\n  \"description\": \"Adds /note to append lines to notes.md\",\n  \"author\": {\n    \"name\": \"Promptzyra\"\n  }\n}\n"
+      },
+      {
+        "path": "quick-notes-command/hooks/hooks.json",
+        "content": "{\n  \"description\": \"Adds /note to append lines to notes.md\",\n  \"modules\": [\n    \"./register.js\"\n  ]\n}\n"
+      },
+      {
+        "path": "quick-notes-command/hooks/register.js",
+        "content": "// /note some text -> appends a bullet to notes.md in the working directory.\nexport function register(on) {\n  on('session.start', async ($, e, next) => {\n    await $.command.register({ name: 'note', description: 'Append a line to notes.md', argumentHint: '[text]', immediate: true })\n    return next(e)\n  })\n  on('command.run', { command: 'note' }, async ($, e) => {\n    if (!e.args) return { text: 'Usage: /note your text' }\n    let existing = ''\n    if (await $.fs.exists('notes.md')) existing = await $.fs.read('notes.md')\n    await $.fs.write('notes.md', existing + '- ' + e.args + '\\n')\n    return { text: 'Saved to notes.md' }\n  })\n}\n"
+      }
+    ],
+    "use_cases": [
+      "Capture ideas mid-lesson",
+      "Research reading notes",
+      "Keep a question list for the teacher"
+    ],
+    "example_prompts": [
+      "/note review the proof of lemma 2",
+      "/note ask about exam format"
+    ],
+    "level": "Intermediate",
+    "audience": "Students"
+  },
+  {
+    "type": "mods",
+    "slug": "cheatsheet-pane",
+    "name": "Cheat Sheet Pane",
+    "description": "Adds a /cheatsheet command that opens a pane beside the chat showing a Markdown study cheat sheet you edit in the file.",
+    "category": "study-learning",
+    "tags": [
+      "mod",
+      "pane",
+      "markdown",
+      "cheatsheet"
+    ],
+    "author": "Promptzyra",
+    "github_url": "https://code.claude.com/docs/en/plugins/mods/gallery.md",
+    "install": "1. Create the folder cheatsheet-pane/ with the three files below (needs Claude Code v2.1.287 or later).\n2. Check what it does: claude plugin validate ./cheatsheet-pane\n3. Try it for one session: claude --plugin-dir ./cheatsheet-pane\n4. A mod runs code with your permissions, so read register.js first. Written from the docs' mods API but not run by Promptzyra, so validate before relying on it.",
+    "files": [
+      {
+        "path": "cheatsheet-pane/.claude-plugin/plugin.json",
+        "content": "{\n  \"name\": \"cheatsheet-pane\",\n  \"version\": \"0.1.0\",\n  \"description\": \"Opens a pane with an editable Markdown cheat sheet\",\n  \"author\": {\n    \"name\": \"Promptzyra\"\n  }\n}\n"
+      },
+      {
+        "path": "cheatsheet-pane/hooks/hooks.json",
+        "content": "{\n  \"description\": \"Opens a pane with an editable Markdown cheat sheet\",\n  \"modules\": [\n    \"./register.js\"\n  ]\n}\n"
+      },
+      {
+        "path": "cheatsheet-pane/hooks/register.js",
+        "content": "// /cheatsheet opens a pane that draws Markdown. Edit the text below.\nconst sheet = '## Git basics\\n\\n- `git status` shows changes\\n- `git add .` stages files\\n- `git commit -m \"msg\"` saves a snapshot\\n\\n> Press Escape to close this pane'\n\nexport function register(on) {\n  on('session.start', async ($, e, next) => {\n    await $.command.register({ name: 'cheatsheet', description: 'Open the cheat sheet pane' })\n    return next(e)\n  })\n  on('command.run', { command: 'cheatsheet' }, async ($) => {\n    await $.ui.open({ id: 'cheatsheet', focus: true, closeOnEscape: true })\n    return {}\n  })\n  on('ui.render', { component: 'Pane' }, async ($, e, next) => {\n    if (e.requestId !== 'cheatsheet') return next(e)\n    const { Markdown } = $.ui.resolve(e)\n    return Markdown({ text: sheet })\n  })\n}\n"
+      }
+    ],
+    "use_cases": [
+      "Keep syntax reminders visible while coding",
+      "Course formula sheets",
+      "Exam revision at a glance"
+    ],
+    "example_prompts": [
+      "/cheatsheet",
+      "Show me how to undo my last commit"
+    ],
+    "level": "Intermediate",
+    "audience": "Students"
+  },
+  {
+    "type": "mods",
+    "slug": "study-break-reminder",
+    "name": "Study Break Reminder",
+    "description": "Shows a toast every 30 minutes reminding you to rest your eyes and stretch, using a background timer.",
+    "category": "productivity",
+    "tags": [
+      "mod",
+      "timer",
+      "wellbeing",
+      "toast"
+    ],
+    "author": "Promptzyra",
+    "github_url": "https://code.claude.com/docs/en/plugins/mods/api.md",
+    "install": "1. Create the folder study-break-reminder/ with the three files below (needs Claude Code v2.1.287 or later).\n2. Check what it does: claude plugin validate ./study-break-reminder\n3. Try it for one session: claude --plugin-dir ./study-break-reminder\n4. A mod runs code with your permissions, so read register.js first. Written from the docs' mods API but not run by Promptzyra, so validate before relying on it.",
+    "files": [
+      {
+        "path": "study-break-reminder/.claude-plugin/plugin.json",
+        "content": "{\n  \"name\": \"study-break-reminder\",\n  \"version\": \"0.1.0\",\n  \"description\": \"Shows a break reminder toast every 30 minutes\",\n  \"author\": {\n    \"name\": \"Promptzyra\"\n  }\n}\n"
+      },
+      {
+        "path": "study-break-reminder/hooks/hooks.json",
+        "content": "{\n  \"description\": \"Shows a break reminder toast every 30 minutes\",\n  \"modules\": [\n    \"./register.js\"\n  ]\n}\n"
+      },
+      {
+        "path": "study-break-reminder/hooks/register.js",
+        "content": "// Background timer: a toast every 30 minutes.\nexport function register(on) {\n  on('session.start', async ($, e, next) => {\n    $.clock.every(30 * 60 * 1000, () => {\n      $.ui.toast('Take a short break: look away from the screen and stretch.')\n    })\n    return next(e)\n  })\n}\n"
+      }
+    ],
+    "use_cases": [
+      "Healthy long study sessions",
+      "Reduce eye strain",
+      "Classroom wellbeing prompt"
+    ],
+    "example_prompts": [
+      "Continue the chapter summary",
+      "Help me finish this lab report"
+    ],
+    "level": "Beginner",
+    "audience": "Anyone"
+  }
+]

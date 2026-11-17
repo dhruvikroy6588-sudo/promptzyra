@@ -72,3 +72,27 @@ Supabase SQL Editor me run karein: supabase/v2-patch-5-admin.sql  (og_image colu
 - Delete karne par Supabase row + R2 image dono delete hoti hain. Purani orphan images: Admin -> Settings -> Storage cleanup.
 - Contact email: contantnewshour@gmail.com (lib/site.js CONTACT_EMAIL se sab pages me).
 - AdSense se pehle: Search Console me sitemap submit karein, ads.txt Admin -> Settings me daalein, drafts review karke hi publish karein.
+
+---
+## UPDATE 4 — Skills, AI Tools upgrade, sidebar layout
+Supabase SQL Editor me ye 3 files ek-ek karke run karein (is order me):
+- supabase/v2-patch-6-skills.sql          (Skills table + 9 skill categories)
+- supabase/v2-patch-7-tools.sql           (tools ke naye fields + tool submissions)
+- supabase/v2-patch-8-photo-cleanup.sql   (sirf "AI Photo Trends" category)
+Phir /admin -> Import Drafts me:
+- Skills  -> content/seed-skills.json        (40 skills, draft)
+- AI tools -> content/seed-tools-extra.json  (99 naye tools, draft; pehle seed-tools.json bhi, agar nahi kiya)
+Sab draft me aate hain. Tools aur skills ko ek baar padh/verify karke hi Publish karein.
+NOTE: seed-tools-extra.json ke kuch hisse (3rd paragraph, kuch FAQ, SEO text) template jaise hain —
+publish se pehle har tool me apna 1-2 line ka asli anubhav/detail jodein aur official site se pricing/URL verify karein.
+Photo Prompts admin me ab sirf: Image, Title, Tags, Description, Prompt.
+
+## Update 5: AI Courses, Agents, Commands, Settings, Hooks, MCPs, Mods, Plugins, 1000+ AI tools
+Run in the Supabase SQL editor (safe to re-run): `supabase/v2-patch-9-components.sql` and `supabase/v2-patch-10-courses.sql`.
+Then /admin -> Import Drafts and import these files (everything arrives as DRAFT, nothing goes live by itself):
+1. AI tools: `content/seed-tools-more.json` (889 tools; the earlier 151 are in seed-tools.json and seed-tools-extra.json).
+2. "Agents/Commands/MCPs…": `content/seed-components.json` (537 items: agents, commands, settings, hooks, MCPs, mods, plugins).
+3. "AI Courses": `content/seed-courses.json` (150 free/paid courses and YouTube resources).
+Before publishing anything: open the link, check the price/plan on the official site, and fix wording. Tools and courses were written without live web access (last_checked = "unverified"), pricing is "Unknown" unless certain. Publish a few per day from the admin tab (Mark reviewed -> Publish now/Schedule).
+The "stars" field is empty on purpose: enter only a number you checked on GitHub.
+Blog: in the editor press "Auto-fill SEO fields from content" (title, description, slug, tags, read time, image alt); empty fields are also filled automatically when you save.

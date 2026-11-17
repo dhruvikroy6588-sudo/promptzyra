@@ -1,0 +1,1253 @@
+[
+ {
+  "slug": "instantly",
+  "name": "Instantly",
+  "category": "marketing",
+  "website_url": "https://instantly.ai",
+  "pricing": "Unknown",
+  "tagline": "Cold email outreach platform for sending campaigns from multiple mailboxes.",
+  "best_for": "Teams and agencies running cold email campaigns at volume",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Instantly is a cold email platform built around sending outreach campaigns from many connected mailboxes at once. You add sending accounts, upload or build a lead list, write a sequence of emails with follow-ups, and let the tool schedule sends and track replies.\n\nIts focus is deliverability and scale: mailbox warm-up, rotating senders and a combined inbox for replies help agencies and small sales teams manage several campaigns without switching accounts. It is mainly an outreach tool, not a full CRM, so most teams pair it with a separate system for deals. Plans, limits and features change, so check the official site for current plans.",
+  "use_steps": [
+   "Connect one or more sending mailboxes.",
+   "Import or build a lead list and write a multi-step sequence.",
+   "Set sending limits and schedule, then launch the campaign.",
+   "Review replies in the unified inbox and adjust copy."
+  ],
+  "pros": [
+   "Built for multi-mailbox sending",
+   "Sequences with automated follow-ups",
+   "Central inbox for replies",
+   "Useful for agencies handling several clients"
+  ],
+  "cons": [
+   "Not a full CRM",
+   "Cold outreach needs careful compliance with email laws"
+  ],
+  "alternatives": [
+   "lemlist",
+   "smartlead",
+   "reply-io"
+  ],
+  "tags": [
+   "cold email",
+   "outreach",
+   "sales",
+   "email sequences",
+   "lead generation"
+  ],
+  "features": [
+   "Multi-step email sequences",
+   "Mailbox warm-up",
+   "Unified reply inbox",
+   "Campaign analytics",
+   "Lead list tools"
+  ],
+  "use_cases": [
+   "Outbound prospecting",
+   "Agency client campaigns",
+   "Follow-up sequences",
+   "Testing subject lines"
+  ],
+  "pricing_details": "Pricing was not verified for this listing. Check the official pricing page for current plans, trials and limits.",
+  "faq": [
+   {
+    "q": "Is Instantly a CRM?",
+    "a": "It focuses on cold email outreach and replies. Check the official site for any lightweight pipeline features."
+   },
+   {
+    "q": "Does it find leads?",
+    "a": "It offers lead tools, but many users bring their own lists. Confirm current options on the official site."
+   },
+   {
+    "q": "Is cold emailing legal?",
+    "a": "Rules vary by country, so follow anti-spam laws such as consent and opt-out requirements."
+   }
+  ],
+  "seo_title": "Instantly - Features, Pricing and Alternatives",
+  "seo_description": "Cold email outreach platform for sending campaigns from multiple mailboxes. See what Instantly does, who it suits, pros and cons, and similar tools.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "lemlist",
+  "name": "lemlist",
+  "category": "marketing",
+  "website_url": "https://www.lemlist.com",
+  "pricing": "Unknown",
+  "tagline": "Multichannel sales outreach with personalized email and LinkedIn steps.",
+  "best_for": "Sales and growth teams that want personalized outbound sequences",
+  "platforms": [
+   "Web"
+  ],
+  "description": "lemlist is a sales outreach platform known for personalization. You build sequences that mix email with other channels such as LinkedIn steps, and you can insert custom variables, images or text into messages so each prospect sees something tailored.\n\nIt also includes a lead database and warm-up features aimed at keeping emails out of spam folders. Teams use it to run outbound campaigns, test message variants and see which sequences generate replies. As with any outreach tool, results depend on list quality and message relevance. Plans, limits and features change, so check the official site for current plans.",
+  "use_steps": [
+   "Create an account and connect your mailbox.",
+   "Add leads from a file or the lead database.",
+   "Build a sequence with personalized email and LinkedIn steps.",
+   "Launch, then review replies and campaign stats."
+  ],
+  "pros": [
+   "Strong personalization options",
+   "Multichannel sequences",
+   "Built-in lead database",
+   "Email warm-up features"
+  ],
+  "cons": [
+   "Costs can rise with credits and seats",
+   "Needs good lists to perform"
+  ],
+  "alternatives": [
+   "instantly",
+   "reply-io",
+   "woodpecker"
+  ],
+  "tags": [
+   "outreach",
+   "personalization",
+   "email",
+   "linkedin",
+   "sales"
+  ],
+  "features": [
+   "Personalized email sequences",
+   "LinkedIn outreach steps",
+   "Lead database",
+   "Email warm-up",
+   "Campaign reporting"
+  ],
+  "use_cases": [
+   "Outbound sales campaigns",
+   "Partnership outreach",
+   "Recruiting outreach",
+   "A/B testing messages"
+  ],
+  "pricing_details": "Pricing was not verified for this listing. Check the official pricing page for current plans, trials and limits.",
+  "faq": [
+   {
+    "q": "Does lemlist support LinkedIn?",
+    "a": "It offers LinkedIn steps in sequences. Confirm the current channel list on the official site."
+   },
+   {
+    "q": "Can I try it first?",
+    "a": "Trial availability changes, so check the pricing page."
+   },
+   {
+    "q": "Do I need a CRM too?",
+    "a": "Many teams connect it to an existing CRM; see the integrations list."
+   }
+  ],
+  "seo_title": "lemlist - Features, Pricing and Alternatives",
+  "seo_description": "Multichannel sales outreach with personalized email and LinkedIn steps. See what lemlist does, who it suits, pros and cons, and similar tools.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "smartlead",
+  "name": "Smartlead",
+  "category": "marketing",
+  "website_url": "https://www.smartlead.ai",
+  "pricing": "Unknown",
+  "tagline": "Cold email platform with unlimited mailbox connections and a unified inbox.",
+  "best_for": "Agencies and outbound teams sending from many mailboxes",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Smartlead is a cold email outreach platform designed for people who send from many mailboxes and domains. It lets you connect sending accounts, warm them up, build sequences and route replies into a single inbox so nothing is missed across campaigns.\n\nAgencies often use it to separate client workspaces and monitor deliverability. It focuses on the sending and reply side of outbound; finding and verifying leads usually involves other tools. Teams should still plan for list hygiene and email compliance. Plans, limits and features change, so check the official site for current plans.",
+  "use_steps": [
+   "Sign up and connect sending mailboxes.",
+   "Warm up the accounts and import a lead list.",
+   "Write a sequence and schedule sends.",
+   "Manage replies from the master inbox."
+  ],
+  "pros": [
+   "Designed for multi-mailbox sending",
+   "Client workspaces for agencies",
+   "Master inbox for replies",
+   "Sequence and rotation controls"
+  ],
+  "cons": [
+   "Lead sourcing is usually separate",
+   "Setup of domains takes technical care"
+  ],
+  "alternatives": [
+   "instantly",
+   "lemlist",
+   "woodpecker"
+  ],
+  "tags": [
+   "cold email",
+   "agency",
+   "deliverability",
+   "outreach",
+   "inbox"
+  ],
+  "features": [
+   "Mailbox warm-up",
+   "Sequence builder",
+   "Master inbox",
+   "Client workspaces",
+   "Campaign analytics"
+  ],
+  "use_cases": [
+   "Agency outbound",
+   "Founder-led sales",
+   "Lead nurture sequences",
+   "Deliverability testing"
+  ],
+  "pricing_details": "Pricing was not verified for this listing. Check the official pricing page for current plans, trials and limits.",
+  "faq": [
+   {
+    "q": "Who is Smartlead for?",
+    "a": "Mainly outbound teams and agencies sending from several mailboxes."
+   },
+   {
+    "q": "Does it include leads?",
+    "a": "Lead tools may vary; check the official site."
+   },
+   {
+    "q": "What about spam risk?",
+    "a": "Use warm-up, clean lists and relevant copy, and follow email laws."
+   }
+  ],
+  "seo_title": "Smartlead - Features, Pricing and Alternatives",
+  "seo_description": "Cold email platform with unlimited mailbox connections and a unified inbox. See what Smartlead does, who it suits, pros and cons, and similar tools.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "clay",
+  "name": "Clay",
+  "category": "marketing",
+  "website_url": "https://www.clay.com",
+  "pricing": "Freemium",
+  "tagline": "Data enrichment and workflow tool for building prospect lists.",
+  "best_for": "Growth and sales ops teams building enriched lead lists",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Clay is a spreadsheet-style workspace for sales and marketing data. You import a list of companies or people, then add enrichment columns that pull in details from many data providers, and use AI steps to research or write personalized lines.\n\nThe idea is to combine several sources in one table rather than rely on a single database. Teams then push the finished list to a CRM or sequencing tool. It rewards people comfortable with workflows and logic, and enrichment typically consumes credits. Plans, limits and features change, so check the official site for current plans.",
+  "use_steps": [
+   "Import a list or start from a search.",
+   "Add enrichment columns from data providers.",
+   "Use AI columns to research or draft messages.",
+   "Export or sync the finished list to your CRM."
+  ],
+  "pros": [
+   "Combines many data sources",
+   "Flexible table-based workflows",
+   "AI research and writing steps",
+   "Syncs to common tools"
+  ],
+  "cons": [
+   "Learning curve for complex workflows",
+   "Credit usage needs monitoring"
+  ],
+  "alternatives": [
+   "lemlist",
+   "instantly",
+   "hubspot"
+  ],
+  "tags": [
+   "enrichment",
+   "lead lists",
+   "automation",
+   "sales ops",
+   "ai"
+  ],
+  "features": [
+   "Waterfall data enrichment",
+   "AI research columns",
+   "CRM sync",
+   "Table workflows",
+   "Integrations"
+  ],
+  "use_cases": [
+   "Building target account lists",
+   "Personalized outreach research",
+   "Lead scoring inputs",
+   "Data cleanup"
+  ],
+  "pricing_details": "A free plan appears to exist, with paid tiers based on credits. Check the official pricing page for current details.",
+  "faq": [
+   {
+    "q": "Is Clay a CRM?",
+    "a": "No, it is mainly an enrichment and workflow tool that feeds other systems."
+   },
+   {
+    "q": "What are credits?",
+    "a": "Enrichment actions use credits; see the pricing page for amounts."
+   },
+   {
+    "q": "Is there a free plan?",
+    "a": "Listings indicate one exists; confirm on the official site."
+   }
+  ],
+  "seo_title": "Clay - Features, Pricing and Alternatives",
+  "seo_description": "Data enrichment and workflow tool for building prospect lists. See what Clay does, who it suits, pros and cons, and similar tools.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "reply-io",
+  "name": "Reply.io",
+  "category": "marketing",
+  "website_url": "https://reply.io",
+  "pricing": "Unknown",
+  "tagline": "Sales engagement platform for multichannel outreach and follow-ups.",
+  "best_for": "Sales teams running email, call and LinkedIn sequences",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Reply.io is a sales engagement platform where reps build sequences that combine email, LinkedIn and call tasks. Replies and activity are tracked in one place, and contacts can be synced with a CRM.\n\nIt also offers AI features for drafting messages and an AI SDR style product for automating outbound steps. Teams compare it with other engagement tools on seat pricing and channel coverage. Results still depend on targeting and message quality. Plans, limits and features change, so check the official site for current plans.",
+  "use_steps": [
+   "Connect your email and, if needed, LinkedIn.",
+   "Import contacts or sync from a CRM.",
+   "Build a multichannel sequence.",
+   "Track replies and adjust steps."
+  ],
+  "pros": [
+   "Multichannel sequences",
+   "CRM integrations",
+   "AI drafting help",
+   "Reply tracking in one place"
+  ],
+  "cons": [
+   "Per-seat pricing can add up",
+   "Features differ across plans"
+  ],
+  "alternatives": [
+   "lemlist",
+   "instantly",
+   "woodpecker"
+  ],
+  "tags": [
+   "sales engagement",
+   "sequences",
+   "email",
+   "linkedin",
+   "crm"
+  ],
+  "features": [
+   "Email and LinkedIn steps",
+   "Call tasks",
+   "AI message drafts",
+   "CRM sync",
+   "Reporting"
+  ],
+  "use_cases": [
+   "SDR outreach",
+   "Account-based campaigns",
+   "Follow-up cadences",
+   "Lead nurturing"
+  ],
+  "pricing_details": "Pricing was not verified for this listing. Check the official pricing page for current plans, trials and limits.",
+  "faq": [
+   {
+    "q": "Does it replace a CRM?",
+    "a": "It complements one; check supported integrations."
+   },
+   {
+    "q": "Does it have AI features?",
+    "a": "Yes, check the site for current AI options."
+   },
+   {
+    "q": "Can I use it solo?",
+    "a": "Usually yes, but confirm plan limits."
+   }
+  ],
+  "seo_title": "Reply.io - Features, Pricing and Alternatives",
+  "seo_description": "Sales engagement platform for multichannel outreach and follow-ups. See what Reply.io does, who it suits, pros and cons, and similar tools.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "woodpecker",
+  "name": "Woodpecker",
+  "category": "marketing",
+  "website_url": "https://woodpecker.co",
+  "pricing": "Unknown",
+  "tagline": "Cold email tool with automated follow-ups and deliverability features.",
+  "best_for": "Small teams and agencies sending B2B cold emails",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Woodpecker is a cold email tool for B2B outreach. You connect a mailbox, add prospects and set up a sequence of emails with automatic follow-ups that stop when someone replies.\n\nIt puts emphasis on deliverability controls and has an agency option for managing several clients. It is a simpler alternative to larger engagement suites for teams that mainly need email. Verify current features and limits before committing. Plans, limits and features change, so check the official site for current plans.",
+  "use_steps": [
+   "Connect your sending mailbox.",
+   "Import prospects and map fields.",
+   "Write the email sequence with follow-ups.",
+   "Monitor replies and bounces."
+  ],
+  "pros": [
+   "Focused on email outreach",
+   "Automatic follow-ups",
+   "Agency-oriented options",
+   "Simple setup"
+  ],
+  "cons": [
+   "Narrower than full sales suites",
+   "Lead sourcing is separate"
+  ],
+  "alternatives": [
+   "instantly",
+   "lemlist",
+   "smartlead"
+  ],
+  "tags": [
+   "cold email",
+   "b2b",
+   "follow-ups",
+   "agency",
+   "deliverability"
+  ],
+  "features": [
+   "Email sequences",
+   "Auto follow-ups",
+   "Bounce handling",
+   "Agency workspaces",
+   "Integrations"
+  ],
+  "use_cases": [
+   "B2B prospecting",
+   "Agency client outreach",
+   "Event invitations",
+   "Partnership emails"
+  ],
+  "pricing_details": "Pricing was not verified for this listing. Check the official pricing page for current plans, trials and limits.",
+  "faq": [
+   {
+    "q": "Is it only email?",
+    "a": "Primarily; check for LinkedIn features."
+   },
+   {
+    "q": "Does it have agency plans?",
+    "a": "An agency pricing page exists; see the site."
+   },
+   {
+    "q": "Is there a trial?",
+    "a": "Check the pricing page."
+   }
+  ],
+  "seo_title": "Woodpecker - Features, Pricing and Alternatives",
+  "seo_description": "Cold email tool with automated follow-ups and deliverability features. See what Woodpecker does, who it suits, pros and cons, and similar tools.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "pipedrive",
+  "name": "Pipedrive",
+  "category": "marketing",
+  "website_url": "https://www.pipedrive.com",
+  "pricing": "Unknown",
+  "tagline": "Visual sales pipeline CRM for small and mid-sized teams.",
+  "best_for": "Small sales teams wanting a pipeline-first CRM",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "Pipedrive is a CRM organized around a visual sales pipeline. Deals move through stages on a board, and activities such as calls and follow-ups are scheduled so reps know what to do next.\n\nIt offers several plan tiers, email and automation features, and an app marketplace. It suits teams that want a sales-focused tool without heavy setup. Larger organizations may compare it with broader platforms for marketing and service. Plans, limits and features change, so check the official site for current plans.",
+  "use_steps": [
+   "Create an account and set up your pipeline stages.",
+   "Import contacts and deals.",
+   "Schedule activities and connect email.",
+   "Add automations and review reports."
+  ],
+  "pros": [
+   "Clear visual pipeline",
+   "Activity reminders",
+   "Marketplace integrations",
+   "Mobile apps"
+  ],
+  "cons": [
+   "Marketing and service features are limited versus suites",
+   "Add-ons can raise cost"
+  ],
+  "alternatives": [
+   "zoho-crm",
+   "close",
+   "folk"
+  ],
+  "tags": [
+   "crm",
+   "pipeline",
+   "sales",
+   "deals",
+   "automation"
+  ],
+  "features": [
+   "Visual pipeline",
+   "Activity scheduling",
+   "Email integration",
+   "Automations",
+   "Reporting"
+  ],
+  "use_cases": [
+   "Tracking deals",
+   "Follow-up management",
+   "Small team forecasting",
+   "Lead capture"
+  ],
+  "pricing_details": "Pricing was not verified for this listing. Check the official pricing page for current plans, trials and limits.",
+  "faq": [
+   {
+    "q": "Is Pipedrive good for beginners?",
+    "a": "Many find the pipeline view easy; try it on your data."
+   },
+   {
+    "q": "Does it have a trial?",
+    "a": "Check the pricing page."
+   },
+   {
+    "q": "Can it automate tasks?",
+    "a": "Yes, automation tools exist; plan limits vary."
+   }
+  ],
+  "seo_title": "Pipedrive - Features, Pricing and Alternatives",
+  "seo_description": "Visual sales pipeline CRM for small and mid-sized teams. See what Pipedrive does, who it suits, pros and cons, and similar tools.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "zoho-crm",
+  "name": "Zoho CRM",
+  "category": "marketing",
+  "website_url": "https://www.zoho.com/crm",
+  "pricing": "Freemium",
+  "tagline": "CRM from Zoho for leads, deals and sales automation.",
+  "best_for": "Small businesses wanting an affordable CRM with a free edition",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "Zoho CRM manages leads, contacts, deals and sales activity in one system. It includes workflow automation, reports and an AI assistant, and connects to other Zoho apps.\n\nA free edition for small teams has been offered alongside paid tiers, which makes it a common starting point for small businesses. Because the Zoho ecosystem is large, setup choices can be broad; confirm which edition fits you. Plans, limits and features change, so check the official site for current plans.",
+  "use_steps": [
+   "Sign up and choose an edition.",
+   "Import leads and contacts.",
+   "Configure pipelines and workflows.",
+   "Use reports to track results."
+  ],
+  "pros": [
+   "Free edition option",
+   "Broad automation",
+   "Ties into the Zoho suite",
+   "Mobile apps"
+  ],
+  "cons": [
+   "Many options can feel complex",
+   "Some features restricted to higher editions"
+  ],
+  "alternatives": [
+   "pipedrive",
+   "close",
+   "folk"
+  ],
+  "tags": [
+   "crm",
+   "sales",
+   "automation",
+   "small business",
+   "zoho"
+  ],
+  "features": [
+   "Lead and deal management",
+   "Workflow automation",
+   "Reports",
+   "AI assistant",
+   "Mobile access"
+  ],
+  "use_cases": [
+   "Small business sales",
+   "Lead tracking",
+   "Customer records",
+   "Sales reporting"
+  ],
+  "pricing_details": "A free edition and paid editions exist. Check the official pricing page for current limits.",
+  "faq": [
+   {
+    "q": "Is there a free CRM plan?",
+    "a": "Zoho lists a free edition; confirm limits."
+   },
+   {
+    "q": "Does it integrate with Zoho apps?",
+    "a": "Yes, with its own suite."
+   },
+   {
+    "q": "Is it mobile?",
+    "a": "Apps are available."
+   }
+  ],
+  "seo_title": "Zoho CRM - Features, Pricing and Alternatives",
+  "seo_description": "CRM from Zoho for leads, deals and sales automation. See what Zoho CRM does, who it suits, pros and cons, and similar tools.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "close",
+  "name": "Close",
+  "category": "marketing",
+  "website_url": "https://www.close.com",
+  "pricing": "Unknown",
+  "tagline": "Sales CRM with built-in calling, email and SMS.",
+  "best_for": "Inside sales teams that live in calls and email",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Close is a CRM built for inside sales. Calling, email and SMS are built into the same record, so reps can log conversations without switching tools.\n\nIt includes sequences, a pipeline view and reporting aimed at small and mid-sized teams. It is less of a broad marketing suite and more of a focused sales workspace; check plan details for dialer and AI features. Plans, limits and features change, so check the official site for current plans.",
+  "use_steps": [
+   "Create an account and import leads.",
+   "Connect email and calling.",
+   "Build a sequence or call list.",
+   "Track outcomes in the pipeline."
+  ],
+  "pros": [
+   "Built-in calling and SMS",
+   "Sales-focused design",
+   "Sequences included",
+   "Clear reporting"
+  ],
+  "cons": [
+   "Narrow scope beyond sales",
+   "Pricing tiers vary by features"
+  ],
+  "alternatives": [
+   "pipedrive",
+   "zoho-crm",
+   "reply-io"
+  ],
+  "tags": [
+   "crm",
+   "inside sales",
+   "calling",
+   "sms",
+   "pipeline"
+  ],
+  "features": [
+   "Built-in dialer",
+   "Email and SMS",
+   "Sequences",
+   "Pipeline views",
+   "Reports"
+  ],
+  "use_cases": [
+   "Phone-based sales",
+   "Lead follow-up",
+   "Outbound cadences",
+   "Sales reporting"
+  ],
+  "pricing_details": "Pricing was not verified for this listing. Check the official pricing page for current plans, trials and limits.",
+  "faq": [
+   {
+    "q": "Does Close include calling?",
+    "a": "Calling is part of the product; confirm details."
+   },
+   {
+    "q": "Who is it for?",
+    "a": "Inside sales teams."
+   },
+   {
+    "q": "Is there a trial?",
+    "a": "Check the pricing page."
+   }
+  ],
+  "seo_title": "Close - Features, Pricing and Alternatives",
+  "seo_description": "Sales CRM with built-in calling, email and SMS. See what Close does, who it suits, pros and cons, and similar tools.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "folk",
+  "name": "folk",
+  "category": "marketing",
+  "website_url": "https://www.folk.app",
+  "pricing": "Unknown",
+  "tagline": "Lightweight CRM for managing relationships and groups of contacts.",
+  "best_for": "Founders and small teams managing relationships",
+  "platforms": [
+   "Web"
+  ],
+  "description": "folk is a relationship-focused CRM. You collect contacts from email and social tools, organize them into groups, and track where each relationship stands.\n\nIt aims to be flexible and simple, closer to a smart contact database than a heavy sales system. It fits agencies, founders and small teams who want to manage outreach lightly. Compare it with traditional CRMs if you need advanced forecasting. Plans, limits and features change, so check the official site for current plans.",
+  "use_steps": [
+   "Sign up and import contacts.",
+   "Create groups and custom fields.",
+   "Connect email to log conversations.",
+   "Use outreach tools and reminders."
+  ],
+  "pros": [
+   "Simple, flexible structure",
+   "Good for relationship tracking",
+   "Contact capture from email",
+   "Group-based organization"
+  ],
+  "cons": [
+   "Lighter than full CRMs",
+   "Advanced reporting may be limited"
+  ],
+  "alternatives": [
+   "pipedrive",
+   "zoho-crm",
+   "close"
+  ],
+  "tags": [
+   "crm",
+   "contacts",
+   "relationships",
+   "small team",
+   "outreach"
+  ],
+  "features": [
+   "Contact groups",
+   "Email sync",
+   "Custom fields",
+   "Reminders",
+   "Outreach tools"
+  ],
+  "use_cases": [
+   "Founder networking",
+   "Agency client tracking",
+   "Investor relations",
+   "Partnership management"
+  ],
+  "pricing_details": "Pricing was not verified for this listing. Check the official pricing page for current plans, trials and limits.",
+  "faq": [
+   {
+    "q": "Is folk a full sales CRM?",
+    "a": "It is lighter; check features against your needs."
+   },
+   {
+    "q": "Can I import contacts?",
+    "a": "Yes, import options exist."
+   },
+   {
+    "q": "Free trial?",
+    "a": "Check the pricing page."
+   }
+  ],
+  "seo_title": "folk - Features, Pricing and Alternatives",
+  "seo_description": "Lightweight CRM for managing relationships and groups of contacts. See what folk does, who it suits, pros and cons, and similar tools.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "intercom",
+  "name": "Intercom",
+  "category": "marketing",
+  "website_url": "https://www.intercom.com",
+  "pricing": "Unknown",
+  "tagline": "Customer service platform with the Fin AI agent and a shared inbox.",
+  "best_for": "Support teams adding an AI agent to a helpdesk",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "Intercom is a customer service platform with a shared inbox, help center and messenger. Its AI agent, Fin, answers customer questions using your help content and hands off to humans when needed.\n\nIntercom has described pricing for Fin that is based on outcomes, alongside seat-based plans for the helpdesk. Teams evaluate it on resolution quality, setup effort and cost per conversation. Test it against your real support questions. Plans, limits and features change, so check the official site for current plans.",
+  "use_steps": [
+   "Install the messenger on your site or app.",
+   "Connect your help articles and content.",
+   "Configure Fin and handoff rules.",
+   "Review conversations and refine content."
+  ],
+  "pros": [
+   "AI agent plus helpdesk",
+   "Handoff to human agents",
+   "Help center integration",
+   "Reporting on conversations"
+  ],
+  "cons": [
+   "Cost model needs careful estimation",
+   "Quality depends on your content"
+  ],
+  "alternatives": [
+   "tidio",
+   "crisp",
+   "gorgias"
+  ],
+  "tags": [
+   "customer support",
+   "ai agent",
+   "helpdesk",
+   "chatbot",
+   "fin"
+  ],
+  "features": [
+   "Fin AI agent",
+   "Shared inbox",
+   "Help center",
+   "Messenger",
+   "Reporting"
+  ],
+  "use_cases": [
+   "Support automation",
+   "Onboarding questions",
+   "Lead qualification chat",
+   "Ticket triage"
+  ],
+  "pricing_details": "Pricing was not verified for this listing. Check the official pricing page for current plans, trials and limits.",
+  "faq": [
+   {
+    "q": "What is Fin?",
+    "a": "Intercom's AI agent for customer questions."
+   },
+   {
+    "q": "How is Fin priced?",
+    "a": "Intercom has described per-resolution pricing; confirm current terms."
+   },
+   {
+    "q": "Can humans take over?",
+    "a": "Yes, handoff is supported."
+   }
+  ],
+  "seo_title": "Intercom - Features, Pricing and Alternatives",
+  "seo_description": "Customer service platform with the Fin AI agent and a shared inbox. See what Intercom does, who it suits, pros and cons, and similar tools.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "tidio",
+  "name": "Tidio",
+  "category": "marketing",
+  "website_url": "https://www.tidio.com",
+  "pricing": "Freemium",
+  "tagline": "Live chat and AI chatbot for small online businesses.",
+  "best_for": "Small and ecommerce sites adding live chat and a bot",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "Tidio combines live chat, chatbots and a shared inbox for small businesses and online stores. Visitors chat from a widget on your site, and automations can answer common questions or collect contact details.\n\nIts AI assistant, Lyro, answers questions from your knowledge content. Tidio publishes a free plan alongside paid tiers, so small sites can test it before paying. Evaluate answer accuracy on your own FAQs. Plans, limits and features change, so check the official site for current plans.",
+  "use_steps": [
+   "Create an account and install the chat widget.",
+   "Add FAQs or knowledge sources for the AI assistant.",
+   "Build chatbot flows for common tasks.",
+   "Monitor chats and refine answers."
+  ],
+  "pros": [
+   "Free plan available",
+   "Live chat plus bots",
+   "Ecommerce integrations",
+   "Easy widget install"
+  ],
+  "cons": [
+   "AI usage may be limited by plan",
+   "Advanced needs may outgrow it"
+  ],
+  "alternatives": [
+   "crisp",
+   "intercom",
+   "chatbase"
+  ],
+  "tags": [
+   "live chat",
+   "chatbot",
+   "ecommerce",
+   "support",
+   "lyro"
+  ],
+  "features": [
+   "Live chat widget",
+   "Chatbot flows",
+   "Lyro AI assistant",
+   "Shared inbox",
+   "Ecommerce integrations"
+  ],
+  "use_cases": [
+   "Store FAQ automation",
+   "Lead capture",
+   "Order questions",
+   "Support on small sites"
+  ],
+  "pricing_details": "A free plan and paid plans are listed. Check the pricing page for current limits and AI conversation allowances.",
+  "faq": [
+   {
+    "q": "Is Tidio free?",
+    "a": "A free plan exists; limits apply."
+   },
+   {
+    "q": "What is Lyro?",
+    "a": "Tidio's AI support assistant."
+   },
+   {
+    "q": "Does it suit stores?",
+    "a": "Ecommerce integrations are offered."
+   }
+  ],
+  "seo_title": "Tidio - Features, Pricing and Alternatives",
+  "seo_description": "Live chat and AI chatbot for small online businesses. See what Tidio does, who it suits, pros and cons, and similar tools.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "chatbase",
+  "name": "Chatbase",
+  "category": "marketing",
+  "website_url": "https://www.chatbase.co",
+  "pricing": "Freemium",
+  "tagline": "Build a chatbot trained on your own content and add it to your site.",
+  "best_for": "Teams wanting a quick custom support chatbot",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Chatbase lets you create a chatbot trained on your own material such as website pages, documents and text. You embed it on your site, and it answers visitor questions using that content.\n\nIt is aimed at non-technical teams who want a support or lead-capture bot quickly. A free tier has been listed, with paid plans for more messages and features. Always test answers and set fallbacks for questions the bot cannot handle. Plans, limits and features change, so check the official site for current plans.",
+  "use_steps": [
+   "Create an account and a new chatbot.",
+   "Add sources such as URLs and files.",
+   "Test and adjust instructions.",
+   "Embed it on your site."
+  ],
+  "pros": [
+   "Fast setup from your content",
+   "Embeddable widget",
+   "Free tier listed",
+   "Customizable instructions"
+  ],
+  "cons": [
+   "Answers need testing",
+   "Limits depend on plan"
+  ],
+  "alternatives": [
+   "tidio",
+   "botpress",
+   "voiceflow"
+  ],
+  "tags": [
+   "chatbot",
+   "knowledge base",
+   "support",
+   "embed",
+   "ai"
+  ],
+  "features": [
+   "Train on your content",
+   "Website widget",
+   "Custom instructions",
+   "Conversation history",
+   "Integrations"
+  ],
+  "use_cases": [
+   "Customer FAQ bot",
+   "Docs assistant",
+   "Lead capture",
+   "Internal help bot"
+  ],
+  "pricing_details": "A free tier and paid plans are listed. Verify current limits on the official pricing page.",
+  "faq": [
+   {
+    "q": "What does it train on?",
+    "a": "Your pages, files and text."
+   },
+   {
+    "q": "Is it free?",
+    "a": "A free tier is listed."
+   },
+   {
+    "q": "Can it hallucinate?",
+    "a": "Any AI bot can; test thoroughly."
+   }
+  ],
+  "seo_title": "Chatbase - Features, Pricing and Alternatives",
+  "seo_description": "Build a chatbot trained on your own content and add it to your site. See what Chatbase does, who it suits, pros and cons, and similar tools.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "botpress",
+  "name": "Botpress",
+  "category": "marketing",
+  "website_url": "https://botpress.com",
+  "pricing": "Unknown",
+  "tagline": "Platform for building AI agents and chatbots with visual flows and code.",
+  "best_for": "Builders who want control over conversational agents",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Botpress is a platform for building AI agents and chatbots. You design conversation flows visually, add knowledge sources and connect channels such as websites and messaging apps.\n\nIt supports both low-code building and custom code, which suits technical teams. Pricing has included usage-based elements, so estimate costs from your expected traffic. Test thoroughly before putting a bot in front of customers. Plans, limits and features change, so check the official site for current plans.",
+  "use_steps": [
+   "Create a bot in the studio.",
+   "Add knowledge and design flows.",
+   "Connect channels.",
+   "Test, publish and monitor."
+  ],
+  "pros": [
+   "Visual builder plus code",
+   "Knowledge base support",
+   "Multiple channels",
+   "Flexible for developers"
+  ],
+  "cons": [
+   "More setup than simple widgets",
+   "Usage costs need estimating"
+  ],
+  "alternatives": [
+   "voiceflow",
+   "chatbase",
+   "tidio"
+  ],
+  "tags": [
+   "chatbot",
+   "ai agent",
+   "builder",
+   "flows",
+   "developer"
+  ],
+  "features": [
+   "Visual flow editor",
+   "Knowledge bases",
+   "Channel integrations",
+   "Custom code",
+   "Analytics"
+  ],
+  "use_cases": [
+   "Support bots",
+   "Lead qualification",
+   "Internal assistants",
+   "Messaging automation"
+  ],
+  "pricing_details": "Pricing was not verified for this listing. Check the official pricing page for current plans, trials and limits.",
+  "faq": [
+   {
+    "q": "Is it for developers only?",
+    "a": "No, but technical users get more control."
+   },
+   {
+    "q": "Which channels?",
+    "a": "See the official integrations list."
+   },
+   {
+    "q": "Pricing model?",
+    "a": "Check the pricing page."
+   }
+  ],
+  "seo_title": "Botpress - Features, Pricing and Alternatives",
+  "seo_description": "Platform for building AI agents and chatbots with visual flows and code. See what Botpress does, who it suits, pros and cons, and similar tools.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "voiceflow",
+  "name": "Voiceflow",
+  "category": "marketing",
+  "website_url": "https://www.voiceflow.com",
+  "pricing": "Freemium",
+  "tagline": "Design and deploy chat and voice AI agents with a visual canvas.",
+  "best_for": "Product and support teams prototyping conversational agents",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Voiceflow is a collaborative tool for designing and launching conversational agents, including chat and voice. Teams map flows on a canvas, connect knowledge and APIs, and test before deploying.\n\nIt is often used by product, design and support teams who want to prototype quickly and iterate together. A free plan has been listed alongside paid tiers with credits. Check current plan limits before building at scale. Plans, limits and features change, so check the official site for current plans.",
+  "use_steps": [
+   "Create a project and agent.",
+   "Design the flow and add knowledge.",
+   "Test in the built-in preview.",
+   "Deploy to a channel."
+  ],
+  "pros": [
+   "Collaborative canvas",
+   "Chat and voice support",
+   "Knowledge and API steps",
+   "Free plan listed"
+  ],
+  "cons": [
+   "Credits and limits vary",
+   "Complex logic takes time to learn"
+  ],
+  "alternatives": [
+   "botpress",
+   "chatbase",
+   "tidio"
+  ],
+  "tags": [
+   "voice agent",
+   "chatbot",
+   "prototype",
+   "flows",
+   "design"
+  ],
+  "features": [
+   "Visual canvas",
+   "Knowledge base",
+   "API integrations",
+   "Testing tools",
+   "Team collaboration"
+  ],
+  "use_cases": [
+   "Support assistants",
+   "Voice agents",
+   "Prototype testing",
+   "Ecommerce bots"
+  ],
+  "pricing_details": "A free plan and paid plans are listed. See the official pricing page.",
+  "faq": [
+   {
+    "q": "Is it chat only?",
+    "a": "It covers chat and voice agents."
+   },
+   {
+    "q": "Free plan?",
+    "a": "One is listed."
+   },
+   {
+    "q": "Team use?",
+    "a": "Collaboration is a core feature."
+   }
+  ],
+  "seo_title": "Voiceflow - Features, Pricing and Alternatives",
+  "seo_description": "Design and deploy chat and voice AI agents with a visual canvas. See what Voiceflow does, who it suits, pros and cons, and similar tools.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "gorgias",
+  "name": "Gorgias",
+  "category": "marketing",
+  "website_url": "https://www.gorgias.com",
+  "pricing": "Unknown",
+  "tagline": "Helpdesk built for ecommerce stores with order data in each ticket.",
+  "best_for": "Online stores handling high support volume",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Gorgias is a helpdesk designed for ecommerce. It brings email, chat, social and phone conversations into one place and shows order and customer data from the store beside each ticket.\n\nIt offers automation and an AI agent for common questions such as order status. Pricing has been tied to ticket volume with add-ons for AI, so estimate usage. It suits Shopify-style stores more than non-ecommerce support teams. Plans, limits and features change, so check the official site for current plans.",
+  "use_steps": [
+   "Connect your store and channels.",
+   "Set up macros and rules.",
+   "Enable automation or the AI agent.",
+   "Review tickets and metrics."
+  ],
+  "pros": [
+   "Order data inside tickets",
+   "Multichannel inbox",
+   "Automation and macros",
+   "Ecommerce integrations"
+  ],
+  "cons": [
+   "Ticket-based pricing can scale up",
+   "Geared toward online stores"
+  ],
+  "alternatives": [
+   "intercom",
+   "tidio",
+   "crisp"
+  ],
+  "tags": [
+   "ecommerce",
+   "helpdesk",
+   "support",
+   "shopify",
+   "automation"
+  ],
+  "features": [
+   "Unified inbox",
+   "Order context",
+   "Automations",
+   "AI agent",
+   "Reporting"
+  ],
+  "use_cases": [
+   "Order status handling",
+   "Returns support",
+   "Social inbox",
+   "Support automation"
+  ],
+  "pricing_details": "Pricing was not verified for this listing. Check the official pricing page for current plans, trials and limits.",
+  "faq": [
+   {
+    "q": "Is it for non-ecommerce?",
+    "a": "It is aimed at stores."
+   },
+   {
+    "q": "Does it have AI?",
+    "a": "An AI agent is offered; check the plan."
+   },
+   {
+    "q": "How is pricing set?",
+    "a": "See the pricing page."
+   }
+  ],
+  "seo_title": "Gorgias - Features, Pricing and Alternatives",
+  "seo_description": "Helpdesk built for ecommerce stores with order data in each ticket. See what Gorgias does, who it suits, pros and cons, and similar tools.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "crisp",
+  "name": "Crisp",
+  "category": "marketing",
+  "website_url": "https://crisp.chat",
+  "pricing": "Freemium",
+  "tagline": "Customer messaging platform with live chat, inbox and chatbot.",
+  "best_for": "Small teams wanting live chat and a shared inbox",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "Crisp is a customer messaging platform with live chat, a shared inbox, a knowledge base and chatbot tools. It is used by small and growing companies to talk with site visitors and manage support.\n\nIt has offered a free plan and a free trial of paid plans, with pricing based on workspaces rather than seats. AI features are available through credits on some plans. Check the pricing page for current structure. Plans, limits and features change, so check the official site for current plans.",
+  "use_steps": [
+   "Create a workspace and add the chat widget.",
+   "Set up the inbox and teammates.",
+   "Add a knowledge base and chatbot.",
+   "Track conversations."
+  ],
+  "pros": [
+   "Free plan listed",
+   "Workspace-based pricing",
+   "Chat plus knowledge base",
+   "Mobile apps"
+  ],
+  "cons": [
+   "Advanced features need paid plans",
+   "AI credits may limit use"
+  ],
+  "alternatives": [
+   "tidio",
+   "intercom",
+   "gorgias"
+  ],
+  "tags": [
+   "live chat",
+   "inbox",
+   "support",
+   "knowledge base",
+   "chatbot"
+  ],
+  "features": [
+   "Live chat widget",
+   "Shared inbox",
+   "Knowledge base",
+   "Chatbot scenarios",
+   "Mobile apps"
+  ],
+  "use_cases": [
+   "Website support",
+   "Lead capture",
+   "Help center",
+   "Team inbox"
+  ],
+  "pricing_details": "A free plan and a 14-day trial of paid plans are listed. See the official pricing page.",
+  "faq": [
+   {
+    "q": "Is Crisp free?",
+    "a": "A free plan is listed."
+   },
+   {
+    "q": "Per-seat pricing?",
+    "a": "Pricing is by workspace."
+   },
+   {
+    "q": "AI features?",
+    "a": "Offered through credits."
+   }
+  ],
+  "seo_title": "Crisp - Features, Pricing and Alternatives",
+  "seo_description": "Customer messaging platform with live chat, inbox and chatbot. See what Crisp does, who it suits, pros and cons, and similar tools.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ }
+]

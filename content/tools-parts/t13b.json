@@ -1,0 +1,3958 @@
+[
+ {
+  "slug": "paperpal",
+  "name": "Paperpal",
+  "category": "research",
+  "website_url": "https://paperpal.com",
+  "pricing": "Unknown",
+  "tagline": "AI writing and language assistant aimed at academic manuscripts.",
+  "best_for": "Researchers polishing papers before submission",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Paperpal is an AI writing assistant built for academic and scientific text. It checks grammar, wording and tone with scholarly writing in mind, and offers suggestions to make manuscripts clearer and more concise.\n\nResearchers, graduate students and non-native English authors use it to tidy drafts before sending them to a journal or supervisor, treating its suggestions as edits to review rather than final text. Check the official site for current plans.",
+  "use_steps": [
+   "Open the tool and sign in or start a new document.",
+   "Paste or write your draft text.",
+   "Review each suggestion and accept only what fits your meaning.",
+   "Proofread the final version yourself and follow your institution's rules."
+  ],
+  "pros": [
+   "Focused on scholarly writing",
+   "Helps non-native authors",
+   "Suggestions are reviewable"
+  ],
+  "cons": [
+   "AI suggestions can change meaning, so review everything.",
+   "Features and availability can change"
+  ],
+  "alternatives": [
+   "quillbot",
+   "grammarly",
+   "languagetool"
+  ],
+  "tags": [
+   "academic writing",
+   "editing",
+   "grammar",
+   "manuscript",
+   "research"
+  ],
+  "features": [
+   "Academic-style grammar and language checks",
+   "Paraphrasing and rewording suggestions",
+   "Consistency and clarity feedback",
+   "Support for editing inside a document workflow",
+   "Citation and reference helper tools"
+  ],
+  "use_cases": [
+   "Polishing a thesis chapter",
+   "Preparing a journal submission",
+   "Improving a conference abstract"
+  ],
+  "pricing_details": "Pricing for Paperpal was not verified here and plans change over time. Check the official site for current plans and free options.",
+  "faq": [
+   {
+    "q": "What is Paperpal?",
+    "a": "Paperpal is an AI writing assistant built for academic and scientific text. See the official site for the latest details."
+   },
+   {
+    "q": "Is Paperpal free?",
+    "a": "Pricing for Paperpal was not verified here and plans change over time. Check the official site for current plans and free options."
+   },
+   {
+    "q": "How should I check results from Paperpal?",
+    "a": "Treat outputs as a starting point. Verify facts, numbers and quality yourself, follow your school or workplace rules, and confirm terms and privacy details on the official website."
+   }
+  ],
+  "seo_title": "Paperpal: What It Is and How to Use It",
+  "seo_description": "Learn what Paperpal is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "scispace",
+  "name": "SciSpace",
+  "category": "research",
+  "website_url": "https://scispace.com",
+  "pricing": "Unknown",
+  "tagline": "AI research assistant for finding and understanding scientific papers.",
+  "best_for": "Reading and searching academic literature faster",
+  "platforms": [
+   "Web"
+  ],
+  "description": "SciSpace is an AI research platform for exploring scientific literature. You can search for papers, open a PDF and ask questions about the text, and get plain-language explanations of dense passages.\n\nIt is useful when you meet an unfamiliar paper and need help with jargon, methods or math notation, or when you want to scan many papers on a topic quickly before reading the important ones in full. Check the official site for current plans.",
+  "use_steps": [
+   "Open the site and create an account if asked.",
+   "Search a topic or upload a paper to begin.",
+   "Read the summaries, then open the original sources.",
+   "Save relevant papers and verify claims in the full text."
+  ],
+  "pros": [
+   "Explains jargon in context",
+   "Combines search and reading",
+   "Helpful for newcomers to a field"
+  ],
+  "cons": [
+   "Features and availability can change",
+   "Outputs or content should be verified independently"
+  ],
+  "alternatives": [
+   "elicit",
+   "consensus",
+   "semantic-scholar"
+  ],
+  "tags": [
+   "papers",
+   "literature review",
+   "pdf chat",
+   "science",
+   "research"
+  ],
+  "features": [
+   "Paper search across a large literature index",
+   "Chat with a PDF about its contents",
+   "Plain-language explanations of selected text",
+   "Literature review helper tools",
+   "Saving and organizing papers"
+  ],
+  "use_cases": [
+   "Understanding a difficult methods section",
+   "Scanning a new topic area",
+   "Collecting sources for a review"
+  ],
+  "pricing_details": "Pricing for SciSpace was not verified here and plans change over time. Check the official site for current plans and free options.",
+  "faq": [
+   {
+    "q": "What is SciSpace?",
+    "a": "SciSpace is an AI research platform for exploring scientific literature. See the official site for the latest details."
+   },
+   {
+    "q": "Is SciSpace free?",
+    "a": "Pricing for SciSpace was not verified here and plans change over time. Check the official site for current plans and free options."
+   },
+   {
+    "q": "How should I check results from SciSpace?",
+    "a": "Treat outputs as a starting point. Verify facts, numbers and quality yourself, follow your school or workplace rules, and confirm terms and privacy details on the official website."
+   }
+  ],
+  "seo_title": "SciSpace: What It Is and How to Use It",
+  "seo_description": "Learn what SciSpace is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "litmaps",
+  "name": "Litmaps",
+  "category": "research",
+  "website_url": "https://www.litmaps.com",
+  "pricing": "Unknown",
+  "tagline": "Visual citation maps for discovering and tracking academic literature.",
+  "best_for": "Mapping how papers on a topic connect",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Litmaps builds visual maps of academic papers and the citation links between them. Starting from a few seed papers, it suggests related work and lays out the results so you can see clusters and gaps in a field.\n\nIt suits literature reviews where you want to keep discovering relevant papers over time, since a map can be updated as new work appears and shared with collaborators or a supervisor. Check the official site for current plans.",
+  "use_steps": [
+   "Open the site and create an account if asked.",
+   "Search a topic or upload a paper to begin.",
+   "Read the summaries, then open the original sources.",
+   "Save relevant papers and verify claims in the full text."
+  ],
+  "pros": [
+   "Visual view of a field",
+   "Helps find related work",
+   "Good for ongoing reviews"
+  ],
+  "cons": [
+   "Features and availability can change",
+   "Outputs or content should be verified independently"
+  ],
+  "alternatives": [
+   "connected-papers",
+   "semantic-scholar",
+   "zotero"
+  ],
+  "tags": [
+   "citations",
+   "literature map",
+   "discovery",
+   "academic",
+   "research"
+  ],
+  "features": [
+   "Citation-based paper maps",
+   "Suggestions of related papers from seeds",
+   "Monitoring for newly published related work",
+   "Importing papers from reference managers",
+   "Shareable maps"
+  ],
+  "use_cases": [
+   "Starting a literature review",
+   "Finding missed key papers",
+   "Keeping a thesis topic up to date"
+  ],
+  "pricing_details": "Pricing for Litmaps was not verified here and plans change over time. Check the official site for current plans and free options.",
+  "faq": [
+   {
+    "q": "What is Litmaps?",
+    "a": "Litmaps builds visual maps of academic papers and the citation links between them. See the official site for the latest details."
+   },
+   {
+    "q": "Is Litmaps free?",
+    "a": "Pricing for Litmaps was not verified here and plans change over time. Check the official site for current plans and free options."
+   },
+   {
+    "q": "How should I check results from Litmaps?",
+    "a": "Treat outputs as a starting point. Verify facts, numbers and quality yourself, follow your school or workplace rules, and confirm terms and privacy details on the official website."
+   }
+  ],
+  "seo_title": "Litmaps: What It Is and How to Use It",
+  "seo_description": "Learn what Litmaps is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "chatpdf",
+  "name": "ChatPDF",
+  "category": "research",
+  "website_url": "https://www.chatpdf.com",
+  "pricing": "Unknown",
+  "tagline": "Ask questions about a PDF and get answers drawn from its text.",
+  "best_for": "Quickly querying a single long PDF",
+  "platforms": [
+   "Web"
+  ],
+  "description": "ChatPDF lets you upload a PDF and ask questions about it in a chat. The tool answers using the content of the document, which is handy for long reports, manuals and papers that you do not want to read end to end.\n\nStudents and professionals use it to locate a specific section, summarize a chapter, or get a first overview before reading carefully. Because it is a language-model tool, anything important should be checked against the original page. Check the official site for current plans.",
+  "use_steps": [
+   "Open the site and sign in.",
+   "Upload your PDF or document.",
+   "Ask a specific question in plain language.",
+   "Check the answer against the original page before using it."
+  ],
+  "pros": [
+   "Very simple to start",
+   "Saves time on long files",
+   "Plain-language questions"
+  ],
+  "cons": [
+   "Features and availability can change",
+   "Outputs or content should be verified independently"
+  ],
+  "alternatives": [
+   "notebooklm",
+   "humata",
+   "scispace"
+  ],
+  "tags": [
+   "pdf",
+   "chat",
+   "summary",
+   "documents",
+   "research"
+  ],
+  "features": [
+   "Chat interface for an uploaded PDF",
+   "Summaries of sections or whole files",
+   "Answers tied to the document text",
+   "Simple upload workflow",
+   "Questions in plain language"
+  ],
+  "use_cases": [
+   "Summarizing a long report",
+   "Finding a clause in a contract-style document",
+   "Previewing a research paper"
+  ],
+  "pricing_details": "Pricing for ChatPDF was not verified here and plans change over time. Check the official site for current plans and free options.",
+  "faq": [
+   {
+    "q": "What is ChatPDF?",
+    "a": "ChatPDF lets you upload a PDF and ask questions about it in a chat. See the official site for the latest details."
+   },
+   {
+    "q": "Is ChatPDF free?",
+    "a": "Pricing for ChatPDF was not verified here and plans change over time. Check the official site for current plans and free options."
+   },
+   {
+    "q": "How should I check results from ChatPDF?",
+    "a": "Treat outputs as a starting point. Verify facts, numbers and quality yourself, follow your school or workplace rules, and confirm terms and privacy details on the official website."
+   }
+  ],
+  "seo_title": "ChatPDF: What It Is and How to Use It",
+  "seo_description": "Learn what ChatPDF is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "humata",
+  "name": "Humata",
+  "category": "research",
+  "website_url": "https://www.humata.ai",
+  "pricing": "Unknown",
+  "tagline": "AI assistant for asking questions across your documents.",
+  "best_for": "Getting answers from long files and document sets",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Humata is an AI tool for working with documents. You upload files such as PDFs and ask questions, and it responds based on what the documents contain, aiming to save time spent searching through long text.\n\nIt is aimed at people who handle dense material, such as researchers, analysts and students, who want quick summaries or specific facts. As with all such tools, verify quotes and numbers against the source. Check the official site for current plans.",
+  "use_steps": [
+   "Open the site and sign in.",
+   "Upload your PDF or document.",
+   "Ask a specific question in plain language.",
+   "Check the answer against the original page before using it."
+  ],
+  "pros": [
+   "Handles dense documents",
+   "Saves searching time",
+   "Easy question-based workflow"
+  ],
+  "cons": [
+   "Features and availability can change",
+   "Outputs or content should be verified independently"
+  ],
+  "alternatives": [
+   "chatpdf",
+   "notebooklm",
+   "scispace"
+  ],
+  "tags": [
+   "documents",
+   "pdf",
+   "qa",
+   "summary",
+   "research"
+  ],
+  "features": [
+   "Question answering over uploaded files",
+   "Document summaries",
+   "Support for working with multiple documents",
+   "Plain-language chat interface",
+   "Reference back to source passages"
+  ],
+  "use_cases": [
+   "Reviewing a long study",
+   "Pulling facts from reports",
+   "Comparing points across documents"
+  ],
+  "pricing_details": "Pricing for Humata was not verified here and plans change over time. Check the official site for current plans and free options.",
+  "faq": [
+   {
+    "q": "What is Humata?",
+    "a": "Humata is an AI tool for working with documents. See the official site for the latest details."
+   },
+   {
+    "q": "Is Humata free?",
+    "a": "Pricing for Humata was not verified here and plans change over time. Check the official site for current plans and free options."
+   },
+   {
+    "q": "How should I check results from Humata?",
+    "a": "Treat outputs as a starting point. Verify facts, numbers and quality yourself, follow your school or workplace rules, and confirm terms and privacy details on the official website."
+   }
+  ],
+  "seo_title": "Humata: What It Is and How to Use It",
+  "seo_description": "Learn what Humata is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "jamovi",
+  "name": "jamovi",
+  "category": "research",
+  "website_url": "https://www.jamovi.org",
+  "pricing": "Open source",
+  "tagline": "Free, open statistics software with a spreadsheet-style interface.",
+  "best_for": "Learning and running statistics without coding",
+  "platforms": [
+   "Windows",
+   "macOS",
+   "Linux"
+  ],
+  "description": "jamovi is open statistical software with a familiar spreadsheet-style interface. You load a dataset, choose analyses from menus, and results appear live in a results pane that updates as you change options.\n\nIt is popular in teaching because students can run common tests without writing code, while those who want more can use its R integration. It is a practical alternative to expensive commercial packages for coursework. Check the official site for current plans.",
+  "use_steps": [
+   "Download or open the software and load your dataset.",
+   "Check variable types and clean obvious errors.",
+   "Choose the analysis or workflow you need.",
+   "Interpret results with care and record your settings for reproducibility."
+  ],
+  "pros": [
+   "Free and open",
+   "Beginner friendly",
+   "Live-updating results"
+  ],
+  "cons": [
+   "Statistical output is only as good as your data and design.",
+   "Features and availability can change"
+  ],
+  "alternatives": [
+   "jasp",
+   "jupyter",
+   "orange-data-mining"
+  ],
+  "tags": [
+   "statistics",
+   "open source",
+   "spss alternative",
+   "data analysis",
+   "research"
+  ],
+  "features": [
+   "Spreadsheet-style data view",
+   "Menu-driven common statistical tests",
+   "Results that update live",
+   "R integration for advanced users",
+   "Exportable tables and plots"
+  ],
+  "use_cases": [
+   "Teaching an intro statistics class",
+   "Analyzing survey data",
+   "Running t-tests and ANOVA"
+  ],
+  "pricing_details": "jamovi is generally available as free, open software. Companion services or support options may differ and details change over time. Check the official site for current information.",
+  "faq": [
+   {
+    "q": "What is jamovi?",
+    "a": "jamovi is open statistical software with a familiar spreadsheet-style interface. See the official site for the latest details."
+   },
+   {
+    "q": "Is jamovi free?",
+    "a": "jamovi is generally available as free, open software. Companion services or support options may differ and details change over time. Check the official site for current information."
+   },
+   {
+    "q": "How should I check results from jamovi?",
+    "a": "Treat outputs as a starting point. Verify facts, numbers and quality yourself, follow your school or workplace rules, and confirm terms and privacy details on the official website."
+   }
+  ],
+  "seo_title": "jamovi: What It Is and How to Use It",
+  "seo_description": "Learn what jamovi is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "jasp",
+  "name": "JASP",
+  "category": "research",
+  "website_url": "https://jasp-stats.org",
+  "pricing": "Open source",
+  "tagline": "Free statistics software supporting classical and Bayesian analysis.",
+  "best_for": "Students and researchers wanting an easy stats tool",
+  "platforms": [
+   "Windows",
+   "macOS",
+   "Linux"
+  ],
+  "description": "JASP is free, open statistics software with a clean graphical interface. It supports familiar classical analyses and also offers Bayesian alternatives, with results shown in tidy tables that update as options change.\n\nResearchers like that output is formatted for reporting, which suits writing up studies and theses. It also lowers the barrier for beginners who want to learn statistics without learning a programming language first. Check the official site for current plans.",
+  "use_steps": [
+   "Download or open the software and load your dataset.",
+   "Check variable types and clean obvious errors.",
+   "Choose the analysis or workflow you need.",
+   "Interpret results with care and record your settings for reproducibility."
+  ],
+  "pros": [
+   "Free to use",
+   "Reporting-ready output",
+   "Bayesian options built in"
+  ],
+  "cons": [
+   "Statistical output is only as good as your data and design.",
+   "Features and availability can change"
+  ],
+  "alternatives": [
+   "jamovi",
+   "jupyter",
+   "orange-data-mining"
+  ],
+  "tags": [
+   "statistics",
+   "bayesian",
+   "open source",
+   "analysis",
+   "research"
+  ],
+  "features": [
+   "Graphical menu-driven analyses",
+   "Classical and Bayesian methods",
+   "Live-updating output tables",
+   "Plot options for results",
+   "Saving analyses with data"
+  ],
+  "use_cases": [
+   "Running an ANOVA for a thesis",
+   "Exploring Bayesian alternatives",
+   "Teaching stats in class"
+  ],
+  "pricing_details": "JASP is generally available as free, open software. Companion services or support options may differ and details change over time. Check the official site for current information.",
+  "faq": [
+   {
+    "q": "What is JASP?",
+    "a": "JASP is free, open statistics software with a clean graphical interface. See the official site for the latest details."
+   },
+   {
+    "q": "Is JASP free?",
+    "a": "JASP is generally available as free, open software. Companion services or support options may differ and details change over time. Check the official site for current information."
+   },
+   {
+    "q": "How should I check results from JASP?",
+    "a": "Treat outputs as a starting point. Verify facts, numbers and quality yourself, follow your school or workplace rules, and confirm terms and privacy details on the official website."
+   }
+  ],
+  "seo_title": "JASP: What It Is and How to Use It",
+  "seo_description": "Learn what JASP is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "orange-data-mining",
+  "name": "Orange Data Mining",
+  "category": "research",
+  "website_url": "https://orangedatamining.com",
+  "pricing": "Open source",
+  "tagline": "Visual, drag-and-drop toolkit for data mining and machine learning.",
+  "best_for": "Learning data analysis through visual workflows",
+  "platforms": [
+   "Windows",
+   "macOS",
+   "Linux"
+  ],
+  "description": "Orange is an open-source data mining and visualization toolkit. You build analysis workflows by connecting widgets on a canvas, with no code needed, covering tasks such as loading data, exploring it and training models.\n\nIt is widely used in teaching because the workflow shows each step of an analysis visually, helping beginners understand how data moves from import to model. Python users can also extend it. Check the official site for current plans.",
+  "use_steps": [
+   "Download or open the software and load your dataset.",
+   "Check variable types and clean obvious errors.",
+   "Choose the analysis or workflow you need.",
+   "Interpret results with care and record your settings for reproducibility."
+  ],
+  "pros": [
+   "No coding needed",
+   "Free and open source",
+   "Great for teaching"
+  ],
+  "cons": [
+   "Statistical output is only as good as your data and design.",
+   "Features and availability can change"
+  ],
+  "alternatives": [
+   "knime",
+   "jupyter",
+   "google-colab"
+  ],
+  "tags": [
+   "data mining",
+   "machine learning",
+   "visual",
+   "open source",
+   "education"
+  ],
+  "features": [
+   "Visual canvas of connected widgets",
+   "Data exploration and visualization",
+   "Machine learning model widgets",
+   "Add-ons for extra domains",
+   "Python scripting for extension"
+  ],
+  "use_cases": [
+   "Teaching machine learning basics",
+   "Exploring a dataset visually",
+   "Prototyping a simple classifier"
+  ],
+  "pricing_details": "Orange Data Mining is generally available as free, open software. Companion services or support options may differ and details change over time. Check the official site for current information.",
+  "faq": [
+   {
+    "q": "What is Orange Data Mining?",
+    "a": "Orange is an open-source data mining and visualization toolkit. See the official site for the latest details."
+   },
+   {
+    "q": "Is Orange Data Mining free?",
+    "a": "Orange Data Mining is generally available as free, open software. Companion services or support options may differ and details change over time. Check the official site for current information."
+   },
+   {
+    "q": "How should I check results from Orange Data Mining?",
+    "a": "Treat outputs as a starting point. Verify facts, numbers and quality yourself, follow your school or workplace rules, and confirm terms and privacy details on the official website."
+   }
+  ],
+  "seo_title": "Orange Data Mining: What It Is and How to Use It",
+  "seo_description": "Learn what Orange Data Mining is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "knime",
+  "name": "KNIME",
+  "category": "research",
+  "website_url": "https://www.knime.com",
+  "pricing": "Open source",
+  "tagline": "Visual data analytics platform built from connected workflow nodes.",
+  "best_for": "Building repeatable data workflows without much code",
+  "platforms": [
+   "Windows",
+   "macOS",
+   "Linux"
+  ],
+  "description": "KNIME offers a visual environment for data analytics. You assemble workflows from nodes that read data, clean it, transform it, model it and report results, which makes steps easy to inspect and repeat.\n\nAnalysts and students use it to automate recurring data tasks and to learn analytics concepts. The desktop analytics platform is open source, while the company also sells commercial products, so check which offering you need. Check the official site for current plans.",
+  "use_steps": [
+   "Download or open the software and load your dataset.",
+   "Check variable types and clean obvious errors.",
+   "Choose the analysis or workflow you need.",
+   "Interpret results with care and record your settings for reproducibility."
+  ],
+  "pros": [
+   "Visual and repeatable",
+   "Wide set of nodes",
+   "Free desktop platform"
+  ],
+  "cons": [
+   "Statistical output is only as good as your data and design.",
+   "Features and availability can change"
+  ],
+  "alternatives": [
+   "orange-data-mining",
+   "jupyter",
+   "kaggle"
+  ],
+  "tags": [
+   "analytics",
+   "workflow",
+   "data",
+   "low code",
+   "research"
+  ],
+  "features": [
+   "Node-based visual workflows",
+   "Data blending and cleaning nodes",
+   "Machine learning integrations",
+   "Extensions from the community",
+   "Workflow reuse and sharing"
+  ],
+  "use_cases": [
+   "Cleaning a messy dataset",
+   "Automating a weekly report",
+   "Learning analytics workflows"
+  ],
+  "pricing_details": "KNIME is generally available as free, open software. Companion services or support options may differ and details change over time. Check the official site for current information.",
+  "faq": [
+   {
+    "q": "What is KNIME?",
+    "a": "KNIME offers a visual environment for data analytics. See the official site for the latest details."
+   },
+   {
+    "q": "Is KNIME free?",
+    "a": "KNIME is generally available as free, open software. Companion services or support options may differ and details change over time. Check the official site for current information."
+   },
+   {
+    "q": "How should I check results from KNIME?",
+    "a": "Treat outputs as a starting point. Verify facts, numbers and quality yourself, follow your school or workplace rules, and confirm terms and privacy details on the official website."
+   }
+  ],
+  "seo_title": "KNIME: What It Is and How to Use It",
+  "seo_description": "Learn what KNIME is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "overleaf",
+  "name": "Overleaf",
+  "category": "research",
+  "website_url": "https://www.overleaf.com",
+  "pricing": "Freemium",
+  "tagline": "Online collaborative LaTeX editor for papers, theses and reports.",
+  "best_for": "Writing scientific documents in LaTeX with collaborators",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Overleaf is an online editor for LaTeX documents. You write source text and see the formatted PDF side by side, without installing a LaTeX distribution, and templates are available for many journals and universities.\n\nIt is common for theses and scientific papers with equations, figures and bibliographies. Real-time sharing lets co-authors edit the same project, which beats emailing files back and forth. Check the official site for current plans.",
+  "use_steps": [
+   "Open the tool and sign in or start a new document.",
+   "Paste or write your draft text.",
+   "Review each suggestion and accept only what fits your meaning.",
+   "Proofread the final version yourself and follow your institution's rules."
+  ],
+  "pros": [
+   "No local install",
+   "Many templates",
+   "Good for teamwork"
+  ],
+  "cons": [
+   "AI suggestions can change meaning, so review everything.",
+   "Features and availability can change"
+  ],
+  "alternatives": [
+   "zotero",
+   "mendeley",
+   "jupyter"
+  ],
+  "tags": [
+   "latex",
+   "writing",
+   "papers",
+   "collaboration",
+   "thesis"
+  ],
+  "features": [
+   "Browser-based LaTeX editing",
+   "Live PDF preview",
+   "Templates for papers and theses",
+   "Collaboration with co-authors",
+   "Bibliography and citation support"
+  ],
+  "use_cases": [
+   "Writing a thesis with equations",
+   "Co-authoring a paper",
+   "Formatting for a journal template"
+  ],
+  "pricing_details": "Overleaf is generally offered with a free option and paid plans for extra features. Plans change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Overleaf?",
+    "a": "Overleaf is an online editor for LaTeX documents. See the official site for the latest details."
+   },
+   {
+    "q": "Is Overleaf free?",
+    "a": "Overleaf is generally offered with a free option and paid plans for extra features. Plans change, so check the official site for current details."
+   },
+   {
+    "q": "How should I check results from Overleaf?",
+    "a": "Treat outputs as a starting point. Verify facts, numbers and quality yourself, follow your school or workplace rules, and confirm terms and privacy details on the official website."
+   }
+  ],
+  "seo_title": "Overleaf: What It Is and How to Use It",
+  "seo_description": "Learn what Overleaf is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "mathpix",
+  "name": "Mathpix",
+  "category": "research",
+  "website_url": "https://mathpix.com",
+  "pricing": "Unknown",
+  "tagline": "Converts images and PDFs of math and science into editable text and LaTeX.",
+  "best_for": "Digitizing equations and STEM documents",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "Mathpix recognizes mathematical and scientific content in images and PDFs and converts it into editable formats such as LaTeX. That saves retyping equations from textbooks, slides or handwritten notes.\n\nStudents and researchers use it to bring equations into notes and papers, and to turn scanned material into text. Always proofread converted equations, since symbols can be misread. Check the official site for current plans.",
+  "use_steps": [
+   "Open the app or site.",
+   "Enter or photograph the problem.",
+   "Read the solution and steps, comparing with your own work.",
+   "Practice a similar problem on your own."
+  ],
+  "pros": [
+   "Saves retyping equations",
+   "Handles STEM content",
+   "Useful for notes"
+  ],
+  "cons": [
+   "Machine-read problems can be misread, so check the input.",
+   "Features and availability can change"
+  ],
+  "alternatives": [
+   "overleaf",
+   "photomath",
+   "wolfram-alpha"
+  ],
+  "tags": [
+   "math",
+   "latex",
+   "ocr",
+   "equations",
+   "stem"
+  ],
+  "features": [
+   "Equation recognition from images",
+   "Output in LaTeX and similar formats",
+   "PDF conversion for STEM documents",
+   "Handwriting support for math",
+   "Apps and capture tools"
+  ],
+  "use_cases": [
+   "Copying equations into a paper",
+   "Digitizing lecture notes",
+   "Converting a scanned problem set"
+  ],
+  "pricing_details": "Pricing for Mathpix was not verified here and plans change over time. Check the official site for current plans and free options.",
+  "faq": [
+   {
+    "q": "What is Mathpix?",
+    "a": "Mathpix recognizes mathematical and scientific content in images and PDFs and converts it into editable formats such as LaTeX. See the official site for the latest details."
+   },
+   {
+    "q": "Is Mathpix free?",
+    "a": "Pricing for Mathpix was not verified here and plans change over time. Check the official site for current plans and free options."
+   },
+   {
+    "q": "How should I check results from Mathpix?",
+    "a": "Treat outputs as a starting point. Verify facts, numbers and quality yourself, follow your school or workplace rules, and confirm terms and privacy details on the official website."
+   }
+  ],
+  "seo_title": "Mathpix: What It Is and How to Use It",
+  "seo_description": "Learn what Mathpix is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "knowt",
+  "name": "Knowt",
+  "category": "study",
+  "website_url": "https://knowt.com",
+  "pricing": "Unknown",
+  "tagline": "Flashcards and notes with AI help for creating study sets.",
+  "best_for": "Making flashcards and practice quizzes from notes",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "Knowt is a study app for flashcards, notes and practice questions. You can build sets by hand or generate them from notes and documents, then review with spaced study modes and quizzes.\n\nIt is aimed at students who want something similar to classic flashcard apps with extra help turning class material into study sets. Review generated cards for accuracy before relying on them. Check the official site for current plans.",
+  "use_steps": [
+   "Create an account and open the study area.",
+   "Add your notes or build a set of cards.",
+   "Review in short, regular sessions.",
+   "Fix errors in cards and focus on the ones you miss."
+  ],
+  "pros": [
+   "Notes and cards in one place",
+   "Quick set creation",
+   "Mobile access"
+  ],
+  "cons": [
+   "Features and availability can change",
+   "Outputs or content should be verified independently"
+  ],
+  "alternatives": [
+   "quizlet",
+   "anki",
+   "brainscape"
+  ],
+  "tags": [
+   "flashcards",
+   "notes",
+   "quiz",
+   "students",
+   "ai"
+  ],
+  "features": [
+   "Flashcard creation and review",
+   "Notes alongside study sets",
+   "AI-assisted set generation",
+   "Practice quizzes",
+   "Sharing sets with classmates"
+  ],
+  "use_cases": [
+   "Turning class notes into cards",
+   "Preparing for a quiz",
+   "Sharing sets in a study group"
+  ],
+  "pricing_details": "Pricing for Knowt was not verified here and plans change over time. Check the official site for current plans and free options.",
+  "faq": [
+   {
+    "q": "What is Knowt?",
+    "a": "Knowt is a study app for flashcards, notes and practice questions. See the official site for the latest details."
+   },
+   {
+    "q": "Is Knowt free?",
+    "a": "Pricing for Knowt was not verified here and plans change over time. Check the official site for current plans and free options."
+   },
+   {
+    "q": "How should I check results from Knowt?",
+    "a": "Treat outputs as a starting point. Verify facts, numbers and quality yourself, follow your school or workplace rules, and confirm terms and privacy details on the official website."
+   }
+  ],
+  "seo_title": "Knowt: What It Is and How to Use It",
+  "seo_description": "Learn what Knowt is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "brainscape",
+  "name": "Brainscape",
+  "category": "study",
+  "website_url": "https://www.brainscape.com",
+  "pricing": "Unknown",
+  "tagline": "Flashcard app built around confidence-based repetition.",
+  "best_for": "Memorizing facts with spaced repetition",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "Brainscape is a flashcard platform built on confidence-based repetition. After each card you rate how well you knew it, and the app schedules cards to appear again sooner or later based on your rating.\n\nLearners use it for exams and languages, either building their own decks or using shared ones. The method suits fact-heavy subjects where steady, regular review matters more than long cramming sessions. Check the official site for current plans.",
+  "use_steps": [
+   "Create an account and open the study area.",
+   "Add your notes or build a set of cards.",
+   "Review in short, regular sessions.",
+   "Fix errors in cards and focus on the ones you miss."
+  ],
+  "pros": [
+   "Clear repetition method",
+   "Works on mobile",
+   "Good for exam facts"
+  ],
+  "cons": [
+   "Features and availability can change",
+   "Outputs or content should be verified independently"
+  ],
+  "alternatives": [
+   "anki",
+   "quizlet",
+   "knowt"
+  ],
+  "tags": [
+   "flashcards",
+   "spaced repetition",
+   "memorization",
+   "exams",
+   "study"
+  ],
+  "features": [
+   "Confidence-based spaced repetition",
+   "Create your own decks",
+   "Shared and library decks",
+   "Study on web and mobile",
+   "Progress tracking"
+  ],
+  "use_cases": [
+   "Medical or law exam prep",
+   "Learning vocabulary",
+   "Revising a semester of content"
+  ],
+  "pricing_details": "Pricing for Brainscape was not verified here and plans change over time. Check the official site for current plans and free options.",
+  "faq": [
+   {
+    "q": "What is Brainscape?",
+    "a": "Brainscape is a flashcard platform built on confidence-based repetition. See the official site for the latest details."
+   },
+   {
+    "q": "Is Brainscape free?",
+    "a": "Pricing for Brainscape was not verified here and plans change over time. Check the official site for current plans and free options."
+   },
+   {
+    "q": "How should I check results from Brainscape?",
+    "a": "Treat outputs as a starting point. Verify facts, numbers and quality yourself, follow your school or workplace rules, and confirm terms and privacy details on the official website."
+   }
+  ],
+  "seo_title": "Brainscape: What It Is and How to Use It",
+  "seo_description": "Learn what Brainscape is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "quizgecko",
+  "name": "Quizgecko",
+  "category": "study",
+  "website_url": "https://quizgecko.com",
+  "pricing": "Unknown",
+  "tagline": "Generates quizzes and questions from text, documents and notes.",
+  "best_for": "Quickly producing quizzes from existing material",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Quizgecko is an AI quiz generator. You supply text, a document or a topic and it produces questions such as multiple choice or true and false, which you can edit and share or use for self-testing.\n\nTeachers use it to save time on assessment drafts and students use it to test themselves. Because questions are machine-generated, read each one for correctness and clarity before using it in a graded setting. Check the official site for current plans.",
+  "use_steps": [
+   "Sign up or open the tool.",
+   "Create a quiz or pick an existing one.",
+   "Share the join code or link with your group.",
+   "Review the results and revisit weak topics."
+  ],
+  "pros": [
+   "Fast quiz drafting",
+   "Editable output",
+   "Useful for teachers and students"
+  ],
+  "cons": [
+   "Features and availability can change",
+   "Outputs or content should be verified independently"
+  ],
+  "alternatives": [
+   "quizlet",
+   "knowt",
+   "kahoot"
+  ],
+  "tags": [
+   "quiz",
+   "ai",
+   "teachers",
+   "assessment",
+   "study"
+  ],
+  "features": [
+   "Question generation from text",
+   "Multiple question formats",
+   "Editing generated questions",
+   "Sharing quizzes",
+   "Source input from documents"
+  ],
+  "use_cases": [
+   "Drafting a class quiz",
+   "Self-testing from notes",
+   "Creating revision questions"
+  ],
+  "pricing_details": "Pricing for Quizgecko was not verified here and plans change over time. Check the official site for current plans and free options.",
+  "faq": [
+   {
+    "q": "What is Quizgecko?",
+    "a": "Quizgecko is an AI quiz generator. See the official site for the latest details."
+   },
+   {
+    "q": "Is Quizgecko free?",
+    "a": "Pricing for Quizgecko was not verified here and plans change over time. Check the official site for current plans and free options."
+   },
+   {
+    "q": "How should I check results from Quizgecko?",
+    "a": "Treat outputs as a starting point. Verify facts, numbers and quality yourself, follow your school or workplace rules, and confirm terms and privacy details on the official website."
+   }
+  ],
+  "seo_title": "Quizgecko: What It Is and How to Use It",
+  "seo_description": "Learn what Quizgecko is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "kahoot",
+  "name": "Kahoot!",
+  "category": "study",
+  "website_url": "https://kahoot.com",
+  "pricing": "Freemium",
+  "tagline": "Game-based quiz platform for classrooms, training and events.",
+  "best_for": "Running live quiz games with groups",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "Kahoot! is a game-based learning platform where a host runs live quizzes and participants answer on their own devices. Scores and leaderboards add friendly competition to reviews and training sessions.\n\nTeachers use it for starter activities and revision, and companies use it for onboarding and events. Self-paced options also let learners play on their own after the live session. Check the official site for current plans.",
+  "use_steps": [
+   "Sign up or open the tool.",
+   "Create a quiz or pick an existing one.",
+   "Share the join code or link with your group.",
+   "Review the results and revisit weak topics."
+  ],
+  "pros": [
+   "High engagement",
+   "Easy joining by code",
+   "Large quiz library"
+  ],
+  "cons": [
+   "Features and availability can change",
+   "Outputs or content should be verified independently"
+  ],
+  "alternatives": [
+   "quizlet",
+   "quizgecko",
+   "edpuzzle"
+  ],
+  "tags": [
+   "quiz",
+   "game",
+   "classroom",
+   "engagement",
+   "training"
+  ],
+  "features": [
+   "Live quiz games with a host",
+   "Join with a code on any device",
+   "Library of ready-made quizzes",
+   "Self-paced challenge modes",
+   "Result reports for hosts"
+  ],
+  "use_cases": [
+   "Classroom revision games",
+   "Team training quizzes",
+   "Event icebreakers"
+  ],
+  "pricing_details": "Kahoot! is generally offered with a free option and paid plans for extra features. Plans change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Kahoot!?",
+    "a": "Kahoot! is a game-based learning platform where a host runs live quizzes and participants answer on their own devices. See the official site for the latest details."
+   },
+   {
+    "q": "Is Kahoot! free?",
+    "a": "Kahoot! is generally offered with a free option and paid plans for extra features. Plans change, so check the official site for current details."
+   },
+   {
+    "q": "How should I check results from Kahoot!?",
+    "a": "Treat outputs as a starting point. Verify facts, numbers and quality yourself, follow your school or workplace rules, and confirm terms and privacy details on the official website."
+   }
+  ],
+  "seo_title": "Kahoot!: What It Is and How to Use It",
+  "seo_description": "Learn what Kahoot! is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "edpuzzle",
+  "name": "Edpuzzle",
+  "category": "study",
+  "website_url": "https://edpuzzle.com",
+  "pricing": "Unknown",
+  "tagline": "Turns videos into interactive lessons with embedded questions.",
+  "best_for": "Teachers checking understanding of video lessons",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Edpuzzle lets teachers take a video, trim it and add questions or notes at chosen points. Students watch inside the platform and answer as they go, so the teacher can see who watched and how they did.\n\nIt supports flipped classrooms and homework where simply assigning a video gives no feedback. Teachers can use their own recordings or videos from common sources and review results afterward. Check the official site for current plans.",
+  "use_steps": [
+   "Sign up or open the tool.",
+   "Create a quiz or pick an existing one.",
+   "Share the join code or link with your group.",
+   "Review the results and revisit weak topics."
+  ],
+  "pros": [
+   "Active video viewing",
+   "Clear teacher insight",
+   "Simple assignment flow"
+  ],
+  "cons": [
+   "Features and availability can change",
+   "Outputs or content should be verified independently"
+  ],
+  "alternatives": [
+   "kahoot",
+   "khan-academy-khanmigo",
+   "google-classroom"
+  ],
+  "tags": [
+   "video",
+   "teachers",
+   "lessons",
+   "homework",
+   "classroom"
+  ],
+  "features": [
+   "Video trimming and annotation",
+   "Embedded questions",
+   "Student progress reports",
+   "Own recordings or found videos",
+   "Class assignment tools"
+  ],
+  "use_cases": [
+   "Flipped classroom homework",
+   "Checking video comprehension",
+   "Reviewing before a test"
+  ],
+  "pricing_details": "Pricing for Edpuzzle was not verified here and plans change over time. Check the official site for current plans and free options.",
+  "faq": [
+   {
+    "q": "What is Edpuzzle?",
+    "a": "Edpuzzle lets teachers take a video, trim it and add questions or notes at chosen points. See the official site for the latest details."
+   },
+   {
+    "q": "Is Edpuzzle free?",
+    "a": "Pricing for Edpuzzle was not verified here and plans change over time. Check the official site for current plans and free options."
+   },
+   {
+    "q": "How should I check results from Edpuzzle?",
+    "a": "Treat outputs as a starting point. Verify facts, numbers and quality yourself, follow your school or workplace rules, and confirm terms and privacy details on the official website."
+   }
+  ],
+  "seo_title": "Edpuzzle: What It Is and How to Use It",
+  "seo_description": "Learn what Edpuzzle is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "magicschool",
+  "name": "MagicSchool",
+  "category": "study",
+  "website_url": "https://www.magicschool.ai",
+  "pricing": "Unknown",
+  "tagline": "AI assistant tools designed for teachers' planning and admin tasks.",
+  "best_for": "Teachers saving time on lesson prep",
+  "platforms": [
+   "Web"
+  ],
+  "description": "MagicSchool is an AI platform built for educators. It offers many small tools for common teacher tasks, such as drafting lesson plans, rubrics, worksheets and parent communication, based on the details you enter.\n\nThe aim is to cut prep time, not to replace teacher judgment. Teachers should review and adapt outputs for their class, curriculum and school policies, including student data privacy rules. Check the official site for current plans.",
+  "use_steps": [
+   "Create an account with your school or work email if needed.",
+   "Set up a class, course or project.",
+   "Add your content and set sharing and privacy options.",
+   "Review results and adapt your next session."
+  ],
+  "pros": [
+   "Teacher-focused design",
+   "Many task templates",
+   "Saves prep time"
+  ],
+  "cons": [
+   "Features and availability can change",
+   "Outputs or content should be verified independently"
+  ],
+  "alternatives": [
+   "diffit",
+   "curipod",
+   "chatgpt"
+  ],
+  "tags": [
+   "teachers",
+   "lesson plans",
+   "ai",
+   "education",
+   "planning"
+  ],
+  "features": [
+   "Lesson plan drafting",
+   "Rubric and worksheet generation",
+   "Differentiation of text",
+   "Communication drafts",
+   "Teacher-focused tool library"
+  ],
+  "use_cases": [
+   "Planning a unit",
+   "Writing a rubric",
+   "Drafting a parent email"
+  ],
+  "pricing_details": "Pricing for MagicSchool was not verified here and plans change over time. Check the official site for current plans and free options.",
+  "faq": [
+   {
+    "q": "What is MagicSchool?",
+    "a": "MagicSchool is an AI platform built for educators. See the official site for the latest details."
+   },
+   {
+    "q": "Is MagicSchool free?",
+    "a": "Pricing for MagicSchool was not verified here and plans change over time. Check the official site for current plans and free options."
+   },
+   {
+    "q": "How should I check results from MagicSchool?",
+    "a": "Treat outputs as a starting point. Verify facts, numbers and quality yourself, follow your school or workplace rules, and confirm terms and privacy details on the official website."
+   }
+  ],
+  "seo_title": "MagicSchool: What It Is and How to Use It",
+  "seo_description": "Learn what MagicSchool is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "diffit",
+  "name": "Diffit",
+  "category": "study",
+  "website_url": "https://web.diffit.me",
+  "pricing": "Unknown",
+  "tagline": "Adapts reading material to different reading levels for classes.",
+  "best_for": "Differentiating texts for mixed-ability students",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Diffit helps teachers adapt reading material. From a topic, link or text it can produce a version at a chosen reading level, with accompanying questions and vocabulary support.\n\nIt is designed for classrooms with mixed abilities, where one text does not suit everyone. Teachers should always check that adapted material stays accurate and fits the lesson goals. Check the official site for current plans.",
+  "use_steps": [
+   "Create an account with your school or work email if needed.",
+   "Set up a class, course or project.",
+   "Add your content and set sharing and privacy options.",
+   "Review results and adapt your next session."
+  ],
+  "pros": [
+   "Helps with differentiation",
+   "Fast resource creation",
+   "Teacher friendly"
+  ],
+  "cons": [
+   "Features and availability can change",
+   "Outputs or content should be verified independently"
+  ],
+  "alternatives": [
+   "magicschool",
+   "curipod",
+   "quizgecko"
+  ],
+  "tags": [
+   "teachers",
+   "reading",
+   "differentiation",
+   "worksheets",
+   "education"
+  ],
+  "features": [
+   "Reading level adjustment",
+   "Generated comprehension questions",
+   "Vocabulary lists",
+   "Input from topics or text",
+   "Shareable resources"
+  ],
+  "use_cases": [
+   "Simplifying an article",
+   "Creating a reading worksheet",
+   "Supporting English learners"
+  ],
+  "pricing_details": "Pricing for Diffit was not verified here and plans change over time. Check the official site for current plans and free options.",
+  "faq": [
+   {
+    "q": "What is Diffit?",
+    "a": "Diffit helps teachers adapt reading material. See the official site for the latest details."
+   },
+   {
+    "q": "Is Diffit free?",
+    "a": "Pricing for Diffit was not verified here and plans change over time. Check the official site for current plans and free options."
+   },
+   {
+    "q": "How should I check results from Diffit?",
+    "a": "Treat outputs as a starting point. Verify facts, numbers and quality yourself, follow your school or workplace rules, and confirm terms and privacy details on the official website."
+   }
+  ],
+  "seo_title": "Diffit: What It Is and How to Use It",
+  "seo_description": "Learn what Diffit is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "curipod",
+  "name": "Curipod",
+  "category": "study",
+  "website_url": "https://curipod.com",
+  "pricing": "Unknown",
+  "tagline": "Builds interactive lessons with polls, word clouds and questions.",
+  "best_for": "Teachers wanting interactive, ready-to-run lessons",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Curipod is a lesson tool for interactive teaching. Teachers can generate a lesson from a topic and then run it live, with polls, open responses and word clouds that students answer from their own devices.\n\nIt aims to keep every student participating rather than only the confident few. Generated slides and questions should be reviewed and edited so they fit your class and curriculum. Check the official site for current plans.",
+  "use_steps": [
+   "Create an account with your school or work email if needed.",
+   "Set up a class, course or project.",
+   "Add your content and set sharing and privacy options.",
+   "Review results and adapt your next session."
+  ],
+  "pros": [
+   "Encourages participation",
+   "Quick lesson drafts",
+   "Editable content"
+  ],
+  "cons": [
+   "Features and availability can change",
+   "Outputs or content should be verified independently"
+  ],
+  "alternatives": [
+   "magicschool",
+   "kahoot",
+   "mentimeter"
+  ],
+  "tags": [
+   "interactive",
+   "lessons",
+   "teachers",
+   "polls",
+   "classroom"
+  ],
+  "features": [
+   "AI-generated lesson drafts",
+   "Live polls and word clouds",
+   "Student responses from devices",
+   "Editable slides",
+   "Reusable lessons"
+  ],
+  "use_cases": [
+   "Opening a lesson with a poll",
+   "Class discussion prompts",
+   "Quick formative checks"
+  ],
+  "pricing_details": "Pricing for Curipod was not verified here and plans change over time. Check the official site for current plans and free options.",
+  "faq": [
+   {
+    "q": "What is Curipod?",
+    "a": "Curipod is a lesson tool for interactive teaching. See the official site for the latest details."
+   },
+   {
+    "q": "Is Curipod free?",
+    "a": "Pricing for Curipod was not verified here and plans change over time. Check the official site for current plans and free options."
+   },
+   {
+    "q": "How should I check results from Curipod?",
+    "a": "Treat outputs as a starting point. Verify facts, numbers and quality yourself, follow your school or workplace rules, and confirm terms and privacy details on the official website."
+   }
+  ],
+  "seo_title": "Curipod: What It Is and How to Use It",
+  "seo_description": "Learn what Curipod is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "speak",
+  "name": "Speak",
+  "category": "study",
+  "website_url": "https://www.speak.com",
+  "pricing": "Unknown",
+  "tagline": "Language learning app focused on speaking practice with AI.",
+  "best_for": "Practicing spoken conversation in a new language",
+  "platforms": [
+   "iOS",
+   "Android"
+  ],
+  "description": "Speak is a language-learning app centered on speaking out loud. Lessons and AI conversation practice prompt you to talk, with feedback on what you said so you can build speaking confidence.\n\nIt suits learners who understand vocabulary but freeze in conversation. Pair it with listening and reading practice, since an app alone seldom covers all language skills, and check which languages are supported. Check the official site for current plans.",
+  "use_steps": [
+   "Install the app or open the site and pick a language.",
+   "Take a placement step or choose your level.",
+   "Practice in short daily sessions.",
+   "Add real conversation or reading outside the app."
+  ],
+  "pros": [
+   "Emphasizes speaking",
+   "Convenient on a phone",
+   "Structured lessons"
+  ],
+  "cons": [
+   "Features and availability can change",
+   "Outputs or content should be verified independently"
+  ],
+  "alternatives": [
+   "duolingo",
+   "babbel",
+   "praktika"
+  ],
+  "tags": [
+   "language",
+   "speaking",
+   "conversation",
+   "ai tutor",
+   "mobile"
+  ],
+  "features": [
+   "Spoken lessons",
+   "AI conversation practice",
+   "Feedback on responses",
+   "Structured course paths",
+   "Mobile app"
+  ],
+  "use_cases": [
+   "Practicing before a trip",
+   "Building speaking confidence",
+   "Daily short sessions"
+  ],
+  "pricing_details": "Pricing for Speak was not verified here and plans change over time. Check the official site for current plans and free options.",
+  "faq": [
+   {
+    "q": "What is Speak?",
+    "a": "Speak is a language-learning app centered on speaking out loud. See the official site for the latest details."
+   },
+   {
+    "q": "Is Speak free?",
+    "a": "Pricing for Speak was not verified here and plans change over time. Check the official site for current plans and free options."
+   },
+   {
+    "q": "How should I check results from Speak?",
+    "a": "Treat outputs as a starting point. Verify facts, numbers and quality yourself, follow your school or workplace rules, and confirm terms and privacy details on the official website."
+   }
+  ],
+  "seo_title": "Speak: What It Is and How to Use It",
+  "seo_description": "Learn what Speak is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "praktika",
+  "name": "Praktika",
+  "category": "study",
+  "website_url": "https://praktika.ai",
+  "pricing": "Unknown",
+  "tagline": "AI avatar tutors for conversational language practice.",
+  "best_for": "Practicing conversation with an AI tutor",
+  "platforms": [
+   "iOS",
+   "Android"
+  ],
+  "description": "Praktika is a language app where you practice speaking with AI-powered avatar tutors. You talk about everyday topics and receive responses and corrections, which simulates lessons with a conversation partner.\n\nIt can lower the pressure of speaking with a human for beginners. Learners should treat it as practice, not a full course, and verify which languages and levels are currently supported. Check the official site for current plans.",
+  "use_steps": [
+   "Install the app or open the site and pick a language.",
+   "Take a placement step or choose your level.",
+   "Practice in short daily sessions.",
+   "Add real conversation or reading outside the app."
+  ],
+  "pros": [
+   "Low-pressure speaking",
+   "Personal feel",
+   "Available anytime"
+  ],
+  "cons": [
+   "Features and availability can change",
+   "Outputs or content should be verified independently"
+  ],
+  "alternatives": [
+   "speak",
+   "duolingo",
+   "babbel"
+  ],
+  "tags": [
+   "language",
+   "ai tutor",
+   "speaking",
+   "avatar",
+   "mobile"
+  ],
+  "features": [
+   "Avatar conversation partners",
+   "Spoken practice",
+   "Corrections and feedback",
+   "Topic-based lessons",
+   "Mobile app"
+  ],
+  "use_cases": [
+   "Casual speaking practice",
+   "Interview-style conversation",
+   "Building daily habits"
+  ],
+  "pricing_details": "Pricing for Praktika was not verified here and plans change over time. Check the official site for current plans and free options.",
+  "faq": [
+   {
+    "q": "What is Praktika?",
+    "a": "Praktika is a language app where you practice speaking with AI-powered avatar tutors. See the official site for the latest details."
+   },
+   {
+    "q": "Is Praktika free?",
+    "a": "Pricing for Praktika was not verified here and plans change over time. Check the official site for current plans and free options."
+   },
+   {
+    "q": "How should I check results from Praktika?",
+    "a": "Treat outputs as a starting point. Verify facts, numbers and quality yourself, follow your school or workplace rules, and confirm terms and privacy details on the official website."
+   }
+  ],
+  "seo_title": "Praktika: What It Is and How to Use It",
+  "seo_description": "Learn what Praktika is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "socratic",
+  "name": "Socratic by Google",
+  "category": "study",
+  "website_url": "https://socratic.org",
+  "pricing": "Unknown",
+  "tagline": "Homework help app that points to explanations and resources.",
+  "best_for": "Finding explanations for homework questions",
+  "platforms": [
+   "iOS",
+   "Android"
+  ],
+  "description": "Socratic is a homework help app from Google. You take a photo or ask a question, and it finds explanations, videos and resources on the topic rather than only showing a final answer.\n\nStudents use it across subjects such as science, math, literature and history to understand the idea behind a question. As with any helper, use it to learn the method, and follow your school's rules. Check the official site for current plans.",
+  "use_steps": [
+   "Open the app or site.",
+   "Enter your question or take a photo of it.",
+   "Read the explanation and try the problem yourself.",
+   "Check answers with your textbook or teacher."
+  ],
+  "pros": [
+   "Explains concepts",
+   "Many subjects",
+   "Simple photo input"
+  ],
+  "cons": [
+   "Use it to understand methods, not to skip your own work.",
+   "Features and availability can change"
+  ],
+  "alternatives": [
+   "photomath",
+   "brainly",
+   "khan-academy-khanmigo"
+  ],
+  "tags": [
+   "homework",
+   "students",
+   "explanations",
+   "mobile",
+   "google"
+  ],
+  "features": [
+   "Photo and voice questions",
+   "Topic explanations",
+   "Linked videos and resources",
+   "Multi-subject coverage",
+   "Mobile app"
+  ],
+  "use_cases": [
+   "Understanding a science concept",
+   "Getting a hint on homework",
+   "Finding study videos"
+  ],
+  "pricing_details": "Pricing for Socratic by Google was not verified here and plans change over time. Check the official site for current plans and free options.",
+  "faq": [
+   {
+    "q": "What is Socratic by Google?",
+    "a": "Socratic is a homework help app from Google. See the official site for the latest details."
+   },
+   {
+    "q": "Is Socratic by Google free?",
+    "a": "Pricing for Socratic by Google was not verified here and plans change over time. Check the official site for current plans and free options."
+   },
+   {
+    "q": "How should I check results from Socratic by Google?",
+    "a": "Treat outputs as a starting point. Verify facts, numbers and quality yourself, follow your school or workplace rules, and confirm terms and privacy details on the official website."
+   }
+  ],
+  "seo_title": "Socratic by Google: What It Is and How to Use It",
+  "seo_description": "Learn what Socratic by Google is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "brainly",
+  "name": "Brainly",
+  "category": "study",
+  "website_url": "https://brainly.com",
+  "pricing": "Unknown",
+  "tagline": "Student community for asking and answering homework questions.",
+  "best_for": "Getting peer help on homework topics",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "Brainly is an online learning community where students post homework questions and others answer them. It also offers AI-assisted help and explanations in some areas, alongside the community content.\n\nIt is used for quick explanations on common school subjects. Because answers come from many sources, check them against your textbook or teacher, and use them to learn rather than copy. Check the official site for current plans.",
+  "use_steps": [
+   "Open the app or site.",
+   "Enter your question or take a photo of it.",
+   "Read the explanation and try the problem yourself.",
+   "Check answers with your textbook or teacher."
+  ],
+  "pros": [
+   "Many subjects",
+   "Peer perspectives",
+   "Searchable archive"
+  ],
+  "cons": [
+   "Use it to understand methods, not to skip your own work.",
+   "Features and availability can change"
+  ],
+  "alternatives": [
+   "socratic",
+   "gauth",
+   "photomath"
+  ],
+  "tags": [
+   "homework",
+   "community",
+   "students",
+   "q&a",
+   "school"
+  ],
+  "features": [
+   "Community question and answer",
+   "Homework help across subjects",
+   "AI-assisted explanations",
+   "Mobile apps",
+   "Searchable answered questions"
+  ],
+  "use_cases": [
+   "Checking a worked example",
+   "Finding another explanation",
+   "Asking a peer question"
+  ],
+  "pricing_details": "Pricing for Brainly was not verified here and plans change over time. Check the official site for current plans and free options.",
+  "faq": [
+   {
+    "q": "What is Brainly?",
+    "a": "Brainly is an online learning community where students post homework questions and others answer them. See the official site for the latest details."
+   },
+   {
+    "q": "Is Brainly free?",
+    "a": "Pricing for Brainly was not verified here and plans change over time. Check the official site for current plans and free options."
+   },
+   {
+    "q": "How should I check results from Brainly?",
+    "a": "Treat outputs as a starting point. Verify facts, numbers and quality yourself, follow your school or workplace rules, and confirm terms and privacy details on the official website."
+   }
+  ],
+  "seo_title": "Brainly: What It Is and How to Use It",
+  "seo_description": "Learn what Brainly is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "gauth",
+  "name": "Gauth",
+  "category": "study",
+  "website_url": "https://www.gauthmath.com",
+  "pricing": "Unknown",
+  "tagline": "Homework helper app that explains math and other school problems.",
+  "best_for": "Step-by-step help with school problems",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "Gauth is a homework help app. You snap a picture or type a problem, mainly in math and also other school subjects, and it provides a worked solution with explanation.\n\nIt is aimed at students stuck on a problem who want to see the steps. Use it as a study aid and compare with your class method, since solution quality can vary and answers should be checked. Check the official site for current plans.",
+  "use_steps": [
+   "Open the app or site.",
+   "Enter or photograph the problem.",
+   "Read the solution and steps, comparing with your own work.",
+   "Practice a similar problem on your own."
+  ],
+  "pros": [
+   "Quick photo input",
+   "Shows steps",
+   "Multi-subject support"
+  ],
+  "cons": [
+   "Machine-read problems can be misread, so check the input.",
+   "Features and availability can change"
+  ],
+  "alternatives": [
+   "photomath",
+   "mathway",
+   "brainly"
+  ],
+  "tags": [
+   "homework",
+   "math",
+   "solver",
+   "students",
+   "mobile"
+  ],
+  "features": [
+   "Photo-based problem input",
+   "Step-by-step solutions",
+   "Multiple subjects",
+   "Mobile apps",
+   "Question history"
+  ],
+  "use_cases": [
+   "Checking math homework",
+   "Seeing solution steps",
+   "Reviewing for a test"
+  ],
+  "pricing_details": "Pricing for Gauth was not verified here and plans change over time. Check the official site for current plans and free options.",
+  "faq": [
+   {
+    "q": "What is Gauth?",
+    "a": "Gauth is a homework help app. See the official site for the latest details."
+   },
+   {
+    "q": "Is Gauth free?",
+    "a": "Pricing for Gauth was not verified here and plans change over time. Check the official site for current plans and free options."
+   },
+   {
+    "q": "How should I check results from Gauth?",
+    "a": "Treat outputs as a starting point. Verify facts, numbers and quality yourself, follow your school or workplace rules, and confirm terms and privacy details on the official website."
+   }
+  ],
+  "seo_title": "Gauth: What It Is and How to Use It",
+  "seo_description": "Learn what Gauth is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "mathway",
+  "name": "Mathway",
+  "category": "study",
+  "website_url": "https://www.mathway.com",
+  "pricing": "Unknown",
+  "tagline": "Math problem solver covering algebra, calculus and more.",
+  "best_for": "Checking math problem solutions",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "Mathway is a math problem solver. You enter a problem, from basic math through algebra and calculus, choose what you want done, and it displays the answer, with step explanations available in some modes.\n\nStudents use it to verify their own work and to see how a problem could be solved. Try the problem first yourself, then check, so the tool supports learning rather than replacing it. Check the official site for current plans.",
+  "use_steps": [
+   "Open the app or site.",
+   "Enter or photograph the problem.",
+   "Read the solution and steps, comparing with your own work.",
+   "Practice a similar problem on your own."
+  ],
+  "pros": [
+   "Wide topic range",
+   "Good for checking work",
+   "Available on mobile"
+  ],
+  "cons": [
+   "Machine-read problems can be misread, so check the input.",
+   "Features and availability can change"
+  ],
+  "alternatives": [
+   "photomath",
+   "symbolab",
+   "wolfram-alpha"
+  ],
+  "tags": [
+   "math",
+   "solver",
+   "algebra",
+   "calculus",
+   "homework"
+  ],
+  "features": [
+   "Problem entry with keypad",
+   "Algebra and calculus topics",
+   "Graphing tools",
+   "Step explanations in some modes",
+   "Mobile apps"
+  ],
+  "use_cases": [
+   "Checking algebra answers",
+   "Seeing worked steps",
+   "Practicing calculus"
+  ],
+  "pricing_details": "Pricing for Mathway was not verified here and plans change over time. Check the official site for current plans and free options.",
+  "faq": [
+   {
+    "q": "What is Mathway?",
+    "a": "Mathway is a math problem solver. See the official site for the latest details."
+   },
+   {
+    "q": "Is Mathway free?",
+    "a": "Pricing for Mathway was not verified here and plans change over time. Check the official site for current plans and free options."
+   },
+   {
+    "q": "How should I check results from Mathway?",
+    "a": "Treat outputs as a starting point. Verify facts, numbers and quality yourself, follow your school or workplace rules, and confirm terms and privacy details on the official website."
+   }
+  ],
+  "seo_title": "Mathway: What It Is and How to Use It",
+  "seo_description": "Learn what Mathway is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "symbolab",
+  "name": "Symbolab",
+  "category": "study",
+  "website_url": "https://www.symbolab.com",
+  "pricing": "Unknown",
+  "tagline": "Math solver and calculators with step-by-step explanations.",
+  "best_for": "Learning how math problems are solved",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "Symbolab is a math solving site with calculators for algebra, calculus, trigonometry and more. It takes an expression or equation and shows a solution, typically with steps that explain each transformation.\n\nIt helps students check homework and understand technique, for example how to factor or integrate. Try problems by hand first, and treat step displays as a guide to compare with your own working. Check the official site for current plans.",
+  "use_steps": [
+   "Open the app or site.",
+   "Enter or photograph the problem.",
+   "Read the solution and steps, comparing with your own work.",
+   "Practice a similar problem on your own."
+  ],
+  "pros": [
+   "Clear step display",
+   "Broad topic coverage",
+   "Useful calculators"
+  ],
+  "cons": [
+   "Machine-read problems can be misread, so check the input.",
+   "Features and availability can change"
+  ],
+  "alternatives": [
+   "mathway",
+   "photomath",
+   "wolfram-alpha"
+  ],
+  "tags": [
+   "math",
+   "calculator",
+   "steps",
+   "algebra",
+   "calculus"
+  ],
+  "features": [
+   "Equation and expression input",
+   "Step-by-step solutions",
+   "Calculators for many topics",
+   "Graphing and practice",
+   "Mobile app"
+  ],
+  "use_cases": [
+   "Checking an integral",
+   "Learning factoring steps",
+   "Practicing algebra"
+  ],
+  "pricing_details": "Pricing for Symbolab was not verified here and plans change over time. Check the official site for current plans and free options.",
+  "faq": [
+   {
+    "q": "What is Symbolab?",
+    "a": "Symbolab is a math solving site with calculators for algebra, calculus, trigonometry and more. See the official site for the latest details."
+   },
+   {
+    "q": "Is Symbolab free?",
+    "a": "Pricing for Symbolab was not verified here and plans change over time. Check the official site for current plans and free options."
+   },
+   {
+    "q": "How should I check results from Symbolab?",
+    "a": "Treat outputs as a starting point. Verify facts, numbers and quality yourself, follow your school or workplace rules, and confirm terms and privacy details on the official website."
+   }
+  ],
+  "seo_title": "Symbolab: What It Is and How to Use It",
+  "seo_description": "Learn what Symbolab is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "studdy",
+  "name": "Studdy",
+  "category": "study",
+  "website_url": "https://studdy.ai",
+  "pricing": "Unknown",
+  "tagline": "AI tutor that helps students work through problems.",
+  "best_for": "Interactive tutoring on homework problems",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Studdy is an AI tutoring tool. Students bring a problem and it guides them through the thinking in a conversational way, aiming to teach the method instead of just giving the answer.\n\nIt is intended for homework and exam preparation, mostly in math and science. Learners should confirm answers and explanations against class materials, and check the site for current subject coverage. Check the official site for current plans.",
+  "use_steps": [
+   "Open the app or site.",
+   "Enter your question or take a photo of it.",
+   "Read the explanation and try the problem yourself.",
+   "Check answers with your textbook or teacher."
+  ],
+  "pros": [
+   "Guided approach",
+   "Conversational help",
+   "Flexible input"
+  ],
+  "cons": [
+   "Use it to understand methods, not to skip your own work.",
+   "Features and availability can change"
+  ],
+  "alternatives": [
+   "khan-academy-khanmigo",
+   "photomath",
+   "socratic"
+  ],
+  "tags": [
+   "ai tutor",
+   "homework",
+   "students",
+   "math",
+   "science"
+  ],
+  "features": [
+   "Conversational tutoring",
+   "Problem walk-throughs",
+   "Photo or text input",
+   "Guided hints",
+   "Subject practice"
+  ],
+  "use_cases": [
+   "Getting unstuck on homework",
+   "Reviewing concepts",
+   "Practicing problem solving"
+  ],
+  "pricing_details": "Pricing for Studdy was not verified here and plans change over time. Check the official site for current plans and free options.",
+  "faq": [
+   {
+    "q": "What is Studdy?",
+    "a": "Studdy is an AI tutoring tool. See the official site for the latest details."
+   },
+   {
+    "q": "Is Studdy free?",
+    "a": "Pricing for Studdy was not verified here and plans change over time. Check the official site for current plans and free options."
+   },
+   {
+    "q": "How should I check results from Studdy?",
+    "a": "Treat outputs as a starting point. Verify facts, numbers and quality yourself, follow your school or workplace rules, and confirm terms and privacy details on the official website."
+   }
+  ],
+  "seo_title": "Studdy: What It Is and How to Use It",
+  "seo_description": "Learn what Studdy is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "studyfetch",
+  "name": "StudyFetch",
+  "category": "study",
+  "website_url": "https://www.studyfetch.com",
+  "pricing": "Unknown",
+  "tagline": "AI study platform that creates notes, flashcards and quizzes from course files.",
+  "best_for": "Turning lectures and files into study material",
+  "platforms": [
+   "Web"
+  ],
+  "description": "StudyFetch is an AI study platform where you upload course materials such as slides, notes or recordings and it generates study aids like flashcards, quizzes and summaries from them.\n\nStudents use it to convert a pile of lecture content into something they can actively review. As always, check generated cards and summaries against the source before trusting them in an exam. Check the official site for current plans.",
+  "use_steps": [
+   "Create an account and open the study area.",
+   "Add your notes or build a set of cards.",
+   "Review in short, regular sessions.",
+   "Fix errors in cards and focus on the ones you miss."
+  ],
+  "pros": [
+   "Works from your own material",
+   "Multiple study formats",
+   "Saves prep time"
+  ],
+  "cons": [
+   "Features and availability can change",
+   "Outputs or content should be verified independently"
+  ],
+  "alternatives": [
+   "knowt",
+   "quizlet",
+   "notebooklm"
+  ],
+  "tags": [
+   "study",
+   "flashcards",
+   "ai",
+   "notes",
+   "students"
+  ],
+  "features": [
+   "Upload of course files",
+   "Flashcard generation",
+   "Quiz generation",
+   "Summaries and notes",
+   "AI tutor-style chat"
+  ],
+  "use_cases": [
+   "Prepping for midterms",
+   "Summarizing lecture slides",
+   "Making practice quizzes"
+  ],
+  "pricing_details": "Pricing for StudyFetch was not verified here and plans change over time. Check the official site for current plans and free options.",
+  "faq": [
+   {
+    "q": "What is StudyFetch?",
+    "a": "StudyFetch is an AI study platform where you upload course materials such as slides, notes or recordings and it generates study aids like flashcards, quizzes and summaries from them. See the official site for the latest details."
+   },
+   {
+    "q": "Is StudyFetch free?",
+    "a": "Pricing for StudyFetch was not verified here and plans change over time. Check the official site for current plans and free options."
+   },
+   {
+    "q": "How should I check results from StudyFetch?",
+    "a": "Treat outputs as a starting point. Verify facts, numbers and quality yourself, follow your school or workplace rules, and confirm terms and privacy details on the official website."
+   }
+  ],
+  "seo_title": "StudyFetch: What It Is and How to Use It",
+  "seo_description": "Learn what StudyFetch is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "gradescope",
+  "name": "Gradescope",
+  "category": "study",
+  "website_url": "https://www.gradescope.com",
+  "pricing": "Unknown",
+  "tagline": "Grading platform for paper and online assignments, exams and code.",
+  "best_for": "Instructors grading with consistent rubrics",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Gradescope is a grading platform used by instructors. They scan or collect assignments and exams, build a rubric, and grade answer by answer, with feedback delivered to students through the system.\n\nIt makes grading more consistent and shareable across teaching assistants, and also supports programming assignments with automated checks. It is generally used through institutions, so check availability. Check the official site for current plans.",
+  "use_steps": [
+   "Create an account with your school or work email if needed.",
+   "Set up a class, course or project.",
+   "Add your content and set sharing and privacy options.",
+   "Review results and adapt your next session."
+  ],
+  "pros": [
+   "Consistent rubrics",
+   "Team grading",
+   "Supports code"
+  ],
+  "cons": [
+   "Features and availability can change",
+   "Outputs or content should be verified independently"
+  ],
+  "alternatives": [
+   "google-classroom",
+   "moodle",
+   "turnitin"
+  ],
+  "tags": [
+   "grading",
+   "instructors",
+   "exams",
+   "rubrics",
+   "education"
+  ],
+  "features": [
+   "Rubric-based grading",
+   "Grading by question",
+   "Scanned paper exams",
+   "Programming assignment support",
+   "Feedback and regrade requests"
+  ],
+  "use_cases": [
+   "Grading a large exam",
+   "Coordinating teaching assistants",
+   "Auto-checking code assignments"
+  ],
+  "pricing_details": "Pricing for Gradescope was not verified here and plans change over time. Check the official site for current plans and free options.",
+  "faq": [
+   {
+    "q": "What is Gradescope?",
+    "a": "Gradescope is a grading platform used by instructors. See the official site for the latest details."
+   },
+   {
+    "q": "Is Gradescope free?",
+    "a": "Pricing for Gradescope was not verified here and plans change over time. Check the official site for current plans and free options."
+   },
+   {
+    "q": "How should I check results from Gradescope?",
+    "a": "Treat outputs as a starting point. Verify facts, numbers and quality yourself, follow your school or workplace rules, and confirm terms and privacy details on the official website."
+   }
+  ],
+  "seo_title": "Gradescope: What It Is and How to Use It",
+  "seo_description": "Learn what Gradescope is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "turnitin",
+  "name": "Turnitin",
+  "category": "study",
+  "website_url": "https://www.turnitin.com",
+  "pricing": "Unknown",
+  "tagline": "Institutional platform for similarity checking and feedback on student writing.",
+  "best_for": "Schools and universities checking originality",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Turnitin is a platform used by schools and universities to check student writing against sources and to give feedback. It reports text similarity so instructors can review possible issues with attribution.\n\nStudents usually meet it through an institution and see a similarity report, which needs human interpretation, because matching text is not automatically misconduct. Policies on AI writing detection vary, so ask your institution. Check the official site for current plans.",
+  "use_steps": [
+   "Create an account with your school or work email if needed.",
+   "Set up a class, course or project.",
+   "Add your content and set sharing and privacy options.",
+   "Review results and adapt your next session."
+  ],
+  "pros": [
+   "Widely used by institutions",
+   "Supports feedback workflows",
+   "Instructor controls"
+  ],
+  "cons": [
+   "Features and availability can change",
+   "Outputs or content should be verified independently"
+  ],
+  "alternatives": [
+   "grammarly",
+   "gradescope",
+   "moodle"
+  ],
+  "tags": [
+   "plagiarism",
+   "originality",
+   "instructors",
+   "writing",
+   "education"
+  ],
+  "features": [
+   "Similarity reports",
+   "Feedback and grading tools",
+   "Institution integration",
+   "Instructor review workflow",
+   "Student submission portals"
+  ],
+  "use_cases": [
+   "Reviewing an essay submission",
+   "Giving feedback on drafts",
+   "Checking citations"
+  ],
+  "pricing_details": "Pricing for Turnitin was not verified here and plans change over time. Check the official site for current plans and free options.",
+  "faq": [
+   {
+    "q": "What is Turnitin?",
+    "a": "Turnitin is a platform used by schools and universities to check student writing against sources and to give feedback. See the official site for the latest details."
+   },
+   {
+    "q": "Is Turnitin free?",
+    "a": "Pricing for Turnitin was not verified here and plans change over time. Check the official site for current plans and free options."
+   },
+   {
+    "q": "How should I check results from Turnitin?",
+    "a": "Treat outputs as a starting point. Verify facts, numbers and quality yourself, follow your school or workplace rules, and confirm terms and privacy details on the official website."
+   }
+  ],
+  "seo_title": "Turnitin: What It Is and How to Use It",
+  "seo_description": "Learn what Turnitin is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "memrise",
+  "name": "Memrise",
+  "category": "study",
+  "website_url": "https://www.memrise.com",
+  "pricing": "Unknown",
+  "tagline": "Language learning app using short lessons and real-speaker clips.",
+  "best_for": "Building vocabulary and listening skills",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "Memrise is a language-learning app that combines vocabulary practice with short lessons and, in some courses, video clips of native speakers, helping you hear real pronunciation and phrases.\n\nIt suits learners who want everyday phrases and listening practice alongside review sessions. Course language options and features change, so check the official site before you commit time. Check the official site for current plans.",
+  "use_steps": [
+   "Install the app or open the site and pick a language.",
+   "Take a placement step or choose your level.",
+   "Practice in short daily sessions.",
+   "Add real conversation or reading outside the app."
+  ],
+  "pros": [
+   "Real-speaker exposure",
+   "Short sessions",
+   "Mobile friendly"
+  ],
+  "cons": [
+   "Features and availability can change",
+   "Outputs or content should be verified independently"
+  ],
+  "alternatives": [
+   "duolingo",
+   "babbel",
+   "busuu"
+  ],
+  "tags": [
+   "language",
+   "vocabulary",
+   "listening",
+   "mobile",
+   "study"
+  ],
+  "features": [
+   "Vocabulary review",
+   "Native speaker clips",
+   "Short lessons",
+   "Spaced review",
+   "Mobile apps"
+  ],
+  "use_cases": [
+   "Learning travel phrases",
+   "Training the ear",
+   "Daily vocabulary practice"
+  ],
+  "pricing_details": "Pricing for Memrise was not verified here and plans change over time. Check the official site for current plans and free options.",
+  "faq": [
+   {
+    "q": "What is Memrise?",
+    "a": "Memrise is a language-learning app that combines vocabulary practice with short lessons and, in some courses, video clips of native speakers, helping you hear real pronunciation and phrases. See the official site for the latest details."
+   },
+   {
+    "q": "Is Memrise free?",
+    "a": "Pricing for Memrise was not verified here and plans change over time. Check the official site for current plans and free options."
+   },
+   {
+    "q": "How should I check results from Memrise?",
+    "a": "Treat outputs as a starting point. Verify facts, numbers and quality yourself, follow your school or workplace rules, and confirm terms and privacy details on the official website."
+   }
+  ],
+  "seo_title": "Memrise: What It Is and How to Use It",
+  "seo_description": "Learn what Memrise is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "busuu",
+  "name": "Busuu",
+  "category": "study",
+  "website_url": "https://www.busuu.com",
+  "pricing": "Unknown",
+  "tagline": "Language learning app with courses and feedback from the community.",
+  "best_for": "Structured course learning for popular languages",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "Busuu is a language-learning app with structured courses that cover vocabulary, grammar, listening and writing. Some features let you share writing or speaking with other learners for feedback.\n\nIt works for learners who want a planned path from beginner upward. As with every app, supplement with real conversation, and check the official site for currently supported languages and plans. Check the official site for current plans.",
+  "use_steps": [
+   "Install the app or open the site and pick a language.",
+   "Take a placement step or choose your level.",
+   "Practice in short daily sessions.",
+   "Add real conversation or reading outside the app."
+  ],
+  "pros": [
+   "Clear learning path",
+   "Peer feedback option",
+   "Covers several skills"
+  ],
+  "cons": [
+   "Features and availability can change",
+   "Outputs or content should be verified independently"
+  ],
+  "alternatives": [
+   "duolingo",
+   "babbel",
+   "memrise"
+  ],
+  "tags": [
+   "language",
+   "courses",
+   "grammar",
+   "community",
+   "mobile"
+  ],
+  "features": [
+   "Structured courses",
+   "Vocabulary and grammar practice",
+   "Community feedback",
+   "Review sessions",
+   "Mobile apps"
+  ],
+  "use_cases": [
+   "Starting a new language",
+   "Preparing for travel",
+   "Practicing writing with feedback"
+  ],
+  "pricing_details": "Pricing for Busuu was not verified here and plans change over time. Check the official site for current plans and free options.",
+  "faq": [
+   {
+    "q": "What is Busuu?",
+    "a": "Busuu is a language-learning app with structured courses that cover vocabulary, grammar, listening and writing. See the official site for the latest details."
+   },
+   {
+    "q": "Is Busuu free?",
+    "a": "Pricing for Busuu was not verified here and plans change over time. Check the official site for current plans and free options."
+   },
+   {
+    "q": "How should I check results from Busuu?",
+    "a": "Treat outputs as a starting point. Verify facts, numbers and quality yourself, follow your school or workplace rules, and confirm terms and privacy details on the official website."
+   }
+  ],
+  "seo_title": "Busuu: What It Is and How to Use It",
+  "seo_description": "Learn what Busuu is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "mentimeter",
+  "name": "Mentimeter",
+  "category": "study",
+  "website_url": "https://www.mentimeter.com",
+  "pricing": "Unknown",
+  "tagline": "Interactive presentations with live polls, quizzes and word clouds.",
+  "best_for": "Engaging audiences in lectures and meetings",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Mentimeter is a tool for interactive presentations. Audience members join with a code on their phones and respond to polls, quizzes, word clouds and open questions that appear live on the presenter's slides.\n\nLecturers use it to check understanding and spark discussion, and teams use it in workshops. Features and limits on audience size depend on plan, so confirm what you need on the official site. Check the official site for current plans.",
+  "use_steps": [
+   "Sign up or open the tool.",
+   "Create a quiz or pick an existing one.",
+   "Share the join code or link with your group.",
+   "Review the results and revisit weak topics."
+  ],
+  "pros": [
+   "Easy audience joining",
+   "Instant feedback",
+   "Works for classes and meetings"
+  ],
+  "cons": [
+   "Features and availability can change",
+   "Outputs or content should be verified independently"
+  ],
+  "alternatives": [
+   "kahoot",
+   "curipod",
+   "pitch"
+  ],
+  "tags": [
+   "polls",
+   "presentations",
+   "engagement",
+   "lectures",
+   "workshops"
+  ],
+  "features": [
+   "Live polls and quizzes",
+   "Word clouds",
+   "Audience joins with a code",
+   "Q&A collection",
+   "Results shown in real time"
+  ],
+  "use_cases": [
+   "Checking class understanding",
+   "Collecting workshop ideas",
+   "Anonymous audience questions"
+  ],
+  "pricing_details": "Pricing for Mentimeter was not verified here and plans change over time. Check the official site for current plans and free options.",
+  "faq": [
+   {
+    "q": "What is Mentimeter?",
+    "a": "Mentimeter is a tool for interactive presentations. See the official site for the latest details."
+   },
+   {
+    "q": "Is Mentimeter free?",
+    "a": "Pricing for Mentimeter was not verified here and plans change over time. Check the official site for current plans and free options."
+   },
+   {
+    "q": "How should I check results from Mentimeter?",
+    "a": "Treat outputs as a starting point. Verify facts, numbers and quality yourself, follow your school or workplace rules, and confirm terms and privacy details on the official website."
+   }
+  ],
+  "seo_title": "Mentimeter: What It Is and How to Use It",
+  "seo_description": "Learn what Mentimeter is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "padlet",
+  "name": "Padlet",
+  "category": "study",
+  "website_url": "https://padlet.com",
+  "pricing": "Freemium",
+  "tagline": "Collaborative boards for sharing posts, ideas and media.",
+  "best_for": "Class or team brainstorming on a shared board",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "Padlet is a digital bulletin board where participants add posts such as text, images, links and files. Boards can be laid out as a wall, grid, timeline or map so ideas stay organized.\n\nTeachers use it for discussion and showcasing work, while teams use it for brainstorming. Because boards can be shared, set privacy and moderation options carefully, especially with students. Check the official site for current plans.",
+  "use_steps": [
+   "Create an account with your school or work email if needed.",
+   "Set up a class, course or project.",
+   "Add your content and set sharing and privacy options.",
+   "Review results and adapt your next session."
+  ],
+  "pros": [
+   "Very easy to use",
+   "Flexible layouts",
+   "Good for group work"
+  ],
+  "cons": [
+   "Features and availability can change",
+   "Outputs or content should be verified independently"
+  ],
+  "alternatives": [
+   "trello",
+   "google-classroom",
+   "mentimeter"
+  ],
+  "tags": [
+   "collaboration",
+   "boards",
+   "classroom",
+   "brainstorm",
+   "sharing"
+  ],
+  "features": [
+   "Shareable boards",
+   "Posts with media and links",
+   "Several layout styles",
+   "Collaboration and comments",
+   "Privacy settings"
+  ],
+  "use_cases": [
+   "Class brainstorming",
+   "Collecting student work",
+   "Team idea boards"
+  ],
+  "pricing_details": "Padlet is generally offered with a free option and paid plans for extra features. Plans change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Padlet?",
+    "a": "Padlet is a digital bulletin board where participants add posts such as text, images, links and files. See the official site for the latest details."
+   },
+   {
+    "q": "Is Padlet free?",
+    "a": "Padlet is generally offered with a free option and paid plans for extra features. Plans change, so check the official site for current details."
+   },
+   {
+    "q": "How should I check results from Padlet?",
+    "a": "Treat outputs as a starting point. Verify facts, numbers and quality yourself, follow your school or workplace rules, and confirm terms and privacy details on the official website."
+   }
+  ],
+  "seo_title": "Padlet: What It Is and How to Use It",
+  "seo_description": "Learn what Padlet is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "nearpod",
+  "name": "Nearpod",
+  "category": "study",
+  "website_url": "https://nearpod.com",
+  "pricing": "Unknown",
+  "tagline": "Interactive lesson platform with embedded activities for classrooms.",
+  "best_for": "Teachers running interactive, paced lessons",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Nearpod is a platform where teachers build or choose lessons with activities embedded in slides, such as quizzes, polls and drawing tasks, and run them live or for students to complete at their own pace.\n\nIt gives teachers a view of responses during class, helping them see who needs support. Content libraries and features can depend on the school plan, so check what your school has. Check the official site for current plans.",
+  "use_steps": [
+   "Create an account with your school or work email if needed.",
+   "Set up a class, course or project.",
+   "Add your content and set sharing and privacy options.",
+   "Review results and adapt your next session."
+  ],
+  "pros": [
+   "Pace control for teachers",
+   "Rich activity types",
+   "Real-time insight"
+  ],
+  "cons": [
+   "Features and availability can change",
+   "Outputs or content should be verified independently"
+  ],
+  "alternatives": [
+   "curipod",
+   "kahoot",
+   "google-classroom"
+  ],
+  "tags": [
+   "lessons",
+   "interactive",
+   "teachers",
+   "formative assessment",
+   "classroom"
+  ],
+  "features": [
+   "Slide-based interactive lessons",
+   "Embedded quizzes and polls",
+   "Live or self-paced delivery",
+   "Teacher response view",
+   "Lesson library"
+  ],
+  "use_cases": [
+   "Interactive live lessons",
+   "Homework activities",
+   "Formative assessment"
+  ],
+  "pricing_details": "Pricing for Nearpod was not verified here and plans change over time. Check the official site for current plans and free options.",
+  "faq": [
+   {
+    "q": "What is Nearpod?",
+    "a": "Nearpod is a platform where teachers build or choose lessons with activities embedded in slides, such as quizzes, polls and drawing tasks, and run them live or for students to complete at their own pace. See the official site for the latest details."
+   },
+   {
+    "q": "Is Nearpod free?",
+    "a": "Pricing for Nearpod was not verified here and plans change over time. Check the official site for current plans and free options."
+   },
+   {
+    "q": "How should I check results from Nearpod?",
+    "a": "Treat outputs as a starting point. Verify facts, numbers and quality yourself, follow your school or workplace rules, and confirm terms and privacy details on the official website."
+   }
+  ],
+  "seo_title": "Nearpod: What It Is and How to Use It",
+  "seo_description": "Learn what Nearpod is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "edx",
+  "name": "edX",
+  "category": "study",
+  "website_url": "https://www.edx.org",
+  "pricing": "Unknown",
+  "tagline": "Online courses from universities and institutions.",
+  "best_for": "Taking university-style courses online",
+  "platforms": [
+   "Web"
+  ],
+  "description": "edX is an online learning platform offering courses from universities and other institutions in areas such as computer science, business and humanities, delivered through video, readings and assessments.\n\nLearners use it to build skills or explore a subject before committing to a degree. Course availability, certificates and pricing vary by course, so read the details on the official site first. Check the official site for current plans.",
+  "use_steps": [
+   "Browse the catalog and read the course outline.",
+   "Create an account and enroll.",
+   "Work through lessons and exercises on a schedule.",
+   "Build a small project to apply what you learned."
+  ],
+  "pros": [
+   "Institution-backed content",
+   "Wide subject range",
+   "Flexible pacing"
+  ],
+  "cons": [
+   "Features and availability can change",
+   "Outputs or content should be verified independently"
+  ],
+  "alternatives": [
+   "coursera",
+   "khan-academy-khanmigo",
+   "udemy"
+  ],
+  "tags": [
+   "courses",
+   "mooc",
+   "university",
+   "online learning",
+   "skills"
+  ],
+  "features": [
+   "University-style courses",
+   "Video lectures and assignments",
+   "Subject catalog",
+   "Certificate options in some courses",
+   "Self-paced learning"
+  ],
+  "use_cases": [
+   "Learning a new subject",
+   "Skill building for work",
+   "Exploring a field before study"
+  ],
+  "pricing_details": "Pricing for edX was not verified here and plans change over time. Check the official site for current plans and free options.",
+  "faq": [
+   {
+    "q": "What is edX?",
+    "a": "edX is an online learning platform offering courses from universities and other institutions in areas such as computer science, business and humanities, delivered through video, readings and assessments. See the official site for the latest details."
+   },
+   {
+    "q": "Is edX free?",
+    "a": "Pricing for edX was not verified here and plans change over time. Check the official site for current plans and free options."
+   },
+   {
+    "q": "How should I check results from edX?",
+    "a": "Treat outputs as a starting point. Verify facts, numbers and quality yourself, follow your school or workplace rules, and confirm terms and privacy details on the official website."
+   }
+  ],
+  "seo_title": "edX: What It Is and How to Use It",
+  "seo_description": "Learn what edX is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "udemy",
+  "name": "Udemy",
+  "category": "study",
+  "website_url": "https://www.udemy.com",
+  "pricing": "Unknown",
+  "tagline": "Marketplace of video courses on technical and creative topics.",
+  "best_for": "Learning practical skills from instructor-made courses",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "Udemy is an online marketplace where instructors publish video courses on many topics, including programming, design, business and personal development. Learners buy and watch courses at their own pace.\n\nQuality varies by instructor, so read the outline, reviews and preview videos before enrolling. It suits learners who want practical, hands-on instruction rather than formal academic credit. Check the official site for current plans.",
+  "use_steps": [
+   "Browse the catalog and read the course outline.",
+   "Create an account and enroll.",
+   "Work through lessons and exercises on a schedule.",
+   "Build a small project to apply what you learned."
+  ],
+  "pros": [
+   "Huge choice of topics",
+   "Learn at your pace",
+   "Practical focus"
+  ],
+  "cons": [
+   "Features and availability can change",
+   "Outputs or content should be verified independently"
+  ],
+  "alternatives": [
+   "coursera",
+   "edx",
+   "freecodecamp"
+  ],
+  "tags": [
+   "courses",
+   "skills",
+   "video",
+   "marketplace",
+   "online learning"
+  ],
+  "features": [
+   "Large course catalog",
+   "Self-paced video lessons",
+   "Preview of course content",
+   "Mobile apps",
+   "Instructor-created material"
+  ],
+  "use_cases": [
+   "Learning a programming language",
+   "Picking up design skills",
+   "Studying for a certification"
+  ],
+  "pricing_details": "Pricing for Udemy was not verified here and plans change over time. Check the official site for current plans and free options.",
+  "faq": [
+   {
+    "q": "What is Udemy?",
+    "a": "Udemy is an online marketplace where instructors publish video courses on many topics, including programming, design, business and personal development. See the official site for the latest details."
+   },
+   {
+    "q": "Is Udemy free?",
+    "a": "Pricing for Udemy was not verified here and plans change over time. Check the official site for current plans and free options."
+   },
+   {
+    "q": "How should I check results from Udemy?",
+    "a": "Treat outputs as a starting point. Verify facts, numbers and quality yourself, follow your school or workplace rules, and confirm terms and privacy details on the official website."
+   }
+  ],
+  "seo_title": "Udemy: What It Is and How to Use It",
+  "seo_description": "Learn what Udemy is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "scribbr",
+  "name": "Scribbr",
+  "category": "study",
+  "website_url": "https://www.scribbr.com",
+  "pricing": "Unknown",
+  "tagline": "Academic writing help with guides, citation tools and editing services.",
+  "best_for": "Students formatting citations and polishing theses",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Scribbr provides academic writing support for students. It offers free guides and tools such as citation generators and checkers, plus paid services like proofreading and editing for theses and papers.\n\nIts explanatory articles on methods, essay structure and referencing are widely used by students. Check any service terms and your institution's rules on editing help before using paid services. Check the official site for current plans.",
+  "use_steps": [
+   "Open the tool and sign in or start a new document.",
+   "Paste or write your draft text.",
+   "Review each suggestion and accept only what fits your meaning.",
+   "Proofread the final version yourself and follow your institution's rules."
+  ],
+  "pros": [
+   "Clear learning guides",
+   "Citation tools",
+   "Thesis-focused help"
+  ],
+  "cons": [
+   "AI suggestions can change meaning, so review everything.",
+   "Features and availability can change"
+  ],
+  "alternatives": [
+   "grammarly",
+   "quillbot",
+   "zotero"
+  ],
+  "tags": [
+   "citations",
+   "thesis",
+   "writing",
+   "students",
+   "editing"
+  ],
+  "features": [
+   "Citation generators",
+   "Guides on research and writing",
+   "Proofreading and editing services",
+   "Plagiarism and grammar tools",
+   "Thesis formatting help"
+  ],
+  "use_cases": [
+   "Creating APA citations",
+   "Learning thesis structure",
+   "Having a paper proofread"
+  ],
+  "pricing_details": "Pricing for Scribbr was not verified here and plans change over time. Check the official site for current plans and free options.",
+  "faq": [
+   {
+    "q": "What is Scribbr?",
+    "a": "Scribbr provides academic writing support for students. See the official site for the latest details."
+   },
+   {
+    "q": "Is Scribbr free?",
+    "a": "Pricing for Scribbr was not verified here and plans change over time. Check the official site for current plans and free options."
+   },
+   {
+    "q": "How should I check results from Scribbr?",
+    "a": "Treat outputs as a starting point. Verify facts, numbers and quality yourself, follow your school or workplace rules, and confirm terms and privacy details on the official website."
+   }
+  ],
+  "seo_title": "Scribbr: What It Is and How to Use It",
+  "seo_description": "Learn what Scribbr is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "jenni-ai",
+  "name": "Jenni AI",
+  "category": "study",
+  "website_url": "https://jenni.ai",
+  "pricing": "Unknown",
+  "tagline": "AI writing assistant for academic essays and research writing.",
+  "best_for": "Drafting and structuring academic text with AI help",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Jenni AI is an AI writing assistant aimed at academic writing. You work in an editor where it can suggest continuations, help outline sections and assist with adding citations from sources.\n\nIt can help overcome a blank page, but all text and references need careful review, since AI can produce inaccurate claims. Follow your institution's AI-use policy and disclose assistance where required. Check the official site for current plans.",
+  "use_steps": [
+   "Open the tool and sign in or start a new document.",
+   "Paste or write your draft text.",
+   "Review each suggestion and accept only what fits your meaning.",
+   "Proofread the final version yourself and follow your institution's rules."
+  ],
+  "pros": [
+   "Helps start drafts",
+   "Academic focus",
+   "Integrated editor"
+  ],
+  "cons": [
+   "AI suggestions can change meaning, so review everything.",
+   "Features and availability can change"
+  ],
+  "alternatives": [
+   "paperpal",
+   "quillbot",
+   "chatgpt"
+  ],
+  "tags": [
+   "academic writing",
+   "ai",
+   "essays",
+   "citations",
+   "drafting"
+  ],
+  "features": [
+   "AI-assisted drafting",
+   "Outline support",
+   "Citation assistance",
+   "Editing suggestions",
+   "Document editor"
+  ],
+  "use_cases": [
+   "Outlining an essay",
+   "Overcoming writer's block",
+   "Rewording awkward passages"
+  ],
+  "pricing_details": "Pricing for Jenni AI was not verified here and plans change over time. Check the official site for current plans and free options.",
+  "faq": [
+   {
+    "q": "What is Jenni AI?",
+    "a": "Jenni AI is an AI writing assistant aimed at academic writing. See the official site for the latest details."
+   },
+   {
+    "q": "Is Jenni AI free?",
+    "a": "Pricing for Jenni AI was not verified here and plans change over time. Check the official site for current plans and free options."
+   },
+   {
+    "q": "How should I check results from Jenni AI?",
+    "a": "Treat outputs as a starting point. Verify facts, numbers and quality yourself, follow your school or workplace rules, and confirm terms and privacy details on the official website."
+   }
+  ],
+  "seo_title": "Jenni AI: What It Is and How to Use It",
+  "seo_description": "Learn what Jenni AI is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "writefull",
+  "name": "Writefull",
+  "category": "study",
+  "website_url": "https://www.writefull.com",
+  "pricing": "Unknown",
+  "tagline": "Language feedback tool designed for academic and scientific writing.",
+  "best_for": "Improving the language of research papers",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Writefull provides language feedback tailored to academic text. It can suggest edits to wording and grammar, and it offers tools for checking phrases against how published research is typically written.\n\nIt is made for researchers and students who want to refine drafts, and it is available through integrations with common writing environments. Review each suggestion before accepting. Check the official site for current plans.",
+  "use_steps": [
+   "Open the tool and sign in or start a new document.",
+   "Paste or write your draft text.",
+   "Review each suggestion and accept only what fits your meaning.",
+   "Proofread the final version yourself and follow your institution's rules."
+  ],
+  "pros": [
+   "Tuned to academic style",
+   "Works inside editors",
+   "Suggests natural phrasing"
+  ],
+  "cons": [
+   "AI suggestions can change meaning, so review everything.",
+   "Features and availability can change"
+  ],
+  "alternatives": [
+   "paperpal",
+   "grammarly",
+   "quillbot"
+  ],
+  "tags": [
+   "academic writing",
+   "language",
+   "editing",
+   "research",
+   "grammar"
+  ],
+  "features": [
+   "Academic language suggestions",
+   "Grammar and wording checks",
+   "Paraphrasing tools",
+   "Title and abstract helpers",
+   "Integrations with writing tools"
+  ],
+  "use_cases": [
+   "Revising a paper abstract",
+   "Checking phrasing in a thesis",
+   "Tightening wording"
+  ],
+  "pricing_details": "Pricing for Writefull was not verified here and plans change over time. Check the official site for current plans and free options.",
+  "faq": [
+   {
+    "q": "What is Writefull?",
+    "a": "Writefull provides language feedback tailored to academic text. See the official site for the latest details."
+   },
+   {
+    "q": "Is Writefull free?",
+    "a": "Pricing for Writefull was not verified here and plans change over time. Check the official site for current plans and free options."
+   },
+   {
+    "q": "How should I check results from Writefull?",
+    "a": "Treat outputs as a starting point. Verify facts, numbers and quality yourself, follow your school or workplace rules, and confirm terms and privacy details on the official website."
+   }
+  ],
+  "seo_title": "Writefull: What It Is and How to Use It",
+  "seo_description": "Learn what Writefull is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "classdojo",
+  "name": "ClassDojo",
+  "category": "study",
+  "website_url": "https://www.classdojo.com",
+  "pricing": "Unknown",
+  "tagline": "Classroom communication app connecting teachers, students and parents.",
+  "best_for": "Sharing class updates and student work with families",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "ClassDojo is a communication platform for primary and elementary classrooms. Teachers share announcements, photos and student work with families, and can message parents in one place.\n\nIt also provides tools for classroom culture and student portfolios. As it involves student information, schools and teachers should follow their data privacy policies and check current features on the official site. Check the official site for current plans.",
+  "use_steps": [
+   "Create an account with your school or work email if needed.",
+   "Set up a class, course or project.",
+   "Add your content and set sharing and privacy options.",
+   "Review results and adapt your next session."
+  ],
+  "pros": [
+   "Single place for communication",
+   "Parent friendly",
+   "Mobile access"
+  ],
+  "cons": [
+   "Features and availability can change",
+   "Outputs or content should be verified independently"
+  ],
+  "alternatives": [
+   "google-classroom",
+   "seesaw",
+   "padlet"
+  ],
+  "tags": [
+   "classroom",
+   "parents",
+   "communication",
+   "teachers",
+   "elementary"
+  ],
+  "features": [
+   "Teacher to parent messaging",
+   "Class stories and updates",
+   "Student portfolios",
+   "Classroom culture tools",
+   "Mobile apps"
+  ],
+  "use_cases": [
+   "Updating parents on class activity",
+   "Sharing student work",
+   "Managing class communication"
+  ],
+  "pricing_details": "Pricing for ClassDojo was not verified here and plans change over time. Check the official site for current plans and free options.",
+  "faq": [
+   {
+    "q": "What is ClassDojo?",
+    "a": "ClassDojo is a communication platform for primary and elementary classrooms. See the official site for the latest details."
+   },
+   {
+    "q": "Is ClassDojo free?",
+    "a": "Pricing for ClassDojo was not verified here and plans change over time. Check the official site for current plans and free options."
+   },
+   {
+    "q": "How should I check results from ClassDojo?",
+    "a": "Treat outputs as a starting point. Verify facts, numbers and quality yourself, follow your school or workplace rules, and confirm terms and privacy details on the official website."
+   }
+  ],
+  "seo_title": "ClassDojo: What It Is and How to Use It",
+  "seo_description": "Learn what ClassDojo is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "seesaw",
+  "name": "Seesaw",
+  "category": "study",
+  "website_url": "https://web.seesaw.me",
+  "pricing": "Unknown",
+  "tagline": "Student portfolio and learning journal platform for classrooms.",
+  "best_for": "Collecting and sharing student work with families",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "Seesaw is a platform where students document their learning with photos, drawings, videos and text, building a portfolio of work that teachers can review and families can see.\n\nIt is widely used in the younger grades. Teachers can assign activities and give feedback, and should set privacy and sharing options with their school's policies in mind. Check the official site for current plans.",
+  "use_steps": [
+   "Create an account with your school or work email if needed.",
+   "Set up a class, course or project.",
+   "Add your content and set sharing and privacy options.",
+   "Review results and adapt your next session."
+  ],
+  "pros": [
+   "Visual evidence of learning",
+   "Parent connection",
+   "Easy for young students"
+  ],
+  "cons": [
+   "Features and availability can change",
+   "Outputs or content should be verified independently"
+  ],
+  "alternatives": [
+   "classdojo",
+   "google-classroom",
+   "padlet"
+  ],
+  "tags": [
+   "portfolio",
+   "students",
+   "classroom",
+   "journal",
+   "teachers"
+  ],
+  "features": [
+   "Student portfolios",
+   "Photo, video and drawing tools",
+   "Teacher assignments",
+   "Family sharing",
+   "Feedback and comments"
+  ],
+  "use_cases": [
+   "Showing student progress to parents",
+   "Assigning creative tasks",
+   "Keeping a learning journal"
+  ],
+  "pricing_details": "Pricing for Seesaw was not verified here and plans change over time. Check the official site for current plans and free options.",
+  "faq": [
+   {
+    "q": "What is Seesaw?",
+    "a": "Seesaw is a platform where students document their learning with photos, drawings, videos and text, building a portfolio of work that teachers can review and families can see. See the official site for the latest details."
+   },
+   {
+    "q": "Is Seesaw free?",
+    "a": "Pricing for Seesaw was not verified here and plans change over time. Check the official site for current plans and free options."
+   },
+   {
+    "q": "How should I check results from Seesaw?",
+    "a": "Treat outputs as a starting point. Verify facts, numbers and quality yourself, follow your school or workplace rules, and confirm terms and privacy details on the official website."
+   }
+  ],
+  "seo_title": "Seesaw: What It Is and How to Use It",
+  "seo_description": "Learn what Seesaw is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "pear-deck",
+  "name": "Pear Deck",
+  "category": "study",
+  "website_url": "https://www.peardeck.com",
+  "pricing": "Unknown",
+  "tagline": "Interactive slides for formative assessment in lessons.",
+  "best_for": "Adding student responses to slide presentations",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Pear Deck turns presentations into interactive lessons. Teachers add questions, drawings and polls to slides, and students respond on their own devices while the teacher sees answers in real time.\n\nIt works with common slide tools, so existing decks can be adapted. It helps surface misunderstandings during the lesson, though available features depend on the version your school uses. Check the official site for current plans.",
+  "use_steps": [
+   "Create an account with your school or work email if needed.",
+   "Set up a class, course or project.",
+   "Add your content and set sharing and privacy options.",
+   "Review results and adapt your next session."
+  ],
+  "pros": [
+   "Uses existing decks",
+   "Immediate feedback",
+   "Teacher dashboard"
+  ],
+  "cons": [
+   "Features and availability can change",
+   "Outputs or content should be verified independently"
+  ],
+  "alternatives": [
+   "nearpod",
+   "curipod",
+   "mentimeter"
+  ],
+  "tags": [
+   "slides",
+   "formative assessment",
+   "teachers",
+   "interactive",
+   "classroom"
+  ],
+  "features": [
+   "Interactive slide questions",
+   "Student responses in real time",
+   "Draggable and drawing responses",
+   "Works with existing slides",
+   "Teacher dashboard"
+  ],
+  "use_cases": [
+   "Checking understanding mid-lesson",
+   "Anonymous student responses",
+   "Reviewing before a quiz"
+  ],
+  "pricing_details": "Pricing for Pear Deck was not verified here and plans change over time. Check the official site for current plans and free options.",
+  "faq": [
+   {
+    "q": "What is Pear Deck?",
+    "a": "Pear Deck turns presentations into interactive lessons. See the official site for the latest details."
+   },
+   {
+    "q": "Is Pear Deck free?",
+    "a": "Pricing for Pear Deck was not verified here and plans change over time. Check the official site for current plans and free options."
+   },
+   {
+    "q": "How should I check results from Pear Deck?",
+    "a": "Treat outputs as a starting point. Verify facts, numbers and quality yourself, follow your school or workplace rules, and confirm terms and privacy details on the official website."
+   }
+  ],
+  "seo_title": "Pear Deck: What It Is and How to Use It",
+  "seo_description": "Learn what Pear Deck is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "canvas-lms",
+  "name": "Canvas LMS",
+  "category": "study",
+  "website_url": "https://www.instructure.com/canvas",
+  "pricing": "Unknown",
+  "tagline": "Learning management system for courses, assignments and grades.",
+  "best_for": "Schools and universities running online courses",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Canvas is a learning management system from Instructure. Institutions use it to host course content, assignments, quizzes, discussions and grades, so students have one place to find class materials.\n\nStudents usually access it through their school, and instructors configure courses within institutional settings. Features depend on how your institution has set it up. Check the official site for current plans.",
+  "use_steps": [
+   "Create an account with your school or work email if needed.",
+   "Set up a class, course or project.",
+   "Add your content and set sharing and privacy options.",
+   "Review results and adapt your next session."
+  ],
+  "pros": [
+   "Everything in one place",
+   "Widely used by schools",
+   "Integrations"
+  ],
+  "cons": [
+   "Features and availability can change",
+   "Outputs or content should be verified independently"
+  ],
+  "alternatives": [
+   "moodle",
+   "google-classroom",
+   "gradescope"
+  ],
+  "tags": [
+   "lms",
+   "courses",
+   "assignments",
+   "grades",
+   "institutions"
+  ],
+  "features": [
+   "Course pages and modules",
+   "Assignments and quizzes",
+   "Discussions",
+   "Gradebook",
+   "Integrations with other tools"
+  ],
+  "use_cases": [
+   "Submitting assignments",
+   "Following course modules",
+   "Checking grades"
+  ],
+  "pricing_details": "Pricing for Canvas LMS was not verified here and plans change over time. Check the official site for current plans and free options.",
+  "faq": [
+   {
+    "q": "What is Canvas LMS?",
+    "a": "Canvas is a learning management system from Instructure. See the official site for the latest details."
+   },
+   {
+    "q": "Is Canvas LMS free?",
+    "a": "Pricing for Canvas LMS was not verified here and plans change over time. Check the official site for current plans and free options."
+   },
+   {
+    "q": "How should I check results from Canvas LMS?",
+    "a": "Treat outputs as a starting point. Verify facts, numbers and quality yourself, follow your school or workplace rules, and confirm terms and privacy details on the official website."
+   }
+  ],
+  "seo_title": "Canvas LMS: What It Is and How to Use It",
+  "seo_description": "Learn what Canvas LMS is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "chegg",
+  "name": "Chegg",
+  "category": "study",
+  "website_url": "https://www.chegg.com",
+  "pricing": "Unknown",
+  "tagline": "Study help service with textbook solutions and tutoring features.",
+  "best_for": "Getting extra help with textbook problems",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "Chegg is an education services company offering study help such as textbook solutions, Q and A and tutoring-style features, along with other student-focused services.\n\nStudents use it as a supplement when stuck on a textbook problem. It should support understanding, not replace your own work, and you should follow your school's academic integrity rules. Services have changed over time, so confirm current offerings. Check the official site for current plans.",
+  "use_steps": [
+   "Open the app or site.",
+   "Enter your question or take a photo of it.",
+   "Read the explanation and try the problem yourself.",
+   "Check answers with your textbook or teacher."
+  ],
+  "pros": [
+   "Textbook-linked help",
+   "Wide subject range",
+   "Mobile access"
+  ],
+  "cons": [
+   "Use it to understand methods, not to skip your own work.",
+   "Features and availability can change"
+  ],
+  "alternatives": [
+   "brainly",
+   "course-hero",
+   "socratic"
+  ],
+  "tags": [
+   "homework",
+   "textbooks",
+   "students",
+   "study help",
+   "tutoring"
+  ],
+  "features": [
+   "Textbook solution lookup",
+   "Question and answer help",
+   "Study aids",
+   "Mobile apps",
+   "Subject coverage"
+  ],
+  "use_cases": [
+   "Checking textbook solutions",
+   "Reviewing a concept",
+   "Getting extra practice"
+  ],
+  "pricing_details": "Pricing for Chegg was not verified here and plans change over time. Check the official site for current plans and free options.",
+  "faq": [
+   {
+    "q": "What is Chegg?",
+    "a": "Chegg is an education services company offering study help such as textbook solutions, Q and A and tutoring-style features, along with other student-focused services. See the official site for the latest details."
+   },
+   {
+    "q": "Is Chegg free?",
+    "a": "Pricing for Chegg was not verified here and plans change over time. Check the official site for current plans and free options."
+   },
+   {
+    "q": "How should I check results from Chegg?",
+    "a": "Treat outputs as a starting point. Verify facts, numbers and quality yourself, follow your school or workplace rules, and confirm terms and privacy details on the official website."
+   }
+  ],
+  "seo_title": "Chegg: What It Is and How to Use It",
+  "seo_description": "Learn what Chegg is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "course-hero",
+  "name": "Course Hero",
+  "category": "study",
+  "website_url": "https://www.coursehero.com",
+  "pricing": "Unknown",
+  "tagline": "Study resource site with shared course documents and Q and A.",
+  "best_for": "Finding study materials for specific courses",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Course Hero is a study resource platform where users share course documents, notes and study guides, and where learners can ask questions and look for explanations on many subjects.\n\nStudents use it to find examples and practice material tied to their courses. Use materials responsibly, respect your school's rules on shared content, and check how current access works on the official site. Check the official site for current plans.",
+  "use_steps": [
+   "Open the app or site.",
+   "Enter your question or take a photo of it.",
+   "Read the explanation and try the problem yourself.",
+   "Check answers with your textbook or teacher."
+  ],
+  "pros": [
+   "Course-linked material",
+   "Many subjects",
+   "Searchable library"
+  ],
+  "cons": [
+   "Use it to understand methods, not to skip your own work.",
+   "Features and availability can change"
+  ],
+  "alternatives": [
+   "chegg",
+   "brainly",
+   "quizlet"
+  ],
+  "tags": [
+   "study guides",
+   "notes",
+   "homework",
+   "documents",
+   "students"
+  ],
+  "features": [
+   "Course-specific documents",
+   "Study guides",
+   "Question and answer help",
+   "Subject search",
+   "Practice materials"
+  ],
+  "use_cases": [
+   "Finding past-style practice",
+   "Reviewing a topic",
+   "Looking up study guides"
+  ],
+  "pricing_details": "Pricing for Course Hero was not verified here and plans change over time. Check the official site for current plans and free options.",
+  "faq": [
+   {
+    "q": "What is Course Hero?",
+    "a": "Course Hero is a study resource platform where users share course documents, notes and study guides, and where learners can ask questions and look for explanations on many subjects. See the official site for the latest details."
+   },
+   {
+    "q": "Is Course Hero free?",
+    "a": "Pricing for Course Hero was not verified here and plans change over time. Check the official site for current plans and free options."
+   },
+   {
+    "q": "How should I check results from Course Hero?",
+    "a": "Treat outputs as a starting point. Verify facts, numbers and quality yourself, follow your school or workplace rules, and confirm terms and privacy details on the official website."
+   }
+  ],
+  "seo_title": "Course Hero: What It Is and How to Use It",
+  "seo_description": "Learn what Course Hero is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "lingq",
+  "name": "LingQ",
+  "category": "study",
+  "website_url": "https://www.lingq.com",
+  "pricing": "Unknown",
+  "tagline": "Language learning from reading and listening to real content.",
+  "best_for": "Learning through lots of comprehensible input",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "LingQ is a language-learning platform built around reading and listening. You import articles, lessons or podcasts and click unknown words to save them as vocabulary for later review.\n\nIt follows the idea that large amounts of understandable input help you learn. It suits intermediate learners who want to use content they enjoy, though it needs consistent time and effort. Check the official site for current plans.",
+  "use_steps": [
+   "Install the app or open the site and pick a language.",
+   "Take a placement step or choose your level.",
+   "Practice in short daily sessions.",
+   "Add real conversation or reading outside the app."
+  ],
+  "pros": [
+   "Uses real content",
+   "Flexible for your interests",
+   "Good for intermediate learners"
+  ],
+  "cons": [
+   "Features and availability can change",
+   "Outputs or content should be verified independently"
+  ],
+  "alternatives": [
+   "duolingo",
+   "memrise",
+   "babbel"
+  ],
+  "tags": [
+   "language",
+   "reading",
+   "listening",
+   "vocabulary",
+   "immersion"
+  ],
+  "features": [
+   "Reading and listening library",
+   "Importing your own content",
+   "Clickable vocabulary saving",
+   "Review of saved words",
+   "Mobile apps"
+  ],
+  "use_cases": [
+   "Reading news in a new language",
+   "Building vocabulary from content",
+   "Listening to podcasts with text"
+  ],
+  "pricing_details": "Pricing for LingQ was not verified here and plans change over time. Check the official site for current plans and free options.",
+  "faq": [
+   {
+    "q": "What is LingQ?",
+    "a": "LingQ is a language-learning platform built around reading and listening. See the official site for the latest details."
+   },
+   {
+    "q": "Is LingQ free?",
+    "a": "Pricing for LingQ was not verified here and plans change over time. Check the official site for current plans and free options."
+   },
+   {
+    "q": "How should I check results from LingQ?",
+    "a": "Treat outputs as a starting point. Verify facts, numbers and quality yourself, follow your school or workplace rules, and confirm terms and privacy details on the official website."
+   }
+  ],
+  "seo_title": "LingQ: What It Is and How to Use It",
+  "seo_description": "Learn what LingQ is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "codecademy",
+  "name": "Codecademy",
+  "category": "study",
+  "website_url": "https://www.codecademy.com",
+  "pricing": "Freemium",
+  "tagline": "Interactive online lessons for learning programming and data skills.",
+  "best_for": "Beginners learning to code by doing",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Codecademy teaches programming and related skills through interactive lessons. You read a short explanation and write code in the browser right away, with exercises and projects that build up skills.\n\nIt suits beginners who want a guided start in languages such as Python, JavaScript or SQL. A lot of content is behind paid plans, so check what is free on the official site. Check the official site for current plans.",
+  "use_steps": [
+   "Browse the catalog and read the course outline.",
+   "Create an account and enroll.",
+   "Work through lessons and exercises on a schedule.",
+   "Build a small project to apply what you learned."
+  ],
+  "pros": [
+   "Learn by doing",
+   "Beginner friendly",
+   "Clear paths"
+  ],
+  "cons": [
+   "Features and availability can change",
+   "Outputs or content should be verified independently"
+  ],
+  "alternatives": [
+   "freecodecamp",
+   "coursera",
+   "udemy"
+  ],
+  "tags": [
+   "coding",
+   "beginners",
+   "interactive",
+   "courses",
+   "programming"
+  ],
+  "features": [
+   "Interactive in-browser coding",
+   "Structured learning paths",
+   "Projects and quizzes",
+   "Multiple languages",
+   "Progress tracking"
+  ],
+  "use_cases": [
+   "Starting to learn Python",
+   "Practicing SQL",
+   "Following a web development path"
+  ],
+  "pricing_details": "Codecademy is generally offered with a free option and paid plans for extra features. Plans change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Codecademy?",
+    "a": "Codecademy teaches programming and related skills through interactive lessons. See the official site for the latest details."
+   },
+   {
+    "q": "Is Codecademy free?",
+    "a": "Codecademy is generally offered with a free option and paid plans for extra features. Plans change, so check the official site for current details."
+   },
+   {
+    "q": "How should I check results from Codecademy?",
+    "a": "Treat outputs as a starting point. Verify facts, numbers and quality yourself, follow your school or workplace rules, and confirm terms and privacy details on the official website."
+   }
+  ],
+  "seo_title": "Codecademy: What It Is and How to Use It",
+  "seo_description": "Learn what Codecademy is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "blooket",
+  "name": "Blooket",
+  "category": "study",
+  "website_url": "https://www.blooket.com",
+  "pricing": "Unknown",
+  "tagline": "Game-style review quizzes for classrooms.",
+  "best_for": "Making review sessions feel like games",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Blooket is a classroom game platform. Teachers create or choose question sets and students play different game modes on their devices, answering questions to earn points in the game.\n\nTeachers use it for revision and warm-ups, since the games vary beyond a plain quiz. Features and limits depend on the account type, so check the official site for current options. Check the official site for current plans.",
+  "use_steps": [
+   "Sign up or open the tool.",
+   "Create a quiz or pick an existing one.",
+   "Share the join code or link with your group.",
+   "Review the results and revisit weak topics."
+  ],
+  "pros": [
+   "Varied game modes",
+   "Easy to start",
+   "Good for review"
+  ],
+  "cons": [
+   "Features and availability can change",
+   "Outputs or content should be verified independently"
+  ],
+  "alternatives": [
+   "kahoot",
+   "gimkit",
+   "quizlet"
+  ],
+  "tags": [
+   "games",
+   "quiz",
+   "review",
+   "classroom",
+   "students"
+  ],
+  "features": [
+   "Question sets",
+   "Multiple game modes",
+   "Join with a code",
+   "Homework mode",
+   "Shared public sets"
+  ],
+  "use_cases": [
+   "Revision games",
+   "Vocabulary review",
+   "Warm-up activities"
+  ],
+  "pricing_details": "Pricing for Blooket was not verified here and plans change over time. Check the official site for current plans and free options.",
+  "faq": [
+   {
+    "q": "What is Blooket?",
+    "a": "Blooket is a classroom game platform. See the official site for the latest details."
+   },
+   {
+    "q": "Is Blooket free?",
+    "a": "Pricing for Blooket was not verified here and plans change over time. Check the official site for current plans and free options."
+   },
+   {
+    "q": "How should I check results from Blooket?",
+    "a": "Treat outputs as a starting point. Verify facts, numbers and quality yourself, follow your school or workplace rules, and confirm terms and privacy details on the official website."
+   }
+  ],
+  "seo_title": "Blooket: What It Is and How to Use It",
+  "seo_description": "Learn what Blooket is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "gimkit",
+  "name": "Gimkit",
+  "category": "study",
+  "website_url": "https://www.gimkit.com",
+  "pricing": "Unknown",
+  "tagline": "Live learning games where students earn in-game currency for answers.",
+  "best_for": "Engaging review games in class",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Gimkit is a game-based learning platform. Students answer questions during a game and earn in-game currency to spend on upgrades, which links correct answers to the game experience.\n\nTeachers use it for review, and students can create question sets too. Games work live or as assignments, and feature access can differ by plan, so confirm on the official site. Check the official site for current plans.",
+  "use_steps": [
+   "Sign up or open the tool.",
+   "Create a quiz or pick an existing one.",
+   "Share the join code or link with your group.",
+   "Review the results and revisit weak topics."
+  ],
+  "pros": [
+   "Strong game mechanic",
+   "Student-made sets",
+   "Teacher reports"
+  ],
+  "cons": [
+   "Features and availability can change",
+   "Outputs or content should be verified independently"
+  ],
+  "alternatives": [
+   "blooket",
+   "kahoot",
+   "quizlet"
+  ],
+  "tags": [
+   "games",
+   "quiz",
+   "review",
+   "classroom",
+   "engagement"
+  ],
+  "features": [
+   "Question set creation",
+   "In-game currency mechanic",
+   "Live and assigned play",
+   "Multiple game modes",
+   "Reports for teachers"
+  ],
+  "use_cases": [
+   "Exam review sessions",
+   "Vocabulary practice",
+   "Homework games"
+  ],
+  "pricing_details": "Pricing for Gimkit was not verified here and plans change over time. Check the official site for current plans and free options.",
+  "faq": [
+   {
+    "q": "What is Gimkit?",
+    "a": "Gimkit is a game-based learning platform. See the official site for the latest details."
+   },
+   {
+    "q": "Is Gimkit free?",
+    "a": "Pricing for Gimkit was not verified here and plans change over time. Check the official site for current plans and free options."
+   },
+   {
+    "q": "How should I check results from Gimkit?",
+    "a": "Treat outputs as a starting point. Verify facts, numbers and quality yourself, follow your school or workplace rules, and confirm terms and privacy details on the official website."
+   }
+  ],
+  "seo_title": "Gimkit: What It Is and How to Use It",
+  "seo_description": "Learn what Gimkit is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "wooclap",
+  "name": "Wooclap",
+  "category": "study",
+  "website_url": "https://www.wooclap.com",
+  "pricing": "Unknown",
+  "tagline": "Audience interaction tool with polls and quizzes for lectures.",
+  "best_for": "Higher education lecturers engaging large groups",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Wooclap is an interactive tool for lectures and training. Presenters ask questions of different types, such as multiple choice, open text and ranking, and the audience answers from phones or laptops.\n\nIt is popular in higher education to check understanding in real time and can integrate with some presentation and learning tools. Check the official site for supported integrations and plans. Check the official site for current plans.",
+  "use_steps": [
+   "Sign up or open the tool.",
+   "Create a quiz or pick an existing one.",
+   "Share the join code or link with your group.",
+   "Review the results and revisit weak topics."
+  ],
+  "pros": [
+   "Variety of question types",
+   "Works with large groups",
+   "Integrations"
+  ],
+  "cons": [
+   "Features and availability can change",
+   "Outputs or content should be verified independently"
+  ],
+  "alternatives": [
+   "mentimeter",
+   "kahoot",
+   "pear-deck"
+  ],
+  "tags": [
+   "polls",
+   "lectures",
+   "audience",
+   "higher education",
+   "quiz"
+  ],
+  "features": [
+   "Multiple question types",
+   "Live audience responses",
+   "Quiz and poll modes",
+   "Integration with presentation tools",
+   "Results export"
+  ],
+  "use_cases": [
+   "Lecture comprehension checks",
+   "Corporate training",
+   "Interactive seminars"
+  ],
+  "pricing_details": "Pricing for Wooclap was not verified here and plans change over time. Check the official site for current plans and free options.",
+  "faq": [
+   {
+    "q": "What is Wooclap?",
+    "a": "Wooclap is an interactive tool for lectures and training. See the official site for the latest details."
+   },
+   {
+    "q": "Is Wooclap free?",
+    "a": "Pricing for Wooclap was not verified here and plans change over time. Check the official site for current plans and free options."
+   },
+   {
+    "q": "How should I check results from Wooclap?",
+    "a": "Treat outputs as a starting point. Verify facts, numbers and quality yourself, follow your school or workplace rules, and confirm terms and privacy details on the official website."
+   }
+  ],
+  "seo_title": "Wooclap: What It Is and How to Use It",
+  "seo_description": "Learn what Wooclap is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "lingvist",
+  "name": "Lingvist",
+  "category": "study",
+  "website_url": "https://lingvist.com",
+  "pricing": "Unknown",
+  "tagline": "Vocabulary learning app that adapts to your progress.",
+  "best_for": "Building vocabulary with adaptive practice",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "Lingvist is a vocabulary-focused language app. It presents words in context and adjusts the practice to what you already know, aiming to spend time on words you are likely to forget.\n\nIt is best for learners who want to expand vocabulary steadily, alongside other practice for speaking and grammar. Language options and details change, so check the official site. Check the official site for current plans.",
+  "use_steps": [
+   "Install the app or open the site and pick a language.",
+   "Take a placement step or choose your level.",
+   "Practice in short daily sessions.",
+   "Add real conversation or reading outside the app."
+  ],
+  "pros": [
+   "Adaptive review",
+   "Context-based",
+   "Short sessions"
+  ],
+  "cons": [
+   "Features and availability can change",
+   "Outputs or content should be verified independently"
+  ],
+  "alternatives": [
+   "memrise",
+   "duolingo",
+   "lingq"
+  ],
+  "tags": [
+   "language",
+   "vocabulary",
+   "adaptive",
+   "mobile",
+   "study"
+  ],
+  "features": [
+   "Adaptive vocabulary practice",
+   "Words in sentence context",
+   "Progress tracking",
+   "Several languages",
+   "Mobile apps"
+  ],
+  "use_cases": [
+   "Expanding vocabulary",
+   "Short daily practice",
+   "Preparing for conversation"
+  ],
+  "pricing_details": "Pricing for Lingvist was not verified here and plans change over time. Check the official site for current plans and free options.",
+  "faq": [
+   {
+    "q": "What is Lingvist?",
+    "a": "Lingvist is a vocabulary-focused language app. See the official site for the latest details."
+   },
+   {
+    "q": "Is Lingvist free?",
+    "a": "Pricing for Lingvist was not verified here and plans change over time. Check the official site for current plans and free options."
+   },
+   {
+    "q": "How should I check results from Lingvist?",
+    "a": "Treat outputs as a starting point. Verify facts, numbers and quality yourself, follow your school or workplace rules, and confirm terms and privacy details on the official website."
+   }
+  ],
+  "seo_title": "Lingvist: What It Is and How to Use It",
+  "seo_description": "Learn what Lingvist is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "rosetta-stone",
+  "name": "Rosetta Stone",
+  "category": "study",
+  "website_url": "https://www.rosettastone.com",
+  "pricing": "Unknown",
+  "tagline": "Long-running language learning program based on immersion.",
+  "best_for": "Learning languages through immersive lessons",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "Rosetta Stone is a language-learning program known for immersion-style lessons, where you connect words to images and context without leaning on translation. It includes speech recognition for pronunciation.\n\nIt suits learners who prefer a structured, guided course. Language list and plan options change, so check the official site and complement it with conversation practice. Check the official site for current plans.",
+  "use_steps": [
+   "Install the app or open the site and pick a language.",
+   "Take a placement step or choose your level.",
+   "Practice in short daily sessions.",
+   "Add real conversation or reading outside the app."
+  ],
+  "pros": [
+   "Established method",
+   "Pronunciation focus",
+   "Structured path"
+  ],
+  "cons": [
+   "Features and availability can change",
+   "Outputs or content should be verified independently"
+  ],
+  "alternatives": [
+   "babbel",
+   "duolingo",
+   "busuu"
+  ],
+  "tags": [
+   "language",
+   "immersion",
+   "pronunciation",
+   "courses",
+   "mobile"
+  ],
+  "features": [
+   "Immersion-based lessons",
+   "Speech recognition practice",
+   "Structured course path",
+   "Multiple languages",
+   "Mobile apps"
+  ],
+  "use_cases": [
+   "Starting a language from scratch",
+   "Practicing pronunciation",
+   "Following a structured course"
+  ],
+  "pricing_details": "Pricing for Rosetta Stone was not verified here and plans change over time. Check the official site for current plans and free options.",
+  "faq": [
+   {
+    "q": "What is Rosetta Stone?",
+    "a": "Rosetta Stone is a language-learning program known for immersion-style lessons, where you connect words to images and context without leaning on translation. See the official site for the latest details."
+   },
+   {
+    "q": "Is Rosetta Stone free?",
+    "a": "Pricing for Rosetta Stone was not verified here and plans change over time. Check the official site for current plans and free options."
+   },
+   {
+    "q": "How should I check results from Rosetta Stone?",
+    "a": "Treat outputs as a starting point. Verify facts, numbers and quality yourself, follow your school or workplace rules, and confirm terms and privacy details on the official website."
+   }
+  ],
+  "seo_title": "Rosetta Stone: What It Is and How to Use It",
+  "seo_description": "Learn what Rosetta Stone is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "mimo",
+  "name": "Mimo",
+  "category": "study",
+  "website_url": "https://mimo.org",
+  "pricing": "Unknown",
+  "tagline": "Mobile-friendly app for learning to code in short lessons.",
+  "best_for": "Learning coding basics on a phone",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "Mimo is a mobile-first coding education app. It teaches programming through short, bite-sized lessons and exercises on a phone, covering topics such as web development and Python.\n\nIt suits beginners who want to build a habit with a few minutes a day. Deeper projects will need a computer and other resources, and current courses can be confirmed on the official site. Check the official site for current plans.",
+  "use_steps": [
+   "Browse the catalog and read the course outline.",
+   "Create an account and enroll.",
+   "Work through lessons and exercises on a schedule.",
+   "Build a small project to apply what you learned."
+  ],
+  "pros": [
+   "Quick lessons",
+   "Good for habit building",
+   "Beginner friendly"
+  ],
+  "cons": [
+   "Features and availability can change",
+   "Outputs or content should be verified independently"
+  ],
+  "alternatives": [
+   "codecademy",
+   "sololearn",
+   "freecodecamp"
+  ],
+  "tags": [
+   "coding",
+   "mobile",
+   "beginners",
+   "lessons",
+   "programming"
+  ],
+  "features": [
+   "Short coding lessons",
+   "Mobile-first design",
+   "Practice exercises",
+   "Beginner paths",
+   "Progress streaks"
+  ],
+  "use_cases": [
+   "Learning HTML basics",
+   "Daily coding habit",
+   "Intro to Python"
+  ],
+  "pricing_details": "Pricing for Mimo was not verified here and plans change over time. Check the official site for current plans and free options.",
+  "faq": [
+   {
+    "q": "What is Mimo?",
+    "a": "Mimo is a mobile-first coding education app. See the official site for the latest details."
+   },
+   {
+    "q": "Is Mimo free?",
+    "a": "Pricing for Mimo was not verified here and plans change over time. Check the official site for current plans and free options."
+   },
+   {
+    "q": "How should I check results from Mimo?",
+    "a": "Treat outputs as a starting point. Verify facts, numbers and quality yourself, follow your school or workplace rules, and confirm terms and privacy details on the official website."
+   }
+  ],
+  "seo_title": "Mimo: What It Is and How to Use It",
+  "seo_description": "Learn what Mimo is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "sololearn",
+  "name": "Sololearn",
+  "category": "study",
+  "website_url": "https://www.sololearn.com",
+  "pricing": "Unknown",
+  "tagline": "Mobile and web platform for learning programming with community.",
+  "best_for": "Beginners learning code with practice and community",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "Sololearn is a platform for learning programming through short lessons, quizzes and coding practice, with a community of learners who share code and ask questions.\n\nIt targets beginners who want a gentle path into a language such as Python or JavaScript. Course content and which features are free can change, so check the official site. Check the official site for current plans.",
+  "use_steps": [
+   "Browse the catalog and read the course outline.",
+   "Create an account and enroll.",
+   "Work through lessons and exercises on a schedule.",
+   "Build a small project to apply what you learned."
+  ],
+  "pros": [
+   "Beginner focused",
+   "Community support",
+   "Mobile friendly"
+  ],
+  "cons": [
+   "Features and availability can change",
+   "Outputs or content should be verified independently"
+  ],
+  "alternatives": [
+   "mimo",
+   "codecademy",
+   "freecodecamp"
+  ],
+  "tags": [
+   "coding",
+   "community",
+   "beginners",
+   "mobile",
+   "programming"
+  ],
+  "features": [
+   "Short coding lessons",
+   "Practice quizzes",
+   "Community discussions",
+   "Code playground",
+   "Mobile apps"
+  ],
+  "use_cases": [
+   "Learning Python basics",
+   "Practicing on the go",
+   "Asking beginner questions"
+  ],
+  "pricing_details": "Pricing for Sololearn was not verified here and plans change over time. Check the official site for current plans and free options.",
+  "faq": [
+   {
+    "q": "What is Sololearn?",
+    "a": "Sololearn is a platform for learning programming through short lessons, quizzes and coding practice, with a community of learners who share code and ask questions. See the official site for the latest details."
+   },
+   {
+    "q": "Is Sololearn free?",
+    "a": "Pricing for Sololearn was not verified here and plans change over time. Check the official site for current plans and free options."
+   },
+   {
+    "q": "How should I check results from Sololearn?",
+    "a": "Treat outputs as a starting point. Verify facts, numbers and quality yourself, follow your school or workplace rules, and confirm terms and privacy details on the official website."
+   }
+  ],
+  "seo_title": "Sololearn: What It Is and How to Use It",
+  "seo_description": "Learn what Sololearn is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ }
+]

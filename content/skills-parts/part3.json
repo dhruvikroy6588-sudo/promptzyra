@@ -1,0 +1,292 @@
+[
+ {
+  "slug": "essay-outliner",
+  "name": "Essay Outliner (No Ghostwriting)",
+  "description": "Builds a structured essay outline from your topic, prompt and ideas, with guiding questions instead of finished prose. Use when a student asks to plan an essay, organise arguments or structure paragraphs without having the essay written for them.",
+  "category": "writing-research",
+  "tags": [
+   "essay",
+   "outline",
+   "planning",
+   "structure",
+   "academic-writing"
+  ],
+  "audience": "Student",
+  "level": "Beginner",
+  "skill_md": "---\nname: essay-outliner\ndescription: Builds a structured essay outline from your topic, prompt and ideas, with guiding questions instead of finished prose. Use when a student asks to plan an essay, organise arguments or structure paragraphs without having the essay written for them.\n---\n# Essay Outliner (No Ghostwriting)\n\n## When to use\nUse when someone has an essay prompt or topic and needs help planning structure, ordering arguments and deciding what evidence each paragraph needs. Do not use it to produce the essay itself.\n\n## What to ask the user first\nAsk only for what is missing:\n- The exact prompt or topic, and the assignment type (argumentative, analytical, compare/contrast, reflective).\n- Word limit, level (school, undergraduate, postgraduate) and any marking criteria.\n- The student's own ideas, notes or draft thesis, even if rough.\n- Sources they already have or must use.\n\n## Workflow\n1. Restate the prompt in one sentence and identify its task word (analyse, evaluate, compare, discuss). Confirm it with the user if ambiguous.\n2. Ask the user for their current position or main idea. If they have none, offer two or three neutral angles as questions, never as a chosen answer.\n3. Propose a skeleton sized to the word limit: introduction, 3 to 5 body sections, conclusion. Allocate approximate word counts.\n4. For each section write a placeholder, not a paragraph: the section's job, the claim the student should decide on, the type of evidence needed, and one guiding question.\n5. Mark where counter-argument and transitions belong.\n6. Invite the student to fill the blanks in their own words, then offer to reorder or tighten the outline based on what they write.\n7. If they paste their filled outline, check logic flow and gaps, and point to them with questions.\n\n## Output format\n```\nPrompt in my words: ...\nWord budget: intro ~X | body ~X each | conclusion ~X\n\nI. Introduction\n   Job: hook, context, thesis\n   You decide: your thesis (one sentence)\n   Ask yourself: ...\nII. Body section 1\n   Job: ...\n   Claim to decide: [blank]\n   Evidence needed: [type, e.g. a primary source quote, a data point from your reading]\n   Ask yourself: ...\n(repeat)\nIII. Counter-argument and response\nIV. Conclusion\n   Job: answer the prompt, not repeat the intro\nNext step: fill the [blanks], then send it back.\n```\n\n## Quality checks\n- Every body section supports the thesis or the prompt directly.\n- Word allocations add up to the limit.\n- Claims are left as blanks or questions for the student, not written sentences.\n- Evidence types are named, but no invented quotes, sources or statistics.\n- The outline answers the task word in the prompt.\n\n## Boundaries\n- Do not write full paragraphs, topic sentences ready to paste, or the essay. If asked, explain that you will help the student write their own and offer a further outline step.\n- Never invent sources, quotes or data; suggest where kinds of evidence might be found.\n- Follow the school's AI-use policy if the user mentions one.\n- Say when you are unsure about subject facts.\n",
+  "references_md": "Essay outline checklist\n- Prompt answered? Underline the task word and check each section against it.\n- One main job per paragraph.\n- Each claim paired with evidence you have actually read.\n- Counter-argument placed before the conclusion.\n- Conclusion adds a judgement, not a repeat.\n\nSample guiding questions\n- What would someone who disagrees say, and why?\n- Which of your sources best proves this point?\n- If this paragraph were deleted, would the argument break?\n- What is the so-what for the reader?\n\nWorked mini-example (generic, not your topic)\nPrompt: Should cities ban cars from centres? Task word: evaluate.\nSection 2 placeholder: Claim to decide: [effect on local business]. Evidence needed: a case study you have read. Question: Who gains and who loses?\n\nTimeline for a week-long essay\n- Day 1: read the prompt, brainstorm.\n- Day 2: outline and gather evidence.\n- Days 3-4: draft.\n- Day 5: revise structure.\n- Day 6: edit language and citations.\n- Day 7: final read-aloud.\n\nWhen the outline stalls: write the argument as three spoken sentences, then place each under a section.",
+  "use_cases": [
+   "Plan a school history essay",
+   "Reorder a messy draft into a clear structure",
+   "Outline a compare-and-contrast assignment"
+  ],
+  "example_prompts": [
+   "Help me outline an essay on the causes of World War I, but don't write it for me.",
+   "I have a 1500 word essay on social media and teenagers. How should I structure it?",
+   "Here are my notes on Hamlet, can you help me organise them into an outline?"
+  ],
+  "seo_title": "Essay Outliner That Doesn't Ghostwrite | Promptzyra Skill",
+  "seo_description": "Free AI skill that turns an essay prompt into a guided outline with questions, word budgets and evidence types, so you write the essay yourself and learn."
+ },
+ {
+  "slug": "thesis-statement-coach",
+  "name": "Thesis Statement Coach",
+  "description": "Coaches a student to sharpen a thesis statement using diagnosis, questions and feedback rather than supplying one. Use when someone says their thesis is vague, too broad, just a fact or needs to be arguable and specific.",
+  "category": "writing-research",
+  "tags": [
+   "thesis",
+   "argument",
+   "academic-writing",
+   "feedback",
+   "essay"
+  ],
+  "audience": "Student",
+  "level": "Beginner",
+  "skill_md": "---\nname: thesis-statement-coach\ndescription: Coaches a student to sharpen a thesis statement using diagnosis, questions and feedback rather than supplying one. Use when someone says their thesis is vague, too broad, just a fact or needs to be arguable and specific.\n---\n# Thesis Statement Coach\n\n## When to use\nUse when a student has a draft thesis (or only a topic) and wants it to be clear, arguable, specific and supportable. Works for essays, research papers and dissertations at any level.\n\n## What to ask the user first\n- The assignment prompt or research topic.\n- The student's current thesis draft, or their rough position if there is none yet.\n- Essay type and length (a 500 word piece needs a narrower thesis than a 5000 word one).\n- The main evidence or readings they plan to use.\n\n## Workflow\n1. Ask for the prompt and the draft thesis. If there is no draft, ask: \"What do you think and why, in two sentences?\" Use their answer as the base.\n2. Diagnose the draft against five tests: Arguable (could a reasonable person disagree?), Specific (names the subject and the claim), Scoped (provable in the word limit), Answers the prompt, and Previews reasoning (has a because or a how).\n3. Label the draft's type: topic only, fact, announcement (\"This essay will...\"), opinion without reason, or working thesis.\n4. Give the result of each test as pass or needs work with one sentence of reason.\n5. Ask two or three Socratic questions aimed at the weakest test, for example \"What exactly do you mean by 'bad'?\" or \"What would your strongest critic say?\"\n6. Show a generic before/after pattern on an unrelated sample topic so the student sees the move, then ask them to revise their own.\n7. Review the revision with the same tests. Repeat until it passes, at most three rounds.\n\n## Output format\n```\nYour draft: \"...\"\nType: ...\nTests\n- Arguable: pass / needs work , reason\n- Specific: ...\n- Scoped: ...\n- Answers prompt: ...\n- Shows reasoning: ...\nBiggest fix: ...\nQuestions for you:\n1. ...\n2. ...\nPattern (different topic): weak -> stronger\nYour turn: rewrite in your own words and send it back.\n```\n\n## Quality checks\n- The feedback names the single biggest problem first.\n- The sample topic is unrelated to the student's, so it cannot be copied.\n- Questions are open, not leading to a pre-decided answer.\n- No new factual claims about the student's subject are asserted without caveat.\n\n## Boundaries\n- Do not write the student's thesis for them or offer a ready-to-paste sentence on their topic.\n- Do not invent evidence or sources to support a thesis.\n- If the student insists, explain that you can only give feedback and examples on other topics.\n- Say when subject knowledge is uncertain and suggest checking course materials.\n",
+  "references_md": "Weak to stronger patterns (generic)\n- Topic: \"Pollution in cities.\"\n- Fact: \"Cities have air pollution.\"\n- Arguable: \"City governments should prioritise traffic limits over new road building because ...\"\n\nUseful sentence frames\n- Although [counterview], [claim] because [reason].\n- [Subject] does [effect] by [method], which shows [significance].\n\nRed flags: \"This essay will discuss\", \"There are many\", words like good, bad, interesting with no criteria, claims too big to prove in the word limit.\n\nFive-test rubric (score 0-2 each, total 10)\n- Arguable: 0 fact, 1 weak opinion, 2 defensible claim\n- Specific: 0 vague terms, 2 defined terms\n- Scoped: 0 too big, 2 fits word limit\n- Answers prompt: 0 off-topic, 2 direct\n- Reasoning: 0 none, 2 clear because or how\nAim for 8 or more before drafting.\n\nGeneric before/after (different subject)\nBefore: Homework is a big issue in schools.\nAfter: Because it widens gaps between students with and without quiet study space, daily homework in primary school should be limited to reading.\n\nRemember: a thesis may change as you research; revise it at the end.",
+  "use_cases": [
+   "Make a vague thesis arguable",
+   "Narrow a thesis to fit a short essay",
+   "Check a thesis before submitting"
+  ],
+  "example_prompts": [
+   "Is this a good thesis? 'Social media has both good and bad effects.'",
+   "My teacher said my thesis is too broad, help me fix it.",
+   "I have a topic about climate policy but no thesis yet, can you coach me?"
+  ],
+  "seo_title": "Thesis Statement Coach: Fix Your Thesis | Promptzyra",
+  "seo_description": "Free AI skill that tests your thesis for arguability, scope and clarity, then guides you with questions to rewrite it yourself, not hand you an answer."
+ },
+ {
+  "slug": "paper-summarizer-with-limits",
+  "name": "Paper Summarizer With Limitations",
+  "description": "Summarizes a research paper in plain language and always reports its limitations, sample, method and what the paper does not show. Use when a student asks to summarise, explain or critique a journal article or study they have pasted or uploaded.",
+  "category": "writing-research",
+  "tags": [
+   "summary",
+   "journal-article",
+   "critical-reading",
+   "limitations",
+   "research"
+  ],
+  "audience": "Student",
+  "level": "Intermediate",
+  "skill_md": "---\nname: paper-summarizer-with-limits\ndescription: Summarizes a research paper in plain language and always reports its limitations, sample, method and what the paper does not show. Use when a student asks to summarise, explain or critique a journal article or study they have pasted or uploaded.\n---\n# Paper Summarizer With Limitations\n\n## When to use\nUse when the user provides a paper's text, abstract or sections and wants an accurate summary plus an honest account of its weaknesses. Not for papers the user has not shared and you cannot read.\n\n## What to ask the user first\n- The paper text or the sections available (abstract only, full text, or a PDF).\n- Purpose: quick understanding, literature review notes, or exam revision.\n- Reader level and desired length.\n- Field, if not obvious.\n\n## Workflow\n1. Check what you actually have. If only the abstract is available, say so and restrict claims to it.\n2. Extract, quoting short phrases where helpful: research question, method and design, sample (who, how many, how chosen), main findings, authors' stated conclusions.\n3. Write a plain-language summary at the requested level. Keep numbers exactly as stated in the paper; never round, estimate or add figures.\n4. Identify limitations in two groups: those the authors state, and those visible from the design (small or convenience sample, no control group, self-report, single setting, correlation read as cause, short follow-up). Mark inferred ones as \"my reading\".\n5. State what the paper does not show, so the claims are not stretched.\n6. List terms or methods the reader may need to look up.\n7. Offer follow-up questions the student could ask when discussing the paper.\n\n## Output format\n```\nSource used: full text / abstract only / sections: ...\nIn one sentence: ...\nQuestion | Method | Sample | Findings\n- ...\nPlain-language summary (X words): ...\nLimitations\n- Stated by authors: ...\n- Visible from design (my reading): ...\nWhat this does NOT show: ...\nTerms to look up: ...\nNot found in the text: ...\n```\n\n## Quality checks\n- Every figure and claim traces to the supplied text.\n- Items missing from the text are listed under \"Not found\" rather than guessed.\n- Correlation and causation are distinguished.\n- Summary is in the student's own paraphrase-friendly language, with no long direct quotes.\n\n## Boundaries\n- Do not invent results, sample sizes, authors, years or citations.\n- Do not summarise a paper you cannot access; ask for the text.\n- The summary is an aid to reading, not a replacement for it, and should not be submitted as the student's own analysis.\n- Say when the paper's field-specific methods are beyond your confident reading.\n- Do not store or share unpublished work beyond the task.\n",
+  "references_md": "Limitation prompts to run on any study\n- Who was studied, and who is missing?\n- How big is the sample, and how was it chosen?\n- Was there a comparison group?\n- Were outcomes measured or self-reported?\n- Could something else explain the result?\n- How long was it followed?\n- Do the conclusions go beyond the data?\n\nCaution words: \"proves\", \"causes\", \"always\" in a summary of an observational study are red flags.\n\nReading order for a paper\n1. Title and abstract\n2. Introduction last paragraph (the aim)\n3. Figures and tables\n4. Methods\n5. Results\n6. Discussion and limitations\n\nGeneric summary template (fill from the text only)\nThis study asked whether ___. The authors used ___ with ___ participants or items. They found ___. They conclude ___. A key limitation is ___.\n\nWords to check\n- Significant: statistical or practical?\n- Associated: not the same as caused.\n- Generalise: to whom?\n\nIf the paper is outside your field, ask the AI to define terms before judging the evidence.",
+  "use_cases": [
+   "Understand a dense journal article",
+   "Write notes for a literature review",
+   "Prepare to critique a study in a seminar"
+  ],
+  "example_prompts": [
+   "Summarise this paper and tell me its limitations: [paste text]",
+   "Explain this study's method in simple words and what it can't prove.",
+   "I need to critique this article for class, what are its weaknesses?"
+  ],
+  "seo_title": "Paper Summarizer With Limitations | Promptzyra Skill",
+  "seo_description": "Free AI skill that summarises a research paper in plain language and always lists its limitations and what it does not prove, with no invented figures."
+ },
+ {
+  "slug": "citation-format-checker",
+  "name": "Citation Format Checker",
+  "description": "Checks reference lists and in-text citations for style errors in APA, MLA, Chicago or Harvard, and flags missing fields without inventing details. Use when a student asks to check, format or fix citations or a bibliography.",
+  "category": "writing-research",
+  "tags": [
+   "citations",
+   "apa",
+   "mla",
+   "references",
+   "bibliography"
+  ],
+  "audience": "Student",
+  "level": "Beginner",
+  "skill_md": "---\nname: citation-format-checker\ndescription: Checks reference lists and in-text citations for style errors in APA, MLA, Chicago or Harvard, and flags missing fields without inventing details. Use when a student asks to check, format or fix citations or a bibliography.\n---\n# Citation Format Checker\n\n## When to use\nUse when the user pastes references or in-text citations and wants them checked or formatted in a named style. It formats what the user provides; it never creates sources.\n\n## What to ask the user first\n- The citation style and edition (APA 7, MLA 9, Chicago notes-bibliography or author-date, Harvard variant).\n- The reference list and the in-text citations from the document.\n- Source types if unclear (journal, book, website, chapter, report).\n- Whether the institution has its own rules.\n\n## Workflow\n1. Confirm the style. If the user is unsure, ask them to check the assignment brief; do not guess.\n2. Parse each reference into fields: author, year or date, title, container, volume and issue, pages, publisher, DOI or URL, access date if needed.\n3. Compare against the style's pattern for that source type: order, punctuation, capitalisation, italics, author-name format, hanging indent, alphabetical order.\n4. Where a required field is missing, mark it [MISSING: field]. Never fill it from memory or guess a DOI, page range or year.\n5. Check that every in-text citation has a matching reference entry and vice versa; list mismatches.\n6. Return corrected entries, plus a short list of what changed and why.\n7. Say clearly that you cannot verify that a source exists; ask the user to confirm each against the actual source or a library catalogue.\n\n## Output format\n```\nStyle: ...\nCorrected references\n1. ...\n   Changes: ...\n   Missing: [MISSING: ...]\nIn-text check\n- Cited but not listed: ...\n- Listed but not cited: ...\nFormat reminders: ...\nReminder: I checked format only. Verify each source is real and details match the original.\n```\n\n## Quality checks\n- Output uses only details supplied by the user.\n- Every [MISSING] item is flagged, none silently filled.\n- Style rules match the stated edition.\n- Order, italics and punctuation are described in plain text when markdown cannot show them.\n- Mismatch lists are complete.\n\n## Boundaries\n- Never invent authors, titles, years, DOIs, page numbers or whole references. Never suggest sources to \"add\" unless offering search strategies.\n- If a reference looks implausible, say it looks unusual and ask the user to verify.\n- Plagiarism and reference accuracy remain the student's responsibility.\n- Say when a style rule is uncertain and point to the official guide.\n",
+  "references_md": "Quick pattern reminders (check the official guide)\n- APA 7 journal: Author, A. A., & Author, B. B. (Year). Title of article. Journal Name, volume(issue), pages. DOI\n- MLA 9 book: Author. Title of Book. Publisher, Year.\n- Chicago bibliography book: Author. Title. Place: Publisher, Year.\n\nCommon errors\n- Wrong name order or initials\n- Title capitalisation in the wrong case\n- Missing DOI or URL for online items\n- In-text year differing from the list\n- Not alphabetised\n\nIn-text pattern reminders\n- APA 7: (Author, Year) or Author (Year); two authors use &; three or more use et al.\n- MLA 9: (Author page) with no comma.\n- Chicago notes-bibliography: footnote numbers after punctuation.\n- Harvard: (Author Year, p. page), though local variants differ.\n\nBefore submitting\n1. Is every in-text citation in the list?\n2. Is every list entry cited?\n3. Same style throughout?\n4. DOIs and URLs present where the style asks?\n5. Hanging indent applied in your word processor?\n\nIf a reference looks odd, search your library catalogue for it; format checkers cannot confirm that a source exists.",
+  "use_cases": [
+   "Fix a bibliography before submission",
+   "Convert references between styles",
+   "Find mismatched in-text citations"
+  ],
+  "example_prompts": [
+   "Check my APA references below and tell me what's wrong.",
+   "Convert this reference list from MLA to Chicago, don't add anything I didn't give.",
+   "Do all my in-text citations match my bibliography? [paste]"
+  ],
+  "seo_title": "Citation Format Checker: APA, MLA, Chicago | Promptzyra",
+  "seo_description": "Free AI skill that checks and corrects citation format in APA, MLA, Chicago or Harvard, flags missing fields and never invents references or DOIs."
+ },
+ {
+  "slug": "research-question-refiner",
+  "name": "Research Question Refiner",
+  "description": "Turns a broad topic into a focused, researchable question using guided narrowing, with feasibility and scope checks. Use when a student asks for help choosing a topic, narrowing a research question or writing a dissertation or project question.",
+  "category": "writing-research",
+  "tags": [
+   "research-question",
+   "topic",
+   "dissertation",
+   "scope",
+   "methodology"
+  ],
+  "audience": "Student",
+  "level": "Intermediate",
+  "skill_md": "---\nname: research-question-refiner\ndescription: Turns a broad topic into a focused, researchable question using guided narrowing, with feasibility and scope checks. Use when a student asks for help choosing a topic, narrowing a research question or writing a dissertation or project question.\n---\n# Research Question Refiner\n\n## When to use\nUse when a user has a topic or a vague question and needs to narrow it into a question that can actually be answered within their time, access and word limits.\n\n## What to ask the user first\n- The topic or interest, and the subject or course.\n- Project type and size (class paper, thesis, dissertation) and time available.\n- Data or sources they can reach (library, interviews, datasets, texts).\n- Any methods they must or prefer to use.\n\n## Workflow\n1. Restate the topic in a sentence and ask what in it genuinely interests the user.\n2. Run a narrowing ladder with questions: Who or what (population or texts)? Where and when (scope)? Which aspect (factor, theme, relationship)? Why does it matter (gap or purpose)?\n3. Classify the type of question: descriptive, comparative, relationship, causal, evaluative or exploratory, and state what kind of evidence each needs.\n4. Test the draft question: Focused, Researchable with available sources, Feasible in the time, Specific in terms, Open (not yes/no), Worthwhile.\n5. Show a generic broad-to-narrow ladder on an unrelated topic as a model.\n6. Ask the user to write two or three candidate questions; give feedback on each against the tests.\n7. Suggest sub-questions and the likely method for the chosen question, flagged as options to discuss with the supervisor.\n\n## Output format\n```\nTopic: ...\nNarrowing questions: ...\nModel ladder (other topic): broad -> narrower -> researchable\nYour candidates -> feedback\nTests: Focused / Researchable / Feasible / Specific / Open / Worthwhile\nQuestion type: ...\nEvidence needed: ...\nSub-questions to consider: ...\nNext step: ...\n```\n\n## Quality checks\n- The question can be answered with data or texts the user can really access.\n- Key terms are defined or definable.\n- Scope matches time and word limit.\n- No assumed answer is embedded in the question.\n- Suggestions are framed as options, not decisions.\n\n## Boundaries\n- The question and the research stay the student's own; offer feedback and model ladders on other topics rather than writing their final question.\n- Do not invent existing literature, gaps or studies; say that a literature search is needed to confirm novelty.\n- Mention ethics approval when people are involved.\n- Defer to the supervisor's guidance when it conflicts.\n",
+  "references_md": "Model ladder (generic)\n- Broad: Sleep and students.\n- Narrower: Sleep and exam performance in first-year undergraduates.\n- Researchable: How does self-reported weekday sleep duration relate to exam scores among first-year students at one institution?\n\nChecklist\n- Can I find or collect evidence in my time?\n- Could the answer surprise me?\n- Are all terms measurable or interpretable?\n- Is it too broad (a book) or too narrow (one fact)?\n\nStarter stems: How does...? To what extent...? What is the relationship between...? In what ways...?\n\nQuestion type table\n- Descriptive: What is...? Evidence: surveys, observation, texts\n- Comparative: How do A and B differ...? Evidence: parallel data on both\n- Relationship: What is the relationship between X and Y...? Evidence: measured variables\n- Causal: Does X cause Y...? Evidence: experiments or strong designs\n- Evaluative: How effective is...? Evidence: criteria plus outcomes\n\nFeasibility prompts\n- Do I have permission and access to the data?\n- Can I finish in the time available?\n- Does it need ethics approval?\n- Do I have the skills for the method?\n\nWarning signs: question answerable with yes or no, hidden assumptions, undefined words like effective or impact.",
+  "use_cases": [
+   "Narrow a dissertation topic",
+   "Check if a question is feasible",
+   "Choose between candidate questions"
+  ],
+  "example_prompts": [
+   "I want to research social media and mental health, how do I narrow it?",
+   "Is this research question too broad? 'How does technology affect education?'",
+   "Help me turn my interest in renewable energy into a project question."
+  ],
+  "seo_title": "Research Question Refiner for Students | Promptzyra",
+  "seo_description": "Free AI skill that guides you from a broad topic to a focused, feasible research question using narrowing questions and clear tests, keeping it yours."
+ },
+ {
+  "slug": "literature-review-matrix",
+  "name": "Literature Review Matrix Builder",
+  "description": "Builds a literature review matrix from sources you supply, comparing aims, methods, findings and gaps to reveal themes. Use when a student asks to organise papers, compare studies or prepare a literature review.",
+  "category": "writing-research",
+  "tags": [
+   "literature-review",
+   "matrix",
+   "synthesis",
+   "sources",
+   "research"
+  ],
+  "audience": "Student",
+  "level": "Advanced",
+  "skill_md": "---\nname: literature-review-matrix\ndescription: Builds a literature review matrix from sources you supply, comparing aims, methods, findings and gaps to reveal themes. Use when a student asks to organise papers, compare studies or prepare a literature review.\n---\n# Literature Review Matrix Builder\n\n## When to use\nUse when the user has several sources (summaries, abstracts or full texts) and wants a comparison table and a synthesis plan. It organises provided material; it does not find or invent sources.\n\n## What to ask the user first\n- The research question or review topic.\n- The sources: pasted text, abstracts or the user's own notes, one per source with its citation as the user provides it.\n- Columns they need (default below) and the style for citations.\n- Length and purpose (standalone review, dissertation chapter, annotated bibliography).\n\n## Workflow\n1. Confirm the review question and list the sources received. Count them back to the user.\n2. For each source, extract only what the supplied text states: citation as given, aim, method and sample, key findings, limitations, relevance to the question. Write \"not stated\" where missing.\n3. Build the matrix, one row per source, in a table.\n4. Tag sources with themes (user-approved) and note agreements, contradictions, method differences and recurring limitations.\n5. Identify gaps visible within these sources only, and say that they are gaps in this set, not proof of a gap in the field.\n6. Propose a thematic structure for the written review: headings, which sources sit under each, and a connecting question per section.\n7. Ask the student to write the synthesis paragraphs themselves; offer to check them against the matrix.\n\n## Output format\n```\nReview question: ...\n| Source (as given) | Aim | Method / sample | Findings | Limitations | Themes | Relevance |\n|---|---|---|---|---|---|---|\nThemes\n- Theme A: sources ... agree / disagree on ...\nGaps in this set: ...\nSuggested structure: 1. ... 2. ...\nNot stated in supplied text: ...\n```\n\n## Quality checks\n- Row count equals the source count.\n- No cell contains information absent from the source text.\n- Disagreements between sources are shown, not smoothed over.\n- Gaps are labelled as limited to the supplied sources.\n\n## Boundaries\n- Never invent or add sources, authors, years, findings or statistics. Suggest search keywords instead if the user needs more.\n- Do not write the final review for submission; support synthesis and structure.\n- Flag papers you could only read as abstracts.\n- Do not share unpublished material.\n",
+  "references_md": "Synthesis moves\n- Group by theme, not source by source.\n- Compare: where do studies agree or conflict, and why (sample, method, context)?\n- Evaluate: which evidence is stronger and why?\n- Connect to your research question.\n\nWeak review sign: a list of summaries beginning \"Smith found... Jones found...\" with no comparison.\n\nOptional extra columns: theory used, country or setting, data collection date, quality notes.\n\nMini example of one matrix row (generic placeholders)\n| [Citation as given] | To test whether ___ | Survey, n = [from source] | Found ___ | Self-report only | Theme: motivation | Supports section 2 |\n\nSteps for the written review\n1. Intro: scope, question, how sources were chosen.\n2. Thematic sections with comparison.\n3. Critical discussion of strengths and gaps.\n4. Conclusion linking to your own research question.\n\nChecking your draft against the matrix\n- Does each claim have its source row?\n- Did you compare at least two sources per theme?\n- Did you note limitations rather than only results?\n\nKeep a record of search terms and databases used so the review is reproducible.",
+  "use_cases": [
+   "Organise 10 papers for a dissertation",
+   "Spot themes and conflicts across studies",
+   "Plan the structure of a literature review"
+  ],
+  "example_prompts": [
+   "Make a literature review matrix from these five abstracts: [paste]",
+   "Compare these studies and show where they disagree.",
+   "Help me plan the sections of my literature review from my notes."
+  ],
+  "seo_title": "Literature Review Matrix Builder | Promptzyra Skill",
+  "seo_description": "Free AI skill that turns your sources into a comparison matrix of aims, methods, findings and gaps, then plans a thematic review structure for you."
+ },
+ {
+  "slug": "grammar-clarity-editor",
+  "name": "Grammar and Clarity Editor With Explanations",
+  "description": "Edits writing for grammar, clarity and concision and explains every change so the writer learns the rule. Use when someone asks to proofread, fix grammar, improve clarity or understand their mistakes in English text.",
+  "category": "language-learning",
+  "tags": [
+   "grammar",
+   "editing",
+   "proofreading",
+   "clarity",
+   "english"
+  ],
+  "audience": "Anyone",
+  "level": "Beginner",
+  "skill_md": "---\nname: grammar-clarity-editor\ndescription: Edits writing for grammar, clarity and concision and explains every change so the writer learns the rule. Use when someone asks to proofread, fix grammar, improve clarity or understand their mistakes in English text.\n---\n# Grammar and Clarity Editor With Explanations\n\n## When to use\nUse when the user pastes English text and wants corrections plus the reason for each. Suitable for essays, emails, reports and language learners.\n\n## What to ask the user first\n- The text.\n- Purpose and audience (academic essay, work email, application, casual).\n- Variety of English (British, American) and tone wanted.\n- Edit depth: grammar only, or also clarity and style.\n- Whether to keep the writer's voice (default yes) and the learner's English level.\n\n## Workflow\n1. Read the whole text first and identify the main message.\n2. Choose the level: Level 1 grammar, spelling, punctuation; Level 2 clarity (wordiness, ambiguity, passive overuse, long sentences); Level 3 style and flow. Do only the requested levels.\n3. Make the edits and number each change.\n4. For every change give: original, revised, the rule in plain words, and a short tip to avoid repeating it. Group repeated errors into one explanation.\n5. Mark unclear places where meaning is uncertain and ask the writer rather than guessing.\n6. Identify the top two or three recurring patterns for the writer to practise.\n7. Give two short practice sentences with errors of the writer's top pattern for them to fix, and offer to check them.\n\n## Output format\n```\nEdited text:\n[clean version]\n\nChanges\n1. \"original\" -> \"revised\"\n   Rule: ...\n   Tip: ...\nQuestions for you (unclear meaning): ...\nYour top patterns: ...\nPractice: fix these two sentences: ...\n```\n\n## Quality checks\n- Meaning and the writer's voice are preserved.\n- Every change has an explanation.\n- Variety of English is consistent.\n- No new facts, claims or content are added.\n- Names, quotations and technical terms remain intact.\n\n## Boundaries\n- Make clear that the writer decides what to accept; corrections teach, they do not replace the writer's judgement.\n- Do not rewrite an assignment into your own words if the policy forbids AI editing; ask about the rules for graded work.\n- Do not add references or facts.\n- Avoid storing personal details in pasted text, and say if the text seems to contain private data.\n- Say when a usage rule is debated among style guides.\n",
+  "references_md": "Common errors checklist\n- Subject-verb agreement\n- Tense consistency\n- Articles (a, an, the)\n- Prepositions\n- Run-on sentences and comma splices\n- Apostrophes (its / it's)\n- Pronoun reference\n- Parallel structure\n\nClarity moves\n- Cut filler (\"in order to\" -> \"to\").\n- Turn nominalisations into verbs.\n- Put the doer at the start of the sentence.\n- One idea per sentence.\n- Prefer the concrete word.\n\nExample explanation format (generic)\n1. \"He go to school\" -> \"He goes to school\"\n   Rule: third-person singular present tense adds -s.\n   Tip: ask who is doing the action.\n2. \"The reason is because\" -> \"The reason is that\"\n   Rule: reason already means because.\n\nEdit levels at a glance\n- Level 1: correctness\n- Level 2: clarity and concision\n- Level 3: style and flow\n\nSelf-editing routine\n1. Read aloud.\n2. Check one error type at a time.\n3. Cut ten percent of the words.\n4. Check the first and last sentence of every paragraph.\n5. Rest, then reread.\n\nKeep a personal error log and review it before each new piece.",
+  "use_cases": [
+   "Proofread an essay and learn why",
+   "Polish a work email",
+   "Find recurring grammar mistakes"
+  ],
+  "example_prompts": [
+   "Fix the grammar in this paragraph and explain each mistake.",
+   "Make this email clearer but keep my voice: [paste]",
+   "I'm learning English, can you correct my text and teach me the rules?"
+  ],
+  "seo_title": "Grammar and Clarity Editor That Explains | Promptzyra",
+  "seo_description": "Free AI skill that proofreads your English, improves clarity and explains every change in plain words so you learn the rule and avoid repeat mistakes."
+ },
+ {
+  "slug": "conversation-practice-partner",
+  "name": "Language Conversation Practice Partner",
+  "description": "Role-plays realistic conversations in a target language at the learner's level, with gentle corrections and a feedback recap. Use when a learner wants to practise speaking or writing a language, rehearse a scenario or prepare for travel or an exam.",
+  "category": "language-learning",
+  "tags": [
+   "conversation",
+   "speaking-practice",
+   "role-play",
+   "language",
+   "fluency"
+  ],
+  "audience": "Anyone",
+  "level": "Beginner",
+  "skill_md": "---\nname: conversation-practice-partner\ndescription: Role-plays realistic conversations in a target language at the learner's level, with gentle corrections and a feedback recap. Use when a learner wants to practise speaking or writing a language, rehearse a scenario or prepare for travel or an exam.\n---\n# Language Conversation Practice Partner\n\n## When to use\nUse when a learner wants live practice in a language they are studying, such as ordering food, a job interview, small talk or an oral exam task.\n\n## What to ask the user first\n- Target language and the learner's native language.\n- Level (CEFR A1 to C2, or beginner, intermediate, advanced).\n- Scenario and roles (cafe, hotel, interview, friends).\n- Correction style: after every turn, at the end, or only major errors.\n- Whether to use romanisation or show translations, and session length.\n\n## Workflow\n1. Confirm language, level, scenario and correction style. If level is unknown, run a two-question warm-up and estimate it.\n2. Set the scene in two sentences, in the learner's language if beginner.\n3. Speak only in the target language at the learner's level: short sentences, common vocabulary, one question per turn. Keep your turns brief so the learner talks most.\n4. When the learner replies, respond naturally to the meaning first.\n5. Apply the chosen correction style. Default: add a short \"Quick fix\" line after the reply with the corrected phrase and a one-line reason, for at most two errors per turn.\n6. If the learner is stuck, offer a hint in the form of a sentence starter, then a translation only if asked.\n7. After about 8 to 10 turns, or when asked, give a recap: what went well, 3 recurring errors, 5 useful phrases from the session, and a next scenario suggestion.\n8. Raise or lower difficulty gradually based on performance.\n\n## Output format\n```\nScene: ...\n[Partner, target language]\n(Translation only if requested)\nQuick fix: \"your phrase\" -> \"better phrase\" , reason\n...\nSession recap\n- Went well: ...\n- Work on: 1. 2. 3.\n- Phrases to keep: ...\n- Next time: ...\n```\n\n## Quality checks\n- Language stays within the learner's level.\n- Corrections are accurate and limited, not overwhelming.\n- The learner speaks more than the partner.\n- Cultural register (formal vs informal) is appropriate and noted.\n- No made-up cultural claims.\n\n## Boundaries\n- Be encouraging and never mock errors.\n- Say when a phrase varies by region or you are unsure, and suggest checking with a teacher or native speaker.\n- Do not ask for or store personal details; use fictional names in role-plays.\n- This supports practice; it does not replace a qualified teacher or a certified assessment.\n",
+  "references_md": "Level guide\n- A1: present tense, 5-8 word sentences, everyday nouns\n- A2: past and future basics, simple connectors\n- B1: opinions and reasons, longer exchanges\n- B2 and above: abstract topics, idioms, nuance\n\nScenario ideas: ordering at a cafe, asking directions, booking a hotel, a doctor's visit, a job interview, talking about hobbies, returning an item.\n\nHint ladder: 1. a keyword 2. a sentence starter 3. the full model sentence.\n\nSample opening for a beginner cafe scene (in English as a model)\nPartner: Hello! What would you like to drink?\nLearner: I want coffee please.\nQuick fix: \"I would like a coffee, please.\" Reason: more polite.\n\nUseful rescue phrases to teach early\n- Can you repeat that, please?\n- Could you speak more slowly?\n- How do you say ___ in this language?\n- I do not understand.\n\nSession structure (15 minutes)\n- 2 min: warm-up\n- 10 min: scenario\n- 3 min: recap and new phrases\n\nProgress check: after several sessions, compare the number of errors and the length of the learner's sentences.",
+  "use_cases": [
+   "Practise speaking before a trip",
+   "Prepare for an oral exam",
+   "Rehearse an interview in another language"
+  ],
+  "example_prompts": [
+   "Let's practise Spanish at A2 level, I want to order at a restaurant.",
+   "Be my German conversation partner and correct me after each message.",
+   "Role-play a job interview in French at B1, then give me feedback."
+  ],
+  "seo_title": "Language Conversation Practice Partner | Promptzyra Skill",
+  "seo_description": "Free AI skill that role-plays everyday scenarios in your target language at your level, with gentle corrections, hints and a recap of useful phrases."
+ },
+ {
+  "slug": "vocabulary-builder",
+  "name": "Vocabulary Builder With Example Sentences",
+  "description": "Builds themed vocabulary lists with meanings, example sentences, usage notes and spaced review quizzes for any language. Use when a learner asks to learn new words, make flashcards, study a word list or prepare for a vocabulary test.",
+  "category": "language-learning",
+  "tags": [
+   "vocabulary",
+   "flashcards",
+   "spaced-repetition",
+   "words",
+   "language"
+  ],
+  "audience": "Anyone",
+  "level": "Beginner",
+  "skill_md": "---\nname: vocabulary-builder\ndescription: Builds themed vocabulary lists with meanings, example sentences, usage notes and spaced review quizzes for any language. Use when a learner asks to learn new words, make flashcards, study a word list or prepare for a vocabulary test.\n---\n# Vocabulary Builder With Example Sentences\n\n## When to use\nUse when a learner wants to study words for an exam, a topic, a text they are reading or their daily life, in any language, and to remember them through examples and review.\n\n## What to ask the user first\n- Target language and the learner's native language.\n- Level and goal (exam, travel, work, reading).\n- Topic, text or word list to use, and how many words.\n- Preferred format: list, flashcards, quiz.\n- Whether they want pronunciation help or romanisation.\n\n## Workflow\n1. Confirm language, level, topic and number of words (default 10 per batch to avoid overload).\n2. If the user supplied a word list or text, use those words; otherwise choose common, useful words for the level and topic.\n3. For each word give: the word, part of speech, meaning in simple language, one or two natural example sentences at the learner's level, a common collocation or phrase, a note on register or confusable words, and a memory tip.\n4. Use pronunciation or romanisation only where helpful and accurate; if unsure, say so.\n5. Present a mini-practice: fill the blank, match, and a short translate-back exercise.\n6. Ask the learner to write their own sentence for 3 words, then give feedback.\n7. Plan review: suggest revisiting words after 1 day, 3 days, 7 days and 14 days, and offer a quiz of earlier words on request.\n\n## Output format\n```\nTheme: ... Level: ...\n1. word (part of speech) , meaning\n   Example: ...\n   Often used with: ...\n   Watch out: ...\n   Tip: ...\n(repeat)\nPractice\n- Fill in the blank: ...\n- Write your own sentence with: ...\nReview plan: day 1, 3, 7, 14\nAnswers: (after the learner tries)\n```\n\n## Quality checks\n- Example sentences are natural and correct.\n- Difficulty matches the level.\n- Meanings are not mixed up between similar words.\n- Answers are withheld until the learner attempts.\n- Uncertain or regional items are labelled.\n\n## Boundaries\n- Do not claim a word is rare, frequent or exam-listed unless the user's source says so.\n- Say when you are unsure of a meaning, gender, tone or pronunciation, and recommend a dictionary.\n- Avoid offensive or private content in examples; use fictional names.\n- This supports study; it is not a replacement for a course or teacher.\n",
+  "references_md": "Learning tips\n- Learn words in phrases, not in isolation.\n- Group by theme or word family.\n- Say and write each word aloud or in a sentence.\n- Review at spaced intervals.\n- Notice false friends between languages.\n\nCard template\nFront: word / picture / native-language cue\nBack: meaning, example, collocation, your own sentence.\n\nBatch size: 5 to 10 new words per session is manageable for most beginners.\n\nExample entry (generic, English)\n1. reluctant (adjective), not wanting to do something\n   Example: She was reluctant to speak in front of the class.\n   Often used with: reluctant to + verb\n   Watch out: not the same as reliable.\n   Tip: reluctant sounds like re-luck-tant, as in 'no luck, I'd rather not'.\n\nSpaced review schedule\n- Day 0 learn\n- Day 1 quick check\n- Day 3 quiz\n- Day 7 quiz\n- Day 14 quiz\n- Day 30 mixed review\n\nQuiz types: definition match, fill the blank, translate back, odd one out, write a sentence.\n\nKeep a notebook of the words you got wrong and see them again sooner.",
+  "use_cases": [
+   "Learn vocabulary for a travel trip",
+   "Make flashcards from a reading text",
+   "Review words with spaced quizzes"
+  ],
+  "example_prompts": [
+   "Give me 10 beginner Japanese words about food with example sentences.",
+   "Make flashcards from this word list and quiz me tomorrow's review.",
+   "Teach me business English vocabulary for meetings at B2 level."
+  ],
+  "seo_title": "Vocabulary Builder With Examples and Quizzes | Promptzyra",
+  "seo_description": "Free AI skill that builds themed word lists with meanings, natural example sentences, usage notes and spaced review quizzes for any language you study."
+ },
+ {
+  "slug": "translation-with-notes",
+  "name": "Translation With Notes Helper",
+  "description": "Translates short texts between languages and adds notes on word choice, tone, idioms and alternatives so learners understand the choices. Use when someone asks to translate a message, sentence or paragraph and wants to know why.",
+  "category": "language-learning",
+  "tags": [
+   "translation",
+   "bilingual",
+   "nuance",
+   "idioms",
+   "learners"
+  ],
+  "audience": "Anyone",
+  "level": "Intermediate",
+  "skill_md": "---\nname: translation-with-notes\ndescription: Translates short texts between languages and adds notes on word choice, tone, idioms and alternatives so learners understand the choices. Use when someone asks to translate a message, sentence or paragraph and wants to know why.\n---\n# Translation With Notes Helper\n\n## When to use\nUse when a learner or professional needs a translation plus an explanation of choices, such as an email, a message, a caption or a sentence from study material. Best for short or medium texts.\n\n## What to ask the user first\n- The source text and its language.\n- Target language and variety (Latin American vs Peninsular Spanish, Brazilian vs European Portuguese).\n- Purpose and audience (friend, boss, customer, exam).\n- Register wanted: formal, neutral or casual.\n- Whether the user is learning and wants literal word-by-word help.\n\n## Workflow\n1. Confirm source and target language, variety, audience and register. Assume neutral if unspecified and say so.\n2. Read the whole text and note idioms, cultural references, ambiguity and names.\n3. Translate for meaning and tone, not word by word, keeping names, numbers and dates unchanged except for format conventions.\n4. Add a notes list: key word choices and why, idioms or phrases that do not translate literally, formality choices (such as tu vs usted), and gendered or plural forms assumed.\n5. Offer one alternative where tone could change the meaning, with when to use each.\n6. For learners, add a short literal gloss of difficult phrases and one grammar point worth learning.\n7. Flag ambiguity in the source and ask the user which meaning is intended instead of guessing.\n8. Suggest checking with a native speaker or certified translator for legal, medical, immigration or official documents.\n\n## Output format\n```\nTranslation (language, variety, register):\n...\nNotes\n- \"phrase\" -> chosen wording: reason\n- Idiom: literal = ..., natural = ...\n- Formality: ...\nAlternative (more casual / formal): ...\nFor learners: gloss + grammar point\nAmbiguities / questions: ...\nConfidence and caveats: ...\n```\n\n## Quality checks\n- All content of the source is rendered and nothing added or dropped.\n- Names, numbers, dates and units are preserved.\n- Register matches the audience.\n- Uncertainties are stated.\n- Variety of the target language is consistent.\n\n## Boundaries\n- Do not present machine translation as certified or official for legal, medical or immigration use.\n- Say when a term has no direct equivalent or you are not sure of a regional usage.\n- Do not translate to deceive, for example to pass a translation as one's own graded work when that is not allowed.\n- Treat pasted private information carefully and do not repeat it beyond the task.\n",
+  "references_md": "False-friend and register reminders\n- Words that look alike may differ in meaning across languages; check before trusting the resemblance.\n- Formal/informal address varies (tu/vous, tu/usted, du/Sie).\n- Idioms: translate the sense, not the words.\n- Dates, decimal points and units differ by locale.\n\nPre-send checklist\n- Does it sound like something a native speaker would write to this person?\n- Are names and numbers identical?\n- Is anything ambiguous in the source?\n\nExample note format (generic)\nSource: 'Break a leg!'\nLiteral: rompe una pierna. Natural: use the local good-luck phrase instead.\nReason: idioms transfer meaning, not words.\n\nTone ladder\n- Formal: full sentences, titles, polite verb forms\n- Neutral: clear and friendly\n- Casual: contractions, slang (only if the audience uses it)\n\nWhen to get a professional\n- Contracts, court, medical records, immigration or certified documents\n- Published or branded text\n\nAlways keep the original text next to your translation and check it again after a break.",
+  "use_cases": [
+   "Translate an email and understand the tone",
+   "Learn why a phrase is worded a certain way",
+   "Check a translation you wrote yourself"
+  ],
+  "example_prompts": [
+   "Translate this message into polite Spanish and explain your choices.",
+   "How would I say this in French to a friend vs to my boss?",
+   "Translate this paragraph into English and point out idioms."
+  ],
+  "seo_title": "Translation With Notes: Learn the Why | Promptzyra Skill",
+  "seo_description": "Free AI skill that translates text and explains word choices, tone, idioms and alternatives, so you understand the translation and can use the language."
+ }
+]

@@ -17,7 +17,7 @@ export default async function Page({ searchParams }) {
     <div className="wrap"><h1 style={{ marginTop: 32, fontSize: 'clamp(1.8rem,4vw,2.6rem)' }}>AI photo prompts</h1>
       <div className="prose intro-long muted">
         <p>Photo prompts are ready-made instructions you paste into an AI image tool together with your own picture. The tool restyles your photo: a cinematic portrait, a festive family scene, a cartoon of your pet. Each prompt here shows an example result, lists the tools it suits and gives tips for keeping your face and identity consistent.</p>
-        <p>Browse by category, by AI tool or by who is in the photo. Copy a prompt, upload your own photo, and adjust the result with a few follow-up messages. Please read the safety notes on each page before you upload a picture.</p>
+        <p>Browse by who is in the photo (men, women, couple, family, kids, pets, birthday, portrait) or by AI tool. Copy a prompt, upload your own photo, and adjust the result with a few follow-up messages. Please read the safety notes on each page before you upload a picture.</p>
       </div></div>
     <PhotoList sp={sp} base="/photo-prompts" />
     <PromptFaq items={PHOTO_FAQ} title="Photo prompts FAQ" />

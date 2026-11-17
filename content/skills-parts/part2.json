@@ -1,0 +1,292 @@
+[
+ {
+  "slug": "lesson-plan-builder",
+  "name": "Lesson Plan Builder",
+  "description": "Builds a timed, objective-aligned lesson plan with activities, checks for understanding and materials. Use when a teacher asks for a lesson plan, lesson outline, 45-minute class plan or help planning a period.",
+  "category": "teaching-lesson-design",
+  "tags": [
+   "lesson plan",
+   "teacher",
+   "classroom",
+   "planning",
+   "objectives"
+  ],
+  "audience": "Teacher",
+  "level": "Beginner",
+  "skill_md": "---\nname: lesson-plan-builder\ndescription: Builds a timed, objective-aligned lesson plan with activities, checks for understanding and materials. Use when a teacher asks for a lesson plan, lesson outline, 45-minute class plan or help planning a period.\n---\n# Lesson Plan Builder\n\n## When to use\nUse when a teacher wants a complete, ready-to-teach lesson for a single class period or a short sequence, from a topic or learning goal.\n\n## What to ask the user first\nAsk only for what is missing:\n- Subject, grade or age group, and topic.\n- Lesson length in minutes and class size (roughly).\n- Curriculum or exam board, if any, and prior knowledge students have.\n- Available resources (devices, textbooks, lab, none) and any known needs (EAL, mixed ability).\n\n## Workflow\n1. Write 1-3 measurable objectives starting with an action verb (see learning-objectives skill if the teacher wants more depth).\n2. Decide how you will know students met each objective: name the evidence (a question, product or exit task) before designing activities.\n3. Divide the time into phases: hook (5-10%), explicit teaching or modelling (20-25%), guided practice (25-30%), independent practice (25-30%), closure and check (10%). Adjust to the length given.\n4. For each phase write what the teacher does, what students do, grouping, and the exact prompt or task wording.\n5. Add 2-3 questions to ask at planned moments, with expected answers and likely misconceptions.\n6. Add a support option and an extension option for the main task.\n7. List materials and prep the teacher must do beforehand.\n8. Total the minutes and confirm they equal the lesson length.\n\n## Output format\n```\n**Lesson:** [topic] | Grade [x] | [n] min\n**Objectives:** 1. ... 2. ...\n**Evidence of learning:** ...\n**Materials/prep:** ...\n\n| Time | Phase | Teacher does | Students do | Grouping |\n|---|---|---|---|---|\n| 0-8 | Hook | ... | ... | whole class |\n\n**Key questions + expected answers:**\n**Misconceptions to watch:**\n**Support / Extension:**\n**Closure and exit check:**\n**Homework (optional):**\n```\n\n## Quality checks\n- Every objective has a matching piece of evidence.\n- Minutes add up exactly to the stated lesson length.\n- Tasks are doable with the stated resources only.\n- Student activity time is greater than teacher talk time.\n- Content is accurate for the grade level; flag anything you are unsure of.\n\n## Boundaries\n- Do not invent standards codes, research findings or statistics; if unsure of a curriculum code, say so and ask the teacher to confirm.\n- Never request or include real student names, grades or other personal data; use placeholders such as [Student A].\n- The teacher owns the final decision; present output as a draft to review and adapt.\n",
+  "references_md": "Timing guide (45 min): hook 5, teach 10, guided 12, independent 13, closure 5. Scale proportionally. A good hook is a question, problem or surprising example, not a recap. Closure should require every student to produce something, however small, such as one sentence or one answer.\n\nPre-teach checklist: Can I state in one sentence what students will be able to do by the bell? Do I have the exact wording of the first task written down? Have I planned what happens when students finish early or get stuck? Is there a transition cue (timer, signal) between phases? Which two questions will I ask to catch misunderstandings before independent work? Cut any activity that does not serve an objective, even if it is enjoyable. Plan the first three minutes and the last three minutes in the most detail, because those are where lessons most often drift.\n\nHow to iterate: after the first draft, ask the teacher one question about what felt wrong, then revise only that part. Keep a short list of what worked well in your classroom so each new draft starts closer to your style. Always read the final result aloud once before using it with students or families, and adjust wording to your school's conventions.",
+  "use_cases": [
+   "Plan a 45-minute lesson on fractions",
+   "Create a lesson with built-in checks for understanding",
+   "Turn a textbook chapter into a one-period plan"
+  ],
+  "example_prompts": [
+   "Make a 50-minute lesson plan on photosynthesis for Grade 7, no lab available, class of 35.",
+   "I need a lesson on persuasive writing for Year 9 with a group task and a quick check at the end.",
+   "Plan a 40 min history lesson on the causes of the French Revolution for mixed-ability students."
+  ],
+  "seo_title": "Lesson Plan Builder Skill for Teachers | Promptzyra",
+  "seo_description": "Download a free AI skill that builds timed, objective-aligned lesson plans with activities, key questions, support and extension tasks for any subject."
+ },
+ {
+  "slug": "rubric-generator",
+  "name": "Rubric Generator",
+  "description": "Creates a clear analytic rubric with weighted criteria and level descriptors for an assignment. Use when a teacher asks for a rubric, marking criteria, grading scheme or scoring guide.",
+  "category": "assessment-feedback",
+  "tags": [
+   "rubric",
+   "grading",
+   "criteria",
+   "marking",
+   "assessment"
+  ],
+  "audience": "Teacher",
+  "level": "Intermediate",
+  "skill_md": "---\nname: rubric-generator\ndescription: Creates a clear analytic rubric with weighted criteria and level descriptors for an assignment. Use when a teacher asks for a rubric, marking criteria, grading scheme or scoring guide.\n---\n# Rubric Generator\n\n## When to use\nUse when an assignment, project, essay, presentation or practical needs transparent grading criteria that students can read before they start.\n\n## What to ask the user first\nAsk only for what is missing:\n- The assignment brief or task description, and subject and grade.\n- Learning objectives or skills being assessed.\n- Number of performance levels preferred (3 to 5) and total marks or percentage.\n- Whether students will see it, and any school terms to use (e.g. Exceeding, Meeting).\n\n## Workflow\n1. Extract the 3-6 skills the task truly assesses from the brief; discard criteria not taught or not asked for.\n2. Name each criterion with a short noun phrase (e.g. Use of evidence), one skill per criterion.\n3. Choose the number of levels and label them consistently.\n4. Write each descriptor as observable performance, describing what the work contains at that level, not just adjectives such as good or poor. Make levels differ in one clear dimension (accuracy, depth, independence, clarity).\n5. Assign weights or marks so they total exactly the stated total; weight the main objective highest.\n6. Write a short student-friendly version: 'I can...' statements for the top level.\n7. Add a scoring note on how to total, round and handle borderline work.\n\n## Output format\n```\n**Rubric: [Task]** | Total: [n] marks\n| Criterion (weight) | Level 4 | Level 3 | Level 2 | Level 1 |\n|---|---|---|---|---|\n| ... | descriptor | descriptor | descriptor | descriptor |\n\n**Scoring notes:**\n**Student-friendly checklist:** - I can ...\n```\n\n## Quality checks\n- Criteria do not overlap and each maps to a stated objective.\n- Descriptors are parallel in structure across levels.\n- No level relies on vague words alone; each has a countable or observable feature.\n- Marks sum to the total.\n- Language suits the reader's age.\n\n## Boundaries\n- Do not invent standards codes, research findings or statistics; if unsure of a curriculum code, say so and ask the teacher to confirm.\n- Never request or include real student names, grades or other personal data; use placeholders such as [Student A].\n- The teacher owns the final decision; present output as a draft to review and adapt.\n",
+  "references_md": "Weak descriptor: 'Good use of evidence'. Stronger: 'Uses two or more relevant pieces of evidence and explains how each supports the claim'. Avoid penalty language stacked on negatives. Test: could two teachers score the same piece the same way using only this rubric?\n\nRubric review checklist: Does each criterion measure one thing only? Would a student know exactly how to move up a level? Are the lowest-level descriptors still respectful and descriptive rather than insulting? Is any criterion included only because it is easy to count, such as length, instead of because it matters? Pilot the rubric on two sample pieces of work and compare the scores; large gaps show unclear wording. Share the rubric when the task is set, and invite students to rephrase the top level in their own words.\n\nHow to iterate: after the first draft, ask the teacher one question about what felt wrong, then revise only that part. Keep a short list of what worked well in your classroom so each new draft starts closer to your style. Always read the final result aloud once before using it with students or families, and adjust wording to your school's conventions.",
+  "use_cases": [
+   "Rubric for a persuasive essay",
+   "Marking criteria for a science lab report",
+   "Student-friendly presentation scoring guide"
+  ],
+  "example_prompts": [
+   "Create a 4-level rubric for a Grade 8 science lab report out of 20 marks.",
+   "I need marking criteria for a group presentation on climate change, Year 10.",
+   "Make a rubric for a short story assignment and a kid-friendly checklist version."
+  ],
+  "seo_title": "Rubric Generator Skill for Teachers | Promptzyra",
+  "seo_description": "Free AI skill that turns any assignment brief into a clear analytic rubric with weighted criteria, level descriptors and a student-friendly checklist."
+ },
+ {
+  "slug": "quiz-worksheet-maker",
+  "name": "Quiz and Worksheet Maker",
+  "description": "Generates quizzes and worksheets with a full answer key and marking notes from a topic or text. Use when a teacher asks for a quiz, test, worksheet, practice questions or homework with answers.",
+  "category": "assessment-feedback",
+  "tags": [
+   "quiz",
+   "worksheet",
+   "answer key",
+   "questions",
+   "practice"
+  ],
+  "audience": "Teacher",
+  "level": "Beginner",
+  "skill_md": "---\nname: quiz-worksheet-maker\ndescription: Generates quizzes and worksheets with a full answer key and marking notes from a topic or text. Use when a teacher asks for a quiz, test, worksheet, practice questions or homework with answers.\n---\n# Quiz and Worksheet Maker\n\n## When to use\nUse when a teacher or tutor needs question sets for a topic or supplied passage, with mixed question types and an answer key.\n\n## What to ask the user first\nAsk only for what is missing:\n- Subject, grade, topic, and source text if the questions must come from it.\n- Number of questions and total time or marks.\n- Question types wanted (multiple choice, short answer, true/false, problem solving, extended).\n- Difficulty mix and whether it is for practice or a graded test.\n\n## Workflow\n1. Set the question count and marks, then plan a blueprint: how many recall, understanding, application and analysis questions.\n2. Write questions in order of increasing difficulty; one idea per question.\n3. For multiple choice: one clearly correct option, three plausible distractors based on real misconceptions, similar option lengths, avoid 'all of the above'.\n4. For problem questions: compute the answer yourself step by step and show the working in the key.\n5. Write the answer key with marks per question and accepted alternative answers for open items.\n6. Tag each question with its skill or objective so the teacher can see gaps.\n7. Re-solve every question once from the key to catch errors.\n\n## Output format\n```\n**[Title]** | Name: ____ Date: ____ | Time: __ | Marks: __\nSection A: Multiple choice\n1. ... (1) a) b) c) d)\nSection B: Short answer\n...\n---ANSWER KEY (teacher copy)---\n1. b - why the distractors are wrong\n2. [model answer] (2 marks: 1 for ..., 1 for ...)\n**Blueprint:** Q1-4 recall, Q5-8 application ...\n```\n\n## Quality checks\n- Every answer in the key is verified, not assumed.\n- Marks add up to the stated total.\n- No question gives away another's answer.\n- Questions use only content the students have been taught or the supplied text.\n- The answer key is on a separate section from the student copy.\n\n## Boundaries\n- Do not invent standards codes, research findings or statistics; if unsure of a curriculum code, say so and ask the teacher to confirm.\n- Never request or include real student names, grades or other personal data; use placeholders such as [Student A].\n- The teacher owns the final decision; present output as a draft to review and adapt.\n- If generating from a supplied text, only ask what the text supports.\n",
+  "references_md": "Distractor ideas: common calculation slips, a correct fact applied to the wrong case, reversed relationships. Question stems should be positive and complete without reading the options. Offer a shuffled version (same questions, different order and option letters) on request.\n\nBefore handing out: Check reading level of stems; remove trick wording. Spread correct answers across the option letters. Include at least one question where the student must show working. Make sure the layout leaves room to write. For quizzes meant as practice, add a 'Check yourself' column or QR-free answer page. After marking, compare question-level results: items that most students miss are either unclear or not yet taught, and both findings are useful for planning re-teaching.\n\nHow to iterate: after the first draft, ask the teacher one question about what felt wrong, then revise only that part. Keep a short list of what worked well in your classroom so each new draft starts closer to your style. Always read the final result aloud once before using it with students or families, and adjust wording to your school's conventions.",
+  "use_cases": [
+   "Weekly topic quiz with answer key",
+   "Homework worksheet for a chapter",
+   "Practice questions from a passage"
+  ],
+  "example_prompts": [
+   "Make a 10-question quiz on the water cycle for Grade 5 with an answer key.",
+   "Create a math worksheet on linear equations, 15 questions, increasing difficulty, with worked solutions.",
+   "Generate 8 comprehension questions from this passage plus a marking guide."
+  ],
+  "seo_title": "Quiz and Worksheet Maker with Answer Key | Promptzyra",
+  "seo_description": "Download a free AI skill that creates balanced quizzes and worksheets with verified answer keys, marking notes and skill tags for any subject and grade."
+ },
+ {
+  "slug": "differentiated-instruction-adapter",
+  "name": "Differentiated Instruction Adapter",
+  "description": "Adapts an existing lesson, text or task into support, core and challenge versions without lowering expectations. Use when a teacher asks to differentiate, simplify a worksheet, scaffold, or serve mixed-ability or EAL learners.",
+  "category": "teaching-lesson-design",
+  "tags": [
+   "differentiation",
+   "scaffolding",
+   "inclusion",
+   "mixed ability",
+   "adaptation"
+  ],
+  "audience": "Teacher",
+  "level": "Intermediate",
+  "skill_md": "---\nname: differentiated-instruction-adapter\ndescription: Adapts an existing lesson, text or task into support, core and challenge versions without lowering expectations. Use when a teacher asks to differentiate, simplify a worksheet, scaffold, or serve mixed-ability or EAL learners.\n---\n# Differentiated Instruction Adapter\n\n## When to use\nUse when one task must work for students at different readiness levels, language levels or with different learning needs.\n\n## What to ask the user first\nAsk only for what is missing:\n- The original task, text or lesson (paste it).\n- Grade and subject, and the single objective all students must reach.\n- The kinds of variation in the class in general terms (reading level, English learners, advanced students, attention needs). No names or diagnoses of individuals.\n- Time and resources available for preparing materials.\n\n## Workflow\n1. Restate the shared objective; every version must aim at it.\n2. Identify the barriers in the original task: reading load, vocabulary, number of steps, abstraction, writing demand.\n3. Build the support version by adding scaffolds (word bank, sentence starters, worked example, chunked steps, visuals) while keeping the thinking demand the same.\n4. Keep the core version close to the original.\n5. Build the challenge version by deepening thinking (open-ended, transfer to new context, justify or create), not adding more of the same work.\n6. Offer 2-3 whole-class strategies that help everyone (visual models, think-pair-share, choice of response format).\n7. Note how to run all versions at once without labelling students by ability, for example choice cards or numbered tasks.\n\n## Output format\n```\n**Shared objective:**\n**Barriers found:**\n### Support version\n[full task text with scaffolds]\n### Core version\n[task]\n### Challenge version\n[task]\n**Universal supports for all:**\n**Management tips:**\n**Check-for-success question (same for all):**\n```\n\n## Quality checks\n- All three versions assess the same objective.\n- The support version scaffolds, not dumbs down.\n- The challenge version adds depth, not volume.\n- No student labels or personal data appear.\n- Materials are ready to print without further editing.\n\n## Boundaries\n- Do not invent standards codes, research findings or statistics; if unsure of a curriculum code, say so and ask the teacher to confirm.\n- Never request or include real student names, grades or other personal data; use placeholders such as [Student A].\n- The teacher owns the final decision; present output as a draft to review and adapt.\n- Do not diagnose learning needs; suggest the teacher consult the school's support specialist for individual plans.\n",
+  "references_md": "Scaffold menu: word banks, sentence frames, graphic organisers, worked-example-then-faded, chunked instructions, audio or visual alternatives. Challenge menu: 'what if' changes, error analysis, design your own, explain to a younger student, compare two methods.\n\nChecks for a good adaptation: Same big idea, different entry points. Support is temporary, so note how to fade scaffolds over time. Offer choice where possible, such as drawing, writing or speaking a response, so differentiation is not always teacher-decided. Keep texts for all groups looking equally professional. Plan one shared moment, such as a whole-class discussion or review, so every student hears the same core ideas. Review after the lesson: did students move between versions as they grew more confident?\n\nHow to iterate: after the first draft, ask the teacher one question about what felt wrong, then revise only that part. Keep a short list of what worked well in your classroom so each new draft starts closer to your style. Always read the final result aloud once before using it with students or families, and adjust wording to your school's conventions.",
+  "use_cases": [
+   "Three-tier worksheet",
+   "Simplified reading with vocabulary support",
+   "Extension tasks for fast finishers"
+  ],
+  "example_prompts": [
+   "Differentiate this fractions worksheet for a mixed-ability Grade 6 class.",
+   "Adapt this history passage for English learners but keep the same questions.",
+   "Give me a challenge version of this essay task for advanced students."
+  ],
+  "seo_title": "Differentiated Instruction Adapter | Promptzyra Skill",
+  "seo_description": "Free AI skill that adapts any lesson, text or task into support, core and challenge versions with scaffolds, universal strategies and classroom management tips."
+ },
+ {
+  "slug": "exit-ticket-creator",
+  "name": "Exit Ticket Creator",
+  "description": "Writes quick end-of-lesson exit tickets with a response key and a plan for sorting responses. Use when a teacher asks for an exit ticket, quick check, plenary question or end-of-class formative assessment.",
+  "category": "teaching-lesson-design",
+  "tags": [
+   "exit ticket",
+   "formative assessment",
+   "plenary",
+   "check for understanding",
+   "quick check"
+  ],
+  "audience": "Teacher",
+  "level": "Beginner",
+  "skill_md": "---\nname: exit-ticket-creator\ndescription: Writes quick end-of-lesson exit tickets with a response key and a plan for sorting responses. Use when a teacher asks for an exit ticket, quick check, plenary question or end-of-class formative assessment.\n---\n# Exit Ticket Creator\n\n## When to use\nUse when a teacher wants a 2-5 minute check at the end of a lesson to see who understood and what to do next.\n\n## What to ask the user first\nAsk only for what is missing:\n- Lesson objective or what was taught today.\n- Grade and subject.\n- Format wanted (paper slip, digital form, whiteboard, verbal) and time available.\n- Biggest misconception the teacher worries about, if any.\n\n## Workflow\n1. Restate the objective as a skill students should show.\n2. Write 3 candidate tickets of different types: a recall or application item, a misconception-diagnosing item, and a reflection item ('what is still unclear?').\n3. Make at least one item answerable in under two minutes and impossible to answer by guessing, for example 'explain why' or 'fix the error in this example'.\n4. Write a key with a correct answer and 2-3 typical wrong answers, each linked to its likely misconception.\n5. Create a sort-and-act table: Got it, Nearly, Not yet, with what the teacher does next lesson for each group (re-teach, small group, move on).\n6. Suggest a 60-second routine for collecting and reading responses.\n\n## Output format\n```\n**Objective:**\n**Ticket A (check):** question\n**Ticket B (misconception):** question\n**Ticket C (reflection):** question\n**Key:** correct = ...; wrong answer X means ...\n| Result | What it looks like | Next step |\n|---|---|---|\n| Got it | ... | ... |\n**Collection routine:**\n```\n\n## Quality checks\n- The ticket takes a student under five minutes.\n- The correct answer is unambiguous.\n- Wrong answers reveal why students erred.\n- The next-step plan is concrete.\n- Wording suits the grade and reading level.\n- The activity needs only the stated time and materials, so it will actually fit in the end of the lesson.\n- If the objective was not clear, say so and ask rather than guessing.\n\n## Boundaries\n- Do not invent standards codes, research findings or statistics; if unsure of a curriculum code, say so and ask the teacher to confirm.\n- Never request or include real student names, grades or other personal data; use placeholders such as [Student A].\n- The teacher owns the final decision; present output as a draft to review and adapt.\n",
+  "references_md": "Strong exit prompts: 'Which of these is not an example of ___ and why?', 'Here is a student answer. Find the mistake.', 'Rate 1-4 your confidence and write one question you still have.' Avoid yes/no 'Did you understand?' questions; students overrate their understanding.\n\nUsing results well: Sort the slips in under two minutes into three piles. If more than half the class is in the 'not yet' pile, re-teach the idea to everyone before moving on; if a handful, plan a small group. Keep a simple tally of which misconception appeared, because patterns across lessons are more informative than a single ticket. Return to the most common error as a warm-up question next lesson. Do not grade exit tickets; the aim is information, so students answer honestly.\n\nHow to iterate: after the first draft, ask the teacher one question about what felt wrong, then revise only that part. Keep a short list of what worked well in your classroom so each new draft starts closer to your style. Always read the final result aloud once before using it with students or families, and adjust wording to your school's conventions.",
+  "use_cases": [
+   "End-of-lesson comprehension check",
+   "Spot misconceptions fast",
+   "Plan the next lesson from student responses"
+  ],
+  "example_prompts": [
+   "Make an exit ticket for today's lesson on adding fractions with unlike denominators.",
+   "I need a quick digital check for a Grade 9 lesson on cell division.",
+   "Give me 3 exit ticket options for a lesson about the theme in a poem."
+  ],
+  "seo_title": "Exit Ticket Creator for Teachers | Promptzyra Skill",
+  "seo_description": "Download a free AI skill that creates quick exit tickets with answer keys, misconception notes and a sort-and-act plan to guide your next lesson."
+ },
+ {
+  "slug": "student-feedback-comment-writer",
+  "name": "Student Feedback Comment Writer",
+  "description": "Turns a teacher's rough notes on a piece of work into specific, kind, actionable feedback comments without using student personal data. Use when writing report comments, essay feedback or next-steps comments.",
+  "category": "assessment-feedback",
+  "tags": [
+   "feedback",
+   "comments",
+   "report cards",
+   "next steps",
+   "marking"
+  ],
+  "audience": "Teacher",
+  "level": "Beginner",
+  "skill_md": "---\nname: student-feedback-comment-writer\ndescription: Turns a teacher's rough notes on a piece of work into specific, kind, actionable feedback comments without using student personal data. Use when writing report comments, essay feedback or next-steps comments.\n---\n# Student Feedback Comment Writer\n\n## When to use\nUse when a teacher has observations about a piece of work or a unit and needs well-phrased feedback quickly, in batches if needed.\n\n## What to ask the user first\nAsk only for what is missing:\n- Teacher's notes: what the work did well, what to improve (bullet points are fine).\n- Subject, task and the criteria or rubric used.\n- Desired tone and length (e.g. two sentences, 60 words, report-card style).\n- Use placeholders only. Tell the user not to paste real names, IDs or sensitive circumstances; use [Student] or the pronoun they prefer.\n\n## Workflow\n1. Group the notes into: strength, area to improve, next step.\n2. Make the strength specific and tied to a criterion, quoting a feature of the work in general terms ('your second paragraph links evidence to your claim').\n3. State one priority improvement, not a list of five; explain why it matters.\n4. Convert it into a concrete next step the student can do in one sitting, with a small example if useful.\n5. Match tone to age: warm and direct, no sarcasm, no comparison to other students, no judgement of ability or character; praise effort and strategy, not 'being smart'.\n6. If asked for several comments, vary sentence openings so they do not read as copied, while keeping each based on the teacher's actual notes.\n7. Offer a short and a longer version.\n\n## Output format\n```\n**Short comment (2 sentences):**\n[Strength tied to criterion]. [Next step].\n**Full comment (4-5 sentences):**\n[Strength]. [Priority improvement + reason]. [Next step action]. [Encouragement tied to a goal].\n**Student-facing next step:** one line.\n```\n\n## Quality checks\n- Every comment is grounded in the teacher's notes; nothing is invented about the work.\n- Contains no names, health, family or behaviour-record details.\n- Exactly one main improvement.\n- Next step is actionable and measurable.\n- Tone is respectful.\n\n## Boundaries\n- Never add information about the student that the teacher did not provide.\n- Do not include real personal data; if the user pastes some, replace it with a placeholder and warn them.\n- Do not invent grades, scores or statistics.\n- The teacher reviews and edits all comments before sharing; this is a draft.\n",
+  "references_md": "Weak: 'Needs to try harder.' Better: 'Your explanation of why the reaction slows is clear; next, add a unit to each measurement so your table is complete.' Frame next steps with a verb (add, check, compare, rewrite). Use feed-forward language: what to do on the next piece of work.\n\nComment checklist: Is it specific enough that it could not be pasted onto any other student's work? Does it name what to do next, not just what went wrong? Is there only one priority? Would the student feel able to act on it today? Is it free of personal details and comparisons? For report-card style, keep to the school's word limit and avoid phrases that do not say anything, such as 'is a pleasure to teach'. Use 'you' for student-facing feedback and 'they' for family-facing text.\n\nHow to iterate: after the first draft, ask the teacher one question about what felt wrong, then revise only that part. Keep a short list of what worked well in your classroom so each new draft starts closer to your style. Always read the final result aloud once before using it with students or families, and adjust wording to your school's conventions.",
+  "use_cases": [
+   "Report card comments from bullet notes",
+   "Essay feedback with next steps",
+   "Comments for a whole class set"
+  ],
+  "example_prompts": [
+   "Turn these notes into a 3-sentence feedback comment: clear thesis, weak evidence, many spelling slips.",
+   "Write report-card comments for [Student] in maths: strong in algebra, careless with signs.",
+   "Give me kind but honest feedback on a lab report that missed the conclusion."
+  ],
+  "seo_title": "Student Feedback Comment Writer | Promptzyra Skill",
+  "seo_description": "Free AI skill that converts teacher notes into specific, actionable and kind feedback comments and report remarks while keeping student personal data out."
+ },
+ {
+  "slug": "parent-email-drafter",
+  "name": "Parent Email Drafter",
+  "description": "Drafts clear, respectful emails from teachers to parents about progress, concerns, events or routine updates, using placeholders for personal data. Use when a teacher needs a parent email, newsletter note or difficult conversation follow-up.",
+  "category": "assessment-feedback",
+  "tags": [
+   "parent communication",
+   "email",
+   "teacher",
+   "school",
+   "progress update"
+  ],
+  "audience": "Teacher",
+  "level": "Beginner",
+  "skill_md": "---\nname: parent-email-drafter\ndescription: Drafts clear, respectful emails from teachers to parents about progress, concerns, events or routine updates, using placeholders for personal data. Use when a teacher needs a parent email, newsletter note or difficult conversation follow-up.\n---\n# Parent Email Drafter\n\n## When to use\nUse when a teacher must write to families and wants the message to be professional, factual and easy to act on.\n\n## What to ask the user first\nAsk only for what is missing:\n- Purpose: update, positive news, concern, reminder, meeting request or follow-up.\n- The key facts the teacher can verify (dates, what was observed, what is being done).\n- Desired action from the parent, if any, and a deadline.\n- Tone (warm, formal), language level, and school contact details to include.\n\n## Workflow\n1. Pick the purpose and open with the main point in the first two sentences.\n2. For concerns, use the pattern: specific observation (what, when), impact on learning, what the school is already doing, how the family can help, invitation to talk.\n3. State facts, not labels or diagnoses; avoid blaming words and jargon.\n4. Include at least one genuine positive only if the teacher supplied it.\n5. Give one clear call to action with date and how to respond.\n6. Write a subject line of under 10 words that states the topic without alarming wording.\n7. Offer a shorter version and a version in simple English for families who read English as an additional language; offer translation only as a draft to be checked by a fluent speaker.\n\n## Output format\n```\n**Subject:** ...\nDear [Parent/Guardian name],\n[Opening: purpose]\n[Facts]\n[What we are doing / what is next]\n[How you can help (optional)]\n[Call to action + date]\nKind regards,\n[Teacher name], [Role], [Contact]\n```\n\n## Quality checks\n- Email is under 200 words unless the teacher asks for more.\n- Facts only, with no speculation about causes at home.\n- No other student is named or implied.\n- Tone is calm even when the news is difficult.\n- Placeholders mark all names and details.\n\n## Boundaries\n- Use placeholders; do not ask for or store real names, grades or sensitive family details.\n- Do not invent incidents, dates or school policies; ask the teacher.\n- Suggest involving a school leader or counsellor for safeguarding, legal or discipline matters instead of drafting around them.\n- The teacher reviews before sending.\n",
+  "references_md": "Concern pattern example: 'In the past two weeks, [Student] has submitted two of five homework tasks. This is affecting practice of the new topic. In class we are offering a catch-up slot on Thursdays. Could you let me know a good time to talk this week?' Avoid: 'always', 'never', 'lazy', 'problem child'.\n\nBefore sending: Reread as if you were the parent on a tired evening. Is the main point visible in the first two lines? Is anything open to being read as blame? Have you checked every date and fact? Do you follow school rules on email, and does a colleague or leader need to be copied for serious matters? If the parent is likely to be upset, offer a phone or in-person meeting instead of a longer email. Keep a record of what was sent, according to school policy.\n\nHow to iterate: after the first draft, ask the teacher one question about what felt wrong, then revise only that part. Keep a short list of what worked well in your classroom so each new draft starts closer to your style. Always read the final result aloud once before using it with students or families, and adjust wording to your school's conventions.",
+  "use_cases": [
+   "Progress update to a family",
+   "Missing homework concern",
+   "Meeting request after a test"
+  ],
+  "example_prompts": [
+   "Write an email to a parent about missing homework, supportive tone, ask for a call this week.",
+   "Draft a positive note home about a student's improvement in reading.",
+   "Help me write a polite reminder about the field trip permission slip due Friday."
+  ],
+  "seo_title": "Parent Email Drafter for Teachers | Promptzyra Skill",
+  "seo_description": "Download a free AI skill that drafts respectful, factual parent emails for progress, concerns and reminders, with placeholders so no student data is shared."
+ },
+ {
+  "slug": "learning-objectives-blooms-writer",
+  "name": "Learning Objectives Writer (Bloom)",
+  "description": "Writes measurable learning objectives using Bloom's taxonomy verbs and matches each with an assessment idea. Use when a teacher asks for learning objectives, outcomes, success criteria or Bloom's levels for a lesson or unit.",
+  "category": "teaching-lesson-design",
+  "tags": [
+   "bloom's taxonomy",
+   "learning objectives",
+   "outcomes",
+   "success criteria",
+   "curriculum"
+  ],
+  "audience": "Teacher",
+  "level": "Intermediate",
+  "skill_md": "---\nname: learning-objectives-blooms-writer\ndescription: Writes measurable learning objectives using Bloom's taxonomy verbs and matches each with an assessment idea. Use when a teacher asks for learning objectives, outcomes, success criteria or Bloom's levels for a lesson or unit.\n---\n# Learning Objectives Writer (Bloom)\n\n## When to use\nUse when vague aims such as 'understand photosynthesis' need to become measurable objectives with matching evidence.\n\n## What to ask the user first\nAsk only for what is missing:\n- Topic, subject, grade and any standard or syllabus statement (paste text; do not rely on memory of codes).\n- Whether it is for one lesson, a unit or a course.\n- Prior knowledge and the target depth (introduce, practise, master).\n- Preferred format: 'Students will be able to...' or student-friendly 'I can...'.\n\n## Workflow\n1. Break the topic into the knowledge and skills students must show.\n2. Assign each a level of the revised Bloom's taxonomy: Remember, Understand, Apply, Analyse, Evaluate, Create.\n3. Pick one observable verb per objective (define, explain, solve, compare, justify, design); avoid unmeasurable verbs such as know, understand, appreciate.\n4. Add the condition and the standard where useful ('using a map, with 80% accuracy' only if the teacher sets that number).\n5. Order objectives from lower to higher level and keep 2-4 per lesson.\n6. Pair each objective with an assessment idea and a student-friendly success criterion.\n7. Show a balance check: how many sit at each Bloom level.\n\n## Output format\n```\n| # | Objective (Students will be able to...) | Bloom level | Assessment idea | 'I can' criterion |\n|---|---|---|---|---|\n| 1 | define ... | Remember | quick quiz | I can ... |\n**Level balance:** Remember 1, Apply 2, Evaluate 1\n**Rewritten vague aims:** 'understand X' -> '...'\n```\n\n## Quality checks\n- Each objective has one verb and is observable.\n- The assessment idea could genuinely show the objective was met.\n- Levels match the stated depth and grade.\n- No arbitrary percentages are invented.\n- Standards are quoted only from text the user provided.\n\n## Boundaries\n- Do not invent standards codes, research findings or statistics; if unsure of a curriculum code, say so and ask the teacher to confirm.\n- Never request or include real student names, grades or other personal data; use placeholders such as [Student A].\n- The teacher owns the final decision; present output as a draft to review and adapt.\n",
+  "references_md": "Verbs by level. Remember: list, name, recall. Understand: explain, summarise, classify. Apply: solve, use, demonstrate. Analyse: compare, differentiate, examine. Evaluate: justify, critique, judge. Create: design, compose, propose. Note: a verb alone does not fix the level; the task does. 'Explain' can be recall if students repeat a memorised line.\n\nChecklist: One verb per objective. No hidden second objective joined with 'and'. Could a stranger tell, from the objective alone, what a successful student would produce? Is the assessment at the same level as the objective, so that an 'analyse' objective is not tested with recall questions? Avoid writing every objective at the lowest level for convenience, and avoid pushing every objective to 'create' when basics are not secure. Short lessons usually need two or three objectives, not six.\n\nHow to iterate: after the first draft, ask the teacher one question about what felt wrong, then revise only that part. Keep a short list of what worked well in your classroom so each new draft starts closer to your style. Always read the final result aloud once before using it with students or families, and adjust wording to your school's conventions.",
+  "use_cases": [
+   "Rewrite vague aims as measurable objectives",
+   "Align objectives and assessments",
+   "Check the Bloom balance of a unit"
+  ],
+  "example_prompts": [
+   "Write Bloom-based objectives for a lesson on the Pythagorean theorem, Grade 8.",
+   "Turn 'students will understand the water cycle' into measurable objectives.",
+   "Give me 'I can' statements for my unit on persuasive writing."
+  ],
+  "seo_title": "Learning Objectives Writer with Bloom | Promptzyra Skill",
+  "seo_description": "Free AI skill that turns vague aims into measurable learning objectives with Bloom's taxonomy verbs, assessment ideas and student-friendly success criteria."
+ },
+ {
+  "slug": "curriculum-unit-mapper",
+  "name": "Curriculum Unit Mapper",
+  "description": "Maps a unit into a week-by-week sequence of lessons, key questions, assessments and vocabulary from a topic and timeframe. Use when a teacher needs a unit plan, scope and sequence, pacing guide or curriculum map.",
+  "category": "teaching-lesson-design",
+  "tags": [
+   "unit plan",
+   "curriculum map",
+   "pacing",
+   "scope and sequence",
+   "backward design"
+  ],
+  "audience": "Teacher",
+  "level": "Advanced",
+  "skill_md": "---\nname: curriculum-unit-mapper\ndescription: Maps a unit into a week-by-week sequence of lessons, key questions, assessments and vocabulary from a topic and timeframe. Use when a teacher needs a unit plan, scope and sequence, pacing guide or curriculum map.\n---\n# Curriculum Unit Mapper\n\n## When to use\nUse when planning several weeks of teaching and the teacher needs a coherent sequence built backward from what students must achieve.\n\n## What to ask the user first\nAsk only for what is missing:\n- Subject, grade and unit topic; pasted syllabus or standards text for the unit.\n- Number of weeks and lessons per week with minutes each.\n- Big goal or final assessment, and any fixed dates (exams, holidays).\n- Prior units and known weak spots.\n\n## Workflow\n1. Use backward design: define the end goals first (3-5 enduring understandings or skills).\n2. Design the final assessment and 1-2 mid-unit checks that evidence those goals.\n3. List prerequisite knowledge and core vocabulary.\n4. Break the content into 4-8 sub-topics, ordering from foundation to complex, spiralling back to earlier ideas.\n5. Allocate lessons to sub-topics, leaving a buffer for review and re-teaching (about one lesson per 5-6).\n6. For each lesson give a title, objective, key question and activity type.\n7. Mark where assessments, review and catch-up happen, and suggest cross-links to other subjects only if relevant.\n8. Verify total lessons equals weeks times lessons per week.\n\n## Output format\n```\n**Unit:** ... | Grade | [n] weeks / [n] lessons\n**Big goals:**\n**Final assessment:** ...\n**Vocabulary:**\n| Wk | Lesson | Title | Objective | Key question | Activity | Assessment |\n|---|---|---|---|---|---|---|\n**Review/buffer lessons:**\n**Prerequisites and gaps to check:**\n```\n\n## Quality checks\n- Sequence builds logically, with prerequisites first.\n- Lesson count matches the calendar and dates.\n- Final assessment measures the stated goals.\n- Standards referenced come only from text the user supplied.\n- Pacing leaves slack.\n- Vocabulary and skills are introduced before they are used.\n- Each week has a clearly stated focus that a colleague could understand at a glance.\n\n## Boundaries\n- Do not invent standards codes, research findings or statistics; if unsure of a curriculum code, say so and ask the teacher to confirm.\n- Never request or include real student names, grades or other personal data; use placeholders such as [Student A].\n- The teacher owns the final decision; present output as a draft to review and adapt.\n",
+  "references_md": "Backward design stages: 1) desired results, 2) acceptable evidence, 3) learning plan. Interleave retrieval practice: start lessons with 3 questions from earlier weeks. Spacing tip: revisit each key idea at least twice after first teaching.\n\nMap review checklist: Does the first week check prerequisites rather than assume them? Is there a point at which students apply learning in a new context? Are assessments spaced so marking does not pile up in one week? Are vocabulary and skills introduced before they are needed? Have you left room for school events and lost lessons? Revisit the map halfway through the unit and adjust using real assessment evidence rather than sticking to the original plan.\n\nHow to iterate: after the first draft, ask the teacher one question about what felt wrong, then revise only that part. Keep a short list of what worked well in your classroom so each new draft starts closer to your style. Always read the final result aloud once before using it with students or families, and adjust wording to your school's conventions.",
+  "use_cases": [
+   "Term scope and sequence",
+   "Unit pacing guide with assessments",
+   "Align a unit to a syllabus"
+  ],
+  "example_prompts": [
+   "Map a 6-week unit on ancient Egypt for Grade 6, 4 lessons a week of 40 minutes.",
+   "Build a pacing guide for a 4-week algebra unit ending in a test.",
+   "Create a unit sequence for a novel study with two writing assessments."
+  ],
+  "seo_title": "Curriculum Unit Mapper for Teachers | Promptzyra Skill",
+  "seo_description": "Download a free AI skill that builds week-by-week unit maps with objectives, key questions, assessments and review lessons using backward design."
+ },
+ {
+  "slug": "ai-resilient-assignment-designer",
+  "name": "AI-Resilient Assignment Designer",
+  "description": "Redesigns assignments so learning is shown through process, personal reasoning and in-class evidence, not just a final product. Use when a teacher worries about AI-generated work or wants authentic, AI-aware assessment.",
+  "category": "teaching-lesson-design",
+  "tags": [
+   "ai in education",
+   "authentic assessment",
+   "academic integrity",
+   "assignment design",
+   "process"
+  ],
+  "audience": "Teacher",
+  "level": "Advanced",
+  "skill_md": "---\nname: ai-resilient-assignment-designer\ndescription: Redesigns assignments so learning is shown through process, personal reasoning and in-class evidence, not just a final product. Use when a teacher worries about AI-generated work or wants authentic, AI-aware assessment.\n---\n# AI-Resilient Assignment Designer\n\n## When to use\nUse when an essay, report or problem set could be completed by a chatbot and the teacher wants to assess real understanding, or wants to allow AI use transparently.\n\n## What to ask the user first\nAsk only for what is missing:\n- The current assignment and its learning objectives.\n- Grade, subject and class constraints (time in class, devices, access).\n- The school's AI policy, or the stance wanted: AI banned, limited, or encouraged with disclosure.\n- Marking workload the teacher can handle.\n\n## Workflow\n1. Identify what the assignment must prove students can do, then ask what part a chatbot could fake.\n2. Pick the stance and write a plain-language AI-use statement for students (what is allowed, what to disclose).\n3. Redesign using several levers: staged drafts with checkpoints, in-class writing or oral defence, personal or local context, use of class-specific sources, reflection on decisions, and critique of an AI answer.\n4. Add a short process portfolio: planning notes, draft versions, and a 'what I changed and why' log.\n5. Plan a 3-5 minute conversation or viva with 2-3 probe questions to confirm authorship and understanding.\n6. Update the rubric so process and reasoning carry marks.\n7. Explain what to do if you suspect misuse: talk with the student first, rely on evidence from process, follow school procedure. Do not rely on AI detectors, which can be unreliable.\n\n## Output format\n```\n**Original task & goal:**\n**Vulnerabilities:** ...\n**Stance and student AI statement:**\n**Redesigned task (steps + timing):**\n| Stage | What student submits | In class? | Marks |\n**Oral check questions:**\n**Rubric changes:**\n**If you suspect misuse:**\n```\n\n## Quality checks\n- The redesign still measures the original objectives.\n- Workload for the teacher is realistic.\n- Equity: tasks do not require home devices unless guaranteed.\n- No claim that any design is cheat-proof.\n- Language stays supportive of students.\n\n## Boundaries\n- Do not invent standards codes, research findings or statistics; if unsure of a curriculum code, say so and ask the teacher to confirm.\n- Never request or include real student names, grades or other personal data; use placeholders such as [Student A].\n- The teacher owns the final decision; present output as a draft to review and adapt.\n- Never recommend accusing students on the basis of an AI-detector score alone.\n- Do not help students evade checks; this skill is for teachers designing assessments.\n",
+  "references_md": "Levers ranked by effort: low (add reflection and sources from class), medium (staged drafts, in-class paragraph), high (oral defence, practical demonstration). No design is cheat-proof, so aim to make real learning the easiest path and misuse visible through process evidence.\n\nDesign checklist: Does the task depend on class discussions, local data or personal choices that a chatbot cannot see? Is a meaningful part of the work done in front of the teacher? Are students taught how to use AI responsibly if it is allowed, including how to check its claims? Are marking criteria rewarding thinking, not polish alone? Are accommodations for students without home devices built in? Revisit the policy each term, because tools change quickly.\n\nHow to iterate: after the first draft, ask the teacher one question about what felt wrong, then revise only that part. Keep a short list of what worked well in your classroom so each new draft starts closer to your style. Always read the final result aloud once before using it with students or families, and adjust wording to your school's conventions.",
+  "use_cases": [
+   "Redesign an essay for the AI era",
+   "Write a student AI-use statement",
+   "Create oral defence questions"
+  ],
+  "example_prompts": [
+   "My Grade 10 essay on Macbeth can be written by ChatGPT; how can I redesign it?",
+   "Write an AI-use policy for my class assignments allowing AI with disclosure.",
+   "Give me viva questions to check a student really wrote their lab report."
+  ],
+  "seo_title": "AI-Resilient Assignment Designer | Promptzyra Skill",
+  "seo_description": "Free AI skill that helps teachers redesign assignments around process, reasoning and oral checks, with a student AI-use statement and rubric updates."
+ }
+]

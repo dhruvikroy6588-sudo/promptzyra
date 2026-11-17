@@ -1,0 +1,150 @@
+[
+ {
+  "slug": "remini",
+  "name": "Remini",
+  "category": "image",
+  "website_url": "https://remini.ai",
+  "pricing": "Freemium",
+  "tagline": "AI photo enhancer for sharpening, unblurring and restoring low-quality pictures.",
+  "best_for": "Improving blurry, pixelated or old photos from a phone or browser",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "Remini is an AI photo enhancement service that takes low-quality images and tries to make them sharper and clearer. Its tools cover unblurring, denoising, enlarging, color fixing and restoring old pictures, with separate options for faces and backgrounds. It also offers a video enhancer and an API for developers.\n\nIt is mainly used for family photos, scanned prints and low-resolution phone shots that need a quick improvement without manual editing. Because AI reconstructs detail rather than recovering it, faces and fine textures can look different from the original, so compare results carefully. Plans and limits change, so check the official site for current plans.",
+  "use_steps": [
+   "Open Remini on the web or in the mobile app.",
+   "Upload the photo you want to improve.",
+   "Pick an enhancement such as unblur, restore or enlarge.",
+   "Compare with the original and download the result."
+  ],
+  "pros": [
+   "Several enhancement tools in one place",
+   "Works on web and mobile",
+   "Handles old and blurry photos",
+   "API available for developers"
+  ],
+  "cons": [
+   "AI can alter faces and fine detail",
+   "Plan limits and features may change"
+  ],
+  "alternatives": [
+   "upscayl",
+   "clipdrop",
+   "photoroom"
+  ],
+  "tags": [
+   "photo enhancer",
+   "restoration",
+   "unblur",
+   "upscale",
+   "mobile"
+  ],
+  "features": [
+   "Low-quality photo enhancer",
+   "Old photo restoration",
+   "Unblur, sharpen and denoise",
+   "Face and background enhancers",
+   "Video enhancer and API"
+  ],
+  "use_cases": [
+   "Restoring scanned family photos",
+   "Sharpening a blurry phone shot",
+   "Enlarging a small profile picture",
+   "Improving low-resolution product images"
+  ],
+  "pricing_details": "Remini is generally available to try for free, with a paid membership for more features or usage. The official page does not list plan details here, so check the official site for current plans.",
+  "seo_title": "Remini: AI Photo Enhancer Guide, Features and Alternatives",
+  "seo_description": "Learn what Remini does, who it suits, key features, pros and cons, pricing model and alternatives in this beginner-friendly Promptzyra guide.",
+  "faq": [
+   {
+    "q": "What is Remini?",
+    "a": "Remini is an AI photo enhancer that sharpens, unblurs, enlarges and restores low-quality images through web and mobile apps."
+   },
+   {
+    "q": "Is Remini free to use?",
+    "a": "Remini is generally offered with a free way to try it and a paid membership for more. Check the official site for current plans."
+   },
+   {
+    "q": "How should I check results from Remini?",
+    "a": "Treat outputs as a starting point. Compare against the original, zoom in to check faces, text and fine detail for artifacts, and confirm terms and privacy on the official website."
+   }
+  ],
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "lets-enhance",
+  "name": "Let's Enhance",
+  "category": "image",
+  "website_url": "https://letsenhance.io",
+  "pricing": "Freemium",
+  "tagline": "Browser-based AI image upscaler that enlarges photos, AI art and logos.",
+  "best_for": "Enlarging images for print or web while keeping detail",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Let's Enhance is a web-based AI upscaler that enlarges images by reconstructing detail instead of simply stretching pixels. Its upscaler offers enlargement from 2x up to 16x or custom dimensions, with output aimed at print-ready 300 DPI files, and supports JPG, PNG and WebP uploads.\n\nIt includes different modes: a default one for portraits, products and textured images, a gentler one for small text or pure enlargement, and an Old Photo mode for damaged vintage pictures. That makes it useful for sellers, designers and anyone preparing a small image for a larger format. Free accounts have a smaller size limit than paid ones. Check the official site for current plans.",
+  "use_steps": [
+   "Open the upscaler in your browser and sign in.",
+   "Drag and drop a JPG, PNG or WebP image.",
+   "Choose a mode and an enlargement level or custom size.",
+   "Download the result and inspect it at full size."
+  ],
+  "pros": [
+   "Choice of upscaling modes",
+   "Large enlargement factors",
+   "Print-oriented output options",
+   "No software install needed"
+  ],
+  "cons": [
+   "Free accounts have size limits",
+   "Reconstructed detail may look artificial"
+  ],
+  "alternatives": [
+   "upscayl",
+   "clipdrop",
+   "remini"
+  ],
+  "tags": [
+   "upscaler",
+   "enlarge",
+   "print",
+   "AI art",
+   "web"
+  ],
+  "features": [
+   "2x to 16x enlargement",
+   "Custom output dimensions",
+   "Prime, Gentle and Old Photo modes",
+   "Print-ready 300 DPI output",
+   "JPG, PNG and WebP support"
+  ],
+  "use_cases": [
+   "Preparing a small image for print",
+   "Enlarging AI-generated art",
+   "Improving product photos",
+   "Upscaling a logo or old scan"
+  ],
+  "pricing_details": "Free accounts can upscale up to a smaller megapixel limit, while paid plans raise the limit and remove watermarks on downloads. Amounts are not verified here, so check the official site for current plans.",
+  "seo_title": "Let's Enhance: AI Image Upscaler Guide and Alternatives",
+  "seo_description": "Learn what Let's Enhance does, who it suits, key features, pros and cons, pricing model and alternatives in this beginner-friendly Promptzyra guide.",
+  "faq": [
+   {
+    "q": "What is Let's Enhance?",
+    "a": "Let's Enhance is a browser-based AI image upscaler that enlarges photos, AI art and logos while reconstructing detail."
+   },
+   {
+    "q": "Is Let's Enhance free to use?",
+    "a": "Free accounts can upscale up to a limited size, and paid plans raise the limit and remove watermarks. Check the official site for current plans."
+   },
+   {
+    "q": "How should I check results from Let's Enhance?",
+    "a": "Treat outputs as a starting point. Compare against the original, zoom in to check faces, text and fine detail for artifacts, and confirm terms and privacy on the official website."
+   }
+  ],
+  "status": "draft",
+  "last_checked": "2026-11"
+ }
+]

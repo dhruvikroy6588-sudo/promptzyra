@@ -1,0 +1,1282 @@
+[
+ {
+  "type": "commands",
+  "slug": "mock-exam-paper",
+  "name": "/mock-exam-paper",
+  "description": "Builds a timed mock exam with marks, sections and a marking guide from your syllabus topics.",
+  "category": "assessment",
+  "tags": [
+   "exam",
+   "mock",
+   "practice"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/skills",
+  "install": "1. Create the folder .claude/commands in your project (or ~/.claude/commands for all projects).\n2. Save the file below as mock-exam-paper.md; the filename becomes the command name.\n3. In Claude Code, type /mock-exam-paper followed by your input.\n4. Edit the instructions to match your course or style.",
+  "files": [
+   {
+    "path": "mock-exam-paper.md",
+    "content": "---\ndescription: Builds a timed mock exam with marks, sections and a marking guide from your syllabus topics.\nargument-hint: [subject] [duration in minutes] [topics...]\n---\n\nCreate a mock exam for $ARGUMENTS.\n\n1. Split into sections (short answer, structured, extended) with marks per question.\n2. Make total marks match the stated duration at about one mark per minute.\n3. Cover each listed topic at least once.\n4. After the paper, add a marking guide with expected points and common errors.\n\nDo not reveal the marking guide until the paper is finished.\n"
+   }
+  ],
+  "use_cases": [
+   "Realistic exam rehearsal",
+   "Timed practice",
+   "Spotting weak topics"
+  ],
+  "example_prompts": [
+   "/mock-exam-paper Biology 90 cells genetics",
+   "/mock-exam-paper Algebra 60 quadratics"
+  ],
+  "level": "Intermediate",
+  "audience": "Students"
+ },
+ {
+  "type": "commands",
+  "slug": "past-paper-analyzer",
+  "name": "/past-paper-analyzer",
+  "description": "Finds recurring topics, question styles and mark weightings across pasted past papers.",
+  "category": "study-learning",
+  "tags": [
+   "past-papers",
+   "exam",
+   "patterns"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/skills",
+  "install": "1. Create the folder .claude/commands in your project (or ~/.claude/commands for all projects).\n2. Save the file below as past-paper-analyzer.md; the filename becomes the command name.\n3. In Claude Code, type /past-paper-analyzer followed by your input.\n4. Edit the instructions to match your course or style.",
+  "files": [
+   {
+    "path": "past-paper-analyzer.md",
+    "content": "---\ndescription: Finds recurring topics, question styles and mark weightings across pasted past papers.\nargument-hint: [paste past paper questions]\n---\n\nAnalyze the past paper questions in $ARGUMENTS.\n\n1. Group questions by topic and count how often each appears.\n2. Note command words used (explain, evaluate, compare) and what each expects.\n3. Rank topics by likely weight in the next exam, saying this is an estimate.\n4. Suggest a three-point revision priority list.\n\nBase every claim only on the pasted questions.\n"
+   }
+  ],
+  "use_cases": [
+   "Smarter revision priorities",
+   "Learning command words",
+   "Predicting question styles"
+  ],
+  "example_prompts": [
+   "/past-paper-analyzer (paste 3 years of questions)",
+   "/past-paper-analyzer physics paper 2 questions"
+  ],
+  "level": "Intermediate",
+  "audience": "Students"
+ },
+ {
+  "type": "commands",
+  "slug": "cram-sheet",
+  "name": "/cram-sheet",
+  "description": "Condenses a topic into a one-page last-minute revision sheet of must-know facts.",
+  "category": "study-learning",
+  "tags": [
+   "revision",
+   "summary",
+   "exam"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/skills",
+  "install": "1. Create the folder .claude/commands in your project (or ~/.claude/commands for all projects).\n2. Save the file below as cram-sheet.md; the filename becomes the command name.\n3. In Claude Code, type /cram-sheet followed by your input.\n4. Edit the instructions to match your course or style.",
+  "files": [
+   {
+    "path": "cram-sheet.md",
+    "content": "---\ndescription: Condenses a topic into a one-page last-minute revision sheet of must-know facts.\nargument-hint: [topic or notes]\n---\n\nMake a one-page cram sheet for $ARGUMENTS.\n\n- Start with the five ideas that matter most.\n- List key terms with a 10-word definition each.\n- Add formulas, dates or rules in a compact table.\n- End with three classic mistakes to avoid.\n\nKeep it under 300 words. No filler or background stories.\n"
+   }
+  ],
+  "use_cases": [
+   "Night-before revision",
+   "Quick recap",
+   "Pocket reference"
+  ],
+  "example_prompts": [
+   "/cram-sheet French Revolution causes",
+   "/cram-sheet thermodynamics laws"
+  ],
+  "level": "Beginner",
+  "audience": "Students"
+ },
+ {
+  "type": "commands",
+  "slug": "formula-sheet-builder",
+  "name": "/formula-sheet-builder",
+  "description": "Organizes the formulas for a subject into a tidy sheet with variables, units and when to use each.",
+  "category": "study-learning",
+  "tags": [
+   "formulas",
+   "math",
+   "science"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/skills",
+  "install": "1. Create the folder .claude/commands in your project (or ~/.claude/commands for all projects).\n2. Save the file below as formula-sheet-builder.md; the filename becomes the command name.\n3. In Claude Code, type /formula-sheet-builder followed by your input.\n4. Edit the instructions to match your course or style.",
+  "files": [
+   {
+    "path": "formula-sheet-builder.md",
+    "content": "---\ndescription: Organizes the formulas for a subject into a tidy sheet with variables, units and when to use each.\nargument-hint: [subject or chapter]\n---\n\nBuild a formula sheet for $ARGUMENTS.\n\n1. Group formulas by sub-topic.\n2. For each, give the formula, what every symbol means, SI units and one line on when to use it.\n3. Add a tiny worked example for the three trickiest formulas.\n4. Flag formulas students often confuse and how they differ.\n\nIf a formula is not standard, say so rather than guessing.\n"
+   }
+  ],
+  "use_cases": [
+   "Physics and maths revision",
+   "Open-book exam prep",
+   "Spotting formula mix-ups"
+  ],
+  "example_prompts": [
+   "/formula-sheet-builder kinematics",
+   "/formula-sheet-builder statistics basics"
+  ],
+  "level": "Beginner",
+  "audience": "Students"
+ },
+ {
+  "type": "commands",
+  "slug": "exam-day-checklist",
+  "name": "/exam-day-checklist",
+  "description": "Creates a personal checklist for the day before and the morning of an exam.",
+  "category": "productivity",
+  "tags": [
+   "exam",
+   "checklist",
+   "routine"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/skills",
+  "install": "1. Create the folder .claude/commands in your project (or ~/.claude/commands for all projects).\n2. Save the file below as exam-day-checklist.md; the filename becomes the command name.\n3. In Claude Code, type /exam-day-checklist followed by your input.\n4. Edit the instructions to match your course or style.",
+  "files": [
+   {
+    "path": "exam-day-checklist.md",
+    "content": "---\ndescription: Creates a personal checklist for the day before and the morning of an exam.\nargument-hint: [exam type] [start time]\n---\n\nWrite an exam-day checklist for $ARGUMENTS.\n\nSections:\n1. Night before: pack items, sleep target, last review rule.\n2. Morning: food, travel buffer, warm-up recall.\n3. In the room: reading time plan, question order strategy, time checks.\n4. After: a short reflection prompt.\n\nUse tick boxes and keep each line under 12 words.\n"
+   }
+  ],
+  "use_cases": [
+   "Reducing exam stress",
+   "Never forgetting ID or tools",
+   "Building a routine"
+  ],
+  "example_prompts": [
+   "/exam-day-checklist written exam 9am",
+   "/exam-day-checklist practical lab test"
+  ],
+  "level": "Beginner",
+  "audience": "Students"
+ },
+ {
+  "type": "commands",
+  "slug": "backward-planner",
+  "name": "/backward-planner",
+  "description": "Plans study backwards from a deadline, setting milestones and buffer days.",
+  "category": "productivity",
+  "tags": [
+   "planning",
+   "deadline",
+   "schedule"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/skills",
+  "install": "1. Create the folder .claude/commands in your project (or ~/.claude/commands for all projects).\n2. Save the file below as backward-planner.md; the filename becomes the command name.\n3. In Claude Code, type /backward-planner followed by your input.\n4. Edit the instructions to match your course or style.",
+  "files": [
+   {
+    "path": "backward-planner.md",
+    "content": "---\ndescription: Plans study backwards from a deadline, setting milestones and buffer days.\nargument-hint: [deadline date] [what must be done]\n---\n\nPlan backwards from the deadline in $ARGUMENTS.\n\n1. Define the finished outcome in one sentence.\n2. Work backwards to set 4-6 milestones with dates.\n3. Add a buffer of about 15 percent before the deadline.\n4. Give a this-week action list.\n\nAsk one clarifying question if the available hours per day are unknown.\n"
+   }
+  ],
+  "use_cases": [
+   "Thesis or project deadlines",
+   "Exam preparation",
+   "Avoiding last-minute panic"
+  ],
+  "example_prompts": [
+   "/backward-planner 20 Dec final report",
+   "/backward-planner 3 weeks SAT prep"
+  ],
+  "level": "Intermediate",
+  "audience": "Anyone"
+ },
+ {
+  "type": "commands",
+  "slug": "weekly-study-blocks",
+  "name": "/weekly-study-blocks",
+  "description": "Turns your weekly commitments and subjects into colour-free study blocks with breaks.",
+  "category": "productivity",
+  "tags": [
+   "schedule",
+   "weekly",
+   "time-blocking"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/skills",
+  "install": "1. Create the folder .claude/commands in your project (or ~/.claude/commands for all projects).\n2. Save the file below as weekly-study-blocks.md; the filename becomes the command name.\n3. In Claude Code, type /weekly-study-blocks followed by your input.\n4. Edit the instructions to match your course or style.",
+  "files": [
+   {
+    "path": "weekly-study-blocks.md",
+    "content": "---\ndescription: Turns your weekly commitments and subjects into colour-free study blocks with breaks.\nargument-hint: [subjects] [free hours per day]\n---\n\nCreate a weekly study schedule from $ARGUMENTS.\n\n1. Ask for fixed commitments if they were not given.\n2. Allocate blocks of 25-50 minutes, with 5-10 minute breaks.\n3. Give harder subjects the earliest energetic slots.\n4. Leave one half day free and one review slot on the weekend.\n\nOutput a Monday to Sunday table.\n"
+   }
+  ],
+  "use_cases": [
+   "Balanced weekly routine",
+   "Part-time study",
+   "Reducing procrastination"
+  ],
+  "example_prompts": [
+   "/weekly-study-blocks maths physics english 3h",
+   "/weekly-study-blocks coding 2h weekdays"
+  ],
+  "level": "Beginner",
+  "audience": "Students"
+ },
+ {
+  "type": "commands",
+  "slug": "exam-week-schedule",
+  "name": "/exam-week-schedule",
+  "description": "Lays out a day-by-day plan for a multi-exam week, balancing revision and rest.",
+  "category": "productivity",
+  "tags": [
+   "exam",
+   "schedule",
+   "revision"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/skills",
+  "install": "1. Create the folder .claude/commands in your project (or ~/.claude/commands for all projects).\n2. Save the file below as exam-week-schedule.md; the filename becomes the command name.\n3. In Claude Code, type /exam-week-schedule followed by your input.\n4. Edit the instructions to match your course or style.",
+  "files": [
+   {
+    "path": "exam-week-schedule.md",
+    "content": "---\ndescription: Lays out a day-by-day plan for a multi-exam week, balancing revision and rest.\nargument-hint: [exam dates and subjects]\n---\n\nBuild an exam-week plan from $ARGUMENTS.\n\n1. Order days by the next exam, not by subject preference.\n2. Per day: a morning review, a short practice task and a wind-down slot.\n3. Put light recap on the evening before each exam.\n4. Mark meals, sleep and one movement break daily.\n\nWarn if two exams are back to back.\n"
+   }
+  ],
+  "use_cases": [
+   "Clustered exams",
+   "Managing energy",
+   "Clear daily focus"
+  ],
+  "example_prompts": [
+   "/exam-week-schedule Mon maths Wed chem Fri history",
+   "/exam-week-schedule two exams Tuesday"
+  ],
+  "level": "Intermediate",
+  "audience": "Students"
+ },
+ {
+  "type": "commands",
+  "slug": "cloze-cards",
+  "name": "/cloze-cards",
+  "description": "Turns notes into fill-in-the-blank cloze flashcards, one hidden idea per card.",
+  "category": "study-learning",
+  "tags": [
+   "cloze",
+   "flashcards",
+   "recall"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/skills",
+  "install": "1. Create the folder .claude/commands in your project (or ~/.claude/commands for all projects).\n2. Save the file below as cloze-cards.md; the filename becomes the command name.\n3. In Claude Code, type /cloze-cards followed by your input.\n4. Edit the instructions to match your course or style.",
+  "files": [
+   {
+    "path": "cloze-cards.md",
+    "content": "---\ndescription: Turns notes into fill-in-the-blank cloze flashcards, one hidden idea per card.\nargument-hint: [paste notes]\n---\n\nConvert $ARGUMENTS into cloze flashcards.\n\n- Hide exactly one key term or number per card using [...] .\n- Keep each sentence self-contained; no card should need another to make sense.\n- Add the answer on a second line labeled Answer.\n- Skip trivia; hide only things worth remembering.\n\nProduce between 10 and 25 cards.\n"
+   }
+  ],
+  "use_cases": [
+   "Vocabulary and definitions",
+   "Lecture note review",
+   "Active recall"
+  ],
+  "example_prompts": [
+   "/cloze-cards (paste lecture notes)",
+   "/cloze-cards the water cycle paragraph"
+  ],
+  "level": "Beginner",
+  "audience": "Students"
+ },
+ {
+  "type": "commands",
+  "slug": "true-false-quiz",
+  "name": "/true-false-quiz",
+  "description": "Generates a true or false quiz with explanations that fix the false statements.",
+  "category": "assessment",
+  "tags": [
+   "quiz",
+   "true-false",
+   "check"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/skills",
+  "install": "1. Create the folder .claude/commands in your project (or ~/.claude/commands for all projects).\n2. Save the file below as true-false-quiz.md; the filename becomes the command name.\n3. In Claude Code, type /true-false-quiz followed by your input.\n4. Edit the instructions to match your course or style.",
+  "files": [
+   {
+    "path": "true-false-quiz.md",
+    "content": "---\ndescription: Generates a true or false quiz with explanations that fix the false statements.\nargument-hint: [topic] [number]\n---\n\nWrite a true or false quiz on $ARGUMENTS.\n\n1. Use about half true and half false statements, shuffled.\n2. Make false statements plausible, not silly, and avoid words like always or never as clues.\n3. After all items, give an answer key.\n4. For each false item, rewrite it into a correct statement with one sentence of reasoning.\n"
+   }
+  ],
+  "use_cases": [
+   "Quick comprehension check",
+   "Class warm-up",
+   "Self-testing"
+  ],
+  "example_prompts": [
+   "/true-false-quiz photosynthesis 10",
+   "/true-false-quiz World War I 8"
+  ],
+  "level": "Beginner",
+  "audience": "Students"
+ },
+ {
+  "type": "commands",
+  "slug": "matching-quiz",
+  "name": "/matching-quiz",
+  "description": "Builds a matching exercise pairing terms with definitions, with extra distractors.",
+  "category": "assessment",
+  "tags": [
+   "quiz",
+   "matching",
+   "vocabulary"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/skills",
+  "install": "1. Create the folder .claude/commands in your project (or ~/.claude/commands for all projects).\n2. Save the file below as matching-quiz.md; the filename becomes the command name.\n3. In Claude Code, type /matching-quiz followed by your input.\n4. Edit the instructions to match your course or style.",
+  "files": [
+   {
+    "path": "matching-quiz.md",
+    "content": "---\ndescription: Builds a matching exercise pairing terms with definitions, with extra distractors.\nargument-hint: [topic] [pairs]\n---\n\nCreate a matching exercise for $ARGUMENTS.\n\n1. Column A holds numbered terms; column B holds lettered definitions in a different order.\n2. Add two extra distractor definitions in column B.\n3. Keep definitions similar in length so length is not a clue.\n4. Provide the answer key at the end.\n"
+   }
+  ],
+  "use_cases": [
+   "Vocabulary revision",
+   "Printable worksheets",
+   "Early-finisher tasks"
+  ],
+  "example_prompts": [
+   "/matching-quiz cell organelles 8",
+   "/matching-quiz literary devices 10"
+  ],
+  "level": "Beginner",
+  "audience": "Teachers"
+ },
+ {
+  "type": "commands",
+  "slug": "fill-blank-quiz",
+  "name": "/fill-blank-quiz",
+  "description": "Produces a fill-in-the-blank quiz with a word bank and accepted alternative answers.",
+  "category": "assessment",
+  "tags": [
+   "quiz",
+   "fill-blank",
+   "worksheet"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/skills",
+  "install": "1. Create the folder .claude/commands in your project (or ~/.claude/commands for all projects).\n2. Save the file below as fill-blank-quiz.md; the filename becomes the command name.\n3. In Claude Code, type /fill-blank-quiz followed by your input.\n4. Edit the instructions to match your course or style.",
+  "files": [
+   {
+    "path": "fill-blank-quiz.md",
+    "content": "---\ndescription: Produces a fill-in-the-blank quiz with a word bank and accepted alternative answers.\nargument-hint: [topic] [level]\n---\n\nWrite a fill-in-the-blank quiz about $ARGUMENTS.\n\n1. Ten sentences, one blank each, blanks on key concepts only.\n2. Provide a shuffled word bank with two unused words.\n3. In the key, list any acceptable alternative answers.\n4. Add a challenge version without the word bank.\n"
+   }
+  ],
+  "use_cases": [
+   "Homework sheets",
+   "Concept reinforcement",
+   "Differentiated versions"
+  ],
+  "example_prompts": [
+   "/fill-blank-quiz fractions grade 5",
+   "/fill-blank-quiz the heart"
+  ],
+  "level": "Beginner",
+  "audience": "Teachers"
+ },
+ {
+  "type": "commands",
+  "slug": "mcq-distractors",
+  "name": "/mcq-distractors",
+  "description": "Writes multiple-choice questions whose wrong options reflect real student misconceptions.",
+  "category": "assessment",
+  "tags": [
+   "mcq",
+   "distractors",
+   "misconceptions"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/skills",
+  "install": "1. Create the folder .claude/commands in your project (or ~/.claude/commands for all projects).\n2. Save the file below as mcq-distractors.md; the filename becomes the command name.\n3. In Claude Code, type /mcq-distractors followed by your input.\n4. Edit the instructions to match your course or style.",
+  "files": [
+   {
+    "path": "mcq-distractors.md",
+    "content": "---\ndescription: Writes multiple-choice questions whose wrong options reflect real student misconceptions.\nargument-hint: [topic] [count]\n---\n\nWrite multiple-choice questions on $ARGUMENTS.\n\nFor each question:\n1. Give four options with one clearly correct answer.\n2. Base each distractor on a specific common misconception.\n3. Under the key, name the misconception each wrong option targets.\n4. Avoid all of the above and none of the above.\n\nKeep stems short and positively worded.\n"
+   }
+  ],
+  "use_cases": [
+   "Diagnostic assessments",
+   "Better test items",
+   "Finding misconceptions"
+  ],
+  "example_prompts": [
+   "/mcq-distractors Newton's laws 6",
+   "/mcq-distractors percentages 5"
+  ],
+  "level": "Advanced",
+  "audience": "Teachers"
+ },
+ {
+  "type": "commands",
+  "slug": "anki-csv-export",
+  "name": "/anki-csv-export",
+  "description": "Formats flashcards as tab-separated rows ready to import into Anki.",
+  "category": "study-learning",
+  "tags": [
+   "anki",
+   "flashcards",
+   "export"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/skills",
+  "install": "1. Create the folder .claude/commands in your project (or ~/.claude/commands for all projects).\n2. Save the file below as anki-csv-export.md; the filename becomes the command name.\n3. In Claude Code, type /anki-csv-export followed by your input.\n4. Edit the instructions to match your course or style.",
+  "files": [
+   {
+    "path": "anki-csv-export.md",
+    "content": "---\ndescription: Formats flashcards as tab-separated rows ready to import into Anki.\nargument-hint: [topic or notes]\n---\n\nCreate flashcards for $ARGUMENTS in an Anki-importable format.\n\n1. Output a code block with one card per line: front, a tab character, back.\n2. Keep fronts as questions and backs under 25 words.\n3. Add a third tab-separated column of tags in lowercase with underscores.\n4. Do not use quotation marks or line breaks inside a card.\n\nAfter the block, give two lines on how to import a text file into Anki.\n"
+   }
+  ],
+  "use_cases": [
+   "Building decks quickly",
+   "Medical or language decks",
+   "Turning notes into cards"
+  ],
+  "example_prompts": [
+   "/anki-csv-export organic chemistry reactions",
+   "/anki-csv-export Spanish food vocabulary"
+  ],
+  "level": "Intermediate",
+  "audience": "Students"
+ },
+ {
+  "type": "commands",
+  "slug": "short-answer-quiz",
+  "name": "/short-answer-quiz",
+  "description": "Creates short-answer questions with model answers and a simple point scheme.",
+  "category": "assessment",
+  "tags": [
+   "quiz",
+   "short-answer",
+   "marking"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/skills",
+  "install": "1. Create the folder .claude/commands in your project (or ~/.claude/commands for all projects).\n2. Save the file below as short-answer-quiz.md; the filename becomes the command name.\n3. In Claude Code, type /short-answer-quiz followed by your input.\n4. Edit the instructions to match your course or style.",
+  "files": [
+   {
+    "path": "short-answer-quiz.md",
+    "content": "---\ndescription: Creates short-answer questions with model answers and a simple point scheme.\nargument-hint: [topic] [count]\n---\n\nCreate short-answer questions on $ARGUMENTS.\n\n1. Each question should be answerable in 1-3 sentences.\n2. Assign 1-3 marks per question.\n3. Provide a model answer and list the marking points that earn each mark.\n4. Include one stretch question needing a reasoned explanation.\n"
+   }
+  ],
+  "use_cases": [
+   "Unit tests",
+   "Retrieval practice",
+   "Fast marking"
+  ],
+  "example_prompts": [
+   "/short-answer-quiz ecosystems 6",
+   "/short-answer-quiz causes of the Cold War 5"
+  ],
+  "level": "Intermediate",
+  "audience": "Teachers"
+ },
+ {
+  "type": "commands",
+  "slug": "5e-lesson-plan",
+  "name": "/5e-lesson-plan",
+  "description": "Writes a lesson plan using the 5E model: Engage, Explore, Explain, Elaborate, Evaluate.",
+  "category": "teaching",
+  "tags": [
+   "lesson-plan",
+   "5e",
+   "inquiry"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/skills",
+  "install": "1. Create the folder .claude/commands in your project (or ~/.claude/commands for all projects).\n2. Save the file below as 5e-lesson-plan.md; the filename becomes the command name.\n3. In Claude Code, type /5e-lesson-plan followed by your input.\n4. Edit the instructions to match your course or style.",
+  "files": [
+   {
+    "path": "5e-lesson-plan.md",
+    "content": "---\ndescription: Writes a lesson plan using the 5E model: Engage, Explore, Explain, Elaborate, Evaluate.\nargument-hint: [topic] [grade] [minutes]\n---\n\nPlan a lesson on $ARGUMENTS using the 5E model.\n\nFor each phase (Engage, Explore, Explain, Elaborate, Evaluate) give: a timed activity, teacher actions, student actions and one check for understanding.\n\nAlso list the learning objective, materials and a quick differentiation tip. Keep the total time within the requested length.\n"
+   }
+  ],
+  "use_cases": [
+   "Science lessons",
+   "Inquiry teaching",
+   "Observation-ready plans"
+  ],
+  "example_prompts": [
+   "/5e-lesson-plan magnetism grade 6 50",
+   "/5e-lesson-plan photosynthesis grade 8 45"
+  ],
+  "level": "Intermediate",
+  "audience": "Teachers"
+ },
+ {
+  "type": "commands",
+  "slug": "flipped-lesson-plan",
+  "name": "/flipped-lesson-plan",
+  "description": "Designs a flipped lesson with pre-class tasks and active in-class work.",
+  "category": "teaching",
+  "tags": [
+   "flipped",
+   "lesson-plan",
+   "blended"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/skills",
+  "install": "1. Create the folder .claude/commands in your project (or ~/.claude/commands for all projects).\n2. Save the file below as flipped-lesson-plan.md; the filename becomes the command name.\n3. In Claude Code, type /flipped-lesson-plan followed by your input.\n4. Edit the instructions to match your course or style.",
+  "files": [
+   {
+    "path": "flipped-lesson-plan.md",
+    "content": "---\ndescription: Designs a flipped lesson with pre-class tasks and active in-class work.\nargument-hint: [topic] [grade]\n---\n\nDesign a flipped lesson for $ARGUMENTS.\n\n1. Pre-class: a 10-15 minute video or reading task and three guiding questions.\n2. Start of class: a quick check to confirm the pre-work was done.\n3. In class: two collaborative tasks that apply the idea.\n4. Exit: a short individual task.\n\nInclude a fallback for students who skipped the pre-work.\n"
+   }
+  ],
+  "use_cases": [
+   "Maximizing class time",
+   "Blended learning",
+   "Practice-heavy lessons"
+  ],
+  "example_prompts": [
+   "/flipped-lesson-plan quadratic equations grade 9",
+   "/flipped-lesson-plan supply and demand"
+  ],
+  "level": "Intermediate",
+  "audience": "Teachers"
+ },
+ {
+  "type": "commands",
+  "slug": "station-rotation-plan",
+  "name": "/station-rotation-plan",
+  "description": "Plans a station-rotation lesson with timings, materials and group movement.",
+  "category": "teaching",
+  "tags": [
+   "stations",
+   "rotation",
+   "group-work"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/skills",
+  "install": "1. Create the folder .claude/commands in your project (or ~/.claude/commands for all projects).\n2. Save the file below as station-rotation-plan.md; the filename becomes the command name.\n3. In Claude Code, type /station-rotation-plan followed by your input.\n4. Edit the instructions to match your course or style.",
+  "files": [
+   {
+    "path": "station-rotation-plan.md",
+    "content": "---\ndescription: Plans a station-rotation lesson with timings, materials and group movement.\nargument-hint: [topic] [stations] [class size]\n---\n\nPlan a station rotation for $ARGUMENTS.\n\n1. Define the number of stations, rotation length and group size.\n2. For each station, give the task, materials and a self-check.\n3. Include one teacher-led station and one independent station.\n4. Write transition cues and a rotation chart.\n5. Add a whole-class wrap-up question.\n"
+   }
+  ],
+  "use_cases": [
+   "Mixed-ability classes",
+   "Hands-on lessons",
+   "Managing small groups"
+  ],
+  "example_prompts": [
+   "/station-rotation-plan fractions 4 stations 28 students",
+   "/station-rotation-plan poetry 3 stations"
+  ],
+  "level": "Intermediate",
+  "audience": "Teachers"
+ },
+ {
+  "type": "commands",
+  "slug": "project-based-unit",
+  "name": "/project-based-unit",
+  "description": "Outlines a multi-week project-based learning unit with milestones and assessment.",
+  "category": "teaching",
+  "tags": [
+   "pbl",
+   "unit-plan",
+   "projects"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/skills",
+  "install": "1. Create the folder .claude/commands in your project (or ~/.claude/commands for all projects).\n2. Save the file below as project-based-unit.md; the filename becomes the command name.\n3. In Claude Code, type /project-based-unit followed by your input.\n4. Edit the instructions to match your course or style.",
+  "files": [
+   {
+    "path": "project-based-unit.md",
+    "content": "---\ndescription: Outlines a multi-week project-based learning unit with milestones and assessment.\nargument-hint: [theme] [weeks] [grade]\n---\n\nOutline a project-based unit on $ARGUMENTS.\n\n1. Write a driving question and a real audience for the final product.\n2. Break the weeks into milestones, each with a deliverable.\n3. List skills and standards-style goals covered.\n4. Provide a checkpoint rubric outline and a reflection task.\n\nKeep it realistic for classroom time and resources.\n"
+   }
+  ],
+  "use_cases": [
+   "Cross-curricular units",
+   "Authentic assessment",
+   "Student-led work"
+  ],
+  "example_prompts": [
+   "/project-based-unit local water quality 4 weeks grade 7",
+   "/project-based-unit design a board game"
+  ],
+  "level": "Advanced",
+  "audience": "Teachers"
+ },
+ {
+  "type": "commands",
+  "slug": "apa-citation",
+  "name": "/apa-citation",
+  "description": "Formats sources in APA 7th edition reference and in-text style.",
+  "category": "writing-research",
+  "tags": [
+   "apa",
+   "citation",
+   "references"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/skills",
+  "install": "1. Create the folder .claude/commands in your project (or ~/.claude/commands for all projects).\n2. Save the file below as apa-citation.md; the filename becomes the command name.\n3. In Claude Code, type /apa-citation followed by your input.\n4. Edit the instructions to match your course or style.",
+  "files": [
+   {
+    "path": "apa-citation.md",
+    "content": "---\ndescription: Formats sources in APA 7th edition reference and in-text style.\nargument-hint: [source details]\n---\n\nFormat the source details in $ARGUMENTS in APA 7th edition.\n\n1. Give the reference list entry with hanging-indent note.\n2. Give both in-text forms: parenthetical and narrative.\n3. If any required element is missing (date, publisher, DOI), list it rather than inventing it.\n4. If several sources are given, sort alphabetically by author.\n"
+   }
+  ],
+  "use_cases": [
+   "Reference lists",
+   "Quick source checks",
+   "Learning APA rules"
+  ],
+  "example_prompts": [
+   "/apa-citation Smith 2021 journal article on sleep",
+   "/apa-citation website article no date"
+  ],
+  "level": "Beginner",
+  "audience": "Students"
+ },
+ {
+  "type": "commands",
+  "slug": "mla-citation",
+  "name": "/mla-citation",
+  "description": "Formats sources for an MLA 9 works cited page and parenthetical citations.",
+  "category": "writing-research",
+  "tags": [
+   "mla",
+   "citation",
+   "works-cited"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/skills",
+  "install": "1. Create the folder .claude/commands in your project (or ~/.claude/commands for all projects).\n2. Save the file below as mla-citation.md; the filename becomes the command name.\n3. In Claude Code, type /mla-citation followed by your input.\n4. Edit the instructions to match your course or style.",
+  "files": [
+   {
+    "path": "mla-citation.md",
+    "content": "---\ndescription: Formats sources for an MLA 9 works cited page and parenthetical citations.\nargument-hint: [source details]\n---\n\nFormat the sources in $ARGUMENTS using MLA 9.\n\n1. Provide the works cited entry using the core container elements.\n2. Provide the parenthetical citation with a page number if one is given.\n3. Do not invent missing details; list what is missing.\n4. Alphabetize multiple entries.\n"
+   }
+  ],
+  "use_cases": [
+   "Literature essays",
+   "Humanities papers",
+   "Checking citation format"
+  ],
+  "example_prompts": [
+   "/mla-citation novel 1925 Scribner",
+   "/mla-citation online film review"
+  ],
+  "level": "Beginner",
+  "audience": "Students"
+ },
+ {
+  "type": "commands",
+  "slug": "chicago-citation",
+  "name": "/chicago-citation",
+  "description": "Produces Chicago notes-bibliography footnotes and bibliography entries.",
+  "category": "writing-research",
+  "tags": [
+   "chicago",
+   "footnotes",
+   "bibliography"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/skills",
+  "install": "1. Create the folder .claude/commands in your project (or ~/.claude/commands for all projects).\n2. Save the file below as chicago-citation.md; the filename becomes the command name.\n3. In Claude Code, type /chicago-citation followed by your input.\n4. Edit the instructions to match your course or style.",
+  "files": [
+   {
+    "path": "chicago-citation.md",
+    "content": "---\ndescription: Produces Chicago notes-bibliography footnotes and bibliography entries.\nargument-hint: [source details]\n---\n\nFormat $ARGUMENTS in Chicago notes-bibliography style.\n\n1. Give the full first footnote.\n2. Give a shortened note for later citations.\n3. Give the bibliography entry.\n4. Mention that author-date style exists and offer to convert on request.\n\nNever make up page numbers or publishers.\n"
+   }
+  ],
+  "use_cases": [
+   "History papers",
+   "Footnote-heavy essays",
+   "Style conversion"
+  ],
+  "example_prompts": [
+   "/chicago-citation book Oxford 2019 Jones",
+   "/chicago-citation journal article 2020"
+  ],
+  "level": "Intermediate",
+  "audience": "Students"
+ },
+ {
+  "type": "commands",
+  "slug": "ieee-citation",
+  "name": "/ieee-citation",
+  "description": "Formats numbered IEEE references for engineering and computing papers.",
+  "category": "writing-research",
+  "tags": [
+   "ieee",
+   "citation",
+   "engineering"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/skills",
+  "install": "1. Create the folder .claude/commands in your project (or ~/.claude/commands for all projects).\n2. Save the file below as ieee-citation.md; the filename becomes the command name.\n3. In Claude Code, type /ieee-citation followed by your input.\n4. Edit the instructions to match your course or style.",
+  "files": [
+   {
+    "path": "ieee-citation.md",
+    "content": "---\ndescription: Formats numbered IEEE references for engineering and computing papers.\nargument-hint: [source details]\n---\n\nFormat $ARGUMENTS as IEEE references.\n\n1. Provide numbered entries in order of first citation, with authors as initials plus surname.\n2. Show how to cite each in the text, such as [1].\n3. Handle journal, conference, web and standard sources differently.\n4. List any missing elements instead of guessing.\n"
+   }
+  ],
+  "use_cases": [
+   "Engineering reports",
+   "Computer science papers",
+   "Numbered references"
+  ],
+  "example_prompts": [
+   "/ieee-citation conference paper on neural nets",
+   "/ieee-citation datasheet from a vendor site"
+  ],
+  "level": "Intermediate",
+  "audience": "Students"
+ },
+ {
+  "type": "commands",
+  "slug": "python-explainer",
+  "name": "/python-explainer",
+  "description": "Explains Python code line by line, covering idioms, data types and common pitfalls.",
+  "category": "coding-education",
+  "tags": [
+   "python",
+   "explain",
+   "beginner"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/skills",
+  "install": "1. Create the folder .claude/commands in your project (or ~/.claude/commands for all projects).\n2. Save the file below as python-explainer.md; the filename becomes the command name.\n3. In Claude Code, type /python-explainer followed by your input.\n4. Edit the instructions to match your course or style.",
+  "files": [
+   {
+    "path": "python-explainer.md",
+    "content": "---\ndescription: Explains Python code line by line, covering idioms, data types and common pitfalls.\nargument-hint: [paste Python code]\n---\n\nExplain this Python code to a learner: $ARGUMENTS\n\n1. Give a one-sentence summary of what it does.\n2. Walk through it line by line, naming Python idioms (comprehensions, unpacking, f-strings).\n3. State the type of each important variable.\n4. Point out one bug risk and one improvement.\n\nDo not rewrite the whole program unless asked.\n"
+   }
+  ],
+  "use_cases": [
+   "Reading unfamiliar code",
+   "Homework understanding",
+   "Learning idioms"
+  ],
+  "example_prompts": [
+   "/python-explainer (paste a list comprehension)",
+   "/python-explainer decorator example"
+  ],
+  "level": "Beginner",
+  "audience": "Students"
+ },
+ {
+  "type": "commands",
+  "slug": "javascript-explainer",
+  "name": "/javascript-explainer",
+  "description": "Explains JavaScript snippets including scope, async behaviour and the event loop.",
+  "category": "coding-education",
+  "tags": [
+   "javascript",
+   "async",
+   "explain"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/skills",
+  "install": "1. Create the folder .claude/commands in your project (or ~/.claude/commands for all projects).\n2. Save the file below as javascript-explainer.md; the filename becomes the command name.\n3. In Claude Code, type /javascript-explainer followed by your input.\n4. Edit the instructions to match your course or style.",
+  "files": [
+   {
+    "path": "javascript-explainer.md",
+    "content": "---\ndescription: Explains JavaScript snippets including scope, async behaviour and the event loop.\nargument-hint: [paste JavaScript code]\n---\n\nExplain this JavaScript: $ARGUMENTS\n\n1. Summarize its purpose in one sentence.\n2. Explain scope, hoisting and this where relevant.\n3. For async code, describe the order things run and why, including promises and the event loop.\n4. Show the expected output step by step.\n5. Flag a common mistake related to it.\n"
+   }
+  ],
+  "use_cases": [
+   "Understanding callbacks and promises",
+   "Debugging order of execution",
+   "Web dev courses"
+  ],
+  "example_prompts": [
+   "/javascript-explainer setTimeout inside a loop",
+   "/javascript-explainer async await fetch"
+  ],
+  "level": "Intermediate",
+  "audience": "Students"
+ },
+ {
+  "type": "commands",
+  "slug": "java-explainer",
+  "name": "/java-explainer",
+  "description": "Explains Java code with focus on classes, objects, inheritance and types.",
+  "category": "coding-education",
+  "tags": [
+   "java",
+   "oop",
+   "explain"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/skills",
+  "install": "1. Create the folder .claude/commands in your project (or ~/.claude/commands for all projects).\n2. Save the file below as java-explainer.md; the filename becomes the command name.\n3. In Claude Code, type /java-explainer followed by your input.\n4. Edit the instructions to match your course or style.",
+  "files": [
+   {
+    "path": "java-explainer.md",
+    "content": "---\ndescription: Explains Java code with focus on classes, objects, inheritance and types.\nargument-hint: [paste Java code]\n---\n\nExplain this Java code: $ARGUMENTS\n\n1. Describe the classes, fields and methods and how they relate.\n2. Identify inheritance, interfaces or access modifiers in use.\n3. Trace main() and show the printed output.\n4. Note one object-oriented design improvement.\n\nUse short analogies for abstract ideas.\n"
+   }
+  ],
+  "use_cases": [
+   "OOP courses",
+   "Exam code tracing",
+   "Understanding class design"
+  ],
+  "example_prompts": [
+   "/java-explainer interface and abstract class example",
+   "/java-explainer simple Stack class"
+  ],
+  "level": "Intermediate",
+  "audience": "Students"
+ },
+ {
+  "type": "commands",
+  "slug": "c-pointer-explainer",
+  "name": "/c-pointer-explainer",
+  "description": "Demystifies C pointers and memory with diagrams drawn in plain text.",
+  "category": "coding-education",
+  "tags": [
+   "c",
+   "pointers",
+   "memory"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/skills",
+  "install": "1. Create the folder .claude/commands in your project (or ~/.claude/commands for all projects).\n2. Save the file below as c-pointer-explainer.md; the filename becomes the command name.\n3. In Claude Code, type /c-pointer-explainer followed by your input.\n4. Edit the instructions to match your course or style.",
+  "files": [
+   {
+    "path": "c-pointer-explainer.md",
+    "content": "---\ndescription: Demystifies C pointers and memory with diagrams drawn in plain text.\nargument-hint: [paste C code]\n---\n\nExplain the pointers and memory in this C code: $ARGUMENTS\n\n1. Draw a text diagram of variables, addresses and what each pointer points to.\n2. Step through each statement showing how memory changes.\n3. Call out stack versus heap use and who must free memory.\n4. Identify any undefined behaviour, leak or dangling pointer.\n"
+   }
+  ],
+  "use_cases": [
+   "Systems programming",
+   "Pointer arithmetic",
+   "Avoiding memory bugs"
+  ],
+  "example_prompts": [
+   "/c-pointer-explainer linked list insert",
+   "/c-pointer-explainer swap with pointers"
+  ],
+  "level": "Advanced",
+  "audience": "Students"
+ },
+ {
+  "type": "commands",
+  "slug": "rust-ownership-explainer",
+  "name": "/rust-ownership-explainer",
+  "description": "Explains Rust ownership, borrowing and lifetimes in code with compiler-error help.",
+  "category": "coding-education",
+  "tags": [
+   "rust",
+   "ownership",
+   "borrowing"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/skills",
+  "install": "1. Create the folder .claude/commands in your project (or ~/.claude/commands for all projects).\n2. Save the file below as rust-ownership-explainer.md; the filename becomes the command name.\n3. In Claude Code, type /rust-ownership-explainer followed by your input.\n4. Edit the instructions to match your course or style.",
+  "files": [
+   {
+    "path": "rust-ownership-explainer.md",
+    "content": "---\ndescription: Explains Rust ownership, borrowing and lifetimes in code with compiler-error help.\nargument-hint: [paste Rust code or error]\n---\n\nExplain the ownership behaviour in: $ARGUMENTS\n\n1. State who owns each value at every step.\n2. Mark moves, immutable borrows and mutable borrows.\n3. If a compiler error is included, explain it in plain words and give the smallest fix.\n4. Offer one alternative design, such as cloning or references, with the trade-off.\n"
+   }
+  ],
+  "use_cases": [
+   "Learning Rust",
+   "Understanding borrow checker errors",
+   "Safe code design"
+  ],
+  "example_prompts": [
+   "/rust-ownership-explainer value moved error",
+   "/rust-ownership-explainer struct with references"
+  ],
+  "level": "Advanced",
+  "audience": "Developers"
+ },
+ {
+  "type": "commands",
+  "slug": "tldr-bullets",
+  "name": "/tldr-bullets",
+  "description": "Reduces any text to a tight TL;DR of three to five bullets plus one takeaway.",
+  "category": "writing-research",
+  "tags": [
+   "summary",
+   "tldr",
+   "bullets"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/skills",
+  "install": "1. Create the folder .claude/commands in your project (or ~/.claude/commands for all projects).\n2. Save the file below as tldr-bullets.md; the filename becomes the command name.\n3. In Claude Code, type /tldr-bullets followed by your input.\n4. Edit the instructions to match your course or style.",
+  "files": [
+   {
+    "path": "tldr-bullets.md",
+    "content": "---\ndescription: Reduces any text to a tight TL;DR of three to five bullets plus one takeaway.\nargument-hint: [paste text]\n---\n\nSummarize $ARGUMENTS as a TL;DR.\n\n- Give 3-5 bullets, each under 20 words.\n- Put the most important point first.\n- End with one line starting with Takeaway.\n- Do not add information that is not in the text.\n\nIf the text is too short to summarize, say so.\n"
+   }
+  ],
+  "use_cases": [
+   "Skimming articles",
+   "Meeting handouts",
+   "Quick revision"
+  ],
+  "example_prompts": [
+   "/tldr-bullets (paste an article)",
+   "/tldr-bullets chapter 4 notes"
+  ],
+  "level": "Beginner",
+  "audience": "Anyone"
+ },
+ {
+  "type": "commands",
+  "slug": "chapter-summary",
+  "name": "/chapter-summary",
+  "description": "Summarizes a book chapter with plot or argument, key terms and discussion questions.",
+  "category": "study-learning",
+  "tags": [
+   "chapter",
+   "summary",
+   "reading"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/skills",
+  "install": "1. Create the folder .claude/commands in your project (or ~/.claude/commands for all projects).\n2. Save the file below as chapter-summary.md; the filename becomes the command name.\n3. In Claude Code, type /chapter-summary followed by your input.\n4. Edit the instructions to match your course or style.",
+  "files": [
+   {
+    "path": "chapter-summary.md",
+    "content": "---\ndescription: Summarizes a book chapter with plot or argument, key terms and discussion questions.\nargument-hint: [chapter text or title]\n---\n\nSummarize the chapter in $ARGUMENTS.\n\n1. Two-sentence overview.\n2. Main events or arguments in order.\n3. Key terms or characters with one line each.\n4. Two questions for discussion or essay thinking.\n\nIf only a title was provided, say you cannot see the text and summarize only what is widely known, labelled as such.\n"
+   }
+  ],
+  "use_cases": [
+   "Reading catch-up",
+   "Study guides",
+   "Book club prep"
+  ],
+  "example_prompts": [
+   "/chapter-summary (paste chapter 3)",
+   "/chapter-summary Lord of the Flies chapter 5"
+  ],
+  "level": "Intermediate",
+  "audience": "Students"
+ },
+ {
+  "type": "commands",
+  "slug": "key-quotes",
+  "name": "/key-quotes",
+  "description": "Picks the most important quotes from a text and explains why each matters.",
+  "category": "writing-research",
+  "tags": [
+   "quotes",
+   "analysis",
+   "literature"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/skills",
+  "install": "1. Create the folder .claude/commands in your project (or ~/.claude/commands for all projects).\n2. Save the file below as key-quotes.md; the filename becomes the command name.\n3. In Claude Code, type /key-quotes followed by your input.\n4. Edit the instructions to match your course or style.",
+  "files": [
+   {
+    "path": "key-quotes.md",
+    "content": "---\ndescription: Picks the most important quotes from a text and explains why each matters.\nargument-hint: [paste text] [theme]\n---\n\nFrom the text in $ARGUMENTS, select 5 key quotes.\n\n1. Quote exactly as written; never alter wording.\n2. State the theme or idea each quote supports.\n3. Explain in 2 sentences why it matters.\n4. Suggest where in an essay each could be used.\n\nOnly use quotes that appear in the provided text.\n"
+   }
+  ],
+  "use_cases": [
+   "Essay evidence",
+   "Literature analysis",
+   "Exam quote banks"
+  ],
+  "example_prompts": [
+   "/key-quotes (paste speech) theme of power",
+   "/key-quotes (paste poem)"
+  ],
+  "level": "Intermediate",
+  "audience": "Students"
+ },
+ {
+  "type": "commands",
+  "slug": "star-answer-coach",
+  "name": "/star-answer-coach",
+  "description": "Coaches behavioural interview answers using the STAR structure and gives feedback.",
+  "category": "productivity",
+  "tags": [
+   "interview",
+   "star",
+   "behavioral"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/skills",
+  "install": "1. Create the folder .claude/commands in your project (or ~/.claude/commands for all projects).\n2. Save the file below as star-answer-coach.md; the filename becomes the command name.\n3. In Claude Code, type /star-answer-coach followed by your input.\n4. Edit the instructions to match your course or style.",
+  "files": [
+   {
+    "path": "star-answer-coach.md",
+    "content": "---\ndescription: Coaches behavioural interview answers using the STAR structure and gives feedback.\nargument-hint: [question] [your draft answer]\n---\n\nCoach the answer in $ARGUMENTS using STAR.\n\n1. Check whether Situation, Task, Action and Result are all present.\n2. Mark vague parts and ask for specifics or measurable results.\n3. Rewrite the answer in about 150 words, using only facts the user supplied.\n4. Give one tip on delivery or length.\n\nDo not invent achievements.\n"
+   }
+  ],
+  "use_cases": [
+   "Job and internship interviews",
+   "Scholarship panels",
+   "Building story banks"
+  ],
+  "example_prompts": [
+   "/star-answer-coach tell me about a conflict",
+   "/star-answer-coach leadership example draft"
+  ],
+  "level": "Intermediate",
+  "audience": "Anyone"
+ },
+ {
+  "type": "commands",
+  "slug": "mock-interview",
+  "name": "/mock-interview",
+  "description": "Runs a one-question-at-a-time mock interview and scores each answer.",
+  "category": "productivity",
+  "tags": [
+   "interview",
+   "mock",
+   "practice"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/skills",
+  "install": "1. Create the folder .claude/commands in your project (or ~/.claude/commands for all projects).\n2. Save the file below as mock-interview.md; the filename becomes the command name.\n3. In Claude Code, type /mock-interview followed by your input.\n4. Edit the instructions to match your course or style.",
+  "files": [
+   {
+    "path": "mock-interview.md",
+    "content": "---\ndescription: Runs a one-question-at-a-time mock interview and scores each answer.\nargument-hint: [role] [company type]\n---\n\nRun a mock interview for $ARGUMENTS.\n\n1. Ask one question at a time and wait for the answer.\n2. Mix an opener, two role-specific, one behavioural and one curveball.\n3. After each answer, give a score from 1-5 and one improvement.\n4. At the end, summarize strengths and top three fixes.\n\nStay in character as a friendly but realistic interviewer.\n"
+   }
+  ],
+  "use_cases": [
+   "Interview rehearsal",
+   "Reducing nerves",
+   "Campus placement prep"
+  ],
+  "example_prompts": [
+   "/mock-interview junior data analyst",
+   "/mock-interview teaching assistant"
+  ],
+  "level": "Intermediate",
+  "audience": "Anyone"
+ },
+ {
+  "type": "commands",
+  "slug": "technical-interview-drill",
+  "name": "/technical-interview-drill",
+  "description": "Gives coding interview style problems with hints on demand and a complexity review.",
+  "category": "coding-education",
+  "tags": [
+   "interview",
+   "algorithms",
+   "coding"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/skills",
+  "install": "1. Create the folder .claude/commands in your project (or ~/.claude/commands for all projects).\n2. Save the file below as technical-interview-drill.md; the filename becomes the command name.\n3. In Claude Code, type /technical-interview-drill followed by your input.\n4. Edit the instructions to match your course or style.",
+  "files": [
+   {
+    "path": "technical-interview-drill.md",
+    "content": "---\ndescription: Gives coding interview style problems with hints on demand and a complexity review.\nargument-hint: [language] [difficulty]\n---\n\nStart a technical interview drill for $ARGUMENTS.\n\n1. Present one problem with input and output examples.\n2. Do not give the solution; offer hints one level at a time when asked.\n3. When the user submits code, review correctness, edge cases and time and space complexity.\n4. Suggest a follow-up variation.\n\nStay quiet about the optimal approach until the user attempts it.\n"
+   }
+  ],
+  "use_cases": [
+   "Coding interview practice",
+   "Thinking aloud",
+   "Complexity analysis"
+  ],
+  "example_prompts": [
+   "/technical-interview-drill Python easy",
+   "/technical-interview-drill Java medium arrays"
+  ],
+  "level": "Advanced",
+  "audience": "Developers"
+ },
+ {
+  "type": "commands",
+  "slug": "ask-the-interviewer",
+  "name": "/ask-the-interviewer",
+  "description": "Prepares thoughtful questions to ask at the end of an interview for a given role.",
+  "category": "productivity",
+  "tags": [
+   "interview",
+   "questions",
+   "career"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/skills",
+  "install": "1. Create the folder .claude/commands in your project (or ~/.claude/commands for all projects).\n2. Save the file below as ask-the-interviewer.md; the filename becomes the command name.\n3. In Claude Code, type /ask-the-interviewer followed by your input.\n4. Edit the instructions to match your course or style.",
+  "files": [
+   {
+    "path": "ask-the-interviewer.md",
+    "content": "---\ndescription: Prepares thoughtful questions to ask at the end of an interview for a given role.\nargument-hint: [role] [organization]\n---\n\nPrepare questions to ask the interviewer for $ARGUMENTS.\n\n1. Give 8 questions grouped by team, growth, expectations and culture.\n2. Mark three as best to ask when time is short.\n3. List two questions to avoid and why.\n4. Add a polite closing line.\n\nTailor questions to what the user shared; avoid generic filler.\n"
+   }
+  ],
+  "use_cases": [
+   "Closing an interview well",
+   "Evaluating the role",
+   "Showing interest"
+  ],
+  "example_prompts": [
+   "/ask-the-interviewer research intern lab",
+   "/ask-the-interviewer school teacher post"
+  ],
+  "level": "Beginner",
+  "audience": "Anyone"
+ },
+ {
+  "type": "commands",
+  "slug": "parent-conference-prep",
+  "name": "/parent-conference-prep",
+  "description": "Prepares talking points, evidence and next steps for a parent-teacher conference.",
+  "category": "admin-ops",
+  "tags": [
+   "conference",
+   "parents",
+   "communication"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/skills",
+  "install": "1. Create the folder .claude/commands in your project (or ~/.claude/commands for all projects).\n2. Save the file below as parent-conference-prep.md; the filename becomes the command name.\n3. In Claude Code, type /parent-conference-prep followed by your input.\n4. Edit the instructions to match your course or style.",
+  "files": [
+   {
+    "path": "parent-conference-prep.md",
+    "content": "---\ndescription: Prepares talking points, evidence and next steps for a parent-teacher conference.\nargument-hint: [student situation]\n---\n\nPrepare for a parent-teacher conference about $ARGUMENTS.\n\n1. Start with two genuine strengths of the student.\n2. State one or two concerns using observable facts, not labels.\n3. Suggest three questions to ask the parent.\n4. Propose a shared action plan with dates.\n\nKeep a respectful, solution-focused tone and avoid including sensitive details not provided.\n"
+   }
+  ],
+  "use_cases": [
+   "Conference days",
+   "Difficult conversations",
+   "Documenting follow-ups"
+  ],
+  "example_prompts": [
+   "/parent-conference-prep grade 4 reading progress",
+   "/parent-conference-prep missing homework"
+  ],
+  "level": "Intermediate",
+  "audience": "Teachers"
+ },
+ {
+  "type": "commands",
+  "slug": "class-rules-draft",
+  "name": "/class-rules-draft",
+  "description": "Drafts a short, positive set of classroom rules and routines for a grade level.",
+  "category": "admin-ops",
+  "tags": [
+   "classroom",
+   "rules",
+   "routines"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/skills",
+  "install": "1. Create the folder .claude/commands in your project (or ~/.claude/commands for all projects).\n2. Save the file below as class-rules-draft.md; the filename becomes the command name.\n3. In Claude Code, type /class-rules-draft followed by your input.\n4. Edit the instructions to match your course or style.",
+  "files": [
+   {
+    "path": "class-rules-draft.md",
+    "content": "---\ndescription: Drafts a short, positive set of classroom rules and routines for a grade level.\nargument-hint: [grade] [subject]\n---\n\nDraft classroom rules for $ARGUMENTS.\n\n1. Write 4-5 rules stated positively, in simple language for the grade level.\n2. Add routines for entering, asking for help and finishing early.\n3. Give a fair consequence ladder that begins with a reminder.\n4. Include a student-friendly poster version of under 60 words.\n"
+   }
+  ],
+  "use_cases": [
+   "Start of year setup",
+   "Co-creating norms",
+   "Consistent expectations"
+  ],
+  "example_prompts": [
+   "/class-rules-draft grade 3 mixed subjects",
+   "/class-rules-draft secondary science lab"
+  ],
+  "level": "Beginner",
+  "audience": "Teachers"
+ },
+ {
+  "type": "commands",
+  "slug": "behavior-contract",
+  "name": "/behavior-contract",
+  "description": "Writes a simple behavior contract with goals, supports, rewards and review dates.",
+  "category": "admin-ops",
+  "tags": [
+   "behavior",
+   "contract",
+   "support"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/skills",
+  "install": "1. Create the folder .claude/commands in your project (or ~/.claude/commands for all projects).\n2. Save the file below as behavior-contract.md; the filename becomes the command name.\n3. In Claude Code, type /behavior-contract followed by your input.\n4. Edit the instructions to match your course or style.",
+  "files": [
+   {
+    "path": "behavior-contract.md",
+    "content": "---\ndescription: Writes a simple behavior contract with goals, supports, rewards and review dates.\nargument-hint: [student age] [target behavior]\n---\n\nWrite a behavior contract for $ARGUMENTS.\n\n1. State one or two specific, measurable goals in student-friendly words.\n2. List what the teacher will do to support the student.\n3. Define the positive reward and the review dates.\n4. Add signature lines for student, teacher and parent.\n\nFocus on teaching skills, not punishment.\n"
+   }
+  ],
+  "use_cases": [
+   "Supporting individual students",
+   "Parent communication",
+   "Tracking progress"
+  ],
+  "example_prompts": [
+   "/behavior-contract age 9 calling out",
+   "/behavior-contract age 14 phone use"
+  ],
+  "level": "Intermediate",
+  "audience": "Teachers"
+ },
+ {
+  "type": "commands",
+  "slug": "late-work-policy",
+  "name": "/late-work-policy",
+  "description": "Drafts a clear, fair late work policy with grace rules and a student-facing summary.",
+  "category": "admin-ops",
+  "tags": [
+   "policy",
+   "late-work",
+   "fairness"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/skills",
+  "install": "1. Create the folder .claude/commands in your project (or ~/.claude/commands for all projects).\n2. Save the file below as late-work-policy.md; the filename becomes the command name.\n3. In Claude Code, type /late-work-policy followed by your input.\n4. Edit the instructions to match your course or style.",
+  "files": [
+   {
+    "path": "late-work-policy.md",
+    "content": "---\ndescription: Drafts a clear, fair late work policy with grace rules and a student-facing summary.\nargument-hint: [grade] [subject]\n---\n\nWrite a late work policy for $ARGUMENTS.\n\n1. Define the rules: grace period, penalty scale and cut-off date.\n2. Add exceptions for illness and approved absences.\n3. Describe how students request an extension.\n4. Provide a 5-line student-friendly summary.\n\nKeep it consistent with fair assessment and say that school policy takes precedence.\n"
+   }
+  ],
+  "use_cases": [
+   "Syllabus handouts",
+   "Consistent grading",
+   "Parent questions"
+  ],
+  "example_prompts": [
+   "/late-work-policy high school English",
+   "/late-work-policy grade 6 maths"
+  ],
+  "level": "Beginner",
+  "audience": "Teachers"
+ },
+ {
+  "type": "commands",
+  "slug": "makeup-work-plan",
+  "name": "/makeup-work-plan",
+  "description": "Builds a catch-up plan for a student who missed lessons, prioritizing essentials.",
+  "category": "admin-ops",
+  "tags": [
+   "absence",
+   "catch-up",
+   "planning"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/skills",
+  "install": "1. Create the folder .claude/commands in your project (or ~/.claude/commands for all projects).\n2. Save the file below as makeup-work-plan.md; the filename becomes the command name.\n3. In Claude Code, type /makeup-work-plan followed by your input.\n4. Edit the instructions to match your course or style.",
+  "files": [
+   {
+    "path": "makeup-work-plan.md",
+    "content": "---\ndescription: Builds a catch-up plan for a student who missed lessons, prioritizing essentials.\nargument-hint: [days missed] [topics covered]\n---\n\nBuild a makeup work plan for $ARGUMENTS.\n\n1. Sort the missed content into essential, helpful and skippable.\n2. Create a day-by-day catch-up schedule that fits within two weeks.\n3. Suggest one short check-in assessment.\n4. Write a brief, kind note to the student explaining the plan.\n"
+   }
+  ],
+  "use_cases": [
+   "Illness absences",
+   "Transfer students",
+   "Reducing teacher workload"
+  ],
+  "example_prompts": [
+   "/makeup-work-plan 5 days fractions unit",
+   "/makeup-work-plan 3 days lab skills"
+  ],
+  "level": "Intermediate",
+  "audience": "Teachers"
+ }
+]

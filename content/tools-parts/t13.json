@@ -1,0 +1,364 @@
+[
+ {
+  "slug": "researchrabbit",
+  "name": "ResearchRabbit",
+  "category": "research",
+  "website_url": "https://researchrabbit.ai",
+  "pricing": "Unknown",
+  "tagline": "Literature discovery tool that maps related papers and authors.",
+  "best_for": "Exploring a topic by following citations and related work",
+  "platforms": [
+   "Web"
+  ],
+  "description": "ResearchRabbit is a literature discovery tool for finding academic papers connected to ones you already know. You add a few papers to a collection, and it suggests earlier work, later work and similar papers, often shown as a visual network.\n\n\nIt suits students starting a literature review, because a handful of seed papers can reveal clusters of related research and frequently cited authors. It is a discovery aid, so you still need to read the papers and judge their quality yourself. Plans and limits change, so check the official site for current plans.",
+  "use_steps": [
+   "Create an account on the website.",
+   "Add a few known papers to a new collection.",
+   "Browse suggested related papers, authors and citation links.",
+   "Save useful papers and export them to your reference manager."
+  ],
+  "pros": [
+   "Visual way to explore a topic",
+   "Starts from papers you already trust",
+   "Helps find authors and related work",
+   "Good for early literature review stages"
+  ],
+  "cons": [
+   "Suggestions still need critical reading",
+   "Features and limits may change by plan"
+  ],
+  "alternatives": [
+   "litmaps",
+   "connected-papers",
+   "semantic-scholar"
+  ],
+  "tags": [
+   "literature",
+   "citations",
+   "discovery",
+   "research",
+   "papers"
+  ],
+  "features": [
+   "Collections of seed papers",
+   "Related and citing paper suggestions",
+   "Author exploration",
+   "Visual network view",
+   "Reference manager export"
+  ],
+  "use_cases": [
+   "Starting a literature review",
+   "Finding key authors in a field",
+   "Checking what cites a paper",
+   "Building a reading list"
+  ],
+  "pricing_details": "Pricing was not verified for this listing. ResearchRabbit may offer free and paid options that change over time. Check the official website for current plans.",
+  "faq": [
+   {
+    "q": "What is ResearchRabbit?",
+    "a": "ResearchRabbit is a web tool that helps you discover academic papers related to ones you already have, using citation links and similarity."
+   },
+   {
+    "q": "Does ResearchRabbit replace reading papers?",
+    "a": "No. It helps you find papers; you still have to read them and judge their relevance and quality."
+   },
+   {
+    "q": "How should I start?",
+    "a": "Add three to five papers you know are relevant, then explore the suggested papers and refine your collection."
+   }
+  ],
+  "seo_title": "ResearchRabbit: What It Is and How to Use It",
+  "seo_description": "Learn what ResearchRabbit is, who it suits, key features, pros and cons, and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "paperguide",
+  "name": "Paperguide",
+  "category": "research",
+  "website_url": "https://paperguide.ai",
+  "pricing": "Unknown",
+  "tagline": "AI research assistant for finding, reading and organizing papers.",
+  "best_for": "Students and researchers who want AI help reading and summarizing papers",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Paperguide is an AI-assisted research workspace. It lets you search for academic papers, upload your own PDFs, ask questions about them and keep notes and references together in one place.\n\n\nIt is aimed at students and researchers who spend a lot of time reading papers. AI summaries and answers can speed up first-pass reading, but they can miss nuance or be wrong, so verify important claims against the original text before citing anything. Plans and limits change, so check the official site for current plans.",
+  "use_steps": [
+   "Sign up on the website.",
+   "Search for papers or upload PDFs.",
+   "Ask questions or request summaries of a paper.",
+   "Save notes and references, then check key claims in the source."
+  ],
+  "pros": [
+   "Combines search, reading and notes",
+   "Works with your own PDFs",
+   "Useful for quick first-pass reading",
+   "Keeps references organized"
+  ],
+  "cons": [
+   "AI summaries can be inaccurate",
+   "Plan limits may apply"
+  ],
+  "alternatives": [
+   "elicit",
+   "consensus",
+   "scholarcy"
+  ],
+  "tags": [
+   "research",
+   "pdf",
+   "summaries",
+   "citations",
+   "ai"
+  ],
+  "features": [
+   "Paper search",
+   "PDF upload and chat",
+   "AI summaries",
+   "Notes and reference management",
+   "Writing support"
+  ],
+  "use_cases": [
+   "Skimming papers for a literature review",
+   "Asking questions about a PDF",
+   "Organizing sources for an essay",
+   "Extracting key points from a study"
+  ],
+  "pricing_details": "Pricing was not verified for this listing. Paperguide may offer free and paid options that change over time. Check the official website for current plans.",
+  "faq": [
+   {
+    "q": "What is Paperguide?",
+    "a": "Paperguide is a web-based AI research assistant for searching, reading, summarizing and organizing academic papers."
+   },
+   {
+    "q": "Can I trust the AI summaries?",
+    "a": "Treat them as a starting point and confirm important details in the original paper."
+   },
+   {
+    "q": "Is Paperguide free?",
+    "a": "It has a pricing page on its site; check the official website for current plans and limits."
+   }
+  ],
+  "seo_title": "Paperguide: What It Is and How to Use It",
+  "seo_description": "Learn what Paperguide is, who it suits, key features, pros and cons, and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "undermind",
+  "name": "Undermind",
+  "category": "research",
+  "website_url": "https://undermind.ai",
+  "pricing": "Unknown",
+  "tagline": "AI search agent for scientific literature.",
+  "best_for": "Deep, targeted searches of scientific literature",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Undermind is a search tool built for scientific literature. You describe in detail what kind of paper or result you are looking for, and it runs a more thorough search than a simple keyword query, then returns a ranked list of relevant papers.\n\n\nIt is useful when a topic is specific or hard to describe with keywords, such as a particular method applied to a particular problem. As with any AI search, results can miss relevant work, so combine it with other databases and read the papers you rely on. Plans and limits change, so check the official site for current plans.",
+  "use_steps": [
+   "Open the website and sign in.",
+   "Describe your research question in plain, detailed language.",
+   "Answer any clarifying questions and wait for the search to finish.",
+   "Review the results and follow up in other databases."
+  ],
+  "pros": [
+   "Handles detailed natural-language queries",
+   "Aimed specifically at scientific papers",
+   "Helps with niche topics",
+   "Complements keyword databases"
+  ],
+  "cons": [
+   "Searches may take longer than keyword search",
+   "Coverage and limits depend on plan"
+  ],
+  "alternatives": [
+   "elicit",
+   "consensus",
+   "semantic-scholar"
+  ],
+  "tags": [
+   "literature",
+   "search",
+   "science",
+   "papers",
+   "ai"
+  ],
+  "features": [
+   "Natural-language literature search",
+   "Ranked paper results",
+   "Clarifying questions",
+   "Focus on scientific papers"
+  ],
+  "use_cases": [
+   "Finding papers on a niche method",
+   "Checking whether an idea has been studied",
+   "Preparing a related-work section",
+   "Scoping a thesis topic"
+  ],
+  "pricing_details": "Pricing was not verified for this listing. Undermind may offer free and paid options that change over time. Check the official website for current plans.",
+  "faq": [
+   {
+    "q": "What is Undermind?",
+    "a": "Undermind is an AI-driven search tool for finding scientific papers from a detailed description of what you need."
+   },
+   {
+    "q": "Should it be my only search tool?",
+    "a": "No. Use it alongside databases such as Google Scholar to reduce the chance of missing relevant work."
+   },
+   {
+    "q": "How do I get better results?",
+    "a": "Describe the problem, method and context in detail rather than a few keywords."
+   }
+  ],
+  "seo_title": "Undermind: What It Is and How to Use It",
+  "seo_description": "Learn what Undermind is, who it suits, key features, pros and cons, and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "askyourpdf",
+  "name": "AskYourPDF",
+  "category": "research",
+  "website_url": "https://askyourpdf.com",
+  "pricing": "Unknown",
+  "tagline": "Chat-with-PDF tool for asking questions about documents.",
+  "best_for": "Quickly querying long PDFs such as papers and reports",
+  "platforms": [
+   "Web"
+  ],
+  "description": "AskYourPDF lets you upload a PDF and ask questions about it in a chat. Instead of scrolling through a long paper or report, you can ask for a summary, a definition or where a topic is discussed.\n\n\nIt is handy for study material, research papers and long reports. Answers are generated by AI and can be incomplete, so use the chat to find the relevant section and then read it yourself before quoting or citing. Plans and limits change, so check the official site for current plans.",
+  "use_steps": [
+   "Open the website and create an account.",
+   "Upload a PDF document.",
+   "Ask questions or request a summary in the chat.",
+   "Verify answers against the page text."
+  ],
+  "pros": [
+   "Saves time on long documents",
+   "Simple question-and-answer format",
+   "Useful for study and research",
+   "Good for locating sections"
+  ],
+  "cons": [
+   "Answers can be incomplete or wrong",
+   "Limits may vary by plan"
+  ],
+  "alternatives": [
+   "scholarcy",
+   "notebooklm",
+   "paperguide"
+  ],
+  "tags": [
+   "pdf",
+   "chat",
+   "summaries",
+   "study",
+   "documents"
+  ],
+  "features": [
+   "PDF upload",
+   "Chat-style questions",
+   "Summaries",
+   "Document search"
+  ],
+  "use_cases": [
+   "Summarizing a research paper",
+   "Finding a definition in a textbook PDF",
+   "Preparing for a meeting from a report",
+   "Checking where a topic appears"
+  ],
+  "pricing_details": "Pricing was not verified for this listing. AskYourPDF may offer free and paid options that change over time. Check the official website for current plans.",
+  "faq": [
+   {
+    "q": "What is AskYourPDF?",
+    "a": "AskYourPDF is a tool for chatting with PDF documents to get answers and summaries."
+   },
+   {
+    "q": "Can I rely on its answers?",
+    "a": "Use them as a guide and check the original text before using any quote or figure."
+   },
+   {
+    "q": "Is it free?",
+    "a": "Check the official website for current plans and limits."
+   }
+  ],
+  "seo_title": "AskYourPDF: What It Is and How to Use It",
+  "seo_description": "Learn what AskYourPDF is, who it suits, key features, pros and cons, and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "inciteful",
+  "name": "Inciteful",
+  "category": "research",
+  "website_url": "https://inciteful.xyz",
+  "pricing": "Unknown",
+  "tagline": "Free-to-explore citation network tool for finding related papers.",
+  "best_for": "Mapping the citation network around a few papers",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Inciteful builds a citation network from papers you provide and then helps you explore it. It can surface influential papers, similar work and recent publications connected to your starting set.\n\n\nIt suits researchers and students who want to see how a field fits together and find key papers they may have missed. Like other citation tools, it is only as good as the citation data behind it, so treat it as a discovery aid alongside regular database searches. Plans and limits change, so check the official site for current plans.",
+  "use_steps": [
+   "Open the website.",
+   "Enter one or more papers as a starting point.",
+   "Explore the network of related, similar and recent papers.",
+   "Save the papers you want to read."
+  ],
+  "pros": [
+   "Citation-network based discovery",
+   "Helps find key and recent papers",
+   "Good complement to keyword search",
+   "Useful for literature reviews"
+  ],
+  "cons": [
+   "Depends on available citation data",
+   "Interface may feel technical to beginners"
+  ],
+  "alternatives": [
+   "researchrabbit",
+   "connected-papers",
+   "litmaps"
+  ],
+  "tags": [
+   "citations",
+   "network",
+   "literature",
+   "papers",
+   "discovery"
+  ],
+  "features": [
+   "Citation network building",
+   "Related paper discovery",
+   "Recent paper suggestions",
+   "Paper-based starting points"
+  ],
+  "use_cases": [
+   "Finding influential papers",
+   "Starting a literature review",
+   "Spotting recent work on a topic",
+   "Checking connections between papers"
+  ],
+  "pricing_details": "Pricing was not verified for this listing. Check the official website for current plans.",
+  "faq": [
+   {
+    "q": "What is Inciteful?",
+    "a": "Inciteful is a web tool that builds citation networks from papers you enter to help you discover related research."
+   },
+   {
+    "q": "Do I need to pay?",
+    "a": "Check the official website for current plans and any limits."
+   },
+   {
+    "q": "Is it enough on its own?",
+    "a": "No. Combine it with database searches and your own reading."
+   }
+  ],
+  "seo_title": "Inciteful: What It Is and How to Use It",
+  "seo_description": "Learn what Inciteful is, who it suits, key features, pros and cons, and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ }
+]

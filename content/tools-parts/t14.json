@@ -1,0 +1,3481 @@
+[
+ {
+  "slug": "slidesai",
+  "name": "SlidesAI",
+  "category": "design",
+  "website_url": "https://www.slidesai.io",
+  "pricing": "Unknown",
+  "tagline": "AI tool that turns text into presentation slides.",
+  "best_for": "Turning notes or articles into a first-draft deck",
+  "platforms": [
+   "Web"
+  ],
+  "description": "SlidesAI is a presentation helper that takes text you paste in and builds slides from it. It is aimed at people who already have notes, an outline or an article and want a starting deck rather than a blank page.\n\nTreat the result as a draft. You will still want to tighten wording, check facts and adjust the layout so the deck matches your message and audience. Features and plans change over time, so check the official site for current plans.",
+  "use_steps": [
+   "Open SlidesAI and sign in or create an account if needed.",
+   "To begin, paste a short outline or article section.",
+   "Edit and refine the result until it fits your purpose.",
+   "Export or share it, then review the output yourself before using it."
+  ],
+  "pros": [
+   "Fast route from text to a draft deck",
+   "Useful when you already have written content",
+   "Easy to try with a small sample"
+  ],
+  "cons": [
+   "Generated structure may need heavy editing",
+   "Design control can be limited"
+  ],
+  "alternatives": [
+   "gamma",
+   "beautiful-ai",
+   "decktopus"
+  ],
+  "tags": [
+   "slides",
+   "presentation",
+   "ai",
+   "text-to-slides"
+  ],
+  "features": [
+   "Text-to-slides generation",
+   "Theme and layout choices",
+   "Editing generated slides",
+   "Export for presenting"
+  ],
+  "use_cases": [
+   "Draft a class presentation from notes",
+   "Summarise a report into slides",
+   "Prepare a quick team update"
+  ],
+  "pricing_details": "Plans, limits and prices for SlidesAI change over time. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is SlidesAI?",
+    "a": "AI tool that turns text into presentation slides. SlidesAI is a presentation helper that takes text you paste in and builds slides from it."
+   },
+   {
+    "q": "Is SlidesAI free?",
+    "a": "Pricing and free options can change. Check the official site for the current plans before relying on it."
+   },
+   {
+    "q": "Who is SlidesAI best for?",
+    "a": "Turning notes or articles into a first-draft deck. Review the results yourself and compare with the alternatives listed on this page."
+   }
+  ],
+  "seo_title": "SlidesAI: What It Is and How to Use It",
+  "seo_description": "Learn what SlidesAI is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "decktopus",
+  "name": "Decktopus",
+  "category": "design",
+  "website_url": "https://www.decktopus.com",
+  "pricing": "Unknown",
+  "tagline": "AI presentation maker with guided slide creation.",
+  "best_for": "Building structured decks from a topic or prompt",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Decktopus is an online presentation maker that uses AI to propose a deck structure from a topic or prompt. It offers ready-made layouts so you can fill in content instead of designing every slide from scratch.\n\nIt suits people who present occasionally and want guidance on flow, such as sales updates or school talks. As with any generator, review each slide for accuracy and make sure the story matches what you actually want to say. Features and plans change over time, so check the official site for current plans.",
+  "use_steps": [
+   "Open Decktopus and sign in or create an account if needed.",
+   "To begin, enter your topic and audience.",
+   "Edit and refine the result until it fits your purpose.",
+   "Export or share it, then review the output yourself before using it."
+  ],
+  "pros": [
+   "Guided structure helps beginners",
+   "Layouts reduce design work",
+   "Browser-based, nothing to install"
+  ],
+  "cons": [
+   "Output can feel template-like",
+   "Advanced customisation may be limited"
+  ],
+  "alternatives": [
+   "gamma",
+   "slidesai",
+   "canva"
+  ],
+  "tags": [
+   "slides",
+   "presentation",
+   "ai",
+   "templates"
+  ],
+  "features": [
+   "Prompt-based deck creation",
+   "Pre-designed slide layouts",
+   "Brand colours and fonts",
+   "Sharing and presenting online"
+  ],
+  "use_cases": [
+   "Pitch outline for a small business",
+   "Training session slides",
+   "Student project presentation"
+  ],
+  "pricing_details": "Plans, limits and prices for Decktopus change over time. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Decktopus?",
+    "a": "AI presentation maker with guided slide creation. Decktopus is an online presentation maker that uses AI to propose a deck structure from a topic or prompt."
+   },
+   {
+    "q": "Is Decktopus free?",
+    "a": "Pricing and free options can change. Check the official site for the current plans before relying on it."
+   },
+   {
+    "q": "Who is Decktopus best for?",
+    "a": "Building structured decks from a topic or prompt. Review the results yourself and compare with the alternatives listed on this page."
+   }
+  ],
+  "seo_title": "Decktopus: What It Is and How to Use It",
+  "seo_description": "Learn what Decktopus is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "slidebean",
+  "name": "Slidebean",
+  "category": "design",
+  "website_url": "https://slidebean.com",
+  "pricing": "Unknown",
+  "tagline": "Presentation software with AI help, known for pitch decks.",
+  "best_for": "Startup-style pitch and investor decks",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Slidebean is a presentation tool that has focused on pitch decks and company presentations. You add content and the software arranges it into designed slides, so the focus stays on the message rather than formatting.\n\nIt is most relevant to founders and small teams preparing investor or customer decks. Any financial figures and claims in the deck are your responsibility, so verify them before presenting to anyone. Features and plans change over time, so check the official site for current plans.",
+  "use_steps": [
+   "Open Slidebean and sign in or create an account if needed.",
+   "To begin, add your pitch content section by section.",
+   "Edit and refine the result until it fits your purpose.",
+   "Export or share it, then review the output yourself before using it."
+  ],
+  "pros": [
+   "Designed for pitch-style decks",
+   "Layout handled automatically",
+   "Good for non-designers"
+  ],
+  "cons": [
+   "Less suited to highly custom design",
+   "Niche focus on business decks"
+  ],
+  "alternatives": [
+   "pitch",
+   "gamma",
+   "beautiful-ai"
+  ],
+  "tags": [
+   "pitch-deck",
+   "startup",
+   "slides",
+   "presentation"
+  ],
+  "features": [
+   "Automatic slide layout",
+   "Pitch deck templates",
+   "AI-assisted content suggestions",
+   "Sharing and presenting"
+  ],
+  "use_cases": [
+   "Investor pitch deck",
+   "Company overview presentation",
+   "Sales proposal slides"
+  ],
+  "pricing_details": "Plans, limits and prices for Slidebean change over time. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Slidebean?",
+    "a": "Presentation software with AI help, known for pitch decks. Slidebean is a presentation tool that has focused on pitch decks and company presentations."
+   },
+   {
+    "q": "Is Slidebean free?",
+    "a": "Pricing and free options can change. Check the official site for the current plans before relying on it."
+   },
+   {
+    "q": "Who is Slidebean best for?",
+    "a": "Startup-style pitch and investor decks. Review the results yourself and compare with the alternatives listed on this page."
+   }
+  ],
+  "seo_title": "Slidebean: What It Is and How to Use It",
+  "seo_description": "Learn what Slidebean is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "mentimeter",
+  "name": "Mentimeter",
+  "category": "design",
+  "website_url": "https://www.mentimeter.com",
+  "pricing": "Freemium",
+  "tagline": "Interactive presentation tool with live polls and quizzes.",
+  "best_for": "Engaging audiences with live polls and Q&A",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "Mentimeter lets presenters add live polls, word clouds, quizzes and question-and-answer slides to a presentation. Audience members respond from their own phones, so you see answers appear while you speak.\n\nIt is popular in classrooms, workshops and meetings where participation matters. Plan your questions in advance, since a poll works best when it supports a clear point in your talk. Features and plans change over time, so check the official site for current plans.",
+  "use_steps": [
+   "Open Mentimeter and sign in or create an account if needed.",
+   "To begin, create a presentation and add a poll slide.",
+   "Edit and refine the result until it fits your purpose.",
+   "Export or share it, then review the output yourself before using it."
+  ],
+  "pros": [
+   "Strong audience participation",
+   "Works on phones without an app install",
+   "Helpful for teaching and workshops"
+  ],
+  "cons": [
+   "Needs audience internet access",
+   "Some features sit behind paid plans"
+  ],
+  "alternatives": [
+   "pitch",
+   "prezi",
+   "visme"
+  ],
+  "tags": [
+   "polls",
+   "interactive",
+   "presentation",
+   "audience"
+  ],
+  "features": [
+   "Live polls and quizzes",
+   "Word clouds",
+   "Audience Q&A",
+   "Results shown in real time"
+  ],
+  "use_cases": [
+   "Classroom check-for-understanding",
+   "Workshop icebreakers",
+   "Town hall Q&A"
+  ],
+  "pricing_details": "Mentimeter is generally offered with a free plan or trial and paid tiers. Plans and limits can change, so check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Mentimeter?",
+    "a": "Interactive presentation tool with live polls and quizzes. Mentimeter lets presenters add live polls, word clouds, quizzes and question-and-answer slides to a presentation."
+   },
+   {
+    "q": "Is Mentimeter free?",
+    "a": "Pricing and free options can change. Check the official site for the current plans before relying on it."
+   },
+   {
+    "q": "Who is Mentimeter best for?",
+    "a": "Engaging audiences with live polls and Q&A. Review the results yourself and compare with the alternatives listed on this page."
+   }
+  ],
+  "seo_title": "Mentimeter: What It Is and How to Use It",
+  "seo_description": "Learn what Mentimeter is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "slidesgo",
+  "name": "Slidesgo",
+  "category": "design",
+  "website_url": "https://slidesgo.com",
+  "pricing": "Unknown",
+  "tagline": "Library of presentation templates for Google Slides and PowerPoint.",
+  "best_for": "Ready-made themed decks to customise",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Slidesgo is a gallery of presentation templates designed for Google Slides and PowerPoint. You browse by topic or style, pick a theme and replace the sample content with your own.\n\nIt also offers some AI features for drafting slides. It suits students and teachers who want a polished look without design work. Check the licence terms and attribution rules for each template before using it. Features and plans change over time, so check the official site for current plans.",
+  "use_steps": [
+   "Open Slidesgo and sign in or create an account if needed.",
+   "To begin, choose a template that fits your topic.",
+   "Edit and refine the result until it fits your purpose.",
+   "Export or share it, then review the output yourself before using it."
+  ],
+  "pros": [
+   "Wide variety of themes",
+   "Familiar editing in Slides or PowerPoint",
+   "Quick start for non-designers"
+  ],
+  "cons": [
+   "Templates are used by many people",
+   "Licence conditions apply"
+  ],
+  "alternatives": [
+   "canva",
+   "gamma",
+   "slidesai"
+  ],
+  "tags": [
+   "templates",
+   "slides",
+   "powerpoint",
+   "google-slides"
+  ],
+  "features": [
+   "Themed template library",
+   "Google Slides and PowerPoint formats",
+   "Editable layouts",
+   "Education-focused designs"
+  ],
+  "use_cases": [
+   "School presentations",
+   "Lesson slides",
+   "Simple business reports"
+  ],
+  "pricing_details": "Plans, limits and prices for Slidesgo change over time. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Slidesgo?",
+    "a": "Library of presentation templates for Google Slides and PowerPoint. Slidesgo is a gallery of presentation templates designed for Google Slides and PowerPoint."
+   },
+   {
+    "q": "Is Slidesgo free?",
+    "a": "Pricing and free options can change. Check the official site for the current plans before relying on it."
+   },
+   {
+    "q": "Who is Slidesgo best for?",
+    "a": "Ready-made themed decks to customise. Review the results yourself and compare with the alternatives listed on this page."
+   }
+  ],
+  "seo_title": "Slidesgo: What It Is and How to Use It",
+  "seo_description": "Learn what Slidesgo is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "storydoc",
+  "name": "Storydoc",
+  "category": "design",
+  "website_url": "https://www.storydoc.com",
+  "pricing": "Unknown",
+  "tagline": "Interactive decks and documents that read like web stories.",
+  "best_for": "Sales and marketing decks that people scroll through",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Storydoc creates interactive decks and documents that are viewed as scrolling web pages rather than static slides. You work from templates and add your content, and the result can be shared by link.\n\nIt targets sales, marketing and fundraising teams who send material to readers instead of presenting live. Check how sharing and analytics work on the official site before choosing it for client-facing material. Features and plans change over time, so check the official site for current plans.",
+  "use_steps": [
+   "Open Storydoc and sign in or create an account if needed.",
+   "To begin, start from a template and replace the content.",
+   "Edit and refine the result until it fits your purpose.",
+   "Export or share it, then review the output yourself before using it."
+  ],
+  "pros": [
+   "Modern reading format",
+   "Designed for sending, not just presenting",
+   "Template-driven"
+  ],
+  "cons": [
+   "Different from classic slide formats",
+   "Aimed at business users"
+  ],
+  "alternatives": [
+   "pitch",
+   "gamma",
+   "visme"
+  ],
+  "tags": [
+   "interactive",
+   "decks",
+   "sales",
+   "documents"
+  ],
+  "features": [
+   "Interactive scrolling decks",
+   "Templates for business use",
+   "Share by link",
+   "Editing with content blocks"
+  ],
+  "use_cases": [
+   "Sales proposals",
+   "Company profiles",
+   "Investor updates"
+  ],
+  "pricing_details": "Plans, limits and prices for Storydoc change over time. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Storydoc?",
+    "a": "Interactive decks and documents that read like web stories. Storydoc creates interactive decks and documents that are viewed as scrolling web pages rather than static slides."
+   },
+   {
+    "q": "Is Storydoc free?",
+    "a": "Pricing and free options can change. Check the official site for the current plans before relying on it."
+   },
+   {
+    "q": "Who is Storydoc best for?",
+    "a": "Sales and marketing decks that people scroll through. Review the results yourself and compare with the alternatives listed on this page."
+   }
+  ],
+  "seo_title": "Storydoc: What It Is and How to Use It",
+  "seo_description": "Learn what Storydoc is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "sketch",
+  "name": "Sketch",
+  "category": "design",
+  "website_url": "https://www.sketch.com",
+  "pricing": "Unknown",
+  "tagline": "Vector design tool for interface and icon design on Mac.",
+  "best_for": "Mac-based UI and icon design",
+  "platforms": [
+   "macOS",
+   "Web"
+  ],
+  "description": "Sketch is a vector design application focused on user interface work, with tools for artboards, symbols and reusable components. It was among the earlier tools built specifically for app and web design.\n\nTeams use it to build design systems and hand designs to developers. Its native app is for Mac, so check the official site for collaboration options and current plans. Features and plans change over time, so check the official site for current plans.",
+  "use_steps": [
+   "Open Sketch and sign in or create an account if needed.",
+   "To begin, create an artboard and draw your first screen.",
+   "Edit and refine the result until it fits your purpose.",
+   "Export or share it, then review the output yourself before using it."
+  ],
+  "pros": [
+   "Built for interface design",
+   "Reusable components",
+   "Established plugin ecosystem"
+  ],
+  "cons": [
+   "Native app is Mac only",
+   "Many teams now prefer browser tools"
+  ],
+  "alternatives": [
+   "figma",
+   "penpot",
+   "framer"
+  ],
+  "tags": [
+   "ui-design",
+   "vector",
+   "mac",
+   "design-systems"
+  ],
+  "features": [
+   "Vector editing",
+   "Reusable symbols",
+   "Artboards",
+   "Developer handoff"
+  ],
+  "use_cases": [
+   "Mobile app screens",
+   "Icon sets",
+   "Design system libraries"
+  ],
+  "pricing_details": "Plans, limits and prices for Sketch change over time. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Sketch?",
+    "a": "Vector design tool for interface and icon design on Mac. Sketch is a vector design application focused on user interface work, with tools for artboards, symbols and reusable components."
+   },
+   {
+    "q": "Is Sketch free?",
+    "a": "Pricing and free options can change. Check the official site for the current plans before relying on it."
+   },
+   {
+    "q": "Who is Sketch best for?",
+    "a": "Mac-based UI and icon design. Review the results yourself and compare with the alternatives listed on this page."
+   }
+  ],
+  "seo_title": "Sketch: What It Is and How to Use It",
+  "seo_description": "Learn what Sketch is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "balsamiq",
+  "name": "Balsamiq",
+  "category": "design",
+  "website_url": "https://balsamiq.com",
+  "pricing": "Unknown",
+  "tagline": "Low-fidelity wireframing tool with a sketch-style look.",
+  "best_for": "Fast, rough wireframes before visual design",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Balsamiq is a wireframing tool that deliberately keeps designs rough, with a hand-drawn look. This helps teams discuss structure and flow without arguing about colours or fonts.\n\nIt suits product teams, analysts and students planning screens early. For polished visuals or detailed prototypes, you would move to another tool. Check the official site for current versions and plans. Features and plans change over time, so check the official site for current plans.",
+  "use_steps": [
+   "Open Balsamiq and sign in or create an account if needed.",
+   "To begin, drag basic elements onto a blank canvas.",
+   "Edit and refine the result until it fits your purpose.",
+   "Export or share it, then review the output yourself before using it."
+  ],
+  "pros": [
+   "Keeps focus on structure",
+   "Quick to learn",
+   "Great for early feedback"
+  ],
+  "cons": [
+   "Not for final visual design",
+   "Limited high-fidelity options"
+  ],
+  "alternatives": [
+   "moqups",
+   "figma",
+   "whimsical"
+  ],
+  "tags": [
+   "wireframes",
+   "ux",
+   "low-fidelity",
+   "prototyping"
+  ],
+  "features": [
+   "Drag-and-drop UI elements",
+   "Sketch-style wireframes",
+   "Reusable components",
+   "Linking screens"
+  ],
+  "use_cases": [
+   "Early app planning",
+   "Requirement discussions",
+   "Website structure drafts"
+  ],
+  "pricing_details": "Plans, limits and prices for Balsamiq change over time. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Balsamiq?",
+    "a": "Low-fidelity wireframing tool with a sketch-style look. Balsamiq is a wireframing tool that deliberately keeps designs rough, with a hand-drawn look."
+   },
+   {
+    "q": "Is Balsamiq free?",
+    "a": "Pricing and free options can change. Check the official site for the current plans before relying on it."
+   },
+   {
+    "q": "Who is Balsamiq best for?",
+    "a": "Fast, rough wireframes before visual design. Review the results yourself and compare with the alternatives listed on this page."
+   }
+  ],
+  "seo_title": "Balsamiq: What It Is and How to Use It",
+  "seo_description": "Learn what Balsamiq is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "moqups",
+  "name": "Moqups",
+  "category": "design",
+  "website_url": "https://moqups.com",
+  "pricing": "Unknown",
+  "tagline": "Browser-based wireframing, mockup and diagram tool.",
+  "best_for": "Wireframes and simple diagrams in one workspace",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Moqups is an online design tool for wireframes, mockups and diagrams. It offers stencil libraries and templates so you can assemble screens or flowcharts quickly.\n\nIt suits teams who want one place for planning screens and documenting flows. Review current plans and export options on the official site before choosing it for team work. Features and plans change over time, so check the official site for current plans.",
+  "use_steps": [
+   "Open Moqups and sign in or create an account if needed.",
+   "To begin, pick a template and edit the placeholder content.",
+   "Edit and refine the result until it fits your purpose.",
+   "Export or share it, then review the output yourself before using it."
+  ],
+  "pros": [
+   "Combines wireframes and diagrams",
+   "Browser-based",
+   "Approachable interface"
+  ],
+  "cons": [
+   "Smaller community than larger tools",
+   "Advanced design features limited"
+  ],
+  "alternatives": [
+   "balsamiq",
+   "figma",
+   "lucidchart"
+  ],
+  "tags": [
+   "wireframes",
+   "mockups",
+   "diagrams",
+   "ux"
+  ],
+  "features": [
+   "Wireframe stencils",
+   "Diagrams and flowcharts",
+   "Templates",
+   "Commenting and sharing"
+  ],
+  "use_cases": [
+   "Website wireframes",
+   "User flow charts",
+   "Client mockup reviews"
+  ],
+  "pricing_details": "Plans, limits and prices for Moqups change over time. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Moqups?",
+    "a": "Browser-based wireframing, mockup and diagram tool. Moqups is an online design tool for wireframes, mockups and diagrams."
+   },
+   {
+    "q": "Is Moqups free?",
+    "a": "Pricing and free options can change. Check the official site for the current plans before relying on it."
+   },
+   {
+    "q": "Who is Moqups best for?",
+    "a": "Wireframes and simple diagrams in one workspace. Review the results yourself and compare with the alternatives listed on this page."
+   }
+  ],
+  "seo_title": "Moqups: What It Is and How to Use It",
+  "seo_description": "Learn what Moqups is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "miro",
+  "name": "Miro",
+  "category": "design",
+  "website_url": "https://miro.com",
+  "pricing": "Freemium",
+  "tagline": "Online whiteboard for workshops, brainstorming and planning.",
+  "best_for": "Collaborative whiteboarding with teams",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "Miro is an online whiteboard where teams add sticky notes, diagrams, images and documents on an endless canvas. It is commonly used for brainstorming, retrospectives and mapping out ideas together.\n\nTemplates cover many workshop formats, and AI features have been added for tasks such as organising notes. Check the official site for current plans, limits and AI options. Features and plans change over time, so check the official site for current plans.",
+  "use_steps": [
+   "Open Miro and sign in or create an account if needed.",
+   "To begin, open a template board and invite collaborators.",
+   "Edit and refine the result until it fits your purpose.",
+   "Export or share it, then review the output yourself before using it."
+  ],
+  "pros": [
+   "Strong for remote teamwork",
+   "Large template library",
+   "Works across devices"
+  ],
+  "cons": [
+   "Large boards can feel busy",
+   "Team features depend on plan"
+  ],
+  "alternatives": [
+   "figjam",
+   "lucidchart",
+   "whimsical"
+  ],
+  "tags": [
+   "whiteboard",
+   "collaboration",
+   "brainstorming",
+   "diagrams"
+  ],
+  "features": [
+   "Infinite canvas",
+   "Sticky notes and diagrams",
+   "Templates for workshops",
+   "Real-time collaboration"
+  ],
+  "use_cases": [
+   "Sprint retrospectives",
+   "User journey mapping",
+   "Remote brainstorming"
+  ],
+  "pricing_details": "Miro is generally offered with a free plan or trial and paid tiers. Plans and limits can change, so check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Miro?",
+    "a": "Online whiteboard for workshops, brainstorming and planning. Miro is an online whiteboard where teams add sticky notes, diagrams, images and documents on an endless canvas."
+   },
+   {
+    "q": "Is Miro free?",
+    "a": "Pricing and free options can change. Check the official site for the current plans before relying on it."
+   },
+   {
+    "q": "Who is Miro best for?",
+    "a": "Collaborative whiteboarding with teams. Review the results yourself and compare with the alternatives listed on this page."
+   }
+  ],
+  "seo_title": "Miro: What It Is and How to Use It",
+  "seo_description": "Learn what Miro is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "whimsical",
+  "name": "Whimsical",
+  "category": "design",
+  "website_url": "https://whimsical.com",
+  "pricing": "Unknown",
+  "tagline": "Visual workspace for flowcharts, wireframes and mind maps.",
+  "best_for": "Clean flowcharts and quick wireframes",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Whimsical combines flowcharts, wireframes, mind maps and docs in a clean visual workspace. Its simple controls make it quick to sketch a process or outline without a long learning curve.\n\nIt suits product and engineering teams who want tidy diagrams for discussions. Review the official site for current plans and for any AI diagram features. Features and plans change over time, so check the official site for current plans.",
+  "use_steps": [
+   "Open Whimsical and sign in or create an account if needed.",
+   "To begin, create a new flowchart board.",
+   "Edit and refine the result until it fits your purpose.",
+   "Export or share it, then review the output yourself before using it."
+  ],
+  "pros": [
+   "Fast and uncluttered",
+   "Several diagram types in one tool",
+   "Easy sharing"
+  ],
+  "cons": [
+   "Less customisable than heavier tools",
+   "Limited free usage can apply"
+  ],
+  "alternatives": [
+   "miro",
+   "lucidchart",
+   "balsamiq"
+  ],
+  "tags": [
+   "flowchart",
+   "mind-map",
+   "wireframe",
+   "collaboration"
+  ],
+  "features": [
+   "Flowcharts",
+   "Wireframes",
+   "Mind maps",
+   "Shared docs and boards"
+  ],
+  "use_cases": [
+   "Process documentation",
+   "Quick app wireframes",
+   "Planning a project outline"
+  ],
+  "pricing_details": "Plans, limits and prices for Whimsical change over time. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Whimsical?",
+    "a": "Visual workspace for flowcharts, wireframes and mind maps. Whimsical combines flowcharts, wireframes, mind maps and docs in a clean visual workspace."
+   },
+   {
+    "q": "Is Whimsical free?",
+    "a": "Pricing and free options can change. Check the official site for the current plans before relying on it."
+   },
+   {
+    "q": "Who is Whimsical best for?",
+    "a": "Clean flowcharts and quick wireframes. Review the results yourself and compare with the alternatives listed on this page."
+   }
+  ],
+  "seo_title": "Whimsical: What It Is and How to Use It",
+  "seo_description": "Learn what Whimsical is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "protopie",
+  "name": "ProtoPie",
+  "category": "design",
+  "website_url": "https://www.protopie.io",
+  "pricing": "Unknown",
+  "tagline": "Prototyping tool for interactive, high-fidelity app prototypes.",
+  "best_for": "Detailed interaction prototypes for apps",
+  "platforms": [
+   "Web",
+   "macOS",
+   "Windows"
+  ],
+  "description": "ProtoPie is a prototyping tool for creating interactive app prototypes that respond to touch, sensors and conditions. It imports designs from other tools and adds logic and animation to them.\n\nDesigners use it to test how an interface should feel before developers build it. It has a learning curve beyond basic click-through prototypes, so check the official site for plans and tutorials. Features and plans change over time, so check the official site for current plans.",
+  "use_steps": [
+   "Open ProtoPie and sign in or create an account if needed.",
+   "To begin, import your screens and add a first interaction.",
+   "Edit and refine the result until it fits your purpose.",
+   "Export or share it, then review the output yourself before using it."
+  ],
+  "pros": [
+   "Rich interaction control",
+   "Realistic prototypes",
+   "Works with existing designs"
+  ],
+  "cons": [
+   "Steeper learning curve",
+   "Aimed at design professionals"
+  ],
+  "alternatives": [
+   "figma",
+   "framer",
+   "sketch"
+  ],
+  "tags": [
+   "prototyping",
+   "interaction",
+   "ux",
+   "animation"
+  ],
+  "features": [
+   "Interaction and animation logic",
+   "Import from design tools",
+   "Device preview",
+   "Sharing prototypes"
+  ],
+  "use_cases": [
+   "Testing app gestures",
+   "Animated onboarding flows",
+   "Hardware-style interface demos"
+  ],
+  "pricing_details": "Plans, limits and prices for ProtoPie change over time. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is ProtoPie?",
+    "a": "Prototyping tool for interactive, high-fidelity app prototypes. ProtoPie is a prototyping tool for creating interactive app prototypes that respond to touch, sensors and conditions."
+   },
+   {
+    "q": "Is ProtoPie free?",
+    "a": "Pricing and free options can change. Check the official site for the current plans before relying on it."
+   },
+   {
+    "q": "Who is ProtoPie best for?",
+    "a": "Detailed interaction prototypes for apps. Review the results yourself and compare with the alternatives listed on this page."
+   }
+  ],
+  "seo_title": "ProtoPie: What It Is and How to Use It",
+  "seo_description": "Learn what ProtoPie is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "visily",
+  "name": "Visily",
+  "category": "design",
+  "website_url": "https://www.visily.ai",
+  "pricing": "Unknown",
+  "tagline": "AI-assisted wireframing and UI design for non-designers.",
+  "best_for": "Wireframes from screenshots or prompts",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Visily is a design tool aimed at people who are not trained designers. It can produce editable wireframes from text prompts or screenshots and offers templates to speed up early planning.\n\nIt is useful for aligning teams around a product idea before detailed design. Generated screens need review, so check the official site for current features and plans. Features and plans change over time, so check the official site for current plans.",
+  "use_steps": [
+   "Open Visily and sign in or create an account if needed.",
+   "To begin, upload a screenshot or write a prompt.",
+   "Edit and refine the result until it fits your purpose.",
+   "Export or share it, then review the output yourself before using it."
+  ],
+  "pros": [
+   "Beginner-friendly",
+   "Speeds up first drafts",
+   "Editable output"
+  ],
+  "cons": [
+   "Less depth than full design suites",
+   "AI results vary"
+  ],
+  "alternatives": [
+   "uizard",
+   "balsamiq",
+   "figma"
+  ],
+  "tags": [
+   "wireframes",
+   "ai",
+   "ui",
+   "collaboration"
+  ],
+  "features": [
+   "Text-to-wireframe",
+   "Screenshot to editable design",
+   "Templates",
+   "Team collaboration"
+  ],
+  "use_cases": [
+   "Product idea wireframes",
+   "Redesign experiments",
+   "Team feedback sessions"
+  ],
+  "pricing_details": "Plans, limits and prices for Visily change over time. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Visily?",
+    "a": "AI-assisted wireframing and UI design for non-designers. Visily is a design tool aimed at people who are not trained designers."
+   },
+   {
+    "q": "Is Visily free?",
+    "a": "Pricing and free options can change. Check the official site for the current plans before relying on it."
+   },
+   {
+    "q": "Who is Visily best for?",
+    "a": "Wireframes from screenshots or prompts. Review the results yourself and compare with the alternatives listed on this page."
+   }
+  ],
+  "seo_title": "Visily: What It Is and How to Use It",
+  "seo_description": "Learn what Visily is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "relume",
+  "name": "Relume",
+  "category": "design",
+  "website_url": "https://www.relume.io",
+  "pricing": "Unknown",
+  "tagline": "AI sitemap and wireframe builder with component libraries.",
+  "best_for": "Planning website structure and wireframes",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Relume helps plan websites by generating a sitemap and wireframes from a short description of the business. It also provides component libraries that designers use in Figma and Webflow.\n\nIt suits agencies and freelancers who want a faster start to client sites. Generated structure is a starting point, so check the official site for current plans and supported tools. Features and plans change over time, so check the official site for current plans.",
+  "use_steps": [
+   "Open Relume and sign in or create an account if needed.",
+   "To begin, describe the website and generate a sitemap.",
+   "Edit and refine the result until it fits your purpose.",
+   "Export or share it, then review the output yourself before using it."
+  ],
+  "pros": [
+   "Speeds up planning",
+   "Component libraries save time",
+   "Aimed at web designers"
+  ],
+  "cons": [
+   "Value depends on your workflow",
+   "Output needs human review"
+  ],
+  "alternatives": [
+   "framer",
+   "uizard",
+   "figma"
+  ],
+  "tags": [
+   "sitemap",
+   "wireframes",
+   "webflow",
+   "web-design"
+  ],
+  "features": [
+   "AI sitemap generation",
+   "Wireframe generation",
+   "Component libraries",
+   "Figma and Webflow support"
+  ],
+  "use_cases": [
+   "Client website planning",
+   "Landing page structure",
+   "Content outline for a site"
+  ],
+  "pricing_details": "Plans, limits and prices for Relume change over time. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Relume?",
+    "a": "AI sitemap and wireframe builder with component libraries. Relume helps plan websites by generating a sitemap and wireframes from a short description of the business."
+   },
+   {
+    "q": "Is Relume free?",
+    "a": "Pricing and free options can change. Check the official site for the current plans before relying on it."
+   },
+   {
+    "q": "Who is Relume best for?",
+    "a": "Planning website structure and wireframes. Review the results yourself and compare with the alternatives listed on this page."
+   }
+  ],
+  "seo_title": "Relume: What It Is and How to Use It",
+  "seo_description": "Learn what Relume is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "lottiefiles",
+  "name": "LottieFiles",
+  "category": "design",
+  "website_url": "https://lottiefiles.com",
+  "pricing": "Unknown",
+  "tagline": "Platform for lightweight Lottie animations and tools.",
+  "best_for": "Finding and editing small web and app animations",
+  "platforms": [
+   "Web"
+  ],
+  "description": "LottieFiles hosts a large collection of Lottie animations, which are lightweight vector animations used in apps and websites. You can browse, preview and download animations or upload your own.\n\nIt also offers tools for editing and testing animations, and plugins for design software. Check each animation's licence and the site's current features and plans. Features and plans change over time, so check the official site for current plans.",
+  "use_steps": [
+   "Open LottieFiles and sign in or create an account if needed.",
+   "To begin, search for an animation and preview it.",
+   "Edit and refine the result until it fits your purpose.",
+   "Export or share it, then review the output yourself before using it."
+  ],
+  "pros": [
+   "Small file sizes",
+   "Large community library",
+   "Works across platforms"
+  ],
+  "cons": [
+   "Licences differ per file",
+   "Complex edits need other tools"
+  ],
+  "alternatives": [
+   "rive",
+   "spline",
+   "framer"
+  ],
+  "tags": [
+   "animation",
+   "lottie",
+   "motion",
+   "ui"
+  ],
+  "features": [
+   "Animation library",
+   "Preview and test animations",
+   "Editing tools",
+   "Design tool plugins"
+  ],
+  "use_cases": [
+   "App loading animations",
+   "Website micro-interactions",
+   "Onboarding illustrations"
+  ],
+  "pricing_details": "Plans, limits and prices for LottieFiles change over time. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is LottieFiles?",
+    "a": "Platform for lightweight Lottie animations and tools. LottieFiles hosts a large collection of Lottie animations, which are lightweight vector animations used in apps and websites."
+   },
+   {
+    "q": "Is LottieFiles free?",
+    "a": "Pricing and free options can change. Check the official site for the current plans before relying on it."
+   },
+   {
+    "q": "Who is LottieFiles best for?",
+    "a": "Finding and editing small web and app animations. Review the results yourself and compare with the alternatives listed on this page."
+   }
+  ],
+  "seo_title": "LottieFiles: What It Is and How to Use It",
+  "seo_description": "Learn what LottieFiles is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "rive",
+  "name": "Rive",
+  "category": "design",
+  "website_url": "https://rive.app",
+  "pricing": "Unknown",
+  "tagline": "Design tool for interactive animations that run in apps and games.",
+  "best_for": "Interactive vector animations with state logic",
+  "platforms": [
+   "Web",
+   "macOS",
+   "Windows"
+  ],
+  "description": "Rive is a design and animation tool for creating interactive graphics that react to user input. Animations use state machines, so a button or character can change behaviour depending on events.\n\nDevelopers embed the result in apps, websites and games using runtime libraries. It takes time to learn, so check the official site for documentation and current plans. Features and plans change over time, so check the official site for current plans.",
+  "use_steps": [
+   "Open Rive and sign in or create an account if needed.",
+   "To begin, draw a shape and animate it on the timeline.",
+   "Edit and refine the result until it fits your purpose.",
+   "Export or share it, then review the output yourself before using it."
+  ],
+  "pros": [
+   "Interactive logic built in",
+   "Efficient output for apps",
+   "Designer and developer friendly"
+  ],
+  "cons": [
+   "Learning curve for state machines",
+   "Needs developer integration"
+  ],
+  "alternatives": [
+   "lottiefiles",
+   "spline",
+   "protopie"
+  ],
+  "tags": [
+   "animation",
+   "interactive",
+   "vector",
+   "runtime"
+  ],
+  "features": [
+   "Vector animation editor",
+   "State machines",
+   "Runtime libraries",
+   "Real-time collaboration"
+  ],
+  "use_cases": [
+   "Animated app buttons",
+   "Game UI elements",
+   "Interactive onboarding"
+  ],
+  "pricing_details": "Plans, limits and prices for Rive change over time. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Rive?",
+    "a": "Design tool for interactive animations that run in apps and games. Rive is a design and animation tool for creating interactive graphics that react to user input."
+   },
+   {
+    "q": "Is Rive free?",
+    "a": "Pricing and free options can change. Check the official site for the current plans before relying on it."
+   },
+   {
+    "q": "Who is Rive best for?",
+    "a": "Interactive vector animations with state logic. Review the results yourself and compare with the alternatives listed on this page."
+   }
+  ],
+  "seo_title": "Rive: What It Is and How to Use It",
+  "seo_description": "Learn what Rive is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "spline",
+  "name": "Spline",
+  "category": "design",
+  "website_url": "https://spline.design",
+  "pricing": "Unknown",
+  "tagline": "Browser-based 3D design tool for interactive web scenes.",
+  "best_for": "Interactive 3D scenes for websites",
+  "platforms": [
+   "Web",
+   "macOS"
+  ],
+  "description": "Spline is a 3D design tool that runs in the browser. You build scenes with shapes, materials and lighting, add interactions and embed them in websites.\n\nIt is aimed at designers who want 3D visuals without learning heavy modelling software. It also includes AI-assisted features. Complex scenes can be demanding, so check the official site for current plans. Features and plans change over time, so check the official site for current plans.",
+  "use_steps": [
+   "Open Spline and sign in or create an account if needed.",
+   "To begin, add a shape and change its material.",
+   "Edit and refine the result until it fits your purpose.",
+   "Export or share it, then review the output yourself before using it."
+  ],
+  "pros": [
+   "Approachable 3D editing",
+   "Embeds in websites",
+   "Collaboration in browser"
+  ],
+  "cons": [
+   "Heavy scenes may run slowly",
+   "Not for detailed film-grade modelling"
+  ],
+  "alternatives": [
+   "blender",
+   "vectary",
+   "rive"
+  ],
+  "tags": [
+   "3d",
+   "web",
+   "interactive",
+   "design"
+  ],
+  "features": [
+   "3D scene editing",
+   "Materials and lighting",
+   "Interactions and events",
+   "Web embedding"
+  ],
+  "use_cases": [
+   "3D hero sections",
+   "Product showcase scenes",
+   "Interactive web art"
+  ],
+  "pricing_details": "Plans, limits and prices for Spline change over time. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Spline?",
+    "a": "Browser-based 3D design tool for interactive web scenes. Spline is a 3D design tool that runs in the browser."
+   },
+   {
+    "q": "Is Spline free?",
+    "a": "Pricing and free options can change. Check the official site for the current plans before relying on it."
+   },
+   {
+    "q": "Who is Spline best for?",
+    "a": "Interactive 3D scenes for websites. Review the results yourself and compare with the alternatives listed on this page."
+   }
+  ],
+  "seo_title": "Spline: What It Is and How to Use It",
+  "seo_description": "Learn what Spline is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "looka",
+  "name": "Looka",
+  "category": "design",
+  "website_url": "https://looka.com",
+  "pricing": "Unknown",
+  "tagline": "AI logo maker with brand kit tools.",
+  "best_for": "Quick logo ideas for small projects",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Looka generates logo options after you enter a business name and choose styles, colours and icons. You can then adjust the designs and see them applied to mock-ups.\n\nIt also offers brand kit tools such as social media assets. Many people use it for early branding, but check licensing, file formats and trademark considerations on the official site before relying on a logo commercially. Features and plans change over time, so check the official site for current plans.",
+  "use_steps": [
+   "Open Looka and sign in or create an account if needed.",
+   "To begin, enter your brand name and pick styles you like.",
+   "Edit and refine the result until it fits your purpose.",
+   "Export or share it, then review the output yourself before using it."
+  ],
+  "pros": [
+   "Quick to explore options",
+   "Beginner friendly",
+   "Brand extras available"
+  ],
+  "cons": [
+   "Designs can look generic",
+   "Check usage rights and plans"
+  ],
+  "alternatives": [
+   "brandmark",
+   "canva",
+   "designs-ai"
+  ],
+  "tags": [
+   "logo",
+   "branding",
+   "ai",
+   "identity"
+  ],
+  "features": [
+   "Logo generation",
+   "Style and colour choices",
+   "Brand kit tools",
+   "Design previews"
+  ],
+  "use_cases": [
+   "Startup logo ideas",
+   "Side project branding",
+   "Social media profile graphics"
+  ],
+  "pricing_details": "Plans, limits and prices for Looka change over time. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Looka?",
+    "a": "AI logo maker with brand kit tools. Looka generates logo options after you enter a business name and choose styles, colours and icons."
+   },
+   {
+    "q": "Is Looka free?",
+    "a": "Pricing and free options can change. Check the official site for the current plans before relying on it."
+   },
+   {
+    "q": "Who is Looka best for?",
+    "a": "Quick logo ideas for small projects. Review the results yourself and compare with the alternatives listed on this page."
+   }
+  ],
+  "seo_title": "Looka: What It Is and How to Use It",
+  "seo_description": "Learn what Looka is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "brandmark",
+  "name": "Brandmark",
+  "category": "design",
+  "website_url": "https://brandmark.io",
+  "pricing": "Unknown",
+  "tagline": "AI logo generator for names, icons and brand assets.",
+  "best_for": "Exploring logo concepts from a name",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Brandmark is an AI logo generator that creates logo concepts from your brand name and preferences. You can adjust fonts, colours and layout and compare the results.\n\nIt suits founders and hobbyists exploring ideas cheaply. Always confirm trademark availability separately and check which files and rights each purchase includes. Features and plans change over time, so check the official site for current plans.",
+  "use_steps": [
+   "Open Brandmark and sign in or create an account if needed.",
+   "To begin, type your name and choose preferences.",
+   "Edit and refine the result until it fits your purpose.",
+   "Export or share it, then review the output yourself before using it."
+  ],
+  "pros": [
+   "Fast concept generation",
+   "Simple process",
+   "Adjustable designs"
+  ],
+  "cons": [
+   "Generic results possible",
+   "No substitute for a designer on bigger projects"
+  ],
+  "alternatives": [
+   "looka",
+   "canva",
+   "designs-ai"
+  ],
+  "tags": [
+   "logo",
+   "branding",
+   "generator",
+   "ai"
+  ],
+  "features": [
+   "Logo generation",
+   "Colour and font adjustment",
+   "Brand name input",
+   "Downloadable logo files"
+  ],
+  "use_cases": [
+   "Early brand exploration",
+   "Domain-matched logos",
+   "Simple business marks"
+  ],
+  "pricing_details": "Plans, limits and prices for Brandmark change over time. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Brandmark?",
+    "a": "AI logo generator for names, icons and brand assets. Brandmark is an AI logo generator that creates logo concepts from your brand name and preferences."
+   },
+   {
+    "q": "Is Brandmark free?",
+    "a": "Pricing and free options can change. Check the official site for the current plans before relying on it."
+   },
+   {
+    "q": "Who is Brandmark best for?",
+    "a": "Exploring logo concepts from a name. Review the results yourself and compare with the alternatives listed on this page."
+   }
+  ],
+  "seo_title": "Brandmark: What It Is and How to Use It",
+  "seo_description": "Learn what Brandmark is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "recraft",
+  "name": "Recraft",
+  "category": "design",
+  "website_url": "https://www.recraft.ai",
+  "pricing": "Unknown",
+  "tagline": "AI image generator with vector and brand-style outputs.",
+  "best_for": "Illustrations, icons and vector-style graphics",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Recraft is an AI image tool that generates raster and vector-style graphics from text prompts. It is positioned toward designers who want consistent styles for icons, illustrations and marketing visuals.\n\nOutputs should be reviewed for quality and licensing before commercial use. Check the official site for current models, export formats and plans. Features and plans change over time, so check the official site for current plans.",
+  "use_steps": [
+   "Open Recraft and sign in or create an account if needed.",
+   "To begin, write a prompt and choose a style.",
+   "Edit and refine the result until it fits your purpose.",
+   "Export or share it, then review the output yourself before using it."
+  ],
+  "pros": [
+   "Designer-focused features",
+   "Vector-oriented output",
+   "Style consistency tools"
+  ],
+  "cons": [
+   "AI output varies in quality",
+   "Check usage rights"
+  ],
+  "alternatives": [
+   "ideogram",
+   "adobe-firefly",
+   "midjourney"
+  ],
+  "tags": [
+   "ai-image",
+   "vector",
+   "illustration",
+   "design"
+  ],
+  "features": [
+   "Text-to-image generation",
+   "Vector-style output",
+   "Style controls",
+   "Editing tools"
+  ],
+  "use_cases": [
+   "Icon sets",
+   "Marketing illustrations",
+   "Concept art"
+  ],
+  "pricing_details": "Plans, limits and prices for Recraft change over time. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Recraft?",
+    "a": "AI image generator with vector and brand-style outputs. Recraft is an AI image tool that generates raster and vector-style graphics from text prompts."
+   },
+   {
+    "q": "Is Recraft free?",
+    "a": "Pricing and free options can change. Check the official site for the current plans before relying on it."
+   },
+   {
+    "q": "Who is Recraft best for?",
+    "a": "Illustrations, icons and vector-style graphics. Review the results yourself and compare with the alternatives listed on this page."
+   }
+  ],
+  "seo_title": "Recraft: What It Is and How to Use It",
+  "seo_description": "Learn what Recraft is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "coolors",
+  "name": "Coolors",
+  "category": "design",
+  "website_url": "https://coolors.co",
+  "pricing": "Freemium",
+  "tagline": "Colour palette generator for designers and developers.",
+  "best_for": "Creating and saving colour palettes quickly",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "Coolors is a colour palette generator where you press a key to produce new combinations and lock the colours you like. You can save palettes, adjust shades and export them for design work.\n\nIt helps beginners and professionals pick harmonious colours quickly. Check contrast and accessibility yourself before using a palette in a real interface. Features and plans change over time, so check the official site for current plans.",
+  "use_steps": [
+   "Open Coolors and sign in or create an account if needed.",
+   "To begin, press generate and lock colours you like.",
+   "Edit and refine the result until it fits your purpose.",
+   "Export or share it, then review the output yourself before using it."
+  ],
+  "pros": [
+   "Very quick to use",
+   "Simple controls",
+   "Good for inspiration"
+  ],
+  "cons": [
+   "Does not check accessibility for you",
+   "Some features need a paid plan"
+  ],
+  "alternatives": [
+   "canva",
+   "figma",
+   "fotor"
+  ],
+  "tags": [
+   "colour",
+   "palette",
+   "design",
+   "branding"
+  ],
+  "features": [
+   "Palette generation",
+   "Locking and adjusting colours",
+   "Palette saving",
+   "Export options"
+  ],
+  "use_cases": [
+   "Brand colour exploration",
+   "Website colour schemes",
+   "Presentation themes"
+  ],
+  "pricing_details": "Coolors is generally offered with a free plan or trial and paid tiers. Plans and limits can change, so check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Coolors?",
+    "a": "Colour palette generator for designers and developers. Coolors is a colour palette generator where you press a key to produce new combinations and lock the colours you like."
+   },
+   {
+    "q": "Is Coolors free?",
+    "a": "Pricing and free options can change. Check the official site for the current plans before relying on it."
+   },
+   {
+    "q": "Who is Coolors best for?",
+    "a": "Creating and saving colour palettes quickly. Review the results yourself and compare with the alternatives listed on this page."
+   }
+  ],
+  "seo_title": "Coolors: What It Is and How to Use It",
+  "seo_description": "Learn what Coolors is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "snappa",
+  "name": "Snappa",
+  "category": "design",
+  "website_url": "https://snappa.com",
+  "pricing": "Unknown",
+  "tagline": "Online graphic design tool for social posts and ads.",
+  "best_for": "Fast marketing graphics from templates",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Snappa is a browser-based graphic design tool focused on social media graphics, ads and simple marketing visuals. You start from a template, swap text and images, and export.\n\nIt suits marketers who want quick results without design software. Check the official site for current plans, asset libraries and licensing terms. Features and plans change over time, so check the official site for current plans.",
+  "use_steps": [
+   "Open Snappa and sign in or create an account if needed.",
+   "To begin, choose a template size for your platform.",
+   "Edit and refine the result until it fits your purpose.",
+   "Export or share it, then review the output yourself before using it."
+  ],
+  "pros": [
+   "Simple interface",
+   "Format-specific templates",
+   "Quick output"
+  ],
+  "cons": [
+   "Less flexible than pro tools",
+   "Smaller ecosystem"
+  ],
+  "alternatives": [
+   "canva",
+   "fotor",
+   "adobe-express"
+  ],
+  "tags": [
+   "graphic-design",
+   "templates",
+   "social-media",
+   "marketing"
+  ],
+  "features": [
+   "Templates by format",
+   "Image and graphic library",
+   "Text and shape editing",
+   "Export and resize"
+  ],
+  "use_cases": [
+   "Social media posts",
+   "Display ads",
+   "Blog images"
+  ],
+  "pricing_details": "Plans, limits and prices for Snappa change over time. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Snappa?",
+    "a": "Online graphic design tool for social posts and ads. Snappa is a browser-based graphic design tool focused on social media graphics, ads and simple marketing visuals."
+   },
+   {
+    "q": "Is Snappa free?",
+    "a": "Pricing and free options can change. Check the official site for the current plans before relying on it."
+   },
+   {
+    "q": "Who is Snappa best for?",
+    "a": "Fast marketing graphics from templates. Review the results yourself and compare with the alternatives listed on this page."
+   }
+  ],
+  "seo_title": "Snappa: What It Is and How to Use It",
+  "seo_description": "Learn what Snappa is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "blender",
+  "name": "Blender",
+  "category": "design",
+  "website_url": "https://www.blender.org",
+  "pricing": "Open source",
+  "tagline": "Free, open-source 3D creation suite.",
+  "best_for": "Modelling, animation and rendering in 3D",
+  "platforms": [
+   "Windows",
+   "macOS",
+   "Linux"
+  ],
+  "description": "Blender is a free and open-source 3D suite covering modelling, sculpting, animation, rendering, simulation and video editing. It is maintained by the Blender community and foundation.\n\nIt is widely used by hobbyists, students and studios, but it has a substantial learning curve. Add-ons extend it, including AI-related ones from third parties. Download it only from the official site. Features and plans change over time, so check the official site for current plans.",
+  "use_steps": [
+   "Open Blender and sign in or create an account if needed.",
+   "To begin, download Blender and follow a beginner tutorial.",
+   "Edit and refine the result until it fits your purpose.",
+   "Export or share it, then review the output yourself before using it."
+  ],
+  "pros": [
+   "Free and open source",
+   "Very broad feature set",
+   "Large learning community"
+  ],
+  "cons": [
+   "Steep learning curve",
+   "Needs a capable computer for heavy scenes"
+  ],
+  "alternatives": [
+   "spline",
+   "tinkercad",
+   "sketchup"
+  ],
+  "tags": [
+   "3d",
+   "open-source",
+   "animation",
+   "rendering"
+  ],
+  "features": [
+   "3D modelling and sculpting",
+   "Animation and rigging",
+   "Rendering",
+   "Add-on support"
+  ],
+  "use_cases": [
+   "Product renders",
+   "Animated shorts",
+   "Game asset creation"
+  ],
+  "pricing_details": "Blender is free to use as described on its official site. Plans and limits can change, so check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Blender?",
+    "a": "Free, open-source 3D creation suite. Blender is a free and open-source 3D suite covering modelling, sculpting, animation, rendering, simulation and video editing."
+   },
+   {
+    "q": "Is Blender free?",
+    "a": "Pricing and free options can change. Check the official site for the current plans before relying on it."
+   },
+   {
+    "q": "Who is Blender best for?",
+    "a": "Modelling, animation and rendering in 3D. Review the results yourself and compare with the alternatives listed on this page."
+   }
+  ],
+  "seo_title": "Blender: What It Is and How to Use It",
+  "seo_description": "Learn what Blender is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "meshy",
+  "name": "Meshy",
+  "category": "design",
+  "website_url": "https://www.meshy.ai",
+  "pricing": "Unknown",
+  "tagline": "AI generator for 3D models and textures from text or images.",
+  "best_for": "Quick 3D asset drafts for games and prototypes",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Meshy generates 3D models and textures from text prompts or reference images. It is used to produce early asset drafts for games, prototypes and visualisation.\n\nGenerated meshes often need cleanup in a 3D editor before production use. Check export formats, licensing and current plans on the official site. Features and plans change over time, so check the official site for current plans.",
+  "use_steps": [
+   "Open Meshy and sign in or create an account if needed.",
+   "To begin, enter a prompt or upload a reference image.",
+   "Edit and refine the result until it fits your purpose.",
+   "Export or share it, then review the output yourself before using it."
+  ],
+  "pros": [
+   "Fast first drafts",
+   "No modelling skill needed to start",
+   "Useful for ideation"
+  ],
+  "cons": [
+   "Models may need cleanup",
+   "Quality varies by prompt"
+  ],
+  "alternatives": [
+   "tripo",
+   "blender",
+   "spline"
+  ],
+  "tags": [
+   "3d",
+   "ai",
+   "text-to-3d",
+   "assets"
+  ],
+  "features": [
+   "Text-to-3D",
+   "Image-to-3D",
+   "Texture generation",
+   "Model export"
+  ],
+  "use_cases": [
+   "Game prop prototypes",
+   "Concept models",
+   "3D printing experiments"
+  ],
+  "pricing_details": "Plans, limits and prices for Meshy change over time. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Meshy?",
+    "a": "AI generator for 3D models and textures from text or images. Meshy generates 3D models and textures from text prompts or reference images."
+   },
+   {
+    "q": "Is Meshy free?",
+    "a": "Pricing and free options can change. Check the official site for the current plans before relying on it."
+   },
+   {
+    "q": "Who is Meshy best for?",
+    "a": "Quick 3D asset drafts for games and prototypes. Review the results yourself and compare with the alternatives listed on this page."
+   }
+  ],
+  "seo_title": "Meshy: What It Is and How to Use It",
+  "seo_description": "Learn what Meshy is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "tripo",
+  "name": "Tripo",
+  "category": "design",
+  "website_url": "https://www.tripo3d.ai",
+  "pricing": "Unknown",
+  "tagline": "AI 3D model generator from text and images.",
+  "best_for": "Generating 3D assets from prompts or pictures",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Tripo is an AI service that creates 3D models from text descriptions or images. It targets game developers, designers and makers who want a quick starting asset.\n\nAs with other generators, topology and detail can need manual work in a 3D editor. Review export options and licence terms on the official site. Features and plans change over time, so check the official site for current plans.",
+  "use_steps": [
+   "Open Tripo and sign in or create an account if needed.",
+   "To begin, upload an image or type a description.",
+   "Edit and refine the result until it fits your purpose.",
+   "Export or share it, then review the output yourself before using it."
+  ],
+  "pros": [
+   "Quick drafts",
+   "Accepts images or text",
+   "Useful for prototyping"
+  ],
+  "cons": [
+   "Cleanup often needed",
+   "Results vary"
+  ],
+  "alternatives": [
+   "meshy",
+   "blender",
+   "spline"
+  ],
+  "tags": [
+   "3d",
+   "ai",
+   "generator",
+   "assets"
+  ],
+  "features": [
+   "Text-to-3D",
+   "Image-to-3D",
+   "Model export",
+   "Web interface"
+  ],
+  "use_cases": [
+   "Game asset drafts",
+   "Concept visualisation",
+   "Prototype props"
+  ],
+  "pricing_details": "Plans, limits and prices for Tripo change over time. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Tripo?",
+    "a": "AI 3D model generator from text and images. Tripo is an AI service that creates 3D models from text descriptions or images."
+   },
+   {
+    "q": "Is Tripo free?",
+    "a": "Pricing and free options can change. Check the official site for the current plans before relying on it."
+   },
+   {
+    "q": "Who is Tripo best for?",
+    "a": "Generating 3D assets from prompts or pictures. Review the results yourself and compare with the alternatives listed on this page."
+   }
+  ],
+  "seo_title": "Tripo: What It Is and How to Use It",
+  "seo_description": "Learn what Tripo is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "tinkercad",
+  "name": "Tinkercad",
+  "category": "design",
+  "website_url": "https://www.tinkercad.com",
+  "pricing": "Free",
+  "tagline": "Free beginner-friendly 3D design tool from Autodesk.",
+  "best_for": "Learning 3D design and preparing 3D prints",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Tinkercad is a free browser-based tool for 3D design from Autodesk. You combine and subtract basic shapes to build models, making it approachable for children and beginners.\n\nIt also supports simple circuits and code blocks. Many schools use it to introduce 3D printing and design thinking. For detailed engineering work, you would move to more advanced software. Features and plans change over time, so check the official site for current plans.",
+  "use_steps": [
+   "Open Tinkercad and sign in or create an account if needed.",
+   "To begin, drag basic shapes onto the workplane.",
+   "Edit and refine the result until it fits your purpose.",
+   "Export or share it, then review the output yourself before using it."
+  ],
+  "pros": [
+   "Very easy to start",
+   "Free to use",
+   "Popular in schools"
+  ],
+  "cons": [
+   "Limited for complex models",
+   "Needs internet access"
+  ],
+  "alternatives": [
+   "blender",
+   "sketchup",
+   "vectary"
+  ],
+  "tags": [
+   "3d",
+   "beginner",
+   "education",
+   "3d-printing"
+  ],
+  "features": [
+   "Shape-based 3D modelling",
+   "Export for 3D printing",
+   "Circuit simulation",
+   "Code blocks"
+  ],
+  "use_cases": [
+   "Classroom 3D projects",
+   "Simple 3D printed parts",
+   "Intro to design"
+  ],
+  "pricing_details": "Tinkercad is free to use as described on its official site. Plans and limits can change, so check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Tinkercad?",
+    "a": "Free beginner-friendly 3D design tool from Autodesk. Tinkercad is a free browser-based tool for 3D design from Autodesk."
+   },
+   {
+    "q": "Is Tinkercad free?",
+    "a": "Pricing and free options can change. Check the official site for the current plans before relying on it."
+   },
+   {
+    "q": "Who is Tinkercad best for?",
+    "a": "Learning 3D design and preparing 3D prints. Review the results yourself and compare with the alternatives listed on this page."
+   }
+  ],
+  "seo_title": "Tinkercad: What It Is and How to Use It",
+  "seo_description": "Learn what Tinkercad is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "vectary",
+  "name": "Vectary",
+  "category": "design",
+  "website_url": "https://www.vectary.com",
+  "pricing": "Unknown",
+  "tagline": "Browser-based 3D design tool with web and AR sharing.",
+  "best_for": "3D product visuals for the web",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Vectary is an online 3D design tool for creating product visuals, scenes and configurators. Models can be embedded in websites or viewed in augmented reality.\n\nIt suits e-commerce and marketing designers who want 3D without desktop software. Check the official site for current features, AI tools and plans. Features and plans change over time, so check the official site for current plans.",
+  "use_steps": [
+   "Open Vectary and sign in or create an account if needed.",
+   "To begin, import or create a model and set a material.",
+   "Edit and refine the result until it fits your purpose.",
+   "Export or share it, then review the output yourself before using it."
+  ],
+  "pros": [
+   "No installation needed",
+   "Web and AR sharing",
+   "Good for product visuals"
+  ],
+  "cons": [
+   "Less depth than desktop suites",
+   "Plans limit some features"
+  ],
+  "alternatives": [
+   "spline",
+   "blender",
+   "tinkercad"
+  ],
+  "tags": [
+   "3d",
+   "product",
+   "ar",
+   "web"
+  ],
+  "features": [
+   "Browser 3D editing",
+   "Materials and lighting",
+   "Web embedding",
+   "AR viewing"
+  ],
+  "use_cases": [
+   "Product showcase pages",
+   "3D mock-ups",
+   "AR previews"
+  ],
+  "pricing_details": "Plans, limits and prices for Vectary change over time. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Vectary?",
+    "a": "Browser-based 3D design tool with web and AR sharing. Vectary is an online 3D design tool for creating product visuals, scenes and configurators."
+   },
+   {
+    "q": "Is Vectary free?",
+    "a": "Pricing and free options can change. Check the official site for the current plans before relying on it."
+   },
+   {
+    "q": "Who is Vectary best for?",
+    "a": "3D product visuals for the web. Review the results yourself and compare with the alternatives listed on this page."
+   }
+  ],
+  "seo_title": "Vectary: What It Is and How to Use It",
+  "seo_description": "Learn what Vectary is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "planner-5d",
+  "name": "Planner 5D",
+  "category": "design",
+  "website_url": "https://planner5d.com",
+  "pricing": "Unknown",
+  "tagline": "Home and interior planner with 2D and 3D views.",
+  "best_for": "Planning rooms and floor layouts at home",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "Planner 5D is a home design tool where you draw floor plans, place furniture and view the layout in 2D and 3D. It also includes AI features for interior ideas.\n\nIt suits homeowners, renters and students planning a layout. Measurements and designs are for visualisation, so check real dimensions before buying furniture or building. Review current plans on the official site. Features and plans change over time, so check the official site for current plans.",
+  "use_steps": [
+   "Open Planner 5D and sign in or create an account if needed.",
+   "To begin, draw your room and add furniture.",
+   "Edit and refine the result until it fits your purpose.",
+   "Export or share it, then review the output yourself before using it."
+  ],
+  "pros": [
+   "Easy for non-professionals",
+   "Works on several devices",
+   "Furniture catalogue"
+  ],
+  "cons": [
+   "Not a substitute for architectural drawings",
+   "Some assets need a paid plan"
+  ],
+  "alternatives": [
+   "homestyler",
+   "floorplanner",
+   "roomgpt"
+  ],
+  "tags": [
+   "interior",
+   "floor-plan",
+   "3d",
+   "home"
+  ],
+  "features": [
+   "Floor plan drawing",
+   "Furniture library",
+   "2D and 3D views",
+   "AI interior ideas"
+  ],
+  "use_cases": [
+   "Room layout planning",
+   "Furniture arrangement",
+   "Renovation ideas"
+  ],
+  "pricing_details": "Plans, limits and prices for Planner 5D change over time. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Planner 5D?",
+    "a": "Home and interior planner with 2D and 3D views. Planner 5D is a home design tool where you draw floor plans, place furniture and view the layout in 2D and 3D."
+   },
+   {
+    "q": "Is Planner 5D free?",
+    "a": "Pricing and free options can change. Check the official site for the current plans before relying on it."
+   },
+   {
+    "q": "Who is Planner 5D best for?",
+    "a": "Planning rooms and floor layouts at home. Review the results yourself and compare with the alternatives listed on this page."
+   }
+  ],
+  "seo_title": "Planner 5D: What It Is and How to Use It",
+  "seo_description": "Learn what Planner 5D is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "roomgpt",
+  "name": "RoomGPT",
+  "category": "design",
+  "website_url": "https://www.roomgpt.io",
+  "pricing": "Unknown",
+  "tagline": "AI tool that redesigns room photos in new styles.",
+  "best_for": "Trying interior style ideas on a room photo",
+  "platforms": [
+   "Web"
+  ],
+  "description": "RoomGPT lets you upload a photo of a room and generate alternative interior design versions in different styles. It is meant for quick inspiration rather than exact plans.\n\nResults show an idea of mood and layout, but furniture may not be real or measurable. Check the official site for current pricing, credits and terms. Features and plans change over time, so check the official site for current plans.",
+  "use_steps": [
+   "Open RoomGPT and sign in or create an account if needed.",
+   "To begin, upload a clear photo of your room.",
+   "Edit and refine the result until it fits your purpose.",
+   "Export or share it, then review the output yourself before using it."
+  ],
+  "pros": [
+   "Simple upload-and-go workflow",
+   "Good for ideas",
+   "No design skills needed"
+  ],
+  "cons": [
+   "Output may be unrealistic",
+   "Not for precise planning"
+  ],
+  "alternatives": [
+   "planner-5d",
+   "homestyler",
+   "coohom"
+  ],
+  "tags": [
+   "interior",
+   "ai",
+   "room-design",
+   "inspiration"
+  ],
+  "features": [
+   "Upload room photo",
+   "Style selection",
+   "AI redesign images",
+   "Download results"
+  ],
+  "use_cases": [
+   "Redecorating ideas",
+   "Real-estate staging concepts",
+   "Style comparison"
+  ],
+  "pricing_details": "Plans, limits and prices for RoomGPT change over time. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is RoomGPT?",
+    "a": "AI tool that redesigns room photos in new styles. RoomGPT lets you upload a photo of a room and generate alternative interior design versions in different styles."
+   },
+   {
+    "q": "Is RoomGPT free?",
+    "a": "Pricing and free options can change. Check the official site for the current plans before relying on it."
+   },
+   {
+    "q": "Who is RoomGPT best for?",
+    "a": "Trying interior style ideas on a room photo. Review the results yourself and compare with the alternatives listed on this page."
+   }
+  ],
+  "seo_title": "RoomGPT: What It Is and How to Use It",
+  "seo_description": "Learn what RoomGPT is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "homestyler",
+  "name": "Homestyler",
+  "category": "design",
+  "website_url": "https://www.homestyler.com",
+  "pricing": "Unknown",
+  "tagline": "Online 3D home design and rendering platform.",
+  "best_for": "Interior layouts and realistic room renders",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Homestyler is an online platform for designing home interiors in 3D. You build rooms, place furniture and decor items, and create rendered images of the result.\n\nIt is used by hobbyists and some design professionals. Catalogue items and render options depend on your plan, so check the official site for current details. Features and plans change over time, so check the official site for current plans.",
+  "use_steps": [
+   "Open Homestyler and sign in or create an account if needed.",
+   "To begin, draw a floor plan and place furniture.",
+   "Edit and refine the result until it fits your purpose.",
+   "Export or share it, then review the output yourself before using it."
+  ],
+  "pros": [
+   "Visual 3D results",
+   "Large item library",
+   "Browser-based"
+  ],
+  "cons": [
+   "Rendering can take time",
+   "Advanced features need paid access"
+  ],
+  "alternatives": [
+   "planner-5d",
+   "coohom",
+   "floorplanner"
+  ],
+  "tags": [
+   "interior",
+   "3d",
+   "rendering",
+   "home-design"
+  ],
+  "features": [
+   "3D room design",
+   "Furniture and decor catalogue",
+   "Rendered images",
+   "Floor plan tools"
+  ],
+  "use_cases": [
+   "Home makeover planning",
+   "Client design previews",
+   "Furniture layout testing"
+  ],
+  "pricing_details": "Plans, limits and prices for Homestyler change over time. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Homestyler?",
+    "a": "Online 3D home design and rendering platform. Homestyler is an online platform for designing home interiors in 3D."
+   },
+   {
+    "q": "Is Homestyler free?",
+    "a": "Pricing and free options can change. Check the official site for the current plans before relying on it."
+   },
+   {
+    "q": "Who is Homestyler best for?",
+    "a": "Interior layouts and realistic room renders. Review the results yourself and compare with the alternatives listed on this page."
+   }
+  ],
+  "seo_title": "Homestyler: What It Is and How to Use It",
+  "seo_description": "Learn what Homestyler is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "floorplanner",
+  "name": "Floorplanner",
+  "category": "design",
+  "website_url": "https://floorplanner.com",
+  "pricing": "Unknown",
+  "tagline": "Online tool for drawing floor plans and 3D layouts.",
+  "best_for": "Clean floor plans for homes and listings",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Floorplanner is a web-based tool for drawing floor plans and furnishing them with items. Plans can be viewed in 2D and 3D and exported as images.\n\nReal-estate agents, homeowners and designers use it to communicate layouts. Verify dimensions against real measurements. See the official site for current plans and export options. Features and plans change over time, so check the official site for current plans.",
+  "use_steps": [
+   "Open Floorplanner and sign in or create an account if needed.",
+   "To begin, draw walls to match your room measurements.",
+   "Edit and refine the result until it fits your purpose.",
+   "Export or share it, then review the output yourself before using it."
+  ],
+  "pros": [
+   "Focused and simple",
+   "Good for clear plans",
+   "Browser-based"
+  ],
+  "cons": [
+   "Less photorealistic than render tools",
+   "Some exports need a paid plan"
+  ],
+  "alternatives": [
+   "planner-5d",
+   "homestyler",
+   "sketchup"
+  ],
+  "tags": [
+   "floor-plan",
+   "real-estate",
+   "interior",
+   "3d"
+  ],
+  "features": [
+   "Floor plan drawing",
+   "Furniture items",
+   "2D and 3D views",
+   "Image export"
+  ],
+  "use_cases": [
+   "Property listing plans",
+   "Moving-day layouts",
+   "Renovation sketches"
+  ],
+  "pricing_details": "Plans, limits and prices for Floorplanner change over time. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Floorplanner?",
+    "a": "Online tool for drawing floor plans and 3D layouts. Floorplanner is a web-based tool for drawing floor plans and furnishing them with items."
+   },
+   {
+    "q": "Is Floorplanner free?",
+    "a": "Pricing and free options can change. Check the official site for the current plans before relying on it."
+   },
+   {
+    "q": "Who is Floorplanner best for?",
+    "a": "Clean floor plans for homes and listings. Review the results yourself and compare with the alternatives listed on this page."
+   }
+  ],
+  "seo_title": "Floorplanner: What It Is and How to Use It",
+  "seo_description": "Learn what Floorplanner is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "coohom",
+  "name": "Coohom",
+  "category": "design",
+  "website_url": "https://www.coohom.com",
+  "pricing": "Unknown",
+  "tagline": "Interior design software with 3D planning and rendering.",
+  "best_for": "Professional-style interior design visuals",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Coohom is an interior design platform that combines floor planning, 3D modelling and rendering. It includes catalogues of furniture and materials for building room scenes.\n\nDesigners, furniture sellers and decorators use it to present options to clients. Check the official site for the current feature list and plans. Features and plans change over time, so check the official site for current plans.",
+  "use_steps": [
+   "Open Coohom and sign in or create an account if needed.",
+   "To begin, create a room and add products from the catalogue.",
+   "Edit and refine the result until it fits your purpose.",
+   "Export or share it, then review the output yourself before using it."
+  ],
+  "pros": [
+   "End-to-end design workflow",
+   "Catalogue of items",
+   "Visual presentations"
+  ],
+  "cons": [
+   "Can be complex for beginners",
+   "Plan limits apply"
+  ],
+  "alternatives": [
+   "homestyler",
+   "planner-5d",
+   "floorplanner"
+  ],
+  "tags": [
+   "interior",
+   "3d",
+   "rendering",
+   "design"
+  ],
+  "features": [
+   "Floor plan creation",
+   "3D scene building",
+   "Rendering",
+   "Product catalogue"
+  ],
+  "use_cases": [
+   "Client design presentations",
+   "Furniture showrooms",
+   "Room visualisation"
+  ],
+  "pricing_details": "Plans, limits and prices for Coohom change over time. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Coohom?",
+    "a": "Interior design software with 3D planning and rendering. Coohom is an interior design platform that combines floor planning, 3D modelling and rendering."
+   },
+   {
+    "q": "Is Coohom free?",
+    "a": "Pricing and free options can change. Check the official site for the current plans before relying on it."
+   },
+   {
+    "q": "Who is Coohom best for?",
+    "a": "Professional-style interior design visuals. Review the results yourself and compare with the alternatives listed on this page."
+   }
+  ],
+  "seo_title": "Coohom: What It Is and How to Use It",
+  "seo_description": "Learn what Coohom is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "pacdora",
+  "name": "Pacdora",
+  "category": "design",
+  "website_url": "https://www.pacdora.com",
+  "pricing": "Unknown",
+  "tagline": "Online packaging design and 3D mockup tool.",
+  "best_for": "Packaging dielines and product mockups",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Pacdora is a web tool for designing packaging such as boxes and bags, with templates, dielines and 3D previews. You upload artwork and see it applied to the package shape.\n\nIt suits small brands and designers preparing concepts. Always confirm dimensions and print specifications with your manufacturer. See the official site for current templates and plans. Features and plans change over time, so check the official site for current plans.",
+  "use_steps": [
+   "Open Pacdora and sign in or create an account if needed.",
+   "To begin, choose a package template and upload artwork.",
+   "Edit and refine the result until it fits your purpose.",
+   "Export or share it, then review the output yourself before using it."
+  ],
+  "pros": [
+   "Specific to packaging",
+   "Visual 3D previews",
+   "Templates help beginners"
+  ],
+  "cons": [
+   "Not a replacement for production specs",
+   "Niche use"
+  ],
+  "alternatives": [
+   "canva",
+   "vectary",
+   "snappa"
+  ],
+  "tags": [
+   "packaging",
+   "mockup",
+   "3d",
+   "branding"
+  ],
+  "features": [
+   "Packaging templates",
+   "Dieline creation",
+   "3D mockups",
+   "Artwork upload"
+  ],
+  "use_cases": [
+   "Product box concept",
+   "Brand packaging mock-up",
+   "Client previews"
+  ],
+  "pricing_details": "Plans, limits and prices for Pacdora change over time. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Pacdora?",
+    "a": "Online packaging design and 3D mockup tool. Pacdora is a web tool for designing packaging such as boxes and bags, with templates, dielines and 3D previews."
+   },
+   {
+    "q": "Is Pacdora free?",
+    "a": "Pricing and free options can change. Check the official site for the current plans before relying on it."
+   },
+   {
+    "q": "Who is Pacdora best for?",
+    "a": "Packaging dielines and product mockups. Review the results yourself and compare with the alternatives listed on this page."
+   }
+  ],
+  "seo_title": "Pacdora: What It Is and How to Use It",
+  "seo_description": "Learn what Pacdora is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "piktochart",
+  "name": "Piktochart",
+  "category": "design",
+  "website_url": "https://piktochart.com",
+  "pricing": "Unknown",
+  "tagline": "Infographic and presentation maker with templates.",
+  "best_for": "Turning data and ideas into infographics",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Piktochart is an online tool for making infographics, reports and presentations from templates. You add charts, icons and text and adjust the layout visually.\n\nTeachers, nonprofits and marketers use it for visual summaries. AI features may assist with drafting. Check the official site for current plans and export options. Features and plans change over time, so check the official site for current plans.",
+  "use_steps": [
+   "Open Piktochart and sign in or create an account if needed.",
+   "To begin, pick an infographic template and add your data.",
+   "Edit and refine the result until it fits your purpose.",
+   "Export or share it, then review the output yourself before using it."
+  ],
+  "pros": [
+   "Beginner friendly",
+   "Wide template range",
+   "Chart support"
+  ],
+  "cons": [
+   "Free usage can be limited",
+   "Customisation has limits"
+  ],
+  "alternatives": [
+   "venngage",
+   "infogram",
+   "canva"
+  ],
+  "tags": [
+   "infographic",
+   "templates",
+   "reports",
+   "data"
+  ],
+  "features": [
+   "Infographic templates",
+   "Charts and maps",
+   "Icon and image library",
+   "Export and sharing"
+  ],
+  "use_cases": [
+   "Report summaries",
+   "Class posters",
+   "Social media infographics"
+  ],
+  "pricing_details": "Plans, limits and prices for Piktochart change over time. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Piktochart?",
+    "a": "Infographic and presentation maker with templates. Piktochart is an online tool for making infographics, reports and presentations from templates."
+   },
+   {
+    "q": "Is Piktochart free?",
+    "a": "Pricing and free options can change. Check the official site for the current plans before relying on it."
+   },
+   {
+    "q": "Who is Piktochart best for?",
+    "a": "Turning data and ideas into infographics. Review the results yourself and compare with the alternatives listed on this page."
+   }
+  ],
+  "seo_title": "Piktochart: What It Is and How to Use It",
+  "seo_description": "Learn what Piktochart is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "venngage",
+  "name": "Venngage",
+  "category": "design",
+  "website_url": "https://venngage.com",
+  "pricing": "Unknown",
+  "tagline": "Infographic and visual document maker.",
+  "best_for": "Infographics, reports and flyers for business",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Venngage is a design tool for infographics, reports, flyers and other visual documents. It provides templates by category and lets teams apply brand colours.\n\nIt suits marketers and communicators who need tidy visuals fast. AI helpers may be available for drafting. Check the official site for what each plan includes. Features and plans change over time, so check the official site for current plans.",
+  "use_steps": [
+   "Open Venngage and sign in or create an account if needed.",
+   "To begin, select a template and replace placeholder text.",
+   "Edit and refine the result until it fits your purpose.",
+   "Export or share it, then review the output yourself before using it."
+  ],
+  "pros": [
+   "Wide template choice",
+   "Brand consistency tools",
+   "Easy editing"
+  ],
+  "cons": [
+   "Some templates are paid",
+   "Download options depend on plan"
+  ],
+  "alternatives": [
+   "piktochart",
+   "infogram",
+   "canva"
+  ],
+  "tags": [
+   "infographic",
+   "templates",
+   "business",
+   "design"
+  ],
+  "features": [
+   "Infographic templates",
+   "Brand kit",
+   "Chart tools",
+   "Team sharing"
+  ],
+  "use_cases": [
+   "Marketing infographics",
+   "Business reports",
+   "Educational handouts"
+  ],
+  "pricing_details": "Plans, limits and prices for Venngage change over time. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Venngage?",
+    "a": "Infographic and visual document maker. Venngage is a design tool for infographics, reports, flyers and other visual documents."
+   },
+   {
+    "q": "Is Venngage free?",
+    "a": "Pricing and free options can change. Check the official site for the current plans before relying on it."
+   },
+   {
+    "q": "Who is Venngage best for?",
+    "a": "Infographics, reports and flyers for business. Review the results yourself and compare with the alternatives listed on this page."
+   }
+  ],
+  "seo_title": "Venngage: What It Is and How to Use It",
+  "seo_description": "Learn what Venngage is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "infogram",
+  "name": "Infogram",
+  "category": "design",
+  "website_url": "https://infogram.com",
+  "pricing": "Unknown",
+  "tagline": "Charts, infographics and dashboards maker.",
+  "best_for": "Data visuals for reports and websites",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Infogram is a tool for building charts, maps, infographics and simple dashboards. You import or enter data, pick a chart style and publish or embed the result.\n\nIt suits journalists, analysts and marketers presenting numbers clearly. Always check that the chart represents your data honestly. See the official site for plans and data limits. Features and plans change over time, so check the official site for current plans.",
+  "use_steps": [
+   "Open Infogram and sign in or create an account if needed.",
+   "To begin, upload a data sheet and choose a chart type.",
+   "Edit and refine the result until it fits your purpose.",
+   "Export or share it, then review the output yourself before using it."
+  ],
+  "pros": [
+   "Data-focused",
+   "Embeds easily",
+   "Clean chart styles"
+  ],
+  "cons": [
+   "Advanced analysis not included",
+   "Plan limits on features"
+  ],
+  "alternatives": [
+   "flourish",
+   "piktochart",
+   "venngage"
+  ],
+  "tags": [
+   "charts",
+   "data-viz",
+   "infographic",
+   "dashboards"
+  ],
+  "features": [
+   "Chart and map creation",
+   "Data import",
+   "Infographic templates",
+   "Embedding and sharing"
+  ],
+  "use_cases": [
+   "Newsletter charts",
+   "Report visuals",
+   "Embedded web charts"
+  ],
+  "pricing_details": "Plans, limits and prices for Infogram change over time. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Infogram?",
+    "a": "Charts, infographics and dashboards maker. Infogram is a tool for building charts, maps, infographics and simple dashboards."
+   },
+   {
+    "q": "Is Infogram free?",
+    "a": "Pricing and free options can change. Check the official site for the current plans before relying on it."
+   },
+   {
+    "q": "Who is Infogram best for?",
+    "a": "Data visuals for reports and websites. Review the results yourself and compare with the alternatives listed on this page."
+   }
+  ],
+  "seo_title": "Infogram: What It Is and How to Use It",
+  "seo_description": "Learn what Infogram is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "flourish",
+  "name": "Flourish",
+  "category": "design",
+  "website_url": "https://flourish.studio",
+  "pricing": "Unknown",
+  "tagline": "Data visualisation platform for interactive charts and stories.",
+  "best_for": "Animated and interactive data stories",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Flourish is a platform for building interactive and animated data visualisations, such as bar chart races, maps and scrollytelling stories. You upload data and customise a template.\n\nNewsrooms, researchers and educators use it to share data with readers. Be careful to label sources and scales. Check the official site for plans and licensing for public versus private use. Features and plans change over time, so check the official site for current plans.",
+  "use_steps": [
+   "Open Flourish and sign in or create an account if needed.",
+   "To begin, upload data and pick a template.",
+   "Edit and refine the result until it fits your purpose.",
+   "Export or share it, then review the output yourself before using it."
+  ],
+  "pros": [
+   "Strong visual templates",
+   "Interactive output",
+   "No coding needed"
+  ],
+  "cons": [
+   "Public publishing limits on some plans",
+   "Templates have set structures"
+  ],
+  "alternatives": [
+   "infogram",
+   "piktochart",
+   "venngage"
+  ],
+  "tags": [
+   "data-viz",
+   "interactive",
+   "charts",
+   "stories"
+  ],
+  "features": [
+   "Chart templates",
+   "Animated visuals",
+   "Data tables",
+   "Embeddable output"
+  ],
+  "use_cases": [
+   "Journalism charts",
+   "Research summaries",
+   "Class data projects"
+  ],
+  "pricing_details": "Plans, limits and prices for Flourish change over time. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Flourish?",
+    "a": "Data visualisation platform for interactive charts and stories. Flourish is a platform for building interactive and animated data visualisations, such as bar chart races, maps and scrollytelling stories."
+   },
+   {
+    "q": "Is Flourish free?",
+    "a": "Pricing and free options can change. Check the official site for the current plans before relying on it."
+   },
+   {
+    "q": "Who is Flourish best for?",
+    "a": "Animated and interactive data stories. Review the results yourself and compare with the alternatives listed on this page."
+   }
+  ],
+  "seo_title": "Flourish: What It Is and How to Use It",
+  "seo_description": "Learn what Flourish is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "lucidchart",
+  "name": "Lucidchart",
+  "category": "design",
+  "website_url": "https://www.lucidchart.com",
+  "pricing": "Unknown",
+  "tagline": "Online diagramming for flowcharts, org charts and more.",
+  "best_for": "Business diagrams and process maps",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Lucidchart is a diagramming application for flowcharts, org charts, network diagrams and process maps. Shape libraries and templates make it quick to build standard diagrams.\n\nTeams use it to document processes and share them with comments. It also offers integrations with common workplace tools. Check the official site for current plans and AI features. Features and plans change over time, so check the official site for current plans.",
+  "use_steps": [
+   "Open Lucidchart and sign in or create an account if needed.",
+   "To begin, start from a flowchart template.",
+   "Edit and refine the result until it fits your purpose.",
+   "Export or share it, then review the output yourself before using it."
+  ],
+  "pros": [
+   "Mature diagramming features",
+   "Team collaboration",
+   "Many templates"
+  ],
+  "cons": [
+   "Free usage is limited",
+   "Advanced features cost more"
+  ],
+  "alternatives": [
+   "diagrams-net",
+   "miro",
+   "creately"
+  ],
+  "tags": [
+   "diagrams",
+   "flowchart",
+   "collaboration",
+   "business"
+  ],
+  "features": [
+   "Shape libraries",
+   "Flowcharts and org charts",
+   "Real-time collaboration",
+   "Integrations"
+  ],
+  "use_cases": [
+   "Process documentation",
+   "Org chart planning",
+   "System architecture diagrams"
+  ],
+  "pricing_details": "Plans, limits and prices for Lucidchart change over time. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Lucidchart?",
+    "a": "Online diagramming for flowcharts, org charts and more. Lucidchart is a diagramming application for flowcharts, org charts, network diagrams and process maps."
+   },
+   {
+    "q": "Is Lucidchart free?",
+    "a": "Pricing and free options can change. Check the official site for the current plans before relying on it."
+   },
+   {
+    "q": "Who is Lucidchart best for?",
+    "a": "Business diagrams and process maps. Review the results yourself and compare with the alternatives listed on this page."
+   }
+  ],
+  "seo_title": "Lucidchart: What It Is and How to Use It",
+  "seo_description": "Learn what Lucidchart is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "diagrams-net",
+  "name": "diagrams.net",
+  "category": "design",
+  "website_url": "https://www.diagrams.net",
+  "pricing": "Open source",
+  "tagline": "Free, open-source diagram editor, also known as draw.io.",
+  "best_for": "Free flowcharts and technical diagrams",
+  "platforms": [
+   "Web",
+   "Windows",
+   "macOS",
+   "Linux"
+  ],
+  "description": "diagrams.net, widely known as draw.io, is a free diagramming tool for flowcharts, UML, network and other diagrams. It runs in the browser or as a desktop app, and files can be stored on your own device or in connected storage.\n\nIt is popular with developers and students who want no-cost, privacy-friendly diagramming. Check the official site for storage options and integrations. Features and plans change over time, so check the official site for current plans.",
+  "use_steps": [
+   "Open diagrams.net and sign in or create an account if needed.",
+   "To begin, open the editor and choose where to save.",
+   "Edit and refine the result until it fits your purpose.",
+   "Export or share it, then review the output yourself before using it."
+  ],
+  "pros": [
+   "Free to use",
+   "Flexible storage options",
+   "Handles many diagram types"
+  ],
+  "cons": [
+   "Interface looks utilitarian",
+   "Real-time collaboration depends on setup"
+  ],
+  "alternatives": [
+   "lucidchart",
+   "creately",
+   "excalidraw"
+  ],
+  "tags": [
+   "diagrams",
+   "flowchart",
+   "open-source",
+   "uml"
+  ],
+  "features": [
+   "Shape libraries",
+   "Flowcharts and UML",
+   "Local file storage",
+   "Export to images and PDF"
+  ],
+  "use_cases": [
+   "System architecture diagrams",
+   "Class project flowcharts",
+   "Network diagrams"
+  ],
+  "pricing_details": "diagrams.net is free to use as described on its official site. Plans and limits can change, so check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is diagrams.net?",
+    "a": "Free, open-source diagram editor, also known as draw.io. diagrams.net, widely known as draw.io, is a free diagramming tool for flowcharts, UML, network and other diagrams."
+   },
+   {
+    "q": "Is diagrams.net free?",
+    "a": "Pricing and free options can change. Check the official site for the current plans before relying on it."
+   },
+   {
+    "q": "Who is diagrams.net best for?",
+    "a": "Free flowcharts and technical diagrams. Review the results yourself and compare with the alternatives listed on this page."
+   }
+  ],
+  "seo_title": "diagrams.net: What It Is and How to Use It",
+  "seo_description": "Learn what diagrams.net is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "creately",
+  "name": "Creately",
+  "category": "design",
+  "website_url": "https://creately.com",
+  "pricing": "Unknown",
+  "tagline": "Visual collaboration and diagram tool.",
+  "best_for": "Diagrams and workshop canvases for teams",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Creately is a visual workspace for diagrams, flowcharts, mind maps and project planning. It offers templates and a canvas where teams can collaborate in real time.\n\nIt suits teams that want diagrams and light project visuals in one place. Check the official site for current plans and AI-assisted features. Features and plans change over time, so check the official site for current plans.",
+  "use_steps": [
+   "Open Creately and sign in or create an account if needed.",
+   "To begin, choose a diagram template and edit it.",
+   "Edit and refine the result until it fits your purpose.",
+   "Export or share it, then review the output yourself before using it."
+  ],
+  "pros": [
+   "Several diagram types",
+   "Collaboration features",
+   "Template support"
+  ],
+  "cons": [
+   "Crowded alternatives",
+   "Some features sit behind paid plans"
+  ],
+  "alternatives": [
+   "lucidchart",
+   "miro",
+   "diagrams-net"
+  ],
+  "tags": [
+   "diagrams",
+   "collaboration",
+   "mind-map",
+   "flowchart"
+  ],
+  "features": [
+   "Diagram templates",
+   "Real-time collaboration",
+   "Mind maps",
+   "Shape libraries"
+  ],
+  "use_cases": [
+   "Process maps",
+   "Team brainstorming",
+   "Project planning visuals"
+  ],
+  "pricing_details": "Plans, limits and prices for Creately change over time. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Creately?",
+    "a": "Visual collaboration and diagram tool. Creately is a visual workspace for diagrams, flowcharts, mind maps and project planning."
+   },
+   {
+    "q": "Is Creately free?",
+    "a": "Pricing and free options can change. Check the official site for the current plans before relying on it."
+   },
+   {
+    "q": "Who is Creately best for?",
+    "a": "Diagrams and workshop canvases for teams. Review the results yourself and compare with the alternatives listed on this page."
+   }
+  ],
+  "seo_title": "Creately: What It Is and How to Use It",
+  "seo_description": "Learn what Creately is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "eraser",
+  "name": "Eraser",
+  "category": "design",
+  "website_url": "https://www.eraser.io",
+  "pricing": "Unknown",
+  "tagline": "Docs and diagramming tool for engineering teams.",
+  "best_for": "Technical diagrams and design docs",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Eraser is a workspace that pairs documents with diagrams, designed for engineering teams. Diagrams can be generated from text-style code or drawn on a canvas, and AI features help produce first drafts.\n\nIt suits developers writing design docs and architecture notes. Review generated diagrams for correctness. Check the official site for current plans and integrations. Features and plans change over time, so check the official site for current plans.",
+  "use_steps": [
+   "Open Eraser and sign in or create an account if needed.",
+   "To begin, describe your system in text and generate a diagram.",
+   "Edit and refine the result until it fits your purpose.",
+   "Export or share it, then review the output yourself before using it."
+  ],
+  "pros": [
+   "Built for developer workflows",
+   "Text-based diagramming",
+   "Combines docs and diagrams"
+  ],
+  "cons": [
+   "Aimed at technical users",
+   "AI output needs checking"
+  ],
+  "alternatives": [
+   "lucidchart",
+   "diagrams-net"
+  ],
+  "tags": [
+   "diagrams",
+   "engineering",
+   "docs",
+   "ai"
+  ],
+  "features": [
+   "Diagram-as-code",
+   "Design docs",
+   "AI diagram drafts",
+   "Canvas editing"
+  ],
+  "use_cases": [
+   "Architecture diagrams",
+   "Design documents",
+   "Cloud infrastructure sketches"
+  ],
+  "pricing_details": "Plans, limits and prices for Eraser change over time. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Eraser?",
+    "a": "Docs and diagramming tool for engineering teams. Eraser is a workspace that pairs documents with diagrams, designed for engineering teams."
+   },
+   {
+    "q": "Is Eraser free?",
+    "a": "Pricing and free options can change. Check the official site for the current plans before relying on it."
+   },
+   {
+    "q": "Who is Eraser best for?",
+    "a": "Technical diagrams and design docs. Review the results yourself and compare with the alternatives listed on this page."
+   }
+  ],
+  "seo_title": "Eraser: What It Is and How to Use It",
+  "seo_description": "Learn what Eraser is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "tldraw",
+  "name": "tldraw",
+  "category": "design",
+  "website_url": "https://www.tldraw.com",
+  "pricing": "Unknown",
+  "tagline": "Minimal whiteboard and drawing canvas.",
+  "best_for": "Quick sketches and simple whiteboarding",
+  "platforms": [
+   "Web"
+  ],
+  "description": "tldraw is a minimalist online whiteboard for sketching, diagramming and brainstorming. It is also available as a developer library for embedding a canvas in other apps.\n\nIts simple interface suits quick diagrams and collaboration. Check the official site for licensing terms of the library and for current features. Features and plans change over time, so check the official site for current plans.",
+  "use_steps": [
+   "Open tldraw and sign in or create an account if needed.",
+   "To begin, open the canvas and start drawing.",
+   "Edit and refine the result until it fits your purpose.",
+   "Export or share it, then review the output yourself before using it."
+  ],
+  "pros": [
+   "Clean, fast interface",
+   "Works with little setup",
+   "Developer SDK available"
+  ],
+  "cons": [
+   "Fewer templates than larger tools",
+   "SDK licensing terms apply"
+  ],
+  "alternatives": [
+   "excalidraw",
+   "miro",
+   "whimsical"
+  ],
+  "tags": [
+   "whiteboard",
+   "drawing",
+   "canvas",
+   "developer"
+  ],
+  "features": [
+   "Infinite canvas",
+   "Drawing and shapes",
+   "Sharing",
+   "Developer SDK"
+  ],
+  "use_cases": [
+   "Quick sketches",
+   "Simple diagrams",
+   "Embedding a canvas in an app"
+  ],
+  "pricing_details": "Plans, limits and prices for tldraw change over time. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is tldraw?",
+    "a": "Minimal whiteboard and drawing canvas. tldraw is a minimalist online whiteboard for sketching, diagramming and brainstorming."
+   },
+   {
+    "q": "Is tldraw free?",
+    "a": "Pricing and free options can change. Check the official site for the current plans before relying on it."
+   },
+   {
+    "q": "Who is tldraw best for?",
+    "a": "Quick sketches and simple whiteboarding. Review the results yourself and compare with the alternatives listed on this page."
+   }
+  ],
+  "seo_title": "tldraw: What It Is and How to Use It",
+  "seo_description": "Learn what tldraw is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "xmind",
+  "name": "Xmind",
+  "category": "design",
+  "website_url": "https://xmind.app",
+  "pricing": "Unknown",
+  "tagline": "Mind mapping tool for brainstorming and planning.",
+  "best_for": "Structured mind maps and outlines",
+  "platforms": [
+   "Web",
+   "Windows",
+   "macOS",
+   "iOS",
+   "Android"
+  ],
+  "description": "Xmind is a mind mapping application for organising ideas into branches, outlines and diagrams. It supports multiple map structures and several export formats.\n\nStudents and professionals use it for note planning, study and project outlines. Check the official site for current versions, AI features and plans. Features and plans change over time, so check the official site for current plans.",
+  "use_steps": [
+   "Open Xmind and sign in or create an account if needed.",
+   "To begin, create a central topic and add branches.",
+   "Edit and refine the result until it fits your purpose.",
+   "Export or share it, then review the output yourself before using it."
+  ],
+  "pros": [
+   "Several map layouts",
+   "Desktop and mobile apps",
+   "Good outline support"
+  ],
+  "cons": [
+   "Some features need a paid plan",
+   "Collaboration is lighter than team tools"
+  ],
+  "alternatives": [
+   "mindmeister",
+   "whimsical",
+   "miro"
+  ],
+  "tags": [
+   "mind-map",
+   "brainstorming",
+   "notes",
+   "planning"
+  ],
+  "features": [
+   "Mind map structures",
+   "Outline view",
+   "Themes and styles",
+   "Export options"
+  ],
+  "use_cases": [
+   "Study notes",
+   "Project planning",
+   "Brainstorming"
+  ],
+  "pricing_details": "Plans, limits and prices for Xmind change over time. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Xmind?",
+    "a": "Mind mapping tool for brainstorming and planning. Xmind is a mind mapping application for organising ideas into branches, outlines and diagrams."
+   },
+   {
+    "q": "Is Xmind free?",
+    "a": "Pricing and free options can change. Check the official site for the current plans before relying on it."
+   },
+   {
+    "q": "Who is Xmind best for?",
+    "a": "Structured mind maps and outlines. Review the results yourself and compare with the alternatives listed on this page."
+   }
+  ],
+  "seo_title": "Xmind: What It Is and How to Use It",
+  "seo_description": "Learn what Xmind is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "mindmeister",
+  "name": "MindMeister",
+  "category": "design",
+  "website_url": "https://www.mindmeister.com",
+  "pricing": "Unknown",
+  "tagline": "Online mind mapping with real-time collaboration.",
+  "best_for": "Collaborative mind maps in the browser",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "MindMeister is an online mind mapping tool where several people can edit a map at once. You add topics, notes, links and icons, and can present a map as slides.\n\nTeachers, students and teams use it to plan and brainstorm together. Check the official site for current plans and sharing limits. Features and plans change over time, so check the official site for current plans.",
+  "use_steps": [
+   "Open MindMeister and sign in or create an account if needed.",
+   "To begin, create a map and share it with a teammate.",
+   "Edit and refine the result until it fits your purpose.",
+   "Export or share it, then review the output yourself before using it."
+  ],
+  "pros": [
+   "Real-time collaboration",
+   "Simple to learn",
+   "Works across devices"
+  ],
+  "cons": [
+   "Free use may be limited",
+   "Less flexible for complex diagrams"
+  ],
+  "alternatives": [
+   "xmind",
+   "miro",
+   "whimsical"
+  ],
+  "tags": [
+   "mind-map",
+   "collaboration",
+   "brainstorming",
+   "education"
+  ],
+  "features": [
+   "Collaborative mind maps",
+   "Notes and links",
+   "Presentation mode",
+   "Apps for mobile"
+  ],
+  "use_cases": [
+   "Group brainstorming",
+   "Lesson planning",
+   "Essay outlines"
+  ],
+  "pricing_details": "Plans, limits and prices for MindMeister change over time. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is MindMeister?",
+    "a": "Online mind mapping with real-time collaboration. MindMeister is an online mind mapping tool where several people can edit a map at once."
+   },
+   {
+    "q": "Is MindMeister free?",
+    "a": "Pricing and free options can change. Check the official site for the current plans before relying on it."
+   },
+   {
+    "q": "Who is MindMeister best for?",
+    "a": "Collaborative mind maps in the browser. Review the results yourself and compare with the alternatives listed on this page."
+   }
+  ],
+  "seo_title": "MindMeister: What It Is and How to Use It",
+  "seo_description": "Learn what MindMeister is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "figjam",
+  "name": "FigJam",
+  "category": "design",
+  "website_url": "https://www.figma.com/figjam/",
+  "pricing": "Unknown",
+  "tagline": "Collaborative online whiteboard from Figma.",
+  "best_for": "Team brainstorming with sticky notes and diagrams",
+  "platforms": [
+   "Web"
+  ],
+  "description": "FigJam is a whiteboard tool from Figma used for brainstorming, planning and workshops. It offers sticky notes, shapes, connectors and templates, and teams can work on a board together.\n\nIt fits teams already using Figma, since design files can sit beside the board. Check the official site for current plans and AI features. Features and plans change over time, so check the official site for current plans.",
+  "use_steps": [
+   "Open FigJam and sign in or create an account if needed.",
+   "To begin, create a board and add sticky notes.",
+   "Edit and refine the result until it fits your purpose.",
+   "Export or share it, then review the output yourself before using it."
+  ],
+  "pros": [
+   "Easy to start",
+   "Works with Figma",
+   "Good for workshops"
+  ],
+  "cons": [
+   "Fewer advanced options than some rivals",
+   "Team features depend on plan"
+  ],
+  "alternatives": [
+   "miro",
+   "figma",
+   "whimsical"
+  ],
+  "tags": [
+   "whiteboard",
+   "brainstorming",
+   "collaboration",
+   "figma"
+  ],
+  "features": [
+   "Sticky notes and shapes",
+   "Connectors",
+   "Templates",
+   "Real-time collaboration"
+  ],
+  "use_cases": [
+   "Design workshops",
+   "Sprint planning",
+   "User flow sketches"
+  ],
+  "pricing_details": "Plans, limits and prices for FigJam change over time. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is FigJam?",
+    "a": "Collaborative online whiteboard from Figma. FigJam is a whiteboard tool from Figma used for brainstorming, planning and workshops."
+   },
+   {
+    "q": "Is FigJam free?",
+    "a": "Pricing and free options can change. Check the official site for the current plans before relying on it."
+   },
+   {
+    "q": "Who is FigJam best for?",
+    "a": "Team brainstorming with sticky notes and diagrams. Review the results yourself and compare with the alternatives listed on this page."
+   }
+  ],
+  "seo_title": "FigJam: What It Is and How to Use It",
+  "seo_description": "Learn what FigJam is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "adobe-express",
+  "name": "Adobe Express",
+  "category": "design",
+  "website_url": "https://www.adobe.com/express/",
+  "pricing": "Unknown",
+  "tagline": "Adobe's online tool for quick graphics, video and social content.",
+  "best_for": "Social posts and simple designs from templates",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "Adobe Express is an easy design tool for social posts, flyers, short videos and simple graphics. It offers templates and includes generative AI features connected with Adobe's other products.\n\nIt suits beginners and small teams who want an accessible alternative to professional software. Check the official site for current plans and what AI credits are included. Features and plans change over time, so check the official site for current plans.",
+  "use_steps": [
+   "Open Adobe Express and sign in or create an account if needed.",
+   "To begin, pick a template and replace the content.",
+   "Edit and refine the result until it fits your purpose.",
+   "Export or share it, then review the output yourself before using it."
+  ],
+  "pros": [
+   "Approachable for beginners",
+   "Template based",
+   "Connects with Adobe tools"
+  ],
+  "cons": [
+   "Fewer controls than pro Adobe apps",
+   "Plans vary"
+  ],
+  "alternatives": [
+   "canva",
+   "adobe-firefly",
+   "snappa"
+  ],
+  "tags": [
+   "design",
+   "templates",
+   "social-media",
+   "adobe"
+  ],
+  "features": [
+   "Templates",
+   "Social media content",
+   "Basic video editing",
+   "Generative AI tools"
+  ],
+  "use_cases": [
+   "Social media posts",
+   "Flyers",
+   "Quick promo clips"
+  ],
+  "pricing_details": "Plans, limits and prices for Adobe Express change over time. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Adobe Express?",
+    "a": "Adobe's online tool for quick graphics, video and social content. Adobe Express is an easy design tool for social posts, flyers, short videos and simple graphics."
+   },
+   {
+    "q": "Is Adobe Express free?",
+    "a": "Pricing and free options can change. Check the official site for the current plans before relying on it."
+   },
+   {
+    "q": "Who is Adobe Express best for?",
+    "a": "Social posts and simple designs from templates. Review the results yourself and compare with the alternatives listed on this page."
+   }
+  ],
+  "seo_title": "Adobe Express: What It Is and How to Use It",
+  "seo_description": "Learn what Adobe Express is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "designs-ai",
+  "name": "Designs.ai",
+  "category": "design",
+  "website_url": "https://designs.ai",
+  "pricing": "Unknown",
+  "tagline": "Suite of AI tools for logos, video, banners and voice.",
+  "best_for": "Several creative tasks inside one subscription tool",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Designs.ai bundles several AI-assisted creative tools, including logo making, video creation, banner design and voice-over generation. You enter a brief and the tools produce options to edit.\n\nIt suits small businesses wanting multiple basic assets from one place. Quality varies, so review outputs and check licence terms and plans on the official site. Features and plans change over time, so check the official site for current plans.",
+  "use_steps": [
+   "Open Designs.ai and sign in or create an account if needed.",
+   "To begin, enter a brief for the tool you need.",
+   "Edit and refine the result until it fits your purpose.",
+   "Export or share it, then review the output yourself before using it."
+  ],
+  "pros": [
+   "Many tools in one place",
+   "Beginner friendly",
+   "Quick drafts"
+  ],
+  "cons": [
+   "Results can be generic",
+   "Depth varies by tool"
+  ],
+  "alternatives": [
+   "canva",
+   "looka",
+   "adobe-express"
+  ],
+  "tags": [
+   "design",
+   "logo",
+   "video",
+   "ai"
+  ],
+  "features": [
+   "Logo maker",
+   "Video maker",
+   "Banner design",
+   "Speech generation"
+  ],
+  "use_cases": [
+   "Small business branding",
+   "Promo videos",
+   "Social banners"
+  ],
+  "pricing_details": "Plans, limits and prices for Designs.ai change over time. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Designs.ai?",
+    "a": "Suite of AI tools for logos, video, banners and voice. Designs.ai bundles several AI-assisted creative tools, including logo making, video creation, banner design and voice-over generation."
+   },
+   {
+    "q": "Is Designs.ai free?",
+    "a": "Pricing and free options can change. Check the official site for the current plans before relying on it."
+   },
+   {
+    "q": "Who is Designs.ai best for?",
+    "a": "Several creative tasks inside one subscription tool. Review the results yourself and compare with the alternatives listed on this page."
+   }
+  ],
+  "seo_title": "Designs.ai: What It Is and How to Use It",
+  "seo_description": "Learn what Designs.ai is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "uxpin",
+  "name": "UXPin",
+  "category": "design",
+  "website_url": "https://www.uxpin.com",
+  "pricing": "Unknown",
+  "tagline": "Design and prototyping platform with code-based components.",
+  "best_for": "Prototypes that use real UI components",
+  "platforms": [
+   "Web"
+  ],
+  "description": "UXPin is a design and prototyping platform that supports interactive prototypes and, in some setups, components that come from real code libraries. This helps designers and developers work from the same building blocks.\n\nIt suits teams with design systems. It has more setup than lightweight mockup tools, so check the official site for plans and documentation. Features and plans change over time, so check the official site for current plans.",
+  "use_steps": [
+   "Open UXPin and sign in or create an account if needed.",
+   "To begin, open a project and add components to a canvas.",
+   "Edit and refine the result until it fits your purpose.",
+   "Export or share it, then review the output yourself before using it."
+  ],
+  "pros": [
+   "Close to production components",
+   "Detailed interactions",
+   "Good for design systems"
+  ],
+  "cons": [
+   "More setup than simple tools",
+   "Aimed at professional teams"
+  ],
+  "alternatives": [
+   "figma",
+   "protopie",
+   "sketch"
+  ],
+  "tags": [
+   "prototyping",
+   "design-systems",
+   "ux",
+   "components"
+  ],
+  "features": [
+   "Interactive prototyping",
+   "Design system support",
+   "Code-backed components",
+   "Collaboration and review"
+  ],
+  "use_cases": [
+   "Design system prototypes",
+   "Developer handoff",
+   "Usability test prototypes"
+  ],
+  "pricing_details": "Plans, limits and prices for UXPin change over time. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is UXPin?",
+    "a": "Design and prototyping platform with code-based components. UXPin is a design and prototyping platform that supports interactive prototypes and, in some setups, components that come from real code libraries."
+   },
+   {
+    "q": "Is UXPin free?",
+    "a": "Pricing and free options can change. Check the official site for the current plans before relying on it."
+   },
+   {
+    "q": "Who is UXPin best for?",
+    "a": "Prototypes that use real UI components. Review the results yourself and compare with the alternatives listed on this page."
+   }
+  ],
+  "seo_title": "UXPin: What It Is and How to Use It",
+  "seo_description": "Learn what UXPin is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "sketchup",
+  "name": "SketchUp",
+  "category": "design",
+  "website_url": "https://www.sketchup.com",
+  "pricing": "Unknown",
+  "tagline": "3D modelling for architecture, interiors and woodworking.",
+  "best_for": "Architectural and interior 3D models",
+  "platforms": [
+   "Web",
+   "Windows",
+   "macOS"
+  ],
+  "description": "SketchUp is a 3D modelling application used for architecture, interior design, woodworking and landscape planning. It is known for its push-and-pull approach to turning shapes into volumes.\n\nIt has a library of ready-made models and supports extensions. Check the official site for the versions and plans offered, since free and paid access options have changed over time. Features and plans change over time, so check the official site for current plans.",
+  "use_steps": [
+   "Open SketchUp and sign in or create an account if needed.",
+   "To begin, draw a rectangle and pull it into a 3D shape.",
+   "Edit and refine the result until it fits your purpose.",
+   "Export or share it, then review the output yourself before using it."
+  ],
+  "pros": [
+   "Intuitive modelling",
+   "Used in building design",
+   "Extension ecosystem"
+  ],
+  "cons": [
+   "Rendering usually needs add-ons",
+   "Plans differ by use case"
+  ],
+  "alternatives": [
+   "blender",
+   "tinkercad",
+   "planner-5d"
+  ],
+  "tags": [
+   "3d",
+   "architecture",
+   "interior",
+   "modelling"
+  ],
+  "features": [
+   "3D modelling",
+   "Model library",
+   "Extensions",
+   "Layout for documentation"
+  ],
+  "use_cases": [
+   "Building massing",
+   "Furniture design",
+   "Interior visualisation"
+  ],
+  "pricing_details": "Plans, limits and prices for SketchUp change over time. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is SketchUp?",
+    "a": "3D modelling for architecture, interiors and woodworking. SketchUp is a 3D modelling application used for architecture, interior design, woodworking and landscape planning."
+   },
+   {
+    "q": "Is SketchUp free?",
+    "a": "Pricing and free options can change. Check the official site for the current plans before relying on it."
+   },
+   {
+    "q": "Who is SketchUp best for?",
+    "a": "Architectural and interior 3D models. Review the results yourself and compare with the alternatives listed on this page."
+   }
+  ],
+  "seo_title": "SketchUp: What It Is and How to Use It",
+  "seo_description": "Learn what SketchUp is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "clo-3d",
+  "name": "CLO",
+  "category": "design",
+  "website_url": "https://www.clo3d.com",
+  "pricing": "Unknown",
+  "tagline": "3D fashion design software for garments and patterns.",
+  "best_for": "Digital garment design and virtual fitting",
+  "platforms": [
+   "Windows",
+   "macOS"
+  ],
+  "description": "CLO is 3D fashion design software where designers build garments from patterns and see them on virtual avatars. Fabrics simulate how cloth drapes, which helps check fit and appearance before sewing.\n\nIt is used by fashion students and apparel teams to reduce physical samples. It has a learning curve and needs a capable computer. Check the official site for current plans and education options. Features and plans change over time, so check the official site for current plans.",
+  "use_steps": [
+   "Open CLO and sign in or create an account if needed.",
+   "To begin, import or draw a pattern and place it on an avatar.",
+   "Edit and refine the result until it fits your purpose.",
+   "Export or share it, then review the output yourself before using it."
+  ],
+  "pros": [
+   "Realistic cloth simulation",
+   "Reduces sample making",
+   "Industry-oriented"
+  ],
+  "cons": [
+   "Needs training to use well",
+   "Requires a powerful computer"
+  ],
+  "alternatives": [
+   "blender",
+   "vectary",
+   "spline"
+  ],
+  "tags": [
+   "fashion",
+   "3d",
+   "garment",
+   "design"
+  ],
+  "features": [
+   "Pattern-based garment design",
+   "Virtual avatars",
+   "Fabric simulation",
+   "Rendering"
+  ],
+  "use_cases": [
+   "Garment prototyping",
+   "Fashion portfolio work",
+   "Virtual fit checks"
+  ],
+  "pricing_details": "Plans, limits and prices for CLO change over time. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is CLO?",
+    "a": "3D fashion design software for garments and patterns. CLO is 3D fashion design software where designers build garments from patterns and see them on virtual avatars."
+   },
+   {
+    "q": "Is CLO free?",
+    "a": "Pricing and free options can change. Check the official site for the current plans before relying on it."
+   },
+   {
+    "q": "Who is CLO best for?",
+    "a": "Digital garment design and virtual fitting. Review the results yourself and compare with the alternatives listed on this page."
+   }
+  ],
+  "seo_title": "CLO: What It Is and How to Use It",
+  "seo_description": "Learn what CLO is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ }
+]

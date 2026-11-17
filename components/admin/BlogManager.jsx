@@ -4,6 +4,7 @@ import { toLocalInput, fromLocalInput, fmtDate, uploadImage, collectR2Urls, repl
 import { Loading, ErrorBanner } from './ui';
 import { renderMarkdown } from '@/lib/markdown';
 import { slugify } from '@/lib/site';
+import { autoBlogFields } from '@/lib/blog-auto';
 import { BLOG_KINDS } from '@/lib/blog-kinds';
 
 const blank = { title: '', slug: '', category: '', excerpt: '', content: '', tags: '', author: 'Promptzyra Editorial Team', read_time: '5 min read', thumbnail: '', og_image: '', image_alt: '', featured: false, seo_title: '', seo_description: '', faq: '', kind: 'blog', published: false, publish_at: '' };
@@ -28,7 +29,7 @@ export default function BlogManager({ sb, cats, notify, token, onCatsChange }) {
   const startEdit = (r) => { setEdit({ id: r.id, f: { ...blank, ...r, tags: (r.tags || []).join(', '), faq: faqTxt(r.faq), publish_at: toLocalInput(r.publish_at), excerpt: r.excerpt || '', content: r.content || '', seo_title: r.seo_title || '', seo_description: r.seo_description || '' } }); setPrev(false); };
   const set = (k, v) => setEdit((e) => ({ ...e, f: { ...e.f, [k]: v } }));
   const save = async (mode) => {
-    const f = edit.f; if (!f.title.trim()) return notify('Title is required', true);
+    let f = edit.f; f = { ...f, ...autoBlogFields(f) }; if (!f.title.trim()) return notify('Title is required', true);
     const published = mode === 'publish' ? true : mode === 'draft' ? false : f.published;
     let pub = fromLocalInput(f.publish_at); if (published && !pub) pub = new Date().toISOString();
     const payload = { title: f.title.trim(), slug: slugify(f.slug || f.title), category: f.category, excerpt: f.excerpt, content: f.content, tags: f.tags.split(',').map((s) => s.trim()).filter(Boolean), keywords: f.tags, author: f.author, read_time: f.read_time, thumbnail: f.thumbnail, og_image: f.og_image || '', image_alt: f.image_alt || '', featured: !!f.featured, seo_title: f.seo_title, seo_description: f.seo_description, faq: faqArr(f.faq), kind: f.kind || 'blog', published, publish_at: published ? pub : fromLocalInput(f.publish_at), updated_at: new Date().toISOString() };
@@ -67,6 +68,7 @@ export default function BlogManager({ sb, cats, notify, token, onCatsChange }) {
       <div className="ed-b">
         <div><label>Title</label><input value={edit.f.title} onChange={(e) => { set('title', e.target.value); if (!edit.id) set('slug', slugify(e.target.value)); }} /></div>
         <div className="ad-grid g2"><div><label>URL slug</label><input value={edit.f.slug} onChange={(e) => set('slug', slugify(e.target.value))} /></div><div><label>Category</label>{newCat === null ? <div style={{ display: 'flex', gap: 6 }}><select value={edit.f.category} onChange={(e) => set('category', e.target.value)}>{[...new Set([...cats.map((c) => c.name), edit.f.category].filter(Boolean))].map((c) => <option key={c}>{c}</option>)}</select><button type="button" className="btn sm" onClick={() => setNewCat('')}>+ New</button></div> : <div style={{ display: 'flex', gap: 6 }}><input autoFocus placeholder="New category name" value={newCat} onChange={(e) => setNewCat(e.target.value)} onKeyDown={(e) => { if (e.key === 'Enter') { e.preventDefault(); addCat(); } }} /><button type="button" className="btn sm pri" onClick={addCat}>Add</button><button type="button" className="btn sm" onClick={() => setNewCat(null)}>✕</button></div>}</div></div>
+        <div style={{ display: 'flex', justifyContent: 'flex-end' }}><button type="button" className="btn sm" onClick={() => { const a = autoBlogFields(edit.f, true); setEdit({ ...edit, f: { ...edit.f, ...a } }); notify('Title, description, tags, slug, read time and image filled from your content'); }}>✨ Auto-fill SEO fields from content</button></div>
         <div><label>Description (shows on blog cards and, by default, in Google)</label><textarea rows={3} value={edit.f.excerpt} onChange={(e) => set('excerpt', e.target.value)} /><div className={`hint cnt${dl >= 140 && dl <= 160 ? ' ok' : ''}`}>{dl} characters — aim for 140–160</div></div>
         <div><div className="bar" style={{ marginBottom: 4 }}><label style={{ margin: 0 }}>Content (Markdown: ## heading, - list, **bold**, [link](https://…), ![alt](image url))</label><button className="btn sm" style={{ marginLeft: 'auto' }} onClick={() => setPrev(!prev)}>{prev ? 'Edit' : 'Preview'}</button></div>
           {prev ? <div className="prev" dangerouslySetInnerHTML={{ __html: html }} /> : <textarea rows={18} className="mono" value={edit.f.content} onChange={(e) => set('content', e.target.value)} />}</div>

@@ -1,0 +1,292 @@
+[
+ {
+  "slug": "exam-study-planner",
+  "name": "Exam Study Planner",
+  "description": "Builds a realistic day-by-day exam revision schedule from the syllabus, exam date and weekly free hours. Use when a student asks for a study timetable, revision plan or how to prepare for an exam in limited time.",
+  "category": "study-learning",
+  "tags": [
+   "exam",
+   "revision",
+   "timetable",
+   "planning",
+   "study plan"
+  ],
+  "audience": "Student",
+  "level": "Beginner",
+  "skill_md": "---\nname: exam-study-planner\ndescription: Builds a realistic day-by-day exam revision schedule from the syllabus, exam date and weekly free hours. Use when a student asks for a study timetable, revision plan or how to prepare for an exam in limited time.\n---\n# Exam Study Planner\n\n## When to use\nUse when a student has one or more exams coming up and needs a revision schedule that fits their real availability, weak areas and energy levels.\n\n## What to ask the user first\n- Subjects or exams, with exact dates.\n- Topic list or syllabus (ask them to paste it; a chapter list is enough).\n- Self-rating per topic: strong, okay or weak.\n- Hours available per weekday and weekend day, plus fixed commitments (classes, work, travel).\n- Past exam format (MCQ, long answer, practical) and any past paper availability.\n\n## Workflow\n1. Count the days from today to each exam and total the usable study hours; state this arithmetic so the user can correct it.\n2. Reserve the final day before each exam for light review only, and keep one buffer slot per week for slipped tasks.\n3. Weight topics: weak and high-mark topics get more sessions; strong topics get short maintenance sessions.\n4. Break the plan into blocks of 25-50 minutes with a clear task verb each (solve, recall, summarise), not just 'study chapter 3'.\n5. Space repeats: schedule each topic at least three times (first learn, review after 2-3 days, review after about a week).\n6. Place two or more past-paper or timed practice sessions in the last third of the plan.\n7. Present the plan, then ask whether any day is unrealistic and offer a lighter version.\n\n## Output format\n```\nSummary: <days left> days, <total hours> hours, <exams>\nWeekly rhythm: <e.g. weekday 2h, weekend 4h, 1 rest evening>\n\nWeek 1\n| Day | Block | Topic | Task (verb) | Mins |\n|-----|-------|-------|-------------|------|\n| Mon | 1 | ... | Recall without notes, then check | 40 |\n\nCheckpoints: <dates and what 'done' means>\nCatch-up slot: <day/time>\nIf you fall behind: <which topics to drop first and why>\n```\n\n## Quality checks\n- Total hours in the table match the hours the user said they have.\n- No day exceeds the availability given; rest or buffer time is present.\n- Every topic from the list appears at least once, weak ones most often.\n- Tasks are active (recall, practice) rather than passive rereading.\n- Dates and weekdays are consistent with today's date.\n\n## Boundaries\nDo not promise marks or outcomes; a plan is a guide, not a guarantee. If the time left is clearly too short to cover everything, say so and prioritise honestly instead of squeezing an impossible schedule. Help the learner understand and do their own work; never invent facts, sources, citations or statistics, and say plainly when you are unsure or when a claim should be checked against the course material. Do not ask for or store personal data beyond what the task needs.\n",
+  "references_md": "Priority rules for tight schedules\n\n1. Cover high-mark and weak topics first.\n2. Prefer practice questions over rereading.\n3. Drop low-weight topics before cutting sleep or rest.\n\nSession template (45 minutes)\n- 5 min: recall what you remember of the last session.\n- 30 min: focused task on one topic.\n- 5 min: write 3 questions you still cannot answer.\n- 5 min: break.\n\nSpacing guide: review a new topic after 1 day, 3 days, 7 days and 14 days when time allows; compress the gaps proportionally when the exam is near.\n\nWeekly review questions: What did I finish? Which topics still feel shaky? What will I move to next week?\n\nHow to use this reference\nShare it with the assistant at the start of a session when you want stricter, more consistent output. Ask the assistant to name which item of the reference it is applying at each step, so you can see the reasoning and correct it. If an item does not fit your course, subject or exam board, tell the assistant to adapt it and note the change. Keep a short log of what worked after each session and paste it back next time so the guidance improves with use. Always prefer your teacher's instructions and official course material when they differ from this checklist.",
+  "use_cases": [
+   "Plan revision for board or university exams",
+   "Rebuild a schedule after missing study days",
+   "Split time across several subjects"
+  ],
+  "example_prompts": [
+   "I have my physics exam on 12 December and about 2 hours a day. Make me a revision plan.",
+   "Mere paas 4 subjects ke exams hain 3 weeks mein, timetable bana do.",
+   "I fell behind by a week, can you fix my study schedule?"
+  ],
+  "seo_title": "Exam Study Planner Skill for AI Assistants",
+  "seo_description": "Download a skill that turns your syllabus, exam date and free hours into a day-by-day revision plan with spaced reviews, practice slots and buffer time."
+ },
+ {
+  "slug": "flashcard-spaced-repetition",
+  "name": "Flashcard Maker with Spaced Repetition",
+  "description": "Turns notes or a textbook section into high-quality flashcards plus a spaced-repetition review calendar. Use when a student asks for flashcards, Anki cards, a memorisation deck or a review schedule.",
+  "category": "study-learning",
+  "tags": [
+   "flashcards",
+   "spaced repetition",
+   "memorisation",
+   "anki",
+   "recall"
+  ],
+  "audience": "Student",
+  "level": "Beginner",
+  "skill_md": "---\nname: flashcard-spaced-repetition\ndescription: Turns notes or a textbook section into high-quality flashcards plus a spaced-repetition review calendar. Use when a student asks for flashcards, Anki cards, a memorisation deck or a review schedule.\n---\n# Flashcard Maker with Spaced Repetition\n\n## When to use\nUse when the user has material to memorise or understand and wants cards that test recall, together with a schedule telling them when to review each batch.\n\n## What to ask the user first\n- The source text or topic (paste notes, or name the chapter).\n- Purpose: definitions, formulas, vocabulary, processes or concepts.\n- Exam date or how long they want to retain the material.\n- Preferred output: plain list, table, or CSV for import into a flashcard app.\n\n## Workflow\n1. Read the material and list the distinct facts or ideas worth remembering; skip trivia and repeated points.\n2. Write one idea per card. Convert statements into questions, cloze deletions or 'why/how' prompts so that answering needs recall, not recognition.\n3. Keep fronts under 20 words and answers under 30 words; add a short hint or example field only when it prevents ambiguity.\n4. Tag each card with topic and difficulty (easy, medium, hard).\n5. Group cards into batches of 15-25 for learning sessions.\n6. Build the review calendar with expanding gaps: day 0, 1, 3, 7, 14, 30. Cards the user gets wrong return to the 1-day step. If an exam date exists, fit the last review two days before it.\n7. Offer a second pass: ask the user to mark cards they found hard, then regenerate or split those cards.\n\n## Output format\n```\nDeck: <topic> (<n> cards)\nCSV (front,back,tag):\n\"What does X do?\",\"It does Y because Z\",\"topic::easy\"\n\"The ____ is responsible for Y.\",\"X\",\"topic::medium\"\n\nReview calendar\n| Batch | Learn | R1 (+1d) | R2 (+3d) | R3 (+7d) | R4 (+14d) | R5 (+30d) |\n|-------|-------|----------|----------|----------|-----------|-----------|\n\nRules: wrong answer -> back to the +1d step.\n```\n\n## Quality checks\n- Each card tests exactly one idea and has one defensible answer.\n- Cloze cards hide a key term, not a trivial word.\n- Every card is supported by the supplied material; no outside facts added silently.\n- CSV has quoted fields with commas escaped correctly.\n- Calendar dates use the user's start date when given.\n\n## Boundaries\nOnly create cards from the supplied material or clearly marked general knowledge, and flag anything the user should verify in their textbook. Do not claim that this schedule is optimal for every learner; it is a common expanding-interval pattern. Help the learner understand and do their own work; never invent facts, sources, citations or statistics, and say plainly when you are unsure or when a claim should be checked against the course material. Do not ask for or store personal data beyond what the task needs.\n",
+  "references_md": "Good card patterns\n\n- Definition: 'What is [term]?' -> short definition in your own words.\n- Cloze: 'Mitochondria produce ____ through respiration.' -> ATP.\n- Why: 'Why does [event] happen?' -> one-sentence cause.\n- Compare: 'Difference between A and B?' -> one distinguishing feature.\n- Process: 'What is step 3 of [process]?'\n\nCard mistakes to avoid\n- Lists of five or more items on one card; split them.\n- Answers that are paragraphs.\n- Cards that can be answered by pattern recognition without understanding.\n\nImport tip: most flashcard apps accept comma-separated or tab-separated text with the front in the first column and the back in the second.\n\nHow to use this reference\nShare it with the assistant at the start of a session when you want stricter, more consistent output. Ask the assistant to name which item of the reference it is applying at each step, so you can see the reasoning and correct it. If an item does not fit your course, subject or exam board, tell the assistant to adapt it and note the change. Keep a short log of what worked after each session and paste it back next time so the guidance improves with use. Always prefer your teacher's instructions and official course material when they differ from this checklist.",
+  "use_cases": [
+   "Make Anki-ready cards from lecture notes",
+   "Create vocabulary or formula decks",
+   "Plan when to review each batch of cards"
+  ],
+  "example_prompts": [
+   "Make flashcards from these biology notes and tell me when to review them.",
+   "Create 30 cloze cards for the French Revolution chapter, CSV format.",
+   "Mujhe chemistry formulas ke flashcards chahiye with revision schedule."
+  ],
+  "seo_title": "Flashcard Maker with Spaced Repetition Skill",
+  "seo_description": "Download an AI skill that converts notes into one-idea flashcards, exports CSV, and adds an expanding-interval review calendar for steady long-term recall."
+ },
+ {
+  "slug": "feynman-explainer-coach",
+  "name": "Feynman Technique Coach",
+  "description": "Coaches a learner through the Feynman technique: explain a topic simply, find gaps, and rebuild a clearer explanation. Use when a student wants to test understanding, says 'let me explain it back', or asks to be taught by teaching.",
+  "category": "study-learning",
+  "tags": [
+   "feynman",
+   "understanding",
+   "self-explanation",
+   "concepts",
+   "revision"
+  ],
+  "audience": "Student",
+  "level": "Beginner",
+  "skill_md": "---\nname: feynman-explainer-coach\ndescription: Coaches a learner through the Feynman technique: explain a topic simply, find gaps, and rebuild a clearer explanation. Use when a student wants to test understanding, says 'let me explain it back', or asks to be taught by teaching.\n---\n# Feynman Technique Coach\n\n## When to use\nUse when the learner wants to check whether they truly understand a concept, or keeps rereading without it sticking.\n\n## What to ask the user first\n- The concept or topic they want to master.\n- Their level (for example school grade or first-year university) and the course context.\n- Whether they want to explain first (recommended) or want a model explanation first.\n- Any source material their course uses, so terms match.\n\n## Workflow\n1. Ask the learner to explain the concept in their own words as if to a 12-year-old, without notes. Do not interrupt or correct yet.\n2. Analyse the explanation. Mark each claim as correct, partly correct, vague or wrong. Note jargon used without definition and steps that were skipped.\n3. Report gaps as questions, not corrections: 'What makes the second step follow from the first?' Let the learner try to repair at least two gaps before you supply the answer.\n4. Give a targeted mini-lesson only for the gaps that remain, linking to what they already got right.\n5. Ask for a second, tighter explanation using one everyday analogy and one concrete example.\n6. Compare the two attempts and name what improved.\n7. Close with three check questions of increasing difficulty and a note of what to revisit.\n\n## Output format\n```\nRound 1 feedback\nSolid: <points they had right>\nGaps (as questions): 1) ... 2) ...\nJargon to unpack: <terms>\n\nMini-lesson (only for unresolved gaps)\n<short explanation, <=150 words>\n\nRound 2 prompt: 'Explain it again using one analogy and one example.'\n\nCheck questions\n1) Recall  2) Apply  3) Explain why\n```\n\n## Quality checks\n- You have asked the learner to attempt first before explaining anything.\n- Each correction is specific to something they actually said.\n- Analogies are marked as approximate where they break down.\n- Technical accuracy is verified against standard course-level knowledge.\n- The tone is encouraging and avoids calling answers stupid or lazy.\n\n## Boundaries\nDo not complete graded assignments for the learner or write explanations they will submit as their own. If the topic is outside your reliable knowledge, say so and suggest consulting the course text or instructor. Help the learner understand and do their own work; never invent facts, sources, citations or statistics, and say plainly when you are unsure or when a claim should be checked against the course material. Do not ask for or store personal data beyond what the task needs.\n",
+  "references_md": "Four steps in brief\n\n1. Pick a concept and write its name at the top.\n2. Explain it simply, in plain words, from memory.\n3. Identify where you hesitated, used jargon, or hand-waved; go back to the source for those parts only.\n4. Simplify and use an analogy; repeat until a beginner could follow.\n\nSignals of shallow understanding\n- Reciting definitions word for word.\n- Unable to give a fresh example.\n- Unable to say what would change if one condition changed.\n\nFollow-up habit: after a week, explain the same concept again without notes and compare.\n\nHow to use this reference\nShare it with the assistant at the start of a session when you want stricter, more consistent output. Ask the assistant to name which item of the reference it is applying at each step, so you can see the reasoning and correct it. If an item does not fit your course, subject or exam board, tell the assistant to adapt it and note the change. Keep a short log of what worked after each session and paste it back next time so the guidance improves with use. Always prefer your teacher's instructions and official course material when they differ from this checklist.",
+  "use_cases": [
+   "Test understanding of a tough concept",
+   "Prepare to explain a topic in class or viva",
+   "Find which part of a chapter is not clear"
+  ],
+  "example_prompts": [
+   "Let me explain photosynthesis to you and tell me what I'm missing.",
+   "I keep forgetting how recursion works, coach me with the Feynman method.",
+   "Mujhe supply and demand samajh nahi aata, mujhse explain karwao aur gaps batao."
+  ],
+  "seo_title": "Feynman Technique Coach Skill for Learning",
+  "seo_description": "Free AI skill that makes you explain a concept in simple words, finds the gaps in your understanding, and guides a clearer second attempt with check questions."
+ },
+ {
+  "slug": "active-recall-quiz-coach",
+  "name": "Active Recall Quiz Coach",
+  "description": "Quizzes a learner one question at a time on their own material, adapts difficulty, and gives hints before answers. Use when a student asks to be tested, wants practice questions, a mock quiz or active recall practice.",
+  "category": "study-learning",
+  "tags": [
+   "quiz",
+   "active recall",
+   "practice",
+   "testing",
+   "self-assessment"
+  ],
+  "audience": "Student",
+  "level": "Beginner",
+  "skill_md": "---\nname: active-recall-quiz-coach\ndescription: Quizzes a learner one question at a time on their own material, adapts difficulty, and gives hints before answers. Use when a student asks to be tested, wants practice questions, a mock quiz or active recall practice.\n---\n# Active Recall Quiz Coach\n\n## When to use\nUse when a student wants to test themselves on a topic instead of rereading, including short daily quizzes and pre-exam practice rounds.\n\n## What to ask the user first\n- Topic, chapter or pasted notes to quiz on.\n- Number of questions and time available.\n- Question style: short answer, multiple choice, true/false with reason, or mixed.\n- Starting difficulty and whether they want hints.\n\n## Workflow\n1. Draft a question bank silently from the material, covering all main ideas and mixing recall, understanding and application.\n2. Ask exactly one question at a time and wait for the answer. Never reveal the answer in the question.\n3. After the answer, respond with: correct, partly correct or not yet, in one sentence, then the key point they missed.\n4. If wrong, offer a hint first and let them try again once; only then give the full answer with a one-line reason.\n5. Adapt: two correct in a row increases difficulty; two misses repeat the idea in a different form.\n6. Keep a running tally of topics hit and missed.\n7. At the end, show the score, list weak topics, and give a 3-item follow-up practice plan. Offer to re-quiz the missed items later.\n\n## Output format\n```\nQ3/10 (application): <question>\n[wait for answer]\n\nFeedback\nResult: Correct / Partly / Not yet\nKey point: <one sentence>\nHint (if needed): <nudge>\n\nFinal report\nScore: x/10\nStrong: ...  Weak: ...\nNext: 1) ... 2) ... 3) ...\n```\n\n## Quality checks\n- Only one question is shown at a time.\n- Questions are answerable from the supplied material or standard course content.\n- Multiple-choice distractors are plausible and exactly one option is correct.\n- Feedback is brief and names the specific misunderstanding.\n- Difficulty changes based on the learner's actual answers.\n\n## Boundaries\nThis is for practice and does not replace official past papers. Do not use the skill to generate answers for a live graded test or online exam. Help the learner understand and do their own work; never invent facts, sources, citations or statistics, and say plainly when you are unsure or when a claim should be checked against the course material. Do not ask for or store personal data beyond what the task needs.\n",
+  "references_md": "Question mix for a 10-question round\n- 3 recall (define, list, state)\n- 4 understanding (explain why, compare, predict)\n- 3 application (solve, classify a new example, spot the error)\n\nHint ladder\n1. Point to the relevant concept.\n2. Narrow it down (which of two ideas?).\n3. Show the first step only.\n4. Give the answer with the reason.\n\nTone tips: celebrate effort on partly right answers, and avoid sarcasm. Retrieval feels harder than rereading; remind learners that struggling to recall is useful practice.\n\nHow to use this reference\nShare it with the assistant at the start of a session when you want stricter, more consistent output. Ask the assistant to name which item of the reference it is applying at each step, so you can see the reasoning and correct it. If an item does not fit your course, subject or exam board, tell the assistant to adapt it and note the change. Keep a short log of what worked after each session and paste it back next time so the guidance improves with use. Always prefer your teacher's instructions and official course material when they differ from this checklist.",
+  "use_cases": [
+   "Daily 10-minute topic quizzes",
+   "Pre-exam mock rounds on weak chapters",
+   "Turn pasted notes into an interactive test"
+  ],
+  "example_prompts": [
+   "Quiz me on chapter 5 of my economics notes, one question at a time.",
+   "Test me on Python loops, start easy and get harder.",
+   "Mera history ka test lo, 10 questions, hints ke saath."
+  ],
+  "seo_title": "Active Recall Quiz Coach Skill for Students",
+  "seo_description": "Download an AI skill that quizzes you one question at a time, gives hints before answers, adapts difficulty and ends with a weak-topic report and practice plan."
+ },
+ {
+  "slug": "cornell-notes-cleaner",
+  "name": "Cornell Notes Cleaner",
+  "description": "Rewrites messy class notes into clean Cornell-format notes with cue questions and a summary. Use when a student pastes rough notes, a lecture dump or a chapter and asks to organise, clean up or convert them into Cornell notes.",
+  "category": "study-learning",
+  "tags": [
+   "cornell notes",
+   "note-taking",
+   "organising",
+   "summary",
+   "revision"
+  ],
+  "audience": "Student",
+  "level": "Beginner",
+  "skill_md": "---\nname: cornell-notes-cleaner\ndescription: Rewrites messy class notes into clean Cornell-format notes with cue questions and a summary. Use when a student pastes rough notes, a lecture dump or a chapter and asks to organise, clean up or convert them into Cornell notes.\n---\n# Cornell Notes Cleaner\n\n## When to use\nUse when the user has rough, incomplete or disorganised notes and wants them restructured for studying, without losing what they wrote.\n\n## What to ask the user first\n- The raw notes (pasted text, or typed from a photo).\n- Subject, course level and the lecture or chapter title.\n- Whether to keep the original wording as much as possible or condense heavily.\n- Any terms or sections they know are important for the exam.\n\n## Workflow\n1. Read the notes fully and group related lines under topic headings; keep the original order unless it clearly breaks logic.\n2. Fix spelling, fragments and abbreviations; expand abbreviations the first time. Mark anything unclear with [unclear: ...] instead of guessing.\n3. Place the content in the right-hand notes column as short bullets, preserving formulas, dates, names and definitions exactly.\n4. Write cue questions in the left column, one per key idea, phrased so that the notes column is the answer.\n5. Write a 3-4 sentence summary at the bottom in plain words.\n6. List up to 5 gaps or questions the notes leave open, with a suggestion of where to check.\n7. Offer to turn the cue column into flashcards or a self-quiz.\n\n## Output format\n```\n# <Lecture title> | <date/subject>\n\n| Cues / Questions | Notes |\n|------------------|-------|\n| What is X? | - X is ... (definition) |\n| Why does Y occur? | - Y occurs because ... |\n\nSummary: <3-4 sentences>\n\nGaps to check\n- <question the notes do not answer>\n- [unclear: ...] items\n```\n\n## Quality checks\n- No new facts were added that are absent from the original notes, except clearly marked suggestions.\n- Numbers, formulas, dates and names match the original exactly.\n- Each cue question can be answered from its notes cell.\n- The summary is written in the learner's reading level.\n- Unclear parts are flagged, not silently fixed.\n\n## Boundaries\nDo not invent missing content to make notes look complete. If the notes seem to contain an error, flag it gently and suggest checking the textbook rather than silently correcting it. Help the learner understand and do their own work; never invent facts, sources, citations or statistics, and say plainly when you are unsure or when a claim should be checked against the course material. Do not ask for or store personal data beyond what the task needs.\n",
+  "references_md": "Cue question starters: What is, Why, How does, Compare, List the causes of, What happens when, Give an example of.\n\nLayout tips\n- Notes column about two thirds of the width, cues one third.\n- Leave a blank line between topics.\n- Highlight formulas with a box or bold.\n\nStudy routine using the sheet\n1. Cover the notes column.\n2. Answer each cue aloud.\n3. Uncover and check.\n4. Mark cues you missed and repeat tomorrow.\n\nWhen notes come from handwriting, ask the learner to confirm numbers and spelling before relying on them.\n\nHow to use this reference\nShare it with the assistant at the start of a session when you want stricter, more consistent output. Ask the assistant to name which item of the reference it is applying at each step, so you can see the reasoning and correct it. If an item does not fit your course, subject or exam board, tell the assistant to adapt it and note the change. Keep a short log of what worked after each session and paste it back next time so the guidance improves with use. Always prefer your teacher's instructions and official course material when they differ from this checklist.",
+  "use_cases": [
+   "Organise a messy lecture dump",
+   "Convert textbook notes to Cornell format",
+   "Create cue questions for self-testing"
+  ],
+  "example_prompts": [
+   "Clean up these lecture notes into Cornell format.",
+   "Convert my chapter notes into cue questions and a summary.",
+   "Mere notes bikhre hue hain, inhe organise karke Cornell style mein do."
+  ],
+  "seo_title": "Cornell Notes Cleaner Skill for AI Assistants",
+  "seo_description": "Free skill that restructures messy class notes into Cornell format with cue questions, a short summary and a list of gaps, keeping your facts intact."
+ },
+ {
+  "slug": "lecture-to-study-guide",
+  "name": "Lecture Transcript to Study Guide",
+  "description": "Converts a lecture transcript or long notes into a structured study guide with key terms, concept map outline and practice questions. Use when a student pastes a transcript, recording notes or slides text and wants a study guide.",
+  "category": "study-learning",
+  "tags": [
+   "study guide",
+   "lecture",
+   "transcript",
+   "summary",
+   "key terms"
+  ],
+  "audience": "Student",
+  "level": "Intermediate",
+  "skill_md": "---\nname: lecture-to-study-guide\ndescription: Converts a lecture transcript or long notes into a structured study guide with key terms, concept map outline and practice questions. Use when a student pastes a transcript, recording notes or slides text and wants a study guide.\n---\n# Lecture Transcript to Study Guide\n\n## When to use\nUse when the user provides long, unstructured lecture material (transcript, slides text, recorded-class notes) and needs a compact guide to revise from.\n\n## What to ask the user first\n- The transcript or notes, pasted in parts if long.\n- Course name, level and exam type.\n- Desired length: one-page cheat sheet or detailed guide.\n- Topics the lecturer stressed as exam-relevant, if known.\n\n## Workflow\n1. Remove filler, repetition and off-topic talk; keep a short list of what was dropped if the user asks.\n2. Identify the main sections of the lecture and order them logically; give each a heading.\n3. Extract key terms with a plain-language definition quoted or paraphrased from the transcript.\n4. Capture processes, formulas, examples and any numbers exactly as stated.\n5. Make a text concept-map outline showing how ideas connect (parent idea, sub-ideas, relationships).\n6. Write 8-12 practice questions of mixed type with a hidden answer key at the end.\n7. List unclear or contradictory points and tell the user to check them with the lecturer or textbook.\n\n## Output format\n```\n# Study guide: <lecture title>\n## 1. Big picture (3 bullets)\n## 2. Sections\n### <Section>  - key points, example, formula\n## 3. Key terms\n| Term | Meaning | Where used |\n## 4. Concept map outline\nMain idea -> sub-idea (relationship) -> example\n## 5. Practice questions (answers below)\n## 6. Answer key\n## 7. Unclear or to verify\n```\n\n## Quality checks\n- Everything in the guide traces back to the transcript; additions are labelled.\n- Key terms and formulas match the source wording.\n- Sections are shorter than the source and not just copied.\n- Practice questions cover each major section.\n- The guide fits the length the user chose.\n\n## Boundaries\nDo not fill gaps with invented lecture content. Remind the user that transcripts can contain recognition errors in names and numbers, so those need checking. Protect any names or personal details of classmates or staff in the text. Help the learner understand and do their own work; never invent facts, sources, citations or statistics, and say plainly when you are unsure or when a claim should be checked against the course material. Do not ask for or store personal data beyond what the task needs.\n",
+  "references_md": "Length guide\n- One-page cheat sheet: big picture, 10 key terms, formulas, 5 questions.\n- Detailed guide: all seven sections, 10-12 questions.\n\nHandling long transcripts\n1. Process in chunks of one topic each.\n2. Keep a running list of key terms to avoid duplicates.\n3. Merge chunks at the end and reorder.\n\nCommon transcript problems\n- Names and technical words misheard; flag them.\n- Numbers read aloud inconsistently (for example 'two point five' versus '2.5'); normalise and mention it.\n- Speaker asides; keep only if they clarify a concept.\n\nAfter the guide, suggest converting the key terms into flashcards.\n\nHow to use this reference\nShare it with the assistant at the start of a session when you want stricter, more consistent output. Ask the assistant to name which item of the reference it is applying at each step, so you can see the reasoning and correct it. If an item does not fit your course, subject or exam board, tell the assistant to adapt it and note the change. Keep a short log of what worked after each session and paste it back next time so the guidance improves with use. Always prefer your teacher's instructions and official course material when they differ from this checklist.",
+  "use_cases": [
+   "Summarise a recorded lecture into a revision sheet",
+   "Create a one-page cheat sheet from slides",
+   "Generate practice questions from a transcript"
+  ],
+  "example_prompts": [
+   "Here is my lecture transcript, make a study guide with key terms and questions.",
+   "Turn these slide notes into a one-page revision sheet.",
+   "Is lecture ka transcript hai, isse study guide bana do."
+  ],
+  "seo_title": "Lecture Transcript to Study Guide Skill",
+  "seo_description": "Download a skill that turns long lecture transcripts or notes into a study guide with key terms, a concept-map outline, practice questions and an answer key."
+ },
+ {
+  "slug": "guided-math-tutor",
+  "name": "Guided Math Tutor",
+  "description": "Guides a student through math problems with questions and hints instead of handing over the answer. Use when a student is stuck on algebra, geometry, calculus, statistics or word problems and wants to learn the method.",
+  "category": "math-science",
+  "tags": [
+   "math",
+   "tutor",
+   "problem solving",
+   "hints",
+   "algebra"
+  ],
+  "audience": "Student",
+  "level": "Beginner",
+  "skill_md": "---\nname: guided-math-tutor\ndescription: Guides a student through math problems with questions and hints instead of handing over the answer. Use when a student is stuck on algebra, geometry, calculus, statistics or word problems and wants to learn the method.\n---\n# Guided Math Tutor\n\n## When to use\nUse when the user shares a math problem or homework question and wants to understand how to solve it, not just receive a final answer.\n\n## What to ask the user first\n- The exact problem, copied in full including given values.\n- Their grade or course level and the topic (for example quadratics, derivatives).\n- What they have tried so far, even if wrong.\n- Preferred pace: small hints, or a worked similar example first.\n\n## Workflow\n1. Restate the problem in your own words and confirm the goal (what is being asked) with the user.\n2. Solve the problem privately and verify the result by substitution or an alternative method before guiding.\n3. Diagnose from the user's attempt: find the first step where reasoning went wrong or stalled.\n4. Give the smallest useful hint: a question that points to the next step. Wait for the user's reply.\n5. If stuck twice, show a worked example of a similar problem with different numbers, then return to theirs.\n6. After they reach an answer, ask them to check it (substitute back, estimate, units).\n7. Summarise the method in 3 steps and give one similar practice problem with the answer hidden until they try.\n\n## Output format\n```\nGoal: <what we need to find>\nKnown: <given values>\nYour attempt: <what is right / first slip>\n\nHint 1 (question): <nudge>\n[wait]\n\nCheck: substitute x = ... back, does it work?\nMethod in 3 steps: 1) ... 2) ... 3) ...\nTry this: <similar problem>  (answer: ask me when ready)\n```\n\n## Quality checks\n- Your hidden solution is correct and was checked.\n- Each hint advances only one step.\n- Notation and rules used are at the learner's level.\n- Praise is specific to what the learner did.\n- The final summary names the underlying method, not just the answer.\n\n## Boundaries\nIf the problem appears to be from a live exam or graded test in progress, do not solve it; offer to practise similar problems instead. If the user insists on the answer, give it only after a guided attempt and explain it fully, and remind them to follow their course's rules. Help the learner understand and do their own work; never invent facts, sources, citations or statistics, and say plainly when you are unsure or when a claim should be checked against the course material. Do not ask for or store personal data beyond what the task needs.\n",
+  "references_md": "Hint ladder\n1. Ask what the question wants and what is given.\n2. Ask which concept or formula applies.\n3. Suggest the first operation, not its result.\n4. Show one line of work, then ask for the next.\n5. Only as a last resort, show the full worked solution of a similar problem.\n\nCommon error checks\n- Sign errors when moving terms.\n- Dropping parentheses or exponents.\n- Dividing by an expression that could be zero.\n- Forgetting units.\n\nVerification habits: substitute the answer back, estimate magnitude, test an easy special case.\n\nHow to use this reference\nShare it with the assistant at the start of a session when you want stricter, more consistent output. Ask the assistant to name which item of the reference it is applying at each step, so you can see the reasoning and correct it. If an item does not fit your course, subject or exam board, tell the assistant to adapt it and note the change. Keep a short log of what worked after each session and paste it back next time so the guidance improves with use. Always prefer your teacher's instructions and official course material when they differ from this checklist.",
+  "use_cases": [
+   "Learn the method for homework problems",
+   "Fix repeated algebra mistakes",
+   "Practise word problems step by step"
+  ],
+  "example_prompts": [
+   "Help me solve 2x^2 - 5x - 3 = 0 but don't just give the answer.",
+   "I'm stuck on this derivative problem, can you guide me?",
+   "Is word problem ko step by step samjhao, answer mat batao pehle."
+  ],
+  "seo_title": "Guided Math Tutor Skill: Hints, Not Answers",
+  "seo_description": "Free AI skill that tutors math through hints and questions, checks your work step by step and ends with a method summary and a similar practice problem."
+ },
+ {
+  "slug": "science-concept-analogies",
+  "name": "Science Concept Explainer with Analogies",
+  "description": "Explains a science concept at the learner's level using accurate analogies, examples and common-misconception checks. Use when a student asks 'explain X simply', wants an analogy for physics, chemistry or biology, or is confused by a concept.",
+  "category": "math-science",
+  "tags": [
+   "science",
+   "analogies",
+   "physics",
+   "chemistry",
+   "biology"
+  ],
+  "audience": "Student",
+  "level": "Beginner",
+  "skill_md": "---\nname: science-concept-analogies\ndescription: Explains a science concept at the learner's level using accurate analogies, examples and common-misconception checks. Use when a student asks 'explain X simply', wants an analogy for physics, chemistry or biology, or is confused by a concept.\n---\n# Science Concept Explainer with Analogies\n\n## When to use\nUse when the user finds a science concept abstract and needs a clear explanation with everyday comparisons, while staying scientifically accurate.\n\n## What to ask the user first\n- The concept and the subject (physics, chemistry, biology, earth science).\n- Their level, for example grade 8, high school or first-year university.\n- What exactly confuses them, or what they think it means now.\n- Preferred style: short explanation, step-by-step, or story-like.\n\n## Workflow\n1. Name the concept and the one core idea in a single sentence a beginner can repeat.\n2. Check prior knowledge: ask what the user already believes, if not given, and note any misconception.\n3. Explain in layers: plain-language idea, then the mechanism, then the formal term or equation if the level requires it.\n4. Offer one or two analogies from daily life. For each, state where the analogy works and where it breaks down.\n5. Give one concrete example or simple experiment the learner can picture or try safely.\n6. List 2-3 common misconceptions and correct them.\n7. Finish with three check questions (recall, explain, apply) and offer to go deeper or simpler.\n\n## Output format\n```\nCore idea: <one sentence>\nLayer 1 (plain): ...\nLayer 2 (how it works): ...\nLayer 3 (formal): <term / equation, if needed>\n\nAnalogy: <comparison>\nWorks because: ...  Breaks down when: ...\n\nExample: ...\nCommon misconceptions: 1) ... 2) ...\nCheck yourself: 1) ... 2) ... 3) ...\n```\n\n## Quality checks\n- The science is correct at the stated level; simplifications are labelled as such.\n- Analogies include their limits.\n- Terminology is introduced only after the idea is understood.\n- Experiments suggested are safe at home or school; hazardous ones are only described for lab supervision.\n- Equations include units and variable meanings.\n\n## Boundaries\nDo not present analogies as literal truth. If a question touches on unsettled science or medical advice, say what is known and uncertain and point to authoritative sources. Do not give instructions for dangerous experiments. Help the learner understand and do their own work; never invent facts, sources, citations or statistics, and say plainly when you are unsure or when a claim should be checked against the course material. Do not ask for or store personal data beyond what the task needs.\n",
+  "references_md": "Analogy quality test\n1. Does it map cause and effect, not just appearance?\n2. Can you name where it fails?\n3. Does the learner already know the comparison domain?\n\nExamples of analogy limits\n- Electric current as water in pipes: helps with flow and pressure, fails to show fields or that electrons carry charge.\n- DNA as a recipe book: helps with instructions, but cells interpret them in context with regulation.\n\nLevels\n- Beginner: no equations, one analogy, one example.\n- Intermediate: key equation, units, one worked example.\n- Advanced: assumptions, limitations, link to related theories.\n\nAlways close by asking the learner to restate the idea in their own words.\n\nHow to use this reference\nShare it with the assistant at the start of a session when you want stricter, more consistent output. Ask the assistant to name which item of the reference it is applying at each step, so you can see the reasoning and correct it. If an item does not fit your course, subject or exam board, tell the assistant to adapt it and note the change. Keep a short log of what worked after each session and paste it back next time so the guidance improves with use. Always prefer your teacher's instructions and official course material when they differ from this checklist.",
+  "use_cases": [
+   "Understand abstract physics or chemistry concepts",
+   "Prepare simple explanations for peers",
+   "Spot and fix science misconceptions"
+  ],
+  "example_prompts": [
+   "Explain entropy in simple words with a good analogy.",
+   "What is osmosis? I keep mixing it up with diffusion.",
+   "Mujhe electric potential ka concept samjhao, example ke saath."
+  ],
+  "seo_title": "Science Concept Explainer with Analogies Skill",
+  "seo_description": "Free skill that explains science concepts in layers with accurate analogies, stated limits, examples, misconception checks and quick self-test questions."
+ },
+ {
+  "slug": "problem-mistake-log-reviewer",
+  "name": "Problem-Set Mistake Log Reviewer",
+  "description": "Analyses a student's wrong answers from math or science problem sets, classifies the error types and builds a targeted fix plan. Use when a student shares marked homework, test corrections or asks why they keep losing marks.",
+  "category": "math-science",
+  "tags": [
+   "mistakes",
+   "error analysis",
+   "problem sets",
+   "test corrections",
+   "revision"
+  ],
+  "audience": "Student",
+  "level": "Intermediate",
+  "skill_md": "---\nname: problem-mistake-log-reviewer\ndescription: Analyses a student's wrong answers from math or science problem sets, classifies the error types and builds a targeted fix plan. Use when a student shares marked homework, test corrections or asks why they keep losing marks.\n---\n# Problem-Set Mistake Log Reviewer\n\n## When to use\nUse when the user has graded work or a list of wrong answers in math, physics or chemistry and wants to find patterns and stop repeating mistakes.\n\n## What to ask the user first\n- The questions they got wrong, with their own working and the correct answer or feedback if available.\n- Subject, topic and test date, if any.\n- What they think went wrong in each case.\n- How many items they can review now (start with 5-10).\n\n## Workflow\n1. For each item, compare the user's working to the correct solution and find the first point of divergence.\n2. Classify the error: concept gap, procedure slip, careless arithmetic or sign error, misread question, units or formatting, or time pressure.\n3. Write a one-line cause in plain words, without blaming the learner.\n4. Count errors by category and topic across all items to find the top two patterns.\n5. Prescribe a specific fix for each pattern (for example, rewrite each line of algebra with the operation noted on the right).\n6. Create a retry list: 3-5 similar problems and a due date for redoing the original ones without notes.\n7. Update a running mistake log table the learner can keep and paste back next time.\n\n## Output format\n```\nMistake log\n| # | Topic | First wrong step | Type | Cause | Fix |\n|---|-------|-------------------|------|-------|-----|\n\nPatterns\n1) <type>: n items -> <action>\n2) ...\n\nRetry plan\n- Redo #1, #4 on <date> without notes\n- Similar problems: ...\nNext review: <date>\n```\n\n## Quality checks\n- Each classification is based on the learner's visible working, not guesses; say 'cannot tell' when working is missing.\n- The fixes are concrete behaviours.\n- The correct solutions were verified before comparing.\n- The log table is compact enough to reuse.\n- Tone is constructive.\n\n## Boundaries\nDo not rewrite the learner's graded submissions for them or help alter marked work. Use the analysis to teach. Do not store names or identifying information of students or teachers in the log. Help the learner understand and do their own work; never invent facts, sources, citations or statistics, and say plainly when you are unsure or when a claim should be checked against the course material. Do not ask for or store personal data beyond what the task needs.\n",
+  "references_md": "Error type definitions\n- Concept gap: the idea or rule was not known or misapplied.\n- Procedure slip: right idea, wrong step order or method.\n- Careless: arithmetic, copying, sign or rounding mistake.\n- Misread: question condition missed (for example 'not', 'at least').\n- Units or format: missing units, wrong significant figures.\n- Time: unfinished or rushed.\n\nFix ideas\n- Concept gap: rebuild with a worked example, then teach it back.\n- Careless: read-back check, estimate the answer first.\n- Misread: underline the command word and the given values.\n\nA healthy rhythm: review mistakes within 48 hours, redo after one week, and keep the log short and honest.\n\nHow to use this reference\nShare it with the assistant at the start of a session when you want stricter, more consistent output. Ask the assistant to name which item of the reference it is applying at each step, so you can see the reasoning and correct it. If an item does not fit your course, subject or exam board, tell the assistant to adapt it and note the change. Keep a short log of what worked after each session and paste it back next time so the guidance improves with use. Always prefer your teacher's instructions and official course material when they differ from this checklist.",
+  "use_cases": [
+   "Analyse a test with many lost marks",
+   "Find repeated algebra or physics errors",
+   "Create a personal error log for revision"
+  ],
+  "example_prompts": [
+   "Here are my wrong answers from the physics test, find my pattern of mistakes.",
+   "Why do I keep making silly mistakes in maths? Review these 6 questions.",
+   "Mere test ke galat answers ka analysis karke plan banao."
+  ],
+  "seo_title": "Problem-Set Mistake Log Reviewer Skill",
+  "seo_description": "Download an AI skill that classifies errors in your marked math or science work, finds repeating patterns, and creates a retry plan and reusable mistake log."
+ },
+ {
+  "slug": "lab-report-data-coach",
+  "name": "Lab Report and Data Analysis Coach",
+  "description": "Coaches students through organising lab data, units, error analysis and conclusions for a science lab report without writing it for them. Use when a student asks for help with lab results, graphs, uncertainty or report structure.",
+  "category": "math-science",
+  "tags": [
+   "lab report",
+   "data analysis",
+   "uncertainty",
+   "graphs",
+   "physics"
+  ],
+  "audience": "Student",
+  "level": "Intermediate",
+  "skill_md": "---\nname: lab-report-data-coach\ndescription: Coaches students through organising lab data, units, error analysis and conclusions for a science lab report without writing it for them. Use when a student asks for help with lab results, graphs, uncertainty or report structure.\n---\n# Lab Report and Data Analysis Coach\n\n## When to use\nUse when a student has collected experiment data and needs help interpreting it, calculating results and structuring a lab report in their own words.\n\n## What to ask the user first\n- The experiment aim and method in a few lines.\n- Raw data table with units and instrument precision.\n- What the report must include (follow the teacher's template if any).\n- Level (school or university) and expected theory or formula.\n\n## Workflow\n1. Check the data first: units consistent, significant figures sensible, obvious outliers or missing values.\n2. Ask the student to state the expected relationship and a hypothesis before analysing.\n3. Guide calculations step by step: formula, substitution with units, result, and rounding; verify the numbers yourself.\n4. Explain uncertainty: instrument precision, repeated-reading spread, and how it propagates for the formulas used; flag when only a rough estimate is possible.\n5. Suggest the right graph type, axes with labels and units, and what trend line or fit tells them.\n6. Help the student compare with the accepted value, calculate percentage difference or error, and think of causes.\n7. Offer a section-by-section checklist and give feedback on a paragraph they write; do not write the report.\n\n## Output format\n```\nData check\n| Issue | Where | Suggested action |\n\nCalculation walkthrough\nFormula -> substitution (with units) -> result +/- uncertainty\n\nGraph plan: x = ..., y = ..., fit = ...\nResult vs expected: difference = ...%\nLikely error sources (ranked)\nReport checklist\n[ ] Aim [ ] Method [ ] Data [ ] Analysis [ ] Conclusion [ ] Evaluation\n```\n\n## Quality checks\n- Arithmetic and unit conversions are verified.\n- Uncertainty methods match the student's course level.\n- Claims in conclusions are supported by the data shown.\n- Sources of error are specific, not just 'human error'.\n- No numbers were invented to fill missing data.\n\n## Boundaries\nNever fabricate or adjust data to match a theory, and do not write the lab report for submission. If data seems wrong, advise honest reporting and discussion of the discrepancy. Follow the school's rules on AI help and ask the student to cite it if required. Help the learner understand and do their own work; never invent facts, sources, citations or statistics, and say plainly when you are unsure or when a claim should be checked against the course material. Do not ask for or store personal data beyond what the task needs.\n",
+  "references_md": "Report structure\n1. Title and aim\n2. Hypothesis or theory\n3. Variables (independent, dependent, controlled)\n4. Method and apparatus\n5. Results (tables, graphs)\n6. Analysis (calculations, uncertainty)\n7. Conclusion (answers the aim, uses data)\n8. Evaluation (errors, improvements)\n\nQuick uncertainty rules (common school level)\n- Sums and differences: add absolute uncertainties.\n- Products and quotients: add percentage uncertainties.\n- Powers: multiply the percentage uncertainty by the power.\n\nGood evaluation sentences point to a cause, the likely direction of its effect, and a specific improvement.\n\nHow to use this reference\nShare it with the assistant at the start of a session when you want stricter, more consistent output. Ask the assistant to name which item of the reference it is applying at each step, so you can see the reasoning and correct it. If an item does not fit your course, subject or exam board, tell the assistant to adapt it and note the change. Keep a short log of what worked after each session and paste it back next time so the guidance improves with use. Always prefer your teacher's instructions and official course material when they differ from this checklist.",
+  "use_cases": [
+   "Check units and uncertainty in physics labs",
+   "Plan graphs and trend lines",
+   "Review a conclusion paragraph for evidence"
+  ],
+  "example_prompts": [
+   "Help me analyse my pendulum experiment data and calculate g.",
+   "How do I calculate percentage error and uncertainty for my titration results?",
+   "Mera lab report ka conclusion check karo, data ke hisaab se sahi hai ya nahi."
+  ],
+  "seo_title": "Lab Report and Data Analysis Coach Skill",
+  "seo_description": "Free skill that guides science students through data checks, units, uncertainty, graphs and conclusions for lab reports without writing the report for them."
+ }
+]

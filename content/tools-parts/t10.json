@@ -1,0 +1,1253 @@
+[
+ {
+  "slug": "sprout-social",
+  "name": "Sprout Social",
+  "category": "marketing",
+  "website_url": "https://sproutsocial.com",
+  "pricing": "Free trial",
+  "tagline": "Social media management suite for publishing, a shared inbox, reporting and listening.",
+  "best_for": "Teams managing several social profiles with reporting needs",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "Sprout Social is a social media management platform that brings publishing, engagement and analytics into one workspace. Teams can schedule posts across connected networks, collect incoming messages and comments in a single smart inbox, and review performance in reports.\n\nIt is aimed at brands and agencies where several people share responsibility for social accounts. Approval flows, shared calendars and report exports help keep posting consistent and show results to managers or clients. Smaller solo creators may find a lighter scheduler enough, so compare feature sets before committing. Plans, limits and features change over time, so check the official site for current plans.",
+  "use_steps": [
+   "Create an account and start the trial.",
+   "Connect your social profiles.",
+   "Schedule posts on the shared calendar and set up inbox rules.",
+   "Review the reports weekly and adjust your posting plan."
+  ],
+  "pros": [
+   "Combined publishing and inbox",
+   "Reporting for stakeholders",
+   "Team approval workflows",
+   "Trial available to test it"
+  ],
+  "cons": [
+   "Aimed at teams, so can be costly for solo users",
+   "Feature depth varies by plan"
+  ],
+  "alternatives": [
+   "hootsuite",
+   "buffer",
+   "later"
+  ],
+  "tags": [
+   "social media",
+   "scheduling",
+   "analytics",
+   "inbox",
+   "teams"
+  ],
+  "features": [
+   "Multi-network scheduling",
+   "Smart inbox for messages",
+   "Performance reports",
+   "Team approvals",
+   "Social listening options"
+  ],
+  "use_cases": [
+   "Agency client reporting",
+   "Brand community replies",
+   "Planning a content calendar",
+   "Tracking campaign results"
+  ],
+  "pricing_details": "Sprout Social has shown a free trial period on its pricing page, followed by paid plans. Pricing and plan limits change, so check the official website for current details.",
+  "faq": [
+   {
+    "q": "What is Sprout Social?",
+    "a": "Social media management suite for publishing, a shared inbox, reporting and listening. Check the official site for the current feature list."
+   },
+   {
+    "q": "Is Sprout Social free?",
+    "a": "Sprout Social has shown a free trial period on its pricing page, followed by paid plans. Pricing and plan limits change, so check the official website for current details."
+   },
+   {
+    "q": "Who is Sprout Social best suited for?",
+    "a": "It is best suited to teams managing several social profiles with reporting needs. Compare it with the alternatives on this page before choosing."
+   }
+  ],
+  "seo_title": "Sprout Social: Features, Pricing Model and Alternatives",
+  "seo_description": "Learn what Sprout Social does, who it suits, key features, pros and cons, pricing model and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "later",
+  "name": "Later",
+  "category": "marketing",
+  "website_url": "https://later.com",
+  "pricing": "Unknown",
+  "tagline": "Visual social media planner and scheduler built around image-led platforms.",
+  "best_for": "Creators and brands planning visual content calendars",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "Later is a social media scheduling tool that started with a visual, drag-and-drop planner for Instagram and has since expanded to other networks. You arrange posts on a calendar grid, preview how a feed will look, and queue content for publishing.\n\nIt suits creators and small brands that care about how their feed looks and want a straightforward planning workflow. Added tools such as link-in-bio pages and basic analytics support a simple content routine. Larger organizations may want deeper listening or approval features from other platforms, so weigh what you need first. Plans, limits and features change over time, so check the official site for current plans.",
+  "use_steps": [
+   "Sign up and connect your social accounts.",
+   "Upload media to the library.",
+   "Drag posts onto the calendar and write captions.",
+   "Check analytics and refine posting times."
+  ],
+  "pros": [
+   "Visual calendar planning",
+   "Easy for beginners",
+   "Media library for assets",
+   "Link-in-bio support"
+  ],
+  "cons": [
+   "Advanced reporting may need higher plans",
+   "Plan limits vary"
+  ],
+  "alternatives": [
+   "planoly",
+   "buffer",
+   "metricool"
+  ],
+  "tags": [
+   "social media",
+   "instagram",
+   "scheduling",
+   "planner",
+   "creators"
+  ],
+  "features": [
+   "Drag-and-drop content calendar",
+   "Feed preview",
+   "Media library",
+   "Link-in-bio page",
+   "Basic analytics"
+  ],
+  "use_cases": [
+   "Planning an Instagram grid",
+   "Scheduling creator content",
+   "Organizing campaign assets",
+   "Tracking post performance"
+  ],
+  "pricing_details": "Later offers several tiers; free availability and limits have varied over time. Pricing and plan limits change, so check the official website for current details.",
+  "faq": [
+   {
+    "q": "What is Later?",
+    "a": "Visual social media planner and scheduler built around image-led platforms. Check the official site for the current feature list."
+   },
+   {
+    "q": "Is Later free?",
+    "a": "Later offers several tiers; free availability and limits have varied over time. Pricing and plan limits change, so check the official website for current details."
+   },
+   {
+    "q": "Who is Later best suited for?",
+    "a": "It is best suited to creators and brands planning visual content calendars. Compare it with the alternatives on this page before choosing."
+   }
+  ],
+  "seo_title": "Later: Features, Pricing Model and Alternatives",
+  "seo_description": "Learn what Later does, who it suits, key features, pros and cons, pricing model and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "metricool",
+  "name": "Metricool",
+  "category": "marketing",
+  "website_url": "https://metricool.com",
+  "pricing": "Freemium",
+  "tagline": "Social media planner and analytics tool that also tracks web and ad performance.",
+  "best_for": "Small businesses and freelancers wanting scheduling and analytics together",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "Metricool combines a social media planner with analytics dashboards. You can schedule posts for several networks, then review how they performed alongside website traffic and, where connected, paid ad results in one place.\n\nThis blend helps small teams who would otherwise jump between separate tools for posting and reporting. It publishes a comparison of its free and premium plans, which makes it easy to test the basics first. Agencies can manage multiple brands, though limits depend on the plan, so confirm what fits your workload. Plans, limits and features change over time, so check the official site for current plans.",
+  "use_steps": [
+   "Create an account and add your brand.",
+   "Connect social profiles and your website.",
+   "Schedule a week of posts in the planner.",
+   "Read the analytics and export a report."
+  ],
+  "pros": [
+   "Planner plus analytics in one tool",
+   "Free plan to start",
+   "Competitor and web tracking options",
+   "Report exports"
+  ],
+  "cons": [
+   "Limits on free tier",
+   "Dashboard has many options to learn"
+  ],
+  "alternatives": [
+   "later",
+   "buffer",
+   "sprout-social"
+  ],
+  "tags": [
+   "analytics",
+   "social media",
+   "scheduling",
+   "reports",
+   "small business"
+  ],
+  "features": [
+   "Content planner",
+   "Social analytics",
+   "Website tracking",
+   "Ad reporting",
+   "Branded reports"
+  ],
+  "use_cases": [
+   "Weekly social reporting",
+   "Client dashboards",
+   "Scheduling across networks",
+   "Comparing post performance"
+  ],
+  "pricing_details": "Metricool has a free plan alongside paid tiers with higher limits. Pricing and plan limits change, so check the official website for current details.",
+  "faq": [
+   {
+    "q": "What is Metricool?",
+    "a": "Social media planner and analytics tool that also tracks web and ad performance. Check the official site for the current feature list."
+   },
+   {
+    "q": "Is Metricool free?",
+    "a": "Metricool has a free plan alongside paid tiers with higher limits. Pricing and plan limits change, so check the official website for current details."
+   },
+   {
+    "q": "Who is Metricool best suited for?",
+    "a": "It is best suited to small businesses and freelancers wanting scheduling and analytics together. Compare it with the alternatives on this page before choosing."
+   }
+  ],
+  "seo_title": "Metricool: Features, Pricing Model and Alternatives",
+  "seo_description": "Learn what Metricool does, who it suits, key features, pros and cons, pricing model and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "publer",
+  "name": "Publer",
+  "category": "marketing",
+  "website_url": "https://publer.com",
+  "pricing": "Freemium",
+  "tagline": "Social media scheduling tool with a calendar, bulk upload and team collaboration.",
+  "best_for": "Creators and small teams scheduling across many networks",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "Publer is a scheduling and publishing tool for social media. You connect accounts, write posts once, adapt them per network and place them on a calendar or in a queue.\n\nIt supports bulk scheduling and recurring posts, which helps with repeated content. Its help center describes what the free plan includes, so you can test the workflow before paying. Teams can collaborate with roles and comments, but advanced needs such as listening are better covered by larger suites. Plans, limits and features change over time, so check the official site for current plans.",
+  "use_steps": [
+   "Sign up and connect your accounts.",
+   "Draft a post and adjust it for each network.",
+   "Add it to the calendar or queue.",
+   "Review analytics and recycle top posts."
+  ],
+  "pros": [
+   "Free plan available",
+   "Bulk scheduling",
+   "Queue and calendar views",
+   "Team collaboration"
+  ],
+  "cons": [
+   "Fewer enterprise features",
+   "Free plan has limits"
+  ],
+  "alternatives": [
+   "buffer",
+   "later",
+   "socialbee"
+  ],
+  "tags": [
+   "scheduling",
+   "social media",
+   "bulk",
+   "calendar",
+   "teams"
+  ],
+  "features": [
+   "Calendar and queues",
+   "Bulk upload",
+   "Cross-network drafting",
+   "Team roles",
+   "Basic analytics"
+  ],
+  "use_cases": [
+   "Batch scheduling a month of posts",
+   "Agency client calendars",
+   "Reposting evergreen content",
+   "Team approvals"
+  ],
+  "pricing_details": "Publer documents a free plan and paid plans with more accounts and features. Pricing and plan limits change, so check the official website for current details.",
+  "faq": [
+   {
+    "q": "What is Publer?",
+    "a": "Social media scheduling tool with a calendar, bulk upload and team collaboration. Check the official site for the current feature list."
+   },
+   {
+    "q": "Is Publer free?",
+    "a": "Publer documents a free plan and paid plans with more accounts and features. Pricing and plan limits change, so check the official website for current details."
+   },
+   {
+    "q": "Who is Publer best suited for?",
+    "a": "It is best suited to creators and small teams scheduling across many networks. Compare it with the alternatives on this page before choosing."
+   }
+  ],
+  "seo_title": "Publer: Features, Pricing Model and Alternatives",
+  "seo_description": "Learn what Publer does, who it suits, key features, pros and cons, pricing model and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "planoly",
+  "name": "Planoly",
+  "category": "marketing",
+  "website_url": "https://www.planoly.com",
+  "pricing": "Unknown",
+  "tagline": "Visual planner for Instagram, Pinterest and other social channels.",
+  "best_for": "Creators planning visual feeds and boards",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "Planoly is a visual content planner for social media. You upload images and videos, arrange them in a preview grid, write captions and schedule them to publish.\n\nIt is popular with creators and small brands that plan feeds in advance and want to see how posts sit together. Its pricing page lists plans with a stated starting monthly price, so budget-conscious users can compare tiers. Teams needing complex approvals or social listening should check whether the plan covers it. Plans, limits and features change over time, so check the official site for current plans.",
+  "use_steps": [
+   "Create an account and link profiles.",
+   "Upload content into the media library.",
+   "Arrange posts in the grid and add captions.",
+   "Schedule and review insights."
+  ],
+  "pros": [
+   "Clear visual planning",
+   "Beginner friendly",
+   "Multiple platforms",
+   "Caption and hashtag helpers"
+  ],
+  "cons": [
+   "Limited advanced analytics",
+   "Plan limits apply"
+  ],
+  "alternatives": [
+   "later",
+   "metricool",
+   "publer"
+  ],
+  "tags": [
+   "visual planner",
+   "instagram",
+   "pinterest",
+   "scheduling",
+   "creators"
+  ],
+  "features": [
+   "Visual grid planner",
+   "Scheduling",
+   "Media library",
+   "Caption tools",
+   "Insights"
+  ],
+  "use_cases": [
+   "Planning an Instagram feed",
+   "Pinterest pin scheduling",
+   "Creator content batches",
+   "Brand content calendars"
+  ],
+  "pricing_details": "Planoly lists several paid plans with a stated starting monthly price on its pricing page. Pricing and plan limits change, so check the official website for current details.",
+  "faq": [
+   {
+    "q": "What is Planoly?",
+    "a": "Visual planner for Instagram, Pinterest and other social channels. Check the official site for the current feature list."
+   },
+   {
+    "q": "Is Planoly free?",
+    "a": "Planoly lists several paid plans with a stated starting monthly price on its pricing page. Pricing and plan limits change, so check the official website for current details."
+   },
+   {
+    "q": "Who is Planoly best suited for?",
+    "a": "It is best suited to creators planning visual feeds and boards. Compare it with the alternatives on this page before choosing."
+   }
+  ],
+  "seo_title": "Planoly: Features, Pricing Model and Alternatives",
+  "seo_description": "Learn what Planoly does, who it suits, key features, pros and cons, pricing model and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "loomly",
+  "name": "Loomly",
+  "category": "marketing",
+  "website_url": "https://www.loomly.com",
+  "pricing": "Unknown",
+  "tagline": "Brand social media calendar with post ideas, approvals and analytics.",
+  "best_for": "Marketing teams that need approvals on social posts",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Loomly is a social media management platform built around a collaborative content calendar. It offers post ideas, a built-in approval workflow and publishing to connected networks.\n\nBrands and agencies use it to move a post from draft through review to publication with clear roles. Previews show how a post will look on each network. Its pricing varies by number of users and accounts, so teams should estimate their needs before choosing a tier. Plans, limits and features change over time, so check the official site for current plans.",
+  "use_steps": [
+   "Create an account and a calendar.",
+   "Add team members and set approval steps.",
+   "Draft posts with previews.",
+   "Publish and monitor post analytics."
+  ],
+  "pros": [
+   "Approval workflows",
+   "Post idea suggestions",
+   "Network previews",
+   "Team roles"
+  ],
+  "cons": [
+   "Priced by team and account size",
+   "Less focus on listening"
+  ],
+  "alternatives": [
+   "sprout-social",
+   "sendible",
+   "hootsuite"
+  ],
+  "tags": [
+   "approval",
+   "social media",
+   "calendar",
+   "teams",
+   "agency"
+  ],
+  "features": [
+   "Content calendar",
+   "Approval workflow",
+   "Post ideas",
+   "Previews",
+   "Analytics"
+  ],
+  "use_cases": [
+   "Client approval of posts",
+   "Planning campaigns",
+   "Team collaboration",
+   "Idea generation"
+  ],
+  "pricing_details": "Loomly offers tiered paid plans; confirm any free option on the site. Pricing and plan limits change, so check the official website for current details.",
+  "faq": [
+   {
+    "q": "What is Loomly?",
+    "a": "Brand social media calendar with post ideas, approvals and analytics. Check the official site for the current feature list."
+   },
+   {
+    "q": "Is Loomly free?",
+    "a": "Loomly offers tiered paid plans; confirm any free option on the site. Pricing and plan limits change, so check the official website for current details."
+   },
+   {
+    "q": "Who is Loomly best suited for?",
+    "a": "It is best suited to marketing teams that need approvals on social posts. Compare it with the alternatives on this page before choosing."
+   }
+  ],
+  "seo_title": "Loomly: Features, Pricing Model and Alternatives",
+  "seo_description": "Learn what Loomly does, who it suits, key features, pros and cons, pricing model and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "socialbee",
+  "name": "SocialBee",
+  "category": "marketing",
+  "website_url": "https://socialbee.com",
+  "pricing": "Unknown",
+  "tagline": "Social media scheduler with content categories and recycling.",
+  "best_for": "Small businesses reposting evergreen content",
+  "platforms": [
+   "Web"
+  ],
+  "description": "SocialBee is a social media management tool organized around content categories. You group posts into categories such as tips or promotions and schedule them to repeat on a set rhythm.\n\nThis suits businesses with evergreen content that they want to recycle without rewriting it every time. It also includes AI-assisted writing helpers and a calendar. Pricing is tiered, and its help center explains how to choose a plan, so read that before signing up. Plans, limits and features change over time, so check the official site for current plans.",
+  "use_steps": [
+   "Create an account and connect profiles.",
+   "Set up content categories.",
+   "Add posts to each category.",
+   "Review the weekly schedule and results."
+  ],
+  "pros": [
+   "Category-based scheduling",
+   "Evergreen recycling",
+   "Help center guidance",
+   "Team features"
+  ],
+  "cons": [
+   "Learning curve for categories",
+   "Plans scale by profiles"
+  ],
+  "alternatives": [
+   "publer",
+   "later",
+   "buffer"
+  ],
+  "tags": [
+   "scheduling",
+   "evergreen",
+   "categories",
+   "social media",
+   "small business"
+  ],
+  "features": [
+   "Category scheduling",
+   "Post recycling",
+   "AI writing assistant",
+   "Calendar",
+   "Analytics"
+  ],
+  "use_cases": [
+   "Reposting evergreen tips",
+   "Mixing promo and value posts",
+   "Agency calendars",
+   "Weekly batching"
+  ],
+  "pricing_details": "SocialBee sells tiered paid plans, with limits that depend on the plan. Pricing and plan limits change, so check the official website for current details.",
+  "faq": [
+   {
+    "q": "What is SocialBee?",
+    "a": "Social media scheduler with content categories and recycling. Check the official site for the current feature list."
+   },
+   {
+    "q": "Is SocialBee free?",
+    "a": "SocialBee sells tiered paid plans, with limits that depend on the plan. Pricing and plan limits change, so check the official website for current details."
+   },
+   {
+    "q": "Who is SocialBee best suited for?",
+    "a": "It is best suited to small businesses reposting evergreen content. Compare it with the alternatives on this page before choosing."
+   }
+  ],
+  "seo_title": "SocialBee: Features, Pricing Model and Alternatives",
+  "seo_description": "Learn what SocialBee does, who it suits, key features, pros and cons, pricing model and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "sendible",
+  "name": "Sendible",
+  "category": "marketing",
+  "website_url": "https://www.sendible.com",
+  "pricing": "Free trial",
+  "tagline": "Social media management for agencies with client workspaces and reports.",
+  "best_for": "Agencies handling several client accounts",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Sendible is a social media management platform built with agencies in mind. It offers client workspaces, publishing calendars, a shared inbox and branded reports.\n\nIts pricing page states that plans include a free 14-day trial. White-label options and client-friendly reporting help agencies present results professionally. Solo users with a single account may find the structure more than they need. Plans, limits and features change over time, so check the official site for current plans.",
+  "use_steps": [
+   "Start a trial and add a client workspace.",
+   "Connect that client's profiles.",
+   "Schedule posts and handle messages.",
+   "Generate a branded report."
+  ],
+  "pros": [
+   "Client workspaces",
+   "Branded reports",
+   "Shared inbox",
+   "Free trial listed"
+  ],
+  "cons": [
+   "Agency focus can be heavy for individuals",
+   "Costs rise with profiles"
+  ],
+  "alternatives": [
+   "sprout-social",
+   "loomly",
+   "hootsuite"
+  ],
+  "tags": [
+   "agency",
+   "social media",
+   "reports",
+   "clients",
+   "scheduling"
+  ],
+  "features": [
+   "Client workspaces",
+   "Calendar publishing",
+   "Unified inbox",
+   "Branded reports",
+   "Approvals"
+  ],
+  "use_cases": [
+   "Managing multiple clients",
+   "Reporting monthly results",
+   "Responding to messages",
+   "Approving content"
+  ],
+  "pricing_details": "Sendible's pricing page states a free 14-day trial on its plans. Pricing and plan limits change, so check the official website for current details.",
+  "faq": [
+   {
+    "q": "What is Sendible?",
+    "a": "Social media management for agencies with client workspaces and reports. Check the official site for the current feature list."
+   },
+   {
+    "q": "Is Sendible free?",
+    "a": "Sendible's pricing page states a free 14-day trial on its plans. Pricing and plan limits change, so check the official website for current details."
+   },
+   {
+    "q": "Who is Sendible best suited for?",
+    "a": "It is best suited to agencies handling several client accounts. Compare it with the alternatives on this page before choosing."
+   }
+  ],
+  "seo_title": "Sendible: Features, Pricing Model and Alternatives",
+  "seo_description": "Learn what Sendible does, who it suits, key features, pros and cons, pricing model and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "ocoya",
+  "name": "Ocoya",
+  "category": "marketing",
+  "website_url": "https://www.ocoya.com",
+  "pricing": "Unknown",
+  "tagline": "AI-assisted tool for creating, designing and scheduling social posts.",
+  "best_for": "Small teams producing social content quickly",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Ocoya combines AI content creation with scheduling. You can generate captions, pair them with design templates and send the result to a publishing calendar.\n\nThis reduces switching between a writing tool, a design tool and a scheduler. Marketers can create variations of a post for different channels. As with any generator, review output for accuracy and brand tone before publishing. Plans, limits and features change over time, so check the official site for current plans.",
+  "use_steps": [
+   "Sign up and connect accounts.",
+   "Generate a caption from a short brief.",
+   "Add a template or image.",
+   "Schedule it and review analytics."
+  ],
+  "pros": [
+   "Writing, design and scheduling in one",
+   "Template based",
+   "Caption variations",
+   "Fast first drafts"
+  ],
+  "cons": [
+   "AI text needs editing",
+   "Plan limits apply"
+  ],
+  "alternatives": [
+   "later",
+   "publer",
+   "metricool"
+  ],
+  "tags": [
+   "ai",
+   "social media",
+   "captions",
+   "scheduling",
+   "templates"
+  ],
+  "features": [
+   "AI caption writer",
+   "Design templates",
+   "Publishing calendar",
+   "Multi-network posting",
+   "Analytics"
+  ],
+  "use_cases": [
+   "Drafting weekly posts",
+   "Creating ad copy variations",
+   "Repurposing a blog post",
+   "Small team batches"
+  ],
+  "pricing_details": "Ocoya publishes a pricing page with multiple paid plans. Pricing and plan limits change, so check the official website for current details.",
+  "faq": [
+   {
+    "q": "What is Ocoya?",
+    "a": "AI-assisted tool for creating, designing and scheduling social posts. Check the official site for the current feature list."
+   },
+   {
+    "q": "Is Ocoya free?",
+    "a": "Ocoya publishes a pricing page with multiple paid plans. Pricing and plan limits change, so check the official website for current details."
+   },
+   {
+    "q": "Who is Ocoya best suited for?",
+    "a": "It is best suited to small teams producing social content quickly. Compare it with the alternatives on this page before choosing."
+   }
+  ],
+  "seo_title": "Ocoya: Features, Pricing Model and Alternatives",
+  "seo_description": "Learn what Ocoya does, who it suits, key features, pros and cons, pricing model and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "brandwatch",
+  "name": "Brandwatch",
+  "category": "marketing",
+  "website_url": "https://www.brandwatch.com",
+  "pricing": "Unknown",
+  "tagline": "Social listening and consumer intelligence platform for brands.",
+  "best_for": "Brands and agencies monitoring online conversation",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Brandwatch is a social listening and analytics platform. It collects public conversation about brands, products and topics so teams can track volume, sentiment and themes over time.\n\nCommunications, research and marketing teams use it to spot trends and react to emerging issues. It also has social management tools. The site invites visitors to request a demo rather than sign up instantly, so it is aimed at organizations with a defined budget. Plans, limits and features change over time, so check the official site for current plans.",
+  "use_steps": [
+   "Request a demo from the sales team.",
+   "Define search queries for your brand.",
+   "Build dashboards for volume and sentiment.",
+   "Share findings with stakeholders."
+  ],
+  "pros": [
+   "Deep listening capabilities",
+   "Trend and sentiment tracking",
+   "Dashboards for teams",
+   "Social management options"
+  ],
+  "cons": [
+   "Demo-led purchase",
+   "Likely oversized for small businesses"
+  ],
+  "alternatives": [
+   "mention",
+   "sprout-social",
+   "sparktoro"
+  ],
+  "tags": [
+   "social listening",
+   "brand monitoring",
+   "sentiment",
+   "analytics",
+   "enterprise"
+  ],
+  "features": [
+   "Social listening",
+   "Sentiment analysis",
+   "Custom dashboards",
+   "Trend detection",
+   "Social management"
+  ],
+  "use_cases": [
+   "Tracking brand reputation",
+   "Competitor monitoring",
+   "Campaign measurement",
+   "Consumer research"
+  ],
+  "pricing_details": "Brandwatch pricing is not shown as a simple self-serve tier; the site points to a demo. Pricing and plan limits change, so check the official website for current details.",
+  "faq": [
+   {
+    "q": "What is Brandwatch?",
+    "a": "Social listening and consumer intelligence platform for brands. Check the official site for the current feature list."
+   },
+   {
+    "q": "Is Brandwatch free?",
+    "a": "Brandwatch pricing is not shown as a simple self-serve tier; the site points to a demo. Pricing and plan limits change, so check the official website for current details."
+   },
+   {
+    "q": "Who is Brandwatch best suited for?",
+    "a": "It is best suited to brands and agencies monitoring online conversation. Compare it with the alternatives on this page before choosing."
+   }
+  ],
+  "seo_title": "Brandwatch: Features, Pricing Model and Alternatives",
+  "seo_description": "Learn what Brandwatch does, who it suits, key features, pros and cons, pricing model and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "mention",
+  "name": "Mention",
+  "category": "marketing",
+  "website_url": "https://mention.com",
+  "pricing": "Unknown",
+  "tagline": "Media and social monitoring tool that alerts you to brand mentions.",
+  "best_for": "Small teams tracking brand mentions online",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Mention monitors the web and social networks for keywords you choose, such as a brand name, competitor or topic, and collects matching posts and articles into a feed.\n\nYou can set alerts, filter by source and share reports. Its support site explains how its plans differ. It suits PR and marketing teams wanting lighter monitoring than an enterprise listening suite, though coverage of each source depends on the plan. Plans, limits and features change over time, so check the official site for current plans.",
+  "use_steps": [
+   "Create an account and add a keyword alert.",
+   "Choose sources and languages.",
+   "Review the mentions feed.",
+   "Set up a recurring report."
+  ],
+  "pros": [
+   "Simple alert setup",
+   "Feed with filters",
+   "Report sharing",
+   "Competitor tracking"
+  ],
+  "cons": [
+   "Source coverage varies by plan",
+   "Less depth than enterprise tools"
+  ],
+  "alternatives": [
+   "brandwatch",
+   "google-trends",
+   "sparktoro"
+  ],
+  "tags": [
+   "monitoring",
+   "brand",
+   "alerts",
+   "pr",
+   "social"
+  ],
+  "features": [
+   "Keyword alerts",
+   "Mentions feed",
+   "Source filters",
+   "Reports",
+   "Team sharing"
+  ],
+  "use_cases": [
+   "Brand reputation tracking",
+   "PR monitoring",
+   "Competitor watching",
+   "Finding influencers"
+  ],
+  "pricing_details": "Mention publishes plan explanations on its support site. Pricing and plan limits change, so check the official website for current details.",
+  "faq": [
+   {
+    "q": "What is Mention?",
+    "a": "Media and social monitoring tool that alerts you to brand mentions. Check the official site for the current feature list."
+   },
+   {
+    "q": "Is Mention free?",
+    "a": "Mention publishes plan explanations on its support site. Pricing and plan limits change, so check the official website for current details."
+   },
+   {
+    "q": "Who is Mention best suited for?",
+    "a": "It is best suited to small teams tracking brand mentions online. Compare it with the alternatives on this page before choosing."
+   }
+  ],
+  "seo_title": "Mention: Features, Pricing Model and Alternatives",
+  "seo_description": "Learn what Mention does, who it suits, key features, pros and cons, pricing model and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "sparktoro",
+  "name": "SparkToro",
+  "category": "marketing",
+  "website_url": "https://sparktoro.com",
+  "pricing": "Unknown",
+  "tagline": "Audience research tool showing where an audience gets information online.",
+  "best_for": "Marketers researching audiences before choosing channels",
+  "platforms": [
+   "Web"
+  ],
+  "description": "SparkToro is an audience research tool. You describe an audience by a topic or website and it reports sources such as websites, podcasts, social accounts and keywords that audience tends to engage with.\n\nThis helps decide where to place content or advertising and whom to partner with. It is research rather than publishing software, so it complements scheduling and SEO tools. Its blog has discussed pricing changes, so confirm the current plans on the official site. Plans, limits and features change over time, so check the official site for current plans.",
+  "use_steps": [
+   "Sign up and enter an audience topic.",
+   "Review sources by category.",
+   "Save lists of sites or accounts.",
+   "Use findings to plan outreach."
+  ],
+  "pros": [
+   "Audience source discovery",
+   "Helps channel selection",
+   "Outreach ideas",
+   "Research focused"
+  ],
+  "cons": [
+   "Not a publishing tool",
+   "Data samples may not cover niche topics"
+  ],
+  "alternatives": [
+   "mention",
+   "google-trends",
+   "brandwatch"
+  ],
+  "tags": [
+   "audience research",
+   "marketing",
+   "strategy",
+   "channels",
+   "outreach"
+  ],
+  "features": [
+   "Audience search",
+   "Source reports",
+   "Demographic insights",
+   "Saved lists",
+   "API access"
+  ],
+  "use_cases": [
+   "Choosing podcasts to sponsor",
+   "Finding sites for link outreach",
+   "Planning social channels",
+   "Persona research"
+  ],
+  "pricing_details": "SparkToro has changed its pricing over time according to its own blog. Pricing and plan limits change, so check the official website for current details.",
+  "faq": [
+   {
+    "q": "What is SparkToro?",
+    "a": "Audience research tool showing where an audience gets information online. Check the official site for the current feature list."
+   },
+   {
+    "q": "Is SparkToro free?",
+    "a": "SparkToro has changed its pricing over time according to its own blog. Pricing and plan limits change, so check the official website for current details."
+   },
+   {
+    "q": "Who is SparkToro best suited for?",
+    "a": "It is best suited to marketers researching audiences before choosing channels. Compare it with the alternatives on this page before choosing."
+   }
+  ],
+  "seo_title": "SparkToro: Features, Pricing Model and Alternatives",
+  "seo_description": "Learn what SparkToro does, who it suits, key features, pros and cons, pricing model and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "madgicx",
+  "name": "Madgicx",
+  "category": "marketing",
+  "website_url": "https://madgicx.com",
+  "pricing": "Unknown",
+  "tagline": "Meta ads management platform with AI optimization and reporting.",
+  "best_for": "Ecommerce advertisers running Meta campaigns",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Madgicx is an advertising platform focused on Meta ads. It connects to your ad account and offers reporting, audience tools, creative analysis and automated optimization suggestions.\n\nEcommerce marketers use it to see which ads and audiences perform and to automate routine adjustments. Results depend on account data and budget, and automation should be reviewed rather than trusted blindly. The official site describes plans and features, which change often. Plans, limits and features change over time, so check the official site for current plans.",
+  "use_steps": [
+   "Sign up and connect your Meta ad account.",
+   "Review the account dashboard.",
+   "Test audiences or creatives with the tools.",
+   "Check automated suggestions before applying."
+  ],
+  "pros": [
+   "Meta ads focus",
+   "Reporting dashboards",
+   "Creative insights",
+   "Automation options"
+  ],
+  "cons": [
+   "Meta-centric",
+   "Needs ad data to be useful"
+  ],
+  "alternatives": [
+   "optmyzr",
+   "google-analytics",
+   "hubspot"
+  ],
+  "tags": [
+   "ads",
+   "meta",
+   "ecommerce",
+   "optimization",
+   "reporting"
+  ],
+  "features": [
+   "Ad reporting",
+   "AI optimization",
+   "Audience tools",
+   "Creative analytics",
+   "Automations"
+  ],
+  "use_cases": [
+   "Scaling ecommerce campaigns",
+   "Reviewing ad creative",
+   "Audience testing",
+   "Weekly ad reporting"
+  ],
+  "pricing_details": "Madgicx lists paid plans on its site. Pricing and plan limits change, so check the official website for current details.",
+  "faq": [
+   {
+    "q": "What is Madgicx?",
+    "a": "Meta ads management platform with AI optimization and reporting. Check the official site for the current feature list."
+   },
+   {
+    "q": "Is Madgicx free?",
+    "a": "Madgicx lists paid plans on its site. Pricing and plan limits change, so check the official website for current details."
+   },
+   {
+    "q": "Who is Madgicx best suited for?",
+    "a": "It is best suited to ecommerce advertisers running Meta campaigns. Compare it with the alternatives on this page before choosing."
+   }
+  ],
+  "seo_title": "Madgicx: Features, Pricing Model and Alternatives",
+  "seo_description": "Learn what Madgicx does, who it suits, key features, pros and cons, pricing model and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "optmyzr",
+  "name": "Optmyzr",
+  "category": "marketing",
+  "website_url": "https://www.optmyzr.com",
+  "pricing": "Paid",
+  "tagline": "PPC management toolkit for Google Ads and other ad platforms.",
+  "best_for": "PPC specialists and agencies managing search ad accounts",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Optmyzr is a pay-per-click management toolkit. It analyzes ad accounts, flags issues and offers optimizers for bids, budgets, keywords and ad copy, plus reporting.\n\nAgencies and in-house PPC teams use it to save time on repetitive audits across many accounts. Its pricing page advertises plans starting from a stated monthly amount. Suggestions still need a marketer's judgement, especially for budget and brand decisions. Plans, limits and features change over time, so check the official site for current plans.",
+  "use_steps": [
+   "Create an account and link your ad accounts.",
+   "Run an account audit.",
+   "Review suggested optimizations.",
+   "Schedule client reports."
+  ],
+  "pros": [
+   "Audits across accounts",
+   "Rule and optimizer tools",
+   "Reporting",
+   "Built for PPC pros"
+  ],
+  "cons": [
+   "Priced for professionals",
+   "Learning curve"
+  ],
+  "alternatives": [
+   "madgicx",
+   "semrush",
+   "google-analytics"
+  ],
+  "tags": [
+   "ppc",
+   "google ads",
+   "audit",
+   "reporting",
+   "agency"
+  ],
+  "features": [
+   "Account audits",
+   "Bid and budget tools",
+   "Ad copy testing",
+   "Reporting",
+   "Rule automation"
+  ],
+  "use_cases": [
+   "Auditing client accounts",
+   "Budget pacing",
+   "Search term cleanup",
+   "Monthly client reports"
+  ],
+  "pricing_details": "Optmyzr's pricing page shows paid plans with a stated monthly starting price. Pricing and plan limits change, so check the official website for current details.",
+  "faq": [
+   {
+    "q": "What is Optmyzr?",
+    "a": "PPC management toolkit for Google Ads and other ad platforms. Check the official site for the current feature list."
+   },
+   {
+    "q": "Is Optmyzr free?",
+    "a": "Optmyzr's pricing page shows paid plans with a stated monthly starting price. Pricing and plan limits change, so check the official website for current details."
+   },
+   {
+    "q": "Who is Optmyzr best suited for?",
+    "a": "It is best suited to pPC specialists and agencies managing search ad accounts. Compare it with the alternatives on this page before choosing."
+   }
+  ],
+  "seo_title": "Optmyzr: Features, Pricing Model and Alternatives",
+  "seo_description": "Learn what Optmyzr does, who it suits, key features, pros and cons, pricing model and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "clearscope",
+  "name": "Clearscope",
+  "category": "marketing",
+  "website_url": "https://www.clearscope.io",
+  "pricing": "Unknown",
+  "tagline": "Content optimization tool that guides writers with keyword and topic suggestions.",
+  "best_for": "Content teams optimizing articles for search",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Clearscope analyzes top-ranking pages for a keyword and suggests terms and topics to cover. Writers get a grade that reflects how well a draft addresses them.\n\nEditors use it as a checklist during writing or refreshing content. It does not replace research or original insight; term coverage alone does not guarantee ranking. Pricing is shown on its plans page. Plans, limits and features change over time, so check the official site for current plans.",
+  "use_steps": [
+   "Create a report for a target keyword.",
+   "Review recommended terms.",
+   "Write or edit using the editor.",
+   "Check the grade before publishing."
+  ],
+  "pros": [
+   "Clear term guidance",
+   "Editor with grading",
+   "Useful for refreshes",
+   "Team friendly"
+  ],
+  "cons": [
+   "Not a keyword research suite",
+   "Premium pricing reputation"
+  ],
+  "alternatives": [
+   "surfer-seo",
+   "frase",
+   "semrush"
+  ],
+  "tags": [
+   "seo",
+   "content",
+   "optimization",
+   "writing",
+   "keywords"
+  ],
+  "features": [
+   "Content reports",
+   "Term suggestions",
+   "Content grade",
+   "Editor",
+   "Competitor view"
+  ],
+  "use_cases": [
+   "Refreshing old posts",
+   "Briefing writers",
+   "Quality checks",
+   "Topic coverage"
+  ],
+  "pricing_details": "Clearscope lists its plans on a pricing page. Pricing and plan limits change, so check the official website for current details.",
+  "faq": [
+   {
+    "q": "What is Clearscope?",
+    "a": "Content optimization tool that guides writers with keyword and topic suggestions. Check the official site for the current feature list."
+   },
+   {
+    "q": "Is Clearscope free?",
+    "a": "Clearscope lists its plans on a pricing page. Pricing and plan limits change, so check the official website for current details."
+   },
+   {
+    "q": "Who is Clearscope best suited for?",
+    "a": "It is best suited to content teams optimizing articles for search. Compare it with the alternatives on this page before choosing."
+   }
+  ],
+  "seo_title": "Clearscope: Features, Pricing Model and Alternatives",
+  "seo_description": "Learn what Clearscope does, who it suits, key features, pros and cons, pricing model and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "marketmuse",
+  "name": "MarketMuse",
+  "category": "marketing",
+  "website_url": "https://www.marketmuse.com",
+  "pricing": "Unknown",
+  "tagline": "Content planning platform that analyzes topics and content gaps.",
+  "best_for": "Content strategists planning topic coverage",
+  "platforms": [
+   "Web"
+  ],
+  "description": "MarketMuse is a content strategy platform. It audits a site's content, highlights topic gaps and creates briefs that show what an article should cover.\n\nStrategy teams use it for planning topic clusters and prioritizing updates, rather than only checking a single draft. Its product pages cover content planning and metrics. Because it is research heavy, small sites may need less than it offers. Plans, limits and features change over time, so check the official site for current plans.",
+  "use_steps": [
+   "Connect or enter your site.",
+   "Run an inventory and gap analysis.",
+   "Create content briefs.",
+   "Track updates over time."
+  ],
+  "pros": [
+   "Topic gap analysis",
+   "Briefs for writers",
+   "Site-wide view",
+   "Planning focus"
+  ],
+  "cons": [
+   "Heavy for small sites",
+   "Pricing may suit larger teams"
+  ],
+  "alternatives": [
+   "clearscope",
+   "surfer-seo",
+   "frase"
+  ],
+  "tags": [
+   "content strategy",
+   "seo",
+   "topics",
+   "briefs",
+   "planning"
+  ],
+  "features": [
+   "Content inventory",
+   "Gap analysis",
+   "Briefs",
+   "Topic metrics",
+   "Planning tools"
+  ],
+  "use_cases": [
+   "Topic cluster planning",
+   "Content refreshes",
+   "Writer briefs",
+   "Prioritizing content work"
+  ],
+  "pricing_details": "MarketMuse has a pricing page; check it for current tiers. Pricing and plan limits change, so check the official website for current details.",
+  "faq": [
+   {
+    "q": "What is MarketMuse?",
+    "a": "Content planning platform that analyzes topics and content gaps. Check the official site for the current feature list."
+   },
+   {
+    "q": "Is MarketMuse free?",
+    "a": "MarketMuse has a pricing page; check it for current tiers. Pricing and plan limits change, so check the official website for current details."
+   },
+   {
+    "q": "Who is MarketMuse best suited for?",
+    "a": "It is best suited to content strategists planning topic coverage. Compare it with the alternatives on this page before choosing."
+   }
+  ],
+  "seo_title": "MarketMuse: Features, Pricing Model and Alternatives",
+  "seo_description": "Learn what MarketMuse does, who it suits, key features, pros and cons, pricing model and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "frase",
+  "name": "Frase",
+  "category": "marketing",
+  "website_url": "https://www.frase.io",
+  "pricing": "Unknown",
+  "tagline": "Content tool for research briefs, AI writing and search visibility.",
+  "best_for": "Writers and SEOs creating search-focused briefs",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Frase helps create content briefs from search results and write articles with AI assistance. It extracts headings and questions from top pages so you can plan what to cover.\n\nIts site now describes itself in terms of AI search, reflecting a focus on visibility in answer engines as well as classic results. Writers still need to fact-check and add original value. Pricing has been updated by the company over time. Plans, limits and features change over time, so check the official site for current plans.",
+  "use_steps": [
+   "Sign up and enter a keyword.",
+   "Review the generated research.",
+   "Draft the article with the editor.",
+   "Score and refine before publishing."
+  ],
+  "pros": [
+   "Quick research briefs",
+   "Integrated editor",
+   "SEO scoring",
+   "AI writing help"
+  ],
+  "cons": [
+   "AI output needs checking",
+   "Plans change"
+  ],
+  "alternatives": [
+   "surfer-seo",
+   "clearscope",
+   "copy-ai"
+  ],
+  "tags": [
+   "seo",
+   "briefs",
+   "ai writing",
+   "content",
+   "research"
+  ],
+  "features": [
+   "Research briefs",
+   "AI drafting",
+   "Content scoring",
+   "Question discovery",
+   "Editor"
+  ],
+  "use_cases": [
+   "Writing blog posts",
+   "Briefing freelancers",
+   "Updating articles",
+   "FAQ planning"
+  ],
+  "pricing_details": "Frase publishes a pricing page with current plans. Pricing and plan limits change, so check the official website for current details.",
+  "faq": [
+   {
+    "q": "What is Frase?",
+    "a": "Content tool for research briefs, AI writing and search visibility. Check the official site for the current feature list."
+   },
+   {
+    "q": "Is Frase free?",
+    "a": "Frase publishes a pricing page with current plans. Pricing and plan limits change, so check the official website for current details."
+   },
+   {
+    "q": "Who is Frase best suited for?",
+    "a": "It is best suited to writers and SEOs creating search-focused briefs. Compare it with the alternatives on this page before choosing."
+   }
+  ],
+  "seo_title": "Frase: Features, Pricing Model and Alternatives",
+  "seo_description": "Learn what Frase does, who it suits, key features, pros and cons, pricing model and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ }
+]

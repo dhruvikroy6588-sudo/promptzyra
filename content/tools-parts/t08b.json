@@ -1,0 +1,3275 @@
+[
+ {
+  "slug": "udio",
+  "name": "Udio",
+  "category": "audio",
+  "website_url": "https://www.udio.com",
+  "pricing": "Unknown",
+  "tagline": "AI music generator that turns text prompts into songs.",
+  "best_for": "Experimenting with song ideas from a text description",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Udio is an AI music generation service. You describe a style, mood or lyrics in text and it produces a song with vocals and instruments that you can listen to and refine.\n\nIt suits hobbyists, content creators and songwriters who want to sketch ideas quickly. Review the terms for commercial use and any rules around uploaded or generated material before publishing a track. Plans and limits change, so check the official site. Check the official site for current plans.",
+  "use_steps": [
+   "Open the Udio website or app and sign in.",
+   "Start with a small sample project to see what Udio does.",
+   "Adjust settings and refine the result.",
+   "Review the output and export it for your project."
+  ],
+  "pros": [
+   "Quick idea generation",
+   "Works from plain text",
+   "Browser based"
+  ],
+  "cons": [
+   "Features and limits can change by plan",
+   "Output should be reviewed before publishing"
+  ],
+  "alternatives": [
+   "suno",
+   "stable-audio",
+   "soundraw"
+  ],
+  "tags": [
+   "music",
+   "song",
+   "generator",
+   "vocals"
+  ],
+  "features": [
+   "Text-to-song generation",
+   "Custom lyrics input",
+   "Style and genre prompts",
+   "Track extension and remixing"
+  ],
+  "use_cases": [
+   "Sketching song ideas",
+   "Background music for videos",
+   "Demo tracks for lyrics"
+  ],
+  "pricing_details": "Udio plans, limits and prices change over time. Check the official website for current options.",
+  "faq": [
+   {
+    "q": "What is Udio?",
+    "a": "AI music generator that turns text prompts into songs. See the official website for details."
+   },
+   {
+    "q": "Is Udio free?",
+    "a": "Pricing for Udio can change. Check the official website for current plans and any free option."
+   },
+   {
+    "q": "Who is Udio best for?",
+    "a": "Experimenting with song ideas from a text description. Compare it with the alternatives listed to find the right fit."
+   }
+  ],
+  "seo_title": "Udio: What It Is and How to Use It",
+  "seo_description": "Learn what Udio is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "stable-audio",
+  "name": "Stable Audio",
+  "category": "audio",
+  "website_url": "https://stableaudio.com",
+  "pricing": "Unknown",
+  "tagline": "Text-to-audio tool from Stability AI for music and sound effects.",
+  "best_for": "Generating short music clips and sound effects from prompts",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Stable Audio is an audio generation tool from Stability AI. It creates music clips and sound effects from written descriptions, aimed at producers and creators who need quick material for projects.\n\nTypical uses include loops, ambient beds, transitions and sound design experiments. Output quality varies with the prompt, so expect to try several versions. Licensing terms depend on the plan, so read the official site carefully. Check the official site for current plans.",
+  "use_steps": [
+   "Open the Stable Audio website or app and sign in.",
+   "Start with a small sample project to see what Stable Audio does.",
+   "Adjust settings and refine the result.",
+   "Review the output and export it for your project."
+  ],
+  "pros": [
+   "Useful for sound effects",
+   "Prompt driven",
+   "Backed by an established AI lab"
+  ],
+  "cons": [
+   "Features and limits can change by plan",
+   "Output should be reviewed before publishing"
+  ],
+  "alternatives": [
+   "udio",
+   "suno",
+   "mubert"
+  ],
+  "tags": [
+   "audio",
+   "sound-effects",
+   "music",
+   "generator"
+  ],
+  "features": [
+   "Text-to-music prompts",
+   "Sound effect generation",
+   "Adjustable clip duration",
+   "Audio-to-audio style transfer"
+  ],
+  "use_cases": [
+   "Game and video sound design",
+   "Ambient background beds",
+   "Prototype loops for producers"
+  ],
+  "pricing_details": "Stable Audio plans, limits and prices change over time. Check the official website for current options.",
+  "faq": [
+   {
+    "q": "What is Stable Audio?",
+    "a": "Text-to-audio tool from Stability AI for music and sound effects. See the official website for details."
+   },
+   {
+    "q": "Is Stable Audio free?",
+    "a": "Pricing for Stable Audio can change. Check the official website for current plans and any free option."
+   },
+   {
+    "q": "Who is Stable Audio best for?",
+    "a": "Generating short music clips and sound effects from prompts. Compare it with the alternatives listed to find the right fit."
+   }
+  ],
+  "seo_title": "Stable Audio: What It Is and How to Use It",
+  "seo_description": "Learn what Stable Audio is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "aiva",
+  "name": "AIVA",
+  "category": "audio",
+  "website_url": "https://www.aiva.ai",
+  "pricing": "Unknown",
+  "tagline": "AI composer for instrumental and soundtrack-style music.",
+  "best_for": "Composing instrumental music for projects",
+  "platforms": [
+   "Web"
+  ],
+  "description": "AIVA is an AI music composition assistant focused on instrumental pieces such as cinematic, classical and ambient styles. You pick a style or influence and it generates a composition you can edit.\n\nIt is often used by game developers, filmmakers and creators who need original-sounding background scores. Editing the result in a standard music editor is common. Rules on usage rights differ by plan, so confirm them on the official site. Check the official site for current plans.",
+  "use_steps": [
+   "Open the AIVA website or app and sign in.",
+   "Start with a small sample project to see what AIVA does.",
+   "Adjust settings and refine the result.",
+   "Review the output and export it for your project."
+  ],
+  "pros": [
+   "Instrumental focus",
+   "Tracks can be edited",
+   "Good for scoring ideas"
+  ],
+  "cons": [
+   "Features and limits can change by plan",
+   "Output should be reviewed before publishing"
+  ],
+  "alternatives": [
+   "soundraw",
+   "mubert",
+   "beatoven-ai"
+  ],
+  "tags": [
+   "music",
+   "composer",
+   "soundtrack",
+   "instrumental"
+  ],
+  "features": [
+   "Style-based composition",
+   "Editable generated tracks",
+   "Soundtrack-oriented genres",
+   "Export to audio or MIDI"
+  ],
+  "use_cases": [
+   "Game soundtracks",
+   "Short film scoring",
+   "Podcast intro music"
+  ],
+  "pricing_details": "AIVA plans, limits and prices change over time. Check the official website for current options.",
+  "faq": [
+   {
+    "q": "What is AIVA?",
+    "a": "AI composer for instrumental and soundtrack-style music. See the official website for details."
+   },
+   {
+    "q": "Is AIVA free?",
+    "a": "Pricing for AIVA can change. Check the official website for current plans and any free option."
+   },
+   {
+    "q": "Who is AIVA best for?",
+    "a": "Composing instrumental music for projects. Compare it with the alternatives listed to find the right fit."
+   }
+  ],
+  "seo_title": "AIVA: What It Is and How to Use It",
+  "seo_description": "Learn what AIVA is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "mubert",
+  "name": "Mubert",
+  "category": "audio",
+  "website_url": "https://mubert.com",
+  "pricing": "Unknown",
+  "tagline": "Generative music platform for background tracks and streams.",
+  "best_for": "Creators needing background music for content",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Mubert generates music for use as background tracks. You choose a mood, genre or activity and it produces audio that can be used in videos, streams and apps.\n\nContent creators and developers use it to avoid hunting through libraries for fitting music. Check how licensing works for your platform and whether attribution is needed. Plans change, so see the official site. Check the official site for current plans.",
+  "use_steps": [
+   "Open the Mubert website or app and sign in.",
+   "Start with a small sample project to see what Mubert does.",
+   "Adjust settings and refine the result.",
+   "Review the output and export it for your project."
+  ],
+  "pros": [
+   "Quick mood-based music",
+   "Made for creators",
+   "Developer API available"
+  ],
+  "cons": [
+   "Features and limits can change by plan",
+   "Output should be reviewed before publishing"
+  ],
+  "alternatives": [
+   "soundraw",
+   "beatoven-ai",
+   "soundful"
+  ],
+  "tags": [
+   "music",
+   "background",
+   "generative",
+   "creators"
+  ],
+  "features": [
+   "Mood and genre selection",
+   "Generated background tracks",
+   "Stream-friendly music",
+   "API for developers"
+  ],
+  "use_cases": [
+   "YouTube background music",
+   "Live stream audio",
+   "App soundscapes"
+  ],
+  "pricing_details": "Mubert plans, limits and prices change over time. Check the official website for current options.",
+  "faq": [
+   {
+    "q": "What is Mubert?",
+    "a": "Generative music platform for background tracks and streams. See the official website for details."
+   },
+   {
+    "q": "Is Mubert free?",
+    "a": "Pricing for Mubert can change. Check the official website for current plans and any free option."
+   },
+   {
+    "q": "Who is Mubert best for?",
+    "a": "Creators needing background music for content. Compare it with the alternatives listed to find the right fit."
+   }
+  ],
+  "seo_title": "Mubert: What It Is and How to Use It",
+  "seo_description": "Learn what Mubert is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "beatoven-ai",
+  "name": "Beatoven.ai",
+  "category": "audio",
+  "website_url": "https://www.beatoven.ai",
+  "pricing": "Unknown",
+  "tagline": "AI music tool that composes tracks matched to a mood.",
+  "best_for": "Video makers wanting custom-fit background music",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Beatoven.ai creates royalty-style background music from a chosen mood, genre and length. It is designed for creators who want music that fits a scene rather than a stock loop.\n\nVideo editors, podcasters and game makers can adjust tempo and instruments to better match their content. Confirm licence conditions for commercial use on the official site, since plans change. Check the official site for current plans.",
+  "use_steps": [
+   "Open the Beatoven.ai website or app and sign in.",
+   "Start with a small sample project to see what Beatoven.ai does.",
+   "Adjust settings and refine the result.",
+   "Review the output and export it for your project."
+  ],
+  "pros": [
+   "Mood-led workflow",
+   "Length can be matched to content",
+   "Simple interface"
+  ],
+  "cons": [
+   "Features and limits can change by plan",
+   "Output should be reviewed before publishing"
+  ],
+  "alternatives": [
+   "mubert",
+   "soundraw",
+   "aiva"
+  ],
+  "tags": [
+   "music",
+   "mood",
+   "background",
+   "video"
+  ],
+  "features": [
+   "Mood-based composition",
+   "Track length control",
+   "Instrument adjustments",
+   "Downloadable audio"
+  ],
+  "use_cases": [
+   "Video score",
+   "Podcast bed music",
+   "Game background audio"
+  ],
+  "pricing_details": "Beatoven.ai plans, limits and prices change over time. Check the official website for current options.",
+  "faq": [
+   {
+    "q": "What is Beatoven.ai?",
+    "a": "AI music tool that composes tracks matched to a mood. See the official website for details."
+   },
+   {
+    "q": "Is Beatoven.ai free?",
+    "a": "Pricing for Beatoven.ai can change. Check the official website for current plans and any free option."
+   },
+   {
+    "q": "Who is Beatoven.ai best for?",
+    "a": "Video makers wanting custom-fit background music. Compare it with the alternatives listed to find the right fit."
+   }
+  ],
+  "seo_title": "Beatoven.ai: What It Is and How to Use It",
+  "seo_description": "Learn what Beatoven.ai is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "soundful",
+  "name": "Soundful",
+  "category": "audio",
+  "website_url": "https://soundful.com",
+  "pricing": "Unknown",
+  "tagline": "AI music generator for background tracks and beats.",
+  "best_for": "Producers and creators needing quick tracks",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Soundful is an AI music generator with templates across genres. You choose a style and it creates tracks you can download for projects or use as a starting point for production.\n\nCreators, streamers and producers use it for beats and backing music. Review the licence for your intended platform and how monetisation is treated. The official site lists current plans. Check the official site for current plans.",
+  "use_steps": [
+   "Open the Soundful website or app and sign in.",
+   "Start with a small sample project to see what Soundful does.",
+   "Adjust settings and refine the result.",
+   "Review the output and export it for your project."
+  ],
+  "pros": [
+   "Genre variety",
+   "Fast results",
+   "Good starting point for producers"
+  ],
+  "cons": [
+   "Features and limits can change by plan",
+   "Output should be reviewed before publishing"
+  ],
+  "alternatives": [
+   "mubert",
+   "beatoven-ai",
+   "boomy"
+  ],
+  "tags": [
+   "music",
+   "beats",
+   "generator",
+   "producer"
+  ],
+  "features": [
+   "Genre templates",
+   "Customisable generated tracks",
+   "Stem-style downloads",
+   "Beat-focused output"
+  ],
+  "use_cases": [
+   "Streaming background music",
+   "Beat ideas",
+   "Social video audio"
+  ],
+  "pricing_details": "Soundful plans, limits and prices change over time. Check the official website for current options.",
+  "faq": [
+   {
+    "q": "What is Soundful?",
+    "a": "AI music generator for background tracks and beats. See the official website for details."
+   },
+   {
+    "q": "Is Soundful free?",
+    "a": "Pricing for Soundful can change. Check the official website for current plans and any free option."
+   },
+   {
+    "q": "Who is Soundful best for?",
+    "a": "Producers and creators needing quick tracks. Compare it with the alternatives listed to find the right fit."
+   }
+  ],
+  "seo_title": "Soundful: What It Is and How to Use It",
+  "seo_description": "Learn what Soundful is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "boomy",
+  "name": "Boomy",
+  "category": "audio",
+  "website_url": "https://boomy.com",
+  "pricing": "Unknown",
+  "tagline": "Create songs quickly with AI and release them to platforms.",
+  "best_for": "Beginners making simple songs fast",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Boomy lets people generate songs in a few clicks by choosing a style and tweaking the result. It positions itself around fast creation for people with no music background.\n\nIt can be fun for experimenting, though rules about distribution and royalties are specific to the service. Read the terms before releasing anything. See the official site for current plans. Check the official site for current plans.",
+  "use_steps": [
+   "Open the Boomy website or app and sign in.",
+   "Start with a small sample project to see what Boomy does.",
+   "Adjust settings and refine the result.",
+   "Review the output and export it for your project."
+  ],
+  "pros": [
+   "Very beginner friendly",
+   "Quick output",
+   "Browser based"
+  ],
+  "cons": [
+   "Features and limits can change by plan",
+   "Output should be reviewed before publishing"
+  ],
+  "alternatives": [
+   "soundful",
+   "udio",
+   "suno"
+  ],
+  "tags": [
+   "music",
+   "songs",
+   "beginner",
+   "generator"
+  ],
+  "features": [
+   "Style-based song generation",
+   "Simple arrangement tweaks",
+   "Vocal options",
+   "Distribution options"
+  ],
+  "use_cases": [
+   "First-time song creation",
+   "Social media music",
+   "Experimenting with genres"
+  ],
+  "pricing_details": "Boomy plans, limits and prices change over time. Check the official website for current options.",
+  "faq": [
+   {
+    "q": "What is Boomy?",
+    "a": "Create songs quickly with AI and release them to platforms. See the official website for details."
+   },
+   {
+    "q": "Is Boomy free?",
+    "a": "Pricing for Boomy can change. Check the official website for current plans and any free option."
+   },
+   {
+    "q": "Who is Boomy best for?",
+    "a": "Beginners making simple songs fast. Compare it with the alternatives listed to find the right fit."
+   }
+  ],
+  "seo_title": "Boomy: What It Is and How to Use It",
+  "seo_description": "Learn what Boomy is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "loudly",
+  "name": "Loudly",
+  "category": "audio",
+  "website_url": "https://www.loudly.com",
+  "pricing": "Unknown",
+  "tagline": "AI music platform with a track library and generator.",
+  "best_for": "Brands and creators sourcing custom music",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Loudly combines a music library with an AI generator for creating tracks. Users can browse by mood or genre and generate new music for content.\n\nIt targets marketers, creators and app builders needing audio for campaigns and videos. Licence scope varies, so verify it fits your use. Check the official site for plans. Check the official site for current plans.",
+  "use_steps": [
+   "Open the Loudly website or app and sign in.",
+   "Start with a small sample project to see what Loudly does.",
+   "Adjust settings and refine the result.",
+   "Review the output and export it for your project."
+  ],
+  "pros": [
+   "Library plus generator",
+   "Mood filters",
+   "Aimed at commercial users"
+  ],
+  "cons": [
+   "Features and limits can change by plan",
+   "Output should be reviewed before publishing"
+  ],
+  "alternatives": [
+   "epidemic-sound",
+   "mubert",
+   "soundful"
+  ],
+  "tags": [
+   "music",
+   "library",
+   "generator",
+   "licensing"
+  ],
+  "features": [
+   "Music library browsing",
+   "AI track generation",
+   "Mood and genre filters",
+   "Licensing options"
+  ],
+  "use_cases": [
+   "Campaign soundtracks",
+   "Social video music",
+   "App audio"
+  ],
+  "pricing_details": "Loudly plans, limits and prices change over time. Check the official website for current options.",
+  "faq": [
+   {
+    "q": "What is Loudly?",
+    "a": "AI music platform with a track library and generator. See the official website for details."
+   },
+   {
+    "q": "Is Loudly free?",
+    "a": "Pricing for Loudly can change. Check the official website for current plans and any free option."
+   },
+   {
+    "q": "Who is Loudly best for?",
+    "a": "Brands and creators sourcing custom music. Compare it with the alternatives listed to find the right fit."
+   }
+  ],
+  "seo_title": "Loudly: What It Is and How to Use It",
+  "seo_description": "Learn what Loudly is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "epidemic-sound",
+  "name": "Epidemic Sound",
+  "category": "audio",
+  "website_url": "https://www.epidemicsound.com",
+  "pricing": "Unknown",
+  "tagline": "Licensed music and sound effects library for creators.",
+  "best_for": "Creators who want licensed music for videos",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Epidemic Sound is a catalogue of licensed music and sound effects built for video and social creators. It adds search tools, and some AI-assisted features for finding fitting tracks.\n\nYouTubers, editors and agencies use it so they can publish with clear licences. Details on channels covered and plans change, so check the official site. Check the official site for current plans.",
+  "use_steps": [
+   "Open the Epidemic Sound website or app and sign in.",
+   "Start with a small sample project to see what Epidemic Sound does.",
+   "Adjust settings and refine the result.",
+   "Review the output and export it for your project."
+  ],
+  "pros": [
+   "Clear licensing focus",
+   "Wide catalogue",
+   "Made for creators"
+  ],
+  "cons": [
+   "Features and limits can change by plan",
+   "Output should be reviewed before publishing"
+  ],
+  "alternatives": [
+   "loudly",
+   "mubert",
+   "splice"
+  ],
+  "tags": [
+   "music",
+   "sfx",
+   "licensing",
+   "library"
+  ],
+  "features": [
+   "Large music catalogue",
+   "Sound effects library",
+   "Mood and genre search",
+   "Creator licensing"
+  ],
+  "use_cases": [
+   "YouTube videos",
+   "Podcast intros",
+   "Social content"
+  ],
+  "pricing_details": "Epidemic Sound plans, limits and prices change over time. Check the official website for current options.",
+  "faq": [
+   {
+    "q": "What is Epidemic Sound?",
+    "a": "Licensed music and sound effects library for creators. See the official website for details."
+   },
+   {
+    "q": "Is Epidemic Sound free?",
+    "a": "Pricing for Epidemic Sound can change. Check the official website for current plans and any free option."
+   },
+   {
+    "q": "Who is Epidemic Sound best for?",
+    "a": "Creators who want licensed music for videos. Compare it with the alternatives listed to find the right fit."
+   }
+  ],
+  "seo_title": "Epidemic Sound: What It Is and How to Use It",
+  "seo_description": "Learn what Epidemic Sound is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "wellsaid-labs",
+  "name": "WellSaid Labs",
+  "category": "audio",
+  "website_url": "https://wellsaidlabs.com",
+  "pricing": "Unknown",
+  "tagline": "AI voice generator focused on professional narration.",
+  "best_for": "Teams producing training and marketing voiceovers",
+  "platforms": [
+   "Web"
+  ],
+  "description": "WellSaid Labs offers text-to-speech voices aimed at professional narration. You paste a script, pick a voice and generate audio for videos and learning content.\n\nLearning and development teams and marketers use it for consistent voiceovers. Check licensing and voice usage terms, and listen carefully for pronunciation. See the official site for plans. Check the official site for current plans.",
+  "use_steps": [
+   "Open the WellSaid Labs website or app and sign in.",
+   "Start with a small sample project to see what WellSaid Labs does.",
+   "Adjust settings and refine the result.",
+   "Review the output and export it for your project."
+  ],
+  "pros": [
+   "Narration oriented",
+   "Consistent voices",
+   "Team features"
+  ],
+  "cons": [
+   "Features and limits can change by plan",
+   "Output should be reviewed before publishing"
+  ],
+  "alternatives": [
+   "murf-ai",
+   "lovo-ai",
+   "elevenlabs"
+  ],
+  "tags": [
+   "tts",
+   "voiceover",
+   "narration",
+   "business"
+  ],
+  "features": [
+   "Text-to-speech narration",
+   "Voice selection",
+   "Pronunciation controls",
+   "Team workspace"
+  ],
+  "use_cases": [
+   "Training videos",
+   "Explainer voiceovers",
+   "Ad scripts"
+  ],
+  "pricing_details": "WellSaid Labs plans, limits and prices change over time. Check the official website for current options.",
+  "faq": [
+   {
+    "q": "What is WellSaid Labs?",
+    "a": "AI voice generator focused on professional narration. See the official website for details."
+   },
+   {
+    "q": "Is WellSaid Labs free?",
+    "a": "Pricing for WellSaid Labs can change. Check the official website for current plans and any free option."
+   },
+   {
+    "q": "Who is WellSaid Labs best for?",
+    "a": "Teams producing training and marketing voiceovers. Compare it with the alternatives listed to find the right fit."
+   }
+  ],
+  "seo_title": "WellSaid Labs: What It Is and How to Use It",
+  "seo_description": "Learn what WellSaid Labs is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "lovo-ai",
+  "name": "LOVO AI",
+  "category": "audio",
+  "website_url": "https://lovo.ai",
+  "pricing": "Unknown",
+  "tagline": "Text-to-speech and voice generation for video creators.",
+  "best_for": "Creators producing voiceovers for videos",
+  "platforms": [
+   "Web"
+  ],
+  "description": "LOVO AI is a voice generation platform with many text-to-speech voices and an editor for adding voiceover to scripts and videos.\n\nMarketers, educators and YouTubers use it to produce narration without recording. Always review the voice licence for commercial use. Plans change, so check the official site. Check the official site for current plans.",
+  "use_steps": [
+   "Open the LOVO AI website or app and sign in.",
+   "Start with a small sample project to see what LOVO AI does.",
+   "Adjust settings and refine the result.",
+   "Review the output and export it for your project."
+  ],
+  "pros": [
+   "Wide voice choice",
+   "Editor included",
+   "Multi-language"
+  ],
+  "cons": [
+   "Features and limits can change by plan",
+   "Output should be reviewed before publishing"
+  ],
+  "alternatives": [
+   "murf-ai",
+   "wellsaid-labs",
+   "play-ht"
+  ],
+  "tags": [
+   "tts",
+   "voice",
+   "video",
+   "languages"
+  ],
+  "features": [
+   "Text-to-speech library",
+   "Multiple languages",
+   "Script editor",
+   "Voice customisation"
+  ],
+  "use_cases": [
+   "Video voiceover",
+   "E-learning narration",
+   "Social ads"
+  ],
+  "pricing_details": "LOVO AI plans, limits and prices change over time. Check the official website for current options.",
+  "faq": [
+   {
+    "q": "What is LOVO AI?",
+    "a": "Text-to-speech and voice generation for video creators. See the official website for details."
+   },
+   {
+    "q": "Is LOVO AI free?",
+    "a": "Pricing for LOVO AI can change. Check the official website for current plans and any free option."
+   },
+   {
+    "q": "Who is LOVO AI best for?",
+    "a": "Creators producing voiceovers for videos. Compare it with the alternatives listed to find the right fit."
+   }
+  ],
+  "seo_title": "LOVO AI: What It Is and How to Use It",
+  "seo_description": "Learn what LOVO AI is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "play-ht",
+  "name": "PlayHT",
+  "category": "audio",
+  "website_url": "https://play.ht",
+  "pricing": "Unknown",
+  "tagline": "Text-to-speech and voice cloning platform with API.",
+  "best_for": "Developers and creators generating voice audio",
+  "platforms": [
+   "Web"
+  ],
+  "description": "PlayHT provides text-to-speech voices, voice cloning and an API. Users can generate audio from text in a web editor or integrate speech into apps.\n\nDevelopers building voice products and creators making audio versions of content are typical users. Make sure you have permission before cloning any voice. Check the official site for plans. Check the official site for current plans.",
+  "use_steps": [
+   "Open the PlayHT website or app and sign in.",
+   "Start with a small sample project to see what PlayHT does.",
+   "Adjust settings and refine the result.",
+   "Review the output and export it for your project."
+  ],
+  "pros": [
+   "Developer API",
+   "Cloning option",
+   "Many voices"
+  ],
+  "cons": [
+   "Features and limits can change by plan",
+   "Output should be reviewed before publishing"
+  ],
+  "alternatives": [
+   "elevenlabs",
+   "lovo-ai",
+   "cartesia"
+  ],
+  "tags": [
+   "tts",
+   "api",
+   "cloning",
+   "voice"
+  ],
+  "features": [
+   "Text-to-speech voices",
+   "Voice cloning",
+   "API access",
+   "Audio export"
+  ],
+  "use_cases": [
+   "Audio articles",
+   "App voice features",
+   "Narrated videos"
+  ],
+  "pricing_details": "PlayHT plans, limits and prices change over time. Check the official website for current options.",
+  "faq": [
+   {
+    "q": "What is PlayHT?",
+    "a": "Text-to-speech and voice cloning platform with API. See the official website for details."
+   },
+   {
+    "q": "Is PlayHT free?",
+    "a": "Pricing for PlayHT can change. Check the official website for current plans and any free option."
+   },
+   {
+    "q": "Who is PlayHT best for?",
+    "a": "Developers and creators generating voice audio. Compare it with the alternatives listed to find the right fit."
+   }
+  ],
+  "seo_title": "PlayHT: What It Is and How to Use It",
+  "seo_description": "Learn what PlayHT is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "cartesia",
+  "name": "Cartesia",
+  "category": "audio",
+  "website_url": "https://cartesia.ai",
+  "pricing": "Unknown",
+  "tagline": "Voice AI platform for real-time speech generation.",
+  "best_for": "Developers building voice agents",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Cartesia builds speech AI models and an API for generating voice. It is geared toward developers who need low-latency speech in voice assistants and agents.\n\nTeams building conversational apps are the main audience. Test voice quality and latency against your needs. Pricing and model options change, so see the official site. Check the official site for current plans.",
+  "use_steps": [
+   "Open the Cartesia website or app and sign in.",
+   "Start with a small sample project to see what Cartesia does.",
+   "Adjust settings and refine the result.",
+   "Review the output and export it for your project."
+  ],
+  "pros": [
+   "Developer focused",
+   "Real-time use case",
+   "API driven"
+  ],
+  "cons": [
+   "Features and limits can change by plan",
+   "Output should be reviewed before publishing"
+  ],
+  "alternatives": [
+   "elevenlabs",
+   "play-ht",
+   "fish-audio"
+  ],
+  "tags": [
+   "tts",
+   "api",
+   "real-time",
+   "developer"
+  ],
+  "features": [
+   "Speech generation API",
+   "Low-latency focus",
+   "Voice options",
+   "Developer tools"
+  ],
+  "use_cases": [
+   "Voice agents",
+   "Interactive assistants",
+   "Prototype voice apps"
+  ],
+  "pricing_details": "Cartesia plans, limits and prices change over time. Check the official website for current options.",
+  "faq": [
+   {
+    "q": "What is Cartesia?",
+    "a": "Voice AI platform for real-time speech generation. See the official website for details."
+   },
+   {
+    "q": "Is Cartesia free?",
+    "a": "Pricing for Cartesia can change. Check the official website for current plans and any free option."
+   },
+   {
+    "q": "Who is Cartesia best for?",
+    "a": "Developers building voice agents. Compare it with the alternatives listed to find the right fit."
+   }
+  ],
+  "seo_title": "Cartesia: What It Is and How to Use It",
+  "seo_description": "Learn what Cartesia is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "fish-audio",
+  "name": "Fish Audio",
+  "category": "audio",
+  "website_url": "https://fish.audio",
+  "pricing": "Unknown",
+  "tagline": "Voice generation and cloning platform with community voices.",
+  "best_for": "Creators exploring varied AI voices",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "Fish Audio offers text-to-speech and voice cloning with a library of shared voices. Users generate speech from text and try different voice styles.\n\nIt appeals to creators and hobbyists who want many voice options. Check the rules about cloning and sharing voices before use. Plans change, so see the official site. Check the official site for current plans.",
+  "use_steps": [
+   "Open the Fish Audio website or app and sign in.",
+   "Start with a small sample project to see what Fish Audio does.",
+   "Adjust settings and refine the result.",
+   "Review the output and export it for your project."
+  ],
+  "pros": [
+   "Many voices",
+   "Cloning available",
+   "Creator oriented"
+  ],
+  "cons": [
+   "Features and limits can change by plan",
+   "Output should be reviewed before publishing"
+  ],
+  "alternatives": [
+   "elevenlabs",
+   "cartesia",
+   "typecast"
+  ],
+  "tags": [
+   "tts",
+   "cloning",
+   "voices",
+   "creators"
+  ],
+  "features": [
+   "Text-to-speech",
+   "Voice cloning",
+   "Community voice library",
+   "Multilingual output"
+  ],
+  "use_cases": [
+   "Character voices",
+   "Narration drafts",
+   "Dubbing experiments"
+  ],
+  "pricing_details": "Fish Audio plans, limits and prices change over time. Check the official website for current options.",
+  "faq": [
+   {
+    "q": "What is Fish Audio?",
+    "a": "Voice generation and cloning platform with community voices. See the official website for details."
+   },
+   {
+    "q": "Is Fish Audio free?",
+    "a": "Pricing for Fish Audio can change. Check the official website for current plans and any free option."
+   },
+   {
+    "q": "Who is Fish Audio best for?",
+    "a": "Creators exploring varied AI voices. Compare it with the alternatives listed to find the right fit."
+   }
+  ],
+  "seo_title": "Fish Audio: What It Is and How to Use It",
+  "seo_description": "Learn what Fish Audio is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "typecast",
+  "name": "Typecast",
+  "category": "audio",
+  "website_url": "https://typecast.ai",
+  "pricing": "Unknown",
+  "tagline": "AI voice actors and avatars for video narration.",
+  "best_for": "Video creators wanting expressive AI voices",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Typecast provides AI voice actors for turning scripts into narration with adjustable emotion and pacing. It is aimed at video and content producers.\n\nCreators use it for short videos, ads and explainer content. Check commercial licence terms for each voice and confirm current plans on the official site. Check the official site for current plans.",
+  "use_steps": [
+   "Open the Typecast website or app and sign in.",
+   "Start with a small sample project to see what Typecast does.",
+   "Adjust settings and refine the result.",
+   "Review the output and export it for your project."
+  ],
+  "pros": [
+   "Expressive controls",
+   "Voice variety",
+   "Easy to use"
+  ],
+  "cons": [
+   "Features and limits can change by plan",
+   "Output should be reviewed before publishing"
+  ],
+  "alternatives": [
+   "murf-ai",
+   "lovo-ai",
+   "wellsaid-labs"
+  ],
+  "tags": [
+   "tts",
+   "voice-actor",
+   "video",
+   "narration"
+  ],
+  "features": [
+   "AI voice actors",
+   "Emotion and speed controls",
+   "Script editing",
+   "Audio export"
+  ],
+  "use_cases": [
+   "Short video narration",
+   "Ad voiceovers",
+   "Explainers"
+  ],
+  "pricing_details": "Typecast plans, limits and prices change over time. Check the official website for current options.",
+  "faq": [
+   {
+    "q": "What is Typecast?",
+    "a": "AI voice actors and avatars for video narration. See the official website for details."
+   },
+   {
+    "q": "Is Typecast free?",
+    "a": "Pricing for Typecast can change. Check the official website for current plans and any free option."
+   },
+   {
+    "q": "Who is Typecast best for?",
+    "a": "Video creators wanting expressive AI voices. Compare it with the alternatives listed to find the right fit."
+   }
+  ],
+  "seo_title": "Typecast: What It Is and How to Use It",
+  "seo_description": "Learn what Typecast is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "naturalreaders",
+  "name": "NaturalReaders",
+  "category": "audio",
+  "website_url": "https://www.naturalreaders.com",
+  "pricing": "Unknown",
+  "tagline": "Text-to-speech reader for documents and web pages.",
+  "best_for": "Reading text aloud for accessibility and study",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "NaturalReaders turns text, documents and web pages into spoken audio. It is built as a reader, helping people listen instead of reading on screen.\n\nStudents, people with dyslexia and busy readers use it to follow along while listening. Features vary by device and plan, so check the official site. Check the official site for current plans.",
+  "use_steps": [
+   "Open the NaturalReaders website or app and sign in.",
+   "Start with a small sample project to see what NaturalReaders does.",
+   "Adjust settings and refine the result.",
+   "Review the output and export it for your project."
+  ],
+  "pros": [
+   "Accessibility focus",
+   "Works with documents",
+   "Simple use"
+  ],
+  "cons": [
+   "Features and limits can change by plan",
+   "Output should be reviewed before publishing"
+  ],
+  "alternatives": [
+   "speechify",
+   "murf-ai",
+   "play-ht"
+  ],
+  "tags": [
+   "tts",
+   "reader",
+   "accessibility",
+   "study"
+  ],
+  "features": [
+   "Read aloud for text",
+   "Document support",
+   "Browser tools",
+   "Multiple voices"
+  ],
+  "use_cases": [
+   "Study listening",
+   "Accessibility support",
+   "Proofreading by ear"
+  ],
+  "pricing_details": "NaturalReaders plans, limits and prices change over time. Check the official website for current options.",
+  "faq": [
+   {
+    "q": "What is NaturalReaders?",
+    "a": "Text-to-speech reader for documents and web pages. See the official website for details."
+   },
+   {
+    "q": "Is NaturalReaders free?",
+    "a": "Pricing for NaturalReaders can change. Check the official website for current plans and any free option."
+   },
+   {
+    "q": "Who is NaturalReaders best for?",
+    "a": "Reading text aloud for accessibility and study. Compare it with the alternatives listed to find the right fit."
+   }
+  ],
+  "seo_title": "NaturalReaders: What It Is and How to Use It",
+  "seo_description": "Learn what NaturalReaders is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "narakeet",
+  "name": "Narakeet",
+  "category": "audio",
+  "website_url": "https://www.narakeet.com",
+  "pricing": "Unknown",
+  "tagline": "Turn scripts and slides into narrated videos.",
+  "best_for": "Narrated videos from text or presentations",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Narakeet converts text and slide presentations into voiced videos. You supply a script or slides, choose a voice, and it builds narration.\n\nTrainers and educators use it for tutorial videos. Language and voice options may change, so confirm on the official site. Check the official site for current plans.",
+  "use_steps": [
+   "Open the Narakeet website or app and sign in.",
+   "Start with a small sample project to see what Narakeet does.",
+   "Adjust settings and refine the result.",
+   "Review the output and export it for your project."
+  ],
+  "pros": [
+   "Slide-friendly workflow",
+   "Language variety",
+   "Fast output"
+  ],
+  "cons": [
+   "Features and limits can change by plan",
+   "Output should be reviewed before publishing"
+  ],
+  "alternatives": [
+   "murf-ai",
+   "lovo-ai",
+   "fliki"
+  ],
+  "tags": [
+   "tts",
+   "video",
+   "slides",
+   "narration"
+  ],
+  "features": [
+   "Text-to-speech voices",
+   "Slide to video",
+   "Many languages",
+   "Audio and video export"
+  ],
+  "use_cases": [
+   "Tutorial videos",
+   "Training decks",
+   "Audio versions of text"
+  ],
+  "pricing_details": "Narakeet plans, limits and prices change over time. Check the official website for current options.",
+  "faq": [
+   {
+    "q": "What is Narakeet?",
+    "a": "Turn scripts and slides into narrated videos. See the official website for details."
+   },
+   {
+    "q": "Is Narakeet free?",
+    "a": "Pricing for Narakeet can change. Check the official website for current plans and any free option."
+   },
+   {
+    "q": "Who is Narakeet best for?",
+    "a": "Narrated videos from text or presentations. Compare it with the alternatives listed to find the right fit."
+   }
+  ],
+  "seo_title": "Narakeet: What It Is and How to Use It",
+  "seo_description": "Learn what Narakeet is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "respeecher",
+  "name": "Respeecher",
+  "category": "audio",
+  "website_url": "https://www.respeecher.com",
+  "pricing": "Unknown",
+  "tagline": "Voice conversion technology for media production.",
+  "best_for": "Studios needing voice conversion with consent",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Respeecher is a voice conversion service where one voice is transformed into another. It is used in film, games and media production.\n\nIt works through licensed, consented voices, so projects usually involve agreements. Contact the company for current options. Check the official site for current plans.",
+  "use_steps": [
+   "Open the Respeecher website or app and sign in.",
+   "Start with a small sample project to see what Respeecher does.",
+   "Adjust settings and refine the result.",
+   "Review the output and export it for your project."
+  ],
+  "pros": [
+   "Production focus",
+   "Voice conversion",
+   "Consent emphasis"
+  ],
+  "cons": [
+   "Features and limits can change by plan",
+   "Output should be reviewed before publishing"
+  ],
+  "alternatives": [
+   "elevenlabs",
+   "resemble-ai",
+   "voicemod"
+  ],
+  "tags": [
+   "voice",
+   "conversion",
+   "film",
+   "production"
+  ],
+  "features": [
+   "Voice conversion",
+   "Production workflows",
+   "Consent-based voices",
+   "Studio-quality focus"
+  ],
+  "use_cases": [
+   "Film dialogue",
+   "Game voices",
+   "Dubbing"
+  ],
+  "pricing_details": "Respeecher plans, limits and prices change over time. Check the official website for current options.",
+  "faq": [
+   {
+    "q": "What is Respeecher?",
+    "a": "Voice conversion technology for media production. See the official website for details."
+   },
+   {
+    "q": "Is Respeecher free?",
+    "a": "Pricing for Respeecher can change. Check the official website for current plans and any free option."
+   },
+   {
+    "q": "Who is Respeecher best for?",
+    "a": "Studios needing voice conversion with consent. Compare it with the alternatives listed to find the right fit."
+   }
+  ],
+  "seo_title": "Respeecher: What It Is and How to Use It",
+  "seo_description": "Learn what Respeecher is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "voicemod",
+  "name": "Voicemod",
+  "category": "audio",
+  "website_url": "https://www.voicemod.net",
+  "pricing": "Unknown",
+  "tagline": "Real-time voice changer for games and streaming.",
+  "best_for": "Gamers and streamers altering voice live",
+  "platforms": [
+   "Windows",
+   "macOS"
+  ],
+  "description": "Voicemod is a real-time voice changer. It processes microphone audio so voices can sound different in games, chats and streams.\n\nStreamers and gamers use soundboards and voice effects for entertainment. Check supported apps on the official site since compatibility changes. Check the official site for current plans.",
+  "use_steps": [
+   "Open the Voicemod website or app and sign in.",
+   "Start with a small sample project to see what Voicemod does.",
+   "Adjust settings and refine the result.",
+   "Review the output and export it for your project."
+  ],
+  "pros": [
+   "Live processing",
+   "Popular with streamers",
+   "Soundboard included"
+  ],
+  "cons": [
+   "Features and limits can change by plan",
+   "Output should be reviewed before publishing"
+  ],
+  "alternatives": [
+   "voice-ai",
+   "krisp",
+   "kits-ai"
+  ],
+  "tags": [
+   "voice",
+   "streaming",
+   "gaming",
+   "effects"
+  ],
+  "features": [
+   "Real-time voice changing",
+   "Soundboard",
+   "Voice effects",
+   "App integration"
+  ],
+  "use_cases": [
+   "Streaming",
+   "Gaming chat",
+   "Fun voice effects"
+  ],
+  "pricing_details": "Voicemod plans, limits and prices change over time. Check the official website for current options.",
+  "faq": [
+   {
+    "q": "What is Voicemod?",
+    "a": "Real-time voice changer for games and streaming. See the official website for details."
+   },
+   {
+    "q": "Is Voicemod free?",
+    "a": "Pricing for Voicemod can change. Check the official website for current plans and any free option."
+   },
+   {
+    "q": "Who is Voicemod best for?",
+    "a": "Gamers and streamers altering voice live. Compare it with the alternatives listed to find the right fit."
+   }
+  ],
+  "seo_title": "Voicemod: What It Is and How to Use It",
+  "seo_description": "Learn what Voicemod is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "voice-ai",
+  "name": "Voice.ai",
+  "category": "audio",
+  "website_url": "https://voice.ai",
+  "pricing": "Unknown",
+  "tagline": "Voice changer and voice model tools.",
+  "best_for": "Hobbyists trying voice changing",
+  "platforms": [
+   "Web",
+   "Windows",
+   "macOS"
+  ],
+  "description": "Voice.ai is a voice changer that applies voice models to your microphone input. Users can pick voices for chats, games and recordings.\n\nIt suits entertainment and experimentation. Review safe-use and consent policies before using voices. See the official site for current features. Check the official site for current plans.",
+  "use_steps": [
+   "Open the Voice.ai website or app and sign in.",
+   "Start with a small sample project to see what Voice.ai does.",
+   "Adjust settings and refine the result.",
+   "Review the output and export it for your project."
+  ],
+  "pros": [
+   "Easy to start",
+   "Many voices",
+   "Real-time use"
+  ],
+  "cons": [
+   "Features and limits can change by plan",
+   "Output should be reviewed before publishing"
+  ],
+  "alternatives": [
+   "voicemod",
+   "kits-ai",
+   "respeecher"
+  ],
+  "tags": [
+   "voice",
+   "changer",
+   "models",
+   "gaming"
+  ],
+  "features": [
+   "Voice changing",
+   "Voice library",
+   "Microphone processing",
+   "Desktop app"
+  ],
+  "use_cases": [
+   "Gaming",
+   "Voice chat",
+   "Fun recordings"
+  ],
+  "pricing_details": "Voice.ai plans, limits and prices change over time. Check the official website for current options.",
+  "faq": [
+   {
+    "q": "What is Voice.ai?",
+    "a": "Voice changer and voice model tools. See the official website for details."
+   },
+   {
+    "q": "Is Voice.ai free?",
+    "a": "Pricing for Voice.ai can change. Check the official website for current plans and any free option."
+   },
+   {
+    "q": "Who is Voice.ai best for?",
+    "a": "Hobbyists trying voice changing. Compare it with the alternatives listed to find the right fit."
+   }
+  ],
+  "seo_title": "Voice.ai: What It Is and How to Use It",
+  "seo_description": "Learn what Voice.ai is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "kits-ai",
+  "name": "Kits AI",
+  "category": "audio",
+  "website_url": "https://www.kits.ai",
+  "pricing": "Unknown",
+  "tagline": "AI voice and vocal tools for music creators.",
+  "best_for": "Musicians working with AI vocals",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Kits AI offers vocal tools such as voice conversion and AI voice models for musicians and producers. It focuses on singing and vocal ideas.\n\nProducers use it to sketch vocal parts or change timbre. Be careful with consent and rights for any voice models. Check the official site for plans. Check the official site for current plans.",
+  "use_steps": [
+   "Open the Kits AI website or app and sign in.",
+   "Start with a small sample project to see what Kits AI does.",
+   "Adjust settings and refine the result.",
+   "Review the output and export it for your project."
+  ],
+  "pros": [
+   "Music-oriented",
+   "Vocal focus",
+   "Producer friendly"
+  ],
+  "cons": [
+   "Features and limits can change by plan",
+   "Output should be reviewed before publishing"
+  ],
+  "alternatives": [
+   "voicemod",
+   "moises",
+   "respeecher"
+  ],
+  "tags": [
+   "vocals",
+   "music",
+   "voice",
+   "producer"
+  ],
+  "features": [
+   "Voice conversion",
+   "Vocal models",
+   "Music-focused tools",
+   "Stem handling"
+  ],
+  "use_cases": [
+   "Vocal demos",
+   "Song ideas",
+   "Harmony sketches"
+  ],
+  "pricing_details": "Kits AI plans, limits and prices change over time. Check the official website for current options.",
+  "faq": [
+   {
+    "q": "What is Kits AI?",
+    "a": "AI voice and vocal tools for music creators. See the official website for details."
+   },
+   {
+    "q": "Is Kits AI free?",
+    "a": "Pricing for Kits AI can change. Check the official website for current plans and any free option."
+   },
+   {
+    "q": "Who is Kits AI best for?",
+    "a": "Musicians working with AI vocals. Compare it with the alternatives listed to find the right fit."
+   }
+  ],
+  "seo_title": "Kits AI: What It Is and How to Use It",
+  "seo_description": "Learn what Kits AI is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "rev",
+  "name": "Rev",
+  "category": "audio",
+  "website_url": "https://www.rev.com",
+  "pricing": "Unknown",
+  "tagline": "Transcription and captioning services with AI and human options.",
+  "best_for": "Transcripts, captions and subtitles",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "Rev provides transcription, captions and subtitles, mixing automated and human services. Upload audio or video and receive text.\n\nJournalists, researchers and teams use it for interviews and meetings. Accuracy and turnaround depend on options chosen. See the official site for plans. Check the official site for current plans.",
+  "use_steps": [
+   "Open the Rev website or app and sign in.",
+   "Start with a small sample project to see what Rev does.",
+   "Adjust settings and refine the result.",
+   "Review the output and export it for your project."
+  ],
+  "pros": [
+   "Human and AI options",
+   "Many file types",
+   "Established service"
+  ],
+  "cons": [
+   "Features and limits can change by plan",
+   "Output should be reviewed before publishing"
+  ],
+  "alternatives": [
+   "trint",
+   "sonix",
+   "happy-scribe"
+  ],
+  "tags": [
+   "transcription",
+   "captions",
+   "interviews",
+   "subtitles"
+  ],
+  "features": [
+   "Automated transcription",
+   "Human transcription option",
+   "Captions",
+   "Subtitles"
+  ],
+  "use_cases": [
+   "Interview transcripts",
+   "Video captions",
+   "Meeting records"
+  ],
+  "pricing_details": "Rev plans, limits and prices change over time. Check the official website for current options.",
+  "faq": [
+   {
+    "q": "What is Rev?",
+    "a": "Transcription and captioning services with AI and human options. See the official website for details."
+   },
+   {
+    "q": "Is Rev free?",
+    "a": "Pricing for Rev can change. Check the official website for current plans and any free option."
+   },
+   {
+    "q": "Who is Rev best for?",
+    "a": "Transcripts, captions and subtitles. Compare it with the alternatives listed to find the right fit."
+   }
+  ],
+  "seo_title": "Rev: What It Is and How to Use It",
+  "seo_description": "Learn what Rev is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "trint",
+  "name": "Trint",
+  "category": "audio",
+  "website_url": "https://trint.com",
+  "pricing": "Unknown",
+  "tagline": "Transcription platform with an editor for media teams.",
+  "best_for": "Newsrooms and teams editing transcripts",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Trint transcribes audio and video and gives you a text editor linked to the recording. Searching and editing text helps find moments in long files.\n\nMedia teams and researchers use it for interviews and footage. Plan features change, so check the official site. Check the official site for current plans.",
+  "use_steps": [
+   "Open the Trint website or app and sign in.",
+   "Start with a small sample project to see what Trint does.",
+   "Adjust settings and refine the result.",
+   "Review the output and export it for your project."
+  ],
+  "pros": [
+   "Editor tied to audio",
+   "Team features",
+   "Search"
+  ],
+  "cons": [
+   "Features and limits can change by plan",
+   "Output should be reviewed before publishing"
+  ],
+  "alternatives": [
+   "rev",
+   "sonix",
+   "happy-scribe"
+  ],
+  "tags": [
+   "transcription",
+   "editor",
+   "media",
+   "teams"
+  ],
+  "features": [
+   "Automated transcription",
+   "Transcript editor",
+   "Search in text",
+   "Collaboration"
+  ],
+  "use_cases": [
+   "Interview review",
+   "Newsroom workflows",
+   "Research notes"
+  ],
+  "pricing_details": "Trint plans, limits and prices change over time. Check the official website for current options.",
+  "faq": [
+   {
+    "q": "What is Trint?",
+    "a": "Transcription platform with an editor for media teams. See the official website for details."
+   },
+   {
+    "q": "Is Trint free?",
+    "a": "Pricing for Trint can change. Check the official website for current plans and any free option."
+   },
+   {
+    "q": "Who is Trint best for?",
+    "a": "Newsrooms and teams editing transcripts. Compare it with the alternatives listed to find the right fit."
+   }
+  ],
+  "seo_title": "Trint: What It Is and How to Use It",
+  "seo_description": "Learn what Trint is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "sonix",
+  "name": "Sonix",
+  "category": "audio",
+  "website_url": "https://sonix.ai",
+  "pricing": "Unknown",
+  "tagline": "Automated transcription and subtitles in many languages.",
+  "best_for": "Multi-language transcripts and subtitles",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Sonix produces automated transcripts and subtitles from audio and video, with an online editor for corrections.\n\nPodcasters, educators and marketers use it for captions. Language support and plans vary, so check the official site. Check the official site for current plans.",
+  "use_steps": [
+   "Open the Sonix website or app and sign in.",
+   "Start with a small sample project to see what Sonix does.",
+   "Adjust settings and refine the result.",
+   "Review the output and export it for your project."
+  ],
+  "pros": [
+   "Editor included",
+   "Multilingual",
+   "Subtitle export"
+  ],
+  "cons": [
+   "Features and limits can change by plan",
+   "Output should be reviewed before publishing"
+  ],
+  "alternatives": [
+   "rev",
+   "trint",
+   "happy-scribe"
+  ],
+  "tags": [
+   "transcription",
+   "subtitles",
+   "languages",
+   "editor"
+  ],
+  "features": [
+   "Automated transcription",
+   "Subtitles",
+   "Online editor",
+   "Many languages"
+  ],
+  "use_cases": [
+   "Podcast transcripts",
+   "Video subtitles",
+   "Lecture notes"
+  ],
+  "pricing_details": "Sonix plans, limits and prices change over time. Check the official website for current options.",
+  "faq": [
+   {
+    "q": "What is Sonix?",
+    "a": "Automated transcription and subtitles in many languages. See the official website for details."
+   },
+   {
+    "q": "Is Sonix free?",
+    "a": "Pricing for Sonix can change. Check the official website for current plans and any free option."
+   },
+   {
+    "q": "Who is Sonix best for?",
+    "a": "Multi-language transcripts and subtitles. Compare it with the alternatives listed to find the right fit."
+   }
+  ],
+  "seo_title": "Sonix: What It Is and How to Use It",
+  "seo_description": "Learn what Sonix is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "happy-scribe",
+  "name": "Happy Scribe",
+  "category": "audio",
+  "website_url": "https://www.happyscribe.com",
+  "pricing": "Unknown",
+  "tagline": "Transcription, subtitles and translation platform.",
+  "best_for": "Subtitles and transcripts across languages",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Happy Scribe offers transcription, subtitling and translation, with automated and human-assisted options.\n\nVideo creators and companies use it to publish captions and translated subtitles. Check language coverage and plans on the official site. Check the official site for current plans.",
+  "use_steps": [
+   "Open the Happy Scribe website or app and sign in.",
+   "Start with a small sample project to see what Happy Scribe does.",
+   "Adjust settings and refine the result.",
+   "Review the output and export it for your project."
+  ],
+  "pros": [
+   "Language breadth",
+   "Subtitle tools",
+   "Human option"
+  ],
+  "cons": [
+   "Features and limits can change by plan",
+   "Output should be reviewed before publishing"
+  ],
+  "alternatives": [
+   "sonix",
+   "rev",
+   "trint"
+  ],
+  "tags": [
+   "transcription",
+   "subtitles",
+   "translation",
+   "captions"
+  ],
+  "features": [
+   "Transcription",
+   "Subtitle creation",
+   "Translation",
+   "Editor"
+  ],
+  "use_cases": [
+   "Video captions",
+   "Translated subtitles",
+   "Interview transcripts"
+  ],
+  "pricing_details": "Happy Scribe plans, limits and prices change over time. Check the official website for current options.",
+  "faq": [
+   {
+    "q": "What is Happy Scribe?",
+    "a": "Transcription, subtitles and translation platform. See the official website for details."
+   },
+   {
+    "q": "Is Happy Scribe free?",
+    "a": "Pricing for Happy Scribe can change. Check the official website for current plans and any free option."
+   },
+   {
+    "q": "Who is Happy Scribe best for?",
+    "a": "Subtitles and transcripts across languages. Compare it with the alternatives listed to find the right fit."
+   }
+  ],
+  "seo_title": "Happy Scribe: What It Is and How to Use It",
+  "seo_description": "Learn what Happy Scribe is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "notta",
+  "name": "Notta",
+  "category": "audio",
+  "website_url": "https://www.notta.ai",
+  "pricing": "Unknown",
+  "tagline": "AI meeting notes and transcription tool.",
+  "best_for": "Recording and summarising meetings",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "Notta records and transcribes meetings and voice notes, then produces summaries. It supports uploads and live capture.\n\nProfessionals and students use it to keep notes searchable. Check privacy settings and language support on the official site. Check the official site for current plans.",
+  "use_steps": [
+   "Open the Notta website or app and sign in.",
+   "Start with a small sample project to see what Notta does.",
+   "Adjust settings and refine the result.",
+   "Review the output and export it for your project."
+  ],
+  "pros": [
+   "Summaries included",
+   "Mobile support",
+   "Easy recording"
+  ],
+  "cons": [
+   "Features and limits can change by plan",
+   "Output should be reviewed before publishing"
+  ],
+  "alternatives": [
+   "otter-ai",
+   "fireflies-ai",
+   "rev"
+  ],
+  "tags": [
+   "meetings",
+   "notes",
+   "transcription",
+   "summary"
+  ],
+  "features": [
+   "Meeting transcription",
+   "Summaries",
+   "Audio upload",
+   "Mobile app"
+  ],
+  "use_cases": [
+   "Meeting notes",
+   "Lecture capture",
+   "Voice memos"
+  ],
+  "pricing_details": "Notta plans, limits and prices change over time. Check the official website for current options.",
+  "faq": [
+   {
+    "q": "What is Notta?",
+    "a": "AI meeting notes and transcription tool. See the official website for details."
+   },
+   {
+    "q": "Is Notta free?",
+    "a": "Pricing for Notta can change. Check the official website for current plans and any free option."
+   },
+   {
+    "q": "Who is Notta best for?",
+    "a": "Recording and summarising meetings. Compare it with the alternatives listed to find the right fit."
+   }
+  ],
+  "seo_title": "Notta: What It Is and How to Use It",
+  "seo_description": "Learn what Notta is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "deepgram",
+  "name": "Deepgram",
+  "category": "audio",
+  "website_url": "https://deepgram.com",
+  "pricing": "Unknown",
+  "tagline": "Speech-to-text API for developers.",
+  "best_for": "Developers adding speech recognition",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Deepgram provides speech recognition and voice AI through APIs. Developers send audio and receive transcripts for apps and call analysis.\n\nIt targets engineers building products. Evaluate accuracy for your accents and audio quality. See the official site for plans. Check the official site for current plans.",
+  "use_steps": [
+   "Open the Deepgram website or app and sign in.",
+   "Start with a small sample project to see what Deepgram does.",
+   "Adjust settings and refine the result.",
+   "Review the output and export it for your project."
+  ],
+  "pros": [
+   "Developer focused",
+   "Streaming support",
+   "API first"
+  ],
+  "cons": [
+   "Features and limits can change by plan",
+   "Output should be reviewed before publishing"
+  ],
+  "alternatives": [
+   "assemblyai",
+   "speechmatics",
+   "whisper-openai"
+  ],
+  "tags": [
+   "asr",
+   "api",
+   "developer",
+   "speech"
+  ],
+  "features": [
+   "Speech-to-text API",
+   "Real-time streaming",
+   "Developer docs",
+   "Voice AI tools"
+  ],
+  "use_cases": [
+   "Call transcription",
+   "Voice apps",
+   "Captioning systems"
+  ],
+  "pricing_details": "Deepgram plans, limits and prices change over time. Check the official website for current options.",
+  "faq": [
+   {
+    "q": "What is Deepgram?",
+    "a": "Speech-to-text API for developers. See the official website for details."
+   },
+   {
+    "q": "Is Deepgram free?",
+    "a": "Pricing for Deepgram can change. Check the official website for current plans and any free option."
+   },
+   {
+    "q": "Who is Deepgram best for?",
+    "a": "Developers adding speech recognition. Compare it with the alternatives listed to find the right fit."
+   }
+  ],
+  "seo_title": "Deepgram: What It Is and How to Use It",
+  "seo_description": "Learn what Deepgram is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "assemblyai",
+  "name": "AssemblyAI",
+  "category": "audio",
+  "website_url": "https://www.assemblyai.com",
+  "pricing": "Unknown",
+  "tagline": "Speech AI APIs for transcription and audio analysis.",
+  "best_for": "Developers building transcription features",
+  "platforms": [
+   "Web"
+  ],
+  "description": "AssemblyAI offers APIs for transcribing audio and analysing speech. Developers integrate it into apps for transcripts and related features.\n\nTypical customers are product teams adding voice features. Check model options and plans on the official site. Check the official site for current plans.",
+  "use_steps": [
+   "Open the AssemblyAI website or app and sign in.",
+   "Start with a small sample project to see what AssemblyAI does.",
+   "Adjust settings and refine the result.",
+   "Review the output and export it for your project."
+  ],
+  "pros": [
+   "API driven",
+   "Developer docs",
+   "Flexible integration"
+  ],
+  "cons": [
+   "Features and limits can change by plan",
+   "Output should be reviewed before publishing"
+  ],
+  "alternatives": [
+   "deepgram",
+   "speechmatics",
+   "whisper-openai"
+  ],
+  "tags": [
+   "asr",
+   "api",
+   "transcription",
+   "developer"
+  ],
+  "features": [
+   "Transcription API",
+   "Audio analysis",
+   "Developer SDKs",
+   "Batch and streaming"
+  ],
+  "use_cases": [
+   "Meeting apps",
+   "Podcast tools",
+   "Call analytics"
+  ],
+  "pricing_details": "AssemblyAI plans, limits and prices change over time. Check the official website for current options.",
+  "faq": [
+   {
+    "q": "What is AssemblyAI?",
+    "a": "Speech AI APIs for transcription and audio analysis. See the official website for details."
+   },
+   {
+    "q": "Is AssemblyAI free?",
+    "a": "Pricing for AssemblyAI can change. Check the official website for current plans and any free option."
+   },
+   {
+    "q": "Who is AssemblyAI best for?",
+    "a": "Developers building transcription features. Compare it with the alternatives listed to find the right fit."
+   }
+  ],
+  "seo_title": "AssemblyAI: What It Is and How to Use It",
+  "seo_description": "Learn what AssemblyAI is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "speechmatics",
+  "name": "Speechmatics",
+  "category": "audio",
+  "website_url": "https://www.speechmatics.com",
+  "pricing": "Unknown",
+  "tagline": "Speech recognition technology and APIs.",
+  "best_for": "Enterprise speech recognition needs",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Speechmatics develops speech recognition technology for many languages and accents, offered through APIs.\n\nBusinesses and developers use it for transcripts and captioning. Compare accuracy on your own audio. See the official site for options. Check the official site for current plans.",
+  "use_steps": [
+   "Open the Speechmatics website or app and sign in.",
+   "Start with a small sample project to see what Speechmatics does.",
+   "Adjust settings and refine the result.",
+   "Review the output and export it for your project."
+  ],
+  "pros": [
+   "Language breadth",
+   "API access",
+   "Enterprise focus"
+  ],
+  "cons": [
+   "Features and limits can change by plan",
+   "Output should be reviewed before publishing"
+  ],
+  "alternatives": [
+   "deepgram",
+   "assemblyai",
+   "whisper-openai"
+  ],
+  "tags": [
+   "asr",
+   "languages",
+   "api",
+   "enterprise"
+  ],
+  "features": [
+   "Speech-to-text",
+   "Multiple languages",
+   "API access",
+   "Real-time options"
+  ],
+  "use_cases": [
+   "Captioning",
+   "Call transcripts",
+   "Media indexing"
+  ],
+  "pricing_details": "Speechmatics plans, limits and prices change over time. Check the official website for current options.",
+  "faq": [
+   {
+    "q": "What is Speechmatics?",
+    "a": "Speech recognition technology and APIs. See the official website for details."
+   },
+   {
+    "q": "Is Speechmatics free?",
+    "a": "Pricing for Speechmatics can change. Check the official website for current plans and any free option."
+   },
+   {
+    "q": "Who is Speechmatics best for?",
+    "a": "Enterprise speech recognition needs. Compare it with the alternatives listed to find the right fit."
+   }
+  ],
+  "seo_title": "Speechmatics: What It Is and How to Use It",
+  "seo_description": "Learn what Speechmatics is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "gladia",
+  "name": "Gladia",
+  "category": "audio",
+  "website_url": "https://www.gladia.io",
+  "pricing": "Unknown",
+  "tagline": "Audio transcription API for developers.",
+  "best_for": "Developers wanting a hosted transcription API",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Gladia provides an API for transcribing and analysing audio. It packages speech recognition so developers need not host models.\n\nIt suits teams building meeting, call or media tools. Check features and plans on the official site. Check the official site for current plans.",
+  "use_steps": [
+   "Open the Gladia website or app and sign in.",
+   "Start with a small sample project to see what Gladia does.",
+   "Adjust settings and refine the result.",
+   "Review the output and export it for your project."
+  ],
+  "pros": [
+   "Hosted service",
+   "API based",
+   "Simple integration"
+  ],
+  "cons": [
+   "Features and limits can change by plan",
+   "Output should be reviewed before publishing"
+  ],
+  "alternatives": [
+   "assemblyai",
+   "deepgram",
+   "speechmatics"
+  ],
+  "tags": [
+   "asr",
+   "api",
+   "transcription",
+   "developer"
+  ],
+  "features": [
+   "Transcription API",
+   "Audio intelligence",
+   "Developer docs",
+   "Hosted models"
+  ],
+  "use_cases": [
+   "Meeting tools",
+   "Call analytics",
+   "Subtitle pipelines"
+  ],
+  "pricing_details": "Gladia plans, limits and prices change over time. Check the official website for current options.",
+  "faq": [
+   {
+    "q": "What is Gladia?",
+    "a": "Audio transcription API for developers. See the official website for details."
+   },
+   {
+    "q": "Is Gladia free?",
+    "a": "Pricing for Gladia can change. Check the official website for current plans and any free option."
+   },
+   {
+    "q": "Who is Gladia best for?",
+    "a": "Developers wanting a hosted transcription API. Compare it with the alternatives listed to find the right fit."
+   }
+  ],
+  "seo_title": "Gladia: What It Is and How to Use It",
+  "seo_description": "Learn what Gladia is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "auphonic",
+  "name": "Auphonic",
+  "category": "audio",
+  "website_url": "https://auphonic.com",
+  "pricing": "Unknown",
+  "tagline": "Automatic audio post-production for podcasts and video.",
+  "best_for": "Levelling and cleaning podcast audio",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Auphonic automates audio post-production. Upload a recording and it adjusts levels, reduces noise and balances speakers.\n\nPodcasters and educators use it for consistent loudness. Settings differ by workflow, so check the official site for plans. Check the official site for current plans.",
+  "use_steps": [
+   "Open the Auphonic website or app and sign in.",
+   "Start with a small sample project to see what Auphonic does.",
+   "Adjust settings and refine the result.",
+   "Review the output and export it for your project."
+  ],
+  "pros": [
+   "Automation focus",
+   "Consistent loudness",
+   "Simple upload"
+  ],
+  "cons": [
+   "Features and limits can change by plan",
+   "Output should be reviewed before publishing"
+  ],
+  "alternatives": [
+   "adobe-podcast",
+   "cleanvoice-ai",
+   "izotope"
+  ],
+  "tags": [
+   "podcast",
+   "audio",
+   "leveling",
+   "noise"
+  ],
+  "features": [
+   "Loudness normalisation",
+   "Noise reduction",
+   "Multitrack processing",
+   "Automatic leveling"
+  ],
+  "use_cases": [
+   "Podcast finishing",
+   "Lecture audio",
+   "Interview clean-up"
+  ],
+  "pricing_details": "Auphonic plans, limits and prices change over time. Check the official website for current options.",
+  "faq": [
+   {
+    "q": "What is Auphonic?",
+    "a": "Automatic audio post-production for podcasts and video. See the official website for details."
+   },
+   {
+    "q": "Is Auphonic free?",
+    "a": "Pricing for Auphonic can change. Check the official website for current plans and any free option."
+   },
+   {
+    "q": "Who is Auphonic best for?",
+    "a": "Levelling and cleaning podcast audio. Compare it with the alternatives listed to find the right fit."
+   }
+  ],
+  "seo_title": "Auphonic: What It Is and How to Use It",
+  "seo_description": "Learn what Auphonic is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "izotope",
+  "name": "iZotope",
+  "category": "audio",
+  "website_url": "https://www.izotope.com",
+  "pricing": "Unknown",
+  "tagline": "Audio repair and mastering software suite.",
+  "best_for": "Mixing, mastering and repair",
+  "platforms": [
+   "Windows",
+   "macOS"
+  ],
+  "description": "iZotope makes audio software for mixing, mastering and repair, including assistants that analyse tracks and suggest settings.\n\nProducers and podcasters use its plug-ins and standalone apps. Compatibility depends on your DAW, so see the official site. Check the official site for current plans.",
+  "use_steps": [
+   "Open the iZotope website or app and sign in.",
+   "Start with a small sample project to see what iZotope does.",
+   "Adjust settings and refine the result.",
+   "Review the output and export it for your project."
+  ],
+  "pros": [
+   "Professional tools",
+   "Repair focus",
+   "Plug-in support"
+  ],
+  "cons": [
+   "Features and limits can change by plan",
+   "Output should be reviewed before publishing"
+  ],
+  "alternatives": [
+   "landr",
+   "auphonic",
+   "adobe-audition"
+  ],
+  "tags": [
+   "mastering",
+   "repair",
+   "plugin",
+   "mixing"
+  ],
+  "features": [
+   "Mastering tools",
+   "Audio repair",
+   "Plug-ins",
+   "Assistive analysis"
+  ],
+  "use_cases": [
+   "Music mastering",
+   "Dialogue repair",
+   "Podcast polish"
+  ],
+  "pricing_details": "iZotope plans, limits and prices change over time. Check the official website for current options.",
+  "faq": [
+   {
+    "q": "What is iZotope?",
+    "a": "Audio repair and mastering software suite. See the official website for details."
+   },
+   {
+    "q": "Is iZotope free?",
+    "a": "Pricing for iZotope can change. Check the official website for current plans and any free option."
+   },
+   {
+    "q": "Who is iZotope best for?",
+    "a": "Mixing, mastering and repair. Compare it with the alternatives listed to find the right fit."
+   }
+  ],
+  "seo_title": "iZotope: What It Is and How to Use It",
+  "seo_description": "Learn what iZotope is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "landr",
+  "name": "LANDR",
+  "category": "audio",
+  "website_url": "https://www.landr.com",
+  "pricing": "Unknown",
+  "tagline": "Online mastering and music distribution.",
+  "best_for": "Mastering and releasing music",
+  "platforms": [
+   "Web"
+  ],
+  "description": "LANDR offers automated mastering plus distribution and sample tools for musicians.\n\nIndependent artists use it for quick masters. Check the plans and terms on the official site. Check the official site for current plans.",
+  "use_steps": [
+   "Open the LANDR website or app and sign in.",
+   "Start with a small sample project to see what LANDR does.",
+   "Adjust settings and refine the result.",
+   "Review the output and export it for your project."
+  ],
+  "pros": [
+   "Fast mastering",
+   "Artist services",
+   "Browser based"
+  ],
+  "cons": [
+   "Features and limits can change by plan",
+   "Output should be reviewed before publishing"
+  ],
+  "alternatives": [
+   "izotope",
+   "splice",
+   "bandlab"
+  ],
+  "tags": [
+   "mastering",
+   "music",
+   "distribution",
+   "artists"
+  ],
+  "features": [
+   "AI mastering",
+   "Distribution",
+   "Sample library",
+   "Collaboration"
+  ],
+  "use_cases": [
+   "Master a demo",
+   "Release music",
+   "Find samples"
+  ],
+  "pricing_details": "LANDR plans, limits and prices change over time. Check the official website for current options.",
+  "faq": [
+   {
+    "q": "What is LANDR?",
+    "a": "Online mastering and music distribution. See the official website for details."
+   },
+   {
+    "q": "Is LANDR free?",
+    "a": "Pricing for LANDR can change. Check the official website for current plans and any free option."
+   },
+   {
+    "q": "Who is LANDR best for?",
+    "a": "Mastering and releasing music. Compare it with the alternatives listed to find the right fit."
+   }
+  ],
+  "seo_title": "LANDR: What It Is and How to Use It",
+  "seo_description": "Learn what LANDR is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "cleanvoice-ai",
+  "name": "Cleanvoice AI",
+  "category": "audio",
+  "website_url": "https://cleanvoice.ai",
+  "pricing": "Unknown",
+  "tagline": "Remove filler words and noise from podcast audio.",
+  "best_for": "Editing out ums and pauses",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Cleanvoice AI edits spoken recordings by removing filler words, pauses and noise automatically.\n\nPodcasters and course creators use it to save editing time. Review the result as automatic cuts can miss context. Check the official site. Check the official site for current plans.",
+  "use_steps": [
+   "Open the Cleanvoice AI website or app and sign in.",
+   "Start with a small sample project to see what Cleanvoice AI does.",
+   "Adjust settings and refine the result.",
+   "Review the output and export it for your project."
+  ],
+  "pros": [
+   "Saves editing time",
+   "Focused job",
+   "Simple workflow"
+  ],
+  "cons": [
+   "Features and limits can change by plan",
+   "Output should be reviewed before publishing"
+  ],
+  "alternatives": [
+   "auphonic",
+   "descript",
+   "adobe-podcast"
+  ],
+  "tags": [
+   "podcast",
+   "editing",
+   "filler",
+   "cleanup"
+  ],
+  "features": [
+   "Filler word removal",
+   "Noise reduction",
+   "Silence trimming",
+   "Audio upload"
+  ],
+  "use_cases": [
+   "Podcast edits",
+   "Course audio",
+   "Interview polishing"
+  ],
+  "pricing_details": "Cleanvoice AI plans, limits and prices change over time. Check the official website for current options.",
+  "faq": [
+   {
+    "q": "What is Cleanvoice AI?",
+    "a": "Remove filler words and noise from podcast audio. See the official website for details."
+   },
+   {
+    "q": "Is Cleanvoice AI free?",
+    "a": "Pricing for Cleanvoice AI can change. Check the official website for current plans and any free option."
+   },
+   {
+    "q": "Who is Cleanvoice AI best for?",
+    "a": "Editing out ums and pauses. Compare it with the alternatives listed to find the right fit."
+   }
+  ],
+  "seo_title": "Cleanvoice AI: What It Is and How to Use It",
+  "seo_description": "Learn what Cleanvoice AI is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "krisp",
+  "name": "Krisp",
+  "category": "audio",
+  "website_url": "https://krisp.ai",
+  "pricing": "Unknown",
+  "tagline": "Noise cancellation and meeting assistant.",
+  "best_for": "Cleaner calls and meeting notes",
+  "platforms": [
+   "Windows",
+   "macOS",
+   "iOS",
+   "Android"
+  ],
+  "description": "Krisp removes background noise from calls and offers a meeting assistant for notes.\n\nRemote workers use it with meeting apps. Check which apps are supported on the official site. Check the official site for current plans.",
+  "use_steps": [
+   "Open the Krisp website or app and sign in.",
+   "Start with a small sample project to see what Krisp does.",
+   "Adjust settings and refine the result.",
+   "Review the output and export it for your project."
+  ],
+  "pros": [
+   "Real-time cleanup",
+   "Works with meeting apps",
+   "Simple setup"
+  ],
+  "cons": [
+   "Features and limits can change by plan",
+   "Output should be reviewed before publishing"
+  ],
+  "alternatives": [
+   "otter-ai",
+   "notta",
+   "adobe-podcast"
+  ],
+  "tags": [
+   "noise",
+   "calls",
+   "meetings",
+   "audio"
+  ],
+  "features": [
+   "Noise cancellation",
+   "Meeting notes",
+   "App integration",
+   "Echo removal"
+  ],
+  "use_cases": [
+   "Remote calls",
+   "Noisy rooms",
+   "Meeting transcripts"
+  ],
+  "pricing_details": "Krisp plans, limits and prices change over time. Check the official website for current options.",
+  "faq": [
+   {
+    "q": "What is Krisp?",
+    "a": "Noise cancellation and meeting assistant. See the official website for details."
+   },
+   {
+    "q": "Is Krisp free?",
+    "a": "Pricing for Krisp can change. Check the official website for current plans and any free option."
+   },
+   {
+    "q": "Who is Krisp best for?",
+    "a": "Cleaner calls and meeting notes. Compare it with the alternatives listed to find the right fit."
+   }
+  ],
+  "seo_title": "Krisp: What It Is and How to Use It",
+  "seo_description": "Learn what Krisp is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "riverside",
+  "name": "Riverside",
+  "category": "audio",
+  "website_url": "https://riverside.fm",
+  "pricing": "Unknown",
+  "tagline": "Remote recording studio for podcasts and video.",
+  "best_for": "Recording remote interviews",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Riverside records podcasts and video interviews with guests remotely, saving local-quality tracks.\n\nPodcasters and marketers use it with editing tools. Check plans on the official site. Check the official site for current plans.",
+  "use_steps": [
+   "Open the Riverside website or app and sign in.",
+   "Start with a small sample project to see what Riverside does.",
+   "Adjust settings and refine the result.",
+   "Review the output and export it for your project."
+  ],
+  "pros": [
+   "Remote workflow",
+   "Separate tracks",
+   "Editing included"
+  ],
+  "cons": [
+   "Features and limits can change by plan",
+   "Output should be reviewed before publishing"
+  ],
+  "alternatives": [
+   "zencastr",
+   "descript",
+   "podcastle"
+  ],
+  "tags": [
+   "podcast",
+   "recording",
+   "remote",
+   "video"
+  ],
+  "features": [
+   "Remote recording",
+   "Separate tracks",
+   "Transcription",
+   "Editing tools"
+  ],
+  "use_cases": [
+   "Podcast interviews",
+   "Webinars",
+   "Video clips"
+  ],
+  "pricing_details": "Riverside plans, limits and prices change over time. Check the official website for current options.",
+  "faq": [
+   {
+    "q": "What is Riverside?",
+    "a": "Remote recording studio for podcasts and video. See the official website for details."
+   },
+   {
+    "q": "Is Riverside free?",
+    "a": "Pricing for Riverside can change. Check the official website for current plans and any free option."
+   },
+   {
+    "q": "Who is Riverside best for?",
+    "a": "Recording remote interviews. Compare it with the alternatives listed to find the right fit."
+   }
+  ],
+  "seo_title": "Riverside: What It Is and How to Use It",
+  "seo_description": "Learn what Riverside is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "zencastr",
+  "name": "Zencastr",
+  "category": "audio",
+  "website_url": "https://zencastr.com",
+  "pricing": "Unknown",
+  "tagline": "Browser-based podcast recording platform.",
+  "best_for": "Recording guests remotely",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Zencastr is a browser recorder for podcasts that captures each participant separately.\n\nPodcasters use it for easy guest links. See the official site for plans. Check the official site for current plans.",
+  "use_steps": [
+   "Open the Zencastr website or app and sign in.",
+   "Start with a small sample project to see what Zencastr does.",
+   "Adjust settings and refine the result.",
+   "Review the output and export it for your project."
+  ],
+  "pros": [
+   "Guest-friendly",
+   "Browser based",
+   "Simple"
+  ],
+  "cons": [
+   "Features and limits can change by plan",
+   "Output should be reviewed before publishing"
+  ],
+  "alternatives": [
+   "riverside",
+   "podcastle",
+   "alitu"
+  ],
+  "tags": [
+   "podcast",
+   "recording",
+   "remote",
+   "guests"
+  ],
+  "features": [
+   "Remote recording",
+   "Separate tracks",
+   "Guest links",
+   "Post-production tools"
+  ],
+  "use_cases": [
+   "Interview shows",
+   "Co-hosted podcasts",
+   "Remote guests"
+  ],
+  "pricing_details": "Zencastr plans, limits and prices change over time. Check the official website for current options.",
+  "faq": [
+   {
+    "q": "What is Zencastr?",
+    "a": "Browser-based podcast recording platform. See the official website for details."
+   },
+   {
+    "q": "Is Zencastr free?",
+    "a": "Pricing for Zencastr can change. Check the official website for current plans and any free option."
+   },
+   {
+    "q": "Who is Zencastr best for?",
+    "a": "Recording guests remotely. Compare it with the alternatives listed to find the right fit."
+   }
+  ],
+  "seo_title": "Zencastr: What It Is and How to Use It",
+  "seo_description": "Learn what Zencastr is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "alitu",
+  "name": "Alitu",
+  "category": "audio",
+  "website_url": "https://alitu.com",
+  "pricing": "Unknown",
+  "tagline": "Podcast maker for beginners.",
+  "best_for": "New podcasters wanting an easy workflow",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Alitu helps new podcasters record, clean up and publish episodes.\n\nBeginners use it to avoid separate tools. Check plans on the official site. Check the official site for current plans.",
+  "use_steps": [
+   "Open the Alitu website or app and sign in.",
+   "Start with a small sample project to see what Alitu does.",
+   "Adjust settings and refine the result.",
+   "Review the output and export it for your project."
+  ],
+  "pros": [
+   "Beginner friendly",
+   "All-in-one",
+   "Simple"
+  ],
+  "cons": [
+   "Features and limits can change by plan",
+   "Output should be reviewed before publishing"
+  ],
+  "alternatives": [
+   "zencastr",
+   "podcastle",
+   "descript"
+  ],
+  "tags": [
+   "podcast",
+   "beginner",
+   "editing",
+   "publishing"
+  ],
+  "features": [
+   "Recording",
+   "Automatic clean-up",
+   "Publishing",
+   "Hosting links"
+  ],
+  "use_cases": [
+   "First podcast",
+   "Solo shows",
+   "Quick publishing"
+  ],
+  "pricing_details": "Alitu plans, limits and prices change over time. Check the official website for current options.",
+  "faq": [
+   {
+    "q": "What is Alitu?",
+    "a": "Podcast maker for beginners. See the official website for details."
+   },
+   {
+    "q": "Is Alitu free?",
+    "a": "Pricing for Alitu can change. Check the official website for current plans and any free option."
+   },
+   {
+    "q": "Who is Alitu best for?",
+    "a": "New podcasters wanting an easy workflow. Compare it with the alternatives listed to find the right fit."
+   }
+  ],
+  "seo_title": "Alitu: What It Is and How to Use It",
+  "seo_description": "Learn what Alitu is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "moises",
+  "name": "Moises",
+  "category": "audio",
+  "website_url": "https://moises.ai",
+  "pricing": "Unknown",
+  "tagline": "Separate vocals and instruments from songs.",
+  "best_for": "Musicians practising with stems",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "Moises splits songs into stems like vocals, drums and bass and offers practice tools.\n\nMusicians and teachers use it for learning. Respect copyright when using songs. See the official site. Check the official site for current plans.",
+  "use_steps": [
+   "Open the Moises website or app and sign in.",
+   "Start with a small sample project to see what Moises does.",
+   "Adjust settings and refine the result.",
+   "Review the output and export it for your project."
+  ],
+  "pros": [
+   "Practice features",
+   "Mobile access",
+   "Stem splitting"
+  ],
+  "cons": [
+   "Features and limits can change by plan",
+   "Output should be reviewed before publishing"
+  ],
+  "alternatives": [
+   "lalal-ai",
+   "splice",
+   "bandlab"
+  ],
+  "tags": [
+   "stems",
+   "music",
+   "practice",
+   "vocals"
+  ],
+  "features": [
+   "Stem separation",
+   "Tempo and key changes",
+   "Practice tools",
+   "Mobile app"
+  ],
+  "use_cases": [
+   "Practice along",
+   "Remix prep",
+   "Transcription"
+  ],
+  "pricing_details": "Moises plans, limits and prices change over time. Check the official website for current options.",
+  "faq": [
+   {
+    "q": "What is Moises?",
+    "a": "Separate vocals and instruments from songs. See the official website for details."
+   },
+   {
+    "q": "Is Moises free?",
+    "a": "Pricing for Moises can change. Check the official website for current plans and any free option."
+   },
+   {
+    "q": "Who is Moises best for?",
+    "a": "Musicians practising with stems. Compare it with the alternatives listed to find the right fit."
+   }
+  ],
+  "seo_title": "Moises: What It Is and How to Use It",
+  "seo_description": "Learn what Moises is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "splice",
+  "name": "Splice",
+  "category": "audio",
+  "website_url": "https://splice.com",
+  "pricing": "Unknown",
+  "tagline": "Sample library and tools for producers.",
+  "best_for": "Finding samples and loops",
+  "platforms": [
+   "Windows",
+   "macOS"
+  ],
+  "description": "Splice offers a sample library and project tools for music producers.\n\nProducers use it to find sounds. Check the plans on the official site. Check the official site for current plans.",
+  "use_steps": [
+   "Open the Splice website or app and sign in.",
+   "Start with a small sample project to see what Splice does.",
+   "Adjust settings and refine the result.",
+   "Review the output and export it for your project."
+  ],
+  "pros": [
+   "Large library",
+   "Producer focus",
+   "DAW friendly"
+  ],
+  "cons": [
+   "Features and limits can change by plan",
+   "Output should be reviewed before publishing"
+  ],
+  "alternatives": [
+   "landr",
+   "bandlab",
+   "moises"
+  ],
+  "tags": [
+   "samples",
+   "producer",
+   "loops",
+   "music"
+  ],
+  "features": [
+   "Sample library",
+   "Project backup",
+   "Search tools",
+   "DAW integration"
+  ],
+  "use_cases": [
+   "Beat making",
+   "Sound sourcing",
+   "Collaboration"
+  ],
+  "pricing_details": "Splice plans, limits and prices change over time. Check the official website for current options.",
+  "faq": [
+   {
+    "q": "What is Splice?",
+    "a": "Sample library and tools for producers. See the official website for details."
+   },
+   {
+    "q": "Is Splice free?",
+    "a": "Pricing for Splice can change. Check the official website for current plans and any free option."
+   },
+   {
+    "q": "Who is Splice best for?",
+    "a": "Finding samples and loops. Compare it with the alternatives listed to find the right fit."
+   }
+  ],
+  "seo_title": "Splice: What It Is and How to Use It",
+  "seo_description": "Learn what Splice is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "bandlab",
+  "name": "BandLab",
+  "category": "audio",
+  "website_url": "https://www.bandlab.com",
+  "pricing": "Unknown",
+  "tagline": "Online music creation studio.",
+  "best_for": "Making music in a browser or phone",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "BandLab is a social music-making platform with an online studio for recording and mixing.\n\nBeginners use it to make songs. Check features on the official site. Check the official site for current plans.",
+  "use_steps": [
+   "Open the BandLab website or app and sign in.",
+   "Start with a small sample project to see what BandLab does.",
+   "Adjust settings and refine the result.",
+   "Review the output and export it for your project."
+  ],
+  "pros": [
+   "Accessible",
+   "Cross-device",
+   "Social features"
+  ],
+  "cons": [
+   "Features and limits can change by plan",
+   "Output should be reviewed before publishing"
+  ],
+  "alternatives": [
+   "splice",
+   "landr",
+   "garageband"
+  ],
+  "tags": [
+   "music",
+   "daw",
+   "recording",
+   "collaboration"
+  ],
+  "features": [
+   "Online studio",
+   "Recording",
+   "Loops",
+   "Collaboration"
+  ],
+  "use_cases": [
+   "Song demos",
+   "Collaboration",
+   "Learning to produce"
+  ],
+  "pricing_details": "BandLab plans, limits and prices change over time. Check the official website for current options.",
+  "faq": [
+   {
+    "q": "What is BandLab?",
+    "a": "Online music creation studio. See the official website for details."
+   },
+   {
+    "q": "Is BandLab free?",
+    "a": "Pricing for BandLab can change. Check the official website for current plans and any free option."
+   },
+   {
+    "q": "Who is BandLab best for?",
+    "a": "Making music in a browser or phone. Compare it with the alternatives listed to find the right fit."
+   }
+  ],
+  "seo_title": "BandLab: What It Is and How to Use It",
+  "seo_description": "Learn what BandLab is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "adobe-audition",
+  "name": "Adobe Audition",
+  "category": "audio",
+  "website_url": "https://www.adobe.com/products/audition.html",
+  "pricing": "Paid",
+  "tagline": "Audio editing and mixing from Adobe.",
+  "best_for": "Editing spoken word and mixes",
+  "platforms": [
+   "Windows",
+   "macOS"
+  ],
+  "description": "Adobe Audition is a digital audio workstation for recording, editing and restoring audio.\n\nPodcasters and video editors use it. Check subscription plans on the official site. Check the official site for current plans.",
+  "use_steps": [
+   "Open the Adobe Audition website or app and sign in.",
+   "Start with a small sample project to see what Adobe Audition does.",
+   "Adjust settings and refine the result.",
+   "Review the output and export it for your project."
+  ],
+  "pros": [
+   "Professional features",
+   "Adobe integration",
+   "Restoration tools"
+  ],
+  "cons": [
+   "Features and limits can change by plan",
+   "Output should be reviewed before publishing"
+  ],
+  "alternatives": [
+   "audacity",
+   "izotope",
+   "reaper"
+  ],
+  "tags": [
+   "audio",
+   "editor",
+   "daw",
+   "adobe"
+  ],
+  "features": [
+   "Multitrack editing",
+   "Noise reduction",
+   "Restoration",
+   "Mixing"
+  ],
+  "use_cases": [
+   "Podcast editing",
+   "Video audio",
+   "Restoration"
+  ],
+  "pricing_details": "Adobe Audition plans, limits and prices change over time. Check the official website for current options.",
+  "faq": [
+   {
+    "q": "What is Adobe Audition?",
+    "a": "Audio editing and mixing from Adobe. See the official website for details."
+   },
+   {
+    "q": "Is Adobe Audition free?",
+    "a": "Pricing for Adobe Audition can change. Check the official website for current plans and any free option."
+   },
+   {
+    "q": "Who is Adobe Audition best for?",
+    "a": "Editing spoken word and mixes. Compare it with the alternatives listed to find the right fit."
+   }
+  ],
+  "seo_title": "Adobe Audition: What It Is and How to Use It",
+  "seo_description": "Learn what Adobe Audition is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "ardour",
+  "name": "Ardour",
+  "category": "audio",
+  "website_url": "https://ardour.org",
+  "pricing": "Open source",
+  "tagline": "Open-source digital audio workstation.",
+  "best_for": "Recording and mixing without subscription",
+  "platforms": [
+   "Windows",
+   "macOS",
+   "Linux"
+  ],
+  "description": "Ardour is an open-source DAW for recording, editing and mixing.\n\nMusicians and engineers use it. Check installation options on the official site. Check the official site for current plans.",
+  "use_steps": [
+   "Open the Ardour website or app and sign in.",
+   "Start with a small sample project to see what Ardour does.",
+   "Adjust settings and refine the result.",
+   "Review the output and export it for your project."
+  ],
+  "pros": [
+   "Open source",
+   "Full DAW",
+   "Cross-platform"
+  ],
+  "cons": [
+   "Features and limits can change by plan",
+   "Output should be reviewed before publishing"
+  ],
+  "alternatives": [
+   "audacity",
+   "reaper",
+   "lmms"
+  ],
+  "tags": [
+   "daw",
+   "open-source",
+   "recording",
+   "mixing"
+  ],
+  "features": [
+   "Multitrack recording",
+   "Mixing",
+   "Plug-in support",
+   "Editing"
+  ],
+  "use_cases": [
+   "Band recording",
+   "Mixing",
+   "Audio editing"
+  ],
+  "pricing_details": "Ardour plans, limits and prices change over time. Check the official website for current options.",
+  "faq": [
+   {
+    "q": "What is Ardour?",
+    "a": "Open-source digital audio workstation. See the official website for details."
+   },
+   {
+    "q": "Is Ardour free?",
+    "a": "Pricing for Ardour can change. Check the official website for current plans and any free option."
+   },
+   {
+    "q": "Who is Ardour best for?",
+    "a": "Recording and mixing without subscription. Compare it with the alternatives listed to find the right fit."
+   }
+  ],
+  "seo_title": "Ardour: What It Is and How to Use It",
+  "seo_description": "Learn what Ardour is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "lmms",
+  "name": "LMMS",
+  "category": "audio",
+  "website_url": "https://lmms.io",
+  "pricing": "Open source",
+  "tagline": "Free music production software.",
+  "best_for": "Making beats and songs for free",
+  "platforms": [
+   "Windows",
+   "macOS",
+   "Linux"
+  ],
+  "description": "LMMS is open-source music production software with a beat editor and synths.\n\nBeginners and hobbyists use it for beats. See the official site. Check the official site for current plans.",
+  "use_steps": [
+   "Open the LMMS website or app and sign in.",
+   "Start with a small sample project to see what LMMS does.",
+   "Adjust settings and refine the result.",
+   "Review the output and export it for your project."
+  ],
+  "pros": [
+   "Free software",
+   "Beginner friendly",
+   "Cross-platform"
+  ],
+  "cons": [
+   "Features and limits can change by plan",
+   "Output should be reviewed before publishing"
+  ],
+  "alternatives": [
+   "ardour",
+   "bandlab",
+   "garageband"
+  ],
+  "tags": [
+   "music",
+   "open-source",
+   "beats",
+   "daw"
+  ],
+  "features": [
+   "Beat editor",
+   "Synthesisers",
+   "Piano roll",
+   "Plug-in support"
+  ],
+  "use_cases": [
+   "Beat making",
+   "Learning production",
+   "Chiptune"
+  ],
+  "pricing_details": "LMMS plans, limits and prices change over time. Check the official website for current options.",
+  "faq": [
+   {
+    "q": "What is LMMS?",
+    "a": "Free music production software. See the official website for details."
+   },
+   {
+    "q": "Is LMMS free?",
+    "a": "Pricing for LMMS can change. Check the official website for current plans and any free option."
+   },
+   {
+    "q": "Who is LMMS best for?",
+    "a": "Making beats and songs for free. Compare it with the alternatives listed to find the right fit."
+   }
+  ],
+  "seo_title": "LMMS: What It Is and How to Use It",
+  "seo_description": "Learn what LMMS is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "musescore",
+  "name": "MuseScore",
+  "category": "audio",
+  "website_url": "https://musescore.org",
+  "pricing": "Open source",
+  "tagline": "Free music notation software.",
+  "best_for": "Writing and playing back sheet music",
+  "platforms": [
+   "Windows",
+   "macOS",
+   "Linux"
+  ],
+  "description": "MuseScore is open-source notation software for writing sheet music with playback.\n\nStudents and teachers use it. See the official site. Check the official site for current plans.",
+  "use_steps": [
+   "Open the MuseScore website or app and sign in.",
+   "Start with a small sample project to see what MuseScore does.",
+   "Adjust settings and refine the result.",
+   "Review the output and export it for your project."
+  ],
+  "pros": [
+   "Free",
+   "Notation focus",
+   "Playback"
+  ],
+  "cons": [
+   "Features and limits can change by plan",
+   "Output should be reviewed before publishing"
+  ],
+  "alternatives": [
+   "lmms",
+   "ardour",
+   "bandlab"
+  ],
+  "tags": [
+   "notation",
+   "music",
+   "scores",
+   "open-source"
+  ],
+  "features": [
+   "Notation",
+   "Playback",
+   "Export",
+   "Sharing"
+  ],
+  "use_cases": [
+   "Score writing",
+   "Teaching",
+   "Arranging"
+  ],
+  "pricing_details": "MuseScore plans, limits and prices change over time. Check the official website for current options.",
+  "faq": [
+   {
+    "q": "What is MuseScore?",
+    "a": "Free music notation software. See the official website for details."
+   },
+   {
+    "q": "Is MuseScore free?",
+    "a": "Pricing for MuseScore can change. Check the official website for current plans and any free option."
+   },
+   {
+    "q": "Who is MuseScore best for?",
+    "a": "Writing and playing back sheet music. Compare it with the alternatives listed to find the right fit."
+   }
+  ],
+  "seo_title": "MuseScore: What It Is and How to Use It",
+  "seo_description": "Learn what MuseScore is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "reaper",
+  "name": "REAPER",
+  "category": "audio",
+  "website_url": "https://www.reaper.fm",
+  "pricing": "Free trial",
+  "tagline": "Compact digital audio workstation.",
+  "best_for": "Flexible recording and mixing",
+  "platforms": [
+   "Windows",
+   "macOS",
+   "Linux"
+  ],
+  "description": "REAPER is a DAW known for flexibility and customisation.\n\nMusicians and podcasters use it. Check licensing on the official site. Check the official site for current plans.",
+  "use_steps": [
+   "Open the REAPER website or app and sign in.",
+   "Start with a small sample project to see what REAPER does.",
+   "Adjust settings and refine the result.",
+   "Review the output and export it for your project."
+  ],
+  "pros": [
+   "Flexible",
+   "Lightweight",
+   "Customisable"
+  ],
+  "cons": [
+   "Features and limits can change by plan",
+   "Output should be reviewed before publishing"
+  ],
+  "alternatives": [
+   "ardour",
+   "audacity",
+   "adobe-audition"
+  ],
+  "tags": [
+   "daw",
+   "recording",
+   "mixing",
+   "customisable"
+  ],
+  "features": [
+   "Multitrack",
+   "Plug-ins",
+   "Scripting",
+   "Customisation"
+  ],
+  "use_cases": [
+   "Music recording",
+   "Podcast editing",
+   "Mixing"
+  ],
+  "pricing_details": "REAPER plans, limits and prices change over time. Check the official website for current options.",
+  "faq": [
+   {
+    "q": "What is REAPER?",
+    "a": "Compact digital audio workstation. See the official website for details."
+   },
+   {
+    "q": "Is REAPER free?",
+    "a": "Pricing for REAPER can change. Check the official website for current plans and any free option."
+   },
+   {
+    "q": "Who is REAPER best for?",
+    "a": "Flexible recording and mixing. Compare it with the alternatives listed to find the right fit."
+   }
+  ],
+  "seo_title": "REAPER: What It Is and How to Use It",
+  "seo_description": "Learn what REAPER is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "garageband",
+  "name": "GarageBand",
+  "category": "audio",
+  "website_url": "https://www.apple.com/mac/garageband/",
+  "pricing": "Unknown",
+  "tagline": "Apple's music creation app.",
+  "best_for": "Beginners on Apple devices",
+  "platforms": [
+   "macOS",
+   "iOS"
+  ],
+  "description": "GarageBand is Apple's music creation app with instruments and loops.\n\nBeginners use it to learn. Check availability on Apple's site. Check the official site for current plans.",
+  "use_steps": [
+   "Open the GarageBand website or app and sign in.",
+   "Start with a small sample project to see what GarageBand does.",
+   "Adjust settings and refine the result.",
+   "Review the output and export it for your project."
+  ],
+  "pros": [
+   "Easy to learn",
+   "Apple devices",
+   "Instruments included"
+  ],
+  "cons": [
+   "Features and limits can change by plan",
+   "Output should be reviewed before publishing"
+  ],
+  "alternatives": [
+   "bandlab",
+   "lmms",
+   "reaper"
+  ],
+  "tags": [
+   "music",
+   "apple",
+   "daw",
+   "beginner"
+  ],
+  "features": [
+   "Virtual instruments",
+   "Loops",
+   "Recording",
+   "Mixing"
+  ],
+  "use_cases": [
+   "Song demos",
+   "Podcasts",
+   "Learning music"
+  ],
+  "pricing_details": "GarageBand plans, limits and prices change over time. Check the official website for current options.",
+  "faq": [
+   {
+    "q": "What is GarageBand?",
+    "a": "Apple's music creation app. See the official website for details."
+   },
+   {
+    "q": "Is GarageBand free?",
+    "a": "Pricing for GarageBand can change. Check the official website for current plans and any free option."
+   },
+   {
+    "q": "Who is GarageBand best for?",
+    "a": "Beginners on Apple devices. Compare it with the alternatives listed to find the right fit."
+   }
+  ],
+  "seo_title": "GarageBand: What It Is and How to Use It",
+  "seo_description": "Learn what GarageBand is, who it suits, key features, pros and cons and alternatives in this Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ }
+]

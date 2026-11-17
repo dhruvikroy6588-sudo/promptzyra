@@ -1,0 +1,224 @@
+[
+ {
+  "slug": "pictory",
+  "name": "Pictory",
+  "category": "video",
+  "website_url": "https://pictory.ai",
+  "pricing": "Free trial",
+  "tagline": "Turns scripts and articles into videos with stock visuals, music and AI voice-overs.",
+  "best_for": "Creating short explainer or social videos from existing text",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Pictory is an online video tool that converts written content, such as a script or a blog article, into a finished video. It matches sentences to clips from a licensed library of visuals, adds music and can narrate the text with an AI voice-over.\n\nIt suits marketers, educators and bloggers who already have written material and want a quick video version without editing footage by hand. You can adjust scenes, swap visuals and edit captions in the browser after the first draft is generated. A free trial has been offered with a limited number of projects, and paid plans are billed by tier. Plans, limits and features change, so check the official site for current plans.",
+  "use_steps": [
+   "Create an account and start a project from a script or article link.",
+   "Review the scenes the tool generates from your text.",
+   "Swap visuals, edit captions and choose music and a voice.",
+   "Render the video and download or share it."
+  ],
+  "pros": [
+   "Starts from text you already have",
+   "Browser-based, no install",
+   "Stock visuals and music included",
+   "Captions and voice-over in one place"
+  ],
+  "cons": [
+   "Stock-based visuals can look generic",
+   "Free trial is limited to a few projects"
+  ],
+  "alternatives": [
+   "fliki",
+   "invideo-ai",
+   "veed"
+  ],
+  "tags": [
+   "text to video",
+   "explainer",
+   "script",
+   "voice-over",
+   "social video"
+  ],
+  "features": [
+   "Script-to-video conversion",
+   "Article-to-video conversion",
+   "Licensed visual and music library",
+   "AI voice-overs",
+   "Caption editing"
+  ],
+  "use_cases": [
+   "Turning a blog post into a short video",
+   "Making social clips from a script",
+   "Creating simple training explainers",
+   "Repurposing written updates as video"
+  ],
+  "pricing_details": "Pictory has offered a free trial of a few projects, followed by paid plans billed monthly or annually in tiers such as Starter, Professional and Teams. Prices and limits change, so check the official website for current plans.",
+  "faq": [
+   {
+    "q": "What is Pictory?",
+    "a": "Pictory is an online tool that turns scripts or articles into videos using stock visuals, music and AI voice-overs."
+   },
+   {
+    "q": "Is Pictory free to use?",
+    "a": "Pictory has offered a free trial with a limited number of projects, with paid plans after that. Confirm current terms on the official site."
+   },
+   {
+    "q": "How should I check results from Pictory?",
+    "a": "Treat outputs as a first draft. Review the video, voice and on-screen text yourself, confirm you have the rights to any uploaded material, and check licensing and privacy terms on the official website."
+   }
+  ],
+  "seo_title": "Pictory: What It Is and How to Use It",
+  "seo_description": "Learn what Pictory is, who it suits, key features, pros and cons, pricing model and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "fliki",
+  "name": "Fliki",
+  "category": "video",
+  "website_url": "https://fliki.ai",
+  "pricing": "Freemium",
+  "tagline": "Text-to-video and AI voice tool for narrated videos from scripts and blog posts.",
+  "best_for": "Narrated videos with realistic AI voices in many languages",
+  "platforms": [
+   "Web",
+   "iOS"
+  ],
+  "description": "Fliki generates videos from text, scripts and blog posts, pairing visuals with AI voice-overs and subtitles. Its library includes a large set of AI voices across many languages, with voice cloning, plus AI avatars and translation or dubbing options.\n\nThe tool fits creators who care about narration quality, such as people making explainers, language content or short social videos for platforms like YouTube, Instagram and TikTok. You can edit scenes and text in the browser, and there is an iOS app as well. A free tier has been available without a credit card, while paid plans add commercial rights and more usage. Features and limits change, so check the official site for current plans.",
+  "use_steps": [
+   "Sign up and paste a script, idea or blog URL.",
+   "Pick a voice, language and visual style.",
+   "Edit scenes, text and subtitles in the editor.",
+   "Export the video or publish it to social platforms."
+  ],
+  "pros": [
+   "Large choice of AI voices and languages",
+   "Voice cloning and dubbing options",
+   "Free tier to test",
+   "Web and iOS access"
+  ],
+  "cons": [
+   "Commercial use depends on the paid plan",
+   "Generated visuals may need manual swapping"
+  ],
+  "alternatives": [
+   "pictory",
+   "invideo-ai",
+   "synthesia"
+  ],
+  "tags": [
+   "text to video",
+   "AI voice",
+   "dubbing",
+   "avatars",
+   "social video"
+  ],
+  "features": [
+   "Text and blog-to-video",
+   "AI voices in many languages",
+   "Voice cloning",
+   "AI avatars",
+   "Translation and dubbing"
+  ],
+  "use_cases": [
+   "Narrated explainers from scripts",
+   "Turning blog posts into videos",
+   "Multilingual versions of a video",
+   "Short clips for social channels"
+  ],
+  "pricing_details": "Fliki has offered a free tier with no credit card, plus paid plans that include commercial rights and higher usage. Plan details change, so check the official website for current plans.",
+  "faq": [
+   {
+    "q": "What is Fliki?",
+    "a": "Fliki is an AI video and voice tool that turns text, scripts and articles into narrated videos."
+   },
+   {
+    "q": "Is Fliki free to use?",
+    "a": "Fliki has offered a free tier, with paid plans for commercial rights and more usage. Check the official site for what is included now."
+   },
+   {
+    "q": "How should I check results from Fliki?",
+    "a": "Treat outputs as a first draft. Review the video, voice and on-screen text yourself, confirm you have the rights to any uploaded material, and check licensing and privacy terms on the official website."
+   }
+  ],
+  "seo_title": "Fliki: What It Is and How to Use It",
+  "seo_description": "Learn what Fliki is, who it suits, key features, pros and cons, pricing model and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "d-id",
+  "name": "D-ID",
+  "category": "video",
+  "website_url": "https://www.d-id.com",
+  "pricing": "Free trial",
+  "tagline": "Creative Reality Studio for making talking-avatar videos from photos and text.",
+  "best_for": "Talking presenter videos from a photo or preset avatar",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "D-ID offers Creative Reality Studio, a self-service platform for making videos with animated talking avatars. You can start from preset avatars, an uploaded photo or an image generated from text, then supply a script and let the tool produce lip-synced speech.\n\nIt supports many languages, voice cloning, AI script writing and a video translation feature that keeps lip sync across languages. Businesses use this style of tool for training, onboarding and marketing clips, and individuals use it for simple presenter videos. Some editing features, such as layers and expressions, have been limited in the mobile app. Credits generally cover a short length of video each. Plans change, so check the official site for current plans.",
+  "use_steps": [
+   "Open the studio and pick a preset avatar or upload a photo.",
+   "Type or generate a script and choose a voice and language.",
+   "Adjust layers or expressions where available.",
+   "Generate the video and download it."
+  ],
+  "pros": [
+   "Works from a single photo",
+   "Many languages and voice cloning",
+   "Video translation with lip sync",
+   "Web and mobile access"
+  ],
+  "cons": [
+   "Credit-based usage can run out quickly",
+   "Some editing features are limited on mobile"
+  ],
+  "alternatives": [
+   "synthesia",
+   "heygen",
+   "fliki"
+  ],
+  "tags": [
+   "avatar",
+   "talking head",
+   "lip sync",
+   "translation",
+   "presenter"
+  ],
+  "features": [
+   "Photo-to-talking-avatar videos",
+   "AI script writing",
+   "Voice cloning",
+   "Video translation",
+   "Preset avatars"
+  ],
+  "use_cases": [
+   "Training and onboarding clips",
+   "Presenter-style marketing videos",
+   "Translating a video into other languages",
+   "Explainers without filming"
+  ],
+  "pricing_details": "D-ID has listed a trial plus paid tiers such as Lite, Pro and Advanced, and an Enterprise option, with credits covering short video lengths. Check the official website for current plans.",
+  "faq": [
+   {
+    "q": "What is D-ID?",
+    "a": "D-ID provides Creative Reality Studio, a platform for creating videos with talking AI avatars from photos or presets."
+   },
+   {
+    "q": "Is D-ID free to use?",
+    "a": "D-ID has offered a trial with paid plans after it. Confirm current terms on the official site."
+   },
+   {
+    "q": "How should I check results from D-ID?",
+    "a": "Treat outputs as a first draft. Review the video, voice and on-screen text yourself, confirm you have the rights to any uploaded material, and check licensing and privacy terms on the official website."
+   }
+  ],
+  "seo_title": "D-ID: What It Is and How to Use It",
+  "seo_description": "Learn what D-ID is, who it suits, key features, pros and cons, pricing model and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ }
+]

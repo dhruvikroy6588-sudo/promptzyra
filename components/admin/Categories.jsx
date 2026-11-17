@@ -2,7 +2,7 @@
 import { useCallback, useEffect, useState } from 'react';
 import { slugify } from '@/lib/site';
 import { Loading, ErrorBanner } from './ui';
-const KINDS = [['prompt', 'Prompt categories'], ['tool', 'AI tool categories'], ['blog', 'Blog categories'], ['photo', 'Photo categories']];
+const KINDS = [['prompt', 'Prompt categories'], ['tool', 'AI tool categories'], ['blog', 'Blog categories'], ['skill', 'Skill categories']]; // photo category is fixed (ai-photo-trends), so no photo switcher
 export default function Categories({ sb, notify, onChange }) {
   const [kind, setKind] = useState('prompt'); const [rows, setRows] = useState([]); const [f, setF] = useState(null); const [loading, setLoading] = useState(true); const [err, setErr] = useState('');
   const load = useCallback(async () => { setLoading(true); setErr(''); const { data, error } = await sb.from('pz_categories').select('*').eq('kind', kind).order('sort_order').order('name'); if (error) setErr(error.message); else setRows(data || []); setLoading(false); }, [sb, kind]);
@@ -14,7 +14,7 @@ export default function Categories({ sb, notify, onChange }) {
     if (error) return notify(error.message, true); notify('Saved'); setF(null); load(); onChange?.();
   };
   const del = async (r) => {
-    const tbl = kind === 'prompt' ? 'pz_prompts' : kind === 'tool' ? 'pz_tools' : kind === 'photo' ? 'pz_photo_prompts' : null;
+    const tbl = kind === 'prompt' ? 'pz_prompts' : kind === 'tool' ? 'pz_tools' : kind === 'photo' ? 'pz_photo_prompts' : kind === 'skill' ? 'pz_skills' : null;
     if (tbl) { const { count } = await sb.from(tbl).select('id', { count: 'exact', head: true }).eq('category', r.slug); if (count) return notify(`${count} items still use this category. Move them first.`, true); }
     if (!confirm(`Delete category “${r.name}”?`)) return; const { error } = await sb.from('pz_categories').delete().eq('id', r.id); if (error) return notify(error.message, true); load(); onChange?.();
   };

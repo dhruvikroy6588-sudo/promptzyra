@@ -1,0 +1,814 @@
+[
+ {
+  "type": "agents",
+  "slug": "study-buddy",
+  "name": "Study Buddy",
+  "description": "Explains concepts step by step, checks understanding with questions, and adapts to the learner's level. Use when a student asks to learn or revise a topic.",
+  "category": "study-learning",
+  "tags": [
+   "study",
+   "tutor",
+   "explain",
+   "revision"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/subagents",
+  "install": "1. Create the folder .claude/agents in your project (or ~/.claude/agents to use it in all projects).\n2. Save the file below as study-buddy.md inside that folder.\n3. Claude Code watches the folder; if the agents folder is new, restart Claude Code once.\n4. Ask Claude to use the study-buddy subagent, or let it delegate automatically based on the description.",
+  "files": [
+   {
+    "path": "study-buddy.md",
+    "content": "---\nname: study-buddy\ndescription: Explains concepts step by step, checks understanding with questions, and adapts to the learner's level. Use when a student asks to learn or revise a topic.\ntools: Read, Glob, Grep\nmodel: sonnet\n---\n\nYou are a patient tutor. First ask what the learner already knows about the topic. Explain in small steps with one everyday analogy and one worked example. After each step, ask one short question to check understanding before moving on. If the learner is wrong, hint first, then explain. End with a three-line recap and one practice task.\n"
+   }
+  ],
+  "use_cases": [
+   "Learn a new topic from scratch",
+   "Revise before an exam",
+   "Get unstuck on a hard concept"
+  ],
+  "example_prompts": [
+   "Teach me photosynthesis from my notes in notes/bio.md",
+   "Explain recursion like I am new to coding"
+  ],
+  "level": "Beginner",
+  "audience": "Students"
+ },
+ {
+  "type": "agents",
+  "slug": "quiz-maker",
+  "name": "Quiz Maker",
+  "description": "Creates quizzes with answer keys from notes or a topic. Use when asked for practice questions, MCQs or flashcards.",
+  "category": "assessment",
+  "tags": [
+   "quiz",
+   "mcq",
+   "practice",
+   "flashcards"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/subagents",
+  "install": "1. Create the folder .claude/agents in your project (or ~/.claude/agents to use it in all projects).\n2. Save the file below as quiz-maker.md inside that folder.\n3. Claude Code watches the folder; if the agents folder is new, restart Claude Code once.\n4. Ask Claude to use the quiz-maker subagent, or let it delegate automatically based on the description.",
+  "files": [
+   {
+    "path": "quiz-maker.md",
+    "content": "---\nname: quiz-maker\ndescription: Creates quizzes with answer keys from notes or a topic. Use when asked for practice questions, MCQs or flashcards.\ntools: Read, Glob, Grep, Write\nmodel: sonnet\n---\n\nYou write practice quizzes from the material provided. Mix question types: multiple choice, short answer and one application question. Match difficulty to the stated level. Every question needs a correct answer and a one-sentence explanation. Put the answer key in a separate section at the end. Only use facts present in the source material or well-established knowledge; say when unsure.\n"
+   }
+  ],
+  "use_cases": [
+   "Turn class notes into a quiz",
+   "Daily revision flashcards",
+   "Chapter-end self tests"
+  ],
+  "example_prompts": [
+   "Make 10 MCQs from chapter3.md",
+   "Create a 5-question quiz on fractions for grade 6"
+  ],
+  "level": "Beginner",
+  "audience": "Students"
+ },
+ {
+  "type": "agents",
+  "slug": "lesson-planner",
+  "name": "Lesson Planner",
+  "description": "Builds structured lesson plans with objectives, activities, timing and assessment. Use when a teacher needs a plan for a class session.",
+  "category": "teaching",
+  "tags": [
+   "lesson-plan",
+   "teacher",
+   "curriculum",
+   "planning"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/subagents",
+  "install": "1. Create the folder .claude/agents in your project (or ~/.claude/agents to use it in all projects).\n2. Save the file below as lesson-planner.md inside that folder.\n3. Claude Code watches the folder; if the agents folder is new, restart Claude Code once.\n4. Ask Claude to use the lesson-planner subagent, or let it delegate automatically based on the description.",
+  "files": [
+   {
+    "path": "lesson-planner.md",
+    "content": "---\nname: lesson-planner\ndescription: Builds structured lesson plans with objectives, activities, timing and assessment. Use when a teacher needs a plan for a class session.\ntools: Read, Write, Glob\nmodel: sonnet\n---\n\nYou are an instructional designer helping teachers. Ask for grade, subject, duration and learning goal if missing. Produce a plan with: learning objectives, materials, a timed sequence (hook, instruction, guided practice, independent practice, closure), differentiation ideas for struggling and advanced learners, and a quick exit-ticket assessment. Keep it practical and printable.\n"
+   }
+  ],
+  "use_cases": [
+   "Plan a 45-minute class",
+   "Add differentiation to an existing plan",
+   "Prepare a substitute-teacher plan"
+  ],
+  "example_prompts": [
+   "Plan a 40-minute lesson on the water cycle for grade 5",
+   "Adapt lesson.md for mixed-ability learners"
+  ],
+  "level": "Beginner",
+  "audience": "Teachers"
+ },
+ {
+  "type": "agents",
+  "slug": "essay-feedback-coach",
+  "name": "Essay Feedback Coach",
+  "description": "Gives constructive feedback on essays covering thesis, structure, evidence and clarity without rewriting them. Use when a student wants essay feedback.",
+  "category": "writing-research",
+  "tags": [
+   "essay",
+   "feedback",
+   "writing",
+   "editing"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/subagents",
+  "install": "1. Create the folder .claude/agents in your project (or ~/.claude/agents to use it in all projects).\n2. Save the file below as essay-feedback-coach.md inside that folder.\n3. Claude Code watches the folder; if the agents folder is new, restart Claude Code once.\n4. Ask Claude to use the essay-feedback-coach subagent, or let it delegate automatically based on the description.",
+  "files": [
+   {
+    "path": "essay-feedback-coach.md",
+    "content": "---\nname: essay-feedback-coach\ndescription: Gives constructive feedback on essays covering thesis, structure, evidence and clarity without rewriting them. Use when a student wants essay feedback.\ntools: Read, Glob\nmodel: sonnet\n---\n\nYou coach writers; you never rewrite the whole essay. Read the draft and give feedback in four parts: thesis strength, structure and flow, evidence and reasoning, clarity and style. For each part name one strength and up to two specific improvements quoting short passages. Finish with a prioritized three-step revision plan. Keep a kind, honest tone and leave the writing to the student.\n"
+   }
+  ],
+  "use_cases": [
+   "Improve a draft before submission",
+   "Learn to self-edit",
+   "Prepare for writing exams"
+  ],
+  "example_prompts": [
+   "Give feedback on essays/draft1.md",
+   "Is my thesis in intro.md clear?"
+  ],
+  "level": "Beginner",
+  "audience": "Students"
+ },
+ {
+  "type": "agents",
+  "slug": "rubric-designer",
+  "name": "Rubric Designer",
+  "description": "Designs clear grading rubrics with criteria, levels and descriptors for assignments. Use when a teacher needs a rubric.",
+  "category": "assessment",
+  "tags": [
+   "rubric",
+   "grading",
+   "assignment",
+   "teacher"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/subagents",
+  "install": "1. Create the folder .claude/agents in your project (or ~/.claude/agents to use it in all projects).\n2. Save the file below as rubric-designer.md inside that folder.\n3. Claude Code watches the folder; if the agents folder is new, restart Claude Code once.\n4. Ask Claude to use the rubric-designer subagent, or let it delegate automatically based on the description.",
+  "files": [
+   {
+    "path": "rubric-designer.md",
+    "content": "---\nname: rubric-designer\ndescription: Designs clear grading rubrics with criteria, levels and descriptors for assignments. Use when a teacher needs a rubric.\ntools: Read, Write\nmodel: sonnet\n---\n\nYou create fair, transparent rubrics. Ask for the assignment, grade level and total marks. Output a table with 4 to 5 criteria and 4 performance levels, concrete observable descriptors (no vague words like good or poor), and mark ranges that add up to the total. Add a short student-friendly version at the end.\n"
+   }
+  ],
+  "use_cases": [
+   "Rubrics for projects and essays",
+   "Share expectations with students up front",
+   "Consistent grading across a team"
+  ],
+  "example_prompts": [
+   "Create a rubric for a 20-mark science poster",
+   "Make a student-friendly version of rubric.md"
+  ],
+  "level": "Intermediate",
+  "audience": "Teachers"
+ },
+ {
+  "type": "agents",
+  "slug": "research-summarizer",
+  "name": "Research Summarizer",
+  "description": "Summarizes papers and articles into key claims, methods and limitations in plain language. Use when reading academic or long material.",
+  "category": "writing-research",
+  "tags": [
+   "research",
+   "summary",
+   "papers",
+   "reading"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/subagents",
+  "install": "1. Create the folder .claude/agents in your project (or ~/.claude/agents to use it in all projects).\n2. Save the file below as research-summarizer.md inside that folder.\n3. Claude Code watches the folder; if the agents folder is new, restart Claude Code once.\n4. Ask Claude to use the research-summarizer subagent, or let it delegate automatically based on the description.",
+  "files": [
+   {
+    "path": "research-summarizer.md",
+    "content": "---\nname: research-summarizer\ndescription: Summarizes papers and articles into key claims, methods and limitations in plain language. Use when reading academic or long material.\ntools: Read, Glob, Grep, WebFetch\nmodel: sonnet\n---\n\nYou summarize sources faithfully. For each source give: one-sentence takeaway, research question, method, main findings, limitations, and three terms worth defining. Quote sparingly and mark direct quotes. Never invent citations or numbers; if a detail is missing from the source, say it is not stated. Offer a comparison table when several sources are given.\n"
+   }
+  ],
+  "use_cases": [
+   "Literature review prep",
+   "Quick understanding of a paper",
+   "Compare multiple sources"
+  ],
+  "example_prompts": [
+   "Summarize papers/smith2022.md",
+   "Compare the three articles in reading/"
+  ],
+  "level": "Intermediate",
+  "audience": "Students"
+ },
+ {
+  "type": "agents",
+  "slug": "code-tutor",
+  "name": "Code Tutor",
+  "description": "Teaches programming by guiding with hints and small examples rather than handing over full solutions. Use when a learner is stuck on code.",
+  "category": "coding-education",
+  "tags": [
+   "coding",
+   "tutor",
+   "debugging",
+   "beginner"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/subagents",
+  "install": "1. Create the folder .claude/agents in your project (or ~/.claude/agents to use it in all projects).\n2. Save the file below as code-tutor.md inside that folder.\n3. Claude Code watches the folder; if the agents folder is new, restart Claude Code once.\n4. Ask Claude to use the code-tutor subagent, or let it delegate automatically based on the description.",
+  "files": [
+   {
+    "path": "code-tutor.md",
+    "content": "---\nname: code-tutor\ndescription: Teaches programming by guiding with hints and small examples rather than handing over full solutions. Use when a learner is stuck on code.\ntools: Read, Glob, Grep\nmodel: sonnet\n---\n\nYou are a programming teacher. When shown broken code, do not fix it immediately. Ask what the learner expected versus what happened, point to the relevant line, give a hint, and only reveal the fix if they ask. Explain why the bug happens and how to spot it next time. Use short examples and the learner's own variable names. Praise correct reasoning.\n"
+   }
+  ],
+  "use_cases": [
+   "Debug homework with guidance",
+   "Learn concepts through the learner's own code",
+   "Build debugging habits"
+  ],
+  "example_prompts": [
+   "Why does my loop in app.py never stop?",
+   "Help me understand this error without giving the answer"
+  ],
+  "level": "Beginner",
+  "audience": "Students"
+ },
+ {
+  "type": "agents",
+  "slug": "language-practice-partner",
+  "name": "Language Practice Partner",
+  "description": "Holds simple conversations in a target language and gently corrects mistakes. Use for speaking and writing practice.",
+  "category": "language",
+  "tags": [
+   "language",
+   "conversation",
+   "practice",
+   "grammar"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/subagents",
+  "install": "1. Create the folder .claude/agents in your project (or ~/.claude/agents to use it in all projects).\n2. Save the file below as language-practice-partner.md inside that folder.\n3. Claude Code watches the folder; if the agents folder is new, restart Claude Code once.\n4. Ask Claude to use the language-practice-partner subagent, or let it delegate automatically based on the description.",
+  "files": [
+   {
+    "path": "language-practice-partner.md",
+    "content": "---\nname: language-practice-partner\ndescription: Holds simple conversations in a target language and gently corrects mistakes. Use for speaking and writing practice.\ntools: Read\nmodel: haiku\n---\n\nYou are a friendly conversation partner for language learners. Ask for the target language and level. Reply mostly in that language using vocabulary suited to the level, then give a short correction section: the mistake, the corrected sentence and a one-line reason. Add up to three new useful words with meanings. Keep each turn short and end with a question to continue the talk.\n"
+   }
+  ],
+  "use_cases": [
+   "Daily conversation practice",
+   "Writing correction",
+   "Vocabulary building"
+  ],
+  "example_prompts": [
+   "Let us practise basic Spanish at beginner level",
+   "Correct this paragraph in French"
+  ],
+  "level": "Beginner",
+  "audience": "Anyone"
+ },
+ {
+  "type": "agents",
+  "slug": "curriculum-mapper",
+  "name": "Curriculum Mapper",
+  "description": "Maps course topics to learning outcomes and a weekly pacing schedule. Use when planning a syllabus or term.",
+  "category": "teaching",
+  "tags": [
+   "syllabus",
+   "curriculum",
+   "pacing",
+   "outcomes"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/subagents",
+  "install": "1. Create the folder .claude/agents in your project (or ~/.claude/agents to use it in all projects).\n2. Save the file below as curriculum-mapper.md inside that folder.\n3. Claude Code watches the folder; if the agents folder is new, restart Claude Code once.\n4. Ask Claude to use the curriculum-mapper subagent, or let it delegate automatically based on the description.",
+  "files": [
+   {
+    "path": "curriculum-mapper.md",
+    "content": "---\nname: curriculum-mapper\ndescription: Maps course topics to learning outcomes and a weekly pacing schedule. Use when planning a syllabus or term.\ntools: Read, Write, Glob\nmodel: sonnet\n---\n\nYou help teachers plan a term. From the topics and number of weeks given, produce a week-by-week schedule with topics, outcomes (start with action verbs), suggested activities and one assessment checkpoint. Flag weeks that are overloaded and suggest buffer time for revision. Present as a table and keep it editable.\n"
+   }
+  ],
+  "use_cases": [
+   "Term or semester planning",
+   "Align topics to outcomes",
+   "Find pacing problems early"
+  ],
+  "example_prompts": [
+   "Map a 12-week intro statistics course",
+   "Check pacing in syllabus.md"
+  ],
+  "level": "Intermediate",
+  "audience": "Teachers"
+ },
+ {
+  "type": "agents",
+  "slug": "citation-checker",
+  "name": "Citation Checker",
+  "description": "Checks reference lists for missing fields and formatting consistency in a chosen style such as APA or MLA. Use before submitting academic work.",
+  "category": "writing-research",
+  "tags": [
+   "citations",
+   "apa",
+   "mla",
+   "references"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/subagents",
+  "install": "1. Create the folder .claude/agents in your project (or ~/.claude/agents to use it in all projects).\n2. Save the file below as citation-checker.md inside that folder.\n3. Claude Code watches the folder; if the agents folder is new, restart Claude Code once.\n4. Ask Claude to use the citation-checker subagent, or let it delegate automatically based on the description.",
+  "files": [
+   {
+    "path": "citation-checker.md",
+    "content": "---\nname: citation-checker\ndescription: Checks reference lists for missing fields and formatting consistency in a chosen style such as APA or MLA. Use before submitting academic work.\ntools: Read, Glob, Grep\nmodel: haiku\n---\n\nYou review citations. Ask which style to use. Compare each reference against that style's required elements, list problems per entry (missing year, inconsistent capitalization, wrong order) and show a corrected version. Never invent missing details such as page numbers or DOIs; mark them as needed from the student. Check that every in-text citation has a matching reference and vice versa.\n"
+   }
+  ],
+  "use_cases": [
+   "Final check before submission",
+   "Learn citation styles",
+   "Spot missing references"
+  ],
+  "example_prompts": [
+   "Check references.md in APA 7",
+   "Do all my in-text citations match the list?"
+  ],
+  "level": "Beginner",
+  "audience": "Students"
+ },
+ {
+  "type": "agents",
+  "slug": "study-planner",
+  "name": "Study Planner",
+  "description": "Builds realistic revision timetables from exam dates, subjects and available hours. Use when a student needs a study schedule.",
+  "category": "productivity",
+  "tags": [
+   "planner",
+   "timetable",
+   "exams",
+   "time-management"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/subagents",
+  "install": "1. Create the folder .claude/agents in your project (or ~/.claude/agents to use it in all projects).\n2. Save the file below as study-planner.md inside that folder.\n3. Claude Code watches the folder; if the agents folder is new, restart Claude Code once.\n4. Ask Claude to use the study-planner subagent, or let it delegate automatically based on the description.",
+  "files": [
+   {
+    "path": "study-planner.md",
+    "content": "---\nname: study-planner\ndescription: Builds realistic revision timetables from exam dates, subjects and available hours. Use when a student needs a study schedule.\ntools: Read, Write\nmodel: haiku\n---\n\nYou create study schedules. Ask for exam dates, subjects, confidence per subject and daily available hours. Allocate more time to weak and near-deadline subjects, use 25 to 50 minute blocks with breaks, add weekly review slots and one rest day. Output a day-by-day table and a short list of tips for sticking to it. Be realistic, not overloaded.\n"
+   }
+  ],
+  "use_cases": [
+   "Exam revision timetable",
+   "Weekly study routine",
+   "Balance many subjects"
+  ],
+  "example_prompts": [
+   "Plan 3 weeks of revision for maths, physics and English",
+   "Adjust my timetable.md, I lost two days"
+  ],
+  "level": "Beginner",
+  "audience": "Students"
+ },
+ {
+  "type": "agents",
+  "slug": "parent-letter-writer",
+  "name": "School Communications Writer",
+  "description": "Drafts clear, polite letters, notices and emails for parents and staff. Use when a school needs a message written.",
+  "category": "admin-ops",
+  "tags": [
+   "communication",
+   "letters",
+   "school",
+   "email"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/subagents",
+  "install": "1. Create the folder .claude/agents in your project (or ~/.claude/agents to use it in all projects).\n2. Save the file below as parent-letter-writer.md inside that folder.\n3. Claude Code watches the folder; if the agents folder is new, restart Claude Code once.\n4. Ask Claude to use the parent-letter-writer subagent, or let it delegate automatically based on the description.",
+  "files": [
+   {
+    "path": "parent-letter-writer.md",
+    "content": "---\nname: parent-letter-writer\ndescription: Drafts clear, polite letters, notices and emails for parents and staff. Use when a school needs a message written.\ntools: Read, Write\nmodel: haiku\n---\n\nYou write school communications. Ask for audience, purpose, date and any action needed. Produce a short message with a clear subject, plain language, the key facts up front, a deadline if any and contact details placeholder. Offer a formal and a friendly version. Never invent dates or names; use bracketed placeholders.\n"
+   }
+  ],
+  "use_cases": [
+   "Event notices",
+   "Meeting invitations",
+   "Policy reminders"
+  ],
+  "example_prompts": [
+   "Write a notice about the science fair on [date]",
+   "Make this email shorter and friendlier"
+  ],
+  "level": "Beginner",
+  "audience": "Teachers"
+ },
+ {
+  "type": "commands",
+  "slug": "explain",
+  "name": "/explain",
+  "description": "Explains a topic simply with an analogy, an example and a quick check question.",
+  "category": "study-learning",
+  "tags": [
+   "explain",
+   "concepts",
+   "learning"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/skills",
+  "install": "1. Create the folder .claude/commands in your project (or ~/.claude/commands for all projects).\n2. Save the file below as explain.md; the filename becomes the command name.\n3. In Claude Code, type /explain followed by your input.\n4. Edit the instructions to match your course or style.",
+  "files": [
+   {
+    "path": "explain.md",
+    "content": "---\ndescription: Explains a topic simply with an analogy, an example and a quick check question.\nargument-hint: [topic] [level]\n---\n\nExplain $ARGUMENTS to a learner. If no level is given, assume a beginner.\n\n1. Give a two-sentence plain-language definition.\n2. Add one everyday analogy.\n3. Show one worked example.\n4. List two common misunderstandings.\n5. End with one question to check understanding.\n"
+   }
+  ],
+  "use_cases": [
+   "Quick concept explanations",
+   "Revision help",
+   "Learning new subjects"
+  ],
+  "example_prompts": [
+   "/explain photosynthesis beginner",
+   "/explain big-O notation intermediate"
+  ],
+  "level": "Beginner",
+  "audience": "Students"
+ },
+ {
+  "type": "commands",
+  "slug": "quiz",
+  "name": "/quiz",
+  "description": "Generates a short quiz with answer key on a topic or file.",
+  "category": "assessment",
+  "tags": [
+   "quiz",
+   "practice",
+   "mcq"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/skills",
+  "install": "1. Create the folder .claude/commands in your project (or ~/.claude/commands for all projects).\n2. Save the file below as quiz.md; the filename becomes the command name.\n3. In Claude Code, type /quiz followed by your input.\n4. Edit the instructions to match your course or style.",
+  "files": [
+   {
+    "path": "quiz.md",
+    "content": "---\ndescription: Generates a short quiz with answer key on a topic or file.\nargument-hint: [topic or file] [number]\nallowed-tools: Read\n---\n\nCreate a quiz on $ARGUMENTS. If a file path is given, read it and use only its content. Default to 5 questions: three multiple choice (4 options), one short answer and one application question. Put an answer key with one-line explanations at the end, after a clear divider.\n"
+   }
+  ],
+  "use_cases": [
+   "Self-testing",
+   "Class warm-ups",
+   "Homework practice"
+  ],
+  "example_prompts": [
+   "/quiz notes/ch2.md 8",
+   "/quiz World War 1 causes"
+  ],
+  "level": "Beginner",
+  "audience": "Anyone"
+ },
+ {
+  "type": "commands",
+  "slug": "lesson-plan",
+  "name": "/lesson-plan",
+  "description": "Creates a timed lesson plan with objectives, activities and an exit ticket.",
+  "category": "teaching",
+  "tags": [
+   "lesson",
+   "planning",
+   "teacher"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/skills",
+  "install": "1. Create the folder .claude/commands in your project (or ~/.claude/commands for all projects).\n2. Save the file below as lesson-plan.md; the filename becomes the command name.\n3. In Claude Code, type /lesson-plan followed by your input.\n4. Edit the instructions to match your course or style.",
+  "files": [
+   {
+    "path": "lesson-plan.md",
+    "content": "---\ndescription: Creates a timed lesson plan with objectives, activities and an exit ticket.\nargument-hint: [subject] [grade] [minutes]\n---\n\nCreate a lesson plan for: $ARGUMENTS.\n\nInclude learning objectives, materials, a timed sequence (hook, teach, guided practice, independent practice, closure), one idea each for struggling and advanced learners, and a 3-question exit ticket. Format as a clean table or checklist that can be printed.\n"
+   }
+  ],
+  "use_cases": [
+   "Daily class planning",
+   "Quick substitute plans",
+   "New topic preparation"
+  ],
+  "example_prompts": [
+   "/lesson-plan fractions grade-4 40",
+   "/lesson-plan photosynthesis grade-7 45"
+  ],
+  "level": "Beginner",
+  "audience": "Teachers"
+ },
+ {
+  "type": "commands",
+  "slug": "flashcards",
+  "name": "/flashcards",
+  "description": "Turns a topic or notes file into question-and-answer flashcards.",
+  "category": "study-learning",
+  "tags": [
+   "flashcards",
+   "memory",
+   "revision"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/skills",
+  "install": "1. Create the folder .claude/commands in your project (or ~/.claude/commands for all projects).\n2. Save the file below as flashcards.md; the filename becomes the command name.\n3. In Claude Code, type /flashcards followed by your input.\n4. Edit the instructions to match your course or style.",
+  "files": [
+   {
+    "path": "flashcards.md",
+    "content": "---\ndescription: Turns a topic or notes file into question-and-answer flashcards.\nargument-hint: [topic or file]\nallowed-tools: Read, Write\n---\n\nMake flashcards from $ARGUMENTS. If it is a file, read it first. Produce 15 cards in the format Q: ... / A: ... with short answers (under 20 words). Cover key terms, definitions and cause-effect links. Save them to flashcards.md in the current folder and show the first five.\n"
+   }
+  ],
+  "use_cases": [
+   "Memorizing terms",
+   "Exam revision",
+   "Language vocabulary"
+  ],
+  "example_prompts": [
+   "/flashcards notes/biology.md",
+   "/flashcards French food vocabulary"
+  ],
+  "level": "Beginner",
+  "audience": "Students"
+ },
+ {
+  "type": "commands",
+  "slug": "essay-outline",
+  "name": "/essay-outline",
+  "description": "Builds a structured essay outline with thesis, paragraph points and evidence ideas.",
+  "category": "writing-research",
+  "tags": [
+   "essay",
+   "outline",
+   "writing"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/skills",
+  "install": "1. Create the folder .claude/commands in your project (or ~/.claude/commands for all projects).\n2. Save the file below as essay-outline.md; the filename becomes the command name.\n3. In Claude Code, type /essay-outline followed by your input.\n4. Edit the instructions to match your course or style.",
+  "files": [
+   {
+    "path": "essay-outline.md",
+    "content": "---\ndescription: Builds a structured essay outline with thesis, paragraph points and evidence ideas.\nargument-hint: [essay question]\n---\n\nCreate an essay outline for: $ARGUMENTS.\n\nGive a draft thesis statement, an introduction plan, 3 to 4 body paragraphs (each with a topic sentence, supporting evidence ideas and a link back to the thesis), a counter-argument paragraph and a conclusion plan. Do not write the essay itself; leave the writing to the student.\n"
+   }
+  ],
+  "use_cases": [
+   "Starting an essay",
+   "Organizing ideas",
+   "Exam essay planning"
+  ],
+  "example_prompts": [
+   "/essay-outline Should schools start later?",
+   "/essay-outline causes of the French Revolution"
+  ],
+  "level": "Beginner",
+  "audience": "Students"
+ },
+ {
+  "type": "commands",
+  "slug": "rubric",
+  "name": "/rubric",
+  "description": "Generates a grading rubric table for an assignment.",
+  "category": "assessment",
+  "tags": [
+   "rubric",
+   "grading",
+   "assignment"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/skills",
+  "install": "1. Create the folder .claude/commands in your project (or ~/.claude/commands for all projects).\n2. Save the file below as rubric.md; the filename becomes the command name.\n3. In Claude Code, type /rubric followed by your input.\n4. Edit the instructions to match your course or style.",
+  "files": [
+   {
+    "path": "rubric.md",
+    "content": "---\ndescription: Generates a grading rubric table for an assignment.\nargument-hint: [assignment] [total marks]\n---\n\nDesign a grading rubric for: $ARGUMENTS.\n\nUse 4 to 5 criteria and 4 performance levels with specific, observable descriptors. Include mark ranges that sum to the total. Finish with a short student-friendly summary of what top-level work looks like.\n"
+   }
+  ],
+  "use_cases": [
+   "Project grading",
+   "Clear expectations",
+   "Peer assessment"
+  ],
+  "example_prompts": [
+   "/rubric science poster 20",
+   "/rubric persuasive essay 30"
+  ],
+  "level": "Intermediate",
+  "audience": "Teachers"
+ },
+ {
+  "type": "commands",
+  "slug": "summarize",
+  "name": "/summarize",
+  "description": "Summarizes a file or pasted text into key points and a one-line takeaway.",
+  "category": "writing-research",
+  "tags": [
+   "summary",
+   "reading",
+   "notes"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/skills",
+  "install": "1. Create the folder .claude/commands in your project (or ~/.claude/commands for all projects).\n2. Save the file below as summarize.md; the filename becomes the command name.\n3. In Claude Code, type /summarize followed by your input.\n4. Edit the instructions to match your course or style.",
+  "files": [
+   {
+    "path": "summarize.md",
+    "content": "---\ndescription: Summarizes a file or pasted text into key points and a one-line takeaway.\nargument-hint: [file path]\nallowed-tools: Read\n---\n\nRead $ARGUMENTS and summarize it: a one-line takeaway, five key points, important terms with short definitions, and any open questions. Stay faithful to the text and say when something is not stated.\n"
+   }
+  ],
+  "use_cases": [
+   "Reading long material",
+   "Making study notes",
+   "Quick previews"
+  ],
+  "example_prompts": [
+   "/summarize articles/climate.md",
+   "/summarize chapter5.md"
+  ],
+  "level": "Beginner",
+  "audience": "Students"
+ },
+ {
+  "type": "commands",
+  "slug": "debug-hint",
+  "name": "/debug-hint",
+  "description": "Gives hints, not full solutions, for a bug in a file.",
+  "category": "coding-education",
+  "tags": [
+   "debugging",
+   "hints",
+   "coding"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/skills",
+  "install": "1. Create the folder .claude/commands in your project (or ~/.claude/commands for all projects).\n2. Save the file below as debug-hint.md; the filename becomes the command name.\n3. In Claude Code, type /debug-hint followed by your input.\n4. Edit the instructions to match your course or style.",
+  "files": [
+   {
+    "path": "debug-hint.md",
+    "content": "---\ndescription: Gives hints, not full solutions, for a bug in a file.\nargument-hint: [file path] [problem]\nallowed-tools: Read, Grep\n---\n\nHelp me debug $ARGUMENTS without giving the final fix straight away. Read the file, identify the most likely area of the bug and give three escalating hints: first a nudge about where to look, then what concept is involved, then a near-solution. Ask me to try after each hint.\n"
+   }
+  ],
+  "use_cases": [
+   "Homework debugging",
+   "Learning to read errors",
+   "Self-guided practice"
+  ],
+  "example_prompts": [
+   "/debug-hint app.py loop never ends",
+   "/debug-hint main.js undefined error"
+  ],
+  "level": "Beginner",
+  "audience": "Students"
+ },
+ {
+  "type": "commands",
+  "slug": "translate-practice",
+  "name": "/translate-practice",
+  "description": "Creates short translation exercises with answers for a language and level.",
+  "category": "language",
+  "tags": [
+   "language",
+   "translation",
+   "practice"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/skills",
+  "install": "1. Create the folder .claude/commands in your project (or ~/.claude/commands for all projects).\n2. Save the file below as translate-practice.md; the filename becomes the command name.\n3. In Claude Code, type /translate-practice followed by your input.\n4. Edit the instructions to match your course or style.",
+  "files": [
+   {
+    "path": "translate-practice.md",
+    "content": "---\ndescription: Creates short translation exercises with answers for a language and level.\nargument-hint: [language] [level]\n---\n\nCreate translation practice for $ARGUMENTS. Give 8 sentences in English to translate into the target language at the given level, with a mix of tenses. Wait for my answers before revealing the answer key; when I reply, correct each sentence with a short reason.\n"
+   }
+  ],
+  "use_cases": [
+   "Language drills",
+   "Grammar practice",
+   "Self-assessment"
+  ],
+  "example_prompts": [
+   "/translate-practice Spanish beginner",
+   "/translate-practice German intermediate"
+  ],
+  "level": "Beginner",
+  "audience": "Students"
+ },
+ {
+  "type": "commands",
+  "slug": "study-plan",
+  "name": "/study-plan",
+  "description": "Builds a day-by-day revision timetable from exam date and subjects.",
+  "category": "productivity",
+  "tags": [
+   "planner",
+   "revision",
+   "schedule"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/skills",
+  "install": "1. Create the folder .claude/commands in your project (or ~/.claude/commands for all projects).\n2. Save the file below as study-plan.md; the filename becomes the command name.\n3. In Claude Code, type /study-plan followed by your input.\n4. Edit the instructions to match your course or style.",
+  "files": [
+   {
+    "path": "study-plan.md",
+    "content": "---\ndescription: Builds a day-by-day revision timetable from exam date and subjects.\nargument-hint: [exam date] [subjects]\nallowed-tools: Write\n---\n\nBuild a study plan for: $ARGUMENTS. Ask for hours available per day if not given. Create a day-by-day table with 25 to 50 minute blocks, breaks, weekly review slots and one rest day. Give more time to weaker subjects. Save the plan to study-plan.md.\n"
+   }
+  ],
+  "use_cases": [
+   "Exam preparation",
+   "Weekly routines",
+   "Balancing subjects"
+  ],
+  "example_prompts": [
+   "/study-plan 15 Dec maths physics chemistry",
+   "/study-plan next-week English history"
+  ],
+  "level": "Beginner",
+  "audience": "Students"
+ },
+ {
+  "type": "commands",
+  "slug": "parent-note",
+  "name": "/parent-note",
+  "description": "Drafts a polite note or email to parents about an event or reminder.",
+  "category": "admin-ops",
+  "tags": [
+   "parents",
+   "notice",
+   "communication"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/skills",
+  "install": "1. Create the folder .claude/commands in your project (or ~/.claude/commands for all projects).\n2. Save the file below as parent-note.md; the filename becomes the command name.\n3. In Claude Code, type /parent-note followed by your input.\n4. Edit the instructions to match your course or style.",
+  "files": [
+   {
+    "path": "parent-note.md",
+    "content": "---\ndescription: Drafts a polite note or email to parents about an event or reminder.\nargument-hint: [purpose and date]\n---\n\nWrite a short school note to parents about: $ARGUMENTS. Include a clear subject line, key facts first, any action needed with a deadline, and a courteous closing. Use [bracketed placeholders] for anything missing. Provide a formal version and a friendly version.\n"
+   }
+  ],
+  "use_cases": [
+   "Event announcements",
+   "Reminders",
+   "Permission slips"
+  ],
+  "example_prompts": [
+   "/parent-note science fair 12 Jan",
+   "/parent-note fee reminder due Friday"
+  ],
+  "level": "Beginner",
+  "audience": "Teachers"
+ },
+ {
+  "type": "commands",
+  "slug": "feedback-comments",
+  "name": "/feedback-comments",
+  "description": "Writes kind, specific feedback comments for student work.",
+  "category": "assessment",
+  "tags": [
+   "feedback",
+   "comments",
+   "grading"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/skills",
+  "install": "1. Create the folder .claude/commands in your project (or ~/.claude/commands for all projects).\n2. Save the file below as feedback-comments.md; the filename becomes the command name.\n3. In Claude Code, type /feedback-comments followed by your input.\n4. Edit the instructions to match your course or style.",
+  "files": [
+   {
+    "path": "feedback-comments.md",
+    "content": "---\ndescription: Writes kind, specific feedback comments for student work.\nargument-hint: [file path] [grade level]\nallowed-tools: Read\n---\n\nRead $ARGUMENTS and write feedback for the student: two specific strengths, two areas to improve with concrete next steps, and one encouraging closing line. Quote short parts of the work as evidence. Keep the tone supportive and age-appropriate.\n"
+   }
+  ],
+  "use_cases": [
+   "Report comments",
+   "Assignment feedback",
+   "Saving marking time"
+  ],
+  "example_prompts": [
+   "/feedback-comments essays/ali.md grade-9",
+   "/feedback-comments lab-report.md grade-11"
+  ],
+  "level": "Intermediate",
+  "audience": "Teachers"
+ },
+ {
+  "type": "commands",
+  "slug": "concept-map",
+  "name": "/concept-map",
+  "description": "Turns a topic into a text-based concept map showing how ideas connect.",
+  "category": "study-learning",
+  "tags": [
+   "mindmap",
+   "concepts",
+   "revision"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/skills",
+  "install": "1. Create the folder .claude/commands in your project (or ~/.claude/commands for all projects).\n2. Save the file below as concept-map.md; the filename becomes the command name.\n3. In Claude Code, type /concept-map followed by your input.\n4. Edit the instructions to match your course or style.",
+  "files": [
+   {
+    "path": "concept-map.md",
+    "content": "---\ndescription: Turns a topic into a text-based concept map showing how ideas connect.\nargument-hint: [topic]\n---\n\nCreate a concept map for $ARGUMENTS as an indented outline: the central idea, 4 to 6 main branches, sub-points under each and labelled links between related branches (for example causes, leads to, part of). Finish with the three most important connections to remember.\n"
+   }
+  ],
+  "use_cases": [
+   "Visual-style revision",
+   "Seeing the big picture",
+   "Teaching overviews"
+  ],
+  "example_prompts": [
+   "/concept-map cell biology",
+   "/concept-map causes of World War 2"
+  ],
+  "level": "Beginner",
+  "audience": "Anyone"
+ }
+]

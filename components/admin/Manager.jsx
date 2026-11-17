@@ -5,7 +5,7 @@ import { slugify } from '@/lib/site';
 import { uploadImage, imageKeys, collectR2Urls, replacedR2Urls, cleanupR2, exportRows } from './common';
 import { Loading, ErrorBanner } from './ui';
 
-export default function Manager({ sb, table, kind, label, fields, titleKey, path, cats, notify }) {
+export default function Manager({ sb, table, kind, label, fields, simple, titleKey, path, cats, notify, fixed }) {
   const [rows, setRows] = useState([]);
   const [loading, setLoading] = useState(true); const [err, setErr] = useState('');
   const imgCols = useMemo(() => imageKeys(fields), [fields]);
@@ -17,7 +17,7 @@ export default function Manager({ sb, table, kind, label, fields, titleKey, path
 
   const load = useCallback(async () => {
     setLoading(true); setErr('');
-    const { data, error } = await sb.from(table).select('*').order('created_at', { ascending: false }).limit(3000);
+    let lq = sb.from(table).select('*'); if (fixed) lq = lq.match(fixed); const { data, error } = await lq.order('created_at', { ascending: false }).limit(3000);
     if (error) setErr(error.message); else setRows(data || []); setLoading(false);
   }, [sb, table]);
   useEffect(() => { load(); }, [load]);
@@ -33,11 +33,16 @@ export default function Manager({ sb, table, kind, label, fields, titleKey, path
   const save = async (forceStatus) => {
     const f = edit.form; const tv = f[titleKey]?.trim();
     if (!tv) return notify(`${titleKey === 'name' ? 'Name' : 'Title'} is required`, true);
-    const payload = fromForm(f, fields); payload.slug = slugify(f.slug || tv);
+    const payload = fromForm(f, fields); const prev = edit.id ? rows.find((r) => r.id === edit.id) : null;
+    if (simple) {
+      Object.assign(payload, edit.id ? {} : simple.defaults, simple.derive(payload, prev));
+      if (prev?.slug) payload.slug = prev.slug;
+      else { const base = slugify(tv) || 'photo-prompt'; const { data: ex } = await sb.from(table).select('slug').like('slug', `${base}%`).limit(500); const have = new Set((ex || []).map((x) => x.slug)); let s = base, n = 2; while (have.has(s)) s = `${base}-${n++}`; payload.slug = s; }
+    } else payload.slug = slugify(f.slug || tv);
     let status = forceStatus || edit.status; let pub = fromLocalInput(edit.publish_at);
     if (status === 'published' && !pub) pub = new Date().toISOString();
     if (status === 'scheduled' && !pub) return notify('Choose a publish date for scheduled content', true);
-    payload.status = status; payload.publish_at = status === 'draft' || status === 'reviewed' ? pub : pub; payload.updated_at = new Date().toISOString();
+    if (fixed) Object.assign(payload, fixed); payload.status = status; payload.publish_at = status === 'draft' || status === 'reviewed' ? pub : pub; payload.updated_at = new Date().toISOString();
     setBusy(true);
     const oldRow = edit.id ? rows.find((r) => r.id === edit.id) : null;
     const res = edit.id ? await sb.from(table).update(payload).eq('id', edit.id) : await sb.from(table).insert(payload);
@@ -87,7 +92,7 @@ export default function Manager({ sb, table, kind, label, fields, titleKey, path
     <div className="ad-card">
       <div className="bar"><input className="grow" placeholder="Search title or slug…" value={q} onChange={(e) => setQ(e.target.value)} />
         <select style={{ width: 'auto' }} value={st} onChange={(e) => setSt(e.target.value)}><option value="">All statuses</option>{STATUSES.map((s) => <option key={s}>{s}</option>)}</select>
-        <select style={{ width: 'auto' }} value={cat} onChange={(e) => setCat(e.target.value)}><option value="">All categories</option>{cats.map((c) => <option key={c.slug} value={c.slug}>{c.name}</option>)}</select></div>
+        {!simple && <select style={{ width: 'auto' }} value={cat} onChange={(e) => setCat(e.target.value)}><option value="">All categories</option>{cats.map((c) => <option key={c.slug} value={c.slug}>{c.name}</option>)}</select>}</div>
       <div className="bar"><b>Selected: {sel.size}</b>
         <button className="btn sm" disabled={busy} onClick={() => bulk({ status: 'reviewed' })}>Mark reviewed</button>
         <button className="btn sm" disabled={busy} onClick={() => bulk({ status: 'published', publish_at: new Date().toISOString() })}>Publish now</button>
@@ -114,9 +119,10 @@ export default function Manager({ sb, table, kind, label, fields, titleKey, path
           {fd.t !== 'bool' && <label>{fd.l}{fd.hint && <span className="hint"> — {fd.hint}</span>}</label>}
           {fd.t === 'text' && <input value={v} onChange={(e) => setF(fd.k, e.target.value)} onBlur={() => { if (fd.k === titleKey && !edit.form.slug && !edit.id) setF('slug', slugify(v)); }} />}
           {fd.t === 'slug' && <input value={v} placeholder="auto from title" onChange={(e) => setF(fd.k, slugify(e.target.value))} />}
-          {fd.t === 'image' && <div style={{ display: 'grid', gap: 6 }}><input value={v || ''} placeholder="Image URL (or upload below)" onChange={(e) => setF(fd.k, e.target.value)} /><input type="file" accept="image/*" onChange={async (e) => { const f = e.target.files?.[0]; if (!f) return; try { const { data } = await sb.auth.getSession(); const url = await uploadImage(f, data?.session?.access_token); setF(fd.k, url); notify('Image uploaded'); } catch (err) { notify(err.message, true); } e.target.value = ''; }} />{v && <img src={v} alt="" style={{ maxWidth: 220, borderRadius: 8 }} />}</div>}
+          {fd.t === 'image' && <div style={{ display: 'grid', gap: 6 }}>{simple && v && <img className="ph-live-preview" src={v} alt="Preview" />}<input value={v || ''} placeholder="Image URL (or upload below)" onChange={(e) => setF(fd.k, e.target.value)} /><input type="file" accept="image/*" onChange={async (e) => { const f = e.target.files?.[0]; if (!f) return; try { const { data } = await sb.auth.getSession(); const url = await uploadImage(f, data?.session?.access_token); setF(fd.k, url); notify('Image uploaded'); } catch (err) { notify(err.message, true); } e.target.value = ''; }} />{v && !simple && <img src={v} alt="" style={{ maxWidth: 220, borderRadius: 8 }} />}</div>}
           {fd.t === 'date' && <input type="date" value={v || ''} onChange={(e) => setF(fd.k, e.target.value)} />}
           {fd.t === 'area' && <textarea rows={fd.rows || 3} className={fd.mono ? 'mono' : ''} value={v} onChange={(e) => setF(fd.k, e.target.value)} />}
+          {fd.t === 'area' && fd.max && <div className={`hint${String(v || '').length > fd.max ? ' over' : ''}`} style={{ textAlign: 'right', color: String(v || '').length > fd.max ? 'var(--dn, #ef4468)' : undefined }}>{String(v || '').length}/{fd.max}</div>}
           {(fd.t === 'list' || fd.t === 'faq') && <textarea rows={fd.rows || (fd.t === 'faq' ? 6 : 2)} value={v} onChange={(e) => setF(fd.k, e.target.value)} />}
           {fd.t === 'select' && <select value={v} onChange={(e) => setF(fd.k, e.target.value)}>{fd.opts.map((o) => <option key={o}>{o}</option>)}</select>}
           {fd.t === 'cat' && <select value={v} onChange={(e) => setF(fd.k, e.target.value)}>{cats.map((c) => <option key={c.slug} value={c.slug}>{c.name}</option>)}</select>}

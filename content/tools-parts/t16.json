@@ -1,0 +1,3790 @@
+[
+ {
+  "slug": "replicate",
+  "name": "Replicate",
+  "category": "coding",
+  "website_url": "https://replicate.com",
+  "pricing": "Unknown",
+  "tagline": "Run and deploy machine learning models through a cloud API.",
+  "best_for": "Developers who want to call hosted open models from code",
+  "platforms": [
+   "Web",
+   "API"
+  ],
+  "description": "Replicate is a platform for running machine learning models in the cloud. Instead of setting up GPUs yourself, you call a model through an API or try it from a web page, using models published by the community and by companies.\n\nIt is aimed at developers building apps that need image, text, audio or video models without managing servers. Teams can also package their own models and serve them the same way, which helps when prototyping. Features and plans change over time, so check the official site for current details.",
+  "use_steps": [
+   "Open the official site for Replicate and read what it covers.",
+   "Sign up or install it, then try running a hosted model from an API call on a small sample.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "No server setup for trying models",
+   "Large public model catalogue",
+   "Works from simple API calls"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "together-ai",
+   "hugging-face"
+  ],
+  "tags": [
+   "ai",
+   "api",
+   "models",
+   "inference"
+  ],
+  "features": [
+   "Hosted model library",
+   "API access to models",
+   "Publish your own models",
+   "Web page to try models"
+  ],
+  "use_cases": [
+   "Prototyping an image generation feature",
+   "Adding speech or video models to an app",
+   "Testing several open models quickly"
+  ],
+  "pricing_details": "Pricing for Replicate is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Replicate used for?",
+    "a": "Replicate is used for running a hosted model from an API call. See the official site for the full scope."
+   },
+   {
+    "q": "Is Replicate free?",
+    "a": "Pricing is not verified in this directory. Plans and free options change, so check the official site for the current details."
+   },
+   {
+    "q": "Should I double-check results from Replicate?",
+    "a": "Yes. Review outputs on a small sample first, especially for work that affects other people, money or compliance."
+   }
+  ],
+  "seo_title": "Replicate: What It Does and How to Use It",
+  "seo_description": "Run and deploy machine learning models through a cloud API. Overview of Replicate, features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "together-ai",
+  "name": "Together AI",
+  "category": "coding",
+  "website_url": "https://www.together.ai",
+  "pricing": "Unknown",
+  "tagline": "Cloud platform for running and fine-tuning open-source AI models.",
+  "best_for": "Developers building apps on open-source language and image models",
+  "platforms": [
+   "Web",
+   "API"
+  ],
+  "description": "Together AI is a cloud platform that serves open-source generative AI models through an API. Developers can pick from a catalogue of language, image and other models and call them without running their own hardware.\n\nThe service also covers fine-tuning and dedicated compute for teams that need more control. It suits builders who prefer open-weight models and want to compare several of them behind one interface. Features and plans change over time, so check the official site for current details.",
+  "use_steps": [
+   "Open the official site for Together AI and read what it covers.",
+   "Sign up or install it, then try calling an open-source model through its API on a small sample.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Focus on open-source models",
+   "One API for many models",
+   "Fine-tuning supported"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "fireworks-ai",
+   "replicate"
+  ],
+  "tags": [
+   "ai",
+   "api",
+   "open-source",
+   "inference"
+  ],
+  "features": [
+   "Inference API for open models",
+   "Fine-tuning options",
+   "Dedicated compute",
+   "Model catalogue"
+  ],
+  "use_cases": [
+   "Building a chatbot on an open model",
+   "Fine-tuning a model on company data",
+   "Comparing open models for a task"
+  ],
+  "pricing_details": "Pricing for Together AI is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Together AI used for?",
+    "a": "Together AI is used for calling an open-source model through its API. See the official site for the full scope."
+   },
+   {
+    "q": "Is Together AI free?",
+    "a": "Pricing is not verified in this directory. Plans and free options change, so check the official site for the current details."
+   },
+   {
+    "q": "Should I double-check results from Together AI?",
+    "a": "Yes. Review outputs on a small sample first, especially for work that affects other people, money or compliance."
+   }
+  ],
+  "seo_title": "Together AI: What It Does and How to Use It",
+  "seo_description": "Cloud platform for running and fine-tuning open-source AI models. Overview of Together AI, features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "groq",
+  "name": "Groq",
+  "category": "coding",
+  "website_url": "https://groq.com",
+  "pricing": "Unknown",
+  "tagline": "Fast AI inference service built on custom chips for language models.",
+  "best_for": "Developers who care about response speed for LLM apps",
+  "platforms": [
+   "Web",
+   "API"
+  ],
+  "description": "Groq provides an inference service for large language models, running them on its own purpose-built hardware. Developers send requests through an API and receive generated text from supported open models.\n\nIt is mainly used where response latency matters, such as interactive assistants or voice agents. The company also offers a web console for trying models and getting API keys. Features and plans change over time, so check the official site for current details.",
+  "use_steps": [
+   "Open the official site for Groq and read what it covers.",
+   "Sign up or install it, then try sending prompts to a hosted language model API on a small sample.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Focus on low latency",
+   "Simple API access",
+   "Console for quick tests"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "together-ai",
+   "fireworks-ai"
+  ],
+  "tags": [
+   "ai",
+   "inference",
+   "llm",
+   "api"
+  ],
+  "features": [
+   "LLM inference API",
+   "Developer console",
+   "Supported open models",
+   "Playground for testing"
+  ],
+  "use_cases": [
+   "Low-latency chat assistants",
+   "Voice agent backends",
+   "Benchmarking model response speed"
+  ],
+  "pricing_details": "Pricing for Groq is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Groq used for?",
+    "a": "Groq is used for sending prompts to a hosted language model API. See the official site for the full scope."
+   },
+   {
+    "q": "Is Groq free?",
+    "a": "Pricing is not verified in this directory. Plans and free options change, so check the official site for the current details."
+   },
+   {
+    "q": "Should I double-check results from Groq?",
+    "a": "Yes. Review outputs on a small sample first, especially for work that affects other people, money or compliance."
+   }
+  ],
+  "seo_title": "Groq: What It Does and How to Use It",
+  "seo_description": "Fast AI inference service built on custom chips for language models. Overview of Groq, features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "fireworks-ai",
+  "name": "Fireworks AI",
+  "category": "coding",
+  "website_url": "https://fireworks.ai",
+  "pricing": "Unknown",
+  "tagline": "Inference platform for running and tuning open generative AI models.",
+  "best_for": "Teams deploying open models in production apps",
+  "platforms": [
+   "Web",
+   "API"
+  ],
+  "description": "Fireworks AI is an inference platform for generative AI models. Developers call hosted open models over an API and can use tools for customizing them for their own tasks.\n\nIt targets product teams that want to move from experiments to production-style serving without building the infrastructure. It sits in the same space as other open-model hosting services, so comparing options is sensible. Features and plans change over time, so check the official site for current details.",
+  "use_steps": [
+   "Open the official site for Fireworks AI and read what it covers.",
+   "Sign up or install it, then try running an open model through a hosted API on a small sample.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Built for production-style serving",
+   "Works with open models",
+   "Developer-focused API"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "together-ai",
+   "groq"
+  ],
+  "tags": [
+   "ai",
+   "inference",
+   "api",
+   "open-source"
+  ],
+  "features": [
+   "Hosted model inference",
+   "Model customization",
+   "API access",
+   "Support for text and image models"
+  ],
+  "use_cases": [
+   "Serving a chatbot model",
+   "Fine-tuning for a narrow task",
+   "Evaluating hosted open models"
+  ],
+  "pricing_details": "Pricing for Fireworks AI is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Fireworks AI used for?",
+    "a": "Fireworks AI is used for running an open model through a hosted API. See the official site for the full scope."
+   },
+   {
+    "q": "Is Fireworks AI free?",
+    "a": "Pricing is not verified in this directory. Plans and free options change, so check the official site for the current details."
+   },
+   {
+    "q": "Should I double-check results from Fireworks AI?",
+    "a": "Yes. Review outputs on a small sample first, especially for work that affects other people, money or compliance."
+   }
+  ],
+  "seo_title": "Fireworks AI: What It Does and How to Use It",
+  "seo_description": "Inference platform for running and tuning open generative AI models. Overview of Fireworks AI, features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "openrouter",
+  "name": "OpenRouter",
+  "category": "coding",
+  "website_url": "https://openrouter.ai",
+  "pricing": "Unknown",
+  "tagline": "One API gateway for accessing many AI models from different providers.",
+  "best_for": "Developers who want to switch between models easily",
+  "platforms": [
+   "Web",
+   "API"
+  ],
+  "description": "OpenRouter is a unified API that routes requests to language models from many providers. You use one account and one interface, and choose which model should answer each request.\n\nThis makes it easy to compare models or change providers without rewriting integration code. It is popular with hobby developers and teams who want flexibility, and its website lists the available models. Features and plans change over time, so check the official site for current details.",
+  "use_steps": [
+   "Open the official site for OpenRouter and read what it covers.",
+   "Sign up or install it, then try sending the same prompt to different models on a small sample.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "One integration for many models",
+   "Easy model switching",
+   "Good for comparison"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "together-ai",
+   "hugging-face"
+  ],
+  "tags": [
+   "ai",
+   "api",
+   "llm",
+   "gateway"
+  ],
+  "features": [
+   "Single API for many models",
+   "Model listing and comparison",
+   "One account and key",
+   "Provider routing"
+  ],
+  "use_cases": [
+   "Comparing model answers side by side",
+   "Avoiding lock-in to one provider",
+   "Prototyping with several models"
+  ],
+  "pricing_details": "Pricing for OpenRouter is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is OpenRouter used for?",
+    "a": "OpenRouter is used for sending the same prompt to different models. See the official site for the full scope."
+   },
+   {
+    "q": "Is OpenRouter free?",
+    "a": "Pricing is not verified in this directory. Plans and free options change, so check the official site for the current details."
+   },
+   {
+    "q": "Should I double-check results from OpenRouter?",
+    "a": "Yes. Review outputs on a small sample first, especially for work that affects other people, money or compliance."
+   }
+  ],
+  "seo_title": "OpenRouter: What It Does and How to Use It",
+  "seo_description": "One API gateway for accessing many AI models from different providers. Overview of OpenRouter, features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "cohere",
+  "name": "Cohere",
+  "category": "coding",
+  "website_url": "https://cohere.com",
+  "pricing": "Unknown",
+  "tagline": "Enterprise-focused language AI platform with APIs for text generation and search.",
+  "best_for": "Businesses building text generation and retrieval features",
+  "platforms": [
+   "Web",
+   "API"
+  ],
+  "description": "Cohere is a company that builds large language models and offers them through APIs. Its tools cover text generation, embeddings and reranking, which are common building blocks for search and question-answering systems.\n\nIt is oriented toward businesses that want to add language features to their own products, with options for private deployment. Developers can read the documentation to see which models and endpoints exist. Features and plans change over time, so check the official site for current details.",
+  "use_steps": [
+   "Open the official site for Cohere and read what it covers.",
+   "Sign up or install it, then try adding text generation or search to an app on a small sample.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Strong focus on business use",
+   "Retrieval-oriented tools",
+   "Documentation for developers"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "openrouter",
+   "mistral-le-chat"
+  ],
+  "tags": [
+   "ai",
+   "llm",
+   "embeddings",
+   "enterprise"
+  ],
+  "features": [
+   "Text generation models",
+   "Embeddings for search",
+   "Reranking",
+   "Enterprise deployment options"
+  ],
+  "use_cases": [
+   "Semantic search over documents",
+   "Question answering on company data",
+   "Summarizing support tickets"
+  ],
+  "pricing_details": "Pricing for Cohere is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Cohere used for?",
+    "a": "Cohere is used for adding text generation or search to an app. See the official site for the full scope."
+   },
+   {
+    "q": "Is Cohere free?",
+    "a": "Pricing is not verified in this directory. Plans and free options change, so check the official site for the current details."
+   },
+   {
+    "q": "Should I double-check results from Cohere?",
+    "a": "Yes. Review outputs on a small sample first, especially for work that affects other people, money or compliance."
+   }
+  ],
+  "seo_title": "Cohere: What It Does and How to Use It",
+  "seo_description": "Enterprise-focused language AI platform with APIs for text generation and search. Overview of Cohere, features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "cerebras",
+  "name": "Cerebras",
+  "category": "coding",
+  "website_url": "https://www.cerebras.ai",
+  "pricing": "Unknown",
+  "tagline": "AI hardware company that also offers fast model inference.",
+  "best_for": "Developers looking for high-speed LLM inference",
+  "platforms": [
+   "Web",
+   "API"
+  ],
+  "description": "Cerebras builds specialized AI computing hardware and provides inference access to language models running on it. Developers can reach supported models through a cloud API.\n\nIt is mostly of interest where generation speed is a priority. As with other hosted inference services, model lists and limits change, so the official site is the place to confirm what is offered. Features and plans change over time, so check the official site for current details.",
+  "use_steps": [
+   "Open the official site for Cerebras and read what it covers.",
+   "Sign up or install it, then try calling a hosted model through its inference API on a small sample.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Hardware-level focus on speed",
+   "API access for developers",
+   "Open model support"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "groq",
+   "together-ai"
+  ],
+  "tags": [
+   "ai",
+   "inference",
+   "hardware",
+   "api"
+  ],
+  "features": [
+   "Cloud inference API",
+   "Custom AI hardware",
+   "Supported open models",
+   "Developer access"
+  ],
+  "use_cases": [
+   "Speed-sensitive chat apps",
+   "Testing model throughput",
+   "Agent backends"
+  ],
+  "pricing_details": "Pricing for Cerebras is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Cerebras used for?",
+    "a": "Cerebras is used for calling a hosted model through its inference API. See the official site for the full scope."
+   },
+   {
+    "q": "Is Cerebras free?",
+    "a": "Pricing is not verified in this directory. Plans and free options change, so check the official site for the current details."
+   },
+   {
+    "q": "Should I double-check results from Cerebras?",
+    "a": "Yes. Review outputs on a small sample first, especially for work that affects other people, money or compliance."
+   }
+  ],
+  "seo_title": "Cerebras: What It Does and How to Use It",
+  "seo_description": "AI hardware company that also offers fast model inference. Overview of Cerebras, features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "assemblyai",
+  "name": "AssemblyAI",
+  "category": "audio",
+  "website_url": "https://www.assemblyai.com",
+  "pricing": "Unknown",
+  "tagline": "Speech-to-text API with audio intelligence features for developers.",
+  "best_for": "Developers adding transcription to apps",
+  "platforms": [
+   "Web",
+   "API"
+  ],
+  "description": "AssemblyAI offers an API that converts speech to text. Developers upload audio or stream it and receive a transcript they can store, search or display in their own product.\n\nThe service also provides extra analysis on top of transcripts, such as summaries or speaker labels, depending on the plan. It is used in meeting tools, media apps and call analysis, and documentation explains the available options. Features and plans change over time, so check the official site for current details.",
+  "use_steps": [
+   "Open the official site for AssemblyAI and read what it covers.",
+   "Sign up or install it, then try transcribing an audio file through an API on a small sample.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Developer-friendly API",
+   "Beyond plain transcription",
+   "Good documentation"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "deepgram",
+   "whisper-openai"
+  ],
+  "tags": [
+   "speech",
+   "transcription",
+   "api",
+   "audio"
+  ],
+  "features": [
+   "Speech-to-text API",
+   "Transcript analysis options",
+   "Streaming and file transcription",
+   "Developer documentation"
+  ],
+  "use_cases": [
+   "Transcribing meetings in an app",
+   "Making podcast archives searchable",
+   "Analyzing recorded calls"
+  ],
+  "pricing_details": "Pricing for AssemblyAI is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is AssemblyAI used for?",
+    "a": "AssemblyAI is used for transcribing an audio file through an API. See the official site for the full scope."
+   },
+   {
+    "q": "Is AssemblyAI free?",
+    "a": "Pricing is not verified in this directory. Plans and free options change, so check the official site for the current details."
+   },
+   {
+    "q": "Should I double-check results from AssemblyAI?",
+    "a": "Yes. Review outputs on a small sample first, especially for work that affects other people, money or compliance."
+   }
+  ],
+  "seo_title": "AssemblyAI: What It Does and How to Use It",
+  "seo_description": "Speech-to-text API with audio intelligence features for developers. Overview of AssemblyAI, features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "deepgram",
+  "name": "Deepgram",
+  "category": "audio",
+  "website_url": "https://deepgram.com",
+  "pricing": "Unknown",
+  "tagline": "Speech recognition and voice AI APIs for developers.",
+  "best_for": "Developers building voice features and transcription",
+  "platforms": [
+   "Web",
+   "API"
+  ],
+  "description": "Deepgram provides APIs for turning speech into text and for related voice AI tasks. Developers send audio files or live streams and receive transcripts to use in their applications.\n\nIt is common in call centers, voice assistants and media tools where speech needs to be processed in software. The company documents its models and options on its website, which should be checked for current capabilities. Features and plans change over time, so check the official site for current details.",
+  "use_steps": [
+   "Open the official site for Deepgram and read what it covers.",
+   "Sign up or install it, then try sending audio to a speech recognition API on a small sample.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Built for developers",
+   "Supports streaming audio",
+   "Clear API docs"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "assemblyai",
+   "whisper-openai"
+  ],
+  "tags": [
+   "speech",
+   "transcription",
+   "voice",
+   "api"
+  ],
+  "features": [
+   "Speech-to-text API",
+   "Live audio streaming",
+   "Developer SDKs",
+   "Voice AI tooling"
+  ],
+  "use_cases": [
+   "Live captioning",
+   "Call transcription",
+   "Voice assistant input"
+  ],
+  "pricing_details": "Pricing for Deepgram is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Deepgram used for?",
+    "a": "Deepgram is used for sending audio to a speech recognition API. See the official site for the full scope."
+   },
+   {
+    "q": "Is Deepgram free?",
+    "a": "Pricing is not verified in this directory. Plans and free options change, so check the official site for the current details."
+   },
+   {
+    "q": "Should I double-check results from Deepgram?",
+    "a": "Yes. Review outputs on a small sample first, especially for work that affects other people, money or compliance."
+   }
+  ],
+  "seo_title": "Deepgram: What It Does and How to Use It",
+  "seo_description": "Speech recognition and voice AI APIs for developers. Overview of Deepgram, features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "crowdin",
+  "name": "Crowdin",
+  "category": "writing",
+  "website_url": "https://crowdin.com",
+  "pricing": "Unknown",
+  "tagline": "Localization management platform for translating software and content.",
+  "best_for": "Teams translating apps, websites and documentation",
+  "platforms": [
+   "Web",
+   "API"
+  ],
+  "description": "Crowdin is a localization platform where teams manage translations of software strings, documents and websites. Source text is uploaded or synced from a code repository, and translators work on it in a shared online editor.\n\nIt supports translation memory and integrations with developer tools, so updates to the source can flow to translators. Product teams, open-source projects and agencies use this kind of tool to keep many languages in step. Features and plans change over time, so check the official site for current details.",
+  "use_steps": [
+   "Open the official site for Crowdin and read what it covers.",
+   "Sign up or install it, then try managing translation files for a project on a small sample.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Built for continuous localization",
+   "Integrates with developer workflows",
+   "Collaborative editing"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "lokalise",
+   "phrase"
+  ],
+  "tags": [
+   "localization",
+   "translation",
+   "software",
+   "teams"
+  ],
+  "features": [
+   "Translation editor",
+   "Translation memory",
+   "Repository integrations",
+   "Project management for translators"
+  ],
+  "use_cases": [
+   "Localizing a mobile app",
+   "Translating documentation",
+   "Coordinating volunteer translators"
+  ],
+  "pricing_details": "Pricing for Crowdin is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Crowdin used for?",
+    "a": "Crowdin is used for managing translation files for a project. See the official site for the full scope."
+   },
+   {
+    "q": "Is Crowdin free?",
+    "a": "Pricing is not verified in this directory. Plans and free options change, so check the official site for the current details."
+   },
+   {
+    "q": "Should I double-check results from Crowdin?",
+    "a": "Yes. Review outputs on a small sample first, especially for work that affects other people, money or compliance."
+   }
+  ],
+  "seo_title": "Crowdin: What It Does and How to Use It",
+  "seo_description": "Localization management platform for translating software and content. Overview of Crowdin, features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "lokalise",
+  "name": "Lokalise",
+  "category": "writing",
+  "website_url": "https://lokalise.com",
+  "pricing": "Unknown",
+  "tagline": "Translation management platform for product and marketing teams.",
+  "best_for": "Product teams managing multilingual apps and websites",
+  "platforms": [
+   "Web",
+   "API"
+  ],
+  "description": "Lokalise is a platform for managing translations of apps, websites and other content. Teams upload text, assign work to translators and review results in one place.\n\nIt offers integrations with design and development tools, so source text can be pulled in and translations delivered back. It is useful for organizations that release often and need their translated text to stay current. Features and plans change over time, so check the official site for current details.",
+  "use_steps": [
+   "Open the official site for Lokalise and read what it covers.",
+   "Sign up or install it, then try organizing translation work across languages on a small sample.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Focus on product teams",
+   "Workflow and review tools",
+   "Integrations available"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "crowdin",
+   "phrase"
+  ],
+  "tags": [
+   "localization",
+   "translation",
+   "apps",
+   "workflow"
+  ],
+  "features": [
+   "Translation management",
+   "Developer integrations",
+   "Review workflows",
+   "Collaboration tools"
+  ],
+  "use_cases": [
+   "Releasing an app in new markets",
+   "Keeping website copy translated",
+   "Reviewing translator work"
+  ],
+  "pricing_details": "Pricing for Lokalise is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Lokalise used for?",
+    "a": "Lokalise is used for organizing translation work across languages. See the official site for the full scope."
+   },
+   {
+    "q": "Is Lokalise free?",
+    "a": "Pricing is not verified in this directory. Plans and free options change, so check the official site for the current details."
+   },
+   {
+    "q": "Should I double-check results from Lokalise?",
+    "a": "Yes. Review outputs on a small sample first, especially for work that affects other people, money or compliance."
+   }
+  ],
+  "seo_title": "Lokalise: What It Does and How to Use It",
+  "seo_description": "Translation management platform for product and marketing teams. Overview of Lokalise, features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "smartling",
+  "name": "Smartling",
+  "category": "writing",
+  "website_url": "https://www.smartling.com",
+  "pricing": "Unknown",
+  "tagline": "Enterprise translation and localization platform with human and AI workflows.",
+  "best_for": "Larger organizations translating content at scale",
+  "platforms": [
+   "Web",
+   "API"
+  ],
+  "description": "Smartling is a translation platform for companies that publish content in many languages. It combines translation management with options for machine translation and human review.\n\nLarge teams use it to connect content systems, route text to translators and keep terminology consistent. The company positions itself toward enterprise needs, so smaller users should compare it with lighter tools. Features and plans change over time, so check the official site for current details.",
+  "use_steps": [
+   "Open the official site for Smartling and read what it covers.",
+   "Sign up or install it, then try routing content through a translation workflow on a small sample.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Enterprise-oriented workflows",
+   "Mix of AI and human review",
+   "Connectors to content systems"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "phrase",
+   "lokalise"
+  ],
+  "tags": [
+   "localization",
+   "translation",
+   "enterprise",
+   "workflow"
+  ],
+  "features": [
+   "Translation management",
+   "Machine and human translation workflows",
+   "Content system connectors",
+   "Terminology control"
+  ],
+  "use_cases": [
+   "Translating marketing content",
+   "Localizing support articles",
+   "Keeping brand terms consistent"
+  ],
+  "pricing_details": "Pricing for Smartling is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Smartling used for?",
+    "a": "Smartling is used for routing content through a translation workflow. See the official site for the full scope."
+   },
+   {
+    "q": "Is Smartling free?",
+    "a": "Pricing is not verified in this directory. Plans and free options change, so check the official site for the current details."
+   },
+   {
+    "q": "Should I double-check results from Smartling?",
+    "a": "Yes. Review outputs on a small sample first, especially for work that affects other people, money or compliance."
+   }
+  ],
+  "seo_title": "Smartling: What It Does and How to Use It",
+  "seo_description": "Enterprise translation and localization platform with human and AI workflows. Overview of Smartling, features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "phrase",
+  "name": "Phrase",
+  "category": "writing",
+  "website_url": "https://phrase.com",
+  "pricing": "Unknown",
+  "tagline": "Localization suite for software strings and translation workflows.",
+  "best_for": "Teams that localize software and content together",
+  "platforms": [
+   "Web",
+   "API"
+  ],
+  "description": "Phrase is a localization platform covering translation management for software and other content. It lets teams store strings, send them to translators or machine translation, and publish the results.\n\nIt is used by product and localization teams who want an organized way to handle many languages. As with similar suites, integrations and automation are central, so check the documentation for what fits your stack. Features and plans change over time, so check the official site for current details.",
+  "use_steps": [
+   "Open the official site for Phrase and read what it covers.",
+   "Sign up or install it, then try managing software strings for translation on a small sample.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Covers software and content",
+   "Workflow automation",
+   "API available"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "crowdin",
+   "lokalise"
+  ],
+  "tags": [
+   "localization",
+   "translation",
+   "software",
+   "automation"
+  ],
+  "features": [
+   "Software string management",
+   "Translation workflows",
+   "Machine translation options",
+   "Integrations and API"
+  ],
+  "use_cases": [
+   "Localizing a web app",
+   "Managing translators",
+   "Automating translation updates"
+  ],
+  "pricing_details": "Pricing for Phrase is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Phrase used for?",
+    "a": "Phrase is used for managing software strings for translation. See the official site for the full scope."
+   },
+   {
+    "q": "Is Phrase free?",
+    "a": "Pricing is not verified in this directory. Plans and free options change, so check the official site for the current details."
+   },
+   {
+    "q": "Should I double-check results from Phrase?",
+    "a": "Yes. Review outputs on a small sample first, especially for work that affects other people, money or compliance."
+   }
+  ],
+  "seo_title": "Phrase: What It Does and How to Use It",
+  "seo_description": "Localization suite for software strings and translation workflows. Overview of Phrase, features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "tesseract-ocr",
+  "name": "Tesseract OCR",
+  "category": "productivity",
+  "website_url": "https://github.com/tesseract-ocr/tesseract",
+  "pricing": "Open source",
+  "tagline": "Open-source engine that recognizes text in images.",
+  "best_for": "Developers and hobbyists who need free OCR",
+  "platforms": [
+   "Windows",
+   "macOS",
+   "Linux"
+  ],
+  "description": "Tesseract is an open-source optical character recognition engine that reads text from images. It runs from the command line or through libraries, and supports many languages through trained data files.\n\nMany other tools and scripts build on it for scanning documents. It needs some technical comfort to set up, and accuracy depends heavily on image quality, so clean scans give better results than photos. Features and plans change over time, so check the official site for current details.",
+  "use_steps": [
+   "Open the official site for Tesseract OCR and read what it covers.",
+   "Sign up or install it, then try extracting text from an image on a small sample.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Free and open source",
+   "Widely used and documented",
+   "Runs locally"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "amazon-textract",
+   "abbyy"
+  ],
+  "tags": [
+   "ocr",
+   "open-source",
+   "text",
+   "images"
+  ],
+  "features": [
+   "Text recognition from images",
+   "Many language data files",
+   "Command-line use",
+   "Library bindings"
+  ],
+  "use_cases": [
+   "Digitizing scanned pages",
+   "Extracting text in scripts",
+   "Building simple OCR pipelines"
+  ],
+  "pricing_details": "Tesseract OCR is listed as open source here, but plans, limits and terms change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Tesseract OCR used for?",
+    "a": "Tesseract OCR is used for extracting text from an image. See the official site for the full scope."
+   },
+   {
+    "q": "Is Tesseract OCR free?",
+    "a": "Pricing is not verified in this directory. Plans and free options change, so check the official site for the current details."
+   },
+   {
+    "q": "Should I double-check results from Tesseract OCR?",
+    "a": "Yes. Review outputs on a small sample first, especially for work that affects other people, money or compliance."
+   }
+  ],
+  "seo_title": "Tesseract OCR: What It Does and How to Use It",
+  "seo_description": "Open-source engine that recognizes text in images. Overview of Tesseract OCR, features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "amazon-textract",
+  "name": "Amazon Textract",
+  "category": "productivity",
+  "website_url": "https://aws.amazon.com/textract/",
+  "pricing": "Unknown",
+  "tagline": "AWS service that extracts text, forms and tables from documents.",
+  "best_for": "Developers on AWS processing scanned documents",
+  "platforms": [
+   "Web",
+   "API"
+  ],
+  "description": "Amazon Textract is a cloud service from Amazon Web Services that pulls text and structured data from scanned documents. It goes beyond plain OCR by identifying things like form fields and tables.\n\nIt is used inside applications that process invoices, forms or records, and it fits naturally with other AWS services. You use it through the AWS console or API, so it suits developers rather than casual users. Features and plans change over time, so check the official site for current details.",
+  "use_steps": [
+   "Open the official site for Amazon Textract and read what it covers.",
+   "Sign up or install it, then try extracting text and tables from a scanned document on a small sample.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Fits AWS workflows",
+   "Handles structure not just text",
+   "Scales as a cloud service"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "google-document-ai",
+   "tesseract-ocr"
+  ],
+  "tags": [
+   "ocr",
+   "aws",
+   "documents",
+   "api"
+  ],
+  "features": [
+   "Text extraction",
+   "Form and table detection",
+   "AWS API access",
+   "Integration with AWS services"
+  ],
+  "use_cases": [
+   "Processing scanned forms",
+   "Extracting tables from reports",
+   "Automating document intake"
+  ],
+  "pricing_details": "Pricing for Amazon Textract is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Amazon Textract used for?",
+    "a": "Amazon Textract is used for extracting text and tables from a scanned document. See the official site for the full scope."
+   },
+   {
+    "q": "Is Amazon Textract free?",
+    "a": "Pricing is not verified in this directory. Plans and free options change, so check the official site for the current details."
+   },
+   {
+    "q": "Should I double-check results from Amazon Textract?",
+    "a": "Yes. Review outputs on a small sample first, especially for work that affects other people, money or compliance."
+   }
+  ],
+  "seo_title": "Amazon Textract: What It Does and How to Use It",
+  "seo_description": "AWS service that extracts text, forms and tables from documents. Overview of Amazon Textract, features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "google-document-ai",
+  "name": "Google Document AI",
+  "category": "productivity",
+  "website_url": "https://cloud.google.com/document-ai",
+  "pricing": "Unknown",
+  "tagline": "Google Cloud service for extracting data from documents.",
+  "best_for": "Developers using Google Cloud for document processing",
+  "platforms": [
+   "Web",
+   "API"
+  ],
+  "description": "Document AI is a Google Cloud service that processes documents to pull out text and structured fields. It offers processors for different document types, such as forms and invoices.\n\nIt is intended for developers and organizations already working in Google Cloud who want to automate document handling. Setup happens through the cloud console and APIs, and available processors change over time. Features and plans change over time, so check the official site for current details.",
+  "use_steps": [
+   "Open the official site for Google Document AI and read what it covers.",
+   "Sign up or install it, then try turning documents into structured data on a small sample.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Part of Google Cloud",
+   "Prebuilt processors for common documents",
+   "API driven"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "amazon-textract",
+   "abbyy"
+  ],
+  "tags": [
+   "ocr",
+   "google-cloud",
+   "documents",
+   "api"
+  ],
+  "features": [
+   "Document processors",
+   "Text and field extraction",
+   "Google Cloud integration",
+   "API access"
+  ],
+  "use_cases": [
+   "Automating invoice data entry",
+   "Reading forms",
+   "Digitizing paper archives"
+  ],
+  "pricing_details": "Pricing for Google Document AI is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Google Document AI used for?",
+    "a": "Google Document AI is used for turning documents into structured data. See the official site for the full scope."
+   },
+   {
+    "q": "Is Google Document AI free?",
+    "a": "Pricing is not verified in this directory. Plans and free options change, so check the official site for the current details."
+   },
+   {
+    "q": "Should I double-check results from Google Document AI?",
+    "a": "Yes. Review outputs on a small sample first, especially for work that affects other people, money or compliance."
+   }
+  ],
+  "seo_title": "Google Document AI: What It Does and How to Use It",
+  "seo_description": "Google Cloud service for extracting data from documents. Overview of Google Document AI, features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "mindee",
+  "name": "Mindee",
+  "category": "productivity",
+  "website_url": "https://www.mindee.com",
+  "pricing": "Unknown",
+  "tagline": "Document parsing API for extracting data from invoices, receipts and IDs.",
+  "best_for": "Developers adding document capture to apps",
+  "platforms": [
+   "Web",
+   "API"
+  ],
+  "description": "Mindee provides APIs that read documents such as receipts and invoices and return structured data. Developers send an image or PDF and receive fields they can use in their application.\n\nIt targets teams who want a ready document parsing service rather than building their own. The website describes the supported document types, which should be checked against your needs. Features and plans change over time, so check the official site for current details.",
+  "use_steps": [
+   "Open the official site for Mindee and read what it covers.",
+   "Sign up or install it, then try parsing a receipt or invoice into fields on a small sample.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Focused on document parsing",
+   "Simple API usage",
+   "Structured output"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "nanonets",
+   "docsumo"
+  ],
+  "tags": [
+   "ocr",
+   "documents",
+   "api",
+   "automation"
+  ],
+  "features": [
+   "Document parsing API",
+   "Prebuilt document types",
+   "Structured data output",
+   "Developer docs"
+  ],
+  "use_cases": [
+   "Reading receipts in an expense app",
+   "Capturing invoice details",
+   "Verifying uploaded documents"
+  ],
+  "pricing_details": "Pricing for Mindee is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Mindee used for?",
+    "a": "Mindee is used for parsing a receipt or invoice into fields. See the official site for the full scope."
+   },
+   {
+    "q": "Is Mindee free?",
+    "a": "Pricing is not verified in this directory. Plans and free options change, so check the official site for the current details."
+   },
+   {
+    "q": "Should I double-check results from Mindee?",
+    "a": "Yes. Review outputs on a small sample first, especially for work that affects other people, money or compliance."
+   }
+  ],
+  "seo_title": "Mindee: What It Does and How to Use It",
+  "seo_description": "Document parsing API for extracting data from invoices, receipts and IDs. Overview of Mindee, features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "docsumo",
+  "name": "Docsumo",
+  "category": "productivity",
+  "website_url": "https://www.docsumo.com",
+  "pricing": "Unknown",
+  "tagline": "Document processing platform for extracting data from business documents.",
+  "best_for": "Finance and operations teams handling many documents",
+  "platforms": [
+   "Web",
+   "API"
+  ],
+  "description": "Docsumo is a document processing platform that extracts data from files such as invoices and statements. Users upload documents, review the extracted fields and send the data to other systems.\n\nIt is aimed at business teams that want less manual data entry. A review step lets people correct results, which matters for accuracy-sensitive work like finance. Features and plans change over time, so check the official site for current details.",
+  "use_steps": [
+   "Open the official site for Docsumo and read what it covers.",
+   "Sign up or install it, then try extracting fields from business documents on a small sample.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Review step for accuracy",
+   "Built for business documents",
+   "Integration options"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "nanonets",
+   "rossum"
+  ],
+  "tags": [
+   "documents",
+   "automation",
+   "finance",
+   "extraction"
+  ],
+  "features": [
+   "Data extraction from documents",
+   "Review interface",
+   "Integrations",
+   "API access"
+  ],
+  "use_cases": [
+   "Invoice data capture",
+   "Processing bank statements",
+   "Reducing manual entry"
+  ],
+  "pricing_details": "Pricing for Docsumo is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Docsumo used for?",
+    "a": "Docsumo is used for extracting fields from business documents. See the official site for the full scope."
+   },
+   {
+    "q": "Is Docsumo free?",
+    "a": "Pricing is not verified in this directory. Plans and free options change, so check the official site for the current details."
+   },
+   {
+    "q": "Should I double-check results from Docsumo?",
+    "a": "Yes. Review outputs on a small sample first, especially for work that affects other people, money or compliance."
+   }
+  ],
+  "seo_title": "Docsumo: What It Does and How to Use It",
+  "seo_description": "Document processing platform for extracting data from business documents. Overview of Docsumo, features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "nanonets",
+  "name": "Nanonets",
+  "category": "productivity",
+  "website_url": "https://nanonets.com",
+  "pricing": "Unknown",
+  "tagline": "AI document processing and workflow automation platform.",
+  "best_for": "Teams automating document-heavy workflows",
+  "platforms": [
+   "Web",
+   "API"
+  ],
+  "description": "Nanonets offers AI-based document processing that extracts information from invoices, forms and other files. Teams can set up workflows that route the extracted data onward.\n\nIt is used by operations and finance teams to cut repetitive typing. Models can often be adapted to your own document layouts, so testing with real samples is wise. Features and plans change over time, so check the official site for current details.",
+  "use_steps": [
+   "Open the official site for Nanonets and read what it covers.",
+   "Sign up or install it, then try automating data capture from documents on a small sample.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Workflow focus",
+   "Adaptable to your documents",
+   "API available"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "docsumo",
+   "mindee"
+  ],
+  "tags": [
+   "documents",
+   "ocr",
+   "automation",
+   "workflow"
+  ],
+  "features": [
+   "Data extraction",
+   "Workflow automation",
+   "Customizable models",
+   "API access"
+  ],
+  "use_cases": [
+   "Accounts payable automation",
+   "Processing purchase orders",
+   "Reading forms"
+  ],
+  "pricing_details": "Pricing for Nanonets is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Nanonets used for?",
+    "a": "Nanonets is used for automating data capture from documents. See the official site for the full scope."
+   },
+   {
+    "q": "Is Nanonets free?",
+    "a": "Pricing is not verified in this directory. Plans and free options change, so check the official site for the current details."
+   },
+   {
+    "q": "Should I double-check results from Nanonets?",
+    "a": "Yes. Review outputs on a small sample first, especially for work that affects other people, money or compliance."
+   }
+  ],
+  "seo_title": "Nanonets: What It Does and How to Use It",
+  "seo_description": "AI document processing and workflow automation platform. Overview of Nanonets, features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "rossum",
+  "name": "Rossum",
+  "category": "productivity",
+  "website_url": "https://rossum.ai",
+  "pricing": "Unknown",
+  "tagline": "Document automation platform focused on invoices and business transactions.",
+  "best_for": "Finance teams processing large invoice volumes",
+  "platforms": [
+   "Web",
+   "API"
+  ],
+  "description": "Rossum is a document automation platform known for handling invoices and other transactional documents. It extracts data and presents it for validation before it goes into accounting or ERP systems.\n\nIt suits organizations with steady document flows that want fewer manual steps. Integration with existing finance systems is a key part of evaluating it. Features and plans change over time, so check the official site for current details.",
+  "use_steps": [
+   "Open the official site for Rossum and read what it covers.",
+   "Sign up or install it, then try capturing data from invoices on a small sample.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Focus on transactional documents",
+   "Validation workflow",
+   "Finance integrations"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "docsumo",
+   "nanonets"
+  ],
+  "tags": [
+   "invoices",
+   "documents",
+   "finance",
+   "automation"
+  ],
+  "features": [
+   "Invoice data extraction",
+   "Validation interface",
+   "ERP integrations",
+   "API"
+  ],
+  "use_cases": [
+   "Automating accounts payable",
+   "Validating supplier invoices",
+   "Feeding data into ERP"
+  ],
+  "pricing_details": "Pricing for Rossum is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Rossum used for?",
+    "a": "Rossum is used for capturing data from invoices. See the official site for the full scope."
+   },
+   {
+    "q": "Is Rossum free?",
+    "a": "Pricing is not verified in this directory. Plans and free options change, so check the official site for the current details."
+   },
+   {
+    "q": "Should I double-check results from Rossum?",
+    "a": "Yes. Review outputs on a small sample first, especially for work that affects other people, money or compliance."
+   }
+  ],
+  "seo_title": "Rossum: What It Does and How to Use It",
+  "seo_description": "Document automation platform focused on invoices and business transactions. Overview of Rossum, features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "abbyy",
+  "name": "ABBYY",
+  "category": "productivity",
+  "website_url": "https://www.abbyy.com",
+  "pricing": "Unknown",
+  "tagline": "Long-established OCR and intelligent document processing provider.",
+  "best_for": "Organizations needing document capture and OCR software",
+  "platforms": [
+   "Windows",
+   "Web",
+   "API"
+  ],
+  "description": "ABBYY is a software company known for optical character recognition and document processing products. Its offerings range from desktop OCR software to platforms for enterprise document capture.\n\nOrganizations use these tools to convert paper and scans into searchable, structured data. Product lines have changed over time, so confirm which one matches your use on the official site. Features and plans change over time, so check the official site for current details.",
+  "use_steps": [
+   "Open the official site for ABBYY and read what it covers.",
+   "Sign up or install it, then try converting scans into searchable text on a small sample.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Long history in OCR",
+   "Range of products",
+   "Enterprise focus"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "tesseract-ocr",
+   "amazon-textract"
+  ],
+  "tags": [
+   "ocr",
+   "documents",
+   "enterprise",
+   "pdf"
+  ],
+  "features": [
+   "OCR software",
+   "Document capture",
+   "Enterprise processing",
+   "Developer tools"
+  ],
+  "use_cases": [
+   "Digitizing archives",
+   "Making PDFs searchable",
+   "Enterprise document intake"
+  ],
+  "pricing_details": "Pricing for ABBYY is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is ABBYY used for?",
+    "a": "ABBYY is used for converting scans into searchable text. See the official site for the full scope."
+   },
+   {
+    "q": "Is ABBYY free?",
+    "a": "Pricing is not verified in this directory. Plans and free options change, so check the official site for the current details."
+   },
+   {
+    "q": "Should I double-check results from ABBYY?",
+    "a": "Yes. Review outputs on a small sample first, especially for work that affects other people, money or compliance."
+   }
+  ],
+  "seo_title": "ABBYY: What It Does and How to Use It",
+  "seo_description": "Long-established OCR and intelligent document processing provider. Overview of ABBYY, features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "datawrapper",
+  "name": "Datawrapper",
+  "category": "research",
+  "website_url": "https://www.datawrapper.de",
+  "pricing": "Unknown",
+  "tagline": "Tool for creating charts, maps and tables for publication.",
+  "best_for": "Journalists and writers publishing clean charts",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Datawrapper is a web tool for making charts, maps and tables without coding. You paste or upload data, choose a chart type and publish a result that can be embedded or exported.\n\nIt is widely used in newsrooms and by people who want readable, responsive charts. The interface is simple, which makes it a good fit for occasional data storytelling. Features and plans change over time, so check the official site for current details.",
+  "use_steps": [
+   "Open the official site for Datawrapper and read what it covers.",
+   "Sign up or install it, then try turning a table of numbers into a chart on a small sample.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "No coding needed",
+   "Clean default design",
+   "Easy embedding"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "observable",
+   "rows"
+  ],
+  "tags": [
+   "charts",
+   "data-viz",
+   "maps",
+   "journalism"
+  ],
+  "features": [
+   "Chart creation",
+   "Maps and tables",
+   "Embedding",
+   "Data upload or paste"
+  ],
+  "use_cases": [
+   "Charts for an article",
+   "Interactive map for a report",
+   "Embeddable tables"
+  ],
+  "pricing_details": "Pricing for Datawrapper is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Datawrapper used for?",
+    "a": "Datawrapper is used for turning a table of numbers into a chart. See the official site for the full scope."
+   },
+   {
+    "q": "Is Datawrapper free?",
+    "a": "Pricing is not verified in this directory. Plans and free options change, so check the official site for the current details."
+   },
+   {
+    "q": "Should I double-check results from Datawrapper?",
+    "a": "Yes. Review outputs on a small sample first, especially for work that affects other people, money or compliance."
+   }
+  ],
+  "seo_title": "Datawrapper: What It Does and How to Use It",
+  "seo_description": "Tool for creating charts, maps and tables for publication. Overview of Datawrapper, features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "observable",
+  "name": "Observable",
+  "category": "research",
+  "website_url": "https://observablehq.com",
+  "pricing": "Unknown",
+  "tagline": "Platform for exploring data and building interactive visualizations.",
+  "best_for": "Analysts and developers comfortable with code",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Observable is a platform for data exploration where you work in notebooks that combine code, data and visualizations. It is closely associated with JavaScript and the D3 ecosystem.\n\nIt suits people who want fine control over how data is shown and who like sharing live, editable analysis. Beginners may find it more technical than point-and-click chart tools. Features and plans change over time, so check the official site for current details.",
+  "use_steps": [
+   "Open the official site for Observable and read what it covers.",
+   "Sign up or install it, then try exploring a dataset in a notebook on a small sample.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Highly flexible",
+   "Shareable notebooks",
+   "Strong visualization focus"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "datawrapper",
+   "jupyter"
+  ],
+  "tags": [
+   "data-viz",
+   "javascript",
+   "notebooks",
+   "analysis"
+  ],
+  "features": [
+   "Notebooks",
+   "Interactive charts",
+   "Data connections",
+   "Sharing and collaboration"
+  ],
+  "use_cases": [
+   "Exploring a dataset",
+   "Building a custom visualization",
+   "Sharing a live analysis"
+  ],
+  "pricing_details": "Pricing for Observable is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Observable used for?",
+    "a": "Observable is used for exploring a dataset in a notebook. See the official site for the full scope."
+   },
+   {
+    "q": "Is Observable free?",
+    "a": "Pricing is not verified in this directory. Plans and free options change, so check the official site for the current details."
+   },
+   {
+    "q": "Should I double-check results from Observable?",
+    "a": "Yes. Review outputs on a small sample first, especially for work that affects other people, money or compliance."
+   }
+  ],
+  "seo_title": "Observable: What It Does and How to Use It",
+  "seo_description": "Platform for exploring data and building interactive visualizations. Overview of Observable, features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "julius-ai",
+  "name": "Julius AI",
+  "category": "research",
+  "website_url": "https://julius.ai",
+  "pricing": "Unknown",
+  "tagline": "AI assistant for analyzing data and creating charts from conversation.",
+  "best_for": "Non-programmers who want to ask questions about data",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Julius AI is a data analysis assistant. You upload a spreadsheet or dataset, ask questions in plain language and receive summaries, charts or calculations.\n\nIt is meant for people who do not want to write code to explore data. As with any AI analysis, check the numbers and methods it uses before relying on the conclusions. Features and plans change over time, so check the official site for current details.",
+  "use_steps": [
+   "Open the official site for Julius AI and read what it covers.",
+   "Sign up or install it, then try asking questions about an uploaded dataset on a small sample.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "No coding required",
+   "Quick exploration",
+   "Visual outputs"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "rows",
+   "datawrapper"
+  ],
+  "tags": [
+   "data-analysis",
+   "charts",
+   "ai",
+   "spreadsheets"
+  ],
+  "features": [
+   "Chat-based data analysis",
+   "Chart generation",
+   "File upload",
+   "Plain language questions"
+  ],
+  "use_cases": [
+   "Summarizing a spreadsheet",
+   "Making quick charts",
+   "Exploring survey data"
+  ],
+  "pricing_details": "Pricing for Julius AI is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Julius AI used for?",
+    "a": "Julius AI is used for asking questions about an uploaded dataset. See the official site for the full scope."
+   },
+   {
+    "q": "Is Julius AI free?",
+    "a": "Pricing is not verified in this directory. Plans and free options change, so check the official site for the current details."
+   },
+   {
+    "q": "Should I double-check results from Julius AI?",
+    "a": "Yes. Review outputs on a small sample first, especially for work that affects other people, money or compliance."
+   }
+  ],
+  "seo_title": "Julius AI: What It Does and How to Use It",
+  "seo_description": "AI assistant for analyzing data and creating charts from conversation. Overview of Julius AI, features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "rows",
+  "name": "Rows",
+  "category": "productivity",
+  "website_url": "https://rows.com",
+  "pricing": "Unknown",
+  "tagline": "Spreadsheet with built-in data integrations and AI helpers.",
+  "best_for": "People who want a modern spreadsheet with data connections",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Rows is a web spreadsheet that adds data integrations, charting and AI features to the familiar grid. You can pull data from other services and build shareable reports from it.\n\nIt is a fit for people who find traditional spreadsheets limiting for reporting. As newer products change quickly, review current features on the official site. Features and plans change over time, so check the official site for current details.",
+  "use_steps": [
+   "Open the official site for Rows and read what it covers.",
+   "Sign up or install it, then try building a report from spreadsheet data on a small sample.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Familiar spreadsheet feel",
+   "Integrations built in",
+   "Web based"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "julius-ai",
+   "airtable"
+  ],
+  "tags": [
+   "spreadsheet",
+   "data",
+   "reporting",
+   "ai"
+  ],
+  "features": [
+   "Spreadsheet grid",
+   "Data integrations",
+   "Charts and reports",
+   "AI assistance"
+  ],
+  "use_cases": [
+   "Building a shareable report",
+   "Pulling data from services",
+   "Quick analysis"
+  ],
+  "pricing_details": "Pricing for Rows is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Rows used for?",
+    "a": "Rows is used for building a report from spreadsheet data. See the official site for the full scope."
+   },
+   {
+    "q": "Is Rows free?",
+    "a": "Pricing is not verified in this directory. Plans and free options change, so check the official site for the current details."
+   },
+   {
+    "q": "Should I double-check results from Rows?",
+    "a": "Yes. Review outputs on a small sample first, especially for work that affects other people, money or compliance."
+   }
+  ],
+  "seo_title": "Rows: What It Does and How to Use It",
+  "seo_description": "Spreadsheet with built-in data integrations and AI helpers. Overview of Rows, features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "gptzero",
+  "name": "GPTZero",
+  "category": "writing",
+  "website_url": "https://gptzero.me",
+  "pricing": "Unknown",
+  "tagline": "Tool that estimates whether text may have been written by AI.",
+  "best_for": "Educators and editors reviewing text",
+  "platforms": [
+   "Web"
+  ],
+  "description": "GPTZero is a detector that analyzes text and gives an estimate of whether it was likely produced by an AI model. Users paste or upload writing and read the report.\n\nIt is aimed at teachers and editors. Detection tools are not perfectly reliable and can produce false results, so scores should be one input among many, never proof on their own. Features and plans change over time, so check the official site for current details.",
+  "use_steps": [
+   "Open the official site for GPTZero and read what it covers.",
+   "Sign up or install it, then try checking a passage of text on a small sample.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Made for education use",
+   "Simple to try",
+   "Readable reports"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "originality-ai",
+   "copyleaks"
+  ],
+  "tags": [
+   "ai-detection",
+   "education",
+   "writing",
+   "text"
+  ],
+  "features": [
+   "Text analysis",
+   "Upload or paste input",
+   "Report output",
+   "Education-oriented tools"
+  ],
+  "use_cases": [
+   "Reviewing student work as one signal",
+   "Checking submissions",
+   "Editorial screening"
+  ],
+  "pricing_details": "Pricing for GPTZero is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is GPTZero used for?",
+    "a": "GPTZero is used for checking a passage of text. See the official site for the full scope."
+   },
+   {
+    "q": "Is GPTZero free?",
+    "a": "Pricing is not verified in this directory. Plans and free options change, so check the official site for the current details."
+   },
+   {
+    "q": "Should I double-check results from GPTZero?",
+    "a": "Yes. Review outputs on a small sample first, especially for work that affects other people, money or compliance."
+   }
+  ],
+  "seo_title": "GPTZero: What It Does and How to Use It",
+  "seo_description": "Tool that estimates whether text may have been written by AI. Overview of GPTZero, features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "originality-ai",
+  "name": "Originality.ai",
+  "category": "writing",
+  "website_url": "https://originality.ai",
+  "pricing": "Unknown",
+  "tagline": "AI content detection and plagiarism checking for publishers.",
+  "best_for": "Publishers and SEO teams reviewing content",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Originality.ai offers tools to check text for likely AI generation and for copied content. It is aimed at publishers, agencies and content teams screening writing.\n\nDetection results are estimates and can be wrong, so human judgement should stay in the loop. Teams often use such tools as a first filter rather than a verdict. Features and plans change over time, so check the official site for current details.",
+  "use_steps": [
+   "Open the official site for Originality.ai and read what it covers.",
+   "Sign up or install it, then try scanning an article before publishing on a small sample.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Publisher focus",
+   "Combines detection and plagiarism checks",
+   "Team workflows"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "gptzero",
+   "winston-ai"
+  ],
+  "tags": [
+   "ai-detection",
+   "plagiarism",
+   "content",
+   "editing"
+  ],
+  "features": [
+   "AI text detection",
+   "Plagiarism checking",
+   "Team use",
+   "Content scanning"
+  ],
+  "use_cases": [
+   "Screening freelance articles",
+   "Checking web content",
+   "Editorial quality control"
+  ],
+  "pricing_details": "Pricing for Originality.ai is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Originality.ai used for?",
+    "a": "Originality.ai is used for scanning an article before publishing. See the official site for the full scope."
+   },
+   {
+    "q": "Is Originality.ai free?",
+    "a": "Pricing is not verified in this directory. Plans and free options change, so check the official site for the current details."
+   },
+   {
+    "q": "Should I double-check results from Originality.ai?",
+    "a": "Yes. Review outputs on a small sample first, especially for work that affects other people, money or compliance."
+   }
+  ],
+  "seo_title": "Originality.ai: What It Does and How to Use It",
+  "seo_description": "AI content detection and plagiarism checking for publishers. Overview of Originality.ai, features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "copyleaks",
+  "name": "Copyleaks",
+  "category": "writing",
+  "website_url": "https://copyleaks.com",
+  "pricing": "Unknown",
+  "tagline": "Plagiarism and AI content detection for schools and businesses.",
+  "best_for": "Schools and companies checking text originality",
+  "platforms": [
+   "Web",
+   "API"
+  ],
+  "description": "Copyleaks provides plagiarism detection and AI content detection. Users submit documents and receive reports showing matched sources or flagged passages.\n\nIt is used in education and business, and offers an API for integration. Reports are indicators, not conclusions, and should be reviewed by a person. Features and plans change over time, so check the official site for current details.",
+  "use_steps": [
+   "Open the official site for Copyleaks and read what it covers.",
+   "Sign up or install it, then try checking a document for matches on a small sample.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Covers plagiarism and AI",
+   "API available",
+   "Used in education"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "originality-ai",
+   "gptzero"
+  ],
+  "tags": [
+   "plagiarism",
+   "ai-detection",
+   "education",
+   "api"
+  ],
+  "features": [
+   "Plagiarism reports",
+   "AI content detection",
+   "API integration",
+   "Document upload"
+  ],
+  "use_cases": [
+   "Checking essays",
+   "Reviewing published content",
+   "Integrating checks into a platform"
+  ],
+  "pricing_details": "Pricing for Copyleaks is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Copyleaks used for?",
+    "a": "Copyleaks is used for checking a document for matches. See the official site for the full scope."
+   },
+   {
+    "q": "Is Copyleaks free?",
+    "a": "Pricing is not verified in this directory. Plans and free options change, so check the official site for the current details."
+   },
+   {
+    "q": "Should I double-check results from Copyleaks?",
+    "a": "Yes. Review outputs on a small sample first, especially for work that affects other people, money or compliance."
+   }
+  ],
+  "seo_title": "Copyleaks: What It Does and How to Use It",
+  "seo_description": "Plagiarism and AI content detection for schools and businesses. Overview of Copyleaks, features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "winston-ai",
+  "name": "Winston AI",
+  "category": "writing",
+  "website_url": "https://gowinston.ai",
+  "pricing": "Unknown",
+  "tagline": "AI content detector with plagiarism checking.",
+  "best_for": "Teachers and publishers screening text",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Winston AI is a detector that estimates whether text was written by AI and also checks for plagiarism. Users upload documents and read a report.\n\nIt is aimed at education and publishing. Like all detectors, it can be wrong, so treat results as a prompt for review rather than final evidence. Features and plans change over time, so check the official site for current details.",
+  "use_steps": [
+   "Open the official site for Winston AI and read what it covers.",
+   "Sign up or install it, then try scanning a document for AI-written text on a small sample.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Simple workflow",
+   "Detection plus plagiarism",
+   "Report format"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "gptzero",
+   "copyleaks"
+  ],
+  "tags": [
+   "ai-detection",
+   "plagiarism",
+   "writing",
+   "education"
+  ],
+  "features": [
+   "AI detection",
+   "Plagiarism check",
+   "Document upload",
+   "Reports"
+  ],
+  "use_cases": [
+   "Reviewing assignments",
+   "Checking blog posts",
+   "Screening submissions"
+  ],
+  "pricing_details": "Pricing for Winston AI is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Winston AI used for?",
+    "a": "Winston AI is used for scanning a document for AI-written text. See the official site for the full scope."
+   },
+   {
+    "q": "Is Winston AI free?",
+    "a": "Pricing is not verified in this directory. Plans and free options change, so check the official site for the current details."
+   },
+   {
+    "q": "Should I double-check results from Winston AI?",
+    "a": "Yes. Review outputs on a small sample first, especially for work that affects other people, money or compliance."
+   }
+  ],
+  "seo_title": "Winston AI: What It Does and How to Use It",
+  "seo_description": "AI content detector with plagiarism checking. Overview of Winston AI, features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "hive-moderation",
+  "name": "Hive Moderation",
+  "category": "marketing",
+  "website_url": "https://hivemoderation.com",
+  "pricing": "Unknown",
+  "tagline": "AI content moderation and detection for platforms.",
+  "best_for": "Platforms that need to moderate user content",
+  "platforms": [
+   "Web",
+   "API"
+  ],
+  "description": "Hive offers AI models for content moderation, helping platforms classify images, video, text and audio for policy issues. It also provides tools aimed at detecting AI-generated media.\n\nIt is built for companies running user-generated content services. Individuals will mostly see it through demos, since it is an integration-focused business product. Features and plans change over time, so check the official site for current details.",
+  "use_steps": [
+   "Open the official site for Hive Moderation and read what it covers.",
+   "Sign up or install it, then try classifying user-generated content on a small sample.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Covers multiple media types",
+   "API based",
+   "Platform focus"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "copyleaks",
+   "gptzero"
+  ],
+  "tags": [
+   "moderation",
+   "safety",
+   "api",
+   "detection"
+  ],
+  "features": [
+   "Content classification",
+   "Moderation API",
+   "Media analysis",
+   "AI-generated content detection"
+  ],
+  "use_cases": [
+   "Moderating user uploads",
+   "Flagging policy violations",
+   "Screening media"
+  ],
+  "pricing_details": "Pricing for Hive Moderation is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Hive Moderation used for?",
+    "a": "Hive Moderation is used for classifying user-generated content. See the official site for the full scope."
+   },
+   {
+    "q": "Is Hive Moderation free?",
+    "a": "Pricing is not verified in this directory. Plans and free options change, so check the official site for the current details."
+   },
+   {
+    "q": "Should I double-check results from Hive Moderation?",
+    "a": "Yes. Review outputs on a small sample first, especially for work that affects other people, money or compliance."
+   }
+  ],
+  "seo_title": "Hive Moderation: What It Does and How to Use It",
+  "seo_description": "AI content moderation and detection for platforms. Overview of Hive Moderation, features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "promptbase",
+  "name": "PromptBase",
+  "category": "marketing",
+  "website_url": "https://promptbase.com",
+  "pricing": "Unknown",
+  "tagline": "Marketplace for buying and selling AI prompts.",
+  "best_for": "People looking for ready-made prompts",
+  "platforms": [
+   "Web"
+  ],
+  "description": "PromptBase is a marketplace where creators sell prompts for AI models and buyers browse them. Listings cover areas such as images and text generation.\n\nIt can save time if you want a tested starting point, though you should judge quality yourself. Terms and fees are on the official site. Features and plans change over time, so check the official site for current details.",
+  "use_steps": [
+   "Open the official site for PromptBase and read what it covers.",
+   "Sign up or install it, then try browsing and buying prompts on a small sample.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Large variety of prompts",
+   "Learn from others",
+   "Two-sided marketplace"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "flowise",
+   "promptlayer"
+  ],
+  "tags": [
+   "prompts",
+   "marketplace",
+   "ai",
+   "creators"
+  ],
+  "features": [
+   "Prompt marketplace",
+   "Browse by model",
+   "Seller listings",
+   "Buyer accounts"
+  ],
+  "use_cases": [
+   "Finding image prompts",
+   "Selling your own prompts",
+   "Learning prompt styles"
+  ],
+  "pricing_details": "Pricing for PromptBase is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is PromptBase used for?",
+    "a": "PromptBase is used for browsing and buying prompts. See the official site for the full scope."
+   },
+   {
+    "q": "Is PromptBase free?",
+    "a": "Pricing is not verified in this directory. Plans and free options change, so check the official site for the current details."
+   },
+   {
+    "q": "Should I double-check results from PromptBase?",
+    "a": "Yes. Review outputs on a small sample first, especially for work that affects other people, money or compliance."
+   }
+  ],
+  "seo_title": "PromptBase: What It Does and How to Use It",
+  "seo_description": "Marketplace for buying and selling AI prompts. Overview of PromptBase, features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "promptlayer",
+  "name": "PromptLayer",
+  "category": "coding",
+  "website_url": "https://www.promptlayer.com",
+  "pricing": "Unknown",
+  "tagline": "Tool for managing, versioning and monitoring LLM prompts.",
+  "best_for": "Teams building LLM apps who need prompt management",
+  "platforms": [
+   "Web",
+   "API"
+  ],
+  "description": "PromptLayer is a platform for managing prompts used in LLM applications. It helps teams version prompts, log requests and review how prompts behave.\n\nIt is useful when prompts are edited by several people or when you want a history of changes. Developers connect it through an SDK, so it suits technical teams. Features and plans change over time, so check the official site for current details.",
+  "use_steps": [
+   "Open the official site for PromptLayer and read what it covers.",
+   "Sign up or install it, then try versioning and tracking prompts on a small sample.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Prompt history",
+   "Team collaboration",
+   "Developer integration"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "promptfoo",
+   "langchain"
+  ],
+  "tags": [
+   "prompts",
+   "llmops",
+   "logging",
+   "api"
+  ],
+  "features": [
+   "Prompt versioning",
+   "Request logging",
+   "Collaboration",
+   "SDK integration"
+  ],
+  "use_cases": [
+   "Tracking prompt changes",
+   "Reviewing model requests",
+   "Sharing prompts with a team"
+  ],
+  "pricing_details": "Pricing for PromptLayer is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is PromptLayer used for?",
+    "a": "PromptLayer is used for versioning and tracking prompts. See the official site for the full scope."
+   },
+   {
+    "q": "Is PromptLayer free?",
+    "a": "Pricing is not verified in this directory. Plans and free options change, so check the official site for the current details."
+   },
+   {
+    "q": "Should I double-check results from PromptLayer?",
+    "a": "Yes. Review outputs on a small sample first, especially for work that affects other people, money or compliance."
+   }
+  ],
+  "seo_title": "PromptLayer: What It Does and How to Use It",
+  "seo_description": "Tool for managing, versioning and monitoring LLM prompts. Overview of PromptLayer, features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "promptfoo",
+  "name": "Promptfoo",
+  "category": "coding",
+  "website_url": "https://www.promptfoo.dev",
+  "pricing": "Open source",
+  "tagline": "Open-source tool for testing and evaluating LLM prompts.",
+  "best_for": "Developers who want repeatable prompt tests",
+  "platforms": [
+   "CLI",
+   "Web"
+  ],
+  "description": "Promptfoo is an open-source tool for evaluating prompts and models. You define test cases and run them across different prompts or models, then compare the results.\n\nIt also supports red-teaming style checks for LLM apps. It is command-line oriented, so it suits developers comfortable with config files. Features and plans change over time, so check the official site for current details.",
+  "use_steps": [
+   "Open the official site for Promptfoo and read what it covers.",
+   "Sign up or install it, then try running tests on prompts on a small sample.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Open source",
+   "Repeatable tests",
+   "Compares models"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "promptlayer",
+   "langchain"
+  ],
+  "tags": [
+   "evaluation",
+   "testing",
+   "open-source",
+   "llm"
+  ],
+  "features": [
+   "Prompt evaluation",
+   "Model comparison",
+   "Test cases",
+   "Red-team testing"
+  ],
+  "use_cases": [
+   "Comparing two prompts",
+   "Regression tests for an LLM app",
+   "Checking model safety behavior"
+  ],
+  "pricing_details": "Promptfoo is listed as open source here, but plans, limits and terms change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Promptfoo used for?",
+    "a": "Promptfoo is used for running tests on prompts. See the official site for the full scope."
+   },
+   {
+    "q": "Is Promptfoo free?",
+    "a": "Pricing is not verified in this directory. Plans and free options change, so check the official site for the current details."
+   },
+   {
+    "q": "Should I double-check results from Promptfoo?",
+    "a": "Yes. Review outputs on a small sample first, especially for work that affects other people, money or compliance."
+   }
+  ],
+  "seo_title": "Promptfoo: What It Does and How to Use It",
+  "seo_description": "Open-source tool for testing and evaluating LLM prompts. Overview of Promptfoo, features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "flowise",
+  "name": "Flowise",
+  "category": "coding",
+  "website_url": "https://flowiseai.com",
+  "pricing": "Open source",
+  "tagline": "Open-source visual builder for LLM apps and chatbots.",
+  "best_for": "Builders who prefer drag-and-drop LLM workflows",
+  "platforms": [
+   "Web",
+   "Self-hosted"
+  ],
+  "description": "Flowise is an open-source tool for building LLM applications visually. You connect components on a canvas to create chatbots and workflows without writing everything from scratch.\n\nIt can be self-hosted and works with common LLM tooling. It suits prototypers who want to see their flow, though production use needs careful setup. Features and plans change over time, so check the official site for current details.",
+  "use_steps": [
+   "Open the official site for Flowise and read what it covers.",
+   "Sign up or install it, then try building a chatbot flow on a canvas on a small sample.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Open source",
+   "Visual building",
+   "Self-hostable"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "langflow",
+   "dify"
+  ],
+  "tags": [
+   "no-code",
+   "llm",
+   "open-source",
+   "chatbot"
+  ],
+  "features": [
+   "Visual flow builder",
+   "Chatbot creation",
+   "Self-hosting",
+   "Component library"
+  ],
+  "use_cases": [
+   "Prototyping a chatbot",
+   "Document question answering",
+   "Linking models to tools"
+  ],
+  "pricing_details": "Flowise is listed as open source here, but plans, limits and terms change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Flowise used for?",
+    "a": "Flowise is used for building a chatbot flow on a canvas. See the official site for the full scope."
+   },
+   {
+    "q": "Is Flowise free?",
+    "a": "Pricing is not verified in this directory. Plans and free options change, so check the official site for the current details."
+   },
+   {
+    "q": "Should I double-check results from Flowise?",
+    "a": "Yes. Review outputs on a small sample first, especially for work that affects other people, money or compliance."
+   }
+  ],
+  "seo_title": "Flowise: What It Does and How to Use It",
+  "seo_description": "Open-source visual builder for LLM apps and chatbots. Overview of Flowise, features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "langflow",
+  "name": "Langflow",
+  "category": "coding",
+  "website_url": "https://www.langflow.org",
+  "pricing": "Open source",
+  "tagline": "Open-source visual framework for building AI agents and workflows.",
+  "best_for": "Developers prototyping agent and RAG flows",
+  "platforms": [
+   "Web",
+   "Self-hosted"
+  ],
+  "description": "Langflow is an open-source visual tool for assembling AI workflows. You drag components onto a canvas, connect them and run the resulting flow.\n\nIt is popular for prototyping retrieval and agent ideas, and flows can be exposed through an API. Check the documentation for how to deploy it. Features and plans change over time, so check the official site for current details.",
+  "use_steps": [
+   "Open the official site for Langflow and read what it covers.",
+   "Sign up or install it, then try assembling an AI workflow visually on a small sample.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Open source",
+   "Visual prototyping",
+   "Flexible components"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "flowise",
+   "dify"
+  ],
+  "tags": [
+   "agents",
+   "low-code",
+   "open-source",
+   "rag"
+  ],
+  "features": [
+   "Visual canvas",
+   "Agent workflows",
+   "API exposure",
+   "Open source codebase"
+  ],
+  "use_cases": [
+   "Prototyping RAG apps",
+   "Testing agent ideas",
+   "Sharing flows"
+  ],
+  "pricing_details": "Langflow is listed as open source here, but plans, limits and terms change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Langflow used for?",
+    "a": "Langflow is used for assembling an AI workflow visually. See the official site for the full scope."
+   },
+   {
+    "q": "Is Langflow free?",
+    "a": "Pricing is not verified in this directory. Plans and free options change, so check the official site for the current details."
+   },
+   {
+    "q": "Should I double-check results from Langflow?",
+    "a": "Yes. Review outputs on a small sample first, especially for work that affects other people, money or compliance."
+   }
+  ],
+  "seo_title": "Langflow: What It Does and How to Use It",
+  "seo_description": "Open-source visual framework for building AI agents and workflows. Overview of Langflow, features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "dify",
+  "name": "Dify",
+  "category": "coding",
+  "website_url": "https://dify.ai",
+  "pricing": "Unknown",
+  "tagline": "Platform for building and operating LLM applications and agents.",
+  "best_for": "Teams building AI apps with a visual workflow",
+  "platforms": [
+   "Web",
+   "Self-hosted"
+  ],
+  "description": "Dify is a platform for creating LLM-powered applications. It provides a visual workflow editor, knowledge base tools and model management in one interface.\n\nIt offers an open-source version as well as a hosted service. Teams use it to move from idea to working app without building every layer themselves. Features and plans change over time, so check the official site for current details.",
+  "use_steps": [
+   "Open the official site for Dify and read what it covers.",
+   "Sign up or install it, then try building an LLM app in a visual editor on a small sample.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "All-in-one platform",
+   "Visual editor",
+   "Open source option exists"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "flowise",
+   "langflow"
+  ],
+  "tags": [
+   "llm",
+   "agents",
+   "workflow",
+   "low-code"
+  ],
+  "features": [
+   "Visual workflows",
+   "Knowledge base",
+   "Model management",
+   "App publishing"
+  ],
+  "use_cases": [
+   "Building a support chatbot",
+   "Agent prototypes",
+   "Internal AI tools"
+  ],
+  "pricing_details": "Pricing for Dify is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Dify used for?",
+    "a": "Dify is used for building an LLM app in a visual editor. See the official site for the full scope."
+   },
+   {
+    "q": "Is Dify free?",
+    "a": "Pricing is not verified in this directory. Plans and free options change, so check the official site for the current details."
+   },
+   {
+    "q": "Should I double-check results from Dify?",
+    "a": "Yes. Review outputs on a small sample first, especially for work that affects other people, money or compliance."
+   }
+  ],
+  "seo_title": "Dify: What It Does and How to Use It",
+  "seo_description": "Platform for building and operating LLM applications and agents. Overview of Dify, features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "langchain",
+  "name": "LangChain",
+  "category": "coding",
+  "website_url": "https://www.langchain.com",
+  "pricing": "Unknown",
+  "tagline": "Framework and tools for building applications with language models.",
+  "best_for": "Developers building LLM-powered apps",
+  "platforms": [
+   "Python",
+   "JavaScript"
+  ],
+  "description": "LangChain is a framework with libraries for building applications around language models. It provides building blocks for prompts, retrieval, tools and agents.\n\nThe company also offers related products for tracing and evaluation. It is a developer tool, so it assumes programming knowledge. Features and plans change over time, so check the official site for current details.",
+  "use_steps": [
+   "Open the official site for LangChain and read what it covers.",
+   "Sign up or install it, then try building an app around a language model on a small sample.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Large ecosystem",
+   "Many integrations",
+   "Active documentation"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "promptfoo",
+   "flowise"
+  ],
+  "tags": [
+   "llm",
+   "framework",
+   "agents",
+   "python"
+  ],
+  "features": [
+   "LLM application framework",
+   "Retrieval components",
+   "Agent building blocks",
+   "Tracing tools"
+  ],
+  "use_cases": [
+   "Building a RAG app",
+   "Creating an agent",
+   "Connecting models to tools"
+  ],
+  "pricing_details": "Pricing for LangChain is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is LangChain used for?",
+    "a": "LangChain is used for building an app around a language model. See the official site for the full scope."
+   },
+   {
+    "q": "Is LangChain free?",
+    "a": "Pricing is not verified in this directory. Plans and free options change, so check the official site for the current details."
+   },
+   {
+    "q": "Should I double-check results from LangChain?",
+    "a": "Yes. Review outputs on a small sample first, especially for work that affects other people, money or compliance."
+   }
+  ],
+  "seo_title": "LangChain: What It Does and How to Use It",
+  "seo_description": "Framework and tools for building applications with language models. Overview of LangChain, features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "inworld-ai",
+  "name": "Inworld AI",
+  "category": "coding",
+  "website_url": "https://inworld.ai",
+  "pricing": "Unknown",
+  "tagline": "Platform for AI-driven characters and conversational game NPCs.",
+  "best_for": "Game developers creating talking characters",
+  "platforms": [
+   "Web",
+   "API"
+  ],
+  "description": "Inworld is a platform for building AI characters that can converse with players. Developers define a character's personality and connect it to a game or app.\n\nIt targets game studios and interactive experiences. Integration details depend on your engine, so read the documentation. Features and plans change over time, so check the official site for current details.",
+  "use_steps": [
+   "Open the official site for Inworld AI and read what it covers.",
+   "Sign up or install it, then try creating a talking character on a small sample.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Character focus",
+   "Game-oriented",
+   "Developer tools"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "convai",
+   "character-ai"
+  ],
+  "tags": [
+   "npc",
+   "games",
+   "characters",
+   "ai"
+  ],
+  "features": [
+   "Character creation",
+   "Conversational AI",
+   "Game engine integration",
+   "API"
+  ],
+  "use_cases": [
+   "Interactive NPCs",
+   "Virtual companions",
+   "Prototype game characters"
+  ],
+  "pricing_details": "Pricing for Inworld AI is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Inworld AI used for?",
+    "a": "Inworld AI is used for creating a talking character. See the official site for the full scope."
+   },
+   {
+    "q": "Is Inworld AI free?",
+    "a": "Pricing is not verified in this directory. Plans and free options change, so check the official site for the current details."
+   },
+   {
+    "q": "Should I double-check results from Inworld AI?",
+    "a": "Yes. Review outputs on a small sample first, especially for work that affects other people, money or compliance."
+   }
+  ],
+  "seo_title": "Inworld AI: What It Does and How to Use It",
+  "seo_description": "Platform for AI-driven characters and conversational game NPCs. Overview of Inworld AI, features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "convai",
+  "name": "Convai",
+  "category": "coding",
+  "website_url": "https://convai.com",
+  "pricing": "Unknown",
+  "tagline": "Conversational AI for game characters and virtual worlds.",
+  "best_for": "Developers adding voice characters to 3D worlds",
+  "platforms": [
+   "Web",
+   "API"
+  ],
+  "description": "Convai provides conversational AI aimed at characters in games and virtual environments. Developers create characters and connect them to engines like Unity or Unreal.\n\nIt supports interactive experiences where characters can speak. Check the official documentation for supported platforms. Features and plans change over time, so check the official site for current details.",
+  "use_steps": [
+   "Open the official site for Convai and read what it covers.",
+   "Sign up or install it, then try adding a conversational character to a game on a small sample.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Aimed at 3D environments",
+   "Voice-enabled characters",
+   "Engine integrations"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "inworld-ai",
+   "character-ai"
+  ],
+  "tags": [
+   "npc",
+   "games",
+   "voice",
+   "ai"
+  ],
+  "features": [
+   "Character creation",
+   "Voice interaction",
+   "Engine plugins",
+   "API access"
+  ],
+  "use_cases": [
+   "NPC dialogue",
+   "Virtual guides",
+   "Training simulations"
+  ],
+  "pricing_details": "Pricing for Convai is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Convai used for?",
+    "a": "Convai is used for adding a conversational character to a game. See the official site for the full scope."
+   },
+   {
+    "q": "Is Convai free?",
+    "a": "Pricing is not verified in this directory. Plans and free options change, so check the official site for the current details."
+   },
+   {
+    "q": "Should I double-check results from Convai?",
+    "a": "Yes. Review outputs on a small sample first, especially for work that affects other people, money or compliance."
+   }
+  ],
+  "seo_title": "Convai: What It Does and How to Use It",
+  "seo_description": "Conversational AI for game characters and virtual worlds. Overview of Convai, features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "articulate-360",
+  "name": "Articulate 360",
+  "category": "study",
+  "website_url": "https://articulate.com",
+  "pricing": "Unknown",
+  "tagline": "Suite for creating e-learning courses and training content.",
+  "best_for": "Instructional designers building online courses",
+  "platforms": [
+   "Windows",
+   "Web"
+  ],
+  "description": "Articulate 360 is a suite of tools for making e-learning content. Designers build interactive courses, quizzes and scenarios and publish them to learning platforms.\n\nIt is widely used in corporate training. The suite includes authoring tools and review features, so check current contents on the official site. Features and plans change over time, so check the official site for current details.",
+  "use_steps": [
+   "Open the official site for Articulate 360 and read what it covers.",
+   "Sign up or install it, then try authoring an interactive course on a small sample.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Common in e-learning",
+   "Interactive content",
+   "Review tools"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "moodle",
+   "coursera"
+  ],
+  "tags": [
+   "e-learning",
+   "courses",
+   "training",
+   "authoring"
+  ],
+  "features": [
+   "Course authoring",
+   "Interactive quizzes",
+   "Content review",
+   "Publishing options"
+  ],
+  "use_cases": [
+   "Corporate training courses",
+   "Compliance modules",
+   "Interactive lessons"
+  ],
+  "pricing_details": "Pricing for Articulate 360 is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Articulate 360 used for?",
+    "a": "Articulate 360 is used for authoring an interactive course. See the official site for the full scope."
+   },
+   {
+    "q": "Is Articulate 360 free?",
+    "a": "Pricing is not verified in this directory. Plans and free options change, so check the official site for the current details."
+   },
+   {
+    "q": "Should I double-check results from Articulate 360?",
+    "a": "Yes. Review outputs on a small sample first, especially for work that affects other people, money or compliance."
+   }
+  ],
+  "seo_title": "Articulate 360: What It Does and How to Use It",
+  "seo_description": "Suite for creating e-learning courses and training content. Overview of Articulate 360, features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "layla-ai",
+  "name": "Layla",
+  "category": "productivity",
+  "website_url": "https://layla.ai",
+  "pricing": "Unknown",
+  "tagline": "AI travel planner that suggests itineraries.",
+  "best_for": "Travelers drafting trip plans",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Layla is an AI travel assistant that helps draft itineraries and suggest places. You describe your trip and it proposes a plan you can adjust.\n\nIt is best used as a starting point. Verify opening hours, prices and bookings with official sources before traveling. Features and plans change over time, so check the official site for current details.",
+  "use_steps": [
+   "Open the official site for Layla and read what it covers.",
+   "Sign up or install it, then try drafting a travel itinerary on a small sample.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Quick drafts",
+   "Conversational",
+   "Idea generation"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "mindtrip",
+   "wonderplan"
+  ],
+  "tags": [
+   "travel",
+   "itinerary",
+   "planning",
+   "ai"
+  ],
+  "features": [
+   "Itinerary suggestions",
+   "Chat planning",
+   "Destination ideas",
+   "Trip adjustments"
+  ],
+  "use_cases": [
+   "First draft of a trip",
+   "Finding destination ideas",
+   "Planning a weekend"
+  ],
+  "pricing_details": "Pricing for Layla is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Layla used for?",
+    "a": "Layla is used for drafting a travel itinerary. See the official site for the full scope."
+   },
+   {
+    "q": "Is Layla free?",
+    "a": "Pricing is not verified in this directory. Plans and free options change, so check the official site for the current details."
+   },
+   {
+    "q": "Should I double-check results from Layla?",
+    "a": "Yes. Review outputs on a small sample first, especially for work that affects other people, money or compliance."
+   }
+  ],
+  "seo_title": "Layla: What It Does and How to Use It",
+  "seo_description": "AI travel planner that suggests itineraries. Overview of Layla, features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "mindtrip",
+  "name": "Mindtrip",
+  "category": "productivity",
+  "website_url": "https://mindtrip.ai",
+  "pricing": "Unknown",
+  "tagline": "AI travel planning tool with chat and map views.",
+  "best_for": "Travelers who want a visual trip plan",
+  "platforms": [
+   "Web",
+   "iOS"
+  ],
+  "description": "Mindtrip is an AI-based travel planner that combines chat suggestions with a map and saved places. You describe preferences and collect ideas into a trip.\n\nIt is for early planning and organizing. Confirm details like hours and availability on official booking pages. Features and plans change over time, so check the official site for current details.",
+  "use_steps": [
+   "Open the official site for Mindtrip and read what it covers.",
+   "Sign up or install it, then try planning a trip with chat and a map on a small sample.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Visual planning",
+   "Conversational",
+   "Organizes ideas"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "layla-ai",
+   "wonderplan"
+  ],
+  "tags": [
+   "travel",
+   "planning",
+   "maps",
+   "ai"
+  ],
+  "features": [
+   "Chat planning",
+   "Map view",
+   "Saved places",
+   "Trip organization"
+  ],
+  "use_cases": [
+   "Planning a city break",
+   "Collecting ideas",
+   "Comparing options"
+  ],
+  "pricing_details": "Pricing for Mindtrip is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Mindtrip used for?",
+    "a": "Mindtrip is used for planning a trip with chat and a map. See the official site for the full scope."
+   },
+   {
+    "q": "Is Mindtrip free?",
+    "a": "Pricing is not verified in this directory. Plans and free options change, so check the official site for the current details."
+   },
+   {
+    "q": "Should I double-check results from Mindtrip?",
+    "a": "Yes. Review outputs on a small sample first, especially for work that affects other people, money or compliance."
+   }
+  ],
+  "seo_title": "Mindtrip: What It Does and How to Use It",
+  "seo_description": "AI travel planning tool with chat and map views. Overview of Mindtrip, features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "wonderplan",
+  "name": "Wonderplan",
+  "category": "productivity",
+  "website_url": "https://wonderplan.ai",
+  "pricing": "Unknown",
+  "tagline": "AI itinerary generator for trips.",
+  "best_for": "People who want a quick day-by-day plan",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Wonderplan generates travel itineraries from a destination and trip length. The plan lists places by day and can be edited.\n\nIt is a fast way to get a draft. Check each suggestion against current information before relying on it. Features and plans change over time, so check the official site for current details.",
+  "use_steps": [
+   "Open the official site for Wonderplan and read what it covers.",
+   "Sign up or install it, then try generating a day-by-day itinerary on a small sample.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Fast",
+   "Simple input",
+   "Editable"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "layla-ai",
+   "mindtrip"
+  ],
+  "tags": [
+   "travel",
+   "itinerary",
+   "planning",
+   "ai"
+  ],
+  "features": [
+   "Itinerary generation",
+   "Day-by-day plans",
+   "Editable plans",
+   "Destination input"
+  ],
+  "use_cases": [
+   "Quick trip drafts",
+   "Comparing destinations",
+   "Sharing a plan"
+  ],
+  "pricing_details": "Pricing for Wonderplan is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Wonderplan used for?",
+    "a": "Wonderplan is used for generating a day-by-day itinerary. See the official site for the full scope."
+   },
+   {
+    "q": "Is Wonderplan free?",
+    "a": "Pricing is not verified in this directory. Plans and free options change, so check the official site for the current details."
+   },
+   {
+    "q": "Should I double-check results from Wonderplan?",
+    "a": "Yes. Review outputs on a small sample first, especially for work that affects other people, money or compliance."
+   }
+  ],
+  "seo_title": "Wonderplan: What It Does and How to Use It",
+  "seo_description": "AI itinerary generator for trips. Overview of Wonderplan, features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "virtual-staging-ai",
+  "name": "Virtual Staging AI",
+  "category": "design",
+  "website_url": "https://www.virtualstagingai.app",
+  "pricing": "Unknown",
+  "tagline": "Tool for digitally furnishing photos of empty rooms.",
+  "best_for": "Real estate agents preparing listing photos",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Virtual Staging AI lets you upload a photo of an empty room and generate a furnished version in a chosen style. It is used for property listings.\n\nListings that use staged images should usually disclose it, and rules vary by area. Check the official site for current features. Features and plans change over time, so check the official site for current details.",
+  "use_steps": [
+   "Open the official site for Virtual Staging AI and read what it covers.",
+   "Sign up or install it, then try furnishing a photo of an empty room on a small sample.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Fast mockups",
+   "Style options",
+   "Simple workflow"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "canva",
+   "photoroom"
+  ],
+  "tags": [
+   "real-estate",
+   "staging",
+   "images",
+   "design"
+  ],
+  "features": [
+   "Photo upload",
+   "Style choices",
+   "AI furnishing",
+   "Image export"
+  ],
+  "use_cases": [
+   "Listing photos",
+   "Showing room potential",
+   "Comparing styles"
+  ],
+  "pricing_details": "Pricing for Virtual Staging AI is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Virtual Staging AI used for?",
+    "a": "Virtual Staging AI is used for furnishing a photo of an empty room. See the official site for the full scope."
+   },
+   {
+    "q": "Is Virtual Staging AI free?",
+    "a": "Pricing is not verified in this directory. Plans and free options change, so check the official site for the current details."
+   },
+   {
+    "q": "Should I double-check results from Virtual Staging AI?",
+    "a": "Yes. Review outputs on a small sample first, especially for work that affects other people, money or compliance."
+   }
+  ],
+  "seo_title": "Virtual Staging AI: What It Does and How to Use It",
+  "seo_description": "Tool for digitally furnishing photos of empty rooms. Overview of Virtual Staging AI, features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "abridge",
+  "name": "Abridge",
+  "category": "productivity",
+  "website_url": "https://www.abridge.com",
+  "pricing": "Unknown",
+  "tagline": "AI tool that turns clinical conversations into notes.",
+  "best_for": "Healthcare organizations reducing documentation work",
+  "platforms": [
+   "Web",
+   "iOS"
+  ],
+  "description": "Abridge is a healthcare documentation tool that records clinical conversations and drafts notes for clinicians to review. It is built for health systems.\n\nClinicians remain responsible for reviewing notes. It is sold to organizations, so access usually goes through an institution. Features and plans change over time, so check the official site for current details.",
+  "use_steps": [
+   "Open the official site for Abridge and read what it covers.",
+   "Sign up or install it, then try drafting clinical notes on a small sample.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Healthcare focus",
+   "Reduces typing",
+   "Review step"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "heidi-health",
+   "suki"
+  ],
+  "tags": [
+   "healthcare",
+   "notes",
+   "documentation",
+   "ai"
+  ],
+  "features": [
+   "Conversation capture",
+   "Note drafting",
+   "Clinician review",
+   "Health system integration"
+  ],
+  "use_cases": [
+   "Drafting visit notes",
+   "Reducing paperwork",
+   "Documenting conversations"
+  ],
+  "pricing_details": "Pricing for Abridge is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Abridge used for?",
+    "a": "Abridge is used for drafting clinical notes. See the official site for the full scope."
+   },
+   {
+    "q": "Is Abridge free?",
+    "a": "Pricing is not verified in this directory. Plans and free options change, so check the official site for the current details."
+   },
+   {
+    "q": "Should I double-check results from Abridge?",
+    "a": "Yes. Review outputs on a small sample first, especially for work that affects other people, money or compliance."
+   }
+  ],
+  "seo_title": "Abridge: What It Does and How to Use It",
+  "seo_description": "AI tool that turns clinical conversations into notes. Overview of Abridge, features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "heidi-health",
+  "name": "Heidi Health",
+  "category": "productivity",
+  "website_url": "https://www.heidihealth.com",
+  "pricing": "Unknown",
+  "tagline": "AI scribe for clinicians that drafts notes and documents.",
+  "best_for": "Clinicians who want help with documentation",
+  "platforms": [
+   "Web",
+   "iOS"
+  ],
+  "description": "Heidi is an AI scribe that listens to consultations and drafts notes and related documents for clinicians to edit.\n\nClinicians must review all outputs and follow local privacy rules. Features vary, so check the official site. Features and plans change over time, so check the official site for current details.",
+  "use_steps": [
+   "Open the official site for Heidi Health and read what it covers.",
+   "Sign up or install it, then try drafting a consultation note on a small sample.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Saves typing time",
+   "Customizable",
+   "Clinician-focused"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "abridge",
+   "suki"
+  ],
+  "tags": [
+   "healthcare",
+   "scribe",
+   "notes",
+   "ai"
+  ],
+  "features": [
+   "AI scribe",
+   "Note drafting",
+   "Template options",
+   "Document generation"
+  ],
+  "use_cases": [
+   "Visit notes",
+   "Referral letters",
+   "Summaries"
+  ],
+  "pricing_details": "Pricing for Heidi Health is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Heidi Health used for?",
+    "a": "Heidi Health is used for drafting a consultation note. See the official site for the full scope."
+   },
+   {
+    "q": "Is Heidi Health free?",
+    "a": "Pricing is not verified in this directory. Plans and free options change, so check the official site for the current details."
+   },
+   {
+    "q": "Should I double-check results from Heidi Health?",
+    "a": "Yes. Review outputs on a small sample first, especially for work that affects other people, money or compliance."
+   }
+  ],
+  "seo_title": "Heidi Health: What It Does and How to Use It",
+  "seo_description": "AI scribe for clinicians that drafts notes and documents. Overview of Heidi Health, features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "suki",
+  "name": "Suki",
+  "category": "productivity",
+  "website_url": "https://www.suki.ai",
+  "pricing": "Unknown",
+  "tagline": "Voice-based AI assistant for clinical documentation.",
+  "best_for": "Clinicians dictating notes",
+  "platforms": [
+   "Web",
+   "iOS"
+  ],
+  "description": "Suki offers a voice assistant for clinical documentation. Clinicians speak and the tool helps create notes in their workflow.\n\nIt is sold mainly to healthcare organizations. Integration with record systems is part of evaluating it. Features and plans change over time, so check the official site for current details.",
+  "use_steps": [
+   "Open the official site for Suki and read what it covers.",
+   "Sign up or install it, then try dictating a clinical note on a small sample.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Voice-first",
+   "Healthcare focus",
+   "Workflow integration"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "abridge",
+   "heidi-health"
+  ],
+  "tags": [
+   "healthcare",
+   "voice",
+   "documentation",
+   "ai"
+  ],
+  "features": [
+   "Voice dictation",
+   "Note creation",
+   "Record integration",
+   "Clinician workflows"
+  ],
+  "use_cases": [
+   "Dictating notes",
+   "Reducing admin",
+   "Updating records"
+  ],
+  "pricing_details": "Pricing for Suki is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Suki used for?",
+    "a": "Suki is used for dictating a clinical note. See the official site for the full scope."
+   },
+   {
+    "q": "Is Suki free?",
+    "a": "Pricing is not verified in this directory. Plans and free options change, so check the official site for the current details."
+   },
+   {
+    "q": "Should I double-check results from Suki?",
+    "a": "Yes. Review outputs on a small sample first, especially for work that affects other people, money or compliance."
+   }
+  ],
+  "seo_title": "Suki: What It Does and How to Use It",
+  "seo_description": "Voice-based AI assistant for clinical documentation. Overview of Suki, features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "rosebud",
+  "name": "Rosebud",
+  "category": "productivity",
+  "website_url": "https://www.rosebud.app",
+  "pricing": "Unknown",
+  "tagline": "AI-assisted journaling app with prompts and reflections.",
+  "best_for": "People who want guided journaling",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "Rosebud is a journaling app that uses AI to ask follow-up questions and offer reflections as you write.\n\nIt is not a replacement for professional mental health care. Consider privacy settings before writing sensitive content. Features and plans change over time, so check the official site for current details.",
+  "use_steps": [
+   "Open the official site for Rosebud and read what it covers.",
+   "Sign up or install it, then try writing a journal entry on a small sample.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Guided prompts",
+   "Easy to start",
+   "Reflection support"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "notion",
+   "obsidian"
+  ],
+  "tags": [
+   "journaling",
+   "wellbeing",
+   "ai",
+   "notes"
+  ],
+  "features": [
+   "Guided journaling",
+   "AI follow-up questions",
+   "Reflections",
+   "Entry history"
+  ],
+  "use_cases": [
+   "Daily journaling",
+   "Reflecting on a week",
+   "Building a habit"
+  ],
+  "pricing_details": "Pricing for Rosebud is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Rosebud used for?",
+    "a": "Rosebud is used for writing a journal entry. See the official site for the full scope."
+   },
+   {
+    "q": "Is Rosebud free?",
+    "a": "Pricing is not verified in this directory. Plans and free options change, so check the official site for the current details."
+   },
+   {
+    "q": "Should I double-check results from Rosebud?",
+    "a": "Yes. Review outputs on a small sample first, especially for work that affects other people, money or compliance."
+   }
+  ],
+  "seo_title": "Rosebud: What It Does and How to Use It",
+  "seo_description": "AI-assisted journaling app with prompts and reflections. Overview of Rosebud, features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "plantix",
+  "name": "Plantix",
+  "category": "research",
+  "website_url": "https://plantix.net",
+  "pricing": "Unknown",
+  "tagline": "Mobile app that helps farmers identify crop problems from photos.",
+  "best_for": "Farmers and gardeners diagnosing plant issues",
+  "platforms": [
+   "Android",
+   "iOS"
+  ],
+  "description": "Plantix is an app where you photograph a plant and get suggestions about possible diseases, pests or deficiencies.\n\nSuggestions are guidance only and should be confirmed with local experts. Coverage depends on crops and regions. Features and plans change over time, so check the official site for current details.",
+  "use_steps": [
+   "Open the official site for Plantix and read what it covers.",
+   "Sign up or install it, then try diagnosing a plant problem from a photo on a small sample.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Photo based",
+   "Mobile friendly",
+   "Crop focus"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "farmonaut",
+   "google-lens"
+  ],
+  "tags": [
+   "agriculture",
+   "plants",
+   "mobile",
+   "diagnosis"
+  ],
+  "features": [
+   "Photo-based diagnosis",
+   "Crop advice",
+   "Mobile app",
+   "Community features"
+  ],
+  "use_cases": [
+   "Checking a sick crop",
+   "Learning about pests",
+   "Getting treatment ideas"
+  ],
+  "pricing_details": "Pricing for Plantix is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Plantix used for?",
+    "a": "Plantix is used for diagnosing a plant problem from a photo. See the official site for the full scope."
+   },
+   {
+    "q": "Is Plantix free?",
+    "a": "Pricing is not verified in this directory. Plans and free options change, so check the official site for the current details."
+   },
+   {
+    "q": "Should I double-check results from Plantix?",
+    "a": "Yes. Review outputs on a small sample first, especially for work that affects other people, money or compliance."
+   }
+  ],
+  "seo_title": "Plantix: What It Does and How to Use It",
+  "seo_description": "Mobile app that helps farmers identify crop problems from photos. Overview of Plantix, features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "farmonaut",
+  "name": "Farmonaut",
+  "category": "research",
+  "website_url": "https://farmonaut.com",
+  "pricing": "Unknown",
+  "tagline": "Satellite-based crop monitoring platform.",
+  "best_for": "Farmers and agribusinesses monitoring fields",
+  "platforms": [
+   "Web",
+   "Android",
+   "iOS"
+  ],
+  "description": "Farmonaut provides crop monitoring based on satellite imagery. Users mark their fields and view data on vegetation and conditions.\n\nIt is used for planning and monitoring. Check the official site for available data and regions. Features and plans change over time, so check the official site for current details.",
+  "use_steps": [
+   "Open the official site for Farmonaut and read what it covers.",
+   "Sign up or install it, then try monitoring a field using satellite data on a small sample.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Satellite based",
+   "Field-level views",
+   "Mobile access"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "plantix",
+   "google-earth"
+  ],
+  "tags": [
+   "agriculture",
+   "satellite",
+   "monitoring",
+   "maps"
+  ],
+  "features": [
+   "Satellite monitoring",
+   "Field mapping",
+   "Crop health views",
+   "Mobile access"
+  ],
+  "use_cases": [
+   "Tracking field health",
+   "Planning irrigation",
+   "Monitoring large farms"
+  ],
+  "pricing_details": "Pricing for Farmonaut is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Farmonaut used for?",
+    "a": "Farmonaut is used for monitoring a field using satellite data. See the official site for the full scope."
+   },
+   {
+    "q": "Is Farmonaut free?",
+    "a": "Pricing is not verified in this directory. Plans and free options change, so check the official site for the current details."
+   },
+   {
+    "q": "Should I double-check results from Farmonaut?",
+    "a": "Yes. Review outputs on a small sample first, especially for work that affects other people, money or compliance."
+   }
+  ],
+  "seo_title": "Farmonaut: What It Does and How to Use It",
+  "seo_description": "Satellite-based crop monitoring platform. Overview of Farmonaut, features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "roboflow",
+  "name": "Roboflow",
+  "category": "coding",
+  "website_url": "https://roboflow.com",
+  "pricing": "Unknown",
+  "tagline": "Platform for building computer vision datasets and models.",
+  "best_for": "Developers building image recognition projects",
+  "platforms": [
+   "Web",
+   "API"
+  ],
+  "description": "Roboflow helps teams build computer vision projects. You upload images, label them, train models and deploy them.\n\nIt suits developers and teams working on detection or classification tasks. Public datasets are also available through the platform. Features and plans change over time, so check the official site for current details.",
+  "use_steps": [
+   "Open the official site for Roboflow and read what it covers.",
+   "Sign up or install it, then try labeling images and training a model on a small sample.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "End-to-end workflow",
+   "Labeling tools",
+   "Public datasets"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "weights-and-biases",
+   "hugging-face"
+  ],
+  "tags": [
+   "computer-vision",
+   "datasets",
+   "ml",
+   "labeling"
+  ],
+  "features": [
+   "Image labeling",
+   "Dataset management",
+   "Model training",
+   "Deployment tools"
+  ],
+  "use_cases": [
+   "Object detection projects",
+   "Labeling datasets",
+   "Deploying vision models"
+  ],
+  "pricing_details": "Pricing for Roboflow is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Roboflow used for?",
+    "a": "Roboflow is used for labeling images and training a model. See the official site for the full scope."
+   },
+   {
+    "q": "Is Roboflow free?",
+    "a": "Pricing is not verified in this directory. Plans and free options change, so check the official site for the current details."
+   },
+   {
+    "q": "Should I double-check results from Roboflow?",
+    "a": "Yes. Review outputs on a small sample first, especially for work that affects other people, money or compliance."
+   }
+  ],
+  "seo_title": "Roboflow: What It Does and How to Use It",
+  "seo_description": "Platform for building computer vision datasets and models. Overview of Roboflow, features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "weights-and-biases",
+  "name": "Weights & Biases",
+  "category": "coding",
+  "website_url": "https://wandb.ai",
+  "pricing": "Unknown",
+  "tagline": "Tool for tracking machine learning experiments.",
+  "best_for": "ML engineers tracking training runs",
+  "platforms": [
+   "Web",
+   "Python"
+  ],
+  "description": "Weights & Biases tracks machine learning experiments. You log metrics from training code and view runs in a dashboard.\n\nIt helps teams compare experiments and share results. It also offers tools for LLM application tracing. Features and plans change over time, so check the official site for current details.",
+  "use_steps": [
+   "Open the official site for Weights & Biases and read what it covers.",
+   "Sign up or install it, then try logging metrics from a training run on a small sample.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Clear dashboards",
+   "Team sharing",
+   "Widely used in ML"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "roboflow",
+   "hugging-face"
+  ],
+  "tags": [
+   "ml",
+   "experiments",
+   "tracking",
+   "mlops"
+  ],
+  "features": [
+   "Experiment tracking",
+   "Dashboards",
+   "Model versioning",
+   "Collaboration"
+  ],
+  "use_cases": [
+   "Comparing training runs",
+   "Sharing results",
+   "Tracking models"
+  ],
+  "pricing_details": "Pricing for Weights & Biases is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Weights & Biases used for?",
+    "a": "Weights & Biases is used for logging metrics from a training run. See the official site for the full scope."
+   },
+   {
+    "q": "Is Weights & Biases free?",
+    "a": "Pricing is not verified in this directory. Plans and free options change, so check the official site for the current details."
+   },
+   {
+    "q": "Should I double-check results from Weights & Biases?",
+    "a": "Yes. Review outputs on a small sample first, especially for work that affects other people, money or compliance."
+   }
+  ],
+  "seo_title": "Weights & Biases: What It Does and How to Use It",
+  "seo_description": "Tool for tracking machine learning experiments. Overview of Weights & Biases, features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "unstructured",
+  "name": "Unstructured",
+  "category": "coding",
+  "website_url": "https://unstructured.io",
+  "pricing": "Unknown",
+  "tagline": "Tools for turning documents into LLM-ready data.",
+  "best_for": "Developers preparing documents for AI pipelines",
+  "platforms": [
+   "Python",
+   "API"
+  ],
+  "description": "Unstructured provides tools that extract and clean content from files like PDFs and Word documents, preparing it for use with language models.\n\nIt is common in retrieval pipelines where messy documents need structure first. It has an open-source library and a hosted offering. Features and plans change over time, so check the official site for current details.",
+  "use_steps": [
+   "Open the official site for Unstructured and read what it covers.",
+   "Sign up or install it, then try parsing documents for a language model pipeline on a small sample.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Handles many formats",
+   "Useful for RAG",
+   "Library available"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "langchain",
+   "amazon-textract"
+  ],
+  "tags": [
+   "documents",
+   "rag",
+   "parsing",
+   "llm"
+  ],
+  "features": [
+   "Document parsing",
+   "Text extraction",
+   "Chunking support",
+   "API and library"
+  ],
+  "use_cases": [
+   "Preparing RAG data",
+   "Parsing PDFs",
+   "Cleaning document text"
+  ],
+  "pricing_details": "Pricing for Unstructured is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Unstructured used for?",
+    "a": "Unstructured is used for parsing documents for a language model pipeline. See the official site for the full scope."
+   },
+   {
+    "q": "Is Unstructured free?",
+    "a": "Pricing is not verified in this directory. Plans and free options change, so check the official site for the current details."
+   },
+   {
+    "q": "Should I double-check results from Unstructured?",
+    "a": "Yes. Review outputs on a small sample first, especially for work that affects other people, money or compliance."
+   }
+  ],
+  "seo_title": "Unstructured: What It Does and How to Use It",
+  "seo_description": "Tools for turning documents into LLM-ready data. Overview of Unstructured, features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "gradio",
+  "name": "Gradio",
+  "category": "coding",
+  "website_url": "https://www.gradio.app",
+  "pricing": "Open source",
+  "tagline": "Python library for building web demos of ML models.",
+  "best_for": "ML developers sharing quick demos",
+  "platforms": [
+   "Python",
+   "Web"
+  ],
+  "description": "Gradio is an open-source Python library that wraps a function in a web interface, so others can try your model in a browser.\n\nIt is widely used for demos and is integrated with Hugging Face Spaces. It suits prototypes more than full products. Features and plans change over time, so check the official site for current details.",
+  "use_steps": [
+   "Open the official site for Gradio and read what it covers.",
+   "Sign up or install it, then try building a demo interface for a model on a small sample.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Fast to build",
+   "Open source",
+   "Simple Python API"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "streamlit",
+   "hugging-face"
+  ],
+  "tags": [
+   "python",
+   "demo",
+   "ml",
+   "open-source"
+  ],
+  "features": [
+   "Quick web interfaces",
+   "Input and output components",
+   "Shareable demos",
+   "Python integration"
+  ],
+  "use_cases": [
+   "Demoing a model",
+   "Testing with users",
+   "Sharing prototypes"
+  ],
+  "pricing_details": "Gradio is listed as open source here, but plans, limits and terms change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Gradio used for?",
+    "a": "Gradio is used for building a demo interface for a model. See the official site for the full scope."
+   },
+   {
+    "q": "Is Gradio free?",
+    "a": "Pricing is not verified in this directory. Plans and free options change, so check the official site for the current details."
+   },
+   {
+    "q": "Should I double-check results from Gradio?",
+    "a": "Yes. Review outputs on a small sample first, especially for work that affects other people, money or compliance."
+   }
+  ],
+  "seo_title": "Gradio: What It Does and How to Use It",
+  "seo_description": "Python library for building web demos of ML models. Overview of Gradio, features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "streamlit",
+  "name": "Streamlit",
+  "category": "coding",
+  "website_url": "https://streamlit.io",
+  "pricing": "Open source",
+  "tagline": "Python framework for building data apps.",
+  "best_for": "Data scientists building interactive apps",
+  "platforms": [
+   "Python",
+   "Web"
+  ],
+  "description": "Streamlit is an open-source Python framework for turning scripts into interactive web apps with widgets and charts.\n\nIt is popular among data people who do not want to write front-end code. Apps can be deployed in several ways. Features and plans change over time, so check the official site for current details.",
+  "use_steps": [
+   "Open the official site for Streamlit and read what it covers.",
+   "Sign up or install it, then try turning a Python script into a web app on a small sample.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Pure Python",
+   "Open source",
+   "Fast iteration"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "gradio",
+   "jupyter"
+  ],
+  "tags": [
+   "python",
+   "dashboard",
+   "data",
+   "open-source"
+  ],
+  "features": [
+   "Script to app",
+   "Widgets",
+   "Charts",
+   "Easy deployment"
+  ],
+  "use_cases": [
+   "Dashboards",
+   "Data tools",
+   "Internal apps"
+  ],
+  "pricing_details": "Streamlit is listed as open source here, but plans, limits and terms change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Streamlit used for?",
+    "a": "Streamlit is used for turning a Python script into a web app. See the official site for the full scope."
+   },
+   {
+    "q": "Is Streamlit free?",
+    "a": "Pricing is not verified in this directory. Plans and free options change, so check the official site for the current details."
+   },
+   {
+    "q": "Should I double-check results from Streamlit?",
+    "a": "Yes. Review outputs on a small sample first, especially for work that affects other people, money or compliance."
+   }
+  ],
+  "seo_title": "Streamlit: What It Does and How to Use It",
+  "seo_description": "Python framework for building data apps. Overview of Streamlit, features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ }
+]

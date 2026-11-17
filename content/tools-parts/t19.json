@@ -1,0 +1,3421 @@
+[
+ {
+  "slug": "khroma",
+  "name": "Khroma",
+  "category": "design",
+  "website_url": "https://www.khroma.co",
+  "pricing": "Unknown",
+  "tagline": "AI colour palette generator that learns the colours you like.",
+  "best_for": "Designers who want palettes matched to personal taste",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Khroma is a colour tool that asks you to pick a set of colours you like, then uses that selection to train a personal model. It then produces an endless feed of palettes, gradients and typographic pairings based on what it learned about your taste.\n\nIt is useful early in a branding or UI project when you want colour ideas that feel like your own style rather than a generic list. You can save combinations and test them as text-on-background pairs. Check the official site for current plans and features.",
+  "use_steps": [
+   "Open the official Khroma site and read what the tool covers.",
+   "Create an account or open the tool and try a small, low-risk example related to finding brand colour starting points.",
+   "Review the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it for moodboard colour exploration or sensitive work."
+  ],
+  "pros": [
+   "Personalised suggestions",
+   "Simple, focused interface",
+   "Good for early exploration"
+  ],
+  "cons": [
+   "Only handles colour, not full design files",
+   "Features, limits and availability can change, so confirm details on the official site"
+  ],
+  "alternatives": [
+   "coolors",
+   "haikei"
+  ],
+  "tags": [
+   "colour",
+   "palette",
+   "design",
+   "inspiration"
+  ],
+  "features": [
+   "Taste-trained colour model",
+   "Endless palette feed",
+   "Gradient and type previews",
+   "Saved favourites"
+  ],
+  "use_cases": [
+   "Finding brand colour starting points",
+   "Checking text and background pairings",
+   "Moodboard colour exploration"
+  ],
+  "pricing_details": "Pricing for Khroma is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Khroma?",
+    "a": "AI colour palette generator that learns the colours you like. See the official site for the latest description."
+   },
+   {
+    "q": "How does Khroma pick colours?",
+    "a": "You choose colours you like during setup, and it uses those choices to personalise the palettes it shows. Check the official site for how the training step currently works."
+   },
+   {
+    "q": "Is Khroma free?",
+    "a": "Pricing is not verified here and plans change. Check the official Khroma site for current options."
+   }
+  ],
+  "seo_title": "Khroma: What It Does, Features and Alternatives",
+  "seo_description": "AI colour palette generator that learns the colours you like. Overview of Khroma features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "fontjoy",
+  "name": "Fontjoy",
+  "category": "design",
+  "website_url": "https://fontjoy.com",
+  "pricing": "Unknown",
+  "tagline": "Font pairing generator that suggests heading and body combinations.",
+  "best_for": "Designers and founders choosing typefaces quickly",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Fontjoy helps you pair fonts for headings and body text. It generates combinations from a font library and lets you lock the choices you like while regenerating the rest, so you can explore contrast without scrolling through hundreds of families.\n\nThe tool shows a live sample layout so you judge a pairing in context. It is a quick way to settle typography for a landing page, slide template or brand sheet before committing to a design system. Check the official site for current plans and features.",
+  "use_steps": [
+   "Open the official Fontjoy site and read what the tool covers.",
+   "Create an account or open the tool and try a small, low-risk example related to choosing type for a website.",
+   "Review the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it for exploring contrast levels or sensitive work."
+  ],
+  "pros": [
+   "Fast, one-screen workflow",
+   "Lock and re-roll control",
+   "Easy to share a pairing"
+  ],
+  "cons": [
+   "Limited to the fonts in its own library",
+   "Features, limits and availability can change, so confirm details on the official site"
+  ],
+  "alternatives": [
+   "coolors",
+   "canva"
+  ],
+  "tags": [
+   "fonts",
+   "typography",
+   "design",
+   "pairing"
+  ],
+  "features": [
+   "Generate font pairings",
+   "Lock a font and regenerate others",
+   "Adjustable contrast between fonts",
+   "Live text preview"
+  ],
+  "use_cases": [
+   "Choosing type for a website",
+   "Picking fonts for a slide deck",
+   "Exploring contrast levels"
+  ],
+  "pricing_details": "Pricing for Fontjoy is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Fontjoy?",
+    "a": "Font pairing generator that suggests heading and body combinations. See the official site for the latest description."
+   },
+   {
+    "q": "Does Fontjoy create fonts?",
+    "a": "No, it suggests combinations of existing fonts. Check the official site for which font sources it currently uses."
+   },
+   {
+    "q": "Is Fontjoy free?",
+    "a": "Pricing is not verified here and plans change. Check the official Fontjoy site for current options."
+   }
+  ],
+  "seo_title": "Fontjoy: What It Does, Features and Alternatives",
+  "seo_description": "Font pairing generator that suggests heading and body combinations. Overview of Fontjoy features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "namelix",
+  "name": "Namelix",
+  "category": "design",
+  "website_url": "https://namelix.com",
+  "pricing": "Unknown",
+  "tagline": "Business name generator that also offers matching logo ideas.",
+  "best_for": "Founders brainstorming brandable names",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Namelix generates short, brandable business names from keywords you enter. You can steer the style, such as brandable or descriptive names, and it shows each suggestion alongside a simple logo concept.\n\nIt fits the very start of a venture, when you need a pool of candidate names to react to. Saving favourites lets you compare them, and you still need to verify domain and trademark availability yourself. Check the official site for current plans and features.",
+  "use_steps": [
+   "Open the official Namelix site and read what the tool covers.",
+   "Create an account or open the tool and try a small, low-risk example related to naming a startup or side project.",
+   "Review the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it for quick logo mock-ups for ideas or sensitive work."
+  ],
+  "pros": [
+   "Quick idea generation",
+   "Visual preview next to each name",
+   "Beginner friendly"
+  ],
+  "cons": [
+   "Names are not checked for trademark conflicts",
+   "Features, limits and availability can change, so confirm details on the official site"
+  ],
+  "alternatives": [
+   "looka",
+   "brandmark"
+  ],
+  "tags": [
+   "naming",
+   "branding",
+   "logo",
+   "startup"
+  ],
+  "features": [
+   "Keyword-based name generation",
+   "Style and length preferences",
+   "Logo previews per name",
+   "Saved favourites list"
+  ],
+  "use_cases": [
+   "Naming a startup or side project",
+   "Finding candidate brand names",
+   "Quick logo mock-ups for ideas"
+  ],
+  "pricing_details": "Pricing for Namelix is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Namelix?",
+    "a": "Business name generator that also offers matching logo ideas. See the official site for the latest description."
+   },
+   {
+    "q": "Is a Namelix name safe to use?",
+    "a": "It is only a suggestion. Always check trademarks and domain availability independently, and see the official site for its terms."
+   },
+   {
+    "q": "Is Namelix free?",
+    "a": "Pricing is not verified here and plans change. Check the official Namelix site for current options."
+   }
+  ],
+  "seo_title": "Namelix: What It Does, Features and Alternatives",
+  "seo_description": "Business name generator that also offers matching logo ideas. Overview of Namelix features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "interior-ai",
+  "name": "Interior AI",
+  "category": "design",
+  "website_url": "https://interiorai.com",
+  "pricing": "Unknown",
+  "tagline": "Upload a room photo and preview it in different interior styles.",
+  "best_for": "Homeowners and agents exploring room redesign ideas",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Interior AI takes a photo of a room and renders it in alternative decor styles, so you can compare looks without moving furniture. It is aimed at people planning a refresh or showing a space's potential.\n\nIt works as a visual brainstorming aid rather than a technical plan. Results do not account for real measurements or budgets, so use them to shortlist styles before consulting a designer. Check the official site for current plans and features.",
+  "use_steps": [
+   "Open the official Interior AI site and read what the tool covers.",
+   "Create an account or open the tool and try a small, low-risk example related to redecorating inspiration.",
+   "Review the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it for comparing styles before buying or sensitive work."
+  ],
+  "pros": [
+   "Easy photo upload",
+   "Many style options",
+   "No design skills needed"
+  ],
+  "cons": [
+   "Renders are illustrative, not buildable plans",
+   "Features, limits and availability can change, so confirm details on the official site"
+  ],
+  "alternatives": [
+   "roomgpt",
+   "homestyler"
+  ],
+  "tags": [
+   "interior",
+   "rooms",
+   "home",
+   "rendering"
+  ],
+  "features": [
+   "Photo-to-restyle rendering",
+   "Multiple interior styles",
+   "Room type selection",
+   "Image download"
+  ],
+  "use_cases": [
+   "Redecorating inspiration",
+   "Listing photo concepts",
+   "Comparing styles before buying"
+  ],
+  "pricing_details": "Pricing for Interior AI is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Interior AI?",
+    "a": "Upload a room photo and preview it in different interior styles. See the official site for the latest description."
+   },
+   {
+    "q": "Does it produce floor plans?",
+    "a": "It focuses on restyling room images, not measured plans. Check the official site for current capabilities."
+   },
+   {
+    "q": "Is Interior AI free?",
+    "a": "Pricing is not verified here and plans change. Check the official Interior AI site for current options."
+   }
+  ],
+  "seo_title": "Interior AI: What It Does, Features and Alternatives",
+  "seo_description": "Upload a room photo and preview it in different interior styles. Overview of Interior AI features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "decor8-ai",
+  "name": "Decor8 AI",
+  "category": "design",
+  "website_url": "https://www.decor8.ai",
+  "pricing": "Unknown",
+  "tagline": "Virtual staging and interior design generation for real-estate photos.",
+  "best_for": "Real-estate professionals staging listing photos",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Decor8 AI generates furnished and restyled versions of room photos, aimed at real-estate listings and interior concepts. It offers staging of empty rooms and redesign of existing ones in chosen styles.\n\nAgents and photographers use it to show how a vacant space could look. Disclose digitally staged images where local rules or listing platforms require it. Check the official site for current plans and features.",
+  "use_steps": [
+   "Open the official Decor8 AI site and read what the tool covers.",
+   "Create an account or open the tool and try a small, low-risk example related to staging empty listings.",
+   "Review the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it for embedding in property apps or sensitive work."
+  ],
+  "pros": [
+   "Real-estate focus",
+   "API available",
+   "Quick turnaround"
+  ],
+  "cons": [
+   "Staged images should be disclosed to buyers",
+   "Features, limits and availability can change, so confirm details on the official site"
+  ],
+  "alternatives": [
+   "virtual-staging-ai",
+   "coohom"
+  ],
+  "tags": [
+   "staging",
+   "real-estate",
+   "interior",
+   "api"
+  ],
+  "features": [
+   "Virtual staging",
+   "Room redesign",
+   "Style selection",
+   "Developer API"
+  ],
+  "use_cases": [
+   "Staging empty listings",
+   "Interior concept images",
+   "Embedding in property apps"
+  ],
+  "pricing_details": "Pricing for Decor8 AI is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Decor8 AI?",
+    "a": "Virtual staging and interior design generation for real-estate photos. See the official site for the latest description."
+   },
+   {
+    "q": "Who is Decor8 AI for?",
+    "a": "Mainly real-estate and interior-design workflows. See the official site for current plans and API details."
+   },
+   {
+    "q": "Is Decor8 AI free?",
+    "a": "Pricing is not verified here and plans change. Check the official Decor8 AI site for current options."
+   }
+  ],
+  "seo_title": "Decor8 AI: What It Does, Features and Alternatives",
+  "seo_description": "Virtual staging and interior design generation for real-estate photos. Overview of Decor8 AI features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "napkin-ai",
+  "name": "Napkin AI",
+  "category": "design",
+  "website_url": "https://www.napkin.ai",
+  "pricing": "Unknown",
+  "tagline": "Turns text into editable diagrams, infographics and visuals.",
+  "best_for": "Writers and teams who want visuals from their text",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Napkin AI converts written text into visuals such as flowcharts, concept maps and infographics. You paste or write notes, and it proposes visual layouts you can restyle and edit.\n\nIt is handy for explaining a process in a document, post or presentation without drawing from scratch. Always check that the generated diagram reflects your actual meaning. Check the official site for current plans and features.",
+  "use_steps": [
+   "Open the official Napkin AI site and read what the tool covers.",
+   "Create an account or open the tool and try a small, low-risk example related to explaining processes.",
+   "Review the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it for slide illustrations or sensitive work."
+  ],
+  "pros": [
+   "Quick path from words to visuals",
+   "Editable results",
+   "Good for non-designers"
+  ],
+  "cons": [
+   "Layouts may need manual adjustment",
+   "Features, limits and availability can change, so confirm details on the official site"
+  ],
+  "alternatives": [
+   "whimsical",
+   "piktochart"
+  ],
+  "tags": [
+   "infographic",
+   "diagram",
+   "visuals",
+   "text"
+  ],
+  "features": [
+   "Text-to-visual suggestions",
+   "Editable diagram elements",
+   "Style and colour controls",
+   "Export of visuals"
+  ],
+  "use_cases": [
+   "Explaining processes",
+   "Blog and LinkedIn visuals",
+   "Slide illustrations"
+  ],
+  "pricing_details": "Pricing for Napkin AI is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Napkin AI?",
+    "a": "Turns text into editable diagrams, infographics and visuals. See the official site for the latest description."
+   },
+   {
+    "q": "Can I edit the generated visuals?",
+    "a": "Yes, outputs are meant to be adjusted. Check the official site for export options."
+   },
+   {
+    "q": "Is Napkin AI free?",
+    "a": "Pricing is not verified here and plans change. Check the official Napkin AI site for current options."
+   }
+  ],
+  "seo_title": "Napkin AI: What It Does, Features and Alternatives",
+  "seo_description": "Turns text into editable diagrams, infographics and visuals. Overview of Napkin AI features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "stockimg-ai",
+  "name": "Stockimg AI",
+  "category": "image",
+  "website_url": "https://stockimg.ai",
+  "pricing": "Unknown",
+  "tagline": "Generator for book covers, logos, posters and stock-style images.",
+  "best_for": "Small creators needing ready-style graphics",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Stockimg AI bundles image generators for specific asset types, including posters, logos, book covers, wallpapers and illustrations. You describe what you need and choose a matching generator.\n\nBecause each template targets a purpose, it is quicker than writing a general prompt from scratch. Check usage rights for commercial projects before publishing. Check the official site for current plans and features.",
+  "use_steps": [
+   "Open the official Stockimg AI site and read what the tool covers.",
+   "Create an account or open the tool and try a small, low-risk example related to self-published book covers.",
+   "Review the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it for simple logo ideas or sensitive work."
+  ],
+  "pros": [
+   "Task-oriented templates",
+   "Low learning curve",
+   "Variety of asset types"
+  ],
+  "cons": [
+   "Outputs may need touch-ups",
+   "Features, limits and availability can change, so confirm details on the official site"
+  ],
+  "alternatives": [
+   "ideogram",
+   "looka"
+  ],
+  "tags": [
+   "covers",
+   "logos",
+   "posters",
+   "generation"
+  ],
+  "features": [
+   "Purpose-specific generators",
+   "Logo and cover tools",
+   "Prompt input",
+   "Image download"
+  ],
+  "use_cases": [
+   "Self-published book covers",
+   "Poster concepts",
+   "Simple logo ideas"
+  ],
+  "pricing_details": "Pricing for Stockimg AI is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Stockimg AI?",
+    "a": "Generator for book covers, logos, posters and stock-style images. See the official site for the latest description."
+   },
+   {
+    "q": "Can I use images commercially?",
+    "a": "Rules differ by plan. Read the terms on the official site."
+   },
+   {
+    "q": "Is Stockimg AI free?",
+    "a": "Pricing is not verified here and plans change. Check the official Stockimg AI site for current options."
+   }
+  ],
+  "seo_title": "Stockimg AI: What It Does, Features and Alternatives",
+  "seo_description": "Generator for book covers, logos, posters and stock-style images. Overview of Stockimg AI features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "lightx",
+  "name": "LightX",
+  "category": "image",
+  "website_url": "https://www.lightxeditor.com",
+  "pricing": "Unknown",
+  "tagline": "Photo editor with AI retouching, background removal and portrait tools.",
+  "best_for": "Casual users editing photos on phone or browser",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "LightX is a photo editing app offering AI-assisted tools such as background removal, object removal, portrait retouching and effects. It targets quick edits on phones and in the browser.\n\nIt suits social media content and product shots where a full desktop editor would be overkill. Check feature access per plan on the official site. Check the official site for current plans and features.",
+  "use_steps": [
+   "Open the official LightX site and read what the tool covers.",
+   "Create an account or open the tool and try a small, low-risk example related to social post photos.",
+   "Review the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it for portrait touch-ups or sensitive work."
+  ],
+  "pros": [
+   "Quick edits",
+   "Multiple platforms",
+   "Beginner friendly"
+  ],
+  "cons": [
+   "Less control than pro editors",
+   "Features, limits and availability can change, so confirm details on the official site"
+  ],
+  "alternatives": [
+   "photoroom",
+   "fotor"
+  ],
+  "tags": [
+   "photo",
+   "editing",
+   "retouch",
+   "mobile"
+  ],
+  "features": [
+   "Background removal",
+   "Object removal",
+   "Portrait retouch",
+   "Filters and effects"
+  ],
+  "use_cases": [
+   "Social post photos",
+   "Product image cleanup",
+   "Portrait touch-ups"
+  ],
+  "pricing_details": "Pricing for LightX is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is LightX?",
+    "a": "Photo editor with AI retouching, background removal and portrait tools. See the official site for the latest description."
+   },
+   {
+    "q": "Does LightX have a mobile app?",
+    "a": "It offers mobile apps as well as a web editor. See the official site for stores."
+   },
+   {
+    "q": "Is LightX free?",
+    "a": "Pricing is not verified here and plans change. Check the official LightX site for current options."
+   }
+  ],
+  "seo_title": "LightX: What It Does, Features and Alternatives",
+  "seo_description": "Photo editor with AI retouching, background removal and portrait tools. Overview of LightX features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "bria-ai",
+  "name": "Bria",
+  "category": "image",
+  "website_url": "https://bria.ai",
+  "pricing": "Unknown",
+  "tagline": "Image generation and editing built for commercial and enterprise use.",
+  "best_for": "Businesses wanting commercially oriented image AI",
+  "platforms": [
+   "Web",
+   "API"
+  ],
+  "description": "Bria offers visual generative AI aimed at commercial use, including text-to-image, background tools and an API for building into products. It emphasises models trained on licensed data.\n\nTeams use it to integrate image generation into apps or produce brand-safe assets. Licensing and indemnity terms vary by agreement, so confirm them directly. Check the official site for current plans and features.",
+  "use_steps": [
+   "Open the official Bria site and read what the tool covers.",
+   "Create an account or open the tool and try a small, low-risk example related to e-commerce product visuals.",
+   "Review the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it for marketing imagery or sensitive work."
+  ],
+  "pros": [
+   "Commercial positioning",
+   "API available",
+   "Edit tools beyond generation"
+  ],
+  "cons": [
+   "Enterprise-oriented, may feel heavy for hobbyists",
+   "Features, limits and availability can change, so confirm details on the official site"
+  ],
+  "alternatives": [
+   "photoroom",
+   "clipdrop"
+  ],
+  "tags": [
+   "image",
+   "api",
+   "commercial",
+   "generation"
+  ],
+  "features": [
+   "Text-to-image",
+   "Background removal and replacement",
+   "API access",
+   "Licensed-data focus"
+  ],
+  "use_cases": [
+   "E-commerce product visuals",
+   "Embedding generation in apps",
+   "Marketing imagery"
+  ],
+  "pricing_details": "Pricing for Bria is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Bria?",
+    "a": "Image generation and editing built for commercial and enterprise use. See the official site for the latest description."
+   },
+   {
+    "q": "Is Bria for individuals?",
+    "a": "Mostly for businesses and developers. Check the official site for access options."
+   },
+   {
+    "q": "Is Bria free?",
+    "a": "Pricing is not verified here and plans change. Check the official Bria site for current options."
+   }
+  ],
+  "seo_title": "Bria: What It Does, Features and Alternatives",
+  "seo_description": "Image generation and editing built for commercial and enterprise use. Overview of Bria features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "phot-ai",
+  "name": "Phot.ai",
+  "category": "image",
+  "website_url": "https://www.phot.ai",
+  "pricing": "Unknown",
+  "tagline": "Suite of AI image tools for e-commerce and ad creatives.",
+  "best_for": "Online sellers creating product and ad images",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Phot.ai provides a suite of image tools: background removal, upscaling, object removal, and ad or product image generation for online sellers.\n\nIt is aimed at people producing many listing images quickly. Review each output for artefacts before uploading to a marketplace. Check the official site for current plans and features.",
+  "use_steps": [
+   "Open the official Phot.ai site and read what the tool covers.",
+   "Create an account or open the tool and try a small, low-risk example related to marketplace listing photos.",
+   "Review the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it for cleaning old product images or sensitive work."
+  ],
+  "pros": [
+   "Several tools in one place",
+   "Seller-friendly",
+   "Browser based"
+  ],
+  "cons": [
+   "Quality varies by source image",
+   "Features, limits and availability can change, so confirm details on the official site"
+  ],
+  "alternatives": [
+   "photoroom",
+   "pixelcut"
+  ],
+  "tags": [
+   "ecommerce",
+   "product",
+   "images",
+   "ads"
+  ],
+  "features": [
+   "Background removal",
+   "Image upscaling",
+   "Object removal",
+   "Product ad generation"
+  ],
+  "use_cases": [
+   "Marketplace listing photos",
+   "Ad banners",
+   "Cleaning old product images"
+  ],
+  "pricing_details": "Pricing for Phot.ai is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Phot.ai?",
+    "a": "Suite of AI image tools for e-commerce and ad creatives. See the official site for the latest description."
+   },
+   {
+    "q": "Does it handle batch work?",
+    "a": "Check the official site for bulk options on your plan."
+   },
+   {
+    "q": "Is Phot.ai free?",
+    "a": "Pricing is not verified here and plans change. Check the official Phot.ai site for current options."
+   }
+  ],
+  "seo_title": "Phot.ai: What It Does, Features and Alternatives",
+  "seo_description": "Suite of AI image tools for e-commerce and ad creatives. Overview of Phot.ai features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "dzine",
+  "name": "Dzine",
+  "category": "image",
+  "website_url": "https://www.dzine.ai",
+  "pricing": "Unknown",
+  "tagline": "AI design and image editor combining generation with canvas editing.",
+  "best_for": "Creators who want generation plus layout control",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Dzine, formerly Stylar, mixes image generation with a layered canvas editor. You can generate images, edit regions and compose them with text and elements.\n\nIt helps when a single prompt is not enough and you need to refine parts of an image. Features have evolved over time, so verify what is current. Check the official site for current plans and features.",
+  "use_steps": [
+   "Open the official Dzine site and read what the tool covers.",
+   "Create an account or open the tool and try a small, low-risk example related to concept art.",
+   "Review the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it for compositing generated parts or sensitive work."
+  ],
+  "pros": [
+   "Editing beyond one-shot prompts",
+   "Layer-based workflow",
+   "Browser based"
+  ],
+  "cons": [
+   "Can take time to learn the canvas",
+   "Features, limits and availability can change, so confirm details on the official site"
+  ],
+  "alternatives": [
+   "leonardo-ai",
+   "krea-ai"
+  ],
+  "tags": [
+   "generation",
+   "canvas",
+   "editing",
+   "creative"
+  ],
+  "features": [
+   "Text-to-image",
+   "Layered canvas",
+   "Region editing",
+   "Style controls"
+  ],
+  "use_cases": [
+   "Concept art",
+   "Marketing visuals",
+   "Compositing generated parts"
+  ],
+  "pricing_details": "Pricing for Dzine is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Dzine?",
+    "a": "AI design and image editor combining generation with canvas editing. See the official site for the latest description."
+   },
+   {
+    "q": "Is Dzine the same as Stylar?",
+    "a": "It was previously called Stylar. Confirm on the official site."
+   },
+   {
+    "q": "Is Dzine free?",
+    "a": "Pricing is not verified here and plans change. Check the official Dzine site for current options."
+   }
+  ],
+  "seo_title": "Dzine: What It Does, Features and Alternatives",
+  "seo_description": "AI design and image editor combining generation with canvas editing. Overview of Dzine features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "quso-ai",
+  "name": "Quso.ai",
+  "category": "video",
+  "website_url": "https://quso.ai",
+  "pricing": "Unknown",
+  "tagline": "Repurposes long videos into short clips and social posts.",
+  "best_for": "Creators and teams repurposing long recordings",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Quso.ai, previously known as Vidyo.ai, turns long videos such as podcasts and webinars into short clips with captions for social platforms. It also covers scheduling and related social tools.\n\nIt reduces the editing time of clipping highlights, though you still choose which moments represent you well. Review captions for accuracy before posting. Check the official site for current plans and features.",
+  "use_steps": [
+   "Open the official Quso.ai site and read what the tool covers.",
+   "Create an account or open the tool and try a small, low-risk example related to podcast highlight clips.",
+   "Review the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it for youtube shorts and reels or sensitive work."
+  ],
+  "pros": [
+   "Saves clipping time",
+   "Captions included",
+   "Repurposing focus"
+  ],
+  "cons": [
+   "Clip selection needs human judgement",
+   "Features, limits and availability can change, so confirm details on the official site"
+  ],
+  "alternatives": [
+   "opus-clip",
+   "vizard"
+  ],
+  "tags": [
+   "repurposing",
+   "clips",
+   "shorts",
+   "captions"
+  ],
+  "features": [
+   "Long-to-short clipping",
+   "Auto captions",
+   "Aspect ratio resizing",
+   "Social scheduling"
+  ],
+  "use_cases": [
+   "Podcast highlight clips",
+   "Webinar snippets",
+   "YouTube Shorts and Reels"
+  ],
+  "pricing_details": "Pricing for Quso.ai is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Quso.ai?",
+    "a": "Repurposes long videos into short clips and social posts. See the official site for the latest description."
+   },
+   {
+    "q": "Was Quso called Vidyo?",
+    "a": "Yes, it rebranded from Vidyo.ai. Verify on the official site."
+   },
+   {
+    "q": "Is Quso.ai free?",
+    "a": "Pricing is not verified here and plans change. Check the official Quso.ai site for current options."
+   }
+  ],
+  "seo_title": "Quso.ai: What It Does, Features and Alternatives",
+  "seo_description": "Repurposes long videos into short clips and social posts. Overview of Quso.ai features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "choppity",
+  "name": "Choppity",
+  "category": "video",
+  "website_url": "https://www.choppity.com",
+  "pricing": "Unknown",
+  "tagline": "Creates short vertical clips with captions from long videos.",
+  "best_for": "Podcasters making short clips",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Choppity cuts long videos into short vertical clips and adds styled captions. It targets creators who post highlights to short-form platforms.\n\nIt is a lightweight way to produce captioned snippets without a timeline editor. Check each clip for context before publishing. Check the official site for current plans and features.",
+  "use_steps": [
+   "Open the official Choppity site and read what the tool covers.",
+   "Create an account or open the tool and try a small, low-risk example related to podcast clips.",
+   "Review the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it for short social teasers or sensitive work."
+  ],
+  "pros": [
+   "Simple workflow",
+   "Caption styling",
+   "Short-form focus"
+  ],
+  "cons": [
+   "Less control than full editors",
+   "Features, limits and availability can change, so confirm details on the official site"
+  ],
+  "alternatives": [
+   "opus-clip",
+   "submagic"
+  ],
+  "tags": [
+   "clips",
+   "captions",
+   "short-form",
+   "podcast"
+  ],
+  "features": [
+   "Clip detection",
+   "Caption styles",
+   "Vertical formatting",
+   "Video upload"
+  ],
+  "use_cases": [
+   "Podcast clips",
+   "Interview highlights",
+   "Short social teasers"
+  ],
+  "pricing_details": "Pricing for Choppity is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Choppity?",
+    "a": "Creates short vertical clips with captions from long videos. See the official site for the latest description."
+   },
+   {
+    "q": "Does Choppity add captions?",
+    "a": "Captioned clips are a core use. See the official site for details."
+   },
+   {
+    "q": "Is Choppity free?",
+    "a": "Pricing is not verified here and plans change. Check the official Choppity site for current options."
+   }
+  ],
+  "seo_title": "Choppity: What It Does, Features and Alternatives",
+  "seo_description": "Creates short vertical clips with captions from long videos. Overview of Choppity features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "reap",
+  "name": "Reap",
+  "category": "video",
+  "website_url": "https://reap.video",
+  "pricing": "Unknown",
+  "tagline": "Video tool for clipping, captioning and dubbing content.",
+  "best_for": "Creators handling clips, captions and dubbing together",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Reap is a video platform that bundles auto clipping, captions and AI dubbing into one place. It targets creators who want to repurpose recordings and reach audiences in other languages.\n\nCombining clipping and dubbing means one upload can serve multiple formats. Review translated audio and subtitles before release. Check the official site for current plans and features.",
+  "use_steps": [
+   "Open the official Reap site and read what the tool covers.",
+   "Create an account or open the tool and try a small, low-risk example related to repurposing lectures.",
+   "Review the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it for captioned social clips or sensitive work."
+  ],
+  "pros": [
+   "Several jobs in one",
+   "Dubbing included",
+   "Creator oriented"
+  ],
+  "cons": [
+   "Dubbing quality depends on language and audio",
+   "Features, limits and availability can change, so confirm details on the official site"
+  ],
+  "alternatives": [
+   "rask-ai",
+   "opus-clip"
+  ],
+  "tags": [
+   "dubbing",
+   "clips",
+   "captions",
+   "translation"
+  ],
+  "features": [
+   "Auto clipping",
+   "Captions",
+   "AI dubbing",
+   "Multi-language output"
+  ],
+  "use_cases": [
+   "Repurposing lectures",
+   "Multilingual shorts",
+   "Captioned social clips"
+  ],
+  "pricing_details": "Pricing for Reap is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Reap?",
+    "a": "Video tool for clipping, captioning and dubbing content. See the official site for the latest description."
+   },
+   {
+    "q": "Can Reap dub videos?",
+    "a": "Dubbing is part of the offering. Check supported languages on the official site."
+   },
+   {
+    "q": "Is Reap free?",
+    "a": "Pricing is not verified here and plans change. Check the official Reap site for current options."
+   }
+  ],
+  "seo_title": "Reap: What It Does, Features and Alternatives",
+  "seo_description": "Video tool for clipping, captioning and dubbing content. Overview of Reap features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "creatify",
+  "name": "Creatify",
+  "category": "video",
+  "website_url": "https://creatify.ai",
+  "pricing": "Unknown",
+  "tagline": "Generates short video ads from product links with AI avatars.",
+  "best_for": "E-commerce marketers producing video ads",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Creatify turns a product page link into a draft video ad, using AI avatars, scripts and stock footage. It is designed for performance marketers who test many ad variants.\n\nProducing several variations quickly helps experiments, but each ad should be reviewed for accuracy and platform rules before launch. Check the official site for current plans and features.",
+  "use_steps": [
+   "Open the official Creatify site and read what the tool covers.",
+   "Create an account or open the tool and try a small, low-risk example related to product ad testing.",
+   "Review the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it for refreshing creatives or sensitive work."
+  ],
+  "pros": [
+   "Fast ad iteration",
+   "Starts from a URL",
+   "Avatar presenters"
+  ],
+  "cons": [
+   "Generated claims must be fact-checked",
+   "Features, limits and availability can change, so confirm details on the official site"
+  ],
+  "alternatives": [
+   "heygen",
+   "predis-ai"
+  ],
+  "tags": [
+   "ads",
+   "ecommerce",
+   "avatar",
+   "marketing"
+  ],
+  "features": [
+   "URL-to-video ads",
+   "AI avatars",
+   "Script generation",
+   "Multiple variants"
+  ],
+  "use_cases": [
+   "Product ad testing",
+   "Social ad drafts",
+   "Refreshing creatives"
+  ],
+  "pricing_details": "Pricing for Creatify is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Creatify?",
+    "a": "Generates short video ads from product links with AI avatars. See the official site for the latest description."
+   },
+   {
+    "q": "Do I need footage?",
+    "a": "It can start from a product link. See the official site for inputs."
+   },
+   {
+    "q": "Is Creatify free?",
+    "a": "Pricing is not verified here and plans change. Check the official Creatify site for current options."
+   }
+  ],
+  "seo_title": "Creatify: What It Does, Features and Alternatives",
+  "seo_description": "Generates short video ads from product links with AI avatars. Overview of Creatify features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "arcads",
+  "name": "Arcads",
+  "category": "video",
+  "website_url": "https://www.arcads.ai",
+  "pricing": "Unknown",
+  "tagline": "Creates UGC-style video ads using AI actors and scripts.",
+  "best_for": "Ad teams testing UGC-style creatives",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Arcads generates user-generated-content style video ads featuring AI actors who deliver a script you provide or draft with the tool.\n\nIt targets advertisers wanting many hooks and variants. Disclose AI usage where platform policies or regulations require it. Check the official site for current plans and features.",
+  "use_steps": [
+   "Open the official Arcads site and read what the tool covers.",
+   "Create an account or open the tool and try a small, low-risk example related to hook testing.",
+   "Review the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it for localised creatives or sensitive work."
+  ],
+  "pros": [
+   "Rapid variants",
+   "No filming required",
+   "Ad-focused"
+  ],
+  "cons": [
+   "Authenticity concerns with synthetic actors",
+   "Features, limits and availability can change, so confirm details on the official site"
+  ],
+  "alternatives": [
+   "heygen",
+   "argil"
+  ],
+  "tags": [
+   "ugc",
+   "ads",
+   "actors",
+   "video"
+  ],
+  "features": [
+   "AI actors",
+   "Script drafting",
+   "Multiple languages",
+   "Variant creation"
+  ],
+  "use_cases": [
+   "Hook testing",
+   "Product demo ads",
+   "Localised creatives"
+  ],
+  "pricing_details": "Pricing for Arcads is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Arcads?",
+    "a": "Creates UGC-style video ads using AI actors and scripts. See the official site for the latest description."
+   },
+   {
+    "q": "Are the actors real people?",
+    "a": "They are AI-generated presenters based on the platform's methods. Check the official site."
+   },
+   {
+    "q": "Is Arcads free?",
+    "a": "Pricing is not verified here and plans change. Check the official Arcads site for current options."
+   }
+  ],
+  "seo_title": "Arcads: What It Does, Features and Alternatives",
+  "seo_description": "Creates UGC-style video ads using AI actors and scripts. Overview of Arcads features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "hour-one",
+  "name": "Hour One",
+  "category": "video",
+  "website_url": "https://hourone.ai",
+  "pricing": "Unknown",
+  "tagline": "Turns scripts into presenter videos for business training and communication.",
+  "best_for": "Businesses producing presenter-led videos at scale",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Hour One creates videos with virtual presenters from text scripts, mostly for corporate training, product explainers and internal updates.\n\nTeams use it to update videos by editing text rather than reshooting. Review pronunciation and brand terms in each version. Check the official site for current plans and features.",
+  "use_steps": [
+   "Open the official Hour One site and read what the tool covers.",
+   "Create an account or open the tool and try a small, low-risk example related to training modules.",
+   "Review the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it for internal announcements or sensitive work."
+  ],
+  "pros": [
+   "Easy updates by text",
+   "Business focus",
+   "Consistent look"
+  ],
+  "cons": [
+   "Presenters may feel less natural than live footage",
+   "Features, limits and availability can change, so confirm details on the official site"
+  ],
+  "alternatives": [
+   "synthesia",
+   "colossyan"
+  ],
+  "tags": [
+   "avatar",
+   "training",
+   "presenter",
+   "corporate"
+  ],
+  "features": [
+   "Virtual presenters",
+   "Script-to-video",
+   "Multiple languages",
+   "Brand templates"
+  ],
+  "use_cases": [
+   "Training modules",
+   "Product explainers",
+   "Internal announcements"
+  ],
+  "pricing_details": "Pricing for Hour One is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Hour One?",
+    "a": "Turns scripts into presenter videos for business training and communication. See the official site for the latest description."
+   },
+   {
+    "q": "Who uses Hour One?",
+    "a": "Mainly businesses producing training and explainer videos. See official site."
+   },
+   {
+    "q": "Is Hour One free?",
+    "a": "Pricing is not verified here and plans change. Check the official Hour One site for current options."
+   }
+  ],
+  "seo_title": "Hour One: What It Does, Features and Alternatives",
+  "seo_description": "Turns scripts into presenter videos for business training and communication. Overview of Hour One features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "flixier",
+  "name": "Flixier",
+  "category": "video",
+  "website_url": "https://flixier.com",
+  "pricing": "Unknown",
+  "tagline": "Cloud video editor with captions, subtitles and collaboration.",
+  "best_for": "Teams editing videos together in the browser",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Flixier is a browser-based video editor that processes projects in the cloud. It includes auto subtitles, text-to-speech, stock libraries and collaboration for teams.\n\nIt runs on modest hardware since editing happens online. Exports and library access vary by plan, so check the official site. Check the official site for current plans and features.",
+  "use_steps": [
+   "Open the official Flixier site and read what the tool covers.",
+   "Create an account or open the tool and try a small, low-risk example related to quick social edits.",
+   "Review the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it for shared team projects or sensitive work."
+  ],
+  "pros": [
+   "No install",
+   "Works on light devices",
+   "Team features"
+  ],
+  "cons": [
+   "Needs a stable internet connection",
+   "Features, limits and availability can change, so confirm details on the official site"
+  ],
+  "alternatives": [
+   "clipchamp",
+   "veed"
+  ],
+  "tags": [
+   "editor",
+   "cloud",
+   "subtitles",
+   "collaboration"
+  ],
+  "features": [
+   "Cloud editing",
+   "Auto subtitles",
+   "Text-to-speech",
+   "Team collaboration"
+  ],
+  "use_cases": [
+   "Quick social edits",
+   "Subtitled explainers",
+   "Shared team projects"
+  ],
+  "pricing_details": "Pricing for Flixier is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Flixier?",
+    "a": "Cloud video editor with captions, subtitles and collaboration. See the official site for the latest description."
+   },
+   {
+    "q": "Is Flixier installed?",
+    "a": "It runs in the browser. See official site."
+   },
+   {
+    "q": "Is Flixier free?",
+    "a": "Pricing is not verified here and plans change. Check the official Flixier site for current options."
+   }
+  ],
+  "seo_title": "Flixier: What It Does, Features and Alternatives",
+  "seo_description": "Cloud video editor with captions, subtitles and collaboration. Overview of Flixier features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "seo-ai",
+  "name": "SEO.ai",
+  "category": "marketing",
+  "website_url": "https://seo.ai",
+  "pricing": "Unknown",
+  "tagline": "AI writer and keyword helper aimed at ranking-focused articles.",
+  "best_for": "Small sites producing SEO articles",
+  "platforms": [
+   "Web"
+  ],
+  "description": "SEO.ai combines keyword suggestions with an AI article writer, aiming to help users produce search-focused posts faster.\n\nDrafts need editing for accuracy and voice. Search engines value helpful content, so add original insight. Check the official site for current plans and features.",
+  "use_steps": [
+   "Open the official SEO.ai site and read what the tool covers.",
+   "Create an account or open the tool and try a small, low-risk example related to blog drafts.",
+   "Review the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it for refreshing old posts or sensitive work."
+  ],
+  "pros": [
+   "Keyword and writing combined",
+   "Quick drafts",
+   "Simple interface"
+  ],
+  "cons": [
+   "Output needs heavy editing",
+   "Features, limits and availability can change, so confirm details on the official site"
+  ],
+  "alternatives": [
+   "frase",
+   "byword"
+  ],
+  "tags": [
+   "seo",
+   "writing",
+   "keywords",
+   "blog"
+  ],
+  "features": [
+   "Keyword ideas",
+   "Article drafting",
+   "SEO suggestions",
+   "Editor"
+  ],
+  "use_cases": [
+   "Blog drafts",
+   "Keyword exploration",
+   "Refreshing old posts"
+  ],
+  "pricing_details": "Pricing for SEO.ai is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is SEO.ai?",
+    "a": "AI writer and keyword helper aimed at ranking-focused articles. See the official site for the latest description."
+   },
+   {
+    "q": "Can I publish drafts as is?",
+    "a": "Review and edit first. See official site."
+   },
+   {
+    "q": "Is SEO.ai free?",
+    "a": "Pricing is not verified here and plans change. Check the official SEO.ai site for current options."
+   }
+  ],
+  "seo_title": "SEO.ai: What It Does, Features and Alternatives",
+  "seo_description": "AI writer and keyword helper aimed at ranking-focused articles. Overview of SEO.ai features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "dovetail",
+  "name": "Dovetail",
+  "category": "marketing",
+  "website_url": "https://dovetail.com",
+  "pricing": "Unknown",
+  "tagline": "Customer research repository that analyses interviews and feedback.",
+  "best_for": "Product and research teams organising customer insights",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Dovetail stores interview recordings, notes and feedback, and applies transcription, tagging and AI summaries to find themes across them.\n\nIt centralises scattered research for product teams. Check how data is stored and shared before uploading sensitive interviews. Check the official site for current plans and features.",
+  "use_steps": [
+   "Open the official Dovetail site and read what the tool covers.",
+   "Create an account or open the tool and try a small, low-risk example related to user interview analysis.",
+   "Review the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it for sharing research findings or sensitive work."
+  ],
+  "pros": [
+   "Central research hub",
+   "Theme discovery",
+   "Team sharing"
+  ],
+  "cons": [
+   "May be heavy for tiny projects",
+   "Features, limits and availability can change, so confirm details on the official site"
+  ],
+  "alternatives": [
+   "notion-ai",
+   "otter-ai"
+  ],
+  "tags": [
+   "research",
+   "interviews",
+   "insights",
+   "customer"
+  ],
+  "features": [
+   "Transcription",
+   "Tagging and themes",
+   "AI summaries",
+   "Insight repository"
+  ],
+  "use_cases": [
+   "User interview analysis",
+   "Feedback synthesis",
+   "Sharing research findings"
+  ],
+  "pricing_details": "Pricing for Dovetail is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Dovetail?",
+    "a": "Customer research repository that analyses interviews and feedback. See the official site for the latest description."
+   },
+   {
+    "q": "Does it transcribe calls?",
+    "a": "Transcription is part of the offering. Check official site."
+   },
+   {
+    "q": "Is Dovetail free?",
+    "a": "Pricing is not verified here and plans change. Check the official Dovetail site for current options."
+   }
+  ],
+  "seo_title": "Dovetail: What It Does, Features and Alternatives",
+  "seo_description": "Customer research repository that analyses interviews and feedback. Overview of Dovetail features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "synthetic-users",
+  "name": "Synthetic Users",
+  "category": "marketing",
+  "website_url": "https://www.syntheticusers.com",
+  "pricing": "Unknown",
+  "tagline": "Simulates user interviews with AI personas for early research.",
+  "best_for": "Teams validating ideas before real interviews",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Synthetic Users generates AI personas that answer interview-style questions, giving fast early feedback on concepts and messaging.\n\nSimulated answers are not evidence from real customers. Use them to shape questions, then validate with actual people. Check the official site for current plans and features.",
+  "use_steps": [
+   "Open the official Synthetic Users site and read what the tool covers.",
+   "Create an account or open the tool and try a small, low-risk example related to early concept testing.",
+   "Review the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it for message exploration or sensitive work."
+  ],
+  "pros": [
+   "Fast feedback",
+   "Low effort",
+   "Good for question design"
+  ],
+  "cons": [
+   "Not a replacement for real users",
+   "Features, limits and availability can change, so confirm details on the official site"
+  ],
+  "alternatives": [
+   "hotjar",
+   "mentimeter"
+  ],
+  "tags": [
+   "personas",
+   "research",
+   "simulation",
+   "product"
+  ],
+  "features": [
+   "AI personas",
+   "Simulated interviews",
+   "Audience definitions",
+   "Summaries"
+  ],
+  "use_cases": [
+   "Early concept testing",
+   "Drafting interview guides",
+   "Message exploration"
+  ],
+  "pricing_details": "Pricing for Synthetic Users is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Synthetic Users?",
+    "a": "Simulates user interviews with AI personas for early research. See the official site for the latest description."
+   },
+   {
+    "q": "Are responses from real people?",
+    "a": "No, they are AI-simulated. See official site."
+   },
+   {
+    "q": "Is Synthetic Users free?",
+    "a": "Pricing is not verified here and plans change. Check the official Synthetic Users site for current options."
+   }
+  ],
+  "seo_title": "Synthetic Users: What It Does, Features and Alternatives",
+  "seo_description": "Simulates user interviews with AI personas for early research. Overview of Synthetic Users features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "lavender",
+  "name": "Lavender",
+  "category": "marketing",
+  "website_url": "https://www.lavender.ai",
+  "pricing": "Unknown",
+  "tagline": "Email coaching tool that scores and improves sales emails.",
+  "best_for": "Sales reps writing outreach emails",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Lavender works inside your email client to score drafts and suggest edits, aiming for clearer, shorter and more personal outreach.\n\nIt teaches style while you write. Use suggestions as guidance and keep messages truthful. Check the official site for current plans and features.",
+  "use_steps": [
+   "Open the official Lavender site and read what the tool covers.",
+   "Create an account or open the tool and try a small, low-risk example related to cold outreach drafts.",
+   "Review the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it for reply improvement or sensitive work."
+  ],
+  "pros": [
+   "Real-time coaching",
+   "In-inbox workflow",
+   "Sales focus"
+  ],
+  "cons": [
+   "Best for outbound sales",
+   "Features, limits and availability can change, so confirm details on the official site"
+  ],
+  "alternatives": [
+   "instantly",
+   "lemlist"
+  ],
+  "tags": [
+   "email",
+   "sales",
+   "coaching",
+   "outreach"
+  ],
+  "features": [
+   "Email scoring",
+   "Writing suggestions",
+   "Personalisation hints",
+   "Inbox integration"
+  ],
+  "use_cases": [
+   "Cold outreach drafts",
+   "Follow-up emails",
+   "Reply improvement"
+  ],
+  "pricing_details": "Pricing for Lavender is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Lavender?",
+    "a": "Email coaching tool that scores and improves sales emails. See the official site for the latest description."
+   },
+   {
+    "q": "Does it work inside Gmail?",
+    "a": "Inbox integrations are offered. See official site."
+   },
+   {
+    "q": "Is Lavender free?",
+    "a": "Pricing is not verified here and plans change. Check the official Lavender site for current options."
+   }
+  ],
+  "seo_title": "Lavender: What It Does, Features and Alternatives",
+  "seo_description": "Email coaching tool that scores and improves sales emails. Overview of Lavender features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "regie-ai",
+  "name": "Regie.ai",
+  "category": "marketing",
+  "website_url": "https://www.regie.ai",
+  "pricing": "Unknown",
+  "tagline": "Sales content and outreach automation platform with AI agents.",
+  "best_for": "Revenue teams scaling outbound sequences",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Regie.ai helps sales teams write prospecting sequences and run outbound workflows with AI assistance and CRM integration.\n\nReview automated messages before sending to avoid spam or compliance issues. Check the official site for current plans and features.",
+  "use_steps": [
+   "Open the official Regie.ai site and read what the tool covers.",
+   "Create an account or open the tool and try a small, low-risk example related to outbound campaigns.",
+   "Review the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it for rep enablement or sensitive work."
+  ],
+  "pros": [
+   "Built for sales teams",
+   "Workflow focus",
+   "CRM linked"
+  ],
+  "cons": [
+   "Compliance rules on outreach apply",
+   "Features, limits and availability can change, so confirm details on the official site"
+  ],
+  "alternatives": [
+   "apollo-io",
+   "outreach"
+  ],
+  "tags": [
+   "sales",
+   "outbound",
+   "sequences",
+   "crm"
+  ],
+  "features": [
+   "Sequence drafting",
+   "Prospecting workflows",
+   "CRM integration",
+   "Personalised copy"
+  ],
+  "use_cases": [
+   "Outbound campaigns",
+   "Sequence refresh",
+   "Rep enablement"
+  ],
+  "pricing_details": "Pricing for Regie.ai is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Regie.ai?",
+    "a": "Sales content and outreach automation platform with AI agents. See the official site for the latest description."
+   },
+   {
+    "q": "Is it a CRM?",
+    "a": "It integrates with CRMs. See official site."
+   },
+   {
+    "q": "Is Regie.ai free?",
+    "a": "Pricing is not verified here and plans change. Check the official Regie.ai site for current options."
+   }
+  ],
+  "seo_title": "Regie.ai: What It Does, Features and Alternatives",
+  "seo_description": "Sales content and outreach automation platform with AI agents. Overview of Regie.ai features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "otterly-ai",
+  "name": "Otterly.AI",
+  "category": "marketing",
+  "website_url": "https://otterly.ai",
+  "pricing": "Unknown",
+  "tagline": "Tracks brand mentions and links in AI search answers.",
+  "best_for": "SEO teams monitoring AI search visibility",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Otterly.AI monitors how a brand and its links appear in answers from AI search tools, tracking prompts you define over time.\n\nAI answers vary, so treat results as indicators. Compare with traditional SEO data. Check the official site for current plans and features.",
+  "use_steps": [
+   "Open the official Otterly.AI site and read what the tool covers.",
+   "Create an account or open the tool and try a small, low-risk example related to geo monitoring.",
+   "Review the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it for reporting to clients or sensitive work."
+  ],
+  "pros": [
+   "Focus on AI search",
+   "Trend tracking",
+   "Reports"
+  ],
+  "cons": [
+   "Results fluctuate between runs",
+   "Features, limits and availability can change, so confirm details on the official site"
+  ],
+  "alternatives": [
+   "semrush",
+   "ahrefs"
+  ],
+  "tags": [
+   "geo",
+   "ai-search",
+   "monitoring",
+   "brand"
+  ],
+  "features": [
+   "Prompt tracking",
+   "Brand mention monitoring",
+   "Link citations",
+   "Reports"
+  ],
+  "use_cases": [
+   "GEO monitoring",
+   "Competitor comparison",
+   "Reporting to clients"
+  ],
+  "pricing_details": "Pricing for Otterly.AI is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Otterly.AI?",
+    "a": "Tracks brand mentions and links in AI search answers. See the official site for the latest description."
+   },
+   {
+    "q": "Which engines does it track?",
+    "a": "See official site for supported platforms."
+   },
+   {
+    "q": "Is Otterly.AI free?",
+    "a": "Pricing is not verified here and plans change. Check the official Otterly.AI site for current options."
+   }
+  ],
+  "seo_title": "Otterly.AI: What It Does, Features and Alternatives",
+  "seo_description": "Tracks brand mentions and links in AI search answers. Overview of Otterly.AI features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "voicenotes",
+  "name": "Voicenotes",
+  "category": "productivity",
+  "website_url": "https://voicenotes.com",
+  "pricing": "Unknown",
+  "tagline": "Voice note app that transcribes and organises spoken ideas.",
+  "best_for": "People who capture ideas by speaking",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "Voicenotes records spoken thoughts, transcribes them and lets you search or ask questions about your notes with AI.\n\nIt suits fast capture while walking or commuting. Check transcript accuracy for names. Check the official site for current plans and features.",
+  "use_steps": [
+   "Open the official Voicenotes site and read what the tool covers.",
+   "Create an account or open the tool and try a small, low-risk example related to idea capture.",
+   "Review the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it for journalling or sensitive work."
+  ],
+  "pros": [
+   "Fast capture",
+   "Searchable notes",
+   "Mobile friendly"
+  ],
+  "cons": [
+   "Accuracy depends on audio",
+   "Features, limits and availability can change, so confirm details on the official site"
+  ],
+  "alternatives": [
+   "otter-ai",
+   "mem"
+  ],
+  "tags": [
+   "voice",
+   "notes",
+   "transcription",
+   "capture"
+  ],
+  "features": [
+   "Voice recording",
+   "Transcription",
+   "AI search over notes",
+   "Tagging"
+  ],
+  "use_cases": [
+   "Idea capture",
+   "Meeting thoughts",
+   "Journalling"
+  ],
+  "pricing_details": "Pricing for Voicenotes is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Voicenotes?",
+    "a": "Voice note app that transcribes and organises spoken ideas. See the official site for the latest description."
+   },
+   {
+    "q": "Does it work offline?",
+    "a": "See official site."
+   },
+   {
+    "q": "Is Voicenotes free?",
+    "a": "Pricing is not verified here and plans change. Check the official Voicenotes site for current options."
+   }
+  ],
+  "seo_title": "Voicenotes: What It Does, Features and Alternatives",
+  "seo_description": "Voice note app that transcribes and organises spoken ideas. Overview of Voicenotes features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "numerous-ai",
+  "name": "Numerous.ai",
+  "category": "productivity",
+  "website_url": "https://numerous.ai",
+  "pricing": "Unknown",
+  "tagline": "AI functions for Google Sheets and Excel.",
+  "best_for": "Spreadsheet users applying AI to rows",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Numerous adds an AI function to spreadsheets so you can categorise, summarise or generate text across many rows at once.\n\nIt helps bulk text tasks. Verify results on samples before filling whole columns. Check the official site for current plans and features.",
+  "use_steps": [
+   "Open the official Numerous.ai site and read what the tool covers.",
+   "Create an account or open the tool and try a small, low-risk example related to categorising feedback.",
+   "Review the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it for cleaning text or sensitive work."
+  ],
+  "pros": [
+   "Works in familiar sheets",
+   "Bulk handling",
+   "Minimal setup"
+  ],
+  "cons": [
+   "Results should be spot-checked",
+   "Features, limits and availability can change, so confirm details on the official site"
+  ],
+  "alternatives": [
+   "rows",
+   "julius-ai"
+  ],
+  "tags": [
+   "spreadsheet",
+   "sheets",
+   "excel",
+   "bulk"
+  ],
+  "features": [
+   "Spreadsheet AI function",
+   "Bulk text tasks",
+   "Sheets and Excel support",
+   "Prompt in cell"
+  ],
+  "use_cases": [
+   "Categorising feedback",
+   "Writing descriptions",
+   "Cleaning text"
+  ],
+  "pricing_details": "Pricing for Numerous.ai is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Numerous.ai?",
+    "a": "AI functions for Google Sheets and Excel. See the official site for the latest description."
+   },
+   {
+    "q": "Does it replace formulas?",
+    "a": "No, it complements them. See official site."
+   },
+   {
+    "q": "Is Numerous.ai free?",
+    "a": "Pricing is not verified here and plans change. Check the official Numerous.ai site for current options."
+   }
+  ],
+  "seo_title": "Numerous.ai: What It Does, Features and Alternatives",
+  "seo_description": "AI functions for Google Sheets and Excel. Overview of Numerous.ai features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "formula-bot",
+  "name": "Formula Bot",
+  "category": "productivity",
+  "website_url": "https://formulabot.com",
+  "pricing": "Unknown",
+  "tagline": "Generates spreadsheet formulas and analyses data from plain language.",
+  "best_for": "Spreadsheet users who struggle with formulas",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Formula Bot turns plain-language requests into Excel or Sheets formulas and offers data analysis helpers.\n\nTest formulas on sample data before relying on them. Check the official site for current plans and features.",
+  "use_steps": [
+   "Open the official Formula Bot site and read what the tool covers.",
+   "Create an account or open the tool and try a small, low-risk example related to writing lookups.",
+   "Review the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it for quick analysis or sensitive work."
+  ],
+  "pros": [
+   "Plain-language input",
+   "Explains formulas",
+   "Helpful for beginners"
+  ],
+  "cons": [
+   "Complex models still need review",
+   "Features, limits and availability can change, so confirm details on the official site"
+  ],
+  "alternatives": [
+   "julius-ai",
+   "rows"
+  ],
+  "tags": [
+   "formulas",
+   "excel",
+   "sheets",
+   "analysis"
+  ],
+  "features": [
+   "Formula generation",
+   "Formula explanation",
+   "Data analysis",
+   "Excel and Sheets"
+  ],
+  "use_cases": [
+   "Writing lookups",
+   "Understanding formulas",
+   "Quick analysis"
+  ],
+  "pricing_details": "Pricing for Formula Bot is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Formula Bot?",
+    "a": "Generates spreadsheet formulas and analyses data from plain language. See the official site for the latest description."
+   },
+   {
+    "q": "Does it explain formulas?",
+    "a": "Explanations are offered. See official site."
+   },
+   {
+    "q": "Is Formula Bot free?",
+    "a": "Pricing is not verified here and plans change. Check the official Formula Bot site for current options."
+   }
+  ],
+  "seo_title": "Formula Bot: What It Does, Features and Alternatives",
+  "seo_description": "Generates spreadsheet formulas and analyses data from plain language. Overview of Formula Bot features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "plus-ai",
+  "name": "Plus AI",
+  "category": "productivity",
+  "website_url": "https://www.plusdocs.com",
+  "pricing": "Unknown",
+  "tagline": "Generates slide decks inside Google Slides and PowerPoint.",
+  "best_for": "Professionals who work in Slides or PowerPoint",
+  "platforms": [
+   "Web",
+   "Google Slides",
+   "PowerPoint"
+  ],
+  "description": "Plus AI is an add-on that creates presentations directly in Google Slides or PowerPoint from a prompt, with editing tools in place.\n\nBecause decks stay in your normal editor, sharing is simple. Review content before presenting. Check the official site for current plans and features.",
+  "use_steps": [
+   "Open the official Plus AI site and read what the tool covers.",
+   "Create an account or open the tool and try a small, low-risk example related to client decks.",
+   "Review the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it for draft outlines or sensitive work."
+  ],
+  "pros": [
+   "Stays in familiar apps",
+   "Editable output",
+   "Quick draft"
+  ],
+  "cons": [
+   "Needs add-on installation",
+   "Features, limits and availability can change, so confirm details on the official site"
+  ],
+  "alternatives": [
+   "gamma",
+   "slidesai"
+  ],
+  "tags": [
+   "slides",
+   "presentation",
+   "addon",
+   "powerpoint"
+  ],
+  "features": [
+   "Prompt-to-deck",
+   "Slides and PowerPoint add-on",
+   "Slide rewriting",
+   "Theme options"
+  ],
+  "use_cases": [
+   "Client decks",
+   "Internal updates",
+   "Draft outlines"
+  ],
+  "pricing_details": "Pricing for Plus AI is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Plus AI?",
+    "a": "Generates slide decks inside Google Slides and PowerPoint. See the official site for the latest description."
+   },
+   {
+    "q": "Is it standalone?",
+    "a": "It works as an add-on. See official site."
+   },
+   {
+    "q": "Is Plus AI free?",
+    "a": "Pricing is not verified here and plans change. Check the official Plus AI site for current options."
+   }
+  ],
+  "seo_title": "Plus AI: What It Does, Features and Alternatives",
+  "seo_description": "Generates slide decks inside Google Slides and PowerPoint. Overview of Plus AI features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "mapify",
+  "name": "Mapify",
+  "category": "productivity",
+  "website_url": "https://mapify.so",
+  "pricing": "Unknown",
+  "tagline": "Turns documents, videos and notes into mind maps.",
+  "best_for": "Learners and analysts summarising sources visually",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Mapify generates mind maps from text, PDFs, web pages or videos, giving a structured overview you can expand.\n\nUse maps as a navigation aid and check against the source for accuracy. Check the official site for current plans and features.",
+  "use_steps": [
+   "Open the official Mapify site and read what the tool covers.",
+   "Create an account or open the tool and try a small, low-risk example related to study summaries.",
+   "Review the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it for research overviews or sensitive work."
+  ],
+  "pros": [
+   "Visual summaries",
+   "Many input types",
+   "Editable"
+  ],
+  "cons": [
+   "Summaries may omit detail",
+   "Features, limits and availability can change, so confirm details on the official site"
+  ],
+  "alternatives": [
+   "xmind",
+   "mindmeister"
+  ],
+  "tags": [
+   "mindmap",
+   "summary",
+   "visual",
+   "notes"
+  ],
+  "features": [
+   "Mind map generation",
+   "Multiple source types",
+   "Editable nodes",
+   "Export"
+  ],
+  "use_cases": [
+   "Study summaries",
+   "Meeting recaps",
+   "Research overviews"
+  ],
+  "pricing_details": "Pricing for Mapify is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Mapify?",
+    "a": "Turns documents, videos and notes into mind maps. See the official site for the latest description."
+   },
+   {
+    "q": "What inputs work?",
+    "a": "See official site."
+   },
+   {
+    "q": "Is Mapify free?",
+    "a": "Pricing is not verified here and plans change. Check the official Mapify site for current options."
+   }
+  ],
+  "seo_title": "Mapify: What It Does, Features and Alternatives",
+  "seo_description": "Turns documents, videos and notes into mind maps. Overview of Mapify features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "turboscribe",
+  "name": "TurboScribe",
+  "category": "productivity",
+  "website_url": "https://turboscribe.ai",
+  "pricing": "Unknown",
+  "tagline": "Audio and video transcription tool with many languages.",
+  "best_for": "Anyone transcribing recordings",
+  "platforms": [
+   "Web"
+  ],
+  "description": "TurboScribe transcribes audio and video files and offers translation and export formats.\n\nCheck transcripts for accuracy, especially with accents. Check the official site for current plans and features.",
+  "use_steps": [
+   "Open the official TurboScribe site and read what the tool covers.",
+   "Create an account or open the tool and try a small, low-risk example related to interview transcripts.",
+   "Review the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it for subtitle drafts or sensitive work."
+  ],
+  "pros": [
+   "Simple upload",
+   "Many languages",
+   "Quick results"
+  ],
+  "cons": [
+   "Accuracy varies by audio",
+   "Features, limits and availability can change, so confirm details on the official site"
+  ],
+  "alternatives": [
+   "otter-ai",
+   "sonix"
+  ],
+  "tags": [
+   "transcription",
+   "audio",
+   "subtitles",
+   "speech"
+  ],
+  "features": [
+   "File transcription",
+   "Language support",
+   "Export formats",
+   "Speaker labels"
+  ],
+  "use_cases": [
+   "Interview transcripts",
+   "Lecture notes",
+   "Subtitle drafts"
+  ],
+  "pricing_details": "Pricing for TurboScribe is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is TurboScribe?",
+    "a": "Audio and video transcription tool with many languages. See the official site for the latest description."
+   },
+   {
+    "q": "What formats export?",
+    "a": "See official site."
+   },
+   {
+    "q": "Is TurboScribe free?",
+    "a": "Pricing is not verified here and plans change. Check the official TurboScribe site for current options."
+   }
+  ],
+  "seo_title": "TurboScribe: What It Does, Features and Alternatives",
+  "seo_description": "Audio and video transcription tool with many languages. Overview of TurboScribe features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "vapi",
+  "name": "Vapi",
+  "category": "productivity",
+  "website_url": "https://vapi.ai",
+  "pricing": "Unknown",
+  "tagline": "Developer platform for building voice AI agents.",
+  "best_for": "Developers building voice agents",
+  "platforms": [
+   "Web",
+   "API"
+  ],
+  "description": "Vapi gives developers infrastructure for voice agents that take and place calls, combining speech recognition, language models and voice synthesis.\n\nVoice agents need testing for latency and failure modes. Observe calling and consent regulations. Check the official site for current plans and features.",
+  "use_steps": [
+   "Open the official Vapi site and read what the tool covers.",
+   "Create an account or open the tool and try a small, low-risk example related to phone support agents.",
+   "Review the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it for outbound calls or sensitive work."
+  ],
+  "pros": [
+   "Developer control",
+   "Flexible components",
+   "Telephony support"
+  ],
+  "cons": [
+   "Requires technical setup",
+   "Features, limits and availability can change, so confirm details on the official site"
+  ],
+  "alternatives": [
+   "voiceflow",
+   "elevenlabs"
+  ],
+  "tags": [
+   "voice",
+   "agents",
+   "api",
+   "telephony"
+  ],
+  "features": [
+   "Voice agent orchestration",
+   "Phone integration",
+   "Model choice",
+   "API"
+  ],
+  "use_cases": [
+   "Phone support agents",
+   "Appointment booking",
+   "Outbound calls"
+  ],
+  "pricing_details": "Pricing for Vapi is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Vapi?",
+    "a": "Developer platform for building voice AI agents. See the official site for the latest description."
+   },
+   {
+    "q": "Is it no-code?",
+    "a": "It targets developers. See official site."
+   },
+   {
+    "q": "Is Vapi free?",
+    "a": "Pricing is not verified here and plans change. Check the official Vapi site for current options."
+   }
+  ],
+  "seo_title": "Vapi: What It Does, Features and Alternatives",
+  "seo_description": "Developer platform for building voice AI agents. Overview of Vapi features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "retell-ai",
+  "name": "Retell AI",
+  "category": "productivity",
+  "website_url": "https://www.retellai.com",
+  "pricing": "Unknown",
+  "tagline": "Platform for building and deploying AI phone agents.",
+  "best_for": "Teams automating phone calls",
+  "platforms": [
+   "Web",
+   "API"
+  ],
+  "description": "Retell AI helps build conversational voice agents that handle phone calls such as support and scheduling.\n\nTest thoroughly and disclose automation where required. Check the official site for current plans and features.",
+  "use_steps": [
+   "Open the official Retell AI site and read what the tool covers.",
+   "Create an account or open the tool and try a small, low-risk example related to reception automation.",
+   "Review the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it for reminders or sensitive work."
+  ],
+  "pros": [
+   "Phone focus",
+   "Builder tools",
+   "Scales calls"
+  ],
+  "cons": [
+   "Voice quality needs testing",
+   "Features, limits and availability can change, so confirm details on the official site"
+  ],
+  "alternatives": [
+   "voiceflow",
+   "botpress"
+  ],
+  "tags": [
+   "voice",
+   "phone",
+   "agents",
+   "support"
+  ],
+  "features": [
+   "Call agents",
+   "Telephony",
+   "Conversation flows",
+   "Analytics"
+  ],
+  "use_cases": [
+   "Reception automation",
+   "Lead qualification",
+   "Reminders"
+  ],
+  "pricing_details": "Pricing for Retell AI is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Retell AI?",
+    "a": "Platform for building and deploying AI phone agents. See the official site for the latest description."
+   },
+   {
+    "q": "Is it for developers?",
+    "a": "Both builders and API. See official site."
+   },
+   {
+    "q": "Is Retell AI free?",
+    "a": "Pricing is not verified here and plans change. Check the official Retell AI site for current options."
+   }
+  ],
+  "seo_title": "Retell AI: What It Does, Features and Alternatives",
+  "seo_description": "Platform for building and deploying AI phone agents. Overview of Retell AI features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "synthflow",
+  "name": "Synthflow",
+  "category": "productivity",
+  "website_url": "https://synthflow.ai",
+  "pricing": "Unknown",
+  "tagline": "No-code builder for AI voice assistants.",
+  "best_for": "Agencies building voice assistants without coding",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Synthflow lets you design voice assistants through a visual builder and connect them to calendars and tools.\n\nGood for quick prototypes; review compliance for recorded calls. Check the official site for current plans and features.",
+  "use_steps": [
+   "Open the official Synthflow site and read what the tool covers.",
+   "Create an account or open the tool and try a small, low-risk example related to booking calls.",
+   "Review the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it for lead capture or sensitive work."
+  ],
+  "pros": [
+   "Low-code",
+   "Templates",
+   "Quick start"
+  ],
+  "cons": [
+   "Limits on deep customisation",
+   "Features, limits and availability can change, so confirm details on the official site"
+  ],
+  "alternatives": [
+   "botpress",
+   "voiceflow"
+  ],
+  "tags": [
+   "voice",
+   "no-code",
+   "assistant",
+   "calls"
+  ],
+  "features": [
+   "No-code builder",
+   "Calendar integration",
+   "Phone numbers",
+   "Templates"
+  ],
+  "use_cases": [
+   "Booking calls",
+   "Customer support",
+   "Lead capture"
+  ],
+  "pricing_details": "Pricing for Synthflow is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Synthflow?",
+    "a": "No-code builder for AI voice assistants. See the official site for the latest description."
+   },
+   {
+    "q": "Needs coding?",
+    "a": "Aimed at no-code. See official site."
+   },
+   {
+    "q": "Is Synthflow free?",
+    "a": "Pricing is not verified here and plans change. Check the official Synthflow site for current options."
+   }
+  ],
+  "seo_title": "Synthflow: What It Does, Features and Alternatives",
+  "seo_description": "No-code builder for AI voice assistants. Overview of Synthflow features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "immersive-translate",
+  "name": "Immersive Translate",
+  "category": "productivity",
+  "website_url": "https://immersivetranslate.com",
+  "pricing": "Unknown",
+  "tagline": "Browser extension for bilingual web page translation.",
+  "best_for": "Readers of foreign-language sites",
+  "platforms": [
+   "Chrome",
+   "Firefox",
+   "Web"
+  ],
+  "description": "Immersive Translate shows translations side by side with original text on web pages, PDFs and videos subtitles.\n\nHandy for reading and language study. Machine translation can miss nuance. Check the official site for current plans and features.",
+  "use_steps": [
+   "Open the official Immersive Translate site and read what the tool covers.",
+   "Create an account or open the tool and try a small, low-risk example related to reading foreign news.",
+   "Review the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it for language practice or sensitive work."
+  ],
+  "pros": [
+   "Side-by-side view",
+   "Engine choice",
+   "Browser integrated"
+  ],
+  "cons": [
+   "Quality depends on engine",
+   "Features, limits and availability can change, so confirm details on the official site"
+  ],
+  "alternatives": [
+   "deepl",
+   "google-gemini"
+  ],
+  "tags": [
+   "translation",
+   "browser",
+   "bilingual",
+   "extension"
+  ],
+  "features": [
+   "Bilingual display",
+   "PDF translation",
+   "Multiple engines",
+   "Subtitle support"
+  ],
+  "use_cases": [
+   "Reading foreign news",
+   "Papers in other languages",
+   "Language practice"
+  ],
+  "pricing_details": "Pricing for Immersive Translate is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Immersive Translate?",
+    "a": "Browser extension for bilingual web page translation. See the official site for the latest description."
+   },
+   {
+    "q": "Does it keep the original?",
+    "a": "Yes, bilingual view. See official site."
+   },
+   {
+    "q": "Is Immersive Translate free?",
+    "a": "Pricing is not verified here and plans change. Check the official Immersive Translate site for current options."
+   }
+  ],
+  "seo_title": "Immersive Translate: What It Does, Features and Alternatives",
+  "seo_description": "Browser extension for bilingual web page translation. Overview of Immersive Translate features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "zencoder",
+  "name": "Zencoder",
+  "category": "coding",
+  "website_url": "https://zencoder.ai",
+  "pricing": "Unknown",
+  "tagline": "AI coding agent for IDEs with repo-aware assistance.",
+  "best_for": "Developers wanting agents in their IDE",
+  "platforms": [
+   "VS Code",
+   "JetBrains"
+  ],
+  "description": "Zencoder provides coding assistance in popular IDEs, using repository context for chat, completion and agentic tasks.\n\nAlways review generated changes and run tests. Check the official site for current plans and features.",
+  "use_steps": [
+   "Open the official Zencoder site and read what the tool covers.",
+   "Create an account or open the tool and try a small, low-risk example related to feature implementation.",
+   "Review the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it for refactoring or sensitive work."
+  ],
+  "pros": [
+   "IDE integration",
+   "Context awareness",
+   "Agent tasks"
+  ],
+  "cons": [
+   "Review required",
+   "Features, limits and availability can change, so confirm details on the official site"
+  ],
+  "alternatives": [
+   "github-copilot",
+   "tabnine"
+  ],
+  "tags": [
+   "ide",
+   "agent",
+   "coding",
+   "repo"
+  ],
+  "features": [
+   "IDE plugins",
+   "Repo awareness",
+   "Code generation",
+   "Testing help"
+  ],
+  "use_cases": [
+   "Feature implementation",
+   "Unit tests",
+   "Refactoring"
+  ],
+  "pricing_details": "Pricing for Zencoder is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Zencoder?",
+    "a": "AI coding agent for IDEs with repo-aware assistance. See the official site for the latest description."
+   },
+   {
+    "q": "Which IDEs?",
+    "a": "See official site."
+   },
+   {
+    "q": "Is Zencoder free?",
+    "a": "Pricing is not verified here and plans change. Check the official Zencoder site for current options."
+   }
+  ],
+  "seo_title": "Zencoder: What It Does, Features and Alternatives",
+  "seo_description": "AI coding agent for IDEs with repo-aware assistance. Overview of Zencoder features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "ellipsis",
+  "name": "Ellipsis",
+  "category": "coding",
+  "website_url": "https://www.ellipsis.dev",
+  "pricing": "Unknown",
+  "tagline": "AI code reviewer that comments on pull requests.",
+  "best_for": "Teams automating pull request review",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Ellipsis reviews pull requests on GitHub, leaving comments and can propose fixes.\n\nUse alongside human review. Check the official site for current plans and features.",
+  "use_steps": [
+   "Open the official Ellipsis site and read what the tool covers.",
+   "Create an account or open the tool and try a small, low-risk example related to catching bugs.",
+   "Review the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it for review speed or sensitive work."
+  ],
+  "pros": [
+   "Automated review",
+   "Custom rules",
+   "PR integration"
+  ],
+  "cons": [
+   "False positives possible",
+   "Features, limits and availability can change, so confirm details on the official site"
+  ],
+  "alternatives": [
+   "coderabbit",
+   "greptile"
+  ],
+  "tags": [
+   "code-review",
+   "github",
+   "pr",
+   "automation"
+  ],
+  "features": [
+   "PR reviews",
+   "Fix suggestions",
+   "GitHub integration",
+   "Custom rules"
+  ],
+  "use_cases": [
+   "Catching bugs",
+   "Style checks",
+   "Review speed"
+  ],
+  "pricing_details": "Pricing for Ellipsis is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Ellipsis?",
+    "a": "AI code reviewer that comments on pull requests. See the official site for the latest description."
+   },
+   {
+    "q": "Replaces reviewers?",
+    "a": "No. See official site."
+   },
+   {
+    "q": "Is Ellipsis free?",
+    "a": "Pricing is not verified here and plans change. Check the official Ellipsis site for current options."
+   }
+  ],
+  "seo_title": "Ellipsis: What It Does, Features and Alternatives",
+  "seo_description": "AI code reviewer that comments on pull requests. Overview of Ellipsis features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "codeant-ai",
+  "name": "CodeAnt AI",
+  "category": "coding",
+  "website_url": "https://www.codeant.ai",
+  "pricing": "Unknown",
+  "tagline": "Code review and quality scanning with AI.",
+  "best_for": "Teams improving code quality",
+  "platforms": [
+   "Web"
+  ],
+  "description": "CodeAnt AI reviews pull requests and scans code for quality and security problems.\n\nCombine with your existing CI checks. Check the official site for current plans and features.",
+  "use_steps": [
+   "Open the official CodeAnt AI site and read what the tool covers.",
+   "Create an account or open the tool and try a small, low-risk example related to review pull requests.",
+   "Review the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it for quality reporting or sensitive work."
+  ],
+  "pros": [
+   "Quality plus security",
+   "Git platforms",
+   "Automated"
+  ],
+  "cons": [
+   "Tune to reduce noise",
+   "Features, limits and availability can change, so confirm details on the official site"
+  ],
+  "alternatives": [
+   "codacy",
+   "sonarqube"
+  ],
+  "tags": [
+   "quality",
+   "security",
+   "review",
+   "scanning"
+  ],
+  "features": [
+   "PR review",
+   "Quality scanning",
+   "Security checks",
+   "Git integration"
+  ],
+  "use_cases": [
+   "Review pull requests",
+   "Spot vulnerabilities",
+   "Quality reporting"
+  ],
+  "pricing_details": "Pricing for CodeAnt AI is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is CodeAnt AI?",
+    "a": "Code review and quality scanning with AI. See the official site for the latest description."
+   },
+   {
+    "q": "Which Git hosts?",
+    "a": "See official site."
+   },
+   {
+    "q": "Is CodeAnt AI free?",
+    "a": "Pricing is not verified here and plans change. Check the official CodeAnt AI site for current options."
+   }
+  ],
+  "seo_title": "CodeAnt AI: What It Does, Features and Alternatives",
+  "seo_description": "Code review and quality scanning with AI. Overview of CodeAnt AI features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "void-editor",
+  "name": "Void",
+  "category": "coding",
+  "website_url": "https://voideditor.com",
+  "pricing": "Unknown",
+  "tagline": "Open-source AI code editor as an alternative to Cursor.",
+  "best_for": "Developers wanting control over models",
+  "platforms": [
+   "macOS",
+   "Windows",
+   "Linux"
+  ],
+  "description": "Void is a code editor based on VS Code with built-in AI features that let you connect various models, including local ones.\n\nCheck project status before depending on it. Check the official site for current plans and features.",
+  "use_steps": [
+   "Open the official Void site and read what the tool covers.",
+   "Create an account or open the tool and try a small, low-risk example related to local ai coding.",
+   "Review the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it for privacy-minded work or sensitive work."
+  ],
+  "pros": [
+   "Model flexibility",
+   "Familiar interface",
+   "Local option"
+  ],
+  "cons": [
+   "Young project",
+   "Features, limits and availability can change, so confirm details on the official site"
+  ],
+  "alternatives": [
+   "cursor",
+   "zed"
+  ],
+  "tags": [
+   "editor",
+   "open-source",
+   "local",
+   "vscode"
+  ],
+  "features": [
+   "AI chat",
+   "Model choice",
+   "Local models",
+   "VS Code base"
+  ],
+  "use_cases": [
+   "Local AI coding",
+   "Switching models",
+   "Privacy-minded work"
+  ],
+  "pricing_details": "Pricing for Void is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Void?",
+    "a": "Open-source AI code editor as an alternative to Cursor. See the official site for the latest description."
+   },
+   {
+    "q": "Is it open source?",
+    "a": "See official site."
+   },
+   {
+    "q": "Is Void free?",
+    "a": "Pricing is not verified here and plans change. Check the official Void site for current options."
+   }
+  ],
+  "seo_title": "Void: What It Does, Features and Alternatives",
+  "seo_description": "Open-source AI code editor as an alternative to Cursor. Overview of Void features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "firebase-studio",
+  "name": "Firebase Studio",
+  "category": "coding",
+  "website_url": "https://firebase.studio",
+  "pricing": "Unknown",
+  "tagline": "Google's cloud workspace for building apps with AI.",
+  "best_for": "Developers prototyping apps on Google stack",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Firebase Studio is a browser-based workspace with AI assistance for building and deploying apps, linked to Firebase.\n\nVerify current status on the official site. Check the official site for current plans and features.",
+  "use_steps": [
+   "Open the official Firebase Studio site and read what the tool covers.",
+   "Create an account or open the tool and try a small, low-risk example related to app prototyping.",
+   "Review the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it for deploying quickly or sensitive work."
+  ],
+  "pros": [
+   "No local setup",
+   "Google ecosystem",
+   "AI help"
+  ],
+  "cons": [
+   "Tied to Google services",
+   "Features, limits and availability can change, so confirm details on the official site"
+  ],
+  "alternatives": [
+   "replit",
+   "bolt-new"
+  ],
+  "tags": [
+   "cloud",
+   "firebase",
+   "google",
+   "apps"
+  ],
+  "features": [
+   "Cloud workspace",
+   "Gemini assistance",
+   "Firebase integration",
+   "Prototyping"
+  ],
+  "use_cases": [
+   "App prototyping",
+   "Full-stack drafts",
+   "Deploying quickly"
+  ],
+  "pricing_details": "Pricing for Firebase Studio is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Firebase Studio?",
+    "a": "Google's cloud workspace for building apps with AI. See the official site for the latest description."
+   },
+   {
+    "q": "Needs install?",
+    "a": "Browser based. See official site."
+   },
+   {
+    "q": "Is Firebase Studio free?",
+    "a": "Pricing is not verified here and plans change. Check the official Firebase Studio site for current options."
+   }
+  ],
+  "seo_title": "Firebase Studio: What It Does, Features and Alternatives",
+  "seo_description": "Google's cloud workspace for building apps with AI. Overview of Firebase Studio features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "mindgrasp",
+  "name": "Mindgrasp",
+  "category": "study",
+  "website_url": "https://www.mindgrasp.ai",
+  "pricing": "Unknown",
+  "tagline": "Summarises lectures, documents and videos into notes and quizzes.",
+  "best_for": "Students condensing course material",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Mindgrasp turns uploads such as lectures, PDFs and videos into summaries, notes and quiz questions.\n\nAlways check summaries against source. Check the official site for current plans and features.",
+  "use_steps": [
+   "Open the official Mindgrasp site and read what the tool covers.",
+   "Create an account or open the tool and try a small, low-risk example related to lecture review.",
+   "Review the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it for reading digests or sensitive work."
+  ],
+  "pros": [
+   "Multiple formats",
+   "Study outputs",
+   "Easy upload"
+  ],
+  "cons": [
+   "Summaries may miss nuance",
+   "Features, limits and availability can change, so confirm details on the official site"
+  ],
+  "alternatives": [
+   "notebooklm",
+   "studyfetch"
+  ],
+  "tags": [
+   "notes",
+   "summaries",
+   "quiz",
+   "students"
+  ],
+  "features": [
+   "Summaries",
+   "Notes",
+   "Quizzes",
+   "Chat with files"
+  ],
+  "use_cases": [
+   "Lecture review",
+   "Exam prep",
+   "Reading digests"
+  ],
+  "pricing_details": "Pricing for Mindgrasp is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Mindgrasp?",
+    "a": "Summarises lectures, documents and videos into notes and quizzes. See the official site for the latest description."
+   },
+   {
+    "q": "Which files?",
+    "a": "See official site."
+   },
+   {
+    "q": "Is Mindgrasp free?",
+    "a": "Pricing is not verified here and plans change. Check the official Mindgrasp site for current options."
+   }
+  ],
+  "seo_title": "Mindgrasp: What It Does, Features and Alternatives",
+  "seo_description": "Summarises lectures, documents and videos into notes and quizzes. Overview of Mindgrasp features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "turbolearn",
+  "name": "TurboLearn",
+  "category": "study",
+  "website_url": "https://www.turbolearn.ai",
+  "pricing": "Unknown",
+  "tagline": "Creates notes, flashcards and quizzes from lectures.",
+  "best_for": "Students recording lectures",
+  "platforms": [
+   "Web"
+  ],
+  "description": "TurboLearn converts lecture recordings and documents into notes, flashcards and quizzes.\n\nVerify against your course materials. Check the official site for current plans and features.",
+  "use_steps": [
+   "Open the official TurboLearn site and read what the tool covers.",
+   "Create an account or open the tool and try a small, low-risk example related to review sessions.",
+   "Review the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it for catching up or sensitive work."
+  ],
+  "pros": [
+   "Many outputs",
+   "Lecture focus",
+   "Quick"
+  ],
+  "cons": [
+   "Needs checking",
+   "Features, limits and availability can change, so confirm details on the official site"
+  ],
+  "alternatives": [
+   "knowt",
+   "quizgecko"
+  ],
+  "tags": [
+   "lectures",
+   "flashcards",
+   "notes",
+   "study"
+  ],
+  "features": [
+   "Lecture notes",
+   "Flashcards",
+   "Quizzes",
+   "Transcripts"
+  ],
+  "use_cases": [
+   "Review sessions",
+   "Revision",
+   "Catching up"
+  ],
+  "pricing_details": "Pricing for TurboLearn is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is TurboLearn?",
+    "a": "Creates notes, flashcards and quizzes from lectures. See the official site for the latest description."
+   },
+   {
+    "q": "Live lectures?",
+    "a": "See official site."
+   },
+   {
+    "q": "Is TurboLearn free?",
+    "a": "Pricing is not verified here and plans change. Check the official TurboLearn site for current options."
+   }
+  ],
+  "seo_title": "TurboLearn: What It Does, Features and Alternatives",
+  "seo_description": "Creates notes, flashcards and quizzes from lectures. Overview of TurboLearn features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "studyx",
+  "name": "StudyX",
+  "category": "study",
+  "website_url": "https://studyx.ai",
+  "pricing": "Unknown",
+  "tagline": "AI homework helper with step-by-step explanations.",
+  "best_for": "Students needing worked solutions",
+  "platforms": [
+   "Web"
+  ],
+  "description": "StudyX answers homework questions across subjects and shows step-by-step reasoning.\n\nUse it to learn methods rather than copy answers. Check the official site for current plans and features.",
+  "use_steps": [
+   "Open the official StudyX site and read what the tool covers.",
+   "Create an account or open the tool and try a small, low-risk example related to homework help.",
+   "Review the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it for practice or sensitive work."
+  ],
+  "pros": [
+   "Explained steps",
+   "Subject range",
+   "Image input"
+  ],
+  "cons": [
+   "Answers can be wrong",
+   "Features, limits and availability can change, so confirm details on the official site"
+  ],
+  "alternatives": [
+   "gauth",
+   "photomath"
+  ],
+  "tags": [
+   "homework",
+   "tutor",
+   "math",
+   "explanations"
+  ],
+  "features": [
+   "Step solutions",
+   "Multiple subjects",
+   "Image questions",
+   "Chat"
+  ],
+  "use_cases": [
+   "Homework help",
+   "Concept checks",
+   "Practice"
+  ],
+  "pricing_details": "Pricing for StudyX is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is StudyX?",
+    "a": "AI homework helper with step-by-step explanations. See the official site for the latest description."
+   },
+   {
+    "q": "Is it accurate?",
+    "a": "Verify answers. See official site."
+   },
+   {
+    "q": "Is StudyX free?",
+    "a": "Pricing is not verified here and plans change. Check the official StudyX site for current options."
+   }
+  ],
+  "seo_title": "StudyX: What It Does, Features and Alternatives",
+  "seo_description": "AI homework helper with step-by-step explanations. Overview of StudyX features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "unstuck-study",
+  "name": "Unstuck Study",
+  "category": "study",
+  "website_url": "https://www.unstuckstudy.com",
+  "pricing": "Unknown",
+  "tagline": "AI study tutor offering explanations and practice.",
+  "best_for": "Students stuck on coursework",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Unstuck Study is a tutoring tool that explains concepts and helps work through problems.\n\nUse as support, not a replacement for teaching. Check the official site for current plans and features.",
+  "use_steps": [
+   "Open the official Unstuck Study site and read what the tool covers.",
+   "Create an account or open the tool and try a small, low-risk example related to concept review.",
+   "Review the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it for reading help or sensitive work."
+  ],
+  "pros": [
+   "Guided help",
+   "Friendly",
+   "Study-focused"
+  ],
+  "cons": [
+   "Check accuracy",
+   "Features, limits and availability can change, so confirm details on the official site"
+  ],
+  "alternatives": [
+   "socratic",
+   "studyfetch"
+  ],
+  "tags": [
+   "tutor",
+   "study",
+   "explanations",
+   "practice"
+  ],
+  "features": [
+   "Explanations",
+   "Practice help",
+   "Document input",
+   "Chat"
+  ],
+  "use_cases": [
+   "Concept review",
+   "Practice",
+   "Reading help"
+  ],
+  "pricing_details": "Pricing for Unstuck Study is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Unstuck Study?",
+    "a": "AI study tutor offering explanations and practice. See the official site for the latest description."
+   },
+   {
+    "q": "Which levels?",
+    "a": "See official site."
+   },
+   {
+    "q": "Is Unstuck Study free?",
+    "a": "Pricing is not verified here and plans change. Check the official Unstuck Study site for current options."
+   }
+  ],
+  "seo_title": "Unstuck Study: What It Does, Features and Alternatives",
+  "seo_description": "AI study tutor offering explanations and practice. Overview of Unstuck Study features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "talkpal",
+  "name": "TalkPal",
+  "category": "study",
+  "website_url": "https://talkpal.ai",
+  "pricing": "Unknown",
+  "tagline": "AI language tutor for speaking and writing practice.",
+  "best_for": "Language learners wanting conversation practice",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "TalkPal lets learners chat or speak with an AI partner in many languages and get feedback.\n\nComplements human practice. Check the official site for current plans and features.",
+  "use_steps": [
+   "Open the official TalkPal site and read what the tool covers.",
+   "Create an account or open the tool and try a small, low-risk example related to speaking practice.",
+   "Review the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it for travel prep or sensitive work."
+  ],
+  "pros": [
+   "Always available",
+   "Feedback",
+   "Mobile"
+  ],
+  "cons": [
+   "AI feedback may be imperfect",
+   "Features, limits and availability can change, so confirm details on the official site"
+  ],
+  "alternatives": [
+   "speak",
+   "praktika"
+  ],
+  "tags": [
+   "language",
+   "speaking",
+   "tutor",
+   "conversation"
+  ],
+  "features": [
+   "Conversation practice",
+   "Feedback",
+   "Many languages",
+   "Role plays"
+  ],
+  "use_cases": [
+   "Speaking practice",
+   "Vocabulary",
+   "Travel prep"
+  ],
+  "pricing_details": "Pricing for TalkPal is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is TalkPal?",
+    "a": "AI language tutor for speaking and writing practice. See the official site for the latest description."
+   },
+   {
+    "q": "Voice?",
+    "a": "See official site."
+   },
+   {
+    "q": "Is TalkPal free?",
+    "a": "Pricing is not verified here and plans change. Check the official TalkPal site for current options."
+   }
+  ],
+  "seo_title": "TalkPal: What It Does, Features and Alternatives",
+  "seo_description": "AI language tutor for speaking and writing practice. Overview of TalkPal features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "elsa-speak",
+  "name": "ELSA Speak",
+  "category": "study",
+  "website_url": "https://elsaspeak.com",
+  "pricing": "Unknown",
+  "tagline": "Pronunciation coach for English learners.",
+  "best_for": "English learners improving pronunciation",
+  "platforms": [
+   "iOS",
+   "Android",
+   "Web"
+  ],
+  "description": "ELSA Speak uses speech recognition to evaluate English pronunciation and guide practice.\n\nCheck lesson coverage for your goals. Check the official site for current plans and features.",
+  "use_steps": [
+   "Open the official ELSA Speak site and read what the tool covers.",
+   "Create an account or open the tool and try a small, low-risk example related to accent reduction.",
+   "Review the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it for daily practice or sensitive work."
+  ],
+  "pros": [
+   "Targeted feedback",
+   "Mobile",
+   "Structured"
+  ],
+  "cons": [
+   "English only",
+   "Features, limits and availability can change, so confirm details on the official site"
+  ],
+  "alternatives": [
+   "speak",
+   "duolingo"
+  ],
+  "tags": [
+   "pronunciation",
+   "english",
+   "speech",
+   "coach"
+  ],
+  "features": [
+   "Pronunciation scoring",
+   "Lessons",
+   "Feedback",
+   "Practice"
+  ],
+  "use_cases": [
+   "Accent reduction",
+   "Interview prep",
+   "Daily practice"
+  ],
+  "pricing_details": "Pricing for ELSA Speak is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is ELSA Speak?",
+    "a": "Pronunciation coach for English learners. See the official site for the latest description."
+   },
+   {
+    "q": "Other languages?",
+    "a": "See official site."
+   },
+   {
+    "q": "Is ELSA Speak free?",
+    "a": "Pricing is not verified here and plans change. Check the official ELSA Speak site for current options."
+   }
+  ],
+  "seo_title": "ELSA Speak: What It Does, Features and Alternatives",
+  "seo_description": "Pronunciation coach for English learners. Overview of ELSA Speak features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "brisk-teaching",
+  "name": "Brisk Teaching",
+  "category": "study",
+  "website_url": "https://www.briskteaching.com",
+  "pricing": "Unknown",
+  "tagline": "Teacher extension for lesson materials and feedback.",
+  "best_for": "Teachers saving prep time",
+  "platforms": [
+   "Chrome",
+   "Web"
+  ],
+  "description": "Brisk Teaching offers a browser extension that helps teachers create materials and give feedback within tools like Google Docs.\n\nTeachers should review everything. Check the official site for current plans and features.",
+  "use_steps": [
+   "Open the official Brisk Teaching site and read what the tool covers.",
+   "Create an account or open the tool and try a small, low-risk example related to lesson prep.",
+   "Review the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it for differentiation or sensitive work."
+  ],
+  "pros": [
+   "In-workflow",
+   "Teacher focus",
+   "Fast"
+  ],
+  "cons": [
+   "Review required",
+   "Features, limits and availability can change, so confirm details on the official site"
+  ],
+  "alternatives": [
+   "magicschool",
+   "diffit"
+  ],
+  "tags": [
+   "teachers",
+   "extension",
+   "lessons",
+   "feedback"
+  ],
+  "features": [
+   "Chrome extension",
+   "Lesson drafts",
+   "Feedback",
+   "Docs integration"
+  ],
+  "use_cases": [
+   "Lesson prep",
+   "Feedback drafting",
+   "Differentiation"
+  ],
+  "pricing_details": "Pricing for Brisk Teaching is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Brisk Teaching?",
+    "a": "Teacher extension for lesson materials and feedback. See the official site for the latest description."
+   },
+   {
+    "q": "Student use?",
+    "a": "Teacher tool. See official site."
+   },
+   {
+    "q": "Is Brisk Teaching free?",
+    "a": "Pricing is not verified here and plans change. Check the official Brisk Teaching site for current options."
+   }
+  ],
+  "seo_title": "Brisk Teaching: What It Does, Features and Alternatives",
+  "seo_description": "Teacher extension for lesson materials and feedback. Overview of Brisk Teaching features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "eduaide",
+  "name": "Eduaide.Ai",
+  "category": "study",
+  "website_url": "https://www.eduaide.ai",
+  "pricing": "Unknown",
+  "tagline": "AI planning assistant for lessons and classroom resources.",
+  "best_for": "Teachers drafting resources",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Eduaide.Ai provides tools to generate lesson plans, worksheets and assessments.\n\nAdapt materials to your curriculum. Check the official site for current plans and features.",
+  "use_steps": [
+   "Open the official Eduaide.Ai site and read what the tool covers.",
+   "Create an account or open the tool and try a small, low-risk example related to planning.",
+   "Review the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it for assessments or sensitive work."
+  ],
+  "pros": [
+   "Many tools",
+   "Teacher focus",
+   "Templates"
+  ],
+  "cons": [
+   "Needs adaptation",
+   "Features, limits and availability can change, so confirm details on the official site"
+  ],
+  "alternatives": [
+   "magicschool",
+   "curipod"
+  ],
+  "tags": [
+   "lessons",
+   "worksheets",
+   "teachers",
+   "planning"
+  ],
+  "features": [
+   "Lesson plans",
+   "Worksheets",
+   "Assessments",
+   "Templates"
+  ],
+  "use_cases": [
+   "Planning",
+   "Worksheets",
+   "Assessments"
+  ],
+  "pricing_details": "Pricing for Eduaide.Ai is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Eduaide.Ai?",
+    "a": "AI planning assistant for lessons and classroom resources. See the official site for the latest description."
+   },
+   {
+    "q": "Curriculum aligned?",
+    "a": "Check official site."
+   },
+   {
+    "q": "Is Eduaide.Ai free?",
+    "a": "Pricing is not verified here and plans change. Check the official Eduaide.Ai site for current options."
+   }
+  ],
+  "seo_title": "Eduaide.Ai: What It Does, Features and Alternatives",
+  "seo_description": "AI planning assistant for lessons and classroom resources. Overview of Eduaide.Ai features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "maze",
+  "name": "Maze",
+  "category": "marketing",
+  "website_url": "https://maze.co",
+  "pricing": "Unknown",
+  "tagline": "User testing platform for prototypes, surveys and design feedback.",
+  "best_for": "Product teams testing designs with users",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Maze lets teams run usability tests on prototypes, collect survey answers and review results in reports, with AI helping summarise open-ended feedback.\n\nIt suits teams that want quick evidence before building. Sample size and question design still decide how reliable findings are. Check the official site for current plans and features.",
+  "use_steps": [
+   "Open the official Maze site and read what the tool covers.",
+   "Create an account or open the tool and try a small, low-risk example related to testing a new flow.",
+   "Review the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it for collecting feedback or sensitive work."
+  ],
+  "pros": [
+   "Fast test setup",
+   "Prototype tool links",
+   "Shareable reports"
+  ],
+  "cons": [
+   "Panel and recruitment options vary",
+   "Features, limits and availability can change, so confirm details on the official site"
+  ],
+  "alternatives": [
+   "hotjar",
+   "mentimeter"
+  ],
+  "tags": [
+   "usability",
+   "testing",
+   "research",
+   "prototype"
+  ],
+  "features": [
+   "Prototype testing",
+   "Surveys",
+   "Result reports",
+   "AI summaries"
+  ],
+  "use_cases": [
+   "Testing a new flow",
+   "Validating copy",
+   "Collecting feedback"
+  ],
+  "pricing_details": "Pricing for Maze is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Maze?",
+    "a": "User testing platform for prototypes, surveys and design feedback. See the official site for the latest description."
+   },
+   {
+    "q": "Does it test Figma prototypes?",
+    "a": "Prototype testing is a core use. See official site for supported tools."
+   },
+   {
+    "q": "Is Maze free?",
+    "a": "Pricing is not verified here and plans change. Check the official Maze site for current options."
+   }
+  ],
+  "seo_title": "Maze: What It Does, Features and Alternatives",
+  "seo_description": "User testing platform for prototypes, surveys and design feedback. Overview of Maze features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "reimagine-home",
+  "name": "Reimagine Home",
+  "category": "design",
+  "website_url": "https://www.reimaginehome.ai",
+  "pricing": "Unknown",
+  "tagline": "Restyles and virtually stages room photos with AI.",
+  "best_for": "Home sellers and designers previewing room looks",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Reimagine Home takes a photo of a room and renders it in other decor styles or with furniture added, aimed at redesign ideas and listing visuals.\n\nTreat outputs as concept images, and disclose digital staging where listings require it. Check the official site for current plans and features.",
+  "use_steps": [
+   "Open the official Reimagine Home site and read what the tool covers.",
+   "Create an account or open the tool and try a small, low-risk example related to staging listings.",
+   "Review the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it for comparing decor styles or sensitive work."
+  ],
+  "pros": [
+   "Photo-based",
+   "Style variety",
+   "No design skills needed"
+  ],
+  "cons": [
+   "Not a measured design plan",
+   "Features, limits and availability can change, so confirm details on the official site"
+  ],
+  "alternatives": [
+   "virtual-staging-ai",
+   "roomgpt"
+  ],
+  "tags": [
+   "interior",
+   "staging",
+   "rooms",
+   "rendering"
+  ],
+  "features": [
+   "Room restyling",
+   "Virtual staging",
+   "Style options",
+   "Image export"
+  ],
+  "use_cases": [
+   "Staging listings",
+   "Redesign ideas",
+   "Comparing decor styles"
+  ],
+  "pricing_details": "Pricing for Reimagine Home is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Reimagine Home?",
+    "a": "Restyles and virtually stages room photos with AI. See the official site for the latest description."
+   },
+   {
+    "q": "Does it need a floor plan?",
+    "a": "It works from photos. See official site."
+   },
+   {
+    "q": "Is Reimagine Home free?",
+    "a": "Pricing is not verified here and plans change. Check the official Reimagine Home site for current options."
+   }
+  ],
+  "seo_title": "Reimagine Home: What It Does, Features and Alternatives",
+  "seo_description": "Restyles and virtually stages room photos with AI. Overview of Reimagine Home features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "spacely-ai",
+  "name": "Spacely AI",
+  "category": "design",
+  "website_url": "https://www.spacely.ai",
+  "pricing": "Unknown",
+  "tagline": "Interior and exterior design renders from photos and sketches.",
+  "best_for": "Designers and owners visualising spaces",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Spacely AI generates interior and exterior design visuals from photos, sketches or prompts, with staging and style tools.\n\nUseful for early concepts; verify details with a professional before building. Check the official site for current plans and features.",
+  "use_steps": [
+   "Open the official Spacely AI site and read what the tool covers.",
+   "Create an account or open the tool and try a small, low-risk example related to early concepts.",
+   "Review the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it for facade ideas or sensitive work."
+  ],
+  "pros": [
+   "Interior and exterior",
+   "Sketch support",
+   "Quick renders"
+  ],
+  "cons": [
+   "Renders are not construction documents",
+   "Features, limits and availability can change, so confirm details on the official site"
+  ],
+  "alternatives": [
+   "homestyler",
+   "coohom"
+  ],
+  "tags": [
+   "architecture",
+   "interior",
+   "render",
+   "design"
+  ],
+  "features": [
+   "Interior renders",
+   "Exterior renders",
+   "Virtual staging",
+   "Sketch input"
+  ],
+  "use_cases": [
+   "Early concepts",
+   "Client mood images",
+   "Facade ideas"
+  ],
+  "pricing_details": "Pricing for Spacely AI is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Spacely AI?",
+    "a": "Interior and exterior design renders from photos and sketches. See the official site for the latest description."
+   },
+   {
+    "q": "Can it use sketches?",
+    "a": "Sketch input is described. See official site."
+   },
+   {
+    "q": "Is Spacely AI free?",
+    "a": "Pricing is not verified here and plans change. Check the official Spacely AI site for current options."
+   }
+  ],
+  "seo_title": "Spacely AI: What It Does, Features and Alternatives",
+  "seo_description": "Interior and exterior design renders from photos and sketches. Overview of Spacely AI features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ }
+]

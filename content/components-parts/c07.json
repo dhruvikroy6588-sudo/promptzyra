@@ -1,0 +1,2504 @@
+[
+ {
+  "type": "mods",
+  "slug": "flashcard-capture-command",
+  "name": "Flashcard Capture Command",
+  "description": "Adds /card to save question and answer pairs as lines in cards.md while you study.",
+  "category": "study-learning",
+  "tags": [
+   "flashcards",
+   "command",
+   "notes",
+   "revision"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/plugins/mods/api.md",
+  "install": "1. Create the folder flashcard-capture-command/ with the three files below (needs Claude Code v2.1.287 or later).\n2. Check what it does: claude plugin validate ./flashcard-capture-command\n3. Try it for one session: claude --plugin-dir ./flashcard-capture-command\n4. A mod runs code with your permissions, so read register.js first. Written from the docs' mods API but not run by Promptzyra, so validate before relying on it.",
+  "files": [
+   {
+    "path": "flashcard-capture-command/.claude-plugin/plugin.json",
+    "content": "{\n  \"name\": \"flashcard-capture-command\",\n  \"version\": \"0.1.0\",\n  \"description\": \"Adds /card to save question and answer pairs as lines in cards.md while you study\",\n  \"author\": {\n    \"name\": \"Promptzyra\"\n  }\n}\n"
+   },
+   {
+    "path": "flashcard-capture-command/hooks/hooks.json",
+    "content": "{\n  \"description\": \"Adds /card to save question and answer pairs as lines in cards.md while you study\",\n  \"modules\": [\n    \"./register.js\"\n  ]\n}\n"
+   },
+   {
+    "path": "flashcard-capture-command/hooks/register.js",
+    "content": "export function register(on) {\n  on('session.start', async ($, e, next) => {\n    await $.command.register({ name: 'card', description: 'Save a flashcard line to cards.md', argumentHint: '[question | answer]', immediate: true })\n    return next(e)\n  })\n  on('command.run', { command: 'card' }, async ($, e) => {\n    if (!e.args) return { text: 'Usage: /card question | answer' }\n    let existing = ''\n    if (await $.fs.exists('cards.md')) existing = await $.fs.read('cards.md')\n    await $.fs.write('cards.md', existing + '- ' + '' + e.args + '\\n')\n    return { text: 'Card saved to cards.md' }\n  })\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Capture flashcards mid-lesson",
+   "Build a revision deck as you go",
+   "Collect exam questions"
+  ],
+  "example_prompts": [
+   "/card Capital of France? | Paris",
+   "/card What is a variable? | A named place for a value"
+  ],
+  "level": "Beginner",
+  "audience": "Students"
+ },
+ {
+  "type": "mods",
+  "slug": "todo-list-command",
+  "name": "Study To-Do Command",
+  "description": "Adds /todo to append unchecked task lines to todo.md so tasks do not get lost during a session.",
+  "category": "productivity",
+  "tags": [
+   "todo",
+   "command",
+   "tasks",
+   "planning"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/plugins/mods/api.md",
+  "install": "1. Create the folder todo-list-command/ with the three files below (needs Claude Code v2.1.287 or later).\n2. Check what it does: claude plugin validate ./todo-list-command\n3. Try it for one session: claude --plugin-dir ./todo-list-command\n4. A mod runs code with your permissions, so read register.js first. Written from the docs' mods API but not run by Promptzyra, so validate before relying on it.",
+  "files": [
+   {
+    "path": "todo-list-command/.claude-plugin/plugin.json",
+    "content": "{\n  \"name\": \"todo-list-command\",\n  \"version\": \"0.1.0\",\n  \"description\": \"Adds /todo to append unchecked task lines to todo.md so tasks do not get lost during a session\",\n  \"author\": {\n    \"name\": \"Promptzyra\"\n  }\n}\n"
+   },
+   {
+    "path": "todo-list-command/hooks/hooks.json",
+    "content": "{\n  \"description\": \"Adds /todo to append unchecked task lines to todo.md so tasks do not get lost during a session\",\n  \"modules\": [\n    \"./register.js\"\n  ]\n}\n"
+   },
+   {
+    "path": "todo-list-command/hooks/register.js",
+    "content": "export function register(on) {\n  on('session.start', async ($, e, next) => {\n    await $.command.register({ name: 'todo', description: 'Add a task to todo.md', argumentHint: '[task]', immediate: true })\n    return next(e)\n  })\n  on('command.run', { command: 'todo' }, async ($, e) => {\n    if (!e.args) return { text: 'Usage: /todo your task' }\n    let existing = ''\n    if (await $.fs.exists('todo.md')) existing = await $.fs.read('todo.md')\n    await $.fs.write('todo.md', existing + '- [ ] ' + '' + e.args + '\\n')\n    return { text: 'Task added to todo.md' }\n  })\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Note tasks without leaving Claude",
+   "Keep a running assignment list",
+   "Plan the next study block"
+  ],
+  "example_prompts": [
+   "/todo Finish chapter 4 exercises",
+   "/todo Email teacher about project"
+  ],
+  "level": "Beginner",
+  "audience": "Students"
+ },
+ {
+  "type": "mods",
+  "slug": "homework-log-command",
+  "name": "Homework Log Command",
+  "description": "Adds /hw to record homework items with today's date in homework.md.",
+  "category": "study-learning",
+  "tags": [
+   "homework",
+   "command",
+   "log",
+   "dates"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/plugins/mods/api.md",
+  "install": "1. Create the folder homework-log-command/ with the three files below (needs Claude Code v2.1.287 or later).\n2. Check what it does: claude plugin validate ./homework-log-command\n3. Try it for one session: claude --plugin-dir ./homework-log-command\n4. A mod runs code with your permissions, so read register.js first. Written from the docs' mods API but not run by Promptzyra, so validate before relying on it.",
+  "files": [
+   {
+    "path": "homework-log-command/.claude-plugin/plugin.json",
+    "content": "{\n  \"name\": \"homework-log-command\",\n  \"version\": \"0.1.0\",\n  \"description\": \"Adds /hw to record homework items with today's date in homework.md\",\n  \"author\": {\n    \"name\": \"Promptzyra\"\n  }\n}\n"
+   },
+   {
+    "path": "homework-log-command/hooks/hooks.json",
+    "content": "{\n  \"description\": \"Adds /hw to record homework items with today's date in homework.md\",\n  \"modules\": [\n    \"./register.js\"\n  ]\n}\n"
+   },
+   {
+    "path": "homework-log-command/hooks/register.js",
+    "content": "export function register(on) {\n  on('session.start', async ($, e, next) => {\n    await $.command.register({ name: 'hw', description: 'Log a homework item with the date', argumentHint: '[subject: task]', immediate: true })\n    return next(e)\n  })\n  on('command.run', { command: 'hw' }, async ($, e) => {\n    if (!e.args) return { text: 'Usage: /hw subject: task' }\n    let existing = ''\n    if (await $.fs.exists('homework.md')) existing = await $.fs.read('homework.md')\n    await $.fs.write('homework.md', existing + '- ' + new Date().toISOString().slice(0, 10) + ' ' + e.args + '\\n')\n    return { text: 'Homework logged in homework.md' }\n  })\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Date-stamped homework list",
+   "Track deadlines by subject",
+   "Share a log with a parent or tutor"
+  ],
+  "example_prompts": [
+   "/hw Maths: page 52 questions 1-10",
+   "/hw English: read chapter 3"
+  ],
+  "level": "Beginner",
+  "audience": "Students"
+ },
+ {
+  "type": "mods",
+  "slug": "vocab-word-saver",
+  "name": "Vocabulary Word Saver",
+  "description": "Adds /vocab to save new words and their meanings into vocab.md for later review.",
+  "category": "language",
+  "tags": [
+   "vocabulary",
+   "command",
+   "language",
+   "revision"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/plugins/mods/api.md",
+  "install": "1. Create the folder vocab-word-saver/ with the three files below (needs Claude Code v2.1.287 or later).\n2. Check what it does: claude plugin validate ./vocab-word-saver\n3. Try it for one session: claude --plugin-dir ./vocab-word-saver\n4. A mod runs code with your permissions, so read register.js first. Written from the docs' mods API but not run by Promptzyra, so validate before relying on it.",
+  "files": [
+   {
+    "path": "vocab-word-saver/.claude-plugin/plugin.json",
+    "content": "{\n  \"name\": \"vocab-word-saver\",\n  \"version\": \"0.1.0\",\n  \"description\": \"Adds /vocab to save new words and their meanings into vocab.md for later review\",\n  \"author\": {\n    \"name\": \"Promptzyra\"\n  }\n}\n"
+   },
+   {
+    "path": "vocab-word-saver/hooks/hooks.json",
+    "content": "{\n  \"description\": \"Adds /vocab to save new words and their meanings into vocab.md for later review\",\n  \"modules\": [\n    \"./register.js\"\n  ]\n}\n"
+   },
+   {
+    "path": "vocab-word-saver/hooks/register.js",
+    "content": "export function register(on) {\n  on('session.start', async ($, e, next) => {\n    await $.command.register({ name: 'vocab', description: 'Save a word and meaning to vocab.md', argumentHint: '[word = meaning]', immediate: true })\n    return next(e)\n  })\n  on('command.run', { command: 'vocab' }, async ($, e) => {\n    if (!e.args) return { text: 'Usage: /vocab word = meaning' }\n    let existing = ''\n    if (await $.fs.exists('vocab.md')) existing = await $.fs.read('vocab.md')\n    await $.fs.write('vocab.md', existing + '- ' + '' + e.args + '\\n')\n    return { text: 'Word saved to vocab.md' }\n  })\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Build a personal word list",
+   "Collect new terms from a reading",
+   "Review vocabulary before a test"
+  ],
+  "example_prompts": [
+   "/vocab ephemeral = lasting a very short time",
+   "/vocab bonjour = hello"
+  ],
+  "level": "Beginner",
+  "audience": "Anyone"
+ },
+ {
+  "type": "mods",
+  "slug": "question-parking-lot",
+  "name": "Question Parking Lot",
+  "description": "Adds /park to save a question for later and /parked to read the saved list, so you stay focused.",
+  "category": "study-learning",
+  "tags": [
+   "questions",
+   "command",
+   "focus",
+   "notes"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/plugins/mods/api.md",
+  "install": "1. Create the folder question-parking-lot/ with the three files below (needs Claude Code v2.1.287 or later).\n2. Check what it does: claude plugin validate ./question-parking-lot\n3. Try it for one session: claude --plugin-dir ./question-parking-lot\n4. A mod runs code with your permissions, so read register.js first. Written from the docs' mods API but not run by Promptzyra, so validate before relying on it.",
+  "files": [
+   {
+    "path": "question-parking-lot/.claude-plugin/plugin.json",
+    "content": "{\n  \"name\": \"question-parking-lot\",\n  \"version\": \"0.1.0\",\n  \"description\": \"Adds /park to save a question for later and /parked to read the saved list, so you stay focused\",\n  \"author\": {\n    \"name\": \"Promptzyra\"\n  }\n}\n"
+   },
+   {
+    "path": "question-parking-lot/hooks/hooks.json",
+    "content": "{\n  \"description\": \"Adds /park to save a question for later and /parked to read the saved list, so you stay focused\",\n  \"modules\": [\n    \"./register.js\"\n  ]\n}\n"
+   },
+   {
+    "path": "question-parking-lot/hooks/register.js",
+    "content": "export function register(on) {\n  on('session.start', async ($, e, next) => {\n    await $.command.register({ name: 'park', description: 'Save a question for later', argumentHint: '[question]', immediate: true })\n    await $.command.register({ name: 'parked', description: 'Show saved questions', immediate: true })\n    return next(e)\n  })\n  on('command.run', { command: 'park' }, async ($, e) => {\n    if (!e.args) return { text: 'Usage: /park your question' }\n    let existing = ''\n    if (await $.fs.exists('questions.md')) existing = await $.fs.read('questions.md')\n    await $.fs.write('questions.md', existing + '- ' + e.args + '\\n')\n    return { text: 'Parked in questions.md' }\n  })\n  on('command.run', { command: 'parked' }, async ($) => {\n    if (!(await $.fs.exists('questions.md'))) return { text: 'No parked questions yet' }\n    return { text: await $.fs.read('questions.md') }\n  })\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Stay on topic during a lesson",
+   "Collect questions for office hours",
+   "Review open doubts at the end"
+  ],
+  "example_prompts": [
+   "/park Why does recursion need a base case?",
+   "/parked"
+  ],
+  "level": "Beginner",
+  "audience": "Students"
+ },
+ {
+  "type": "mods",
+  "slug": "reflection-journal",
+  "name": "Reflection Journal",
+  "description": "Adds /reflect to save a dated one-line reflection to reflections.md and a toast every 40 minutes nudging you to write one.",
+  "category": "study-learning",
+  "tags": [
+   "reflection",
+   "journal",
+   "command",
+   "toast"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/plugins/mods/api.md",
+  "install": "1. Create the folder reflection-journal/ with the three files below (needs Claude Code v2.1.287 or later).\n2. Check what it does: claude plugin validate ./reflection-journal\n3. Try it for one session: claude --plugin-dir ./reflection-journal\n4. A mod runs code with your permissions, so read register.js first. Written from the docs' mods API but not run by Promptzyra, so validate before relying on it.",
+  "files": [
+   {
+    "path": "reflection-journal/.claude-plugin/plugin.json",
+    "content": "{\n  \"name\": \"reflection-journal\",\n  \"version\": \"0.1.0\",\n  \"description\": \"Adds /reflect to save a dated one-line reflection to reflections.md and a toast every 40 minutes nudging you to write one\",\n  \"author\": {\n    \"name\": \"Promptzyra\"\n  }\n}\n"
+   },
+   {
+    "path": "reflection-journal/hooks/hooks.json",
+    "content": "{\n  \"description\": \"Adds /reflect to save a dated one-line reflection to reflections.md and a toast every 40 minutes nudging you to write one\",\n  \"modules\": [\n    \"./register.js\"\n  ]\n}\n"
+   },
+   {
+    "path": "reflection-journal/hooks/register.js",
+    "content": "export function register(on) {\n  on('session.start', async ($, e, next) => {\n    await $.command.register({ name: 'reflect', description: 'Save a reflection to reflections.md', argumentHint: '[what you learned]', immediate: true })\n    $.clock.every(40 * 60 * 1000, () => {\n      $.ui.toast('Pause: what is one thing you learned? Save it with /reflect')\n    })\n    return next(e)\n  })\n  on('command.run', { command: 'reflect' }, async ($, e) => {\n    if (!e.args) return { text: 'Usage: /reflect what you learned' }\n    let existing = ''\n    if (await $.fs.exists('reflections.md')) existing = await $.fs.read('reflections.md')\n    const day = new Date().toISOString().slice(0, 10)\n    await $.fs.write('reflections.md', existing + '- ' + day + ': ' + e.args + '\\n')\n    return { text: 'Reflection saved' }\n  })\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Build a learning journal",
+   "Practise metacognition",
+   "Give teachers a reflection record"
+  ],
+  "example_prompts": [
+   "/reflect I finally understand loops",
+   "/reflect Need more practice with fractions"
+  ],
+  "level": "Beginner",
+  "audience": "Students"
+ },
+ {
+  "type": "mods",
+  "slug": "study-streak-counter",
+  "name": "Study Streak Counter",
+  "description": "Counts how many days in a row you opened a session and shows it with /streak, stored in streak.json.",
+  "category": "productivity",
+  "tags": [
+   "streak",
+   "habit",
+   "command",
+   "motivation"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/plugins/mods/api.md",
+  "install": "1. Create the folder study-streak-counter/ with the three files below (needs Claude Code v2.1.287 or later).\n2. Check what it does: claude plugin validate ./study-streak-counter\n3. Try it for one session: claude --plugin-dir ./study-streak-counter\n4. A mod runs code with your permissions, so read register.js first. Written from the docs' mods API but not run by Promptzyra, so validate before relying on it.",
+  "files": [
+   {
+    "path": "study-streak-counter/.claude-plugin/plugin.json",
+    "content": "{\n  \"name\": \"study-streak-counter\",\n  \"version\": \"0.1.0\",\n  \"description\": \"Counts how many days in a row you opened a session and shows it with /streak, stored in streak.json\",\n  \"author\": {\n    \"name\": \"Promptzyra\"\n  }\n}\n"
+   },
+   {
+    "path": "study-streak-counter/hooks/hooks.json",
+    "content": "{\n  \"description\": \"Counts how many days in a row you opened a session and shows it with /streak, stored in streak.json\",\n  \"modules\": [\n    \"./register.js\"\n  ]\n}\n"
+   },
+   {
+    "path": "study-streak-counter/hooks/register.js",
+    "content": "// Stores { last: 'YYYY-MM-DD', days: n } in streak.json.\nexport function register(on) {\n  on('session.start', async ($, e, next) => {\n    await $.command.register({ name: 'streak', description: 'Show your study streak', immediate: true })\n    return next(e)\n  })\n  on('command.run', { command: 'streak' }, async ($) => {\n    let data = { last: '', days: 0 }\n    if (await $.fs.exists('streak.json')) {\n      try { data = JSON.parse(await $.fs.read('streak.json')) } catch (err) { /* start fresh */ }\n    }\n    const today = new Date()\n    const todayText = today.toISOString().slice(0, 10)\n    const yesterday = new Date(today.getTime() - 86400000).toISOString().slice(0, 10)\n    if (data.last !== todayText) {\n      data.days = data.last === yesterday ? data.days + 1 : 1\n      data.last = todayText\n      await $.fs.write('streak.json', JSON.stringify(data))\n    }\n    return { text: 'Study streak: ' + data.days + ' day(s)' }\n  })\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Build a daily study habit",
+   "Motivate with a visible streak",
+   "Track consistency for a challenge"
+  ],
+  "example_prompts": [
+   "/streak",
+   "Run /streak once each day you study"
+  ],
+  "level": "Beginner",
+  "audience": "Students"
+ },
+ {
+  "type": "mods",
+  "slug": "break-timer-command",
+  "name": "Break Timer",
+  "description": "Adds /break to time a short rest and show a toast when it is over, default 5 minutes.",
+  "category": "productivity",
+  "tags": [
+   "break",
+   "timer",
+   "command",
+   "toast"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/plugins/mods/api.md",
+  "install": "1. Create the folder break-timer-command/ with the three files below (needs Claude Code v2.1.287 or later).\n2. Check what it does: claude plugin validate ./break-timer-command\n3. Try it for one session: claude --plugin-dir ./break-timer-command\n4. A mod runs code with your permissions, so read register.js first. Written from the docs' mods API but not run by Promptzyra, so validate before relying on it.",
+  "files": [
+   {
+    "path": "break-timer-command/.claude-plugin/plugin.json",
+    "content": "{\n  \"name\": \"break-timer-command\",\n  \"version\": \"0.1.0\",\n  \"description\": \"Adds /break to time a short rest and show a toast when it is over, default 5 minutes\",\n  \"author\": {\n    \"name\": \"Promptzyra\"\n  }\n}\n"
+   },
+   {
+    "path": "break-timer-command/hooks/hooks.json",
+    "content": "{\n  \"description\": \"Adds /break to time a short rest and show a toast when it is over, default 5 minutes\",\n  \"modules\": [\n    \"./register.js\"\n  ]\n}\n"
+   },
+   {
+    "path": "break-timer-command/hooks/register.js",
+    "content": "let timer = null\n\nexport function register(on) {\n  on('session.start', async ($, e, next) => {\n    await $.command.register({ name: 'break', description: 'Start a rest timer', argumentHint: '[minutes]', immediate: true })\n    return next(e)\n  })\n  on('command.run', { command: 'break' }, async ($, e) => {\n    const minutes = Number(e.args) > 0 ? Number(e.args) : 5\n    if (timer) timer.cancel()\n    timer = $.clock.after(minutes * 60 * 1000, () => {\n      $.ui.toast('Break over. Ready for the next task?')\n    })\n    return { text: 'Rest for ' + minutes + ' minutes' }\n  })\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Protect rest time between study blocks",
+   "Teach healthy work rhythm",
+   "Pair with a focus timer"
+  ],
+  "example_prompts": [
+   "/break",
+   "/break 10"
+  ],
+  "level": "Beginner",
+  "audience": "Students"
+ },
+ {
+  "type": "mods",
+  "slug": "hydration-reminder",
+  "name": "Hydration Reminder",
+  "description": "Shows a toast every 45 minutes reminding you to drink some water.",
+  "category": "productivity",
+  "tags": [
+   "reminder",
+   "health",
+   "toast",
+   "timer"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/plugins/mods/api.md",
+  "install": "1. Create the folder hydration-reminder/ with the three files below (needs Claude Code v2.1.287 or later).\n2. Check what it does: claude plugin validate ./hydration-reminder\n3. Try it for one session: claude --plugin-dir ./hydration-reminder\n4. A mod runs code with your permissions, so read register.js first. Written from the docs' mods API but not run by Promptzyra, so validate before relying on it.",
+  "files": [
+   {
+    "path": "hydration-reminder/.claude-plugin/plugin.json",
+    "content": "{\n  \"name\": \"hydration-reminder\",\n  \"version\": \"0.1.0\",\n  \"description\": \"Shows a toast every 45 minutes reminding you to drink some water\",\n  \"author\": {\n    \"name\": \"Promptzyra\"\n  }\n}\n"
+   },
+   {
+    "path": "hydration-reminder/hooks/hooks.json",
+    "content": "{\n  \"description\": \"Shows a toast every 45 minutes reminding you to drink some water\",\n  \"modules\": [\n    \"./register.js\"\n  ]\n}\n"
+   },
+   {
+    "path": "hydration-reminder/hooks/register.js",
+    "content": "// Background timer: a toast every 45 minutes.\nexport function register(on) {\n  on('session.start', async ($, e, next) => {\n    $.clock.every(45 * 60 * 1000, () => {\n      $.ui.toast('Time for a glass of water.')\n    })\n    return next(e)\n  })\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Long study sessions",
+   "Healthy habits in class",
+   "Coding marathons"
+  ],
+  "example_prompts": [
+   "Start a session and keep working",
+   "Change 45 to another number of minutes"
+  ],
+  "level": "Beginner",
+  "audience": "Students"
+ },
+ {
+  "type": "mods",
+  "slug": "eye-rest-reminder",
+  "name": "20-20-20 Eye Rest Reminder",
+  "description": "Shows a toast every 20 minutes to look at something 20 feet away for 20 seconds.",
+  "category": "productivity",
+  "tags": [
+   "eyes",
+   "health",
+   "toast",
+   "reminder"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/plugins/mods/api.md",
+  "install": "1. Create the folder eye-rest-reminder/ with the three files below (needs Claude Code v2.1.287 or later).\n2. Check what it does: claude plugin validate ./eye-rest-reminder\n3. Try it for one session: claude --plugin-dir ./eye-rest-reminder\n4. A mod runs code with your permissions, so read register.js first. Written from the docs' mods API but not run by Promptzyra, so validate before relying on it.",
+  "files": [
+   {
+    "path": "eye-rest-reminder/.claude-plugin/plugin.json",
+    "content": "{\n  \"name\": \"eye-rest-reminder\",\n  \"version\": \"0.1.0\",\n  \"description\": \"Shows a toast every 20 minutes to look at something 20 feet away for 20 seconds\",\n  \"author\": {\n    \"name\": \"Promptzyra\"\n  }\n}\n"
+   },
+   {
+    "path": "eye-rest-reminder/hooks/hooks.json",
+    "content": "{\n  \"description\": \"Shows a toast every 20 minutes to look at something 20 feet away for 20 seconds\",\n  \"modules\": [\n    \"./register.js\"\n  ]\n}\n"
+   },
+   {
+    "path": "eye-rest-reminder/hooks/register.js",
+    "content": "// Background timer: a toast every 20 minutes.\nexport function register(on) {\n  on('session.start', async ($, e, next) => {\n    $.clock.every(20 * 60 * 1000, () => {\n      $.ui.toast('Rest your eyes: look at something far away for 20 seconds.')\n    })\n    return next(e)\n  })\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Reduce screen strain",
+   "Healthy computer habits",
+   "Classroom wellbeing routines"
+  ],
+  "example_prompts": [
+   "Start a session and keep working",
+   "Change the minutes in register.js"
+  ],
+  "level": "Beginner",
+  "audience": "Anyone"
+ },
+ {
+  "type": "mods",
+  "slug": "exam-countdown-status",
+  "name": "Exam Countdown Status",
+  "description": "Set an exam date with /exam and see the days remaining in the status line under the prompt.",
+  "category": "study-learning",
+  "tags": [
+   "exam",
+   "countdown",
+   "status",
+   "command"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/plugins/mods/api.md",
+  "install": "1. Create the folder exam-countdown-status/ with the three files below (needs Claude Code v2.1.287 or later).\n2. Check what it does: claude plugin validate ./exam-countdown-status\n3. Try it for one session: claude --plugin-dir ./exam-countdown-status\n4. A mod runs code with your permissions, so read register.js first. Written from the docs' mods API but not run by Promptzyra, so validate before relying on it.",
+  "files": [
+   {
+    "path": "exam-countdown-status/.claude-plugin/plugin.json",
+    "content": "{\n  \"name\": \"exam-countdown-status\",\n  \"version\": \"0.1.0\",\n  \"description\": \"Set an exam date with /exam and see the days remaining in the status line under the prompt\",\n  \"author\": {\n    \"name\": \"Promptzyra\"\n  }\n}\n"
+   },
+   {
+    "path": "exam-countdown-status/hooks/hooks.json",
+    "content": "{\n  \"description\": \"Set an exam date with /exam and see the days remaining in the status line under the prompt\",\n  \"modules\": [\n    \"./register.js\"\n  ]\n}\n"
+   },
+   {
+    "path": "exam-countdown-status/hooks/register.js",
+    "content": "let examDate = null\n\nfunction show($) {\n  if (!examDate) return\n  const days = Math.ceil((examDate.getTime() - Date.now()) / 86400000)\n  $.ui.status('exam in ' + days + ' day(s)')\n}\n\nexport function register(on) {\n  on('session.start', async ($, e, next) => {\n    await $.command.register({ name: 'exam', description: 'Set the exam date', argumentHint: '[YYYY-MM-DD]', immediate: true })\n    $.clock.every(60 * 60 * 1000, () => show($))\n    return next(e)\n  })\n  on('command.run', { command: 'exam' }, async ($, e) => {\n    const date = new Date(e.args)\n    if (!e.args || isNaN(date.getTime())) return { text: 'Usage: /exam 2027-03-15' }\n    examDate = date\n    show($)\n    return { text: 'Exam date set to ' + e.args }\n  })\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Keep a deadline in view",
+   "Plan revision backwards from the date",
+   "Reduce last-minute panic"
+  ],
+  "example_prompts": [
+   "/exam 2027-03-15",
+   "/exam 2026-12-01"
+  ],
+  "level": "Beginner",
+  "audience": "Students"
+ },
+ {
+  "type": "mods",
+  "slug": "glossary-pane",
+  "name": "Glossary Pane",
+  "description": "Adds /glossary which opens a pane with a Markdown glossary you can edit for your subject.",
+  "category": "study-learning",
+  "tags": [
+   "glossary",
+   "pane",
+   "terms",
+   "markdown"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/plugins/mods/gallery.md",
+  "install": "1. Create the folder glossary-pane/ with the three files below (needs Claude Code v2.1.287 or later).\n2. Check what it does: claude plugin validate ./glossary-pane\n3. Try it for one session: claude --plugin-dir ./glossary-pane\n4. A mod runs code with your permissions, so read register.js first. Written from the docs' mods API but not run by Promptzyra, so validate before relying on it.",
+  "files": [
+   {
+    "path": "glossary-pane/.claude-plugin/plugin.json",
+    "content": "{\n  \"name\": \"glossary-pane\",\n  \"version\": \"0.1.0\",\n  \"description\": \"Adds /glossary which opens a pane with a Markdown glossary you can edit for your subject\",\n  \"author\": {\n    \"name\": \"Promptzyra\"\n  }\n}\n"
+   },
+   {
+    "path": "glossary-pane/hooks/hooks.json",
+    "content": "{\n  \"description\": \"Adds /glossary which opens a pane with a Markdown glossary you can edit for your subject\",\n  \"modules\": [\n    \"./register.js\"\n  ]\n}\n"
+   },
+   {
+    "path": "glossary-pane/hooks/register.js",
+    "content": "// /glossary opens a pane that draws Markdown. Edit the text below.\nconst sheet = '## Glossary\\n\\n- **Variable**: a named place that holds a value\\n- **Function**: reusable steps with a name\\n- **Loop**: repeat steps until a condition changes\\n\\n> Press Escape to close this pane'\n\nexport function register(on) {\n  on('session.start', async ($, e, next) => {\n    await $.command.register({ name: 'glossary', description: 'Open the glossary pane' })\n    return next(e)\n  })\n  on('command.run', { command: 'glossary' }, async ($) => {\n    await $.ui.open({ id: 'glossary', focus: true, closeOnEscape: true })\n    return {}\n  })\n  on('ui.render', { component: 'Pane' }, async ($, e, next) => {\n    if (e.requestId !== 'glossary') return next(e)\n    const { Markdown } = $.ui.resolve(e)\n    return Markdown({ text: sheet })\n  })\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Keep key terms visible",
+   "Teach a unit with its vocabulary",
+   "Quick lookup during practice"
+  ],
+  "example_prompts": [
+   "/glossary",
+   "Edit the sheet text in register.js to your subject"
+  ],
+  "level": "Beginner",
+  "audience": "Students"
+ },
+ {
+  "type": "mods",
+  "slug": "shortcuts-pane",
+  "name": "Terminal Shortcuts Pane",
+  "description": "Adds /shortcuts which opens a pane listing beginner terminal commands to learn from.",
+  "category": "coding-education",
+  "tags": [
+   "terminal",
+   "shortcuts",
+   "pane",
+   "beginner"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/plugins/mods/gallery.md",
+  "install": "1. Create the folder shortcuts-pane/ with the three files below (needs Claude Code v2.1.287 or later).\n2. Check what it does: claude plugin validate ./shortcuts-pane\n3. Try it for one session: claude --plugin-dir ./shortcuts-pane\n4. A mod runs code with your permissions, so read register.js first. Written from the docs' mods API but not run by Promptzyra, so validate before relying on it.",
+  "files": [
+   {
+    "path": "shortcuts-pane/.claude-plugin/plugin.json",
+    "content": "{\n  \"name\": \"shortcuts-pane\",\n  \"version\": \"0.1.0\",\n  \"description\": \"Adds /shortcuts which opens a pane listing beginner terminal commands to learn from\",\n  \"author\": {\n    \"name\": \"Promptzyra\"\n  }\n}\n"
+   },
+   {
+    "path": "shortcuts-pane/hooks/hooks.json",
+    "content": "{\n  \"description\": \"Adds /shortcuts which opens a pane listing beginner terminal commands to learn from\",\n  \"modules\": [\n    \"./register.js\"\n  ]\n}\n"
+   },
+   {
+    "path": "shortcuts-pane/hooks/register.js",
+    "content": "// /shortcuts opens a pane that draws Markdown. Edit the text below.\nconst sheet = '## Terminal basics\\n\\n- `pwd` shows where you are\\n- `ls` lists files\\n- `cd folder` moves into a folder\\n- `mkdir name` makes a folder\\n\\n> Press Escape to close this pane'\n\nexport function register(on) {\n  on('session.start', async ($, e, next) => {\n    await $.command.register({ name: 'shortcuts', description: 'Open the terminal shortcuts pane' })\n    return next(e)\n  })\n  on('command.run', { command: 'shortcuts' }, async ($) => {\n    await $.ui.open({ id: 'shortcuts', focus: true, closeOnEscape: true })\n    return {}\n  })\n  on('ui.render', { component: 'Pane' }, async ($, e, next) => {\n    if (e.requestId !== 'shortcuts') return next(e)\n    const { Markdown } = $.ui.resolve(e)\n    return Markdown({ text: sheet })\n  })\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Teach first terminal commands",
+   "Keep a reminder beside the chat",
+   "Class handout on screen"
+  ],
+  "example_prompts": [
+   "/shortcuts",
+   "Add your own commands to the text in register.js"
+  ],
+  "level": "Beginner",
+  "audience": "Students"
+ },
+ {
+  "type": "mods",
+  "slug": "goals-pane",
+  "name": "Study Goals Pane",
+  "description": "Adds /goals which opens a pane showing the contents of your goals.md file.",
+  "category": "productivity",
+  "tags": [
+   "goals",
+   "pane",
+   "planning",
+   "markdown"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/plugins/mods/gallery.md",
+  "install": "1. Create the folder goals-pane/ with the three files below (needs Claude Code v2.1.287 or later).\n2. Check what it does: claude plugin validate ./goals-pane\n3. Try it for one session: claude --plugin-dir ./goals-pane\n4. A mod runs code with your permissions, so read register.js first. Written from the docs' mods API but not run by Promptzyra, so validate before relying on it.",
+  "files": [
+   {
+    "path": "goals-pane/.claude-plugin/plugin.json",
+    "content": "{\n  \"name\": \"goals-pane\",\n  \"version\": \"0.1.0\",\n  \"description\": \"Adds /goals which opens a pane showing the contents of your goals.md file\",\n  \"author\": {\n    \"name\": \"Promptzyra\"\n  }\n}\n"
+   },
+   {
+    "path": "goals-pane/hooks/hooks.json",
+    "content": "{\n  \"description\": \"Adds /goals which opens a pane showing the contents of your goals.md file\",\n  \"modules\": [\n    \"./register.js\"\n  ]\n}\n"
+   },
+   {
+    "path": "goals-pane/hooks/register.js",
+    "content": "// /goals opens a pane that shows goals.md from the working directory.\nexport function register(on) {\n  on('session.start', async ($, e, next) => {\n    await $.command.register({ name: 'goals', description: 'Show goals.md in a pane' })\n    return next(e)\n  })\n  on('command.run', { command: 'goals' }, async ($) => {\n    await $.ui.open({ id: 'goals', focus: true, closeOnEscape: true })\n    return {}\n  })\n  on('ui.render', { component: 'Pane' }, async ($, e, next) => {\n    if (e.requestId !== 'goals') return next(e)\n    const { Markdown } = $.ui.resolve(e)\n    const text = (await $.fs.exists('goals.md')) ? await $.fs.read('goals.md') : 'Create goals.md to see your goals here.'\n    return Markdown({ text })\n  })\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Keep goals visible while working",
+   "Review weekly targets",
+   "Show a project checklist"
+  ],
+  "example_prompts": [
+   "/goals",
+   "Create goals.md with a bullet list first"
+  ],
+  "level": "Beginner",
+  "audience": "Students"
+ },
+ {
+  "type": "mods",
+  "slug": "motivation-spinner",
+  "name": "Motivation Spinner",
+  "description": "Shows a different encouraging phrase beside the spinner each time Claude uses a tool.",
+  "category": "productivity",
+  "tags": [
+   "spinner",
+   "motivation",
+   "encouragement",
+   "ui"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/plugins/mods/create.md",
+  "install": "1. Create the folder motivation-spinner/ with the three files below (needs Claude Code v2.1.287 or later).\n2. Check what it does: claude plugin validate ./motivation-spinner\n3. Try it for one session: claude --plugin-dir ./motivation-spinner\n4. A mod runs code with your permissions, so read register.js first. Written from the docs' mods API but not run by Promptzyra, so validate before relying on it.",
+  "files": [
+   {
+    "path": "motivation-spinner/.claude-plugin/plugin.json",
+    "content": "{\n  \"name\": \"motivation-spinner\",\n  \"version\": \"0.1.0\",\n  \"description\": \"Shows a different encouraging phrase beside the spinner each time Claude uses a tool\",\n  \"author\": {\n    \"name\": \"Promptzyra\"\n  }\n}\n"
+   },
+   {
+    "path": "motivation-spinner/hooks/hooks.json",
+    "content": "{\n  \"description\": \"Shows a different encouraging phrase beside the spinner each time Claude uses a tool\",\n  \"modules\": [\n    \"./register.js\"\n  ]\n}\n"
+   },
+   {
+    "path": "motivation-spinner/hooks/register.js",
+    "content": "// Changes the text beside the spinner each time Claude uses a tool.\nconst phrases = [\n  'Mistakes help you learn',\n  'Small steps add up',\n  'Ask why, not just what',\n  'You are getting better'\n]\nlet i = 0\n\nexport function register(on) {\n  on('tool.call', async ($, e, next) => {\n    i = (i + 1) % phrases.length\n    $.ui.invalidate('ui.render')\n    return next(e)\n  })\n  on('ui.render', { component: 'Spinner' }, async ($, e, next) => {\n    return next({ ...e, props: { ...e.props, suffix: ' · ' + phrases[i] + '…' } })\n  })\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Encouragement during long tasks",
+   "Positive classroom tone",
+   "Reduce frustration"
+  ],
+  "example_prompts": [
+   "Start a task and watch the spinner",
+   "Edit the phrases list in register.js"
+  ],
+  "level": "Beginner",
+  "audience": "Students"
+ },
+ {
+  "type": "mods",
+  "slug": "tool-name-spinner",
+  "name": "Tool Name Spinner",
+  "description": "Shows the name of the most recent tool Claude used beside the spinner, so learners see what is happening.",
+  "category": "coding-education",
+  "tags": [
+   "spinner",
+   "tools",
+   "transparency",
+   "ui"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/plugins/mods/create.md",
+  "install": "1. Create the folder tool-name-spinner/ with the three files below (needs Claude Code v2.1.287 or later).\n2. Check what it does: claude plugin validate ./tool-name-spinner\n3. Try it for one session: claude --plugin-dir ./tool-name-spinner\n4. A mod runs code with your permissions, so read register.js first. Written from the docs' mods API but not run by Promptzyra, so validate before relying on it.",
+  "files": [
+   {
+    "path": "tool-name-spinner/.claude-plugin/plugin.json",
+    "content": "{\n  \"name\": \"tool-name-spinner\",\n  \"version\": \"0.1.0\",\n  \"description\": \"Shows the name of the most recent tool Claude used beside the spinner, so learners see what is happening\",\n  \"author\": {\n    \"name\": \"Promptzyra\"\n  }\n}\n"
+   },
+   {
+    "path": "tool-name-spinner/hooks/hooks.json",
+    "content": "{\n  \"description\": \"Shows the name of the most recent tool Claude used beside the spinner, so learners see what is happening\",\n  \"modules\": [\n    \"./register.js\"\n  ]\n}\n"
+   },
+   {
+    "path": "tool-name-spinner/hooks/register.js",
+    "content": "// Remembers the latest tool name and shows it beside the spinner.\nlet last = 'nothing yet'\n\nexport function register(on) {\n  on('tool.call', async ($, e, next) => {\n    last = e.tool\n    $.ui.invalidate('ui.render')\n    return next(e)\n  })\n  on('ui.render', { component: 'Spinner' }, async ($, e, next) => {\n    return next({ ...e, props: { ...e.props, suffix: ' · last tool: ' + last + '…' } })\n  })\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Explain how Claude works",
+   "Watch which tools are used",
+   "Debug slow runs"
+  ],
+  "example_prompts": [
+   "Ask Claude to read a file and watch the spinner",
+   "Ask it to search the folder"
+  ],
+  "level": "Beginner",
+  "audience": "Developers"
+ },
+ {
+  "type": "mods",
+  "slug": "edit-counter-command",
+  "name": "Edit Counter",
+  "description": "Counts file edits and writes Claude makes and reports them with /edits.",
+  "category": "coding-education",
+  "tags": [
+   "counter",
+   "edits",
+   "command",
+   "awareness"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/plugins/mods/api.md",
+  "install": "1. Create the folder edit-counter-command/ with the three files below (needs Claude Code v2.1.287 or later).\n2. Check what it does: claude plugin validate ./edit-counter-command\n3. Try it for one session: claude --plugin-dir ./edit-counter-command\n4. A mod runs code with your permissions, so read register.js first. Written from the docs' mods API but not run by Promptzyra, so validate before relying on it.",
+  "files": [
+   {
+    "path": "edit-counter-command/.claude-plugin/plugin.json",
+    "content": "{\n  \"name\": \"edit-counter-command\",\n  \"version\": \"0.1.0\",\n  \"description\": \"Counts file edits and writes Claude makes and reports them with /edits\",\n  \"author\": {\n    \"name\": \"Promptzyra\"\n  }\n}\n"
+   },
+   {
+    "path": "edit-counter-command/hooks/hooks.json",
+    "content": "{\n  \"description\": \"Counts file edits and writes Claude makes and reports them with /edits\",\n  \"modules\": [\n    \"./register.js\"\n  ]\n}\n"
+   },
+   {
+    "path": "edit-counter-command/hooks/register.js",
+    "content": "// Counts tool calls named Edit or Write.\nlet edits = 0\n\nexport function register(on) {\n  on('session.start', async ($, e, next) => {\n    await $.command.register({ name: 'edits', description: 'Show how many file edits Claude made' })\n    return next(e)\n  })\n  on('tool.call', async ($, e, next) => {\n    if (e.tool === 'Edit' || e.tool === 'Write') edits += 1\n    return next(e)\n  })\n  on('command.run', { command: 'edits' }, async () => {\n    return { text: 'Claude has edited or written files ' + edits + ' time(s) in this session' }\n  })\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Review how much changed",
+   "Teach careful change tracking",
+   "Compare sessions"
+  ],
+  "example_prompts": [
+   "/edits",
+   "Ask Claude to fix a bug, then run /edits"
+  ],
+  "level": "Intermediate",
+  "audience": "Developers"
+ },
+ {
+  "type": "mods",
+  "slug": "session-activity-log",
+  "name": "Session Activity Log",
+  "description": "Appends a timestamped line to session-log.md for every tool call, giving a simple record of what happened.",
+  "category": "admin-ops",
+  "tags": [
+   "log",
+   "audit",
+   "tools",
+   "file"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/plugins/mods/api.md",
+  "install": "1. Create the folder session-activity-log/ with the three files below (needs Claude Code v2.1.287 or later).\n2. Check what it does: claude plugin validate ./session-activity-log\n3. Try it for one session: claude --plugin-dir ./session-activity-log\n4. A mod runs code with your permissions, so read register.js first. Written from the docs' mods API but not run by Promptzyra, so validate before relying on it.",
+  "files": [
+   {
+    "path": "session-activity-log/.claude-plugin/plugin.json",
+    "content": "{\n  \"name\": \"session-activity-log\",\n  \"version\": \"0.1.0\",\n  \"description\": \"Appends a timestamped line to session-log.md for every tool call, giving a simple record of what happened\",\n  \"author\": {\n    \"name\": \"Promptzyra\"\n  }\n}\n"
+   },
+   {
+    "path": "session-activity-log/hooks/hooks.json",
+    "content": "{\n  \"description\": \"Appends a timestamped line to session-log.md for every tool call, giving a simple record of what happened\",\n  \"modules\": [\n    \"./register.js\"\n  ]\n}\n"
+   },
+   {
+    "path": "session-activity-log/hooks/register.js",
+    "content": "// Appends one line per tool call to session-log.md.\nexport function register(on) {\n  on('tool.call', async ($, e, next) => {\n    let existing = ''\n    if (await $.fs.exists('session-log.md')) existing = await $.fs.read('session-log.md')\n    await $.fs.write('session-log.md', existing + '- ' + new Date().toISOString() + ' ' + e.tool + '\\n')\n    return next(e)\n  })\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Keep a record of an AI session",
+   "Review activity after class",
+   "Teach audit trails"
+  ],
+  "example_prompts": [
+   "Run a session then open session-log.md",
+   "Ask Claude to explain each entry"
+  ],
+  "level": "Intermediate",
+  "audience": "Teachers"
+ },
+ {
+  "type": "mods",
+  "slug": "idle-timer-status",
+  "name": "Idle Timer Status",
+  "description": "Shows in the status line how long it has been since Claude last used a tool.",
+  "category": "productivity",
+  "tags": [
+   "status",
+   "idle",
+   "timer",
+   "ui"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/plugins/mods/api.md",
+  "install": "1. Create the folder idle-timer-status/ with the three files below (needs Claude Code v2.1.287 or later).\n2. Check what it does: claude plugin validate ./idle-timer-status\n3. Try it for one session: claude --plugin-dir ./idle-timer-status\n4. A mod runs code with your permissions, so read register.js first. Written from the docs' mods API but not run by Promptzyra, so validate before relying on it.",
+  "files": [
+   {
+    "path": "idle-timer-status/.claude-plugin/plugin.json",
+    "content": "{\n  \"name\": \"idle-timer-status\",\n  \"version\": \"0.1.0\",\n  \"description\": \"Shows in the status line how long it has been since Claude last used a tool\",\n  \"author\": {\n    \"name\": \"Promptzyra\"\n  }\n}\n"
+   },
+   {
+    "path": "idle-timer-status/hooks/hooks.json",
+    "content": "{\n  \"description\": \"Shows in the status line how long it has been since Claude last used a tool\",\n  \"modules\": [\n    \"./register.js\"\n  ]\n}\n"
+   },
+   {
+    "path": "idle-timer-status/hooks/register.js",
+    "content": "let lastCall = Date.now()\n\nexport function register(on) {\n  on('session.start', async ($, e, next) => {\n    $.clock.every(30 * 1000, () => {\n      const seconds = Math.round((Date.now() - lastCall) / 1000)\n      $.ui.status('last tool call ' + seconds + 's ago')\n    })\n    return next(e)\n  })\n  on('tool.call', async ($, e, next) => {\n    lastCall = Date.now()\n    return next(e)\n  })\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Notice stalled tasks",
+   "Learn how long steps take",
+   "Pace a live demo"
+  ],
+  "example_prompts": [
+   "Run a long task and watch the status line",
+   "Change 30 to refresh faster"
+  ],
+  "level": "Intermediate",
+  "audience": "Developers"
+ },
+ {
+  "type": "mods",
+  "slug": "tool-call-budget-toast",
+  "name": "Tool Call Budget Toast",
+  "description": "Shows a toast once Claude passes a set number of tool calls; change the limit with /budget.",
+  "category": "admin-ops",
+  "tags": [
+   "budget",
+   "limit",
+   "toast",
+   "command"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/plugins/mods/api.md",
+  "install": "1. Create the folder tool-call-budget-toast/ with the three files below (needs Claude Code v2.1.287 or later).\n2. Check what it does: claude plugin validate ./tool-call-budget-toast\n3. Try it for one session: claude --plugin-dir ./tool-call-budget-toast\n4. A mod runs code with your permissions, so read register.js first. Written from the docs' mods API but not run by Promptzyra, so validate before relying on it.",
+  "files": [
+   {
+    "path": "tool-call-budget-toast/.claude-plugin/plugin.json",
+    "content": "{\n  \"name\": \"tool-call-budget-toast\",\n  \"version\": \"0.1.0\",\n  \"description\": \"Shows a toast once Claude passes a set number of tool calls; change the limit with /budget\",\n  \"author\": {\n    \"name\": \"Promptzyra\"\n  }\n}\n"
+   },
+   {
+    "path": "tool-call-budget-toast/hooks/hooks.json",
+    "content": "{\n  \"description\": \"Shows a toast once Claude passes a set number of tool calls; change the limit with /budget\",\n  \"modules\": [\n    \"./register.js\"\n  ]\n}\n"
+   },
+   {
+    "path": "tool-call-budget-toast/hooks/register.js",
+    "content": "let limit = 25\nlet calls = 0\nlet warned = false\n\nexport function register(on) {\n  on('session.start', async ($, e, next) => {\n    await $.command.register({ name: 'budget', description: 'Set the tool call warning limit', argumentHint: '[number]', immediate: true })\n    return next(e)\n  })\n  on('tool.call', async ($, e, next) => {\n    calls += 1\n    if (calls >= limit && !warned) {\n      warned = true\n      $.ui.toast('Claude has made ' + calls + ' tool calls. Check this is still on track.')\n    }\n    return next(e)\n  })\n  on('command.run', { command: 'budget' }, async ($, e) => {\n    if (Number(e.args) > 0) { limit = Number(e.args); warned = false }\n    return { text: 'Warning limit is ' + limit + ' tool calls' }\n  })\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Keep student sessions bounded",
+   "Spot runaway tasks",
+   "Teach cost awareness"
+  ],
+  "example_prompts": [
+   "/budget 40",
+   "/budget"
+  ],
+  "level": "Intermediate",
+  "audience": "Teachers"
+ },
+ {
+  "type": "mods",
+  "slug": "class-announcement-line",
+  "name": "Class Announcement Line",
+  "description": "Adds /announce to put a message in the status line under the prompt, handy for classroom demos.",
+  "category": "teaching",
+  "tags": [
+   "announcement",
+   "status",
+   "command",
+   "classroom"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/plugins/mods/api.md",
+  "install": "1. Create the folder class-announcement-line/ with the three files below (needs Claude Code v2.1.287 or later).\n2. Check what it does: claude plugin validate ./class-announcement-line\n3. Try it for one session: claude --plugin-dir ./class-announcement-line\n4. A mod runs code with your permissions, so read register.js first. Written from the docs' mods API but not run by Promptzyra, so validate before relying on it.",
+  "files": [
+   {
+    "path": "class-announcement-line/.claude-plugin/plugin.json",
+    "content": "{\n  \"name\": \"class-announcement-line\",\n  \"version\": \"0.1.0\",\n  \"description\": \"Adds /announce to put a message in the status line under the prompt, handy for classroom demos\",\n  \"author\": {\n    \"name\": \"Promptzyra\"\n  }\n}\n"
+   },
+   {
+    "path": "class-announcement-line/hooks/hooks.json",
+    "content": "{\n  \"description\": \"Adds /announce to put a message in the status line under the prompt, handy for classroom demos\",\n  \"modules\": [\n    \"./register.js\"\n  ]\n}\n"
+   },
+   {
+    "path": "class-announcement-line/hooks/register.js",
+    "content": "export function register(on) {\n  on('session.start', async ($, e, next) => {\n    await $.command.register({ name: 'announce', description: 'Show a message in the status line', argumentHint: '[message]', immediate: true })\n    return next(e)\n  })\n  on('command.run', { command: 'announce' }, async ($, e) => {\n    $.ui.status(e.args ? 'Note: ' + e.args : '')\n    return { text: e.args ? 'Message shown' : 'Message cleared' }\n  })\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Post instructions during a demo",
+   "Show the current task for the class",
+   "Display room rules"
+  ],
+  "example_prompts": [
+   "/announce Submit work by 3pm",
+   "/announce"
+  ],
+  "level": "Beginner",
+  "audience": "Teachers"
+ },
+ {
+  "type": "mods",
+  "slug": "goal-status-line",
+  "name": "Session Goal Status Line",
+  "description": "Adds /goal to pin your goal for this session in the status line so you stay on track.",
+  "category": "productivity",
+  "tags": [
+   "goal",
+   "status",
+   "focus",
+   "command"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/plugins/mods/api.md",
+  "install": "1. Create the folder goal-status-line/ with the three files below (needs Claude Code v2.1.287 or later).\n2. Check what it does: claude plugin validate ./goal-status-line\n3. Try it for one session: claude --plugin-dir ./goal-status-line\n4. A mod runs code with your permissions, so read register.js first. Written from the docs' mods API but not run by Promptzyra, so validate before relying on it.",
+  "files": [
+   {
+    "path": "goal-status-line/.claude-plugin/plugin.json",
+    "content": "{\n  \"name\": \"goal-status-line\",\n  \"version\": \"0.1.0\",\n  \"description\": \"Adds /goal to pin your goal for this session in the status line so you stay on track\",\n  \"author\": {\n    \"name\": \"Promptzyra\"\n  }\n}\n"
+   },
+   {
+    "path": "goal-status-line/hooks/hooks.json",
+    "content": "{\n  \"description\": \"Adds /goal to pin your goal for this session in the status line so you stay on track\",\n  \"modules\": [\n    \"./register.js\"\n  ]\n}\n"
+   },
+   {
+    "path": "goal-status-line/hooks/register.js",
+    "content": "export function register(on) {\n  on('session.start', async ($, e, next) => {\n    await $.command.register({ name: 'goal', description: 'Pin a goal in the status line', argumentHint: '[goal]', immediate: true })\n    return next(e)\n  })\n  on('command.run', { command: 'goal' }, async ($, e) => {\n    if (!e.args) return { text: 'Usage: /goal what you want to finish' }\n    $.ui.status('goal: ' + e.args)\n    return { text: 'Goal pinned' }\n  })\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Stay focused on one outcome",
+   "Start sessions with intent",
+   "Review goals at the end"
+  ],
+  "example_prompts": [
+   "/goal Finish the essay outline",
+   "/goal Understand recursion"
+  ],
+  "level": "Beginner",
+  "audience": "Students"
+ },
+ {
+  "type": "mcps",
+  "slug": "arxiv-mcp",
+  "name": "arXiv Paper Search",
+  "description": "Search and read arXiv research papers from Claude, handy for students doing literature reviews.",
+  "category": "writing-research",
+  "tags": [
+   "arxiv",
+   "papers",
+   "research",
+   "search"
+  ],
+  "author": "blazickjp",
+  "github_url": "https://github.com/blazickjp/arxiv-mcp-server",
+  "install": "1. Install uv (the README uses uvx).\n2. Add the config below to your MCP client; the README also shows a storage-path option.\n3. Restart the client and ask for papers on a topic.\n4. The README warns an unrelated npm package has the same name, so do not use npx.",
+  "files": [
+   {
+    "path": "mcp-config.json",
+    "content": "{\n  \"mcpServers\": {\n    \"arxiv\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"arxiv-mcp-server\"\n      ]\n    }\n  }\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Find papers for an essay",
+   "Summarize a paper",
+   "Build a reading list",
+   "Compare recent work"
+  ],
+  "example_prompts": [
+   "Find recent arXiv papers on graph neural networks.",
+   "Summarize this paper in plain language."
+  ],
+  "level": "Intermediate",
+  "audience": "Students"
+ },
+ {
+  "type": "mcps",
+  "slug": "zotero-mcp",
+  "name": "Zotero Library",
+  "description": "Lets Claude search and read your Zotero reference library, useful for citations and literature notes.",
+  "category": "writing-research",
+  "tags": [
+   "zotero",
+   "citations",
+   "references",
+   "research"
+  ],
+  "author": "54yyyu",
+  "github_url": "https://github.com/54yyyu/zotero-mcp",
+  "install": "1. Install the package as the README says (for example uv tool install zotero-mcp-server).\n2. Add the config below; ZOTERO_LOCAL=true uses your local Zotero.\n3. Restart your MCP client and keep Zotero running.\n4. Check the README for web API keys and other options.",
+  "files": [
+   {
+    "path": "mcp-config.json",
+    "content": "{\n  \"mcpServers\": {\n    \"zotero\": {\n      \"command\": \"zotero-mcp\",\n      \"env\": {\n        \"ZOTERO_LOCAL\": \"true\"\n      }\n    }\n  }\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Search your references",
+   "Draft a literature summary",
+   "Find a quote source",
+   "Organise reading notes"
+  ],
+  "example_prompts": [
+   "Find papers in my library about sleep and memory.",
+   "List the notes on this article."
+  ],
+  "level": "Intermediate",
+  "audience": "Students"
+ },
+ {
+  "type": "mcps",
+  "slug": "obsidian-mcp",
+  "name": "Obsidian Vault",
+  "description": "Gives Claude access to your Obsidian notes through the Local REST API plugin, so it can search and update study notes.",
+  "category": "study-learning",
+  "tags": [
+   "obsidian",
+   "notes",
+   "vault",
+   "study"
+  ],
+  "author": "MarkusPfundstein",
+  "github_url": "https://github.com/MarkusPfundstein/mcp-obsidian",
+  "install": "1. Install the Obsidian Local REST API plugin and copy its API key.\n2. Clone the repo and install uv.\n3. Add the config below, replacing every placeholder.\n4. Restart your MCP client.",
+  "files": [
+   {
+    "path": "mcp-config.json",
+    "content": "{\n  \"mcpServers\": {\n    \"mcp-obsidian\": {\n      \"command\": \"uv\",\n      \"args\": [\n        \"--directory\",\n        \"<dir_to>/mcp-obsidian\",\n        \"run\",\n        \"mcp-obsidian\"\n      ],\n      \"env\": {\n        \"OBSIDIAN_API_KEY\": \"<your_api_key_here>\",\n        \"OBSIDIAN_HOST\": \"<your_obsidian_host>\",\n        \"OBSIDIAN_PORT\": \"<your_obsidian_port>\"\n      }\n    }\n  }\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Search your notes",
+   "Summarize a topic from your vault",
+   "Append to a daily note",
+   "Make revision questions"
+  ],
+  "example_prompts": [
+   "Search my vault for notes on photosynthesis.",
+   "Add today's summary to my daily note."
+  ],
+  "level": "Intermediate",
+  "audience": "Students"
+ },
+ {
+  "type": "mcps",
+  "slug": "wikipedia-mcp",
+  "name": "Wikipedia Lookup",
+  "description": "Lets Claude search Wikipedia and read articles, useful for quick background research with sources.",
+  "category": "writing-research",
+  "tags": [
+   "wikipedia",
+   "research",
+   "encyclopedia",
+   "lookup"
+  ],
+  "author": "Rudra-ravi",
+  "github_url": "https://github.com/Rudra-ravi/wikipedia-mcp",
+  "install": "1. Install it as the README says (for example pipx install wikipedia-mcp).\n2. Add the config below to your MCP client.\n3. Restart and ask for an article summary.",
+  "files": [
+   {
+    "path": "mcp-config.json",
+    "content": "{\n  \"mcpServers\": {\n    \"wikipedia\": {\n      \"command\": \"wikipedia-mcp\"\n    }\n  }\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Quick background reading",
+   "Find related topics",
+   "Check facts against an article",
+   "Start an essay outline"
+  ],
+  "example_prompts": [
+   "Summarize the Wikipedia article on the water cycle.",
+   "Find articles related to the French Revolution."
+  ],
+  "level": "Beginner",
+  "audience": "Students"
+ },
+ {
+  "type": "mcps",
+  "slug": "youtube-transcript-mcp",
+  "name": "YouTube Transcripts",
+  "description": "Fetches transcripts of YouTube videos so Claude can summarize lectures or build notes from them.",
+  "category": "study-learning",
+  "tags": [
+   "youtube",
+   "transcripts",
+   "lectures",
+   "notes"
+  ],
+  "author": "kimtaeyoon83",
+  "github_url": "https://github.com/kimtaeyoon83/mcp-server-youtube-transcript",
+  "install": "1. Make sure Node.js is installed.\n2. Add the config below to your MCP client.\n3. Restart and paste a video link in your prompt.\n4. The README describes an optional analyze_video tool needing a TwelveLabs key.",
+  "files": [
+   {
+    "path": "mcp-config.json",
+    "content": "{\n  \"mcpServers\": {\n    \"youtube-transcript\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"@kimtaeyoon83/mcp-server-youtube-transcript\"\n      ]\n    }\n  }\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Summarize a lecture video",
+   "Make notes from a tutorial",
+   "Create quiz questions",
+   "Find where a topic is covered"
+  ],
+  "example_prompts": [
+   "Summarize this lecture video by its transcript.",
+   "Make 5 quiz questions from this video."
+  ],
+  "level": "Beginner",
+  "audience": "Students"
+ },
+ {
+  "type": "mcps",
+  "slug": "excel-mcp",
+  "name": "Excel Files",
+  "description": "Lets Claude read and edit Excel workbooks in a folder you choose, for marks sheets and data practice.",
+  "category": "admin-ops",
+  "tags": [
+   "excel",
+   "spreadsheet",
+   "data",
+   "files"
+  ],
+  "author": "haris-musa",
+  "github_url": "https://github.com/haris-musa/excel-mcp-server",
+  "install": "1. Install uv.\n2. Add the config below and set --allow-dir to your workbook folder.\n3. Restart your MCP client.\n4. Back up files before letting Claude edit them.",
+  "files": [
+   {
+    "path": "mcp-config.json",
+    "content": "{\n  \"mcpServers\": {\n    \"excel\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"excel-mcp-server\",\n        \"stdio\",\n        \"--allow-dir\",\n        \"/path/to/workbooks\"\n      ]\n    }\n  }\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Build a gradebook",
+   "Clean data in a sheet",
+   "Make a chart-ready table",
+   "Practise spreadsheet formulas"
+  ],
+  "example_prompts": [
+   "Add a column that averages each student's marks.",
+   "Summarize this workbook's sheets."
+  ],
+  "level": "Intermediate",
+  "audience": "Teachers"
+ },
+ {
+  "type": "mcps",
+  "slug": "pandoc-mcp",
+  "name": "Pandoc Document Converter",
+  "description": "Converts documents between formats such as Markdown, HTML and Word through Pandoc.",
+  "category": "writing-research",
+  "tags": [
+   "pandoc",
+   "convert",
+   "documents",
+   "markdown"
+  ],
+  "author": "vivekVells",
+  "github_url": "https://github.com/vivekVells/mcp-pandoc",
+  "install": "1. Install uv and Pandoc.\n2. Add the config below to your MCP client.\n3. Restart and ask Claude to convert a file.\n4. The README mentions extra tools such as a PDF engine for some formats.",
+  "files": [
+   {
+    "path": "mcp-config.json",
+    "content": "{\n  \"mcpServers\": {\n    \"mcp-pandoc\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"mcp-pandoc\"\n      ]\n    }\n  }\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Turn Markdown notes into Word",
+   "Convert an essay to HTML",
+   "Batch format handouts",
+   "Prepare submissions"
+  ],
+  "example_prompts": [
+   "Convert notes.md to a Word document.",
+   "Turn this HTML page into Markdown."
+  ],
+  "level": "Beginner",
+  "audience": "Anyone"
+ },
+ {
+  "type": "mcps",
+  "slug": "mermaid-mcp",
+  "name": "Mermaid Diagrams",
+  "description": "Generates Mermaid diagrams as images, helpful for flowcharts and concept maps in lessons.",
+  "category": "teaching",
+  "tags": [
+   "mermaid",
+   "diagrams",
+   "flowchart",
+   "visual"
+  ],
+  "author": "hustcc",
+  "github_url": "https://github.com/hustcc/mcp-mermaid",
+  "install": "1. Make sure Node.js is installed.\n2. Add the config below to your MCP client.\n3. Restart and describe the diagram you want.",
+  "files": [
+   {
+    "path": "mcp-config.json",
+    "content": "{\n  \"mcpServers\": {\n    \"mcp-mermaid\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"mcp-mermaid\"\n      ]\n    }\n  }\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Draw a process flowchart",
+   "Make a concept map",
+   "Show a timeline",
+   "Illustrate an algorithm"
+  ],
+  "example_prompts": [
+   "Draw a flowchart of how a bill becomes law.",
+   "Make a diagram of the water cycle."
+  ],
+  "level": "Beginner",
+  "audience": "Teachers"
+ },
+ {
+  "type": "mcps",
+  "slug": "jupyter-mcp",
+  "name": "Jupyter Notebooks",
+  "description": "Lets Claude work with Jupyter notebooks, running and editing cells, good for data science teaching.",
+  "category": "coding-education",
+  "tags": [
+   "jupyter",
+   "notebooks",
+   "python",
+   "data"
+  ],
+  "author": "Datalayer",
+  "github_url": "https://github.com/datalayer/jupyter-mcp-server",
+  "install": "1. Start a JupyterLab server and note its token.\n2. Install uv and add the config below with your URL and token.\n3. The README lists extra Jupyter packages needed on the server.\n4. Restart your MCP client.",
+  "files": [
+   {
+    "path": "mcp-config.json",
+    "content": "{\n  \"mcpServers\": {\n    \"jupyter\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"jupyter-mcp-server@latest\"\n      ],\n      \"env\": {\n        \"JUPYTER_URL\": \"http://localhost:8888\",\n        \"JUPYTER_TOKEN\": \"MY_TOKEN\",\n        \"ALLOW_IMG_OUTPUT\": \"true\"\n      }\n    }\n  }\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Explain notebook code",
+   "Fix a failing cell",
+   "Add exercises to a notebook",
+   "Explore a dataset"
+  ],
+  "example_prompts": [
+   "Run the first three cells and explain the output.",
+   "Add a cell that plots this column."
+  ],
+  "level": "Intermediate",
+  "audience": "Students"
+ },
+ {
+  "type": "mcps",
+  "slug": "desktop-commander-mcp",
+  "name": "Desktop Commander",
+  "description": "Gives Claude terminal and file system tools on your computer. Powerful, so use it carefully and read the README warnings.",
+  "category": "coding-education",
+  "tags": [
+   "terminal",
+   "files",
+   "desktop",
+   "automation"
+  ],
+  "author": "wonderwhy-er",
+  "github_url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+  "install": "1. Make sure Node.js is installed.\n2. Add the config below to your MCP client.\n3. Restart; read the README security notes first because it can run commands.\n4. Try it in a practice folder.",
+  "files": [
+   {
+    "path": "mcp-config.json",
+    "content": "{\n  \"mcpServers\": {\n    \"desktop-commander\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"@wonderwhy-er/desktop-commander@latest\"\n      ]\n    }\n  }\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Practise terminal tasks",
+   "Organise files",
+   "Run build commands",
+   "Explore a project"
+  ],
+  "example_prompts": [
+   "List the files in my project folder.",
+   "Rename these files by date."
+  ],
+  "level": "Advanced",
+  "audience": "Developers"
+ },
+ {
+  "type": "mcps",
+  "slug": "docker-mcp",
+  "name": "Docker Manager",
+  "description": "Lets Claude manage Docker containers, images and volumes in plain English.",
+  "category": "coding-education",
+  "tags": [
+   "docker",
+   "containers",
+   "devops",
+   "local"
+  ],
+  "author": "ckreiling",
+  "github_url": "https://github.com/ckreiling/mcp-server-docker",
+  "install": "1. Install Docker and uv.\n2. Add the config below to your MCP client.\n3. Restart and ask Claude about your containers.\n4. It can change running containers, so try it on a test machine.",
+  "files": [
+   {
+    "path": "mcp-config.json",
+    "content": "{\n  \"mcpServers\": {\n    \"mcp-server-docker\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"mcp-server-docker\"\n      ]\n    }\n  }\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Learn container basics",
+   "Start a test database",
+   "Inspect logs",
+   "Clean unused images"
+  ],
+  "example_prompts": [
+   "List my running containers.",
+   "Start a Postgres container for practice."
+  ],
+  "level": "Advanced",
+  "audience": "Developers"
+ },
+ {
+  "type": "mcps",
+  "slug": "kubernetes-mcp",
+  "name": "Kubernetes Manager",
+  "description": "Lets Claude inspect and manage a Kubernetes cluster through kubectl and your kubeconfig.",
+  "category": "coding-education",
+  "tags": [
+   "kubernetes",
+   "cluster",
+   "devops",
+   "kubectl"
+  ],
+  "author": "Flux159",
+  "github_url": "https://github.com/Flux159/mcp-server-kubernetes",
+  "install": "1. Make sure kubectl and a kubeconfig are set up (use a practice cluster).\n2. Add the config below to your MCP client.\n3. Restart and ask about pods or deployments.\n4. Check the README for read-only options.",
+  "files": [
+   {
+    "path": "mcp-config.json",
+    "content": "{\n  \"mcpServers\": {\n    \"kubernetes\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"mcp-server-kubernetes\"\n      ]\n    }\n  }\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Learn cluster objects",
+   "Debug a failing pod",
+   "Read logs",
+   "Teach deployments"
+  ],
+  "example_prompts": [
+   "List pods in the default namespace.",
+   "Why is this pod restarting?"
+  ],
+  "level": "Advanced",
+  "audience": "Developers"
+ },
+ {
+  "type": "mcps",
+  "slug": "chrome-devtools-mcp",
+  "name": "Chrome DevTools",
+  "description": "Lets Claude control and inspect a live Chrome browser using DevTools, for debugging web pages.",
+  "category": "coding-education",
+  "tags": [
+   "chrome",
+   "devtools",
+   "debugging",
+   "web"
+  ],
+  "author": "ChromeDevTools",
+  "github_url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+  "install": "1. Make sure Node.js and Chrome are installed.\n2. Add the config below to your MCP client.\n3. Restart and ask Claude to open a page and inspect it.",
+  "files": [
+   {
+    "path": "mcp-config.json",
+    "content": "{\n  \"mcpServers\": {\n    \"chrome-devtools\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"chrome-devtools-mcp@latest\"\n      ]\n    }\n  }\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Debug layout problems",
+   "Check page performance",
+   "Inspect network requests",
+   "Teach DevTools"
+  ],
+  "example_prompts": [
+   "Open my page and tell me why the button is misaligned.",
+   "Check the console for errors."
+  ],
+  "level": "Intermediate",
+  "audience": "Developers"
+ },
+ {
+  "type": "mcps",
+  "slug": "browserbase-mcp",
+  "name": "Browserbase Cloud Browser",
+  "description": "Remote hosted MCP server that lets Claude browse the web in a cloud browser session.",
+  "category": "productivity",
+  "tags": [
+   "browser",
+   "cloud",
+   "automation",
+   "web"
+  ],
+  "author": "Browserbase",
+  "github_url": "https://github.com/browserbase/mcp-server-browserbase",
+  "install": "1. Check the README for the current sign-in or key steps.\n2. Add the config below to a client that supports remote HTTP MCP servers.\n3. Restart and ask Claude to visit a page.",
+  "files": [
+   {
+    "path": "mcp-config.json",
+    "content": "{\n  \"mcpServers\": {\n    \"browserbase\": {\n      \"type\": \"http\",\n      \"url\": \"https://mcp.browserbase.com/mcp\"\n    }\n  }\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Research on live websites",
+   "Fill practice forms",
+   "Take page notes",
+   "Test a web flow"
+  ],
+  "example_prompts": [
+   "Open this site and list its main sections.",
+   "Search and summarise the top result."
+  ],
+  "level": "Intermediate",
+  "audience": "Developers"
+ },
+ {
+  "type": "mcps",
+  "slug": "executeautomation-playwright-mcp",
+  "name": "Playwright (ExecuteAutomation)",
+  "description": "An alternative Playwright MCP server for browser automation, screenshots and web testing.",
+  "category": "coding-education",
+  "tags": [
+   "playwright",
+   "testing",
+   "browser",
+   "automation"
+  ],
+  "author": "executeautomation",
+  "github_url": "https://github.com/executeautomation/mcp-playwright",
+  "install": "1. Make sure Node.js is installed.\n2. Add the config below to your MCP client.\n3. Restart and ask Claude to visit a page.\n4. See the README for HTTP mode and other clients.",
+  "files": [
+   {
+    "path": "mcp-config.json",
+    "content": "{\n  \"mcpServers\": {\n    \"playwright\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"@executeautomation/playwright-mcp-server\"\n      ]\n    }\n  }\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Write browser tests",
+   "Take screenshots",
+   "Scrape practice pages",
+   "Learn web automation"
+  ],
+  "example_prompts": [
+   "Open my site and screenshot the home page.",
+   "Write a test for the login form."
+  ],
+  "level": "Intermediate",
+  "audience": "Developers"
+ },
+ {
+  "type": "mcps",
+  "slug": "sentry-mcp",
+  "name": "Sentry Errors",
+  "description": "Lets Claude look up Sentry issues and events so students can learn to read and fix real error reports.",
+  "category": "coding-education",
+  "tags": [
+   "sentry",
+   "errors",
+   "debugging",
+   "monitoring"
+  ],
+  "author": "Sentry",
+  "github_url": "https://github.com/getsentry/sentry-mcp",
+  "install": "1. Install the Sentry CLI as the README says and run sentry auth login.\n2. Add the config below (it uses your CLI login, no token in the file).\n3. Restart your MCP client.\n4. A hosted option is also described in the README.",
+  "files": [
+   {
+    "path": "mcp-config.json",
+    "content": "{\n  \"mcpServers\": {\n    \"sentry\": {\n      \"command\": \"sentry\",\n      \"args\": [\n        \"mcp\"\n      ]\n    }\n  }\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Read an error report",
+   "Find the cause of a crash",
+   "Group related issues",
+   "Practise debugging"
+  ],
+  "example_prompts": [
+   "What are the newest unresolved issues?",
+   "Explain this stack trace."
+  ],
+  "level": "Intermediate",
+  "audience": "Developers"
+ },
+ {
+  "type": "mcps",
+  "slug": "supabase-mcp",
+  "name": "Supabase",
+  "description": "Hosted MCP server for managing Supabase projects, databases and tables from Claude.",
+  "category": "coding-education",
+  "tags": [
+   "supabase",
+   "database",
+   "postgres",
+   "backend"
+  ],
+  "author": "Supabase Community",
+  "github_url": "https://github.com/supabase-community/supabase-mcp",
+  "install": "1. Use a development project, not production.\n2. Add the config below to a client that supports remote HTTP MCP servers.\n3. Sign in when the client asks.\n4. The README explains project scoping and read-only options.",
+  "files": [
+   {
+    "path": "mcp-config.json",
+    "content": "{\n  \"mcpServers\": {\n    \"supabase\": {\n      \"type\": \"http\",\n      \"url\": \"https://mcp.supabase.com/mcp\"\n    }\n  }\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Design a table",
+   "Write SQL practice queries",
+   "Inspect a schema",
+   "Learn backend basics"
+  ],
+  "example_prompts": [
+   "List the tables in my project.",
+   "Design a table for a library app."
+  ],
+  "level": "Intermediate",
+  "audience": "Developers"
+ },
+ {
+  "type": "mcps",
+  "slug": "neon-mcp",
+  "name": "Neon Postgres",
+  "description": "Hosted MCP server for managing Neon Postgres projects and running SQL from Claude.",
+  "category": "coding-education",
+  "tags": [
+   "neon",
+   "postgres",
+   "database",
+   "sql"
+  ],
+  "author": "Neon",
+  "github_url": "https://github.com/neondatabase/mcp-server-neon",
+  "install": "1. Use a practice project.\n2. Add the config below to a client that supports remote HTTP MCP servers.\n3. Sign in when asked.\n4. The README lists read-only mode and tool categories.",
+  "files": [
+   {
+    "path": "mcp-config.json",
+    "content": "{\n  \"mcpServers\": {\n    \"Neon\": {\n      \"type\": \"http\",\n      \"url\": \"https://mcp.neon.tech/mcp?category=projects&category=branches&category=endpoints&category=querying&category=schema\"\n    }\n  }\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Practise SQL",
+   "Create a branch to experiment",
+   "Inspect a schema",
+   "Explain a slow query"
+  ],
+  "example_prompts": [
+   "List my Neon projects.",
+   "Show the tables in this database."
+  ],
+  "level": "Intermediate",
+  "audience": "Developers"
+ },
+ {
+  "type": "mcps",
+  "slug": "mongodb-mcp",
+  "name": "MongoDB",
+  "description": "Connects Claude to MongoDB databases to explore collections and run queries, with a read-only option.",
+  "category": "coding-education",
+  "tags": [
+   "mongodb",
+   "database",
+   "nosql",
+   "queries"
+  ],
+  "author": "MongoDB",
+  "github_url": "https://github.com/mongodb-js/mongodb-mcp-server",
+  "install": "1. Have a MongoDB instance for practice and put its connection string in the config.\n2. Add the config below; --readOnly stops writes.\n3. Restart your MCP client.\n4. Keep real credentials out of shared files.",
+  "files": [
+   {
+    "path": "mcp-config.json",
+    "content": "{\n  \"mcpServers\": {\n    \"MongoDB\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"mongodb-mcp-server@latest\",\n        \"--readOnly\"\n      ],\n      \"env\": {\n        \"MDB_MCP_CONNECTION_STRING\": \"mongodb://localhost:27017/myDatabase\"\n      }\n    }\n  }\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Explore a collection",
+   "Learn query syntax",
+   "Describe a schema",
+   "Count and group data"
+  ],
+  "example_prompts": [
+   "Show the collections in this database.",
+   "Find documents where score is above 80."
+  ],
+  "level": "Intermediate",
+  "audience": "Developers"
+ },
+ {
+  "type": "mcps",
+  "slug": "genai-toolbox-postgres-mcp",
+  "name": "MCP Toolbox for Databases (Postgres)",
+  "description": "Google's MCP Toolbox with its prebuilt Postgres tools, for exploring and querying a database.",
+  "category": "coding-education",
+  "tags": [
+   "database",
+   "postgres",
+   "google",
+   "sql"
+  ],
+  "author": "Google (googleapis)",
+  "github_url": "https://github.com/googleapis/genai-toolbox",
+  "install": "1. Have a Postgres database for practice.\n2. Add the config below, then set the connection environment variables listed in the Prebuilt Tools Reference the README links.\n3. Restart your MCP client.",
+  "files": [
+   {
+    "path": "mcp-config.json",
+    "content": "{\n  \"mcpServers\": {\n    \"toolbox-postgres\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"@toolbox-sdk/server\",\n        \"--prebuilt=postgres\",\n        \"--stdio\"\n      ]\n    }\n  }\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Explore a schema",
+   "Learn SQL by asking",
+   "Check data quality",
+   "Compare databases"
+  ],
+  "example_prompts": [
+   "List the tables and their columns.",
+   "Write a query for the top 10 rows by score."
+  ],
+  "level": "Advanced",
+  "audience": "Developers"
+ },
+ {
+  "type": "mcps",
+  "slug": "atlassian-mcp",
+  "name": "Jira and Confluence",
+  "description": "Connects Claude to Atlassian Jira and Confluence so it can search issues and pages for project work.",
+  "category": "admin-ops",
+  "tags": [
+   "jira",
+   "confluence",
+   "atlassian",
+   "projects"
+  ],
+  "author": "sooperset",
+  "github_url": "https://github.com/sooperset/mcp-atlassian",
+  "install": "1. Create Atlassian API tokens.\n2. Install uv and add the config below, replacing every placeholder.\n3. Restart your MCP client.\n4. Keep tokens private.",
+  "files": [
+   {
+    "path": "mcp-config.json",
+    "content": "{\n  \"mcpServers\": {\n    \"mcp-atlassian\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"mcp-atlassian\"\n      ],\n      \"env\": {\n        \"JIRA_URL\": \"https://your-company.atlassian.net\",\n        \"JIRA_USERNAME\": \"your.email@company.com\",\n        \"JIRA_API_TOKEN\": \"your_api_token\",\n        \"CONFLUENCE_URL\": \"https://your-company.atlassian.net/wiki\",\n        \"CONFLUENCE_USERNAME\": \"your.email@company.com\",\n        \"CONFLUENCE_API_TOKEN\": \"your_api_token\"\n      }\n    }\n  }\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Search tickets",
+   "Summarize a project page",
+   "Draft issue descriptions",
+   "Track sprint work"
+  ],
+  "example_prompts": [
+   "Find open issues assigned to me.",
+   "Summarize this Confluence page."
+  ],
+  "level": "Intermediate",
+  "audience": "Developers"
+ },
+ {
+  "type": "mcps",
+  "slug": "figma-context-mcp",
+  "name": "Figma Context",
+  "description": "Gives Claude layout and style data from Figma files so it can build interfaces from designs.",
+  "category": "coding-education",
+  "tags": [
+   "figma",
+   "design",
+   "ui",
+   "frontend"
+  ],
+  "author": "GLips",
+  "github_url": "https://github.com/GLips/Figma-Context-MCP",
+  "install": "1. Create a Figma API access token.\n2. Add the config below with your key in place of YOUR-KEY.\n3. Restart your MCP client and paste a Figma link in your prompt.",
+  "files": [
+   {
+    "path": "mcp-config.json",
+    "content": "{\n  \"mcpServers\": {\n    \"Framelink MCP for Figma\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"figma-developer-mcp\",\n        \"--figma-api-key=YOUR-KEY\",\n        \"--stdio\"\n      ]\n    }\n  }\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Turn a design into HTML",
+   "Extract colours and spacing",
+   "Teach design handoff",
+   "Compare design and code"
+  ],
+  "example_prompts": [
+   "Build this Figma frame as a web page.",
+   "List the colours used in this design."
+  ],
+  "level": "Intermediate",
+  "audience": "Students"
+ },
+ {
+  "type": "mcps",
+  "slug": "blender-mcp",
+  "name": "Blender",
+  "description": "Lets Claude control Blender for 3D modelling practice. Requires installing the Blender add-on described in the README.",
+  "category": "coding-education",
+  "tags": [
+   "blender",
+   "3d",
+   "modelling",
+   "creative"
+  ],
+  "author": "ahujasid",
+  "github_url": "https://github.com/ahujasid/blender-mcp",
+  "install": "1. Install uv and Blender.\n2. Follow the README to install the Blender add-on and start its connection.\n3. Add the config below and restart your MCP client.",
+  "files": [
+   {
+    "path": "mcp-config.json",
+    "content": "{\n  \"mcpServers\": {\n    \"blender\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"mcp-for-blender\"\n      ]\n    }\n  }\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Learn 3D basics",
+   "Build a simple scene",
+   "Script repeated shapes",
+   "Explain modelling steps"
+  ],
+  "example_prompts": [
+   "Create a simple table with four legs.",
+   "Change this material to wood."
+  ],
+  "level": "Intermediate",
+  "audience": "Students"
+ },
+ {
+  "type": "mcps",
+  "slug": "perplexity-mcp",
+  "name": "Perplexity Search",
+  "description": "Gives Claude web search and answers with sources through the Perplexity API.",
+  "category": "writing-research",
+  "tags": [
+   "perplexity",
+   "search",
+   "web",
+   "sources"
+  ],
+  "author": "Perplexity",
+  "github_url": "https://github.com/ppl-ai/modelcontextprotocol",
+  "install": "1. Get a Perplexity API key.\n2. Add the config below with your key.\n3. Restart your MCP client and ask a research question.",
+  "files": [
+   {
+    "path": "mcp-config.json",
+    "content": "{\n  \"mcpServers\": {\n    \"perplexity\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"@perplexity-ai/mcp-server\"\n      ],\n      \"env\": {\n        \"PERPLEXITY_API_KEY\": \"your_key_here\"\n      }\n    }\n  }\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Research with sources",
+   "Check current facts",
+   "Compare viewpoints",
+   "Gather references"
+  ],
+  "example_prompts": [
+   "Search for recent studies on school start times.",
+   "Explain this news topic with sources."
+  ],
+  "level": "Beginner",
+  "audience": "Students"
+ },
+ {
+  "type": "mcps",
+  "slug": "exa-mcp",
+  "name": "Exa Search",
+  "description": "Remote MCP server for Exa web search, helpful for finding pages, papers and code examples.",
+  "category": "writing-research",
+  "tags": [
+   "exa",
+   "search",
+   "web",
+   "research"
+  ],
+  "author": "Exa Labs",
+  "github_url": "https://github.com/exa-labs/exa-mcp-server",
+  "install": "1. Add the config below to a client that supports remote HTTP MCP servers.\n2. The README explains optional API key setup and other clients.\n3. Restart and ask a search question.",
+  "files": [
+   {
+    "path": "mcp-config.json",
+    "content": "{\n  \"mcpServers\": {\n    \"exa\": {\n      \"type\": \"streamable-http\",\n      \"url\": \"https://mcp.exa.ai/mcp\"\n    }\n  }\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Find sources for an essay",
+   "Search research papers",
+   "Look up code examples",
+   "Compare websites"
+  ],
+  "example_prompts": [
+   "Find articles about renewable energy in schools.",
+   "Look for beginner Python tutorials."
+  ],
+  "level": "Beginner",
+  "audience": "Anyone"
+ },
+ {
+  "type": "mcps",
+  "slug": "firecrawl-mcp",
+  "name": "Firecrawl Web Scraping",
+  "description": "Lets Claude scrape and crawl web pages and return clean content, using a Firecrawl API key.",
+  "category": "writing-research",
+  "tags": [
+   "scraping",
+   "crawl",
+   "web",
+   "firecrawl"
+  ],
+  "author": "Firecrawl",
+  "github_url": "https://github.com/firecrawl/firecrawl-mcp-server",
+  "install": "1. Get a Firecrawl API key.\n2. Add the config below with your key.\n3. Restart your MCP client.\n4. Respect site rules and copyright when scraping.",
+  "files": [
+   {
+    "path": "mcp-config.json",
+    "content": "{\n  \"mcpServers\": {\n    \"firecrawl-mcp\": {\n      \"command\": \"npx\",\n      \"args\": [\n        \"-y\",\n        \"firecrawl-mcp\"\n      ],\n      \"env\": {\n        \"FIRECRAWL_API_KEY\": \"YOUR-API-KEY\"\n      }\n    }\n  }\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Extract an article",
+   "Compare pages",
+   "Collect research material",
+   "Learn about web data"
+  ],
+  "example_prompts": [
+   "Read this page and summarize it.",
+   "Crawl these docs and list the topics."
+  ],
+  "level": "Intermediate",
+  "audience": "Developers"
+ },
+ {
+  "type": "mcps",
+  "slug": "awslabs-core-mcp",
+  "name": "AWS Labs Core MCP",
+  "description": "The core server from the AWS Labs MCP collection, which also holds many AWS service servers listed in its README.",
+  "category": "coding-education",
+  "tags": [
+   "aws",
+   "cloud",
+   "awslabs",
+   "devops"
+  ],
+  "author": "AWS Labs",
+  "github_url": "https://github.com/awslabs/mcp",
+  "install": "1. Install uv.\n2. Add the config below to your MCP client.\n3. Restart; the README lists other AWS servers you can add the same way.\n4. Use a sandbox AWS account for practice.",
+  "files": [
+   {
+    "path": "mcp-config.json",
+    "content": "{\n  \"mcpServers\": {\n    \"awslabs-core-mcp-server\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"awslabs.core-mcp-server@latest\"\n      ],\n      \"env\": {\n        \"FASTMCP_LOG_LEVEL\": \"ERROR\"\n      }\n    }\n  }\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Learn AWS services",
+   "Plan an architecture",
+   "Find service docs",
+   "Explore the server collection"
+  ],
+  "example_prompts": [
+   "Which AWS servers does this collection include?",
+   "Explain what S3 is for."
+  ],
+  "level": "Advanced",
+  "audience": "Developers"
+ },
+ {
+  "type": "mcps",
+  "slug": "motherduck-duckdb-mcp",
+  "name": "DuckDB and MotherDuck",
+  "description": "Runs SQL on DuckDB, in memory or on MotherDuck, which is great for analysing CSV and parquet data.",
+  "category": "coding-education",
+  "tags": [
+   "duckdb",
+   "sql",
+   "analytics",
+   "data"
+  ],
+  "author": "MotherDuck",
+  "github_url": "https://github.com/motherduckdb/mcp-server-motherduck",
+  "install": "1. Install uv.\n2. Add the config below for an in-memory database.\n3. Restart your MCP client; the README covers MotherDuck tokens.\n4. This config allows writes, so drop --read-write for read-only.",
+  "files": [
+   {
+    "path": "mcp-config.json",
+    "content": "{\n  \"mcpServers\": {\n    \"DuckDB (in-memory, r/w)\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"mcp-server-motherduck\",\n        \"--db-path\",\n        \":memory:\",\n        \"--read-write\",\n        \"--allow-switch-databases\"\n      ]\n    }\n  }\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Query CSV files",
+   "Practise analytics SQL",
+   "Summarise a dataset",
+   "Teach data basics"
+  ],
+  "example_prompts": [
+   "Load data.csv and show the first 10 rows.",
+   "Which category has the highest average?"
+  ],
+  "level": "Intermediate",
+  "audience": "Students"
+ },
+ {
+  "type": "mcps",
+  "slug": "qdrant-mcp",
+  "name": "Qdrant Vector Memory",
+  "description": "Stores and finds text in a Qdrant vector database, useful for semantic search over notes.",
+  "category": "coding-education",
+  "tags": [
+   "qdrant",
+   "vector",
+   "search",
+   "memory"
+  ],
+  "author": "Qdrant",
+  "github_url": "https://github.com/qdrant/mcp-server-qdrant",
+  "install": "1. Have a Qdrant instance and API key (or see the README for a local option).\n2. Add the config below, replacing the placeholders.\n3. Restart your MCP client.",
+  "files": [
+   {
+    "path": "mcp-config.json",
+    "content": "{\n  \"mcpServers\": {\n    \"qdrant\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"mcp-server-qdrant\"\n      ],\n      \"env\": {\n        \"QDRANT_URL\": \"https://xyz-example.eu-central.aws.cloud.qdrant.io:6333\",\n        \"QDRANT_API_KEY\": \"your_api_key\",\n        \"COLLECTION_NAME\": \"your-collection-name\",\n        \"EMBEDDING_MODEL\": \"sentence-transformers/all-MiniLM-L6-v2\"\n      }\n    }\n  }\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Semantic note search",
+   "Learn about embeddings",
+   "Keep a knowledge base",
+   "Find similar passages"
+  ],
+  "example_prompts": [
+   "Store this note about photosynthesis.",
+   "Find notes related to cell energy."
+  ],
+  "level": "Advanced",
+  "audience": "Developers"
+ },
+ {
+  "type": "mcps",
+  "slug": "chroma-mcp",
+  "name": "Chroma Vector Database",
+  "description": "Connects Claude to the Chroma embedding database for storing and searching text by meaning.",
+  "category": "coding-education",
+  "tags": [
+   "chroma",
+   "vector",
+   "embeddings",
+   "search"
+  ],
+  "author": "Chroma",
+  "github_url": "https://github.com/chroma-core/chroma-mcp",
+  "install": "1. Install uv.\n2. Add the config below to your MCP client.\n3. The README also shows persistent and cloud client options.\n4. Restart and ask Claude to create a collection.",
+  "files": [
+   {
+    "path": "mcp-config.json",
+    "content": "{\n  \"mcpServers\": {\n    \"chroma\": {\n      \"command\": \"uvx\",\n      \"args\": [\n        \"chroma-mcp\"\n      ]\n    }\n  }\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Learn vector search",
+   "Store study notes",
+   "Build a small Q&A index",
+   "Teach embeddings"
+  ],
+  "example_prompts": [
+   "Create a collection and add these facts.",
+   "Search for the closest match to this question."
+  ],
+  "level": "Advanced",
+  "audience": "Developers"
+ },
+ {
+  "type": "plugins",
+  "slug": "anthropic-financial-services",
+  "name": "Claude for Financial Services",
+  "description": "Anthropic reference agents, skills and data connectors for finance workflows such as research and reconciliation. Output is draft work for professional review, not advice.",
+  "category": "admin-ops",
+  "tags": [
+   "finance",
+   "agents",
+   "skills",
+   "anthropic"
+  ],
+  "author": "Anthropic",
+  "github_url": "https://github.com/anthropics/financial-services-plugins",
+  "install": "Installation steps differ for each project, so see the README in the linked repo. Read what a plugin contains before you install it, because plugins can run code.",
+  "files": [],
+  "use_cases": [
+   "Study how finance agents are structured",
+   "Draft analyst-style work for review",
+   "Learn data connector patterns",
+   "Explore vertical plugin bundles"
+  ],
+  "example_prompts": [
+   "What financial workflows does this repo cover?",
+   "Explain how one of its agents is built."
+  ],
+  "level": "Advanced",
+  "audience": "Anyone"
+ },
+ {
+  "type": "plugins",
+  "slug": "anthropic-claude-for-legal",
+  "name": "Claude for Legal",
+  "description": "Anthropic reference agents and skills for legal workflows, including a learning side for law school clinics and students. Not legal advice.",
+  "category": "writing-research",
+  "tags": [
+   "legal",
+   "agents",
+   "skills",
+   "anthropic"
+  ],
+  "author": "Anthropic",
+  "github_url": "https://github.com/anthropics/claude-for-legal",
+  "install": "Installation steps differ for each project, so see the README in the linked repo. Read what a plugin contains before you install it, because plugins can run code.",
+  "files": [],
+  "use_cases": [
+   "Explore legal workflow skills",
+   "See a plugin built for law students",
+   "Learn how skills and connectors fit together",
+   "Review plugin structure"
+  ],
+  "example_prompts": [
+   "Summarize what this repo offers law students.",
+   "Which plugin would help with contract review practice?"
+  ],
+  "level": "Intermediate",
+  "audience": "Anyone"
+ },
+ {
+  "type": "plugins",
+  "slug": "anthropic-healthcare",
+  "name": "Claude for Healthcare",
+  "description": "An Anthropic plugin bundling skills for payer, provider, pharma and engineering work, with hosted MCP servers connected.",
+  "category": "admin-ops",
+  "tags": [
+   "healthcare",
+   "skills",
+   "mcp",
+   "anthropic"
+  ],
+  "author": "Anthropic",
+  "github_url": "https://github.com/anthropics/healthcare",
+  "install": "Installation steps differ for each project, so see the README in the linked repo. Read what a plugin contains before you install it, because plugins can run code.",
+  "files": [],
+  "use_cases": [
+   "Study a skills bundle with MCP connections",
+   "Explore healthcare workflow ideas",
+   "Learn how a marketplace plugin is packaged",
+   "Compare skill designs"
+  ],
+  "example_prompts": [
+   "List the skills in this plugin.",
+   "How does it connect to hosted MCP servers?"
+  ],
+  "level": "Advanced",
+  "audience": "Anyone"
+ },
+ {
+  "type": "plugins",
+  "slug": "compound-engineering-plugin",
+  "name": "Compound Engineering",
+  "description": "A plugin of skills built around a loop of brainstorm, plan, build, review and capture what you learned. Works with Claude Code and other agent hosts.",
+  "category": "coding-education",
+  "tags": [
+   "workflow",
+   "planning",
+   "review",
+   "skills"
+  ],
+  "author": "Every (EveryInc)",
+  "github_url": "https://github.com/EveryInc/compound-engineering-plugin",
+  "install": "Installation steps differ for each project, so see the README in the linked repo. Read what a plugin contains before you install it, because plugins can run code.",
+  "files": [],
+  "use_cases": [
+   "Practise a plan-build-review loop",
+   "Record lessons from each change",
+   "Teach structured engineering habits",
+   "Compare workflow plugins"
+  ],
+  "example_prompts": [
+   "Walk me through the brainstorm to review loop.",
+   "What does a good lesson note look like?"
+  ],
+  "level": "Intermediate",
+  "audience": "Developers"
+ },
+ {
+  "type": "plugins",
+  "slug": "claude-mem",
+  "name": "Claude-Mem",
+  "description": "A community plugin aimed at carrying useful context from past Claude Code sessions into later ones. Check its README for exact features and setup.",
+  "category": "productivity",
+  "tags": [
+   "memory",
+   "context",
+   "sessions",
+   "community"
+  ],
+  "author": "thedotmack",
+  "github_url": "https://github.com/thedotmack/claude-mem",
+  "install": "Installation steps differ for each project, so see the README in the linked repo. Read what a plugin contains before you install it, because plugins can run code.",
+  "files": [],
+  "use_cases": [
+   "Reduce repeating yourself between sessions",
+   "Study how session memory can work",
+   "Keep project notes available",
+   "Compare memory approaches"
+  ],
+  "example_prompts": [
+   "What does this plugin remember between sessions?",
+   "How do I turn it off?"
+  ],
+  "level": "Intermediate",
+  "audience": "Developers"
+ },
+ {
+  "type": "plugins",
+  "slug": "everything-claude-code",
+  "name": "Everything Claude Code",
+  "description": "A large community collection of Claude Code configuration: agents, skills, commands, hooks and rules, with translated READMEs.",
+  "category": "coding-education",
+  "tags": [
+   "collection",
+   "agents",
+   "hooks",
+   "community"
+  ],
+  "author": "affaan-m",
+  "github_url": "https://github.com/affaan-m/everything-claude-code",
+  "install": "Installation steps differ for each project, so see the README in the linked repo. Read what a plugin contains before you install it, because plugins can run code.",
+  "files": [],
+  "use_cases": [
+   "Browse many ready-made configurations",
+   "Learn from real hooks and rules",
+   "Pick pieces for your own setup",
+   "Compare agent designs"
+  ],
+  "example_prompts": [
+   "Which hooks in this repo suit a beginner?",
+   "Show how its rules are organised."
+  ],
+  "level": "Intermediate",
+  "audience": "Developers"
+ },
+ {
+  "type": "plugins",
+  "slug": "bmad-method",
+  "name": "BMAD Method",
+  "description": "An agile, AI-driven development method packaged with skills that take an idea through briefs, specifications and architecture to working software.",
+  "category": "coding-education",
+  "tags": [
+   "agile",
+   "planning",
+   "method",
+   "skills"
+  ],
+  "author": "BMad Code",
+  "github_url": "https://github.com/bmad-code-org/BMAD-METHOD",
+  "install": "Installation steps differ for each project, so see the README in the linked repo. Read what a plugin contains before you install it, because plugins can run code.",
+  "files": [],
+  "use_cases": [
+   "Learn spec-first development",
+   "Practise agile planning with AI",
+   "Teach project briefs and architecture",
+   "Structure a class project"
+  ],
+  "example_prompts": [
+   "Help me write a project brief the BMad way.",
+   "What are the stages of this method?"
+  ],
+  "level": "Intermediate",
+  "audience": "Developers"
+ },
+ {
+  "type": "plugins",
+  "slug": "superpowers-lab",
+  "name": "Superpowers Lab",
+  "description": "Experimental skills from the Superpowers author, such as detecting functions with the same intent but different code. Companion to the Superpowers plugin.",
+  "category": "coding-education",
+  "tags": [
+   "experimental",
+   "skills",
+   "code-quality",
+   "refactoring"
+  ],
+  "author": "Jesse Vincent (obra)",
+  "github_url": "https://github.com/obra/superpowers-lab",
+  "install": "Installation steps differ for each project, so see the README in the linked repo. Read what a plugin contains before you install it, because plugins can run code.",
+  "files": [],
+  "use_cases": [
+   "Find duplicated logic in AI-written code",
+   "Try early-stage skills",
+   "Learn how skills are tested",
+   "Audit a growing codebase"
+  ],
+  "example_prompts": [
+   "Check this folder for functions that do the same thing.",
+   "What experimental skills are included?"
+  ],
+  "level": "Advanced",
+  "audience": "Developers"
+ },
+ {
+  "type": "plugins",
+  "slug": "wshobson-commands",
+  "name": "Claude Code Slash Commands (archived)",
+  "description": "An archived collection of production-style slash commands and workflows. Its README says new work moved to the wshobson/agents marketplace, but the commands are still good reading.",
+  "category": "coding-education",
+  "tags": [
+   "commands",
+   "workflows",
+   "archived",
+   "reference"
+  ],
+  "author": "Seth Hobson (wshobson)",
+  "github_url": "https://github.com/wshobson/commands",
+  "install": "Installation steps differ for each project, so see the README in the linked repo. Read what a plugin contains before you install it, because plugins can run code.",
+  "files": [],
+  "use_cases": [
+   "Study well-written slash commands",
+   "See multi-step workflow designs",
+   "Find ideas for your own commands",
+   "Compare with the newer marketplace"
+  ],
+  "example_prompts": [
+   "Show me how one workflow command is written.",
+   "Which commands help with testing?"
+  ],
+  "level": "Intermediate",
+  "audience": "Developers"
+ },
+ {
+  "type": "plugins",
+  "slug": "scientific-agent-skills",
+  "name": "Scientific Agent Skills",
+  "description": "A large community library of skills for scientific work, covering research tools, databases and analysis workflows for Claude Code and other agents.",
+  "category": "writing-research",
+  "tags": [
+   "science",
+   "research",
+   "skills",
+   "analysis"
+  ],
+  "author": "K-Dense-AI",
+  "github_url": "https://github.com/K-Dense-AI/claude-scientific-skills",
+  "install": "Installation steps differ for each project, so see the README in the linked repo. Read what a plugin contains before you install it, because plugins can run code.",
+  "files": [],
+  "use_cases": [
+   "Support science coursework and projects",
+   "Learn research workflow skills",
+   "Explore domain databases through skills",
+   "Teach reproducible analysis"
+  ],
+  "example_prompts": [
+   "Which skills help with a biology literature search?",
+   "Explain how one of these skills is structured."
+  ],
+  "level": "Advanced",
+  "audience": "Students"
+ },
+ {
+  "type": "plugins",
+  "slug": "marketing-skills",
+  "name": "Marketing Skills for AI Agents",
+  "description": "A skills collection for marketing tasks such as copywriting, SEO, conversion optimization and analytics, usable from Claude Code.",
+  "category": "writing-research",
+  "tags": [
+   "marketing",
+   "copywriting",
+   "seo",
+   "skills"
+  ],
+  "author": "Corey Haines",
+  "github_url": "https://github.com/coreyhaines31/marketingskills",
+  "install": "Installation steps differ for each project, so see the README in the linked repo. Read what a plugin contains before you install it, because plugins can run code.",
+  "files": [],
+  "use_cases": [
+   "Practise copywriting for a class project",
+   "Learn basic SEO review",
+   "Improve landing page text",
+   "Study growth analytics ideas"
+  ],
+  "example_prompts": [
+   "Review this landing page copy.",
+   "What SEO checks do these skills cover?"
+  ],
+  "level": "Beginner",
+  "audience": "Anyone"
+ },
+ {
+  "type": "plugins",
+  "slug": "ui-ux-pro-max-skill",
+  "name": "UI UX Pro Max Skill",
+  "description": "A community skill that gives an AI agent design guidance for building interfaces, with multi-language README and install options for several agents.",
+  "category": "coding-education",
+  "tags": [
+   "design",
+   "ui",
+   "ux",
+   "skills"
+  ],
+  "author": "nextlevelbuilder",
+  "github_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+  "install": "Installation steps differ for each project, so see the README in the linked repo. Read what a plugin contains before you install it, because plugins can run code.",
+  "files": [],
+  "use_cases": [
+   "Improve interface design in class projects",
+   "Learn basic UI principles",
+   "Get design feedback on a page",
+   "Choose colours and layouts"
+  ],
+  "example_prompts": [
+   "Suggest a cleaner layout for this form.",
+   "What design rules does this skill follow?"
+  ],
+  "level": "Beginner",
+  "audience": "Students"
+ },
+ {
+  "type": "plugins",
+  "slug": "claude-code-showcase",
+  "name": "Claude Code Project Configuration Showcase",
+  "description": "A worked example of a project set up with skills, hooks, agents and scheduled workflows, shown with real files you can read and copy.",
+  "category": "coding-education",
+  "tags": [
+   "example",
+   "hooks",
+   "agents",
+   "configuration"
+  ],
+  "author": "ChrisWiles",
+  "github_url": "https://github.com/ChrisWiles/claude-code-showcase",
+  "install": "Installation steps differ for each project, so see the README in the linked repo. Read what a plugin contains before you install it, because plugins can run code.",
+  "files": [],
+  "use_cases": [
+   "See a full project configuration",
+   "Learn quality-gate hooks",
+   "Copy a code review agent idea",
+   "Teach team conventions via skills"
+  ],
+  "example_prompts": [
+   "Explain how the hooks in this showcase work.",
+   "Which skill would help with testing?"
+  ],
+  "level": "Intermediate",
+  "audience": "Developers"
+ },
+ {
+  "type": "plugins",
+  "slug": "claude-code-hooks-mastery",
+  "name": "Claude Code Hooks Mastery",
+  "description": "A hands-on repo for learning Claude Code hooks, with lifecycle and payload explanations, example scripts and sub-agent demos.",
+  "category": "coding-education",
+  "tags": [
+   "hooks",
+   "learning",
+   "examples",
+   "sub-agents"
+  ],
+  "author": "disler",
+  "github_url": "https://github.com/disler/claude-code-hooks-mastery",
+  "install": "Installation steps differ for each project, so see the README in the linked repo. Read what a plugin contains before you install it, because plugins can run code.",
+  "files": [],
+  "use_cases": [
+   "Learn each hook event",
+   "Read working hook scripts",
+   "Teach deterministic control of Claude",
+   "Experiment safely in a sandbox"
+  ],
+  "example_prompts": [
+   "Explain the hook lifecycle in this repo.",
+   "Which example blocks risky commands?"
+  ],
+  "level": "Intermediate",
+  "audience": "Developers"
+ },
+ {
+  "type": "plugins",
+  "slug": "vercel-agent-skills",
+  "name": "Vercel Agent Skills",
+  "description": "A collection of skills from Vercel Labs following the Agent Skills format, such as auditing a Vercel project for performance and cost.",
+  "category": "coding-education",
+  "tags": [
+   "skills",
+   "deployment",
+   "performance",
+   "vercel"
+  ],
+  "author": "Vercel Labs",
+  "github_url": "https://github.com/vercel-labs/agent-skills",
+  "install": "Installation steps differ for each project, so see the README in the linked repo. Read what a plugin contains before you install it, because plugins can run code.",
+  "files": [],
+  "use_cases": [
+   "Audit a deployed web project",
+   "Learn deployment best practice",
+   "See how skills are packaged",
+   "Teach web performance basics"
+  ],
+  "example_prompts": [
+   "What does the optimize skill check?",
+   "Review my project for caching problems."
+  ],
+  "level": "Intermediate",
+  "audience": "Developers"
+ },
+ {
+  "type": "plugins",
+  "slug": "claude-code-workflows",
+  "name": "Claude Code Workflows",
+  "description": "Practical workflows, guides and configurations for AI-native building, including automated pull request review and an orchestration-layer playbook.",
+  "category": "coding-education",
+  "tags": [
+   "workflows",
+   "code-review",
+   "guides",
+   "automation"
+  ],
+  "author": "OneRedOak",
+  "github_url": "https://github.com/OneRedOak/claude-code-workflows",
+  "install": "Installation steps differ for each project, so see the README in the linked repo. Read what a plugin contains before you install it, because plugins can run code.",
+  "files": [],
+  "use_cases": [
+   "Automate pull request review",
+   "Learn to build context around agents",
+   "Study verification habits",
+   "Browse companion guides"
+  ],
+  "example_prompts": [
+   "Which workflow helps with code review?",
+   "Summarize the orchestration playbook."
+  ],
+  "level": "Intermediate",
+  "audience": "Developers"
+ },
+ {
+  "type": "plugins",
+  "slug": "composio-awesome-claude-skills",
+  "name": "Awesome Claude Skills (Composio)",
+  "description": "A big curated list of Claude skills and plugins, including a connect-apps plugin that lets Claude act in many external apps through Composio.",
+  "category": "productivity",
+  "tags": [
+   "curated-list",
+   "skills",
+   "integrations",
+   "community"
+  ],
+  "author": "ComposioHQ",
+  "github_url": "https://github.com/ComposioHQ/awesome-claude-skills",
+  "install": "Installation steps differ for each project, so see the README in the linked repo. Read what a plugin contains before you install it, because plugins can run code.",
+  "files": [],
+  "use_cases": [
+   "Find skills by task",
+   "Explore app integrations",
+   "Compare community skills",
+   "Collect ideas for your own skill"
+  ],
+  "example_prompts": [
+   "Which skills here help with document work?",
+   "What does connect-apps need to run?"
+  ],
+  "level": "Beginner",
+  "audience": "Anyone"
+ },
+ {
+  "type": "plugins",
+  "slug": "travisvn-awesome-claude-skills",
+  "name": "Awesome Claude Skills (travisvn)",
+  "description": "A curated list of Claude Skills, resources and tools, with a clear explanation of how skills load only when needed.",
+  "category": "study-learning",
+  "tags": [
+   "curated-list",
+   "skills",
+   "learning",
+   "resources"
+  ],
+  "author": "travisvn",
+  "github_url": "https://github.com/travisvn/awesome-claude-skills",
+  "install": "Installation steps differ for each project, so see the README in the linked repo. Read what a plugin contains before you install it, because plugins can run code.",
+  "files": [],
+  "use_cases": [
+   "Learn what skills are",
+   "Find official and community skills",
+   "Read about progressive disclosure",
+   "Plan your own skill"
+  ],
+  "example_prompts": [
+   "Explain how skills load on demand.",
+   "Which listed skills suit students?"
+  ],
+  "level": "Beginner",
+  "audience": "Anyone"
+ },
+ {
+  "type": "plugins",
+  "slug": "awesome-claude-code-subagents",
+  "name": "Awesome Claude Code Subagents",
+  "description": "A large catalogue of ready-made Claude Code subagents grouped into categories, each a markdown file you can read and adapt.",
+  "category": "coding-education",
+  "tags": [
+   "subagents",
+   "catalog",
+   "agents",
+   "community"
+  ],
+  "author": "VoltAgent",
+  "github_url": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+  "install": "Installation steps differ for each project, so see the README in the linked repo. Read what a plugin contains before you install it, because plugins can run code.",
+  "files": [],
+  "use_cases": [
+   "Browse specialist agents",
+   "Copy an agent as a starting point",
+   "Study agent prompt writing",
+   "Teach task delegation"
+  ],
+  "example_prompts": [
+   "Show me a good code reviewer subagent.",
+   "How are these agents organised?"
+  ],
+  "level": "Beginner",
+  "audience": "Developers"
+ },
+ {
+  "type": "plugins",
+  "slug": "oh-my-claudecode",
+  "name": "Oh My ClaudeCode",
+  "description": "A community plugin project that adds orchestration features and workflow helpers on top of Claude Code. Read its README for the current feature list.",
+  "category": "productivity",
+  "tags": [
+   "orchestration",
+   "workflow",
+   "community",
+   "plugin"
+  ],
+  "author": "Yeachan-Heo",
+  "github_url": "https://github.com/Yeachan-Heo/oh-my-claudecode",
+  "install": "Installation steps differ for each project, so see the README in the linked repo. Read what a plugin contains before you install it, because plugins can run code.",
+  "files": [],
+  "use_cases": [
+   "Try multi-step orchestration",
+   "Study a large community plugin",
+   "Compare workflow helpers",
+   "Learn plugin packaging"
+  ],
+  "example_prompts": [
+   "What features does this plugin add?",
+   "How do I uninstall it?"
+  ],
+  "level": "Advanced",
+  "audience": "Developers"
+ }
+]

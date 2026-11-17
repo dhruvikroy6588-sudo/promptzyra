@@ -1,0 +1,3149 @@
+[
+ {
+  "slug": "crewai",
+  "name": "CrewAI",
+  "category": "coding",
+  "website_url": "https://www.crewai.com",
+  "pricing": "Unknown",
+  "tagline": "Framework for building teams of cooperating AI agents.",
+  "best_for": "Developers prototyping multi-agent workflows",
+  "platforms": [
+   "Web",
+   "API",
+   "Linux",
+   "macOS",
+   "Windows"
+  ],
+  "description": "CrewAI is a Python framework for organising several AI agents into a crew, where each agent gets a role, a goal and a set of tasks. The idea is to split a larger job between specialised agents instead of one long prompt.\n\nIt suits developers experimenting with agent workflows such as research, drafting or data gathering pipelines. As with any agent setup, outputs need human review.",
+  "use_steps": [
+   "Open the official CrewAI site and read what it covers.",
+   "Sign up, install or download it, then try a small, low-risk example.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Clear role and task model",
+   "Python-first",
+   "Active open community"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "langgraph",
+   "autogen"
+  ],
+  "tags": [
+   "agents",
+   "python",
+   "framework",
+   "automation"
+  ],
+  "features": [
+   "Role-based agents",
+   "Task definitions",
+   "Tool integration",
+   "Crew orchestration"
+  ],
+  "use_cases": [
+   "Research and summarise workflows",
+   "Content drafting pipelines",
+   "Internal automation prototypes"
+  ],
+  "pricing_details": "Pricing for CrewAI is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is CrewAI?",
+    "a": "Framework for building teams of cooperating AI agents. See the official site for the latest description."
+   },
+   {
+    "q": "Is CrewAI free?",
+    "a": "Pricing is not verified here; plans change, so check the official site."
+   },
+   {
+    "q": "Who should use CrewAI?",
+    "a": "Developers prototyping multi-agent workflows. Review its output before relying on it."
+   }
+  ],
+  "seo_title": "CrewAI: What It Is and How to Use It",
+  "seo_description": "Framework for building teams of cooperating AI agents. Overview, features, pros, cons and alternatives for CrewAI.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "autogen",
+  "name": "AutoGen",
+  "category": "coding",
+  "website_url": "https://microsoft.github.io/autogen",
+  "pricing": "Open source",
+  "tagline": "Microsoft's open-source framework for multi-agent AI applications.",
+  "best_for": "Developers and researchers building conversational agent systems",
+  "platforms": [
+   "Linux",
+   "macOS",
+   "Windows",
+   "API"
+  ],
+  "description": "AutoGen is an open-source framework from Microsoft for building applications where multiple AI agents talk to each other, call tools and involve humans when needed. It is distributed as Python packages with documentation and examples.\n\nIt is used by developers and researchers exploring agent patterns such as planner and coder pairs or group chats. The project has evolved across versions, so check the official documentation for the current API.",
+  "use_steps": [
+   "Open the official AutoGen site and read what it covers.",
+   "Sign up, install or download it, then try a small, low-risk example.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Backed by a large company",
+   "Flexible agent patterns",
+   "Free to use under its licence"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "crewai",
+   "langgraph"
+  ],
+  "tags": [
+   "agents",
+   "microsoft",
+   "python",
+   "framework"
+  ],
+  "features": [
+   "Multi-agent conversations",
+   "Tool and code execution",
+   "Human in the loop",
+   "Python packages"
+  ],
+  "use_cases": [
+   "Agent research experiments",
+   "Code generation with review loops",
+   "Automating multi-step tasks"
+  ],
+  "pricing_details": "Pricing for AutoGen is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is AutoGen?",
+    "a": "Microsoft's open-source framework for multi-agent AI applications. See the official site for the latest description."
+   },
+   {
+    "q": "Is AutoGen free?",
+    "a": "Pricing is not verified here; plans change, so check the official site."
+   },
+   {
+    "q": "Who should use AutoGen?",
+    "a": "Developers and researchers building conversational agent systems. Review its output before relying on it."
+   }
+  ],
+  "seo_title": "AutoGen: What It Is and How to Use It",
+  "seo_description": "Microsoft's open-source framework for multi-agent AI applications. Overview, features, pros, cons and alternatives for AutoGen.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "haystack",
+  "name": "Haystack",
+  "category": "coding",
+  "website_url": "https://haystack.deepset.ai",
+  "pricing": "Open source",
+  "tagline": "Open-source framework for search and retrieval-augmented AI apps.",
+  "best_for": "Teams building question answering over their own documents",
+  "platforms": [
+   "Linux",
+   "macOS",
+   "Windows",
+   "API"
+  ],
+  "description": "Haystack is an open-source Python framework from deepset for building pipelines that combine language models, retrieval and document processing. Components are connected into pipelines for tasks such as question answering and search.\n\nIt is aimed at engineers who want control over each stage of a retrieval-augmented application. Documentation and integrations change over time, so confirm details on the official site.",
+  "use_steps": [
+   "Open the official Haystack site and read what it covers.",
+   "Sign up, install or download it, then try a small, low-risk example.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Modular pipeline design",
+   "Works with many model providers",
+   "Good for retrieval use cases"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "llamaindex",
+   "langchain"
+  ],
+  "tags": [
+   "rag",
+   "search",
+   "python",
+   "pipelines"
+  ],
+  "features": [
+   "Pipeline components",
+   "Retrieval and indexing",
+   "Model integrations",
+   "Evaluation helpers"
+  ],
+  "use_cases": [
+   "Document question answering",
+   "Enterprise search prototypes",
+   "Chat over knowledge bases"
+  ],
+  "pricing_details": "Pricing for Haystack is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Haystack?",
+    "a": "Open-source framework for search and retrieval-augmented AI apps. See the official site for the latest description."
+   },
+   {
+    "q": "Is Haystack free?",
+    "a": "Pricing is not verified here; plans change, so check the official site."
+   },
+   {
+    "q": "Who should use Haystack?",
+    "a": "Teams building question answering over their own documents. Review its output before relying on it."
+   }
+  ],
+  "seo_title": "Haystack: What It Is and How to Use It",
+  "seo_description": "Open-source framework for search and retrieval-augmented AI apps. Overview, features, pros, cons and alternatives for Haystack.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "vllm",
+  "name": "vLLM",
+  "category": "coding",
+  "website_url": "https://vllm.ai",
+  "pricing": "Open source",
+  "tagline": "Open-source engine for serving large language models efficiently.",
+  "best_for": "Teams self-hosting open models behind an API",
+  "platforms": [
+   "Linux",
+   "API"
+  ],
+  "description": "vLLM is an open-source library for running large language model inference and serving. It is designed to make better use of GPU memory and to serve many requests, and it can expose an API compatible with common chat endpoints.\n\nIt is mostly used by engineers deploying open-weight models on their own hardware or cloud. Hardware requirements and supported models vary, so check the official documentation.",
+  "use_steps": [
+   "Open the official vLLM site and read what it covers.",
+   "Sign up, install or download it, then try a small, low-risk example.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Free and open source",
+   "Built for serving workloads",
+   "Wide model support"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "llama-cpp",
+   "ollama"
+  ],
+  "tags": [
+   "inference",
+   "serving",
+   "gpu",
+   "self-hosted"
+  ],
+  "features": [
+   "Model serving",
+   "OpenAI-style API server",
+   "Batching of requests",
+   "Support for many open models"
+  ],
+  "use_cases": [
+   "Self-hosting an open model",
+   "Internal inference backend",
+   "Load testing model deployments"
+  ],
+  "pricing_details": "Pricing for vLLM is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is vLLM?",
+    "a": "Open-source engine for serving large language models efficiently. See the official site for the latest description."
+   },
+   {
+    "q": "Is vLLM free?",
+    "a": "Pricing is not verified here; plans change, so check the official site."
+   },
+   {
+    "q": "Who should use vLLM?",
+    "a": "Teams self-hosting open models behind an API. Review its output before relying on it."
+   }
+  ],
+  "seo_title": "vLLM: What It Is and How to Use It",
+  "seo_description": "Open-source engine for serving large language models efficiently. Overview, features, pros, cons and alternatives for vLLM.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "llama-cpp",
+  "name": "llama.cpp",
+  "category": "coding",
+  "website_url": "https://github.com/ggml-org/llama.cpp",
+  "pricing": "Open source",
+  "tagline": "C/C++ project for running language models locally on everyday hardware.",
+  "best_for": "Hobbyists and developers running models on laptops or small servers",
+  "platforms": [
+   "Linux",
+   "macOS",
+   "Windows"
+  ],
+  "description": "llama.cpp is an open-source C/C++ project for running large language models on local machines, including computers without a dedicated GPU. It works with quantised model files, which reduces memory needs.\n\nMany other local AI tools build on it, and it also includes a simple server and command-line tools. It is technical to set up, so read the project documentation for current instructions.",
+  "use_steps": [
+   "Open the official llama.cpp site and read what it covers.",
+   "Sign up, install or download it, then try a small, low-risk example.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Runs without cloud services",
+   "Very active open project",
+   "Many frontends build on it"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "ollama",
+   "vllm"
+  ],
+  "tags": [
+   "local",
+   "inference",
+   "c++",
+   "self-hosted"
+  ],
+  "features": [
+   "Local inference",
+   "Quantised model formats",
+   "Command-line tools",
+   "Built-in server"
+  ],
+  "use_cases": [
+   "Running a chat model offline",
+   "Embedding it inside other apps",
+   "Testing models on modest hardware"
+  ],
+  "pricing_details": "Pricing for llama.cpp is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is llama.cpp?",
+    "a": "C/C++ project for running language models locally on everyday hardware. See the official site for the latest description."
+   },
+   {
+    "q": "Is llama.cpp free?",
+    "a": "Pricing is not verified here; plans change, so check the official site."
+   },
+   {
+    "q": "Who should use llama.cpp?",
+    "a": "Hobbyists and developers running models on laptops or small servers. Review its output before relying on it."
+   }
+  ],
+  "seo_title": "llama.cpp: What It Is and How to Use It",
+  "seo_description": "C/C++ project for running language models locally on everyday hardware. Overview, features, pros, cons and alternatives for llama.cpp.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "whisper-cpp",
+  "name": "whisper.cpp",
+  "category": "productivity",
+  "website_url": "https://github.com/ggml-org/whisper.cpp",
+  "pricing": "Open source",
+  "tagline": "Local speech-to-text using a C/C++ port of OpenAI's Whisper models.",
+  "best_for": "Developers who want offline transcription",
+  "platforms": [
+   "Linux",
+   "macOS",
+   "Windows"
+  ],
+  "description": "whisper.cpp is an open-source C/C++ implementation for running Whisper speech recognition models locally. It lets you transcribe audio on your own computer without sending files to an online service.\n\nIt is a developer-oriented tool with command-line examples and bindings. Accuracy depends on the model size and audio quality, so review transcripts before relying on them.",
+  "use_steps": [
+   "Open the official whisper.cpp site and read what it covers.",
+   "Sign up, install or download it, then try a small, low-risk example.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Runs locally",
+   "No account needed",
+   "Lightweight compared with Python stacks"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "whisper-openai",
+   "assemblyai"
+  ],
+  "tags": [
+   "speech",
+   "transcription",
+   "offline",
+   "open-source"
+  ],
+  "features": [
+   "Offline transcription",
+   "Multiple model sizes",
+   "Command-line usage",
+   "Language bindings"
+  ],
+  "use_cases": [
+   "Transcribing interviews privately",
+   "Adding speech input to an app",
+   "Generating subtitles drafts"
+  ],
+  "pricing_details": "Pricing for whisper.cpp is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is whisper.cpp?",
+    "a": "Local speech-to-text using a C/C++ port of OpenAI's Whisper models. See the official site for the latest description."
+   },
+   {
+    "q": "Is whisper.cpp free?",
+    "a": "Pricing is not verified here; plans change, so check the official site."
+   },
+   {
+    "q": "Who should use whisper.cpp?",
+    "a": "Developers who want offline transcription. Review its output before relying on it."
+   }
+  ],
+  "seo_title": "whisper.cpp: What It Is and How to Use It",
+  "seo_description": "Local speech-to-text using a C/C++ port of OpenAI's Whisper models. Overview, features, pros, cons and alternatives for whisper.cpp.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "langsmith",
+  "name": "LangSmith",
+  "category": "coding",
+  "website_url": "https://www.langchain.com/langsmith",
+  "pricing": "Unknown",
+  "tagline": "Tracing, evaluation and monitoring platform for LLM applications.",
+  "best_for": "Teams debugging and testing LLM apps",
+  "platforms": [
+   "Web",
+   "API"
+  ],
+  "description": "LangSmith is a platform from the LangChain team for observing and testing applications built on language models. It records traces of each step so you can see prompts, tool calls and outputs.\n\nIt is used by developers who need to debug chains or agents and compare changes against test datasets. It works with LangChain but is not limited to it. Check the official site for plans and hosting options.",
+  "use_steps": [
+   "Open the official LangSmith site and read what it covers.",
+   "Sign up, install or download it, then try a small, low-risk example.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Detailed traces",
+   "Integrates with LangChain",
+   "Evaluation workflow"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "langfuse",
+   "promptlayer"
+  ],
+  "tags": [
+   "observability",
+   "llm",
+   "evaluation",
+   "debugging"
+  ],
+  "features": [
+   "Run tracing",
+   "Dataset-based evaluation",
+   "Prompt iteration",
+   "Monitoring"
+  ],
+  "use_cases": [
+   "Debugging an agent",
+   "Regression testing prompts",
+   "Reviewing production traces"
+  ],
+  "pricing_details": "Pricing for LangSmith is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is LangSmith?",
+    "a": "Tracing, evaluation and monitoring platform for LLM applications. See the official site for the latest description."
+   },
+   {
+    "q": "Is LangSmith free?",
+    "a": "Pricing is not verified here; plans change, so check the official site."
+   },
+   {
+    "q": "Who should use LangSmith?",
+    "a": "Teams debugging and testing LLM apps. Review its output before relying on it."
+   }
+  ],
+  "seo_title": "LangSmith: What It Is and How to Use It",
+  "seo_description": "Tracing, evaluation and monitoring platform for LLM applications. Overview, features, pros, cons and alternatives for LangSmith.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "langfuse",
+  "name": "Langfuse",
+  "category": "coding",
+  "website_url": "https://langfuse.com",
+  "pricing": "Unknown",
+  "tagline": "Open-source observability and prompt management for LLM apps.",
+  "best_for": "Teams that want tracing they can self-host",
+  "platforms": [
+   "Web",
+   "API"
+  ],
+  "description": "Langfuse is an LLM engineering platform that collects traces, tracks prompts and supports evaluation for applications built on language models. Its core is open source and can be self-hosted, with a cloud option as well.\n\nDevelopers use it to see where an application is slow, costly or wrong. SDKs exist for common languages. Check the official site for what is included in each deployment option.",
+  "use_steps": [
+   "Open the official Langfuse site and read what it covers.",
+   "Sign up, install or download it, then try a small, low-risk example.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Self-hosting option",
+   "Framework-agnostic SDKs",
+   "Combines tracing and prompts"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "langsmith",
+   "arize-phoenix"
+  ],
+  "tags": [
+   "observability",
+   "llm",
+   "self-hosted",
+   "prompts"
+  ],
+  "features": [
+   "Tracing",
+   "Prompt management",
+   "Evaluations",
+   "SDK integrations"
+  ],
+  "use_cases": [
+   "Monitoring a chatbot",
+   "Versioning prompts",
+   "Reviewing model costs and latency"
+  ],
+  "pricing_details": "Pricing for Langfuse is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Langfuse?",
+    "a": "Open-source observability and prompt management for LLM apps. See the official site for the latest description."
+   },
+   {
+    "q": "Is Langfuse free?",
+    "a": "Pricing is not verified here; plans change, so check the official site."
+   },
+   {
+    "q": "Who should use Langfuse?",
+    "a": "Teams that want tracing they can self-host. Review its output before relying on it."
+   }
+  ],
+  "seo_title": "Langfuse: What It Is and How to Use It",
+  "seo_description": "Open-source observability and prompt management for LLM apps. Overview, features, pros, cons and alternatives for Langfuse.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "langgraph",
+  "name": "LangGraph",
+  "category": "coding",
+  "website_url": "https://www.langchain.com/langgraph",
+  "pricing": "Unknown",
+  "tagline": "Library for building stateful, graph-based AI agent workflows.",
+  "best_for": "Developers needing controllable agent flows",
+  "platforms": [
+   "API",
+   "Linux",
+   "macOS",
+   "Windows"
+  ],
+  "description": "LangGraph is a library from the LangChain team for describing agent workflows as graphs of nodes and edges with shared state. This makes loops, branches and human approval steps easier to express than in a single chain.\n\nIt is aimed at developers who want more control over agent behaviour. It is available for Python and JavaScript. Check the official site for the current hosting and licensing details.",
+  "use_steps": [
+   "Open the official LangGraph site and read what it covers.",
+   "Sign up, install or download it, then try a small, low-risk example.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Explicit control flow",
+   "Works with LangChain tools",
+   "Good for long-running tasks"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "crewai",
+   "langchain"
+  ],
+  "tags": [
+   "agents",
+   "workflow",
+   "python",
+   "langchain"
+  ],
+  "features": [
+   "Graph-based workflows",
+   "State persistence",
+   "Human-in-the-loop steps",
+   "Streaming"
+  ],
+  "use_cases": [
+   "Multi-step research agents",
+   "Approval workflows",
+   "Customer support flows"
+  ],
+  "pricing_details": "Pricing for LangGraph is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is LangGraph?",
+    "a": "Library for building stateful, graph-based AI agent workflows. See the official site for the latest description."
+   },
+   {
+    "q": "Is LangGraph free?",
+    "a": "Pricing is not verified here; plans change, so check the official site."
+   },
+   {
+    "q": "Who should use LangGraph?",
+    "a": "Developers needing controllable agent flows. Review its output before relying on it."
+   }
+  ],
+  "seo_title": "LangGraph: What It Is and How to Use It",
+  "seo_description": "Library for building stateful, graph-based AI agent workflows. Overview, features, pros, cons and alternatives for LangGraph.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "dspy",
+  "name": "DSPy",
+  "category": "coding",
+  "website_url": "https://dspy.ai",
+  "pricing": "Open source",
+  "tagline": "Framework for programming language models instead of hand-writing prompts.",
+  "best_for": "Developers who want to optimise prompts systematically",
+  "platforms": [
+   "Linux",
+   "macOS",
+   "Windows"
+  ],
+  "description": "DSPy is an open-source Python framework that treats language model calls as declarative modules. You describe inputs and outputs, and optimisers can tune prompts or examples against a metric.\n\nIt started in academic research and is used by developers who want repeatable improvement of LLM pipelines. It has a learning curve compared with plain prompting, so read the official documentation first.",
+  "use_steps": [
+   "Open the official DSPy site and read what it covers.",
+   "Sign up, install or download it, then try a small, low-risk example.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Systematic approach",
+   "Model-agnostic",
+   "Free to use"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "langchain",
+   "promptfoo"
+  ],
+  "tags": [
+   "prompting",
+   "optimization",
+   "python",
+   "research"
+  ],
+  "features": [
+   "Signatures and modules",
+   "Prompt optimisers",
+   "Metric-driven tuning",
+   "Pipeline composition"
+  ],
+  "use_cases": [
+   "Improving a classification prompt",
+   "Tuning a retrieval pipeline",
+   "Comparing model backends"
+  ],
+  "pricing_details": "Pricing for DSPy is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is DSPy?",
+    "a": "Framework for programming language models instead of hand-writing prompts. See the official site for the latest description."
+   },
+   {
+    "q": "Is DSPy free?",
+    "a": "Pricing is not verified here; plans change, so check the official site."
+   },
+   {
+    "q": "Who should use DSPy?",
+    "a": "Developers who want to optimise prompts systematically. Review its output before relying on it."
+   }
+  ],
+  "seo_title": "DSPy: What It Is and How to Use It",
+  "seo_description": "Framework for programming language models instead of hand-writing prompts. Overview, features, pros, cons and alternatives for DSPy.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "semantic-kernel",
+  "name": "Semantic Kernel",
+  "category": "coding",
+  "website_url": "https://learn.microsoft.com/en-us/semantic-kernel/overview/",
+  "pricing": "Open source",
+  "tagline": "Microsoft's SDK for adding AI models and plugins to apps.",
+  "best_for": "Developers in .NET, Python or Java ecosystems",
+  "platforms": [
+   "Linux",
+   "macOS",
+   "Windows",
+   "API"
+  ],
+  "description": "Semantic Kernel is an open-source SDK from Microsoft for connecting language models with application code. You define plugins and functions that a model can call, and orchestrate them through the kernel.\n\nIt is popular with developers in the Microsoft ecosystem, with support across several languages. Features change between versions, so check the official documentation.",
+  "use_steps": [
+   "Open the official Semantic Kernel site and read what it covers.",
+   "Sign up, install or download it, then try a small, low-risk example.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Strong .NET support",
+   "Open source",
+   "Provider flexibility"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "langchain",
+   "autogen"
+  ],
+  "tags": [
+   "sdk",
+   "microsoft",
+   "agents",
+   ".net"
+  ],
+  "features": [
+   "Plugins and functions",
+   "Multiple model connectors",
+   "Agent framework",
+   "Memory and planning helpers"
+  ],
+  "use_cases": [
+   "Adding a copilot to a business app",
+   "Tool-calling assistants",
+   "Enterprise prototypes"
+  ],
+  "pricing_details": "Pricing for Semantic Kernel is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Semantic Kernel?",
+    "a": "Microsoft's SDK for adding AI models and plugins to apps. See the official site for the latest description."
+   },
+   {
+    "q": "Is Semantic Kernel free?",
+    "a": "Pricing is not verified here; plans change, so check the official site."
+   },
+   {
+    "q": "Who should use Semantic Kernel?",
+    "a": "Developers in .NET, Python or Java ecosystems. Review its output before relying on it."
+   }
+  ],
+  "seo_title": "Semantic Kernel: What It Is and How to Use It",
+  "seo_description": "Microsoft's SDK for adding AI models and plugins to apps. Overview, features, pros, cons and alternatives for Semantic Kernel.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "litellm",
+  "name": "LiteLLM",
+  "category": "coding",
+  "website_url": "https://www.litellm.ai",
+  "pricing": "Open source",
+  "tagline": "Gateway and library for calling many LLM providers through one interface.",
+  "best_for": "Teams juggling several model providers",
+  "platforms": [
+   "API",
+   "Linux",
+   "macOS",
+   "Windows"
+  ],
+  "description": "LiteLLM provides a unified way to call many language model providers using a common request format. It is available as a Python library and as a proxy server that applications can point to.\n\nTeams use it to switch providers, track usage and apply limits in one place. Enterprise features may be offered separately, so check the official site for current plans.",
+  "use_steps": [
+   "Open the official LiteLLM site and read what it covers.",
+   "Sign up, install or download it, then try a small, low-risk example.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Reduces provider lock-in",
+   "Self-hostable proxy",
+   "Wide provider coverage"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "openrouter",
+   "together-ai"
+  ],
+  "tags": [
+   "gateway",
+   "llm",
+   "api",
+   "proxy"
+  ],
+  "features": [
+   "Unified API format",
+   "Proxy server",
+   "Provider switching",
+   "Usage tracking"
+  ],
+  "use_cases": [
+   "Swapping models without code changes",
+   "Central gateway for a team",
+   "Cost tracking across providers"
+  ],
+  "pricing_details": "Pricing for LiteLLM is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is LiteLLM?",
+    "a": "Gateway and library for calling many LLM providers through one interface. See the official site for the latest description."
+   },
+   {
+    "q": "Is LiteLLM free?",
+    "a": "Pricing is not verified here; plans change, so check the official site."
+   },
+   {
+    "q": "Who should use LiteLLM?",
+    "a": "Teams juggling several model providers. Review its output before relying on it."
+   }
+  ],
+  "seo_title": "LiteLLM: What It Is and How to Use It",
+  "seo_description": "Gateway and library for calling many LLM providers through one interface. Overview, features, pros, cons and alternatives for LiteLLM.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "mlflow",
+  "name": "MLflow",
+  "category": "coding",
+  "website_url": "https://mlflow.org",
+  "pricing": "Open source",
+  "tagline": "Open-source platform for tracking and managing ML and LLM projects.",
+  "best_for": "Data science teams managing experiments and models",
+  "platforms": [
+   "Linux",
+   "macOS",
+   "Windows",
+   "Web"
+  ],
+  "description": "MLflow is an open-source platform for the machine learning lifecycle. It records experiments, packages models and keeps a registry, and newer versions add tools for tracing and evaluating LLM applications.\n\nIt is used by data science and engineering teams that want a shared record of runs and models. It can be run on your own infrastructure or through managed services from other vendors.",
+  "use_steps": [
+   "Open the official MLflow site and read what it covers.",
+   "Sign up, install or download it, then try a small, low-risk example.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Widely used",
+   "Self-hostable",
+   "Works with many ML libraries"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "weights-and-biases",
+   "langfuse"
+  ],
+  "tags": [
+   "mlops",
+   "tracking",
+   "python",
+   "open-source"
+  ],
+  "features": [
+   "Experiment tracking",
+   "Model registry",
+   "Model packaging",
+   "LLM tracing and evaluation"
+  ],
+  "use_cases": [
+   "Comparing training runs",
+   "Versioning models",
+   "Tracing a generative AI app"
+  ],
+  "pricing_details": "Pricing for MLflow is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is MLflow?",
+    "a": "Open-source platform for tracking and managing ML and LLM projects. See the official site for the latest description."
+   },
+   {
+    "q": "Is MLflow free?",
+    "a": "Pricing is not verified here; plans change, so check the official site."
+   },
+   {
+    "q": "Who should use MLflow?",
+    "a": "Data science teams managing experiments and models. Review its output before relying on it."
+   }
+  ],
+  "seo_title": "MLflow: What It Is and How to Use It",
+  "seo_description": "Open-source platform for tracking and managing ML and LLM projects. Overview, features, pros, cons and alternatives for MLflow.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "openhands",
+  "name": "OpenHands",
+  "category": "coding",
+  "website_url": "https://www.all-hands.dev",
+  "pricing": "Open source",
+  "tagline": "Open-source AI software development agent platform.",
+  "best_for": "Developers wanting an agent that edits code and runs commands",
+  "platforms": [
+   "Web",
+   "Linux",
+   "macOS"
+  ],
+  "description": "OpenHands, formerly known as OpenDevin, is an open-source platform for AI agents that work on software tasks. The agent can edit files, run commands and browse within a sandboxed environment.\n\nDevelopers use it to hand off bug fixes or small features and then review the result. Agent output can be wrong, so code review is essential. Check the official site for current options.",
+  "use_steps": [
+   "Open the official OpenHands site and read what it covers.",
+   "Sign up, install or download it, then try a small, low-risk example.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Open source",
+   "Choice of model backend",
+   "Runs commands in a sandbox"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "aider",
+   "cline"
+  ],
+  "tags": [
+   "agent",
+   "coding",
+   "open-source",
+   "sandbox"
+  ],
+  "features": [
+   "Coding agent",
+   "Sandboxed execution",
+   "Web interface",
+   "Model choice"
+  ],
+  "use_cases": [
+   "Fixing small issues",
+   "Scaffolding features",
+   "Exploring a codebase"
+  ],
+  "pricing_details": "Pricing for OpenHands is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is OpenHands?",
+    "a": "Open-source AI software development agent platform. See the official site for the latest description."
+   },
+   {
+    "q": "Is OpenHands free?",
+    "a": "Pricing is not verified here; plans change, so check the official site."
+   },
+   {
+    "q": "Who should use OpenHands?",
+    "a": "Developers wanting an agent that edits code and runs commands. Review its output before relying on it."
+   }
+  ],
+  "seo_title": "OpenHands: What It Is and How to Use It",
+  "seo_description": "Open-source AI software development agent platform. Overview, features, pros, cons and alternatives for OpenHands.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "open-interpreter",
+  "name": "Open Interpreter",
+  "category": "coding",
+  "website_url": "https://www.openinterpreter.com",
+  "pricing": "Open source",
+  "tagline": "Lets a language model run code on your computer from a chat.",
+  "best_for": "Technical users automating local tasks by describing them",
+  "platforms": [
+   "Linux",
+   "macOS",
+   "Windows"
+  ],
+  "description": "Open Interpreter is an open-source project that lets a language model write and run code on your own machine through a chat-style terminal. You describe a task, and it proposes code to carry it out.\n\nIt is meant for technically comfortable users, since running generated code carries risk. Always review what it proposes before approving it. Check the official site for current versions.",
+  "use_steps": [
+   "Open the official Open Interpreter site and read what it covers.",
+   "Sign up, install or download it, then try a small, low-risk example.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Flexible",
+   "Works with local models",
+   "Open source"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "aider",
+   "openhands"
+  ],
+  "tags": [
+   "automation",
+   "terminal",
+   "code",
+   "open-source"
+  ],
+  "features": [
+   "Terminal chat",
+   "Code execution",
+   "Local or hosted models",
+   "File handling"
+  ],
+  "use_cases": [
+   "Batch renaming or converting files",
+   "Quick data analysis",
+   "Automating repetitive scripts"
+  ],
+  "pricing_details": "Pricing for Open Interpreter is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Open Interpreter?",
+    "a": "Lets a language model run code on your computer from a chat. See the official site for the latest description."
+   },
+   {
+    "q": "Is Open Interpreter free?",
+    "a": "Pricing is not verified here; plans change, so check the official site."
+   },
+   {
+    "q": "Who should use Open Interpreter?",
+    "a": "Technical users automating local tasks by describing them. Review its output before relying on it."
+   }
+  ],
+  "seo_title": "Open Interpreter: What It Is and How to Use It",
+  "seo_description": "Lets a language model run code on your computer from a chat. Overview, features, pros, cons and alternatives for Open Interpreter.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "tabbyml",
+  "name": "Tabby",
+  "category": "coding",
+  "website_url": "https://www.tabbyml.com",
+  "pricing": "Open source",
+  "tagline": "Self-hosted AI coding assistant.",
+  "best_for": "Teams wanting code completion on their own infrastructure",
+  "platforms": [
+   "Linux",
+   "macOS",
+   "Windows"
+  ],
+  "description": "Tabby, from TabbyML, is a self-hosted AI coding assistant that provides code completion and chat. You run the server yourself and connect editor extensions to it.\n\nIt appeals to teams that want to keep source code within their own environment. Hardware needs depend on the chosen model, so check the official documentation for setup details.",
+  "use_steps": [
+   "Open the official Tabby site and read what it covers.",
+   "Sign up, install or download it, then try a small, low-risk example.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Self-hosted",
+   "Code stays in your environment",
+   "Open-source core"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "tabnine",
+   "continue"
+  ],
+  "tags": [
+   "coding",
+   "self-hosted",
+   "completion",
+   "open-source"
+  ],
+  "features": [
+   "Code completion",
+   "Chat in the editor",
+   "Self-hosted server",
+   "Editor extensions"
+  ],
+  "use_cases": [
+   "Private code completion",
+   "Team coding assistant",
+   "Experimenting with open code models"
+  ],
+  "pricing_details": "Pricing for Tabby is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Tabby?",
+    "a": "Self-hosted AI coding assistant. See the official site for the latest description."
+   },
+   {
+    "q": "Is Tabby free?",
+    "a": "Pricing is not verified here; plans change, so check the official site."
+   },
+   {
+    "q": "Who should use Tabby?",
+    "a": "Teams wanting code completion on their own infrastructure. Review its output before relying on it."
+   }
+  ],
+  "seo_title": "Tabby: What It Is and How to Use It",
+  "seo_description": "Self-hosted AI coding assistant. Overview, features, pros, cons and alternatives for Tabby.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "ragflow",
+  "name": "RAGFlow",
+  "category": "coding",
+  "website_url": "https://ragflow.io",
+  "pricing": "Open source",
+  "tagline": "Open-source retrieval-augmented generation engine focused on document understanding.",
+  "best_for": "Teams building Q&A over complex documents",
+  "platforms": [
+   "Web",
+   "Linux"
+  ],
+  "description": "RAGFlow is an open-source engine for retrieval-augmented generation that puts emphasis on parsing complex documents such as PDFs and tables. It offers a web interface to build knowledge bases and chat over them.\n\nIt is typically deployed with Docker on your own server. Setup and resource needs vary, so check the project documentation and official site.",
+  "use_steps": [
+   "Open the official RAGFlow site and read what it covers.",
+   "Sign up, install or download it, then try a small, low-risk example.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Open source",
+   "Document-focused",
+   "Web UI included"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "anythingllm",
+   "dify"
+  ],
+  "tags": [
+   "rag",
+   "documents",
+   "self-hosted",
+   "search"
+  ],
+  "features": [
+   "Document parsing",
+   "Knowledge bases",
+   "Chat interface",
+   "Self-hosting"
+  ],
+  "use_cases": [
+   "Chat with company documents",
+   "Searching reports",
+   "Prototype knowledge assistants"
+  ],
+  "pricing_details": "Pricing for RAGFlow is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is RAGFlow?",
+    "a": "Open-source retrieval-augmented generation engine focused on document understanding. See the official site for the latest description."
+   },
+   {
+    "q": "Is RAGFlow free?",
+    "a": "Pricing is not verified here; plans change, so check the official site."
+   },
+   {
+    "q": "Who should use RAGFlow?",
+    "a": "Teams building Q&A over complex documents. Review its output before relying on it."
+   }
+  ],
+  "seo_title": "RAGFlow: What It Is and How to Use It",
+  "seo_description": "Open-source retrieval-augmented generation engine focused on document understanding. Overview, features, pros, cons and alternatives for RAGFlow.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "privategpt",
+  "name": "PrivateGPT",
+  "category": "productivity",
+  "website_url": "https://privategpt.dev",
+  "pricing": "Open source",
+  "tagline": "Open-source project for asking questions about your documents offline.",
+  "best_for": "Privacy-minded users who want local document Q&A",
+  "platforms": [
+   "Linux",
+   "macOS",
+   "Windows"
+  ],
+  "description": "PrivateGPT is an open-source project that lets you ingest your own documents and ask questions about them using models that run locally or through chosen providers. It also exposes an API.\n\nIt is aimed at developers and technical users who want to keep data within their own environment. Setup requires some command-line work; see the official documentation.",
+  "use_steps": [
+   "Open the official PrivateGPT site and read what it covers.",
+   "Sign up, install or download it, then try a small, low-risk example.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Local-first design",
+   "Open source",
+   "API access"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "anythingllm",
+   "gpt4all"
+  ],
+  "tags": [
+   "documents",
+   "privacy",
+   "local",
+   "rag"
+  ],
+  "features": [
+   "Document ingestion",
+   "Local model support",
+   "API",
+   "Question answering"
+  ],
+  "use_cases": [
+   "Searching private notes",
+   "Internal document Q&A",
+   "Offline experiments"
+  ],
+  "pricing_details": "Pricing for PrivateGPT is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is PrivateGPT?",
+    "a": "Open-source project for asking questions about your documents offline. See the official site for the latest description."
+   },
+   {
+    "q": "Is PrivateGPT free?",
+    "a": "Pricing is not verified here; plans change, so check the official site."
+   },
+   {
+    "q": "Who should use PrivateGPT?",
+    "a": "Privacy-minded users who want local document Q&A. Review its output before relying on it."
+   }
+  ],
+  "seo_title": "PrivateGPT: What It Is and How to Use It",
+  "seo_description": "Open-source project for asking questions about your documents offline. Overview, features, pros, cons and alternatives for PrivateGPT.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "letta",
+  "name": "Letta",
+  "category": "coding",
+  "website_url": "https://www.letta.com",
+  "pricing": "Unknown",
+  "tagline": "Platform for building AI agents with persistent memory.",
+  "best_for": "Developers building stateful agents",
+  "platforms": [
+   "Web",
+   "API"
+  ],
+  "description": "Letta, which grew out of the MemGPT research project, is a framework and platform for building agents that keep memory across conversations. The agent manages what it remembers and recalls.\n\nIt is aimed at developers who need assistants with long-term context. The open-source core and the hosted offering may differ, so check the official site for current options.",
+  "use_steps": [
+   "Open the official Letta site and read what it covers.",
+   "Sign up, install or download it, then try a small, low-risk example.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Focus on memory",
+   "Open-source roots",
+   "API-based"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "crewai",
+   "langgraph"
+  ],
+  "tags": [
+   "memory",
+   "agents",
+   "api",
+   "open-source"
+  ],
+  "features": [
+   "Persistent agent memory",
+   "Agent server",
+   "API and SDKs",
+   "Tool use"
+  ],
+  "use_cases": [
+   "Personal assistants that remember",
+   "Long-running support agents",
+   "Memory research experiments"
+  ],
+  "pricing_details": "Pricing for Letta is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Letta?",
+    "a": "Platform for building AI agents with persistent memory. See the official site for the latest description."
+   },
+   {
+    "q": "Is Letta free?",
+    "a": "Pricing is not verified here; plans change, so check the official site."
+   },
+   {
+    "q": "Who should use Letta?",
+    "a": "Developers building stateful agents. Review its output before relying on it."
+   }
+  ],
+  "seo_title": "Letta: What It Is and How to Use It",
+  "seo_description": "Platform for building AI agents with persistent memory. Overview, features, pros, cons and alternatives for Letta.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "arize-phoenix",
+  "name": "Arize Phoenix",
+  "category": "coding",
+  "website_url": "https://phoenix.arize.com",
+  "pricing": "Open source",
+  "tagline": "Open-source tracing and evaluation tool for LLM applications.",
+  "best_for": "Developers debugging and evaluating LLM pipelines",
+  "platforms": [
+   "Web",
+   "Linux",
+   "macOS",
+   "Windows"
+  ],
+  "description": "Phoenix is an open-source observability tool from Arize AI. It collects traces from LLM applications and offers evaluation features so you can inspect retrieval, prompts and model calls.\n\nIt can run locally in a notebook or be deployed on your own infrastructure. Arize also offers a commercial platform, so check the official site for how they differ.",
+  "use_steps": [
+   "Open the official Arize Phoenix site and read what it covers.",
+   "Sign up, install or download it, then try a small, low-risk example.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Open source",
+   "Runs locally",
+   "Standards-based instrumentation"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "langfuse",
+   "langsmith"
+  ],
+  "tags": [
+   "observability",
+   "llm",
+   "evaluation",
+   "tracing"
+  ],
+  "features": [
+   "Tracing",
+   "Evaluations",
+   "Dataset experiments",
+   "OpenTelemetry-based instrumentation"
+  ],
+  "use_cases": [
+   "Debugging a RAG pipeline",
+   "Comparing prompt versions",
+   "Local development tracing"
+  ],
+  "pricing_details": "Pricing for Arize Phoenix is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Arize Phoenix?",
+    "a": "Open-source tracing and evaluation tool for LLM applications. See the official site for the latest description."
+   },
+   {
+    "q": "Is Arize Phoenix free?",
+    "a": "Pricing is not verified here; plans change, so check the official site."
+   },
+   {
+    "q": "Who should use Arize Phoenix?",
+    "a": "Developers debugging and evaluating LLM pipelines. Review its output before relying on it."
+   }
+  ],
+  "seo_title": "Arize Phoenix: What It Is and How to Use It",
+  "seo_description": "Open-source tracing and evaluation tool for LLM applications. Overview, features, pros, cons and alternatives for Arize Phoenix.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "pydantic-ai",
+  "name": "Pydantic AI",
+  "category": "coding",
+  "website_url": "https://ai.pydantic.dev",
+  "pricing": "Open source",
+  "tagline": "Python agent framework from the Pydantic team.",
+  "best_for": "Python developers who value typed, validated outputs",
+  "platforms": [
+   "Linux",
+   "macOS",
+   "Windows"
+  ],
+  "description": "Pydantic AI is a Python framework for building agents and LLM applications with typed, validated outputs, from the team behind Pydantic. It supports tools, dependencies and multiple model providers.\n\nIt suits Python developers who like type hints and structured responses. The project is young and changes quickly, so consult the official documentation for the current API.",
+  "use_steps": [
+   "Open the official Pydantic AI site and read what it covers.",
+   "Sign up, install or download it, then try a small, low-risk example.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Type-safe design",
+   "Familiar to Pydantic users",
+   "Open source"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "langchain",
+   "instructor"
+  ],
+  "tags": [
+   "python",
+   "agents",
+   "structured-output",
+   "framework"
+  ],
+  "features": [
+   "Typed outputs",
+   "Tool calling",
+   "Model provider support",
+   "Dependency injection"
+  ],
+  "use_cases": [
+   "Structured data extraction",
+   "Tool-using assistants",
+   "Validated API responses"
+  ],
+  "pricing_details": "Pricing for Pydantic AI is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Pydantic AI?",
+    "a": "Python agent framework from the Pydantic team. See the official site for the latest description."
+   },
+   {
+    "q": "Is Pydantic AI free?",
+    "a": "Pricing is not verified here; plans change, so check the official site."
+   },
+   {
+    "q": "Who should use Pydantic AI?",
+    "a": "Python developers who value typed, validated outputs. Review its output before relying on it."
+   }
+  ],
+  "seo_title": "Pydantic AI: What It Is and How to Use It",
+  "seo_description": "Python agent framework from the Pydantic team. Overview, features, pros, cons and alternatives for Pydantic AI.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "llamafile",
+  "name": "llamafile",
+  "category": "coding",
+  "website_url": "https://github.com/mozilla-ai/llamafile",
+  "pricing": "Open source",
+  "tagline": "Package a language model and runtime into a single runnable file.",
+  "best_for": "Anyone wanting the simplest way to run a local model",
+  "platforms": [
+   "Linux",
+   "macOS",
+   "Windows"
+  ],
+  "description": "llamafile is an open-source project that bundles a model and the software to run it into one executable file. It builds on llama.cpp and aims to make local models easy to distribute.\n\nIt is useful for trying local models without installing a stack. It is maintained under Mozilla's AI efforts. File sizes and model support vary, so check the project page.",
+  "use_steps": [
+   "Open the official llamafile site and read what it covers.",
+   "Sign up, install or download it, then try a small, low-risk example.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Simple to run",
+   "No cloud needed",
+   "Open source"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "llama-cpp",
+   "ollama"
+  ],
+  "tags": [
+   "local",
+   "offline",
+   "mozilla",
+   "open-source"
+  ],
+  "features": [
+   "Single-file distribution",
+   "Local web interface",
+   "Runs offline",
+   "Built on llama.cpp"
+  ],
+  "use_cases": [
+   "Trying a model quickly",
+   "Sharing a model with a colleague",
+   "Offline demos"
+  ],
+  "pricing_details": "Pricing for llamafile is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is llamafile?",
+    "a": "Package a language model and runtime into a single runnable file. See the official site for the latest description."
+   },
+   {
+    "q": "Is llamafile free?",
+    "a": "Pricing is not verified here; plans change, so check the official site."
+   },
+   {
+    "q": "Who should use llamafile?",
+    "a": "Anyone wanting the simplest way to run a local model. Review its output before relying on it."
+   }
+  ],
+  "seo_title": "llamafile: What It Is and How to Use It",
+  "seo_description": "Package a language model and runtime into a single runnable file. Overview, features, pros, cons and alternatives for llamafile.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "sarvam-ai",
+  "name": "Sarvam AI",
+  "category": "chat-assistants",
+  "website_url": "https://www.sarvam.ai",
+  "pricing": "Unknown",
+  "tagline": "Indian AI company building models and tools for Indian languages.",
+  "best_for": "Users and developers who need Indian-language AI",
+  "platforms": [
+   "Web",
+   "API"
+  ],
+  "description": "Sarvam AI is a Bengaluru-based company that builds language models and voice tools aimed at Indian languages. Its offerings include APIs for text, speech and translation across several Indian languages.\n\nIt is relevant for developers building products for Indian users, and for people wanting an assistant that handles Indic languages. Products and availability change, so check the official site.",
+  "use_steps": [
+   "Open the official Sarvam AI site and read what it covers.",
+   "Sign up, install or download it, then try a small, low-risk example.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Focus on Indian languages",
+   "API for developers",
+   "Indian company"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "bhashini",
+   "krutrim"
+  ],
+  "tags": [
+   "india",
+   "indic",
+   "language-models",
+   "api"
+  ],
+  "features": [
+   "Indian-language models",
+   "Speech tools",
+   "Translation",
+   "Developer API"
+  ],
+  "use_cases": [
+   "Indic-language chatbots",
+   "Voice assistants",
+   "Translating content into Indian languages"
+  ],
+  "pricing_details": "Pricing for Sarvam AI is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Sarvam AI?",
+    "a": "Indian AI company building models and tools for Indian languages. See the official site for the latest description."
+   },
+   {
+    "q": "Is Sarvam AI free?",
+    "a": "Pricing is not verified here; plans change, so check the official site."
+   },
+   {
+    "q": "Who should use Sarvam AI?",
+    "a": "Users and developers who need Indian-language AI. Review its output before relying on it."
+   }
+  ],
+  "seo_title": "Sarvam AI: What It Is and How to Use It",
+  "seo_description": "Indian AI company building models and tools for Indian languages. Overview, features, pros, cons and alternatives for Sarvam AI.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "krutrim",
+  "name": "Krutrim",
+  "category": "chat-assistants",
+  "website_url": "https://www.olakrutrim.com",
+  "pricing": "Unknown",
+  "tagline": "AI assistant and models from Ola's Krutrim, built with Indian languages in mind.",
+  "best_for": "Indian users wanting an assistant that understands local languages",
+  "platforms": [
+   "Web",
+   "Android",
+   "iOS"
+  ],
+  "description": "Krutrim is an Indian AI initiative associated with Ola. It offers an assistant and language models intended to work with Indian languages and context, along with cloud and developer offerings.\n\nIts products have changed over time, so check the official site for what is currently offered and where it is available.",
+  "use_steps": [
+   "Open the official Krutrim site and read what it covers.",
+   "Sign up, install or download it, then try a small, low-risk example.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Indian-language focus",
+   "Local company",
+   "Multiple offerings"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "sarvam-ai",
+   "bhashini"
+  ],
+  "tags": [
+   "india",
+   "assistant",
+   "indic",
+   "chatbot"
+  ],
+  "features": [
+   "Conversational assistant",
+   "Indian-language support",
+   "Developer offerings",
+   "Mobile apps"
+  ],
+  "use_cases": [
+   "Asking questions in Indian languages",
+   "Exploring Indian-made models",
+   "Building regional-language features"
+  ],
+  "pricing_details": "Pricing for Krutrim is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Krutrim?",
+    "a": "AI assistant and models from Ola's Krutrim, built with Indian languages in mind. See the official site for the latest description."
+   },
+   {
+    "q": "Is Krutrim free?",
+    "a": "Pricing is not verified here; plans change, so check the official site."
+   },
+   {
+    "q": "Who should use Krutrim?",
+    "a": "Indian users wanting an assistant that understands local languages. Review its output before relying on it."
+   }
+  ],
+  "seo_title": "Krutrim: What It Is and How to Use It",
+  "seo_description": "AI assistant and models from Ola's Krutrim, built with Indian languages in mind. Overview, features, pros, cons and alternatives for Krutrim.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "bhashini",
+  "name": "Bhashini",
+  "category": "productivity",
+  "website_url": "https://bhashini.gov.in",
+  "pricing": "Unknown",
+  "tagline": "Indian government platform for language translation and speech services.",
+  "best_for": "Developers and citizens needing Indian-language translation",
+  "platforms": [
+   "Web",
+   "Android",
+   "iOS",
+   "API"
+  ],
+  "description": "Bhashini is an Indian government initiative under the National Language Translation Mission. It provides translation, speech recognition and speech synthesis services for Indian languages through apps and APIs.\n\nIt is used by developers, public services and citizens who want to access content across languages. Availability of languages and services changes, so check the official site.",
+  "use_steps": [
+   "Open the official Bhashini site and read what it covers.",
+   "Sign up, install or download it, then try a small, low-risk example.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Wide Indian language focus",
+   "Government-backed",
+   "API access"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "sarvam-ai",
+   "ai4bharat"
+  ],
+  "tags": [
+   "india",
+   "translation",
+   "speech",
+   "indic"
+  ],
+  "features": [
+   "Text translation",
+   "Speech recognition",
+   "Text to speech",
+   "Developer APIs"
+  ],
+  "use_cases": [
+   "Translating between Indian languages",
+   "Adding voice to a local-language service",
+   "Accessing government information across languages"
+  ],
+  "pricing_details": "Pricing for Bhashini is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Bhashini?",
+    "a": "Indian government platform for language translation and speech services. See the official site for the latest description."
+   },
+   {
+    "q": "Is Bhashini free?",
+    "a": "Pricing is not verified here; plans change, so check the official site."
+   },
+   {
+    "q": "Who should use Bhashini?",
+    "a": "Developers and citizens needing Indian-language translation. Review its output before relying on it."
+   }
+  ],
+  "seo_title": "Bhashini: What It Is and How to Use It",
+  "seo_description": "Indian government platform for language translation and speech services. Overview, features, pros, cons and alternatives for Bhashini.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "gnani-ai",
+  "name": "Gnani.ai",
+  "category": "chat-assistants",
+  "website_url": "https://www.gnani.ai",
+  "pricing": "Unknown",
+  "tagline": "Voice AI company offering conversational automation for businesses.",
+  "best_for": "Businesses automating customer calls in Indian languages",
+  "platforms": [
+   "Web",
+   "API"
+  ],
+  "description": "Gnani.ai is an Indian company that builds voice and conversational AI for businesses. Its products cover speech recognition, voice bots and analytics for customer interactions.\n\nIt is mainly sold to enterprises such as banks and telecoms rather than individuals. Details of products and languages change, so check the official site.",
+  "use_steps": [
+   "Open the official Gnani.ai site and read what it covers.",
+   "Sign up, install or download it, then try a small, low-risk example.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Voice focus",
+   "Indian-language capabilities",
+   "Enterprise use"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "haptik",
+   "yellow-ai"
+  ],
+  "tags": [
+   "voice",
+   "india",
+   "contact-centre",
+   "speech"
+  ],
+  "features": [
+   "Voice bots",
+   "Speech recognition",
+   "Multilingual support",
+   "Conversation analytics"
+  ],
+  "use_cases": [
+   "Automating support calls",
+   "Collections reminders",
+   "Speech analytics"
+  ],
+  "pricing_details": "Pricing for Gnani.ai is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Gnani.ai?",
+    "a": "Voice AI company offering conversational automation for businesses. See the official site for the latest description."
+   },
+   {
+    "q": "Is Gnani.ai free?",
+    "a": "Pricing is not verified here; plans change, so check the official site."
+   },
+   {
+    "q": "Who should use Gnani.ai?",
+    "a": "Businesses automating customer calls in Indian languages. Review its output before relying on it."
+   }
+  ],
+  "seo_title": "Gnani.ai: What It Is and How to Use It",
+  "seo_description": "Voice AI company offering conversational automation for businesses. Overview, features, pros, cons and alternatives for Gnani.ai.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "haptik",
+  "name": "Haptik",
+  "category": "chat-assistants",
+  "website_url": "https://www.haptik.ai",
+  "pricing": "Unknown",
+  "tagline": "Conversational AI platform for customer support and commerce.",
+  "best_for": "Businesses building chat and messaging assistants",
+  "platforms": [
+   "Web",
+   "API"
+  ],
+  "description": "Haptik is an Indian conversational AI company that provides chat and messaging assistants for customer support and sales. Bots can be deployed on websites and messaging channels such as WhatsApp.\n\nIt is aimed at businesses rather than individual users. Capabilities and plans change, so check the official site for what is offered today.",
+  "use_steps": [
+   "Open the official Haptik site and read what it covers.",
+   "Sign up, install or download it, then try a small, low-risk example.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Messaging channel focus",
+   "Business-oriented",
+   "Indian market experience"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "yellow-ai",
+   "verloop-io"
+  ],
+  "tags": [
+   "chatbot",
+   "support",
+   "india",
+   "messaging"
+  ],
+  "features": [
+   "Chatbots",
+   "Messaging channels",
+   "Agent assist",
+   "Analytics"
+  ],
+  "use_cases": [
+   "Customer support automation",
+   "Order and booking queries",
+   "Lead qualification"
+  ],
+  "pricing_details": "Pricing for Haptik is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Haptik?",
+    "a": "Conversational AI platform for customer support and commerce. See the official site for the latest description."
+   },
+   {
+    "q": "Is Haptik free?",
+    "a": "Pricing is not verified here; plans change, so check the official site."
+   },
+   {
+    "q": "Who should use Haptik?",
+    "a": "Businesses building chat and messaging assistants. Review its output before relying on it."
+   }
+  ],
+  "seo_title": "Haptik: What It Is and How to Use It",
+  "seo_description": "Conversational AI platform for customer support and commerce. Overview, features, pros, cons and alternatives for Haptik.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "yellow-ai",
+  "name": "Yellow.ai",
+  "category": "chat-assistants",
+  "website_url": "https://yellow.ai",
+  "pricing": "Unknown",
+  "tagline": "Enterprise platform for customer and employee conversational AI.",
+  "best_for": "Large businesses automating service across channels",
+  "platforms": [
+   "Web",
+   "API"
+  ],
+  "description": "Yellow.ai is a conversational AI platform used by businesses to automate customer and employee conversations across chat, voice and messaging channels.\n\nIt targets enterprise teams and is configured through a platform with integrations. Features and pricing are set by the vendor, so check the official site.",
+  "use_steps": [
+   "Open the official Yellow.ai site and read what it covers.",
+   "Sign up, install or download it, then try a small, low-risk example.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Multi-channel",
+   "Enterprise integrations",
+   "Multilingual positioning"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "haptik",
+   "kore-ai"
+  ],
+  "tags": [
+   "chatbot",
+   "enterprise",
+   "support",
+   "voice"
+  ],
+  "features": [
+   "Chat and voice agents",
+   "Channel integrations",
+   "Workflow automation",
+   "Analytics"
+  ],
+  "use_cases": [
+   "Customer service automation",
+   "HR helpdesks",
+   "Sales assistants"
+  ],
+  "pricing_details": "Pricing for Yellow.ai is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Yellow.ai?",
+    "a": "Enterprise platform for customer and employee conversational AI. See the official site for the latest description."
+   },
+   {
+    "q": "Is Yellow.ai free?",
+    "a": "Pricing is not verified here; plans change, so check the official site."
+   },
+   {
+    "q": "Who should use Yellow.ai?",
+    "a": "Large businesses automating service across channels. Review its output before relying on it."
+   }
+  ],
+  "seo_title": "Yellow.ai: What It Is and How to Use It",
+  "seo_description": "Enterprise platform for customer and employee conversational AI. Overview, features, pros, cons and alternatives for Yellow.ai.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "wysa",
+  "name": "Wysa",
+  "category": "chat-assistants",
+  "website_url": "https://www.wysa.com",
+  "pricing": "Unknown",
+  "tagline": "AI-based mental wellbeing companion with self-help tools.",
+  "best_for": "People looking for a guided self-help chat",
+  "platforms": [
+   "Android",
+   "iOS",
+   "Web"
+  ],
+  "description": "Wysa is an app that offers an AI chatbot with self-help exercises for stress, sleep and mood, founded in India. Some offerings also connect users with human coaches or therapists.\n\nIt is a wellbeing support tool and not a substitute for professional medical care. If you are in crisis, contact local emergency or health services. Check the official site for current features.",
+  "use_steps": [
+   "Open the official Wysa site and read what it covers.",
+   "Sign up, install or download it, then try a small, low-risk example.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Anonymous-style chat",
+   "Structured exercises",
+   "Available on mobile"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "replika",
+   "pi-ai"
+  ],
+  "tags": [
+   "wellbeing",
+   "mental-health",
+   "app",
+   "india"
+  ],
+  "features": [
+   "Chat-based exercises",
+   "Mood tracking tools",
+   "Self-help techniques",
+   "Optional human support"
+  ],
+  "use_cases": [
+   "Practising calming exercises",
+   "Reflecting on mood",
+   "Supplementing therapy"
+  ],
+  "pricing_details": "Pricing for Wysa is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Wysa?",
+    "a": "AI-based mental wellbeing companion with self-help tools. See the official site for the latest description."
+   },
+   {
+    "q": "Is Wysa free?",
+    "a": "Pricing is not verified here; plans change, so check the official site."
+   },
+   {
+    "q": "Who should use Wysa?",
+    "a": "People looking for a guided self-help chat. Review its output before relying on it."
+   }
+  ],
+  "seo_title": "Wysa: What It Is and How to Use It",
+  "seo_description": "AI-based mental wellbeing companion with self-help tools. Overview, features, pros, cons and alternatives for Wysa.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "dubverse",
+  "name": "Dubverse",
+  "category": "productivity",
+  "website_url": "https://www.dubverse.ai",
+  "pricing": "Unknown",
+  "tagline": "AI video dubbing and localisation tool.",
+  "best_for": "Creators who want to dub videos into Indian and other languages",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Dubverse is an Indian AI tool that translates and dubs video and audio into other languages. It combines transcription, translation and synthetic voices in one workflow.\n\nIt is used by creators and publishers who want to reach audiences in more languages. Check translations and voices carefully before publishing, and visit the official site for current plans.",
+  "use_steps": [
+   "Open the official Dubverse site and read what it covers.",
+   "Sign up, install or download it, then try a small, low-risk example.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Focus on Indian languages",
+   "Browser-based",
+   "End-to-end workflow"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "heygen",
+   "elevenlabs"
+  ],
+  "tags": [
+   "dubbing",
+   "translation",
+   "video",
+   "india"
+  ],
+  "features": [
+   "Video dubbing",
+   "Translation",
+   "Synthetic voices",
+   "Subtitle support"
+  ],
+  "use_cases": [
+   "Dubbing a YouTube video",
+   "Localising training content",
+   "Reaching regional audiences"
+  ],
+  "pricing_details": "Pricing for Dubverse is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Dubverse?",
+    "a": "AI video dubbing and localisation tool. See the official site for the latest description."
+   },
+   {
+    "q": "Is Dubverse free?",
+    "a": "Pricing is not verified here; plans change, so check the official site."
+   },
+   {
+    "q": "Who should use Dubverse?",
+    "a": "Creators who want to dub videos into Indian and other languages. Review its output before relying on it."
+   }
+  ],
+  "seo_title": "Dubverse: What It Is and How to Use It",
+  "seo_description": "AI video dubbing and localisation tool. Overview, features, pros, cons and alternatives for Dubverse.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "verloop-io",
+  "name": "Verloop.io",
+  "category": "chat-assistants",
+  "website_url": "https://verloop.io",
+  "pricing": "Unknown",
+  "tagline": "Conversational AI platform for customer support automation.",
+  "best_for": "Support teams automating chat and voice",
+  "platforms": [
+   "Web",
+   "API"
+  ],
+  "description": "Verloop.io is a Bengaluru-based conversational AI platform. It offers chat and voice assistants for customer support, along with a helpdesk view for human agents.\n\nIt is mainly for business teams handling support at scale. Product details change, so check the official site for current features and plans.",
+  "use_steps": [
+   "Open the official Verloop.io site and read what it covers.",
+   "Sign up, install or download it, then try a small, low-risk example.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Support-focused",
+   "Human handoff",
+   "Indian company"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "haptik",
+   "yellow-ai"
+  ],
+  "tags": [
+   "chatbot",
+   "support",
+   "india",
+   "helpdesk"
+  ],
+  "features": [
+   "Support bots",
+   "Agent handoff",
+   "Messaging channels",
+   "Reporting"
+  ],
+  "use_cases": [
+   "Automating FAQs",
+   "Order status queries",
+   "Handoff to live agents"
+  ],
+  "pricing_details": "Pricing for Verloop.io is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Verloop.io?",
+    "a": "Conversational AI platform for customer support automation. See the official site for the latest description."
+   },
+   {
+    "q": "Is Verloop.io free?",
+    "a": "Pricing is not verified here; plans change, so check the official site."
+   },
+   {
+    "q": "Who should use Verloop.io?",
+    "a": "Support teams automating chat and voice. Review its output before relying on it."
+   }
+  ],
+  "seo_title": "Verloop.io: What It Is and How to Use It",
+  "seo_description": "Conversational AI platform for customer support automation. Overview, features, pros, cons and alternatives for Verloop.io.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "observe-ai",
+  "name": "Observe.AI",
+  "category": "productivity",
+  "website_url": "https://www.observe.ai",
+  "pricing": "Unknown",
+  "tagline": "AI for contact centre conversation analysis and agent coaching.",
+  "best_for": "Contact centre teams reviewing calls at scale",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Observe.AI is a platform for contact centres that transcribes and analyses customer conversations. It supports quality review, coaching and compliance monitoring.\n\nIt is sold to businesses and operates with large call volumes. The company has India operations alongside other offices. Check the official site for current products.",
+  "use_steps": [
+   "Open the official Observe.AI site and read what it covers.",
+   "Sign up, install or download it, then try a small, low-risk example.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Contact-centre focus",
+   "Scales review",
+   "Analytics views"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "gnani-ai",
+   "fireflies-ai"
+  ],
+  "tags": [
+   "contact-centre",
+   "analytics",
+   "speech",
+   "enterprise"
+  ],
+  "features": [
+   "Call transcription",
+   "Quality scoring",
+   "Agent coaching",
+   "Conversation insights"
+  ],
+  "use_cases": [
+   "Reviewing call quality",
+   "Coaching agents",
+   "Spotting common issues"
+  ],
+  "pricing_details": "Pricing for Observe.AI is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Observe.AI?",
+    "a": "AI for contact centre conversation analysis and agent coaching. See the official site for the latest description."
+   },
+   {
+    "q": "Is Observe.AI free?",
+    "a": "Pricing is not verified here; plans change, so check the official site."
+   },
+   {
+    "q": "Who should use Observe.AI?",
+    "a": "Contact centre teams reviewing calls at scale. Review its output before relying on it."
+   }
+  ],
+  "seo_title": "Observe.AI: What It Is and How to Use It",
+  "seo_description": "AI for contact centre conversation analysis and agent coaching. Overview, features, pros, cons and alternatives for Observe.AI.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "ai4bharat",
+  "name": "AI4Bharat",
+  "category": "productivity",
+  "website_url": "https://ai4bharat.iitm.ac.in",
+  "pricing": "Open source",
+  "tagline": "Research initiative producing open tools for Indian languages.",
+  "best_for": "Developers and researchers working on Indic languages",
+  "platforms": [
+   "Web",
+   "API"
+  ],
+  "description": "AI4Bharat is a research initiative linked to IIT Madras that publishes open datasets and models for Indian languages. Its work includes translation, speech and language understanding resources.\n\nIt is mainly used by developers and researchers, and some outputs power public language services. Resources vary by project, so check the official site.",
+  "use_steps": [
+   "Open the official AI4Bharat site and read what it covers.",
+   "Sign up, install or download it, then try a small, low-risk example.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Open resources",
+   "Indian-language coverage",
+   "Research-driven"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "bhashini",
+   "sarvam-ai"
+  ],
+  "tags": [
+   "india",
+   "indic",
+   "research",
+   "open-source"
+  ],
+  "features": [
+   "Open datasets",
+   "Translation models",
+   "Speech models",
+   "Research releases"
+  ],
+  "use_cases": [
+   "Building Indic translation features",
+   "Benchmarking language models",
+   "Academic research"
+  ],
+  "pricing_details": "Pricing for AI4Bharat is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is AI4Bharat?",
+    "a": "Research initiative producing open tools for Indian languages. See the official site for the latest description."
+   },
+   {
+    "q": "Is AI4Bharat free?",
+    "a": "Pricing is not verified here; plans change, so check the official site."
+   },
+   {
+    "q": "Who should use AI4Bharat?",
+    "a": "Developers and researchers working on Indic languages. Review its output before relying on it."
+   }
+  ],
+  "seo_title": "AI4Bharat: What It Is and How to Use It",
+  "seo_description": "Research initiative producing open tools for Indian languages. Overview, features, pros, cons and alternatives for AI4Bharat.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "zoho-zia",
+  "name": "Zoho Zia",
+  "category": "productivity",
+  "website_url": "https://www.zoho.com/zia/",
+  "pricing": "Unknown",
+  "tagline": "AI assistant built into Zoho's business apps.",
+  "best_for": "Teams already using Zoho products",
+  "platforms": [
+   "Web",
+   "Android",
+   "iOS"
+  ],
+  "description": "Zia is the AI assistant inside Zoho's product suite. It provides help such as answering questions, summarising information and offering suggestions within Zoho applications.\n\nIt is most useful if your team already works in Zoho apps. Features differ by product and plan, so check the official site.",
+  "use_steps": [
+   "Open the official Zoho Zia site and read what it covers.",
+   "Sign up, install or download it, then try a small, low-risk example.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Integrated in Zoho apps",
+   "Indian software company",
+   "No separate setup in apps"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "notion-ai",
+   "hubspot"
+  ],
+  "tags": [
+   "zoho",
+   "assistant",
+   "business",
+   "crm"
+  ],
+  "features": [
+   "In-app assistant",
+   "Suggestions",
+   "Summaries",
+   "Cross-app help"
+  ],
+  "use_cases": [
+   "Querying CRM data",
+   "Drafting replies",
+   "Getting suggestions in workflows"
+  ],
+  "pricing_details": "Pricing for Zoho Zia is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Zoho Zia?",
+    "a": "AI assistant built into Zoho's business apps. See the official site for the latest description."
+   },
+   {
+    "q": "Is Zoho Zia free?",
+    "a": "Pricing is not verified here; plans change, so check the official site."
+   },
+   {
+    "q": "Who should use Zoho Zia?",
+    "a": "Teams already using Zoho products. Review its output before relying on it."
+   }
+  ],
+  "seo_title": "Zoho Zia: What It Is and How to Use It",
+  "seo_description": "AI assistant built into Zoho's business apps. Overview, features, pros, cons and alternatives for Zoho Zia.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "kore-ai",
+  "name": "Kore.ai",
+  "category": "chat-assistants",
+  "website_url": "https://kore.ai",
+  "pricing": "Unknown",
+  "tagline": "Enterprise platform for conversational and agentic AI.",
+  "best_for": "Large organisations building virtual assistants",
+  "platforms": [
+   "Web",
+   "API"
+  ],
+  "description": "Kore.ai provides a platform for building virtual assistants and AI agents for customer service, employee support and process automation.\n\nIt targets enterprises with integration needs across channels. The company has a presence in India and the US. Check the official site for current products.",
+  "use_steps": [
+   "Open the official Kore.ai site and read what it covers.",
+   "Sign up, install or download it, then try a small, low-risk example.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Enterprise-focused",
+   "Many integrations",
+   "Multichannel"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "yellow-ai",
+   "haptik"
+  ],
+  "tags": [
+   "chatbot",
+   "enterprise",
+   "agents",
+   "support"
+  ],
+  "features": [
+   "Virtual assistant builder",
+   "Channel integrations",
+   "Agent tools",
+   "Analytics"
+  ],
+  "use_cases": [
+   "Customer service bots",
+   "IT helpdesk assistants",
+   "Process automation"
+  ],
+  "pricing_details": "Pricing for Kore.ai is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Kore.ai?",
+    "a": "Enterprise platform for conversational and agentic AI. See the official site for the latest description."
+   },
+   {
+    "q": "Is Kore.ai free?",
+    "a": "Pricing is not verified here; plans change, so check the official site."
+   },
+   {
+    "q": "Who should use Kore.ai?",
+    "a": "Large organisations building virtual assistants. Review its output before relying on it."
+   }
+  ],
+  "seo_title": "Kore.ai: What It Is and How to Use It",
+  "seo_description": "Enterprise platform for conversational and agentic AI. Overview, features, pros, cons and alternatives for Kore.ai.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "jupyter-ai",
+  "name": "Jupyter AI",
+  "category": "coding",
+  "website_url": "https://jupyter-ai.readthedocs.io",
+  "pricing": "Open source",
+  "tagline": "Generative AI extension for Jupyter notebooks.",
+  "best_for": "Data scientists wanting chat and magics in notebooks",
+  "platforms": [
+   "Linux",
+   "macOS",
+   "Windows"
+  ],
+  "description": "Jupyter AI is an open-source extension that brings generative AI into JupyterLab and notebooks. It adds a chat panel and magic commands that connect to a chosen model provider.\n\nIt is used by data scientists who want help with code or explanations inside notebooks. You supply your own model access. Check the documentation for supported providers.",
+  "use_steps": [
+   "Open the official Jupyter AI site and read what it covers.",
+   "Sign up, install or download it, then try a small, low-risk example.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Fits notebook workflow",
+   "Open source",
+   "Provider choice"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "jupyter",
+   "github-copilot"
+  ],
+  "tags": [
+   "jupyter",
+   "notebooks",
+   "data-science",
+   "python"
+  ],
+  "features": [
+   "Chat panel",
+   "Notebook magics",
+   "Multiple providers",
+   "Code explanation"
+  ],
+  "use_cases": [
+   "Explaining a notebook cell",
+   "Generating code",
+   "Summarising analysis"
+  ],
+  "pricing_details": "Pricing for Jupyter AI is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Jupyter AI?",
+    "a": "Generative AI extension for Jupyter notebooks. See the official site for the latest description."
+   },
+   {
+    "q": "Is Jupyter AI free?",
+    "a": "Pricing is not verified here; plans change, so check the official site."
+   },
+   {
+    "q": "Who should use Jupyter AI?",
+    "a": "Data scientists wanting chat and magics in notebooks. Review its output before relying on it."
+   }
+  ],
+  "seo_title": "Jupyter AI: What It Is and How to Use It",
+  "seo_description": "Generative AI extension for Jupyter notebooks. Overview, features, pros, cons and alternatives for Jupyter AI.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "marimo",
+  "name": "marimo",
+  "category": "coding",
+  "website_url": "https://marimo.io",
+  "pricing": "Open source",
+  "tagline": "Reactive Python notebook with built-in AI assistance.",
+  "best_for": "Python users wanting reproducible notebooks",
+  "platforms": [
+   "Linux",
+   "macOS",
+   "Windows",
+   "Web"
+  ],
+  "description": "marimo is an open-source reactive notebook for Python. Cells update automatically when their inputs change, and notebooks are stored as plain Python files. It includes optional AI assistance for writing code.\n\nIt is used for data exploration and for turning notebooks into small apps. Check the official site for the current feature list.",
+  "use_steps": [
+   "Open the official marimo site and read what it covers.",
+   "Sign up, install or download it, then try a small, low-risk example.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Reproducible",
+   "Git-friendly files",
+   "Open source"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "jupyter",
+   "streamlit"
+  ],
+  "tags": [
+   "notebook",
+   "python",
+   "data",
+   "reactive"
+  ],
+  "features": [
+   "Reactive cells",
+   "Python file storage",
+   "App mode",
+   "AI code help"
+  ],
+  "use_cases": [
+   "Exploratory data analysis",
+   "Sharing interactive apps",
+   "Teaching Python"
+  ],
+  "pricing_details": "Pricing for marimo is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is marimo?",
+    "a": "Reactive Python notebook with built-in AI assistance. See the official site for the latest description."
+   },
+   {
+    "q": "Is marimo free?",
+    "a": "Pricing is not verified here; plans change, so check the official site."
+   },
+   {
+    "q": "Who should use marimo?",
+    "a": "Python users wanting reproducible notebooks. Review its output before relying on it."
+   }
+  ],
+  "seo_title": "marimo: What It Is and How to Use It",
+  "seo_description": "Reactive Python notebook with built-in AI assistance. Overview, features, pros, cons and alternatives for marimo.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "typebot",
+  "name": "Typebot",
+  "category": "chat-assistants",
+  "website_url": "https://typebot.io",
+  "pricing": "Open source",
+  "tagline": "Open-source builder for conversational forms and chatbots.",
+  "best_for": "Teams building embeddable chat flows without much code",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Typebot is an open-source tool for building chatbot-style forms and conversation flows with a visual editor. Flows can be embedded in websites or shared by link, and can call AI models.\n\nIt suits marketers and developers collecting leads or answers conversationally. It can be self-hosted or used as a hosted service; check the official site for current options.",
+  "use_steps": [
+   "Open the official Typebot site and read what it covers.",
+   "Sign up, install or download it, then try a small, low-risk example.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Visual editor",
+   "Open source",
+   "Self-hosting available"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "botpress",
+   "voiceflow"
+  ],
+  "tags": [
+   "chatbot",
+   "forms",
+   "no-code",
+   "open-source"
+  ],
+  "features": [
+   "Visual flow builder",
+   "Embeds",
+   "Integrations",
+   "AI blocks"
+  ],
+  "use_cases": [
+   "Lead capture",
+   "Surveys",
+   "Support intake"
+  ],
+  "pricing_details": "Pricing for Typebot is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Typebot?",
+    "a": "Open-source builder for conversational forms and chatbots. See the official site for the latest description."
+   },
+   {
+    "q": "Is Typebot free?",
+    "a": "Pricing is not verified here; plans change, so check the official site."
+   },
+   {
+    "q": "Who should use Typebot?",
+    "a": "Teams building embeddable chat flows without much code. Review its output before relying on it."
+   }
+  ],
+  "seo_title": "Typebot: What It Is and How to Use It",
+  "seo_description": "Open-source builder for conversational forms and chatbots. Overview, features, pros, cons and alternatives for Typebot.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "rasa",
+  "name": "Rasa",
+  "category": "chat-assistants",
+  "website_url": "https://rasa.com",
+  "pricing": "Unknown",
+  "tagline": "Framework for building conversational assistants.",
+  "best_for": "Developers building customisable chatbots",
+  "platforms": [
+   "Linux",
+   "macOS",
+   "Windows",
+   "API"
+  ],
+  "description": "Rasa is a conversational AI framework used to build chat and voice assistants. It began as an open-source project and the company now also provides commercial platform offerings.\n\nIt suits teams that want control over their assistant logic and data. Check the official site to see what is open source and what is commercial today.",
+  "use_steps": [
+   "Open the official Rasa site and read what it covers.",
+   "Sign up, install or download it, then try a small, low-risk example.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Highly customisable",
+   "Long-established",
+   "Self-hosting possible"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "botpress",
+   "kore-ai"
+  ],
+  "tags": [
+   "chatbot",
+   "framework",
+   "nlp",
+   "assistants"
+  ],
+  "features": [
+   "Dialogue management",
+   "Language understanding",
+   "Custom actions",
+   "Channel connectors"
+  ],
+  "use_cases": [
+   "Customer support bots",
+   "Internal helpdesks",
+   "Voice assistants"
+  ],
+  "pricing_details": "Pricing for Rasa is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Rasa?",
+    "a": "Framework for building conversational assistants. See the official site for the latest description."
+   },
+   {
+    "q": "Is Rasa free?",
+    "a": "Pricing is not verified here; plans change, so check the official site."
+   },
+   {
+    "q": "Who should use Rasa?",
+    "a": "Developers building customisable chatbots. Review its output before relying on it."
+   }
+  ],
+  "seo_title": "Rasa: What It Is and How to Use It",
+  "seo_description": "Framework for building conversational assistants. Overview, features, pros, cons and alternatives for Rasa.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "chainlit",
+  "name": "Chainlit",
+  "category": "coding",
+  "website_url": "https://chainlit.io",
+  "pricing": "Open source",
+  "tagline": "Python framework for building chat interfaces for LLM apps.",
+  "best_for": "Python developers who need a quick chat UI",
+  "platforms": [
+   "Linux",
+   "macOS",
+   "Windows",
+   "Web"
+  ],
+  "description": "Chainlit is an open-source Python framework for creating conversational web interfaces for LLM applications. You write Python and get a chat UI with step visualisation.\n\nIt is used for prototypes and internal tools. It integrates with common LLM libraries. Check the official documentation for current features and maintenance status.",
+  "use_steps": [
+   "Open the official Chainlit site and read what it covers.",
+   "Sign up, install or download it, then try a small, low-risk example.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Fast to start",
+   "Python-only workflow",
+   "Open source"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "gradio",
+   "streamlit"
+  ],
+  "tags": [
+   "python",
+   "ui",
+   "chat",
+   "prototype"
+  ],
+  "features": [
+   "Chat UI",
+   "Step display",
+   "Library integrations",
+   "File uploads"
+  ],
+  "use_cases": [
+   "Demoing an agent",
+   "Internal Q&A tool",
+   "Prototype assistants"
+  ],
+  "pricing_details": "Pricing for Chainlit is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Chainlit?",
+    "a": "Python framework for building chat interfaces for LLM apps. See the official site for the latest description."
+   },
+   {
+    "q": "Is Chainlit free?",
+    "a": "Pricing is not verified here; plans change, so check the official site."
+   },
+   {
+    "q": "Who should use Chainlit?",
+    "a": "Python developers who need a quick chat UI. Review its output before relying on it."
+   }
+  ],
+  "seo_title": "Chainlit: What It Is and How to Use It",
+  "seo_description": "Python framework for building chat interfaces for LLM apps. Overview, features, pros, cons and alternatives for Chainlit.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "ragas",
+  "name": "Ragas",
+  "category": "coding",
+  "website_url": "https://www.ragas.io",
+  "pricing": "Open source",
+  "tagline": "Evaluation toolkit for retrieval-augmented generation pipelines.",
+  "best_for": "Developers measuring RAG quality",
+  "platforms": [
+   "Linux",
+   "macOS",
+   "Windows"
+  ],
+  "description": "Ragas is an open-source toolkit for evaluating RAG applications. It provides metrics for aspects such as retrieval relevance and answer faithfulness, often using language models as judges.\n\nIt is used by developers tuning retrieval pipelines. Metric scores should be treated as signals, not ground truth. Check the official site for current capabilities.",
+  "use_steps": [
+   "Open the official Ragas site and read what it covers.",
+   "Sign up, install or download it, then try a small, low-risk example.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Focused on RAG",
+   "Open source",
+   "Works with common frameworks"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "promptfoo",
+   "confident-ai"
+  ],
+  "tags": [
+   "evaluation",
+   "rag",
+   "python",
+   "metrics"
+  ],
+  "features": [
+   "RAG metrics",
+   "Test set generation",
+   "Library integrations",
+   "Python API"
+  ],
+  "use_cases": [
+   "Comparing retrieval settings",
+   "Regression checks",
+   "Building test sets"
+  ],
+  "pricing_details": "Pricing for Ragas is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Ragas?",
+    "a": "Evaluation toolkit for retrieval-augmented generation pipelines. See the official site for the latest description."
+   },
+   {
+    "q": "Is Ragas free?",
+    "a": "Pricing is not verified here; plans change, so check the official site."
+   },
+   {
+    "q": "Who should use Ragas?",
+    "a": "Developers measuring RAG quality. Review its output before relying on it."
+   }
+  ],
+  "seo_title": "Ragas: What It Is and How to Use It",
+  "seo_description": "Evaluation toolkit for retrieval-augmented generation pipelines. Overview, features, pros, cons and alternatives for Ragas.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "confident-ai",
+  "name": "Confident AI and DeepEval",
+  "category": "coding",
+  "website_url": "https://www.confident-ai.com",
+  "pricing": "Unknown",
+  "tagline": "Evaluation platform and DeepEval library for LLM apps.",
+  "best_for": "Teams unit-testing LLM outputs",
+  "platforms": [
+   "Web",
+   "Linux",
+   "macOS",
+   "Windows"
+  ],
+  "description": "Confident AI is a platform built around DeepEval, an open-source library for testing LLM applications with metrics and test cases. The platform adds dashboards and dataset management.\n\nIt is aimed at developers who want unit-test style checks on model outputs. The library and the hosted platform have different terms, so check the official site.",
+  "use_steps": [
+   "Open the official Confident AI and DeepEval site and read what it covers.",
+   "Sign up, install or download it, then try a small, low-risk example.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Test-driven approach",
+   "Open-source library",
+   "Python friendly"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "ragas",
+   "promptfoo"
+  ],
+  "tags": [
+   "evaluation",
+   "testing",
+   "llm",
+   "python"
+  ],
+  "features": [
+   "Test cases",
+   "LLM metrics",
+   "Dashboards",
+   "CI integration"
+  ],
+  "use_cases": [
+   "Regression testing prompts",
+   "Comparing models",
+   "Monitoring quality"
+  ],
+  "pricing_details": "Pricing for Confident AI and DeepEval is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Confident AI and DeepEval?",
+    "a": "Evaluation platform and DeepEval library for LLM apps. See the official site for the latest description."
+   },
+   {
+    "q": "Is Confident AI and DeepEval free?",
+    "a": "Pricing is not verified here; plans change, so check the official site."
+   },
+   {
+    "q": "Who should use Confident AI and DeepEval?",
+    "a": "Teams unit-testing LLM outputs. Review its output before relying on it."
+   }
+  ],
+  "seo_title": "Confident AI and DeepEval: What It Is and How to Use It",
+  "seo_description": "Evaluation platform and DeepEval library for LLM apps. Overview, features, pros, cons and alternatives for Confident AI and DeepEval.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "guardrails-ai",
+  "name": "Guardrails AI",
+  "category": "coding",
+  "website_url": "https://www.guardrailsai.com",
+  "pricing": "Open source",
+  "tagline": "Framework for validating and constraining LLM outputs.",
+  "best_for": "Developers who need safer, structured model output",
+  "platforms": [
+   "Linux",
+   "macOS",
+   "Windows",
+   "API"
+  ],
+  "description": "Guardrails AI is a framework for adding validation to language model applications. You apply validators to inputs and outputs, for example to check format, remove sensitive data or block unwanted content.\n\nIt is used by developers shipping LLM features where unchecked output is risky. Validators reduce but do not eliminate errors. Check the official site for the current validator hub.",
+  "use_steps": [
+   "Open the official Guardrails AI site and read what it covers.",
+   "Sign up, install or download it, then try a small, low-risk example.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Adds a safety layer",
+   "Open source",
+   "Reusable validators"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "promptfoo",
+   "pydantic-ai"
+  ],
+  "tags": [
+   "safety",
+   "validation",
+   "llm",
+   "python"
+  ],
+  "features": [
+   "Output validators",
+   "Structured output",
+   "Input checks",
+   "Validator library"
+  ],
+  "use_cases": [
+   "Enforcing JSON structure",
+   "Filtering unsafe replies",
+   "Redacting sensitive text"
+  ],
+  "pricing_details": "Pricing for Guardrails AI is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Guardrails AI?",
+    "a": "Framework for validating and constraining LLM outputs. See the official site for the latest description."
+   },
+   {
+    "q": "Is Guardrails AI free?",
+    "a": "Pricing is not verified here; plans change, so check the official site."
+   },
+   {
+    "q": "Who should use Guardrails AI?",
+    "a": "Developers who need safer, structured model output. Review its output before relying on it."
+   }
+  ],
+  "seo_title": "Guardrails AI: What It Is and How to Use It",
+  "seo_description": "Framework for validating and constraining LLM outputs. Overview, features, pros, cons and alternatives for Guardrails AI.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "smolagents",
+  "name": "smolagents",
+  "category": "coding",
+  "website_url": "https://huggingface.co/docs/smolagents",
+  "pricing": "Open source",
+  "tagline": "Small Hugging Face library for building code-writing agents.",
+  "best_for": "Developers wanting a lightweight agent library",
+  "platforms": [
+   "Linux",
+   "macOS",
+   "Windows"
+  ],
+  "description": "smolagents is an open-source library from Hugging Face for building agents with minimal code. Agents can act by writing Python code, and the library works with many model providers.\n\nIt suits developers who want a small, readable codebase to experiment with. Running generated code needs sandboxing, so read the documentation on safe execution.",
+  "use_steps": [
+   "Open the official smolagents site and read what it covers.",
+   "Sign up, install or download it, then try a small, low-risk example.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Minimal and readable",
+   "Open source",
+   "Hub integration"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "crewai",
+   "hugging-face"
+  ],
+  "tags": [
+   "agents",
+   "huggingface",
+   "python",
+   "library"
+  ],
+  "features": [
+   "Code agents",
+   "Tool use",
+   "Model flexibility",
+   "Hub integration"
+  ],
+  "use_cases": [
+   "Prototyping agents",
+   "Learning how agents work",
+   "Tool-calling experiments"
+  ],
+  "pricing_details": "Pricing for smolagents is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is smolagents?",
+    "a": "Small Hugging Face library for building code-writing agents. See the official site for the latest description."
+   },
+   {
+    "q": "Is smolagents free?",
+    "a": "Pricing is not verified here; plans change, so check the official site."
+   },
+   {
+    "q": "Who should use smolagents?",
+    "a": "Developers wanting a lightweight agent library. Review its output before relying on it."
+   }
+  ],
+  "seo_title": "smolagents: What It Is and How to Use It",
+  "seo_description": "Small Hugging Face library for building code-writing agents. Overview, features, pros, cons and alternatives for smolagents.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "instructor",
+  "name": "Instructor",
+  "category": "coding",
+  "website_url": "https://python.useinstructor.com",
+  "pricing": "Open source",
+  "tagline": "Library for getting structured, validated data out of LLMs.",
+  "best_for": "Python developers extracting structured data",
+  "platforms": [
+   "Linux",
+   "macOS",
+   "Windows"
+  ],
+  "description": "Instructor is an open-source library that helps you get structured outputs from language models by defining Pydantic models. It handles retries and validation around model calls.\n\nIt is used for extraction tasks such as turning text into typed records. Check the official documentation for supported providers and languages.",
+  "use_steps": [
+   "Open the official Instructor site and read what it covers.",
+   "Sign up, install or download it, then try a small, low-risk example.",
+   "Check the output carefully against what you expected.",
+   "Decide whether it fits your workflow before using it on larger or sensitive work."
+  ],
+  "pros": [
+   "Simple API",
+   "Reliable structure",
+   "Open source"
+  ],
+  "cons": [
+   "Output and availability can change, so results need review",
+   "Plans, limits and features may differ from what is described here"
+  ],
+  "alternatives": [
+   "pydantic-ai",
+   "guardrails-ai"
+  ],
+  "tags": [
+   "structured-output",
+   "python",
+   "extraction",
+   "pydantic"
+  ],
+  "features": [
+   "Pydantic models",
+   "Validation and retries",
+   "Multiple providers",
+   "Streaming"
+  ],
+  "use_cases": [
+   "Extracting fields from text",
+   "Classifying inputs",
+   "Building typed APIs"
+  ],
+  "pricing_details": "Pricing for Instructor is not verified here. Plans, limits and free options change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Instructor?",
+    "a": "Library for getting structured, validated data out of LLMs. See the official site for the latest description."
+   },
+   {
+    "q": "Is Instructor free?",
+    "a": "Pricing is not verified here; plans change, so check the official site."
+   },
+   {
+    "q": "Who should use Instructor?",
+    "a": "Python developers extracting structured data. Review its output before relying on it."
+   }
+  ],
+  "seo_title": "Instructor: What It Is and How to Use It",
+  "seo_description": "Library for getting structured, validated data out of LLMs. Overview, features, pros, cons and alternatives for Instructor.",
+  "status": "draft",
+  "last_checked": "unverified"
+ }
+]

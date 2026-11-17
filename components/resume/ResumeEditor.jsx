@@ -9,6 +9,10 @@ import { SECTION_TYPES, newSection, newEntry, sampleResume, emptyResume, tags } 
 const KEY = 'pz-resume-v1';
 const PAGE = { a4: [794, 1123], letter: [816, 1056] };
 
+function Field({ label, value, onChange, ph, area, rows = 3 }) {
+  return (<div><label>{label}</label>{area ? <textarea rows={rows} value={value ?? ''} placeholder={ph} onChange={(e) => onChange(e.target.value)} /> : <input value={value ?? ''} placeholder={ph} onChange={(e) => onChange(e.target.value)} />}</div>);
+}
+
 export default function ResumeEditor({ initialTemplate }) {
   const [data, setData] = useState(null);
   const [tid, setTid] = useState(initialTemplate || 't001');
@@ -64,7 +68,6 @@ export default function ResumeEditor({ initialTemplate }) {
 
   if (!data) return <div className="wrap sec"><p className="muted">Loading editor…</p></div>;
   const shown = TEMPLATES.filter((t) => cat === 'all' || t.category === cat);
-  const Field = ({ label, value, onChange, ph, area, rows = 3 }) => (<div><label>{label}</label>{area ? <textarea rows={rows} value={value} placeholder={ph} onChange={(e) => onChange(e.target.value)} /> : <input value={value} placeholder={ph} onChange={(e) => onChange(e.target.value)} />}</div>);
 
   return (
     <div className="rs-app">

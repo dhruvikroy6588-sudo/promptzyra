@@ -52,3 +52,11 @@ table{width:100%;border-collapse:collapse}th{text-align:left;color:var(--mu);fon
   table{font-size:.85rem}
 }
 @media(max-width:520px){.g4{grid-template-columns:1fr}}
+
+/* agent-f */
+.ph-live-preview{width:100%;max-width:260px;aspect-ratio:4/5;object-fit:cover;border-radius:10px;border:1px solid var(--ln)}
+
+/* agent-t */
+.pill.new{color:var(--wn);border-color:var(--wn)}
+.pill.drafted{color:var(--ac);border-color:var(--ac)}
+.sub-desc{max-width:420px;white-space:pre-wrap;color:var(--mu);font-size:.8rem}

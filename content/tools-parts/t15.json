@@ -1,0 +1,645 @@
+[
+ {
+  "slug": "enhancv",
+  "name": "Enhancv",
+  "category": "career",
+  "website_url": "https://enhancv.com",
+  "pricing": "Freemium",
+  "tagline": "Online resume builder with design-forward templates and content suggestions.",
+  "best_for": "Job seekers who want a visually distinctive resume",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Enhancv is an online resume builder that lets you assemble a resume from sections such as experience, skills and projects, then arrange them in a template with a more modern look than a plain document.\n\nIt also offers writing suggestions for individual sections and a companion cover letter feature, so you can keep application documents together. Review every suggestion for accuracy, because the text goes out under your name. Plans and export limits change over time, so check the official site for current plans.",
+  "use_steps": [
+   "Open the Enhancv website and create an account.",
+   "Enter your own details or upload the document you want to work on.",
+   "Review and edit the suggestions it gives you.",
+   "Export or save the result and proofread it before use."
+  ],
+  "pros": [
+   "Focused on one clear job",
+   "Reduces repetitive manual work",
+   "Easy to try on a small task",
+   "Web-based access"
+  ],
+  "cons": [
+   "Automated output needs human review",
+   "Plans and features can change"
+  ],
+  "alternatives": [
+   "resume-io",
+   "kickresume",
+   "zety"
+  ],
+  "tags": [
+   "resume",
+   "cv",
+   "templates",
+   "job-search"
+  ],
+  "features": [
+   "Resume builder",
+   "Cover letters",
+   "Content suggestions",
+   "PDF export",
+   "Web access"
+  ],
+  "use_cases": [
+   "Handling a small real task first",
+   "Comparing against alternatives",
+   "Saving time on routine steps"
+  ],
+  "pricing_details": "Enhancv pricing and plan details were not fully verified here. Check the official website for current plans and any free option.",
+  "faq": [
+   {
+    "q": "What is Enhancv?",
+    "a": "Online resume builder with design-forward templates and content suggestions. See the description above for what it covers."
+   },
+   {
+    "q": "Is Enhancv free?",
+    "a": "Pricing can change and was not fully verified here, so check the official website for current plans before relying on it."
+   },
+   {
+    "q": "Who is Enhancv best for?",
+    "a": "Job seekers who want a visually distinctive resume. Compare it with the alternatives listed on this page."
+   }
+  ],
+  "seo_title": "Enhancv: What It Is and How to Use It",
+  "seo_description": "Learn what Enhancv is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "zety",
+  "name": "Zety",
+  "category": "career",
+  "website_url": "https://zety.com",
+  "pricing": "Unknown",
+  "tagline": "Resume and cover letter builder with templates and step-by-step prompts.",
+  "best_for": "Beginners who want a guided resume-writing flow",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Zety is a web-based resume builder that walks you through each section with prompts and example phrasing, then places your content into a chosen template.\n\nThe site also publishes career advice articles about resumes and interviews, which can help first-time applicants understand what recruiters expect. As with any template tool, tailor wording to each job rather than reusing one version everywhere. Download and plan terms vary, so check the official site for current plans.",
+  "use_steps": [
+   "Open the Zety website and create an account.",
+   "Enter your own details or upload the document you want to work on.",
+   "Review and edit the suggestions it gives you.",
+   "Export or save the result and proofread it before use."
+  ],
+  "pros": [
+   "Focused on one clear job",
+   "Reduces repetitive manual work",
+   "Easy to try on a small task",
+   "Web-based access"
+  ],
+  "cons": [
+   "Automated output needs human review",
+   "Plans and features can change"
+  ],
+  "alternatives": [
+   "resume-io",
+   "enhancv",
+   "novoresume"
+  ],
+  "tags": [
+   "resume",
+   "cover-letter",
+   "templates",
+   "job-search"
+  ],
+  "features": [
+   "Resume builder",
+   "Cover letter builder",
+   "Templates",
+   "Career guides",
+   "Web access"
+  ],
+  "use_cases": [
+   "Handling a small real task first",
+   "Comparing against alternatives",
+   "Saving time on routine steps"
+  ],
+  "pricing_details": "Zety pricing and plan details were not fully verified here. Check the official website for current plans and any free option.",
+  "faq": [
+   {
+    "q": "What is Zety?",
+    "a": "Resume and cover letter builder with templates and step-by-step prompts. See the description above for what it covers."
+   },
+   {
+    "q": "Is Zety free?",
+    "a": "Pricing can change and was not fully verified here, so check the official website for current plans before relying on it."
+   },
+   {
+    "q": "Who is Zety best for?",
+    "a": "Beginners who want a guided resume-writing flow. Compare it with the alternatives listed on this page."
+   }
+  ],
+  "seo_title": "Zety: What It Is and How to Use It",
+  "seo_description": "Learn what Zety is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "novoresume",
+  "name": "Novoresume",
+  "category": "career",
+  "website_url": "https://novoresume.com",
+  "pricing": "Freemium",
+  "tagline": "Resume and CV maker with ready templates and a live preview.",
+  "best_for": "Applicants who want a clean one-page resume quickly",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Novoresume is an online resume and CV maker. You fill in your details in a form while a live preview shows how the document will look, and you can switch between templates without retyping.\n\nIt also provides cover letter creation and a blog of guidance on resume structure for different careers. It suits people who want a tidy result fast, though you should still adapt the wording to each role. Free and paid features differ, so check the official site for current plans.",
+  "use_steps": [
+   "Open the Novoresume website and create an account.",
+   "Enter your own details or upload the document you want to work on.",
+   "Review and edit the suggestions it gives you.",
+   "Export or save the result and proofread it before use."
+  ],
+  "pros": [
+   "Focused on one clear job",
+   "Reduces repetitive manual work",
+   "Easy to try on a small task",
+   "Web-based access"
+  ],
+  "cons": [
+   "Automated output needs human review",
+   "Plans and features can change"
+  ],
+  "alternatives": [
+   "zety",
+   "enhancv",
+   "flowcv"
+  ],
+  "tags": [
+   "resume",
+   "cv",
+   "templates",
+   "job-search"
+  ],
+  "features": [
+   "Resume and CV templates",
+   "Live preview",
+   "Cover letter maker",
+   "Career blog",
+   "Web access"
+  ],
+  "use_cases": [
+   "Handling a small real task first",
+   "Comparing against alternatives",
+   "Saving time on routine steps"
+  ],
+  "pricing_details": "Novoresume pricing and plan details were not fully verified here. Check the official website for current plans and any free option.",
+  "faq": [
+   {
+    "q": "What is Novoresume?",
+    "a": "Resume and CV maker with ready templates and a live preview. See the description above for what it covers."
+   },
+   {
+    "q": "Is Novoresume free?",
+    "a": "Pricing can change and was not fully verified here, so check the official website for current plans before relying on it."
+   },
+   {
+    "q": "Who is Novoresume best for?",
+    "a": "Applicants who want a clean one-page resume quickly. Compare it with the alternatives listed on this page."
+   }
+  ],
+  "seo_title": "Novoresume: What It Is and How to Use It",
+  "seo_description": "Learn what Novoresume is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "rezi",
+  "name": "Rezi",
+  "category": "career",
+  "website_url": "https://www.rezi.ai",
+  "pricing": "Freemium",
+  "tagline": "AI resume builder that helps write, improve and score a resume.",
+  "best_for": "Applicants who want AI help tuning a resume",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Rezi is an AI resume builder. Its site describes tools to build, improve and score a resume, with an editor where you can write bullet points and get automated suggestions for wording.\n\nIt also covers cover letters and resume management features. Automated scoring is only a rough guide to how a resume might be read, so treat it as one input and edit the content yourself. Features and limits can change, so check the official site for current plans.",
+  "use_steps": [
+   "Open the Rezi website and create an account.",
+   "Enter your own details or upload the document you want to work on.",
+   "Review and edit the suggestions it gives you.",
+   "Export or save the result and proofread it before use."
+  ],
+  "pros": [
+   "Focused on one clear job",
+   "Reduces repetitive manual work",
+   "Easy to try on a small task",
+   "Web-based access"
+  ],
+  "cons": [
+   "Automated output needs human review",
+   "Plans and features can change"
+  ],
+  "alternatives": [
+   "jobscan",
+   "kickresume",
+   "resume-worded"
+  ],
+  "tags": [
+   "resume",
+   "ai",
+   "ats",
+   "job-search"
+  ],
+  "features": [
+   "AI resume editor",
+   "Resume scoring",
+   "Cover letters",
+   "Templates",
+   "Web access"
+  ],
+  "use_cases": [
+   "Handling a small real task first",
+   "Comparing against alternatives",
+   "Saving time on routine steps"
+  ],
+  "pricing_details": "Rezi pricing and plan details were not fully verified here. Check the official website for current plans and any free option.",
+  "faq": [
+   {
+    "q": "What is Rezi?",
+    "a": "AI resume builder that helps write, improve and score a resume. See the description above for what it covers."
+   },
+   {
+    "q": "Is Rezi free?",
+    "a": "Pricing can change and was not fully verified here, so check the official website for current plans before relying on it."
+   },
+   {
+    "q": "Who is Rezi best for?",
+    "a": "Applicants who want AI help tuning a resume. Compare it with the alternatives listed on this page."
+   }
+  ],
+  "seo_title": "Rezi: What It Is and How to Use It",
+  "seo_description": "Learn what Rezi is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "flowcv",
+  "name": "FlowCV",
+  "category": "career",
+  "website_url": "https://flowcv.com",
+  "pricing": "Freemium",
+  "tagline": "Online resume builder with a free option, templates and a cover letter builder.",
+  "best_for": "People wanting a simple, no-frills resume editor",
+  "platforms": [
+   "Web"
+  ],
+  "description": "FlowCV is an online resume builder positioned around a straightforward editor. Its site advertises a free online resume builder and a separate cover letter generator, along with a pricing page for paid options.\n\nIt works well for people who want to edit sections, pick a template and export without a long setup. As always, check the output for spelling and consistency. Free and paid limits can change, so check the official site for current plans.",
+  "use_steps": [
+   "Open the FlowCV website and create an account.",
+   "Enter your own details or upload the document you want to work on.",
+   "Review and edit the suggestions it gives you.",
+   "Export or save the result and proofread it before use."
+  ],
+  "pros": [
+   "Focused on one clear job",
+   "Reduces repetitive manual work",
+   "Easy to try on a small task",
+   "Web-based access"
+  ],
+  "cons": [
+   "Automated output needs human review",
+   "Plans and features can change"
+  ],
+  "alternatives": [
+   "novoresume",
+   "enhancv",
+   "kickresume"
+  ],
+  "tags": [
+   "resume",
+   "cv",
+   "free",
+   "job-search"
+  ],
+  "features": [
+   "Resume editor",
+   "Templates",
+   "Cover letter builder",
+   "Pricing page with paid tier",
+   "Web access"
+  ],
+  "use_cases": [
+   "Handling a small real task first",
+   "Comparing against alternatives",
+   "Saving time on routine steps"
+  ],
+  "pricing_details": "FlowCV pricing and plan details were not fully verified here. Check the official website for current plans and any free option.",
+  "faq": [
+   {
+    "q": "What is FlowCV?",
+    "a": "Online resume builder with a free option, templates and a cover letter builder. See the description above for what it covers."
+   },
+   {
+    "q": "Is FlowCV free?",
+    "a": "Pricing can change and was not fully verified here, so check the official website for current plans before relying on it."
+   },
+   {
+    "q": "Who is FlowCV best for?",
+    "a": "People wanting a simple, no-frills resume editor. Compare it with the alternatives listed on this page."
+   }
+  ],
+  "seo_title": "FlowCV: What It Is and How to Use It",
+  "seo_description": "Learn what FlowCV is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "careerflow",
+  "name": "Careerflow",
+  "category": "career",
+  "website_url": "https://www.careerflow.ai",
+  "pricing": "Unknown",
+  "tagline": "AI-assisted job search toolkit with a LinkedIn optimizer and application tracker.",
+  "best_for": "Job seekers organising applications and LinkedIn profiles",
+  "platforms": [
+   "Web",
+   "Chrome extension"
+  ],
+  "description": "Careerflow is a job search platform whose site lists a LinkedIn optimizer, job tracking and resume features, plus a Chrome extension for saving jobs while you browse.\n\nIt aims to keep a search organised and to give feedback on profile content. Suggestions are automated, so decide yourself what accurately represents your experience. Features and pricing change, so check the official site for current plans.",
+  "use_steps": [
+   "Open the Careerflow website and create an account.",
+   "Enter your own details or upload the document you want to work on.",
+   "Review and edit the suggestions it gives you.",
+   "Export or save the result and proofread it before use."
+  ],
+  "pros": [
+   "Focused on one clear job",
+   "Reduces repetitive manual work",
+   "Easy to try on a small task",
+   "Web-based access"
+  ],
+  "cons": [
+   "Automated output needs human review",
+   "Plans and features can change"
+  ],
+  "alternatives": [
+   "huntr",
+   "teal",
+   "linkedin"
+  ],
+  "tags": [
+   "job-search",
+   "linkedin",
+   "tracker",
+   "ai"
+  ],
+  "features": [
+   "LinkedIn optimizer",
+   "Job tracker",
+   "Browser extension",
+   "Resume tools",
+   "Web access"
+  ],
+  "use_cases": [
+   "Handling a small real task first",
+   "Comparing against alternatives",
+   "Saving time on routine steps"
+  ],
+  "pricing_details": "Careerflow pricing and plan details were not fully verified here. Check the official website for current plans and any free option.",
+  "faq": [
+   {
+    "q": "What is Careerflow?",
+    "a": "AI-assisted job search toolkit with a LinkedIn optimizer and application tracker. See the description above for what it covers."
+   },
+   {
+    "q": "Is Careerflow free?",
+    "a": "Pricing can change and was not fully verified here, so check the official website for current plans before relying on it."
+   },
+   {
+    "q": "Who is Careerflow best for?",
+    "a": "Job seekers organising applications and LinkedIn profiles. Compare it with the alternatives listed on this page."
+   }
+  ],
+  "seo_title": "Careerflow: What It Is and How to Use It",
+  "seo_description": "Learn what Careerflow is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "huntr",
+  "name": "Huntr",
+  "category": "career",
+  "website_url": "https://huntr.co",
+  "pricing": "Unknown",
+  "tagline": "Job application tracker with a browser extension and mobile app.",
+  "best_for": "Job seekers managing many applications",
+  "platforms": [
+   "Web",
+   "Chrome extension",
+   "iOS"
+  ],
+  "description": "Huntr is a job search tracker. A browser extension lets you save postings, and you then follow each application through stages in one board so nothing slips.\n\nIt also offers guides for job seekers and resume tools. A tracker only helps if you update it, so set a short routine for notes and follow-up dates. Features vary by plan, so check the official site for current plans.",
+  "use_steps": [
+   "Open the Huntr website and create an account.",
+   "Enter your own details or upload the document you want to work on.",
+   "Review and edit the suggestions it gives you.",
+   "Export or save the result and proofread it before use."
+  ],
+  "pros": [
+   "Focused on one clear job",
+   "Reduces repetitive manual work",
+   "Easy to try on a small task",
+   "Web-based access"
+  ],
+  "cons": [
+   "Automated output needs human review",
+   "Plans and features can change"
+  ],
+  "alternatives": [
+   "teal",
+   "careerflow",
+   "linkedin"
+  ],
+  "tags": [
+   "job-search",
+   "tracker",
+   "applications",
+   "career"
+  ],
+  "features": [
+   "Job tracker",
+   "Chrome extension",
+   "Mobile app",
+   "Job search guides",
+   "Web access"
+  ],
+  "use_cases": [
+   "Handling a small real task first",
+   "Comparing against alternatives",
+   "Saving time on routine steps"
+  ],
+  "pricing_details": "Huntr pricing and plan details were not fully verified here. Check the official website for current plans and any free option.",
+  "faq": [
+   {
+    "q": "What is Huntr?",
+    "a": "Job application tracker with a browser extension and mobile app. See the description above for what it covers."
+   },
+   {
+    "q": "Is Huntr free?",
+    "a": "Pricing can change and was not fully verified here, so check the official website for current plans before relying on it."
+   },
+   {
+    "q": "Who is Huntr best for?",
+    "a": "Job seekers managing many applications. Compare it with the alternatives listed on this page."
+   }
+  ],
+  "seo_title": "Huntr: What It Is and How to Use It",
+  "seo_description": "Learn what Huntr is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "harvey",
+  "name": "Harvey",
+  "category": "productivity",
+  "website_url": "https://www.harvey.ai",
+  "pricing": "Paid",
+  "tagline": "AI platform for legal professionals covering research, drafting and review.",
+  "best_for": "Law firms and legal teams exploring AI workflows",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Harvey is an AI platform aimed at legal professionals. Its site describes a platform for legal tasks such as research, drafting and analysing documents, sold to firms and in-house teams.\n\nBecause legal output carries professional risk, every result needs review by a qualified lawyer before use. It is built for organisations rather than individuals, so access is typically arranged with the vendor. Check the official site for current plans.",
+  "use_steps": [
+   "Open the Harvey website and create an account.",
+   "Enter your own details or upload the document you want to work on.",
+   "Review and edit the suggestions it gives you.",
+   "Export or save the result and proofread it before use."
+  ],
+  "pros": [
+   "Focused on one clear job",
+   "Reduces repetitive manual work",
+   "Easy to try on a small task",
+   "Web-based access"
+  ],
+  "cons": [
+   "Automated output needs human review",
+   "Plans and features can change"
+  ],
+  "alternatives": [
+   "spellbook",
+   "chatgpt",
+   "claude"
+  ],
+  "tags": [
+   "legal",
+   "ai",
+   "contracts",
+   "research"
+  ],
+  "features": [
+   "Legal research assistance",
+   "Document drafting",
+   "Document review",
+   "Platform for legal teams",
+   "Web access"
+  ],
+  "use_cases": [
+   "Handling a small real task first",
+   "Comparing against alternatives",
+   "Saving time on routine steps"
+  ],
+  "pricing_details": "Harvey pricing and plan details were not fully verified here. Check the official website for current plans and any free option.",
+  "faq": [
+   {
+    "q": "What is Harvey?",
+    "a": "AI platform for legal professionals covering research, drafting and review. See the description above for what it covers."
+   },
+   {
+    "q": "Is Harvey free?",
+    "a": "Pricing can change and was not fully verified here, so check the official website for current plans before relying on it."
+   },
+   {
+    "q": "Who is Harvey best for?",
+    "a": "Law firms and legal teams exploring AI workflows. Compare it with the alternatives listed on this page."
+   }
+  ],
+  "seo_title": "Harvey: What It Is and How to Use It",
+  "seo_description": "Learn what Harvey is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "spellbook",
+  "name": "Spellbook",
+  "category": "productivity",
+  "website_url": "https://www.spellbook.legal",
+  "pricing": "Unknown",
+  "tagline": "AI contract drafting and review tool that works inside Microsoft Word.",
+  "best_for": "Lawyers drafting and redlining contracts in Word",
+  "platforms": [
+   "Web",
+   "Microsoft Word"
+  ],
+  "description": "Spellbook is an AI contract tool. Its pages describe redlining, reviewing and drafting contracts in Microsoft Word, so lawyers can stay in a familiar editor.\n\nSuggested clauses and edits still need a lawyer's judgement, as the tool cannot know every deal context. It is aimed at legal professionals rather than casual users. Check the official site for current plans.",
+  "use_steps": [
+   "Open the Spellbook website and create an account.",
+   "Enter your own details or upload the document you want to work on.",
+   "Review and edit the suggestions it gives you.",
+   "Export or save the result and proofread it before use."
+  ],
+  "pros": [
+   "Focused on one clear job",
+   "Reduces repetitive manual work",
+   "Easy to try on a small task",
+   "Web-based access"
+  ],
+  "cons": [
+   "Automated output needs human review",
+   "Plans and features can change"
+  ],
+  "alternatives": [
+   "harvey",
+   "chatgpt",
+   "claude"
+  ],
+  "tags": [
+   "legal",
+   "contracts",
+   "word",
+   "ai"
+  ],
+  "features": [
+   "Redline in Word",
+   "Contract review",
+   "Draft clauses",
+   "Legal AI assistant",
+   "Web access"
+  ],
+  "use_cases": [
+   "Handling a small real task first",
+   "Comparing against alternatives",
+   "Saving time on routine steps"
+  ],
+  "pricing_details": "Spellbook pricing and plan details were not fully verified here. Check the official website for current plans and any free option.",
+  "faq": [
+   {
+    "q": "What is Spellbook?",
+    "a": "AI contract drafting and review tool that works inside Microsoft Word. See the description above for what it covers."
+   },
+   {
+    "q": "Is Spellbook free?",
+    "a": "Pricing can change and was not fully verified here, so check the official website for current plans before relying on it."
+   },
+   {
+    "q": "Who is Spellbook best for?",
+    "a": "Lawyers drafting and redlining contracts in Word. Compare it with the alternatives listed on this page."
+   }
+  ],
+  "seo_title": "Spellbook: What It Is and How to Use It",
+  "seo_description": "Learn what Spellbook is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ }
+]

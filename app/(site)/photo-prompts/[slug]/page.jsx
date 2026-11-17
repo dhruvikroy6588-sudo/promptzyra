@@ -37,7 +37,7 @@ export default async function Page({ params }) {
   const tipList = tips.length ? tips : GENERIC_TIPS;
   const aspect = (String(p.style || '').match(/\b(\d{1,2}:\d{1,2})\b/) || [])[1];
   const format = aspect ? `${aspect} (customizable)` : '4:5 portrait (customizable)';
-  const bestFor = [cat?.name, p.subject && p.subject !== 'other' ? photoSubjectLabel(p.subject) : ''].filter(Boolean).join(' / ') || 'Personal photos';
+  const bestFor = (p.subject && p.subject !== 'other' ? photoSubjectLabel(p.subject) : '') || 'Personal photos';
   const nWords = (String(p.prompt).match(/\S+/g) || []).length + tipList.join(' ').split(/\s+/).length + 250;
   const readMin = Math.max(2, Math.ceil(nWords / 200));
   const updated = new Date(p.updated_at || p.created_at).toLocaleDateString('en-GB', { year: 'numeric', month: 'long', day: 'numeric' });

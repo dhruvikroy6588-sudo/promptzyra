@@ -1,0 +1,2092 @@
+[
+ {
+  "slug": "v0-by-vercel",
+  "name": "v0 by Vercel",
+  "category": "coding",
+  "website_url": "https://v0.app",
+  "pricing": "Freemium",
+  "tagline": "AI app and UI generator from Vercel that turns prompts into web code.",
+  "best_for": "Prompt-to-UI prototyping for React and Next.js developers",
+  "platforms": [
+   "Web"
+  ],
+  "description": "v0 is an AI tool from Vercel that generates user interfaces and web apps from plain-language prompts. It is known for producing React and Tailwind-style components that developers can preview, iterate on in chat, and carry into a real project.\n\nIt suits developers who want a quick first draft of a dashboard, landing page or form, and non-developers who want a working prototype to show a team. Generated code still needs review, testing and accessibility checks before it goes to production, and credit-based usage means heavy iteration can hit limits. Plans, limits and features change, so check the official site for current plans.",
+  "use_steps": [
+   "Create an account on the official site.",
+   "Describe or sketch what you want to build.",
+   "Edit the result and connect any data or domain you need.",
+   "Test thoroughly, then publish and review plan limits."
+  ],
+  "pros": [
+   "Fast prompt-to-prototype loop",
+   "Code output developers can edit",
+   "Connects to the Vercel deployment workflow"
+  ],
+  "cons": [
+   "Generated code needs review",
+   "Usage is limited by credits on lower plans"
+  ],
+  "alternatives": [
+   "bolt-new",
+   "lovable",
+   "figma"
+  ],
+  "tags": [
+   "ui",
+   "react",
+   "prototyping",
+   "vercel",
+   "generator"
+  ],
+  "features": [
+   "Chat-based UI generation",
+   "Live preview of generated pages",
+   "Iterative refinement by prompt",
+   "Export or deploy via Vercel",
+   "Component-style output"
+  ],
+  "use_cases": [
+   "Prototyping a dashboard",
+   "Drafting a landing page",
+   "Building internal tools quickly",
+   "Exploring UI ideas before design handoff"
+  ],
+  "pricing_details": "Offered in a free or entry tier alongside paid plans; check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is v0 by Vercel?",
+    "a": "AI app and UI generator from Vercel that turns prompts into web code. See the official site for the full product description."
+   },
+   {
+    "q": "Is v0 by Vercel free?",
+    "a": "v0 by Vercel has a free or entry option alongside paid plans, but limits vary."
+   },
+   {
+    "q": "What should I check before using v0 by Vercel in production?",
+    "a": "Review security settings, usage limits, data handling and costs, and test on a small project first."
+   }
+  ],
+  "seo_title": "v0 by Vercel - Features, Pricing and Alternatives",
+  "seo_description": "AI app and UI generator from Vercel that turns prompts into web code. Overview of v0 by Vercel features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "webflow",
+  "name": "Webflow",
+  "category": "coding",
+  "website_url": "https://webflow.com",
+  "pricing": "Freemium",
+  "tagline": "Visual website builder with an AI site builder and CMS.",
+  "best_for": "Designers who want visual control over production websites",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Webflow is a visual web design platform that combines a canvas-style editor, a CMS and hosting. It has added an AI site builder that can generate a starting site structure and content from a prompt, which designers then refine visually.\n\nIt fits designers and marketing teams who want to ship custom-looking sites without hand-writing every line of code, while still exporting clean structure. The learning curve is steeper than simple drag-and-drop builders, so budget time to learn its layout model. Plans, limits and features change, so check the official site for current plans.",
+  "use_steps": [
+   "Create an account on the official site.",
+   "Describe or sketch what you want to build.",
+   "Edit the result and connect any data or domain you need.",
+   "Test thoroughly, then publish and review plan limits."
+  ],
+  "pros": [
+   "Fine-grained visual design control",
+   "Built-in CMS and hosting",
+   "AI helps with first drafts"
+  ],
+  "cons": [
+   "Learning curve for beginners",
+   "Pricing tiers can be complex"
+  ],
+  "alternatives": [
+   "framer",
+   "durable",
+   "10web"
+  ],
+  "tags": [
+   "website",
+   "no-code",
+   "cms",
+   "design",
+   "hosting"
+  ],
+  "features": [
+   "Visual designer",
+   "AI site builder",
+   "CMS collections",
+   "Hosting and publishing",
+   "Interactions and animations"
+  ],
+  "use_cases": [
+   "Marketing sites",
+   "Portfolios",
+   "Content-driven blogs",
+   "Client website projects"
+  ],
+  "pricing_details": "Offered in a free or entry tier alongside paid plans; check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Webflow?",
+    "a": "Visual website builder with an AI site builder and CMS. See the official site for the full product description."
+   },
+   {
+    "q": "Is Webflow free?",
+    "a": "Webflow has a free or entry option alongside paid plans, but limits vary."
+   },
+   {
+    "q": "What should I check before using Webflow in production?",
+    "a": "Review security settings, usage limits, data handling and costs, and test on a small project first."
+   }
+  ],
+  "seo_title": "Webflow - Features, Pricing and Alternatives",
+  "seo_description": "Visual website builder with an AI site builder and CMS. Overview of Webflow features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "framer",
+  "name": "Framer",
+  "category": "coding",
+  "website_url": "https://www.framer.com",
+  "pricing": "Freemium",
+  "tagline": "Design-first website builder with AI page generation and publishing.",
+  "best_for": "Designers who want polished, animated sites quickly",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Framer is a website builder that grew out of a prototyping tool. It lets you design pages on a canvas, generate layouts with an AI assistant, and publish directly to a hosted domain.\n\nIt is popular for portfolios, startup landing pages and marketing sites where motion and visual polish matter. It is less suited to complex web applications with heavy back-end logic, so pair it with other services if you need those. Plans, limits and features change, so check the official site for current plans.",
+  "use_steps": [
+   "Create an account on the official site.",
+   "Describe or sketch what you want to build.",
+   "Edit the result and connect any data or domain you need.",
+   "Test thoroughly, then publish and review plan limits."
+  ],
+  "pros": [
+   "Smooth design-to-publish flow",
+   "Good animation tools",
+   "AI generates starting layouts"
+  ],
+  "cons": [
+   "Limited for complex app logic",
+   "Advanced features need paid plans"
+  ],
+  "alternatives": [
+   "webflow",
+   "durable",
+   "v0-by-vercel"
+  ],
+  "tags": [
+   "website",
+   "design",
+   "landing-page",
+   "ai",
+   "no-code"
+  ],
+  "features": [
+   "Canvas editor",
+   "AI website generation",
+   "Hosting and custom domains",
+   "CMS support",
+   "Templates"
+  ],
+  "use_cases": [
+   "Startup landing pages",
+   "Personal portfolios",
+   "Product marketing sites",
+   "Quick design experiments"
+  ],
+  "pricing_details": "Offered in a free or entry tier alongside paid plans; check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Framer?",
+    "a": "Design-first website builder with AI page generation and publishing. See the official site for the full product description."
+   },
+   {
+    "q": "Is Framer free?",
+    "a": "Framer has a free or entry option alongside paid plans, but limits vary."
+   },
+   {
+    "q": "What should I check before using Framer in production?",
+    "a": "Review security settings, usage limits, data handling and costs, and test on a small project first."
+   }
+  ],
+  "seo_title": "Framer - Features, Pricing and Alternatives",
+  "seo_description": "Design-first website builder with AI page generation and publishing. Overview of Framer features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "bubble",
+  "name": "Bubble",
+  "category": "coding",
+  "website_url": "https://bubble.io",
+  "pricing": "Freemium",
+  "tagline": "No-code platform for building web apps, now with an AI app builder.",
+  "best_for": "Founders building full web apps without writing code",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Bubble is a long-running no-code platform for building database-backed web applications with visual workflows. Its AI-powered builder lets you describe an app and get a starting point you can then edit in the visual editor.\n\nIt suits founders and small teams who need user accounts, data and logic rather than just a static site. Apps are tied to the Bubble platform, and performance tuning takes some learning, so evaluate fit before committing a large project. Plans, limits and features change, so check the official site for current plans.",
+  "use_steps": [
+   "Create an account on the official site.",
+   "Describe or sketch what you want to build.",
+   "Edit the result and connect any data or domain you need.",
+   "Test thoroughly, then publish and review plan limits."
+  ],
+  "pros": [
+   "Handles data, logic and users",
+   "Large plugin ecosystem",
+   "AI helps start projects"
+  ],
+  "cons": [
+   "Platform lock-in",
+   "Complex apps need tuning"
+  ],
+  "alternatives": [
+   "flutterflow",
+   "softr",
+   "base44"
+  ],
+  "tags": [
+   "no-code",
+   "web-app",
+   "workflows",
+   "database",
+   "startup"
+  ],
+  "features": [
+   "Visual editor",
+   "Workflow logic",
+   "Built-in database",
+   "Plugins",
+   "AI app builder"
+  ],
+  "use_cases": [
+   "Marketplaces",
+   "Internal tools",
+   "SaaS prototypes",
+   "Client portals"
+  ],
+  "pricing_details": "Offered in a free or entry tier alongside paid plans; check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Bubble?",
+    "a": "No-code platform for building web apps, now with an AI app builder. See the official site for the full product description."
+   },
+   {
+    "q": "Is Bubble free?",
+    "a": "Bubble has a free or entry option alongside paid plans, but limits vary."
+   },
+   {
+    "q": "What should I check before using Bubble in production?",
+    "a": "Review security settings, usage limits, data handling and costs, and test on a small project first."
+   }
+  ],
+  "seo_title": "Bubble - Features, Pricing and Alternatives",
+  "seo_description": "No-code platform for building web apps, now with an AI app builder. Overview of Bubble features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "flutterflow",
+  "name": "FlutterFlow",
+  "category": "coding",
+  "website_url": "https://flutterflow.io",
+  "pricing": "Freemium",
+  "tagline": "Low-code builder for mobile and web apps based on Flutter.",
+  "best_for": "Teams building cross-platform apps visually with exportable code",
+  "platforms": [
+   "Web"
+  ],
+  "description": "FlutterFlow is a visual development platform for building apps on top of Flutter. You assemble screens and logic in a browser editor, connect back-end services, and can generate AI assistance for parts of the build.\n\nIt appeals to developers and small teams who want to speed up cross-platform app work while keeping the option to export code. Complex custom features may still require hands-on Flutter knowledge. Plans, limits and features change, so check the official site for current plans.",
+  "use_steps": [
+   "Create an account on the official site.",
+   "Describe or sketch what you want to build.",
+   "Edit the result and connect any data or domain you need.",
+   "Test thoroughly, then publish and review plan limits."
+  ],
+  "pros": [
+   "Visual builder on a real framework",
+   "Code export option",
+   "Connects to common back ends"
+  ],
+  "cons": [
+   "Some Flutter knowledge helps",
+   "Advanced features sit on paid plans"
+  ],
+  "alternatives": [
+   "bubble",
+   "glide",
+   "softr"
+  ],
+  "tags": [
+   "flutter",
+   "mobile",
+   "low-code",
+   "app-builder",
+   "cross-platform"
+  ],
+  "features": [
+   "Drag-and-drop UI builder",
+   "Back-end integrations",
+   "AI-assisted building",
+   "Code export",
+   "Preview and testing"
+  ],
+  "use_cases": [
+   "Mobile app MVPs",
+   "Internal company apps",
+   "Client app projects",
+   "Learning Flutter visually"
+  ],
+  "pricing_details": "Offered in a free or entry tier alongside paid plans; check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is FlutterFlow?",
+    "a": "Low-code builder for mobile and web apps based on Flutter. See the official site for the full product description."
+   },
+   {
+    "q": "Is FlutterFlow free?",
+    "a": "FlutterFlow has a free or entry option alongside paid plans, but limits vary."
+   },
+   {
+    "q": "What should I check before using FlutterFlow in production?",
+    "a": "Review security settings, usage limits, data handling and costs, and test on a small project first."
+   }
+  ],
+  "seo_title": "FlutterFlow - Features, Pricing and Alternatives",
+  "seo_description": "Low-code builder for mobile and web apps based on Flutter. Overview of FlutterFlow features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "softr",
+  "name": "Softr",
+  "category": "coding",
+  "website_url": "https://www.softr.io",
+  "pricing": "Freemium",
+  "tagline": "No-code builder for portals and business apps on top of your data.",
+  "best_for": "Turning spreadsheets and databases into client portals and tools",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Softr lets you build web apps, internal tools and client portals on top of data sources such as Airtable or Google Sheets. Its AI features help generate an app structure from a description.\n\nIt suits operations teams and agencies who already keep data in tables and want a user-friendly front end with permissions. It is built for business apps rather than highly custom consumer products. Plans, limits and features change, so check the official site for current plans.",
+  "use_steps": [
+   "Create an account on the official site.",
+   "Describe or sketch what you want to build.",
+   "Edit the result and connect any data or domain you need.",
+   "Test thoroughly, then publish and review plan limits."
+  ],
+  "pros": [
+   "Quick portals from existing data",
+   "Role-based access",
+   "Template library"
+  ],
+  "cons": [
+   "Less flexible for custom apps",
+   "Depends on connected data sources"
+  ],
+  "alternatives": [
+   "bubble",
+   "glide",
+   "airtable"
+  ],
+  "tags": [
+   "no-code",
+   "portal",
+   "internal-tools",
+   "data",
+   "apps"
+  ],
+  "features": [
+   "Data-source connections",
+   "User permissions",
+   "Prebuilt blocks",
+   "AI app generation",
+   "Templates"
+  ],
+  "use_cases": [
+   "Client portals",
+   "Internal dashboards",
+   "Directories",
+   "Request forms"
+  ],
+  "pricing_details": "Offered in a free or entry tier alongside paid plans; check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Softr?",
+    "a": "No-code builder for portals and business apps on top of your data. See the official site for the full product description."
+   },
+   {
+    "q": "Is Softr free?",
+    "a": "Softr has a free or entry option alongside paid plans, but limits vary."
+   },
+   {
+    "q": "What should I check before using Softr in production?",
+    "a": "Review security settings, usage limits, data handling and costs, and test on a small project first."
+   }
+  ],
+  "seo_title": "Softr - Features, Pricing and Alternatives",
+  "seo_description": "No-code builder for portals and business apps on top of your data. Overview of Softr features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "glide",
+  "name": "Glide",
+  "category": "coding",
+  "website_url": "https://www.glideapps.com",
+  "pricing": "Freemium",
+  "tagline": "No-code app builder that turns data into apps, with AI features.",
+  "best_for": "Simple business apps built from spreadsheets and tables",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "Glide builds apps from tabular data sources and offers a no-code editor with AI-assisted features. It is aimed at small teams that want a working tool without a development project.\n\nTypical uses are field-service trackers, inventories and team directories. Heavily customised design or complex logic can run into platform limits, so test your key workflow early. Plans, limits and features change, so check the official site for current plans.",
+  "use_steps": [
+   "Create an account on the official site.",
+   "Describe or sketch what you want to build.",
+   "Edit the result and connect any data or domain you need.",
+   "Test thoroughly, then publish and review plan limits."
+  ],
+  "pros": [
+   "Fast to learn",
+   "Works from familiar data",
+   "Mobile-friendly output"
+  ],
+  "cons": [
+   "Limited design freedom",
+   "Plan limits on users and rows"
+  ],
+  "alternatives": [
+   "softr",
+   "bubble",
+   "flutterflow"
+  ],
+  "tags": [
+   "no-code",
+   "apps",
+   "spreadsheet",
+   "mobile",
+   "business"
+  ],
+  "features": [
+   "Data-driven apps",
+   "Components library",
+   "AI features",
+   "User sign-in",
+   "Publishing"
+  ],
+  "use_cases": [
+   "Inventory trackers",
+   "Team directories",
+   "Field tools",
+   "Simple CRMs"
+  ],
+  "pricing_details": "Offered in a free or entry tier alongside paid plans; check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Glide?",
+    "a": "No-code app builder that turns data into apps, with AI features. See the official site for the full product description."
+   },
+   {
+    "q": "Is Glide free?",
+    "a": "Glide has a free or entry option alongside paid plans, but limits vary."
+   },
+   {
+    "q": "What should I check before using Glide in production?",
+    "a": "Review security settings, usage limits, data handling and costs, and test on a small project first."
+   }
+  ],
+  "seo_title": "Glide - Features, Pricing and Alternatives",
+  "seo_description": "No-code app builder that turns data into apps, with AI features. Overview of Glide features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "base44",
+  "name": "Base44",
+  "category": "coding",
+  "website_url": "https://base44.com",
+  "pricing": "Unknown",
+  "tagline": "AI app builder that creates full apps from plain-English prompts.",
+  "best_for": "Non-developers who want working apps with built-in back end",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Base44 is an AI app builder where you describe the app you want and the platform generates the interface, data and logic. It positions itself as a prompt-to-product tool with hosting included.\n\nIt suits solo founders and teams validating ideas quickly. As with all prompt-based builders, review generated behavior and security settings before real users rely on the app. Plans, limits and features change, so check the official site for current plans.",
+  "use_steps": [
+   "Create an account on the official site.",
+   "Describe or sketch what you want to build.",
+   "Edit the result and connect any data or domain you need.",
+   "Test thoroughly, then publish and review plan limits."
+  ],
+  "pros": [
+   "Prompt-to-app workflow",
+   "Back end included",
+   "Quick iteration"
+  ],
+  "cons": [
+   "Generated logic needs checking",
+   "Pricing details not verified here"
+  ],
+  "alternatives": [
+   "lovable",
+   "bolt-new",
+   "bubble"
+  ],
+  "tags": [
+   "ai",
+   "app-builder",
+   "prompt",
+   "no-code",
+   "mvp"
+  ],
+  "features": [
+   "Prompt-based app creation",
+   "Hosted apps",
+   "Data and auth",
+   "Iteration by chat",
+   "Documentation"
+  ],
+  "use_cases": [
+   "Idea validation",
+   "Internal tools",
+   "Simple SaaS prototypes",
+   "Client demos"
+  ],
+  "pricing_details": "Pricing was not verified here; check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Base44?",
+    "a": "AI app builder that creates full apps from plain-English prompts. See the official site for the full product description."
+   },
+   {
+    "q": "Is Base44 free?",
+    "a": "Pricing for Base44 was not verified here, so check the official site."
+   },
+   {
+    "q": "What should I check before using Base44 in production?",
+    "a": "Review security settings, usage limits, data handling and costs, and test on a small project first."
+   }
+  ],
+  "seo_title": "Base44 - Features, Pricing and Alternatives",
+  "seo_description": "AI app builder that creates full apps from plain-English prompts. Overview of Base44 features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "durable",
+  "name": "Durable",
+  "category": "coding",
+  "website_url": "https://durable.com",
+  "pricing": "Unknown",
+  "tagline": "AI website builder that generates a small-business site from a few answers.",
+  "best_for": "Small businesses wanting a fast first website",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Durable is an AI website builder aimed at small and local businesses. You describe your business, and it generates a site with copy, images and layout that you can edit.\n\nIt is a quick route to getting an online presence live. Generated copy tends to be generic, so edit it to reflect your real services, and compare with other builders for design flexibility. Plans, limits and features change, so check the official site for current plans.",
+  "use_steps": [
+   "Create an account on the official site.",
+   "Describe or sketch what you want to build.",
+   "Edit the result and connect any data or domain you need.",
+   "Test thoroughly, then publish and review plan limits."
+  ],
+  "pros": [
+   "Very fast setup",
+   "Beginner friendly",
+   "AI-written starter copy"
+  ],
+  "cons": [
+   "Generic copy needs editing",
+   "Less design control"
+  ],
+  "alternatives": [
+   "10web",
+   "framer",
+   "webflow"
+  ],
+  "tags": [
+   "website",
+   "small-business",
+   "ai",
+   "builder",
+   "no-code"
+  ],
+  "features": [
+   "AI site generation",
+   "Editor",
+   "Hosting",
+   "Business tools",
+   "Templates"
+  ],
+  "use_cases": [
+   "Local business sites",
+   "Freelancer pages",
+   "Quick launches",
+   "Simple landing pages"
+  ],
+  "pricing_details": "Pricing was not verified here; check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Durable?",
+    "a": "AI website builder that generates a small-business site from a few answers. See the official site for the full product description."
+   },
+   {
+    "q": "Is Durable free?",
+    "a": "Pricing for Durable was not verified here, so check the official site."
+   },
+   {
+    "q": "What should I check before using Durable in production?",
+    "a": "Review security settings, usage limits, data handling and costs, and test on a small project first."
+   }
+  ],
+  "seo_title": "Durable - Features, Pricing and Alternatives",
+  "seo_description": "AI website builder that generates a small-business site from a few answers. Overview of Durable features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "10web",
+  "name": "10Web",
+  "category": "coding",
+  "website_url": "https://10web.io",
+  "pricing": "Unknown",
+  "tagline": "AI website builder and hosting platform built around WordPress.",
+  "best_for": "WordPress users wanting AI-generated sites and managed hosting",
+  "platforms": [
+   "Web"
+  ],
+  "description": "10Web offers an AI website builder that produces WordPress-based sites, together with managed hosting and optimization tools. You provide a business description and it generates pages you can edit.\n\nIt suits agencies and site owners who want WordPress compatibility with a faster start. Compare hosting and plan terms carefully, since these services combine several products. Plans, limits and features change, so check the official site for current plans.",
+  "use_steps": [
+   "Create an account on the official site.",
+   "Describe or sketch what you want to build.",
+   "Edit the result and connect any data or domain you need.",
+   "Test thoroughly, then publish and review plan limits."
+  ],
+  "pros": [
+   "WordPress based",
+   "Hosting included",
+   "AI first drafts"
+  ],
+  "cons": [
+   "Plan terms need checking",
+   "Editing still takes effort"
+  ],
+  "alternatives": [
+   "durable",
+   "webflow",
+   "framer"
+  ],
+  "tags": [
+   "wordpress",
+   "website",
+   "ai",
+   "hosting",
+   "builder"
+  ],
+  "features": [
+   "AI website builder",
+   "WordPress hosting",
+   "Page editor",
+   "Speed optimization",
+   "Templates"
+  ],
+  "use_cases": [
+   "Client sites",
+   "Business sites",
+   "Content blogs",
+   "Agency projects"
+  ],
+  "pricing_details": "Pricing was not verified here; check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is 10Web?",
+    "a": "AI website builder and hosting platform built around WordPress. See the official site for the full product description."
+   },
+   {
+    "q": "Is 10Web free?",
+    "a": "Pricing for 10Web was not verified here, so check the official site."
+   },
+   {
+    "q": "What should I check before using 10Web in production?",
+    "a": "Review security settings, usage limits, data handling and costs, and test on a small project first."
+   }
+  ],
+  "seo_title": "10Web - Features, Pricing and Alternatives",
+  "seo_description": "AI website builder and hosting platform built around WordPress. Overview of 10Web features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "appsmith",
+  "name": "Appsmith",
+  "category": "coding",
+  "website_url": "https://www.appsmith.com",
+  "pricing": "Open source",
+  "tagline": "Open-source low-code platform for internal tools and dashboards.",
+  "best_for": "Developers building admin panels and internal apps",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Appsmith is an open-source low-code platform for building internal tools. You drag widgets onto a canvas and connect them to databases and APIs, writing JavaScript where needed.\n\nIt suits engineering teams that want to self-host or avoid vendor lock-in. Its AI features are an addition rather than the core, so evaluate it mainly as an internal-tool builder. Plans, limits and features change, so check the official site for current plans.",
+  "use_steps": [
+   "Create an account on the official site.",
+   "Describe or sketch what you want to build.",
+   "Edit the result and connect any data or domain you need.",
+   "Test thoroughly, then publish and review plan limits."
+  ],
+  "pros": [
+   "Open source with self-hosting",
+   "Wide data-source support",
+   "JavaScript flexibility"
+  ],
+  "cons": [
+   "Needs some coding",
+   "Self-hosting requires upkeep"
+  ],
+  "alternatives": [
+   "retool",
+   "budibase",
+   "softr"
+  ],
+  "tags": [
+   "low-code",
+   "open-source",
+   "internal-tools",
+   "dashboards",
+   "api"
+  ],
+  "features": [
+   "Widget canvas",
+   "Database and API connectors",
+   "JavaScript logic",
+   "Self-hosting",
+   "Access controls"
+  ],
+  "use_cases": [
+   "Admin panels",
+   "Support dashboards",
+   "Data entry tools",
+   "API frontends"
+  ],
+  "pricing_details": "Open-source core is free to use; hosted services may be paid; check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Appsmith?",
+    "a": "Open-source low-code platform for internal tools and dashboards. See the official site for the full product description."
+   },
+   {
+    "q": "Is Appsmith free?",
+    "a": "The core of Appsmith is open source, but hosted or enterprise offerings may cost money."
+   },
+   {
+    "q": "What should I check before using Appsmith in production?",
+    "a": "Review security settings, usage limits, data handling and costs, and test on a small project first."
+   }
+  ],
+  "seo_title": "Appsmith - Features, Pricing and Alternatives",
+  "seo_description": "Open-source low-code platform for internal tools and dashboards. Overview of Appsmith features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "retool",
+  "name": "Retool",
+  "category": "coding",
+  "website_url": "https://retool.com",
+  "pricing": "Unknown",
+  "tagline": "Platform for building internal tools, workflows and AI agents.",
+  "best_for": "Engineering teams building internal apps on top of company data",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Retool is a platform for building internal software such as admin panels and dashboards by combining UI components with queries to databases and APIs. It has added AI features and agent building.\n\nIt suits companies that want fast internal tooling with developer control. Pricing is typically per user, so confirm costs against team size on the official site.",
+  "use_steps": [
+   "Create an account on the official site.",
+   "Describe or sketch what you want to build.",
+   "Edit the result and connect any data or domain you need.",
+   "Test thoroughly, then publish and review plan limits."
+  ],
+  "pros": [
+   "Strong data connectors",
+   "Developer-friendly customization",
+   "Good for internal tooling"
+  ],
+  "cons": [
+   "Costs scale with users",
+   "Overkill for tiny projects"
+  ],
+  "alternatives": [
+   "appsmith",
+   "budibase",
+   "softr"
+  ],
+  "tags": [
+   "internal-tools",
+   "low-code",
+   "dashboards",
+   "agents",
+   "database"
+  ],
+  "features": [
+   "Component library",
+   "Query editor",
+   "Workflows",
+   "AI features",
+   "Permissions"
+  ],
+  "use_cases": [
+   "Admin dashboards",
+   "Ops tools",
+   "Customer support tools",
+   "Data review apps"
+  ],
+  "pricing_details": "Pricing was not verified here; check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Retool?",
+    "a": "Platform for building internal tools, workflows and AI agents. See the official site for the full product description."
+   },
+   {
+    "q": "Is Retool free?",
+    "a": "Pricing for Retool was not verified here, so check the official site."
+   },
+   {
+    "q": "What should I check before using Retool in production?",
+    "a": "Review security settings, usage limits, data handling and costs, and test on a small project first."
+   }
+  ],
+  "seo_title": "Retool - Features, Pricing and Alternatives",
+  "seo_description": "Platform for building internal tools, workflows and AI agents. Overview of Retool features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "budibase",
+  "name": "Budibase",
+  "category": "coding",
+  "website_url": "https://budibase.com",
+  "pricing": "Open source",
+  "tagline": "Open-source low-code platform for business apps and workflows.",
+  "best_for": "Teams wanting self-hostable internal apps and automations",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Budibase is an open-source low-code platform for building forms, admin tools and workflow apps. It can use its own database or connect to external ones and supports self-hosting.\n\nIt fits IT teams that want control over data location. Compare its cloud and self-hosted options on the official site, as terms differ. Plans, limits and features change, so check the official site for current plans.",
+  "use_steps": [
+   "Create an account on the official site.",
+   "Describe or sketch what you want to build.",
+   "Edit the result and connect any data or domain you need.",
+   "Test thoroughly, then publish and review plan limits."
+  ],
+  "pros": [
+   "Open source",
+   "Self-hosting available",
+   "Built-in automations"
+  ],
+  "cons": [
+   "Smaller ecosystem than larger rivals",
+   "Complex UI needs effort"
+  ],
+  "alternatives": [
+   "appsmith",
+   "retool",
+   "softr"
+  ],
+  "tags": [
+   "low-code",
+   "open-source",
+   "workflows",
+   "forms",
+   "self-hosted"
+  ],
+  "features": [
+   "App designer",
+   "Automations",
+   "Database connectors",
+   "Self-hosting",
+   "User roles"
+  ],
+  "use_cases": [
+   "Approval workflows",
+   "Internal portals",
+   "Data forms",
+   "Back-office tools"
+  ],
+  "pricing_details": "Open-source core is free to use; hosted services may be paid; check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Budibase?",
+    "a": "Open-source low-code platform for business apps and workflows. See the official site for the full product description."
+   },
+   {
+    "q": "Is Budibase free?",
+    "a": "The core of Budibase is open source, but hosted or enterprise offerings may cost money."
+   },
+   {
+    "q": "What should I check before using Budibase in production?",
+    "a": "Review security settings, usage limits, data handling and costs, and test on a small project first."
+   }
+  ],
+  "seo_title": "Budibase - Features, Pricing and Alternatives",
+  "seo_description": "Open-source low-code platform for business apps and workflows. Overview of Budibase features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "uizard",
+  "name": "Uizard",
+  "category": "coding",
+  "website_url": "https://uizard.io",
+  "pricing": "Unknown",
+  "tagline": "AI-assisted UI design tool for quick screens and prototypes.",
+  "best_for": "Non-designers sketching app and web screens quickly",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Uizard is a design tool that turns text prompts, screenshots or hand sketches into editable UI screens. It is aimed at product managers, founders and non-designers who need mockups fast.\n\nIt speeds early-stage concepting, but polished production design usually moves to a full design tool afterwards. Check current ownership and plan details on the official site.",
+  "use_steps": [
+   "Create an account on the official site.",
+   "Describe or sketch what you want to build.",
+   "Edit the result and connect any data or domain you need.",
+   "Test thoroughly, then publish and review plan limits."
+  ],
+  "pros": [
+   "Quick screen generation",
+   "Easy for non-designers",
+   "Sketch and screenshot import"
+  ],
+  "cons": [
+   "Less precise than pro design tools",
+   "Plan details need checking"
+  ],
+  "alternatives": [
+   "figma",
+   "framer",
+   "v0-by-vercel"
+  ],
+  "tags": [
+   "ui",
+   "prototype",
+   "design",
+   "ai",
+   "mockup"
+  ],
+  "features": [
+   "Text-to-UI",
+   "Screenshot to design",
+   "Templates",
+   "Collaboration",
+   "Component library"
+  ],
+  "use_cases": [
+   "App mockups",
+   "Pitch prototypes",
+   "Wireframes",
+   "Workshop sketches"
+  ],
+  "pricing_details": "Pricing was not verified here; check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Uizard?",
+    "a": "AI-assisted UI design tool for quick screens and prototypes. See the official site for the full product description."
+   },
+   {
+    "q": "Is Uizard free?",
+    "a": "Pricing for Uizard was not verified here, so check the official site."
+   },
+   {
+    "q": "What should I check before using Uizard in production?",
+    "a": "Review security settings, usage limits, data handling and costs, and test on a small project first."
+   }
+  ],
+  "seo_title": "Uizard - Features, Pricing and Alternatives",
+  "seo_description": "AI-assisted UI design tool for quick screens and prototypes. Overview of Uizard features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "codesandbox",
+  "name": "CodeSandbox",
+  "category": "coding",
+  "website_url": "https://codesandbox.io",
+  "pricing": "Unknown",
+  "tagline": "Cloud development environments and sandboxes for web projects.",
+  "best_for": "Sharing and running web projects in the browser",
+  "platforms": [
+   "Web"
+  ],
+  "description": "CodeSandbox provides browser-based development environments where you can write, run and share web projects without local setup. It supports many frameworks and offers cloud sandboxes for collaboration.\n\nIt is useful for demos, bug reproductions, teaching and quick experiments. AI and sandbox-related offerings evolve, so check the official site for what is available now.",
+  "use_steps": [
+   "Create an account on the official site.",
+   "Describe or sketch what you want to build.",
+   "Edit the result and connect any data or domain you need.",
+   "Test thoroughly, then publish and review plan limits."
+  ],
+  "pros": [
+   "No local setup",
+   "Easy sharing of projects",
+   "Collaboration friendly"
+  ],
+  "cons": [
+   "Large projects may feel limited",
+   "Offerings change over time"
+  ],
+  "alternatives": [
+   "replit",
+   "bolt-new",
+   "github-copilot"
+  ],
+  "tags": [
+   "sandbox",
+   "cloud-ide",
+   "web",
+   "collaboration",
+   "demo"
+  ],
+  "features": [
+   "Browser IDE",
+   "Project sharing",
+   "Framework templates",
+   "Cloud environments",
+   "Collaboration"
+  ],
+  "use_cases": [
+   "Bug reproductions",
+   "Tutorials",
+   "Prototypes",
+   "Workshops"
+  ],
+  "pricing_details": "Pricing was not verified here; check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is CodeSandbox?",
+    "a": "Cloud development environments and sandboxes for web projects. See the official site for the full product description."
+   },
+   {
+    "q": "Is CodeSandbox free?",
+    "a": "Pricing for CodeSandbox was not verified here, so check the official site."
+   },
+   {
+    "q": "What should I check before using CodeSandbox in production?",
+    "a": "Review security settings, usage limits, data handling and costs, and test on a small project first."
+   }
+  ],
+  "seo_title": "CodeSandbox - Features, Pricing and Alternatives",
+  "seo_description": "Cloud development environments and sandboxes for web projects. Overview of CodeSandbox features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "supabase",
+  "name": "Supabase",
+  "category": "coding",
+  "website_url": "https://supabase.com",
+  "pricing": "Freemium",
+  "tagline": "Open-source Postgres back end with auth, storage and vector support.",
+  "best_for": "Developers needing a hosted Postgres back end quickly",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Supabase is an open-source back-end platform built around Postgres. It bundles authentication, storage, real-time features and edge functions, and supports vector data for AI use cases.\n\nIt is popular with app builders and AI-assisted coding tools that need a ready database. Review row-level security and access rules carefully, since misconfiguration is a common source of data exposure. Plans, limits and features change, so check the official site for current plans.",
+  "use_steps": [
+   "Sign up and create a project or instance.",
+   "Define your schema or collection and load sample data.",
+   "Connect it from your app using the official client library.",
+   "Review access rules, backups and costs before production."
+  ],
+  "pros": [
+   "Postgres foundation",
+   "Auth and storage included",
+   "Open source"
+  ],
+  "cons": [
+   "Security rules need care",
+   "Costs rise with usage"
+  ],
+  "alternatives": [
+   "neon",
+   "turso",
+   "pinecone"
+  ],
+  "tags": [
+   "postgres",
+   "backend",
+   "database",
+   "auth",
+   "open-source"
+  ],
+  "features": [
+   "Postgres database",
+   "Authentication",
+   "File storage",
+   "Edge functions",
+   "Vector support"
+  ],
+  "use_cases": [
+   "App back ends",
+   "AI app storage",
+   "Prototypes",
+   "User management"
+  ],
+  "pricing_details": "Offered in a free or entry tier alongside paid plans; check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Supabase?",
+    "a": "Open-source Postgres back end with auth, storage and vector support. See the official site for the full product description."
+   },
+   {
+    "q": "Is Supabase free?",
+    "a": "Supabase has a free or entry option alongside paid plans, but limits vary."
+   },
+   {
+    "q": "What should I check before using Supabase in production?",
+    "a": "Review security settings, usage limits, data handling and costs, and test on a small project first."
+   }
+  ],
+  "seo_title": "Supabase - Features, Pricing and Alternatives",
+  "seo_description": "Open-source Postgres back end with auth, storage and vector support. Overview of Supabase features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "neon",
+  "name": "Neon",
+  "category": "coding",
+  "website_url": "https://neon.com",
+  "pricing": "Unknown",
+  "tagline": "Serverless Postgres with branching for development workflows.",
+  "best_for": "Developers wanting managed Postgres with database branches",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Neon is a serverless Postgres service that separates storage and compute and offers branching, so you can create copies of a database for testing. It is frequently used in modern web and AI app stacks.\n\nIt suits teams that like short-lived dev and preview databases. Check the official site for current free allowances and pricing before planning production use.",
+  "use_steps": [
+   "Sign up and create a project or instance.",
+   "Define your schema or collection and load sample data.",
+   "Connect it from your app using the official client library.",
+   "Review access rules, backups and costs before production."
+  ],
+  "pros": [
+   "Database branching",
+   "Serverless scaling",
+   "Standard Postgres"
+  ],
+  "cons": [
+   "Cold-start considerations",
+   "Plans change"
+  ],
+  "alternatives": [
+   "supabase",
+   "turso",
+   "pinecone"
+  ],
+  "tags": [
+   "postgres",
+   "serverless",
+   "database",
+   "branching",
+   "cloud"
+  ],
+  "features": [
+   "Serverless Postgres",
+   "Branching",
+   "Autoscaling",
+   "Postgres extensions",
+   "Dashboard and API"
+  ],
+  "use_cases": [
+   "Preview environments",
+   "Web app databases",
+   "Test data copies",
+   "AI app storage"
+  ],
+  "pricing_details": "Pricing was not verified here; check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Neon?",
+    "a": "Serverless Postgres with branching for development workflows. See the official site for the full product description."
+   },
+   {
+    "q": "Is Neon free?",
+    "a": "Pricing for Neon was not verified here, so check the official site."
+   },
+   {
+    "q": "What should I check before using Neon in production?",
+    "a": "Review security settings, usage limits, data handling and costs, and test on a small project first."
+   }
+  ],
+  "seo_title": "Neon - Features, Pricing and Alternatives",
+  "seo_description": "Serverless Postgres with branching for development workflows. Overview of Neon features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "pinecone",
+  "name": "Pinecone",
+  "category": "coding",
+  "website_url": "https://www.pinecone.io",
+  "pricing": "Unknown",
+  "tagline": "Managed vector database for semantic search and retrieval apps.",
+  "best_for": "Production semantic search and RAG applications",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Pinecone is a managed vector database service that stores embeddings and returns similar items quickly. Developers use it for semantic search, recommendations and retrieval-augmented generation.\n\nIt removes much infrastructure work compared with self-hosting. Evaluate costs and data-residency needs against open-source alternatives on the official site.",
+  "use_steps": [
+   "Sign up and create a project or instance.",
+   "Define your schema or collection and load sample data.",
+   "Connect it from your app using the official client library.",
+   "Review access rules, backups and costs before production."
+  ],
+  "pros": [
+   "Managed service",
+   "Built for similarity search",
+   "Developer-focused API"
+  ],
+  "cons": [
+   "Hosted only for core service",
+   "Costs scale with data"
+  ],
+  "alternatives": [
+   "weaviate",
+   "qdrant",
+   "chroma"
+  ],
+  "tags": [
+   "vector-db",
+   "rag",
+   "embeddings",
+   "search",
+   "managed"
+  ],
+  "features": [
+   "Vector storage",
+   "Similarity search",
+   "Metadata filtering",
+   "Managed scaling",
+   "SDKs"
+  ],
+  "use_cases": [
+   "RAG chatbots",
+   "Semantic search",
+   "Recommendations",
+   "Deduplication"
+  ],
+  "pricing_details": "Pricing was not verified here; check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Pinecone?",
+    "a": "Managed vector database for semantic search and retrieval apps. See the official site for the full product description."
+   },
+   {
+    "q": "Is Pinecone free?",
+    "a": "Pricing for Pinecone was not verified here, so check the official site."
+   },
+   {
+    "q": "What should I check before using Pinecone in production?",
+    "a": "Review security settings, usage limits, data handling and costs, and test on a small project first."
+   }
+  ],
+  "seo_title": "Pinecone - Features, Pricing and Alternatives",
+  "seo_description": "Managed vector database for semantic search and retrieval apps. Overview of Pinecone features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "weaviate",
+  "name": "Weaviate",
+  "category": "coding",
+  "website_url": "https://weaviate.io",
+  "pricing": "Open source",
+  "tagline": "Open-source vector database with hybrid search and managed cloud.",
+  "best_for": "Teams wanting open-source vector search with a cloud option",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Weaviate is an open-source vector database that supports hybrid search combining vector and keyword methods. It can be self-hosted or used as a managed cloud service.\n\nIt suits developers building RAG and search apps who value an open codebase. Check the licensing and cloud pricing details on the official site.",
+  "use_steps": [
+   "Sign up and create a project or instance.",
+   "Define your schema or collection and load sample data.",
+   "Connect it from your app using the official client library.",
+   "Review access rules, backups and costs before production."
+  ],
+  "pros": [
+   "Open source",
+   "Hybrid search",
+   "Self-host or cloud"
+  ],
+  "cons": [
+   "Operational effort when self-hosting",
+   "Learning its schema model"
+  ],
+  "alternatives": [
+   "qdrant",
+   "pinecone",
+   "chroma"
+  ],
+  "tags": [
+   "vector-db",
+   "open-source",
+   "rag",
+   "hybrid-search",
+   "database"
+  ],
+  "features": [
+   "Vector search",
+   "Hybrid search",
+   "Modules and integrations",
+   "Self-hosting",
+   "Cloud option"
+  ],
+  "use_cases": [
+   "Document search",
+   "RAG backends",
+   "Recommendations",
+   "Knowledge bases"
+  ],
+  "pricing_details": "Open-source core is free to use; hosted services may be paid; check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Weaviate?",
+    "a": "Open-source vector database with hybrid search and managed cloud. See the official site for the full product description."
+   },
+   {
+    "q": "Is Weaviate free?",
+    "a": "The core of Weaviate is open source, but hosted or enterprise offerings may cost money."
+   },
+   {
+    "q": "What should I check before using Weaviate in production?",
+    "a": "Review security settings, usage limits, data handling and costs, and test on a small project first."
+   }
+  ],
+  "seo_title": "Weaviate - Features, Pricing and Alternatives",
+  "seo_description": "Open-source vector database with hybrid search and managed cloud. Overview of Weaviate features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "qdrant",
+  "name": "Qdrant",
+  "category": "coding",
+  "website_url": "https://qdrant.tech",
+  "pricing": "Open source",
+  "tagline": "Open-source vector search engine with a managed cloud option.",
+  "best_for": "Developers wanting a fast, self-hostable vector database",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Qdrant is an open-source vector database and search engine written for similarity search with payload filtering. It can run locally, in your infrastructure or as a hosted service.\n\nIt suits RAG and recommendation workloads where filtering matters. Confirm the current cloud pricing and limits on the official site.",
+  "use_steps": [
+   "Sign up and create a project or instance.",
+   "Define your schema or collection and load sample data.",
+   "Connect it from your app using the official client library.",
+   "Review access rules, backups and costs before production."
+  ],
+  "pros": [
+   "Open source",
+   "Strong filtering",
+   "Runs locally or hosted"
+  ],
+  "cons": [
+   "Self-hosting needs ops skills",
+   "Smaller ecosystem than some rivals"
+  ],
+  "alternatives": [
+   "weaviate",
+   "pinecone",
+   "chroma"
+  ],
+  "tags": [
+   "vector-db",
+   "open-source",
+   "search",
+   "rag",
+   "embeddings"
+  ],
+  "features": [
+   "Vector similarity search",
+   "Payload filtering",
+   "Local and cloud deployment",
+   "Client libraries",
+   "Hybrid options"
+  ],
+  "use_cases": [
+   "RAG pipelines",
+   "Semantic search",
+   "Recommendations",
+   "Anomaly search"
+  ],
+  "pricing_details": "Open-source core is free to use; hosted services may be paid; check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Qdrant?",
+    "a": "Open-source vector search engine with a managed cloud option. See the official site for the full product description."
+   },
+   {
+    "q": "Is Qdrant free?",
+    "a": "The core of Qdrant is open source, but hosted or enterprise offerings may cost money."
+   },
+   {
+    "q": "What should I check before using Qdrant in production?",
+    "a": "Review security settings, usage limits, data handling and costs, and test on a small project first."
+   }
+  ],
+  "seo_title": "Qdrant - Features, Pricing and Alternatives",
+  "seo_description": "Open-source vector search engine with a managed cloud option. Overview of Qdrant features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "chroma",
+  "name": "Chroma",
+  "category": "coding",
+  "website_url": "https://www.trychroma.com",
+  "pricing": "Open source",
+  "tagline": "Open-source embedding database aimed at quick AI app prototyping.",
+  "best_for": "Developers prototyping RAG apps locally",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Chroma is an open-source embedding database designed to be simple to start with, often used in notebooks and early prototypes for retrieval-augmented generation. It also offers a hosted option.\n\nIt is a gentle on-ramp to vector search. For large production workloads compare it against other vector databases, and check the official site for hosted plans.",
+  "use_steps": [
+   "Sign up and create a project or instance.",
+   "Define your schema or collection and load sample data.",
+   "Connect it from your app using the official client library.",
+   "Review access rules, backups and costs before production."
+  ],
+  "pros": [
+   "Easy to start",
+   "Open source",
+   "Python-friendly"
+  ],
+  "cons": [
+   "Production scale needs evaluation",
+   "Hosted plans may change"
+  ],
+  "alternatives": [
+   "qdrant",
+   "weaviate",
+   "pinecone"
+  ],
+  "tags": [
+   "vector-db",
+   "open-source",
+   "embeddings",
+   "python",
+   "prototype"
+  ],
+  "features": [
+   "Embedding storage",
+   "Similarity queries",
+   "Local mode",
+   "Python and JS clients",
+   "Hosted option"
+  ],
+  "use_cases": [
+   "RAG prototypes",
+   "Notebook experiments",
+   "Document Q&A",
+   "Small search apps"
+  ],
+  "pricing_details": "Open-source core is free to use; hosted services may be paid; check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Chroma?",
+    "a": "Open-source embedding database aimed at quick AI app prototyping. See the official site for the full product description."
+   },
+   {
+    "q": "Is Chroma free?",
+    "a": "The core of Chroma is open source, but hosted or enterprise offerings may cost money."
+   },
+   {
+    "q": "What should I check before using Chroma in production?",
+    "a": "Review security settings, usage limits, data handling and costs, and test on a small project first."
+   }
+  ],
+  "seo_title": "Chroma - Features, Pricing and Alternatives",
+  "seo_description": "Open-source embedding database aimed at quick AI app prototyping. Overview of Chroma features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "turso",
+  "name": "Turso",
+  "category": "coding",
+  "website_url": "https://turso.tech",
+  "pricing": "Unknown",
+  "tagline": "Edge-friendly SQLite-based database platform built on libSQL.",
+  "best_for": "Apps needing lightweight, distributed SQLite databases",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Turso is a database platform built on libSQL, a fork of SQLite, offering hosted databases that can be placed near users. It also includes vector features for AI use cases.\n\nIt suits small-to-medium apps, per-tenant databases and edge deployments. Verify feature maturity and pricing on the official site.",
+  "use_steps": [
+   "Sign up and create a project or instance.",
+   "Define your schema or collection and load sample data.",
+   "Connect it from your app using the official client library.",
+   "Review access rules, backups and costs before production."
+  ],
+  "pros": [
+   "SQLite compatibility",
+   "Edge-friendly",
+   "Lightweight databases"
+  ],
+  "cons": [
+   "Different from traditional Postgres",
+   "Plans change"
+  ],
+  "alternatives": [
+   "neon",
+   "supabase",
+   "chroma"
+  ],
+  "tags": [
+   "sqlite",
+   "edge",
+   "database",
+   "libsql",
+   "serverless"
+  ],
+  "features": [
+   "libSQL databases",
+   "Replication",
+   "Vector support",
+   "SDKs",
+   "Multi-database setups"
+  ],
+  "use_cases": [
+   "Per-tenant databases",
+   "Edge apps",
+   "Mobile sync",
+   "Small web apps"
+  ],
+  "pricing_details": "Pricing was not verified here; check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Turso?",
+    "a": "Edge-friendly SQLite-based database platform built on libSQL. See the official site for the full product description."
+   },
+   {
+    "q": "Is Turso free?",
+    "a": "Pricing for Turso was not verified here, so check the official site."
+   },
+   {
+    "q": "What should I check before using Turso in production?",
+    "a": "Review security settings, usage limits, data handling and costs, and test on a small project first."
+   }
+  ],
+  "seo_title": "Turso - Features, Pricing and Alternatives",
+  "seo_description": "Edge-friendly SQLite-based database platform built on libSQL. Overview of Turso features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "modal",
+  "name": "Modal",
+  "category": "coding",
+  "website_url": "https://modal.com",
+  "pricing": "Unknown",
+  "tagline": "Serverless cloud for running Python and AI workloads on GPUs.",
+  "best_for": "Running ML inference and batch jobs without managing servers",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Modal is a serverless platform where you write Python functions and run them in the cloud, including on GPUs. It is used for model inference, fine-tuning jobs and data processing.\n\nIt suits ML engineers who want infrastructure defined in code. Check pricing and GPU availability on the official site, since compute costs depend on usage. Plans, limits and features change, so check the official site for current plans.",
+  "use_steps": [
+   "Create an account and generate an API key or install the SDK.",
+   "Pick a model or write a small function to run.",
+   "Send a test request and check latency and output.",
+   "Monitor usage and costs, then scale up carefully."
+  ],
+  "pros": [
+   "Infrastructure as Python code",
+   "GPU access",
+   "Pay-per-use model"
+  ],
+  "cons": [
+   "Python-centric",
+   "Usage costs need monitoring"
+  ],
+  "alternatives": [
+   "replicate",
+   "together-ai",
+   "fireworks-ai"
+  ],
+  "tags": [
+   "serverless",
+   "gpu",
+   "python",
+   "ml",
+   "inference"
+  ],
+  "features": [
+   "Serverless functions",
+   "GPU workloads",
+   "Scheduled jobs",
+   "Web endpoints",
+   "Containers"
+  ],
+  "use_cases": [
+   "Model inference",
+   "Batch processing",
+   "Fine-tuning runs",
+   "Data pipelines"
+  ],
+  "pricing_details": "Pricing was not verified here; check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Modal?",
+    "a": "Serverless cloud for running Python and AI workloads on GPUs. See the official site for the full product description."
+   },
+   {
+    "q": "Is Modal free?",
+    "a": "Pricing for Modal was not verified here, so check the official site."
+   },
+   {
+    "q": "What should I check before using Modal in production?",
+    "a": "Review security settings, usage limits, data handling and costs, and test on a small project first."
+   }
+  ],
+  "seo_title": "Modal - Features, Pricing and Alternatives",
+  "seo_description": "Serverless cloud for running Python and AI workloads on GPUs. Overview of Modal features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "replicate",
+  "name": "Replicate",
+  "category": "coding",
+  "website_url": "https://replicate.com",
+  "pricing": "Unknown",
+  "tagline": "API platform for running open and custom AI models in the cloud.",
+  "best_for": "Developers adding image, audio or text models via API",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Replicate lets developers run machine-learning models through a cloud API, including many community-published open-source models, and package their own. It handles hosting so you avoid managing GPUs.\n\nIt suits app builders who want to try many models fast. Costs vary by model and usage, so check the official site for pricing.",
+  "use_steps": [
+   "Create an account and generate an API key or install the SDK.",
+   "Pick a model or write a small function to run.",
+   "Send a test request and check latency and output.",
+   "Monitor usage and costs, then scale up carefully."
+  ],
+  "pros": [
+   "Large model catalog",
+   "Simple API",
+   "No GPU management"
+  ],
+  "cons": [
+   "Cost varies by model",
+   "Cold starts possible"
+  ],
+  "alternatives": [
+   "modal",
+   "together-ai",
+   "hugging-face"
+  ],
+  "tags": [
+   "api",
+   "models",
+   "inference",
+   "open-source",
+   "gpu"
+  ],
+  "features": [
+   "Model API",
+   "Hosted community models",
+   "Custom model packaging",
+   "Webhooks",
+   "Client libraries"
+  ],
+  "use_cases": [
+   "Image generation features",
+   "Audio processing",
+   "Prototyping",
+   "Model comparison"
+  ],
+  "pricing_details": "Pricing was not verified here; check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Replicate?",
+    "a": "API platform for running open and custom AI models in the cloud. See the official site for the full product description."
+   },
+   {
+    "q": "Is Replicate free?",
+    "a": "Pricing for Replicate was not verified here, so check the official site."
+   },
+   {
+    "q": "What should I check before using Replicate in production?",
+    "a": "Review security settings, usage limits, data handling and costs, and test on a small project first."
+   }
+  ],
+  "seo_title": "Replicate - Features, Pricing and Alternatives",
+  "seo_description": "API platform for running open and custom AI models in the cloud. Overview of Replicate features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "together-ai",
+  "name": "Together AI",
+  "category": "coding",
+  "website_url": "https://www.together.ai",
+  "pricing": "Unknown",
+  "tagline": "Inference and training platform for open-weight AI models.",
+  "best_for": "Developers using open models via API or fine-tuning them",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Together AI provides APIs for running open-weight models, along with fine-tuning and GPU compute options. It targets developers who want hosted inference without owning hardware.\n\nCompare model selection, latency and pricing with similar providers. Check the official site for current models and plans.",
+  "use_steps": [
+   "Create an account and generate an API key or install the SDK.",
+   "Pick a model or write a small function to run.",
+   "Send a test request and check latency and output.",
+   "Monitor usage and costs, then scale up carefully."
+  ],
+  "pros": [
+   "Many open models",
+   "API access",
+   "Fine-tuning support"
+  ],
+  "cons": [
+   "Model lineup changes",
+   "Pricing varies by model"
+  ],
+  "alternatives": [
+   "fireworks-ai",
+   "openrouter",
+   "replicate"
+  ],
+  "tags": [
+   "inference",
+   "open-models",
+   "api",
+   "fine-tuning",
+   "gpu"
+  ],
+  "features": [
+   "Serverless inference",
+   "Fine-tuning",
+   "GPU clusters",
+   "OpenAI-style API",
+   "Model catalog"
+  ],
+  "use_cases": [
+   "Chatbots",
+   "Fine-tuned models",
+   "Batch inference",
+   "Model testing"
+  ],
+  "pricing_details": "Pricing was not verified here; check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Together AI?",
+    "a": "Inference and training platform for open-weight AI models. See the official site for the full product description."
+   },
+   {
+    "q": "Is Together AI free?",
+    "a": "Pricing for Together AI was not verified here, so check the official site."
+   },
+   {
+    "q": "What should I check before using Together AI in production?",
+    "a": "Review security settings, usage limits, data handling and costs, and test on a small project first."
+   }
+  ],
+  "seo_title": "Together AI - Features, Pricing and Alternatives",
+  "seo_description": "Inference and training platform for open-weight AI models. Overview of Together AI features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "fireworks-ai",
+  "name": "Fireworks AI",
+  "category": "coding",
+  "website_url": "https://fireworks.ai",
+  "pricing": "Unknown",
+  "tagline": "Inference platform for running and tuning open models at speed.",
+  "best_for": "Production inference of open models",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Fireworks AI is an inference platform for running open models through an API, with options for fine-tuning and dedicated deployments. It focuses on production-oriented serving.\n\nEvaluate latency, model availability and pricing against alternatives. Check the official site for current details.",
+  "use_steps": [
+   "Create an account and generate an API key or install the SDK.",
+   "Pick a model or write a small function to run.",
+   "Send a test request and check latency and output.",
+   "Monitor usage and costs, then scale up carefully."
+  ],
+  "pros": [
+   "Open-model focus",
+   "Production serving options",
+   "API access"
+  ],
+  "cons": [
+   "Pricing differs by model",
+   "Smaller brand than hyperscalers"
+  ],
+  "alternatives": [
+   "together-ai",
+   "openrouter",
+   "modal"
+  ],
+  "tags": [
+   "inference",
+   "api",
+   "open-models",
+   "production",
+   "fine-tuning"
+  ],
+  "features": [
+   "Hosted inference",
+   "Fine-tuning",
+   "Dedicated deployments",
+   "API",
+   "Model library"
+  ],
+  "use_cases": [
+   "Production chatbots",
+   "Agents",
+   "Batch jobs",
+   "Custom model serving"
+  ],
+  "pricing_details": "Pricing was not verified here; check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Fireworks AI?",
+    "a": "Inference platform for running and tuning open models at speed. See the official site for the full product description."
+   },
+   {
+    "q": "Is Fireworks AI free?",
+    "a": "Pricing for Fireworks AI was not verified here, so check the official site."
+   },
+   {
+    "q": "What should I check before using Fireworks AI in production?",
+    "a": "Review security settings, usage limits, data handling and costs, and test on a small project first."
+   }
+  ],
+  "seo_title": "Fireworks AI - Features, Pricing and Alternatives",
+  "seo_description": "Inference platform for running and tuning open models at speed. Overview of Fireworks AI features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "openrouter",
+  "name": "OpenRouter",
+  "category": "coding",
+  "website_url": "https://openrouter.ai",
+  "pricing": "Unknown",
+  "tagline": "Single API gateway to many AI models from different providers.",
+  "best_for": "Switching between models without separate integrations",
+  "platforms": [
+   "Web"
+  ],
+  "description": "OpenRouter offers one API that routes requests to many language models from multiple providers. Developers use it to compare models and avoid maintaining separate keys and code per vendor.\n\nIt is handy for experimentation and fallbacks. Review how pricing and data handling work per model on the official site.",
+  "use_steps": [
+   "Create an account and generate an API key or install the SDK.",
+   "Pick a model or write a small function to run.",
+   "Send a test request and check latency and output.",
+   "Monitor usage and costs, then scale up carefully."
+  ],
+  "pros": [
+   "One API for many models",
+   "Easy model switching",
+   "Usage tracking"
+  ],
+  "cons": [
+   "Adds an intermediary",
+   "Per-model pricing varies"
+  ],
+  "alternatives": [
+   "together-ai",
+   "fireworks-ai",
+   "hugging-face"
+  ],
+  "tags": [
+   "api",
+   "llm",
+   "gateway",
+   "models",
+   "developer"
+  ],
+  "features": [
+   "Unified API",
+   "Model catalog",
+   "Usage dashboard",
+   "Fallback routing",
+   "API keys"
+  ],
+  "use_cases": [
+   "Model comparison",
+   "App backends",
+   "Prototyping",
+   "Cost testing"
+  ],
+  "pricing_details": "Pricing was not verified here; check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is OpenRouter?",
+    "a": "Single API gateway to many AI models from different providers. See the official site for the full product description."
+   },
+   {
+    "q": "Is OpenRouter free?",
+    "a": "Pricing for OpenRouter was not verified here, so check the official site."
+   },
+   {
+    "q": "What should I check before using OpenRouter in production?",
+    "a": "Review security settings, usage limits, data handling and costs, and test on a small project first."
+   }
+  ],
+  "seo_title": "OpenRouter - Features, Pricing and Alternatives",
+  "seo_description": "Single API gateway to many AI models from different providers. Overview of OpenRouter features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "langchain",
+  "name": "LangChain",
+  "category": "coding",
+  "website_url": "https://www.langchain.com",
+  "pricing": "Open source",
+  "tagline": "Framework and tools for building LLM apps, with LangSmith for tracing.",
+  "best_for": "Developers building agents and LLM-powered workflows",
+  "platforms": [
+   "Web"
+  ],
+  "description": "LangChain is an open-source framework for composing language-model applications, covering prompts, retrieval, tools and agents. Its commercial product LangSmith adds tracing and evaluation.\n\nIt speeds up building prototypes but adds abstraction, so some teams prefer lighter code. Check the official site for LangSmith plans.",
+  "use_steps": [
+   "Create an account and generate an API key or install the SDK.",
+   "Pick a model or write a small function to run.",
+   "Send a test request and check latency and output.",
+   "Monitor usage and costs, then scale up carefully."
+  ],
+  "pros": [
+   "Large ecosystem",
+   "Many integrations",
+   "Tracing and evaluation tools"
+  ],
+  "cons": [
+   "Abstractions can feel heavy",
+   "API changes over time"
+  ],
+  "alternatives": [
+   "llamaindex",
+   "openrouter",
+   "chroma"
+  ],
+  "tags": [
+   "llm",
+   "framework",
+   "agents",
+   "rag",
+   "open-source"
+  ],
+  "features": [
+   "Chains and agents",
+   "Retrieval tools",
+   "Integrations",
+   "LangSmith tracing",
+   "Evaluation"
+  ],
+  "use_cases": [
+   "RAG apps",
+   "Agent workflows",
+   "LLM evaluation",
+   "Chat applications"
+  ],
+  "pricing_details": "Open-source core is free to use; hosted services may be paid; check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is LangChain?",
+    "a": "Framework and tools for building LLM apps, with LangSmith for tracing. See the official site for the full product description."
+   },
+   {
+    "q": "Is LangChain free?",
+    "a": "The core of LangChain is open source, but hosted or enterprise offerings may cost money."
+   },
+   {
+    "q": "What should I check before using LangChain in production?",
+    "a": "Review security settings, usage limits, data handling and costs, and test on a small project first."
+   }
+  ],
+  "seo_title": "LangChain - Features, Pricing and Alternatives",
+  "seo_description": "Framework and tools for building LLM apps, with LangSmith for tracing. Overview of LangChain features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "llamaindex",
+  "name": "LlamaIndex",
+  "category": "coding",
+  "website_url": "https://www.llamaindex.ai",
+  "pricing": "Open source",
+  "tagline": "Framework for connecting LLMs to your data, with a hosted LlamaCloud.",
+  "best_for": "Document-heavy RAG and agent applications",
+  "platforms": [
+   "Web"
+  ],
+  "description": "LlamaIndex is an open-source framework focused on connecting language models to private data through indexing and retrieval. LlamaCloud adds hosted parsing and indexing services.\n\nIt fits teams working with many documents. Check LlamaCloud plans and limits on the official site.",
+  "use_steps": [
+   "Create an account and generate an API key or install the SDK.",
+   "Pick a model or write a small function to run.",
+   "Send a test request and check latency and output.",
+   "Monitor usage and costs, then scale up carefully."
+  ],
+  "pros": [
+   "Strong data connectors",
+   "Document parsing focus",
+   "Open-source core"
+  ],
+  "cons": [
+   "Hosted features cost extra",
+   "Rapid change in APIs"
+  ],
+  "alternatives": [
+   "langchain",
+   "pinecone",
+   "chroma"
+  ],
+  "tags": [
+   "rag",
+   "llm",
+   "documents",
+   "framework",
+   "open-source"
+  ],
+  "features": [
+   "Data connectors",
+   "Indexing",
+   "Query engines",
+   "Agents",
+   "LlamaCloud"
+  ],
+  "use_cases": [
+   "Document Q&A",
+   "Enterprise search",
+   "Knowledge bots",
+   "Data extraction"
+  ],
+  "pricing_details": "Open-source core is free to use; hosted services may be paid; check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is LlamaIndex?",
+    "a": "Framework for connecting LLMs to your data, with a hosted LlamaCloud. See the official site for the full product description."
+   },
+   {
+    "q": "Is LlamaIndex free?",
+    "a": "The core of LlamaIndex is open source, but hosted or enterprise offerings may cost money."
+   },
+   {
+    "q": "What should I check before using LlamaIndex in production?",
+    "a": "Review security settings, usage limits, data handling and costs, and test on a small project first."
+   }
+  ],
+  "seo_title": "LlamaIndex - Features, Pricing and Alternatives",
+  "seo_description": "Framework for connecting LLMs to your data, with a hosted LlamaCloud. Overview of LlamaIndex features, use cases and alternatives.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ }
+]

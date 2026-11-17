@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { Flame, Copy, ArrowUpRight } from 'lucide-react';
 import { modelLabel, icon } from '@/lib/site';
 import FavButton from './FavButton';
+import ToolLogo from './ToolLogo';
 
 const dateFmt = (d) => { try { return new Date(d).toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' }); } catch (e) { return ''; } };
 
@@ -34,7 +35,7 @@ export function ToolCard({ t, catName }) {
   return (
     <article className="pz-card pz-tc">
       <div className="pz-tool-top">
-        {t.logo_url ? <img className="pz-logo" src={t.logo_url} alt="" loading="lazy" width="40" height="40" /> : <span className="pz-logo pz-logo-ph" aria-hidden="true">{String(t.name || '?').slice(0, 1).toUpperCase()}</span>}
+        <ToolLogo tool={t} size={44} />
         <div className="pz-tool-id">
           <h3 className="pz-title"><Link href={href} className="pz-stretch">{t.name}</Link></h3>
           <div className="pz-tags">{t.pricing && <span className="tag ac">{t.pricing}</span>}{t.featured && <span className="pz-pop"><Flame size={12} aria-hidden="true" />Popular</span>}</div>

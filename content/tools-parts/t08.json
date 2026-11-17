@@ -1,0 +1,283 @@
+[
+ {
+  "slug": "grain-meeting-recorder",
+  "name": "Grain",
+  "category": "audio",
+  "website_url": "https://grain.com/",
+  "pricing": "Unknown",
+  "tagline": "AI notetaker that records meetings and turns them into notes and clips.",
+  "best_for": "Sales and customer-facing teams that review calls",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Grain is a meeting recorder and AI notetaker. It records and transcribes video calls, produces summaries, and lets you pull out short clips of important moments so teammates can watch a key part instead of a full recording.\n\nIt is mainly aimed at teams that talk to customers, such as sales, product and customer success, where sharing the exact moment a customer said something is useful. Review summaries and transcripts for accuracy before sharing, and tell participants when you record. Supported video platforms, integrations and plans change, so check the official site for current plans.",
+  "use_steps": [
+   "Create an account on the official site.",
+   "Connect your calendar or meeting platform as instructed.",
+   "Record a meeting and let the transcript and summary generate.",
+   "Review the notes and share a clip or summary with your team."
+  ],
+  "pros": [
+   "Transcripts and summaries from calls",
+   "Clip sharing for key moments",
+   "Suited to customer conversations",
+   "Searchable record of meetings"
+  ],
+  "cons": [
+   "Recording requires participant consent",
+   "AI summaries can miss context"
+  ],
+  "alternatives": [
+   "fireflies-ai",
+   "otter-ai",
+   "supernormal"
+  ],
+  "tags": [
+   "meetings",
+   "notes",
+   "transcription",
+   "clips",
+   "sales"
+  ],
+  "features": [
+   "Meeting recording and transcription",
+   "AI summaries",
+   "Highlight clips",
+   "Sharing with teammates"
+  ],
+  "use_cases": [
+   "Reviewing customer calls",
+   "Sharing key moments with product teams",
+   "Keeping searchable meeting records"
+  ],
+  "pricing_details": "Plans and limits for Grain can change over time. Pricing was not verified for this entry, so check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Grain?",
+    "a": "Grain is an AI meeting recorder that transcribes calls, summarizes them and lets you share short clips of important moments."
+   },
+   {
+    "q": "Is Grain free?",
+    "a": "Pricing was not verified for this entry. Check the official site for the current plans and any free option."
+   },
+   {
+    "q": "Should I tell people I am recording?",
+    "a": "Yes. Recording and transcribing laws and workplace rules vary, so get consent and follow your organisation's policy."
+   }
+  ],
+  "seo_title": "Grain: What It Is and How to Use It",
+  "seo_description": "Learn what Grain is, who it suits, key features, pros and cons and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "supernormal",
+  "name": "Supernormal",
+  "category": "audio",
+  "website_url": "https://supernormal.com/",
+  "pricing": "Unknown",
+  "tagline": "AI meeting notes tool that writes summaries and action items from calls.",
+  "best_for": "Teams that want structured notes without typing them",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Supernormal is an AI meeting notes tool. It joins or captures your video calls, transcribes the conversation and produces a written summary with decisions and follow-up items, so you can stay in the discussion instead of typing.\n\nIt is useful for recurring team meetings, project check-ins and client calls where a consistent note format helps. As with any automatic notes, read the output before sending it around, because names, numbers and decisions can be mis-heard. Supported meeting tools, templates and pricing can change, so check the official site for current plans.",
+  "use_steps": [
+   "Sign up on the official site.",
+   "Link your calendar and video meeting tool.",
+   "Run a meeting and let it generate notes.",
+   "Edit the summary and share it with attendees."
+  ],
+  "pros": [
+   "Structured summaries and action items",
+   "Saves manual note-taking",
+   "Works for recurring meetings",
+   "Notes can be shared with the team"
+  ],
+  "cons": [
+   "Transcription errors are possible",
+   "Features depend on plan"
+  ],
+  "alternatives": [
+   "fireflies-ai",
+   "otter-ai",
+   "grain-meeting-recorder"
+  ],
+  "tags": [
+   "meeting notes",
+   "summaries",
+   "action items",
+   "transcription"
+  ],
+  "features": [
+   "Automatic transcription",
+   "AI-written summaries",
+   "Action item capture",
+   "Shareable notes"
+  ],
+  "use_cases": [
+   "Weekly team syncs",
+   "Client call follow-ups",
+   "Project status meetings"
+  ],
+  "pricing_details": "Plans and limits for Supernormal can change over time. Pricing was not verified for this entry, so check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What does Supernormal do?",
+    "a": "It turns recorded meetings into written notes with summaries and action items."
+   },
+   {
+    "q": "Is Supernormal free?",
+    "a": "Pricing was not verified here. See the official site for current plans."
+   },
+   {
+    "q": "Are the notes always accurate?",
+    "a": "No. Check names, figures and decisions before relying on them."
+   }
+  ],
+  "seo_title": "Supernormal: What It Is and How to Use It",
+  "seo_description": "Learn what Supernormal is, who it suits, key features, pros and cons and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "jamie-ai",
+  "name": "Jamie",
+  "category": "audio",
+  "website_url": "https://www.meetjamie.ai/",
+  "pricing": "Unknown",
+  "tagline": "Meeting notetaker that captures calls without a bot joining.",
+  "best_for": "People who dislike bots joining their calls",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Jamie is an AI meeting notetaker from the company behind meetjamie.ai. Its approach, as it describes on its own site, is to take notes from your meetings without a bot joining the call, producing summaries and action items afterwards.\n\nThis can suit consultants, founders and anyone who meets clients who may not like a recording bot in the room. You should still tell participants you are capturing audio and follow local consent rules. Languages, platforms and plans change, so check the official site for current plans.",
+  "use_steps": [
+   "Create an account on meetjamie.ai.",
+   "Install or set up the capture method it offers.",
+   "Hold your meeting as normal.",
+   "Review the generated summary and action items."
+  ],
+  "pros": [
+   "No visible bot in calls",
+   "Summaries and action items",
+   "Good for client meetings",
+   "Reduces manual note-taking"
+  ],
+  "cons": [
+   "Consent and privacy still matter",
+   "Accuracy depends on audio quality"
+  ],
+  "alternatives": [
+   "otter-ai",
+   "fireflies-ai",
+   "supernormal"
+  ],
+  "tags": [
+   "meeting notes",
+   "no bot",
+   "summaries",
+   "transcription"
+  ],
+  "features": [
+   "Bot-free meeting capture",
+   "AI summaries",
+   "Action items",
+   "Meeting history"
+  ],
+  "use_cases": [
+   "Client calls",
+   "Interviews",
+   "Internal catch-ups"
+  ],
+  "pricing_details": "Plans and limits for Jamie can change over time. Pricing was not verified for this entry, so check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Jamie?",
+    "a": "An AI meeting notetaker that produces summaries and action items without a bot joining the call."
+   },
+   {
+    "q": "Is Jamie free?",
+    "a": "Pricing was not verified here. Check the official site."
+   },
+   {
+    "q": "Is it okay to record without telling people?",
+    "a": "No. Inform participants and follow local rules."
+   }
+  ],
+  "seo_title": "Jamie: What It Is and How to Use It",
+  "seo_description": "Learn what Jamie is, who it suits, key features, pros and cons and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "soundraw",
+  "name": "Soundraw",
+  "category": "audio",
+  "website_url": "https://soundraw.io/",
+  "pricing": "Unknown",
+  "tagline": "AI music generator for creating customizable background tracks.",
+  "best_for": "Creators needing background music for videos",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Soundraw is an AI music generator that builds instrumental tracks you can adjust. You pick options such as mood, genre or length and tweak the arrangement rather than writing a text prompt for a full song.\n\nIt is aimed at video creators, podcasters and marketers who need background music with a specific duration. Licensing terms matter for commercial use, so read them on the official site before publishing. Plans and pricing have changed over time, so check the official site for current plans.",
+  "use_steps": [
+   "Open the official site and sign up.",
+   "Choose mood, genre and length.",
+   "Adjust the arrangement of the generated track.",
+   "Download it after checking the license terms."
+  ],
+  "pros": [
+   "Adjustable instrumental tracks",
+   "Control over length",
+   "Suited to video background music",
+   "Simple selection-based workflow"
+  ],
+  "cons": [
+   "Mainly instrumental",
+   "License terms need checking"
+  ],
+  "alternatives": [
+   "suno",
+   "elevenlabs",
+   "audacity"
+  ],
+  "tags": [
+   "music",
+   "ai music",
+   "background music",
+   "video"
+  ],
+  "features": [
+   "Mood and genre selection",
+   "Track length control",
+   "Arrangement editing",
+   "Instrumental generation"
+  ],
+  "use_cases": [
+   "YouTube background music",
+   "Podcast intros",
+   "Ad soundtracks"
+  ],
+  "pricing_details": "Plans and limits for Soundraw can change over time. Pricing was not verified for this entry, so check the official site for current plans.",
+  "faq": [
+   {
+    "q": "What is Soundraw?",
+    "a": "An AI music generator that creates adjustable instrumental tracks."
+   },
+   {
+    "q": "Is Soundraw free?",
+    "a": "Pricing was not verified here and has changed in the past. Check the official site."
+   },
+   {
+    "q": "Can I use the music commercially?",
+    "a": "It depends on your plan and the terms. Read the license on the official site."
+   }
+  ],
+  "seo_title": "Soundraw: What It Is and How to Use It",
+  "seo_description": "Learn what Soundraw is, who it suits, key features, pros and cons and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ }
+]

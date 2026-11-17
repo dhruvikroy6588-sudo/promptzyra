@@ -1,0 +1,795 @@
+[
+ {
+  "slug": "opus-clip",
+  "name": "OpusClip",
+  "category": "video",
+  "website_url": "https://www.opus.pro",
+  "pricing": "Unknown",
+  "tagline": "AI tool that turns long videos into short social clips.",
+  "best_for": "Creators repurposing podcasts and long videos into shorts",
+  "platforms": [
+   "Web"
+  ],
+  "description": "OpusClip analyses a long video, such as a podcast, webinar or stream, and proposes shorter clips suited to platforms like TikTok, Reels and YouTube Shorts. It reframes footage to vertical format and adds captions so clips can be posted with little manual editing.\n\nIt fits people who publish long-form content and want more short posts from the same recording. Treat the suggested clips as a first pass: review each one for context, accuracy of captions and a sensible start and end. Check the official site for current plans and limits.",
+  "use_steps": [
+   "Upload a video or paste a link.",
+   "Choose clip length and language options.",
+   "Review the suggested clips and edit captions.",
+   "Export and post to your social channels."
+  ],
+  "pros": [
+   "Saves time on clip hunting",
+   "Automatic captions and reframing",
+   "Suited to podcast and webinar footage"
+  ],
+  "cons": [
+   "Clip selection may miss context",
+   "Needs human review"
+  ],
+  "alternatives": [
+   "vizard",
+   "klap",
+   "submagic"
+  ],
+  "tags": [
+   "video",
+   "repurposing",
+   "shorts",
+   "captions",
+   "clips"
+  ],
+  "features": [
+   "Long video to short clips",
+   "Auto captions",
+   "Vertical reframing",
+   "Clip editing",
+   "Social export"
+  ],
+  "use_cases": [
+   "Podcast highlights",
+   "Webinar teasers",
+   "Stream clips",
+   "YouTube Shorts"
+  ],
+  "pricing_details": "Plans and credit limits change; see the official site for current pricing.",
+  "faq": [
+   {
+    "q": "Is OpusClip free to try?",
+    "a": "Free options may exist but vary; check the official site."
+   },
+   {
+    "q": "Does it edit clips automatically?",
+    "a": "It proposes clips and captions, but you should review them."
+   },
+   {
+    "q": "Can it work with podcasts?",
+    "a": "Yes, repurposing long recordings is a common use."
+   }
+  ],
+  "seo_title": "OpusClip - AI Tool Review and Features",
+  "seo_description": "AI tool that turns long videos into short social clips. Features, use cases and alternatives for OpusClip.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "vizard",
+  "name": "Vizard",
+  "category": "video",
+  "website_url": "https://vizard.ai",
+  "pricing": "Unknown",
+  "tagline": "AI video clipper that cuts long videos into short clips.",
+  "best_for": "Teams making short clips from long recordings",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Vizard is a web tool that takes long recordings and finds moments worth sharing as short clips. It offers a clip maker that adds subtitles and lets you adjust the selection before exporting.\n\nIt suits marketers, podcasters and course creators who record a lot of long content. As with any automated clipper, check that each clip stands on its own and that subtitles are correct. Check the official site for current plans.",
+  "use_steps": [
+   "Upload footage or add a link.",
+   "Let the tool propose clips.",
+   "Edit subtitles and trim clips.",
+   "Export for each platform."
+  ],
+  "pros": [
+   "Quick clip suggestions",
+   "Subtitle editing",
+   "Browser based"
+  ],
+  "cons": [
+   "Suggestions need human review",
+   "Features vary by plan"
+  ],
+  "alternatives": [
+   "opus-clip",
+   "klap",
+   "submagic"
+  ],
+  "tags": [
+   "video",
+   "clips",
+   "subtitles",
+   "repurposing",
+   "editor"
+  ],
+  "features": [
+   "AI clip maker",
+   "Subtitles",
+   "Clip trimming",
+   "Link import",
+   "Exports"
+  ],
+  "use_cases": [
+   "Podcast clips",
+   "Course snippets",
+   "Interview highlights",
+   "Social posts"
+  ],
+  "pricing_details": "Pricing varies by plan; see the official site.",
+  "faq": [
+   {
+    "q": "What does Vizard do?",
+    "a": "It turns long videos into short clips with subtitles."
+   },
+   {
+    "q": "Is it browser based?",
+    "a": "Yes, it runs on the web."
+   },
+   {
+    "q": "Do I need to edit clips?",
+    "a": "Reviewing is recommended."
+   }
+  ],
+  "seo_title": "Vizard - AI Tool Review and Features",
+  "seo_description": "AI video clipper that cuts long videos into short clips. Features, use cases and alternatives for Vizard.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "klap",
+  "name": "Klap",
+  "category": "video",
+  "website_url": "https://klap.app",
+  "pricing": "Unknown",
+  "tagline": "Turns YouTube-style videos into vertical short clips.",
+  "best_for": "Creators repurposing videos into social shorts",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Klap is a web app that converts longer videos into short vertical clips for social platforms. It focuses on quick repurposing, with tools for short-video generation and clip creation listed on its site.\n\nIt works best for talking-head and podcast style content where a few strong moments can stand alone. Review the output before posting, since automated framing and selection can miss nuance. Check the official site for current plans and limits.",
+  "use_steps": [
+   "Paste a video link or upload a file.",
+   "Choose the clip settings.",
+   "Review generated shorts.",
+   "Download and publish."
+  ],
+  "pros": [
+   "Fast repurposing workflow",
+   "Vertical output",
+   "Simple interface"
+  ],
+  "cons": [
+   "Automated picks need review",
+   "Plan limits apply"
+  ],
+  "alternatives": [
+   "opus-clip",
+   "vizard",
+   "submagic"
+  ],
+  "tags": [
+   "video",
+   "shorts",
+   "repurposing",
+   "vertical",
+   "clips"
+  ],
+  "features": [
+   "Video to shorts",
+   "Vertical framing",
+   "Clip generation",
+   "Web app",
+   "Export"
+  ],
+  "use_cases": [
+   "YouTube to Shorts",
+   "Podcast clips",
+   "Webinar highlights",
+   "Interview snippets"
+  ],
+  "pricing_details": "Pricing and trials vary; see the official site.",
+  "faq": [
+   {
+    "q": "What is Klap used for?",
+    "a": "Repurposing long videos into short clips."
+   },
+   {
+    "q": "Is it a desktop app?",
+    "a": "It is a web app."
+   },
+   {
+    "q": "Should I review results?",
+    "a": "Yes, always."
+   }
+  ],
+  "seo_title": "Klap - AI Tool Review and Features",
+  "seo_description": "Turns YouTube-style videos into vertical short clips. Features, use cases and alternatives for Klap.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "submagic",
+  "name": "Submagic",
+  "category": "video",
+  "website_url": "https://www.submagic.co",
+  "pricing": "Unknown",
+  "tagline": "AI captioning tool for short-form videos.",
+  "best_for": "Creators adding styled captions to short videos",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Submagic adds automatic captions to short-form videos, with styled subtitle looks aimed at TikTok, Reels and Shorts. It is built around speeding up the caption step that many creators do by hand.\n\nIt suits solo creators and small teams who post often and want consistent caption styling. Always proofread the transcript, especially names and technical terms. Check the official site for current plans and what each includes.",
+  "use_steps": [
+   "Upload your video.",
+   "Pick a caption style and language.",
+   "Correct any transcript errors.",
+   "Export the captioned video."
+  ],
+  "pros": [
+   "Styled captions",
+   "Speeds up editing",
+   "Made for short-form"
+  ],
+  "cons": [
+   "Transcripts need proofreading",
+   "Paid features vary"
+  ],
+  "alternatives": [
+   "opus-clip",
+   "vizard",
+   "klap"
+  ],
+  "tags": [
+   "captions",
+   "subtitles",
+   "video",
+   "shorts",
+   "editing"
+  ],
+  "features": [
+   "Auto captions",
+   "Caption styles",
+   "Transcript editing",
+   "Short-form focus",
+   "Export"
+  ],
+  "use_cases": [
+   "Reels captions",
+   "TikTok subtitles",
+   "Shorts",
+   "Talking-head videos"
+  ],
+  "pricing_details": "Plans change; see the official site.",
+  "faq": [
+   {
+    "q": "What does Submagic do?",
+    "a": "It generates and styles captions for videos."
+   },
+   {
+    "q": "Are captions always accurate?",
+    "a": "No, proofread them."
+   },
+   {
+    "q": "Who is it for?",
+    "a": "Short-form video creators."
+   }
+  ],
+  "seo_title": "Submagic - AI Tool Review and Features",
+  "seo_description": "AI captioning tool for short-form videos. Features, use cases and alternatives for Submagic.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "pictory",
+  "name": "Pictory",
+  "category": "video",
+  "website_url": "https://pictory.ai",
+  "pricing": "Unknown",
+  "tagline": "Creates videos from scripts, articles and long recordings.",
+  "best_for": "Marketers turning text into branded videos",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Pictory builds videos from text such as scripts or articles, matching stock footage and adding voiceover and captions. It also offers ways to shorten longer recordings into highlights.\n\nIt suits content marketers, educators and small businesses who need explainer-style videos without filming. Review the chosen visuals and narration so the video matches your message. Check the official site for current plans, which are listed on its pricing page.",
+  "use_steps": [
+   "Paste a script or article.",
+   "Choose visuals and a voiceover.",
+   "Edit scenes and captions.",
+   "Render and export the video."
+  ],
+  "pros": [
+   "Text to video workflow",
+   "Stock footage and captions",
+   "Useful for explainers"
+  ],
+  "cons": [
+   "Auto visuals may need replacing",
+   "Plan limits apply"
+  ],
+  "alternatives": [
+   "fliki",
+   "lumen5",
+   "invideo-ai"
+  ],
+  "tags": [
+   "video",
+   "text-to-video",
+   "marketing",
+   "captions",
+   "explainer"
+  ],
+  "features": [
+   "Script to video",
+   "Article to video",
+   "Auto captions",
+   "Voiceovers",
+   "Highlights"
+  ],
+  "use_cases": [
+   "Blog to video",
+   "Explainers",
+   "Training clips",
+   "Social posts"
+  ],
+  "pricing_details": "See the official pricing page for plans.",
+  "faq": [
+   {
+    "q": "Can Pictory use my script?",
+    "a": "Yes, text to video is a core use."
+   },
+   {
+    "q": "Does it add voiceover?",
+    "a": "It offers AI voiceover options."
+   },
+   {
+    "q": "Is it for filming?",
+    "a": "No, it assembles from text and stock."
+   }
+  ],
+  "seo_title": "Pictory - AI Tool Review and Features",
+  "seo_description": "Creates videos from scripts, articles and long recordings. Features, use cases and alternatives for Pictory.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "fliki",
+  "name": "Fliki",
+  "category": "video",
+  "website_url": "https://fliki.ai",
+  "pricing": "Unknown",
+  "tagline": "Turns text into videos with AI voices.",
+  "best_for": "Making narrated videos from text",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Fliki converts text into videos with AI voiceover, pairing narration with visuals so you can produce explainers and social videos without recording. Its site highlights turning text into videos with AI voices.\n\nIt is handy for people who write more easily than they film, such as bloggers and trainers. Listen to the narration for pronunciation and pacing before publishing. Check the official site for current plans and supported languages.",
+  "use_steps": [
+   "Enter or paste your text.",
+   "Pick a voice and visuals.",
+   "Adjust scenes and timing.",
+   "Export the finished video."
+  ],
+  "pros": [
+   "Text based workflow",
+   "AI voices included",
+   "Quick drafts"
+  ],
+  "cons": [
+   "Voice quality varies",
+   "Plan limits apply"
+  ],
+  "alternatives": [
+   "pictory",
+   "lumen5",
+   "murf-ai"
+  ],
+  "tags": [
+   "video",
+   "text-to-video",
+   "voiceover",
+   "tts",
+   "explainer"
+  ],
+  "features": [
+   "Text to video",
+   "AI voices",
+   "Scene editing",
+   "Captions",
+   "Export"
+  ],
+  "use_cases": [
+   "Blog to video",
+   "Training videos",
+   "Product explainers",
+   "Social clips"
+  ],
+  "pricing_details": "See the official site for plans.",
+  "faq": [
+   {
+    "q": "What is Fliki?",
+    "a": "A text to video tool with AI voices."
+   },
+   {
+    "q": "Can I choose voices?",
+    "a": "Yes, from its library."
+   },
+   {
+    "q": "Is filming needed?",
+    "a": "No."
+   }
+  ],
+  "seo_title": "Fliki - AI Tool Review and Features",
+  "seo_description": "Turns text into videos with AI voices. Features, use cases and alternatives for Fliki.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "lumen5",
+  "name": "Lumen5",
+  "category": "video",
+  "website_url": "https://lumen5.com",
+  "pricing": "Unknown",
+  "tagline": "Video maker that turns content into branded social videos.",
+  "best_for": "Marketing teams making social videos from text",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Lumen5 is an online video maker aimed at marketing teams, turning text and articles into short branded videos with templates and stock media.\n\nIt works for teams who want consistent social video output without a video editor. Check that automatically selected visuals fit your message and brand. Review the official site for current plans.",
+  "use_steps": [
+   "Start from a script or article.",
+   "Pick a template and brand colors.",
+   "Swap media and edit text.",
+   "Export the video."
+  ],
+  "pros": [
+   "Template based",
+   "Brand styling",
+   "Easy for non editors"
+  ],
+  "cons": [
+   "Visual matching needs review",
+   "Plans vary"
+  ],
+  "alternatives": [
+   "pictory",
+   "fliki",
+   "invideo-ai"
+  ],
+  "tags": [
+   "video",
+   "marketing",
+   "templates",
+   "social",
+   "maker"
+  ],
+  "features": [
+   "Templates",
+   "Text to video",
+   "Branding",
+   "Stock media",
+   "Export"
+  ],
+  "use_cases": [
+   "Blog promos",
+   "Social ads",
+   "Announcements",
+   "Recaps"
+  ],
+  "pricing_details": "See the official site.",
+  "faq": [
+   {
+    "q": "Who uses Lumen5?",
+    "a": "Marketing teams."
+   },
+   {
+    "q": "Is it template based?",
+    "a": "Yes."
+   },
+   {
+    "q": "Do I need skills?",
+    "a": "Few."
+   }
+  ],
+  "seo_title": "Lumen5 - AI Tool Review and Features",
+  "seo_description": "Video maker that turns content into branded social videos. Features, use cases and alternatives for Lumen5.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "colossyan",
+  "name": "Colossyan",
+  "category": "video",
+  "website_url": "https://www.colossyan.com",
+  "pricing": "Unknown",
+  "tagline": "AI avatar video platform for training and business videos.",
+  "best_for": "L and D teams making avatar-led training videos",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Colossyan creates videos with AI avatar presenters, aimed at training, courses and internal communication. Its site highlights videos and courses in one platform.\n\nIt suits teams who update training often and want to avoid re-filming. Check avatar and script wording for accuracy and use avatars responsibly. See the official pricing page for current plans.",
+  "use_steps": [
+   "Write or paste a script.",
+   "Choose an avatar and voice.",
+   "Add slides and media.",
+   "Render and share."
+  ],
+  "pros": [
+   "Avatar presenters",
+   "Fits training content",
+   "Easy updates"
+  ],
+  "cons": [
+   "Avatars can feel stiff",
+   "Plan limits apply"
+  ],
+  "alternatives": [
+   "synthesia",
+   "heygen",
+   "d-id"
+  ],
+  "tags": [
+   "video",
+   "avatars",
+   "training",
+   "presenters",
+   "business"
+  ],
+  "features": [
+   "AI avatars",
+   "Script to video",
+   "Courses",
+   "Voices",
+   "Export"
+  ],
+  "use_cases": [
+   "Employee training",
+   "Onboarding",
+   "Product demos",
+   "Courses"
+  ],
+  "pricing_details": "See the official pricing page.",
+  "faq": [
+   {
+    "q": "What is Colossyan?",
+    "a": "An AI avatar video platform."
+   },
+   {
+    "q": "Is it for training?",
+    "a": "Yes, a main use."
+   },
+   {
+    "q": "Do I need a camera?",
+    "a": "No."
+   }
+  ],
+  "seo_title": "Colossyan - AI Tool Review and Features",
+  "seo_description": "AI avatar video platform for training and business videos. Features, use cases and alternatives for Colossyan.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "d-id",
+  "name": "D-ID",
+  "category": "video",
+  "website_url": "https://www.d-id.com",
+  "pricing": "Unknown",
+  "tagline": "AI platform for talking avatars and digital presenters.",
+  "best_for": "Creating talking avatar videos from images and text",
+  "platforms": [
+   "Web"
+  ],
+  "description": "D-ID offers tools for generating talking avatar videos, including its Creative Reality Studio, from a photo or avatar and a script.\n\nIt suits presenters for explainers, training and marketing. Only use images and likenesses you have rights to, and disclose AI presenters where appropriate. Check the official site for current plans.",
+  "use_steps": [
+   "Pick or upload an avatar.",
+   "Enter a script or audio.",
+   "Generate the video.",
+   "Review and download."
+  ],
+  "pros": [
+   "Talking avatar generation",
+   "Web studio",
+   "Quick results"
+  ],
+  "cons": [
+   "Likeness rights need care",
+   "Plans vary"
+  ],
+  "alternatives": [
+   "heygen",
+   "synthesia",
+   "colossyan"
+  ],
+  "tags": [
+   "video",
+   "avatars",
+   "talking-head",
+   "presenter",
+   "ai"
+  ],
+  "features": [
+   "Talking avatars",
+   "Script input",
+   "Studio",
+   "Voices",
+   "Export"
+  ],
+  "use_cases": [
+   "Explainers",
+   "Training",
+   "Marketing videos",
+   "Prototypes"
+  ],
+  "pricing_details": "See the official site.",
+  "faq": [
+   {
+    "q": "What is D-ID?",
+    "a": "A talking avatar tool."
+   },
+   {
+    "q": "Can I use my photo?",
+    "a": "Only with rights."
+   },
+   {
+    "q": "Is it free?",
+    "a": "Check the site."
+   }
+  ],
+  "seo_title": "D-ID - AI Tool Review and Features",
+  "seo_description": "AI platform for talking avatars and digital presenters. Features, use cases and alternatives for D-ID.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "rask-ai",
+  "name": "Rask AI",
+  "category": "video",
+  "website_url": "https://www.rask.ai",
+  "pricing": "Unknown",
+  "tagline": "AI video translation and dubbing platform.",
+  "best_for": "Localizing videos into other languages",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Rask AI translates and dubs videos into other languages, producing translated audio and subtitles for existing footage.\n\nIt suits creators and companies reaching global audiences. Have a native speaker review important dubs, since translations and tone can be off. Check the official site for languages and plans.",
+  "use_steps": [
+   "Upload your video.",
+   "Select target languages.",
+   "Review the translated script.",
+   "Export dubbed video."
+  ],
+  "pros": [
+   "Multi-language dubbing",
+   "Subtitles",
+   "Saves studio time"
+  ],
+  "cons": [
+   "Translations need review",
+   "Plan limits apply"
+  ],
+  "alternatives": [
+   "heygen",
+   "elevenlabs",
+   "veed"
+  ],
+  "tags": [
+   "video",
+   "dubbing",
+   "translation",
+   "localization",
+   "subtitles"
+  ],
+  "features": [
+   "AI dubbing",
+   "Translation",
+   "Subtitles",
+   "Voices",
+   "Export"
+  ],
+  "use_cases": [
+   "Course localization",
+   "YouTube dubs",
+   "Marketing",
+   "Training"
+  ],
+  "pricing_details": "See the official site.",
+  "faq": [
+   {
+    "q": "What does Rask do?",
+    "a": "Dubs and translates videos."
+   },
+   {
+    "q": "Are dubs perfect?",
+    "a": "No, review them."
+   },
+   {
+    "q": "Does it add subtitles?",
+    "a": "Yes."
+   }
+  ],
+  "seo_title": "Rask AI - AI Tool Review and Features",
+  "seo_description": "AI video translation and dubbing platform. Features, use cases and alternatives for Rask AI.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "resemble-ai",
+  "name": "Resemble AI",
+  "category": "audio",
+  "website_url": "https://www.resemble.ai",
+  "pricing": "Unknown",
+  "tagline": "Voice cloning and text-to-speech platform.",
+  "best_for": "Developers and teams creating custom AI voices",
+  "platforms": [
+   "Web",
+   "API"
+  ],
+  "description": "Resemble AI provides voice cloning and speech generation, letting you create custom voices and generate audio from text. Its changelog mentions per-clone pricing after a free first clone.\n\nIt suits developers and product teams building voice features. Only clone voices with clear consent. Check the official site for current pricing.",
+  "use_steps": [
+   "Create an account.",
+   "Record or upload voice samples with consent.",
+   "Generate speech from text.",
+   "Export or call through the API."
+  ],
+  "pros": [
+   "Voice cloning",
+   "API access",
+   "Custom voices"
+  ],
+  "cons": [
+   "Consent and ethics matter",
+   "Pricing changes"
+  ],
+  "alternatives": [
+   "elevenlabs",
+   "murf-ai",
+   "speechify"
+  ],
+  "tags": [
+   "audio",
+   "voice-cloning",
+   "tts",
+   "api",
+   "speech"
+  ],
+  "features": [
+   "Voice cloning",
+   "Text to speech",
+   "API",
+   "Custom voices",
+   "Export"
+  ],
+  "use_cases": [
+   "Product voices",
+   "Narration",
+   "Games",
+   "Prototypes"
+  ],
+  "pricing_details": "See the official site.",
+  "faq": [
+   {
+    "q": "Can it clone voices?",
+    "a": "Yes, with consent."
+   },
+   {
+    "q": "Is there an API?",
+    "a": "Yes."
+   },
+   {
+    "q": "Is it free?",
+    "a": "Check the site."
+   }
+  ],
+  "seo_title": "Resemble AI - AI Tool Review and Features",
+  "seo_description": "Voice cloning and text-to-speech platform. Features, use cases and alternatives for Resemble AI.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ }
+]

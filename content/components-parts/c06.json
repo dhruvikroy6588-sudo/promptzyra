@@ -1,0 +1,1575 @@
+[
+ {
+  "type": "hooks",
+  "slug": "block-sudo",
+  "name": "Block sudo Commands",
+  "description": "Blocks any Bash command that uses sudo and tells Claude to ask the user, protecting shared lab machines.",
+  "category": "admin-ops",
+  "tags": [
+   "pretooluse",
+   "sudo",
+   "safety",
+   "bash"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/hooks",
+  "install": "1. Save the script under .claude/hooks/ and make it executable (chmod +x).\n2. Copy the \"hooks\" block from settings-hooks.json into .claude/settings.json.\n3. Start a new Claude Code session.\nHooks run shell commands with your permissions, so read every script before enabling it.",
+  "files": [
+   {
+    "path": "settings-hooks.json",
+    "content": "{\n  \"hooks\": {\n    \"PreToolUse\": [\n      {\n        \"matcher\": \"Bash\",\n        \"hooks\": [\n          {\n            \"type\": \"command\",\n            \"command\": \"${CLAUDE_PROJECT_DIR}/.claude/hooks/block-sudo.sh\"\n          }\n        ]\n      }\n    ]\n  }\n}\n"
+   },
+   {
+    "path": ".claude/hooks/block-sudo.sh",
+    "content": "#!/bin/bash\n# Exit code 2 blocks the tool call and sends stderr to Claude.\nINPUT=$(jq -r '.tool_input.command // empty')\nif echo \"$INPUT\" | grep -Eq '(^|[;&| ])sudo '; then\n  echo \"sudo is blocked here. Ask the user to run it themselves.\" >&2\n  exit 2\nfi\nexit 0\n"
+   }
+  ],
+  "use_cases": [
+   "Shared school computers",
+   "Prevent system changes",
+   "Beginner-safe sessions"
+  ],
+  "example_prompts": [
+   "Install this system package",
+   "Change the file owner"
+  ],
+  "level": "Beginner",
+  "audience": "Teachers"
+ },
+ {
+  "type": "hooks",
+  "slug": "block-curl-pipe-shell",
+  "name": "Block curl Piped to Shell",
+  "description": "Stops commands that download a script and pipe it straight into sh or bash, a risky habit worth teaching against.",
+  "category": "admin-ops",
+  "tags": [
+   "pretooluse",
+   "curl",
+   "pipe",
+   "security"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/hooks",
+  "install": "1. Save the script under .claude/hooks/ and make it executable (chmod +x).\n2. Copy the \"hooks\" block from settings-hooks.json into .claude/settings.json.\n3. Start a new Claude Code session.\nHooks run shell commands with your permissions, so read every script before enabling it.",
+  "files": [
+   {
+    "path": "settings-hooks.json",
+    "content": "{\n  \"hooks\": {\n    \"PreToolUse\": [\n      {\n        \"matcher\": \"Bash\",\n        \"hooks\": [\n          {\n            \"type\": \"command\",\n            \"command\": \"${CLAUDE_PROJECT_DIR}/.claude/hooks/block-curl-pipe-shell.sh\"\n          }\n        ]\n      }\n    ]\n  }\n}\n"
+   },
+   {
+    "path": ".claude/hooks/block-curl-pipe-shell.sh",
+    "content": "#!/bin/bash\n# Exit code 2 blocks the tool call and sends stderr to Claude.\nINPUT=$(jq -r '.tool_input.command // empty')\nif echo \"$INPUT\" | grep -Eq '(curl|wget)[^|]*\\|[[:space:]]*(sudo )?(ba)?sh'; then\n  echo \"Piping a download into a shell is blocked. Download, read, then run it.\" >&2\n  exit 2\nfi\nexit 0\n"
+   }
+  ],
+  "use_cases": [
+   "Teach safe installs",
+   "Protect lab machines",
+   "Security class demos"
+  ],
+  "example_prompts": [
+   "Install the tool from its website",
+   "Run the setup script from that URL"
+  ],
+  "level": "Intermediate",
+  "audience": "Developers"
+ },
+ {
+  "type": "hooks",
+  "slug": "block-force-push",
+  "name": "Block Force Push",
+  "description": "Blocks git push --force and -f so nobody rewrites shared history by accident in a group project.",
+  "category": "coding-education",
+  "tags": [
+   "pretooluse",
+   "git",
+   "force-push",
+   "safety"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/hooks",
+  "install": "1. Save the script under .claude/hooks/ and make it executable (chmod +x).\n2. Copy the \"hooks\" block from settings-hooks.json into .claude/settings.json.\n3. Start a new Claude Code session.\nHooks run shell commands with your permissions, so read every script before enabling it.",
+  "files": [
+   {
+    "path": "settings-hooks.json",
+    "content": "{\n  \"hooks\": {\n    \"PreToolUse\": [\n      {\n        \"matcher\": \"Bash\",\n        \"hooks\": [\n          {\n            \"type\": \"command\",\n            \"command\": \"${CLAUDE_PROJECT_DIR}/.claude/hooks/block-force-push.sh\"\n          }\n        ]\n      }\n    ]\n  }\n}\n"
+   },
+   {
+    "path": ".claude/hooks/block-force-push.sh",
+    "content": "#!/bin/bash\n# Exit code 2 blocks the tool call and sends stderr to Claude.\nINPUT=$(jq -r '.tool_input.command // empty')\nif echo \"$INPUT\" | grep -Eq 'git push.*(--force|[[:space:]]-f([[:space:]]|$))'; then\n  echo \"Force push is blocked. Use a normal push or ask the user.\" >&2\n  exit 2\nfi\nexit 0\n"
+   }
+  ],
+  "use_cases": [
+   "Group repos",
+   "Teach safe Git",
+   "Protect main branches"
+  ],
+  "example_prompts": [
+   "Push my rebased branch",
+   "Overwrite the remote with my version"
+  ],
+  "level": "Beginner",
+  "audience": "Students"
+ },
+ {
+  "type": "hooks",
+  "slug": "block-git-reset-hard",
+  "name": "Block git reset --hard",
+  "description": "Blocks git reset --hard and git clean -fd, which silently erase uncommitted work, with a message pointing to safer options.",
+  "category": "coding-education",
+  "tags": [
+   "pretooluse",
+   "git",
+   "reset",
+   "data-loss"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/hooks",
+  "install": "1. Save the script under .claude/hooks/ and make it executable (chmod +x).\n2. Copy the \"hooks\" block from settings-hooks.json into .claude/settings.json.\n3. Start a new Claude Code session.\nHooks run shell commands with your permissions, so read every script before enabling it.",
+  "files": [
+   {
+    "path": "settings-hooks.json",
+    "content": "{\n  \"hooks\": {\n    \"PreToolUse\": [\n      {\n        \"matcher\": \"Bash\",\n        \"hooks\": [\n          {\n            \"type\": \"command\",\n            \"command\": \"${CLAUDE_PROJECT_DIR}/.claude/hooks/block-git-reset-hard.sh\"\n          }\n        ]\n      }\n    ]\n  }\n}\n"
+   },
+   {
+    "path": ".claude/hooks/block-git-reset-hard.sh",
+    "content": "#!/bin/bash\n# Exit code 2 blocks the tool call and sends stderr to Claude.\nINPUT=$(jq -r '.tool_input.command // empty')\nif echo \"$INPUT\" | grep -Eq 'git (reset --hard|clean -[a-z]*f)'; then\n  echo \"This command deletes uncommitted work. Suggest git stash instead.\" >&2\n  exit 2\nfi\nexit 0\n"
+   }
+  ],
+  "use_cases": [
+   "Protect unfinished assignments",
+   "Teach git stash",
+   "Beginner repos"
+  ],
+  "example_prompts": [
+   "Throw away my changes",
+   "Reset the repo to the last commit"
+  ],
+  "level": "Beginner",
+  "audience": "Students"
+ },
+ {
+  "type": "hooks",
+  "slug": "block-chmod-777",
+  "name": "Block chmod 777",
+  "description": "Denies chmod 777 and chmod -R 777 so students learn least-privilege file permissions.",
+  "category": "admin-ops",
+  "tags": [
+   "pretooluse",
+   "chmod",
+   "permissions",
+   "security"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/hooks",
+  "install": "1. Save the script under .claude/hooks/ and make it executable (chmod +x).\n2. Copy the \"hooks\" block from settings-hooks.json into .claude/settings.json.\n3. Start a new Claude Code session.\nHooks run shell commands with your permissions, so read every script before enabling it.",
+  "files": [
+   {
+    "path": "settings-hooks.json",
+    "content": "{\n  \"hooks\": {\n    \"PreToolUse\": [\n      {\n        \"matcher\": \"Bash\",\n        \"hooks\": [\n          {\n            \"type\": \"command\",\n            \"command\": \"${CLAUDE_PROJECT_DIR}/.claude/hooks/block-chmod-777.sh\"\n          }\n        ]\n      }\n    ]\n  }\n}\n"
+   },
+   {
+    "path": ".claude/hooks/block-chmod-777.sh",
+    "content": "#!/bin/bash\n# Exit code 2 blocks the tool call and sends stderr to Claude.\nINPUT=$(jq -r '.tool_input.command // empty')\nif echo \"$INPUT\" | grep -Eq 'chmod[[:space:]]+(-R[[:space:]]+)?777'; then\n  echo \"chmod 777 is blocked. Use a narrower mode such as 644 or 755.\" >&2\n  exit 2\nfi\nexit 0\n"
+   }
+  ],
+  "use_cases": [
+   "Linux and security classes",
+   "Prevent unsafe permissions",
+   "Teach file modes"
+  ],
+  "example_prompts": [
+   "Make this script executable by everyone",
+   "Fix the permission denied error"
+  ],
+  "level": "Beginner",
+  "audience": "Students"
+ },
+ {
+  "type": "hooks",
+  "slug": "protect-tests-dir",
+  "name": "Protect the Tests Directory",
+  "description": "Blocks Edit and Write on files inside tests folders so Claude fixes code instead of rewriting the grader tests.",
+  "category": "assessment",
+  "tags": [
+   "pretooluse",
+   "tests",
+   "grading",
+   "edit"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/hooks",
+  "install": "1. Save the script under .claude/hooks/ and make it executable (chmod +x).\n2. Copy the \"hooks\" block from settings-hooks.json into .claude/settings.json.\n3. Start a new Claude Code session.\nHooks run shell commands with your permissions, so read every script before enabling it.",
+  "files": [
+   {
+    "path": "settings-hooks.json",
+    "content": "{\n  \"hooks\": {\n    \"PreToolUse\": [\n      {\n        \"matcher\": \"Edit|Write\",\n        \"hooks\": [\n          {\n            \"type\": \"command\",\n            \"command\": \"${CLAUDE_PROJECT_DIR}/.claude/hooks/protect-tests-dir.sh\"\n          }\n        ]\n      }\n    ]\n  }\n}\n"
+   },
+   {
+    "path": ".claude/hooks/protect-tests-dir.sh",
+    "content": "#!/bin/bash\n# Exit code 2 blocks the tool call and sends stderr to Claude.\nINPUT=$(jq -r '.tool_input.file_path // empty')\nif echo \"$INPUT\" | grep -Eq '(^|/)tests?/'; then\n  echo \"Test files are protected. Change the source code instead.\" >&2\n  exit 2\nfi\nexit 0\n"
+   }
+  ],
+  "use_cases": [
+   "Autograded homework",
+   "Fair coursework",
+   "Stop test tampering"
+  ],
+  "example_prompts": [
+   "Make the failing test pass",
+   "Update the test to match my output"
+  ],
+  "level": "Intermediate",
+  "audience": "Teachers"
+ },
+ {
+  "type": "hooks",
+  "slug": "protect-lockfiles",
+  "name": "Protect Lockfiles",
+  "description": "Blocks direct edits to package-lock.json, yarn.lock and poetry.lock, which should only change through the package manager.",
+  "category": "coding-education",
+  "tags": [
+   "pretooluse",
+   "lockfile",
+   "dependencies",
+   "edit"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/hooks",
+  "install": "1. Save the script under .claude/hooks/ and make it executable (chmod +x).\n2. Copy the \"hooks\" block from settings-hooks.json into .claude/settings.json.\n3. Start a new Claude Code session.\nHooks run shell commands with your permissions, so read every script before enabling it.",
+  "files": [
+   {
+    "path": "settings-hooks.json",
+    "content": "{\n  \"hooks\": {\n    \"PreToolUse\": [\n      {\n        \"matcher\": \"Edit|Write\",\n        \"hooks\": [\n          {\n            \"type\": \"command\",\n            \"command\": \"${CLAUDE_PROJECT_DIR}/.claude/hooks/protect-lockfiles.sh\"\n          }\n        ]\n      }\n    ]\n  }\n}\n"
+   },
+   {
+    "path": ".claude/hooks/protect-lockfiles.sh",
+    "content": "#!/bin/bash\n# Exit code 2 blocks the tool call and sends stderr to Claude.\nINPUT=$(jq -r '.tool_input.file_path // empty')\nif echo \"$INPUT\" | grep -Eq '(package-lock\\.json|yarn\\.lock|poetry\\.lock|Pipfile\\.lock)$'; then\n  echo \"Lockfiles are generated. Use the package manager to change them.\" >&2\n  exit 2\nfi\nexit 0\n"
+   }
+  ],
+  "use_cases": [
+   "Avoid corrupted lockfiles",
+   "Teach dependency tooling",
+   "Clean commits"
+  ],
+  "example_prompts": [
+   "Pin this version in the lockfile",
+   "Fix the lockfile merge conflict"
+  ],
+  "level": "Intermediate",
+  "audience": "Developers"
+ },
+ {
+  "type": "hooks",
+  "slug": "protect-answer-folder",
+  "name": "Protect the Answers Folder",
+  "description": "Blocks Read, Edit and Write on any path under an answers folder so solutions stay hidden during an assignment.",
+  "category": "assessment",
+  "tags": [
+   "pretooluse",
+   "answers",
+   "integrity",
+   "read"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/hooks",
+  "install": "1. Save the script under .claude/hooks/ and make it executable (chmod +x).\n2. Copy the \"hooks\" block from settings-hooks.json into .claude/settings.json.\n3. Start a new Claude Code session.\nHooks run shell commands with your permissions, so read every script before enabling it.",
+  "files": [
+   {
+    "path": "settings-hooks.json",
+    "content": "{\n  \"hooks\": {\n    \"PreToolUse\": [\n      {\n        \"matcher\": \"Read|Edit|Write\",\n        \"hooks\": [\n          {\n            \"type\": \"command\",\n            \"command\": \"${CLAUDE_PROJECT_DIR}/.claude/hooks/protect-answer-folder.sh\"\n          }\n        ]\n      }\n    ]\n  }\n}\n"
+   },
+   {
+    "path": ".claude/hooks/protect-answer-folder.sh",
+    "content": "#!/bin/bash\n# Exit code 2 blocks the tool call and sends stderr to Claude.\nINPUT=$(jq -r '.tool_input.file_path // empty')\nif echo \"$INPUT\" | grep -Eq '(^|/)answers?/'; then\n  echo \"The answers folder is off limits. Offer a hint instead.\" >&2\n  exit 2\nfi\nexit 0\n"
+   }
+  ],
+  "use_cases": [
+   "Hide solutions",
+   "Fair homework",
+   "Practice without spoilers"
+  ],
+  "example_prompts": [
+   "Show me the solution file",
+   "Compare my work with the answer key"
+  ],
+  "level": "Intermediate",
+  "audience": "Teachers"
+ },
+ {
+  "type": "hooks",
+  "slug": "block-secret-looking-writes",
+  "name": "Block Hardcoded Secrets",
+  "description": "Blocks Write calls whose content looks like an API key or private key, reminding Claude to use environment variables.",
+  "category": "coding-education",
+  "tags": [
+   "pretooluse",
+   "secrets",
+   "write",
+   "api-key"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/hooks",
+  "install": "1. Save the script under .claude/hooks/ and make it executable (chmod +x).\n2. Copy the \"hooks\" block from settings-hooks.json into .claude/settings.json.\n3. Start a new Claude Code session.\nHooks run shell commands with your permissions, so read every script before enabling it.",
+  "files": [
+   {
+    "path": "settings-hooks.json",
+    "content": "{\n  \"hooks\": {\n    \"PreToolUse\": [\n      {\n        \"matcher\": \"Write\",\n        \"hooks\": [\n          {\n            \"type\": \"command\",\n            \"command\": \"${CLAUDE_PROJECT_DIR}/.claude/hooks/block-secret-looking-writes.sh\"\n          }\n        ]\n      }\n    ]\n  }\n}\n"
+   },
+   {
+    "path": ".claude/hooks/block-secret-looking-writes.sh",
+    "content": "#!/bin/bash\n# Exit code 2 blocks the tool call and sends stderr to Claude.\nINPUT=$(jq -r '.tool_input.content // empty')\nif echo \"$INPUT\" | grep -Eq '(sk-[A-Za-z0-9]{20,}|AKIA[0-9A-Z]{16}|BEGIN (RSA |EC )?PRIVATE KEY)'; then\n  echo \"The file content looks like a secret. Use an environment variable.\" >&2\n  exit 2\nfi\nexit 0\n"
+   }
+  ],
+  "use_cases": [
+   "Teach secret hygiene",
+   "Stop leaked keys in repos",
+   "Code review practice"
+  ],
+  "example_prompts": [
+   "Put my API key in the code",
+   "Hardcode the token for now"
+  ],
+  "level": "Intermediate",
+  "audience": "Students"
+ },
+ {
+  "type": "hooks",
+  "slug": "ask-before-npm-install",
+  "name": "Ask Before npm Install",
+  "description": "Returns permissionDecision ask for npm install, so you review each new package before it lands in the project.",
+  "category": "coding-education",
+  "tags": [
+   "pretooluse",
+   "npm",
+   "ask",
+   "dependencies"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/hooks",
+  "install": "1. Copy the \"hooks\" block from settings-hooks.json into ~/.claude/settings.json or .claude/settings.json.\n2. Save the file.\n3. Start a new Claude Code session.\nHooks run shell commands with your permissions, so read every script before enabling it.",
+  "files": [
+   {
+    "path": "settings-hooks.json",
+    "content": "{\n  \"hooks\": {\n    \"PreToolUse\": [\n      {\n        \"matcher\": \"Bash\",\n        \"hooks\": [\n          {\n            \"type\": \"command\",\n            \"if\": \"Bash(npm install *)\",\n            \"command\": \"jq -n '{hookSpecificOutput: {hookEventName: \\\"PreToolUse\\\", permissionDecision: \\\"ask\\\", permissionDecisionReason: \\\"New packages change your project. Confirm to continue.\\\"}}'\"\n          }\n        ]\n      }\n    ]\n  }\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Teach dependency review",
+   "Avoid bloated projects",
+   "Supply-chain awareness"
+  ],
+  "example_prompts": [
+   "Add a date library",
+   "Install express"
+  ],
+  "level": "Beginner",
+  "audience": "Students"
+ },
+ {
+  "type": "hooks",
+  "slug": "ask-before-pip-install",
+  "name": "Ask Before pip Install",
+  "description": "Asks for confirmation before pip install, a good habit for Python learners using virtual environments.",
+  "category": "coding-education",
+  "tags": [
+   "pretooluse",
+   "pip",
+   "ask",
+   "python"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/hooks",
+  "install": "1. Copy the \"hooks\" block from settings-hooks.json into ~/.claude/settings.json or .claude/settings.json.\n2. Save the file.\n3. Start a new Claude Code session.\nHooks run shell commands with your permissions, so read every script before enabling it.",
+  "files": [
+   {
+    "path": "settings-hooks.json",
+    "content": "{\n  \"hooks\": {\n    \"PreToolUse\": [\n      {\n        \"matcher\": \"Bash\",\n        \"hooks\": [\n          {\n            \"type\": \"command\",\n            \"if\": \"Bash(pip install *)\",\n            \"command\": \"jq -n '{hookSpecificOutput: {hookEventName: \\\"PreToolUse\\\", permissionDecision: \\\"ask\\\", permissionDecisionReason: \\\"Check you are in a virtual environment, then confirm.\\\"}}'\"\n          }\n        ]\n      }\n    ]\n  }\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Python classes",
+   "Prevent global installs",
+   "Teach venvs"
+  ],
+  "example_prompts": [
+   "Install requests",
+   "Add pandas to the project"
+  ],
+  "level": "Beginner",
+  "audience": "Students"
+ },
+ {
+  "type": "hooks",
+  "slug": "ask-before-git-commit",
+  "name": "Ask Before git commit",
+  "description": "Asks before every git commit so students read what is being committed and the message used.",
+  "category": "coding-education",
+  "tags": [
+   "pretooluse",
+   "git",
+   "commit",
+   "ask"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/hooks",
+  "install": "1. Copy the \"hooks\" block from settings-hooks.json into ~/.claude/settings.json or .claude/settings.json.\n2. Save the file.\n3. Start a new Claude Code session.\nHooks run shell commands with your permissions, so read every script before enabling it.",
+  "files": [
+   {
+    "path": "settings-hooks.json",
+    "content": "{\n  \"hooks\": {\n    \"PreToolUse\": [\n      {\n        \"matcher\": \"Bash\",\n        \"hooks\": [\n          {\n            \"type\": \"command\",\n            \"if\": \"Bash(git commit *)\",\n            \"command\": \"jq -n '{hookSpecificOutput: {hookEventName: \\\"PreToolUse\\\", permissionDecision: \\\"ask\\\", permissionDecisionReason: \\\"Review the staged changes and message, then confirm.\\\"}}'\"\n          }\n        ]\n      }\n    ]\n  }\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Teach commit discipline",
+   "Review before saving history",
+   "Group projects"
+  ],
+  "example_prompts": [
+   "Commit my work",
+   "Save this progress to git"
+  ],
+  "level": "Beginner",
+  "audience": "Students"
+ },
+ {
+  "type": "hooks",
+  "slug": "ask-before-package-json-edit",
+  "name": "Ask Before Editing package.json",
+  "description": "Asks before any edit to package.json, since dependency and script changes affect the whole project.",
+  "category": "coding-education",
+  "tags": [
+   "pretooluse",
+   "package-json",
+   "edit",
+   "ask"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/hooks",
+  "install": "1. Save the script under .claude/hooks/ and make it executable (chmod +x).\n2. Copy the \"hooks\" block from settings-hooks.json into .claude/settings.json.\n3. Start a new Claude Code session.\nHooks run shell commands with your permissions, so read every script before enabling it.",
+  "files": [
+   {
+    "path": "settings-hooks.json",
+    "content": "{\n  \"hooks\": {\n    \"PreToolUse\": [\n      {\n        \"matcher\": \"Edit|Write\",\n        \"hooks\": [\n          {\n            \"type\": \"command\",\n            \"command\": \"${CLAUDE_PROJECT_DIR}/.claude/hooks/ask-package-json.sh\"\n          }\n        ]\n      }\n    ]\n  }\n}\n"
+   },
+   {
+    "path": ".claude/hooks/ask-package-json.sh",
+    "content": "#!/bin/bash\nFILE=$(jq -r '.tool_input.file_path // empty')\ncase \"$FILE\" in\n  *package.json)\n    jq -n '{hookSpecificOutput: {hookEventName: \"PreToolUse\", permissionDecision: \"ask\", permissionDecisionReason: \"This changes project dependencies or scripts. Confirm.\"}}'\n    ;;\nesac\nexit 0\n"
+   }
+  ],
+  "use_cases": [
+   "Review dependency changes",
+   "Teach project config",
+   "Avoid hidden changes"
+  ],
+  "example_prompts": [
+   "Add a build script",
+   "Bump the React version"
+  ],
+  "level": "Beginner",
+  "audience": "Developers"
+ },
+ {
+  "type": "hooks",
+  "slug": "restrict-webfetch-domains",
+  "name": "Restrict WebFetch to Trusted Sites",
+  "description": "Blocks WebFetch calls unless the URL is on an approved list of docs sites, keeping research on reliable sources.",
+  "category": "writing-research",
+  "tags": [
+   "pretooluse",
+   "webfetch",
+   "domains",
+   "sources"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/hooks",
+  "install": "1. Save the script under .claude/hooks/ and make it executable (chmod +x).\n2. Copy the \"hooks\" block from settings-hooks.json into .claude/settings.json.\n3. Start a new Claude Code session.\nHooks run shell commands with your permissions, so read every script before enabling it.",
+  "files": [
+   {
+    "path": "settings-hooks.json",
+    "content": "{\n  \"hooks\": {\n    \"PreToolUse\": [\n      {\n        \"matcher\": \"WebFetch\",\n        \"hooks\": [\n          {\n            \"type\": \"command\",\n            \"command\": \"${CLAUDE_PROJECT_DIR}/.claude/hooks/restrict-webfetch.sh\"\n          }\n        ]\n      }\n    ]\n  }\n}\n"
+   },
+   {
+    "path": ".claude/hooks/restrict-webfetch.sh",
+    "content": "#!/bin/bash\n# Allowed hosts: edit the pattern to match your course.\nURL=$(jq -r '.tool_input.url // empty')\nif echo \"$URL\" | grep -Eq '^https://([a-z0-9-]+\\.)?(wikipedia\\.org|developer\\.mozilla\\.org|python\\.org|docs\\.claude\\.com)/'; then\n  exit 0\nfi\necho \"Only approved sites can be fetched: $URL\" >&2\nexit 2\n"
+   }
+  ],
+  "use_cases": [
+   "Control which sites Claude reads",
+   "Teach source evaluation",
+   "Class research projects"
+  ],
+  "example_prompts": [
+   "Read this blog post",
+   "Fetch the documentation page"
+  ],
+  "level": "Intermediate",
+  "audience": "Teachers"
+ },
+ {
+  "type": "hooks",
+  "slug": "black-after-edit",
+  "name": "Format Python with Black",
+  "description": "Runs Black on each Python file Claude edits or writes, so student code stays consistently formatted.",
+  "category": "coding-education",
+  "tags": [
+   "posttooluse",
+   "python",
+   "black",
+   "format"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/hooks",
+  "install": "1. Copy the \"hooks\" block from settings-hooks.json into ~/.claude/settings.json or .claude/settings.json.\n2. Save the file.\n3. Start a new Claude Code session.\n4. Requires jq and the black package.\nHooks run shell commands with your permissions, so read every script before enabling it.",
+  "files": [
+   {
+    "path": "settings-hooks.json",
+    "content": "{\n  \"hooks\": {\n    \"PostToolUse\": [\n      {\n        \"matcher\": \"Edit|Write\",\n        \"hooks\": [\n          {\n            \"type\": \"command\",\n            \"command\": \"jq -r '.tool_input.file_path // empty' | grep -E '\\\\.py$' | xargs -r black -q\"\n          }\n        ]\n      }\n    ]\n  }\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Consistent Python style",
+   "Clean diffs",
+   "Teach formatting tools"
+  ],
+  "example_prompts": [
+   "Add a function to utils.py",
+   "Rewrite this class"
+  ],
+  "level": "Intermediate",
+  "audience": "Developers"
+ },
+ {
+  "type": "hooks",
+  "slug": "ruff-check-after-edit",
+  "name": "Lint Python with Ruff",
+  "description": "Runs ruff check on edited Python files and sends any findings back to Claude with exit code 2 so it fixes them.",
+  "category": "coding-education",
+  "tags": [
+   "posttooluse",
+   "python",
+   "ruff",
+   "lint"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/hooks",
+  "install": "1. Save the script under .claude/hooks/ and make it executable (chmod +x).\n2. Copy the \"hooks\" block from settings-hooks.json into .claude/settings.json.\n3. Start a new Claude Code session.\n4. Requires jq and ruff.\nHooks run shell commands with your permissions, so read every script before enabling it.",
+  "files": [
+   {
+    "path": "settings-hooks.json",
+    "content": "{\n  \"hooks\": {\n    \"PostToolUse\": [\n      {\n        \"matcher\": \"Edit|Write\",\n        \"hooks\": [\n          {\n            \"type\": \"command\",\n            \"command\": \"${CLAUDE_PROJECT_DIR}/.claude/hooks/ruff-check.sh\"\n          }\n        ]\n      }\n    ]\n  }\n}\n"
+   },
+   {
+    "path": ".claude/hooks/ruff-check.sh",
+    "content": "#!/bin/bash\nFILE=$(jq -r '.tool_input.file_path // empty')\ncase \"$FILE\" in\n  *.py)\n    OUT=$(ruff check \"$FILE\" 2>&1) || { echo \"$OUT\" >&2; exit 2; }\n    ;;\nesac\nexit 0\n"
+   }
+  ],
+  "use_cases": [
+   "Instant lint feedback",
+   "Teach clean code",
+   "Catch unused imports"
+  ],
+  "example_prompts": [
+   "Write a script that reads a CSV",
+   "Refactor this module"
+  ],
+  "level": "Intermediate",
+  "audience": "Developers"
+ },
+ {
+  "type": "hooks",
+  "slug": "eslint-fix-after-edit",
+  "name": "Auto-Fix JavaScript with ESLint",
+  "description": "Runs eslint --fix on edited JavaScript and TypeScript files so simple style problems fix themselves.",
+  "category": "coding-education",
+  "tags": [
+   "posttooluse",
+   "eslint",
+   "javascript",
+   "autofix"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/hooks",
+  "install": "1. Copy the \"hooks\" block from settings-hooks.json into ~/.claude/settings.json or .claude/settings.json.\n2. Save the file.\n3. Start a new Claude Code session.\n4. Requires jq, Node.js and an ESLint config.\nHooks run shell commands with your permissions, so read every script before enabling it.",
+  "files": [
+   {
+    "path": "settings-hooks.json",
+    "content": "{\n  \"hooks\": {\n    \"PostToolUse\": [\n      {\n        \"matcher\": \"Edit|Write\",\n        \"hooks\": [\n          {\n            \"type\": \"command\",\n            \"command\": \"jq -r '.tool_input.file_path // empty' | grep -E '\\\\.(js|jsx|ts|tsx)$' | xargs -r npx eslint --fix\"\n          }\n        ]\n      }\n    ]\n  }\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Front-end class projects",
+   "Consistent code style",
+   "Show linting in action"
+  ],
+  "example_prompts": [
+   "Add a React component",
+   "Fix this event handler"
+  ],
+  "level": "Intermediate",
+  "audience": "Developers"
+ },
+ {
+  "type": "hooks",
+  "slug": "shellcheck-after-edit",
+  "name": "Check Shell Scripts with ShellCheck",
+  "description": "Runs ShellCheck on shell scripts Claude writes and returns warnings so scripts follow good practice.",
+  "category": "coding-education",
+  "tags": [
+   "posttooluse",
+   "shell",
+   "shellcheck",
+   "lint"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/hooks",
+  "install": "1. Save the script under .claude/hooks/ and make it executable (chmod +x).\n2. Copy the \"hooks\" block from settings-hooks.json into .claude/settings.json.\n3. Start a new Claude Code session.\n4. Requires jq and shellcheck.\nHooks run shell commands with your permissions, so read every script before enabling it.",
+  "files": [
+   {
+    "path": "settings-hooks.json",
+    "content": "{\n  \"hooks\": {\n    \"PostToolUse\": [\n      {\n        \"matcher\": \"Edit|Write\",\n        \"hooks\": [\n          {\n            \"type\": \"command\",\n            \"command\": \"${CLAUDE_PROJECT_DIR}/.claude/hooks/shellcheck.sh\"\n          }\n        ]\n      }\n    ]\n  }\n}\n"
+   },
+   {
+    "path": ".claude/hooks/shellcheck.sh",
+    "content": "#!/bin/bash\nFILE=$(jq -r '.tool_input.file_path // empty')\ncase \"$FILE\" in\n  *.sh)\n    OUT=$(shellcheck \"$FILE\" 2>&1) || { echo \"$OUT\" >&2; exit 2; }\n    ;;\nesac\nexit 0\n"
+   }
+  ],
+  "use_cases": [
+   "Bash scripting classes",
+   "Catch quoting mistakes",
+   "Teach safe scripting"
+  ],
+  "example_prompts": [
+   "Write a backup script",
+   "Fix my deploy.sh"
+  ],
+  "level": "Intermediate",
+  "audience": "Developers"
+ },
+ {
+  "type": "hooks",
+  "slug": "python-syntax-check",
+  "name": "Python Syntax Check",
+  "description": "Compiles each edited Python file with py_compile and feeds syntax errors back to Claude immediately.",
+  "category": "coding-education",
+  "tags": [
+   "posttooluse",
+   "python",
+   "syntax",
+   "compile"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/hooks",
+  "install": "1. Save the script under .claude/hooks/ and make it executable (chmod +x).\n2. Copy the \"hooks\" block from settings-hooks.json into .claude/settings.json.\n3. Start a new Claude Code session.\nHooks run shell commands with your permissions, so read every script before enabling it.",
+  "files": [
+   {
+    "path": "settings-hooks.json",
+    "content": "{\n  \"hooks\": {\n    \"PostToolUse\": [\n      {\n        \"matcher\": \"Edit|Write\",\n        \"hooks\": [\n          {\n            \"type\": \"command\",\n            \"command\": \"${CLAUDE_PROJECT_DIR}/.claude/hooks/py-syntax.sh\"\n          }\n        ]\n      }\n    ]\n  }\n}\n"
+   },
+   {
+    "path": ".claude/hooks/py-syntax.sh",
+    "content": "#!/bin/bash\nFILE=$(jq -r '.tool_input.file_path // empty')\ncase \"$FILE\" in\n  *.py)\n    OUT=$(python3 -m py_compile \"$FILE\" 2>&1) || { echo \"$OUT\" >&2; exit 2; }\n    ;;\nesac\nexit 0\n"
+   }
+  ],
+  "use_cases": [
+   "Catch typos at once",
+   "Beginner debugging",
+   "Reliable generated code"
+  ],
+  "example_prompts": [
+   "Add a menu loop to the game",
+   "Write the sorting function"
+  ],
+  "level": "Beginner",
+  "audience": "Students"
+ },
+ {
+  "type": "hooks",
+  "slug": "json-validate-after-edit",
+  "name": "Validate JSON After Edit",
+  "description": "Checks edited .json files with jq and reports parse errors back to Claude so broken config never lingers.",
+  "category": "coding-education",
+  "tags": [
+   "posttooluse",
+   "json",
+   "validate",
+   "jq"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/hooks",
+  "install": "1. Save the script under .claude/hooks/ and make it executable (chmod +x).\n2. Copy the \"hooks\" block from settings-hooks.json into .claude/settings.json.\n3. Start a new Claude Code session.\nHooks run shell commands with your permissions, so read every script before enabling it.",
+  "files": [
+   {
+    "path": "settings-hooks.json",
+    "content": "{\n  \"hooks\": {\n    \"PostToolUse\": [\n      {\n        \"matcher\": \"Edit|Write\",\n        \"hooks\": [\n          {\n            \"type\": \"command\",\n            \"command\": \"${CLAUDE_PROJECT_DIR}/.claude/hooks/json-validate.sh\"\n          }\n        ]\n      }\n    ]\n  }\n}\n"
+   },
+   {
+    "path": ".claude/hooks/json-validate.sh",
+    "content": "#!/bin/bash\nFILE=$(jq -r '.tool_input.file_path // empty')\ncase \"$FILE\" in\n  *.json)\n    OUT=$(jq empty \"$FILE\" 2>&1) || { echo \"Invalid JSON in $FILE: $OUT\" >&2; exit 2; }\n    ;;\nesac\nexit 0\n"
+   }
+  ],
+  "use_cases": [
+   "Config-heavy assignments",
+   "Teach JSON syntax",
+   "Catch trailing commas"
+  ],
+  "example_prompts": [
+   "Add a new field to config.json",
+   "Create a sample data file"
+  ],
+  "level": "Beginner",
+  "audience": "Students"
+ },
+ {
+  "type": "hooks",
+  "slug": "prettier-markdown-notes",
+  "name": "Format Markdown Notes",
+  "description": "Runs Prettier only on Markdown files Claude writes, keeping study notes and reports neatly formatted.",
+  "category": "writing-research",
+  "tags": [
+   "posttooluse",
+   "markdown",
+   "prettier",
+   "notes"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/hooks",
+  "install": "1. Copy the \"hooks\" block from settings-hooks.json into ~/.claude/settings.json or .claude/settings.json.\n2. Save the file.\n3. Start a new Claude Code session.\n4. Requires jq and Node.js with npx.\nHooks run shell commands with your permissions, so read every script before enabling it.",
+  "files": [
+   {
+    "path": "settings-hooks.json",
+    "content": "{\n  \"hooks\": {\n    \"PostToolUse\": [\n      {\n        \"matcher\": \"Edit|Write\",\n        \"hooks\": [\n          {\n            \"type\": \"command\",\n            \"command\": \"jq -r '.tool_input.file_path // empty' | grep -E '\\\\.md$' | xargs -r npx prettier --write --prose-wrap preserve\"\n          }\n        ]\n      }\n    ]\n  }\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Tidy lecture notes",
+   "Consistent README files",
+   "Clean report drafts"
+  ],
+  "example_prompts": [
+   "Write notes on photosynthesis",
+   "Create a README for my project"
+  ],
+  "level": "Beginner",
+  "audience": "Students"
+ },
+ {
+  "type": "hooks",
+  "slug": "pytest-after-edit",
+  "name": "Quick Pytest After Python Edits",
+  "description": "Runs pytest -x -q after each Python file edit and returns failures to Claude, a fast feedback loop for TDD learners.",
+  "category": "coding-education",
+  "tags": [
+   "posttooluse",
+   "pytest",
+   "tdd",
+   "feedback"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/hooks",
+  "install": "1. Save the script under .claude/hooks/ and make it executable (chmod +x).\n2. Copy the \"hooks\" block from settings-hooks.json into .claude/settings.json.\n3. Start a new Claude Code session.\n4. Requires jq and pytest.\nHooks run shell commands with your permissions, so read every script before enabling it.",
+  "files": [
+   {
+    "path": "settings-hooks.json",
+    "content": "{\n  \"hooks\": {\n    \"PostToolUse\": [\n      {\n        \"matcher\": \"Edit|Write\",\n        \"hooks\": [\n          {\n            \"type\": \"command\",\n            \"command\": \"${CLAUDE_PROJECT_DIR}/.claude/hooks/pytest-quick.sh\"\n          }\n        ]\n      }\n    ]\n  }\n}\n"
+   },
+   {
+    "path": ".claude/hooks/pytest-quick.sh",
+    "content": "#!/bin/bash\nFILE=$(jq -r '.tool_input.file_path // empty')\ncase \"$FILE\" in\n  *.py)\n    OUT=$(pytest -x -q 2>&1) || { echo \"$OUT\" | tail -n 25 >&2; exit 2; }\n    ;;\nesac\nexit 0\n"
+   }
+  ],
+  "use_cases": [
+   "Test-driven learning",
+   "Fast feedback on exercises",
+   "Catch regressions"
+  ],
+  "example_prompts": [
+   "Implement the function so tests pass",
+   "Refactor without breaking tests"
+  ],
+  "level": "Intermediate",
+  "audience": "Students"
+ },
+ {
+  "type": "hooks",
+  "slug": "todo-scanner",
+  "name": "Scan Edited Files for TODOs",
+  "description": "After each edit, appends any TODO or FIXME lines from that file to a todo-scan log in the project .claude folder.",
+  "category": "productivity",
+  "tags": [
+   "posttooluse",
+   "todo",
+   "fixme",
+   "log"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/hooks",
+  "install": "1. Save the script under .claude/hooks/ and make it executable (chmod +x).\n2. Copy the \"hooks\" block from settings-hooks.json into .claude/settings.json.\n3. Start a new Claude Code session.\nHooks run shell commands with your permissions, so read every script before enabling it.",
+  "files": [
+   {
+    "path": "settings-hooks.json",
+    "content": "{\n  \"hooks\": {\n    \"PostToolUse\": [\n      {\n        \"matcher\": \"Edit|Write\",\n        \"hooks\": [\n          {\n            \"type\": \"command\",\n            \"command\": \"${CLAUDE_PROJECT_DIR}/.claude/hooks/todo-scan.sh\"\n          }\n        ]\n      }\n    ]\n  }\n}\n"
+   },
+   {
+    "path": ".claude/hooks/todo-scan.sh",
+    "content": "#!/bin/bash\nFILE=$(jq -r '.tool_input.file_path // empty')\n[ -f \"$FILE\" ] || exit 0\nmkdir -p \"${CLAUDE_PROJECT_DIR:-.}/.claude\"\ngrep -nE 'TODO|FIXME' \"$FILE\" | sed \"s|^|$FILE:|\" >> \"${CLAUDE_PROJECT_DIR:-.}/.claude/todo-scan.log\"\nexit 0\n"
+   }
+  ],
+  "use_cases": [
+   "Track unfinished work",
+   "Prepare for code review",
+   "Self-study checklists"
+  ],
+  "example_prompts": [
+   "Add the login page, leave TODOs for edge cases",
+   "Sketch the module"
+  ],
+  "level": "Beginner",
+  "audience": "Students"
+ },
+ {
+  "type": "hooks",
+  "slug": "log-file-writes",
+  "name": "Log Every File Written",
+  "description": "Appends a timestamp and path for each file Claude writes or edits, giving a simple record of what changed.",
+  "category": "assessment",
+  "tags": [
+   "posttooluse",
+   "audit",
+   "files",
+   "log"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/hooks",
+  "install": "1. Copy the \"hooks\" block from settings-hooks.json into ~/.claude/settings.json or .claude/settings.json.\n2. Save the file.\n3. Start a new Claude Code session.\n4. Requires jq.\nHooks run shell commands with your permissions, so read every script before enabling it.",
+  "files": [
+   {
+    "path": "settings-hooks.json",
+    "content": "{\n  \"hooks\": {\n    \"PostToolUse\": [\n      {\n        \"matcher\": \"Edit|Write\",\n        \"hooks\": [\n          {\n            \"type\": \"command\",\n            \"command\": \"jq -r '\\\"\\\\(now | strftime(\\\"%Y-%m-%d %H:%M:%S\\\")) \\\\(.tool_input.file_path)\\\"' >> ~/.claude/file-change-log.txt\"\n          }\n        ]\n      }\n    ]\n  }\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Review AI-assisted changes",
+   "Assignment transparency",
+   "Simple audit trail"
+  ],
+  "example_prompts": [
+   "Create the project skeleton",
+   "Update the stylesheet"
+  ],
+  "level": "Beginner",
+  "audience": "Teachers"
+ },
+ {
+  "type": "hooks",
+  "slug": "word-count-after-write",
+  "name": "Word Count After Writing",
+  "description": "Logs the word count of each Markdown or text file Claude writes, handy for essays with a length requirement.",
+  "category": "writing-research",
+  "tags": [
+   "posttooluse",
+   "wordcount",
+   "essay",
+   "markdown"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/hooks",
+  "install": "1. Save the script under .claude/hooks/ and make it executable (chmod +x).\n2. Copy the \"hooks\" block from settings-hooks.json into .claude/settings.json.\n3. Start a new Claude Code session.\nHooks run shell commands with your permissions, so read every script before enabling it.",
+  "files": [
+   {
+    "path": "settings-hooks.json",
+    "content": "{\n  \"hooks\": {\n    \"PostToolUse\": [\n      {\n        \"matcher\": \"Write\",\n        \"hooks\": [\n          {\n            \"type\": \"command\",\n            \"command\": \"${CLAUDE_PROJECT_DIR}/.claude/hooks/word-count.sh\"\n          }\n        ]\n      }\n    ]\n  }\n}\n"
+   },
+   {
+    "path": ".claude/hooks/word-count.sh",
+    "content": "#!/bin/bash\nFILE=$(jq -r '.tool_input.file_path // empty')\ncase \"$FILE\" in\n  *.md|*.txt)\n    [ -f \"$FILE\" ] && echo \"$(wc -w < \"$FILE\") words: $FILE\" >> ~/.claude/word-counts.txt\n    ;;\nesac\nexit 0\n"
+   }
+  ],
+  "use_cases": [
+   "Hit essay word limits",
+   "Track draft growth",
+   "Report length checks"
+  ],
+  "example_prompts": [
+   "Draft a 500 word essay on renewable energy",
+   "Write the abstract"
+  ],
+  "level": "Beginner",
+  "audience": "Students"
+ },
+ {
+  "type": "hooks",
+  "slug": "add-current-date",
+  "name": "Add Today's Date to Prompts",
+  "description": "Adds the current date to the context of every prompt, so deadlines and schedules are calculated correctly.",
+  "category": "productivity",
+  "tags": [
+   "userpromptsubmit",
+   "date",
+   "context",
+   "planning"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/hooks",
+  "install": "1. Copy the \"hooks\" block from settings-hooks.json into ~/.claude/settings.json or .claude/settings.json.\n2. Save the file.\n3. Start a new Claude Code session.\nHooks run shell commands with your permissions, so read every script before enabling it.",
+  "files": [
+   {
+    "path": "settings-hooks.json",
+    "content": "{\n  \"hooks\": {\n    \"UserPromptSubmit\": [\n      {\n        \"hooks\": [\n          {\n            \"type\": \"command\",\n            \"command\": \"date '+Today is %A, %Y-%m-%d.'\"\n          }\n        ]\n      }\n    ]\n  }\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Study schedules",
+   "Deadline planning",
+   "Date-sensitive questions"
+  ],
+  "example_prompts": [
+   "How many days until my exam on the 20th?",
+   "Make a weekly revision plan"
+  ],
+  "level": "Beginner",
+  "audience": "Anyone"
+ },
+ {
+  "type": "hooks",
+  "slug": "log-prompts",
+  "name": "Log Every Prompt",
+  "description": "Appends each prompt you submit to a log file with a timestamp, forming a personal record of questions asked.",
+  "category": "study-learning",
+  "tags": [
+   "userpromptsubmit",
+   "log",
+   "prompts",
+   "history"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/hooks",
+  "install": "1. Copy the \"hooks\" block from settings-hooks.json into ~/.claude/settings.json or .claude/settings.json.\n2. Save the file.\n3. Start a new Claude Code session.\n4. Requires jq.\nHooks run shell commands with your permissions, so read every script before enabling it.",
+  "files": [
+   {
+    "path": "settings-hooks.json",
+    "content": "{\n  \"hooks\": {\n    \"UserPromptSubmit\": [\n      {\n        \"hooks\": [\n          {\n            \"type\": \"command\",\n            \"command\": \"jq -r '\\\"\\\\(now | strftime(\\\"%Y-%m-%d %H:%M\\\")) \\\\(.prompt)\\\"' >> ~/.claude/prompt-log.txt\"\n          }\n        ]\n      }\n    ]\n  }\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Review what you asked",
+   "Spot knowledge gaps",
+   "Teacher review of AI use"
+  ],
+  "example_prompts": [
+   "Explain pointers",
+   "Quiz me on loops"
+  ],
+  "level": "Beginner",
+  "audience": "Anyone"
+ },
+ {
+  "type": "hooks",
+  "slug": "block-secrets-in-prompts",
+  "name": "Block Secrets in Prompts",
+  "description": "Rejects a prompt that contains something shaped like an API key or private key, before it is ever sent to the model.",
+  "category": "admin-ops",
+  "tags": [
+   "userpromptsubmit",
+   "secrets",
+   "block",
+   "privacy"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/hooks",
+  "install": "1. Save the script under .claude/hooks/ and make it executable (chmod +x).\n2. Copy the \"hooks\" block from settings-hooks.json into .claude/settings.json.\n3. Start a new Claude Code session.\n4. Requires jq.\nHooks run shell commands with your permissions, so read every script before enabling it.",
+  "files": [
+   {
+    "path": "settings-hooks.json",
+    "content": "{\n  \"hooks\": {\n    \"UserPromptSubmit\": [\n      {\n        \"hooks\": [\n          {\n            \"type\": \"command\",\n            \"command\": \"${CLAUDE_PROJECT_DIR}/.claude/hooks/block-prompt-secrets.sh\"\n          }\n        ]\n      }\n    ]\n  }\n}\n"
+   },
+   {
+    "path": ".claude/hooks/block-prompt-secrets.sh",
+    "content": "#!/bin/bash\n# Exit code 2 erases the prompt and shows stderr to the user.\nPROMPT=$(jq -r '.prompt // empty')\nif echo \"$PROMPT\" | grep -Eq '(sk-[A-Za-z0-9]{20,}|AKIA[0-9A-Z]{16}|BEGIN (RSA |EC )?PRIVATE KEY)'; then\n  echo \"Your prompt looks like it contains a secret. Remove it and try again.\" >&2\n  exit 2\nfi\nexit 0\n"
+   }
+  ],
+  "use_cases": [
+   "Stop accidental key pastes",
+   "Privacy training",
+   "Shared accounts"
+  ],
+  "example_prompts": [
+   "Here is my key, fix the request",
+   "Debug this config with my token"
+  ],
+  "level": "Intermediate",
+  "audience": "Students"
+ },
+ {
+  "type": "hooks",
+  "slug": "remind-cite-sources",
+  "name": "Remind Claude to Cite Sources",
+  "description": "Adds a short instruction to every prompt asking Claude to say what it is sure of and what needs checking, for research honesty.",
+  "category": "writing-research",
+  "tags": [
+   "userpromptsubmit",
+   "citations",
+   "honesty",
+   "research"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/hooks",
+  "install": "1. Copy the \"hooks\" block from settings-hooks.json into ~/.claude/settings.json or .claude/settings.json.\n2. Save the file.\n3. Start a new Claude Code session.\nHooks run shell commands with your permissions, so read every script before enabling it.",
+  "files": [
+   {
+    "path": "settings-hooks.json",
+    "content": "{\n  \"hooks\": {\n    \"UserPromptSubmit\": [\n      {\n        \"hooks\": [\n          {\n            \"type\": \"command\",\n            \"command\": \"echo 'Reminder: separate what you know from what should be verified, and name any source you rely on.'\"\n          }\n        ]\n      }\n    ]\n  }\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Research projects",
+   "Academic honesty habits",
+   "Fact-checking practice"
+  ],
+  "example_prompts": [
+   "Summarize the causes of the French Revolution",
+   "Explain how vaccines work"
+  ],
+  "level": "Beginner",
+  "audience": "Anyone"
+ },
+ {
+  "type": "hooks",
+  "slug": "hint-not-answer-mode",
+  "name": "Hints Not Answers Mode",
+  "description": "Adds a standing instruction to give hints and guiding questions first rather than complete solutions to homework problems.",
+  "category": "study-learning",
+  "tags": [
+   "userpromptsubmit",
+   "hints",
+   "homework",
+   "socratic"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/hooks",
+  "install": "1. Copy the \"hooks\" block from settings-hooks.json into ~/.claude/settings.json or .claude/settings.json.\n2. Save the file.\n3. Start a new Claude Code session.\nHooks run shell commands with your permissions, so read every script before enabling it.",
+  "files": [
+   {
+    "path": "settings-hooks.json",
+    "content": "{\n  \"hooks\": {\n    \"UserPromptSubmit\": [\n      {\n        \"hooks\": [\n          {\n            \"type\": \"command\",\n            \"command\": \"echo 'Study mode: give a hint or a guiding question first. Share a full solution only if the user asks twice.'\"\n          }\n        ]\n      }\n    ]\n  }\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Learn by solving",
+   "Homework help without spoilers",
+   "Socratic tutoring"
+  ],
+  "example_prompts": [
+   "Solve problem 4 from my worksheet",
+   "How do I do this integral?"
+  ],
+  "level": "Beginner",
+  "audience": "Anyone"
+ },
+ {
+  "type": "hooks",
+  "slug": "add-git-branch-context",
+  "name": "Add Git Branch to Prompts",
+  "description": "Adds the current git branch and a short status to each prompt so Claude knows which branch you are working on.",
+  "category": "coding-education",
+  "tags": [
+   "userpromptsubmit",
+   "git",
+   "branch",
+   "context"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/hooks",
+  "install": "1. Copy the \"hooks\" block from settings-hooks.json into ~/.claude/settings.json or .claude/settings.json.\n2. Save the file.\n3. Start a new Claude Code session.\nHooks run shell commands with your permissions, so read every script before enabling it.",
+  "files": [
+   {
+    "path": "settings-hooks.json",
+    "content": "{\n  \"hooks\": {\n    \"UserPromptSubmit\": [\n      {\n        \"hooks\": [\n          {\n            \"type\": \"command\",\n            \"command\": \"echo \\\"Current git branch: $(git branch --show-current 2>/dev/null || echo none)\\\"\"\n          }\n        ]\n      }\n    ]\n  }\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Branch-aware advice",
+   "Feature-branch workflows",
+   "Group projects"
+  ],
+  "example_prompts": [
+   "Is this change ready to merge?",
+   "What should I do next on this branch?"
+  ],
+  "level": "Intermediate",
+  "audience": "Students"
+ },
+ {
+  "type": "hooks",
+  "slug": "terminal-bell-on-stop",
+  "name": "Terminal Bell When Done",
+  "description": "Rings the terminal bell when Claude finishes, a no-install alert that works on any machine.",
+  "category": "productivity",
+  "tags": [
+   "stop",
+   "bell",
+   "alert",
+   "focus"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/hooks",
+  "install": "1. Copy the \"hooks\" block from settings-hooks.json into ~/.claude/settings.json or .claude/settings.json.\n2. Save the file.\n3. Start a new Claude Code session.\nHooks run shell commands with your permissions, so read every script before enabling it.",
+  "files": [
+   {
+    "path": "settings-hooks.json",
+    "content": "{\n  \"hooks\": {\n    \"Stop\": [\n      {\n        \"hooks\": [\n          {\n            \"type\": \"command\",\n            \"command\": \"printf '\\\\a'\"\n          }\n        ]\n      }\n    ]\n  }\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Long tasks",
+   "Work in another window",
+   "Quiet labs with headphones"
+  ],
+  "example_prompts": [
+   "Run all the tests and fix failures",
+   "Convert these notes into flashcards"
+  ],
+  "level": "Beginner",
+  "audience": "Anyone"
+ },
+ {
+  "type": "hooks",
+  "slug": "notify-send-on-stop",
+  "name": "Desktop Alert When Done",
+  "description": "Sends a Linux desktop notification when Claude stops, so you can read or take a break while it works.",
+  "category": "productivity",
+  "tags": [
+   "stop",
+   "notify-send",
+   "desktop",
+   "linux"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/hooks",
+  "install": "1. Copy the \"hooks\" block from settings-hooks.json into ~/.claude/settings.json or .claude/settings.json.\n2. Save the file.\n3. Start a new Claude Code session.\n4. Requires notify-send (libnotify). On macOS use osascript instead.\nHooks run shell commands with your permissions, so read every script before enabling it.",
+  "files": [
+   {
+    "path": "settings-hooks.json",
+    "content": "{\n  \"hooks\": {\n    \"Stop\": [\n      {\n        \"hooks\": [\n          {\n            \"type\": \"command\",\n            \"command\": \"notify-send 'Claude Code' 'Finished responding'\"\n          }\n        ]\n      }\n    ]\n  }\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Break time during long runs",
+   "Multitask between windows",
+   "Pomodoro studying"
+  ],
+  "example_prompts": [
+   "Refactor the module",
+   "Draft the study guide"
+  ],
+  "level": "Beginner",
+  "audience": "Anyone"
+ },
+ {
+  "type": "hooks",
+  "slug": "turn-counter",
+  "name": "Count Turns per Day",
+  "description": "Appends today's date on every Stop event, so counting lines per day shows how often you used Claude.",
+  "category": "study-learning",
+  "tags": [
+   "stop",
+   "counter",
+   "habit",
+   "stats"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/hooks",
+  "install": "1. Copy the \"hooks\" block from settings-hooks.json into ~/.claude/settings.json or .claude/settings.json.\n2. Save the file.\n3. Start a new Claude Code session.\n4. Count per day with: sort ~/.claude/turns-by-day.txt | uniq -c\nHooks run shell commands with your permissions, so read every script before enabling it.",
+  "files": [
+   {
+    "path": "settings-hooks.json",
+    "content": "{\n  \"hooks\": {\n    \"Stop\": [\n      {\n        \"hooks\": [\n          {\n            \"type\": \"command\",\n            \"command\": \"date +%F >> ~/.claude/turns-by-day.txt\"\n          }\n        ]\n      }\n    ]\n  }\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Study habit tracking",
+   "Usage awareness",
+   "Weekly reflection"
+  ],
+  "example_prompts": [
+   "Explain the next topic",
+   "Quiz me"
+  ],
+  "level": "Beginner",
+  "audience": "Anyone"
+ },
+ {
+  "type": "hooks",
+  "slug": "git-status-snapshot-on-stop",
+  "name": "Git Status Snapshot on Stop",
+  "description": "Writes a timestamped git status --short line group to a log each time Claude finishes, showing what changed per turn.",
+  "category": "coding-education",
+  "tags": [
+   "stop",
+   "git",
+   "snapshot",
+   "log"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/hooks",
+  "install": "1. Copy the \"hooks\" block from settings-hooks.json into ~/.claude/settings.json or .claude/settings.json.\n2. Save the file.\n3. Start a new Claude Code session.\nHooks run shell commands with your permissions, so read every script before enabling it.",
+  "files": [
+   {
+    "path": "settings-hooks.json",
+    "content": "{\n  \"hooks\": {\n    \"Stop\": [\n      {\n        \"hooks\": [\n          {\n            \"type\": \"command\",\n            \"command\": \"( date '+--- %F %T'; git status --short 2>/dev/null ) >> ~/.claude/git-status-log.txt\"\n          }\n        ]\n      }\n    ]\n  }\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Review changes turn by turn",
+   "Debug unexpected edits",
+   "Assignment records"
+  ],
+  "example_prompts": [
+   "Implement the feature",
+   "Clean up the code"
+  ],
+  "level": "Intermediate",
+  "audience": "Students"
+ },
+ {
+  "type": "hooks",
+  "slug": "last-reply-saver",
+  "name": "Save Last Reply to File",
+  "description": "Copies Claude's final message of each turn into a notes file, using the last_assistant_message field when available.",
+  "category": "study-learning",
+  "tags": [
+   "stop",
+   "notes",
+   "save",
+   "transcript"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/hooks",
+  "install": "1. Save the script under .claude/hooks/ and make it executable (chmod +x).\n2. Copy the \"hooks\" block from settings-hooks.json into .claude/settings.json.\n3. Start a new Claude Code session.\n4. Requires jq. If your version lacks last_assistant_message, nothing is saved.\nHooks run shell commands with your permissions, so read every script before enabling it.",
+  "files": [
+   {
+    "path": "settings-hooks.json",
+    "content": "{\n  \"hooks\": {\n    \"Stop\": [\n      {\n        \"hooks\": [\n          {\n            \"type\": \"command\",\n            \"command\": \"${CLAUDE_PROJECT_DIR}/.claude/hooks/save-last-reply.sh\"\n          }\n        ]\n      }\n    ]\n  }\n}\n"
+   },
+   {
+    "path": ".claude/hooks/save-last-reply.sh",
+    "content": "#!/bin/bash\nMSG=$(jq -r '.last_assistant_message // empty')\n[ -n \"$MSG\" ] || exit 0\n{ echo \"## $(date '+%F %T')\"; echo \"$MSG\"; echo; } >> ~/.claude/saved-replies.md\nexit 0\n"
+   }
+  ],
+  "use_cases": [
+   "Collect explanations as notes",
+   "Build a revision file",
+   "Archive answers"
+  ],
+  "example_prompts": [
+   "Explain TCP in simple terms",
+   "Summarize this chapter"
+  ],
+  "level": "Intermediate",
+  "audience": "Students"
+ },
+ {
+  "type": "hooks",
+  "slug": "session-git-branch-context",
+  "name": "Git Branch at Session Start",
+  "description": "Prints the current git branch and last commit message when a session starts so Claude begins with the right context.",
+  "category": "coding-education",
+  "tags": [
+   "sessionstart",
+   "git",
+   "context",
+   "branch"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/hooks",
+  "install": "1. Copy the \"hooks\" block from settings-hooks.json into ~/.claude/settings.json or .claude/settings.json.\n2. Save the file.\n3. Start a new Claude Code session.\nHooks run shell commands with your permissions, so read every script before enabling it.",
+  "files": [
+   {
+    "path": "settings-hooks.json",
+    "content": "{\n  \"hooks\": {\n    \"SessionStart\": [\n      {\n        \"hooks\": [\n          {\n            \"type\": \"command\",\n            \"command\": \"echo \\\"Branch: $(git branch --show-current 2>/dev/null)\\\"; git log -1 --oneline 2>/dev/null\"\n          }\n        ]\n      }\n    ]\n  }\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Resume work faster",
+   "Branch-aware help",
+   "Group projects"
+  ],
+  "example_prompts": [
+   "What was I working on?",
+   "Continue the last task"
+  ],
+  "level": "Beginner",
+  "audience": "Anyone"
+ },
+ {
+  "type": "hooks",
+  "slug": "session-readme-head",
+  "name": "Load README Head at Start",
+  "description": "Adds the first 25 lines of the project README as context at session start so Claude knows the assignment.",
+  "category": "coding-education",
+  "tags": [
+   "sessionstart",
+   "readme",
+   "context",
+   "assignment"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/hooks",
+  "install": "1. Copy the \"hooks\" block from settings-hooks.json into ~/.claude/settings.json or .claude/settings.json.\n2. Save the file.\n3. Start a new Claude Code session.\nHooks run shell commands with your permissions, so read every script before enabling it.",
+  "files": [
+   {
+    "path": "settings-hooks.json",
+    "content": "{\n  \"hooks\": {\n    \"SessionStart\": [\n      {\n        \"hooks\": [\n          {\n            \"type\": \"command\",\n            \"command\": \"head -n 25 README.md 2>/dev/null\"\n          }\n        ]\n      }\n    ]\n  }\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Assignment briefs in README",
+   "Project onboarding",
+   "Consistent context"
+  ],
+  "example_prompts": [
+   "What am I supposed to build here?",
+   "Check my work against the README"
+  ],
+  "level": "Beginner",
+  "audience": "Anyone"
+ },
+ {
+  "type": "hooks",
+  "slug": "session-todo-file",
+  "name": "Load TODO.md at Start",
+  "description": "Adds the contents of a TODO.md file as context when a session begins, so Claude knows your open tasks.",
+  "category": "productivity",
+  "tags": [
+   "sessionstart",
+   "todo",
+   "tasks",
+   "context"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/hooks",
+  "install": "1. Copy the \"hooks\" block from settings-hooks.json into ~/.claude/settings.json or .claude/settings.json.\n2. Save the file.\n3. Start a new Claude Code session.\nHooks run shell commands with your permissions, so read every script before enabling it.",
+  "files": [
+   {
+    "path": "settings-hooks.json",
+    "content": "{\n  \"hooks\": {\n    \"SessionStart\": [\n      {\n        \"hooks\": [\n          {\n            \"type\": \"command\",\n            \"command\": \"cat TODO.md 2>/dev/null\"\n          }\n        ]\n      }\n    ]\n  }\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Daily task lists",
+   "Picking up where you left off",
+   "Project planning"
+  ],
+  "example_prompts": [
+   "What should I do first today?",
+   "Mark off the finished tasks"
+  ],
+  "level": "Beginner",
+  "audience": "Anyone"
+ },
+ {
+  "type": "hooks",
+  "slug": "session-weekday-focus",
+  "name": "Weekday Focus Reminder",
+  "description": "Adds a different study reminder depending on the day of the week, such as a review day or a practice day.",
+  "category": "study-learning",
+  "tags": [
+   "sessionstart",
+   "schedule",
+   "weekday",
+   "routine"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/hooks",
+  "install": "1. Save the script under .claude/hooks/ and make it executable (chmod +x).\n2. Copy the \"hooks\" block from settings-hooks.json into .claude/settings.json.\n3. Start a new Claude Code session.\nHooks run shell commands with your permissions, so read every script before enabling it.",
+  "files": [
+   {
+    "path": "settings-hooks.json",
+    "content": "{\n  \"hooks\": {\n    \"SessionStart\": [\n      {\n        \"hooks\": [\n          {\n            \"type\": \"command\",\n            \"command\": \"${CLAUDE_PROJECT_DIR}/.claude/hooks/weekday-focus.sh\"\n          }\n        ]\n      }\n    ]\n  }\n}\n"
+   },
+   {
+    "path": ".claude/hooks/weekday-focus.sh",
+    "content": "#!/bin/bash\ncase \"$(date +%u)\" in\n  1|3) echo \"Today is a practice day: prefer exercises over lectures.\" ;;\n  2|4) echo \"Today is a reading day: summarize and explain concepts.\" ;;\n  5) echo \"Today is a review day: quiz the user on the week.\" ;;\n  *) echo \"Weekend: keep sessions short and light.\" ;;\nesac\n"
+   }
+  ],
+  "use_cases": [
+   "Weekly study rhythm",
+   "Spaced practice",
+   "Class schedules"
+  ],
+  "example_prompts": [
+   "Let's start today's session",
+   "What is on the plan?"
+  ],
+  "level": "Beginner",
+  "audience": "Students"
+ },
+ {
+  "type": "hooks",
+  "slug": "session-exam-countdown",
+  "name": "Exam Countdown at Start",
+  "description": "Reads an exam date from a file and tells Claude how many days remain at the start of each session.",
+  "category": "study-learning",
+  "tags": [
+   "sessionstart",
+   "exam",
+   "countdown",
+   "planning"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/hooks",
+  "install": "1. Save the script under .claude/hooks/ and make it executable (chmod +x).\n2. Copy the \"hooks\" block from settings-hooks.json into .claude/settings.json.\n3. Start a new Claude Code session.\n4. Uses GNU date (Linux).\nHooks run shell commands with your permissions, so read every script before enabling it.",
+  "files": [
+   {
+    "path": "settings-hooks.json",
+    "content": "{\n  \"hooks\": {\n    \"SessionStart\": [\n      {\n        \"hooks\": [\n          {\n            \"type\": \"command\",\n            \"command\": \"${CLAUDE_PROJECT_DIR}/.claude/hooks/exam-countdown.sh\"\n          }\n        ]\n      }\n    ]\n  }\n}\n"
+   },
+   {
+    "path": ".claude/hooks/exam-countdown.sh",
+    "content": "#!/bin/bash\n# Put an exam date such as 2026-12-15 in .claude/exam-date.txt\nF=\"${CLAUDE_PROJECT_DIR:-.}/.claude/exam-date.txt\"\n[ -f \"$F\" ] || exit 0\nTARGET=$(date -d \"$(cat \"$F\")\" +%s 2>/dev/null) || exit 0\nNOW=$(date +%s)\necho \"Days until the exam: $(( (TARGET - NOW) / 86400 ))\"\n"
+   }
+  ],
+  "use_cases": [
+   "Exam preparation",
+   "Plan revision intensity",
+   "Motivation"
+  ],
+  "example_prompts": [
+   "How should I use the remaining time?",
+   "Make a revision plan"
+  ],
+  "level": "Intermediate",
+  "audience": "Students"
+ },
+ {
+  "type": "hooks",
+  "slug": "log-notifications",
+  "name": "Log Notifications",
+  "description": "Appends every Claude Code notification message to a log file so you can see later when it was waiting for you.",
+  "category": "productivity",
+  "tags": [
+   "notification",
+   "log",
+   "waiting",
+   "review"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/hooks",
+  "install": "1. Copy the \"hooks\" block from settings-hooks.json into ~/.claude/settings.json or .claude/settings.json.\n2. Save the file.\n3. Start a new Claude Code session.\n4. Requires jq.\nHooks run shell commands with your permissions, so read every script before enabling it.",
+  "files": [
+   {
+    "path": "settings-hooks.json",
+    "content": "{\n  \"hooks\": {\n    \"Notification\": [\n      {\n        \"matcher\": \"\",\n        \"hooks\": [\n          {\n            \"type\": \"command\",\n            \"command\": \"jq -r '\\\"\\\\(now | strftime(\\\"%F %T\\\")) \\\\(.message)\\\"' >> ~/.claude/notification-log.txt\"\n          }\n        ]\n      }\n    ]\n  }\n}\n"
+   }
+  ],
+  "use_cases": [
+   "See how long you kept Claude waiting",
+   "Debug permission prompts",
+   "Usage habits"
+  ],
+  "example_prompts": [
+   "Run the build",
+   "Write the report"
+  ],
+  "level": "Beginner",
+  "audience": "Anyone"
+ },
+ {
+  "type": "hooks",
+  "slug": "subagent-stop-log",
+  "name": "Log Subagent Completions",
+  "description": "Appends a timestamp each time a subagent finishes, which helps learners see how often work is delegated.",
+  "category": "coding-education",
+  "tags": [
+   "subagentstop",
+   "log",
+   "agents",
+   "delegation"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/hooks",
+  "install": "1. Copy the \"hooks\" block from settings-hooks.json into ~/.claude/settings.json or .claude/settings.json.\n2. Save the file.\n3. Start a new Claude Code session.\nHooks run shell commands with your permissions, so read every script before enabling it.",
+  "files": [
+   {
+    "path": "settings-hooks.json",
+    "content": "{\n  \"hooks\": {\n    \"SubagentStop\": [\n      {\n        \"hooks\": [\n          {\n            \"type\": \"command\",\n            \"command\": \"date '+%F %T subagent finished' >> ~/.claude/subagent-log.txt\"\n          }\n        ]\n      }\n    ]\n  }\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Understand delegation",
+   "Debug long tasks",
+   "Agent demos"
+  ],
+  "example_prompts": [
+   "Research this topic with a subagent",
+   "Review the code in parallel"
+  ],
+  "level": "Intermediate",
+  "audience": "Developers"
+ },
+ {
+  "type": "hooks",
+  "slug": "precompact-git-diff",
+  "name": "Save Git Diff Before Compaction",
+  "description": "Saves the current git diff to a backup file just before the conversation is compacted, so code context is not lost.",
+  "category": "coding-education",
+  "tags": [
+   "precompact",
+   "git",
+   "diff",
+   "backup"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/hooks",
+  "install": "1. Copy the \"hooks\" block from settings-hooks.json into ~/.claude/settings.json or .claude/settings.json.\n2. Save the file.\n3. Start a new Claude Code session.\nHooks run shell commands with your permissions, so read every script before enabling it.",
+  "files": [
+   {
+    "path": "settings-hooks.json",
+    "content": "{\n  \"hooks\": {\n    \"PreCompact\": [\n      {\n        \"hooks\": [\n          {\n            \"type\": \"command\",\n            \"command\": \"mkdir -p ~/.claude/compact-backups && git diff > ~/.claude/compact-backups/diff-$(date +%s).patch 2>/dev/null; exit 0\"\n          }\n        ]\n      }\n    ]\n  }\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Long coding sessions",
+   "Keep a record before summarizing",
+   "Recover context"
+  ],
+  "example_prompts": [
+   "Continue implementing the feature",
+   "What have we changed so far?"
+  ],
+  "level": "Intermediate",
+  "audience": "Developers"
+ },
+ {
+  "type": "hooks",
+  "slug": "precompact-log",
+  "name": "Log Each Compaction",
+  "description": "Records the time and trigger of every compaction in a log, which shows how fast a long study session fills the context window.",
+  "category": "study-learning",
+  "tags": [
+   "precompact",
+   "log",
+   "context",
+   "monitoring"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/hooks",
+  "install": "1. Copy the \"hooks\" block from settings-hooks.json into ~/.claude/settings.json or .claude/settings.json.\n2. Save the file.\n3. Start a new Claude Code session.\n4. Requires jq.\nHooks run shell commands with your permissions, so read every script before enabling it.",
+  "files": [
+   {
+    "path": "settings-hooks.json",
+    "content": "{\n  \"hooks\": {\n    \"PreCompact\": [\n      {\n        \"hooks\": [\n          {\n            \"type\": \"command\",\n            \"command\": \"jq -r '\\\"\\\\(now | strftime(\\\"%F %T\\\")) compact: \\\\(.trigger)\\\"' >> ~/.claude/compact-log.txt\"\n          }\n        ]\n      }\n    ]\n  }\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Learn about context limits",
+   "Know when to start fresh",
+   "Session hygiene"
+  ],
+  "example_prompts": [
+   "Keep going with the review",
+   "Summarize what we covered"
+  ],
+  "level": "Intermediate",
+  "audience": "Anyone"
+ }
+]

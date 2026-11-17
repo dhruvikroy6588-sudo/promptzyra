@@ -1,0 +1,293 @@
+[
+ {
+  "slug": "ats-resume-bullet-improver",
+  "name": "ATS Resume Bullet Improver",
+  "description": "Rewrites weak resume bullets into clear, keyword-aware, ATS-friendly lines using only facts you give. Never invents numbers. Use when asked to improve resume bullets, add impact, or make a resume ATS friendly.",
+  "category": "career-resume",
+  "tags": [
+   "resume",
+   "ats",
+   "bullets",
+   "job search",
+   "keywords"
+  ],
+  "audience": "Job seeker",
+  "level": "Beginner",
+  "skill_md": "---\nname: ats-resume-bullet-improver\ndescription: Rewrites weak resume bullets into clear, keyword-aware, ATS-friendly lines using only facts you give. Never invents numbers. Use when asked to improve resume bullets, add impact, or make a resume ATS friendly.\n---\n# ATS Resume Bullet Improver\n\n## When to use\nUse when a person pastes resume bullets or job duties and wants them stronger, clearer or more ATS friendly. Also use for turning a list of responsibilities into achievement-style bullets.\n\n## What to ask the user first\n- The current bullets or duties, one role at a time.\n- The target job title and, if available, the job description text.\n- Any real numbers, outcomes or scale they can confirm (team size, volume, time saved, rating). If none, say that is fine.\n- Seniority and region (some regions prefer different resume conventions).\n\n## Workflow\n1. Read each bullet and label it: duty-only, vague, passive, or already strong.\n2. Pull out facts that are actually stated: action, tool, task, audience, result. List what is missing instead of guessing it.\n3. Rewrite each bullet in the pattern: strong past-tense verb + what you did + how/with what tool + outcome. Keep it to one or two lines.\n4. If no number was provided, write the bullet without one and add a bracketed prompt such as [add: how many tickets per week?] so the user can fill in a true figure.\n5. Offer a qualitative result only if the user implied it (e.g. 'faster onboarding') and mark it as needing confirmation.\n6. Work in keywords from the job description only where the user genuinely did that work. Use the exact spelling of tools and skills the posting uses.\n7. Vary opening verbs across the section; do not start more than two bullets with the same verb.\n8. End with 3 follow-up questions that would unlock better numbers.\n\n## Output format\n```\nRole: <title> at <company>\n\nBullet 1\n  Before: <original>\n  Issue: <duty-only / vague / passive>\n  After: <rewritten bullet>\n  To strengthen: [add: <missing true detail>]\n\nBullet 2 ...\n\nKeywords used (only where true): <list>\nQuestions for you: 1) ... 2) ... 3) ...\n```\n\n## Quality checks\n- Every fact in an After line traces to something the user said.\n- No invented percentages, dollar amounts, team sizes or tools.\n- Each bullet starts with a verb, is under about 25 words, and has no first-person pronouns.\n- Plain text only: no tables, icons or special characters that ATS parsers can mangle.\n- Placeholders are clearly bracketed and not left in as if final.\n\n## Boundaries\n- Never fabricate metrics, titles, employers, degrees or dates; a made-up number can fail a background check or interview.\n- Do not claim a resume will pass any specific ATS; say formatting and keywords only improve the odds.\n- If a bullet is too vague to improve honestly, say so and ask a question.\n- Do not store or repeat personal contact details beyond the task.\n",
+  "references_md": "Strong verb starters by purpose (use only when true):\n- Built / Developed / Designed: you created something.\n- Led / Coordinated / Mentored: you guided people.\n- Reduced / Improved / Streamlined: a measurable change happened.\n- Analyzed / Audited / Researched: you investigated.\n- Supported / Resolved / Handled: service work.\n\nWeak patterns to fix:\n- 'Responsible for ...' becomes the action itself.\n- 'Helped with ...' becomes what exactly you did.\n- 'Worked on ...' becomes the specific task and tool.\n\nExample\nBefore: Responsible for customer emails.\nAfter: Answered customer email enquiries using a shared helpdesk tool [add: about how many per day?].\n\nATS-safe formatting: standard section names (Experience, Education, Skills), a single column, standard fonts, no text in images, dates in a consistent format.\n\nFinal checklist before sending\n- Every bullet is true and you can discuss it in an interview.\n- Numbers are real, or left out.\n- Dates, titles and employer names match your records.\n- Skills section uses the same spelling as the job posting.\n- File saved as a standard PDF or DOCX, as the employer requests.",
+  "use_cases": [
+   "Turn duty lists into achievement bullets",
+   "Add honest keywords from a job post",
+   "Spot which bullets need real numbers"
+  ],
+  "example_prompts": [
+   "Make these resume bullets stronger but don't make up numbers: Managed social media pages; Handled customer complaints",
+   "Mere bullets ko ATS friendly banao, job description yeh hai: ...",
+   "Rewrite my internship duties as achievement bullets for a data analyst role"
+  ],
+  "seo_title": "ATS Resume Bullet Improver Skill | Honest Resume Bullets",
+  "seo_description": "Download a free AI skill that rewrites resume bullets with strong verbs and real keywords while never inventing numbers. Works with Claude and any chat AI."
+ },
+ {
+  "slug": "resume-job-description-matcher",
+  "name": "Resume to Job Description Matcher",
+  "description": "Compares your resume with a job description, shows matched and missing skills, and suggests honest edits. Use when asked to tailor a resume, check job fit, find keyword gaps or decide whether to apply.",
+  "category": "career-resume",
+  "tags": [
+   "resume",
+   "job description",
+   "keywords",
+   "tailoring",
+   "gap analysis"
+  ],
+  "audience": "Job seeker",
+  "level": "Intermediate",
+  "skill_md": "---\nname: resume-job-description-matcher\ndescription: Compares your resume with a job description, shows matched and missing skills, and suggests honest edits. Use when asked to tailor a resume, check job fit, find keyword gaps or decide whether to apply.\n---\n# Resume to Job Description Matcher\n\n## When to use\nUse when someone has a resume and a specific job posting and wants to know how well they fit, what to change, or what to emphasize before applying.\n\n## What to ask the user first\n- The full resume text.\n- The full job description (not a summary).\n- Whether they can honestly claim skills that are only partly shown on the resume (ask per gap).\n- Their goal: apply as-is, tailor lightly, or decide whether to apply.\n\n## Workflow\n1. Split the job description into: must-have requirements, nice-to-haves, responsibilities, and repeated keywords. Words repeated or in the title weigh more.\n2. Scan the resume for evidence of each item. Classify as Strong (clear evidence), Partial (related but not explicit), or Missing.\n3. Check for synonyms and different wording (for example 'client management' vs 'account handling') and note where only wording differs.\n4. For Partial items, ask the user whether they truly have the experience; if yes, show where to surface it. If no, label it a genuine gap.\n5. For Missing items, suggest honest options: a short course, a small project, a related transferable skill, or leaving it out and addressing it in the cover letter.\n6. Propose at most 5 targeted edits: reorder the summary, move relevant bullets up, adjust skill wording, rename a section. Write the new text only from existing facts.\n7. Give a plain-language fit verdict (strong, reasonable, stretch) with reasons, not a fake percentage score.\n\n## Output format\n```\nFit verdict: <strong / reasonable / stretch> because ...\n\nRequirements table\n| Requirement | Evidence in resume | Status |\n| ... | ... | Strong / Partial / Missing |\n\nKeyword gaps (wording only): ...\nGenuine gaps: ...\nTop 5 edits:\n 1. <where> -> <new wording from real facts>\nGap-closing ideas: ...\nQuestions for you: ...\n```\n\n## Quality checks\n- Every Strong rating cites a specific resume line.\n- No skill is added that the user did not confirm.\n- The verdict explains itself and does not give a made-up score.\n- Edits keep the resume truthful and consistent in dates and titles.\n\n## Boundaries\n- Never add experience, tools or credentials the user lacks; keyword stuffing with false claims backfires at interview.\n- Do not promise interviews or ATS results.\n- If the posting is vague or very short, say the analysis is limited.\n- Treat resume contents as private and do not reuse them elsewhere.\n",
+  "references_md": "How to read a job description\n- Title and first paragraph signal the core role.\n- 'Required', 'must' and 'minimum' mark must-haves; 'preferred' and 'bonus' mark nice-to-haves.\n- A skill mentioned three or more times is probably central.\n\nStatus definitions\n- Strong: a bullet shows you did it.\n- Partial: you did something close or only listed it as a skill.\n- Missing: no evidence at all.\n\nWhen to apply anyway\nMost people meet most must-haves rather than all. If you are Strong on the core duties and the gaps are learnable, a tailored application is reasonable. If several must-haves are Missing, consider a closer role first.\n\nAfter tailoring\n- Re-read the resume against the posting once more and confirm every claim is something you can discuss.\n- Keep a master resume and save each tailored copy with the company name.\n- Use the gap list to prepare interview answers: for each Missing item, plan an honest sentence about how you would learn it.",
+  "use_cases": [
+   "Check fit before applying",
+   "Find keyword gaps in a resume",
+   "Tailor one resume for several postings"
+  ],
+  "example_prompts": [
+   "Here is my resume and a job post. What am I missing?",
+   "Should I apply for this role? Compare my CV with the JD below",
+   "Mera resume is job description ke hisaab se tailor karne mein help karo"
+  ],
+  "seo_title": "Resume vs Job Description Matcher Skill | Free AI Prompt",
+  "seo_description": "Free AI skill that compares your resume with a job description, lists matched and missing skills and suggests honest edits. Use it with Claude or any AI."
+ },
+ {
+  "slug": "cover-letter-from-your-facts",
+  "name": "Cover Letter From Your Facts",
+  "description": "Drafts a tailored one-page cover letter using only experiences you actually provide, with a placeholder wherever a fact is missing. Use when asked to write a cover letter, application letter or motivation letter.",
+  "category": "career-resume",
+  "tags": [
+   "cover letter",
+   "job application",
+   "writing",
+   "career",
+   "tailoring"
+  ],
+  "audience": "Job seeker",
+  "level": "Beginner",
+  "skill_md": "---\nname: cover-letter-from-your-facts\ndescription: Drafts a tailored one-page cover letter using only experiences you actually provide, with a placeholder wherever a fact is missing. Use when asked to write a cover letter, application letter or motivation letter.\n---\n# Cover Letter From Your Facts\n\n## When to use\nUse when someone needs a cover letter for a specific job, internship or program and can supply details about their own experience. Works for career changers and first-time applicants too.\n\n## What to ask the user first\n- Job title, company name and the job description or key duties.\n- Three to five true experiences, projects, results or skills they want to highlight (even small ones: coursework, volunteering, side projects).\n- Why this company or role interests them, in their own words.\n- Tone (formal, friendly), country convention, and the hiring manager's name if known.\n- Any gap, career change or visa point they want addressed.\n\n## Workflow\n1. List the 3 to 4 needs the employer stresses most in the posting.\n2. Match each need to one fact the user supplied. Drop needs with no honest match rather than inventing one.\n3. Plan four paragraphs: opening hook with the role and one strong fit; body paragraph 1 with the best matching story; body paragraph 2 with a second story or a transferable skill; closing with enthusiasm and a clear next step.\n4. Write in first person, plain language, 250 to 350 words. Use the user's own phrasing and details; avoid cliches such as 'I am a hard-working team player'.\n5. Where a needed detail is missing, insert a bracket like [add a real example of leading a group] instead of making one up.\n6. Show a short note listing which user facts went into which paragraph so they can check accuracy.\n7. Offer one shorter version (about 120 words) for email bodies if asked.\n\n## Output format\n```\nSubject (for email): Application for <role> - <name>\n\nDear <Name or Hiring Team>,\n\nP1: role + why you + one-line fit\nP2: story 1 tied to need 1\nP3: story 2 / transferable skill tied to need 2\nP4: interest in company + call to action\n\nSincerely,\n<name>\n\n---\nFact map: P2 uses <fact>, P3 uses <fact>\nPlaceholders to fill: ...\n```\n\n## Quality checks\n- Every claim in the letter appears in the user's input.\n- Company and role names are spelled exactly as given.\n- Length is one page and no sentence repeats the resume line by line.\n- No exaggerated claims or unverifiable superlatives.\n- Tone matches what the user asked.\n\n## Boundaries\n- Do not invent employers, achievements, numbers, degrees or reasons for interest; leave a placeholder and ask.\n- Do not claim knowledge about a company you were not given; ask the user for what they know.\n- The user should read, edit and own the final letter before sending.\n- Do not keep or share personal contact details.\n",
+  "references_md": "A simple letter skeleton\n1. Hook: name the role and the strongest reason you fit.\n2. Proof: one concrete story (situation, what you did, result you can confirm).\n3. Bridge: how a second skill transfers to this job.\n4. Close: why this company, and what you ask next (a conversation).\n\nCommon problems to avoid\n- Repeating the resume in sentences.\n- Starting every sentence with 'I'.\n- Generic praise of the company that could fit any employer.\n- Apologizing for lack of experience; instead, lead with what you can do.\n\nCareer changers: connect the old field's skills to the new duties using real examples, and say plainly why you are changing.\n\nBefore you send\n- Read it aloud; cut any sentence you would not say in conversation.\n- Check the company name, role title and hiring manager name.\n- Confirm every example is true and that you can expand on it in an interview.\n- Save as PDF unless told otherwise, with a clear file name.",
+  "use_cases": [
+   "Draft a first cover letter for a graduate role",
+   "Tailor one letter to several jobs",
+   "Explain a career change in a letter"
+  ],
+  "example_prompts": [
+   "Write a cover letter for a junior marketing role. My facts: ran college fest Instagram, grew it, did a 3-month internship",
+   "Mujhe ek internship ke liye cover letter likhna hai, details main deta hoon",
+   "Help me explain my career gap in a cover letter"
+  ],
+  "seo_title": "Cover Letter From Your Facts Skill | Honest AI Drafts",
+  "seo_description": "Download a free AI skill that drafts a tailored cover letter from your real experience, uses placeholders for missing facts, and never invents achievements."
+ },
+ {
+  "slug": "mock-interview-star-coach",
+  "name": "Mock Interview STAR Coach",
+  "description": "Runs a realistic mock interview one question at a time and gives STAR-method feedback with scored answers and improved versions. Use when asked to practice interview questions or prepare for a behavioral interview.",
+  "category": "career-resume",
+  "tags": [
+   "interview",
+   "star method",
+   "behavioral",
+   "practice",
+   "feedback"
+  ],
+  "audience": "Job seeker",
+  "level": "Intermediate",
+  "skill_md": "---\nname: mock-interview-star-coach\ndescription: Runs a realistic mock interview one question at a time and gives STAR-method feedback with scored answers and improved versions. Use when asked to practice interview questions or prepare for a behavioral interview.\n---\n# Mock Interview STAR Coach\n\n## When to use\nUse when a person wants interview practice for a specific role, wants feedback on an answer they wrote, or needs to turn their experiences into STAR stories.\n\n## What to ask the user first\n- Target role, company type and interview stage (screening, technical, final).\n- Their background in two or three lines, or a resume summary.\n- Number of questions they want and whether they want feedback after each answer or at the end.\n- Preferred difficulty and any nerves or weak areas (for example speaking too long).\n\n## Workflow\n1. Confirm the setup, then ask exactly one question at a time and wait for the answer. Mix behavioral questions (conflict, failure, leadership, deadline) with role-specific ones.\n2. After each answer, check it against STAR: Situation (context in one or two sentences), Task (their responsibility), Action (what they personally did, using 'I'), Result (outcome, ideally with something real they can state).\n3. Score each STAR part 1 to 5 and give one specific observation per part quoting their words.\n4. Flag common issues: too much 'we', no result, rambling past about two minutes, blaming others, or answering a different question.\n5. Ask one follow-up question the way a real interviewer would to probe depth.\n6. Offer a tightened version of the answer built only from facts they gave. If a result is missing, put [add real outcome] rather than inventing it.\n7. At the end, summarize strengths, top three habits to fix, and a practice plan for the next session.\n8. If the user asks, switch to 'story bank' mode: help them build five reusable STAR stories from real experiences.\n\n## Output format\n```\nQuestion 3 of 5: <question>\n\n(user answers)\n\nFeedback\nS: 4/5 - <note>\nT: 3/5 - <note>\nA: 5/5 - <note>\nR: 2/5 - <note>\nFlag: <issue>\nInterviewer follow-up: <question>\nTighter version: <answer from user's facts>\n\nFinal summary: strengths / fix first / next practice\n```\n\n## Quality checks\n- Feedback quotes or paraphrases what the user actually said.\n- Scores are consistent between answers and explained.\n- Improved answers contain no invented facts.\n- Only one question is asked at a time.\n\n## Boundaries\n- Never invent experiences or results for the user to claim; coaching is about presenting true stories well.\n- Do not promise a job offer or guess the real interviewer's questions.\n- Be encouraging but honest; say when an answer would likely hurt.\n- Do not retain personal details after the session.\n",
+  "references_md": "STAR quick guide\n- Situation: where and when, in one or two sentences.\n- Task: what you were responsible for.\n- Action: the steps you took; this should be the longest part.\n- Result: what changed, what you learned.\n\nTime guide: about 90 seconds to 2 minutes per answer.\n\nSample question types\n- Tell me about a time you disagreed with someone.\n- Describe a mistake and how you handled it.\n- Tell me about working under a tight deadline.\n- Why do you want this role?\n\nSelf-check before answering: Did I say what I did? Did I finish with a result? Could a stranger follow it?\n\nAfter the session\n- Write down the two stories that went best and reuse them.\n- Record yourself answering one question and listen for filler words and length.\n- Repeat weak questions within two days, because spaced practice helps answers stick.\n- Prepare two questions to ask the interviewer about the team and the first ninety days.",
+  "use_cases": [
+   "Practice behavioral questions with feedback",
+   "Build a bank of STAR stories",
+   "Reduce rambling in interview answers"
+  ],
+  "example_prompts": [
+   "Mock interview me for a customer support role, 5 questions, feedback after each",
+   "Here is my answer to 'tell me about a failure'. Rate it with STAR",
+   "Mujhe interview ki practice karani hai, ek ek question pucho"
+  ],
+  "seo_title": "Mock Interview STAR Coach Skill | Free AI Practice",
+  "seo_description": "Free AI skill that runs a mock interview one question at a time and scores your answers with the STAR method. Download for Claude or any chat AI."
+ },
+ {
+  "slug": "weekly-planner-time-blocking",
+  "name": "Weekly Planner with Time Blocking",
+  "description": "Builds a realistic weekly schedule with time blocks from your tasks, fixed commitments and energy patterns. Use when asked to plan my week, make a timetable, schedule my tasks or organize my day.",
+  "category": "productivity-planning",
+  "tags": [
+   "planner",
+   "time blocking",
+   "schedule",
+   "weekly plan",
+   "focus"
+  ],
+  "audience": "Anyone",
+  "level": "Beginner",
+  "skill_md": "---\nname: weekly-planner-time-blocking\ndescription: Builds a realistic weekly schedule with time blocks from your tasks, fixed commitments and energy patterns. Use when asked to plan my week, make a timetable, schedule my tasks or organize my day.\n---\n# Weekly Planner with Time Blocking\n\n## When to use\nUse when someone feels overloaded and wants a concrete week plan, or when they have a task list and fixed commitments and need them fitted into hours.\n\n## What to ask the user first\n- Fixed commitments with days and times (classes, work, meals, commute, family).\n- The task list with rough duration and any deadlines.\n- Waking and sleeping hours, and when they focus best (morning, evening).\n- Top 1 to 3 priorities for the week.\n- How much slack they want per day.\n\n## Workflow\n1. Draw the empty week first: mark fixed commitments, sleep, meals and travel as unavailable.\n2. Calculate free hours per day. Add up task durations and compare. If tasks exceed free time, say so and ask what to cut or move before scheduling.\n3. Multiply every user estimate by about 1.25 for tasks they have not done before; mention this buffer.\n4. Place the top priorities in the user's best focus window first, in blocks of 45 to 90 minutes with a 10 to 15 minute break.\n5. Batch small tasks (messages, errands, admin) into one block per day.\n6. Keep about 20 percent of each day unscheduled as a buffer, and reserve one lighter half day for catching up or rest.\n7. Put deadlines before their due dates, not on them.\n8. Output the plan, then list what did not fit and the assumptions made. Offer a short end-of-week review question set.\n\n## Output format\n```\nWEEK OF <date>\nTop priorities: 1) ... 2) ...\n\nMon\n 08:00-09:30  Focus: <task>\n 09:30-09:45  Break\n 12:00-12:45  Lunch\n 16:00-16:30  Batch: messages/admin\n (Buffer: 17:00-18:00)\nTue ...\n\nDid not fit: ...\nAssumptions: ...\nFriday review: What finished? What slipped and why? What to change?\n```\n\n## Quality checks\n- Total scheduled hours do not exceed available hours.\n- No overlap with fixed commitments or sleep.\n- Priorities appear in the best focus window.\n- Buffers and breaks exist.\n- Times use one consistent clock format.\n\n## Boundaries\n- Do not promise the plan will work unchanged; plans need adjusting.\n- Do not schedule sleep, meals or health needs away; say if the load is unrealistic.\n- Do not invent commitments the user did not state; ask.\n- Keep personal schedule details private.\n",
+  "references_md": "Time-blocking rules of thumb\n- One main job per block.\n- Hardest work in your peak energy window.\n- Group similar small tasks.\n- Leave gaps; unplanned things always happen.\n- Plan the night before for the next day.\n\nSample focus block pattern: 50 minutes work, 10 minutes break, repeat up to three times, then a longer break.\n\nWeekly review questions\n1. What did I finish that mattered?\n2. Which tasks took longer than planned?\n3. Which block worked best?\n4. What do I move or drop next week?\n\nCommon planning mistakes\n- Planning every minute with no buffer.\n- Ignoring travel and meal time.\n- Putting the hardest task late in the day when energy is low.\n- Treating the plan as a contract instead of a draft that you adjust daily.\n\nDaily reset habit: spend five minutes each evening checking tomorrow's fixed items, choosing the top three tasks, and moving anything unfinished to a new block.",
+  "use_cases": [
+   "Plan a student week around classes",
+   "Fit tasks into free hours",
+   "Create a daily focus routine"
+  ],
+  "example_prompts": [
+   "Plan my week: classes Mon-Fri 9-2, gym 3 times, assignment due Thursday",
+   "Mere paas bahut kaam hai, ek weekly timetable bana do",
+   "Time block my workday, I focus best in the morning"
+  ],
+  "seo_title": "Weekly Planner Time Blocking Skill | Free AI Schedule",
+  "seo_description": "Free AI skill that turns tasks and fixed commitments into a realistic weekly time-blocked plan with buffers and a review. Download for Claude or any AI."
+ },
+ {
+  "slug": "meeting-notes-to-action-items",
+  "name": "Meeting Notes to Action Items",
+  "description": "Turns messy meeting notes or a transcript into a clean summary, decisions, and action items with owners and due dates. Use when asked to summarize a meeting, extract tasks, or write minutes and follow-ups.",
+  "category": "productivity-planning",
+  "tags": [
+   "meetings",
+   "action items",
+   "minutes",
+   "summary",
+   "follow-up"
+  ],
+  "audience": "Professional",
+  "level": "Beginner",
+  "skill_md": "---\nname: meeting-notes-to-action-items\ndescription: Turns messy meeting notes or a transcript into a clean summary, decisions, and action items with owners and due dates. Use when asked to summarize a meeting, extract tasks, or write minutes and follow-ups.\n---\n# Meeting Notes to Action Items\n\n## When to use\nUse when a person pastes raw notes, a chat log or a transcript and needs structured minutes, a task list or a follow-up message.\n\n## What to ask the user first\n- The notes or transcript.\n- Meeting title, date and attendee names.\n- Who the summary is for (team, manager, client).\n- Format wanted: minutes, short email, or task list only.\n\n## Workflow\n1. Read everything and separate four types of content: decisions made, action items, open questions, and background discussion.\n2. An action item needs a verb, a task, and ideally an owner and due date. Only assign an owner or date if the notes state it.\n3. If an owner or date is missing, write 'Owner: unassigned' or 'Due: not set' and list it under questions to confirm.\n4. Mark decisions only when the notes show agreement, not just discussion. Otherwise place the topic under open questions.\n5. Keep the summary to five lines or fewer, written in neutral past tense.\n6. Quote exact figures, names and dates from the notes; if a name or number is unclear, flag it rather than guessing.\n7. Order action items by due date, then by importance.\n8. Draft a short follow-up message the user can send, containing the actions for each person.\n\n## Output format\n```\nMEETING: <title> | <date> | Attendees: ...\n\nSummary (max 5 lines)\n\nDecisions\n- ...\n\nAction items\n| # | Task | Owner | Due |\n| 1 | ... | Name / unassigned | date / not set |\n\nOpen questions\n- ...\n\nItems to confirm (unclear in notes)\n- ...\n\nFollow-up message draft: ...\n```\n\n## Quality checks\n- Each action item traces to a line in the notes.\n- No invented owners, dates or numbers.\n- Decisions are separate from discussion.\n- Unclear points are flagged.\n- Names are spelled as in the notes.\n\n## Boundaries\n- Never invent commitments or attribute statements to people who did not make them.\n- Treat sensitive or confidential content carefully and do not share it beyond the task.\n- If a transcript is incomplete or garbled, say what could not be read.\n- Do not add opinions about attendees.\n",
+  "references_md": "Spotting action items in messy notes\nPhrases that often signal tasks: 'will', 'can you', 'let's', 'need to', 'follow up', 'by Friday', 'I'll send'.\n\nPhrases that signal decisions: 'we agreed', 'let's go with', 'approved', 'final'.\n\nPhrases that signal open items: 'maybe', 'not sure', 'revisit', 'need more info'.\n\nGood action item\nBad: Look into pricing.\nGood: Compare three vendor prices and share a table by Fri 22 Nov (Owner: Sara).\n\nIf nothing has an owner, suggest the user assign them in the follow-up message.\n\nFollow-up message template\nSubject: Notes and actions from <meeting>, <date>\nHi all, thanks for joining. Key decisions: ... Actions: <name> to <task> by <date>. Please reply if anything is wrong or missing.\n\nChecklist before sharing: every action has a verb; every owner is named in the notes or marked unassigned; every date is copied from the notes or marked not set; decisions are separated from open questions; confidential details are removed if the audience is wider than the meeting.",
+  "use_cases": [
+   "Summarize a team meeting in minutes",
+   "Extract tasks with owners",
+   "Draft a follow-up email after a call"
+  ],
+  "example_prompts": [
+   "Turn these meeting notes into action items with owners and dates",
+   "Is transcript ka summary aur tasks nikalo",
+   "Write minutes and a follow-up email from this call log"
+  ],
+  "seo_title": "Meeting Notes to Action Items Skill | Free AI Template",
+  "seo_description": "Free AI skill that converts messy meeting notes into a summary, decisions and action items with owners and dates, flagging what is unclear. Download now."
+ },
+ {
+  "slug": "eisenhower-task-prioritizer",
+  "name": "Eisenhower Task Prioritizer",
+  "description": "Sorts your task list into the Eisenhower matrix (do, schedule, delegate, drop) with reasons and a clear next action. Use when asked to prioritize tasks, decide what to do first, or cut an overwhelming to-do list.",
+  "category": "productivity-planning",
+  "tags": [
+   "prioritization",
+   "eisenhower matrix",
+   "to-do list",
+   "focus",
+   "decision"
+  ],
+  "audience": "Anyone",
+  "level": "Beginner",
+  "skill_md": "---\nname: eisenhower-task-prioritizer\ndescription: Sorts your task list into the Eisenhower matrix (do, schedule, delegate, drop) with reasons and a clear next action. Use when asked to prioritize tasks, decide what to do first, or cut an overwhelming to-do list.\n---\n# Eisenhower Task Prioritizer\n\n## When to use\nUse when someone lists many tasks and cannot decide what to start with, or wants to separate truly urgent work from merely noisy requests.\n\n## What to ask the user first\n- The full task list, even messy.\n- Deadlines or consequences for each task, if any.\n- Who else is involved or could take a task.\n- Their goals this month, so importance can be judged.\n- How many hours they have available this week.\n\n## Workflow\n1. Rewrite each task as a clear action starting with a verb. Merge duplicates and split vague items.\n2. Judge urgency: is there a real deadline within about 48 hours, or will someone be affected soon? Ask when unclear.\n3. Judge importance: does it move one of the user's stated goals or avoid a serious consequence? Importance comes from the user's goals, not from who is shouting.\n4. Place each task in a quadrant: Q1 urgent and important (do now), Q2 important not urgent (schedule), Q3 urgent not important (delegate or batch), Q4 neither (drop or park).\n5. Give a one-line reason per task so the user can disagree with the call.\n6. Check workload: add hours for Q1 and Q2. If they exceed available hours, name what to move or negotiate.\n7. Pick one 'start here' task and describe the first 10-minute step.\n8. Suggest how to protect Q2 time, because it is easily crowded out.\n\n## Output format\n```\nQ1 DO NOW\n- <task> - why: <reason> - est: <time>\nQ2 SCHEDULE\n- <task> - when: <suggested slot>\nQ3 DELEGATE / BATCH\n- <task> - to whom or how\nQ4 DROP / PARK\n- <task> - why\n\nWorkload check: Q1+Q2 = X h vs Y h available\nStart here: <task>, first step: <10-minute action>\nQuestions to confirm: ...\n```\n\n## Quality checks\n- Every task appears exactly once.\n- Reasons reference the user's deadlines or goals.\n- Not everything is placed in Q1.\n- The workload check uses the user's own hour estimates.\n- The start-here step is small and concrete.\n\n## Boundaries\n- Do not invent deadlines or consequences; ask when unknown.\n- For health, legal or safety tasks, mark them important and suggest professional help where right.\n- This supports decisions; the user makes the final call.\n- Keep task details private.\n",
+  "references_md": "The four quadrants\n- Q1 Urgent + Important: crises, hard deadlines. Do now.\n- Q2 Important + Not urgent: planning, learning, health, relationships. Schedule.\n- Q3 Urgent + Not important: most interruptions and some emails. Delegate, batch or decline politely.\n- Q4 Not urgent + Not important: time sinks. Drop or limit.\n\nQuick tests\n- If I skip this for a week, what actually happens?\n- Does this serve a goal I named?\n- Could someone else do it as well?\n\nIf Q1 is always full, look upstream: Q2 work was probably skipped earlier.\n\nWorked example\nTask: 'Reply to all emails' is vague; split it into 'Reply to the client about the invoice' (Q1 if payment is due) and 'Clear newsletter emails' (Q4). Splitting often reveals that only one small piece is urgent.\n\nReview habit: once a week, re-sort the list, because a Q2 task becomes Q1 as its deadline approaches. Keep a short 'not now' list so dropped items are parked, not forgotten.",
+  "use_cases": [
+   "Decide what to do first today",
+   "Cut a long to-do list",
+   "Separate urgent from important"
+  ],
+  "example_prompts": [
+   "Prioritize these tasks using the Eisenhower matrix: ...",
+   "Mere paas 15 kaam hain, kya pehle karu?",
+   "Help me decide which tasks to drop this week"
+  ],
+  "seo_title": "Eisenhower Task Prioritizer Skill | Free AI To-Do Sorter",
+  "seo_description": "Free AI skill that sorts your tasks into the Eisenhower matrix with reasons, a workload check and a first step. Download for Claude or any chat AI."
+ },
+ {
+  "slug": "beginner-error-explainer",
+  "name": "Beginner Error Explainer",
+  "description": "Explains a programming error message step by step in plain language, guides you to find the cause, and teaches the fix instead of just pasting it. Use when you paste an error, traceback or bug and say you are stuck.",
+  "category": "coding-tutor",
+  "tags": [
+   "debugging",
+   "errors",
+   "beginner",
+   "python",
+   "javascript",
+   "learning"
+  ],
+  "audience": "Student",
+  "level": "Beginner",
+  "skill_md": "---\nname: beginner-error-explainer\ndescription: Explains a programming error message step by step in plain language, guides you to find the cause, and teaches the fix instead of just pasting it. Use when you paste an error, traceback or bug and say you are stuck.\n---\n# Beginner Error Explainer\n\n## When to use\nUse when a learner shares code and an error message, or a program that behaves wrongly, and wants to understand why, not just get a patched file.\n\n## What to ask the user first\n- The exact error message or traceback (copy and paste, not a paraphrase).\n- The code around the failing line, or the whole short file.\n- The language, version and how they ran it.\n- What they expected to happen and what happened.\n- What they have already tried.\n\n## Workflow\n1. Translate the error into one plain sentence, with no jargon, saying what the computer is complaining about.\n2. Point to the exact line and the part of the traceback that matters most (usually the last lines and the first line that is in the user's own file).\n3. Explain the concept behind the error (for example scope, types, indexes, missing import) using a tiny analogy or a three-line example separate from the user's code.\n4. Ask a guiding question first, such as 'What value do you think x holds on this line?', and invite a guess or a print/debug check before revealing the cause. If the learner says they just want the answer, give it.\n5. Reveal the cause, then show the smallest fix. Explain why it works.\n6. Show how to verify the fix and how to read the same error next time.\n7. Mention one habit that prevents this class of bug (naming, printing values, small tests).\n8. If the code has other problems, list them briefly without rewriting everything.\n\n## Output format\n```\nWhat the error says: <one plain sentence>\nWhere it happens: <file, line, why that line>\nThe idea behind it: <short concept + mini example>\nTry this first: <guiding question or quick check>\nCause: <revealed after the attempt>\nFix: <smallest change> - why it works\nCheck it: <how to confirm>\nNext time: <habit or tip>\n```\n\n## Quality checks\n- The explanation matches the exact error text and language version.\n- The fix is the smallest change that works and is described, not hidden.\n- No invented functions or library features; say if unsure.\n- The tone is encouraging and the vocabulary is simple.\n- Code blocks are short and runnable.\n\n## Boundaries\n- For graded coursework, guide the learner toward the fix rather than writing the whole solution, unless their instructor allows it.\n- Do not claim code works without reasoning through it; say when you cannot run it.\n- If the error depends on missing information, ask rather than guess.\n- Remind learners to remove passwords, keys and personal data before pasting code.\n",
+  "references_md": "Reading a traceback (Python)\n1. Start at the bottom: the error type and message.\n2. Move up to the last line that points at your own file.\n3. Check the line number and the line above it.\n\nCommon beginner errors\n- NameError / ReferenceError: a name was never defined or is misspelled.\n- TypeError: wrong kind of value (text vs number).\n- IndexError / out of range: the list is shorter than you think.\n- SyntaxError: missing bracket, colon or quote.\n- ImportError / ModuleNotFoundError: package missing or misnamed.\n\nDebugging habits\n- Print the value and its type.\n- Change one thing at a time.\n- Make the smallest example that still fails.\n\nQuestions to ask yourself before asking for help\n1. Which line does the error point to?\n2. What value did I think this variable had, and what does it really have?\n3. Did it ever work, and what changed since?",
+  "use_cases": [
+   "Understand a Python traceback",
+   "Learn why a JavaScript bug happens",
+   "Build a debugging habit"
+  ],
+  "example_prompts": [
+   "I get 'TypeError: can only concatenate str (not int) to str'. Explain it to me",
+   "Mera code chal nahi raha, error yeh hai, step by step samjhao",
+   "My loop prints the wrong output, help me find why without giving the full answer"
+  ],
+  "seo_title": "Beginner Error Explainer Skill | Free AI Coding Tutor",
+  "seo_description": "Free AI skill that explains error messages in plain words, guides you to the cause, and teaches the fix step by step. Download for Claude or any chat AI."
+ },
+ {
+  "slug": "code-explainer-for-learners",
+  "name": "Code Explainer for Learners",
+  "description": "Explains unfamiliar code line by line for learners, with a plain overview, a worked example trace and practice questions. Use when asked what a piece of code does, to explain a function, or to help read code.",
+  "category": "coding-tutor",
+  "tags": [
+   "code explanation",
+   "reading code",
+   "beginner",
+   "walkthrough",
+   "practice"
+  ],
+  "audience": "Student",
+  "level": "Beginner",
+  "skill_md": "---\nname: code-explainer-for-learners\ndescription: Explains unfamiliar code line by line for learners, with a plain overview, a worked example trace and practice questions. Use when asked what a piece of code does, to explain a function, or to help read code.\n---\n# Code Explainer for Learners\n\n## When to use\nUse when a learner pastes code from a tutorial, class, project or open source and wants to understand how it works, not only what it outputs.\n\n## What to ask the user first\n- The code snippet (and the language).\n- What they already know (for example variables and loops, but not recursion).\n- Where the code came from or its goal, if known.\n- How detailed they want it: overview only, line by line, or deep dive.\n\n## Workflow\n1. Identify the language and any libraries or syntax the learner may not know; list them first as 'words to know'.\n2. Give a one or two sentence big-picture summary: what the code takes in, does and returns or prints.\n3. Break the code into logical chunks of a few lines each and explain each chunk in plain language, naming what each variable holds.\n4. Choose a small concrete input and trace the code step by step, showing variable values after each step in a small table.\n5. Point out the key idea or pattern (for example accumulator, recursion base case, callback) and give a very short separate example of it.\n6. Mention one or two things that could go wrong (edge cases, bad input) and one way to improve readability, without rewriting the whole program.\n7. Finish with three practice questions at rising difficulty: predict the output for a new input, modify one behavior, and explain why a line is needed. Hold the answers until the learner tries.\n8. If something in the code is unclear or you are unsure, say so instead of guessing.\n\n## Output format\n```\nWords to know: ...\nBig picture: <1-2 sentences>\n\nChunk-by-chunk\n Lines 1-3: <what and why>\n Lines 4-8: ...\n\nTrace with input <example>\n| step | variable values | note |\n\nKey idea: <pattern> - mini example\nWatch out for: ...\nPractice\n 1) Predict ...\n 2) Change ...\n 3) Why is line N needed?\n(Answers on request)\n```\n\n## Quality checks\n- The explanation is accurate for the stated language and version.\n- The trace values are correct and consistent with the code.\n- No jargon appears without a definition.\n- The practice questions can be answered from what was explained.\n- Uncertainties are labelled.\n\n## Boundaries\n- Do not claim you ran the code; explain from reading unless you actually executed it.\n- If the code looks harmful (malware, credential theft), do not help extend it; explain the risk at a high level.\n- For graded work, help the learner understand and write their own version.\n- Remind learners not to paste secrets such as keys or passwords.\n",
+  "references_md": "Explanation levels\n- Overview: purpose, inputs, outputs.\n- Line by line: each statement in plain words.\n- Deep dive: complexity, design choices, alternatives.\n\nTrace table example (sum of a list)\n| step | i | total |\n| 1 | 1 | 1 |\n| 2 | 2 | 3 |\n| 3 | 3 | 6 |\n\nAnalogies that help\n- A variable is a labelled box.\n- A loop is a checklist repeated per item.\n- A function is a recipe that takes ingredients and returns a dish.\n- Recursion is a task that hands a smaller version of itself to a helper.\n\nTip: ask the learner to say the code aloud in their own words.\n\nReading unfamiliar code strategy\n1. Find the entry point (where the program starts).\n2. Find the inputs and outputs.\n3. Read function names before bodies.\n4. Run it with a tiny input and watch values change.",
+  "use_cases": [
+   "Understand code from a tutorial",
+   "Read a function before changing it",
+   "Practice predicting program output"
+  ],
+  "example_prompts": [
+   "Explain this Python function line by line, I'm a beginner",
+   "Yeh JavaScript code kya karta hai? Simple bhasha mein samjhao",
+   "Walk me through this recursion example with a trace"
+  ],
+  "seo_title": "Code Explainer for Learners Skill | Free AI Tutor Prompt",
+  "seo_description": "Free AI skill that explains code line by line in plain language, traces an example and gives practice questions. Download for Claude or any chat AI."
+ },
+ {
+  "slug": "project-breakdown-planner",
+  "name": "Project Breakdown Planner",
+  "description": "Breaks a coding or study project idea into small milestones, tasks and a build order for beginners, with a minimum version first. Use when asked how to start a project, plan a portfolio app, or split a big task into steps.",
+  "category": "coding-tutor",
+  "tags": [
+   "project planning",
+   "milestones",
+   "portfolio",
+   "beginner",
+   "breakdown"
+  ],
+  "audience": "Student",
+  "level": "Intermediate",
+  "skill_md": "---\nname: project-breakdown-planner\ndescription: Breaks a coding or study project idea into small milestones, tasks and a build order for beginners, with a minimum version first. Use when asked how to start a project, plan a portfolio app, or split a big task into steps.\n---\n# Project Breakdown Planner\n\n## When to use\nUse when a learner has a project idea (an app, website, script, game, capstone) and feels lost about where to begin, or when a plan needs to be cut into achievable weekly pieces.\n\n## What to ask the user first\n- The project idea in one or two sentences and who it is for.\n- Their current skills and tools.\n- Time per week and the deadline, if any.\n- Whether it is for learning, a portfolio, coursework or real users.\n- Any required features or rules from an instructor.\n\n## Workflow\n1. Restate the project as one sentence: 'A <thing> that lets <user> do <outcome>'. Confirm it with the user.\n2. Define the smallest version that works end to end (the minimum version). Cut features until it can be built in one or two sittings.\n3. List must-have, nice-to-have and later features separately.\n4. Split the minimum version into milestones where each ends with something that can be run and checked. Order them so risky or unknown parts come early.\n5. Break each milestone into tasks of 30 to 90 minutes, each with a 'done when' test.\n6. Name concepts or tools the learner must learn for each milestone and suggest searching the official documentation for them rather than inventing links.\n7. Estimate time using the user's hours per week, add buffer, and spot the likely trouble points.\n8. Suggest how to keep progress visible: version control commits, a short log, and a demo at each milestone.\n9. Offer to start milestone 1 as a guided exercise.\n\n## Output format\n```\nProject: <one sentence>\nMinimum version: <what it does>\n\nFeatures\n Must: ... Nice: ... Later: ...\n\nMilestones\n M1 <name> (est. X h) - done when: <check>\n   - Task 1.1 (45 min): ... done when ...\n   - Task 1.2 ...\n M2 ...\n\nConcepts to learn per milestone: ...\nRisks: ...\nWeekly plan: Week 1 -> M1 ...\nNext step: <first task>\n```\n\n## Quality checks\n- The minimum version is small enough to finish.\n- Every task has a done-when check.\n- Milestones run in a sensible dependency order.\n- Estimates fit the user's real hours.\n- No unavailable tools or made-up libraries are recommended.\n\n## Boundaries\n- The learner should write the code; give structure, not a finished project, for graded work.\n- Do not guarantee time estimates; they are guesses.\n- Do not invent library names, URLs or features; say when unsure.\n- Warn against collecting real user data without understanding privacy duties.\n",
+  "references_md": "Planning principles\n- Build a thin working slice first (input to output), then widen it.\n- Do the scariest unknown early.\n- Every milestone should be runnable.\n- Write 'done when' as something you can test.\n\nExample: a to-do web app\nM1: Show a hard-coded list on a page.\nM2: Add a task through a form.\nM3: Mark done and delete.\nM4: Save tasks so they remain after refresh.\nM5: Style and test on a phone.\n\nIf stuck for more than 30 minutes, shrink the task, write what you expected versus what happened, and ask for a hint.\n\nProject idea sizing\n- Too big: 'a social network'.\n- Right size: 'a page where one person can post a note and see a list of notes'.\nStart with the right size, then grow it one feature at a time.\n\nWeekly check: at the end of each week, ask what runs, what is blocked, and whether the minimum version is still the right target. Cut scope before cutting sleep.",
+  "use_cases": [
+   "Plan a portfolio project",
+   "Split a capstone into weekly goals",
+   "Find a minimum version of an app idea"
+  ],
+  "example_prompts": [
+   "I want to build a weather app but don't know where to start. Break it down",
+   "Mere final year project ko milestones mein todo",
+   "Plan a 4-week beginner Python project for my portfolio"
+  ],
+  "seo_title": "Project Breakdown Planner Skill | Free AI Coding Plan",
+  "seo_description": "Free AI skill that breaks a project idea into a minimum version, milestones and 30 to 90 minute tasks with checks. Download for Claude or any chat AI."
+ }
+]

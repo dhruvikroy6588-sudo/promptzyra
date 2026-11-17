@@ -10,7 +10,7 @@ export async function generateMetadata({ params, searchParams }) {
   const { slug } = await params; const sp = await searchParams;
   const c = await getCategory('tool', slug);
   if (!c) return { title: 'Not found', robots: { index: false } };
-  return buildMetadata({ title: `Best ${c.name} AI Tools`, description: c.description || `Guides to AI tools for ${c.name.toLowerCase()}.`, path: `/ai-tools/category/${slug}`, noindex: !!(sp.q || sp.pricing || sp.sort) || parseInt(sp.page) > 1 });
+  return buildMetadata({ title: `Best ${c.name} AI Tools`, description: c.description || `Guides to AI tools for ${c.name.toLowerCase()}.`, path: `/ai-tools/category/${slug}`, noindex: !!(sp.q || sp.pricing || sp.sort || sp.platform) || parseInt(sp.page) > 1 });
 }
 export default async function Page({ params, searchParams }) {
   const { slug } = await params; const sp = await searchParams;

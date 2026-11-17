@@ -9,6 +9,7 @@ import JsonLd from '@/components/v2/JsonLd';
 import { CardPhoto } from '@/components/v2/PhotoCards';
 import UseCaseTabs from '@/components/v2/UseCaseTabs';
 import Newsletter from '@/components/v2/Newsletter';
+import SkillsStrip from '@/components/v2/SkillsStrip';
 import { MODELS } from '@/lib/site';
 const AUDIENCES = [['student', 'Students'], ['teacher', 'Teachers'], ['job-seeker', 'Job seekers'], ['creator', 'Creators'], ['professional', 'Professionals'], ['entrepreneur', 'Entrepreneurs']];
 const PRICE_CHIPS = [['free', 'Free'], ['freemium', 'Freemium'], ['free-trial', 'Free trial'], ['paid', 'Paid'], ['open-source', 'Open source']];
@@ -88,6 +89,8 @@ export default async function Home() {
         <UseCaseTabs />
         <div className="pzh-cta"><div><h3>Generate your own prompt</h3><p>Answer a few questions and get a clear, structured prompt for any AI assistant.</p></div><Link className="btn btn-primary" href="/prompt-builder"><Wand2 size={16} />Open prompt builder</Link></div>
       </section>
+
+      <SkillsStrip />
 
       {show('tools') && tl.rows.length > 0 && <section className="pzh-sec" aria-labelledby="h-ai">
         <Head id="h-ai" title="AI tools directory" sub="Browse by what you want to get done, not by hype." href="/ai-tools" cta="Browse tools" />

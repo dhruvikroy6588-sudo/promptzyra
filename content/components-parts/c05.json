@@ -1,0 +1,1487 @@
+[
+ {
+  "type": "settings",
+  "slug": "haiku-fast-answers",
+  "name": "Fast Answers with Haiku",
+  "description": "Sets the default model to the haiku alias for quick, low-cost replies during drills and simple questions.",
+  "category": "productivity",
+  "tags": [
+   "model",
+   "haiku",
+   "speed",
+   "cost"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/settings",
+  "install": "1. Open ~/.claude/settings.json (all projects) or .claude/settings.json (one project) (create it if it does not exist).\n2. Merge the keys from settings.json below into your file; keep any keys you already have.\n3. Save, then restart Claude Code (or run /config to confirm the value).\n4. Remove a key at any time to go back to the default.",
+  "files": [
+   {
+    "path": "settings.json",
+    "content": "{\n  \"model\": \"haiku\"\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Rapid vocabulary or syntax checks",
+   "Cheap practice sessions",
+   "Quick lookups between classes"
+  ],
+  "example_prompts": [
+   "What does this regex match?",
+   "Give me a one-line summary of this function"
+  ],
+  "level": "Beginner",
+  "audience": "Anyone"
+ },
+ {
+  "type": "settings",
+  "slug": "opus-deep-work",
+  "name": "Deep Work with Opus",
+  "description": "Defaults to the opus alias for demanding tasks such as thesis structure, algorithm design or tricky debugging.",
+  "category": "writing-research",
+  "tags": [
+   "model",
+   "opus",
+   "reasoning",
+   "thesis"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/settings",
+  "install": "1. Open ~/.claude/settings.json (all projects) or .claude/settings.json (one project) (create it if it does not exist).\n2. Merge the keys from settings.json below into your file; keep any keys you already have.\n3. Save, then restart Claude Code (or run /config to confirm the value).\n4. Remove a key at any time to go back to the default.",
+  "files": [
+   {
+    "path": "settings.json",
+    "content": "{\n  \"model\": \"opus\"\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Hard proofs and algorithms",
+   "Long research drafts",
+   "Architecture decisions for capstones"
+  ],
+  "example_prompts": [
+   "Critique the argument structure of my thesis chapter",
+   "Find the race condition in this code"
+  ],
+  "level": "Intermediate",
+  "audience": "Students"
+ },
+ {
+  "type": "settings",
+  "slug": "opusplan-model",
+  "name": "Opus Plans, Sonnet Builds",
+  "description": "Uses the opusplan alias: the stronger model plans in plan mode and the faster model carries out the edits.",
+  "category": "coding-education",
+  "tags": [
+   "model",
+   "opusplan",
+   "planning",
+   "workflow"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/settings",
+  "install": "1. Open ~/.claude/settings.json (all projects) or .claude/settings.json (one project) (create it if it does not exist).\n2. Merge the keys from settings.json below into your file; keep any keys you already have.\n3. Save, then restart Claude Code (or run /config to confirm the value).\n4. Remove a key at any time to go back to the default.",
+  "files": [
+   {
+    "path": "settings.json",
+    "content": "{\n  \"model\": \"opusplan\"\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Plan a project before coding",
+   "Balance quality and speed",
+   "Capstone project work"
+  ],
+  "example_prompts": [
+   "Plan a REST API for a library system",
+   "Now implement step one of the plan"
+  ],
+  "level": "Intermediate",
+  "audience": "Developers"
+ },
+ {
+  "type": "settings",
+  "slug": "cleanup-7-days",
+  "name": "Keep Chat History 7 Days",
+  "description": "Sets cleanupPeriodDays to 7 so old local sessions are removed after a week, useful on shared lab computers.",
+  "category": "admin-ops",
+  "tags": [
+   "cleanup",
+   "privacy",
+   "shared-computer",
+   "retention"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/settings",
+  "install": "1. Open ~/.claude/settings.json (all projects) or .claude/settings.json (one project) (create it if it does not exist).\n2. Merge the keys from settings.json below into your file; keep any keys you already have.\n3. Save, then restart Claude Code (or run /config to confirm the value).\n4. Remove a key at any time to go back to the default.",
+  "files": [
+   {
+    "path": "settings.json",
+    "content": "{\n  \"cleanupPeriodDays\": 7\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Shared lab machines",
+   "Less leftover student data",
+   "Tidy disks on loaner laptops"
+  ],
+  "example_prompts": [
+   "Summarize today's lab",
+   "Continue the exercise from earlier"
+  ],
+  "level": "Beginner",
+  "audience": "Teachers"
+ },
+ {
+  "type": "settings",
+  "slug": "cleanup-90-days",
+  "name": "Keep Chat History 90 Days",
+  "description": "Sets cleanupPeriodDays to 90 so a whole semester of past sessions stays available to resume and review.",
+  "category": "study-learning",
+  "tags": [
+   "cleanup",
+   "history",
+   "semester",
+   "retention"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/settings",
+  "install": "1. Open ~/.claude/settings.json (all projects) or .claude/settings.json (one project) (create it if it does not exist).\n2. Merge the keys from settings.json below into your file; keep any keys you already have.\n3. Save, then restart Claude Code (or run /config to confirm the value).\n4. Remove a key at any time to go back to the default.",
+  "files": [
+   {
+    "path": "settings.json",
+    "content": "{\n  \"cleanupPeriodDays\": 90\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Review a full term of sessions",
+   "Resume old projects",
+   "Revision before exams"
+  ],
+  "example_prompts": [
+   "Continue our discussion on data structures",
+   "What did we cover about recursion?"
+  ],
+  "level": "Beginner",
+  "audience": "Anyone"
+ },
+ {
+  "type": "settings",
+  "slug": "telemetry-off",
+  "name": "Turn Off Telemetry",
+  "description": "Sets the DISABLE_TELEMETRY environment variable to 1 to opt out of usage telemetry for privacy-conscious classrooms.",
+  "category": "admin-ops",
+  "tags": [
+   "env",
+   "telemetry",
+   "privacy",
+   "opt-out"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/settings",
+  "install": "1. Open ~/.claude/settings.json (all projects) or .claude/settings.json (one project) (create it if it does not exist).\n2. Merge the keys from settings.json below into your file; keep any keys you already have.\n3. Save, then restart Claude Code (or run /config to confirm the value).\n4. Remove a key at any time to go back to the default.",
+  "files": [
+   {
+    "path": "settings.json",
+    "content": "{\n  \"env\": {\n    \"DISABLE_TELEMETRY\": \"1\"\n  }\n}\n"
+   }
+  ],
+  "use_cases": [
+   "School-managed devices",
+   "Privacy-minded learners",
+   "Policy compliance"
+  ],
+  "example_prompts": [
+   "Help me set up this project",
+   "Explain this config"
+  ],
+  "level": "Beginner",
+  "audience": "Teachers"
+ },
+ {
+  "type": "settings",
+  "slug": "nonessential-traffic-off",
+  "name": "Disable Nonessential Traffic",
+  "description": "Sets CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC to 1 to cut background network calls such as updates and telemetry.",
+  "category": "admin-ops",
+  "tags": [
+   "env",
+   "network",
+   "traffic",
+   "privacy"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/settings",
+  "install": "1. Open ~/.claude/settings.json (all projects) or .claude/settings.json (one project) (create it if it does not exist).\n2. Merge the keys from settings.json below into your file; keep any keys you already have.\n3. Save, then restart Claude Code (or run /config to confirm the value).\n4. Remove a key at any time to go back to the default.",
+  "files": [
+   {
+    "path": "settings.json",
+    "content": "{\n  \"env\": {\n    \"CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC\": \"1\"\n  }\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Slow school networks",
+   "Locked-down labs",
+   "Fewer background connections"
+  ],
+  "example_prompts": [
+   "Review this assignment",
+   "Fix the bug in main.py"
+  ],
+  "level": "Intermediate",
+  "audience": "Teachers"
+ },
+ {
+  "type": "settings",
+  "slug": "autoupdater-off",
+  "name": "Pause Auto-Updates",
+  "description": "Sets DISABLE_AUTOUPDATER to 1 so the tool version stays fixed for the length of a course or workshop.",
+  "category": "admin-ops",
+  "tags": [
+   "env",
+   "updates",
+   "stability",
+   "course"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/settings",
+  "install": "1. Open ~/.claude/settings.json (all projects) or .claude/settings.json (one project) (create it if it does not exist).\n2. Merge the keys from settings.json below into your file; keep any keys you already have.\n3. Save, then restart Claude Code (or run /config to confirm the value).\n4. Remove a key at any time to go back to the default.",
+  "files": [
+   {
+    "path": "settings.json",
+    "content": "{\n  \"env\": {\n    \"DISABLE_AUTOUPDATER\": \"1\"\n  }\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Same version for the whole class",
+   "Reproducible workshop demos",
+   "Avoid mid-term behavior changes"
+  ],
+  "example_prompts": [
+   "Run the starter code",
+   "Explain the output"
+  ],
+  "level": "Intermediate",
+  "audience": "Teachers"
+ },
+ {
+  "type": "settings",
+  "slug": "long-bash-timeout",
+  "name": "Longer Command Timeouts",
+  "description": "Raises default and maximum Bash timeouts (in milliseconds) so slow builds, installs and test suites are not cut off.",
+  "category": "coding-education",
+  "tags": [
+   "env",
+   "timeout",
+   "bash",
+   "builds"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/settings",
+  "install": "1. Open ~/.claude/settings.json (all projects) or .claude/settings.json (one project) (create it if it does not exist).\n2. Merge the keys from settings.json below into your file; keep any keys you already have.\n3. Save, then restart Claude Code (or run /config to confirm the value).\n4. Remove a key at any time to go back to the default.",
+  "files": [
+   {
+    "path": "settings.json",
+    "content": "{\n  \"env\": {\n    \"BASH_DEFAULT_TIMEOUT_MS\": \"300000\",\n    \"BASH_MAX_TIMEOUT_MS\": \"900000\"\n  }\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Slow test suites",
+   "Large dependency installs",
+   "Data-processing assignments"
+  ],
+  "example_prompts": [
+   "Run the full test suite",
+   "Build the project and report errors"
+  ],
+  "level": "Intermediate",
+  "audience": "Developers"
+ },
+ {
+  "type": "settings",
+  "slug": "short-bash-timeout",
+  "name": "Short Command Timeouts",
+  "description": "Lowers Bash timeouts to 30 seconds default and 2 minutes max so runaway loops in student code stop quickly.",
+  "category": "coding-education",
+  "tags": [
+   "env",
+   "timeout",
+   "infinite-loop",
+   "safety"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/settings",
+  "install": "1. Open ~/.claude/settings.json (all projects) or .claude/settings.json (one project) (create it if it does not exist).\n2. Merge the keys from settings.json below into your file; keep any keys you already have.\n3. Save, then restart Claude Code (or run /config to confirm the value).\n4. Remove a key at any time to go back to the default.",
+  "files": [
+   {
+    "path": "settings.json",
+    "content": "{\n  \"env\": {\n    \"BASH_DEFAULT_TIMEOUT_MS\": \"30000\",\n    \"BASH_MAX_TIMEOUT_MS\": \"120000\"\n  }\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Catch infinite loops early",
+   "Keep labs responsive",
+   "Teach about runaway processes"
+  ],
+  "example_prompts": [
+   "Run my sorting program",
+   "Execute the script with the sample input"
+  ],
+  "level": "Beginner",
+  "audience": "Students"
+ },
+ {
+  "type": "settings",
+  "slug": "thinking-budget-small",
+  "name": "Small Thinking Budget",
+  "description": "Caps extended thinking with MAX_THINKING_TOKENS=4000, trading some depth for faster, cheaper answers on simple tasks.",
+  "category": "productivity",
+  "tags": [
+   "env",
+   "thinking",
+   "budget",
+   "speed"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/settings",
+  "install": "1. Open ~/.claude/settings.json (all projects) or .claude/settings.json (one project) (create it if it does not exist).\n2. Merge the keys from settings.json below into your file; keep any keys you already have.\n3. Save, then restart Claude Code (or run /config to confirm the value).\n4. Remove a key at any time to go back to the default.",
+  "files": [
+   {
+    "path": "settings.json",
+    "content": "{\n  \"env\": {\n    \"MAX_THINKING_TOKENS\": \"4000\"\n  }\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Simple routine tasks",
+   "Faster feedback",
+   "Lower usage per question"
+  ],
+  "example_prompts": [
+   "Rename these variables",
+   "Summarize this paragraph"
+  ],
+  "level": "Intermediate",
+  "audience": "Anyone"
+ },
+ {
+  "type": "settings",
+  "slug": "thinking-budget-large",
+  "name": "Large Thinking Budget",
+  "description": "Sets MAX_THINKING_TOKENS=32000 to give Claude more room to reason on proofs, puzzles and hard debugging.",
+  "category": "study-learning",
+  "tags": [
+   "env",
+   "thinking",
+   "reasoning",
+   "hard-problems"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/settings",
+  "install": "1. Open ~/.claude/settings.json (all projects) or .claude/settings.json (one project) (create it if it does not exist).\n2. Merge the keys from settings.json below into your file; keep any keys you already have.\n3. Save, then restart Claude Code (or run /config to confirm the value).\n4. Remove a key at any time to go back to the default.",
+  "files": [
+   {
+    "path": "settings.json",
+    "content": "{\n  \"env\": {\n    \"MAX_THINKING_TOKENS\": \"32000\"\n  }\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Math and logic proofs",
+   "Hard algorithm problems",
+   "Subtle bug hunts"
+  ],
+  "example_prompts": [
+   "Prove this loop invariant",
+   "Why does this recursion overflow?"
+  ],
+  "level": "Advanced",
+  "audience": "Students"
+ },
+ {
+  "type": "settings",
+  "slug": "max-output-tokens",
+  "name": "Longer Replies Allowed",
+  "description": "Raises CLAUDE_CODE_MAX_OUTPUT_TOKENS to 16000 so long essays, full files and detailed worked solutions are not cut off.",
+  "category": "writing-research",
+  "tags": [
+   "env",
+   "output",
+   "long-form",
+   "tokens"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/settings",
+  "install": "1. Open ~/.claude/settings.json (all projects) or .claude/settings.json (one project) (create it if it does not exist).\n2. Merge the keys from settings.json below into your file; keep any keys you already have.\n3. Save, then restart Claude Code (or run /config to confirm the value).\n4. Remove a key at any time to go back to the default.",
+  "files": [
+   {
+    "path": "settings.json",
+    "content": "{\n  \"env\": {\n    \"CLAUDE_CODE_MAX_OUTPUT_TOKENS\": \"16000\"\n  }\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Long essay drafts",
+   "Complete worked solutions",
+   "Large generated files"
+  ],
+  "example_prompts": [
+   "Write a full study guide for chapter 5",
+   "Draft the whole literature review section"
+  ],
+  "level": "Intermediate",
+  "audience": "Anyone"
+ },
+ {
+  "type": "settings",
+  "slug": "mcp-output-limit",
+  "name": "MCP Output Limit",
+  "description": "Sets MAX_MCP_OUTPUT_TOKENS to 50000 so large results from connected tools are not truncated too early.",
+  "category": "admin-ops",
+  "tags": [
+   "env",
+   "mcp",
+   "output-limit",
+   "tools"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/settings",
+  "install": "1. Open ~/.claude/settings.json (all projects) or .claude/settings.json (one project) (create it if it does not exist).\n2. Merge the keys from settings.json below into your file; keep any keys you already have.\n3. Save, then restart Claude Code (or run /config to confirm the value).\n4. Remove a key at any time to go back to the default.",
+  "files": [
+   {
+    "path": "settings.json",
+    "content": "{\n  \"env\": {\n    \"MAX_MCP_OUTPUT_TOKENS\": \"50000\"\n  }\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Large database lookups",
+   "Big document fetches",
+   "Research tool results"
+  ],
+  "example_prompts": [
+   "Pull the full table and summarize it",
+   "Read the whole report and list key findings"
+  ],
+  "level": "Advanced",
+  "audience": "Developers"
+ },
+ {
+  "type": "settings",
+  "slug": "bash-output-cap",
+  "name": "Cap Shell Output Length",
+  "description": "Sets BASH_MAX_OUTPUT_LENGTH to 20000 characters so noisy commands cannot flood the conversation.",
+  "category": "coding-education",
+  "tags": [
+   "env",
+   "bash",
+   "output",
+   "noise"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/settings",
+  "install": "1. Open ~/.claude/settings.json (all projects) or .claude/settings.json (one project) (create it if it does not exist).\n2. Merge the keys from settings.json below into your file; keep any keys you already have.\n3. Save, then restart Claude Code (or run /config to confirm the value).\n4. Remove a key at any time to go back to the default.",
+  "files": [
+   {
+    "path": "settings.json",
+    "content": "{\n  \"env\": {\n    \"BASH_MAX_OUTPUT_LENGTH\": \"20000\"\n  }\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Verbose test runners",
+   "Build logs",
+   "Keep context window small"
+  ],
+  "example_prompts": [
+   "Run the build and show only errors",
+   "List all files and summarize"
+  ],
+  "level": "Intermediate",
+  "audience": "Developers"
+ },
+ {
+  "type": "settings",
+  "slug": "cost-warnings-off",
+  "name": "Hide Cost Warnings",
+  "description": "Sets DISABLE_COST_WARNINGS to 1 to hide spend notices when usage is covered by a school or team plan.",
+  "category": "admin-ops",
+  "tags": [
+   "env",
+   "cost",
+   "warnings",
+   "plan"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/settings",
+  "install": "1. Open ~/.claude/settings.json (all projects) or .claude/settings.json (one project) (create it if it does not exist).\n2. Merge the keys from settings.json below into your file; keep any keys you already have.\n3. Save, then restart Claude Code (or run /config to confirm the value).\n4. Remove a key at any time to go back to the default.",
+  "files": [
+   {
+    "path": "settings.json",
+    "content": "{\n  \"env\": {\n    \"DISABLE_COST_WARNINGS\": \"1\"\n  }\n}\n"
+   }
+  ],
+  "use_cases": [
+   "School-funded accounts",
+   "Cleaner screen for demos",
+   "Remove nagging for learners"
+  ],
+  "example_prompts": [
+   "Explain closures with examples",
+   "Review my essay"
+  ],
+  "level": "Beginner",
+  "audience": "Students"
+ },
+ {
+  "type": "settings",
+  "slug": "no-web-fetch",
+  "name": "Offline Study Mode",
+  "description": "Denies WebFetch and WebSearch so Claude answers from your files and its own knowledge, with no web lookups.",
+  "category": "assessment",
+  "tags": [
+   "permissions",
+   "deny",
+   "offline",
+   "exam"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/settings",
+  "install": "1. Open ~/.claude/settings.json (all projects) or .claude/settings.json (one project) (create it if it does not exist).\n2. Merge the keys from settings.json below into your file; keep any keys you already have.\n3. Save, then restart Claude Code (or run /config to confirm the value).\n4. Remove a key at any time to go back to the default.",
+  "files": [
+   {
+    "path": "settings.json",
+    "content": "{\n  \"permissions\": {\n    \"deny\": [\n      \"WebFetch\",\n      \"WebSearch\"\n    ]\n  }\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Closed-book practice",
+   "Prevent copying from web pages",
+   "Controlled lab exercises"
+  ],
+  "example_prompts": [
+   "Quiz me without looking anything up",
+   "Explain this concept from memory"
+  ],
+  "level": "Beginner",
+  "audience": "Teachers"
+ },
+ {
+  "type": "settings",
+  "slug": "mdn-docs-only",
+  "name": "Allow MDN Fetches",
+  "description": "Allows WebFetch only for the MDN domain, so web-development students can pull official docs without approving each fetch.",
+  "category": "coding-education",
+  "tags": [
+   "permissions",
+   "webfetch",
+   "mdn",
+   "docs"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/settings",
+  "install": "1. Open ~/.claude/settings.json (all projects) or .claude/settings.json (one project) (create it if it does not exist).\n2. Merge the keys from settings.json below into your file; keep any keys you already have.\n3. Save, then restart Claude Code (or run /config to confirm the value).\n4. Remove a key at any time to go back to the default.",
+  "files": [
+   {
+    "path": "settings.json",
+    "content": "{\n  \"permissions\": {\n    \"allow\": [\n      \"WebFetch(domain:developer.mozilla.org)\"\n    ]\n  }\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Look up JavaScript and CSS references",
+   "Learn from authoritative docs",
+   "Fewer prompts in web classes"
+  ],
+  "example_prompts": [
+   "Check MDN for how fetch works",
+   "Show the MDN example for Array.map"
+  ],
+  "level": "Beginner",
+  "audience": "Students"
+ },
+ {
+  "type": "settings",
+  "slug": "python-class-permissions",
+  "name": "Python Class Permissions",
+  "description": "Pre-approves running Python, pytest and pip list, and asks before pip install, for introductory Python courses.",
+  "category": "coding-education",
+  "tags": [
+   "permissions",
+   "python",
+   "pytest",
+   "allow"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/settings",
+  "install": "1. Open ~/.claude/settings.json (all projects) or .claude/settings.json (one project) (create it if it does not exist).\n2. Merge the keys from settings.json below into your file; keep any keys you already have.\n3. Save, then restart Claude Code (or run /config to confirm the value).\n4. Remove a key at any time to go back to the default.",
+  "files": [
+   {
+    "path": "settings.json",
+    "content": "{\n  \"permissions\": {\n    \"allow\": [\n      \"Bash(python *)\",\n      \"Bash(python3 *)\",\n      \"Bash(pytest *)\",\n      \"Bash(pip list)\"\n    ],\n    \"ask\": [\n      \"Bash(pip install *)\"\n    ]\n  }\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Intro programming labs",
+   "Run exercises with fewer prompts",
+   "Control package installs"
+  ],
+  "example_prompts": [
+   "Run my script and explain the output",
+   "Run pytest and fix the first failure"
+  ],
+  "level": "Beginner",
+  "audience": "Students"
+ },
+ {
+  "type": "settings",
+  "slug": "node-class-permissions",
+  "name": "Node Class Permissions",
+  "description": "Allows node, npm test and npm run commands without prompts, while npm install and npx still ask first.",
+  "category": "coding-education",
+  "tags": [
+   "permissions",
+   "node",
+   "npm",
+   "allow"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/settings",
+  "install": "1. Open ~/.claude/settings.json (all projects) or .claude/settings.json (one project) (create it if it does not exist).\n2. Merge the keys from settings.json below into your file; keep any keys you already have.\n3. Save, then restart Claude Code (or run /config to confirm the value).\n4. Remove a key at any time to go back to the default.",
+  "files": [
+   {
+    "path": "settings.json",
+    "content": "{\n  \"permissions\": {\n    \"allow\": [\n      \"Bash(node *)\",\n      \"Bash(npm test)\",\n      \"Bash(npm run *)\"\n    ],\n    \"ask\": [\n      \"Bash(npm install *)\",\n      \"Bash(npx *)\"\n    ]\n  }\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Web development classes",
+   "Bootcamp exercises",
+   "Safe package management"
+  ],
+  "example_prompts": [
+   "Run the dev script",
+   "Add a package and show what changed"
+  ],
+  "level": "Beginner",
+  "audience": "Students"
+ },
+ {
+  "type": "settings",
+  "slug": "java-class-permissions",
+  "name": "Java Class Permissions",
+  "description": "Allows javac, java and Maven test runs without prompts and asks before Maven package or install steps.",
+  "category": "coding-education",
+  "tags": [
+   "permissions",
+   "java",
+   "maven",
+   "allow"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/settings",
+  "install": "1. Open ~/.claude/settings.json (all projects) or .claude/settings.json (one project) (create it if it does not exist).\n2. Merge the keys from settings.json below into your file; keep any keys you already have.\n3. Save, then restart Claude Code (or run /config to confirm the value).\n4. Remove a key at any time to go back to the default.",
+  "files": [
+   {
+    "path": "settings.json",
+    "content": "{\n  \"permissions\": {\n    \"allow\": [\n      \"Bash(javac *)\",\n      \"Bash(java *)\",\n      \"Bash(mvn test)\"\n    ],\n    \"ask\": [\n      \"Bash(mvn package *)\",\n      \"Bash(mvn install *)\"\n    ]\n  }\n}\n"
+   }
+  ],
+  "use_cases": [
+   "AP Computer Science style courses",
+   "University Java labs",
+   "Run unit tests quickly"
+  ],
+  "example_prompts": [
+   "Compile and run Main.java",
+   "Run mvn test and explain failures"
+  ],
+  "level": "Beginner",
+  "audience": "Students"
+ },
+ {
+  "type": "settings",
+  "slug": "read-only-explorer",
+  "name": "Read-Only Code Explorer",
+  "description": "Denies Edit and Write so Claude can read and explain a codebase but never change a file.",
+  "category": "study-learning",
+  "tags": [
+   "permissions",
+   "deny",
+   "read-only",
+   "exploration"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/settings",
+  "install": "1. Open ~/.claude/settings.json (all projects) or .claude/settings.json (one project) (create it if it does not exist).\n2. Merge the keys from settings.json below into your file; keep any keys you already have.\n3. Save, then restart Claude Code (or run /config to confirm the value).\n4. Remove a key at any time to go back to the default.",
+  "files": [
+   {
+    "path": "settings.json",
+    "content": "{\n  \"permissions\": {\n    \"deny\": [\n      \"Edit\",\n      \"Write\"\n    ]\n  }\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Study an open-source project",
+   "Code reading exercises",
+   "Safe demos on real repos"
+  ],
+  "example_prompts": [
+   "Explain the project structure",
+   "Trace how a request flows through this app"
+  ],
+  "level": "Beginner",
+  "audience": "Anyone"
+ },
+ {
+  "type": "settings",
+  "slug": "protect-tests-folder",
+  "name": "Protect the Tests Folder",
+  "description": "Denies edits to the tests folder so students cannot let Claude rewrite the grader tests, while Bash test runs stay allowed.",
+  "category": "assessment",
+  "tags": [
+   "permissions",
+   "tests",
+   "grading",
+   "deny"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/settings",
+  "install": "1. Open ~/.claude/settings.json (all projects) or .claude/settings.json (one project) (create it if it does not exist).\n2. Merge the keys from settings.json below into your file; keep any keys you already have.\n3. Save, then restart Claude Code (or run /config to confirm the value).\n4. Remove a key at any time to go back to the default.",
+  "files": [
+   {
+    "path": "settings.json",
+    "content": "{\n  \"permissions\": {\n    \"allow\": [\n      \"Bash(npm test)\",\n      \"Bash(pytest *)\"\n    ],\n    \"deny\": [\n      \"Edit(./tests/**)\",\n      \"Write(./tests/**)\"\n    ]\n  }\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Autograded assignments",
+   "Keep tests intact",
+   "Fair coursework"
+  ],
+  "example_prompts": [
+   "Make the failing test pass by fixing my code",
+   "Why does test_parse fail?"
+  ],
+  "level": "Intermediate",
+  "audience": "Teachers"
+ },
+ {
+  "type": "settings",
+  "slug": "protect-answer-key",
+  "name": "Hide the Answer Key",
+  "description": "Denies reading and editing an answers folder so solution files stay out of reach during an assignment.",
+  "category": "assessment",
+  "tags": [
+   "permissions",
+   "answer-key",
+   "deny",
+   "integrity"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/settings",
+  "install": "1. Open ~/.claude/settings.json (all projects) or .claude/settings.json (one project) (create it if it does not exist).\n2. Merge the keys from settings.json below into your file; keep any keys you already have.\n3. Save, then restart Claude Code (or run /config to confirm the value).\n4. Remove a key at any time to go back to the default.",
+  "files": [
+   {
+    "path": "settings.json",
+    "content": "{\n  \"permissions\": {\n    \"deny\": [\n      \"Read(./answers/**)\",\n      \"Edit(./answers/**)\",\n      \"Write(./answers/**)\"\n    ]\n  }\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Assignment repositories with hidden solutions",
+   "Fair practice",
+   "Exam prep without spoilers"
+  ],
+  "example_prompts": [
+   "Give me a hint for problem 3",
+   "Check my approach without showing the solution"
+  ],
+  "level": "Beginner",
+  "audience": "Teachers"
+ },
+ {
+  "type": "settings",
+  "slug": "deny-git-destructive",
+  "name": "Block Destructive Git",
+  "description": "Denies git reset --hard, git clean and force pushes, and asks before git rebase, protecting beginners from losing work.",
+  "category": "coding-education",
+  "tags": [
+   "permissions",
+   "git",
+   "deny",
+   "safety"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/settings",
+  "install": "1. Open ~/.claude/settings.json (all projects) or .claude/settings.json (one project) (create it if it does not exist).\n2. Merge the keys from settings.json below into your file; keep any keys you already have.\n3. Save, then restart Claude Code (or run /config to confirm the value).\n4. Remove a key at any time to go back to the default.",
+  "files": [
+   {
+    "path": "settings.json",
+    "content": "{\n  \"permissions\": {\n    \"deny\": [\n      \"Bash(git reset --hard *)\",\n      \"Bash(git clean *)\",\n      \"Bash(git push --force *)\",\n      \"Bash(git push -f *)\"\n    ],\n    \"ask\": [\n      \"Bash(git rebase *)\"\n    ]\n  }\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Teaching Git safely",
+   "Prevent lost assignments",
+   "Shared team repos"
+  ],
+  "example_prompts": [
+   "Undo my last commit",
+   "Clean up my branch history"
+  ],
+  "level": "Intermediate",
+  "audience": "Students"
+ },
+ {
+  "type": "settings",
+  "slug": "ask-before-installs",
+  "name": "Confirm Package Installs",
+  "description": "Asks before npm, pip or yarn installs so learners see and approve every new dependency.",
+  "category": "coding-education",
+  "tags": [
+   "permissions",
+   "ask",
+   "dependencies",
+   "supply-chain"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/settings",
+  "install": "1. Open ~/.claude/settings.json (all projects) or .claude/settings.json (one project) (create it if it does not exist).\n2. Merge the keys from settings.json below into your file; keep any keys you already have.\n3. Save, then restart Claude Code (or run /config to confirm the value).\n4. Remove a key at any time to go back to the default.",
+  "files": [
+   {
+    "path": "settings.json",
+    "content": "{\n  \"permissions\": {\n    \"ask\": [\n      \"Bash(npm install *)\",\n      \"Bash(pip install *)\",\n      \"Bash(yarn add *)\"\n    ]\n  }\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Teach dependency hygiene",
+   "Stop surprise packages",
+   "Keep projects small"
+  ],
+  "example_prompts": [
+   "Add a date library",
+   "Install what the project needs"
+  ],
+  "level": "Beginner",
+  "audience": "Students"
+ },
+ {
+  "type": "settings",
+  "slug": "ask-before-config-edits",
+  "name": "Confirm Config File Edits",
+  "description": "Asks before Claude edits package.json, requirements.txt or tsconfig.json, which keeps project setup under your control.",
+  "category": "coding-education",
+  "tags": [
+   "permissions",
+   "ask",
+   "config",
+   "review"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/settings",
+  "install": "1. Open ~/.claude/settings.json (all projects) or .claude/settings.json (one project) (create it if it does not exist).\n2. Merge the keys from settings.json below into your file; keep any keys you already have.\n3. Save, then restart Claude Code (or run /config to confirm the value).\n4. Remove a key at any time to go back to the default.",
+  "files": [
+   {
+    "path": "settings.json",
+    "content": "{\n  \"permissions\": {\n    \"ask\": [\n      \"Edit(./package.json)\",\n      \"Edit(./requirements.txt)\",\n      \"Edit(./tsconfig.json)\"\n    ]\n  }\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Review dependency changes",
+   "Learn what each config does",
+   "Avoid accidental breakage"
+  ],
+  "example_prompts": [
+   "Add a script to run the linter",
+   "Update the TypeScript target"
+  ],
+  "level": "Intermediate",
+  "audience": "Developers"
+ },
+ {
+  "type": "settings",
+  "slug": "deny-network-tools",
+  "name": "No curl or wget",
+  "description": "Denies Bash curl and wget commands so shell-based downloads cannot happen during an exercise or exam.",
+  "category": "assessment",
+  "tags": [
+   "permissions",
+   "deny",
+   "curl",
+   "network"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/settings",
+  "install": "1. Open ~/.claude/settings.json (all projects) or .claude/settings.json (one project) (create it if it does not exist).\n2. Merge the keys from settings.json below into your file; keep any keys you already have.\n3. Save, then restart Claude Code (or run /config to confirm the value).\n4. Remove a key at any time to go back to the default.",
+  "files": [
+   {
+    "path": "settings.json",
+    "content": "{\n  \"permissions\": {\n    \"deny\": [\n      \"Bash(curl *)\",\n      \"Bash(wget *)\"\n    ]\n  }\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Exam environments",
+   "Offline coding tests",
+   "Prevent unreviewed downloads"
+  ],
+  "example_prompts": [
+   "Fetch the dataset for me",
+   "Download the example file"
+  ],
+  "level": "Beginner",
+  "audience": "Teachers"
+ },
+ {
+  "type": "settings",
+  "slug": "deny-sudo-and-rm",
+  "name": "No sudo or rm",
+  "description": "Denies sudo and rm commands and asks before mv, so lab machines are protected from accidental system or file damage.",
+  "category": "admin-ops",
+  "tags": [
+   "permissions",
+   "deny",
+   "sudo",
+   "rm"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/settings",
+  "install": "1. Open ~/.claude/settings.json (all projects) or .claude/settings.json (one project) (create it if it does not exist).\n2. Merge the keys from settings.json below into your file; keep any keys you already have.\n3. Save, then restart Claude Code (or run /config to confirm the value).\n4. Remove a key at any time to go back to the default.",
+  "files": [
+   {
+    "path": "settings.json",
+    "content": "{\n  \"permissions\": {\n    \"deny\": [\n      \"Bash(sudo *)\",\n      \"Bash(rm *)\"\n    ],\n    \"ask\": [\n      \"Bash(mv *)\"\n    ]\n  }\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Shared lab computers",
+   "Beginner-safe sessions",
+   "Protect system files"
+  ],
+  "example_prompts": [
+   "Clean up the old output folder",
+   "Install this tool system-wide"
+  ],
+  "level": "Beginner",
+  "audience": "Teachers"
+ },
+ {
+  "type": "settings",
+  "slug": "make-targets-allowed",
+  "name": "Allow Make Targets",
+  "description": "Allows make, make test and make lint without prompts and asks before make clean or make deploy.",
+  "category": "coding-education",
+  "tags": [
+   "permissions",
+   "make",
+   "build",
+   "allow"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/settings",
+  "install": "1. Open ~/.claude/settings.json (all projects) or .claude/settings.json (one project) (create it if it does not exist).\n2. Merge the keys from settings.json below into your file; keep any keys you already have.\n3. Save, then restart Claude Code (or run /config to confirm the value).\n4. Remove a key at any time to go back to the default.",
+  "files": [
+   {
+    "path": "settings.json",
+    "content": "{\n  \"permissions\": {\n    \"allow\": [\n      \"Bash(make)\",\n      \"Bash(make test)\",\n      \"Bash(make lint)\"\n    ],\n    \"ask\": [\n      \"Bash(make clean)\",\n      \"Bash(make deploy *)\"\n    ]\n  }\n}\n"
+   }
+  ],
+  "use_cases": [
+   "C and systems courses",
+   "Projects with Makefiles",
+   "Fewer prompts for common builds"
+  ],
+  "example_prompts": [
+   "Run make and fix the warnings",
+   "Run the linter target"
+  ],
+  "level": "Intermediate",
+  "audience": "Students"
+ },
+ {
+  "type": "settings",
+  "slug": "docs-writer-scope",
+  "name": "Docs-Only Editing",
+  "description": "Allows edits inside the docs folder and denies edits to src, so Claude can improve documentation without touching code.",
+  "category": "writing-research",
+  "tags": [
+   "permissions",
+   "docs",
+   "scope",
+   "writing"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/settings",
+  "install": "1. Open ~/.claude/settings.json (all projects) or .claude/settings.json (one project) (create it if it does not exist).\n2. Merge the keys from settings.json below into your file; keep any keys you already have.\n3. Save, then restart Claude Code (or run /config to confirm the value).\n4. Remove a key at any time to go back to the default.",
+  "files": [
+   {
+    "path": "settings.json",
+    "content": "{\n  \"permissions\": {\n    \"allow\": [\n      \"Edit(./docs/**)\",\n      \"Write(./docs/**)\"\n    ],\n    \"deny\": [\n      \"Edit(./src/**)\",\n      \"Write(./src/**)\"\n    ]\n  }\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Technical writing practice",
+   "Documentation sprints",
+   "Keep code frozen"
+  ],
+  "example_prompts": [
+   "Improve the README tone",
+   "Add a getting-started page to the docs"
+  ],
+  "level": "Intermediate",
+  "audience": "Anyone"
+ },
+ {
+  "type": "settings",
+  "slug": "thesis-chapters-scope",
+  "name": "Thesis Chapter Editing",
+  "description": "Allows edits in a chapters folder, asks before changing references, and uses the Explanatory style to describe every edit.",
+  "category": "writing-research",
+  "tags": [
+   "permissions",
+   "thesis",
+   "chapters",
+   "explanatory"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/settings",
+  "install": "1. Open ~/.claude/settings.json (all projects) or .claude/settings.json (one project) (create it if it does not exist).\n2. Merge the keys from settings.json below into your file; keep any keys you already have.\n3. Save, then restart Claude Code (or run /config to confirm the value).\n4. Remove a key at any time to go back to the default.",
+  "files": [
+   {
+    "path": "settings.json",
+    "content": "{\n  \"outputStyle\": \"Explanatory\",\n  \"permissions\": {\n    \"allow\": [\n      \"Edit(./chapters/**)\"\n    ],\n    \"ask\": [\n      \"Edit(./references/**)\"\n    ]\n  }\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Thesis and dissertation drafts",
+   "Track what changed and why",
+   "Protect bibliography files"
+  ],
+  "example_prompts": [
+   "Tighten the introduction in chapter 1",
+   "Explain what you changed in chapter 2"
+  ],
+  "level": "Intermediate",
+  "audience": "Students"
+ },
+ {
+  "type": "settings",
+  "slug": "opus-plan-mode-research",
+  "name": "Research Planner Setup",
+  "description": "Combines the opus model with plan mode so every research task starts with a written plan before any file is touched.",
+  "category": "writing-research",
+  "tags": [
+   "model",
+   "plan-mode",
+   "research",
+   "planning"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/settings",
+  "install": "1. Open ~/.claude/settings.json (all projects) or .claude/settings.json (one project) (create it if it does not exist).\n2. Merge the keys from settings.json below into your file; keep any keys you already have.\n3. Save, then restart Claude Code (or run /config to confirm the value).\n4. Remove a key at any time to go back to the default.",
+  "files": [
+   {
+    "path": "settings.json",
+    "content": "{\n  \"model\": \"opus\",\n  \"permissions\": {\n    \"defaultMode\": \"plan\"\n  }\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Literature review planning",
+   "Experiment design",
+   "Project proposals"
+  ],
+  "example_prompts": [
+   "Plan a literature review on climate adaptation",
+   "Outline a survey study"
+  ],
+  "level": "Intermediate",
+  "audience": "Students"
+ },
+ {
+  "type": "settings",
+  "slug": "hinglish-replies",
+  "name": "Hinglish Replies",
+  "description": "Sets the response language to Hinglish, Hindi written in Roman script mixed with English, for relaxed code and concept explanations.",
+  "category": "language",
+  "tags": [
+   "language",
+   "hinglish",
+   "hindi",
+   "localization"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/settings",
+  "install": "1. Open ~/.claude/settings.json (all projects) or .claude/settings.json (one project) (create it if it does not exist).\n2. Merge the keys from settings.json below into your file; keep any keys you already have.\n3. Save, then restart Claude Code (or run /config to confirm the value).\n4. Remove a key at any time to go back to the default.",
+  "files": [
+   {
+    "path": "settings.json",
+    "content": "{\n  \"language\": \"Hinglish\"\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Learn tech in a familiar mix of languages",
+   "Casual study sessions",
+   "Explain concepts to friends"
+  ],
+  "example_prompts": [
+   "Recursion simple language mein samjhao",
+   "Is error ka matlab kya hai?"
+  ],
+  "level": "Beginner",
+  "audience": "Students"
+ },
+ {
+  "type": "settings",
+  "slug": "spanish-replies",
+  "name": "Spanish Replies",
+  "description": "Sets the response language to Spanish so explanations, hints and feedback come back in Spanish.",
+  "category": "language",
+  "tags": [
+   "language",
+   "spanish",
+   "localization",
+   "bilingual"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/settings",
+  "install": "1. Open ~/.claude/settings.json (all projects) or .claude/settings.json (one project) (create it if it does not exist).\n2. Merge the keys from settings.json below into your file; keep any keys you already have.\n3. Save, then restart Claude Code (or run /config to confirm the value).\n4. Remove a key at any time to go back to the default.",
+  "files": [
+   {
+    "path": "settings.json",
+    "content": "{\n  \"language\": \"Spanish\"\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Spanish-medium classrooms",
+   "Practice technical Spanish",
+   "Bilingual teaching"
+  ],
+  "example_prompts": [
+   "Explica este bucle for",
+   "Dame un ejemplo de funcion"
+  ],
+  "level": "Beginner",
+  "audience": "Students"
+ },
+ {
+  "type": "settings",
+  "slug": "sandbox-pypi-only",
+  "name": "Sandbox with PyPI Only",
+  "description": "Enables the sandbox and lets network access reach only PyPI hosts, a fit for Python classes that need pip but nothing else.",
+  "category": "admin-ops",
+  "tags": [
+   "sandbox",
+   "python",
+   "pypi",
+   "network"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/settings",
+  "install": "1. Open ~/.claude/settings.json (all projects) or .claude/settings.json (one project) (create it if it does not exist).\n2. Merge the keys from settings.json below into your file; keep any keys you already have.\n3. Save, then restart Claude Code (or run /config to confirm the value).\n4. Remove a key at any time to go back to the default.",
+  "files": [
+   {
+    "path": "settings.json",
+    "content": "{\n  \"sandbox\": {\n    \"enabled\": true,\n    \"network\": {\n      \"allowedDomains\": [\n        \"pypi.org\",\n        \"files.pythonhosted.org\"\n      ]\n    }\n  }\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Python lab environments",
+   "Allow package downloads only",
+   "Limit data exfiltration"
+  ],
+  "example_prompts": [
+   "Run the script that needs numpy",
+   "Install the course requirements"
+  ],
+  "level": "Intermediate",
+  "audience": "Teachers"
+ },
+ {
+  "type": "settings",
+  "slug": "sandbox-no-network",
+  "name": "Sandbox with No Network",
+  "description": "Enables the sandbox with an empty network allowlist so commands cannot reach any outside host.",
+  "category": "assessment",
+  "tags": [
+   "sandbox",
+   "offline",
+   "exam",
+   "isolation"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/settings",
+  "install": "1. Open ~/.claude/settings.json (all projects) or .claude/settings.json (one project) (create it if it does not exist).\n2. Merge the keys from settings.json below into your file; keep any keys you already have.\n3. Save, then restart Claude Code (or run /config to confirm the value).\n4. Remove a key at any time to go back to the default.",
+  "files": [
+   {
+    "path": "settings.json",
+    "content": "{\n  \"sandbox\": {\n    \"enabled\": true,\n    \"network\": {\n      \"allowedDomains\": []\n    }\n  }\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Proctored coding exams",
+   "Run untrusted student code",
+   "Offline demos"
+  ],
+  "example_prompts": [
+   "Run the submitted program",
+   "Execute the test file"
+  ],
+  "level": "Intermediate",
+  "audience": "Teachers"
+ },
+ {
+  "type": "settings",
+  "slug": "sandbox-npm-github",
+  "name": "Sandbox for Web Projects",
+  "description": "Enables the sandbox and allows only the npm registry, GitHub and the MDN docs host for front-end course work.",
+  "category": "coding-education",
+  "tags": [
+   "sandbox",
+   "npm",
+   "github",
+   "web"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/settings",
+  "install": "1. Open ~/.claude/settings.json (all projects) or .claude/settings.json (one project) (create it if it does not exist).\n2. Merge the keys from settings.json below into your file; keep any keys you already have.\n3. Save, then restart Claude Code (or run /config to confirm the value).\n4. Remove a key at any time to go back to the default.",
+  "files": [
+   {
+    "path": "settings.json",
+    "content": "{\n  \"sandbox\": {\n    \"enabled\": true,\n    \"network\": {\n      \"allowedDomains\": [\n        \"registry.npmjs.org\",\n        \"github.com\",\n        \"developer.mozilla.org\"\n      ]\n    }\n  }\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Front-end bootcamps",
+   "Safe installs and clones",
+   "Limit outbound traffic"
+  ],
+  "example_prompts": [
+   "Clone the starter and install it",
+   "Run the dev server"
+  ],
+  "level": "Intermediate",
+  "audience": "Students"
+ },
+ {
+  "type": "settings",
+  "slug": "status-line-folder",
+  "name": "Folder Name Status Line",
+  "description": "Shows the current project folder name in the status line so you always know which assignment you are in.",
+  "category": "productivity",
+  "tags": [
+   "statusline",
+   "folder",
+   "orientation",
+   "workspace"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/settings",
+  "install": "1. Open ~/.claude/settings.json (all projects) or .claude/settings.json (one project) (create it if it does not exist).\n2. Merge the keys from settings.json below into your file; keep any keys you already have.\n3. Save, then restart Claude Code (or run /config to confirm the value).\n4. Remove a key at any time to go back to the default.",
+  "files": [
+   {
+    "path": "settings.json",
+    "content": "{\n  \"statusLine\": {\n    \"type\": \"command\",\n    \"command\": \"jq -r '\\\"[\\\\(.workspace.current_dir | split(\\\"/\\\") | last)]\\\"'\"\n  }\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Juggling several assignments",
+   "Screen recordings",
+   "Avoid editing the wrong project"
+  ],
+  "example_prompts": [
+   "Which project am I in?",
+   "Summarize this folder"
+  ],
+  "level": "Beginner",
+  "audience": "Anyone"
+ },
+ {
+  "type": "settings",
+  "slug": "status-line-git-branch",
+  "name": "Git Branch Status Line",
+  "description": "Prints the current git branch in the status line using a plain git command, handy while learning branching.",
+  "category": "coding-education",
+  "tags": [
+   "statusline",
+   "git",
+   "branch",
+   "workflow"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/settings",
+  "install": "1. Open ~/.claude/settings.json (all projects) or .claude/settings.json (one project) (create it if it does not exist).\n2. Merge the keys from settings.json below into your file; keep any keys you already have.\n3. Save, then restart Claude Code (or run /config to confirm the value).\n4. Remove a key at any time to go back to the default.",
+  "files": [
+   {
+    "path": "settings.json",
+    "content": "{\n  \"statusLine\": {\n    \"type\": \"command\",\n    \"command\": \"git branch --show-current 2>/dev/null || echo no-repo\"\n  }\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Learning branching",
+   "Avoid committing to main",
+   "Group projects"
+  ],
+  "example_prompts": [
+   "Create a feature branch",
+   "Which branch am I on?"
+  ],
+  "level": "Beginner",
+  "audience": "Students"
+ },
+ {
+  "type": "settings",
+  "slug": "status-line-model-folder",
+  "name": "Model and Folder Status Line",
+  "description": "Shows the active model name and project folder together in one status line, using jq on the session JSON.",
+  "category": "productivity",
+  "tags": [
+   "statusline",
+   "model",
+   "folder",
+   "jq"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/settings",
+  "install": "1. Open ~/.claude/settings.json (all projects) or .claude/settings.json (one project) (create it if it does not exist).\n2. Merge the keys from settings.json below into your file; keep any keys you already have.\n3. Save, then restart Claude Code (or run /config to confirm the value).\n4. Remove a key at any time to go back to the default.",
+  "files": [
+   {
+    "path": "settings.json",
+    "content": "{\n  \"statusLine\": {\n    \"type\": \"command\",\n    \"command\": \"jq -r '\\\"\\\\(.model.display_name) | \\\\(.workspace.current_dir | split(\\\"/\\\") | last)\\\"'\",\n    \"padding\": 1\n  }\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Confirm which model is active",
+   "Multi-project setups",
+   "Class demos"
+  ],
+  "example_prompts": [
+   "Switch focus to the report folder",
+   "Summarize what you know about this project"
+  ],
+  "level": "Intermediate",
+  "audience": "Anyone"
+ },
+ {
+  "type": "settings",
+  "slug": "lesson-plans-directory",
+  "name": "Lesson Plans Directory",
+  "description": "Saves plan-mode plans into a lesson-plans folder, so teachers keep every generated plan alongside the course material.",
+  "category": "teaching",
+  "tags": [
+   "plansdirectory",
+   "planning",
+   "lessons",
+   "organization"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/settings",
+  "install": "1. Open ~/.claude/settings.json (all projects) or .claude/settings.json (one project) (create it if it does not exist).\n2. Merge the keys from settings.json below into your file; keep any keys you already have.\n3. Save, then restart Claude Code (or run /config to confirm the value).\n4. Remove a key at any time to go back to the default.",
+  "files": [
+   {
+    "path": "settings.json",
+    "content": "{\n  \"plansDirectory\": \"./lesson-plans\",\n  \"permissions\": {\n    \"defaultMode\": \"plan\"\n  }\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Keep plans with the course repo",
+   "Review a plan before it runs",
+   "Reuse plans next term"
+  ],
+  "example_prompts": [
+   "Plan a unit on fractions",
+   "Plan a week of coding lessons"
+  ],
+  "level": "Beginner",
+  "audience": "Teachers"
+ },
+ {
+  "type": "settings",
+  "slug": "learning-style-plan-mode",
+  "name": "Learning Style with Plan Mode",
+  "description": "Combines the Learning output style with plan mode: Claude lays out a plan first, then coaches you through the code.",
+  "category": "study-learning",
+  "tags": [
+   "output-style",
+   "learning",
+   "plan-mode",
+   "coaching"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/settings",
+  "install": "1. Open ~/.claude/settings.json (all projects) or .claude/settings.json (one project) (create it if it does not exist).\n2. Merge the keys from settings.json below into your file; keep any keys you already have.\n3. Save, then restart Claude Code (or run /config to confirm the value).\n4. Remove a key at any time to go back to the default.",
+  "files": [
+   {
+    "path": "settings.json",
+    "content": "{\n  \"outputStyle\": \"Learning\",\n  \"permissions\": {\n    \"defaultMode\": \"plan\"\n  }\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Guided project work",
+   "Learn by planning first",
+   "Self-study for beginners"
+  ],
+  "example_prompts": [
+   "Plan a to-do app and let me code the parts",
+   "Teach me how to build a calculator"
+  ],
+  "level": "Beginner",
+  "audience": "Students"
+ },
+ {
+  "type": "settings",
+  "slug": "explanatory-haiku-budget",
+  "name": "Cheap Explainer",
+  "description": "Uses the haiku model with the Explanatory style and a small thinking budget for low-cost, well-explained answers.",
+  "category": "study-learning",
+  "tags": [
+   "model",
+   "haiku",
+   "explanatory",
+   "budget"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/settings",
+  "install": "1. Open ~/.claude/settings.json (all projects) or .claude/settings.json (one project) (create it if it does not exist).\n2. Merge the keys from settings.json below into your file; keep any keys you already have.\n3. Save, then restart Claude Code (or run /config to confirm the value).\n4. Remove a key at any time to go back to the default.",
+  "files": [
+   {
+    "path": "settings.json",
+    "content": "{\n  \"model\": \"haiku\",\n  \"outputStyle\": \"Explanatory\",\n  \"env\": {\n    \"MAX_THINKING_TOKENS\": \"2000\"\n  }\n}\n"
+   }
+  ],
+  "use_cases": [
+   "High-volume practice",
+   "Budget-limited classes",
+   "Explain-as-you-go Q&A"
+  ],
+  "example_prompts": [
+   "Explain how a hash map works",
+   "Walk through this SQL query"
+  ],
+  "level": "Beginner",
+  "audience": "Students"
+ },
+ {
+  "type": "settings",
+  "slug": "exam-lockdown-bundle",
+  "name": "Exam Lockdown Bundle",
+  "description": "Bundles offline rules for a coding test: no web tools, no curl or wget, an answers folder hidden, and the sandbox without network.",
+  "category": "assessment",
+  "tags": [
+   "exam",
+   "lockdown",
+   "permissions",
+   "sandbox"
+  ],
+  "author": "Promptzyra",
+  "github_url": "https://code.claude.com/docs/en/settings",
+  "install": "1. Open ~/.claude/settings.json (all projects) or .claude/settings.json (one project) (create it if it does not exist).\n2. Merge the keys from settings.json below into your file; keep any keys you already have.\n3. Save, then restart Claude Code (or run /config to confirm the value).\n4. Remove a key at any time to go back to the default.",
+  "files": [
+   {
+    "path": "settings.json",
+    "content": "{\n  \"permissions\": {\n    \"deny\": [\n      \"WebFetch\",\n      \"WebSearch\",\n      \"Bash(curl *)\",\n      \"Bash(wget *)\",\n      \"Read(./answers/**)\"\n    ]\n  },\n  \"sandbox\": {\n    \"enabled\": true,\n    \"network\": {\n      \"allowedDomains\": []\n    }\n  }\n}\n"
+   }
+  ],
+  "use_cases": [
+   "Proctored lab exams",
+   "Open-file but offline tests",
+   "Reduce outside help"
+  ],
+  "example_prompts": [
+   "Run my solution against the sample input",
+   "Explain this compiler error"
+  ],
+  "level": "Advanced",
+  "audience": "Teachers"
+ }
+]

@@ -36,7 +36,7 @@ export default async function PhotoList({ sp = {}, base, fixed = {} }) {
           <Link className={`chip${!subject ? ' on' : ''}`} href={href({ subject: '' })} rel="nofollow">Everyone</Link>
           {PHOTO_SUBJECTS.map((s) => <Link key={s.id} rel="nofollow" className={`chip${subject === s.id ? ' on' : ''}`} href={href({ subject: s.id })}>{s.label}</Link>)}
         </div>}
-        {!fixed.category && cats.length > 0 && <div className="chips pl-subs" aria-label="Category">
+        {!fixed.category && cats.length > 1 && <div className="chips pl-subs" aria-label="Category">
           <Link className={`chip${!category ? ' on' : ''}`} href={href({ category: '' })} rel="nofollow">All categories <b>{counts.__total || 0}</b></Link>
           {cats.map((c) => <Link key={c.slug} rel="nofollow" className={`chip${category === c.slug ? ' on' : ''}`} href={href({ category: c.slug })}>{c.name} <b>{counts[c.slug] || 0}</b></Link>)}
         </div>}

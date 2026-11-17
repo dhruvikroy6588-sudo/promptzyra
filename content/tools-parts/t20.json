@@ -1,0 +1,4208 @@
+[
+ {
+  "slug": "twee",
+  "name": "Twee",
+  "category": "study",
+  "website_url": "https://twee.com",
+  "pricing": "Unknown",
+  "tagline": "AI tool for English language teachers to build lessons from videos and texts.",
+  "best_for": "English as a foreign language teachers",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Twee is built for teachers of English as a foreign language. It turns a video, article or topic into lesson material such as questions, vocabulary tasks and discussion prompts.\n\nThe focus on language learning makes it different from general lesson planners: outputs are shaped around reading, listening and speaking practice at different proficiency levels. Teachers still need to check the language and adapt tasks to their class. Check the official site for current plans.",
+  "use_steps": [
+   "Sign in with a school or personal account.",
+   "Enter your topic, grade level and standards.",
+   "Review and edit the generated material.",
+   "Share it with students and adjust after seeing results."
+  ],
+  "pros": [
+   "Saves prep time on first drafts",
+   "Easy to tailor to your class",
+   "Fits existing teaching workflows"
+  ],
+  "cons": [
+   "Output needs checking against curriculum and facts",
+   "School use may need privacy review"
+  ],
+  "alternatives": [
+   "magicschool",
+   "curipod",
+   "diffit"
+  ],
+  "tags": [
+   "english",
+   "esl",
+   "lesson-plans",
+   "teachers"
+  ],
+  "features": [
+   "Lesson material from a video or text",
+   "Vocabulary and comprehension tasks",
+   "Proficiency level settings",
+   "Discussion and speaking prompts"
+  ],
+  "use_cases": [
+   "Making a listening lesson from a YouTube clip",
+   "Preparing vocabulary exercises",
+   "Writing speaking warm-ups"
+  ],
+  "pricing_details": "Plans and pricing change. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Twee used for?",
+    "a": "AI tool for English language teachers to build lessons from videos and texts. See the official site for details."
+   },
+   {
+    "q": "Is Twee free?",
+    "a": "Pricing is not verified here. Plans change, so check the official site."
+   },
+   {
+    "q": "Can teachers rely on its output without checking?",
+    "a": "No. Review all generated material for accuracy, bias and fit before using it with students."
+   }
+  ],
+  "seo_title": "Twee: AI Tool Overview",
+  "seo_description": "AI tool for English language teachers to build lessons from videos and texts. Overview, features and use cases of Twee.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "schoolai",
+  "name": "SchoolAI",
+  "category": "study",
+  "website_url": "https://schoolai.com",
+  "pricing": "Unknown",
+  "tagline": "Classroom platform where teachers create AI tutoring spaces for students.",
+  "best_for": "Teachers who want guided, monitored AI chat for students",
+  "platforms": [
+   "Web"
+  ],
+  "description": "SchoolAI lets teachers set up learning spaces in which students talk to an AI guide about a topic the teacher defines. The idea is to keep AI use inside a structured activity that the teacher can see.\n\nTeachers can view how students interact, which helps with questions about appropriate use and understanding. Schools should review privacy terms and age rules on the official site before use.",
+  "use_steps": [
+   "Sign in with a school or personal account.",
+   "Enter your topic, grade level and standards.",
+   "Review and edit the generated material.",
+   "Share it with students and adjust after seeing results."
+  ],
+  "pros": [
+   "Saves prep time on first drafts",
+   "Easy to tailor to your class",
+   "Fits existing teaching workflows"
+  ],
+  "cons": [
+   "Output needs checking against curriculum and facts",
+   "School use may need privacy review"
+  ],
+  "alternatives": [
+   "magicschool",
+   "khan-academy-khanmigo",
+   "curipod"
+  ],
+  "tags": [
+   "classroom",
+   "tutoring",
+   "k12",
+   "teachers"
+  ],
+  "features": [
+   "Teacher-defined AI learning spaces",
+   "Visibility into student interactions",
+   "Guided tutoring style prompts",
+   "Classroom sharing links"
+  ],
+  "use_cases": [
+   "Guided practice on a topic",
+   "Monitored AI-supported research",
+   "Student reflection activities"
+  ],
+  "pricing_details": "Plans and pricing change. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is SchoolAI used for?",
+    "a": "Classroom platform where teachers create AI tutoring spaces for students. See the official site for details."
+   },
+   {
+    "q": "Is SchoolAI free?",
+    "a": "Pricing is not verified here. Plans change, so check the official site."
+   },
+   {
+    "q": "Can teachers rely on its output without checking?",
+    "a": "No. Review all generated material for accuracy, bias and fit before using it with students."
+   }
+  ],
+  "seo_title": "SchoolAI: AI Tool Overview",
+  "seo_description": "Classroom platform where teachers create AI tutoring spaces for students. Overview, features and use cases of SchoolAI.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "flint-k12",
+  "name": "Flint",
+  "category": "study",
+  "website_url": "https://flintk12.com",
+  "pricing": "Unknown",
+  "tagline": "AI platform for schools with teacher-controlled AI tutors and activities.",
+  "best_for": "Schools that want teacher-controlled AI for students",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Flint is an AI platform for K-12 schools where teachers configure the AI tutor and activities their students use. The aim is to give students a supportive chat while keeping the teacher in control of what it does.\n\nTeachers can create tasks and review student conversations, which can help in discussions about learning and integrity. School administrators should check data handling policies on the official site.",
+  "use_steps": [
+   "Sign in with a school or personal account.",
+   "Enter your topic, grade level and standards.",
+   "Review and edit the generated material.",
+   "Share it with students and adjust after seeing results."
+  ],
+  "pros": [
+   "Saves prep time on first drafts",
+   "Easy to tailor to your class",
+   "Fits existing teaching workflows"
+  ],
+  "cons": [
+   "Output needs checking against curriculum and facts",
+   "School use may need privacy review"
+  ],
+  "alternatives": [
+   "schoolai",
+   "magicschool",
+   "khan-academy-khanmigo"
+  ],
+  "tags": [
+   "k12",
+   "tutor",
+   "teachers",
+   "schools"
+  ],
+  "features": [
+   "Teacher-configured AI tutors",
+   "Activity creation tools",
+   "Review of student conversations",
+   "School-oriented controls"
+  ],
+  "use_cases": [
+   "Feedback on writing drafts",
+   "Subject-specific tutoring practice",
+   "Monitored class AI activities"
+  ],
+  "pricing_details": "Plans and pricing change. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Flint used for?",
+    "a": "AI platform for schools with teacher-controlled AI tutors and activities. See the official site for details."
+   },
+   {
+    "q": "Is Flint free?",
+    "a": "Pricing is not verified here. Plans change, so check the official site."
+   },
+   {
+    "q": "Can teachers rely on its output without checking?",
+    "a": "No. Review all generated material for accuracy, bias and fit before using it with students."
+   }
+  ],
+  "seo_title": "Flint: AI Tool Overview",
+  "seo_description": "AI platform for schools with teacher-controlled AI tutors and activities. Overview, features and use cases of Flint.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "crowdmark",
+  "name": "Crowdmark",
+  "category": "study",
+  "website_url": "https://crowdmark.com",
+  "pricing": "Unknown",
+  "tagline": "Online grading platform for assessments with team marking and feedback.",
+  "best_for": "Instructors grading paper or digital exams at scale",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Crowdmark is a grading and assessment platform used to collect student work, mark it online and return feedback. It is aimed at higher education and large courses where several markers share the work.\n\nIts main value is workflow: assignments are scanned or submitted, split among graders, annotated and returned to students. Check the official site for any AI-assisted features and for current plans.",
+  "use_steps": [
+   "Sign in with a school or personal account.",
+   "Enter your topic, grade level and standards.",
+   "Review and edit the generated material.",
+   "Share it with students and adjust after seeing results."
+  ],
+  "pros": [
+   "Saves prep time on first drafts",
+   "Easy to tailor to your class",
+   "Fits existing teaching workflows"
+  ],
+  "cons": [
+   "Output needs checking against curriculum and facts",
+   "School use may need privacy review"
+  ],
+  "alternatives": [
+   "gradescope",
+   "turnitin",
+   "canvas-lms"
+  ],
+  "tags": [
+   "grading",
+   "assessment",
+   "exams",
+   "higher-ed"
+  ],
+  "features": [
+   "Online marking of scanned or digital work",
+   "Team grading workflows",
+   "Annotation and comments",
+   "Returning feedback to students"
+  ],
+  "use_cases": [
+   "Marking large exams with a grading team",
+   "Returning annotated feedback",
+   "Handling paper-based tests digitally"
+  ],
+  "pricing_details": "Plans and pricing change. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Crowdmark used for?",
+    "a": "Online grading platform for assessments with team marking and feedback. See the official site for details."
+   },
+   {
+    "q": "Is Crowdmark free?",
+    "a": "Pricing is not verified here. Plans change, so check the official site."
+   },
+   {
+    "q": "Can teachers rely on its output without checking?",
+    "a": "No. Review all generated material for accuracy, bias and fit before using it with students."
+   }
+  ],
+  "seo_title": "Crowdmark: AI Tool Overview",
+  "seo_description": "Online grading platform for assessments with team marking and feedback. Overview, features and use cases of Crowdmark.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "classpoint",
+  "name": "ClassPoint",
+  "category": "study",
+  "website_url": "https://classpoint.io",
+  "pricing": "Unknown",
+  "tagline": "Add quizzes, polls and AI question generation inside PowerPoint lessons.",
+  "best_for": "Teachers who teach from PowerPoint",
+  "platforms": [
+   "Windows",
+   "Web"
+  ],
+  "description": "ClassPoint is an add-in that brings interactive questions, polls and quizzes into PowerPoint presentations. Teachers can keep their usual slides and add participation moments for students on their own devices.\n\nIt also offers AI-assisted question creation from slide content, according to its own materials. Confirm which features are on which plan on the official site.",
+  "use_steps": [
+   "Sign in with a school or personal account.",
+   "Enter your topic, grade level and standards.",
+   "Review and edit the generated material.",
+   "Share it with students and adjust after seeing results."
+  ],
+  "pros": [
+   "Saves prep time on first drafts",
+   "Easy to tailor to your class",
+   "Fits existing teaching workflows"
+  ],
+  "cons": [
+   "Output needs checking against curriculum and facts",
+   "School use may need privacy review"
+  ],
+  "alternatives": [
+   "mentimeter",
+   "nearpod",
+   "kahoot"
+  ],
+  "tags": [
+   "powerpoint",
+   "quiz",
+   "engagement",
+   "classroom"
+  ],
+  "features": [
+   "Interactive quizzes inside slides",
+   "Student response collection",
+   "Question generation from slide content",
+   "Classroom engagement tools"
+  ],
+  "use_cases": [
+   "Running polls mid-lesson",
+   "Quick review quizzes",
+   "Gamified classroom activities"
+  ],
+  "pricing_details": "Plans and pricing change. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is ClassPoint used for?",
+    "a": "Add quizzes, polls and AI question generation inside PowerPoint lessons. See the official site for details."
+   },
+   {
+    "q": "Is ClassPoint free?",
+    "a": "Pricing is not verified here. Plans change, so check the official site."
+   },
+   {
+    "q": "Can teachers rely on its output without checking?",
+    "a": "No. Review all generated material for accuracy, bias and fit before using it with students."
+   }
+  ],
+  "seo_title": "ClassPoint: AI Tool Overview",
+  "seo_description": "Add quizzes, polls and AI question generation inside PowerPoint lessons. Overview, features and use cases of ClassPoint.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "kami",
+  "name": "Kami",
+  "category": "study",
+  "website_url": "https://kamiapp.com",
+  "pricing": "Unknown",
+  "tagline": "Digital classroom tool for annotating documents, with AI-assisted features.",
+  "best_for": "Teachers using Google Classroom or LMS with PDFs",
+  "platforms": [
+   "Web",
+   "Chrome extension"
+  ],
+  "description": "Kami is a document annotation tool for classrooms. Students and teachers mark up PDFs and other files with text, drawings, comments and voice notes, and it connects with common learning management systems.\n\nIt helps move worksheets and readings online. Check the official site for the AI and accessibility features it currently offers and for school plan details.",
+  "use_steps": [
+   "Sign in with a school or personal account.",
+   "Enter your topic, grade level and standards.",
+   "Review and edit the generated material.",
+   "Share it with students and adjust after seeing results."
+  ],
+  "pros": [
+   "Saves prep time on first drafts",
+   "Easy to tailor to your class",
+   "Fits existing teaching workflows"
+  ],
+  "cons": [
+   "Output needs checking against curriculum and facts",
+   "School use may need privacy review"
+  ],
+  "alternatives": [
+   "google-classroom",
+   "seesaw",
+   "edpuzzle"
+  ],
+  "tags": [
+   "pdf",
+   "annotation",
+   "classroom",
+   "lms"
+  ],
+  "features": [
+   "PDF annotation and markup",
+   "LMS integrations",
+   "Voice and video comments",
+   "Accessibility oriented tools"
+  ],
+  "use_cases": [
+   "Digitizing worksheets",
+   "Annotating readings with students",
+   "Giving feedback directly on documents"
+  ],
+  "pricing_details": "Plans and pricing change. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Kami used for?",
+    "a": "Digital classroom tool for annotating documents, with AI-assisted features. See the official site for details."
+   },
+   {
+    "q": "Is Kami free?",
+    "a": "Pricing is not verified here. Plans change, so check the official site."
+   },
+   {
+    "q": "Can teachers rely on its output without checking?",
+    "a": "No. Review all generated material for accuracy, bias and fit before using it with students."
+   }
+  ],
+  "seo_title": "Kami: AI Tool Overview",
+  "seo_description": "Digital classroom tool for annotating documents, with AI-assisted features. Overview, features and use cases of Kami.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "formative",
+  "name": "Formative",
+  "category": "study",
+  "website_url": "https://goformative.com",
+  "pricing": "Unknown",
+  "tagline": "Real-time assessment tool for checking student understanding as they work.",
+  "best_for": "Teachers wanting live formative assessment data",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Formative lets teachers create assignments and questions, then watch student responses arrive in real time. It is built around formative assessment: checking understanding while learning is happening.\n\nTeachers can use that live view to adjust instruction on the spot. Look at the official site for current AI-assisted question features and plans.",
+  "use_steps": [
+   "Sign in with a school or personal account.",
+   "Enter your topic, grade level and standards.",
+   "Review and edit the generated material.",
+   "Share it with students and adjust after seeing results."
+  ],
+  "pros": [
+   "Saves prep time on first drafts",
+   "Easy to tailor to your class",
+   "Fits existing teaching workflows"
+  ],
+  "cons": [
+   "Output needs checking against curriculum and facts",
+   "School use may need privacy review"
+  ],
+  "alternatives": [
+   "kahoot",
+   "nearpod",
+   "edpuzzle"
+  ],
+  "tags": [
+   "assessment",
+   "formative",
+   "teachers",
+   "k12"
+  ],
+  "features": [
+   "Live student response view",
+   "Varied question types",
+   "Assignment creation",
+   "Data on understanding"
+  ],
+  "use_cases": [
+   "Exit tickets",
+   "Live checks during lessons",
+   "Practice assignments with quick feedback"
+  ],
+  "pricing_details": "Plans and pricing change. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Formative used for?",
+    "a": "Real-time assessment tool for checking student understanding as they work. See the official site for details."
+   },
+   {
+    "q": "Is Formative free?",
+    "a": "Pricing is not verified here. Plans change, so check the official site."
+   },
+   {
+    "q": "Can teachers rely on its output without checking?",
+    "a": "No. Review all generated material for accuracy, bias and fit before using it with students."
+   }
+  ],
+  "seo_title": "Formative: AI Tool Overview",
+  "seo_description": "Real-time assessment tool for checking student understanding as they work. Overview, features and use cases of Formative.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "coconote",
+  "name": "Coconote",
+  "category": "study",
+  "website_url": "https://coconote.app",
+  "pricing": "Unknown",
+  "tagline": "AI note taker that records lectures and turns them into notes and quizzes.",
+  "best_for": "Students recording lectures on a phone",
+  "platforms": [
+   "iOS",
+   "Android",
+   "Web"
+  ],
+  "description": "Coconote is a note-taking app for students that records or uploads class audio and converts it into structured notes. It can also create flashcards and quizzes from those notes.\n\nRecording works best with a clear audio source and permission from your teacher. Check the official site for plan limits and supported languages.",
+  "use_steps": [
+   "Create an account or open the app.",
+   "Add your notes, files or a topic.",
+   "Generate summaries, cards or maps and review them.",
+   "Test yourself and revise weak areas."
+  ],
+  "pros": [
+   "Helps turn material into study aids",
+   "Quick to start",
+   "Useful for revision"
+  ],
+  "cons": [
+   "Generated content can contain errors",
+   "Does not replace learning the material"
+  ],
+  "alternatives": [
+   "mindgrasp",
+   "otter-ai",
+   "quizlet"
+  ],
+  "tags": [
+   "notes",
+   "lectures",
+   "flashcards",
+   "students"
+  ],
+  "features": [
+   "Lecture recording and transcription",
+   "Structured note generation",
+   "Flashcards and quizzes",
+   "Mobile and web access"
+  ],
+  "use_cases": [
+   "Capturing a class lecture",
+   "Creating review flashcards",
+   "Reviewing before exams"
+  ],
+  "pricing_details": "Plans and pricing change. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Coconote used for?",
+    "a": "AI note taker that records lectures and turns them into notes and quizzes. See the official site for details."
+   },
+   {
+    "q": "Is Coconote free?",
+    "a": "Pricing is not verified here. Plans change, so check the official site."
+   },
+   {
+    "q": "Is it fine to use for assignments?",
+    "a": "Follow your school's academic integrity rules. Use it to study and understand, not to submit work that is not yours."
+   }
+  ],
+  "seo_title": "Coconote: AI Tool Overview",
+  "seo_description": "AI note taker that records lectures and turns them into notes and quizzes. Overview, features and use cases of Coconote.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "notability",
+  "name": "Notability",
+  "category": "study",
+  "website_url": "https://notability.com",
+  "pricing": "Unknown",
+  "tagline": "Note-taking app for handwriting, typing and audio, with study features.",
+  "best_for": "iPad and Mac users who handwrite notes",
+  "platforms": [
+   "iOS",
+   "macOS",
+   "Web"
+  ],
+  "description": "Notability is a note-taking app that combines handwriting, typing, images and audio recording on a flexible page. Many students use it with a tablet and stylus.\n\nIt has added AI-based features such as summaries and study aids; confirm exact features and plans on the official site. Its strength is a smooth handwriting experience with organized notebooks.",
+  "use_steps": [
+   "Create an account or open the app.",
+   "Add your notes, files or a topic.",
+   "Generate summaries, cards or maps and review them.",
+   "Test yourself and revise weak areas."
+  ],
+  "pros": [
+   "Helps turn material into study aids",
+   "Quick to start",
+   "Useful for revision"
+  ],
+  "cons": [
+   "Generated content can contain errors",
+   "Does not replace learning the material"
+  ],
+  "alternatives": [
+   "goodnotes",
+   "notion",
+   "evernote"
+  ],
+  "tags": [
+   "notes",
+   "handwriting",
+   "ipad",
+   "students"
+  ],
+  "features": [
+   "Handwriting and typed notes",
+   "Audio recording with notes",
+   "PDF markup",
+   "Organized notebooks and dividers"
+  ],
+  "use_cases": [
+   "Taking handwritten lecture notes",
+   "Annotating PDFs",
+   "Reviewing notes with recorded audio"
+  ],
+  "pricing_details": "Plans and pricing change. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Notability used for?",
+    "a": "Note-taking app for handwriting, typing and audio, with study features. See the official site for details."
+   },
+   {
+    "q": "Is Notability free?",
+    "a": "Pricing is not verified here. Plans change, so check the official site."
+   },
+   {
+    "q": "Is it fine to use for assignments?",
+    "a": "Follow your school's academic integrity rules. Use it to study and understand, not to submit work that is not yours."
+   }
+  ],
+  "seo_title": "Notability: AI Tool Overview",
+  "seo_description": "Note-taking app for handwriting, typing and audio, with study features. Overview, features and use cases of Notability.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "goodnotes",
+  "name": "Goodnotes",
+  "category": "study",
+  "website_url": "https://goodnotes.com",
+  "pricing": "Unknown",
+  "tagline": "Digital notebook app with handwriting tools and AI study helpers.",
+  "best_for": "Tablet users who write by hand",
+  "platforms": [
+   "iOS",
+   "Android",
+   "Windows",
+   "macOS",
+   "Web"
+  ],
+  "description": "Goodnotes is a digital notebook for handwriting and annotating documents on a tablet or computer. Notes live in notebooks and can be searched and organized.\n\nThe company has introduced AI features around handwriting and study support. Because features change often, check the official site for what is on each plan.",
+  "use_steps": [
+   "Create an account or open the app.",
+   "Add your notes, files or a topic.",
+   "Generate summaries, cards or maps and review them.",
+   "Test yourself and revise weak areas."
+  ],
+  "pros": [
+   "Helps turn material into study aids",
+   "Quick to start",
+   "Useful for revision"
+  ],
+  "cons": [
+   "Generated content can contain errors",
+   "Does not replace learning the material"
+  ],
+  "alternatives": [
+   "notability",
+   "notion",
+   "remnote"
+  ],
+  "tags": [
+   "notes",
+   "handwriting",
+   "pdf",
+   "students"
+  ],
+  "features": [
+   "Handwriting on digital paper",
+   "PDF annotation",
+   "Searchable handwritten notes",
+   "Notebook organization"
+  ],
+  "use_cases": [
+   "Annotating lecture slides",
+   "Keeping a digital planner",
+   "Searching old handwritten notes"
+  ],
+  "pricing_details": "Plans and pricing change. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Goodnotes used for?",
+    "a": "Digital notebook app with handwriting tools and AI study helpers. See the official site for details."
+   },
+   {
+    "q": "Is Goodnotes free?",
+    "a": "Pricing is not verified here. Plans change, so check the official site."
+   },
+   {
+    "q": "Is it fine to use for assignments?",
+    "a": "Follow your school's academic integrity rules. Use it to study and understand, not to submit work that is not yours."
+   }
+  ],
+  "seo_title": "Goodnotes: AI Tool Overview",
+  "seo_description": "Digital notebook app with handwriting tools and AI study helpers. Overview, features and use cases of Goodnotes.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "coggle",
+  "name": "Coggle",
+  "category": "study",
+  "website_url": "https://coggle.it",
+  "pricing": "Unknown",
+  "tagline": "Online tool for drawing mind maps and flowcharts collaboratively.",
+  "best_for": "Students and teams mapping ideas together",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Coggle is a web tool for creating mind maps and flowcharts. Branches grow from a central idea, and several people can edit the same diagram.\n\nIt is a simple way to organize essay plans, revision topics or project ideas. Check the official site to see any AI helpers and the current limits on free and paid plans.",
+  "use_steps": [
+   "Create an account or open the app.",
+   "Add your notes, files or a topic.",
+   "Generate summaries, cards or maps and review them.",
+   "Test yourself and revise weak areas."
+  ],
+  "pros": [
+   "Helps turn material into study aids",
+   "Quick to start",
+   "Useful for revision"
+  ],
+  "cons": [
+   "Generated content can contain errors",
+   "Does not replace learning the material"
+  ],
+  "alternatives": [
+   "mindmeister",
+   "xmind",
+   "whimsical"
+  ],
+  "tags": [
+   "mind-maps",
+   "diagrams",
+   "collaboration",
+   "study"
+  ],
+  "features": [
+   "Mind map and flowchart drawing",
+   "Real-time collaboration",
+   "Colors, images and notes on branches",
+   "Sharing and export"
+  ],
+  "use_cases": [
+   "Planning an essay structure",
+   "Revision maps",
+   "Group brainstorming"
+  ],
+  "pricing_details": "Plans and pricing change. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Coggle used for?",
+    "a": "Online tool for drawing mind maps and flowcharts collaboratively. See the official site for details."
+   },
+   {
+    "q": "Is Coggle free?",
+    "a": "Pricing is not verified here. Plans change, so check the official site."
+   },
+   {
+    "q": "Is it fine to use for assignments?",
+    "a": "Follow your school's academic integrity rules. Use it to study and understand, not to submit work that is not yours."
+   }
+  ],
+  "seo_title": "Coggle: AI Tool Overview",
+  "seo_description": "Online tool for drawing mind maps and flowcharts collaboratively. Overview, features and use cases of Coggle.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "mindomo",
+  "name": "Mindomo",
+  "category": "study",
+  "website_url": "https://mindomo.com",
+  "pricing": "Unknown",
+  "tagline": "Mind mapping and concept map software with outlines and presentation views.",
+  "best_for": "Students and teachers building concept maps",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android",
+   "Windows"
+  ],
+  "description": "Mindomo is a mapping tool that supports mind maps, concept maps and outlines in one place. The same content can be shown as a map, an outline or a presentation.\n\nThis makes it handy for study notes and classroom projects. Look at the official site for current AI features and for education plans.",
+  "use_steps": [
+   "Create an account or open the app.",
+   "Add your notes, files or a topic.",
+   "Generate summaries, cards or maps and review them.",
+   "Test yourself and revise weak areas."
+  ],
+  "pros": [
+   "Helps turn material into study aids",
+   "Quick to start",
+   "Useful for revision"
+  ],
+  "cons": [
+   "Generated content can contain errors",
+   "Does not replace learning the material"
+  ],
+  "alternatives": [
+   "mindmeister",
+   "xmind",
+   "coggle"
+  ],
+  "tags": [
+   "mind-maps",
+   "concept-maps",
+   "education",
+   "notes"
+  ],
+  "features": [
+   "Mind and concept map types",
+   "Outline and presentation views",
+   "Collaboration",
+   "Education oriented features"
+  ],
+  "use_cases": [
+   "Summarizing a chapter visually",
+   "Building a class concept map",
+   "Presenting a topic from a map"
+  ],
+  "pricing_details": "Plans and pricing change. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Mindomo used for?",
+    "a": "Mind mapping and concept map software with outlines and presentation views. See the official site for details."
+   },
+   {
+    "q": "Is Mindomo free?",
+    "a": "Pricing is not verified here. Plans change, so check the official site."
+   },
+   {
+    "q": "Is it fine to use for assignments?",
+    "a": "Follow your school's academic integrity rules. Use it to study and understand, not to submit work that is not yours."
+   }
+  ],
+  "seo_title": "Mindomo: AI Tool Overview",
+  "seo_description": "Mind mapping and concept map software with outlines and presentation views. Overview, features and use cases of Mindomo.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "microsoft-math-solver",
+  "name": "Microsoft Math Solver",
+  "category": "study",
+  "website_url": "https://mathsolver.microsoft.com",
+  "pricing": "Unknown",
+  "tagline": "Math problem solver with step-by-step explanations from typed or photographed problems.",
+  "best_for": "Students checking steps in algebra and calculus",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "Microsoft Math Solver takes a typed, handwritten or photographed math problem and shows a solution with steps. It covers topics from arithmetic through algebra and calculus.\n\nIt works best as a way to check your own working and see another approach. Use it to learn the method rather than only copy answers, and check the official site for current features.",
+  "use_steps": [
+   "Open the app or website.",
+   "Type, handwrite or photograph the problem.",
+   "Read the solution steps.",
+   "Try a similar problem yourself to confirm you understand."
+  ],
+  "pros": [
+   "Shows worked steps",
+   "Accepts several input styles",
+   "Good for checking homework"
+  ],
+  "cons": [
+   "Easy to copy answers without learning",
+   "May struggle with unusual wording"
+  ],
+  "alternatives": [
+   "photomath",
+   "symbolab",
+   "mathway"
+  ],
+  "tags": [
+   "math",
+   "solver",
+   "homework",
+   "students"
+  ],
+  "features": [
+   "Step-by-step solutions",
+   "Photo and handwriting input",
+   "Graphing support",
+   "Practice style explanations"
+  ],
+  "use_cases": [
+   "Checking homework steps",
+   "Learning a solving method",
+   "Graphing equations"
+  ],
+  "pricing_details": "Plans and pricing change. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Microsoft Math Solver used for?",
+    "a": "Math problem solver with step-by-step explanations from typed or photographed problems. See the official site for details."
+   },
+   {
+    "q": "Is Microsoft Math Solver free?",
+    "a": "Pricing is not verified here. Plans change, so check the official site."
+   },
+   {
+    "q": "Is it always correct?",
+    "a": "Not guaranteed. Check results, especially for word problems and advanced topics."
+   }
+  ],
+  "seo_title": "Microsoft Math Solver: AI Tool Overview",
+  "seo_description": "Math problem solver with step-by-step explanations from typed or photographed problems. Overview, features and use cases of Microsoft Math Solver.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "cymath",
+  "name": "Cymath",
+  "category": "study",
+  "website_url": "https://cymath.com",
+  "pricing": "Unknown",
+  "tagline": "Online math solver that explains the steps for algebra and calculus problems.",
+  "best_for": "Students who want a step explanation for common problems",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "Cymath is a math problem solver that returns step-by-step working for equations, simplification and calculus tasks. You type an expression and read the steps.\n\nIt is useful for confirming an answer and finding where your own steps went wrong. Check the official site for plan details and any limits on steps.",
+  "use_steps": [
+   "Open the app or website.",
+   "Type, handwrite or photograph the problem.",
+   "Read the solution steps.",
+   "Try a similar problem yourself to confirm you understand."
+  ],
+  "pros": [
+   "Shows worked steps",
+   "Accepts several input styles",
+   "Good for checking homework"
+  ],
+  "cons": [
+   "Easy to copy answers without learning",
+   "May struggle with unusual wording"
+  ],
+  "alternatives": [
+   "microsoft-math-solver",
+   "symbolab",
+   "mathway"
+  ],
+  "tags": [
+   "math",
+   "algebra",
+   "calculus",
+   "solver"
+  ],
+  "features": [
+   "Typed problem input",
+   "Step-by-step explanations",
+   "Algebra and calculus topics",
+   "Mobile access"
+  ],
+  "use_cases": [
+   "Verifying a homework answer",
+   "Reviewing worked solutions",
+   "Spotting algebra mistakes"
+  ],
+  "pricing_details": "Plans and pricing change. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Cymath used for?",
+    "a": "Online math solver that explains the steps for algebra and calculus problems. See the official site for details."
+   },
+   {
+    "q": "Is Cymath free?",
+    "a": "Pricing is not verified here. Plans change, so check the official site."
+   },
+   {
+    "q": "Is it always correct?",
+    "a": "Not guaranteed. Check results, especially for word problems and advanced topics."
+   }
+  ],
+  "seo_title": "Cymath: AI Tool Overview",
+  "seo_description": "Online math solver that explains the steps for algebra and calculus problems. Overview, features and use cases of Cymath.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "mondly",
+  "name": "Mondly",
+  "category": "study",
+  "website_url": "https://mondly.com",
+  "pricing": "Unknown",
+  "tagline": "Language learning app with short lessons, speech practice and chatbot conversations.",
+  "best_for": "Beginners who like short daily lessons",
+  "platforms": [
+   "iOS",
+   "Android",
+   "Web"
+  ],
+  "description": "Mondly is a language learning app built from short lessons covering vocabulary, phrases and listening. It includes speech recognition and chatbot-style conversation practice.\n\nIt supports many languages and is geared toward everyday phrases. Check the official site for the current languages, AI features and subscription options.",
+  "use_steps": [
+   "Pick the language you want to learn.",
+   "Set a level and daily goal.",
+   "Complete short lessons and speaking drills.",
+   "Review mistakes and repeat regularly."
+  ],
+  "pros": [
+   "Short sessions fit a busy day",
+   "Practice speaking and listening",
+   "Structured progression"
+  ],
+  "cons": [
+   "Apps rarely replace real conversation",
+   "Advanced learners may outgrow it"
+  ],
+  "alternatives": [
+   "duolingo",
+   "babbel",
+   "speak"
+  ],
+  "tags": [
+   "language",
+   "speaking",
+   "vocabulary",
+   "mobile"
+  ],
+  "features": [
+   "Short vocabulary and phrase lessons",
+   "Speech recognition practice",
+   "Conversation chatbot",
+   "Many language options"
+  ],
+  "use_cases": [
+   "Daily five-minute practice",
+   "Travel phrases",
+   "Practicing pronunciation"
+  ],
+  "pricing_details": "Plans and pricing change. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Mondly used for?",
+    "a": "Language learning app with short lessons, speech practice and chatbot conversations. See the official site for details."
+   },
+   {
+    "q": "Is Mondly free?",
+    "a": "Pricing is not verified here. Plans change, so check the official site."
+   },
+   {
+    "q": "Can an app make me fluent?",
+    "a": "Apps help with practice, but fluency usually also needs conversation with people and wider reading and listening."
+   }
+  ],
+  "seo_title": "Mondly: AI Tool Overview",
+  "seo_description": "Language learning app with short lessons, speech practice and chatbot conversations. Overview, features and use cases of Mondly.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "clozemaster",
+  "name": "Clozemaster",
+  "category": "study",
+  "website_url": "https://clozemaster.com",
+  "pricing": "Unknown",
+  "tagline": "Learn vocabulary in context by filling gaps in real sentences.",
+  "best_for": "Intermediate learners building vocabulary",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "Clozemaster teaches vocabulary through cloze tests: sentences with a missing word that you fill in. Words are ordered by frequency so you meet common vocabulary first.\n\nIt suits learners who already know the basics and want more exposure to real sentences. Check the official site for current languages and plans.",
+  "use_steps": [
+   "Pick the language you want to learn.",
+   "Set a level and daily goal.",
+   "Complete short lessons and speaking drills.",
+   "Review mistakes and repeat regularly."
+  ],
+  "pros": [
+   "Short sessions fit a busy day",
+   "Practice speaking and listening",
+   "Structured progression"
+  ],
+  "cons": [
+   "Apps rarely replace real conversation",
+   "Advanced learners may outgrow it"
+  ],
+  "alternatives": [
+   "lingq",
+   "lingvist",
+   "duolingo"
+  ],
+  "tags": [
+   "vocabulary",
+   "cloze",
+   "language",
+   "context"
+  ],
+  "features": [
+   "Fill-in-the-blank sentence practice",
+   "Frequency-based word order",
+   "Many language pairs",
+   "Listening and reading modes"
+  ],
+  "use_cases": [
+   "Growing vocabulary at intermediate level",
+   "Reviewing in short sessions",
+   "Learning words in context"
+  ],
+  "pricing_details": "Plans and pricing change. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Clozemaster used for?",
+    "a": "Learn vocabulary in context by filling gaps in real sentences. See the official site for details."
+   },
+   {
+    "q": "Is Clozemaster free?",
+    "a": "Pricing is not verified here. Plans change, so check the official site."
+   },
+   {
+    "q": "Can an app make me fluent?",
+    "a": "Apps help with practice, but fluency usually also needs conversation with people and wider reading and listening."
+   }
+  ],
+  "seo_title": "Clozemaster: AI Tool Overview",
+  "seo_description": "Learn vocabulary in context by filling gaps in real sentences. Overview, features and use cases of Clozemaster.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "cram",
+  "name": "Cram.com",
+  "category": "study",
+  "website_url": "https://cram.com",
+  "pricing": "Unknown",
+  "tagline": "Flashcard site for making and studying card sets.",
+  "best_for": "Students who want simple flashcard sets",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "Cram.com is a flashcard website where users create and study card sets. Study modes help with memorizing terms and facts for exams.\n\nIt is a long-standing flashcard option alongside other tools. Check the official site for current features and plans.",
+  "use_steps": [
+   "Create an account or open the app.",
+   "Add your notes, files or a topic.",
+   "Generate summaries, cards or maps and review them.",
+   "Test yourself and revise weak areas."
+  ],
+  "pros": [
+   "Helps turn material into study aids",
+   "Quick to start",
+   "Useful for revision"
+  ],
+  "cons": [
+   "Generated content can contain errors",
+   "Does not replace learning the material"
+  ],
+  "alternatives": [
+   "quizlet",
+   "anki",
+   "brainscape"
+  ],
+  "tags": [
+   "flashcards",
+   "memorization",
+   "exams",
+   "study"
+  ],
+  "features": [
+   "Flashcard creation",
+   "Study and test modes",
+   "Public card sets",
+   "Mobile access"
+  ],
+  "use_cases": [
+   "Memorizing vocabulary",
+   "Exam term review",
+   "Sharing sets with classmates"
+  ],
+  "pricing_details": "Plans and pricing change. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Cram.com used for?",
+    "a": "Flashcard site for making and studying card sets. See the official site for details."
+   },
+   {
+    "q": "Is Cram.com free?",
+    "a": "Pricing is not verified here. Plans change, so check the official site."
+   },
+   {
+    "q": "Is it fine to use for assignments?",
+    "a": "Follow your school's academic integrity rules. Use it to study and understand, not to submit work that is not yours."
+   }
+  ],
+  "seo_title": "Cram.com: AI Tool Overview",
+  "seo_description": "Flashcard site for making and studying card sets. Overview, features and use cases of Cram.com.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "studysmarter",
+  "name": "StudySmarter",
+  "category": "study",
+  "website_url": "https://studysmarter.us",
+  "pricing": "Unknown",
+  "tagline": "Study app combining flashcards, summaries and AI help for exam prep.",
+  "best_for": "Students who want flashcards and summaries in one app",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "StudySmarter is a study platform with flashcards, summaries and exam preparation features. It also includes AI help for turning material into study content.\n\nIt is aimed at school and university students preparing for tests. Check the official site for current features and subscription options.",
+  "use_steps": [
+   "Create an account or open the app.",
+   "Add your notes, files or a topic.",
+   "Generate summaries, cards or maps and review them.",
+   "Test yourself and revise weak areas."
+  ],
+  "pros": [
+   "Helps turn material into study aids",
+   "Quick to start",
+   "Useful for revision"
+  ],
+  "cons": [
+   "Generated content can contain errors",
+   "Does not replace learning the material"
+  ],
+  "alternatives": [
+   "quizlet",
+   "studyfetch",
+   "knowt"
+  ],
+  "tags": [
+   "flashcards",
+   "exam-prep",
+   "summaries",
+   "students"
+  ],
+  "features": [
+   "Flashcard creation",
+   "Summaries",
+   "Study plans",
+   "AI study assistance"
+  ],
+  "use_cases": [
+   "Preparing for finals",
+   "Turning notes into flashcards",
+   "Planning study time"
+  ],
+  "pricing_details": "Plans and pricing change. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is StudySmarter used for?",
+    "a": "Study app combining flashcards, summaries and AI help for exam prep. See the official site for details."
+   },
+   {
+    "q": "Is StudySmarter free?",
+    "a": "Pricing is not verified here. Plans change, so check the official site."
+   },
+   {
+    "q": "Is it fine to use for assignments?",
+    "a": "Follow your school's academic integrity rules. Use it to study and understand, not to submit work that is not yours."
+   }
+  ],
+  "seo_title": "StudySmarter: AI Tool Overview",
+  "seo_description": "Study app combining flashcards, summaries and AI help for exam prep. Overview, features and use cases of StudySmarter.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "be-my-eyes",
+  "name": "Be My Eyes",
+  "category": "productivity",
+  "website_url": "https://bemyeyes.com",
+  "pricing": "Unknown",
+  "tagline": "App connecting blind and low-vision people with volunteers and AI visual descriptions.",
+  "best_for": "Blind and low-vision users who need sighted help",
+  "platforms": [
+   "iOS",
+   "Android"
+  ],
+  "description": "Be My Eyes is an accessibility app for people who are blind or have low vision. Users can reach sighted volunteers by video call and, through its AI feature, get descriptions of photos they take.\n\nIt is meant for everyday tasks like reading labels or checking what is in front of you. For safety-critical situations, do not rely on AI descriptions alone, and check the official site for current features.",
+  "use_steps": [
+   "Install or open the tool on your device.",
+   "Adjust voice, display or caption settings to your needs.",
+   "Try it on a real document, page or recording.",
+   "Combine with other assistive tools if needed."
+  ],
+  "pros": [
+   "Supports more inclusive access",
+   "Customizable to personal needs",
+   "Fits into everyday tasks"
+  ],
+  "cons": [
+   "Automated output may be imperfect",
+   "Needs testing with real users"
+  ],
+  "alternatives": [
+   "voice-dream-reader",
+   "naturalreaders",
+   "speechify"
+  ],
+  "tags": [
+   "accessibility",
+   "low-vision",
+   "visual-description",
+   "mobile"
+  ],
+  "features": [
+   "Video calls with volunteers",
+   "AI image descriptions",
+   "Mobile first design",
+   "Support for everyday tasks"
+  ],
+  "use_cases": [
+   "Reading a product label",
+   "Identifying an item",
+   "Getting a description of a photo"
+  ],
+  "pricing_details": "Plans and pricing change. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Be My Eyes used for?",
+    "a": "App connecting blind and low-vision people with volunteers and AI visual descriptions. See the official site for details."
+   },
+   {
+    "q": "Is Be My Eyes free?",
+    "a": "Pricing is not verified here. Plans change, so check the official site."
+   },
+   {
+    "q": "Does it replace human accessibility review?",
+    "a": "No. Automated tools help, but review by people with disabilities and professionals is still important."
+   }
+  ],
+  "seo_title": "Be My Eyes: AI Tool Overview",
+  "seo_description": "App connecting blind and low-vision people with volunteers and AI visual descriptions. Overview, features and use cases of Be My Eyes.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "nvda",
+  "name": "NVDA",
+  "category": "productivity",
+  "website_url": "https://nvaccess.org",
+  "pricing": "Open source",
+  "tagline": "Free open-source screen reader for Windows.",
+  "best_for": "Blind and low-vision Windows users",
+  "platforms": [
+   "Windows"
+  ],
+  "description": "NVDA (NonVisual Desktop Access) is a screen reader that reads on-screen text aloud or sends it to a braille display on Windows. It is developed by NV Access and maintained as open-source software.\n\nIt is also widely used by developers to test whether websites and apps work with assistive technology. It is not an AI chatbot, but a core accessibility tool; see the official site for download details.",
+  "use_steps": [
+   "Install or open the tool on your device.",
+   "Adjust voice, display or caption settings to your needs.",
+   "Try it on a real document, page or recording.",
+   "Combine with other assistive tools if needed."
+  ],
+  "pros": [
+   "Supports more inclusive access",
+   "Customizable to personal needs",
+   "Fits into everyday tasks"
+  ],
+  "cons": [
+   "Automated output may be imperfect",
+   "Needs testing with real users"
+  ],
+  "alternatives": [
+   "voice-dream-reader",
+   "naturalreaders",
+   "speechify"
+  ],
+  "tags": [
+   "screen-reader",
+   "accessibility",
+   "windows",
+   "open-source"
+  ],
+  "features": [
+   "Speech output of on-screen content",
+   "Braille display support",
+   "Works with common Windows apps",
+   "Add-on ecosystem"
+  ],
+  "use_cases": [
+   "Using a PC without sight",
+   "Testing web accessibility",
+   "Reading documents aloud"
+  ],
+  "pricing_details": "Plans and pricing change. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is NVDA used for?",
+    "a": "Free open-source screen reader for Windows. See the official site for details."
+   },
+   {
+    "q": "Is NVDA free?",
+    "a": "Pricing is not verified here. Plans change, so check the official site."
+   },
+   {
+    "q": "Does it replace human accessibility review?",
+    "a": "No. Automated tools help, but review by people with disabilities and professionals is still important."
+   }
+  ],
+  "seo_title": "NVDA: AI Tool Overview",
+  "seo_description": "Free open-source screen reader for Windows. Overview, features and use cases of NVDA.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "voice-dream-reader",
+  "name": "Voice Dream Reader",
+  "category": "productivity",
+  "website_url": "https://voicedream.com",
+  "pricing": "Unknown",
+  "tagline": "Text-to-speech reader for documents and books with adjustable voices.",
+  "best_for": "Readers with dyslexia or low vision who prefer listening",
+  "platforms": [
+   "iOS",
+   "Android"
+  ],
+  "description": "Voice Dream Reader reads documents, web pages and books aloud using text-to-speech voices. Users can control speed and highlighting to match their reading preferences.\n\nPeople with dyslexia, low vision or attention challenges often use text-to-speech to reduce reading load. Check the official site for current voices, formats and pricing.",
+  "use_steps": [
+   "Install or open the tool on your device.",
+   "Adjust voice, display or caption settings to your needs.",
+   "Try it on a real document, page or recording.",
+   "Combine with other assistive tools if needed."
+  ],
+  "pros": [
+   "Supports more inclusive access",
+   "Customizable to personal needs",
+   "Fits into everyday tasks"
+  ],
+  "cons": [
+   "Automated output may be imperfect",
+   "Needs testing with real users"
+  ],
+  "alternatives": [
+   "naturalreaders",
+   "speechify",
+   "texthelp-read-write"
+  ],
+  "tags": [
+   "text-to-speech",
+   "dyslexia",
+   "accessibility",
+   "reading"
+  ],
+  "features": [
+   "Text-to-speech for many file types",
+   "Adjustable speed and voices",
+   "Text highlighting while reading",
+   "Mobile apps"
+  ],
+  "use_cases": [
+   "Listening to articles",
+   "Reading study material aloud",
+   "Following text with highlighting"
+  ],
+  "pricing_details": "Plans and pricing change. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Voice Dream Reader used for?",
+    "a": "Text-to-speech reader for documents and books with adjustable voices. See the official site for details."
+   },
+   {
+    "q": "Is Voice Dream Reader free?",
+    "a": "Pricing is not verified here. Plans change, so check the official site."
+   },
+   {
+    "q": "Does it replace human accessibility review?",
+    "a": "No. Automated tools help, but review by people with disabilities and professionals is still important."
+   }
+  ],
+  "seo_title": "Voice Dream Reader: AI Tool Overview",
+  "seo_description": "Text-to-speech reader for documents and books with adjustable voices. Overview, features and use cases of Voice Dream Reader.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "texthelp-read-write",
+  "name": "Read&Write by Texthelp",
+  "category": "study",
+  "website_url": "https://texthelp.com",
+  "pricing": "Unknown",
+  "tagline": "Literacy support toolbar with text-to-speech, dictionary and writing help.",
+  "best_for": "Students and staff who need reading and writing support",
+  "platforms": [
+   "Windows",
+   "macOS",
+   "Chrome extension"
+  ],
+  "description": "Read&Write is a literacy support toolbar from Texthelp, used in schools and workplaces. It offers tools such as reading text aloud, word prediction and dictionary lookups across documents and websites.\n\nIt is commonly used to support students with dyslexia and other learning differences. Check the official site for current features and licensing for schools.",
+  "use_steps": [
+   "Install or open the tool on your device.",
+   "Adjust voice, display or caption settings to your needs.",
+   "Try it on a real document, page or recording.",
+   "Combine with other assistive tools if needed."
+  ],
+  "pros": [
+   "Supports more inclusive access",
+   "Customizable to personal needs",
+   "Fits into everyday tasks"
+  ],
+  "cons": [
+   "Automated output may be imperfect",
+   "Needs testing with real users"
+  ],
+  "alternatives": [
+   "naturalreaders",
+   "speechify",
+   "voice-dream-reader"
+  ],
+  "tags": [
+   "dyslexia",
+   "literacy",
+   "accessibility",
+   "toolbar"
+  ],
+  "features": [
+   "Text-to-speech",
+   "Word prediction",
+   "Dictionary and picture support",
+   "Works with documents and web pages"
+  ],
+  "use_cases": [
+   "Supporting students with dyslexia",
+   "Proofreading with audio",
+   "Reading web content aloud"
+  ],
+  "pricing_details": "Plans and pricing change. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Read&Write by Texthelp used for?",
+    "a": "Literacy support toolbar with text-to-speech, dictionary and writing help. See the official site for details."
+   },
+   {
+    "q": "Is Read&Write by Texthelp free?",
+    "a": "Pricing is not verified here. Plans change, so check the official site."
+   },
+   {
+    "q": "Does it replace human accessibility review?",
+    "a": "No. Automated tools help, but review by people with disabilities and professionals is still important."
+   }
+  ],
+  "seo_title": "Read&Write by Texthelp: AI Tool Overview",
+  "seo_description": "Literacy support toolbar with text-to-speech, dictionary and writing help. Overview, features and use cases of Read&Write by Texthelp.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "verbit",
+  "name": "Verbit",
+  "category": "productivity",
+  "website_url": "https://verbit.ai",
+  "pricing": "Unknown",
+  "tagline": "Captioning and transcription services using AI with human review.",
+  "best_for": "Education and enterprise teams that need accurate captions",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Verbit provides captioning, transcription and related services, combining AI speech recognition with human review. It is used for lectures, meetings and media.\n\nAccurate captions are important for accessibility and compliance. Review turnaround and service options on the official site, since offerings vary by customer type.",
+  "use_steps": [
+   "Install or open the tool on your device.",
+   "Adjust voice, display or caption settings to your needs.",
+   "Try it on a real document, page or recording.",
+   "Combine with other assistive tools if needed."
+  ],
+  "pros": [
+   "Supports more inclusive access",
+   "Customizable to personal needs",
+   "Fits into everyday tasks"
+  ],
+  "cons": [
+   "Automated output may be imperfect",
+   "Needs testing with real users"
+  ],
+  "alternatives": [
+   "otter-ai",
+   "rev",
+   "sonix"
+  ],
+  "tags": [
+   "captioning",
+   "transcription",
+   "accessibility",
+   "education"
+  ],
+  "features": [
+   "Live and recorded captioning",
+   "Transcription",
+   "AI plus human review",
+   "Education and enterprise use"
+  ],
+  "use_cases": [
+   "Captioning lectures",
+   "Transcribing webinars",
+   "Making video accessible"
+  ],
+  "pricing_details": "Plans and pricing change. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Verbit used for?",
+    "a": "Captioning and transcription services using AI with human review. See the official site for details."
+   },
+   {
+    "q": "Is Verbit free?",
+    "a": "Pricing is not verified here. Plans change, so check the official site."
+   },
+   {
+    "q": "Does it replace human accessibility review?",
+    "a": "No. Automated tools help, but review by people with disabilities and professionals is still important."
+   }
+  ],
+  "seo_title": "Verbit: AI Tool Overview",
+  "seo_description": "Captioning and transcription services using AI with human review. Overview, features and use cases of Verbit.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "3play-media",
+  "name": "3Play Media",
+  "category": "productivity",
+  "website_url": "https://3playmedia.com",
+  "pricing": "Unknown",
+  "tagline": "Captioning, transcription and audio description provider for accessible media.",
+  "best_for": "Organizations that must make media accessible",
+  "platforms": [
+   "Web"
+  ],
+  "description": "3Play Media offers captions, transcripts and audio description for video and audio content. Its services are used by universities and companies working to meet accessibility needs.\n\nAudio description, which narrates visual content, is a service not every transcription tool covers. See the official site for current offerings and how plans work.",
+  "use_steps": [
+   "Install or open the tool on your device.",
+   "Adjust voice, display or caption settings to your needs.",
+   "Try it on a real document, page or recording.",
+   "Combine with other assistive tools if needed."
+  ],
+  "pros": [
+   "Supports more inclusive access",
+   "Customizable to personal needs",
+   "Fits into everyday tasks"
+  ],
+  "cons": [
+   "Automated output may be imperfect",
+   "Needs testing with real users"
+  ],
+  "alternatives": [
+   "verbit",
+   "rev",
+   "happy-scribe"
+  ],
+  "tags": [
+   "captions",
+   "audio-description",
+   "accessibility",
+   "video"
+  ],
+  "features": [
+   "Captions and subtitles",
+   "Transcripts",
+   "Audio description",
+   "Integrations with video platforms"
+  ],
+  "use_cases": [
+   "Captioning course videos",
+   "Adding audio description",
+   "Meeting accessibility requirements"
+  ],
+  "pricing_details": "Plans and pricing change. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is 3Play Media used for?",
+    "a": "Captioning, transcription and audio description provider for accessible media. See the official site for details."
+   },
+   {
+    "q": "Is 3Play Media free?",
+    "a": "Pricing is not verified here. Plans change, so check the official site."
+   },
+   {
+    "q": "Does it replace human accessibility review?",
+    "a": "No. Automated tools help, but review by people with disabilities and professionals is still important."
+   }
+  ],
+  "seo_title": "3Play Media: AI Tool Overview",
+  "seo_description": "Captioning, transcription and audio description provider for accessible media. Overview, features and use cases of 3Play Media.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "audioeye",
+  "name": "AudioEye",
+  "category": "productivity",
+  "website_url": "https://audioeye.com",
+  "pricing": "Unknown",
+  "tagline": "Web accessibility platform that scans and helps fix site accessibility issues.",
+  "best_for": "Website owners addressing accessibility issues",
+  "platforms": [
+   "Web"
+  ],
+  "description": "AudioEye is a web accessibility platform that detects accessibility problems on websites and offers automated and manual remediation. It is aimed at site owners who want to improve usability for people with disabilities.\n\nAutomated tools can fix some issues but not all, so human review remains important. Check the official site for current services and what each plan covers.",
+  "use_steps": [
+   "Install or open the tool on your device.",
+   "Adjust voice, display or caption settings to your needs.",
+   "Try it on a real document, page or recording.",
+   "Combine with other assistive tools if needed."
+  ],
+  "pros": [
+   "Supports more inclusive access",
+   "Customizable to personal needs",
+   "Fits into everyday tasks"
+  ],
+  "cons": [
+   "Automated output may be imperfect",
+   "Needs testing with real users"
+  ],
+  "alternatives": [
+   "yoast-seo",
+   "hotjar",
+   "applitools"
+  ],
+  "tags": [
+   "web-accessibility",
+   "wcag",
+   "monitoring",
+   "compliance"
+  ],
+  "features": [
+   "Accessibility scanning",
+   "Automated fixes",
+   "Monitoring over time",
+   "Support for compliance work"
+  ],
+  "use_cases": [
+   "Auditing a website",
+   "Fixing common issues",
+   "Monitoring accessibility"
+  ],
+  "pricing_details": "Plans and pricing change. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is AudioEye used for?",
+    "a": "Web accessibility platform that scans and helps fix site accessibility issues. See the official site for details."
+   },
+   {
+    "q": "Is AudioEye free?",
+    "a": "Pricing is not verified here. Plans change, so check the official site."
+   },
+   {
+    "q": "Does it replace human accessibility review?",
+    "a": "No. Automated tools help, but review by people with disabilities and professionals is still important."
+   }
+  ],
+  "seo_title": "AudioEye: AI Tool Overview",
+  "seo_description": "Web accessibility platform that scans and helps fix site accessibility issues. Overview, features and use cases of AudioEye.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "ada-health",
+  "name": "Ada Health",
+  "category": "productivity",
+  "website_url": "https://ada.com",
+  "pricing": "Unknown",
+  "tagline": "Symptom assessment app that asks questions and suggests possible next steps.",
+  "best_for": "People wanting structured guidance before seeing a clinician",
+  "platforms": [
+   "iOS",
+   "Android",
+   "Web"
+  ],
+  "description": "Ada is a health app that guides users through questions about their symptoms and then suggests possible causes and next steps. It is built as an informational tool rather than a replacement for a doctor.\n\nSymptom checkers can be helpful for organizing what to tell a clinician, but they can be wrong. Seek professional medical advice for any health concern; check the official site for availability.",
+  "use_steps": [
+   "Create an account or sign in.",
+   "Provide the information the tool asks for.",
+   "Read the output with care.",
+   "Take important decisions to a qualified professional."
+  ],
+  "pros": [
+   "Organizes health information",
+   "Easy to use on a phone",
+   "Can save time on routine tasks"
+  ],
+  "cons": [
+   "Not a substitute for professional care",
+   "Accuracy can vary"
+  ],
+  "alternatives": [
+   "wysa",
+   "heidi-health",
+   "abridge"
+  ],
+  "tags": [
+   "health",
+   "symptoms",
+   "assessment",
+   "wellness"
+  ],
+  "features": [
+   "Symptom questionnaire",
+   "Suggested next steps",
+   "Health information",
+   "Mobile and web access"
+  ],
+  "use_cases": [
+   "Preparing for a doctor visit",
+   "Understanding when to seek care",
+   "Tracking symptoms"
+  ],
+  "pricing_details": "Plans and pricing change. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Ada Health used for?",
+    "a": "Symptom assessment app that asks questions and suggests possible next steps. See the official site for details."
+   },
+   {
+    "q": "Is Ada Health free?",
+    "a": "Pricing is not verified here. Plans change, so check the official site."
+   },
+   {
+    "q": "Is this medical advice?",
+    "a": "No. It is informational. For symptoms or treatment decisions, see a qualified healthcare professional."
+   }
+  ],
+  "seo_title": "Ada Health: AI Tool Overview",
+  "seo_description": "Symptom assessment app that asks questions and suggests possible next steps. Overview, features and use cases of Ada Health.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "openevidence",
+  "name": "OpenEvidence",
+  "category": "research",
+  "website_url": "https://openevidence.com",
+  "pricing": "Unknown",
+  "tagline": "AI search tool that answers clinical questions from medical literature for professionals.",
+  "best_for": "Clinicians looking up medical evidence",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "OpenEvidence is a medical search and question-answering tool for healthcare professionals. It responds to clinical questions with answers that cite medical sources.\n\nIt is aimed at clinicians, not the general public, and does not replace clinical judgment. Check the official site for access requirements and current features.",
+  "use_steps": [
+   "Create an account or sign in.",
+   "Provide the information the tool asks for.",
+   "Read the output with care.",
+   "Take important decisions to a qualified professional."
+  ],
+  "pros": [
+   "Organizes health information",
+   "Easy to use on a phone",
+   "Can save time on routine tasks"
+  ],
+  "cons": [
+   "Not a substitute for professional care",
+   "Accuracy can vary"
+  ],
+  "alternatives": [
+   "consensus",
+   "elicit",
+   "scite"
+  ],
+  "tags": [
+   "medical",
+   "evidence",
+   "clinicians",
+   "search"
+  ],
+  "features": [
+   "Clinical question answering",
+   "Citations to literature",
+   "Medical focus",
+   "Professional access"
+  ],
+  "use_cases": [
+   "Looking up evidence for a guideline question",
+   "Reviewing literature quickly",
+   "Checking drug information"
+  ],
+  "pricing_details": "Plans and pricing change. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is OpenEvidence used for?",
+    "a": "AI search tool that answers clinical questions from medical literature for professionals. See the official site for details."
+   },
+   {
+    "q": "Is OpenEvidence free?",
+    "a": "Pricing is not verified here. Plans change, so check the official site."
+   },
+   {
+    "q": "Is this medical advice?",
+    "a": "No. It is informational. For symptoms or treatment decisions, see a qualified healthcare professional."
+   }
+  ],
+  "seo_title": "OpenEvidence: AI Tool Overview",
+  "seo_description": "AI search tool that answers clinical questions from medical literature for professionals. Overview, features and use cases of OpenEvidence.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "nabla",
+  "name": "Nabla",
+  "category": "productivity",
+  "website_url": "https://nabla.com",
+  "pricing": "Unknown",
+  "tagline": "AI assistant that listens to consultations and drafts clinical notes.",
+  "best_for": "Clinicians reducing documentation time",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "Nabla is an ambient AI assistant for healthcare professionals that turns consultation conversations into draft clinical notes. The aim is to reduce time spent on documentation.\n\nClinicians remain responsible for reviewing and signing off notes. Privacy and compliance requirements vary by region, so check the official site for security details and availability.",
+  "use_steps": [
+   "Create an account or sign in.",
+   "Provide the information the tool asks for.",
+   "Read the output with care.",
+   "Take important decisions to a qualified professional."
+  ],
+  "pros": [
+   "Organizes health information",
+   "Easy to use on a phone",
+   "Can save time on routine tasks"
+  ],
+  "cons": [
+   "Not a substitute for professional care",
+   "Accuracy can vary"
+  ],
+  "alternatives": [
+   "heidi-health",
+   "abridge",
+   "suki"
+  ],
+  "tags": [
+   "medical-scribe",
+   "documentation",
+   "clinicians",
+   "notes"
+  ],
+  "features": [
+   "Ambient note drafting",
+   "Structured clinical documentation",
+   "Multi-device use",
+   "Clinician review"
+  ],
+  "use_cases": [
+   "Drafting a visit note",
+   "Summarizing a consultation",
+   "Reducing after-hours charting"
+  ],
+  "pricing_details": "Plans and pricing change. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Nabla used for?",
+    "a": "AI assistant that listens to consultations and drafts clinical notes. See the official site for details."
+   },
+   {
+    "q": "Is Nabla free?",
+    "a": "Pricing is not verified here. Plans change, so check the official site."
+   },
+   {
+    "q": "Is this medical advice?",
+    "a": "No. It is informational. For symptoms or treatment decisions, see a qualified healthcare professional."
+   }
+  ],
+  "seo_title": "Nabla: AI Tool Overview",
+  "seo_description": "AI assistant that listens to consultations and drafts clinical notes. Overview, features and use cases of Nabla.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "fitbod",
+  "name": "Fitbod",
+  "category": "productivity",
+  "website_url": "https://fitbod.com",
+  "pricing": "Unknown",
+  "tagline": "Strength training app that builds workouts based on your equipment and history.",
+  "best_for": "Gym-goers who want planned weight workouts",
+  "platforms": [
+   "iOS",
+   "Android"
+  ],
+  "description": "Fitbod is a workout app that creates strength training plans using your goals, available equipment and training log. Workouts adjust as you record what you did.\n\nIt focuses on resistance training and exercise variety. Check the official site for current features, and consult a professional if you have injuries or health conditions.",
+  "use_steps": [
+   "Install the app and create a profile.",
+   "Enter goals, equipment or preferences.",
+   "Follow the plan and log your progress.",
+   "Adjust as your habits change."
+  ],
+  "pros": [
+   "Keeps routines organized",
+   "Tracks trends over time",
+   "Mobile friendly"
+  ],
+  "cons": [
+   "Estimates are not medical measurements",
+   "Results depend on consistent use"
+  ],
+  "alternatives": [
+   "whoop",
+   "cronometer",
+   "headspace"
+  ],
+  "tags": [
+   "fitness",
+   "workouts",
+   "strength",
+   "tracking"
+  ],
+  "features": [
+   "Workout generation",
+   "Equipment-based planning",
+   "Training history tracking",
+   "Exercise demonstrations"
+  ],
+  "use_cases": [
+   "Planning gym sessions",
+   "Training with home equipment",
+   "Tracking progressive overload"
+  ],
+  "pricing_details": "Plans and pricing change. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Fitbod used for?",
+    "a": "Strength training app that builds workouts based on your equipment and history. See the official site for details."
+   },
+   {
+    "q": "Is Fitbod free?",
+    "a": "Pricing is not verified here. Plans change, so check the official site."
+   },
+   {
+    "q": "Is this a replacement for a coach or doctor?",
+    "a": "No. Check with a professional before major changes to exercise, diet or sleep, especially with health conditions."
+   }
+  ],
+  "seo_title": "Fitbod: AI Tool Overview",
+  "seo_description": "Strength training app that builds workouts based on your equipment and history. Overview, features and use cases of Fitbod.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "whoop",
+  "name": "WHOOP",
+  "category": "productivity",
+  "website_url": "https://whoop.com",
+  "pricing": "Unknown",
+  "tagline": "Wearable band and app that tracks recovery, strain and sleep.",
+  "best_for": "People tracking training load and recovery",
+  "platforms": [
+   "iOS",
+   "Android"
+  ],
+  "description": "WHOOP is a wearable fitness tracker with an app that reports sleep, recovery and strain. It also offers AI-style coaching features according to its materials.\n\nThe band is worn all day and focuses on trends over time. Health data from wearables is an estimate, not a diagnosis; see the official site for current devices and membership terms.",
+  "use_steps": [
+   "Install the app and create a profile.",
+   "Enter goals, equipment or preferences.",
+   "Follow the plan and log your progress.",
+   "Adjust as your habits change."
+  ],
+  "pros": [
+   "Keeps routines organized",
+   "Tracks trends over time",
+   "Mobile friendly"
+  ],
+  "cons": [
+   "Estimates are not medical measurements",
+   "Results depend on consistent use"
+  ],
+  "alternatives": [
+   "fitbod",
+   "cronometer",
+   "headspace"
+  ],
+  "tags": [
+   "wearable",
+   "fitness",
+   "sleep",
+   "recovery"
+  ],
+  "features": [
+   "Sleep and recovery metrics",
+   "Strain tracking",
+   "Wearable band",
+   "Coaching insights"
+  ],
+  "use_cases": [
+   "Monitoring sleep",
+   "Balancing training and rest",
+   "Seeing trends in heart rate data"
+  ],
+  "pricing_details": "Plans and pricing change. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is WHOOP used for?",
+    "a": "Wearable band and app that tracks recovery, strain and sleep. See the official site for details."
+   },
+   {
+    "q": "Is WHOOP free?",
+    "a": "Pricing is not verified here. Plans change, so check the official site."
+   },
+   {
+    "q": "Is this a replacement for a coach or doctor?",
+    "a": "No. Check with a professional before major changes to exercise, diet or sleep, especially with health conditions."
+   }
+  ],
+  "seo_title": "WHOOP: AI Tool Overview",
+  "seo_description": "Wearable band and app that tracks recovery, strain and sleep. Overview, features and use cases of WHOOP.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "cronometer",
+  "name": "Cronometer",
+  "category": "productivity",
+  "website_url": "https://cronometer.com",
+  "pricing": "Unknown",
+  "tagline": "Nutrition tracker for logging food and monitoring nutrients.",
+  "best_for": "People who want detailed nutrient tracking",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "Cronometer is a food and nutrition tracking app that logs meals and reports on calories and a wide range of nutrients. It uses food databases to look up what you eat.\n\nIt suits people who care about nutrient detail, not just calories. Talk to a dietitian or doctor for medical nutrition needs, and check the official site for current plans.",
+  "use_steps": [
+   "Install the app and create a profile.",
+   "Enter goals, equipment or preferences.",
+   "Follow the plan and log your progress.",
+   "Adjust as your habits change."
+  ],
+  "pros": [
+   "Keeps routines organized",
+   "Tracks trends over time",
+   "Mobile friendly"
+  ],
+  "cons": [
+   "Estimates are not medical measurements",
+   "Results depend on consistent use"
+  ],
+  "alternatives": [
+   "fitbod",
+   "whoop",
+   "eat-this-much"
+  ],
+  "tags": [
+   "nutrition",
+   "food-log",
+   "health",
+   "tracking"
+  ],
+  "features": [
+   "Food logging",
+   "Nutrient breakdown",
+   "Barcode scanning",
+   "Goal setting"
+  ],
+  "use_cases": [
+   "Tracking protein and micronutrients",
+   "Logging meals",
+   "Reviewing nutrition trends"
+  ],
+  "pricing_details": "Plans and pricing change. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Cronometer used for?",
+    "a": "Nutrition tracker for logging food and monitoring nutrients. See the official site for details."
+   },
+   {
+    "q": "Is Cronometer free?",
+    "a": "Pricing is not verified here. Plans change, so check the official site."
+   },
+   {
+    "q": "Is this a replacement for a coach or doctor?",
+    "a": "No. Check with a professional before major changes to exercise, diet or sleep, especially with health conditions."
+   }
+  ],
+  "seo_title": "Cronometer: AI Tool Overview",
+  "seo_description": "Nutrition tracker for logging food and monitoring nutrients. Overview, features and use cases of Cronometer.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "headspace",
+  "name": "Headspace",
+  "category": "productivity",
+  "website_url": "https://headspace.com",
+  "pricing": "Unknown",
+  "tagline": "Meditation and mental wellness app with guided sessions.",
+  "best_for": "People starting a meditation or sleep routine",
+  "platforms": [
+   "iOS",
+   "Android",
+   "Web"
+  ],
+  "description": "Headspace is a wellness app with guided meditation, sleep and focus content. It is widely known and aims to make mindfulness practice approachable.\n\nIt is a wellbeing tool, not a treatment for mental health conditions. Check the official site for current content, any AI features and subscription terms.",
+  "use_steps": [
+   "Install the app and create a profile.",
+   "Enter goals, equipment or preferences.",
+   "Follow the plan and log your progress.",
+   "Adjust as your habits change."
+  ],
+  "pros": [
+   "Keeps routines organized",
+   "Tracks trends over time",
+   "Mobile friendly"
+  ],
+  "cons": [
+   "Estimates are not medical measurements",
+   "Results depend on consistent use"
+  ],
+  "alternatives": [
+   "wysa",
+   "whoop",
+   "fitbod"
+  ],
+  "tags": [
+   "meditation",
+   "wellness",
+   "sleep",
+   "mindfulness"
+  ],
+  "features": [
+   "Guided meditations",
+   "Sleep content",
+   "Focus sessions",
+   "Mobile apps"
+  ],
+  "use_cases": [
+   "Building a daily meditation habit",
+   "Winding down for sleep",
+   "Short stress breaks"
+  ],
+  "pricing_details": "Plans and pricing change. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Headspace used for?",
+    "a": "Meditation and mental wellness app with guided sessions. See the official site for details."
+   },
+   {
+    "q": "Is Headspace free?",
+    "a": "Pricing is not verified here. Plans change, so check the official site."
+   },
+   {
+    "q": "Is this a replacement for a coach or doctor?",
+    "a": "No. Check with a professional before major changes to exercise, diet or sleep, especially with health conditions."
+   }
+  ],
+  "seo_title": "Headspace: AI Tool Overview",
+  "seo_description": "Meditation and mental wellness app with guided sessions. Overview, features and use cases of Headspace.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "tipranks",
+  "name": "TipRanks",
+  "category": "research",
+  "website_url": "https://tipranks.com",
+  "pricing": "Unknown",
+  "tagline": "Investor research platform with analyst ratings, news and portfolio tools.",
+  "best_for": "Investors comparing analyst views and news",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "TipRanks is an investing research site that collects analyst ratings, insider activity and news around stocks. It also offers portfolio tracking and AI-style summaries.\n\nIt is informational only and not financial advice. Analyst forecasts can be wrong; check the official site for current data coverage and plans.",
+  "use_steps": [
+   "Create an account on the official site.",
+   "Search a ticker or asset and set up a watchlist.",
+   "Read the data, then cross-check with filings and other sources.",
+   "Decide only within your own risk tolerance."
+  ],
+  "pros": [
+   "Brings data together in one place",
+   "Helps screen ideas quickly",
+   "Good for research workflows"
+  ],
+  "cons": [
+   "Not financial advice",
+   "Data and signals can be wrong or delayed"
+  ],
+  "alternatives": [
+   "koyfin",
+   "simply-wall-st",
+   "tickeron"
+  ],
+  "tags": [
+   "stocks",
+   "analysts",
+   "research",
+   "investing"
+  ],
+  "features": [
+   "Analyst rating aggregation",
+   "News and sentiment",
+   "Portfolio tracking",
+   "Insider trading data"
+  ],
+  "use_cases": [
+   "Checking analyst consensus",
+   "Following a watchlist",
+   "Reading news on a holding"
+  ],
+  "pricing_details": "Plans and pricing change. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is TipRanks used for?",
+    "a": "Investor research platform with analyst ratings, news and portfolio tools. See the official site for details."
+   },
+   {
+    "q": "Is TipRanks free?",
+    "a": "Pricing is not verified here. Plans change, so check the official site."
+   },
+   {
+    "q": "Is this financial advice?",
+    "a": "No. It is for research only. Markets carry risk, so consider your situation and speak to a licensed adviser."
+   }
+  ],
+  "seo_title": "TipRanks: AI Tool Overview",
+  "seo_description": "Investor research platform with analyst ratings, news and portfolio tools. Overview, features and use cases of TipRanks.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "koyfin",
+  "name": "Koyfin",
+  "category": "research",
+  "website_url": "https://koyfin.com",
+  "pricing": "Unknown",
+  "tagline": "Financial data and charting platform for market and company research.",
+  "best_for": "Self-directed investors and analysts doing research",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Koyfin is a financial research platform combining charts, market data, screens and company financials in one dashboard. It targets investors and analysts who want a research terminal.\n\nData coverage and features differ by plan. Nothing it shows is financial advice, so check the official site for what is included.",
+  "use_steps": [
+   "Create an account on the official site.",
+   "Search a ticker or asset and set up a watchlist.",
+   "Read the data, then cross-check with filings and other sources.",
+   "Decide only within your own risk tolerance."
+  ],
+  "pros": [
+   "Brings data together in one place",
+   "Helps screen ideas quickly",
+   "Good for research workflows"
+  ],
+  "cons": [
+   "Not financial advice",
+   "Data and signals can be wrong or delayed"
+  ],
+  "alternatives": [
+   "tipranks",
+   "simply-wall-st",
+   "tickeron"
+  ],
+  "tags": [
+   "finance",
+   "charts",
+   "screener",
+   "research"
+  ],
+  "features": [
+   "Charting and screening",
+   "Company financials",
+   "Market dashboards",
+   "Watchlists"
+  ],
+  "use_cases": [
+   "Screening stocks",
+   "Comparing company financials",
+   "Monitoring markets"
+  ],
+  "pricing_details": "Plans and pricing change. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Koyfin used for?",
+    "a": "Financial data and charting platform for market and company research. See the official site for details."
+   },
+   {
+    "q": "Is Koyfin free?",
+    "a": "Pricing is not verified here. Plans change, so check the official site."
+   },
+   {
+    "q": "Is this financial advice?",
+    "a": "No. It is for research only. Markets carry risk, so consider your situation and speak to a licensed adviser."
+   }
+  ],
+  "seo_title": "Koyfin: AI Tool Overview",
+  "seo_description": "Financial data and charting platform for market and company research. Overview, features and use cases of Koyfin.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "tickeron",
+  "name": "Tickeron",
+  "category": "research",
+  "website_url": "https://tickeron.com",
+  "pricing": "Unknown",
+  "tagline": "Trading research site with AI pattern recognition and trade ideas.",
+  "best_for": "Traders exploring pattern-based trade ideas",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Tickeron offers market tools that apply pattern recognition and AI models to stocks, ETFs and other assets. It provides trade ideas and screeners.\n\nAutomated signals do not guarantee results, and all trading carries risk. This is not financial advice; review the official site for the products, risk disclosures and plans.",
+  "use_steps": [
+   "Create an account on the official site.",
+   "Search a ticker or asset and set up a watchlist.",
+   "Read the data, then cross-check with filings and other sources.",
+   "Decide only within your own risk tolerance."
+  ],
+  "pros": [
+   "Brings data together in one place",
+   "Helps screen ideas quickly",
+   "Good for research workflows"
+  ],
+  "cons": [
+   "Not financial advice",
+   "Data and signals can be wrong or delayed"
+  ],
+  "alternatives": [
+   "koyfin",
+   "tipranks",
+   "simply-wall-st"
+  ],
+  "tags": [
+   "trading",
+   "patterns",
+   "ai-signals",
+   "stocks"
+  ],
+  "features": [
+   "Pattern recognition",
+   "Trade idea screeners",
+   "Charts and signals",
+   "Multiple asset types"
+  ],
+  "use_cases": [
+   "Finding chart pattern setups",
+   "Screening ideas",
+   "Learning how signals are generated"
+  ],
+  "pricing_details": "Plans and pricing change. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Tickeron used for?",
+    "a": "Trading research site with AI pattern recognition and trade ideas. See the official site for details."
+   },
+   {
+    "q": "Is Tickeron free?",
+    "a": "Pricing is not verified here. Plans change, so check the official site."
+   },
+   {
+    "q": "Is this financial advice?",
+    "a": "No. It is for research only. Markets carry risk, so consider your situation and speak to a licensed adviser."
+   }
+  ],
+  "seo_title": "Tickeron: AI Tool Overview",
+  "seo_description": "Trading research site with AI pattern recognition and trade ideas. Overview, features and use cases of Tickeron.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "simply-wall-st",
+  "name": "Simply Wall St",
+  "category": "research",
+  "website_url": "https://simplywall.st",
+  "pricing": "Unknown",
+  "tagline": "Visual stock analysis platform that explains company fundamentals with charts.",
+  "best_for": "Long-term investors who like visual summaries",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "Simply Wall St presents stock fundamentals as visual snapshots, covering valuation, financial health, growth and dividends. It aims to make company data easier to read.\n\nIt is geared to long-term fundamental analysis rather than short-term trading. Information is general, not financial advice; check the official site for coverage and plans.",
+  "use_steps": [
+   "Create an account on the official site.",
+   "Search a ticker or asset and set up a watchlist.",
+   "Read the data, then cross-check with filings and other sources.",
+   "Decide only within your own risk tolerance."
+  ],
+  "pros": [
+   "Brings data together in one place",
+   "Helps screen ideas quickly",
+   "Good for research workflows"
+  ],
+  "cons": [
+   "Not financial advice",
+   "Data and signals can be wrong or delayed"
+  ],
+  "alternatives": [
+   "koyfin",
+   "tipranks",
+   "tickeron"
+  ],
+  "tags": [
+   "stocks",
+   "fundamentals",
+   "valuation",
+   "portfolio"
+  ],
+  "features": [
+   "Visual company snapshots",
+   "Valuation and health checks",
+   "Portfolio tracking",
+   "Dividend information"
+  ],
+  "use_cases": [
+   "Reviewing a company at a glance",
+   "Comparing valuations",
+   "Tracking a portfolio"
+  ],
+  "pricing_details": "Plans and pricing change. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Simply Wall St used for?",
+    "a": "Visual stock analysis platform that explains company fundamentals with charts. See the official site for details."
+   },
+   {
+    "q": "Is Simply Wall St free?",
+    "a": "Pricing is not verified here. Plans change, so check the official site."
+   },
+   {
+    "q": "Is this financial advice?",
+    "a": "No. It is for research only. Markets carry risk, so consider your situation and speak to a licensed adviser."
+   }
+  ],
+  "seo_title": "Simply Wall St: AI Tool Overview",
+  "seo_description": "Visual stock analysis platform that explains company fundamentals with charts. Overview, features and use cases of Simply Wall St.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "cryptohopper",
+  "name": "Cryptohopper",
+  "category": "productivity",
+  "website_url": "https://cryptohopper.com",
+  "pricing": "Unknown",
+  "tagline": "Cloud platform for building and running crypto trading bots.",
+  "best_for": "Crypto traders who want automated strategies",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "Cryptohopper is a cloud-based crypto trading platform where users configure bots that follow rules on exchanges. It also offers backtesting and strategy sharing features.\n\nAutomated trading can lose money quickly and crypto is volatile. This is not financial advice; read the official site for supported exchanges, risks and current plans.",
+  "use_steps": [
+   "Create an account on the official site.",
+   "Search a ticker or asset and set up a watchlist.",
+   "Read the data, then cross-check with filings and other sources.",
+   "Decide only within your own risk tolerance."
+  ],
+  "pros": [
+   "Brings data together in one place",
+   "Helps screen ideas quickly",
+   "Good for research workflows"
+  ],
+  "cons": [
+   "Not financial advice",
+   "Data and signals can be wrong or delayed"
+  ],
+  "alternatives": [
+   "tickeron",
+   "koyfin",
+   "tipranks"
+  ],
+  "tags": [
+   "crypto",
+   "trading-bot",
+   "automation",
+   "backtesting"
+  ],
+  "features": [
+   "Rule-based trading bots",
+   "Backtesting",
+   "Strategy marketplace",
+   "Exchange connections"
+  ],
+  "use_cases": [
+   "Testing a strategy on past data",
+   "Automating rules",
+   "Following a signal strategy"
+  ],
+  "pricing_details": "Plans and pricing change. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Cryptohopper used for?",
+    "a": "Cloud platform for building and running crypto trading bots. See the official site for details."
+   },
+   {
+    "q": "Is Cryptohopper free?",
+    "a": "Pricing is not verified here. Plans change, so check the official site."
+   },
+   {
+    "q": "Is this financial advice?",
+    "a": "No. It is for research only. Markets carry risk, so consider your situation and speak to a licensed adviser."
+   }
+  ],
+  "seo_title": "Cryptohopper: AI Tool Overview",
+  "seo_description": "Cloud platform for building and running crypto trading bots. Overview, features and use cases of Cryptohopper.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "legora",
+  "name": "Legora",
+  "category": "productivity",
+  "website_url": "https://legora.com",
+  "pricing": "Unknown",
+  "tagline": "Collaborative AI workspace for lawyers covering research, review and drafting.",
+  "best_for": "Law firms reviewing and drafting documents",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Legora is an AI platform for legal professionals that supports tasks such as reviewing documents, answering questions across files and drafting text. It is aimed at law firms and legal teams.\n\nLegal output needs lawyer review, and the tool is not legal advice. Check the official site for availability, security details and features.",
+  "use_steps": [
+   "Request access or sign up.",
+   "Upload documents or enter the matter details.",
+   "Review the AI output closely.",
+   "Have a qualified lawyer approve before relying on it."
+  ],
+  "pros": [
+   "Speeds first-pass review",
+   "Organizes large amounts of text",
+   "Supports team collaboration"
+  ],
+  "cons": [
+   "Not legal advice",
+   "Needs expert review and strong security checks"
+  ],
+  "alternatives": [
+   "harvey",
+   "spellbook",
+   "luminance"
+  ],
+  "tags": [
+   "legal",
+   "contracts",
+   "drafting",
+   "law-firms"
+  ],
+  "features": [
+   "Document review",
+   "Question answering across files",
+   "Drafting support",
+   "Team collaboration"
+  ],
+  "use_cases": [
+   "Reviewing contracts",
+   "Summarizing large file sets",
+   "Drafting first versions"
+  ],
+  "pricing_details": "Plans and pricing change. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Legora used for?",
+    "a": "Collaborative AI workspace for lawyers covering research, review and drafting. See the official site for details."
+   },
+   {
+    "q": "Is Legora free?",
+    "a": "Pricing is not verified here. Plans change, so check the official site."
+   },
+   {
+    "q": "Is the output legal advice?",
+    "a": "No. It supports legal professionals. Consult a qualified lawyer for legal decisions."
+   }
+  ],
+  "seo_title": "Legora: AI Tool Overview",
+  "seo_description": "Collaborative AI workspace for lawyers covering research, review and drafting. Overview, features and use cases of Legora.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "evenup",
+  "name": "EvenUp",
+  "category": "productivity",
+  "website_url": "https://evenup.ai",
+  "pricing": "Unknown",
+  "tagline": "AI platform for personal injury law firms that prepares demand materials.",
+  "best_for": "Personal injury firms handling claims",
+  "platforms": [
+   "Web"
+  ],
+  "description": "EvenUp is a legal technology company serving personal injury law firms. Its platform helps assemble case records and prepare demand documents.\n\nIt focuses on one practice area rather than general legal work. Attorneys remain responsible for accuracy; check the official site for services and availability.",
+  "use_steps": [
+   "Request access or sign up.",
+   "Upload documents or enter the matter details.",
+   "Review the AI output closely.",
+   "Have a qualified lawyer approve before relying on it."
+  ],
+  "pros": [
+   "Speeds first-pass review",
+   "Organizes large amounts of text",
+   "Supports team collaboration"
+  ],
+  "cons": [
+   "Not legal advice",
+   "Needs expert review and strong security checks"
+  ],
+  "alternatives": [
+   "harvey",
+   "clio",
+   "spellbook"
+  ],
+  "tags": [
+   "legal",
+   "personal-injury",
+   "claims",
+   "law-firms"
+  ],
+  "features": [
+   "Case document processing",
+   "Demand preparation",
+   "Personal injury focus",
+   "Attorney workflow support"
+  ],
+  "use_cases": [
+   "Preparing a demand package",
+   "Organizing medical records",
+   "Speeding case preparation"
+  ],
+  "pricing_details": "Plans and pricing change. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is EvenUp used for?",
+    "a": "AI platform for personal injury law firms that prepares demand materials. See the official site for details."
+   },
+   {
+    "q": "Is EvenUp free?",
+    "a": "Pricing is not verified here. Plans change, so check the official site."
+   },
+   {
+    "q": "Is the output legal advice?",
+    "a": "No. It supports legal professionals. Consult a qualified lawyer for legal decisions."
+   }
+  ],
+  "seo_title": "EvenUp: AI Tool Overview",
+  "seo_description": "AI platform for personal injury law firms that prepares demand materials. Overview, features and use cases of EvenUp.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "everlaw",
+  "name": "Everlaw",
+  "category": "productivity",
+  "website_url": "https://everlaw.com",
+  "pricing": "Unknown",
+  "tagline": "Cloud e-discovery platform with AI features for reviewing litigation documents.",
+  "best_for": "Legal teams reviewing large document sets in cases",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Everlaw is a cloud e-discovery platform used to review and organize documents for litigation and investigations. It includes AI-assisted review features alongside search and collaboration tools.\n\nE-discovery involves privileged and sensitive material, so security and process matter. Check the official site for current features and how licensing works.",
+  "use_steps": [
+   "Request access or sign up.",
+   "Upload documents or enter the matter details.",
+   "Review the AI output closely.",
+   "Have a qualified lawyer approve before relying on it."
+  ],
+  "pros": [
+   "Speeds first-pass review",
+   "Organizes large amounts of text",
+   "Supports team collaboration"
+  ],
+  "cons": [
+   "Not legal advice",
+   "Needs expert review and strong security checks"
+  ],
+  "alternatives": [
+   "harvey",
+   "luminance",
+   "clio"
+  ],
+  "tags": [
+   "e-discovery",
+   "litigation",
+   "legal",
+   "review"
+  ],
+  "features": [
+   "Document review",
+   "Search and tagging",
+   "Collaboration",
+   "AI assisted review"
+  ],
+  "use_cases": [
+   "Reviewing documents for litigation",
+   "Running investigations",
+   "Collaborating on privilege review"
+  ],
+  "pricing_details": "Plans and pricing change. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Everlaw used for?",
+    "a": "Cloud e-discovery platform with AI features for reviewing litigation documents. See the official site for details."
+   },
+   {
+    "q": "Is Everlaw free?",
+    "a": "Pricing is not verified here. Plans change, so check the official site."
+   },
+   {
+    "q": "Is the output legal advice?",
+    "a": "No. It supports legal professionals. Consult a qualified lawyer for legal decisions."
+   }
+  ],
+  "seo_title": "Everlaw: AI Tool Overview",
+  "seo_description": "Cloud e-discovery platform with AI features for reviewing litigation documents. Overview, features and use cases of Everlaw.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "juro",
+  "name": "Juro",
+  "category": "productivity",
+  "website_url": "https://juro.com",
+  "pricing": "Unknown",
+  "tagline": "Contract workflow platform for creating, negotiating and signing agreements.",
+  "best_for": "Business teams managing contracts in one place",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Juro is a contract management platform that lets teams draft, negotiate, approve and sign contracts in the browser. It also offers AI help with contract tasks.\n\nIt is designed so non-lawyers in sales and operations can use approved templates. For legal questions, consult a qualified lawyer; see the official site for features.",
+  "use_steps": [
+   "Request access or sign up.",
+   "Upload documents or enter the matter details.",
+   "Review the AI output closely.",
+   "Have a qualified lawyer approve before relying on it."
+  ],
+  "pros": [
+   "Speeds first-pass review",
+   "Organizes large amounts of text",
+   "Supports team collaboration"
+  ],
+  "cons": [
+   "Not legal advice",
+   "Needs expert review and strong security checks"
+  ],
+  "alternatives": [
+   "ironclad",
+   "spellbook",
+   "docusign"
+  ],
+  "tags": [
+   "contracts",
+   "workflow",
+   "legal-ops",
+   "e-signature"
+  ],
+  "features": [
+   "Contract templates",
+   "Browser-based negotiation",
+   "Approvals and e-signing",
+   "AI assistance"
+  ],
+  "use_cases": [
+   "Standardizing sales contracts",
+   "Approving agreements",
+   "Tracking contract status"
+  ],
+  "pricing_details": "Plans and pricing change. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Juro used for?",
+    "a": "Contract workflow platform for creating, negotiating and signing agreements. See the official site for details."
+   },
+   {
+    "q": "Is Juro free?",
+    "a": "Pricing is not verified here. Plans change, so check the official site."
+   },
+   {
+    "q": "Is the output legal advice?",
+    "a": "No. It supports legal professionals. Consult a qualified lawyer for legal decisions."
+   }
+  ],
+  "seo_title": "Juro: AI Tool Overview",
+  "seo_description": "Contract workflow platform for creating, negotiating and signing agreements. Overview, features and use cases of Juro.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "matterport",
+  "name": "Matterport",
+  "category": "design",
+  "website_url": "https://matterport.com",
+  "pricing": "Unknown",
+  "tagline": "3D capture platform for creating digital twins of buildings and properties.",
+  "best_for": "Real estate and facilities teams capturing spaces",
+  "platforms": [
+   "Web",
+   "iOS"
+  ],
+  "description": "Matterport is a platform for capturing real spaces and turning them into interactive 3D models. It is widely used for real estate listings, facilities and construction.\n\nUsers scan a property with a supported camera or phone and share a virtual tour. Check the official site for compatible devices and current AI-based features and plans.",
+  "use_steps": [
+   "Open the platform and set up a project.",
+   "Capture or upload the space.",
+   "Review the output.",
+   "Share it with clients or colleagues."
+  ],
+  "pros": [
+   "Presents spaces clearly",
+   "Works for remote viewing",
+   "Reduces repeat site visits"
+  ],
+  "cons": [
+   "May need specific hardware",
+   "Check accuracy before using for decisions"
+  ],
+  "alternatives": [
+   "virtual-staging-ai",
+   "coohom",
+   "planner-5d"
+  ],
+  "tags": [
+   "real-estate",
+   "3d",
+   "virtual-tour",
+   "digital-twin"
+  ],
+  "features": [
+   "3D property capture",
+   "Virtual tours",
+   "Floor plan outputs",
+   "Sharing and embedding"
+  ],
+  "use_cases": [
+   "Virtual property tours",
+   "Documenting a building",
+   "Remote walkthroughs"
+  ],
+  "pricing_details": "Plans and pricing change. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Matterport used for?",
+    "a": "3D capture platform for creating digital twins of buildings and properties. See the official site for details."
+   },
+   {
+    "q": "Is Matterport free?",
+    "a": "Pricing is not verified here. Plans change, so check the official site."
+   },
+   {
+    "q": "Do I need special equipment?",
+    "a": "Some features may need supported cameras. See the official site."
+   }
+  ],
+  "seo_title": "Matterport: AI Tool Overview",
+  "seo_description": "3D capture platform for creating digital twins of buildings and properties. Overview, features and use cases of Matterport.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "wanderlog",
+  "name": "Wanderlog",
+  "category": "productivity",
+  "website_url": "https://wanderlog.com",
+  "pricing": "Unknown",
+  "tagline": "Trip planner with maps, itineraries and collaborative editing.",
+  "best_for": "Travelers planning itineraries with friends",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "Wanderlog is a travel planning app where you build an itinerary on a map, add places and share the plan with travel companions. It combines lists, routes and notes in one trip view.\n\nIt also provides AI-assisted suggestions in some features. Check the official site for current features and subscription details before relying on it for bookings.",
+  "use_steps": [
+   "Create an account or open the app.",
+   "Add destinations and dates.",
+   "Organize places into days and review the route.",
+   "Confirm opening hours and bookings with official sources."
+  ],
+  "pros": [
+   "Keeps plans in one place",
+   "Easy to share with a group",
+   "Map based view"
+  ],
+  "cons": [
+   "Suggestions may be out of date",
+   "Bookings must be confirmed elsewhere"
+  ],
+  "alternatives": [
+   "mindtrip",
+   "layla-ai",
+   "wonderplan"
+  ],
+  "tags": [
+   "travel",
+   "itinerary",
+   "maps",
+   "planning"
+  ],
+  "features": [
+   "Itinerary and map planning",
+   "Collaborative editing",
+   "Place lists",
+   "Route views"
+  ],
+  "use_cases": [
+   "Planning a multi-city trip",
+   "Sharing a plan with a group",
+   "Organizing places to visit"
+  ],
+  "pricing_details": "Plans and pricing change. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Wanderlog used for?",
+    "a": "Trip planner with maps, itineraries and collaborative editing. See the official site for details."
+   },
+   {
+    "q": "Is Wanderlog free?",
+    "a": "Pricing is not verified here. Plans change, so check the official site."
+   },
+   {
+    "q": "Should I trust suggestions?",
+    "a": "Treat them as ideas. Verify hours, prices and availability before you travel."
+   }
+  ],
+  "seo_title": "Wanderlog: AI Tool Overview",
+  "seo_description": "Trip planner with maps, itineraries and collaborative editing. Overview, features and use cases of Wanderlog.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "eat-this-much",
+  "name": "Eat This Much",
+  "category": "productivity",
+  "website_url": "https://eatthismuch.com",
+  "pricing": "Unknown",
+  "tagline": "Meal planner that generates menus to match calorie and diet goals.",
+  "best_for": "People planning meals around nutrition targets",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "Eat This Much generates meal plans based on calorie targets and diet preferences, then compiles a grocery list. You can swap meals and adjust settings.\n\nIt is a planning aid rather than medical advice. People with medical conditions should consult a professional; see the official site for current features and plans.",
+  "use_steps": [
+   "Create a profile with your diet goals.",
+   "Choose meals or generate a plan.",
+   "Review the grocery list.",
+   "Adjust meals to taste and needs."
+  ],
+  "pros": [
+   "Saves time planning meals",
+   "Includes shopping lists",
+   "Customizable preferences"
+  ],
+  "cons": [
+   "Not personalized medical nutrition advice",
+   "Needs your own judgment for allergies"
+  ],
+  "alternatives": [
+   "cronometer",
+   "fitbod",
+   "whoop"
+  ],
+  "tags": [
+   "meal-planning",
+   "nutrition",
+   "diet",
+   "grocery"
+  ],
+  "features": [
+   "Automatic meal plans",
+   "Calorie and macro targets",
+   "Grocery lists",
+   "Diet preferences"
+  ],
+  "use_cases": [
+   "Planning a weekly menu",
+   "Meeting macro goals",
+   "Creating a shopping list"
+  ],
+  "pricing_details": "Plans and pricing change. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Eat This Much used for?",
+    "a": "Meal planner that generates menus to match calorie and diet goals. See the official site for details."
+   },
+   {
+    "q": "Is Eat This Much free?",
+    "a": "Pricing is not verified here. Plans change, so check the official site."
+   },
+   {
+    "q": "Is it suitable for allergies?",
+    "a": "Check ingredients yourself and consult a professional for medical dietary needs."
+   }
+  ],
+  "seo_title": "Eat This Much: AI Tool Overview",
+  "seo_description": "Meal planner that generates menus to match calorie and diet goals. Overview, features and use cases of Eat This Much.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "algolia",
+  "name": "Algolia",
+  "category": "coding",
+  "website_url": "https://algolia.com",
+  "pricing": "Unknown",
+  "tagline": "Search and discovery API with AI-powered features for sites and stores.",
+  "best_for": "Developers building site and ecommerce search",
+  "platforms": [
+   "Web",
+   "API"
+  ],
+  "description": "Algolia is a search platform that developers use to add fast search, recommendations and personalization to websites and apps. It is common in ecommerce and content sites.\n\nIt provides APIs and tooling rather than a consumer app. Check the official site for current AI features, documentation and pricing.",
+  "use_steps": [
+   "Create an account and connect your store or data.",
+   "Set up the feature you need.",
+   "Test it on a small set of products or campaigns.",
+   "Monitor results and refine."
+  ],
+  "pros": [
+   "Targets store-focused work",
+   "Integrates with common platforms",
+   "Can inform decisions with data"
+  ],
+  "cons": [
+   "Setup may need technical help",
+   "Results vary by business"
+  ],
+  "alternatives": [
+   "pinecone",
+   "weaviate",
+   "qdrant"
+  ],
+  "tags": [
+   "search",
+   "ecommerce",
+   "api",
+   "developers"
+  ],
+  "features": [
+   "Search API",
+   "Relevance tuning",
+   "Recommendations",
+   "Analytics"
+  ],
+  "use_cases": [
+   "Adding product search",
+   "Building autocomplete",
+   "Personalizing results"
+  ],
+  "pricing_details": "Plans and pricing change. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Algolia used for?",
+    "a": "Search and discovery API with AI-powered features for sites and stores. See the official site for details."
+   },
+   {
+    "q": "Is Algolia free?",
+    "a": "Pricing is not verified here. Plans change, so check the official site."
+   },
+   {
+    "q": "Do I need technical skills?",
+    "a": "Some setup can be technical. Check the official documentation for what you will need."
+   }
+  ],
+  "seo_title": "Algolia: AI Tool Overview",
+  "seo_description": "Search and discovery API with AI-powered features for sites and stores. Overview, features and use cases of Algolia.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "helium-10",
+  "name": "Helium 10",
+  "category": "marketing",
+  "website_url": "https://helium10.com",
+  "pricing": "Unknown",
+  "tagline": "Seller toolkit for Amazon product research, keywords and listings.",
+  "best_for": "Amazon sellers researching products and keywords",
+  "platforms": [
+   "Web",
+   "Chrome extension"
+  ],
+  "description": "Helium 10 is a suite of tools for Amazon sellers, covering product research, keyword research, listing optimization and tracking. It also includes AI-assisted listing features.\n\nMarketplace rules change, so confirm current tool details. Check the official site for tool lists and plans.",
+  "use_steps": [
+   "Create an account and connect your store or data.",
+   "Set up the feature you need.",
+   "Test it on a small set of products or campaigns.",
+   "Monitor results and refine."
+  ],
+  "pros": [
+   "Targets store-focused work",
+   "Integrates with common platforms",
+   "Can inform decisions with data"
+  ],
+  "cons": [
+   "Setup may need technical help",
+   "Results vary by business"
+  ],
+  "alternatives": [
+   "semrush",
+   "ahrefs",
+   "shopify-magic"
+  ],
+  "tags": [
+   "amazon",
+   "ecommerce",
+   "keywords",
+   "sellers"
+  ],
+  "features": [
+   "Product research",
+   "Keyword research",
+   "Listing optimization",
+   "Sales tracking"
+  ],
+  "use_cases": [
+   "Finding product ideas",
+   "Optimizing listing keywords",
+   "Monitoring competitors"
+  ],
+  "pricing_details": "Plans and pricing change. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Helium 10 used for?",
+    "a": "Seller toolkit for Amazon product research, keywords and listings. See the official site for details."
+   },
+   {
+    "q": "Is Helium 10 free?",
+    "a": "Pricing is not verified here. Plans change, so check the official site."
+   },
+   {
+    "q": "Do I need technical skills?",
+    "a": "Some setup can be technical. Check the official documentation for what you will need."
+   }
+  ],
+  "seo_title": "Helium 10: AI Tool Overview",
+  "seo_description": "Seller toolkit for Amazon product research, keywords and listings. Overview, features and use cases of Helium 10.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "triple-whale",
+  "name": "Triple Whale",
+  "category": "marketing",
+  "website_url": "https://triplewhale.com",
+  "pricing": "Unknown",
+  "tagline": "Analytics platform for ecommerce brands that unifies ad and store data.",
+  "best_for": "Shopify brands tracking marketing performance",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Triple Whale is an analytics and attribution platform aimed at ecommerce brands. It brings together advertising, store and customer data into dashboards.\n\nIt also includes AI features for questions about performance. Verify integrations, data limits and plans on the official site.",
+  "use_steps": [
+   "Create an account and connect your store or data.",
+   "Set up the feature you need.",
+   "Test it on a small set of products or campaigns.",
+   "Monitor results and refine."
+  ],
+  "pros": [
+   "Targets store-focused work",
+   "Integrates with common platforms",
+   "Can inform decisions with data"
+  ],
+  "cons": [
+   "Setup may need technical help",
+   "Results vary by business"
+  ],
+  "alternatives": [
+   "mixpanel",
+   "google-analytics",
+   "klaviyo"
+  ],
+  "tags": [
+   "ecommerce",
+   "analytics",
+   "attribution",
+   "shopify"
+  ],
+  "features": [
+   "Unified dashboards",
+   "Marketing attribution",
+   "Ad and store data",
+   "AI-assisted analysis"
+  ],
+  "use_cases": [
+   "Understanding ad return",
+   "Tracking sales trends",
+   "Reporting to a team"
+  ],
+  "pricing_details": "Plans and pricing change. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Triple Whale used for?",
+    "a": "Analytics platform for ecommerce brands that unifies ad and store data. See the official site for details."
+   },
+   {
+    "q": "Is Triple Whale free?",
+    "a": "Pricing is not verified here. Plans change, so check the official site."
+   },
+   {
+    "q": "Do I need technical skills?",
+    "a": "Some setup can be technical. Check the official documentation for what you will need."
+   }
+  ],
+  "seo_title": "Triple Whale: AI Tool Overview",
+  "seo_description": "Analytics platform for ecommerce brands that unifies ad and store data. Overview, features and use cases of Triple Whale.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "kaedim",
+  "name": "Kaedim",
+  "category": "design",
+  "website_url": "https://kaedim3d.com",
+  "pricing": "Unknown",
+  "tagline": "Service that turns images into 3D models for game and product use.",
+  "best_for": "Game artists producing 3D assets from concepts",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Kaedim is a tool that converts 2D images into 3D models intended for games and digital products. It is designed to help speed up early asset creation.\n\nGenerated models usually need cleanup before production use. Check the official site for current output quality, formats and plans.",
+  "use_steps": [
+   "Download or open the tool.",
+   "Import a reference or start a new project.",
+   "Generate or edit your asset or animation.",
+   "Export to your game engine or pipeline."
+  ],
+  "pros": [
+   "Speeds up early asset work",
+   "Fits game workflows",
+   "Good for prototyping"
+  ],
+  "cons": [
+   "Output often needs manual cleanup",
+   "Learning curve for beginners"
+  ],
+  "alternatives": [
+   "meshy",
+   "tripo",
+   "blender"
+  ],
+  "tags": [
+   "3d",
+   "game-dev",
+   "image-to-3d",
+   "assets"
+  ],
+  "features": [
+   "Image to 3D conversion",
+   "Asset-oriented output",
+   "Game pipeline use",
+   "Export formats"
+  ],
+  "use_cases": [
+   "Prototyping game assets",
+   "Turning concept art into models",
+   "Speeding early 3D work"
+  ],
+  "pricing_details": "Plans and pricing change. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Kaedim used for?",
+    "a": "Service that turns images into 3D models for game and product use. See the official site for details."
+   },
+   {
+    "q": "Is Kaedim free?",
+    "a": "Pricing is not verified here. Plans change, so check the official site."
+   },
+   {
+    "q": "Is the output ready for production?",
+    "a": "Usually it needs review and cleanup in a 3D tool before shipping."
+   }
+  ],
+  "seo_title": "Kaedim: AI Tool Overview",
+  "seo_description": "Service that turns images into 3D models for game and product use. Overview, features and use cases of Kaedim.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "cascadeur",
+  "name": "Cascadeur",
+  "category": "design",
+  "website_url": "https://cascadeur.com",
+  "pricing": "Unknown",
+  "tagline": "3D animation software with AI-assisted posing and physics tools.",
+  "best_for": "Animators making character and game animations",
+  "platforms": [
+   "Windows",
+   "macOS",
+   "Linux"
+  ],
+  "description": "Cascadeur is a 3D animation tool for creating character movement with the help of physics-based and AI-assisted posing. Animators use it for games and film previs.\n\nIt targets keyframe animation workflows rather than model generation. Check the official site for current features and license options.",
+  "use_steps": [
+   "Download or open the tool.",
+   "Import a reference or start a new project.",
+   "Generate or edit your asset or animation.",
+   "Export to your game engine or pipeline."
+  ],
+  "pros": [
+   "Speeds up early asset work",
+   "Fits game workflows",
+   "Good for prototyping"
+  ],
+  "cons": [
+   "Output often needs manual cleanup",
+   "Learning curve for beginners"
+  ],
+  "alternatives": [
+   "blender",
+   "meshy",
+   "tripo"
+  ],
+  "tags": [
+   "animation",
+   "3d",
+   "game-dev",
+   "physics"
+  ],
+  "features": [
+   "Physics-assisted posing",
+   "Keyframe animation tools",
+   "Character rigs",
+   "Export to game engines"
+  ],
+  "use_cases": [
+   "Animating game characters",
+   "Refining motion",
+   "Creating action poses"
+  ],
+  "pricing_details": "Plans and pricing change. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Cascadeur used for?",
+    "a": "3D animation software with AI-assisted posing and physics tools. See the official site for details."
+   },
+   {
+    "q": "Is Cascadeur free?",
+    "a": "Pricing is not verified here. Plans change, so check the official site."
+   },
+   {
+    "q": "Is the output ready for production?",
+    "a": "Usually it needs review and cleanup in a 3D tool before shipping."
+   }
+  ],
+  "seo_title": "Cascadeur: AI Tool Overview",
+  "seo_description": "3D animation software with AI-assisted posing and physics tools. Overview, features and use cases of Cascadeur.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "godot",
+  "name": "Godot Engine",
+  "category": "coding",
+  "website_url": "https://godotengine.org",
+  "pricing": "Open source",
+  "tagline": "Free open-source game engine for 2D and 3D games.",
+  "best_for": "Indie developers building 2D and 3D games",
+  "platforms": [
+   "Windows",
+   "macOS",
+   "Linux"
+  ],
+  "description": "Godot is an open-source game engine for making 2D and 3D games, with a scene system and its own scripting language. It is community-driven and free to use.\n\nIt is not an AI product itself, but developers use AI coding helpers and asset generators alongside it. Download and docs are on the official site.",
+  "use_steps": [
+   "Download or open the tool.",
+   "Import a reference or start a new project.",
+   "Generate or edit your asset or animation.",
+   "Export to your game engine or pipeline."
+  ],
+  "pros": [
+   "Speeds up early asset work",
+   "Fits game workflows",
+   "Good for prototyping"
+  ],
+  "cons": [
+   "Output often needs manual cleanup",
+   "Learning curve for beginners"
+  ],
+  "alternatives": [
+   "blender",
+   "replit",
+   "cursor"
+  ],
+  "tags": [
+   "game-engine",
+   "open-source",
+   "2d",
+   "3d"
+  ],
+  "features": [
+   "2D and 3D engine",
+   "Scene and node system",
+   "GDScript scripting",
+   "Cross-platform export"
+  ],
+  "use_cases": [
+   "Building an indie game",
+   "Prototyping mechanics",
+   "Learning game development"
+  ],
+  "pricing_details": "Plans and pricing change. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Godot Engine used for?",
+    "a": "Free open-source game engine for 2D and 3D games. See the official site for details."
+   },
+   {
+    "q": "Is Godot Engine free?",
+    "a": "Pricing is not verified here. Plans change, so check the official site."
+   },
+   {
+    "q": "Is the output ready for production?",
+    "a": "Usually it needs review and cleanup in a 3D tool before shipping."
+   }
+  ],
+  "seo_title": "Godot Engine: AI Tool Overview",
+  "seo_description": "Free open-source game engine for 2D and 3D games. Overview, features and use cases of Godot Engine.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "tenstorrent",
+  "name": "Tenstorrent",
+  "category": "coding",
+  "website_url": "https://tenstorrent.com",
+  "pricing": "Unknown",
+  "tagline": "AI hardware company building processors and developer systems for ML workloads.",
+  "best_for": "Teams exploring alternatives to GPU hardware",
+  "platforms": [
+   "Hardware"
+  ],
+  "description": "Tenstorrent designs processors and systems for AI workloads and also works on open software for them. It offers hardware that developers can use for running models.\n\nIt is for engineers and organizations rather than casual users. Product details change, so check the official site for current hardware, software and purchase options.",
+  "use_steps": [
+   "Create an account or review the docs.",
+   "Choose hardware or an endpoint.",
+   "Deploy or run a test workload.",
+   "Measure cost and speed on your real task."
+  ],
+  "pros": [
+   "Targets AI workloads",
+   "Developer oriented",
+   "Can scale with demand"
+  ],
+  "cons": [
+   "Needs ML engineering knowledge",
+   "Costs and availability change"
+  ],
+  "alternatives": [
+   "groq",
+   "cerebras",
+   "sambanova"
+  ],
+  "tags": [
+   "ai-chips",
+   "hardware",
+   "inference",
+   "developers"
+  ],
+  "features": [
+   "AI processors",
+   "Developer systems",
+   "Open software stack",
+   "Scalable systems"
+  ],
+  "use_cases": [
+   "Evaluating non-GPU hardware",
+   "Running models on dedicated chips",
+   "Hardware software research"
+  ],
+  "pricing_details": "Plans and pricing change. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Tenstorrent used for?",
+    "a": "AI hardware company building processors and developer systems for ML workloads. See the official site for details."
+   },
+   {
+    "q": "Is Tenstorrent free?",
+    "a": "Pricing is not verified here. Plans change, so check the official site."
+   },
+   {
+    "q": "Who is it for?",
+    "a": "Mostly developers and teams that run or train models. Check the official site for current options."
+   }
+  ],
+  "seo_title": "Tenstorrent: AI Tool Overview",
+  "seo_description": "AI hardware company building processors and developer systems for ML workloads. Overview, features and use cases of Tenstorrent.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "runpod",
+  "name": "RunPod",
+  "category": "coding",
+  "website_url": "https://runpod.io",
+  "pricing": "Unknown",
+  "tagline": "GPU cloud for training, fine-tuning and serving AI models.",
+  "best_for": "Developers renting GPUs on demand",
+  "platforms": [
+   "Web",
+   "API"
+  ],
+  "description": "RunPod is a cloud platform that rents GPU capacity for training and running AI models. It supports pods and serverless endpoints for inference.\n\nIt is for developers comfortable with containers and machine learning tooling. Check the official site for available GPUs, regions and current pricing.",
+  "use_steps": [
+   "Create an account or review the docs.",
+   "Choose hardware or an endpoint.",
+   "Deploy or run a test workload.",
+   "Measure cost and speed on your real task."
+  ],
+  "pros": [
+   "Targets AI workloads",
+   "Developer oriented",
+   "Can scale with demand"
+  ],
+  "cons": [
+   "Needs ML engineering knowledge",
+   "Costs and availability change"
+  ],
+  "alternatives": [
+   "modal",
+   "lightning-ai",
+   "replicate"
+  ],
+  "tags": [
+   "gpu-cloud",
+   "inference",
+   "training",
+   "serverless"
+  ],
+  "features": [
+   "On-demand GPU pods",
+   "Serverless endpoints",
+   "Container support",
+   "Templates for common setups"
+  ],
+  "use_cases": [
+   "Fine-tuning a model",
+   "Hosting an inference endpoint",
+   "Running experiments"
+  ],
+  "pricing_details": "Plans and pricing change. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is RunPod used for?",
+    "a": "GPU cloud for training, fine-tuning and serving AI models. See the official site for details."
+   },
+   {
+    "q": "Is RunPod free?",
+    "a": "Pricing is not verified here. Plans change, so check the official site."
+   },
+   {
+    "q": "Who is it for?",
+    "a": "Mostly developers and teams that run or train models. Check the official site for current options."
+   }
+  ],
+  "seo_title": "RunPod: AI Tool Overview",
+  "seo_description": "GPU cloud for training, fine-tuning and serving AI models. Overview, features and use cases of RunPod.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "baseten",
+  "name": "Baseten",
+  "category": "coding",
+  "website_url": "https://baseten.co",
+  "pricing": "Unknown",
+  "tagline": "Platform for deploying and serving machine learning models in production.",
+  "best_for": "Teams running AI inference at scale",
+  "platforms": [
+   "Web",
+   "API"
+  ],
+  "description": "Baseten provides infrastructure to deploy and serve machine learning models behind APIs. It is aimed at engineering teams who need production inference.\n\nIt handles serving, scaling and monitoring so teams can focus on models. Check the official site for supported models, regions and pricing.",
+  "use_steps": [
+   "Create an account or review the docs.",
+   "Choose hardware or an endpoint.",
+   "Deploy or run a test workload.",
+   "Measure cost and speed on your real task."
+  ],
+  "pros": [
+   "Targets AI workloads",
+   "Developer oriented",
+   "Can scale with demand"
+  ],
+  "cons": [
+   "Needs ML engineering knowledge",
+   "Costs and availability change"
+  ],
+  "alternatives": [
+   "modal",
+   "replicate",
+   "fireworks-ai"
+  ],
+  "tags": [
+   "inference",
+   "deployment",
+   "mlops",
+   "api"
+  ],
+  "features": [
+   "Model deployment",
+   "Autoscaling inference",
+   "API endpoints",
+   "Monitoring"
+  ],
+  "use_cases": [
+   "Serving a fine-tuned model",
+   "Scaling inference traffic",
+   "Deploying open models"
+  ],
+  "pricing_details": "Plans and pricing change. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Baseten used for?",
+    "a": "Platform for deploying and serving machine learning models in production. See the official site for details."
+   },
+   {
+    "q": "Is Baseten free?",
+    "a": "Pricing is not verified here. Plans change, so check the official site."
+   },
+   {
+    "q": "Who is it for?",
+    "a": "Mostly developers and teams that run or train models. Check the official site for current options."
+   }
+  ],
+  "seo_title": "Baseten: AI Tool Overview",
+  "seo_description": "Platform for deploying and serving machine learning models in production. Overview, features and use cases of Baseten.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "relevance-ai",
+  "name": "Relevance AI",
+  "category": "productivity",
+  "website_url": "https://relevanceai.com",
+  "pricing": "Unknown",
+  "tagline": "Platform for building teams of AI agents for business tasks.",
+  "best_for": "Operations teams building AI agents without heavy code",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Relevance AI is a platform for creating AI agents and combining them into workforce-style teams that handle business tasks. Users configure tools and instructions with a visual interface.\n\nAgents act on instructions, so test them with low-risk tasks and review outputs. Check the official site for current features and plans.",
+  "use_steps": [
+   "Sign up and open the builder or docs.",
+   "Define the agent's goal and tools.",
+   "Test with low-risk tasks.",
+   "Add monitoring before wider use."
+  ],
+  "pros": [
+   "Speeds building agent workflows",
+   "Connects models and tools",
+   "Reusable across tasks"
+  ],
+  "cons": [
+   "Agents can act unpredictably",
+   "Needs testing and human oversight"
+  ],
+  "alternatives": [
+   "lindy",
+   "crewai",
+   "n8n"
+  ],
+  "tags": [
+   "agents",
+   "automation",
+   "no-code",
+   "workflows"
+  ],
+  "features": [
+   "Agent builder",
+   "Tool connections",
+   "Multi-agent teams",
+   "Workflow automation"
+  ],
+  "use_cases": [
+   "Automating lead research",
+   "Handling routine requests",
+   "Building internal agents"
+  ],
+  "pricing_details": "Plans and pricing change. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Relevance AI used for?",
+    "a": "Platform for building teams of AI agents for business tasks. See the official site for details."
+   },
+   {
+    "q": "Is Relevance AI free?",
+    "a": "Pricing is not verified here. Plans change, so check the official site."
+   },
+   {
+    "q": "Are agents reliable?",
+    "a": "They can make mistakes. Test carefully, limit permissions and keep human review for important actions."
+   }
+  ],
+  "seo_title": "Relevance AI: AI Tool Overview",
+  "seo_description": "Platform for building teams of AI agents for business tasks. Overview, features and use cases of Relevance AI.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "gumloop",
+  "name": "Gumloop",
+  "category": "productivity",
+  "website_url": "https://gumloop.com",
+  "pricing": "Unknown",
+  "tagline": "No-code builder for AI automation flows and agents.",
+  "best_for": "Non-developers building AI workflows",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Gumloop is a visual builder where users connect blocks to create AI-powered automations. It links apps, data and language models into flows.\n\nIt sits in a similar space to workflow automation tools but centers on AI steps. Check the official site for integrations and current plans.",
+  "use_steps": [
+   "Sign up and open the builder or docs.",
+   "Define the agent's goal and tools.",
+   "Test with low-risk tasks.",
+   "Add monitoring before wider use."
+  ],
+  "pros": [
+   "Speeds building agent workflows",
+   "Connects models and tools",
+   "Reusable across tasks"
+  ],
+  "cons": [
+   "Agents can act unpredictably",
+   "Needs testing and human oversight"
+  ],
+  "alternatives": [
+   "zapier",
+   "make",
+   "n8n"
+  ],
+  "tags": [
+   "automation",
+   "no-code",
+   "agents",
+   "workflows"
+  ],
+  "features": [
+   "Visual flow builder",
+   "AI model steps",
+   "App integrations",
+   "Reusable workflows"
+  ],
+  "use_cases": [
+   "Summarizing documents in a flow",
+   "Automating data enrichment",
+   "Building an internal AI tool"
+  ],
+  "pricing_details": "Plans and pricing change. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Gumloop used for?",
+    "a": "No-code builder for AI automation flows and agents. See the official site for details."
+   },
+   {
+    "q": "Is Gumloop free?",
+    "a": "Pricing is not verified here. Plans change, so check the official site."
+   },
+   {
+    "q": "Are agents reliable?",
+    "a": "They can make mistakes. Test carefully, limit permissions and keep human review for important actions."
+   }
+  ],
+  "seo_title": "Gumloop: AI Tool Overview",
+  "seo_description": "No-code builder for AI automation flows and agents. Overview, features and use cases of Gumloop.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "mastra",
+  "name": "Mastra",
+  "category": "coding",
+  "website_url": "https://mastra.ai",
+  "pricing": "Unknown",
+  "tagline": "TypeScript framework for building AI agents and workflows.",
+  "best_for": "JavaScript developers building agent apps",
+  "platforms": [
+   "Web",
+   "API"
+  ],
+  "description": "Mastra is a TypeScript framework for creating AI agents, workflows and related features such as memory and evaluation. It is aimed at developers working in the JavaScript ecosystem.\n\nIt offers building blocks rather than a no-code product. Check the official site and docs for current components and license details.",
+  "use_steps": [
+   "Sign up and open the builder or docs.",
+   "Define the agent's goal and tools.",
+   "Test with low-risk tasks.",
+   "Add monitoring before wider use."
+  ],
+  "pros": [
+   "Speeds building agent workflows",
+   "Connects models and tools",
+   "Reusable across tasks"
+  ],
+  "cons": [
+   "Agents can act unpredictably",
+   "Needs testing and human oversight"
+  ],
+  "alternatives": [
+   "langgraph",
+   "crewai",
+   "llamaindex"
+  ],
+  "tags": [
+   "agents",
+   "typescript",
+   "framework",
+   "developers"
+  ],
+  "features": [
+   "TypeScript agent framework",
+   "Workflow orchestration",
+   "Memory support",
+   "Developer tooling"
+  ],
+  "use_cases": [
+   "Building an agent into a web app",
+   "Orchestrating multi-step tasks",
+   "Prototyping agent workflows"
+  ],
+  "pricing_details": "Plans and pricing change. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Mastra used for?",
+    "a": "TypeScript framework for building AI agents and workflows. See the official site for details."
+   },
+   {
+    "q": "Is Mastra free?",
+    "a": "Pricing is not verified here. Plans change, so check the official site."
+   },
+   {
+    "q": "Are agents reliable?",
+    "a": "They can make mistakes. Test carefully, limit permissions and keep human review for important actions."
+   }
+  ],
+  "seo_title": "Mastra: AI Tool Overview",
+  "seo_description": "TypeScript framework for building AI agents and workflows. Overview, features and use cases of Mastra.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "lambda-cloud",
+  "name": "Lambda",
+  "category": "coding",
+  "website_url": "https://lambda.ai",
+  "pricing": "Unknown",
+  "tagline": "GPU cloud and hardware provider for AI training and inference.",
+  "best_for": "ML teams needing GPU clusters and workstations",
+  "platforms": [
+   "Web",
+   "API"
+  ],
+  "description": "Lambda provides GPU cloud instances and AI hardware such as workstations and servers. It is aimed at machine learning teams that train and run models.\n\nIt focuses on infrastructure rather than end-user apps. Check the official site for current GPU types, regions and pricing.",
+  "use_steps": [
+   "Create an account or review the docs.",
+   "Choose hardware or an endpoint.",
+   "Deploy or run a test workload.",
+   "Measure cost and speed on your real task."
+  ],
+  "pros": [
+   "Targets AI workloads",
+   "Developer oriented",
+   "Can scale with demand"
+  ],
+  "cons": [
+   "Needs ML engineering knowledge",
+   "Costs and availability change"
+  ],
+  "alternatives": [
+   "modal",
+   "lightning-ai",
+   "replicate"
+  ],
+  "tags": [
+   "gpu-cloud",
+   "training",
+   "hardware",
+   "ml"
+  ],
+  "features": [
+   "GPU cloud instances",
+   "Multi-GPU clusters",
+   "AI workstations and servers",
+   "API and CLI access"
+  ],
+  "use_cases": [
+   "Training a model",
+   "Running inference workloads",
+   "Buying dedicated AI hardware"
+  ],
+  "pricing_details": "Plans and pricing change. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Lambda used for?",
+    "a": "GPU cloud and hardware provider for AI training and inference. See the official site for details."
+   },
+   {
+    "q": "Is Lambda free?",
+    "a": "Pricing is not verified here. Plans change, so check the official site."
+   },
+   {
+    "q": "Who is it for?",
+    "a": "Mostly developers and teams that run or train models. Check the official site for current options."
+   }
+  ],
+  "seo_title": "Lambda: AI Tool Overview",
+  "seo_description": "GPU cloud and hardware provider for AI training and inference. Overview, features and use cases of Lambda.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "coreweave",
+  "name": "CoreWeave",
+  "category": "coding",
+  "website_url": "https://coreweave.com",
+  "pricing": "Unknown",
+  "tagline": "Specialized cloud provider built around GPU compute for AI workloads.",
+  "best_for": "Companies running large AI training and inference",
+  "platforms": [
+   "Web",
+   "API"
+  ],
+  "description": "CoreWeave is a cloud provider that concentrates on GPU infrastructure for AI and other compute-heavy work. It serves organizations that need substantial capacity.\n\nIt is an enterprise infrastructure service rather than a consumer tool. Details of capacity and contracts are on the official site.",
+  "use_steps": [
+   "Create an account or review the docs.",
+   "Choose hardware or an endpoint.",
+   "Deploy or run a test workload.",
+   "Measure cost and speed on your real task."
+  ],
+  "pros": [
+   "Targets AI workloads",
+   "Developer oriented",
+   "Can scale with demand"
+  ],
+  "cons": [
+   "Needs ML engineering knowledge",
+   "Costs and availability change"
+  ],
+  "alternatives": [
+   "modal",
+   "lightning-ai",
+   "runpod"
+  ],
+  "tags": [
+   "gpu-cloud",
+   "infrastructure",
+   "training",
+   "enterprise"
+  ],
+  "features": [
+   "GPU cloud infrastructure",
+   "Kubernetes-based services",
+   "Large-scale clusters",
+   "Enterprise support"
+  ],
+  "use_cases": [
+   "Training large models",
+   "Serving inference at scale",
+   "Reserving GPU capacity"
+  ],
+  "pricing_details": "Plans and pricing change. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is CoreWeave used for?",
+    "a": "Specialized cloud provider built around GPU compute for AI workloads. See the official site for details."
+   },
+   {
+    "q": "Is CoreWeave free?",
+    "a": "Pricing is not verified here. Plans change, so check the official site."
+   },
+   {
+    "q": "Who is it for?",
+    "a": "Mostly developers and teams that run or train models. Check the official site for current options."
+   }
+  ],
+  "seo_title": "CoreWeave: AI Tool Overview",
+  "seo_description": "Specialized cloud provider built around GPU compute for AI workloads. Overview, features and use cases of CoreWeave.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "yuka",
+  "name": "Yuka",
+  "category": "productivity",
+  "website_url": "https://yuka.io",
+  "pricing": "Unknown",
+  "tagline": "App that scans food and cosmetic barcodes to explain ingredients and ratings.",
+  "best_for": "Shoppers checking food and cosmetic ingredients",
+  "platforms": [
+   "iOS",
+   "Android"
+  ],
+  "description": "Yuka is a mobile app that scans product barcodes and shows a rating and ingredient information for food and cosmetics. It is meant to help shoppers compare products.\n\nRatings reflect the app's own method and do not replace medical or dietary advice. Check the official site for current features and plans.",
+  "use_steps": [
+   "Create a profile with your diet goals.",
+   "Choose meals or generate a plan.",
+   "Review the grocery list.",
+   "Adjust meals to taste and needs."
+  ],
+  "pros": [
+   "Saves time planning meals",
+   "Includes shopping lists",
+   "Customizable preferences"
+  ],
+  "cons": [
+   "Not personalized medical nutrition advice",
+   "Needs your own judgment for allergies"
+  ],
+  "alternatives": [
+   "eat-this-much",
+   "cronometer",
+   "fitbod"
+  ],
+  "tags": [
+   "food",
+   "nutrition",
+   "barcode",
+   "shopping"
+  ],
+  "features": [
+   "Barcode scanning",
+   "Product ratings",
+   "Ingredient explanations",
+   "Alternative suggestions"
+  ],
+  "use_cases": [
+   "Comparing groceries",
+   "Checking cosmetics",
+   "Reading unfamiliar ingredients"
+  ],
+  "pricing_details": "Plans and pricing change. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Yuka used for?",
+    "a": "App that scans food and cosmetic barcodes to explain ingredients and ratings. See the official site for details."
+   },
+   {
+    "q": "Is Yuka free?",
+    "a": "Pricing is not verified here. Plans change, so check the official site."
+   },
+   {
+    "q": "Is it suitable for allergies?",
+    "a": "Check ingredients yourself and consult a professional for medical dietary needs."
+   }
+  ],
+  "seo_title": "Yuka: AI Tool Overview",
+  "seo_description": "App that scans food and cosmetic barcodes to explain ingredients and ratings. Overview, features and use cases of Yuka.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "lingoda",
+  "name": "Lingoda",
+  "category": "study",
+  "website_url": "https://lingoda.com",
+  "pricing": "Unknown",
+  "tagline": "Online language school with live classes in small groups or one to one.",
+  "best_for": "Learners who want live teachers online",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "Lingoda is an online language school offering live classes with teachers for languages such as English, German, French and Spanish. Lessons are scheduled online.\n\nIt is a teacher-led service, not an AI app, which makes it a counterpart to self-study tools. Check the official site for languages, formats and plans.",
+  "use_steps": [
+   "Pick the language you want to learn.",
+   "Set a level and daily goal.",
+   "Complete short lessons and speaking drills.",
+   "Review mistakes and repeat regularly."
+  ],
+  "pros": [
+   "Short sessions fit a busy day",
+   "Practice speaking and listening",
+   "Structured progression"
+  ],
+  "cons": [
+   "Apps rarely replace real conversation",
+   "Advanced learners may outgrow it"
+  ],
+  "alternatives": [
+   "italki",
+   "preply",
+   "babbel"
+  ],
+  "tags": [
+   "language",
+   "live-classes",
+   "speaking",
+   "online"
+  ],
+  "features": [
+   "Live online classes",
+   "Group and private options",
+   "Level-based courses",
+   "Scheduling"
+  ],
+  "use_cases": [
+   "Preparing for exams",
+   "Speaking practice with teachers",
+   "Structured courses"
+  ],
+  "pricing_details": "Plans and pricing change. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Lingoda used for?",
+    "a": "Online language school with live classes in small groups or one to one. See the official site for details."
+   },
+   {
+    "q": "Is Lingoda free?",
+    "a": "Pricing is not verified here. Plans change, so check the official site."
+   },
+   {
+    "q": "Can an app make me fluent?",
+    "a": "Apps help with practice, but fluency usually also needs conversation with people and wider reading and listening."
+   }
+  ],
+  "seo_title": "Lingoda: AI Tool Overview",
+  "seo_description": "Online language school with live classes in small groups or one to one. Overview, features and use cases of Lingoda.",
+  "status": "draft",
+  "last_checked": "unverified"
+ }
+]

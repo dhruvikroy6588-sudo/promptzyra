@@ -1,0 +1,3530 @@
+[
+ {
+  "slug": "hyperwrite",
+  "name": "HyperWrite",
+  "category": "writing",
+  "website_url": "https://www.hyperwriteai.com",
+  "pricing": "Unknown",
+  "tagline": "AI writing assistant that helps draft and continue text as you type.",
+  "best_for": "Drafting and finishing text with AI suggestions",
+  "platforms": [
+   "Web",
+   "Windows",
+   "macOS"
+  ],
+  "description": "HyperWrite is an AI writing assistant that helps you start, continue and polish text such as emails, essays and short articles. You give it a prompt or a half-written paragraph and it proposes wording you can accept, edit or discard.\n\nIt suits people who write often and want a quick nudge past a blank page. Treat its output as a draft: read it for tone and accuracy, and rewrite parts so the final piece sounds like you. Features and plans change, so check the official site for current details.",
+  "use_steps": [
+   "Open the official website and review what the tool offers.",
+   "Try it on a small, real task first.",
+   "Review the results carefully and adjust your input.",
+   "Compare with the alternatives listed here before committing."
+  ],
+  "pros": [
+   "Clear focus: drafting and finishing text with ai suggestions",
+   "Easy to try on a small task",
+   "Fits alongside other tools",
+   "Plenty of alternatives to compare"
+  ],
+  "cons": [
+   "Features and limits can change over time",
+   "Output should be reviewed before use"
+  ],
+  "alternatives": [
+   "rytr",
+   "wordtune",
+   "jasper"
+  ],
+  "tags": [
+   "writing",
+   "ai writer",
+   "drafting",
+   "assistant"
+  ],
+  "features": [
+   "Text generation from prompts",
+   "Continuing a draft",
+   "Rewriting and tone changes",
+   "Browser-based writing help"
+  ],
+  "use_cases": [
+   "Drafting emails",
+   "Outlining an essay",
+   "Rewording a clumsy paragraph"
+  ],
+  "pricing_details": "Plans and pricing change over time and were not verified here. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is HyperWrite?",
+    "a": "AI writing assistant that helps draft and continue text as you type. Visit the official site for the latest details."
+   },
+   {
+    "q": "Is HyperWrite free?",
+    "a": "Pricing was not verified here and may change. Check the official website for current plans."
+   },
+   {
+    "q": "Who is HyperWrite best for?",
+    "a": "It is best suited to: drafting and finishing text with ai suggestions. Compare with the listed alternatives to find your fit."
+   }
+  ],
+  "seo_title": "HyperWrite: What It Is and How to Use It",
+  "seo_description": "Learn what HyperWrite is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "writerzen",
+  "name": "WriterZen",
+  "category": "writing",
+  "website_url": "https://writerzen.net",
+  "pricing": "Unknown",
+  "tagline": "Keyword research and content planning workspace for writers and SEO teams.",
+  "best_for": "Planning articles around search topics",
+  "platforms": [
+   "Web"
+  ],
+  "description": "WriterZen combines keyword discovery, topic grouping and content briefs in one workspace, so writers can plan what to cover before drafting. It is aimed at blog and SEO workflows rather than creative writing.\n\nA typical use is to collect keywords for a theme, group them into topics and turn each group into an outline. Always sanity-check suggested keywords against your audience and what already ranks, since tools only estimate demand. Features and plans change, so check the official site for current details.",
+  "use_steps": [
+   "Open the official website and review what the tool offers.",
+   "Try it on a small, real task first.",
+   "Review the results carefully and adjust your input.",
+   "Compare with the alternatives listed here before committing."
+  ],
+  "pros": [
+   "Clear focus: planning articles around search topics",
+   "Easy to try on a small task",
+   "Fits alongside other tools",
+   "Plenty of alternatives to compare"
+  ],
+  "cons": [
+   "Features and limits can change over time",
+   "Output should be reviewed before use"
+  ],
+  "alternatives": [
+   "frase",
+   "surfer-seo",
+   "marketmuse"
+  ],
+  "tags": [
+   "seo",
+   "keywords",
+   "content planning",
+   "blogging"
+  ],
+  "features": [
+   "Keyword research",
+   "Topic clustering",
+   "Content briefs",
+   "Writing workspace"
+  ],
+  "use_cases": [
+   "Planning a blog calendar",
+   "Building article outlines",
+   "Finding related questions to answer"
+  ],
+  "pricing_details": "Plans and pricing change over time and were not verified here. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is WriterZen?",
+    "a": "Keyword research and content planning workspace for writers and SEO teams. Visit the official site for the latest details."
+   },
+   {
+    "q": "Is WriterZen free?",
+    "a": "Pricing was not verified here and may change. Check the official website for current plans."
+   },
+   {
+    "q": "Who is WriterZen best for?",
+    "a": "It is best suited to: planning articles around search topics. Compare with the listed alternatives to find your fit."
+   }
+  ],
+  "seo_title": "WriterZen: What It Is and How to Use It",
+  "seo_description": "Learn what WriterZen is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "outranking",
+  "name": "Outranking",
+  "category": "writing",
+  "website_url": "https://www.outranking.io",
+  "pricing": "Unknown",
+  "tagline": "SEO content tool that helps plan and optimize articles.",
+  "best_for": "Optimizing long-form articles for search",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Outranking helps writers build SEO-focused articles by suggesting outlines, related terms and on-page improvements while they draft. It focuses on structuring content around a target keyword.\n\nIt fits marketers and bloggers who publish regularly and want a checklist-style guide when writing. Use its suggestions as a prompt for what to cover, not as rules, and keep the piece useful for real readers first. Features and plans change, so check the official site for current details.",
+  "use_steps": [
+   "Open the official website and review what the tool offers.",
+   "Try it on a small, real task first.",
+   "Review the results carefully and adjust your input.",
+   "Compare with the alternatives listed here before committing."
+  ],
+  "pros": [
+   "Clear focus: optimizing long-form articles for search",
+   "Easy to try on a small task",
+   "Fits alongside other tools",
+   "Plenty of alternatives to compare"
+  ],
+  "cons": [
+   "Features and limits can change over time",
+   "Output should be reviewed before use"
+  ],
+  "alternatives": [
+   "frase",
+   "clearscope",
+   "neuronwriter"
+  ],
+  "tags": [
+   "seo",
+   "content",
+   "optimization",
+   "blog"
+  ],
+  "features": [
+   "Article outlines",
+   "Term and topic suggestions",
+   "On-page optimization guidance",
+   "Draft editor"
+  ],
+  "use_cases": [
+   "Writing a pillar post",
+   "Updating an older article",
+   "Comparing coverage with competitors"
+  ],
+  "pricing_details": "Plans and pricing change over time and were not verified here. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Outranking?",
+    "a": "SEO content tool that helps plan and optimize articles. Visit the official site for the latest details."
+   },
+   {
+    "q": "Is Outranking free?",
+    "a": "Pricing was not verified here and may change. Check the official website for current plans."
+   },
+   {
+    "q": "Who is Outranking best for?",
+    "a": "It is best suited to: optimizing long-form articles for search. Compare with the listed alternatives to find your fit."
+   }
+  ],
+  "seo_title": "Outranking: What It Is and How to Use It",
+  "seo_description": "Learn what Outranking is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "reverso",
+  "name": "Reverso",
+  "category": "writing",
+  "website_url": "https://www.reverso.net",
+  "pricing": "Unknown",
+  "tagline": "Translation, context examples and grammar checking for many languages.",
+  "best_for": "Translating and checking phrases in context",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "Reverso offers translation along with example sentences that show how a word or phrase is used in real context. It also includes tools for grammar and spelling checks and for paraphrasing.\n\nLanguage learners and writers use it to check whether a phrase sounds natural, not just to get a literal translation. Compare examples before choosing wording, and confirm anything important with a fluent speaker. Features and plans change, so check the official site for current details.",
+  "use_steps": [
+   "Open the official website and review what the tool offers.",
+   "Try it on a small, real task first.",
+   "Review the results carefully and adjust your input.",
+   "Compare with the alternatives listed here before committing."
+  ],
+  "pros": [
+   "Clear focus: translating and checking phrases in context",
+   "Easy to try on a small task",
+   "Fits alongside other tools",
+   "Plenty of alternatives to compare"
+  ],
+  "cons": [
+   "Features and limits can change over time",
+   "Output should be reviewed before use"
+  ],
+  "alternatives": [
+   "deepl",
+   "languagetool",
+   "linguix"
+  ],
+  "tags": [
+   "translation",
+   "grammar",
+   "languages",
+   "context"
+  ],
+  "features": [
+   "Contextual translation",
+   "Example sentences",
+   "Grammar and spelling check",
+   "Paraphrasing"
+  ],
+  "use_cases": [
+   "Checking a phrase in a second language",
+   "Proofreading an email",
+   "Learning how words are used"
+  ],
+  "pricing_details": "Plans and pricing change over time and were not verified here. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Reverso?",
+    "a": "Translation, context examples and grammar checking for many languages. Visit the official site for the latest details."
+   },
+   {
+    "q": "Is Reverso free?",
+    "a": "Pricing was not verified here and may change. Check the official website for current plans."
+   },
+   {
+    "q": "Who is Reverso best for?",
+    "a": "It is best suited to: translating and checking phrases in context. Compare with the listed alternatives to find your fit."
+   }
+  ],
+  "seo_title": "Reverso: What It Is and How to Use It",
+  "seo_description": "Learn what Reverso is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "scribens",
+  "name": "Scribens",
+  "category": "writing",
+  "website_url": "https://www.scribens.com",
+  "pricing": "Unknown",
+  "tagline": "Online grammar and style checker for English and other languages.",
+  "best_for": "Quick proofreading of pasted text",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Scribens is an online proofreader that scans text for grammar, spelling and style issues and explains the suggested corrections. You paste text into the page and review the highlighted points.\n\nIt works well for a quick pass on short documents when you do not want to install anything. Because automated checkers miss context, still read your text aloud and decide which suggestions to accept. Features and plans change, so check the official site for current details.",
+  "use_steps": [
+   "Open the official website and review what the tool offers.",
+   "Try it on a small, real task first.",
+   "Review the results carefully and adjust your input.",
+   "Compare with the alternatives listed here before committing."
+  ],
+  "pros": [
+   "Clear focus: quick proofreading of pasted text",
+   "Easy to try on a small task",
+   "Fits alongside other tools",
+   "Plenty of alternatives to compare"
+  ],
+  "cons": [
+   "Features and limits can change over time",
+   "Output should be reviewed before use"
+  ],
+  "alternatives": [
+   "languagetool",
+   "hemingway-editor",
+   "prowritingaid"
+  ],
+  "tags": [
+   "grammar",
+   "proofreading",
+   "style",
+   "editor"
+  ],
+  "features": [
+   "Grammar checking",
+   "Spelling checking",
+   "Style and repetition hints",
+   "Explanations of errors"
+  ],
+  "use_cases": [
+   "Proofreading an assignment",
+   "Checking a cover letter",
+   "Spotting repeated words"
+  ],
+  "pricing_details": "Plans and pricing change over time and were not verified here. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Scribens?",
+    "a": "Online grammar and style checker for English and other languages. Visit the official site for the latest details."
+   },
+   {
+    "q": "Is Scribens free?",
+    "a": "Pricing was not verified here and may change. Check the official website for current plans."
+   },
+   {
+    "q": "Who is Scribens best for?",
+    "a": "It is best suited to: quick proofreading of pasted text. Compare with the listed alternatives to find your fit."
+   }
+  ],
+  "seo_title": "Scribens: What It Is and How to Use It",
+  "seo_description": "Learn what Scribens is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "wordvice-ai",
+  "name": "Wordvice AI",
+  "category": "writing",
+  "website_url": "https://wordvice.ai",
+  "pricing": "Unknown",
+  "tagline": "AI writing and editing tools aimed at academic and research text.",
+  "best_for": "Polishing academic manuscripts and papers",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Wordvice AI provides editing tools for academic writing, such as grammar checking, paraphrasing and summarizing, built with researchers and students in mind.\n\nIt is useful when preparing papers, theses or applications where clear, formal English matters. Automated edits can change meaning, so review each change and follow your journal or school guidelines. Features and plans change, so check the official site for current details.",
+  "use_steps": [
+   "Open the official website and review what the tool offers.",
+   "Try it on a small, real task first.",
+   "Review the results carefully and adjust your input.",
+   "Compare with the alternatives listed here before committing."
+  ],
+  "pros": [
+   "Clear focus: polishing academic manuscripts and papers",
+   "Easy to try on a small task",
+   "Fits alongside other tools",
+   "Plenty of alternatives to compare"
+  ],
+  "cons": [
+   "Features and limits can change over time",
+   "Output should be reviewed before use"
+  ],
+  "alternatives": [
+   "paperpal",
+   "trinka",
+   "writefull"
+  ],
+  "tags": [
+   "academic",
+   "editing",
+   "research writing",
+   "grammar"
+  ],
+  "features": [
+   "Grammar and style checks",
+   "Paraphrasing",
+   "Summarizing",
+   "Academic-focused editing"
+  ],
+  "use_cases": [
+   "Polishing a manuscript",
+   "Rephrasing a dense paragraph",
+   "Summarizing a source"
+  ],
+  "pricing_details": "Plans and pricing change over time and were not verified here. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Wordvice AI?",
+    "a": "AI writing and editing tools aimed at academic and research text. Visit the official site for the latest details."
+   },
+   {
+    "q": "Is Wordvice AI free?",
+    "a": "Pricing was not verified here and may change. Check the official website for current plans."
+   },
+   {
+    "q": "Who is Wordvice AI best for?",
+    "a": "It is best suited to: polishing academic manuscripts and papers. Compare with the listed alternatives to find your fit."
+   }
+  ],
+  "seo_title": "Wordvice AI: What It Is and How to Use It",
+  "seo_description": "Learn what Wordvice AI is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "text-blaze",
+  "name": "Text Blaze",
+  "category": "writing",
+  "website_url": "https://blaze.today",
+  "pricing": "Unknown",
+  "tagline": "Snippet and text-expansion tool for reusing common replies.",
+  "best_for": "Reusing templates and canned replies",
+  "platforms": [
+   "Web",
+   "Chrome extension"
+  ],
+  "description": "Text Blaze is a text-expansion tool that lets you save snippets and insert them by typing a short shortcut. Snippets can include fields and simple logic so a template adapts to each situation.\n\nIt helps people who send similar messages repeatedly, such as support replies or outreach emails. Keep templates current and personalize each message so it does not read like a form letter. Features and plans change, so check the official site for current details.",
+  "use_steps": [
+   "Open the official website and review what the tool offers.",
+   "Try it on a small, real task first.",
+   "Review the results carefully and adjust your input.",
+   "Compare with the alternatives listed here before committing."
+  ],
+  "pros": [
+   "Clear focus: reusing templates and canned replies",
+   "Easy to try on a small task",
+   "Fits alongside other tools",
+   "Plenty of alternatives to compare"
+  ],
+  "cons": [
+   "Features and limits can change over time",
+   "Output should be reviewed before use"
+  ],
+  "alternatives": [
+   "grammarly",
+   "zapier",
+   "notion"
+  ],
+  "tags": [
+   "templates",
+   "snippets",
+   "productivity",
+   "email"
+  ],
+  "features": [
+   "Snippet shortcuts",
+   "Fill-in fields",
+   "Browser extension",
+   "Shared snippet folders"
+  ],
+  "use_cases": [
+   "Customer support replies",
+   "Recruiting outreach",
+   "Standard email answers"
+  ],
+  "pricing_details": "Plans and pricing change over time and were not verified here. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Text Blaze?",
+    "a": "Snippet and text-expansion tool for reusing common replies. Visit the official site for the latest details."
+   },
+   {
+    "q": "Is Text Blaze free?",
+    "a": "Pricing was not verified here and may change. Check the official website for current plans."
+   },
+   {
+    "q": "Who is Text Blaze best for?",
+    "a": "It is best suited to: reusing templates and canned replies. Compare with the listed alternatives to find your fit."
+   }
+  ],
+  "seo_title": "Text Blaze: What It Is and How to Use It",
+  "seo_description": "Learn what Text Blaze is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "phind",
+  "name": "Phind",
+  "category": "chat-assistants",
+  "website_url": "https://www.phind.com",
+  "pricing": "Unknown",
+  "tagline": "AI search engine and assistant geared toward developers and technical questions.",
+  "best_for": "Technical questions that need sourced answers",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Phind is an AI search tool that answers programming and technical questions in a conversational format and points to the sources it used. It is designed to feel like searching and chatting at once.\n\nDevelopers use it to explore errors, libraries and concepts faster. Always test generated code and open the cited pages, because summaries can be outdated or wrong for your version. Features and plans change, so check the official site for current details.",
+  "use_steps": [
+   "Open the official website and review what the tool offers.",
+   "Try it on a small, real task first.",
+   "Review the results carefully and adjust your input.",
+   "Compare with the alternatives listed here before committing."
+  ],
+  "pros": [
+   "Clear focus: technical questions that need sourced answers",
+   "Easy to try on a small task",
+   "Fits alongside other tools",
+   "Plenty of alternatives to compare"
+  ],
+  "cons": [
+   "Features and limits can change over time",
+   "Output should be reviewed before use"
+  ],
+  "alternatives": [
+   "perplexity",
+   "chatgpt",
+   "you-com"
+  ],
+  "tags": [
+   "search",
+   "developer",
+   "coding",
+   "answers"
+  ],
+  "features": [
+   "Conversational search",
+   "Source links",
+   "Code-focused answers",
+   "Follow-up questions"
+  ],
+  "use_cases": [
+   "Debugging an error message",
+   "Learning a new library",
+   "Comparing technical approaches"
+  ],
+  "pricing_details": "Plans and pricing change over time and were not verified here. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Phind?",
+    "a": "AI search engine and assistant geared toward developers and technical questions. Visit the official site for the latest details."
+   },
+   {
+    "q": "Is Phind free?",
+    "a": "Pricing was not verified here and may change. Check the official website for current plans."
+   },
+   {
+    "q": "Who is Phind best for?",
+    "a": "It is best suited to: technical questions that need sourced answers. Compare with the listed alternatives to find your fit."
+   }
+  ],
+  "seo_title": "Phind: What It Is and How to Use It",
+  "seo_description": "Learn what Phind is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "reka",
+  "name": "Reka",
+  "category": "chat-assistants",
+  "website_url": "https://reka.ai",
+  "pricing": "Unknown",
+  "tagline": "AI company offering multimodal language models and an assistant.",
+  "best_for": "Trying multimodal models via chat or API",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Reka builds multimodal AI models that can work with text and other inputs such as images, and offers them through an assistant and developer access.\n\nIt is relevant to people who want to compare newer model families or build applications on them. Model names and capabilities change quickly, so read the current documentation before planning a project. Features and plans change, so check the official site for current details.",
+  "use_steps": [
+   "Open the official website and review what the tool offers.",
+   "Try it on a small, real task first.",
+   "Review the results carefully and adjust your input.",
+   "Compare with the alternatives listed here before committing."
+  ],
+  "pros": [
+   "Clear focus: trying multimodal models via chat or api",
+   "Easy to try on a small task",
+   "Fits alongside other tools",
+   "Plenty of alternatives to compare"
+  ],
+  "cons": [
+   "Features and limits can change over time",
+   "Output should be reviewed before use"
+  ],
+  "alternatives": [
+   "cohere",
+   "mistral-le-chat",
+   "google-gemini"
+  ],
+  "tags": [
+   "llm",
+   "multimodal",
+   "api",
+   "models"
+  ],
+  "features": [
+   "Multimodal models",
+   "Chat assistant",
+   "Developer access",
+   "Model documentation"
+  ],
+  "use_cases": [
+   "Comparing model families",
+   "Prototyping an AI feature",
+   "Analyzing mixed text and image input"
+  ],
+  "pricing_details": "Plans and pricing change over time and were not verified here. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Reka?",
+    "a": "AI company offering multimodal language models and an assistant. Visit the official site for the latest details."
+   },
+   {
+    "q": "Is Reka free?",
+    "a": "Pricing was not verified here and may change. Check the official website for current plans."
+   },
+   {
+    "q": "Who is Reka best for?",
+    "a": "It is best suited to: trying multimodal models via chat or api. Compare with the listed alternatives to find your fit."
+   }
+  ],
+  "seo_title": "Reka: What It Is and How to Use It",
+  "seo_description": "Learn what Reka is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "ai21-labs",
+  "name": "AI21 Labs",
+  "category": "chat-assistants",
+  "website_url": "https://www.ai21.com",
+  "pricing": "Unknown",
+  "tagline": "Language model company providing models and tools for business use.",
+  "best_for": "Enterprise-oriented language model APIs",
+  "platforms": [
+   "Web"
+  ],
+  "description": "AI21 Labs develops large language models and offers them to businesses through APIs and products for writing, summarizing and question answering over documents.\n\nIt is mainly of interest to teams building text features into their own products. Evaluate it on your own documents and requirements, since results vary by task and the offering evolves. Features and plans change, so check the official site for current details.",
+  "use_steps": [
+   "Open the official website and review what the tool offers.",
+   "Try it on a small, real task first.",
+   "Review the results carefully and adjust your input.",
+   "Compare with the alternatives listed here before committing."
+  ],
+  "pros": [
+   "Clear focus: enterprise-oriented language model apis",
+   "Easy to try on a small task",
+   "Fits alongside other tools",
+   "Plenty of alternatives to compare"
+  ],
+  "cons": [
+   "Features and limits can change over time",
+   "Output should be reviewed before use"
+  ],
+  "alternatives": [
+   "cohere",
+   "writer",
+   "mistral-le-chat"
+  ],
+  "tags": [
+   "llm",
+   "api",
+   "enterprise",
+   "models"
+  ],
+  "features": [
+   "Language model APIs",
+   "Summarization",
+   "Question answering over documents",
+   "Developer documentation"
+  ],
+  "use_cases": [
+   "Summarizing internal documents",
+   "Building a Q&A feature",
+   "Evaluating alternative model providers"
+  ],
+  "pricing_details": "Plans and pricing change over time and were not verified here. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is AI21 Labs?",
+    "a": "Language model company providing models and tools for business use. Visit the official site for the latest details."
+   },
+   {
+    "q": "Is AI21 Labs free?",
+    "a": "Pricing was not verified here and may change. Check the official website for current plans."
+   },
+   {
+    "q": "Who is AI21 Labs best for?",
+    "a": "It is best suited to: enterprise-oriented language model apis. Compare with the listed alternatives to find your fit."
+   }
+  ],
+  "seo_title": "AI21 Labs: What It Is and How to Use It",
+  "seo_description": "Learn what AI21 Labs is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "ernie-bot",
+  "name": "ERNIE Bot",
+  "category": "chat-assistants",
+  "website_url": "https://ernie.baidu.com",
+  "pricing": "Unknown",
+  "tagline": "Baidu's AI chat assistant built on its ERNIE language models.",
+  "best_for": "Chatting in Chinese and exploring Baidu's AI",
+  "platforms": [
+   "Web"
+  ],
+  "description": "ERNIE Bot is the conversational assistant from Baidu, powered by the company's ERNIE family of models. It answers questions, helps with writing and supports other tasks, mostly in Chinese.\n\nIt is useful for people who work in Chinese-language contexts or want to compare assistants from different regions. Availability and features can depend on your location and account, so check the site. Features and plans change, so check the official site for current details.",
+  "use_steps": [
+   "Open the official website and review what the tool offers.",
+   "Try it on a small, real task first.",
+   "Review the results carefully and adjust your input.",
+   "Compare with the alternatives listed here before committing."
+  ],
+  "pros": [
+   "Clear focus: chatting in chinese and exploring baidu's ai",
+   "Easy to try on a small task",
+   "Fits alongside other tools",
+   "Plenty of alternatives to compare"
+  ],
+  "cons": [
+   "Features and limits can change over time",
+   "Output should be reviewed before use"
+  ],
+  "alternatives": [
+   "doubao",
+   "kimi",
+   "qwen-chat"
+  ],
+  "tags": [
+   "chat",
+   "baidu",
+   "chinese",
+   "llm"
+  ],
+  "features": [
+   "Conversational answers",
+   "Writing help",
+   "Chinese-language support",
+   "Baidu ecosystem integration"
+  ],
+  "use_cases": [
+   "Writing in Chinese",
+   "Comparing regional assistants",
+   "Answering general questions"
+  ],
+  "pricing_details": "Plans and pricing change over time and were not verified here. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is ERNIE Bot?",
+    "a": "Baidu's AI chat assistant built on its ERNIE language models. Visit the official site for the latest details."
+   },
+   {
+    "q": "Is ERNIE Bot free?",
+    "a": "Pricing was not verified here and may change. Check the official website for current plans."
+   },
+   {
+    "q": "Who is ERNIE Bot best for?",
+    "a": "It is best suited to: chatting in chinese and exploring baidu's ai. Compare with the listed alternatives to find your fit."
+   }
+  ],
+  "seo_title": "ERNIE Bot: What It Is and How to Use It",
+  "seo_description": "Learn what ERNIE Bot is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "minimax",
+  "name": "MiniMax",
+  "category": "chat-assistants",
+  "website_url": "https://www.minimax.io",
+  "pricing": "Unknown",
+  "tagline": "AI company with language, speech and video models and apps.",
+  "best_for": "Exploring models across text, voice and video",
+  "platforms": [
+   "Web"
+  ],
+  "description": "MiniMax is an AI company that develops models for text, speech and video and offers them through its own apps and platform for developers.\n\nPeople follow it to compare model options and to try its creative and conversational products. Offerings change often, so review the official site for what is currently available and in which regions. Features and plans change, so check the official site for current details.",
+  "use_steps": [
+   "Open the official website and review what the tool offers.",
+   "Try it on a small, real task first.",
+   "Review the results carefully and adjust your input.",
+   "Compare with the alternatives listed here before committing."
+  ],
+  "pros": [
+   "Clear focus: exploring models across text, voice and video",
+   "Easy to try on a small task",
+   "Fits alongside other tools",
+   "Plenty of alternatives to compare"
+  ],
+  "cons": [
+   "Features and limits can change over time",
+   "Output should be reviewed before use"
+  ],
+  "alternatives": [
+   "kimi",
+   "hailuo-ai",
+   "qwen-chat"
+  ],
+  "tags": [
+   "llm",
+   "multimodal",
+   "api",
+   "models"
+  ],
+  "features": [
+   "Language models",
+   "Speech models",
+   "Video generation models",
+   "Developer platform"
+  ],
+  "use_cases": [
+   "Comparing LLM providers",
+   "Experimenting with AI voices",
+   "Building prototypes on an API"
+  ],
+  "pricing_details": "Plans and pricing change over time and were not verified here. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is MiniMax?",
+    "a": "AI company with language, speech and video models and apps. Visit the official site for the latest details."
+   },
+   {
+    "q": "Is MiniMax free?",
+    "a": "Pricing was not verified here and may change. Check the official website for current plans."
+   },
+   {
+    "q": "Who is MiniMax best for?",
+    "a": "It is best suited to: exploring models across text, voice and video. Compare with the listed alternatives to find your fit."
+   }
+  ],
+  "seo_title": "MiniMax: What It Is and How to Use It",
+  "seo_description": "Learn what MiniMax is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "sambanova",
+  "name": "SambaNova",
+  "category": "chat-assistants",
+  "website_url": "https://sambanova.ai",
+  "pricing": "Unknown",
+  "tagline": "AI platform providing fast inference for open models via cloud and API.",
+  "best_for": "Running open models through a hosted API",
+  "platforms": [
+   "Web"
+  ],
+  "description": "SambaNova offers AI hardware and a cloud platform for running large open models, with an API developers can call from their applications.\n\nIt is a fit for teams who want hosted inference for open models and want to compare speed and cost between providers. Benchmark on your own workload before choosing. Features and plans change, so check the official site for current details.",
+  "use_steps": [
+   "Open the official website and review what the tool offers.",
+   "Try it on a small, real task first.",
+   "Review the results carefully and adjust your input.",
+   "Compare with the alternatives listed here before committing."
+  ],
+  "pros": [
+   "Clear focus: running open models through a hosted api",
+   "Easy to try on a small task",
+   "Fits alongside other tools",
+   "Plenty of alternatives to compare"
+  ],
+  "cons": [
+   "Features and limits can change over time",
+   "Output should be reviewed before use"
+  ],
+  "alternatives": [
+   "groq",
+   "together-ai",
+   "fireworks-ai"
+  ],
+  "tags": [
+   "inference",
+   "api",
+   "open models",
+   "cloud"
+  ],
+  "features": [
+   "Hosted inference API",
+   "Open model support",
+   "Developer documentation",
+   "Enterprise offerings"
+  ],
+  "use_cases": [
+   "Serving an open model",
+   "Comparing inference providers",
+   "Prototyping chat features"
+  ],
+  "pricing_details": "Plans and pricing change over time and were not verified here. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is SambaNova?",
+    "a": "AI platform providing fast inference for open models via cloud and API. Visit the official site for the latest details."
+   },
+   {
+    "q": "Is SambaNova free?",
+    "a": "Pricing was not verified here and may change. Check the official website for current plans."
+   },
+   {
+    "q": "Who is SambaNova best for?",
+    "a": "It is best suited to: running open models through a hosted api. Compare with the listed alternatives to find your fit."
+   }
+  ],
+  "seo_title": "SambaNova: What It Is and How to Use It",
+  "seo_description": "Learn what SambaNova is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "maxai",
+  "name": "MaxAI",
+  "category": "chat-assistants",
+  "website_url": "https://www.maxai.co",
+  "pricing": "Unknown",
+  "tagline": "Browser extension that adds AI chat, summaries and writing help to any page.",
+  "best_for": "Using AI assistants alongside web pages",
+  "platforms": [
+   "Web",
+   "Chrome extension"
+  ],
+  "description": "MaxAI is a browser extension that brings AI chat into the pages you visit, so you can summarize an article, reply to an email or ask questions without copying text elsewhere.\n\nIt suits people who spend their day in the browser and want quick assistance in context. Be careful with sensitive pages, and read the privacy terms before letting any extension see your content. Features and plans change, so check the official site for current details.",
+  "use_steps": [
+   "Open the official website and review what the tool offers.",
+   "Try it on a small, real task first.",
+   "Review the results carefully and adjust your input.",
+   "Compare with the alternatives listed here before committing."
+  ],
+  "pros": [
+   "Clear focus: using ai assistants alongside web pages",
+   "Easy to try on a small task",
+   "Fits alongside other tools",
+   "Plenty of alternatives to compare"
+  ],
+  "cons": [
+   "Features and limits can change over time",
+   "Output should be reviewed before use"
+  ],
+  "alternatives": [
+   "sider",
+   "monica-ai",
+   "merlin-ai"
+  ],
+  "tags": [
+   "extension",
+   "browser",
+   "summary",
+   "assistant"
+  ],
+  "features": [
+   "Page summaries",
+   "Side-panel chat",
+   "Reply and rewrite helpers",
+   "Multiple model access"
+  ],
+  "use_cases": [
+   "Summarizing long articles",
+   "Drafting replies",
+   "Asking questions about a page"
+  ],
+  "pricing_details": "Plans and pricing change over time and were not verified here. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is MaxAI?",
+    "a": "Browser extension that adds AI chat, summaries and writing help to any page. Visit the official site for the latest details."
+   },
+   {
+    "q": "Is MaxAI free?",
+    "a": "Pricing was not verified here and may change. Check the official website for current plans."
+   },
+   {
+    "q": "Who is MaxAI best for?",
+    "a": "It is best suited to: using ai assistants alongside web pages. Compare with the listed alternatives to find your fit."
+   }
+  ],
+  "seo_title": "MaxAI: What It Is and How to Use It",
+  "seo_description": "Learn what MaxAI is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "lumo-proton",
+  "name": "Lumo by Proton",
+  "category": "chat-assistants",
+  "website_url": "https://lumo.proton.me",
+  "pricing": "Unknown",
+  "tagline": "Privacy-focused AI assistant from Proton.",
+  "best_for": "Chatting with an assistant that stresses privacy",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "Lumo is an AI assistant from Proton, the company behind privacy-oriented email and VPN services. It focuses on answering questions and helping with writing while emphasizing how user data is handled.\n\nIt appeals to people who care about privacy policies when choosing an assistant. Read the official privacy statements yourself and avoid entering secrets you would not share, regardless of provider. Features and plans change, so check the official site for current details.",
+  "use_steps": [
+   "Open the official website and review what the tool offers.",
+   "Try it on a small, real task first.",
+   "Review the results carefully and adjust your input.",
+   "Compare with the alternatives listed here before committing."
+  ],
+  "pros": [
+   "Clear focus: chatting with an assistant that stresses privacy",
+   "Easy to try on a small task",
+   "Fits alongside other tools",
+   "Plenty of alternatives to compare"
+  ],
+  "cons": [
+   "Features and limits can change over time",
+   "Output should be reviewed before use"
+  ],
+  "alternatives": [
+   "duck-ai",
+   "brave-leo",
+   "claude"
+  ],
+  "tags": [
+   "privacy",
+   "chat",
+   "assistant",
+   "proton"
+  ],
+  "features": [
+   "Chat assistant",
+   "Privacy-focused positioning",
+   "Writing and summarizing",
+   "Web and mobile apps"
+  ],
+  "use_cases": [
+   "Private-minded drafting",
+   "Summarizing notes",
+   "General questions"
+  ],
+  "pricing_details": "Plans and pricing change over time and were not verified here. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Lumo by Proton?",
+    "a": "Privacy-focused AI assistant from Proton. Visit the official site for the latest details."
+   },
+   {
+    "q": "Is Lumo by Proton free?",
+    "a": "Pricing was not verified here and may change. Check the official website for current plans."
+   },
+   {
+    "q": "Who is Lumo by Proton best for?",
+    "a": "It is best suited to: chatting with an assistant that stresses privacy. Compare with the listed alternatives to find your fit."
+   }
+  ],
+  "seo_title": "Lumo by Proton: What It Is and How to Use It",
+  "seo_description": "Learn what Lumo by Proton is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "andi-search",
+  "name": "Andi",
+  "category": "chat-assistants",
+  "website_url": "https://andisearch.com",
+  "pricing": "Unknown",
+  "tagline": "Conversational search engine that answers questions with sources.",
+  "best_for": "Searching with chat-style answers",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Andi is a search assistant that responds to queries with summarized answers and shows links to its sources, aiming for a cleaner experience than a page of ads.\n\nIt is handy for quick lookups and learning a topic from multiple angles. As with any AI search tool, open the linked sources before relying on a claim. Features and plans change, so check the official site for current details.",
+  "use_steps": [
+   "Open the official website and review what the tool offers.",
+   "Try it on a small, real task first.",
+   "Review the results carefully and adjust your input.",
+   "Compare with the alternatives listed here before committing."
+  ],
+  "pros": [
+   "Clear focus: searching with chat-style answers",
+   "Easy to try on a small task",
+   "Fits alongside other tools",
+   "Plenty of alternatives to compare"
+  ],
+  "cons": [
+   "Features and limits can change over time",
+   "Output should be reviewed before use"
+  ],
+  "alternatives": [
+   "perplexity",
+   "you-com",
+   "phind"
+  ],
+  "tags": [
+   "search",
+   "answers",
+   "sources",
+   "chat"
+  ],
+  "features": [
+   "Chat-style search",
+   "Source links",
+   "Summaries",
+   "Follow-up questions"
+  ],
+  "use_cases": [
+   "Quick fact lookups",
+   "Topic overviews",
+   "Comparing sources"
+  ],
+  "pricing_details": "Plans and pricing change over time and were not verified here. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Andi?",
+    "a": "Conversational search engine that answers questions with sources. Visit the official site for the latest details."
+   },
+   {
+    "q": "Is Andi free?",
+    "a": "Pricing was not verified here and may change. Check the official website for current plans."
+   },
+   {
+    "q": "Who is Andi best for?",
+    "a": "It is best suited to: searching with chat-style answers. Compare with the listed alternatives to find your fit."
+   }
+  ],
+  "seo_title": "Andi: What It Is and How to Use It",
+  "seo_description": "Learn what Andi is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "iris-ai",
+  "name": "Iris.ai",
+  "category": "research",
+  "website_url": "https://iris.ai",
+  "pricing": "Unknown",
+  "tagline": "Research workspace for finding and filtering scientific papers.",
+  "best_for": "Mapping and screening literature at scale",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Iris.ai offers tools for exploring scientific literature, such as topic-based search, filtering and summarization, aimed at research and R&D teams.\n\nIt helps when you have a broad question and need to narrow a large set of papers quickly. Verify extracted findings against the original papers, since automated summaries can miss nuance. Features and plans change, so check the official site for current details.",
+  "use_steps": [
+   "Open the official website and review what the tool offers.",
+   "Try it on a small, real task first.",
+   "Review the results carefully and adjust your input.",
+   "Compare with the alternatives listed here before committing."
+  ],
+  "pros": [
+   "Clear focus: mapping and screening literature at scale",
+   "Easy to try on a small task",
+   "Fits alongside other tools",
+   "Plenty of alternatives to compare"
+  ],
+  "cons": [
+   "Features and limits can change over time",
+   "Output should be reviewed before use"
+  ],
+  "alternatives": [
+   "elicit",
+   "scispace",
+   "researchrabbit"
+  ],
+  "tags": [
+   "literature",
+   "papers",
+   "science",
+   "search"
+  ],
+  "features": [
+   "Topic-based literature search",
+   "Filtering",
+   "Summaries",
+   "Research workspace"
+  ],
+  "use_cases": [
+   "Starting a literature review",
+   "Screening papers",
+   "Tracking a research area"
+  ],
+  "pricing_details": "Plans and pricing change over time and were not verified here. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Iris.ai?",
+    "a": "Research workspace for finding and filtering scientific papers. Visit the official site for the latest details."
+   },
+   {
+    "q": "Is Iris.ai free?",
+    "a": "Pricing was not verified here and may change. Check the official website for current plans."
+   },
+   {
+    "q": "Who is Iris.ai best for?",
+    "a": "It is best suited to: mapping and screening literature at scale. Compare with the listed alternatives to find your fit."
+   }
+  ],
+  "seo_title": "Iris.ai: What It Is and How to Use It",
+  "seo_description": "Learn what Iris.ai is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "openalex",
+  "name": "OpenAlex",
+  "category": "research",
+  "website_url": "https://openalex.org",
+  "pricing": "Unknown",
+  "tagline": "Open catalog of scholarly works, authors, institutions and topics.",
+  "best_for": "Exploring open scholarly metadata",
+  "platforms": [
+   "Web"
+  ],
+  "description": "OpenAlex is an open index of scholarly papers, authors, venues and institutions. People use its website and API to explore research output and build analyses.\n\nIt is helpful for bibliometrics, finding related works and building research tools on open data. Coverage and metadata quality vary by field, so cross-check important records. Features and plans change, so check the official site for current details.",
+  "use_steps": [
+   "Open the official website and review what the tool offers.",
+   "Try it on a small, real task first.",
+   "Review the results carefully and adjust your input.",
+   "Compare with the alternatives listed here before committing."
+  ],
+  "pros": [
+   "Clear focus: exploring open scholarly metadata",
+   "Easy to try on a small task",
+   "Fits alongside other tools",
+   "Plenty of alternatives to compare"
+  ],
+  "cons": [
+   "Features and limits can change over time",
+   "Output should be reviewed before use"
+  ],
+  "alternatives": [
+   "semantic-scholar",
+   "google-scholar",
+   "connected-papers"
+  ],
+  "tags": [
+   "open data",
+   "papers",
+   "metadata",
+   "api"
+  ],
+  "features": [
+   "Scholarly works index",
+   "Author and institution data",
+   "Open API",
+   "Topic information"
+  ],
+  "use_cases": [
+   "Mapping a research field",
+   "Finding an author's works",
+   "Building analysis scripts"
+  ],
+  "pricing_details": "Plans and pricing change over time and were not verified here. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is OpenAlex?",
+    "a": "Open catalog of scholarly works, authors, institutions and topics. Visit the official site for the latest details."
+   },
+   {
+    "q": "Is OpenAlex free?",
+    "a": "Pricing was not verified here and may change. Check the official website for current plans."
+   },
+   {
+    "q": "Who is OpenAlex best for?",
+    "a": "It is best suited to: exploring open scholarly metadata. Compare with the listed alternatives to find your fit."
+   }
+  ],
+  "seo_title": "OpenAlex: What It Is and How to Use It",
+  "seo_description": "Learn what OpenAlex is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "core-open-access",
+  "name": "CORE",
+  "category": "research",
+  "website_url": "https://core.ac.uk",
+  "pricing": "Unknown",
+  "tagline": "Aggregator of open access research papers.",
+  "best_for": "Finding free-to-read research papers",
+  "platforms": [
+   "Web"
+  ],
+  "description": "CORE collects open access research outputs from repositories and journals and lets you search them. It focuses on making full-text papers easier to find.\n\nStudents and researchers use it to locate free versions of papers. Check that you are reading the final, citable version and follow your institution's citation rules. Features and plans change, so check the official site for current details.",
+  "use_steps": [
+   "Open the official website and review what the tool offers.",
+   "Try it on a small, real task first.",
+   "Review the results carefully and adjust your input.",
+   "Compare with the alternatives listed here before committing."
+  ],
+  "pros": [
+   "Clear focus: finding free-to-read research papers",
+   "Easy to try on a small task",
+   "Fits alongside other tools",
+   "Plenty of alternatives to compare"
+  ],
+  "cons": [
+   "Features and limits can change over time",
+   "Output should be reviewed before use"
+  ],
+  "alternatives": [
+   "google-scholar",
+   "semantic-scholar",
+   "zotero"
+  ],
+  "tags": [
+   "open access",
+   "papers",
+   "search",
+   "repository"
+  ],
+  "features": [
+   "Open access search",
+   "Full-text discovery",
+   "Repository aggregation",
+   "API access"
+  ],
+  "use_cases": [
+   "Finding free papers",
+   "Checking repository versions",
+   "Collecting references"
+  ],
+  "pricing_details": "Plans and pricing change over time and were not verified here. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is CORE?",
+    "a": "Aggregator of open access research papers. Visit the official site for the latest details."
+   },
+   {
+    "q": "Is CORE free?",
+    "a": "Pricing was not verified here and may change. Check the official website for current plans."
+   },
+   {
+    "q": "Who is CORE best for?",
+    "a": "It is best suited to: finding free-to-read research papers. Compare with the listed alternatives to find your fit."
+   }
+  ],
+  "seo_title": "CORE: What It Is and How to Use It",
+  "seo_description": "Learn what CORE is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "tavily",
+  "name": "Tavily",
+  "category": "research",
+  "website_url": "https://tavily.com",
+  "pricing": "Unknown",
+  "tagline": "Search API designed for AI agents and retrieval workflows.",
+  "best_for": "Giving AI apps access to web search",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Tavily provides a search and content-extraction API intended for use by AI agents and retrieval-augmented applications, returning results formatted for language models.\n\nDevelopers use it to let assistants look up fresh information. Review usage terms and test result quality on your topics, since any search layer can return irrelevant pages. Features and plans change, so check the official site for current details.",
+  "use_steps": [
+   "Open the official website and review what the tool offers.",
+   "Try it on a small, real task first.",
+   "Review the results carefully and adjust your input.",
+   "Compare with the alternatives listed here before committing."
+  ],
+  "pros": [
+   "Clear focus: giving ai apps access to web search",
+   "Easy to try on a small task",
+   "Fits alongside other tools",
+   "Plenty of alternatives to compare"
+  ],
+  "cons": [
+   "Features and limits can change over time",
+   "Output should be reviewed before use"
+  ],
+  "alternatives": [
+   "exa",
+   "perplexity",
+   "jina-ai"
+  ],
+  "tags": [
+   "api",
+   "search",
+   "agents",
+   "rag"
+  ],
+  "features": [
+   "Search API",
+   "Content extraction",
+   "Agent-oriented output",
+   "Developer docs"
+  ],
+  "use_cases": [
+   "Adding web search to an agent",
+   "Building a research bot",
+   "Grounding answers with sources"
+  ],
+  "pricing_details": "Plans and pricing change over time and were not verified here. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Tavily?",
+    "a": "Search API designed for AI agents and retrieval workflows. Visit the official site for the latest details."
+   },
+   {
+    "q": "Is Tavily free?",
+    "a": "Pricing was not verified here and may change. Check the official website for current plans."
+   },
+   {
+    "q": "Who is Tavily best for?",
+    "a": "It is best suited to: giving ai apps access to web search. Compare with the listed alternatives to find your fit."
+   }
+  ],
+  "seo_title": "Tavily: What It Is and How to Use It",
+  "seo_description": "Learn what Tavily is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "exa",
+  "name": "Exa",
+  "category": "research",
+  "website_url": "https://exa.ai",
+  "pricing": "Unknown",
+  "tagline": "Search engine and API built for AI applications.",
+  "best_for": "Programmatic search for AI products",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Exa is a search engine with an API aimed at AI use cases, supporting queries phrased in natural language and returning content for downstream use.\n\nIt suits developers who need search inside their own tools. Test it against your use case and read the current documentation for supported features. Features and plans change, so check the official site for current details.",
+  "use_steps": [
+   "Open the official website and review what the tool offers.",
+   "Try it on a small, real task first.",
+   "Review the results carefully and adjust your input.",
+   "Compare with the alternatives listed here before committing."
+  ],
+  "pros": [
+   "Clear focus: programmatic search for ai products",
+   "Easy to try on a small task",
+   "Fits alongside other tools",
+   "Plenty of alternatives to compare"
+  ],
+  "cons": [
+   "Features and limits can change over time",
+   "Output should be reviewed before use"
+  ],
+  "alternatives": [
+   "tavily",
+   "perplexity",
+   "jina-ai"
+  ],
+  "tags": [
+   "search",
+   "api",
+   "ai",
+   "retrieval"
+  ],
+  "features": [
+   "Search API",
+   "Natural language queries",
+   "Content retrieval",
+   "Developer documentation"
+  ],
+  "use_cases": [
+   "Research agents",
+   "Finding similar pages",
+   "Building search features"
+  ],
+  "pricing_details": "Plans and pricing change over time and were not verified here. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Exa?",
+    "a": "Search engine and API built for AI applications. Visit the official site for the latest details."
+   },
+   {
+    "q": "Is Exa free?",
+    "a": "Pricing was not verified here and may change. Check the official website for current plans."
+   },
+   {
+    "q": "Who is Exa best for?",
+    "a": "It is best suited to: programmatic search for ai products. Compare with the listed alternatives to find your fit."
+   }
+  ],
+  "seo_title": "Exa: What It Is and How to Use It",
+  "seo_description": "Learn what Exa is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "jina-ai",
+  "name": "Jina AI",
+  "category": "research",
+  "website_url": "https://jina.ai",
+  "pricing": "Unknown",
+  "tagline": "Search foundation tools including embeddings, reader and reranker APIs.",
+  "best_for": "Building search and retrieval pipelines",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Jina AI provides models and APIs for search workflows, such as embeddings for turning text into vectors, a reader for converting web pages into clean text and rerankers for ordering results.\n\nIt is aimed at developers building retrieval systems. Pick components according to your language and data needs, and verify limits and licensing in the official docs. Features and plans change, so check the official site for current details.",
+  "use_steps": [
+   "Open the official website and review what the tool offers.",
+   "Try it on a small, real task first.",
+   "Review the results carefully and adjust your input.",
+   "Compare with the alternatives listed here before committing."
+  ],
+  "pros": [
+   "Clear focus: building search and retrieval pipelines",
+   "Easy to try on a small task",
+   "Fits alongside other tools",
+   "Plenty of alternatives to compare"
+  ],
+  "cons": [
+   "Features and limits can change over time",
+   "Output should be reviewed before use"
+  ],
+  "alternatives": [
+   "tavily",
+   "exa",
+   "pinecone"
+  ],
+  "tags": [
+   "embeddings",
+   "rag",
+   "api",
+   "search"
+  ],
+  "features": [
+   "Embeddings",
+   "Web reader",
+   "Reranking",
+   "API access"
+  ],
+  "use_cases": [
+   "Building semantic search",
+   "Cleaning web pages for LLMs",
+   "Improving result ranking"
+  ],
+  "pricing_details": "Plans and pricing change over time and were not verified here. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Jina AI?",
+    "a": "Search foundation tools including embeddings, reader and reranker APIs. Visit the official site for the latest details."
+   },
+   {
+    "q": "Is Jina AI free?",
+    "a": "Pricing was not verified here and may change. Check the official website for current plans."
+   },
+   {
+    "q": "Who is Jina AI best for?",
+    "a": "It is best suited to: building search and retrieval pipelines. Compare with the listed alternatives to find your fit."
+   }
+  ],
+  "seo_title": "Jina AI: What It Is and How to Use It",
+  "seo_description": "Learn what Jina AI is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "endnote",
+  "name": "EndNote",
+  "category": "research",
+  "website_url": "https://endnote.com",
+  "pricing": "Unknown",
+  "tagline": "Reference manager for collecting sources and formatting citations.",
+  "best_for": "Managing citations in long academic projects",
+  "platforms": [
+   "Web",
+   "Windows",
+   "macOS"
+  ],
+  "description": "EndNote is a reference management tool that stores sources, organizes them in libraries and formats citations and bibliographies inside word processors.\n\nIt is common in universities and research groups handling many references. Compare it with free managers like Zotero before committing, and check your institution's access. Features and plans change, so check the official site for current details.",
+  "use_steps": [
+   "Open the official website and review what the tool offers.",
+   "Try it on a small, real task first.",
+   "Review the results carefully and adjust your input.",
+   "Compare with the alternatives listed here before committing."
+  ],
+  "pros": [
+   "Clear focus: managing citations in long academic projects",
+   "Easy to try on a small task",
+   "Fits alongside other tools",
+   "Plenty of alternatives to compare"
+  ],
+  "cons": [
+   "Features and limits can change over time",
+   "Output should be reviewed before use"
+  ],
+  "alternatives": [
+   "zotero",
+   "mendeley",
+   "paperpile"
+  ],
+  "tags": [
+   "citations",
+   "references",
+   "academic",
+   "bibliography"
+  ],
+  "features": [
+   "Reference library",
+   "Citation formatting",
+   "Word processor plugins",
+   "PDF attachment"
+  ],
+  "use_cases": [
+   "Thesis bibliography",
+   "Group reference sharing",
+   "Journal formatting"
+  ],
+  "pricing_details": "Plans and pricing change over time and were not verified here. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is EndNote?",
+    "a": "Reference manager for collecting sources and formatting citations. Visit the official site for the latest details."
+   },
+   {
+    "q": "Is EndNote free?",
+    "a": "Pricing was not verified here and may change. Check the official website for current plans."
+   },
+   {
+    "q": "Who is EndNote best for?",
+    "a": "It is best suited to: managing citations in long academic projects. Compare with the listed alternatives to find your fit."
+   }
+  ],
+  "seo_title": "EndNote: What It Is and How to Use It",
+  "seo_description": "Learn what EndNote is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "paperpile",
+  "name": "Paperpile",
+  "category": "research",
+  "website_url": "https://paperpile.com",
+  "pricing": "Unknown",
+  "tagline": "Browser-based reference manager integrated with Google Docs.",
+  "best_for": "Managing references while writing in Google Docs",
+  "platforms": [
+   "Web",
+   "Chrome extension"
+  ],
+  "description": "Paperpile is a reference manager that saves papers from the web, stores PDFs and inserts citations in Google Docs and Word.\n\nIt suits those who live in Google Workspace and prefer a cloud-based library. Check supported citation styles and plan details on the official site. Features and plans change, so check the official site for current details.",
+  "use_steps": [
+   "Open the official website and review what the tool offers.",
+   "Try it on a small, real task first.",
+   "Review the results carefully and adjust your input.",
+   "Compare with the alternatives listed here before committing."
+  ],
+  "pros": [
+   "Clear focus: managing references while writing in google docs",
+   "Easy to try on a small task",
+   "Fits alongside other tools",
+   "Plenty of alternatives to compare"
+  ],
+  "cons": [
+   "Features and limits can change over time",
+   "Output should be reviewed before use"
+  ],
+  "alternatives": [
+   "zotero",
+   "endnote",
+   "mendeley"
+  ],
+  "tags": [
+   "citations",
+   "references",
+   "google docs",
+   "academic"
+  ],
+  "features": [
+   "Save from browser",
+   "PDF library",
+   "Google Docs citations",
+   "Style formatting"
+  ],
+  "use_cases": [
+   "Writing a paper in Docs",
+   "Organizing PDFs",
+   "Sharing reading lists"
+  ],
+  "pricing_details": "Plans and pricing change over time and were not verified here. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Paperpile?",
+    "a": "Browser-based reference manager integrated with Google Docs. Visit the official site for the latest details."
+   },
+   {
+    "q": "Is Paperpile free?",
+    "a": "Pricing was not verified here and may change. Check the official website for current plans."
+   },
+   {
+    "q": "Who is Paperpile best for?",
+    "a": "It is best suited to: managing references while writing in google docs. Compare with the listed alternatives to find your fit."
+   }
+  ],
+  "seo_title": "Paperpile: What It Is and How to Use It",
+  "seo_description": "Learn what Paperpile is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "researchgate",
+  "name": "ResearchGate",
+  "category": "research",
+  "website_url": "https://www.researchgate.net",
+  "pricing": "Unknown",
+  "tagline": "Social network where researchers share papers and ask questions.",
+  "best_for": "Connecting with researchers and finding papers",
+  "platforms": [
+   "Web"
+  ],
+  "description": "ResearchGate is a network for scientists and researchers to share publications, follow colleagues and discuss questions in their field.\n\nIt is useful for discovering authors and requesting papers. Remember that uploaded versions may not be the final published article, so confirm before citing. Features and plans change, so check the official site for current details.",
+  "use_steps": [
+   "Open the official website and review what the tool offers.",
+   "Try it on a small, real task first.",
+   "Review the results carefully and adjust your input.",
+   "Compare with the alternatives listed here before committing."
+  ],
+  "pros": [
+   "Clear focus: connecting with researchers and finding papers",
+   "Easy to try on a small task",
+   "Fits alongside other tools",
+   "Plenty of alternatives to compare"
+  ],
+  "cons": [
+   "Features and limits can change over time",
+   "Output should be reviewed before use"
+  ],
+  "alternatives": [
+   "google-scholar",
+   "semantic-scholar",
+   "mendeley"
+  ],
+  "tags": [
+   "academic",
+   "network",
+   "papers",
+   "science"
+  ],
+  "features": [
+   "Researcher profiles",
+   "Paper sharing",
+   "Questions and discussion",
+   "Following authors"
+  ],
+  "use_cases": [
+   "Finding a paper",
+   "Following a research group",
+   "Asking a field question"
+  ],
+  "pricing_details": "Plans and pricing change over time and were not verified here. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is ResearchGate?",
+    "a": "Social network where researchers share papers and ask questions. Visit the official site for the latest details."
+   },
+   {
+    "q": "Is ResearchGate free?",
+    "a": "Pricing was not verified here and may change. Check the official website for current plans."
+   },
+   {
+    "q": "Who is ResearchGate best for?",
+    "a": "It is best suited to: connecting with researchers and finding papers. Compare with the listed alternatives to find your fit."
+   }
+  ],
+  "seo_title": "ResearchGate: What It Is and How to Use It",
+  "seo_description": "Learn what ResearchGate is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "gizmo",
+  "name": "Gizmo",
+  "category": "study",
+  "website_url": "https://gizmo.ai",
+  "pricing": "Unknown",
+  "tagline": "AI study app that turns notes into flashcards and quizzes.",
+  "best_for": "Making flashcards and quizzes from your material",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "Gizmo is a study app that creates flashcards and quizzes from notes or documents and schedules reviews using spaced repetition.\n\nStudents can use it to turn class material into practice quickly. Check generated questions for mistakes before memorizing them. Features and plans change, so check the official site for current details.",
+  "use_steps": [
+   "Open the official website and review what the tool offers.",
+   "Try it on a small, real task first.",
+   "Review the results carefully and adjust your input.",
+   "Compare with the alternatives listed here before committing."
+  ],
+  "pros": [
+   "Clear focus: making flashcards and quizzes from your material",
+   "Easy to try on a small task",
+   "Fits alongside other tools",
+   "Plenty of alternatives to compare"
+  ],
+  "cons": [
+   "Features and limits can change over time",
+   "Output should be reviewed before use"
+  ],
+  "alternatives": [
+   "quizlet",
+   "anki",
+   "knowt"
+  ],
+  "tags": [
+   "flashcards",
+   "study",
+   "quiz",
+   "spaced repetition"
+  ],
+  "features": [
+   "Flashcard generation",
+   "Quizzes",
+   "Spaced repetition",
+   "Mobile app"
+  ],
+  "use_cases": [
+   "Exam revision",
+   "Turning notes into cards",
+   "Daily review"
+  ],
+  "pricing_details": "Plans and pricing change over time and were not verified here. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Gizmo?",
+    "a": "AI study app that turns notes into flashcards and quizzes. Visit the official site for the latest details."
+   },
+   {
+    "q": "Is Gizmo free?",
+    "a": "Pricing was not verified here and may change. Check the official website for current plans."
+   },
+   {
+    "q": "Who is Gizmo best for?",
+    "a": "It is best suited to: making flashcards and quizzes from your material. Compare with the listed alternatives to find your fit."
+   }
+  ],
+  "seo_title": "Gizmo: What It Is and How to Use It",
+  "seo_description": "Learn what Gizmo is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "studocu",
+  "name": "Studocu",
+  "category": "study",
+  "website_url": "https://www.studocu.com",
+  "pricing": "Unknown",
+  "tagline": "Platform where students share notes, summaries and past papers.",
+  "best_for": "Finding study notes by course",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Studocu hosts study documents uploaded by students, such as lecture notes and summaries, organized by university and course.\n\nIt can help you see how others structure a subject. Quality varies, so use the material as a supplement and follow your institution's academic integrity rules. Features and plans change, so check the official site for current details.",
+  "use_steps": [
+   "Open the official website and review what the tool offers.",
+   "Try it on a small, real task first.",
+   "Review the results carefully and adjust your input.",
+   "Compare with the alternatives listed here before committing."
+  ],
+  "pros": [
+   "Clear focus: finding study notes by course",
+   "Easy to try on a small task",
+   "Fits alongside other tools",
+   "Plenty of alternatives to compare"
+  ],
+  "cons": [
+   "Features and limits can change over time",
+   "Output should be reviewed before use"
+  ],
+  "alternatives": [
+   "course-hero",
+   "chegg",
+   "brainly"
+  ],
+  "tags": [
+   "notes",
+   "study",
+   "university",
+   "documents"
+  ],
+  "features": [
+   "Shared notes",
+   "Course-based browsing",
+   "Summaries",
+   "Practice material"
+  ],
+  "use_cases": [
+   "Finding revision notes",
+   "Comparing course topics",
+   "Checking exam formats"
+  ],
+  "pricing_details": "Plans and pricing change over time and were not verified here. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Studocu?",
+    "a": "Platform where students share notes, summaries and past papers. Visit the official site for the latest details."
+   },
+   {
+    "q": "Is Studocu free?",
+    "a": "Pricing was not verified here and may change. Check the official website for current plans."
+   },
+   {
+    "q": "Who is Studocu best for?",
+    "a": "It is best suited to: finding study notes by course. Compare with the listed alternatives to find your fit."
+   }
+  ],
+  "seo_title": "Studocu: What It Is and How to Use It",
+  "seo_description": "Learn what Studocu is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "mochi",
+  "name": "Mochi",
+  "category": "study",
+  "website_url": "https://mochi.cards",
+  "pricing": "Unknown",
+  "tagline": "Spaced repetition flashcard app using markdown cards.",
+  "best_for": "Flashcards with a note-like editing style",
+  "platforms": [
+   "Web",
+   "Windows",
+   "macOS",
+   "iOS",
+   "Android"
+  ],
+  "description": "Mochi is a flashcard app where cards are written in markdown and reviewed on a spaced repetition schedule.\n\nIt is popular with learners who like writing cards in a note-taking style. Start with small decks and keep cards short for effective review. Features and plans change, so check the official site for current details.",
+  "use_steps": [
+   "Open the official website and review what the tool offers.",
+   "Try it on a small, real task first.",
+   "Review the results carefully and adjust your input.",
+   "Compare with the alternatives listed here before committing."
+  ],
+  "pros": [
+   "Clear focus: flashcards with a note-like editing style",
+   "Easy to try on a small task",
+   "Fits alongside other tools",
+   "Plenty of alternatives to compare"
+  ],
+  "cons": [
+   "Features and limits can change over time",
+   "Output should be reviewed before use"
+  ],
+  "alternatives": [
+   "anki",
+   "remnote",
+   "quizlet"
+  ],
+  "tags": [
+   "flashcards",
+   "spaced repetition",
+   "markdown",
+   "memory"
+  ],
+  "features": [
+   "Markdown cards",
+   "Spaced repetition",
+   "Deck organization",
+   "Cross-device sync"
+  ],
+  "use_cases": [
+   "Language vocabulary",
+   "Exam prep",
+   "Concept review"
+  ],
+  "pricing_details": "Plans and pricing change over time and were not verified here. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Mochi?",
+    "a": "Spaced repetition flashcard app using markdown cards. Visit the official site for the latest details."
+   },
+   {
+    "q": "Is Mochi free?",
+    "a": "Pricing was not verified here and may change. Check the official website for current plans."
+   },
+   {
+    "q": "Who is Mochi best for?",
+    "a": "It is best suited to: flashcards with a note-like editing style. Compare with the listed alternatives to find your fit."
+   }
+  ],
+  "seo_title": "Mochi: What It Is and How to Use It",
+  "seo_description": "Learn what Mochi is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "lingodeer",
+  "name": "LingoDeer",
+  "category": "study",
+  "website_url": "https://www.lingodeer.com",
+  "pricing": "Unknown",
+  "tagline": "Language learning app with structured lessons and grammar explanations.",
+  "best_for": "Learning Asian and other languages step by step",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "LingoDeer offers structured language lessons with grammar explanations, listening practice and exercises, with a focus on languages such as Japanese, Korean and Chinese.\n\nIt suits beginners who want guided lessons. Combine it with speaking practice with real people for fluency, and check which languages are currently offered. Features and plans change, so check the official site for current details.",
+  "use_steps": [
+   "Open the official website and review what the tool offers.",
+   "Try it on a small, real task first.",
+   "Review the results carefully and adjust your input.",
+   "Compare with the alternatives listed here before committing."
+  ],
+  "pros": [
+   "Clear focus: learning asian and other languages step by step",
+   "Easy to try on a small task",
+   "Fits alongside other tools",
+   "Plenty of alternatives to compare"
+  ],
+  "cons": [
+   "Features and limits can change over time",
+   "Output should be reviewed before use"
+  ],
+  "alternatives": [
+   "duolingo",
+   "busuu",
+   "babbel"
+  ],
+  "tags": [
+   "language",
+   "lessons",
+   "grammar",
+   "mobile"
+  ],
+  "features": [
+   "Structured lessons",
+   "Grammar notes",
+   "Listening practice",
+   "Mobile app"
+  ],
+  "use_cases": [
+   "Learning a script",
+   "Building basic grammar",
+   "Daily practice"
+  ],
+  "pricing_details": "Plans and pricing change over time and were not verified here. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is LingoDeer?",
+    "a": "Language learning app with structured lessons and grammar explanations. Visit the official site for the latest details."
+   },
+   {
+    "q": "Is LingoDeer free?",
+    "a": "Pricing was not verified here and may change. Check the official website for current plans."
+   },
+   {
+    "q": "Who is LingoDeer best for?",
+    "a": "It is best suited to: learning asian and other languages step by step. Compare with the listed alternatives to find your fit."
+   }
+  ],
+  "seo_title": "LingoDeer: What It Is and How to Use It",
+  "seo_description": "Learn what LingoDeer is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "italki",
+  "name": "italki",
+  "category": "study",
+  "website_url": "https://www.italki.com",
+  "pricing": "Unknown",
+  "tagline": "Marketplace for booking language tutors and teachers.",
+  "best_for": "One-to-one speaking practice",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "italki lets learners find and book lessons with language tutors and teachers from different countries, with options for conversation and structured lessons.\n\nIt is a good complement to apps when you want live feedback. Read tutor profiles and trial a lesson to find a style you like. Features and plans change, so check the official site for current details.",
+  "use_steps": [
+   "Open the official website and review what the tool offers.",
+   "Try it on a small, real task first.",
+   "Review the results carefully and adjust your input.",
+   "Compare with the alternatives listed here before committing."
+  ],
+  "pros": [
+   "Clear focus: one-to-one speaking practice",
+   "Easy to try on a small task",
+   "Fits alongside other tools",
+   "Plenty of alternatives to compare"
+  ],
+  "cons": [
+   "Features and limits can change over time",
+   "Output should be reviewed before use"
+  ],
+  "alternatives": [
+   "preply",
+   "cambly",
+   "speak"
+  ],
+  "tags": [
+   "tutors",
+   "language",
+   "speaking",
+   "lessons"
+  ],
+  "features": [
+   "Tutor marketplace",
+   "Lesson booking",
+   "Profiles and reviews",
+   "Many languages"
+  ],
+  "use_cases": [
+   "Speaking practice",
+   "Exam preparation",
+   "Business language"
+  ],
+  "pricing_details": "Plans and pricing change over time and were not verified here. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is italki?",
+    "a": "Marketplace for booking language tutors and teachers. Visit the official site for the latest details."
+   },
+   {
+    "q": "Is italki free?",
+    "a": "Pricing was not verified here and may change. Check the official website for current plans."
+   },
+   {
+    "q": "Who is italki best for?",
+    "a": "It is best suited to: one-to-one speaking practice. Compare with the listed alternatives to find your fit."
+   }
+  ],
+  "seo_title": "italki: What It Is and How to Use It",
+  "seo_description": "Learn what italki is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "preply",
+  "name": "Preply",
+  "category": "study",
+  "website_url": "https://preply.com",
+  "pricing": "Unknown",
+  "tagline": "Platform for booking online tutors in languages and other subjects.",
+  "best_for": "Finding a tutor for regular lessons",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "Preply connects learners with tutors for one-to-one online lessons, mainly in languages, with scheduling and lesson tools.\n\nIt fits learners who want a regular teacher. Compare several tutors and check the platform's current policies and trial options. Features and plans change, so check the official site for current details.",
+  "use_steps": [
+   "Open the official website and review what the tool offers.",
+   "Try it on a small, real task first.",
+   "Review the results carefully and adjust your input.",
+   "Compare with the alternatives listed here before committing."
+  ],
+  "pros": [
+   "Clear focus: finding a tutor for regular lessons",
+   "Easy to try on a small task",
+   "Fits alongside other tools",
+   "Plenty of alternatives to compare"
+  ],
+  "cons": [
+   "Features and limits can change over time",
+   "Output should be reviewed before use"
+  ],
+  "alternatives": [
+   "italki",
+   "cambly",
+   "speak"
+  ],
+  "tags": [
+   "tutors",
+   "language",
+   "online lessons",
+   "teaching"
+  ],
+  "features": [
+   "Tutor search",
+   "Online lessons",
+   "Scheduling",
+   "Many languages"
+  ],
+  "use_cases": [
+   "Weekly conversation lessons",
+   "Exam coaching",
+   "Beginner guidance"
+  ],
+  "pricing_details": "Plans and pricing change over time and were not verified here. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Preply?",
+    "a": "Platform for booking online tutors in languages and other subjects. Visit the official site for the latest details."
+   },
+   {
+    "q": "Is Preply free?",
+    "a": "Pricing was not verified here and may change. Check the official website for current plans."
+   },
+   {
+    "q": "Who is Preply best for?",
+    "a": "It is best suited to: finding a tutor for regular lessons. Compare with the listed alternatives to find your fit."
+   }
+  ],
+  "seo_title": "Preply: What It Is and How to Use It",
+  "seo_description": "Learn what Preply is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "cambly",
+  "name": "Cambly",
+  "category": "study",
+  "website_url": "https://www.cambly.com",
+  "pricing": "Unknown",
+  "tagline": "Platform for English conversation practice with tutors.",
+  "best_for": "Practicing spoken English",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "Cambly offers live video practice with English-speaking tutors for conversation and learning support.\n\nIt helps learners build speaking confidence. Decide on goals beforehand, such as interview practice or pronunciation, to make sessions productive. Features and plans change, so check the official site for current details.",
+  "use_steps": [
+   "Open the official website and review what the tool offers.",
+   "Try it on a small, real task first.",
+   "Review the results carefully and adjust your input.",
+   "Compare with the alternatives listed here before committing."
+  ],
+  "pros": [
+   "Clear focus: practicing spoken english",
+   "Easy to try on a small task",
+   "Fits alongside other tools",
+   "Plenty of alternatives to compare"
+  ],
+  "cons": [
+   "Features and limits can change over time",
+   "Output should be reviewed before use"
+  ],
+  "alternatives": [
+   "italki",
+   "preply",
+   "speak"
+  ],
+  "tags": [
+   "english",
+   "speaking",
+   "tutors",
+   "conversation"
+  ],
+  "features": [
+   "Live tutoring",
+   "Conversation practice",
+   "Scheduling",
+   "Mobile app"
+  ],
+  "use_cases": [
+   "Spoken English practice",
+   "Interview prep",
+   "Pronunciation help"
+  ],
+  "pricing_details": "Plans and pricing change over time and were not verified here. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Cambly?",
+    "a": "Platform for English conversation practice with tutors. Visit the official site for the latest details."
+   },
+   {
+    "q": "Is Cambly free?",
+    "a": "Pricing was not verified here and may change. Check the official website for current plans."
+   },
+   {
+    "q": "Who is Cambly best for?",
+    "a": "It is best suited to: practicing spoken english. Compare with the listed alternatives to find your fit."
+   }
+  ],
+  "seo_title": "Cambly: What It Is and How to Use It",
+  "seo_description": "Learn what Cambly is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "mit-opencourseware",
+  "name": "MIT OpenCourseWare",
+  "category": "study",
+  "website_url": "https://ocw.mit.edu",
+  "pricing": "Unknown",
+  "tagline": "Free publication of course materials from MIT classes.",
+  "best_for": "Self-study with university-level materials",
+  "platforms": [
+   "Web"
+  ],
+  "description": "MIT OpenCourseWare publishes lecture notes, assignments and other materials from many MIT courses for anyone to read online.\n\nIt is valuable for independent learners wanting rigorous resources. It is not a degree program, so plan your own pace and practice. Features and plans change, so check the official site for current details.",
+  "use_steps": [
+   "Open the official website and review what the tool offers.",
+   "Try it on a small, real task first.",
+   "Review the results carefully and adjust your input.",
+   "Compare with the alternatives listed here before committing."
+  ],
+  "pros": [
+   "Clear focus: self-study with university-level materials",
+   "Easy to try on a small task",
+   "Fits alongside other tools",
+   "Plenty of alternatives to compare"
+  ],
+  "cons": [
+   "Features and limits can change over time",
+   "Output should be reviewed before use"
+  ],
+  "alternatives": [
+   "khan-academy-khanmigo",
+   "coursera",
+   "edx"
+  ],
+  "tags": [
+   "courses",
+   "university",
+   "free",
+   "self-study"
+  ],
+  "features": [
+   "Course materials",
+   "Lecture notes",
+   "Assignments",
+   "Open access"
+  ],
+  "use_cases": [
+   "Self-study in math or CS",
+   "Supplementing a class",
+   "Finding problem sets"
+  ],
+  "pricing_details": "Plans and pricing change over time and were not verified here. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is MIT OpenCourseWare?",
+    "a": "Free publication of course materials from MIT classes. Visit the official site for the latest details."
+   },
+   {
+    "q": "Is MIT OpenCourseWare free?",
+    "a": "Pricing was not verified here and may change. Check the official website for current plans."
+   },
+   {
+    "q": "Who is MIT OpenCourseWare best for?",
+    "a": "It is best suited to: self-study with university-level materials. Compare with the listed alternatives to find your fit."
+   }
+  ],
+  "seo_title": "MIT OpenCourseWare: What It Is and How to Use It",
+  "seo_description": "Learn what MIT OpenCourseWare is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "futurelearn",
+  "name": "FutureLearn",
+  "category": "study",
+  "website_url": "https://www.futurelearn.com",
+  "pricing": "Unknown",
+  "tagline": "Online learning platform with courses from universities and organizations.",
+  "best_for": "Short courses and online programs",
+  "platforms": [
+   "Web"
+  ],
+  "description": "FutureLearn hosts online courses and programs created with universities and other institutions across many subjects.\n\nIt suits learners exploring a topic or building skills flexibly. Check each course's details, certificate terms and costs on the site. Features and plans change, so check the official site for current details.",
+  "use_steps": [
+   "Open the official website and review what the tool offers.",
+   "Try it on a small, real task first.",
+   "Review the results carefully and adjust your input.",
+   "Compare with the alternatives listed here before committing."
+  ],
+  "pros": [
+   "Clear focus: short courses and online programs",
+   "Easy to try on a small task",
+   "Fits alongside other tools",
+   "Plenty of alternatives to compare"
+  ],
+  "cons": [
+   "Features and limits can change over time",
+   "Output should be reviewed before use"
+  ],
+  "alternatives": [
+   "coursera",
+   "edx",
+   "udemy"
+  ],
+  "tags": [
+   "courses",
+   "online learning",
+   "universities",
+   "skills"
+  ],
+  "features": [
+   "Online courses",
+   "Institution partners",
+   "Programs",
+   "Mobile access"
+  ],
+  "use_cases": [
+   "Exploring a subject",
+   "Professional development",
+   "Course comparisons"
+  ],
+  "pricing_details": "Plans and pricing change over time and were not verified here. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is FutureLearn?",
+    "a": "Online learning platform with courses from universities and organizations. Visit the official site for the latest details."
+   },
+   {
+    "q": "Is FutureLearn free?",
+    "a": "Pricing was not verified here and may change. Check the official website for current plans."
+   },
+   {
+    "q": "Who is FutureLearn best for?",
+    "a": "It is best suited to: short courses and online programs. Compare with the listed alternatives to find your fit."
+   }
+  ],
+  "seo_title": "FutureLearn: What It Is and How to Use It",
+  "seo_description": "Learn what FutureLearn is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "vimeo",
+  "name": "Vimeo",
+  "category": "video",
+  "website_url": "https://vimeo.com",
+  "pricing": "Unknown",
+  "tagline": "Video hosting and sharing platform with editing and collaboration tools.",
+  "best_for": "Hosting and sharing videos with control over presentation",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Vimeo is a platform for uploading, hosting and sharing video, with options for embedding players, privacy settings and team review.\n\nIt is used by creators and businesses wanting a clean player. Compare plans and storage rules on the official site. Features and plans change, so check the official site for current details.",
+  "use_steps": [
+   "Open the official website and review what the tool offers.",
+   "Try it on a small, real task first.",
+   "Review the results carefully and adjust your input.",
+   "Compare with the alternatives listed here before committing."
+  ],
+  "pros": [
+   "Clear focus: hosting and sharing videos with control over presentation",
+   "Easy to try on a small task",
+   "Fits alongside other tools",
+   "Plenty of alternatives to compare"
+  ],
+  "cons": [
+   "Features and limits can change over time",
+   "Output should be reviewed before use"
+  ],
+  "alternatives": [
+   "loom",
+   "wave-video",
+   "kapwing"
+  ],
+  "tags": [
+   "hosting",
+   "video",
+   "sharing",
+   "embed"
+  ],
+  "features": [
+   "Video hosting",
+   "Embeddable player",
+   "Privacy controls",
+   "Review tools"
+  ],
+  "use_cases": [
+   "Portfolio videos",
+   "Client review",
+   "Embedding on a site"
+  ],
+  "pricing_details": "Plans and pricing change over time and were not verified here. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Vimeo?",
+    "a": "Video hosting and sharing platform with editing and collaboration tools. Visit the official site for the latest details."
+   },
+   {
+    "q": "Is Vimeo free?",
+    "a": "Pricing was not verified here and may change. Check the official website for current plans."
+   },
+   {
+    "q": "Who is Vimeo best for?",
+    "a": "It is best suited to: hosting and sharing videos with control over presentation. Compare with the listed alternatives to find your fit."
+   }
+  ],
+  "seo_title": "Vimeo: What It Is and How to Use It",
+  "seo_description": "Learn what Vimeo is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "inshot",
+  "name": "InShot",
+  "category": "video",
+  "website_url": "https://inshot.com",
+  "pricing": "Unknown",
+  "tagline": "Mobile video editor for trimming, music and social formats.",
+  "best_for": "Quick edits on a phone",
+  "platforms": [
+   "iOS",
+   "Android"
+  ],
+  "description": "InShot is a mobile app for editing videos and photos, with trimming, music, text and aspect-ratio options for social platforms.\n\nIt suits creators who edit on their phone. Check export limits and watermark policies for the version you use. Features and plans change, so check the official site for current details.",
+  "use_steps": [
+   "Open the official website and review what the tool offers.",
+   "Try it on a small, real task first.",
+   "Review the results carefully and adjust your input.",
+   "Compare with the alternatives listed here before committing."
+  ],
+  "pros": [
+   "Clear focus: quick edits on a phone",
+   "Easy to try on a small task",
+   "Fits alongside other tools",
+   "Plenty of alternatives to compare"
+  ],
+  "cons": [
+   "Features and limits can change over time",
+   "Output should be reviewed before use"
+  ],
+  "alternatives": [
+   "capcut",
+   "clipchamp",
+   "kapwing"
+  ],
+  "tags": [
+   "mobile",
+   "editing",
+   "social",
+   "shorts"
+  ],
+  "features": [
+   "Trim and cut",
+   "Music and text",
+   "Aspect ratios",
+   "Filters"
+  ],
+  "use_cases": [
+   "Social clips",
+   "Quick edits",
+   "Photo collages"
+  ],
+  "pricing_details": "Plans and pricing change over time and were not verified here. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is InShot?",
+    "a": "Mobile video editor for trimming, music and social formats. Visit the official site for the latest details."
+   },
+   {
+    "q": "Is InShot free?",
+    "a": "Pricing was not verified here and may change. Check the official website for current plans."
+   },
+   {
+    "q": "Who is InShot best for?",
+    "a": "It is best suited to: quick edits on a phone. Compare with the listed alternatives to find your fit."
+   }
+  ],
+  "seo_title": "InShot: What It Is and How to Use It",
+  "seo_description": "Learn what InShot is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "screenpal",
+  "name": "ScreenPal",
+  "category": "video",
+  "website_url": "https://screenpal.com",
+  "pricing": "Unknown",
+  "tagline": "Screen recorder and video editor for tutorials and sharing.",
+  "best_for": "Recording screens for lessons and demos",
+  "platforms": [
+   "Web",
+   "Windows",
+   "macOS"
+  ],
+  "description": "ScreenPal, formerly Screencast-O-Matic, lets you record your screen and webcam, then trim and share the result.\n\nTeachers and support teams use it for quick tutorials. Check current features and limits on the official site. Features and plans change, so check the official site for current details.",
+  "use_steps": [
+   "Open the official website and review what the tool offers.",
+   "Try it on a small, real task first.",
+   "Review the results carefully and adjust your input.",
+   "Compare with the alternatives listed here before committing."
+  ],
+  "pros": [
+   "Clear focus: recording screens for lessons and demos",
+   "Easy to try on a small task",
+   "Fits alongside other tools",
+   "Plenty of alternatives to compare"
+  ],
+  "cons": [
+   "Features and limits can change over time",
+   "Output should be reviewed before use"
+  ],
+  "alternatives": [
+   "loom",
+   "obs-studio",
+   "descript"
+  ],
+  "tags": [
+   "screen recorder",
+   "tutorials",
+   "education",
+   "video"
+  ],
+  "features": [
+   "Screen recording",
+   "Webcam capture",
+   "Basic editing",
+   "Sharing"
+  ],
+  "use_cases": [
+   "Lesson videos",
+   "Product demos",
+   "Feedback clips"
+  ],
+  "pricing_details": "Plans and pricing change over time and were not verified here. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is ScreenPal?",
+    "a": "Screen recorder and video editor for tutorials and sharing. Visit the official site for the latest details."
+   },
+   {
+    "q": "Is ScreenPal free?",
+    "a": "Pricing was not verified here and may change. Check the official website for current plans."
+   },
+   {
+    "q": "Who is ScreenPal best for?",
+    "a": "It is best suited to: recording screens for lessons and demos. Compare with the listed alternatives to find your fit."
+   }
+  ],
+  "seo_title": "ScreenPal: What It Is and How to Use It",
+  "seo_description": "Learn what ScreenPal is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "camtasia",
+  "name": "Camtasia",
+  "category": "video",
+  "website_url": "https://www.techsmith.com/camtasia",
+  "pricing": "Unknown",
+  "tagline": "Screen recording and editing software from TechSmith.",
+  "best_for": "Creating polished tutorials and training videos",
+  "platforms": [
+   "Web",
+   "Windows",
+   "macOS"
+  ],
+  "description": "Camtasia combines screen recording with a timeline editor for adding callouts, titles and transitions to tutorial videos.\n\nIt fits trainers and educators making longer instructional content. Compare it with free tools like OBS before buying. Features and plans change, so check the official site for current details.",
+  "use_steps": [
+   "Open the official website and review what the tool offers.",
+   "Try it on a small, real task first.",
+   "Review the results carefully and adjust your input.",
+   "Compare with the alternatives listed here before committing."
+  ],
+  "pros": [
+   "Clear focus: creating polished tutorials and training videos",
+   "Easy to try on a small task",
+   "Fits alongside other tools",
+   "Plenty of alternatives to compare"
+  ],
+  "cons": [
+   "Features and limits can change over time",
+   "Output should be reviewed before use"
+  ],
+  "alternatives": [
+   "obs-studio",
+   "screenpal",
+   "descript"
+  ],
+  "tags": [
+   "screen recording",
+   "tutorials",
+   "editing",
+   "training"
+  ],
+  "features": [
+   "Screen recording",
+   "Timeline editing",
+   "Callouts",
+   "Titles"
+  ],
+  "use_cases": [
+   "Training videos",
+   "Course lessons",
+   "Software demos"
+  ],
+  "pricing_details": "Plans and pricing change over time and were not verified here. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Camtasia?",
+    "a": "Screen recording and editing software from TechSmith. Visit the official site for the latest details."
+   },
+   {
+    "q": "Is Camtasia free?",
+    "a": "Pricing was not verified here and may change. Check the official website for current plans."
+   },
+   {
+    "q": "Who is Camtasia best for?",
+    "a": "It is best suited to: creating polished tutorials and training videos. Compare with the listed alternatives to find your fit."
+   }
+  ],
+  "seo_title": "Camtasia: What It Is and How to Use It",
+  "seo_description": "Learn what Camtasia is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "restream",
+  "name": "Restream",
+  "category": "video",
+  "website_url": "https://restream.io",
+  "pricing": "Unknown",
+  "tagline": "Live streaming platform to broadcast to multiple channels at once.",
+  "best_for": "Streaming to several platforms simultaneously",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Restream lets you stream live video to multiple platforms at the same time and manage chat in one place.\n\nCreators and teams use it for webinars and events. Test your setup before going live and check current plan limits. Features and plans change, so check the official site for current details.",
+  "use_steps": [
+   "Open the official website and review what the tool offers.",
+   "Try it on a small, real task first.",
+   "Review the results carefully and adjust your input.",
+   "Compare with the alternatives listed here before committing."
+  ],
+  "pros": [
+   "Clear focus: streaming to several platforms simultaneously",
+   "Easy to try on a small task",
+   "Fits alongside other tools",
+   "Plenty of alternatives to compare"
+  ],
+  "cons": [
+   "Features and limits can change over time",
+   "Output should be reviewed before use"
+  ],
+  "alternatives": [
+   "streamyard",
+   "obs-studio",
+   "riverside"
+  ],
+  "tags": [
+   "live streaming",
+   "multistream",
+   "events",
+   "video"
+  ],
+  "features": [
+   "Multistreaming",
+   "Chat management",
+   "Studio",
+   "Recording"
+  ],
+  "use_cases": [
+   "Webinars",
+   "Live events",
+   "Gaming streams"
+  ],
+  "pricing_details": "Plans and pricing change over time and were not verified here. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Restream?",
+    "a": "Live streaming platform to broadcast to multiple channels at once. Visit the official site for the latest details."
+   },
+   {
+    "q": "Is Restream free?",
+    "a": "Pricing was not verified here and may change. Check the official website for current plans."
+   },
+   {
+    "q": "Who is Restream best for?",
+    "a": "It is best suited to: streaming to several platforms simultaneously. Compare with the listed alternatives to find your fit."
+   }
+  ],
+  "seo_title": "Restream: What It Is and How to Use It",
+  "seo_description": "Learn what Restream is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "streamyard",
+  "name": "StreamYard",
+  "category": "video",
+  "website_url": "https://streamyard.com",
+  "pricing": "Unknown",
+  "tagline": "Browser-based studio for live streams and recordings.",
+  "best_for": "Hosting live shows with guests",
+  "platforms": [
+   "Web"
+  ],
+  "description": "StreamYard is a browser-based studio for live streaming and recording with guests, overlays and simple layouts.\n\nIt is popular for webinars and interviews. Check supported destinations and plan details on the official site. Features and plans change, so check the official site for current details.",
+  "use_steps": [
+   "Open the official website and review what the tool offers.",
+   "Try it on a small, real task first.",
+   "Review the results carefully and adjust your input.",
+   "Compare with the alternatives listed here before committing."
+  ],
+  "pros": [
+   "Clear focus: hosting live shows with guests",
+   "Easy to try on a small task",
+   "Fits alongside other tools",
+   "Plenty of alternatives to compare"
+  ],
+  "cons": [
+   "Features and limits can change over time",
+   "Output should be reviewed before use"
+  ],
+  "alternatives": [
+   "restream",
+   "riverside",
+   "obs-studio"
+  ],
+  "tags": [
+   "live streaming",
+   "studio",
+   "guests",
+   "webinar"
+  ],
+  "features": [
+   "Browser studio",
+   "Guest invites",
+   "Overlays",
+   "Multistreaming"
+  ],
+  "use_cases": [
+   "Live interviews",
+   "Webinars",
+   "Community shows"
+  ],
+  "pricing_details": "Plans and pricing change over time and were not verified here. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is StreamYard?",
+    "a": "Browser-based studio for live streams and recordings. Visit the official site for the latest details."
+   },
+   {
+    "q": "Is StreamYard free?",
+    "a": "Pricing was not verified here and may change. Check the official website for current plans."
+   },
+   {
+    "q": "Who is StreamYard best for?",
+    "a": "It is best suited to: hosting live shows with guests. Compare with the listed alternatives to find your fit."
+   }
+  ],
+  "seo_title": "StreamYard: What It Is and How to Use It",
+  "seo_description": "Learn what StreamYard is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "biteable",
+  "name": "Biteable",
+  "category": "video",
+  "website_url": "https://biteable.com",
+  "pricing": "Unknown",
+  "tagline": "Online video maker using templates for business and social videos.",
+  "best_for": "Making simple template-based videos",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Biteable is an online tool for making short videos from templates and scenes, adding text, music and branding.\n\nIt suits non-designers needing quick marketing or internal videos. Review output quality and plan limits first. Features and plans change, so check the official site for current details.",
+  "use_steps": [
+   "Open the official website and review what the tool offers.",
+   "Try it on a small, real task first.",
+   "Review the results carefully and adjust your input.",
+   "Compare with the alternatives listed here before committing."
+  ],
+  "pros": [
+   "Clear focus: making simple template-based videos",
+   "Easy to try on a small task",
+   "Fits alongside other tools",
+   "Plenty of alternatives to compare"
+  ],
+  "cons": [
+   "Features and limits can change over time",
+   "Output should be reviewed before use"
+  ],
+  "alternatives": [
+   "animoto",
+   "powtoon",
+   "canva"
+  ],
+  "tags": [
+   "templates",
+   "video maker",
+   "marketing",
+   "online"
+  ],
+  "features": [
+   "Templates",
+   "Scene library",
+   "Text and music",
+   "Branding"
+  ],
+  "use_cases": [
+   "Promo videos",
+   "Internal updates",
+   "Social posts"
+  ],
+  "pricing_details": "Plans and pricing change over time and were not verified here. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Biteable?",
+    "a": "Online video maker using templates for business and social videos. Visit the official site for the latest details."
+   },
+   {
+    "q": "Is Biteable free?",
+    "a": "Pricing was not verified here and may change. Check the official website for current plans."
+   },
+   {
+    "q": "Who is Biteable best for?",
+    "a": "It is best suited to: making simple template-based videos. Compare with the listed alternatives to find your fit."
+   }
+  ],
+  "seo_title": "Biteable: What It Is and How to Use It",
+  "seo_description": "Learn what Biteable is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "unsplash",
+  "name": "Unsplash",
+  "category": "design",
+  "website_url": "https://unsplash.com",
+  "pricing": "Unknown",
+  "tagline": "Free photo library contributed by photographers.",
+  "best_for": "Finding photos for projects",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Unsplash is a website with a large collection of photos that you can browse and download under its license terms.\n\nIt is useful for mockups, articles and presentations. Read the license and credit photographers where appropriate. Features and plans change, so check the official site for current details.",
+  "use_steps": [
+   "Open the official website and review what the tool offers.",
+   "Try it on a small, real task first.",
+   "Review the results carefully and adjust your input.",
+   "Compare with the alternatives listed here before committing."
+  ],
+  "pros": [
+   "Clear focus: finding photos for projects",
+   "Easy to try on a small task",
+   "Fits alongside other tools",
+   "Plenty of alternatives to compare"
+  ],
+  "cons": [
+   "Features and limits can change over time",
+   "Output should be reviewed before use"
+  ],
+  "alternatives": [
+   "pexels",
+   "canva"
+  ],
+  "tags": [
+   "photos",
+   "stock",
+   "free",
+   "images"
+  ],
+  "features": [
+   "Photo search",
+   "Collections",
+   "Downloads",
+   "API"
+  ],
+  "use_cases": [
+   "Blog images",
+   "Mockups",
+   "Slide backgrounds"
+  ],
+  "pricing_details": "Plans and pricing change over time and were not verified here. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Unsplash?",
+    "a": "Free photo library contributed by photographers. Visit the official site for the latest details."
+   },
+   {
+    "q": "Is Unsplash free?",
+    "a": "Pricing was not verified here and may change. Check the official website for current plans."
+   },
+   {
+    "q": "Who is Unsplash best for?",
+    "a": "It is best suited to: finding photos for projects. Compare with the listed alternatives to find your fit."
+   }
+  ],
+  "seo_title": "Unsplash: What It Is and How to Use It",
+  "seo_description": "Learn what Unsplash is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "pexels",
+  "name": "Pexels",
+  "category": "design",
+  "website_url": "https://www.pexels.com",
+  "pricing": "Unknown",
+  "tagline": "Free stock photo and video library.",
+  "best_for": "Finding free photos and clips",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Pexels offers photos and videos shared by creators, with search and collections.\n\nGood for web projects needing visuals. Check the license and any restrictions on sensitive uses. Features and plans change, so check the official site for current details.",
+  "use_steps": [
+   "Open the official website and review what the tool offers.",
+   "Try it on a small, real task first.",
+   "Review the results carefully and adjust your input.",
+   "Compare with the alternatives listed here before committing."
+  ],
+  "pros": [
+   "Clear focus: finding free photos and clips",
+   "Easy to try on a small task",
+   "Fits alongside other tools",
+   "Plenty of alternatives to compare"
+  ],
+  "cons": [
+   "Features and limits can change over time",
+   "Output should be reviewed before use"
+  ],
+  "alternatives": [
+   "unsplash",
+   "canva"
+  ],
+  "tags": [
+   "stock",
+   "photos",
+   "video",
+   "free"
+  ],
+  "features": [
+   "Photo search",
+   "Video clips",
+   "Collections",
+   "Download options"
+  ],
+  "use_cases": [
+   "Website banners",
+   "Video backgrounds",
+   "Social posts"
+  ],
+  "pricing_details": "Plans and pricing change over time and were not verified here. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Pexels?",
+    "a": "Free stock photo and video library. Visit the official site for the latest details."
+   },
+   {
+    "q": "Is Pexels free?",
+    "a": "Pricing was not verified here and may change. Check the official website for current plans."
+   },
+   {
+    "q": "Who is Pexels best for?",
+    "a": "It is best suited to: finding free photos and clips. Compare with the listed alternatives to find your fit."
+   }
+  ],
+  "seo_title": "Pexels: What It Is and How to Use It",
+  "seo_description": "Learn what Pexels is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "kittl",
+  "name": "Kittl",
+  "category": "design",
+  "website_url": "https://www.kittl.com",
+  "pricing": "Unknown",
+  "tagline": "Online design tool focused on typography, logos and print products.",
+  "best_for": "Creating text-focused designs and merch",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Kittl is a browser-based design tool with templates and text effects for posters, logos and print-on-demand graphics.\n\nIt suits designers who want expressive type quickly. Check export options and license rules. Features and plans change, so check the official site for current details.",
+  "use_steps": [
+   "Open the official website and review what the tool offers.",
+   "Try it on a small, real task first.",
+   "Review the results carefully and adjust your input.",
+   "Compare with the alternatives listed here before committing."
+  ],
+  "pros": [
+   "Clear focus: creating text-focused designs and merch",
+   "Easy to try on a small task",
+   "Fits alongside other tools",
+   "Plenty of alternatives to compare"
+  ],
+  "cons": [
+   "Features and limits can change over time",
+   "Output should be reviewed before use"
+  ],
+  "alternatives": [
+   "canva",
+   "looka",
+   "adobe-express"
+  ],
+  "tags": [
+   "typography",
+   "templates",
+   "logo",
+   "print"
+  ],
+  "features": [
+   "Typography tools",
+   "Templates",
+   "Text effects",
+   "Export"
+  ],
+  "use_cases": [
+   "Posters",
+   "Logos",
+   "T-shirt designs"
+  ],
+  "pricing_details": "Plans and pricing change over time and were not verified here. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Kittl?",
+    "a": "Online design tool focused on typography, logos and print products. Visit the official site for the latest details."
+   },
+   {
+    "q": "Is Kittl free?",
+    "a": "Pricing was not verified here and may change. Check the official website for current plans."
+   },
+   {
+    "q": "Who is Kittl best for?",
+    "a": "It is best suited to: creating text-focused designs and merch. Compare with the listed alternatives to find your fit."
+   }
+  ],
+  "seo_title": "Kittl: What It Is and How to Use It",
+  "seo_description": "Learn what Kittl is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "coreldraw",
+  "name": "CorelDRAW",
+  "category": "design",
+  "website_url": "https://www.coreldraw.com",
+  "pricing": "Unknown",
+  "tagline": "Vector graphics suite for illustration, layout and logos.",
+  "best_for": "Professional vector illustration and print work",
+  "platforms": [
+   "Windows",
+   "macOS",
+   "Web"
+  ],
+  "description": "CorelDRAW is a vector graphics application for illustration, page layout and logo design with tools for precise drawing.\n\nIt is used in print and signage workflows. Compare it with Inkscape or Illustrator and check licensing options. Features and plans change, so check the official site for current details.",
+  "use_steps": [
+   "Open the official website and review what the tool offers.",
+   "Try it on a small, real task first.",
+   "Review the results carefully and adjust your input.",
+   "Compare with the alternatives listed here before committing."
+  ],
+  "pros": [
+   "Clear focus: professional vector illustration and print work",
+   "Easy to try on a small task",
+   "Fits alongside other tools",
+   "Plenty of alternatives to compare"
+  ],
+  "cons": [
+   "Features and limits can change over time",
+   "Output should be reviewed before use"
+  ],
+  "alternatives": [
+   "inkscape",
+   "figma",
+   "gimp"
+  ],
+  "tags": [
+   "vector",
+   "illustration",
+   "logo",
+   "print"
+  ],
+  "features": [
+   "Vector drawing",
+   "Page layout",
+   "Typography",
+   "Export formats"
+  ],
+  "use_cases": [
+   "Logos",
+   "Signage",
+   "Print layouts"
+  ],
+  "pricing_details": "Plans and pricing change over time and were not verified here. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is CorelDRAW?",
+    "a": "Vector graphics suite for illustration, layout and logos. Visit the official site for the latest details."
+   },
+   {
+    "q": "Is CorelDRAW free?",
+    "a": "Pricing was not verified here and may change. Check the official website for current plans."
+   },
+   {
+    "q": "Who is CorelDRAW best for?",
+    "a": "It is best suited to: professional vector illustration and print work. Compare with the listed alternatives to find your fit."
+   }
+  ],
+  "seo_title": "CorelDRAW: What It Is and How to Use It",
+  "seo_description": "Learn what CorelDRAW is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "the-noun-project",
+  "name": "The Noun Project",
+  "category": "design",
+  "website_url": "https://thenounproject.com",
+  "pricing": "Unknown",
+  "tagline": "Icon and symbol library with a consistent range of styles.",
+  "best_for": "Finding clear symbols for interfaces and slides",
+  "platforms": [
+   "Web"
+  ],
+  "description": "The Noun Project provides a searchable collection of icons and symbols from many contributors, available in vector formats.\n\nIt is useful for concept visuals and interface design. Check the license and credit requirements for each icon. Features and plans change, so check the official site for current details.",
+  "use_steps": [
+   "Open the official website and review what the tool offers.",
+   "Try it on a small, real task first.",
+   "Review the results carefully and adjust your input.",
+   "Compare with the alternatives listed here before committing."
+  ],
+  "pros": [
+   "Clear focus: finding clear symbols for interfaces and slides",
+   "Easy to try on a small task",
+   "Fits alongside other tools",
+   "Plenty of alternatives to compare"
+  ],
+  "cons": [
+   "Features and limits can change over time",
+   "Output should be reviewed before use"
+  ],
+  "alternatives": [
+   "flaticon",
+   "icons8-photo-tools"
+  ],
+  "tags": [
+   "icons",
+   "symbols",
+   "vector",
+   "design"
+  ],
+  "features": [
+   "Icon search",
+   "Vector downloads",
+   "Collections",
+   "Plugins"
+  ],
+  "use_cases": [
+   "Slide visuals",
+   "App interfaces",
+   "Infographics"
+  ],
+  "pricing_details": "Plans and pricing change over time and were not verified here. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is The Noun Project?",
+    "a": "Icon and symbol library with a consistent range of styles. Visit the official site for the latest details."
+   },
+   {
+    "q": "Is The Noun Project free?",
+    "a": "Pricing was not verified here and may change. Check the official website for current plans."
+   },
+   {
+    "q": "Who is The Noun Project best for?",
+    "a": "It is best suited to: finding clear symbols for interfaces and slides. Compare with the listed alternatives to find your fit."
+   }
+  ],
+  "seo_title": "The Noun Project: What It Is and How to Use It",
+  "seo_description": "Learn what The Noun Project is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "google-stitch",
+  "name": "Stitch by Google",
+  "category": "design",
+  "website_url": "https://stitch.withgoogle.com",
+  "pricing": "Unknown",
+  "tagline": "Experimental Google tool that generates interface designs from prompts.",
+  "best_for": "Drafting UI screens from text descriptions",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Stitch is an experimental tool from Google that creates user interface designs from text prompts and lets you refine them.\n\nUseful for early concepts. Because it is experimental, features may change; check the official page. Features and plans change, so check the official site for current details.",
+  "use_steps": [
+   "Open the official website and review what the tool offers.",
+   "Try it on a small, real task first.",
+   "Review the results carefully and adjust your input.",
+   "Compare with the alternatives listed here before committing."
+  ],
+  "pros": [
+   "Clear focus: drafting ui screens from text descriptions",
+   "Easy to try on a small task",
+   "Fits alongside other tools",
+   "Plenty of alternatives to compare"
+  ],
+  "cons": [
+   "Features and limits can change over time",
+   "Output should be reviewed before use"
+  ],
+  "alternatives": [
+   "uizard",
+   "v0-by-vercel",
+   "figma"
+  ],
+  "tags": [
+   "ui",
+   "prototype",
+   "google",
+   "ai design"
+  ],
+  "features": [
+   "Prompt-based UI",
+   "Design refinement",
+   "Export options",
+   "Iteration"
+  ],
+  "use_cases": [
+   "Early app concepts",
+   "Layout ideas",
+   "Prototype starts"
+  ],
+  "pricing_details": "Plans and pricing change over time and were not verified here. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Stitch by Google?",
+    "a": "Experimental Google tool that generates interface designs from prompts. Visit the official site for the latest details."
+   },
+   {
+    "q": "Is Stitch by Google free?",
+    "a": "Pricing was not verified here and may change. Check the official website for current plans."
+   },
+   {
+    "q": "Who is Stitch by Google best for?",
+    "a": "It is best suited to: drafting ui screens from text descriptions. Compare with the listed alternatives to find your fit."
+   }
+  ],
+  "seo_title": "Stitch by Google: What It Is and How to Use It",
+  "seo_description": "Learn what Stitch by Google is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "wistia",
+  "name": "Wistia",
+  "category": "video",
+  "website_url": "https://wistia.com",
+  "pricing": "Unknown",
+  "tagline": "Video hosting platform for businesses with analytics and marketing tools.",
+  "best_for": "Hosting marketing and training videos",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Wistia is a video hosting platform aimed at businesses, offering an embeddable player, viewer analytics and tools to add calls to action or capture leads.\n\nMarketing and training teams use it to publish videos on their own sites. Compare hosting options and check current plan limits on the official site. Features and plans change, so check the official site for current details.",
+  "use_steps": [
+   "Open the official website and review what the tool offers.",
+   "Try it on a small, real task first.",
+   "Review the results carefully and adjust your input.",
+   "Compare with the alternatives listed here before committing."
+  ],
+  "pros": [
+   "Clear focus: hosting marketing and training videos",
+   "Easy to try on a small task",
+   "Fits alongside other tools",
+   "Plenty of alternatives to compare"
+  ],
+  "cons": [
+   "Features and limits can change over time",
+   "Output should be reviewed before use"
+  ],
+  "alternatives": [
+   "vimeo",
+   "loom",
+   "wave-video"
+  ],
+  "tags": [
+   "hosting",
+   "analytics",
+   "marketing",
+   "video"
+  ],
+  "features": [
+   "Video hosting",
+   "Embeddable player",
+   "Viewer analytics",
+   "Lead capture"
+  ],
+  "use_cases": [
+   "Product videos",
+   "Training libraries",
+   "Landing page video"
+  ],
+  "pricing_details": "Plans and pricing change over time and were not verified here. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Wistia?",
+    "a": "Video hosting platform for businesses with analytics and marketing tools. Visit the official site for the latest details."
+   },
+   {
+    "q": "Is Wistia free?",
+    "a": "Pricing was not verified here and may change. Check the official website for current plans."
+   },
+   {
+    "q": "Who is Wistia best for?",
+    "a": "It is best suited to: hosting marketing and training videos. Compare with the listed alternatives to find your fit."
+   }
+  ],
+  "seo_title": "Wistia: What It Is and How to Use It",
+  "seo_description": "Learn what Wistia is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "vecteezy",
+  "name": "Vecteezy",
+  "category": "design",
+  "website_url": "https://www.vecteezy.com",
+  "pricing": "Unknown",
+  "tagline": "Marketplace for vector graphics, photos and video clips.",
+  "best_for": "Finding vector and stock assets",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Vecteezy is a stock marketplace where you can search for vector illustrations, photos and video clips from contributors, with editing and AI tools on the site.\n\nDesigners and small teams use it to find ready-made assets. Check the license terms for each file before publishing. Features and plans change, so check the official site for current details.",
+  "use_steps": [
+   "Open the official website and review what the tool offers.",
+   "Try it on a small, real task first.",
+   "Review the results carefully and adjust your input.",
+   "Compare with the alternatives listed here before committing."
+  ],
+  "pros": [
+   "Clear focus: finding vector and stock assets",
+   "Easy to try on a small task",
+   "Fits alongside other tools",
+   "Plenty of alternatives to compare"
+  ],
+  "cons": [
+   "Features and limits can change over time",
+   "Output should be reviewed before use"
+  ],
+  "alternatives": [
+   "flaticon",
+   "canva",
+   "unsplash"
+  ],
+  "tags": [
+   "vectors",
+   "stock",
+   "assets",
+   "graphics"
+  ],
+  "features": [
+   "Vector library",
+   "Photos and videos",
+   "Search filters",
+   "Online editor"
+  ],
+  "use_cases": [
+   "Social graphics",
+   "Presentations",
+   "Website visuals"
+  ],
+  "pricing_details": "Plans and pricing change over time and were not verified here. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Vecteezy?",
+    "a": "Marketplace for vector graphics, photos and video clips. Visit the official site for the latest details."
+   },
+   {
+    "q": "Is Vecteezy free?",
+    "a": "Pricing was not verified here and may change. Check the official website for current plans."
+   },
+   {
+    "q": "Who is Vecteezy best for?",
+    "a": "It is best suited to: finding vector and stock assets. Compare with the listed alternatives to find your fit."
+   }
+  ],
+  "seo_title": "Vecteezy: What It Is and How to Use It",
+  "seo_description": "Learn what Vecteezy is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "smartmockups",
+  "name": "Smartmockups",
+  "category": "design",
+  "website_url": "https://smartmockups.com",
+  "pricing": "Unknown",
+  "tagline": "Online mockup generator for placing designs on devices and products.",
+  "best_for": "Creating product and device mockups quickly",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Smartmockups is a browser-based tool that places your artwork or screenshots onto mockup scenes such as devices, packaging and apparel.\n\nMarketers and designers use it to present work without a photo shoot. Check export options and plan limits on the official site. Features and plans change, so check the official site for current details.",
+  "use_steps": [
+   "Open the official website and review what the tool offers.",
+   "Try it on a small, real task first.",
+   "Review the results carefully and adjust your input.",
+   "Compare with the alternatives listed here before committing."
+  ],
+  "pros": [
+   "Clear focus: creating product and device mockups quickly",
+   "Easy to try on a small task",
+   "Fits alongside other tools",
+   "Plenty of alternatives to compare"
+  ],
+  "cons": [
+   "Features and limits can change over time",
+   "Output should be reviewed before use"
+  ],
+  "alternatives": [
+   "canva",
+   "figma"
+  ],
+  "tags": [
+   "mockup",
+   "design",
+   "marketing",
+   "presentation"
+  ],
+  "features": [
+   "Mockup scenes",
+   "Upload artwork",
+   "Device frames",
+   "Export"
+  ],
+  "use_cases": [
+   "Social previews",
+   "Portfolio images",
+   "Product pitches"
+  ],
+  "pricing_details": "Plans and pricing change over time and were not verified here. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Smartmockups?",
+    "a": "Online mockup generator for placing designs on devices and products. Visit the official site for the latest details."
+   },
+   {
+    "q": "Is Smartmockups free?",
+    "a": "Pricing was not verified here and may change. Check the official website for current plans."
+   },
+   {
+    "q": "Who is Smartmockups best for?",
+    "a": "It is best suited to: creating product and device mockups quickly. Compare with the listed alternatives to find your fit."
+   }
+  ],
+  "seo_title": "Smartmockups: What It Is and How to Use It",
+  "seo_description": "Learn what Smartmockups is, who it suits, key features, pros and cons, pricing notes and alternatives in this beginner-friendly Promptzyra guide.",
+  "status": "draft",
+  "last_checked": "unverified"
+ }
+]

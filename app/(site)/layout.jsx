@@ -1,6 +1,6 @@
 import './v2.css';
 import '@fontsource-variable/inter';
-import '@fontsource-variable/bricolage-grotesque';
+import '@fontsource-variable/playfair-display';
 import '@fontsource-variable/jetbrains-mono';
 import Script from 'next/script';
 import { SITE_URL, SITE_NAME, SITE_DESCRIPTION, GA_ID } from '@/lib/site';
@@ -12,7 +12,7 @@ import CookieBanner from '@/components/v2/CookieBanner';
 import JsonLd from '@/components/v2/JsonLd';
 import SiteShell from '@/components/v2/SiteShell';
 import { orgJsonLd, websiteJsonLd } from '@/lib/seo';
-import { getCategories, promptCounts, toolCounts, photoCounts } from '@/lib/data';
+import * as data from '@/lib/data';
 
 export const metadata = {
   metadataBase: new URL(SITE_URL),
@@ -26,16 +26,25 @@ export const metadata = {
 };
 export const viewport = { themeColor: '#0b0d14' };
 
-const themeInit = `try{var t=localStorage.getItem('pz-theme');document.documentElement.dataset.theme=t||'dark'}catch(e){document.documentElement.dataset.theme='dark'}`;
+const themeInit = `try{var t=localStorage.getItem('pz-theme');document.documentElement.dataset.theme=t||'dark'}catch(e){document.documentElement.dataset.theme='dark'}try{document.documentElement.dataset.side=localStorage.getItem('pz-side')==='rail'?'rail':'wide'}catch(e){}`;
 
 const shape = (cats, counts) => (cats || []).map((c) => ({ slug: c.slug, name: c.name, n: Number(counts?.[c.slug]) || 0 }));
+const total = (m) => Number(m?.__total) || 0;
+// skillCounts / getCategories('skill') may not exist yet: every call is guarded so the layout never breaks.
 async function loadNav() {
-  try {
-    const [pc, ph, tc, pn, tn, hn] = await Promise.all([
-      getCategories('prompt'), getCategories('photo'), getCategories('tool'), promptCounts(), toolCounts(), photoCounts(),
-    ]);
-    return { prompt: shape(pc, pn), photo: shape(ph, hn), tool: shape(tc, tn) };
-  } catch (e) { return { prompt: [], photo: [], tool: [] }; }
+  const safe = async (fn, fb) => { try { return (await fn()) ?? fb; } catch (e) { return fb; } };
+  const [pc, ph, tc, sc, pn, tn, hn, sn, cn, crs] = await Promise.all([
+    safe(() => data.getCategories('prompt'), []), safe(() => data.getCategories('photo'), []), safe(() => data.getCategories('tool'), []),
+    safe(() => data.getCategories('skill'), []),
+    safe(() => data.promptCounts(), {}), safe(() => data.toolCounts(), {}), safe(() => data.photoCounts(), {}),
+    safe(() => (data.skillCounts ? data.skillCounts() : {}), {}),
+    safe(() => (data.componentCounts ? data.componentCounts() : {}), {}),
+    safe(() => (data.courseCounts ? data.courseCounts() : {}), {}),
+  ]);
+  return {
+    prompt: shape(pc, pn), photo: shape(ph, hn), tool: shape(tc, tn), skill: shape(sc, sn),
+    totals: { prompt: total(pn), photo: total(hn), tool: total(tn), skill: total(sn), courses: crs.__total || 0, agents: cn.agents || 0, commands: cn.commands || 0, settings: cn.settings || 0, hooks: cn.hooks || 0, mcps: cn.mcps || 0, mods: cn.mods || 0, plugins: cn.plugins || 0 },
+  };
 }
 
 export default async function SiteLayout({ children }) {
@@ -45,9 +54,7 @@ export default async function SiteLayout({ children }) {
       <head><script dangerouslySetInnerHTML={{ __html: themeInit }} /></head>
       <body>
         <CursorFX />
-        <Header categories={categories} />
-        <SiteShell categories={categories}>{children}</SiteShell>
-        <Footer />
+        <SiteShell categories={categories} toolbar={<Header categories={categories} />} footer={<Footer />}>{children}</SiteShell>
         <CommandPalette />
         <CookieBanner />
         <JsonLd data={[orgJsonLd(), websiteJsonLd()]} />
