@@ -7,5 +7,10 @@ export const metadata = {
 };
 export const viewport = { width: 'device-width', initialScale: 1 };
 export default function AdminLayout({ children }) {
-  return <html lang="en"><body>{children}</body></html>;
+  return (
+    <html lang="en" translate="no" suppressHydrationWarning>
+      <head><meta name="google" content="notranslate" /></head>
+      <body suppressHydrationWarning>{children}</body>
+    </html>
+  );
 }

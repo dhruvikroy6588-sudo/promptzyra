@@ -6,7 +6,6 @@ import Script from 'next/script';
 import { SITE_URL, SITE_NAME, SITE_DESCRIPTION, GA_ID } from '@/lib/site';
 import Header from '@/components/v2/Header';
 import Footer from '@/components/v2/Footer';
-import CursorFX from '@/components/v2/CursorFX';
 import CommandPalette from '@/components/v2/CommandPalette';
 import CookieBanner from '@/components/v2/CookieBanner';
 import JsonLd from '@/components/v2/JsonLd';
@@ -52,8 +51,8 @@ export default async function SiteLayout({ children }) {
   return (
     <html lang="en" data-theme="dark" suppressHydrationWarning>
       <head><script dangerouslySetInnerHTML={{ __html: themeInit }} /></head>
-      <body>
-        <CursorFX />
+      <body suppressHydrationWarning>
+        
         <SiteShell categories={categories} toolbar={<Header categories={categories} />} footer={<Footer />}>{children}</SiteShell>
         <CommandPalette />
         <CookieBanner />

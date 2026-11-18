@@ -1,0 +1,442 @@
+[
+ {
+  "slug": "snatchbot",
+  "name": "SnatchBot",
+  "category": "productivity",
+  "website_url": "https://snatchbot.me/",
+  "pricing": "Freemium",
+  "tagline": "No-code platform for building chatbots and voice assistants across web and messaging channels.",
+  "best_for": "Support teams that want a chatbot without writing code",
+  "platforms": [
+   "Web"
+  ],
+  "description": "SnatchBot is a browser-based platform for designing chatbots and voice assistants without programming. You assemble conversations in a drag-and-drop builder, define intents and entities, add quick replies, and publish the result to a website chat widget or to messaging apps such as Messenger, Telegram, Slack, Viber and Line. WhatsApp is supported through Twilio.\n\nThe aim is mostly customer service: answer repeat questions, take some load off a support queue, and hand the conversation to a human agent with the transcript attached when the bot gets stuck. Knowledge can be imported from FAQs, websites or files, and APIs and webhooks link it to CRMs and help desks. Analytics cover sessions, drop-offs and handoff rates. Plans and message limits change, so check the official site before choosing a tier.",
+  "use_steps": [
+   "Create an account and start a new bot in the builder.",
+   "Map the common questions to intents and write the replies.",
+   "Import FAQ content and connect the channels you use.",
+   "Test with real queries, then review the analytics and fix gaps."
+  ],
+  "pros": [
+   "Visual builder needs no code",
+   "Many channels from one bot",
+   "Live agent handoff keeps the transcript",
+   "Free option to try"
+  ],
+  "cons": [
+   "Pricing tied to messaging, so costs need checking",
+   "Complex flows still take planning time"
+  ],
+  "alternatives": [
+   "botpress",
+   "tidio",
+   "voiceflow"
+  ],
+  "tags": [
+   "chatbot",
+   "customer-support",
+   "no-code",
+   "voice-assistant",
+   "automation"
+  ],
+  "features": [
+   "Drag-and-drop bot builder",
+   "Intents, entities and quick replies",
+   "Publishing to web and messaging apps",
+   "Live agent handoff",
+   "Analytics and multilingual support"
+  ],
+  "use_cases": [
+   "FAQ bot on a company website",
+   "First-line customer support",
+   "Messenger or Telegram assistant",
+   "Broadcast messages to subscribers"
+  ],
+  "pricing_details": "SnatchBot is listed with a free option, and paid plans come with a trial period according to the listing. Plans, limits and messaging-based pricing change, so check the official pricing page.",
+  "faq": [
+   {
+    "q": "What is SnatchBot?",
+    "a": "A no-code platform for building chatbots and voice assistants and deploying them to web chat and messaging channels."
+   },
+   {
+    "q": "Does SnatchBot need coding?",
+    "a": "No. Bots are built visually, though APIs and webhooks are available if you want to connect other systems."
+   },
+   {
+    "q": "Is SnatchBot free?",
+    "a": "It has a free option and paid plans, with a trial for paid tiers. Check the official site for current limits."
+   }
+  ],
+  "seo_title": "SnatchBot: No-Code Chatbot Builder Guide",
+  "seo_description": "Learn what SnatchBot does, its channels, handoff and analytics features, pricing model and alternatives in this plain-language guide.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "wordly",
+  "name": "Wordly",
+  "category": "productivity",
+  "website_url": "https://www.wordly.ai/",
+  "pricing": "Paid",
+  "tagline": "Live AI translation, captions and transcripts for meetings and events.",
+  "best_for": "Organizations running multilingual meetings, webinars and events",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "Wordly translates speech in real time for meetings and events. A speaker talks, and attendees read translated text or hear translated audio on their own phone or browser, in the language they pick. There are no interpreter booths or special hardware involved, which is the main practical difference from traditional simultaneous interpretation.\n\nBeyond translation it produces same-language captions, searchable transcripts and session summaries, and it can plug into platforms such as Zoom, Webex, Microsoft Teams and Cvent. Optional glossaries help keep brand terms consistent, and it is built to handle many attendees and parallel sessions. The listing describes it as paid, with packages based on hours and attendees, so ask for current terms on the official site.",
+  "use_steps": [
+   "Contact the vendor and set up an account for your event or meeting series.",
+   "Add a glossary of names and product terms.",
+   "Share the attendee link or QR code and connect your meeting platform.",
+   "Run a short test session, then review the transcript afterwards."
+  ],
+  "pros": [
+   "No interpreters or hardware needed",
+   "Works in browser and mobile",
+   "Captions, transcripts and summaries included",
+   "Glossary support for brand terms"
+  ],
+  "cons": [
+   "Paid only, no permanent free tool",
+   "Machine translation can miss nuance in technical talks"
+  ],
+  "alternatives": [
+   "tidio",
+   "botpress",
+   "voiceflow"
+  ],
+  "tags": [
+   "translation",
+   "captions",
+   "events",
+   "accessibility",
+   "meetings"
+  ],
+  "features": [
+   "Live translation in dozens of languages",
+   "Same-language captions",
+   "Searchable transcripts and summaries",
+   "Zoom, Webex and Teams integrations",
+   "Custom glossaries"
+  ],
+  "use_cases": [
+   "Multilingual town hall",
+   "Training sessions for global teams",
+   "Conference breakouts",
+   "Accessible webinars"
+  ],
+  "pricing_details": "Wordly is paid, with packages based on hours and attendees. Trials may appear during promotions. Check the official site for current pricing.",
+  "faq": [
+   {
+    "q": "What does Wordly do?",
+    "a": "It provides live AI translation, captions, transcripts and summaries for meetings and events."
+   },
+   {
+    "q": "Do attendees need an app?",
+    "a": "The listing says it runs in a browser or mobile app, with self-service links for attendees."
+   },
+   {
+    "q": "Is Wordly free?",
+    "a": "No. It is described as paid, with pricing based on hours and attendees."
+   }
+  ],
+  "seo_title": "Wordly: Live Translation for Events Explained",
+  "seo_description": "What Wordly does, how live AI translation and captions work for meetings, pricing model and alternatives.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "peec-ai",
+  "name": "Peec AI",
+  "category": "marketing",
+  "website_url": "https://peec.ai/",
+  "pricing": "Paid",
+  "tagline": "Tracks how often your brand shows up in AI chatbot answers.",
+  "best_for": "Marketers moving from classic SEO to AI search visibility",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Peec AI is an analytics platform for AI search. Instead of tracking Google rankings, it checks how often a brand is mentioned in answers from assistants such as ChatGPT, Perplexity, Claude and Gemini, and turns that into visibility metrics you can follow over time.\n\nYou define a set of prompts that matter to your market, and the tool shows which ones trigger your brand, how you compare with competitors, and which sources the AI engines cite. Monitoring can span several countries and languages in one workspace, and data can be exported or pushed to BI tools. The listing describes it as paid, with entry pricing and higher tiers for more prompts and markets, so confirm current plans on the official site.",
+  "use_steps": [
+   "Create a workspace and add your brand and competitors.",
+   "Write the prompts your customers might ask an AI assistant.",
+   "Let it collect answers and review visibility and position.",
+   "Check which sources are cited and plan content around the gaps."
+  ],
+  "pros": [
+   "Covers several major AI engines",
+   "Competitor benchmarking",
+   "Citation and source insights",
+   "Multi-country monitoring"
+  ],
+  "cons": [
+   "Paid only",
+   "Results depend on the prompt set you choose"
+  ],
+  "alternatives": [
+   "ahrefs",
+   "semrush",
+   "surfer-seo"
+  ],
+  "tags": [
+   "geo",
+   "ai-search",
+   "brand-monitoring",
+   "seo",
+   "analytics"
+  ],
+  "features": [
+   "Visibility share across AI engines",
+   "Prompt-level analytics",
+   "Citation and source analysis",
+   "Competitor benchmarks",
+   "Exports and API reporting"
+  ],
+  "use_cases": [
+   "Measuring brand presence in AI answers",
+   "Competitor tracking",
+   "Content planning for GEO",
+   "Client reporting for agencies"
+  ],
+  "pricing_details": "Peec AI is listed as a paid product with higher tiers for larger prompt sets, more markets and support. Plans change, so check the official site.",
+  "faq": [
+   {
+    "q": "What is Peec AI?",
+    "a": "An AI search analytics tool that tracks brand visibility in answers from ChatGPT, Perplexity, Claude and Gemini."
+   },
+   {
+    "q": "What is GEO?",
+    "a": "Generative engine optimization: improving how AI assistants mention and cite your brand."
+   },
+   {
+    "q": "Is there a free plan?",
+    "a": "The listing describes it as paid. Check the official site for trials."
+   }
+  ],
+  "seo_title": "Peec AI: AI Search Visibility Tracker Guide",
+  "seo_description": "Learn how Peec AI tracks brand mentions in AI answers, key features, pricing model and alternatives.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "polymer",
+  "name": "Polymer",
+  "category": "productivity",
+  "website_url": "https://www.polymersearch.com/",
+  "pricing": "Freemium",
+  "tagline": "No-code BI that turns spreadsheets into interactive dashboards.",
+  "best_for": "Non-technical teams who want dashboards without SQL",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Polymer is a cloud-based business intelligence tool aimed at people who work in spreadsheets rather than SQL. You upload a CSV, XLSX or Google Sheets file, or connect a data source, and it builds an interactive dashboard that can be filtered and shared.\n\nAI suggests charts and writes short explanations of what the data shows, and a natural language search box lets you ask a question and get a chart back. Connectors include Google Analytics 4, Google Ads and Facebook Ads, and automatic syncing is available on higher tiers. It suits marketing, e-commerce, operations and finance teams. A free plan exists, with paid tiers above it, but check the official site for current prices.",
+  "use_steps": [
+   "Sign up and upload a spreadsheet or connect a source.",
+   "Review the charts it suggests and adjust them.",
+   "Ask questions in plain language to explore the data.",
+   "Share the dashboard with your team."
+  ],
+  "pros": [
+   "No SQL or BI training needed",
+   "Fast from spreadsheet to dashboard",
+   "AI chart suggestions",
+   "Free plan to start"
+  ],
+  "cons": [
+   "Automated syncing needs higher tiers",
+   "Less depth than enterprise BI platforms"
+  ],
+  "alternatives": [
+   "julius-ai",
+   "airtable",
+   "databricks"
+  ],
+  "tags": [
+   "bi",
+   "dashboards",
+   "no-code",
+   "spreadsheets",
+   "analytics"
+  ],
+  "features": [
+   "Dashboards from uploaded files",
+   "AI insight explanations",
+   "Natural language search",
+   "Ad and analytics connectors",
+   "Encryption in transit and at rest"
+  ],
+  "use_cases": [
+   "Marketing performance reports",
+   "E-commerce sales dashboards",
+   "Finance summaries",
+   "Ad hoc spreadsheet exploration"
+  ],
+  "pricing_details": "Polymer has a free plan and paid tiers with yearly billing options. Prices change, so check the official site.",
+  "faq": [
+   {
+    "q": "What is Polymer?",
+    "a": "A no-code BI platform that turns spreadsheets and connected sources into dashboards."
+   },
+   {
+    "q": "Do I need SQL?",
+    "a": "No. You can use uploads and plain-language questions."
+   },
+   {
+    "q": "Is Polymer free?",
+    "a": "There is a free plan, with paid tiers for more features."
+   }
+  ],
+  "seo_title": "Polymer: No-Code BI Dashboards Explained",
+  "seo_description": "What Polymer does, who it suits, features, pricing model and alternatives for turning spreadsheets into dashboards.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "sisense",
+  "name": "Sisense",
+  "category": "productivity",
+  "website_url": "https://www.sisense.com/",
+  "pricing": "Paid",
+  "tagline": "API-first analytics platform for embedding governed BI in products.",
+  "best_for": "Product teams and data leaders embedding analytics in applications",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Sisense is a business intelligence platform built around embedding. Teams use its SDK, JavaScript components and REST APIs to put charts, metrics and narrative summaries inside their own products and workflows, rather than sending users to a separate BI portal.\n\nIt connects to cloud warehouses and lakes such as Snowflake, BigQuery and Databricks, with live querying or caching for speed. A semantic layer keeps metrics consistent, and governance covers role-based access, row-level security, lineage, audit logs and SSO. Business users can ask questions in plain language, and alerts can fire to Slack, email or webhooks when KPIs change. It can run as Sisense Cloud or in your own cloud. Pricing depends on scale, so contact the vendor.",
+  "use_steps": [
+   "Connect your warehouse or data source.",
+   "Build a semantic model with governed metrics.",
+   "Create dashboards or embed components through the SDK.",
+   "Set roles, security rules and KPI alerts."
+  ],
+  "pros": [
+   "Strong embedding options",
+   "Governance and security controls",
+   "Live or cached querying",
+   "Natural language questions"
+  ],
+  "cons": [
+   "Paid with scale-based pricing",
+   "Embedding work needs developer time"
+  ],
+  "alternatives": [
+   "databricks",
+   "julius-ai",
+   "polymer"
+  ],
+  "tags": [
+   "bi",
+   "embedded-analytics",
+   "dashboards",
+   "data",
+   "api"
+  ],
+  "features": [
+   "Compose SDK and REST APIs",
+   "Semantic layer",
+   "Narrative summaries",
+   "KPI alerts",
+   "Row-level security and SSO"
+  ],
+  "use_cases": [
+   "Customer-facing analytics in a SaaS app",
+   "Internal KPI dashboards",
+   "Governed self-service BI",
+   "Automated metric alerts"
+  ],
+  "pricing_details": "Sisense is listed as paid, with a free trial for Sisense Cloud. Final pricing depends on use case and scale. Check the official site.",
+  "faq": [
+   {
+    "q": "What is Sisense best for?",
+    "a": "Embedding governed analytics into products and workflows."
+   },
+   {
+    "q": "Does it connect to cloud warehouses?",
+    "a": "Yes, including Snowflake, BigQuery and Databricks."
+   },
+   {
+    "q": "Is there a trial?",
+    "a": "The listing mentions a free trial for Sisense Cloud plans."
+   }
+  ],
+  "seo_title": "Sisense: Embedded Analytics Platform Guide",
+  "seo_description": "What Sisense does, embedding and governance features, pricing model and alternatives.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "thoughtspot",
+  "name": "ThoughtSpot",
+  "category": "productivity",
+  "website_url": "https://www.thoughtspot.com/",
+  "pricing": "Paid",
+  "tagline": "AI analytics platform for searching live cloud data in plain language.",
+  "best_for": "Enterprises wanting governed self-service analytics",
+  "platforms": [
+   "Web"
+  ],
+  "description": "ThoughtSpot lets people ask questions of their data in natural language and get charts back. It connects directly to cloud warehouses such as Snowflake, BigQuery and Databricks, so answers come from live data rather than extracts. Spotter, its AI analyst, explains results and handles follow-up questions.\n\nResults can be pinned to Liveboards, interactive dashboards with drill-down, KPI monitoring and alerts. Data teams curate models for consistency, while Analyst Studio offers SQL, Python, R and notebooks for deeper work. Product teams can embed analytics via the ThoughtSpot Everywhere SDK. Governance includes roles, row-level security, lineage and audit logs. The listing says pricing is per user and per query depending on scale, with a free trial, so check the official site.",
+  "use_steps": [
+   "Connect ThoughtSpot to your cloud data warehouse.",
+   "Have the data team build and curate a model.",
+   "Ask questions in plain language or via Spotter.",
+   "Pin answers to a Liveboard and set alerts."
+  ],
+  "pros": [
+   "Natural language search on live data",
+   "Governance and lineage",
+   "Embedding SDK",
+   "Free trial offered"
+  ],
+  "cons": [
+   "Paid, enterprise-oriented",
+   "Answer quality depends on a well-curated model"
+  ],
+  "alternatives": [
+   "databricks",
+   "julius-ai",
+   "polymer"
+  ],
+  "tags": [
+   "bi",
+   "analytics",
+   "natural-language",
+   "dashboards",
+   "enterprise"
+  ],
+  "features": [
+   "Spotter AI analyst",
+   "Natural language search",
+   "Liveboards with alerts",
+   "Analyst Studio",
+   "Embedded analytics SDK"
+  ],
+  "use_cases": [
+   "Self-service reporting for business teams",
+   "KPI monitoring",
+   "Embedded customer analytics",
+   "Exploring warehouse data without SQL"
+  ],
+  "pricing_details": "ThoughtSpot is listed as paid, with a free trial. Pricing is described as per user and per query depending on scale. Check the official site.",
+  "faq": [
+   {
+    "q": "What does ThoughtSpot do?",
+    "a": "It lets users search and analyze live cloud data using natural language and builds interactive dashboards."
+   },
+   {
+    "q": "Does it need SQL knowledge?",
+    "a": "Not for business users, though data teams can use SQL, Python and R in Analyst Studio."
+   },
+   {
+    "q": "Is there a free trial?",
+    "a": "Yes, according to the listing; confirm on the official site."
+   }
+  ],
+  "seo_title": "ThoughtSpot: AI Analytics Platform Guide",
+  "seo_description": "What ThoughtSpot does, Spotter and Liveboards features, pricing model and alternatives.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ }
+]

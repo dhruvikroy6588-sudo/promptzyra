@@ -46,7 +46,7 @@ export default async function Home() {
           <span className="pzh-pill"><Sparkles size={14} aria-hidden="true" />Free · Education-first · No sign-up</span>
           <h1 id="h-hero">Learn AI faster with <em>tested prompts</em>, honest tool guides and a resume builder.</h1>
           <p className="pzh-lead">Original prompts for students, teachers and job seekers. A tools directory that explains who each tool is for. A resume editor with {RESUME_TEMPLATE_COUNT} templates that runs entirely in your browser.</p>
-          <form className="pzh-search" action="/search" role="search"><Search size={20} aria-hidden="true" /><input name="q" placeholder="Try “study plan”, “cover letter”, “lesson plan”…" aria-label="Search prompts and tools" /><button className="btn btn-primary" type="submit">Search</button></form>
+          <form className="pzh-search" action="/search" role="search"><Search size={20} aria-hidden="true" /><input name="q" placeholder="Search prompts, tools, skills" aria-label="Search prompts and tools" /><button className="btn btn-primary" type="submit">Search</button></form>
           <div className="pzh-quick" aria-label="Quick links">{pcat.slice(0, 6).map((c) => <Link key={c.slug} className="chip" href={`/prompts/category/${c.slug}`}>{icon(c.icon)} {c.name}</Link>)}<Link className="chip" href="/prompt-builder"><Wand2 size={14} aria-hidden="true" /> Prompt builder</Link></div>
           <div className="pzh-stats">
             <div><b>{pc.__total || '—'}</b><span>Prompts</span></div>

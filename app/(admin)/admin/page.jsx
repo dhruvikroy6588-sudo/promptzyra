@@ -1,3 +1,3 @@
-import AdminApp from '@/components/admin/AdminApp';
+import AdminGate from '@/components/admin/AdminGate';
 export const dynamic = 'force-dynamic';
-export default function Page() { return <AdminApp />; }
+export default function Page() { return <AdminGate />; }

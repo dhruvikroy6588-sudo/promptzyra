@@ -1,0 +1,731 @@
+[
+ {
+  "slug": "figstack",
+  "name": "Figstack",
+  "category": "coding",
+  "website_url": "https://figstack.com/",
+  "pricing": "Freemium",
+  "tagline": "AI helper that explains, documents and translates code.",
+  "best_for": "Developers reading unfamiliar or legacy code",
+  "platforms": [
+   "Web",
+   "Browser extension"
+  ],
+  "description": "Figstack is an AI coding assistant aimed at the reading side of programming. Paste a snippet and it describes in plain language what the code does, which helps when you inherit a project with thin documentation or a function written in a language you rarely touch.\n\nBeyond explanations it can draft function documentation and translate code from one programming language to another. It runs in the browser as a web app and through an extension, and the listing says it connects with code editors too. Junior developers can use it to check their understanding, while seniors may lean on it for quick documentation drafts. As with any generated explanation, treat it as a starting point and verify against the real behaviour. Check the official site for current plans and limits.",
+  "use_steps": [
+   "Open the Figstack web app or install the extension.",
+   "Paste the code you want to understand.",
+   "Pick explain, document or translate for the task at hand.",
+   "Read the output, correct anything wrong and copy it into your project."
+  ],
+  "pros": [
+   "Plain-language explanations of unfamiliar code",
+   "Handles documentation and translation in one place",
+   "Free tier available to try",
+   "Useful for legacy codebases"
+  ],
+  "cons": [
+   "Generated explanations can be wrong or shallow",
+   "Limits and features depend on the plan"
+  ],
+  "alternatives": [
+   "github-copilot",
+   "tabnine"
+  ],
+  "tags": [
+   "code explanation",
+   "documentation",
+   "code translation",
+   "legacy code",
+   "developer tools"
+  ],
+  "features": [
+   "Natural-language code explanations",
+   "Function documentation drafts",
+   "Translation between programming languages",
+   "Time complexity analysis",
+   "Web app plus browser extension"
+  ],
+  "use_cases": [
+   "Understanding inherited code",
+   "Documenting functions before a handover",
+   "Porting a snippet to another language"
+  ],
+  "pricing_details": "A free tier exists with paid plans for advanced features and teams, per the listing. Plans change, so check the official site.",
+  "faq": [
+   {
+    "q": "What does Figstack do?",
+    "a": "It explains code in plain language, drafts function documentation and translates code between programming languages."
+   },
+   {
+    "q": "Is Figstack free?",
+    "a": "There is a free tier, with paid plans for extra features and teams. Check the official site for current limits."
+   },
+   {
+    "q": "Who should use it?",
+    "a": "Developers dealing with unfamiliar, legacy or multilingual code, including junior developers learning from existing projects."
+   }
+  ],
+  "seo_title": "Figstack: features, pricing and alternatives",
+  "seo_description": "AI helper that explains, documents and translates code. See what Figstack does, who it suits, pros, cons and alternatives.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "google-gemini",
+  "name": "Google Gemini",
+  "category": "chat-assistants",
+  "website_url": "https://gemini.google.com/",
+  "pricing": "Freemium",
+  "tagline": "Google's multimodal AI assistant for chat, coding and creation.",
+  "best_for": "People already using Google apps who want one assistant for text, code and images",
+  "platforms": [
+   "Web",
+   "Android",
+   "iOS"
+  ],
+  "description": "Gemini is Google's AI assistant, built on its Gemini family of models. You talk to it in text or voice, upload images, and ask for anything from explanations and drafts to debugging help. It is multimodal, so one conversation can mix text, code, pictures, audio and video.\n\n\nWhat sets it apart for many people is the tie to Google's ecosystem: the listing mentions links to Gmail, Docs, Android and Workspace, and availability inside developer tools such as AI Studio and Vertex AI. Developers can use it for agent-style coding and quick interface prototypes, and heavier reasoning modes exist for complex problems. A free tier covers everyday use, and higher limits come with paid Google plans. Always verify code and facts it produces, and check the official site for current plans and model names.",
+  "use_steps": [
+   "Go to gemini.google.com and sign in with a Google account.",
+   "Type or speak a task, or upload an image or file.",
+   "Refine with follow-up messages until the answer fits.",
+   "Connect it to Google apps or use it through AI Studio if you need more."
+  ],
+  "pros": [
+   "Handles text, images, audio and video",
+   "Close integration with Google apps",
+   "Free tier for everyday use",
+   "Available on web and mobile"
+  ],
+  "cons": [
+   "Output still needs fact and code checking",
+   "Best features sit behind paid Google plans"
+  ],
+  "alternatives": [
+   "chatgpt",
+   "claude"
+  ],
+  "tags": [
+   "assistant",
+   "multimodal",
+   "google",
+   "coding",
+   "chat"
+  ],
+  "features": [
+   "Multimodal chat",
+   "Coding and debugging help",
+   "Image creation and editing",
+   "Voice conversations",
+   "Google Workspace integration"
+  ],
+  "use_cases": [
+   "Drafting and summarising",
+   "Debugging code",
+   "Prototyping small web apps"
+  ],
+  "pricing_details": "A free tier is available; higher usage and advanced features need paid Google plans. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "Is Gemini free?",
+    "a": "A free tier is available, and paid Google plans unlock higher limits and advanced features."
+   },
+   {
+    "q": "Can Gemini help with coding?",
+    "a": "Yes, it can generate, explain and debug code, and developers can reach it through tools like AI Studio."
+   },
+   {
+    "q": "Which devices does it run on?",
+    "a": "It works in a browser and through Android and iOS apps."
+   }
+  ],
+  "seo_title": "Google Gemini: features, pricing and alternatives",
+  "seo_description": "Google's multimodal AI assistant for chat, coding and creation. See what Google Gemini does, who it suits, pros, cons and alternatives.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "tempo",
+  "name": "Tempo",
+  "category": "coding",
+  "website_url": "https://www.tempo.new/",
+  "pricing": "Freemium",
+  "tagline": "Visual React editor with AI agents that write the code.",
+  "best_for": "Designers, product managers and engineers building React interfaces",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Tempo is a visual IDE for React that pairs a drag-and-drop canvas with AI agents. You edit layout, props and styles visually while the tool updates the underlying code, or you describe a change in words and let an agent make it.\n\n\nIt can import an existing repository, then commit to branches and open pull requests through Git, which makes it more than a throwaway prototyper. The listing also mentions turning requirement documents and wireframes into components, a store of connectors for things like payments and auth, live preview with automatic error fixes, and a local mode for privacy. That mix suits mixed teams where designers and developers touch the same codebase. Generated code still needs review before it ships. Check the official site for current plans and prompt limits.",
+  "use_steps": [
+   "Create a project or import a repo from Git.",
+   "Edit components on the visual canvas or prompt an agent.",
+   "Preview changes live and let it fix errors.",
+   "Push a branch and open a pull request for review."
+  ],
+  "pros": [
+   "Visual editing and code stay in sync",
+   "Works with existing Git repositories",
+   "Useful for designer and developer collaboration",
+   "Free plan available"
+  ],
+  "cons": [
+   "React-focused, so less useful for other stacks",
+   "Generated code needs careful review"
+  ],
+  "alternatives": [
+   "lovable",
+   "cursor"
+  ],
+  "tags": [
+   "react",
+   "visual editor",
+   "ai agent",
+   "design to code",
+   "frontend"
+  ],
+  "features": [
+   "Visual React editor",
+   "Repo import and Git push",
+   "Design-to-code from specs",
+   "MCP connector store",
+   "Live preview with error fixes"
+  ],
+  "use_cases": [
+   "Prototyping UI inside a real codebase",
+   "Letting designers adjust components",
+   "Turning specs into starter components"
+  ],
+  "pricing_details": "The listing describes a free plan with monthly prompts and paid Pro and Agent Plus plans. Plans change, so check the official site.",
+  "faq": [
+   {
+    "q": "What is Tempo?",
+    "a": "An AI visual IDE for React that combines a drag-and-drop editor with agents that generate and refactor code."
+   },
+   {
+    "q": "Does it work with Git?",
+    "a": "Yes, you can import a repository, commit branches and open pull requests."
+   },
+   {
+    "q": "Is there a free plan?",
+    "a": "The listing mentions a free plan with monthly prompts and paid tiers above it."
+   }
+  ],
+  "seo_title": "Tempo: features, pricing and alternatives",
+  "seo_description": "Visual React editor with AI agents that write the code. See what Tempo does, who it suits, pros, cons and alternatives.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "thunkable",
+  "name": "Thunkable",
+  "category": "coding",
+  "website_url": "https://thunkable.com/",
+  "pricing": "Freemium",
+  "tagline": "No-code builder for native iOS and Android apps.",
+  "best_for": "Students, educators and founders prototyping mobile apps without coding",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "Thunkable is a browser-based no-code platform for making native mobile apps. You drag components onto a screen to design the interface, then snap together logic blocks to define what happens when someone taps, scrolls or submits something.\n\n\nOne project can be published as both an iOS and an Android app. You can test on a real phone through the companion Thunkable Live app while you build, and connect services such as Google Sheets, Airtable, Firebase and OpenAI for data and AI features. The block approach is gentle for beginners and classrooms, though complex apps can get unwieldy compared with hand-written code. The free tier covers building and testing, while private projects and store publishing need a paid plan. Check the official site for current limits.",
+  "use_steps": [
+   "Create a project and drag components onto the first screen.",
+   "Add logic blocks to control behaviour.",
+   "Test live on your phone with the companion app.",
+   "Connect data sources, then publish to the app stores on a paid plan."
+  ],
+  "pros": [
+   "No coding needed",
+   "One project for iOS and Android",
+   "Live testing on a real device",
+   "Connects to common data services"
+  ],
+  "cons": [
+   "Large apps can get hard to manage in blocks",
+   "Publishing and private projects need a paid plan"
+  ],
+  "alternatives": [
+   "bubble",
+   "replit"
+  ],
+  "tags": [
+   "no-code",
+   "mobile apps",
+   "ios",
+   "android",
+   "education"
+  ],
+  "features": [
+   "Drag-and-drop app builder",
+   "Block-based logic",
+   "Cross-platform native publishing",
+   "Live phone testing",
+   "Integrations such as Airtable and Firebase"
+  ],
+  "use_cases": [
+   "Classroom app projects",
+   "Prototyping a startup idea",
+   "Simple internal mobile tools"
+  ],
+  "pricing_details": "A free tier lets you build and test; paid plans cover private projects, storage and store publishing. Plans change, so check the official site.",
+  "faq": [
+   {
+    "q": "Do I need to code to use Thunkable?",
+    "a": "No. Interfaces are dragged together and behaviour is built from logic blocks."
+   },
+   {
+    "q": "Can it publish to the app stores?",
+    "a": "Yes, but publishing to Apple and Google stores needs a paid plan, per the listing."
+   },
+   {
+    "q": "Which services can it connect to?",
+    "a": "Examples include Google Sheets, Airtable, Firebase and OpenAI."
+   }
+  ],
+  "seo_title": "Thunkable: features, pricing and alternatives",
+  "seo_description": "No-code builder for native iOS and Android apps. See what Thunkable does, who it suits, pros, cons and alternatives.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "viewcomfy",
+  "name": "ViewComfy",
+  "category": "coding",
+  "website_url": "https://www.viewcomfy.com/",
+  "pricing": "Freemium",
+  "tagline": "Turn ComfyUI workflows into web apps and serverless APIs.",
+  "best_for": "Studios and developers who want to share or scale ComfyUI workflows",
+  "platforms": [
+   "Web",
+   "Self-hosted"
+  ],
+  "description": "ViewComfy takes workflows built in ComfyUI and wraps them as simple web apps or serverless APIs. The people using the result see a tidy interface instead of a node graph, while the original workflow stays private.\n\n\nIt has an open-source builder you can self-host, plus a managed cloud for teams that want hosting and support. The listing describes serverless GPUs that scale to zero when idle, support for custom nodes and models, logs and streaming on the API side, and Python and TypeScript integration. You can also share apps by email, control access and track usage. It fits studios that generate images or video through ComfyUI and want clients or colleagues to run them without learning the tool. You still need a working ComfyUI workflow first. Check the official site for current cloud plans.",
+  "use_steps": [
+   "Build and test your workflow in ComfyUI.",
+   "Import it into ViewComfy and choose which inputs to expose.",
+   "Publish it as a web app or call it through the API.",
+   "Share access with users and watch usage."
+  ],
+  "pros": [
+   "Hides complexity from end users",
+   "Open-source core can be self-hosted",
+   "API option for developers",
+   "GPU capacity scales with demand"
+  ],
+  "cons": [
+   "Requires an existing ComfyUI workflow",
+   "Managed cloud costs depend on plan and usage"
+  ],
+  "alternatives": [
+   "replit",
+   "lovable"
+  ],
+  "tags": [
+   "comfyui",
+   "api",
+   "no-code",
+   "image generation",
+   "workflows"
+  ],
+  "features": [
+   "No-code app builder for workflows",
+   "Serverless APIs with logs",
+   "Custom nodes and models",
+   "User and access management",
+   "Self-host or managed cloud"
+  ],
+  "use_cases": [
+   "Giving clients a branded generation tool",
+   "Exposing a workflow as an API",
+   "Sharing internal creative tools"
+  ],
+  "pricing_details": "The open-source builder is free to self-host; the managed cloud has paid plans. Check the official site for current details.",
+  "faq": [
+   {
+    "q": "What does ViewComfy do?",
+    "a": "It converts ComfyUI workflows into web apps and serverless APIs."
+   },
+   {
+    "q": "Can I self-host it?",
+    "a": "Yes, the UI builder is open source and can be self-hosted."
+   },
+   {
+    "q": "Do end users see the workflow?",
+    "a": "No, workflows can stay private while users see only the simplified app."
+   }
+  ],
+  "seo_title": "ViewComfy: features, pricing and alternatives",
+  "seo_description": "Turn ComfyUI workflows into web apps and serverless APIs. See what ViewComfy does, who it suits, pros, cons and alternatives.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "windsurf",
+  "name": "Windsurf",
+  "category": "coding",
+  "website_url": "https://windsurf.com/",
+  "pricing": "Freemium",
+  "tagline": "AI coding assistant formerly known as Codeium.",
+  "best_for": "Individual developers and teams wanting AI autocomplete and chat in their editor",
+  "platforms": [
+   "Windows",
+   "macOS",
+   "Linux",
+   "VS Code",
+   "JetBrains"
+  ],
+  "description": "Windsurf, which the listing says was formerly Codeium, is an AI coding assistant. It offers autocomplete for lines and blocks, a chat that can explain or refactor code, and awareness of context across larger codebases.\n\n\nIt plugs into popular editors such as VS Code and JetBrains, and the listing notes multi-file changes and an on-premises option for companies that want models kept inside their own environment. SOC 2 compliance is mentioned for enterprise buyers. Solo developers can start on a free tier, and teams pay for governance and security extras. As with all assistants, suggestions can be subtly wrong, so review diffs and run tests. Product names and plans have shifted over time, so check the official site for what is offered now.",
+  "use_steps": [
+   "Install the plugin or the editor from the official site.",
+   "Sign in and open a project.",
+   "Accept or reject autocomplete suggestions as you type.",
+   "Use chat for explanations and multi-file refactors, then review changes."
+  ],
+  "pros": [
+   "Autocomplete and chat in one tool",
+   "Works in several editors",
+   "Enterprise privacy options",
+   "Free tier for individuals"
+  ],
+  "cons": [
+   "Suggestions need careful review",
+   "Plans and branding have changed over time"
+  ],
+  "alternatives": [
+   "cursor",
+   "github-copilot",
+   "tabnine"
+  ],
+  "tags": [
+   "autocomplete",
+   "ide",
+   "refactoring",
+   "codeium",
+   "assistant"
+  ],
+  "features": [
+   "Smart autocomplete",
+   "AI chat for code questions",
+   "Multi-file edits",
+   "On-prem deployment option",
+   "Editor integrations"
+  ],
+  "use_cases": [
+   "Speeding up routine code",
+   "Explaining unfamiliar modules",
+   "Refactoring across files"
+  ],
+  "pricing_details": "A free tier is available for individuals, with paid plans for teams and enterprises. Plans change, so check the official site.",
+  "faq": [
+   {
+    "q": "Is Windsurf the same as Codeium?",
+    "a": "The listing says Windsurf is the former Codeium."
+   },
+   {
+    "q": "Which editors does it support?",
+    "a": "VS Code, JetBrains and others are mentioned."
+   },
+   {
+    "q": "Is there a free plan?",
+    "a": "The listing says a free tier exists for individuals."
+   }
+  ],
+  "seo_title": "Windsurf: features, pricing and alternatives",
+  "seo_description": "AI coding assistant formerly known as Codeium. See what Windsurf does, who it suits, pros, cons and alternatives.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "freu-ai",
+  "name": "Freu AI",
+  "category": "productivity",
+  "website_url": "https://freu.ai/",
+  "pricing": "Freemium",
+  "tagline": "macOS agent that records a workflow once and replays it locally.",
+  "best_for": "Mac users repeating the same multi-app tasks",
+  "platforms": [
+   "macOS"
+  ],
+  "description": "Freu AI is a desktop automation agent for macOS. You show it a workflow once using natural-language prompts, and it compiles that into a fixed command sequence rather than asking a model to improvise every time.\n\n\nBecause it anchors steps to meaningful interface elements instead of screen coordinates, the compiled workflow is meant to survive window resizing and small app updates. Runs happen locally on your Mac without per-run AI calls, which is its main pitch for repetitive jobs like pulling PDF data into a spreadsheet or syncing information between native apps. The listing also mentions an open-source browser automation CLI and a planned on-device vision engine that is not yet available. It is a young product, so test on a harmless task first. Check the official site for current pricing.",
+  "use_steps": [
+   "Install Freu on your Mac and grant the permissions it asks for.",
+   "Describe and demonstrate the workflow once.",
+   "Let it compile the steps and test a run.",
+   "Run it whenever needed and adjust if an app changes."
+  ],
+  "pros": [
+   "Replays run locally without per-run AI cost",
+   "Works across several native apps",
+   "Built to tolerate minor interface changes",
+   "Open-source CLI component"
+  ],
+  "cons": [
+   "macOS only",
+   "Young product, pricing still evolving"
+  ],
+  "alternatives": [
+   "zapier",
+   "make"
+  ],
+  "tags": [
+   "macos",
+   "desktop automation",
+   "workflow",
+   "agent",
+   "local"
+  ],
+  "features": [
+   "Natural-language workflow recording",
+   "Compiled deterministic workflows",
+   "Local execution",
+   "Cross-app automation",
+   "Open-source CLI"
+  ],
+  "use_cases": [
+   "Moving PDF data into spreadsheets",
+   "Syncing details between apps",
+   "Repeating multi-step desktop chores"
+  ],
+  "pricing_details": "The listing says it is currently free while a cloud learning phase may be charged, with plans planned. Check the official site for current pricing.",
+  "faq": [
+   {
+    "q": "What platform does Freu run on?",
+    "a": "macOS only, according to the listing."
+   },
+   {
+    "q": "Does each run use AI?",
+    "a": "Compiled workflows run locally without API calls for repetitive tasks."
+   },
+   {
+    "q": "Is it free?",
+    "a": "The listing describes it as currently free with paid plans planned; confirm on the official site."
+   }
+  ],
+  "seo_title": "Freu AI: features, pricing and alternatives",
+  "seo_description": "macOS agent that records a workflow once and replays it locally. See what Freu AI does, who it suits, pros, cons and alternatives.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "timely",
+  "name": "Timely",
+  "category": "productivity",
+  "website_url": "https://www.timely.com/",
+  "pricing": "Freemium",
+  "tagline": "Automatic time tracking that drafts your timesheets.",
+  "best_for": "Teams and freelancers who dislike starting timers",
+  "platforms": [
+   "Web",
+   "Desktop",
+   "iOS",
+   "Android"
+  ],
+  "description": "Timely is a time-tracking platform that captures what you work on in the background and turns it into draft timesheet entries. Instead of running a timer, you review the suggestions and approve or edit them.\n\n\nIts Memory feature logs apps, websites, meetings and documents, and the listing says these personal records stay private until the user chooses to share them. On the management side it offers project dashboards, budgets, billable rates, reports and capacity planning, and integrates with tools such as Asana, Trello, Jira, Google Calendar, Zoom and QuickBooks. It suits agencies and teams that bill by the hour or track project budgets. Automatic capture raises privacy questions, so teams should agree on how it is used. Plans are named Starter, Premium, Unlimited and Enterprise; check the official site for current pricing and trials.",
+  "use_steps": [
+   "Sign up and install the desktop or mobile app.",
+   "Connect your calendar and project tools.",
+   "Let Memory record your day, then review the drafted entries.",
+   "Approve timesheets and use reports to check budgets."
+  ],
+  "pros": [
+   "Reduces manual timer use",
+   "Private personal memory layer",
+   "Budgets and capacity planning included",
+   "Many integrations"
+  ],
+  "cons": [
+   "Automatic tracking needs trust and clear team policy",
+   "Full features sit on paid plans"
+  ],
+  "alternatives": [
+   "otter-ai",
+   "zapier"
+  ],
+  "tags": [
+   "time tracking",
+   "timesheets",
+   "projects",
+   "billing",
+   "planning"
+  ],
+  "features": [
+   "Automatic activity tracking",
+   "AI-drafted timesheets",
+   "Project budgets and billable rates",
+   "Capacity planning",
+   "Integrations, API and CSV export"
+  ],
+  "use_cases": [
+   "Agency client billing",
+   "Project budget tracking",
+   "Personal workload review"
+  ],
+  "pricing_details": "The listing mentions a free trial and plans named Starter, Premium, Unlimited and Enterprise without prices. Check the official site.",
+  "faq": [
+   {
+    "q": "How does Timely track time?",
+    "a": "Its Memory feature records app, website, meeting and document activity and drafts entries for you to approve."
+   },
+   {
+    "q": "Can others see my memories?",
+    "a": "The listing says they stay private until you share them."
+   },
+   {
+    "q": "Does it integrate with other tools?",
+    "a": "Yes, examples include Asana, Trello, Jira, Google Calendar, Zoom and QuickBooks."
+   }
+  ],
+  "seo_title": "Timely: features, pricing and alternatives",
+  "seo_description": "Automatic time tracking that drafts your timesheets. See what Timely does, who it suits, pros, cons and alternatives.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "willow-voice",
+  "name": "Willow Voice",
+  "category": "productivity",
+  "website_url": "https://willowvoice.com/",
+  "pricing": "Freemium",
+  "tagline": "Voice dictation that turns speech into polished text anywhere.",
+  "best_for": "People who write a lot and would rather talk",
+  "platforms": [
+   "macOS",
+   "Windows",
+   "iOS"
+  ],
+  "description": "Willow Voice is a dictation app for Mac, Windows and iPhone. You speak, and it types cleaned-up text into whatever app has your cursor, fixing grammar and punctuation as it goes.\n\n\nIt tries to match style across apps, recognise names and technical terms, and handle formatting commands such as new line or bullet point. An AI mode can expand short spoken notes into full messages, and the listing states support for over 100 languages and quiet whispered dictation. Processing is cloud-based. On privacy, the listing says recordings and transcripts are not stored by default, with enterprise plans adding compliance options. A free plan is word-limited weekly, with paid plans for heavier use. Check the official site for current limits and prices before relying on it.",
+  "use_steps": [
+   "Install the app on your device and grant microphone access.",
+   "Place the cursor in any text field.",
+   "Hold the dictation shortcut and speak.",
+   "Review the text and use voice commands for formatting."
+  ],
+  "pros": [
+   "Works in any app",
+   "Cleans up grammar and punctuation",
+   "Supports many languages",
+   "No special hardware"
+  ],
+  "cons": [
+   "Needs an internet connection since processing is in the cloud",
+   "Free plan has a weekly word cap"
+  ],
+  "alternatives": [
+   "wispr-flow",
+   "otter-ai"
+  ],
+  "tags": [
+   "dictation",
+   "voice",
+   "writing",
+   "speech to text",
+   "productivity"
+  ],
+  "features": [
+   "Real-time grammar correction",
+   "Style matching across apps",
+   "Voice formatting commands",
+   "AI expansion of short notes",
+   "100+ languages"
+  ],
+  "use_cases": [
+   "Replying to email by voice",
+   "Drafting documents faster",
+   "Dictating notes in noisy places"
+  ],
+  "pricing_details": "The listing says a free plan allows a weekly word allowance, with paid individual and team plans. Plans change, so check the official site.",
+  "faq": [
+   {
+    "q": "What devices does Willow Voice support?",
+    "a": "Mac, Windows and iPhone, per the listing."
+   },
+   {
+    "q": "Does it store my recordings?",
+    "a": "The listing says recordings and transcripts are not stored by default."
+   },
+   {
+    "q": "Is it free?",
+    "a": "There is a word-limited free plan and paid tiers above it."
+   }
+  ],
+  "seo_title": "Willow Voice: features, pricing and alternatives",
+  "seo_description": "Voice dictation that turns speech into polished text anywhere. See what Willow Voice does, who it suits, pros, cons and alternatives.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "wispr-flow",
+  "name": "Wispr Flow",
+  "category": "productivity",
+  "website_url": "https://wisprflow.ai/",
+  "pricing": "Freemium",
+  "tagline": "System-wide voice dictation that edits as you speak.",
+  "best_for": "Professionals and developers who want to dictate in any app",
+  "platforms": [
+   "macOS",
+   "Windows",
+   "iOS",
+   "Android"
+  ],
+  "description": "Wispr Flow is a voice dictation tool that works as an overlay wherever your cursor sits. It converts speech to text, drops filler words, handles mid-sentence corrections and adds punctuation automatically.\n\n\nIt runs on Mac, Windows, iPhone and Android and is designed to adjust tone depending on the app you are using. Command Mode lets you rewrite selected text by voice, and there is a personal dictionary plus voice-triggered snippets. The listing mentions more than 100 languages including mixed-language dictation, and a privacy mode with zero data retention, plus enterprise controls such as SSO. Speed claims on the vendor side are not independently verified, so judge with your own use. The free tier has weekly word limits and a trial of the Pro plan is offered. Check the official site for current pricing.",
+  "use_steps": [
+   "Install Wispr Flow on your device and allow microphone access.",
+   "Click into any text field.",
+   "Hold the hotkey and speak naturally.",
+   "Use Command Mode to rewrite selected text, and add custom words to the dictionary."
+  ],
+  "pros": [
+   "Works across many apps and platforms",
+   "Cleans filler words automatically",
+   "Voice rewriting of selected text",
+   "Privacy mode available"
+  ],
+  "cons": [
+   "Free tier is word-limited",
+   "Speed claims are vendor-supplied"
+  ],
+  "alternatives": [
+   "willow-voice",
+   "otter-ai"
+  ],
+  "tags": [
+   "dictation",
+   "voice",
+   "cross-platform",
+   "writing",
+   "productivity"
+  ],
+  "features": [
+   "Automatic editing while dictating",
+   "Command Mode",
+   "Personal dictionary and snippets",
+   "100+ languages",
+   "Privacy and enterprise controls"
+  ],
+  "use_cases": [
+   "Dictating email and chat replies",
+   "Coding comments by voice",
+   "Mixed-language writing"
+  ],
+  "pricing_details": "The listing describes a free Basic plan, a paid Pro plan with a trial, and custom enterprise pricing. Plans change, so check the official site.",
+  "faq": [
+   {
+    "q": "Which platforms does it support?",
+    "a": "Mac, Windows, iPhone and Android."
+   },
+   {
+    "q": "What is Command Mode?",
+    "a": "A feature for rewriting selected text using voice instructions."
+   },
+   {
+    "q": "Is there a free version?",
+    "a": "Yes, with weekly word limits, plus a Pro trial per the listing."
+   }
+  ],
+  "seo_title": "Wispr Flow: features, pricing and alternatives",
+  "seo_description": "System-wide voice dictation that edits as you speak. See what Wispr Flow does, who it suits, pros, cons and alternatives.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ }
+]

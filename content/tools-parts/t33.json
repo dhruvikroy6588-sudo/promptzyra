@@ -1,0 +1,482 @@
+[
+ {
+  "slug": "layer-ai",
+  "name": "Layer",
+  "category": "design",
+  "website_url": "https://www.layer.ai/",
+  "pricing": "Freemium",
+  "tagline": "Browser platform for generating and refining game and marketing art, 3D, video and audio.",
+  "best_for": "Game studios and content teams producing assets at scale",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Layer is a browser-based platform where game and marketing teams generate and refine creative assets in one place. It covers 2D art, 3D, video and audio, and includes a canvas editor, upscaling, vector conversion and background removal, so an asset does not have to bounce between several separate apps.\n\nTeams can save style libraries and workflows and reuse them, and the listing says these carry over when you switch models. Bulk refinement helps when you have a whole batch of characters or ad variations to clean up. A Unity plugin and CSV import and export are mentioned, along with security controls such as role-based access and audit logs. Plans are credit-based, so check the official site for current limits and pricing.",
+  "use_steps": [
+   "Create a workspace and open the canvas.",
+   "Generate or upload a first batch of assets.",
+   "Refine them with upscaling, background removal or batch tools.",
+   "Save the style as a reusable workflow and export in the format your engine needs."
+  ],
+  "pros": [
+   "Covers 2D, 3D, video and audio in one place",
+   "Reusable style libraries and workflows",
+   "Unity plugin and CSV import/export",
+   "Team-oriented access controls"
+  ],
+  "cons": [
+   "Credit-based usage can be hard to forecast",
+   "Aimed at teams, so solo hobbyists may not need most of it"
+  ],
+  "alternatives": [],
+  "tags": [
+   "game assets",
+   "ai art",
+   "3d",
+   "workflow",
+   "studio"
+  ],
+  "features": [
+   "Canvas editing and batch refinement",
+   "Upscaling, vector conversion and background removal",
+   "Reusable style libraries",
+   "Unity plugin and CSV import/export",
+   "Role-based access and audit logs"
+  ],
+  "use_cases": [
+   "Producing character art for a game",
+   "Creating marketing creatives in bulk",
+   "Cleaning up asset batches before engine import"
+  ],
+  "pricing_details": "A free plan with a limited number of creative units is mentioned, with paid tiers adding more usage and enterprise features. Plans change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What kinds of assets can Layer make?",
+    "a": "2D images, 3D, video and audio, according to its listing."
+   },
+   {
+    "q": "Does it work with game engines?",
+    "a": "A Unity plugin is listed as an integration."
+   },
+   {
+    "q": "Is there a free plan?",
+    "a": "A free plan with limited creative units is mentioned; confirm on the official site."
+   }
+  ],
+  "seo_title": "Layer: AI Asset Platform for Game and Marketing Teams",
+  "seo_description": "Overview of Layer, a browser platform for generating and refining 2D, 3D, video and audio assets for games and marketing.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "ludo-ai",
+  "name": "Ludo.ai",
+  "category": "productivity",
+  "website_url": "https://ludo.ai/",
+  "pricing": "Paid",
+  "tagline": "AI assistant for game ideation, market research and narrative content.",
+  "best_for": "Indie developers and studios in the concept stage",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Ludo.ai is a cloud tool aimed at the earliest stages of game development. From text prompts it can produce game concepts, characters, mechanics and level ideas, and it can write quests and dialogue to flesh out a story.\n\nIt also includes market research features such as trend and competitor analysis, which helps when deciding whether a concept is worth building. Guided workflows are meant to make it usable by people who are not technical, and real-time collaboration supports distributed teams. It runs in the browser, and mentions of integrations with analytics, collaboration and engine workflows are on its listing. It is described as a subscription product with possible trials rather than a permanent free tool, so check the official site for what is on offer.",
+  "use_steps": [
+   "Create an account and start a new project.",
+   "Prompt for a game concept, characters or mechanics.",
+   "Run the market research view to compare with existing titles.",
+   "Generate quests and dialogue and share the project with your team."
+  ],
+  "pros": [
+   "Covers ideation and market research together",
+   "Generates narrative text such as quests and dialogue",
+   "Guided workflows for non-technical users",
+   "Browser-based collaboration"
+  ],
+  "cons": [
+   "Subscription-based, not permanently free",
+   "Generated ideas still need a designer's judgment"
+  ],
+  "alternatives": [],
+  "tags": [
+   "game design",
+   "ideation",
+   "market research",
+   "narrative"
+  ],
+  "features": [
+   "Concept, character and mechanic generation",
+   "Trend and competitor analysis",
+   "Quest and dialogue generation",
+   "Real-time collaboration"
+  ],
+  "use_cases": [
+   "Brainstorming a new game pitch",
+   "Checking a genre for competition",
+   "Drafting NPC dialogue"
+  ],
+  "pricing_details": "Described as subscription-based, with free trials or demos possibly available. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "Who is Ludo.ai for?",
+    "a": "Indie developers, studios and creative teams, including non-technical users."
+   },
+   {
+    "q": "Does it do market research?",
+    "a": "Yes, trend and competitor analysis are listed."
+   },
+   {
+    "q": "Is it free?",
+    "a": "Not permanently; it is subscription-based and trials may exist."
+   }
+  ],
+  "seo_title": "Ludo.ai: AI Game Ideation and Research Tool",
+  "seo_description": "Ludo.ai helps game teams generate concepts, research markets and draft narrative content in the browser.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "modl-ai",
+  "name": "Modl.ai",
+  "category": "coding",
+  "website_url": "https://modl.ai/",
+  "pricing": "Paid",
+  "tagline": "AI bots that playtest games and report bugs.",
+  "best_for": "QA teams and developers who want automated playtesting",
+  "platforms": [
+   "Web",
+   "Windows",
+   "macOS"
+  ],
+  "description": "Modl.ai provides AI bots that play your game to find problems. They run simulated playthroughs, explore levels, spot bugs and performance issues, and model how players behave, which takes some repetitive load off manual QA.\n\nPlayer simulation can also inform balancing of difficulty and progression. The service connects to Unity, Unreal and custom engines through SDKs and APIs, and an analytics dashboard shows test coverage and bug trends. Cloud-based, it can run many bot sessions across builds and platforms, including mobile, PC and console titles. Pricing is described as primarily enterprise, with some partners offering trials, so contact the official site for current terms.",
+  "use_steps": [
+   "Integrate the SDK into your Unity, Unreal or custom build.",
+   "Configure bots and test goals.",
+   "Run sessions in the cloud across builds.",
+   "Review bugs and coverage in the dashboard."
+  ],
+  "pros": [
+   "Automates repetitive playtesting",
+   "Works with major engines",
+   "Dashboard for coverage and bug trends",
+   "Cloud scaling"
+  ],
+  "cons": [
+   "Enterprise-style pricing may not suit tiny teams",
+   "Needs SDK integration work"
+  ],
+  "alternatives": [],
+  "tags": [
+   "qa",
+   "game testing",
+   "bots",
+   "unity",
+   "unreal"
+  ],
+  "features": [
+   "AI QA bots",
+   "Player simulation",
+   "Unity and Unreal SDKs and APIs",
+   "Analytics dashboard",
+   "Cloud bot sessions"
+  ],
+  "use_cases": [
+   "Regression testing between builds",
+   "Balancing difficulty",
+   "Finding crashes in large levels"
+  ],
+  "pricing_details": "Described as paid, primarily enterprise, with some trials via partners. Check the official site.",
+  "faq": [
+   {
+    "q": "What does Modl.ai do?",
+    "a": "It uses AI bots to test games and find bugs."
+   },
+   {
+    "q": "Which engines work?",
+    "a": "Unity, Unreal and custom engines via SDKs and APIs."
+   },
+   {
+    "q": "Does it need special hardware?",
+    "a": "No, it is cloud-based."
+   }
+  ],
+  "seo_title": "Modl.ai: AI Game Testing Bots",
+  "seo_description": "Modl.ai runs AI bots that playtest games, detect bugs and simulate players across engines.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "promethean-ai",
+  "name": "Promethean AI",
+  "category": "design",
+  "website_url": "https://www.prometheanai.com/",
+  "pricing": "Paid",
+  "tagline": "World-building assistant that speeds up 3D scene assembly.",
+  "best_for": "3D artists and studios building environments",
+  "platforms": [
+   "Windows",
+   "macOS",
+   "Web"
+  ],
+  "description": "Promethean AI helps artists assemble 3D scenes faster. It works alongside the tools they already use, surfacing assets and offering layout and style suggestions based on context instead of replacing the modelling software.\n\nMetadata-driven search finds references, materials and models in large asset libraries. Plugins are listed for Unreal Engine, Unity, Maya and Blender, with an API for custom pipelines and permission, encryption and audit controls for teams. Uses mentioned include cinematic environments, product visualizations and interactive worlds. It is described as primarily paid with studio options, and a demo has been referenced, so confirm current availability on the official site.",
+  "use_steps": [
+   "Install the plugin for your 3D tool.",
+   "Connect your asset library.",
+   "Describe the scene and review suggested assets and layouts.",
+   "Refine placement and export from your normal engine."
+  ],
+  "pros": [
+   "Fits into existing 3D tools",
+   "Searches large asset libraries by metadata",
+   "Team permissions and audit trails",
+   "API for pipelines"
+  ],
+  "cons": [
+   "Mostly paid, with limited demo access",
+   "Value depends on having a good asset library"
+  ],
+  "alternatives": [],
+  "tags": [
+   "3d",
+   "world building",
+   "unreal",
+   "blender",
+   "environments"
+  ],
+  "features": [
+   "Context-aware asset suggestions",
+   "Metadata-driven search",
+   "Plugins for Unreal, Unity, Maya, Blender",
+   "Enterprise controls",
+   "API"
+  ],
+  "use_cases": [
+   "Building game levels",
+   "Cinematic environments",
+   "Product visualization scenes"
+  ],
+  "pricing_details": "Described as primarily paid with studio options. Check the official site for current pricing and demos.",
+  "faq": [
+   {
+    "q": "Does it replace Blender or Unreal?",
+    "a": "No, it works inside the tools you already use."
+   },
+   {
+    "q": "Which tools have plugins?",
+    "a": "Unreal Engine, Unity, Maya and Blender are listed."
+   },
+   {
+    "q": "Is there a demo?",
+    "a": "A limited demo has been referenced; confirm on the official site."
+   }
+  ],
+  "seo_title": "Promethean AI: 3D World-Building Assistant",
+  "seo_description": "Promethean AI suggests assets and layouts inside Unreal, Unity, Maya and Blender to speed up 3D scene building.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "kavout",
+  "name": "Kavout",
+  "category": "research",
+  "website_url": "https://kavout.com",
+  "pricing": "Freemium",
+  "tagline": "AI stock research platform built around the Kai Score ranking.",
+  "best_for": "Retail traders and advisors researching US equities",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Kavout is an investing research platform that blends fundamentals, price data and alternative datasets into ranked stock ideas and written analysis. Its core is the Kai Score, a machine-learning rating from 1 to 9 estimating the chance a stock outperforms.\n\nInvestGPT lets you ask for analysis in plain language, and an AI Stock Picker turns prompts into reusable screens. Smart Signals offers alerts and market movers, while an API provides data for backtests and portfolio tools. Coverage is concentrated on US equities, ETFs, crypto and major forex pairs, and the interface is English only. A free plan has limited credits and paid tiers add more. Nothing here is financial advice; check the official site for current plans.",
+  "use_steps": [
+   "Open the web app and sign up.",
+   "Look up a ticker and read its Kai Score.",
+   "Ask InvestGPT for an analysis or build a screen with the Stock Picker.",
+   "Set Smart Signals alerts for names you follow."
+  ],
+  "pros": [
+   "Simple 1 to 9 rating for quick ranking",
+   "Natural-language research prompts",
+   "API access for quants",
+   "Runs in a browser"
+  ],
+  "cons": [
+   "Mostly US-focused coverage",
+   "English-only interface"
+  ],
+  "alternatives": [],
+  "tags": [
+   "stocks",
+   "investing",
+   "screener",
+   "signals",
+   "ai research"
+  ],
+  "features": [
+   "Kai Score",
+   "InvestGPT",
+   "AI Stock Picker",
+   "Smart Signals",
+   "API and data feeds"
+  ],
+  "use_cases": [
+   "Shortlisting US stocks",
+   "Building reusable screens",
+   "Feeding signals into backtests"
+  ],
+  "pricing_details": "A free plan with limited research credits is described; Pro tiers add credits and features. Check the official site for current pricing.",
+  "faq": [
+   {
+    "q": "What is the Kai Score?",
+    "a": "A 1 to 9 machine-learning rating of the probability a stock outperforms."
+   },
+   {
+    "q": "Does it cover non-US markets?",
+    "a": "Only a limited international universe."
+   },
+   {
+    "q": "Is it financial advice?",
+    "a": "No; treat outputs as research input and do your own checks."
+   }
+  ],
+  "seo_title": "Kavout: AI Stock Ranking and Research",
+  "seo_description": "Kavout ranks stocks with the Kai Score and offers AI research, screens and signals, mainly for US markets.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "magnifi",
+  "name": "Magnifi",
+  "category": "research",
+  "website_url": "https://magnifi.com/",
+  "pricing": "Freemium",
+  "tagline": "Conversational investing platform for searching securities and tracking portfolios.",
+  "best_for": "DIY retail investors who want guided research",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "Magnifi is an AI investing platform from TIFIN. You search stocks, ETFs and mutual funds through a conversational interface, link accounts from other brokerages to view diversification and risk, and can place commission-free trades through its own brokerage.\n\nIts marketplace lists over 15,000 securities, and planning tools cover goals, scenarios and portfolio comparison. One limit worth knowing: the in-house brokerage supports taxable accounts only, so IRAs and 401(k)s can be linked for analysis but not traded there. A free account covers browsing, education and trading, while a paid Magnifi Personal subscription unlocks the AI assistant and deeper analytics. This is not advice; check the official site for current plans.",
+  "use_steps": [
+   "Create an account.",
+   "Link your existing brokerage accounts for analysis.",
+   "Ask the assistant to find securities or compare funds.",
+   "Review risk and diversification before deciding on any trade."
+  ],
+  "pros": [
+   "Plain-language search for securities",
+   "Multi-account portfolio view",
+   "Commission-free trading option",
+   "Web and mobile"
+  ],
+  "cons": [
+   "Trading limited to taxable accounts",
+   "AI assistant needs a paid subscription"
+  ],
+  "alternatives": [],
+  "tags": [
+   "investing",
+   "etf",
+   "portfolio",
+   "robo",
+   "trading"
+  ],
+  "features": [
+   "Conversational assistant",
+   "15,000+ security marketplace",
+   "Portfolio linking",
+   "Planning tools",
+   "Commission-free trades"
+  ],
+  "use_cases": [
+   "Comparing ETFs",
+   "Checking diversification across accounts",
+   "Learning investing basics"
+  ],
+  "pricing_details": "Free account with a paid Magnifi Personal subscription for the assistant. Prices are not stated here; check the official site.",
+  "faq": [
+   {
+    "q": "Can I trade retirement accounts on Magnifi?",
+    "a": "No, only taxable accounts; retirement accounts can be linked for analysis."
+   },
+   {
+    "q": "Is it free?",
+    "a": "A free account exists, but the AI assistant needs a subscription."
+   },
+   {
+    "q": "Who owns it?",
+    "a": "It is from TIFIN."
+   }
+  ],
+  "seo_title": "Magnifi: AI Investing Search and Portfolio Tool",
+  "seo_description": "Magnifi lets you search securities in plain language, link portfolios and trade commission-free.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "numerai",
+  "name": "Numerai",
+  "category": "research",
+  "website_url": "https://numer.ai/",
+  "pricing": "Free",
+  "tagline": "Crowdsourced data science tournament that feeds a live hedge fund.",
+  "best_for": "ML practitioners and quant researchers",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Numerai is a crowdsourced hedge fund. Participants download obfuscated market data, train their own models and submit predictions weekly, and those submissions feed a live market-neutral fund.\n\nThe data is encrypted so raw identifiers stay hidden. Tournaments include Signals and Crypto, with a live leaderboard and a meta model that ensembles top submissions. Scoring uses tools such as era-based metrics and feature neutralization, and a Python API and CLI automate data pulls and submissions. Joining and downloading data is free; staking the NMR token is optional but required to earn payouts, and it carries financial risk. Check the official site for current rules.",
+  "use_steps": [
+   "Create an account and download the dataset.",
+   "Train a model in your own Python environment.",
+   "Submit predictions through the API or web.",
+   "Track scores on the leaderboard and decide whether to stake."
+  ],
+  "pros": [
+   "Free to join and download data",
+   "Scriptable via API and CLI",
+   "Good practice for tabular ML",
+   "Active leaderboard"
+  ],
+  "cons": [
+   "Payouts require staking a crypto token",
+   "Needs real ML skills to do well"
+  ],
+  "alternatives": [],
+  "tags": [
+   "quant",
+   "machine learning",
+   "hedge fund",
+   "tournament",
+   "python"
+  ],
+  "features": [
+   "Encrypted datasets",
+   "Weekly tournaments",
+   "NMR staking",
+   "Meta model",
+   "API and CLI"
+  ],
+  "use_cases": [
+   "Practising ML on financial data",
+   "Competing for rewards",
+   "Building automated submission pipelines"
+  ],
+  "pricing_details": "Free to join; staking NMR is optional but needed for payouts. Check the official site for terms.",
+  "faq": [
+   {
+    "q": "Is Numerai free?",
+    "a": "Joining and downloading data is free."
+   },
+   {
+    "q": "Do I have to stake?",
+    "a": "Only to earn payouts; staking is optional."
+   },
+   {
+    "q": "What language?",
+    "a": "Python notebooks plus CLI and REST API are listed."
+   }
+  ],
+  "seo_title": "Numerai: Crowdsourced AI Hedge Fund Tournament",
+  "seo_description": "Numerai lets data scientists train models on encrypted market data and submit weekly predictions.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ }
+]

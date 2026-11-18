@@ -1,0 +1,4558 @@
+[
+ {
+  "slug": "bamboohr",
+  "name": "BambooHR",
+  "category": "career",
+  "website_url": "https://www.bamboohr.com",
+  "pricing": "Paid",
+  "tagline": "BambooHR keeps employee records, time-off requests, onboarding tasks and basic performance data in one HR system.",
+  "best_for": "Small and mid-sized companies that have outgrown spreadsheets for people data",
+  "platforms": [
+   "Web"
+  ],
+  "description": "BambooHR keeps employee records, time-off requests, onboarding tasks and basic performance data in one HR system. It is aimed at small and mid-sized companies that have outgrown spreadsheets for people data, so the interface and defaults assume that kind of day-to-day work rather than a general audience.\n\nA sensible way in is to try BambooHR on one small, real task and judge the result against gusto. Expect to spend a little time on setup, and review anything it produces before relying on it. Features, limits and pricing change, so check the official site for current plans.",
+  "use_steps": [
+   "Go to bamboohr.com and create an account or sign in.",
+   "Import your current employee list and set up one time-off policy.",
+   "Run it on one small real project and compare the outcome with gusto.",
+   "Review the output by hand and adjust settings before wider use."
+  ],
+  "pros": [
+   "Focused on core HR rather than everything at once",
+   "Familiar to many HR teams",
+   "Self-service for employees"
+  ],
+  "cons": [
+   "Quote-based pricing is not shown upfront",
+   "Advanced needs may call for add-ons"
+  ],
+  "alternatives": [
+   "gusto",
+   "rippling"
+  ],
+  "tags": [
+   "hr software",
+   "hris",
+   "onboarding",
+   "employee records"
+  ],
+  "features": [
+   "Employee database",
+   "Time-off tracking",
+   "Onboarding checklists",
+   "Reporting"
+  ],
+  "use_cases": [
+   "Replacing HR spreadsheets",
+   "Onboarding new hires",
+   "Tracking leave balances"
+  ],
+  "pricing_details": "Plans, limits and prices change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is BambooHR used for?",
+    "a": "BambooHR keeps employee records, time-off requests, onboarding tasks and basic performance data in one HR system."
+   },
+   {
+    "q": "Who is BambooHR a good fit for?",
+    "a": "It is aimed at small and mid-sized companies that have outgrown spreadsheets for people data. Others may find it more than they need."
+   },
+   {
+    "q": "How do I find out what BambooHR costs now?",
+    "a": "Open bamboohr.com and look at the pricing or plans page, since offers and limits change."
+   }
+  ],
+  "seo_title": "BambooHR: What It Does, Features and Alternatives",
+  "seo_description": "A plain overview of BambooHR: what it does, who it suits, key features, pros, cons and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "personio",
+  "name": "Personio",
+  "category": "career",
+  "website_url": "https://www.personio.com",
+  "pricing": "Paid",
+  "tagline": "Personio combines HR records, recruiting, absence management and payroll preparation for growing companies.",
+  "best_for": "European small and mid-sized businesses managing people operations",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Personio combines HR records, recruiting, absence management and payroll preparation for growing companies. It is aimed at European small and mid-sized businesses managing people operations, so the interface and defaults assume that kind of day-to-day work rather than a general audience.\n\nA sensible way in is to try Personio on one small, real task and judge the result against bamboohr. Expect to spend a little time on setup, and review anything it produces before relying on it. Features, limits and pricing change, so check the official site for current plans.",
+  "use_steps": [
+   "Go to personio.com and create an account or sign in.",
+   "Add a few employees and configure your absence types.",
+   "Run it on one small real project and compare the outcome with bamboohr.",
+   "Review the output by hand and adjust settings before wider use."
+  ],
+  "pros": [
+   "Covers several HR jobs in one system",
+   "Built with European compliance in mind",
+   "Clear employee self-service"
+  ],
+  "cons": [
+   "Pricing is by quote",
+   "May be more than a tiny team needs"
+  ],
+  "alternatives": [
+   "bamboohr",
+   "rippling"
+  ],
+  "tags": [
+   "hr software",
+   "payroll",
+   "recruiting",
+   "absence"
+  ],
+  "features": [
+   "Employee profiles",
+   "Applicant tracking",
+   "Absence management",
+   "Payroll preparation"
+  ],
+  "use_cases": [
+   "Running HR for a growing team",
+   "Hiring and onboarding in one place",
+   "Preparing payroll data"
+  ],
+  "pricing_details": "Plans, limits and prices change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Personio used for?",
+    "a": "Personio combines HR records, recruiting, absence management and payroll preparation for growing companies."
+   },
+   {
+    "q": "Who is Personio a good fit for?",
+    "a": "It is aimed at European small and mid-sized businesses managing people operations. Others may find it more than they need."
+   },
+   {
+    "q": "How do I find out what Personio costs now?",
+    "a": "Open personio.com and look at the pricing or plans page, since offers and limits change."
+   }
+  ],
+  "seo_title": "Personio: What It Does, Features and Alternatives",
+  "seo_description": "A plain overview of Personio: what it does, who it suits, key features, pros, cons and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "hibob",
+  "name": "HiBob",
+  "category": "career",
+  "website_url": "https://www.hibob.com",
+  "pricing": "Paid",
+  "tagline": "HiBob is an HR platform for employee profiles, onboarding, time off, surveys and workforce reporting.",
+  "best_for": "Mid-sized, often remote or multi-country companies",
+  "platforms": [
+   "Web"
+  ],
+  "description": "HiBob is an HR platform for employee profiles, onboarding, time off, surveys and workforce reporting. It is aimed at mid-sized, often remote or multi-country companies, so the interface and defaults assume that kind of day-to-day work rather than a general audience.\n\nA sensible way in is to try HiBob on one small, real task and judge the result against bamboohr. Expect to spend a little time on setup, and review anything it produces before relying on it. Features, limits and pricing change, so check the official site for current plans.",
+  "use_steps": [
+   "Go to hibob.com and create an account or sign in.",
+   "Build your org chart and invite one team to test the employee profiles.",
+   "Run it on one small real project and compare the outcome with bamboohr.",
+   "Review the output by hand and adjust settings before wider use."
+  ],
+  "pros": [
+   "Modern, approachable interface",
+   "Useful for international teams",
+   "Broad people-ops coverage"
+  ],
+  "cons": [
+   "No public price list",
+   "Takes configuration time to fit your org"
+  ],
+  "alternatives": [
+   "bamboohr",
+   "personio"
+  ],
+  "tags": [
+   "hr platform",
+   "remote teams",
+   "onboarding",
+   "surveys"
+  ],
+  "features": [
+   "People profiles",
+   "Onboarding",
+   "Time off",
+   "Engagement surveys"
+  ],
+  "use_cases": [
+   "Managing distributed teams",
+   "Onboarding across countries",
+   "Running culture surveys"
+  ],
+  "pricing_details": "Plans, limits and prices change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is HiBob used for?",
+    "a": "HiBob is an HR platform for employee profiles, onboarding, time off, surveys and workforce reporting."
+   },
+   {
+    "q": "Who is HiBob a good fit for?",
+    "a": "It is aimed at mid-sized, often remote or multi-country companies. Others may find it more than they need."
+   },
+   {
+    "q": "How do I find out what HiBob costs now?",
+    "a": "Open hibob.com and look at the pricing or plans page, since offers and limits change."
+   }
+  ],
+  "seo_title": "HiBob: What It Does, Features and Alternatives",
+  "seo_description": "A plain overview of HiBob: what it does, who it suits, key features, pros, cons and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "lattice",
+  "name": "Lattice",
+  "category": "career",
+  "website_url": "https://lattice.com",
+  "pricing": "Paid",
+  "tagline": "Lattice supports performance reviews, goal setting, feedback and engagement surveys for people teams.",
+  "best_for": "HR leaders and managers running regular review cycles",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Lattice supports performance reviews, goal setting, feedback and engagement surveys for people teams. It is aimed at HR leaders and managers running regular review cycles, so the interface and defaults assume that kind of day-to-day work rather than a general audience.\n\nA sensible way in is to try Lattice on one small, real task and judge the result against culture-amp. Expect to spend a little time on setup, and review anything it produces before relying on it. Features, limits and pricing change, so check the official site for current plans.",
+  "use_steps": [
+   "Go to lattice.com and create an account or sign in.",
+   "Create a small review cycle for one team and invite their manager.",
+   "Run it on one small real project and compare the outcome with culture-amp.",
+   "Review the output by hand and adjust settings before wider use."
+  ],
+  "pros": [
+   "Brings reviews, goals and feedback together",
+   "Helps managers keep a rhythm of 1:1s",
+   "Reporting for HR"
+  ],
+  "cons": [
+   "Pricing needs a conversation with sales",
+   "Heavy for very small teams"
+  ],
+  "alternatives": [
+   "culture-amp",
+   "15five"
+  ],
+  "tags": [
+   "performance",
+   "okrs",
+   "engagement",
+   "feedback"
+  ],
+  "features": [
+   "Performance reviews",
+   "Goals and OKRs",
+   "Engagement surveys",
+   "1:1 notes"
+  ],
+  "use_cases": [
+   "Running review cycles",
+   "Tracking goals",
+   "Collecting employee feedback"
+  ],
+  "pricing_details": "Plans, limits and prices change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Lattice used for?",
+    "a": "Lattice supports performance reviews, goal setting, feedback and engagement surveys for people teams."
+   },
+   {
+    "q": "Who is Lattice a good fit for?",
+    "a": "It is aimed at HR leaders and managers running regular review cycles. Others may find it more than they need."
+   },
+   {
+    "q": "How do I find out what Lattice costs now?",
+    "a": "Open lattice.com and look at the pricing or plans page, since offers and limits change."
+   }
+  ],
+  "seo_title": "Lattice: What It Does, Features and Alternatives",
+  "seo_description": "A plain overview of Lattice: what it does, who it suits, key features, pros, cons and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "culture-amp",
+  "name": "Culture Amp",
+  "category": "career",
+  "website_url": "https://www.cultureamp.com",
+  "pricing": "Paid",
+  "tagline": "Culture Amp runs employee surveys and turns the results into reports on engagement, onboarding and performance.",
+  "best_for": "HR teams that want structured listening to employees",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Culture Amp runs employee surveys and turns the results into reports on engagement, onboarding and performance. It is aimed at HR teams that want structured listening to employees, so the interface and defaults assume that kind of day-to-day work rather than a general audience.\n\nA sensible way in is to try Culture Amp on one small, real task and judge the result against lattice. Expect to spend a little time on setup, and review anything it produces before relying on it. Features, limits and pricing change, so check the official site for current plans.",
+  "use_steps": [
+   "Go to cultureamp.com and create an account or sign in.",
+   "Launch a short pulse survey to one team and read the first report.",
+   "Run it on one small real project and compare the outcome with lattice.",
+   "Review the output by hand and adjust settings before wider use."
+  ],
+  "pros": [
+   "Strong survey design heritage",
+   "Reports are easy to share with leaders",
+   "Supports follow-up action plans"
+  ],
+  "cons": [
+   "Quote-based pricing",
+   "Surveys only help if leaders act on them"
+  ],
+  "alternatives": [
+   "lattice",
+   "15five"
+  ],
+  "tags": [
+   "employee survey",
+   "engagement",
+   "people analytics",
+   "hr"
+  ],
+  "features": [
+   "Engagement surveys",
+   "Survey benchmarks",
+   "Performance tools",
+   "Action planning"
+  ],
+  "use_cases": [
+   "Annual engagement surveys",
+   "Exit and onboarding surveys",
+   "Tracking sentiment by team"
+  ],
+  "pricing_details": "Plans, limits and prices change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Culture Amp used for?",
+    "a": "Culture Amp runs employee surveys and turns the results into reports on engagement, onboarding and performance."
+   },
+   {
+    "q": "Who is Culture Amp a good fit for?",
+    "a": "It is aimed at HR teams that want structured listening to employees. Others may find it more than they need."
+   },
+   {
+    "q": "How do I find out what Culture Amp costs now?",
+    "a": "Open cultureamp.com and look at the pricing or plans page, since offers and limits change."
+   }
+  ],
+  "seo_title": "Culture Amp: What It Does, Features and Alternatives",
+  "seo_description": "A plain overview of Culture Amp: what it does, who it suits, key features, pros, cons and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "15five",
+  "name": "15Five",
+  "category": "career",
+  "website_url": "https://www.15five.com",
+  "pricing": "Paid",
+  "tagline": "15Five helps managers run weekly check-ins, 1:1s, goals and performance reviews.",
+  "best_for": "Managers who want a lightweight, regular feedback habit",
+  "platforms": [
+   "Web"
+  ],
+  "description": "15Five helps managers run weekly check-ins, 1:1s, goals and performance reviews. It is aimed at managers who want a lightweight, regular feedback habit, so the interface and defaults assume that kind of day-to-day work rather than a general audience.\n\nA sensible way in is to try 15Five on one small, real task and judge the result against lattice. Expect to spend a little time on setup, and review anything it produces before relying on it. Features, limits and pricing change, so check the official site for current plans.",
+  "use_steps": [
+   "Go to 15five.com and create an account or sign in.",
+   "Set up a weekly check-in with three simple questions for one team.",
+   "Run it on one small real project and compare the outcome with lattice.",
+   "Review the output by hand and adjust settings before wider use."
+  ],
+  "pros": [
+   "Encourages a steady feedback rhythm",
+   "Light enough for busy managers",
+   "Combines check-ins with reviews"
+  ],
+  "cons": [
+   "Value depends on managers using it weekly",
+   "Pricing is on request or plan-based"
+  ],
+  "alternatives": [
+   "lattice",
+   "culture-amp"
+  ],
+  "tags": [
+   "check-ins",
+   "1:1",
+   "performance",
+   "management"
+  ],
+  "features": [
+   "Weekly check-ins",
+   "1:1 agendas",
+   "Goal tracking",
+   "Review cycles"
+  ],
+  "use_cases": [
+   "Weekly team updates",
+   "Manager coaching",
+   "Review preparation"
+  ],
+  "pricing_details": "Plans, limits and prices change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is 15Five used for?",
+    "a": "15Five helps managers run weekly check-ins, 1:1s, goals and performance reviews."
+   },
+   {
+    "q": "Who is 15Five a good fit for?",
+    "a": "It is aimed at managers who want a lightweight, regular feedback habit. Others may find it more than they need."
+   },
+   {
+    "q": "How do I find out what 15Five costs now?",
+    "a": "Open 15five.com and look at the pricing or plans page, since offers and limits change."
+   }
+  ],
+  "seo_title": "15Five: What It Does, Features and Alternatives",
+  "seo_description": "A plain overview of 15Five: what it does, who it suits, key features, pros, cons and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "recruitee",
+  "name": "Recruitee",
+  "category": "career",
+  "website_url": "https://recruitee.com",
+  "pricing": "Paid",
+  "tagline": "Recruitee is an applicant tracking system for posting jobs, managing candidates and coordinating hiring teams.",
+  "best_for": "Small and mid-sized companies hiring collaboratively",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Recruitee is an applicant tracking system for posting jobs, managing candidates and coordinating hiring teams. It is aimed at small and mid-sized companies hiring collaboratively, so the interface and defaults assume that kind of day-to-day work rather than a general audience.\n\nA sensible way in is to try Recruitee on one small, real task and judge the result against workable. Expect to spend a little time on setup, and review anything it produces before relying on it. Features, limits and pricing change, so check the official site for current plans.",
+  "use_steps": [
+   "Go to recruitee.com and create an account or sign in.",
+   "Create one job with a three-stage pipeline and add a test candidate.",
+   "Run it on one small real project and compare the outcome with workable.",
+   "Review the output by hand and adjust settings before wider use."
+  ],
+  "pros": [
+   "Visual candidate pipeline",
+   "Easy for non-recruiters to follow",
+   "Careers page builder"
+  ],
+  "cons": [
+   "Pricing is not fully public",
+   "Advanced reporting may need higher plans"
+  ],
+  "alternatives": [
+   "workable",
+   "teamtailor"
+  ],
+  "tags": [
+   "ats",
+   "recruiting",
+   "hiring",
+   "pipeline"
+  ],
+  "features": [
+   "Job posting",
+   "Candidate pipeline",
+   "Team collaboration",
+   "Careers page"
+  ],
+  "use_cases": [
+   "Posting to job boards",
+   "Moving candidates through stages",
+   "Sharing feedback among interviewers"
+  ],
+  "pricing_details": "Plans, limits and prices change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Recruitee used for?",
+    "a": "Recruitee is an applicant tracking system for posting jobs, managing candidates and coordinating hiring teams."
+   },
+   {
+    "q": "Who is Recruitee a good fit for?",
+    "a": "It is aimed at small and mid-sized companies hiring collaboratively. Others may find it more than they need."
+   },
+   {
+    "q": "How do I find out what Recruitee costs now?",
+    "a": "Open recruitee.com and look at the pricing or plans page, since offers and limits change."
+   }
+  ],
+  "seo_title": "Recruitee: What It Does, Features and Alternatives",
+  "seo_description": "A plain overview of Recruitee: what it does, who it suits, key features, pros, cons and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "teamtailor",
+  "name": "Teamtailor",
+  "category": "career",
+  "website_url": "https://www.teamtailor.com",
+  "pricing": "Paid",
+  "tagline": "Teamtailor combines an applicant tracking system with a branded careers site and employer-brand tools.",
+  "best_for": "Companies that care how their hiring pages look and feel",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Teamtailor combines an applicant tracking system with a branded careers site and employer-brand tools. It is aimed at companies that care how their hiring pages look and feel, so the interface and defaults assume that kind of day-to-day work rather than a general audience.\n\nA sensible way in is to try Teamtailor on one small, real task and judge the result against recruitee. Expect to spend a little time on setup, and review anything it produces before relying on it. Features, limits and pricing change, so check the official site for current plans.",
+  "use_steps": [
+   "Go to teamtailor.com and create an account or sign in.",
+   "Draft your careers page and publish one test job.",
+   "Run it on one small real project and compare the outcome with recruitee.",
+   "Review the output by hand and adjust settings before wider use."
+  ],
+  "pros": [
+   "Strong focus on careers-site design",
+   "Handles the full hiring flow",
+   "Good for brand-conscious employers"
+  ],
+  "cons": [
+   "Pricing by quote",
+   "Design flexibility takes some setup"
+  ],
+  "alternatives": [
+   "recruitee",
+   "workable"
+  ],
+  "tags": [
+   "ats",
+   "employer brand",
+   "careers page",
+   "hiring"
+  ],
+  "features": [
+   "Careers site builder",
+   "Applicant tracking",
+   "Candidate messaging",
+   "Employer branding"
+  ],
+  "use_cases": [
+   "Building a careers page",
+   "Managing applicants",
+   "Improving employer brand"
+  ],
+  "pricing_details": "Plans, limits and prices change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Teamtailor used for?",
+    "a": "Teamtailor combines an applicant tracking system with a branded careers site and employer-brand tools."
+   },
+   {
+    "q": "Who is Teamtailor a good fit for?",
+    "a": "It is aimed at companies that care how their hiring pages look and feel. Others may find it more than they need."
+   },
+   {
+    "q": "How do I find out what Teamtailor costs now?",
+    "a": "Open teamtailor.com and look at the pricing or plans page, since offers and limits change."
+   }
+  ],
+  "seo_title": "Teamtailor: What It Does, Features and Alternatives",
+  "seo_description": "A plain overview of Teamtailor: what it does, who it suits, key features, pros, cons and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "jazzhr",
+  "name": "JazzHR",
+  "category": "career",
+  "website_url": "https://www.jazzhr.com",
+  "pricing": "Paid",
+  "tagline": "JazzHR is an applicant tracking tool for small employers to post jobs and manage applicants.",
+  "best_for": "Small businesses doing their own hiring",
+  "platforms": [
+   "Web"
+  ],
+  "description": "JazzHR is an applicant tracking tool for small employers to post jobs and manage applicants. It is aimed at small businesses doing their own hiring, so the interface and defaults assume that kind of day-to-day work rather than a general audience.\n\nA sensible way in is to try JazzHR on one small, real task and judge the result against workable. Expect to spend a little time on setup, and review anything it produces before relying on it. Features, limits and pricing change, so check the official site for current plans.",
+  "use_steps": [
+   "Go to jazzhr.com and create an account or sign in.",
+   "Post one role and set a simple screening workflow.",
+   "Run it on one small real project and compare the outcome with workable.",
+   "Review the output by hand and adjust settings before wider use."
+  ],
+  "pros": [
+   "Aimed at small teams",
+   "Straightforward workflows",
+   "Covers the basics of hiring"
+  ],
+  "cons": [
+   "Interface can feel plain",
+   "Check plan limits before committing"
+  ],
+  "alternatives": [
+   "workable",
+   "recruitee"
+  ],
+  "tags": [
+   "ats",
+   "small business",
+   "hiring",
+   "job posting"
+  ],
+  "features": [
+   "Multi-board job posting",
+   "Applicant tracking",
+   "Interview scheduling",
+   "Hiring workflows"
+  ],
+  "use_cases": [
+   "Posting one job to many boards",
+   "Screening applicants",
+   "Scheduling interviews"
+  ],
+  "pricing_details": "Plans, limits and prices change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is JazzHR used for?",
+    "a": "JazzHR is an applicant tracking tool for small employers to post jobs and manage applicants."
+   },
+   {
+    "q": "Who is JazzHR a good fit for?",
+    "a": "It is aimed at small businesses doing their own hiring. Others may find it more than they need."
+   },
+   {
+    "q": "How do I find out what JazzHR costs now?",
+    "a": "Open jazzhr.com and look at the pricing or plans page, since offers and limits change."
+   }
+  ],
+  "seo_title": "JazzHR: What It Does, Features and Alternatives",
+  "seo_description": "A plain overview of JazzHR: what it does, who it suits, key features, pros, cons and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "manatal",
+  "name": "Manatal",
+  "category": "career",
+  "website_url": "https://www.manatal.com",
+  "pricing": "Paid",
+  "tagline": "Manatal is a recruitment software with applicant tracking and a lightweight CRM for agencies and in-house teams.",
+  "best_for": "Recruitment agencies and small HR teams",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Manatal is a recruitment software with applicant tracking and a lightweight CRM for agencies and in-house teams. It is aimed at recruitment agencies and small HR teams, so the interface and defaults assume that kind of day-to-day work rather than a general audience.\n\nA sensible way in is to try Manatal on one small, real task and judge the result against recruitee. Expect to spend a little time on setup, and review anything it produces before relying on it. Features, limits and pricing change, so check the official site for current plans.",
+  "use_steps": [
+   "Go to manatal.com and create an account or sign in.",
+   "Import a handful of candidates and build one pipeline.",
+   "Run it on one small real project and compare the outcome with recruitee.",
+   "Review the output by hand and adjust settings before wider use."
+  ],
+  "pros": [
+   "Works for agencies as well as employers",
+   "Combines ATS and CRM",
+   "Approachable setup"
+  ],
+  "cons": [
+   "Plan details change often",
+   "Heavy users may outgrow it"
+  ],
+  "alternatives": [
+   "recruitee",
+   "jazzhr"
+  ],
+  "tags": [
+   "ats",
+   "crm",
+   "agency",
+   "recruiting"
+  ],
+  "features": [
+   "Candidate database",
+   "Pipeline management",
+   "Career page",
+   "Recruitment CRM"
+  ],
+  "use_cases": [
+   "Agency candidate tracking",
+   "Client management",
+   "Sourcing from job boards"
+  ],
+  "pricing_details": "Plans, limits and prices change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Manatal used for?",
+    "a": "Manatal is a recruitment software with applicant tracking and a lightweight CRM for agencies and in-house teams."
+   },
+   {
+    "q": "Who is Manatal a good fit for?",
+    "a": "It is aimed at recruitment agencies and small HR teams. Others may find it more than they need."
+   },
+   {
+    "q": "How do I find out what Manatal costs now?",
+    "a": "Open manatal.com and look at the pricing or plans page, since offers and limits change."
+   }
+  ],
+  "seo_title": "Manatal: What It Does, Features and Alternatives",
+  "seo_description": "A plain overview of Manatal: what it does, who it suits, key features, pros, cons and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "seekout",
+  "name": "SeekOut",
+  "category": "career",
+  "website_url": "https://www.seekout.com",
+  "pricing": "Paid",
+  "tagline": "SeekOut is a talent search platform for finding candidates across public professional profiles.",
+  "best_for": "Sourcers and recruiters hunting hard-to-find talent",
+  "platforms": [
+   "Web"
+  ],
+  "description": "SeekOut is a talent search platform for finding candidates across public professional profiles. It is aimed at sourcers and recruiters hunting hard-to-find talent, so the interface and defaults assume that kind of day-to-day work rather than a general audience.\n\nA sensible way in is to try SeekOut on one small, real task and judge the result against gem. Expect to spend a little time on setup, and review anything it produces before relying on it. Features, limits and pricing change, so check the official site for current plans.",
+  "use_steps": [
+   "Go to seekout.com and create an account or sign in.",
+   "Run a search for one hard-to-fill role and save promising profiles to a list.",
+   "Run it on one small real project and compare the outcome with gem.",
+   "Review the output by hand and adjust settings before wider use."
+  ],
+  "pros": [
+   "Deep search filters",
+   "Made for sourcing specialists",
+   "Helps build reusable talent pools"
+  ],
+  "cons": [
+   "Aimed at professional recruiters",
+   "Pricing is by quote"
+  ],
+  "alternatives": [
+   "gem",
+   "beamery"
+  ],
+  "tags": [
+   "sourcing",
+   "talent search",
+   "recruiting",
+   "candidates"
+  ],
+  "features": [
+   "Candidate search filters",
+   "Talent pools",
+   "Outreach tools",
+   "Diversity-aware sourcing options"
+  ],
+  "use_cases": [
+   "Technical sourcing",
+   "Building talent pipelines",
+   "Finding niche skills"
+  ],
+  "pricing_details": "Plans, limits and prices change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is SeekOut used for?",
+    "a": "SeekOut is a talent search platform for finding candidates across public professional profiles."
+   },
+   {
+    "q": "Who is SeekOut a good fit for?",
+    "a": "It is aimed at sourcers and recruiters hunting hard-to-find talent. Others may find it more than they need."
+   },
+   {
+    "q": "How do I find out what SeekOut costs now?",
+    "a": "Open seekout.com and look at the pricing or plans page, since offers and limits change."
+   }
+  ],
+  "seo_title": "SeekOut: What It Does, Features and Alternatives",
+  "seo_description": "A plain overview of SeekOut: what it does, who it suits, key features, pros, cons and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "metaview",
+  "name": "Metaview",
+  "category": "career",
+  "website_url": "https://www.metaview.ai",
+  "pricing": "Paid",
+  "tagline": "Metaview records recruiter interviews and drafts notes so hiring teams spend less time typing.",
+  "best_for": "Recruiters and hiring managers who run many interviews",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Metaview records recruiter interviews and drafts notes so hiring teams spend less time typing. It is aimed at recruiters and hiring managers who run many interviews, so the interface and defaults assume that kind of day-to-day work rather than a general audience.\n\nA sensible way in is to try Metaview on one small, real task and judge the result against fireflies-ai. Expect to spend a little time on setup, and review anything it produces before relying on it. Features, limits and pricing change, so check the official site for current plans.",
+  "use_steps": [
+   "Go to metaview.ai and create an account or sign in.",
+   "Connect your calendar and record one intro call, then read the generated notes.",
+   "Run it on one small real project and compare the outcome with fireflies-ai.",
+   "Review the output by hand and adjust settings before wider use."
+  ],
+  "pros": [
+   "Cuts manual note-taking",
+   "Notes are searchable",
+   "Built around recruiting"
+  ],
+  "cons": [
+   "Candidates should be told about recording",
+   "Fit depends on your ATS"
+  ],
+  "alternatives": [
+   "fireflies-ai",
+   "otter-ai"
+  ],
+  "tags": [
+   "interview notes",
+   "recruiting",
+   "transcription",
+   "ats"
+  ],
+  "features": [
+   "Interview recording",
+   "Automatic notes",
+   "ATS notes sync",
+   "Searchable transcripts"
+  ],
+  "use_cases": [
+   "Taking interview notes",
+   "Sharing summaries with hiring managers",
+   "Reviewing past conversations"
+  ],
+  "pricing_details": "Plans, limits and prices change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Metaview used for?",
+    "a": "Metaview records recruiter interviews and drafts notes so hiring teams spend less time typing."
+   },
+   {
+    "q": "Who is Metaview a good fit for?",
+    "a": "It is aimed at recruiters and hiring managers who run many interviews. Others may find it more than they need."
+   },
+   {
+    "q": "How do I find out what Metaview costs now?",
+    "a": "Open metaview.ai and look at the pricing or plans page, since offers and limits change."
+   }
+  ],
+  "seo_title": "Metaview: What It Does, Features and Alternatives",
+  "seo_description": "A plain overview of Metaview: what it does, who it suits, key features, pros, cons and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "harver",
+  "name": "Harver",
+  "category": "career",
+  "website_url": "https://harver.com",
+  "pricing": "Paid",
+  "tagline": "Harver offers pre-hire assessments and structured screening for high-volume hiring.",
+  "best_for": "Employers hiring many people for similar roles",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Harver offers pre-hire assessments and structured screening for high-volume hiring. It is aimed at employers hiring many people for similar roles, so the interface and defaults assume that kind of day-to-day work rather than a general audience.\n\nA sensible way in is to try Harver on one small, real task and judge the result against hirevue. Expect to spend a little time on setup, and review anything it produces before relying on it. Features, limits and pricing change, so check the official site for current plans.",
+  "use_steps": [
+   "Go to harver.com and create an account or sign in.",
+   "Pick one role and choose an assessment that matches its core skills.",
+   "Run it on one small real project and compare the outcome with hirevue.",
+   "Review the output by hand and adjust settings before wider use."
+  ],
+  "pros": [
+   "Designed for volume hiring",
+   "Standardised screening",
+   "Assessment library"
+  ],
+  "cons": [
+   "Overkill for occasional hiring",
+   "Pricing is quote-based"
+  ],
+  "alternatives": [
+   "hirevue",
+   "paradox"
+  ],
+  "tags": [
+   "assessments",
+   "screening",
+   "high volume",
+   "hiring"
+  ],
+  "features": [
+   "Skills assessments",
+   "Job previews",
+   "Scheduling",
+   "Hiring analytics"
+  ],
+  "use_cases": [
+   "High-volume screening",
+   "Realistic job previews",
+   "Reducing early drop-off"
+  ],
+  "pricing_details": "Plans, limits and prices change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Harver used for?",
+    "a": "Harver offers pre-hire assessments and structured screening for high-volume hiring."
+   },
+   {
+    "q": "Who is Harver a good fit for?",
+    "a": "It is aimed at employers hiring many people for similar roles. Others may find it more than they need."
+   },
+   {
+    "q": "How do I find out what Harver costs now?",
+    "a": "Open harver.com and look at the pricing or plans page, since offers and limits change."
+   }
+  ],
+  "seo_title": "Harver: What It Does, Features and Alternatives",
+  "seo_description": "A plain overview of Harver: what it does, who it suits, key features, pros, cons and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "deel",
+  "name": "Deel",
+  "category": "career",
+  "website_url": "https://www.deel.com",
+  "pricing": "Paid",
+  "tagline": "Deel handles contracts, payments and compliance for hiring contractors and employees abroad.",
+  "best_for": "Companies hiring across borders",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Deel handles contracts, payments and compliance for hiring contractors and employees abroad. It is aimed at companies hiring across borders, so the interface and defaults assume that kind of day-to-day work rather than a general audience.\n\nA sensible way in is to try Deel on one small, real task and judge the result against remote-com. Expect to spend a little time on setup, and review anything it produces before relying on it. Features, limits and pricing change, so check the official site for current plans.",
+  "use_steps": [
+   "Go to deel.com and create an account or sign in.",
+   "Create a contractor contract template for one country.",
+   "Run it on one small real project and compare the outcome with remote-com.",
+   "Review the output by hand and adjust settings before wider use."
+  ],
+  "pros": [
+   "Covers many countries",
+   "Contracts and payments in one place",
+   "Useful for remote-first firms"
+  ],
+  "cons": [
+   "Fees vary by service",
+   "Legal details still deserve a professional check"
+  ],
+  "alternatives": [
+   "remote-com",
+   "rippling"
+  ],
+  "tags": [
+   "global hiring",
+   "contractors",
+   "payroll",
+   "eor"
+  ],
+  "features": [
+   "International contracts",
+   "Contractor payments",
+   "Employer-of-record services",
+   "Compliance support"
+  ],
+  "use_cases": [
+   "Paying overseas contractors",
+   "Hiring in a new country",
+   "Managing global payroll"
+  ],
+  "pricing_details": "Plans, limits and prices change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Deel used for?",
+    "a": "Deel handles contracts, payments and compliance for hiring contractors and employees abroad."
+   },
+   {
+    "q": "Who is Deel a good fit for?",
+    "a": "It is aimed at companies hiring across borders. Others may find it more than they need."
+   },
+   {
+    "q": "How do I find out what Deel costs now?",
+    "a": "Open deel.com and look at the pricing or plans page, since offers and limits change."
+   }
+  ],
+  "seo_title": "Deel: What It Does, Features and Alternatives",
+  "seo_description": "A plain overview of Deel: what it does, who it suits, key features, pros, cons and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "remote-com",
+  "name": "Remote",
+  "category": "career",
+  "website_url": "https://remote.com",
+  "pricing": "Paid",
+  "tagline": "Remote provides employer-of-record, payroll and benefits services for distributed teams.",
+  "best_for": "Companies employing people in countries where they have no entity",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Remote provides employer-of-record, payroll and benefits services for distributed teams. It is aimed at companies employing people in countries where they have no entity, so the interface and defaults assume that kind of day-to-day work rather than a general audience.\n\nA sensible way in is to try Remote on one small, real task and judge the result against deel. Expect to spend a little time on setup, and review anything it produces before relying on it. Features, limits and pricing change, so check the official site for current plans.",
+  "use_steps": [
+   "Go to remote.com and create an account or sign in.",
+   "Check whether your target country is supported before scoping a hire.",
+   "Run it on one small real project and compare the outcome with deel.",
+   "Review the output by hand and adjust settings before wider use."
+  ],
+  "pros": [
+   "Focused on international employment",
+   "Handles local paperwork",
+   "Single dashboard for global staff"
+  ],
+  "cons": [
+   "Costs rise with headcount",
+   "Check country coverage for your case"
+  ],
+  "alternatives": [
+   "deel",
+   "rippling"
+  ],
+  "tags": [
+   "eor",
+   "global payroll",
+   "remote work",
+   "hr"
+  ],
+  "features": [
+   "Employer of record",
+   "Global payroll",
+   "Benefits administration",
+   "Contractor management"
+  ],
+  "use_cases": [
+   "Hiring abroad without an entity",
+   "Running international payroll",
+   "Managing benefits"
+  ],
+  "pricing_details": "Plans, limits and prices change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Remote used for?",
+    "a": "Remote provides employer-of-record, payroll and benefits services for distributed teams."
+   },
+   {
+    "q": "Who is Remote a good fit for?",
+    "a": "It is aimed at companies employing people in countries where they have no entity. Others may find it more than they need."
+   },
+   {
+    "q": "How do I find out what Remote costs now?",
+    "a": "Open remote.com and look at the pricing or plans page, since offers and limits change."
+   }
+  ],
+  "seo_title": "Remote: What It Does, Features and Alternatives",
+  "seo_description": "A plain overview of Remote: what it does, who it suits, key features, pros, cons and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "sprinklr",
+  "name": "Sprinklr",
+  "category": "marketing",
+  "website_url": "https://www.sprinklr.com",
+  "pricing": "Paid",
+  "tagline": "Sprinklr is an enterprise platform for social media management, listening, advertising and customer care.",
+  "best_for": "Large brands with many channels and teams",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Sprinklr is an enterprise platform for social media management, listening, advertising and customer care. It is aimed at large brands with many channels and teams, so the interface and defaults assume that kind of day-to-day work rather than a general audience.\n\nA sensible way in is to try Sprinklr on one small, real task and judge the result against sprout-social. Expect to spend a little time on setup, and review anything it produces before relying on it. Features, limits and pricing change, so check the official site for current plans.",
+  "use_steps": [
+   "Go to sprinklr.com and create an account or sign in.",
+   "Ask for a demo scoped to one channel and one team.",
+   "Run it on one small real project and compare the outcome with sprout-social.",
+   "Review the output by hand and adjust settings before wider use."
+  ],
+  "pros": [
+   "Very broad scope",
+   "Built for big organisations",
+   "Unified data across channels"
+  ],
+  "cons": [
+   "Too large for small teams",
+   "Sold by quote"
+  ],
+  "alternatives": [
+   "sprout-social",
+   "hootsuite"
+  ],
+  "tags": [
+   "enterprise",
+   "social media",
+   "listening",
+   "care"
+  ],
+  "features": [
+   "Social publishing",
+   "Social listening",
+   "Advertising management",
+   "Customer care"
+  ],
+  "use_cases": [
+   "Managing global brand accounts",
+   "Monitoring conversations",
+   "Handling support on social"
+  ],
+  "pricing_details": "Plans, limits and prices change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Sprinklr used for?",
+    "a": "Sprinklr is an enterprise platform for social media management, listening, advertising and customer care."
+   },
+   {
+    "q": "Who is Sprinklr a good fit for?",
+    "a": "It is aimed at large brands with many channels and teams. Others may find it more than they need."
+   },
+   {
+    "q": "How do I find out what Sprinklr costs now?",
+    "a": "Open sprinklr.com and look at the pricing or plans page, since offers and limits change."
+   }
+  ],
+  "seo_title": "Sprinklr: What It Does, Features and Alternatives",
+  "seo_description": "A plain overview of Sprinklr: what it does, who it suits, key features, pros, cons and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "linktree",
+  "name": "Linktree",
+  "category": "marketing",
+  "website_url": "https://linktr.ee",
+  "pricing": "Freemium",
+  "tagline": "Linktree creates a single link page that gathers your social profiles, shops and content.",
+  "best_for": "Creators and small businesses with one bio link",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Linktree creates a single link page that gathers your social profiles, shops and content. It is aimed at creators and small businesses with one bio link, so the interface and defaults assume that kind of day-to-day work rather than a general audience.\n\nA sensible way in is to try Linktree on one small, real task and judge the result against bitly. Expect to spend a little time on setup, and review anything it produces before relying on it. Features, limits and pricing change, so check the official site for current plans.",
+  "use_steps": [
+   "Go to linktr.ee and create an account or sign in.",
+   "Sign up, claim a handle and add your three most important links.",
+   "Run it on one small real project and compare the outcome with bitly.",
+   "Review the output by hand and adjust settings before wider use."
+  ],
+  "pros": [
+   "Very quick to set up",
+   "Friendly to non-designers",
+   "Free starting option"
+  ],
+  "cons": [
+   "Advanced options sit behind paid plans",
+   "Many alternatives do the same job"
+  ],
+  "alternatives": [
+   "bitly",
+   "canva"
+  ],
+  "tags": [
+   "link in bio",
+   "creators",
+   "social",
+   "landing"
+  ],
+  "features": [
+   "Link page builder",
+   "Basic analytics",
+   "Custom themes",
+   "Social integrations"
+  ],
+  "use_cases": [
+   "Instagram or TikTok bio link",
+   "Promoting a launch",
+   "Collecting clicks in one place"
+  ],
+  "pricing_details": "Plans, limits and prices change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Linktree used for?",
+    "a": "Linktree creates a single link page that gathers your social profiles, shops and content."
+   },
+   {
+    "q": "Who is Linktree a good fit for?",
+    "a": "It is aimed at creators and small businesses with one bio link. Others may find it more than they need."
+   },
+   {
+    "q": "How do I find out what Linktree costs now?",
+    "a": "Open linktr.ee and look at the pricing or plans page, since offers and limits change."
+   }
+  ],
+  "seo_title": "Linktree: What It Does, Features and Alternatives",
+  "seo_description": "A plain overview of Linktree: what it does, who it suits, key features, pros, cons and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "bitly",
+  "name": "Bitly",
+  "category": "marketing",
+  "website_url": "https://bitly.com",
+  "pricing": "Freemium",
+  "tagline": "Bitly shortens links, creates QR codes and reports on how many people click them.",
+  "best_for": "Marketers tracking campaign links",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Bitly shortens links, creates QR codes and reports on how many people click them. It is aimed at marketers tracking campaign links, so the interface and defaults assume that kind of day-to-day work rather than a general audience.\n\nA sensible way in is to try Bitly on one small, real task and judge the result against linktree. Expect to spend a little time on setup, and review anything it produces before relying on it. Features, limits and pricing change, so check the official site for current plans.",
+  "use_steps": [
+   "Go to bitly.com and create an account or sign in.",
+   "Shorten one campaign URL and test the click report.",
+   "Run it on one small real project and compare the outcome with linktree.",
+   "Review the output by hand and adjust settings before wider use."
+  ],
+  "pros": [
+   "Familiar and simple",
+   "Click data per link",
+   "QR code support"
+  ],
+  "cons": [
+   "Custom domains need paid plans",
+   "Free limits can be tight"
+  ],
+  "alternatives": [
+   "linktree",
+   "google-analytics"
+  ],
+  "tags": [
+   "url shortener",
+   "qr codes",
+   "tracking",
+   "campaigns"
+  ],
+  "features": [
+   "Link shortening",
+   "QR codes",
+   "Click analytics",
+   "Branded links"
+  ],
+  "use_cases": [
+   "Tracking campaign links",
+   "Printing QR codes",
+   "Sharing tidy URLs"
+  ],
+  "pricing_details": "Plans, limits and prices change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Bitly used for?",
+    "a": "Bitly shortens links, creates QR codes and reports on how many people click them."
+   },
+   {
+    "q": "Who is Bitly a good fit for?",
+    "a": "It is aimed at marketers tracking campaign links. Others may find it more than they need."
+   },
+   {
+    "q": "How do I find out what Bitly costs now?",
+    "a": "Open bitly.com and look at the pricing or plans page, since offers and limits change."
+   }
+  ],
+  "seo_title": "Bitly: What It Does, Features and Alternatives",
+  "seo_description": "A plain overview of Bitly: what it does, who it suits, key features, pros, cons and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "yotpo",
+  "name": "Yotpo",
+  "category": "marketing",
+  "website_url": "https://www.yotpo.com",
+  "pricing": "Paid",
+  "tagline": "Yotpo helps online stores collect reviews and run loyalty, referral and SMS marketing.",
+  "best_for": "Ecommerce brands growing repeat customers",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Yotpo helps online stores collect reviews and run loyalty, referral and SMS marketing. It is aimed at ecommerce brands growing repeat customers, so the interface and defaults assume that kind of day-to-day work rather than a general audience.\n\nA sensible way in is to try Yotpo on one small, real task and judge the result against klaviyo. Expect to spend a little time on setup, and review anything it produces before relying on it. Features, limits and pricing change, so check the official site for current plans.",
+  "use_steps": [
+   "Go to yotpo.com and create an account or sign in.",
+   "Connect your store and send a first review request email.",
+   "Run it on one small real project and compare the outcome with klaviyo.",
+   "Review the output by hand and adjust settings before wider use."
+  ],
+  "pros": [
+   "Several retention tools in one",
+   "Works with common store platforms",
+   "Reviews build trust"
+  ],
+  "cons": [
+   "Costs can climb with order volume",
+   "Takes setup per store platform"
+  ],
+  "alternatives": [
+   "klaviyo",
+   "omnisend"
+  ],
+  "tags": [
+   "reviews",
+   "loyalty",
+   "ecommerce",
+   "retention"
+  ],
+  "features": [
+   "Reviews collection",
+   "Loyalty programs",
+   "Referrals",
+   "SMS marketing"
+  ],
+  "use_cases": [
+   "Gathering product reviews",
+   "Running a rewards program",
+   "Re-engaging customers"
+  ],
+  "pricing_details": "Plans, limits and prices change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Yotpo used for?",
+    "a": "Yotpo helps online stores collect reviews and run loyalty, referral and SMS marketing."
+   },
+   {
+    "q": "Who is Yotpo a good fit for?",
+    "a": "It is aimed at ecommerce brands growing repeat customers. Others may find it more than they need."
+   },
+   {
+    "q": "How do I find out what Yotpo costs now?",
+    "a": "Open yotpo.com and look at the pricing or plans page, since offers and limits change."
+   }
+  ],
+  "seo_title": "Yotpo: What It Does, Features and Alternatives",
+  "seo_description": "A plain overview of Yotpo: what it does, who it suits, key features, pros, cons and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "adespresso",
+  "name": "AdEspresso",
+  "category": "marketing",
+  "website_url": "https://adespresso.com",
+  "pricing": "Paid",
+  "tagline": "AdEspresso helps marketers build, test and report on Facebook and Instagram ad campaigns.",
+  "best_for": "Small agencies and marketers running paid social",
+  "platforms": [
+   "Web"
+  ],
+  "description": "AdEspresso helps marketers build, test and report on Facebook and Instagram ad campaigns. It is aimed at small agencies and marketers running paid social, so the interface and defaults assume that kind of day-to-day work rather than a general audience.\n\nA sensible way in is to try AdEspresso on one small, real task and judge the result against madgicx. Expect to spend a little time on setup, and review anything it produces before relying on it. Features, limits and pricing change, so check the official site for current plans.",
+  "use_steps": [
+   "Go to adespresso.com and create an account or sign in.",
+   "Connect an ad account and build a two-variant test.",
+   "Run it on one small real project and compare the outcome with madgicx.",
+   "Review the output by hand and adjust settings before wider use."
+  ],
+  "pros": [
+   "Made for split-testing ads",
+   "Simplifies campaign setup",
+   "Readable reports"
+  ],
+  "cons": [
+   "Focused mostly on Meta platforms",
+   "Check whether the product is still the right fit for your channels"
+  ],
+  "alternatives": [
+   "madgicx",
+   "adcreative-ai"
+  ],
+  "tags": [
+   "paid social",
+   "ads",
+   "ab testing",
+   "meta"
+  ],
+  "features": [
+   "Ad creation",
+   "A/B testing",
+   "Campaign reports",
+   "Budget tracking"
+  ],
+  "use_cases": [
+   "Testing ad variations",
+   "Reporting to clients",
+   "Managing small ad budgets"
+  ],
+  "pricing_details": "Plans, limits and prices change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is AdEspresso used for?",
+    "a": "AdEspresso helps marketers build, test and report on Facebook and Instagram ad campaigns."
+   },
+   {
+    "q": "Who is AdEspresso a good fit for?",
+    "a": "It is aimed at small agencies and marketers running paid social. Others may find it more than they need."
+   },
+   {
+    "q": "How do I find out what AdEspresso costs now?",
+    "a": "Open adespresso.com and look at the pricing or plans page, since offers and limits change."
+   }
+  ],
+  "seo_title": "AdEspresso: What It Does, Features and Alternatives",
+  "seo_description": "A plain overview of AdEspresso: what it does, who it suits, key features, pros, cons and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "typeform",
+  "name": "Typeform",
+  "category": "marketing",
+  "website_url": "https://www.typeform.com",
+  "pricing": "Freemium",
+  "tagline": "Typeform builds conversational forms, surveys and quizzes that show one question at a time.",
+  "best_for": "Marketers and researchers who want higher completion rates",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Typeform builds conversational forms, surveys and quizzes that show one question at a time. It is aimed at marketers and researchers who want higher completion rates, so the interface and defaults assume that kind of day-to-day work rather than a general audience.\n\nA sensible way in is to try Typeform on one small, real task and judge the result against surveymonkey. Expect to spend a little time on setup, and review anything it produces before relying on it. Features, limits and pricing change, so check the official site for current plans.",
+  "use_steps": [
+   "Go to typeform.com and create an account or sign in.",
+   "Build a five-question form with one logic jump and share the link.",
+   "Run it on one small real project and compare the outcome with surveymonkey.",
+   "Review the output by hand and adjust settings before wider use."
+  ],
+  "pros": [
+   "Pleasant respondent experience",
+   "Logic branching",
+   "Many integrations"
+  ],
+  "cons": [
+   "Cost grows with responses",
+   "Long forms still lose people"
+  ],
+  "alternatives": [
+   "surveymonkey",
+   "google-forms"
+  ],
+  "tags": [
+   "forms",
+   "surveys",
+   "lead capture",
+   "quizzes"
+  ],
+  "features": [
+   "One-question-at-a-time forms",
+   "Logic jumps",
+   "Integrations",
+   "Results dashboard"
+  ],
+  "use_cases": [
+   "Lead capture forms",
+   "Customer surveys",
+   "Quizzes"
+  ],
+  "pricing_details": "Plans, limits and prices change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Typeform used for?",
+    "a": "Typeform builds conversational forms, surveys and quizzes that show one question at a time."
+   },
+   {
+    "q": "Who is Typeform a good fit for?",
+    "a": "It is aimed at marketers and researchers who want higher completion rates. Others may find it more than they need."
+   },
+   {
+    "q": "How do I find out what Typeform costs now?",
+    "a": "Open typeform.com and look at the pricing or plans page, since offers and limits change."
+   }
+  ],
+  "seo_title": "Typeform: What It Does, Features and Alternatives",
+  "seo_description": "A plain overview of Typeform: what it does, who it suits, key features, pros, cons and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "salesforce",
+  "name": "Salesforce",
+  "category": "marketing",
+  "website_url": "https://www.salesforce.com",
+  "pricing": "Paid",
+  "tagline": "Salesforce is a large CRM platform for managing leads, accounts, opportunities and customer service.",
+  "best_for": "Organisations with complex sales and service processes",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Salesforce is a large CRM platform for managing leads, accounts, opportunities and customer service. It is aimed at organisations with complex sales and service processes, so the interface and defaults assume that kind of day-to-day work rather than a general audience.\n\nA sensible way in is to try Salesforce on one small, real task and judge the result against hubspot. Expect to spend a little time on setup, and review anything it produces before relying on it. Features, limits and pricing change, so check the official site for current plans.",
+  "use_steps": [
+   "Go to salesforce.com and create an account or sign in.",
+   "Start with leads and opportunities only, then add objects later.",
+   "Run it on one small real project and compare the outcome with hubspot.",
+   "Review the output by hand and adjust settings before wider use."
+  ],
+  "pros": [
+   "Extremely configurable",
+   "Huge partner ecosystem",
+   "Scales to large teams"
+  ],
+  "cons": [
+   "Steep learning curve",
+   "Cost and admin effort can be significant"
+  ],
+  "alternatives": [
+   "hubspot",
+   "pipedrive"
+  ],
+  "tags": [
+   "crm",
+   "sales",
+   "enterprise",
+   "pipeline"
+  ],
+  "features": [
+   "Lead and opportunity management",
+   "Custom workflows",
+   "Reporting",
+   "AppExchange apps"
+  ],
+  "use_cases": [
+   "Running a sales pipeline",
+   "Account management",
+   "Building custom business apps"
+  ],
+  "pricing_details": "Plans, limits and prices change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Salesforce used for?",
+    "a": "Salesforce is a large CRM platform for managing leads, accounts, opportunities and customer service."
+   },
+   {
+    "q": "Who is Salesforce a good fit for?",
+    "a": "It is aimed at organisations with complex sales and service processes. Others may find it more than they need."
+   },
+   {
+    "q": "How do I find out what Salesforce costs now?",
+    "a": "Open salesforce.com and look at the pricing or plans page, since offers and limits change."
+   }
+  ],
+  "seo_title": "Salesforce: What It Does, Features and Alternatives",
+  "seo_description": "A plain overview of Salesforce: what it does, who it suits, key features, pros, cons and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "attio",
+  "name": "Attio",
+  "category": "marketing",
+  "website_url": "https://attio.com",
+  "pricing": "Freemium",
+  "tagline": "Attio is a flexible, spreadsheet-like CRM that syncs email and calendar data into relationship records.",
+  "best_for": "Startups that want a CRM shaped around their own data",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Attio is a flexible, spreadsheet-like CRM that syncs email and calendar data into relationship records. It is aimed at startups that want a CRM shaped around their own data, so the interface and defaults assume that kind of day-to-day work rather than a general audience.\n\nA sensible way in is to try Attio on one small, real task and judge the result against hubspot. Expect to spend a little time on setup, and review anything it produces before relying on it. Features, limits and pricing change, so check the official site for current plans.",
+  "use_steps": [
+   "Go to attio.com and create an account or sign in.",
+   "Connect your inbox and create one pipeline view.",
+   "Run it on one small real project and compare the outcome with hubspot.",
+   "Review the output by hand and adjust settings before wider use."
+  ],
+  "pros": [
+   "Customisable data model",
+   "Modern interface",
+   "Automatic contact enrichment"
+  ],
+  "cons": [
+   "Younger ecosystem",
+   "Free limits may change"
+  ],
+  "alternatives": [
+   "hubspot",
+   "folk"
+  ],
+  "tags": [
+   "crm",
+   "startups",
+   "relationships",
+   "custom"
+  ],
+  "features": [
+   "Custom objects",
+   "Email and calendar sync",
+   "Pipelines",
+   "Automation"
+  ],
+  "use_cases": [
+   "Tracking investors or customers",
+   "Building a custom pipeline",
+   "Syncing relationship history"
+  ],
+  "pricing_details": "Plans, limits and prices change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Attio used for?",
+    "a": "Attio is a flexible, spreadsheet-like CRM that syncs email and calendar data into relationship records."
+   },
+   {
+    "q": "Who is Attio a good fit for?",
+    "a": "It is aimed at startups that want a CRM shaped around their own data. Others may find it more than they need."
+   },
+   {
+    "q": "How do I find out what Attio costs now?",
+    "a": "Open attio.com and look at the pricing or plans page, since offers and limits change."
+   }
+  ],
+  "seo_title": "Attio: What It Does, Features and Alternatives",
+  "seo_description": "A plain overview of Attio: what it does, who it suits, key features, pros, cons and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "freshsales",
+  "name": "Freshsales",
+  "category": "marketing",
+  "website_url": "https://www.freshworks.com/crm/sales/",
+  "pricing": "Freemium",
+  "tagline": "Freshsales is Freshworks' sales CRM with contact management, deal tracking, email and calling.",
+  "best_for": "Small sales teams that want a simpler CRM",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Freshsales is Freshworks' sales CRM with contact management, deal tracking, email and calling. It is aimed at small sales teams that want a simpler CRM, so the interface and defaults assume that kind of day-to-day work rather than a general audience.\n\nA sensible way in is to try Freshsales on one small, real task and judge the result against pipedrive. Expect to spend a little time on setup, and review anything it produces before relying on it. Features, limits and pricing change, so check the official site for current plans.",
+  "use_steps": [
+   "Go to freshworks.com/crm/sales and create an account or sign in.",
+   "Import contacts and drag a test deal across your pipeline.",
+   "Run it on one small real project and compare the outcome with pipedrive.",
+   "Review the output by hand and adjust settings before wider use."
+  ],
+  "pros": [
+   "Approachable for small teams",
+   "Phone and email in the CRM",
+   "Part of a wider Freshworks suite"
+  ],
+  "cons": [
+   "Higher plans needed for advanced features",
+   "Plans change often"
+  ],
+  "alternatives": [
+   "pipedrive",
+   "zoho-crm"
+  ],
+  "tags": [
+   "crm",
+   "sales",
+   "deals",
+   "freshworks"
+  ],
+  "features": [
+   "Contact management",
+   "Deal pipeline",
+   "Email tracking",
+   "Built-in phone"
+  ],
+  "use_cases": [
+   "Tracking deals",
+   "Calling prospects",
+   "Following up by email"
+  ],
+  "pricing_details": "Plans, limits and prices change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Freshsales used for?",
+    "a": "Freshsales is Freshworks' sales CRM with contact management, deal tracking, email and calling."
+   },
+   {
+    "q": "Who is Freshsales a good fit for?",
+    "a": "It is aimed at small sales teams that want a simpler CRM. Others may find it more than they need."
+   },
+   {
+    "q": "How do I find out what Freshsales costs now?",
+    "a": "Open freshworks.com/crm/sales and look at the pricing or plans page, since offers and limits change."
+   }
+  ],
+  "seo_title": "Freshsales: What It Does, Features and Alternatives",
+  "seo_description": "A plain overview of Freshsales: what it does, who it suits, key features, pros, cons and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "copper",
+  "name": "Copper CRM",
+  "category": "marketing",
+  "website_url": "https://www.copper.com",
+  "pricing": "Paid",
+  "tagline": "Copper CRM is a CRM built to work inside Google Workspace, linking Gmail contacts with deals.",
+  "best_for": "Teams that live in Gmail and Google Calendar",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Copper CRM is a CRM built to work inside Google Workspace, linking Gmail contacts with deals. It is aimed at teams that live in Gmail and Google Calendar, so the interface and defaults assume that kind of day-to-day work rather than a general audience.\n\nA sensible way in is to try Copper CRM on one small, real task and judge the result against pipedrive. Expect to spend a little time on setup, and review anything it produces before relying on it. Features, limits and pricing change, so check the official site for current plans.",
+  "use_steps": [
+   "Go to copper.com and create an account or sign in.",
+   "Install the Gmail extension and log one real conversation.",
+   "Run it on one small real project and compare the outcome with pipedrive.",
+   "Review the output by hand and adjust settings before wider use."
+  ],
+  "pros": [
+   "Fits Google Workspace users",
+   "Reduces manual data entry",
+   "Clean pipeline view"
+  ],
+  "cons": [
+   "Best value for Google-centered teams",
+   "Pricing details vary by plan"
+  ],
+  "alternatives": [
+   "pipedrive",
+   "hubspot"
+  ],
+  "tags": [
+   "crm",
+   "google workspace",
+   "gmail",
+   "sales"
+  ],
+  "features": [
+   "Gmail integration",
+   "Pipelines",
+   "Contact capture",
+   "Workflow automation"
+  ],
+  "use_cases": [
+   "Managing deals from Gmail",
+   "Tracking client relationships",
+   "Automating follow-ups"
+  ],
+  "pricing_details": "Plans, limits and prices change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Copper CRM used for?",
+    "a": "Copper CRM is a CRM built to work inside Google Workspace, linking Gmail contacts with deals."
+   },
+   {
+    "q": "Who is Copper CRM a good fit for?",
+    "a": "It is aimed at teams that live in Gmail and Google Calendar. Others may find it more than they need."
+   },
+   {
+    "q": "How do I find out what Copper CRM costs now?",
+    "a": "Open copper.com and look at the pricing or plans page, since offers and limits change."
+   }
+  ],
+  "seo_title": "Copper CRM: What It Does, Features and Alternatives",
+  "seo_description": "A plain overview of Copper CRM: what it does, who it suits, key features, pros, cons and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "nutshell",
+  "name": "Nutshell",
+  "category": "marketing",
+  "website_url": "https://www.nutshell.com",
+  "pricing": "Paid",
+  "tagline": "Nutshell is a sales CRM with pipeline management and email marketing for small teams.",
+  "best_for": "Small B2B sales teams",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Nutshell is a sales CRM with pipeline management and email marketing for small teams. It is aimed at small B2B sales teams, so the interface and defaults assume that kind of day-to-day work rather than a general audience.\n\nA sensible way in is to try Nutshell on one small, real task and judge the result against pipedrive. Expect to spend a little time on setup, and review anything it produces before relying on it. Features, limits and pricing change, so check the official site for current plans.",
+  "use_steps": [
+   "Go to nutshell.com and create an account or sign in.",
+   "Create a pipeline that mirrors your real deal stages.",
+   "Run it on one small real project and compare the outcome with pipedrive.",
+   "Review the output by hand and adjust settings before wider use."
+  ],
+  "pros": [
+   "Straightforward for small teams",
+   "Combines CRM and email",
+   "Clear timeline per contact"
+  ],
+  "cons": [
+   "Not aimed at enterprise",
+   "Check feature limits by plan"
+  ],
+  "alternatives": [
+   "pipedrive",
+   "close"
+  ],
+  "tags": [
+   "crm",
+   "b2b",
+   "email",
+   "pipeline"
+  ],
+  "features": [
+   "Pipeline management",
+   "Email sequences",
+   "Contact timeline",
+   "Reporting"
+  ],
+  "use_cases": [
+   "Tracking B2B deals",
+   "Following up on leads",
+   "Reporting on pipeline"
+  ],
+  "pricing_details": "Plans, limits and prices change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Nutshell used for?",
+    "a": "Nutshell is a sales CRM with pipeline management and email marketing for small teams."
+   },
+   {
+    "q": "Who is Nutshell a good fit for?",
+    "a": "It is aimed at small B2B sales teams. Others may find it more than they need."
+   },
+   {
+    "q": "How do I find out what Nutshell costs now?",
+    "a": "Open nutshell.com and look at the pricing or plans page, since offers and limits change."
+   }
+  ],
+  "seo_title": "Nutshell: What It Does, Features and Alternatives",
+  "seo_description": "A plain overview of Nutshell: what it does, who it suits, key features, pros, cons and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "seamless-ai",
+  "name": "Seamless.AI",
+  "category": "marketing",
+  "website_url": "https://seamless.ai",
+  "pricing": "Freemium",
+  "tagline": "Seamless.AI is a sales prospecting tool that searches for business contact details and company data.",
+  "best_for": "Sales reps building outbound lists",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Seamless.AI is a sales prospecting tool that searches for business contact details and company data. It is aimed at sales reps building outbound lists, so the interface and defaults assume that kind of day-to-day work rather than a general audience.\n\nA sensible way in is to try Seamless.AI on one small, real task and judge the result against apollo-io. Expect to spend a little time on setup, and review anything it produces before relying on it. Features, limits and pricing change, so check the official site for current plans.",
+  "use_steps": [
+   "Go to seamless.ai and create an account or sign in.",
+   "Search one target title and verify a few contacts manually.",
+   "Run it on one small real project and compare the outcome with apollo-io.",
+   "Review the output by hand and adjust settings before wider use."
+  ],
+  "pros": [
+   "Quick list building",
+   "Browser extension",
+   "Exports to CRM"
+  ],
+  "cons": [
+   "Data accuracy should be spot-checked",
+   "Review privacy rules before outreach"
+  ],
+  "alternatives": [
+   "apollo-io",
+   "zoominfo"
+  ],
+  "tags": [
+   "prospecting",
+   "lead data",
+   "outbound",
+   "b2b"
+  ],
+  "features": [
+   "Contact search",
+   "Company search",
+   "Chrome extension",
+   "CRM export"
+  ],
+  "use_cases": [
+   "Building prospect lists",
+   "Finding decision makers",
+   "Enriching leads"
+  ],
+  "pricing_details": "Plans, limits and prices change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Seamless.AI used for?",
+    "a": "Seamless.AI is a sales prospecting tool that searches for business contact details and company data."
+   },
+   {
+    "q": "Who is Seamless.AI a good fit for?",
+    "a": "It is aimed at sales reps building outbound lists. Others may find it more than they need."
+   },
+   {
+    "q": "How do I find out what Seamless.AI costs now?",
+    "a": "Open seamless.ai and look at the pricing or plans page, since offers and limits change."
+   }
+  ],
+  "seo_title": "Seamless.AI: What It Does, Features and Alternatives",
+  "seo_description": "A plain overview of Seamless.AI: what it does, who it suits, key features, pros, cons and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "lusha",
+  "name": "Lusha",
+  "category": "marketing",
+  "website_url": "https://www.lusha.com",
+  "pricing": "Freemium",
+  "tagline": "Lusha provides business contact and company information through a browser extension and platform.",
+  "best_for": "Recruiters and sales reps who need to reach people",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Lusha provides business contact and company information through a browser extension and platform. It is aimed at recruiters and sales reps who need to reach people, so the interface and defaults assume that kind of day-to-day work rather than a general audience.\n\nA sensible way in is to try Lusha on one small, real task and judge the result against apollo-io. Expect to spend a little time on setup, and review anything it produces before relying on it. Features, limits and pricing change, so check the official site for current plans.",
+  "use_steps": [
+   "Go to lusha.com and create an account or sign in.",
+   "Install the extension and look up one company contact.",
+   "Run it on one small real project and compare the outcome with apollo-io.",
+   "Review the output by hand and adjust settings before wider use."
+  ],
+  "pros": [
+   "Easy extension workflow",
+   "Useful for both sales and recruiting",
+   "Integrates with common CRMs"
+  ],
+  "cons": [
+   "Credits can be limiting",
+   "Verify data and follow consent rules"
+  ],
+  "alternatives": [
+   "apollo-io",
+   "seamless-ai"
+  ],
+  "tags": [
+   "contact data",
+   "prospecting",
+   "extension",
+   "enrichment"
+  ],
+  "features": [
+   "Contact lookup",
+   "Browser extension",
+   "Company data",
+   "CRM integrations"
+  ],
+  "use_cases": [
+   "Finding a prospect's email",
+   "Enriching CRM records",
+   "Sourcing candidates"
+  ],
+  "pricing_details": "Plans, limits and prices change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Lusha used for?",
+    "a": "Lusha provides business contact and company information through a browser extension and platform."
+   },
+   {
+    "q": "Who is Lusha a good fit for?",
+    "a": "It is aimed at recruiters and sales reps who need to reach people. Others may find it more than they need."
+   },
+   {
+    "q": "How do I find out what Lusha costs now?",
+    "a": "Open lusha.com and look at the pricing or plans page, since offers and limits change."
+   }
+  ],
+  "seo_title": "Lusha: What It Does, Features and Alternatives",
+  "seo_description": "A plain overview of Lusha: what it does, who it suits, key features, pros, cons and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "cognism",
+  "name": "Cognism",
+  "category": "marketing",
+  "website_url": "https://www.cognism.com",
+  "pricing": "Paid",
+  "tagline": "Cognism supplies B2B contact data with a focus on compliance and European coverage.",
+  "best_for": "Outbound sales teams selling into Europe",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Cognism supplies B2B contact data with a focus on compliance and European coverage. It is aimed at outbound sales teams selling into Europe, so the interface and defaults assume that kind of day-to-day work rather than a general audience.\n\nA sensible way in is to try Cognism on one small, real task and judge the result against zoominfo. Expect to spend a little time on setup, and review anything it produces before relying on it. Features, limits and pricing change, so check the official site for current plans.",
+  "use_steps": [
+   "Go to cognism.com and create an account or sign in.",
+   "Ask for a trial list in your region and test the data quality.",
+   "Run it on one small real project and compare the outcome with zoominfo.",
+   "Review the output by hand and adjust settings before wider use."
+  ],
+  "pros": [
+   "Compliance emphasis",
+   "Strong in European markets",
+   "Sales intelligence in one place"
+  ],
+  "cons": [
+   "Sold by quote",
+   "May exceed small teams' needs"
+  ],
+  "alternatives": [
+   "zoominfo",
+   "apollo-io"
+  ],
+  "tags": [
+   "b2b data",
+   "emea",
+   "sales intelligence",
+   "compliance"
+  ],
+  "features": [
+   "Contact database",
+   "Phone-verified data",
+   "Intent signals",
+   "Compliance checks"
+  ],
+  "use_cases": [
+   "Outbound prospecting",
+   "Account research",
+   "Enriching CRM"
+  ],
+  "pricing_details": "Plans, limits and prices change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Cognism used for?",
+    "a": "Cognism supplies B2B contact data with a focus on compliance and European coverage."
+   },
+   {
+    "q": "Who is Cognism a good fit for?",
+    "a": "It is aimed at outbound sales teams selling into Europe. Others may find it more than they need."
+   },
+   {
+    "q": "How do I find out what Cognism costs now?",
+    "a": "Open cognism.com and look at the pricing or plans page, since offers and limits change."
+   }
+  ],
+  "seo_title": "Cognism: What It Does, Features and Alternatives",
+  "seo_description": "A plain overview of Cognism: what it does, who it suits, key features, pros, cons and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "clari",
+  "name": "Clari",
+  "category": "marketing",
+  "website_url": "https://www.clari.com",
+  "pricing": "Paid",
+  "tagline": "Clari is a revenue platform for forecasting, pipeline inspection and deal reviews.",
+  "best_for": "Revenue leaders and sales managers",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Clari is a revenue platform for forecasting, pipeline inspection and deal reviews. It is aimed at revenue leaders and sales managers, so the interface and defaults assume that kind of day-to-day work rather than a general audience.\n\nA sensible way in is to try Clari on one small, real task and judge the result against gong. Expect to spend a little time on setup, and review anything it produces before relying on it. Features, limits and pricing change, so check the official site for current plans.",
+  "use_steps": [
+   "Go to clari.com and create an account or sign in.",
+   "Connect your CRM and review one forecast category against real deals.",
+   "Run it on one small real project and compare the outcome with gong.",
+   "Review the output by hand and adjust settings before wider use."
+  ],
+  "pros": [
+   "Built for forecasting",
+   "Brings pipeline data together",
+   "Helps managers coach"
+  ],
+  "cons": [
+   "Enterprise pricing",
+   "Requires clean CRM data"
+  ],
+  "alternatives": [
+   "gong",
+   "salesforce"
+  ],
+  "tags": [
+   "revops",
+   "forecasting",
+   "pipeline",
+   "revenue"
+  ],
+  "features": [
+   "Forecasting",
+   "Pipeline inspection",
+   "Deal insights",
+   "Conversation data"
+  ],
+  "use_cases": [
+   "Weekly forecast calls",
+   "Spotting at-risk deals",
+   "Revenue reporting"
+  ],
+  "pricing_details": "Plans, limits and prices change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Clari used for?",
+    "a": "Clari is a revenue platform for forecasting, pipeline inspection and deal reviews."
+   },
+   {
+    "q": "Who is Clari a good fit for?",
+    "a": "It is aimed at revenue leaders and sales managers. Others may find it more than they need."
+   },
+   {
+    "q": "How do I find out what Clari costs now?",
+    "a": "Open clari.com and look at the pricing or plans page, since offers and limits change."
+   }
+  ],
+  "seo_title": "Clari: What It Does, Features and Alternatives",
+  "seo_description": "A plain overview of Clari: what it does, who it suits, key features, pros, cons and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "highspot",
+  "name": "Highspot",
+  "category": "marketing",
+  "website_url": "https://www.highspot.com",
+  "pricing": "Paid",
+  "tagline": "Highspot is a sales enablement platform for organizing content, training reps and tracking content use.",
+  "best_for": "Enablement teams supporting field sales",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Highspot is a sales enablement platform for organizing content, training reps and tracking content use. It is aimed at enablement teams supporting field sales, so the interface and defaults assume that kind of day-to-day work rather than a general audience.\n\nA sensible way in is to try Highspot on one small, real task and judge the result against salesloft. Expect to spend a little time on setup, and review anything it produces before relying on it. Features, limits and pricing change, so check the official site for current plans.",
+  "use_steps": [
+   "Go to highspot.com and create an account or sign in.",
+   "Upload your five most-used assets and tag them by stage.",
+   "Run it on one small real project and compare the outcome with salesloft.",
+   "Review the output by hand and adjust settings before wider use."
+  ],
+  "pros": [
+   "Central place for sales content",
+   "Analytics on usage",
+   "CRM integrations"
+  ],
+  "cons": [
+   "Mostly for larger sales teams",
+   "Sold by quote"
+  ],
+  "alternatives": [
+   "salesloft",
+   "gong"
+  ],
+  "tags": [
+   "enablement",
+   "content",
+   "training",
+   "sales"
+  ],
+  "features": [
+   "Content library",
+   "Playbooks",
+   "Training",
+   "Content analytics"
+  ],
+  "use_cases": [
+   "Sharing decks and battlecards",
+   "Onboarding reps",
+   "Seeing which content gets used"
+  ],
+  "pricing_details": "Plans, limits and prices change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Highspot used for?",
+    "a": "Highspot is a sales enablement platform for organizing content, training reps and tracking content use."
+   },
+   {
+    "q": "Who is Highspot a good fit for?",
+    "a": "It is aimed at enablement teams supporting field sales. Others may find it more than they need."
+   },
+   {
+    "q": "How do I find out what Highspot costs now?",
+    "a": "Open highspot.com and look at the pricing or plans page, since offers and limits change."
+   }
+  ],
+  "seo_title": "Highspot: What It Does, Features and Alternatives",
+  "seo_description": "A plain overview of Highspot: what it does, who it suits, key features, pros, cons and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "6sense",
+  "name": "6sense",
+  "category": "marketing",
+  "website_url": "https://6sense.com",
+  "pricing": "Paid",
+  "tagline": "6sense is an account-based marketing and sales platform that uses intent signals to prioritize accounts.",
+  "best_for": "B2B marketing and sales teams running ABM",
+  "platforms": [
+   "Web"
+  ],
+  "description": "6sense is an account-based marketing and sales platform that uses intent signals to prioritize accounts. It is aimed at B2B marketing and sales teams running ABM, so the interface and defaults assume that kind of day-to-day work rather than a general audience.\n\nA sensible way in is to try 6sense on one small, real task and judge the result against demandbase. Expect to spend a little time on setup, and review anything it produces before relying on it. Features, limits and pricing change, so check the official site for current plans.",
+  "use_steps": [
+   "Go to 6sense.com and create an account or sign in.",
+   "Define your ideal customer profile and review the first account list.",
+   "Run it on one small real project and compare the outcome with demandbase.",
+   "Review the output by hand and adjust settings before wider use."
+  ],
+  "pros": [
+   "Aligns marketing and sales on accounts",
+   "Intent-based prioritisation",
+   "Integrates with CRMs"
+  ],
+  "cons": [
+   "Premium, enterprise pricing",
+   "Needs enough traffic and data to work well"
+  ],
+  "alternatives": [
+   "demandbase",
+   "zoominfo"
+  ],
+  "tags": [
+   "abm",
+   "intent data",
+   "b2b",
+   "revops"
+  ],
+  "features": [
+   "Intent signals",
+   "Account scoring",
+   "Audience advertising",
+   "Sales alerts"
+  ],
+  "use_cases": [
+   "Prioritising target accounts",
+   "Running ABM ads",
+   "Alerting reps to buying activity"
+  ],
+  "pricing_details": "Plans, limits and prices change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is 6sense used for?",
+    "a": "6sense is an account-based marketing and sales platform that uses intent signals to prioritize accounts."
+   },
+   {
+    "q": "Who is 6sense a good fit for?",
+    "a": "It is aimed at B2B marketing and sales teams running ABM. Others may find it more than they need."
+   },
+   {
+    "q": "How do I find out what 6sense costs now?",
+    "a": "Open 6sense.com and look at the pricing or plans page, since offers and limits change."
+   }
+  ],
+  "seo_title": "6sense: What It Does, Features and Alternatives",
+  "seo_description": "A plain overview of 6sense: what it does, who it suits, key features, pros, cons and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "demandbase",
+  "name": "Demandbase",
+  "category": "marketing",
+  "website_url": "https://www.demandbase.com",
+  "pricing": "Paid",
+  "tagline": "Demandbase is an account-based marketing platform for targeting and tracking key accounts.",
+  "best_for": "B2B teams focused on named accounts",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Demandbase is an account-based marketing platform for targeting and tracking key accounts. It is aimed at B2B teams focused on named accounts, so the interface and defaults assume that kind of day-to-day work rather than a general audience.\n\nA sensible way in is to try Demandbase on one small, real task and judge the result against 6sense. Expect to spend a little time on setup, and review anything it produces before relying on it. Features, limits and pricing change, so check the official site for current plans.",
+  "use_steps": [
+   "Go to demandbase.com and create an account or sign in.",
+   "List 50 target accounts and monitor their engagement for a month.",
+   "Run it on one small real project and compare the outcome with 6sense.",
+   "Review the output by hand and adjust settings before wider use."
+  ],
+  "pros": [
+   "Focused on accounts not leads",
+   "Combines ads and insights",
+   "Fits enterprise B2B"
+  ],
+  "cons": [
+   "Sold by quote",
+   "Best with a clear ABM strategy"
+  ],
+  "alternatives": [
+   "6sense",
+   "zoominfo"
+  ],
+  "tags": [
+   "abm",
+   "b2b",
+   "intent",
+   "revops"
+  ],
+  "features": [
+   "Account identification",
+   "Advertising",
+   "Intent data",
+   "Sales intelligence"
+  ],
+  "use_cases": [
+   "Running ABM campaigns",
+   "Tracking account engagement",
+   "Aligning sales and marketing"
+  ],
+  "pricing_details": "Plans, limits and prices change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Demandbase used for?",
+    "a": "Demandbase is an account-based marketing platform for targeting and tracking key accounts."
+   },
+   {
+    "q": "Who is Demandbase a good fit for?",
+    "a": "It is aimed at B2B teams focused on named accounts. Others may find it more than they need."
+   },
+   {
+    "q": "How do I find out what Demandbase costs now?",
+    "a": "Open demandbase.com and look at the pricing or plans page, since offers and limits change."
+   }
+  ],
+  "seo_title": "Demandbase: What It Does, Features and Alternatives",
+  "seo_description": "A plain overview of Demandbase: what it does, who it suits, key features, pros, cons and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "amplemarket",
+  "name": "Amplemarket",
+  "category": "marketing",
+  "website_url": "https://www.amplemarket.com",
+  "pricing": "Paid",
+  "tagline": "Amplemarket combines prospect data with multichannel outreach sequences for outbound sales.",
+  "best_for": "Outbound sales teams and SDRs",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Amplemarket combines prospect data with multichannel outreach sequences for outbound sales. It is aimed at outbound sales teams and SDRs, so the interface and defaults assume that kind of day-to-day work rather than a general audience.\n\nA sensible way in is to try Amplemarket on one small, real task and judge the result against apollo-io. Expect to spend a little time on setup, and review anything it produces before relying on it. Features, limits and pricing change, so check the official site for current plans.",
+  "use_steps": [
+   "Go to amplemarket.com and create an account or sign in.",
+   "Build a small list and write a three-step sequence.",
+   "Run it on one small real project and compare the outcome with apollo-io.",
+   "Review the output by hand and adjust settings before wider use."
+  ],
+  "pros": [
+   "Data and outreach in one tool",
+   "Multichannel sequences",
+   "Built for SDR workflows"
+  ],
+  "cons": [
+   "Mind deliverability and consent rules",
+   "Pricing is on request"
+  ],
+  "alternatives": [
+   "apollo-io",
+   "outreach"
+  ],
+  "tags": [
+   "outbound",
+   "sdr",
+   "sequences",
+   "leads"
+  ],
+  "features": [
+   "Lead database",
+   "Email and LinkedIn sequences",
+   "Lead enrichment",
+   "Reply handling"
+  ],
+  "use_cases": [
+   "Building outbound sequences",
+   "Finding leads",
+   "Coordinating channels"
+  ],
+  "pricing_details": "Plans, limits and prices change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Amplemarket used for?",
+    "a": "Amplemarket combines prospect data with multichannel outreach sequences for outbound sales."
+   },
+   {
+    "q": "Who is Amplemarket a good fit for?",
+    "a": "It is aimed at outbound sales teams and SDRs. Others may find it more than they need."
+   },
+   {
+    "q": "How do I find out what Amplemarket costs now?",
+    "a": "Open amplemarket.com and look at the pricing or plans page, since offers and limits change."
+   }
+  ],
+  "seo_title": "Amplemarket: What It Does, Features and Alternatives",
+  "seo_description": "A plain overview of Amplemarket: what it does, who it suits, key features, pros, cons and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "vidyard",
+  "name": "Vidyard",
+  "category": "marketing",
+  "website_url": "https://www.vidyard.com",
+  "pricing": "Freemium",
+  "tagline": "Vidyard lets sales and marketing teams record and share videos with viewing analytics.",
+  "best_for": "Reps sending personal video messages",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Vidyard lets sales and marketing teams record and share videos with viewing analytics. It is aimed at reps sending personal video messages, so the interface and defaults assume that kind of day-to-day work rather than a general audience.\n\nA sensible way in is to try Vidyard on one small, real task and judge the result against loom. Expect to spend a little time on setup, and review anything it produces before relying on it. Features, limits and pricing change, so check the official site for current plans.",
+  "use_steps": [
+   "Go to vidyard.com and create an account or sign in.",
+   "Record a 60-second intro video and send it to a colleague.",
+   "Run it on one small real project and compare the outcome with loom.",
+   "Review the output by hand and adjust settings before wider use."
+  ],
+  "pros": [
+   "Easy recording",
+   "Viewing insights",
+   "Works with email and CRM"
+  ],
+  "cons": [
+   "Advanced analytics sit in paid plans",
+   "Plans change"
+  ],
+  "alternatives": [
+   "loom",
+   "wistia"
+  ],
+  "tags": [
+   "video",
+   "sales",
+   "outreach",
+   "analytics"
+  ],
+  "features": [
+   "Screen and camera recording",
+   "Viewer analytics",
+   "Video hosting",
+   "CRM integration"
+  ],
+  "use_cases": [
+   "Personal prospecting videos",
+   "Product walkthroughs",
+   "Seeing who watched"
+  ],
+  "pricing_details": "Plans, limits and prices change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Vidyard used for?",
+    "a": "Vidyard lets sales and marketing teams record and share videos with viewing analytics."
+   },
+   {
+    "q": "Who is Vidyard a good fit for?",
+    "a": "It is aimed at reps sending personal video messages. Others may find it more than they need."
+   },
+   {
+    "q": "How do I find out what Vidyard costs now?",
+    "a": "Open vidyard.com and look at the pricing or plans page, since offers and limits change."
+   }
+  ],
+  "seo_title": "Vidyard: What It Does, Features and Alternatives",
+  "seo_description": "A plain overview of Vidyard: what it does, who it suits, key features, pros, cons and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "se-ranking",
+  "name": "SE Ranking",
+  "category": "marketing",
+  "website_url": "https://seranking.com",
+  "pricing": "Paid",
+  "tagline": "SE Ranking tracks keyword rankings and runs site audits, backlink checks and competitor research.",
+  "best_for": "Freelancers and agencies handling SEO for several sites",
+  "platforms": [
+   "Web"
+  ],
+  "description": "SE Ranking tracks keyword rankings and runs site audits, backlink checks and competitor research. It is aimed at freelancers and agencies handling SEO for several sites, so the interface and defaults assume that kind of day-to-day work rather than a general audience.\n\nA sensible way in is to try SE Ranking on one small, real task and judge the result against semrush. Expect to spend a little time on setup, and review anything it produces before relying on it. Features, limits and pricing change, so check the official site for current plans.",
+  "use_steps": [
+   "Go to seranking.com and create an account or sign in.",
+   "Add your site and 20 keywords, then run the audit.",
+   "Run it on one small real project and compare the outcome with semrush.",
+   "Review the output by hand and adjust settings before wider use."
+  ],
+  "pros": [
+   "Covers many SEO jobs",
+   "Good for agencies",
+   "White-label reporting"
+  ],
+  "cons": [
+   "Plans scale by usage",
+   "Data depth differs from the biggest suites"
+  ],
+  "alternatives": [
+   "semrush",
+   "ahrefs"
+  ],
+  "tags": [
+   "seo",
+   "rank tracking",
+   "audit",
+   "backlinks"
+  ],
+  "features": [
+   "Rank tracking",
+   "Site audit",
+   "Backlink checker",
+   "Competitor research"
+  ],
+  "use_cases": [
+   "Reporting rankings to clients",
+   "Auditing technical issues",
+   "Watching competitors"
+  ],
+  "pricing_details": "Plans, limits and prices change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is SE Ranking used for?",
+    "a": "SE Ranking tracks keyword rankings and runs site audits, backlink checks and competitor research."
+   },
+   {
+    "q": "Who is SE Ranking a good fit for?",
+    "a": "It is aimed at freelancers and agencies handling SEO for several sites. Others may find it more than they need."
+   },
+   {
+    "q": "How do I find out what SE Ranking costs now?",
+    "a": "Open seranking.com and look at the pricing or plans page, since offers and limits change."
+   }
+  ],
+  "seo_title": "SE Ranking: What It Does, Features and Alternatives",
+  "seo_description": "A plain overview of SE Ranking: what it does, who it suits, key features, pros, cons and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "serpstat",
+  "name": "Serpstat",
+  "category": "marketing",
+  "website_url": "https://serpstat.com",
+  "pricing": "Paid",
+  "tagline": "Serpstat is an all-in-one SEO platform for keyword research, rank tracking, audits and competitor analysis.",
+  "best_for": "Small agencies and in-house marketers",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Serpstat is an all-in-one SEO platform for keyword research, rank tracking, audits and competitor analysis. It is aimed at small agencies and in-house marketers, so the interface and defaults assume that kind of day-to-day work rather than a general audience.\n\nA sensible way in is to try Serpstat on one small, real task and judge the result against semrush. Expect to spend a little time on setup, and review anything it produces before relying on it. Features, limits and pricing change, so check the official site for current plans.",
+  "use_steps": [
+   "Go to serpstat.com and create an account or sign in.",
+   "Enter a competitor domain and export its top keywords.",
+   "Run it on one small real project and compare the outcome with semrush.",
+   "Review the output by hand and adjust settings before wider use."
+  ],
+  "pros": [
+   "Broad toolset",
+   "Reasonable fit for small teams",
+   "Multiple regional databases"
+  ],
+  "cons": [
+   "Interface has many modules to learn",
+   "Data quality varies by market"
+  ],
+  "alternatives": [
+   "semrush",
+   "se-ranking"
+  ],
+  "tags": [
+   "seo",
+   "keywords",
+   "audit",
+   "competitors"
+  ],
+  "features": [
+   "Keyword research",
+   "Rank tracking",
+   "Site audit",
+   "Backlink analysis"
+  ],
+  "use_cases": [
+   "Finding keyword ideas",
+   "Auditing a site",
+   "Comparing competitors"
+  ],
+  "pricing_details": "Plans, limits and prices change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Serpstat used for?",
+    "a": "Serpstat is an all-in-one SEO platform for keyword research, rank tracking, audits and competitor analysis."
+   },
+   {
+    "q": "Who is Serpstat a good fit for?",
+    "a": "It is aimed at small agencies and in-house marketers. Others may find it more than they need."
+   },
+   {
+    "q": "How do I find out what Serpstat costs now?",
+    "a": "Open serpstat.com and look at the pricing or plans page, since offers and limits change."
+   }
+  ],
+  "seo_title": "Serpstat: What It Does, Features and Alternatives",
+  "seo_description": "A plain overview of Serpstat: what it does, who it suits, key features, pros, cons and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "rank-math",
+  "name": "Rank Math",
+  "category": "marketing",
+  "website_url": "https://rankmath.com",
+  "pricing": "Freemium",
+  "tagline": "Rank Math is a WordPress SEO plugin for titles, meta tags, schema markup and sitemaps.",
+  "best_for": "WordPress site owners handling their own SEO",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Rank Math is a WordPress SEO plugin for titles, meta tags, schema markup and sitemaps. It is aimed at WordPress site owners handling their own SEO, so the interface and defaults assume that kind of day-to-day work rather than a general audience.\n\nA sensible way in is to try Rank Math on one small, real task and judge the result against yoast-seo. Expect to spend a little time on setup, and review anything it produces before relying on it. Features, limits and pricing change, so check the official site for current plans.",
+  "use_steps": [
+   "Go to rankmath.com and create an account or sign in.",
+   "Run the setup wizard and optimise one existing post.",
+   "Run it on one small real project and compare the outcome with yoast-seo.",
+   "Review the output by hand and adjust settings before wider use."
+  ],
+  "pros": [
+   "Many features in a WordPress plugin",
+   "Setup wizard",
+   "Free tier available"
+  ],
+  "cons": [
+   "WordPress only",
+   "Plugin settings can overwhelm beginners"
+  ],
+  "alternatives": [
+   "yoast-seo",
+   "surfer-seo"
+  ],
+  "tags": [
+   "wordpress",
+   "seo plugin",
+   "schema",
+   "sitemaps"
+  ],
+  "features": [
+   "Meta and title editing",
+   "Schema markup",
+   "XML sitemaps",
+   "Redirect manager"
+  ],
+  "use_cases": [
+   "Optimising WordPress posts",
+   "Adding structured data",
+   "Managing redirects"
+  ],
+  "pricing_details": "Plans, limits and prices change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Rank Math used for?",
+    "a": "Rank Math is a WordPress SEO plugin for titles, meta tags, schema markup and sitemaps."
+   },
+   {
+    "q": "Who is Rank Math a good fit for?",
+    "a": "It is aimed at WordPress site owners handling their own SEO. Others may find it more than they need."
+   },
+   {
+    "q": "How do I find out what Rank Math costs now?",
+    "a": "Open rankmath.com and look at the pricing or plans page, since offers and limits change."
+   }
+  ],
+  "seo_title": "Rank Math: What It Does, Features and Alternatives",
+  "seo_description": "A plain overview of Rank Math: what it does, who it suits, key features, pros, cons and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "majestic",
+  "name": "Majestic",
+  "category": "marketing",
+  "website_url": "https://majestic.com",
+  "pricing": "Paid",
+  "tagline": "Majestic is a backlink index and link analysis tool for studying who links to a website.",
+  "best_for": "Link builders and SEO analysts",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Majestic is a backlink index and link analysis tool for studying who links to a website. It is aimed at link builders and SEO analysts, so the interface and defaults assume that kind of day-to-day work rather than a general audience.\n\nA sensible way in is to try Majestic on one small, real task and judge the result against ahrefs. Expect to spend a little time on setup, and review anything it produces before relying on it. Features, limits and pricing change, so check the official site for current plans.",
+  "use_steps": [
+   "Go to majestic.com and create an account or sign in.",
+   "Enter your homepage and review the top referring domains.",
+   "Run it on one small real project and compare the outcome with ahrefs.",
+   "Review the output by hand and adjust settings before wider use."
+  ],
+  "pros": [
+   "Specialised in links",
+   "Own metrics",
+   "Useful for competitor link research"
+  ],
+  "cons": [
+   "Narrower than full SEO suites",
+   "Interface feels technical"
+  ],
+  "alternatives": [
+   "ahrefs",
+   "moz"
+  ],
+  "tags": [
+   "backlinks",
+   "link building",
+   "seo",
+   "index"
+  ],
+  "features": [
+   "Backlink explorer",
+   "Trust and citation metrics",
+   "Link context",
+   "Competitor comparison"
+  ],
+  "use_cases": [
+   "Auditing a backlink profile",
+   "Finding link opportunities",
+   "Comparing sites' links"
+  ],
+  "pricing_details": "Plans, limits and prices change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Majestic used for?",
+    "a": "Majestic is a backlink index and link analysis tool for studying who links to a website."
+   },
+   {
+    "q": "Who is Majestic a good fit for?",
+    "a": "It is aimed at link builders and SEO analysts. Others may find it more than they need."
+   },
+   {
+    "q": "How do I find out what Majestic costs now?",
+    "a": "Open majestic.com and look at the pricing or plans page, since offers and limits change."
+   }
+  ],
+  "seo_title": "Majestic: What It Does, Features and Alternatives",
+  "seo_description": "A plain overview of Majestic: what it does, who it suits, key features, pros, cons and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "sitebulb",
+  "name": "Sitebulb",
+  "category": "marketing",
+  "website_url": "https://sitebulb.com",
+  "pricing": "Paid",
+  "tagline": "Sitebulb is a desktop and cloud website crawler that explains technical SEO issues with visual reports.",
+  "best_for": "Technical SEO specialists",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Sitebulb is a desktop and cloud website crawler that explains technical SEO issues with visual reports. It is aimed at technical SEO specialists, so the interface and defaults assume that kind of day-to-day work rather than a general audience.\n\nA sensible way in is to try Sitebulb on one small, real task and judge the result against screaming-frog. Expect to spend a little time on setup, and review anything it produces before relying on it. Features, limits and pricing change, so check the official site for current plans.",
+  "use_steps": [
+   "Go to sitebulb.com and create an account or sign in.",
+   "Crawl a small site and read the top-priority hints.",
+   "Run it on one small real project and compare the outcome with screaming-frog.",
+   "Review the output by hand and adjust settings before wider use."
+  ],
+  "pros": [
+   "Explains issues clearly",
+   "Visual audit reports",
+   "Good for agencies"
+  ],
+  "cons": [
+   "Crawler-style tool needs SEO knowledge",
+   "Large sites need resources"
+  ],
+  "alternatives": [
+   "screaming-frog",
+   "semrush"
+  ],
+  "tags": [
+   "crawler",
+   "technical seo",
+   "audit",
+   "reports"
+  ],
+  "features": [
+   "Site crawling",
+   "Prioritised hints",
+   "Visual reports",
+   "Audit comparison"
+  ],
+  "use_cases": [
+   "Technical audits",
+   "Client reports",
+   "Tracking fixes over time"
+  ],
+  "pricing_details": "Plans, limits and prices change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Sitebulb used for?",
+    "a": "Sitebulb is a desktop and cloud website crawler that explains technical SEO issues with visual reports."
+   },
+   {
+    "q": "Who is Sitebulb a good fit for?",
+    "a": "It is aimed at technical SEO specialists. Others may find it more than they need."
+   },
+   {
+    "q": "How do I find out what Sitebulb costs now?",
+    "a": "Open sitebulb.com and look at the pricing or plans page, since offers and limits change."
+   }
+  ],
+  "seo_title": "Sitebulb: What It Does, Features and Alternatives",
+  "seo_description": "A plain overview of Sitebulb: what it does, who it suits, key features, pros, cons and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "alsoasked",
+  "name": "AlsoAsked",
+  "category": "marketing",
+  "website_url": "https://alsoasked.com",
+  "pricing": "Freemium",
+  "tagline": "AlsoAsked maps the 'People Also Ask' questions that search engines show for a topic.",
+  "best_for": "Content writers and SEO planners",
+  "platforms": [
+   "Web"
+  ],
+  "description": "AlsoAsked maps the 'People Also Ask' questions that search engines show for a topic. It is aimed at content writers and SEO planners, so the interface and defaults assume that kind of day-to-day work rather than a general audience.\n\nA sensible way in is to try AlsoAsked on one small, real task and judge the result against answerthepublic. Expect to spend a little time on setup, and review anything it produces before relying on it. Features, limits and pricing change, so check the official site for current plans.",
+  "use_steps": [
+   "Go to alsoasked.com and create an account or sign in.",
+   "Enter one topic and turn the first-level questions into headings.",
+   "Run it on one small real project and compare the outcome with answerthepublic.",
+   "Review the output by hand and adjust settings before wider use."
+  ],
+  "pros": [
+   "Fast route to real questions",
+   "Visual question trees",
+   "Good for outline planning"
+  ],
+  "cons": [
+   "Narrow in scope",
+   "Free searches are limited"
+  ],
+  "alternatives": [
+   "answerthepublic",
+   "ubersuggest"
+  ],
+  "tags": [
+   "questions",
+   "content planning",
+   "search intent",
+   "paa"
+  ],
+  "features": [
+   "Question mapping",
+   "Topic visualisations",
+   "Exports",
+   "Multiple languages"
+  ],
+  "use_cases": [
+   "Planning article outlines",
+   "Finding FAQ ideas",
+   "Understanding search intent"
+  ],
+  "pricing_details": "Plans, limits and prices change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is AlsoAsked used for?",
+    "a": "AlsoAsked maps the 'People Also Ask' questions that search engines show for a topic."
+   },
+   {
+    "q": "Who is AlsoAsked a good fit for?",
+    "a": "It is aimed at content writers and SEO planners. Others may find it more than they need."
+   },
+   {
+    "q": "How do I find out what AlsoAsked costs now?",
+    "a": "Open alsoasked.com and look at the pricing or plans page, since offers and limits change."
+   }
+  ],
+  "seo_title": "AlsoAsked: What It Does, Features and Alternatives",
+  "seo_description": "A plain overview of AlsoAsked: what it does, who it suits, key features, pros, cons and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "keywords-everywhere",
+  "name": "Keywords Everywhere",
+  "category": "marketing",
+  "website_url": "https://keywordseverywhere.com",
+  "pricing": "Paid",
+  "tagline": "Keywords Everywhere is a browser extension that shows search volume and related keywords next to search results.",
+  "best_for": "Bloggers and marketers who want quick keyword data",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Keywords Everywhere is a browser extension that shows search volume and related keywords next to search results. It is aimed at bloggers and marketers who want quick keyword data, so the interface and defaults assume that kind of day-to-day work rather than a general audience.\n\nA sensible way in is to try Keywords Everywhere on one small, real task and judge the result against ubersuggest. Expect to spend a little time on setup, and review anything it produces before relying on it. Features, limits and pricing change, so check the official site for current plans.",
+  "use_steps": [
+   "Go to keywordseverywhere.com and create an account or sign in.",
+   "Install the extension and run a Google search to see the overlay.",
+   "Run it on one small real project and compare the outcome with ubersuggest.",
+   "Review the output by hand and adjust settings before wider use."
+  ],
+  "pros": [
+   "Data appears while you browse",
+   "Low-friction workflow",
+   "Handy for content writers"
+  ],
+  "cons": [
+   "Uses credits",
+   "Not a full SEO suite"
+  ],
+  "alternatives": [
+   "ubersuggest",
+   "mangools"
+  ],
+  "tags": [
+   "extension",
+   "keywords",
+   "search volume",
+   "content"
+  ],
+  "features": [
+   "Search volume overlay",
+   "Related keywords",
+   "Competitor data",
+   "Trend charts"
+  ],
+  "use_cases": [
+   "Quick keyword checks",
+   "Writing briefs",
+   "Scanning competitor pages"
+  ],
+  "pricing_details": "Plans, limits and prices change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Keywords Everywhere used for?",
+    "a": "Keywords Everywhere is a browser extension that shows search volume and related keywords next to search results."
+   },
+   {
+    "q": "Who is Keywords Everywhere a good fit for?",
+    "a": "It is aimed at bloggers and marketers who want quick keyword data. Others may find it more than they need."
+   },
+   {
+    "q": "How do I find out what Keywords Everywhere costs now?",
+    "a": "Open keywordseverywhere.com and look at the pricing or plans page, since offers and limits change."
+   }
+  ],
+  "seo_title": "Keywords Everywhere: What It Does, Features and Alternatives",
+  "seo_description": "A plain overview of Keywords Everywhere: what it does, who it suits, key features, pros, cons and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "pagespeed-insights",
+  "name": "PageSpeed Insights",
+  "category": "marketing",
+  "website_url": "https://pagespeed.web.dev",
+  "pricing": "Free",
+  "tagline": "PageSpeed Insights tests a page's loading performance and reports Core Web Vitals with improvement suggestions.",
+  "best_for": "Developers and site owners checking speed",
+  "platforms": [
+   "Web"
+  ],
+  "description": "PageSpeed Insights tests a page's loading performance and reports Core Web Vitals with improvement suggestions. It is aimed at developers and site owners checking speed, so the interface and defaults assume that kind of day-to-day work rather than a general audience.\n\nA sensible way in is to try PageSpeed Insights on one small, real task and judge the result against google-search-console. Expect to spend a little time on setup, and review anything it produces before relying on it. Features, limits and pricing change, so check the official site for current plans.",
+  "use_steps": [
+   "Go to pagespeed.web.dev and create an account or sign in.",
+   "Paste a URL, run the test and read the mobile opportunities.",
+   "Run it on one small real project and compare the outcome with google-search-console.",
+   "Review the output by hand and adjust settings before wider use."
+  ],
+  "pros": [
+   "Free from Google",
+   "Uses real-user data when available",
+   "No signup needed"
+  ],
+  "cons": [
+   "Scores vary between runs",
+   "Shows problems, not full fixes"
+  ],
+  "alternatives": [
+   "google-search-console",
+   "screaming-frog"
+  ],
+  "tags": [
+   "performance",
+   "core web vitals",
+   "speed",
+   "google"
+  ],
+  "features": [
+   "Core Web Vitals",
+   "Lab and field data",
+   "Mobile and desktop reports",
+   "Opportunity list"
+  ],
+  "use_cases": [
+   "Checking page speed",
+   "Prioritising performance fixes",
+   "Monitoring improvements"
+  ],
+  "pricing_details": "Described as free to use; check the official site for any limits or changes.",
+  "faq": [
+   {
+    "q": "What is PageSpeed Insights used for?",
+    "a": "PageSpeed Insights tests a page's loading performance and reports Core Web Vitals with improvement suggestions."
+   },
+   {
+    "q": "Who is PageSpeed Insights a good fit for?",
+    "a": "It is aimed at developers and site owners checking speed. Others may find it more than they need."
+   },
+   {
+    "q": "How do I find out what PageSpeed Insights costs now?",
+    "a": "Open pagespeed.web.dev and look at the pricing or plans page, since offers and limits change."
+   }
+  ],
+  "seo_title": "PageSpeed Insights: What It Does, Features and Alternatives",
+  "seo_description": "A plain overview of PageSpeed Insights: what it does, who it suits, key features, pros, cons and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "bing-webmaster-tools",
+  "name": "Bing Webmaster Tools",
+  "category": "marketing",
+  "website_url": "https://www.bing.com/webmasters",
+  "pricing": "Free",
+  "tagline": "Bing Webmaster Tools lets site owners submit sitemaps and view crawl, indexing and search performance data for Bing.",
+  "best_for": "Site owners wanting data beyond Google",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Bing Webmaster Tools lets site owners submit sitemaps and view crawl, indexing and search performance data for Bing. It is aimed at site owners wanting data beyond Google, so the interface and defaults assume that kind of day-to-day work rather than a general audience.\n\nA sensible way in is to try Bing Webmaster Tools on one small, real task and judge the result against google-search-console. Expect to spend a little time on setup, and review anything it produces before relying on it. Features, limits and pricing change, so check the official site for current plans.",
+  "use_steps": [
+   "Go to bing.com/webmasters and create an account or sign in.",
+   "Verify your site and submit your sitemap.",
+   "Run it on one small real project and compare the outcome with google-search-console.",
+   "Review the output by hand and adjust settings before wider use."
+  ],
+  "pros": [
+   "Free",
+   "Complements Search Console",
+   "Imports from Search Console"
+  ],
+  "cons": [
+   "Smaller traffic share than Google",
+   "Fewer tutorials"
+  ],
+  "alternatives": [
+   "google-search-console",
+   "yoast-seo"
+  ],
+  "tags": [
+   "bing",
+   "search console",
+   "indexing",
+   "webmaster"
+  ],
+  "features": [
+   "Sitemap submission",
+   "Search performance",
+   "Index coverage",
+   "URL inspection"
+  ],
+  "use_cases": [
+   "Submitting sitemaps",
+   "Checking Bing impressions",
+   "Finding crawl errors"
+  ],
+  "pricing_details": "Described as free to use; check the official site for any limits or changes.",
+  "faq": [
+   {
+    "q": "What is Bing Webmaster Tools used for?",
+    "a": "Bing Webmaster Tools lets site owners submit sitemaps and view crawl, indexing and search performance data for Bing."
+   },
+   {
+    "q": "Who is Bing Webmaster Tools a good fit for?",
+    "a": "It is aimed at site owners wanting data beyond Google. Others may find it more than they need."
+   },
+   {
+    "q": "How do I find out what Bing Webmaster Tools costs now?",
+    "a": "Open bing.com/webmasters and look at the pricing or plans page, since offers and limits change."
+   }
+  ],
+  "seo_title": "Bing Webmaster Tools: What It Does, Features and Alternative",
+  "seo_description": "A plain overview of Bing Webmaster Tools: what it does, who it suits, key features, pros, cons and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "plausible",
+  "name": "Plausible Analytics",
+  "category": "research",
+  "website_url": "https://plausible.io",
+  "pricing": "Paid",
+  "tagline": "Plausible Analytics is a lightweight, privacy-friendly website analytics tool with a single-page dashboard.",
+  "best_for": "Site owners wanting simple analytics without cookie banners",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Plausible Analytics is a lightweight, privacy-friendly website analytics tool with a single-page dashboard. It is aimed at site owners wanting simple analytics without cookie banners, so the interface and defaults assume that kind of day-to-day work rather than a general audience.\n\nA sensible way in is to try Plausible Analytics on one small, real task and judge the result against fathom-analytics. Expect to spend a little time on setup, and review anything it produces before relying on it. Features, limits and pricing change, so check the official site for current plans.",
+  "use_steps": [
+   "Go to plausible.io and create an account or sign in.",
+   "Add the script tag to your site and check the dashboard after a visit.",
+   "Run it on one small real project and compare the outcome with fathom-analytics.",
+   "Review the output by hand and adjust settings before wider use."
+  ],
+  "pros": [
+   "Simple to read",
+   "Small script",
+   "Privacy focused"
+  ],
+  "cons": [
+   "Less detail than larger suites",
+   "Paid hosted plan"
+  ],
+  "alternatives": [
+   "fathom-analytics",
+   "matomo"
+  ],
+  "tags": [
+   "privacy",
+   "web analytics",
+   "lightweight",
+   "dashboard"
+  ],
+  "features": [
+   "One-page dashboard",
+   "Cookie-free tracking",
+   "Goals and events",
+   "Self-hosting option"
+  ],
+  "use_cases": [
+   "Replacing Google Analytics",
+   "Tracking blog traffic",
+   "Respecting visitor privacy"
+  ],
+  "pricing_details": "Plans, limits and prices change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Plausible Analytics used for?",
+    "a": "Plausible Analytics is a lightweight, privacy-friendly website analytics tool with a single-page dashboard."
+   },
+   {
+    "q": "Who is Plausible Analytics a good fit for?",
+    "a": "It is aimed at site owners wanting simple analytics without cookie banners. Others may find it more than they need."
+   },
+   {
+    "q": "How do I find out what Plausible Analytics costs now?",
+    "a": "Open plausible.io and look at the pricing or plans page, since offers and limits change."
+   }
+  ],
+  "seo_title": "Plausible Analytics: What It Does, Features and Alternatives",
+  "seo_description": "A plain overview of Plausible Analytics: what it does, who it suits, key features, pros, cons and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "fathom-analytics",
+  "name": "Fathom Analytics",
+  "category": "research",
+  "website_url": "https://usefathom.com",
+  "pricing": "Paid",
+  "tagline": "Fathom Analytics offers privacy-focused website analytics with a clean dashboard and no cookies.",
+  "best_for": "Owners of small sites and blogs",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Fathom Analytics offers privacy-focused website analytics with a clean dashboard and no cookies. It is aimed at owners of small sites and blogs, so the interface and defaults assume that kind of day-to-day work rather than a general audience.\n\nA sensible way in is to try Fathom Analytics on one small, real task and judge the result against plausible. Expect to spend a little time on setup, and review anything it produces before relying on it. Features, limits and pricing change, so check the official site for current plans.",
+  "use_steps": [
+   "Go to usefathom.com and create an account or sign in.",
+   "Add your site and install the tracking snippet.",
+   "Run it on one small real project and compare the outcome with plausible.",
+   "Review the output by hand and adjust settings before wider use."
+  ],
+  "pros": [
+   "Easy interface",
+   "Privacy emphasis",
+   "Little setup"
+  ],
+  "cons": [
+   "Limited depth",
+   "No free tier is promised, check the site"
+  ],
+  "alternatives": [
+   "plausible",
+   "matomo"
+  ],
+  "tags": [
+   "privacy",
+   "analytics",
+   "simple",
+   "cookieless"
+  ],
+  "features": [
+   "Simple dashboard",
+   "Uptime monitoring",
+   "Events",
+   "Cookie-free tracking"
+  ],
+  "use_cases": [
+   "Basic traffic reporting",
+   "Privacy-friendly analytics",
+   "Monitoring uptime"
+  ],
+  "pricing_details": "Plans, limits and prices change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Fathom Analytics used for?",
+    "a": "Fathom Analytics offers privacy-focused website analytics with a clean dashboard and no cookies."
+   },
+   {
+    "q": "Who is Fathom Analytics a good fit for?",
+    "a": "It is aimed at owners of small sites and blogs. Others may find it more than they need."
+   },
+   {
+    "q": "How do I find out what Fathom Analytics costs now?",
+    "a": "Open usefathom.com and look at the pricing or plans page, since offers and limits change."
+   }
+  ],
+  "seo_title": "Fathom Analytics: What It Does, Features and Alternatives",
+  "seo_description": "A plain overview of Fathom Analytics: what it does, who it suits, key features, pros, cons and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "matomo",
+  "name": "Matomo",
+  "category": "research",
+  "website_url": "https://matomo.org",
+  "pricing": "Open source",
+  "tagline": "Matomo is an open-source web analytics platform you can host yourself or use as a cloud service.",
+  "best_for": "Organisations needing control over their analytics data",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Matomo is an open-source web analytics platform you can host yourself or use as a cloud service. It is aimed at organisations needing control over their analytics data, so the interface and defaults assume that kind of day-to-day work rather than a general audience.\n\nA sensible way in is to try Matomo on one small, real task and judge the result against plausible. Expect to spend a little time on setup, and review anything it produces before relying on it. Features, limits and pricing change, so check the official site for current plans.",
+  "use_steps": [
+   "Go to matomo.org and create an account or sign in.",
+   "Choose cloud or self-hosted and add the tracking code.",
+   "Run it on one small real project and compare the outcome with plausible.",
+   "Review the output by hand and adjust settings before wider use."
+  ],
+  "pros": [
+   "Open source core",
+   "Own your data",
+   "Feature-rich"
+  ],
+  "cons": [
+   "Self-hosting needs technical skill",
+   "Some features are paid add-ons"
+  ],
+  "alternatives": [
+   "plausible",
+   "google-analytics"
+  ],
+  "tags": [
+   "open source",
+   "self-hosted",
+   "web analytics",
+   "privacy"
+  ],
+  "features": [
+   "Visitor reports",
+   "Heatmaps and recordings (some plans)",
+   "Self-hosting",
+   "Data ownership controls"
+  ],
+  "use_cases": [
+   "Self-hosted analytics",
+   "Compliance-minded tracking",
+   "Replacing Google Analytics"
+  ],
+  "pricing_details": "Plans, limits and prices change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Matomo used for?",
+    "a": "Matomo is an open-source web analytics platform you can host yourself or use as a cloud service."
+   },
+   {
+    "q": "Who is Matomo a good fit for?",
+    "a": "It is aimed at organisations needing control over their analytics data. Others may find it more than they need."
+   },
+   {
+    "q": "How do I find out what Matomo costs now?",
+    "a": "Open matomo.org and look at the pricing or plans page, since offers and limits change."
+   }
+  ],
+  "seo_title": "Matomo: What It Does, Features and Alternatives",
+  "seo_description": "A plain overview of Matomo: what it does, who it suits, key features, pros, cons and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "posthog",
+  "name": "PostHog",
+  "category": "research",
+  "website_url": "https://posthog.com",
+  "pricing": "Freemium",
+  "tagline": "PostHog is a product analytics platform with event tracking, session replay, feature flags and experiments.",
+  "best_for": "Product teams and developers",
+  "platforms": [
+   "Web"
+  ],
+  "description": "PostHog is a product analytics platform with event tracking, session replay, feature flags and experiments. It is aimed at product teams and developers, so the interface and defaults assume that kind of day-to-day work rather than a general audience.\n\nA sensible way in is to try PostHog on one small, real task and judge the result against mixpanel. Expect to spend a little time on setup, and review anything it produces before relying on it. Features, limits and pricing change, so check the official site for current plans.",
+  "use_steps": [
+   "Go to posthog.com and create an account or sign in.",
+   "Install the snippet and capture your first events.",
+   "Run it on one small real project and compare the outcome with mixpanel.",
+   "Review the output by hand and adjust settings before wider use."
+  ],
+  "pros": [
+   "Many tools in one platform",
+   "Open-source roots",
+   "Developer friendly"
+  ],
+  "cons": [
+   "Broad scope takes time to learn",
+   "Usage-based costs need watching"
+  ],
+  "alternatives": [
+   "mixpanel",
+   "amplitude"
+  ],
+  "tags": [
+   "product analytics",
+   "feature flags",
+   "replay",
+   "experiments"
+  ],
+  "features": [
+   "Event analytics",
+   "Session replay",
+   "Feature flags",
+   "A/B experiments"
+  ],
+  "use_cases": [
+   "Measuring product usage",
+   "Running experiments",
+   "Watching user sessions"
+  ],
+  "pricing_details": "Plans, limits and prices change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is PostHog used for?",
+    "a": "PostHog is a product analytics platform with event tracking, session replay, feature flags and experiments."
+   },
+   {
+    "q": "Who is PostHog a good fit for?",
+    "a": "It is aimed at product teams and developers. Others may find it more than they need."
+   },
+   {
+    "q": "How do I find out what PostHog costs now?",
+    "a": "Open posthog.com and look at the pricing or plans page, since offers and limits change."
+   }
+  ],
+  "seo_title": "PostHog: What It Does, Features and Alternatives",
+  "seo_description": "A plain overview of PostHog: what it does, who it suits, key features, pros, cons and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "amplitude",
+  "name": "Amplitude",
+  "category": "research",
+  "website_url": "https://amplitude.com",
+  "pricing": "Freemium",
+  "tagline": "Amplitude is a product analytics platform for studying user behaviour, funnels and retention.",
+  "best_for": "Product managers and growth teams",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Amplitude is a product analytics platform for studying user behaviour, funnels and retention. It is aimed at product managers and growth teams, so the interface and defaults assume that kind of day-to-day work rather than a general audience.\n\nA sensible way in is to try Amplitude on one small, real task and judge the result against mixpanel. Expect to spend a little time on setup, and review anything it produces before relying on it. Features, limits and pricing change, so check the official site for current plans.",
+  "use_steps": [
+   "Go to amplitude.com and create an account or sign in.",
+   "Plan a short event list before instrumenting anything.",
+   "Run it on one small real project and compare the outcome with mixpanel.",
+   "Review the output by hand and adjust settings before wider use."
+  ],
+  "pros": [
+   "Strong behaviour analysis",
+   "Well known among product teams",
+   "Good charts"
+  ],
+  "cons": [
+   "Needs thoughtful event planning",
+   "Plans change"
+  ],
+  "alternatives": [
+   "mixpanel",
+   "posthog"
+  ],
+  "tags": [
+   "product analytics",
+   "funnels",
+   "retention",
+   "cohorts"
+  ],
+  "features": [
+   "Funnels",
+   "Retention analysis",
+   "Cohorts",
+   "Experimentation"
+  ],
+  "use_cases": [
+   "Understanding feature adoption",
+   "Analysing funnels",
+   "Segmenting users"
+  ],
+  "pricing_details": "Plans, limits and prices change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Amplitude used for?",
+    "a": "Amplitude is a product analytics platform for studying user behaviour, funnels and retention."
+   },
+   {
+    "q": "Who is Amplitude a good fit for?",
+    "a": "It is aimed at product managers and growth teams. Others may find it more than they need."
+   },
+   {
+    "q": "How do I find out what Amplitude costs now?",
+    "a": "Open amplitude.com and look at the pricing or plans page, since offers and limits change."
+   }
+  ],
+  "seo_title": "Amplitude: What It Does, Features and Alternatives",
+  "seo_description": "A plain overview of Amplitude: what it does, who it suits, key features, pros, cons and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "microsoft-clarity",
+  "name": "Microsoft Clarity",
+  "category": "research",
+  "website_url": "https://clarity.microsoft.com",
+  "pricing": "Free",
+  "tagline": "Microsoft Clarity provides free heatmaps and session recordings to show how visitors use a site.",
+  "best_for": "Site owners debugging user experience",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Microsoft Clarity provides free heatmaps and session recordings to show how visitors use a site. It is aimed at site owners debugging user experience, so the interface and defaults assume that kind of day-to-day work rather than a general audience.\n\nA sensible way in is to try Microsoft Clarity on one small, real task and judge the result against hotjar. Expect to spend a little time on setup, and review anything it produces before relying on it. Features, limits and pricing change, so check the official site for current plans.",
+  "use_steps": [
+   "Go to clarity.microsoft.com and create an account or sign in.",
+   "Add the Clarity script and review recordings after a day of traffic.",
+   "Run it on one small real project and compare the outcome with hotjar.",
+   "Review the output by hand and adjust settings before wider use."
+  ],
+  "pros": [
+   "Free to use",
+   "Visual insights",
+   "Quick install"
+  ],
+  "cons": [
+   "Consider privacy and consent",
+   "Not a full analytics suite"
+  ],
+  "alternatives": [
+   "hotjar",
+   "crazy-egg"
+  ],
+  "tags": [
+   "heatmaps",
+   "session recording",
+   "ux",
+   "free"
+  ],
+  "features": [
+   "Heatmaps",
+   "Session recordings",
+   "Rage click detection",
+   "Dashboard insights"
+  ],
+  "use_cases": [
+   "Spotting confusing pages",
+   "Watching user sessions",
+   "Fixing UX issues"
+  ],
+  "pricing_details": "Described as free to use; check the official site for any limits or changes.",
+  "faq": [
+   {
+    "q": "What is Microsoft Clarity used for?",
+    "a": "Microsoft Clarity provides free heatmaps and session recordings to show how visitors use a site."
+   },
+   {
+    "q": "Who is Microsoft Clarity a good fit for?",
+    "a": "It is aimed at site owners debugging user experience. Others may find it more than they need."
+   },
+   {
+    "q": "How do I find out what Microsoft Clarity costs now?",
+    "a": "Open clarity.microsoft.com and look at the pricing or plans page, since offers and limits change."
+   }
+  ],
+  "seo_title": "Microsoft Clarity: What It Does, Features and Alternatives",
+  "seo_description": "A plain overview of Microsoft Clarity: what it does, who it suits, key features, pros, cons and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "looker-studio",
+  "name": "Looker Studio",
+  "category": "research",
+  "website_url": "https://lookerstudio.google.com",
+  "pricing": "Free",
+  "tagline": "Looker Studio builds shareable dashboards and reports from Google Analytics, Sheets and other data sources.",
+  "best_for": "Marketers who report to clients or teams",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Looker Studio builds shareable dashboards and reports from Google Analytics, Sheets and other data sources. It is aimed at marketers who report to clients or teams, so the interface and defaults assume that kind of day-to-day work rather than a general audience.\n\nA sensible way in is to try Looker Studio on one small, real task and judge the result against google-analytics. Expect to spend a little time on setup, and review anything it produces before relying on it. Features, limits and pricing change, so check the official site for current plans.",
+  "use_steps": [
+   "Go to lookerstudio.google.com and create an account or sign in.",
+   "Connect Google Analytics and start from a template.",
+   "Run it on one small real project and compare the outcome with google-analytics.",
+   "Review the output by hand and adjust settings before wider use."
+  ],
+  "pros": [
+   "Free",
+   "Connects to Google products",
+   "Easy sharing"
+  ],
+  "cons": [
+   "Can slow with big data",
+   "Complex blends take care"
+  ],
+  "alternatives": [
+   "google-analytics",
+   "metabase"
+  ],
+  "tags": [
+   "dashboards",
+   "reports",
+   "google",
+   "data viz"
+  ],
+  "features": [
+   "Dashboard builder",
+   "Many connectors",
+   "Sharing controls",
+   "Templates"
+  ],
+  "use_cases": [
+   "Client reports",
+   "Marketing dashboards",
+   "Combining data sources"
+  ],
+  "pricing_details": "Described as free to use; check the official site for any limits or changes.",
+  "faq": [
+   {
+    "q": "What is Looker Studio used for?",
+    "a": "Looker Studio builds shareable dashboards and reports from Google Analytics, Sheets and other data sources."
+   },
+   {
+    "q": "Who is Looker Studio a good fit for?",
+    "a": "It is aimed at marketers who report to clients or teams. Others may find it more than they need."
+   },
+   {
+    "q": "How do I find out what Looker Studio costs now?",
+    "a": "Open lookerstudio.google.com and look at the pricing or plans page, since offers and limits change."
+   }
+  ],
+  "seo_title": "Looker Studio: What It Does, Features and Alternatives",
+  "seo_description": "A plain overview of Looker Studio: what it does, who it suits, key features, pros, cons and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "metabase",
+  "name": "Metabase",
+  "category": "research",
+  "website_url": "https://www.metabase.com",
+  "pricing": "Open source",
+  "tagline": "Metabase lets teams query databases and build dashboards without writing everything in SQL.",
+  "best_for": "Teams that want self-serve business intelligence",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Metabase lets teams query databases and build dashboards without writing everything in SQL. It is aimed at teams that want self-serve business intelligence, so the interface and defaults assume that kind of day-to-day work rather than a general audience.\n\nA sensible way in is to try Metabase on one small, real task and judge the result against looker-studio. Expect to spend a little time on setup, and review anything it produces before relying on it. Features, limits and pricing change, so check the official site for current plans.",
+  "use_steps": [
+   "Go to metabase.com and create an account or sign in.",
+   "Connect a database and build one chart with the question builder.",
+   "Run it on one small real project and compare the outcome with looker-studio.",
+   "Review the output by hand and adjust settings before wider use."
+  ],
+  "pros": [
+   "Open source edition",
+   "Approachable for non-analysts",
+   "Works with many databases"
+  ],
+  "cons": [
+   "Needs hosting or paid cloud",
+   "Large models need design work"
+  ],
+  "alternatives": [
+   "looker-studio",
+   "hex"
+  ],
+  "tags": [
+   "bi",
+   "open source",
+   "dashboards",
+   "sql"
+  ],
+  "features": [
+   "Question builder",
+   "Dashboards",
+   "SQL editor",
+   "Embedding"
+  ],
+  "use_cases": [
+   "Internal dashboards",
+   "Self-serve data access",
+   "Sharing KPIs"
+  ],
+  "pricing_details": "Plans, limits and prices change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Metabase used for?",
+    "a": "Metabase lets teams query databases and build dashboards without writing everything in SQL."
+   },
+   {
+    "q": "Who is Metabase a good fit for?",
+    "a": "It is aimed at teams that want self-serve business intelligence. Others may find it more than they need."
+   },
+   {
+    "q": "How do I find out what Metabase costs now?",
+    "a": "Open metabase.com and look at the pricing or plans page, since offers and limits change."
+   }
+  ],
+  "seo_title": "Metabase: What It Does, Features and Alternatives",
+  "seo_description": "A plain overview of Metabase: what it does, who it suits, key features, pros, cons and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "umami",
+  "name": "Umami",
+  "category": "research",
+  "website_url": "https://umami.is",
+  "pricing": "Open source",
+  "tagline": "Umami is a simple, privacy-focused open-source web analytics tool.",
+  "best_for": "Developers who want self-hosted stats",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Umami is a simple, privacy-focused open-source web analytics tool. It is aimed at developers who want self-hosted stats, so the interface and defaults assume that kind of day-to-day work rather than a general audience.\n\nA sensible way in is to try Umami on one small, real task and judge the result against plausible. Expect to spend a little time on setup, and review anything it produces before relying on it. Features, limits and pricing change, so check the official site for current plans.",
+  "use_steps": [
+   "Go to umami.is and create an account or sign in.",
+   "Deploy it or sign up, then add your site and tracking snippet.",
+   "Run it on one small real project and compare the outcome with plausible.",
+   "Review the output by hand and adjust settings before wider use."
+  ],
+  "pros": [
+   "Open source",
+   "Light script",
+   "Clear dashboard"
+  ],
+  "cons": [
+   "Fewer features than big suites",
+   "Self-hosting needs a server"
+  ],
+  "alternatives": [
+   "plausible",
+   "matomo"
+  ],
+  "tags": [
+   "open source",
+   "privacy",
+   "self-hosted",
+   "analytics"
+  ],
+  "features": [
+   "Pageview stats",
+   "Events",
+   "Self-hosting",
+   "Cloud option"
+  ],
+  "use_cases": [
+   "Private analytics for a blog",
+   "Self-hosted tracking",
+   "Simple traffic stats"
+  ],
+  "pricing_details": "Plans, limits and prices change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Umami used for?",
+    "a": "Umami is a simple, privacy-focused open-source web analytics tool."
+   },
+   {
+    "q": "Who is Umami a good fit for?",
+    "a": "It is aimed at developers who want self-hosted stats. Others may find it more than they need."
+   },
+   {
+    "q": "How do I find out what Umami costs now?",
+    "a": "Open umami.is and look at the pricing or plans page, since offers and limits change."
+   }
+  ],
+  "seo_title": "Umami: What It Does, Features and Alternatives",
+  "seo_description": "A plain overview of Umami: what it does, who it suits, key features, pros, cons and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "tableau",
+  "name": "Tableau",
+  "category": "research",
+  "website_url": "https://www.tableau.com",
+  "pricing": "Paid",
+  "tagline": "Tableau is a business intelligence tool for exploring data and building interactive visualisations and dashboards.",
+  "best_for": "Analysts and organisations doing visual analytics",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Tableau is a business intelligence tool for exploring data and building interactive visualisations and dashboards. It is aimed at analysts and organisations doing visual analytics, so the interface and defaults assume that kind of day-to-day work rather than a general audience.\n\nA sensible way in is to try Tableau on one small, real task and judge the result against power-bi. Expect to spend a little time on setup, and review anything it produces before relying on it. Features, limits and pricing change, so check the official site for current plans.",
+  "use_steps": [
+   "Go to tableau.com and create an account or sign in.",
+   "Connect a spreadsheet and build one chart from drag and drop.",
+   "Run it on one small real project and compare the outcome with power-bi.",
+   "Review the output by hand and adjust settings before wider use."
+  ],
+  "pros": [
+   "Strong visual analysis",
+   "Large user community",
+   "Connects to many sources"
+  ],
+  "cons": [
+   "Licensing cost",
+   "Learning curve"
+  ],
+  "alternatives": [
+   "power-bi",
+   "looker-studio"
+  ],
+  "tags": [
+   "bi",
+   "visualisation",
+   "dashboards",
+   "analytics"
+  ],
+  "features": [
+   "Interactive dashboards",
+   "Data connectors",
+   "Calculated fields",
+   "Sharing"
+  ],
+  "use_cases": [
+   "Executive dashboards",
+   "Exploratory analysis",
+   "Data storytelling"
+  ],
+  "pricing_details": "Plans, limits and prices change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Tableau used for?",
+    "a": "Tableau is a business intelligence tool for exploring data and building interactive visualisations and dashboards."
+   },
+   {
+    "q": "Who is Tableau a good fit for?",
+    "a": "It is aimed at analysts and organisations doing visual analytics. Others may find it more than they need."
+   },
+   {
+    "q": "How do I find out what Tableau costs now?",
+    "a": "Open tableau.com and look at the pricing or plans page, since offers and limits change."
+   }
+  ],
+  "seo_title": "Tableau: What It Does, Features and Alternatives",
+  "seo_description": "A plain overview of Tableau: what it does, who it suits, key features, pros, cons and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "power-bi",
+  "name": "Microsoft Power BI",
+  "category": "research",
+  "website_url": "https://powerbi.microsoft.com",
+  "pricing": "Freemium",
+  "tagline": "Microsoft Power BI is Microsoft's business intelligence tool for reports and dashboards over many data sources.",
+  "best_for": "Organisations that already use Microsoft products",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Microsoft Power BI is Microsoft's business intelligence tool for reports and dashboards over many data sources. It is aimed at organisations that already use Microsoft products, so the interface and defaults assume that kind of day-to-day work rather than a general audience.\n\nA sensible way in is to try Microsoft Power BI on one small, real task and judge the result against tableau. Expect to spend a little time on setup, and review anything it produces before relying on it. Features, limits and pricing change, so check the official site for current plans.",
+  "use_steps": [
+   "Go to powerbi.microsoft.com and create an account or sign in.",
+   "Load an Excel file and build a single report page.",
+   "Run it on one small real project and compare the outcome with tableau.",
+   "Review the output by hand and adjust settings before wider use."
+  ],
+  "pros": [
+   "Fits Microsoft environments",
+   "Wide connector support",
+   "Active community"
+  ],
+  "cons": [
+   "DAX takes learning",
+   "Licensing can be confusing"
+  ],
+  "alternatives": [
+   "tableau",
+   "looker-studio"
+  ],
+  "tags": [
+   "bi",
+   "microsoft",
+   "dashboards",
+   "reporting"
+  ],
+  "features": [
+   "Report designer",
+   "DAX calculations",
+   "Excel integration",
+   "Sharing in the Microsoft ecosystem"
+  ],
+  "use_cases": [
+   "Company dashboards",
+   "Reporting from Excel",
+   "Modelling data"
+  ],
+  "pricing_details": "Plans, limits and prices change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Microsoft Power BI used for?",
+    "a": "Microsoft Power BI is Microsoft's business intelligence tool for reports and dashboards over many data sources."
+   },
+   {
+    "q": "Who is Microsoft Power BI a good fit for?",
+    "a": "It is aimed at organisations that already use Microsoft products. Others may find it more than they need."
+   },
+   {
+    "q": "How do I find out what Microsoft Power BI costs now?",
+    "a": "Open powerbi.microsoft.com and look at the pricing or plans page, since offers and limits change."
+   }
+  ],
+  "seo_title": "Microsoft Power BI: What It Does, Features and Alternatives",
+  "seo_description": "A plain overview of Microsoft Power BI: what it does, who it suits, key features, pros, cons and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "surveymonkey",
+  "name": "SurveyMonkey",
+  "category": "research",
+  "website_url": "https://www.surveymonkey.com",
+  "pricing": "Freemium",
+  "tagline": "SurveyMonkey builds and distributes surveys and summarises responses.",
+  "best_for": "Researchers and marketers gathering feedback",
+  "platforms": [
+   "Web"
+  ],
+  "description": "SurveyMonkey builds and distributes surveys and summarises responses. It is aimed at researchers and marketers gathering feedback, so the interface and defaults assume that kind of day-to-day work rather than a general audience.\n\nA sensible way in is to try SurveyMonkey on one small, real task and judge the result against typeform. Expect to spend a little time on setup, and review anything it produces before relying on it. Features, limits and pricing change, so check the official site for current plans.",
+  "use_steps": [
+   "Go to surveymonkey.com and create an account or sign in.",
+   "Start from a template and trim it to five questions.",
+   "Run it on one small real project and compare the outcome with typeform.",
+   "Review the output by hand and adjust settings before wider use."
+  ],
+  "pros": [
+   "Established and familiar",
+   "Templates to start from",
+   "Basic analysis tools"
+  ],
+  "cons": [
+   "Advanced features are paid",
+   "Response limits on free plans"
+  ],
+  "alternatives": [
+   "typeform",
+   "google-forms"
+  ],
+  "tags": [
+   "surveys",
+   "feedback",
+   "research",
+   "forms"
+  ],
+  "features": [
+   "Survey templates",
+   "Question logic",
+   "Response analysis",
+   "Sharing"
+  ],
+  "use_cases": [
+   "Customer feedback",
+   "Market research",
+   "Employee surveys"
+  ],
+  "pricing_details": "Plans, limits and prices change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is SurveyMonkey used for?",
+    "a": "SurveyMonkey builds and distributes surveys and summarises responses."
+   },
+   {
+    "q": "Who is SurveyMonkey a good fit for?",
+    "a": "It is aimed at researchers and marketers gathering feedback. Others may find it more than they need."
+   },
+   {
+    "q": "How do I find out what SurveyMonkey costs now?",
+    "a": "Open surveymonkey.com and look at the pricing or plans page, since offers and limits change."
+   }
+  ],
+  "seo_title": "SurveyMonkey: What It Does, Features and Alternatives",
+  "seo_description": "A plain overview of SurveyMonkey: what it does, who it suits, key features, pros, cons and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "qualtrics",
+  "name": "Qualtrics",
+  "category": "research",
+  "website_url": "https://www.qualtrics.com",
+  "pricing": "Paid",
+  "tagline": "Qualtrics is an experience-management and survey platform used for academic and market research.",
+  "best_for": "Universities and enterprises running serious research",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Qualtrics is an experience-management and survey platform used for academic and market research. It is aimed at universities and enterprises running serious research, so the interface and defaults assume that kind of day-to-day work rather than a general audience.\n\nA sensible way in is to try Qualtrics on one small, real task and judge the result against surveymonkey. Expect to spend a little time on setup, and review anything it produces before relying on it. Features, limits and pricing change, so check the official site for current plans.",
+  "use_steps": [
+   "Go to qualtrics.com and create an account or sign in.",
+   "Check whether your university provides access first.",
+   "Run it on one small real project and compare the outcome with surveymonkey.",
+   "Review the output by hand and adjust settings before wider use."
+  ],
+  "pros": [
+   "Powerful survey logic",
+   "Used widely in universities",
+   "Scales to large studies"
+  ],
+  "cons": [
+   "Complex for simple polls",
+   "Often institution-licensed"
+  ],
+  "alternatives": [
+   "surveymonkey",
+   "typeform"
+  ],
+  "tags": [
+   "research",
+   "survey",
+   "experience",
+   "academic"
+  ],
+  "features": [
+   "Advanced survey logic",
+   "Panels",
+   "Analysis tools",
+   "Experience management"
+  ],
+  "use_cases": [
+   "Academic studies",
+   "Customer experience programmes",
+   "Market research"
+  ],
+  "pricing_details": "Plans, limits and prices change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Qualtrics used for?",
+    "a": "Qualtrics is an experience-management and survey platform used for academic and market research."
+   },
+   {
+    "q": "Who is Qualtrics a good fit for?",
+    "a": "It is aimed at universities and enterprises running serious research. Others may find it more than they need."
+   },
+   {
+    "q": "How do I find out what Qualtrics costs now?",
+    "a": "Open qualtrics.com and look at the pricing or plans page, since offers and limits change."
+   }
+  ],
+  "seo_title": "Qualtrics: What It Does, Features and Alternatives",
+  "seo_description": "A plain overview of Qualtrics: what it does, who it suits, key features, pros, cons and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "google-forms",
+  "name": "Google Forms",
+  "category": "research",
+  "website_url": "https://forms.google.com",
+  "pricing": "Free",
+  "tagline": "Google Forms creates quick forms and surveys that save responses into Google Sheets.",
+  "best_for": "Students, teachers and small teams",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Google Forms creates quick forms and surveys that save responses into Google Sheets. It is aimed at students, teachers and small teams, so the interface and defaults assume that kind of day-to-day work rather than a general audience.\n\nA sensible way in is to try Google Forms on one small, real task and judge the result against typeform. Expect to spend a little time on setup, and review anything it produces before relying on it. Features, limits and pricing change, so check the official site for current plans.",
+  "use_steps": [
+   "Go to forms.google.com and create an account or sign in.",
+   "Create a form and link responses to a spreadsheet.",
+   "Run it on one small real project and compare the outcome with typeform.",
+   "Review the output by hand and adjust settings before wider use."
+  ],
+  "pros": [
+   "Free with a Google account",
+   "Very easy",
+   "Responses land in Sheets"
+  ],
+  "cons": [
+   "Limited styling",
+   "Basic logic only"
+  ],
+  "alternatives": [
+   "typeform",
+   "surveymonkey"
+  ],
+  "tags": [
+   "forms",
+   "free",
+   "surveys",
+   "google"
+  ],
+  "features": [
+   "Question types",
+   "Response summary",
+   "Sheets integration",
+   "Sharing"
+  ],
+  "use_cases": [
+   "Class quizzes",
+   "Event sign-ups",
+   "Simple surveys"
+  ],
+  "pricing_details": "Described as free to use; check the official site for any limits or changes.",
+  "faq": [
+   {
+    "q": "What is Google Forms used for?",
+    "a": "Google Forms creates quick forms and surveys that save responses into Google Sheets."
+   },
+   {
+    "q": "Who is Google Forms a good fit for?",
+    "a": "It is aimed at students, teachers and small teams. Others may find it more than they need."
+   },
+   {
+    "q": "How do I find out what Google Forms costs now?",
+    "a": "Open forms.google.com and look at the pricing or plans page, since offers and limits change."
+   }
+  ],
+  "seo_title": "Google Forms: What It Does, Features and Alternatives",
+  "seo_description": "A plain overview of Google Forms: what it does, who it suits, key features, pros, cons and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "octoparse",
+  "name": "Octoparse",
+  "category": "research",
+  "website_url": "https://www.octoparse.com",
+  "pricing": "Freemium",
+  "tagline": "Octoparse is a no-code web scraping tool for pulling structured data from websites.",
+  "best_for": "Analysts who need web data without programming",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Octoparse is a no-code web scraping tool for pulling structured data from websites. It is aimed at analysts who need web data without programming, so the interface and defaults assume that kind of day-to-day work rather than a general audience.\n\nA sensible way in is to try Octoparse on one small, real task and judge the result against parsehub. Expect to spend a little time on setup, and review anything it produces before relying on it. Features, limits and pricing change, so check the official site for current plans.",
+  "use_steps": [
+   "Go to octoparse.com and create an account or sign in.",
+   "Pick one public page and build a basic scrape on it.",
+   "Run it on one small real project and compare the outcome with parsehub.",
+   "Review the output by hand and adjust settings before wider use."
+  ],
+  "pros": [
+   "No coding needed",
+   "Templates for common sites",
+   "Exports to spreadsheets"
+  ],
+  "cons": [
+   "Respect each site's terms",
+   "Complex sites need tuning"
+  ],
+  "alternatives": [
+   "parsehub",
+   "apify"
+  ],
+  "tags": [
+   "web scraping",
+   "no-code",
+   "data",
+   "extraction"
+  ],
+  "features": [
+   "Point-and-click scraper",
+   "Templates",
+   "Scheduling",
+   "Data export"
+  ],
+  "use_cases": [
+   "Collecting product listings",
+   "Research data gathering",
+   "Monitoring prices"
+  ],
+  "pricing_details": "Plans, limits and prices change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Octoparse used for?",
+    "a": "Octoparse is a no-code web scraping tool for pulling structured data from websites."
+   },
+   {
+    "q": "Who is Octoparse a good fit for?",
+    "a": "It is aimed at analysts who need web data without programming. Others may find it more than they need."
+   },
+   {
+    "q": "How do I find out what Octoparse costs now?",
+    "a": "Open octoparse.com and look at the pricing or plans page, since offers and limits change."
+   }
+  ],
+  "seo_title": "Octoparse: What It Does, Features and Alternatives",
+  "seo_description": "A plain overview of Octoparse: what it does, who it suits, key features, pros, cons and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "parsehub",
+  "name": "ParseHub",
+  "category": "research",
+  "website_url": "https://www.parsehub.com",
+  "pricing": "Freemium",
+  "tagline": "ParseHub is a visual web scraper that extracts data from dynamic websites into spreadsheets.",
+  "best_for": "Researchers and small businesses",
+  "platforms": [
+   "Web"
+  ],
+  "description": "ParseHub is a visual web scraper that extracts data from dynamic websites into spreadsheets. It is aimed at researchers and small businesses, so the interface and defaults assume that kind of day-to-day work rather than a general audience.\n\nA sensible way in is to try ParseHub on one small, real task and judge the result against octoparse. Expect to spend a little time on setup, and review anything it produces before relying on it. Features, limits and pricing change, so check the official site for current plans.",
+  "use_steps": [
+   "Go to parsehub.com and create an account or sign in.",
+   "Select elements on a small page and export a CSV.",
+   "Run it on one small real project and compare the outcome with octoparse.",
+   "Review the output by hand and adjust settings before wider use."
+  ],
+  "pros": [
+   "Visual workflow",
+   "Handles dynamic pages",
+   "Free option"
+  ],
+  "cons": [
+   "Free plan is limited",
+   "Check terms of target sites"
+  ],
+  "alternatives": [
+   "octoparse",
+   "apify"
+  ],
+  "tags": [
+   "scraping",
+   "visual",
+   "data",
+   "export"
+  ],
+  "features": [
+   "Visual selector",
+   "Dynamic pages",
+   "Scheduling",
+   "Export formats"
+  ],
+  "use_cases": [
+   "Collecting listings",
+   "Research datasets",
+   "Competitor monitoring"
+  ],
+  "pricing_details": "Plans, limits and prices change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is ParseHub used for?",
+    "a": "ParseHub is a visual web scraper that extracts data from dynamic websites into spreadsheets."
+   },
+   {
+    "q": "Who is ParseHub a good fit for?",
+    "a": "It is aimed at researchers and small businesses. Others may find it more than they need."
+   },
+   {
+    "q": "How do I find out what ParseHub costs now?",
+    "a": "Open parsehub.com and look at the pricing or plans page, since offers and limits change."
+   }
+  ],
+  "seo_title": "ParseHub: What It Does, Features and Alternatives",
+  "seo_description": "A plain overview of ParseHub: what it does, who it suits, key features, pros, cons and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "apify",
+  "name": "Apify",
+  "category": "research",
+  "website_url": "https://apify.com",
+  "pricing": "Freemium",
+  "tagline": "Apify is a platform for web scraping and automation with ready-made scrapers called Actors.",
+  "best_for": "Developers who need reliable data collection",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Apify is a platform for web scraping and automation with ready-made scrapers called Actors. It is aimed at developers who need reliable data collection, so the interface and defaults assume that kind of day-to-day work rather than a general audience.\n\nA sensible way in is to try Apify on one small, real task and judge the result against octoparse. Expect to spend a little time on setup, and review anything it produces before relying on it. Features, limits and pricing change, so check the official site for current plans.",
+  "use_steps": [
+   "Go to apify.com and create an account or sign in.",
+   "Run a prebuilt Actor from the store on a small test.",
+   "Run it on one small real project and compare the outcome with octoparse.",
+   "Review the output by hand and adjust settings before wider use."
+  ],
+  "pros": [
+   "Many prebuilt scrapers",
+   "Developer friendly",
+   "Runs in the cloud"
+  ],
+  "cons": [
+   "Usage-based costs",
+   "Best with some coding"
+  ],
+  "alternatives": [
+   "octoparse",
+   "firecrawl"
+  ],
+  "tags": [
+   "scraping",
+   "automation",
+   "api",
+   "cloud"
+  ],
+  "features": [
+   "Actor store",
+   "Scheduling",
+   "API access",
+   "Proxy support"
+  ],
+  "use_cases": [
+   "Collecting web data at scale",
+   "Automating browser tasks",
+   "Feeding data into pipelines"
+  ],
+  "pricing_details": "Plans, limits and prices change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Apify used for?",
+    "a": "Apify is a platform for web scraping and automation with ready-made scrapers called Actors."
+   },
+   {
+    "q": "Who is Apify a good fit for?",
+    "a": "It is aimed at developers who need reliable data collection. Others may find it more than they need."
+   },
+   {
+    "q": "How do I find out what Apify costs now?",
+    "a": "Open apify.com and look at the pricing or plans page, since offers and limits change."
+   }
+  ],
+  "seo_title": "Apify: What It Does, Features and Alternatives",
+  "seo_description": "A plain overview of Apify: what it does, who it suits, key features, pros, cons and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "firecrawl",
+  "name": "Firecrawl",
+  "category": "research",
+  "website_url": "https://www.firecrawl.dev",
+  "pricing": "Freemium",
+  "tagline": "Firecrawl turns websites into clean markdown or structured data for use in AI applications.",
+  "best_for": "Developers building AI apps on web content",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Firecrawl turns websites into clean markdown or structured data for use in AI applications. It is aimed at developers building AI apps on web content, so the interface and defaults assume that kind of day-to-day work rather than a general audience.\n\nA sensible way in is to try Firecrawl on one small, real task and judge the result against apify. Expect to spend a little time on setup, and review anything it produces before relying on it. Features, limits and pricing change, so check the official site for current plans.",
+  "use_steps": [
+   "Go to firecrawl.dev and create an account or sign in.",
+   "Get an API key and scrape one page to markdown.",
+   "Run it on one small real project and compare the outcome with apify.",
+   "Review the output by hand and adjust settings before wider use."
+  ],
+  "pros": [
+   "Developer-focused",
+   "LLM-ready output",
+   "Simple API"
+  ],
+  "cons": [
+   "Needs some coding",
+   "Respect site rules"
+  ],
+  "alternatives": [
+   "apify",
+   "jina-ai"
+  ],
+  "tags": [
+   "crawler",
+   "llm",
+   "api",
+   "markdown"
+  ],
+  "features": [
+   "Crawling",
+   "Markdown output",
+   "Structured extraction",
+   "API access"
+  ],
+  "use_cases": [
+   "Feeding sites into LLMs",
+   "Building RAG datasets",
+   "Extracting page data"
+  ],
+  "pricing_details": "Plans, limits and prices change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Firecrawl used for?",
+    "a": "Firecrawl turns websites into clean markdown or structured data for use in AI applications."
+   },
+   {
+    "q": "Who is Firecrawl a good fit for?",
+    "a": "It is aimed at developers building AI apps on web content. Others may find it more than they need."
+   },
+   {
+    "q": "How do I find out what Firecrawl costs now?",
+    "a": "Open firecrawl.dev and look at the pricing or plans page, since offers and limits change."
+   }
+  ],
+  "seo_title": "Firecrawl: What It Does, Features and Alternatives",
+  "seo_description": "A plain overview of Firecrawl: what it does, who it suits, key features, pros, cons and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "openrefine",
+  "name": "OpenRefine",
+  "category": "research",
+  "website_url": "https://openrefine.org",
+  "pricing": "Open source",
+  "tagline": "OpenRefine is a free desktop tool for cleaning messy data, finding duplicates and transforming columns.",
+  "best_for": "Researchers and librarians tidying datasets",
+  "platforms": [
+   "Web"
+  ],
+  "description": "OpenRefine is a free desktop tool for cleaning messy data, finding duplicates and transforming columns. It is aimed at researchers and librarians tidying datasets, so the interface and defaults assume that kind of day-to-day work rather than a general audience.\n\nA sensible way in is to try OpenRefine on one small, real task and judge the result against knime. Expect to spend a little time on setup, and review anything it produces before relying on it. Features, limits and pricing change, so check the official site for current plans.",
+  "use_steps": [
+   "Go to openrefine.org and create an account or sign in.",
+   "Load a CSV and try a text facet on one column.",
+   "Run it on one small real project and compare the outcome with knime.",
+   "Review the output by hand and adjust settings before wider use."
+  ],
+  "pros": [
+   "Free and open source",
+   "Great for messy text data",
+   "Reproducible operations"
+  ],
+  "cons": [
+   "Desktop tool with a learning curve",
+   "Large files need memory"
+  ],
+  "alternatives": [
+   "knime",
+   "jasp"
+  ],
+  "tags": [
+   "data cleaning",
+   "open source",
+   "desktop",
+   "datasets"
+  ],
+  "features": [
+   "Clustering duplicates",
+   "Faceted browsing",
+   "Transformations",
+   "Reconciliation"
+  ],
+  "use_cases": [
+   "Cleaning survey data",
+   "Standardising names",
+   "Preparing data for analysis"
+  ],
+  "pricing_details": "Plans, limits and prices change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is OpenRefine used for?",
+    "a": "OpenRefine is a free desktop tool for cleaning messy data, finding duplicates and transforming columns."
+   },
+   {
+    "q": "Who is OpenRefine a good fit for?",
+    "a": "It is aimed at researchers and librarians tidying datasets. Others may find it more than they need."
+   },
+   {
+    "q": "How do I find out what OpenRefine costs now?",
+    "a": "Open openrefine.org and look at the pricing or plans page, since offers and limits change."
+   }
+  ],
+  "seo_title": "OpenRefine: What It Does, Features and Alternatives",
+  "seo_description": "A plain overview of OpenRefine: what it does, who it suits, key features, pros, cons and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "our-world-in-data",
+  "name": "Our World in Data",
+  "category": "research",
+  "website_url": "https://ourworldindata.org",
+  "pricing": "Free",
+  "tagline": "Our World in Data publishes charts and datasets on global issues like health, energy and poverty.",
+  "best_for": "Students and journalists needing sourced charts",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Our World in Data publishes charts and datasets on global issues like health, energy and poverty. It is aimed at students and journalists needing sourced charts, so the interface and defaults assume that kind of day-to-day work rather than a general audience.\n\nA sensible way in is to try Our World in Data on one small, real task and judge the result against google-scholar. Expect to spend a little time on setup, and review anything it produces before relying on it. Features, limits and pricing change, so check the official site for current plans.",
+  "use_steps": [
+   "Go to ourworldindata.org and create an account or sign in.",
+   "Search a topic and download the CSV behind a chart.",
+   "Run it on one small real project and compare the outcome with google-scholar.",
+   "Review the output by hand and adjust settings before wider use."
+  ],
+  "pros": [
+   "Free and open",
+   "Sources are documented",
+   "Downloadable data"
+  ],
+  "cons": [
+   "Not custom to your data",
+   "Check each chart's source and date"
+  ],
+  "alternatives": [
+   "google-scholar",
+   "statista"
+  ],
+  "tags": [
+   "data",
+   "charts",
+   "global",
+   "open data"
+  ],
+  "features": [
+   "Interactive charts",
+   "Downloadable data",
+   "Topic articles",
+   "Source documentation"
+  ],
+  "use_cases": [
+   "Finding data for essays",
+   "Citing sourced charts",
+   "Exploring long-term trends"
+  ],
+  "pricing_details": "Described as free to use; check the official site for any limits or changes.",
+  "faq": [
+   {
+    "q": "What is Our World in Data used for?",
+    "a": "Our World in Data publishes charts and datasets on global issues like health, energy and poverty."
+   },
+   {
+    "q": "Who is Our World in Data a good fit for?",
+    "a": "It is aimed at students and journalists needing sourced charts. Others may find it more than they need."
+   },
+   {
+    "q": "How do I find out what Our World in Data costs now?",
+    "a": "Open ourworldindata.org and look at the pricing or plans page, since offers and limits change."
+   }
+  ],
+  "seo_title": "Our World in Data: What It Does, Features and Alternatives",
+  "seo_description": "A plain overview of Our World in Data: what it does, who it suits, key features, pros, cons and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "statista",
+  "name": "Statista",
+  "category": "research",
+  "website_url": "https://www.statista.com",
+  "pricing": "Freemium",
+  "tagline": "Statista collects market and consumer statistics and charts from many sources.",
+  "best_for": "Students and analysts needing quick statistics",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Statista collects market and consumer statistics and charts from many sources. It is aimed at students and analysts needing quick statistics, so the interface and defaults assume that kind of day-to-day work rather than a general audience.\n\nA sensible way in is to try Statista on one small, real task and judge the result against our-world-in-data. Expect to spend a little time on setup, and review anything it produces before relying on it. Features, limits and pricing change, so check the official site for current plans.",
+  "use_steps": [
+   "Go to statista.com and create an account or sign in.",
+   "Search a topic and trace the figure to its original source.",
+   "Run it on one small real project and compare the outcome with our-world-in-data.",
+   "Review the output by hand and adjust settings before wider use."
+  ],
+  "pros": [
+   "Large range of topics",
+   "Easy chart browsing",
+   "Source links"
+  ],
+  "cons": [
+   "Full access is paid",
+   "Verify against original sources"
+  ],
+  "alternatives": [
+   "our-world-in-data",
+   "similarweb"
+  ],
+  "tags": [
+   "statistics",
+   "market data",
+   "charts",
+   "reports"
+  ],
+  "features": [
+   "Statistics database",
+   "Charts",
+   "Reports",
+   "Source links"
+  ],
+  "use_cases": [
+   "Market sizing",
+   "Quick facts for presentations",
+   "Background for reports"
+  ],
+  "pricing_details": "Plans, limits and prices change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Statista used for?",
+    "a": "Statista collects market and consumer statistics and charts from many sources."
+   },
+   {
+    "q": "Who is Statista a good fit for?",
+    "a": "It is aimed at students and analysts needing quick statistics. Others may find it more than they need."
+   },
+   {
+    "q": "How do I find out what Statista costs now?",
+    "a": "Open statista.com and look at the pricing or plans page, since offers and limits change."
+   }
+  ],
+  "seo_title": "Statista: What It Does, Features and Alternatives",
+  "seo_description": "A plain overview of Statista: what it does, who it suits, key features, pros, cons and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "crunchbase",
+  "name": "Crunchbase",
+  "category": "research",
+  "website_url": "https://www.crunchbase.com",
+  "pricing": "Freemium",
+  "tagline": "Crunchbase is a database of companies, funding rounds and investors.",
+  "best_for": "Sales, investors and researchers profiling companies",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Crunchbase is a database of companies, funding rounds and investors. It is aimed at sales, investors and researchers profiling companies, so the interface and defaults assume that kind of day-to-day work rather than a general audience.\n\nA sensible way in is to try Crunchbase on one small, real task and judge the result against zoominfo. Expect to spend a little time on setup, and review anything it produces before relying on it. Features, limits and pricing change, so check the official site for current plans.",
+  "use_steps": [
+   "Go to crunchbase.com and create an account or sign in.",
+   "Look up one company and compare its profile with its own site.",
+   "Run it on one small real project and compare the outcome with zoominfo.",
+   "Review the output by hand and adjust settings before wider use."
+  ],
+  "pros": [
+   "Widely used for company research",
+   "Searchable filters",
+   "Free browsing"
+  ],
+  "cons": [
+   "Full data is paid",
+   "Data may lag reality"
+  ],
+  "alternatives": [
+   "zoominfo",
+   "apollo-io"
+  ],
+  "tags": [
+   "companies",
+   "funding",
+   "research",
+   "startups"
+  ],
+  "features": [
+   "Company profiles",
+   "Funding data",
+   "Investor lists",
+   "Search filters"
+  ],
+  "use_cases": [
+   "Researching startups",
+   "Building prospect lists",
+   "Tracking funding activity"
+  ],
+  "pricing_details": "Plans, limits and prices change, so check the official site for current details.",
+  "faq": [
+   {
+    "q": "What is Crunchbase used for?",
+    "a": "Crunchbase is a database of companies, funding rounds and investors."
+   },
+   {
+    "q": "Who is Crunchbase a good fit for?",
+    "a": "It is aimed at sales, investors and researchers profiling companies. Others may find it more than they need."
+   },
+   {
+    "q": "How do I find out what Crunchbase costs now?",
+    "a": "Open crunchbase.com and look at the pricing or plans page, since offers and limits change."
+   }
+  ],
+  "seo_title": "Crunchbase: What It Does, Features and Alternatives",
+  "seo_description": "A plain overview of Crunchbase: what it does, who it suits, key features, pros, cons and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "world-bank-open-data",
+  "name": "World Bank Open Data",
+  "category": "research",
+  "website_url": "https://data.worldbank.org",
+  "pricing": "Free",
+  "tagline": "World Bank Open Data offers free access to global development indicators by country and year.",
+  "best_for": "Students and researchers comparing countries",
+  "platforms": [
+   "Web"
+  ],
+  "description": "World Bank Open Data offers free access to global development indicators by country and year. It is aimed at students and researchers comparing countries, so the interface and defaults assume that kind of day-to-day work rather than a general audience.\n\nA sensible way in is to try World Bank Open Data on one small, real task and judge the result against our-world-in-data. Expect to spend a little time on setup, and review anything it produces before relying on it. Features, limits and pricing change, so check the official site for current plans.",
+  "use_steps": [
+   "Go to data.worldbank.org and create an account or sign in.",
+   "Pick an indicator and download its series for three countries.",
+   "Run it on one small real project and compare the outcome with our-world-in-data.",
+   "Review the output by hand and adjust settings before wider use."
+  ],
+  "pros": [
+   "Free",
+   "Authoritative source",
+   "Downloadable data"
+  ],
+  "cons": [
+   "Indicators can lag",
+   "Data gaps for some countries"
+  ],
+  "alternatives": [
+   "our-world-in-data",
+   "kaggle"
+  ],
+  "tags": [
+   "open data",
+   "economics",
+   "countries",
+   "indicators"
+  ],
+  "features": [
+   "Country indicators",
+   "Time series",
+   "Downloads",
+   "API"
+  ],
+  "use_cases": [
+   "Economic research",
+   "Comparing countries",
+   "Class projects"
+  ],
+  "pricing_details": "Described as free to use; check the official site for any limits or changes.",
+  "faq": [
+   {
+    "q": "What is World Bank Open Data used for?",
+    "a": "World Bank Open Data offers free access to global development indicators by country and year."
+   },
+   {
+    "q": "Who is World Bank Open Data a good fit for?",
+    "a": "It is aimed at students and researchers comparing countries. Others may find it more than they need."
+   },
+   {
+    "q": "How do I find out what World Bank Open Data costs now?",
+    "a": "Open data.worldbank.org and look at the pricing or plans page, since offers and limits change."
+   }
+  ],
+  "seo_title": "World Bank Open Data: What It Does, Features and Alternative",
+  "seo_description": "A plain overview of World Bank Open Data: what it does, who it suits, key features, pros, cons and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ }
+]

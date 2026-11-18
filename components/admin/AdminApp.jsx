@@ -125,7 +125,7 @@ export default function AdminApp() {
   const [note, setNote] = useState(null);
   const notify = useCallback((m, err) => { setNote({ m, err }); setTimeout(() => setNote(null), err ? 7000 : 3000); }, []);
 
-  useEffect(() => { if (!sb) { setSession(null); return; } sb.auth.getSession().then(({ data }) => setSession(data.session || null)); const { data } = sb.auth.onAuthStateChange((_e, s) => setSession(s || null)); return () => data.subscription.unsubscribe(); }, [sb]);
+  useEffect(() => { if (!sb) { setSession(null); return; } sb.auth.getSession().then(({ data }) => setSession(data.session || null)).catch(() => { try { Object.keys(localStorage).filter((k) => k.startsWith('sb-')).forEach((k) => localStorage.removeItem(k)); } catch (e) {} setSession(null); }); const { data } = sb.auth.onAuthStateChange((_e, s) => setSession(s || null)); return () => data.subscription.unsubscribe(); }, [sb]);
   const email = session?.user?.email?.toLowerCase(); const ok = email === ADMIN_EMAIL;
   const loadCats = useCallback(async () => { if (!sb) return; const { data, error } = await sb.from('pz_categories').select('kind,slug,name,sort_order').order('sort_order').order('name'); const g = { prompt: [], tool: [], blog: [], photo: [], skill: [] }; if (error) notify(`Could not load categories: ${error.message}`, true); (data || []).forEach((r) => g[r.kind]?.push(r)); setCats(g); }, [sb, notify]);
   useEffect(() => { if (ok) loadCats(); }, [ok, loadCats]);

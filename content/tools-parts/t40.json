@@ -1,0 +1,2608 @@
+[
+ {
+  "slug": "writecream",
+  "name": "Writecream",
+  "category": "writing",
+  "website_url": "https://www.writecream.com",
+  "pricing": "Unknown",
+  "tagline": "Multi-purpose AI writing tool for marketing copy and short content.",
+  "best_for": "Marketers needing quick copy variations",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Writecream is a web tool that generates marketing and general copy from short inputs. Its generators are grouped by task, so you pick a format such as an ad, an email or a product blurb and fill in a few details.\n\nIt is aimed at small teams and freelancers who need many variations of short text and prefer choosing from templates over writing long prompts. Common uses include ad variations, cold emails and product descriptions. Its main features are task-based generators, email and ad copy, short-form content and template selection. Plans and features change, so check the official site for current details. It is best suited to this kind of need: marketers needing quick copy variations. Before committing, try it on one small real task, compare it with the related tools listed on this page, and note what you would still have to do by hand.",
+  "use_steps": [
+   "Open Writecream on the official site or app and sign in if required.",
+   "Start with a small real task, such as ad variations.",
+   "Review the output and adjust settings or prompts as needed.",
+   "Check results against your sources before using them."
+  ],
+  "pros": [
+   "Task-based generators is included",
+   "Email and ad copy supports everyday work",
+   "Easy to try on a small task",
+   "Template selection adds flexibility"
+  ],
+  "cons": [
+   "Output can be inaccurate, so human review is needed",
+   "Features and plans may change; verify on the official site"
+  ],
+  "alternatives": [
+   "writesonic",
+   "copy-ai",
+   "jasper"
+  ],
+  "tags": [
+   "copywriting",
+   "templates",
+   "marketing",
+   "short-form"
+  ],
+  "features": [
+   "Task-based generators",
+   "Email and ad copy",
+   "Short-form content",
+   "Template selection"
+  ],
+  "use_cases": [
+   "Ad variations",
+   "Cold emails",
+   "Product descriptions"
+  ],
+  "pricing_details": "Plans and pricing change over time and are not verified here. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Writecream?",
+    "a": "Multi-purpose AI writing tool for marketing copy and short content. Check the official site for current details."
+   },
+   {
+    "q": "Who is Writecream best for?",
+    "a": "Marketers needing quick copy variations."
+   },
+   {
+    "q": "Is Writecream free?",
+    "a": "Pricing and free options change, so check the official site for current plans."
+   }
+  ],
+  "seo_title": "Writecream: Features, Use Cases and Alternatives",
+  "seo_description": "Writecream overview: Multi-purpose AI writing tool for marketing copy and short content. See features, use cases, FAQs and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "copymatic",
+  "name": "Copymatic",
+  "category": "writing",
+  "website_url": "https://copymatic.ai",
+  "pricing": "Unknown",
+  "tagline": "AI content generator for blog posts, ads and product copy.",
+  "best_for": "Bloggers and small stores producing copy at volume",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Copymatic generates articles, ad copy and product descriptions from a topic and a few keywords. Its editor lets you refine the output and run other tools on the same document.\n\nSmall online stores and bloggers use this kind of tool to speed up first drafts, then edit by hand so the text reflects their own brand and facts. In practice people reach for it for store listings or blog drafts, and sometimes landing page text. Expect blog post generator and product description tool, plus ad copy templates. Review any output before relying on it, and check the official site for current plans. It is best suited to this kind of need: bloggers and small stores producing copy at volume. Before committing, try it on one small real task, compare it with the related tools listed on this page, and note what you would still have to do by hand.",
+  "use_steps": [
+   "Open Copymatic on the official site or app and sign in if required.",
+   "Start with a small real task, such as store listings.",
+   "Review the output and adjust settings or prompts as needed.",
+   "Check results against your sources before using them."
+  ],
+  "pros": [
+   "Blog post generator is included",
+   "Product description tool supports everyday work",
+   "Easy to try on a small task",
+   "Built-in editor adds flexibility"
+  ],
+  "cons": [
+   "Output can be inaccurate, so human review is needed",
+   "Features and plans may change; verify on the official site"
+  ],
+  "alternatives": [
+   "writesonic",
+   "copy-ai",
+   "jasper"
+  ],
+  "tags": [
+   "content",
+   "blog",
+   "product copy",
+   "generator"
+  ],
+  "features": [
+   "Blog post generator",
+   "Product description tool",
+   "Ad copy templates",
+   "Built-in editor"
+  ],
+  "use_cases": [
+   "Store listings",
+   "Blog drafts",
+   "Landing page text"
+  ],
+  "pricing_details": "Plans and pricing change over time and are not verified here. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Copymatic?",
+    "a": "AI content generator for blog posts, ads and product copy. Check the official site for current details."
+   },
+   {
+    "q": "Who is Copymatic best for?",
+    "a": "Bloggers and small stores producing copy at volume."
+   },
+   {
+    "q": "Is Copymatic free?",
+    "a": "Pricing and free options change, so check the official site for current plans."
+   }
+  ],
+  "seo_title": "Copymatic: Features, Use Cases and Alternatives",
+  "seo_description": "Copymatic overview: AI content generator for blog posts, ads and product copy. See features, use cases, FAQs and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "shortlyai",
+  "name": "Shortly AI",
+  "category": "writing",
+  "website_url": "https://shortlyai.com",
+  "pricing": "Unknown",
+  "tagline": "Long-form AI writing tool that continues your draft on request.",
+  "best_for": "Writers who want continuation suggestions",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Shortly AI is a long-form writing editor where you write a few lines and ask the model to continue. It is built around steering a draft rather than generating a finished piece in one click.\n\nFiction and blog writers can use it to get past a stuck paragraph, then keep or discard what the model suggests. Typical tasks are story drafting, blog sections and overcoming writer block, supported by continue-writing command, draft steering and custom instructions. Details can change between releases, so confirm what is included on the official site. It is best suited to this kind of need: writers who want continuation suggestions. Before committing, try it on one small real task, compare it with the related tools listed on this page, and note what you would still have to do by hand.",
+  "use_steps": [
+   "Open Shortly AI on the official site or app and sign in if required.",
+   "Start with a small real task, such as story drafting.",
+   "Review the output and adjust settings or prompts as needed.",
+   "Check results against your sources before using them."
+  ],
+  "pros": [
+   "Continue-writing command is included",
+   "Editor-first design supports everyday work",
+   "Easy to try on a small task",
+   "Custom instructions adds flexibility"
+  ],
+  "cons": [
+   "Output can be inaccurate, so human review is needed",
+   "Features and plans may change; verify on the official site"
+  ],
+  "alternatives": [
+   "grammarly",
+   "quillbot",
+   "wordtune"
+  ],
+  "tags": [
+   "long-form",
+   "continuation",
+   "editor",
+   "drafting"
+  ],
+  "features": [
+   "Continue-writing command",
+   "Editor-first design",
+   "Draft steering",
+   "Custom instructions"
+  ],
+  "use_cases": [
+   "Story drafting",
+   "Blog sections",
+   "Overcoming writer block"
+  ],
+  "pricing_details": "Plans and pricing change over time and are not verified here. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Shortly AI?",
+    "a": "Long-form AI writing tool that continues your draft on request. Check the official site for current details."
+   },
+   {
+    "q": "Who is Shortly AI best for?",
+    "a": "Writers who want continuation suggestions."
+   },
+   {
+    "q": "Is Shortly AI free?",
+    "a": "Pricing and free options change, so check the official site for current plans."
+   }
+  ],
+  "seo_title": "Shortly AI: Features, Use Cases and Alternatives",
+  "seo_description": "Shortly AI overview: Long-form AI writing tool that continues your draft on request. See features, use cases, FAQs and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "paraphraser-io",
+  "name": "Paraphraser.io",
+  "category": "writing",
+  "website_url": "https://www.paraphraser.io",
+  "pricing": "Unknown",
+  "tagline": "Web paraphrasing tool with several rewrite modes.",
+  "best_for": "Quick one-off paraphrases",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Paraphraser.io offers a simple text box where you paste content and choose a rewriting mode. It is one of many lightweight web paraphrasers and sits alongside related tools on the same site.\n\nIt suits quick, one-off rewrites. Always read the output and compare against the original, because rewriting can change meaning, and cite sources properly. Common uses include rewording a sentence, simplifying text and avoiding repetition. Its main features are mode selection, paste-and-rewrite box, related text tools and no installation. Plans and features change, so check the official site for current details. It is best suited to this kind of need: quick one-off paraphrases. Before committing, try it on one small real task, compare it with the related tools listed on this page, and note what you would still have to do by hand.",
+  "use_steps": [
+   "Open Paraphraser.io on the official site or app and sign in if required.",
+   "Start with a small real task, such as rewording a sentence.",
+   "Review the output and adjust settings or prompts as needed.",
+   "Check results against your sources before using them."
+  ],
+  "pros": [
+   "Mode selection is included",
+   "Paste-and-rewrite box supports everyday work",
+   "Easy to try on a small task",
+   "No installation adds flexibility"
+  ],
+  "cons": [
+   "Output can be inaccurate, so human review is needed",
+   "Features and plans may change; verify on the official site"
+  ],
+  "alternatives": [
+   "grammarly",
+   "quillbot",
+   "wordtune"
+  ],
+  "tags": [
+   "paraphrase",
+   "rewrite",
+   "text",
+   "web"
+  ],
+  "features": [
+   "Mode selection",
+   "Paste-and-rewrite box",
+   "Related text tools",
+   "No installation"
+  ],
+  "use_cases": [
+   "Rewording a sentence",
+   "Simplifying text",
+   "Avoiding repetition"
+  ],
+  "pricing_details": "Plans and pricing change over time and are not verified here. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Paraphraser.io?",
+    "a": "Web paraphrasing tool with several rewrite modes. Check the official site for current details."
+   },
+   {
+    "q": "Who is Paraphraser.io best for?",
+    "a": "Quick one-off paraphrases."
+   },
+   {
+    "q": "Is Paraphraser.io free?",
+    "a": "Pricing and free options change, so check the official site for current plans."
+   }
+  ],
+  "seo_title": "Paraphraser.io: Features, Use Cases and Alternatives",
+  "seo_description": "Paraphraser.io overview: Web paraphrasing tool with several rewrite modes. See features, use cases, FAQs and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "prepostseo",
+  "name": "Prepostseo",
+  "category": "writing",
+  "website_url": "https://www.prepostseo.com",
+  "pricing": "Unknown",
+  "tagline": "Collection of web text tools including paraphrasing and plagiarism checks.",
+  "best_for": "Occasional checks for students and site owners",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Prepostseo bundles many small web utilities for text, including paraphrasing, grammar, word counting and plagiarism checking. Each tool lives on its own page.\n\nIt is useful when you need a single quick check rather than a full writing suite. Use plagiarism results as a hint, not proof, and review sources yourself. In practice people reach for it for checking a draft or counting words, and sometimes rewording text. Expect paraphrasing tool and plagiarism checker, plus word counter. Review any output before relying on it, and check the official site for current plans. It is best suited to this kind of need: occasional checks for students and site owners. Before committing, try it on one small real task, compare it with the related tools listed on this page, and note what you would still have to do by hand.",
+  "use_steps": [
+   "Open Prepostseo on the official site or app and sign in if required.",
+   "Start with a small real task, such as checking a draft.",
+   "Review the output and adjust settings or prompts as needed.",
+   "Check results against your sources before using them."
+  ],
+  "pros": [
+   "Paraphrasing tool is included",
+   "Plagiarism checker supports everyday work",
+   "Easy to try on a small task",
+   "Many small utilities adds flexibility"
+  ],
+  "cons": [
+   "Output can be inaccurate, so human review is needed",
+   "Features and plans may change; verify on the official site"
+  ],
+  "alternatives": [
+   "grammarly",
+   "quillbot",
+   "wordtune"
+  ],
+  "tags": [
+   "utilities",
+   "plagiarism",
+   "paraphrase",
+   "seo"
+  ],
+  "features": [
+   "Paraphrasing tool",
+   "Plagiarism checker",
+   "Word counter",
+   "Many small utilities"
+  ],
+  "use_cases": [
+   "Checking a draft",
+   "Counting words",
+   "Rewording text"
+  ],
+  "pricing_details": "Plans and pricing change over time and are not verified here. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Prepostseo?",
+    "a": "Collection of web text tools including paraphrasing and plagiarism checks. Check the official site for current details."
+   },
+   {
+    "q": "Who is Prepostseo best for?",
+    "a": "Occasional checks for students and site owners."
+   },
+   {
+    "q": "Is Prepostseo free?",
+    "a": "Pricing and free options change, so check the official site for current plans."
+   }
+  ],
+  "seo_title": "Prepostseo: Features, Use Cases and Alternatives",
+  "seo_description": "Prepostseo overview: Collection of web text tools including paraphrasing and plagiarism checks. See features, use cases, FAQs and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "slick-write",
+  "name": "Slick Write",
+  "category": "writing",
+  "website_url": "https://www.slickwrite.com",
+  "pricing": "Unknown",
+  "tagline": "Grammar and style analyzer for pasted text.",
+  "best_for": "Writers who want style stats",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Slick Write checks pasted text for grammar issues, style patterns and readability signals, and shows statistics about sentence length and word use. It focuses on analysis rather than rewriting.\n\nIt suits writers who like to see where their habits lie, such as long sentences or repeated words, and then fix them manually. Typical tasks are self-editing, essay review and style analysis, supported by grammar checks, readability measures and customizable checks. Details can change between releases, so confirm what is included on the official site. It is best suited to this kind of need: writers who want style stats. Before committing, try it on one small real task, compare it with the related tools listed on this page, and note what you would still have to do by hand.",
+  "use_steps": [
+   "Open Slick Write on the official site or app and sign in if required.",
+   "Start with a small real task, such as self-editing.",
+   "Review the output and adjust settings or prompts as needed.",
+   "Check results against your sources before using them."
+  ],
+  "pros": [
+   "Grammar checks is included",
+   "Style statistics supports everyday work",
+   "Easy to try on a small task",
+   "Customizable checks adds flexibility"
+  ],
+  "cons": [
+   "Output can be inaccurate, so human review is needed",
+   "Features and plans may change; verify on the official site"
+  ],
+  "alternatives": [
+   "grammarly",
+   "quillbot",
+   "wordtune"
+  ],
+  "tags": [
+   "grammar",
+   "style",
+   "analysis",
+   "editing"
+  ],
+  "features": [
+   "Grammar checks",
+   "Style statistics",
+   "Readability measures",
+   "Customizable checks"
+  ],
+  "use_cases": [
+   "Self-editing",
+   "Essay review",
+   "Style analysis"
+  ],
+  "pricing_details": "Plans and pricing change over time and are not verified here. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Slick Write?",
+    "a": "Grammar and style analyzer for pasted text. Check the official site for current details."
+   },
+   {
+    "q": "Who is Slick Write best for?",
+    "a": "Writers who want style stats."
+   },
+   {
+    "q": "Is Slick Write free?",
+    "a": "Pricing and free options change, so check the official site for current plans."
+   }
+  ],
+  "seo_title": "Slick Write: Features, Use Cases and Alternatives",
+  "seo_description": "Slick Write overview: Grammar and style analyzer for pasted text. See features, use cases, FAQs and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "quetext",
+  "name": "Quetext",
+  "category": "writing",
+  "website_url": "https://www.quetext.com",
+  "pricing": "Unknown",
+  "tagline": "Plagiarism checker with a citation helper for students and writers.",
+  "best_for": "Checking essays against web sources",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Quetext scans a document and highlights passages that resemble other published text. It adds citation help and also offers an AI content detector.\n\nStudents and editors use it to catch missing citations before submitting. Matches need human judgment, since common phrases and quotes can be flagged. Common uses include essay checks, editorial review and citation fixes. Its main features are similarity highlights, citation assistant, aI detection and report view. Plans and features change, so check the official site for current details. It is best suited to this kind of need: checking essays against web sources. Before committing, try it on one small real task, compare it with the related tools listed on this page, and note what you would still have to do by hand.",
+  "use_steps": [
+   "Open Quetext on the official site or app and sign in if required.",
+   "Start with a small real task, such as essay checks.",
+   "Review the output and adjust settings or prompts as needed.",
+   "Check results against your sources before using them."
+  ],
+  "pros": [
+   "Similarity highlights is included",
+   "Citation assistant supports everyday work",
+   "Easy to try on a small task",
+   "Report view adds flexibility"
+  ],
+  "cons": [
+   "Output can be inaccurate, so human review is needed",
+   "Features and plans may change; verify on the official site"
+  ],
+  "alternatives": [
+   "gptzero",
+   "originality-ai",
+   "copyleaks"
+  ],
+  "tags": [
+   "plagiarism",
+   "citations",
+   "essays",
+   "detector"
+  ],
+  "features": [
+   "Similarity highlights",
+   "Citation assistant",
+   "AI detection",
+   "Report view"
+  ],
+  "use_cases": [
+   "Essay checks",
+   "Editorial review",
+   "Citation fixes"
+  ],
+  "pricing_details": "Plans and pricing change over time and are not verified here. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Quetext?",
+    "a": "Plagiarism checker with a citation helper for students and writers. Check the official site for current details."
+   },
+   {
+    "q": "Who is Quetext best for?",
+    "a": "Checking essays against web sources."
+   },
+   {
+    "q": "Is Quetext free?",
+    "a": "Pricing and free options change, so check the official site for current plans."
+   }
+  ],
+  "seo_title": "Quetext: Features, Use Cases and Alternatives",
+  "seo_description": "Quetext overview: Plagiarism checker with a citation helper for students and writers. See features, use cases, FAQs and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "spinbot",
+  "name": "Spinbot",
+  "category": "writing",
+  "website_url": "https://spinbot.com",
+  "pricing": "Unknown",
+  "tagline": "Simple web article spinner and paraphrasing tool.",
+  "best_for": "Quick rewording of short passages",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Spinbot is a long-running web tool that rewrites pasted text by replacing words and restructuring sentences. It is simple, with a text box and an output pane.\n\nIt can help with quick rewording, but heavily automated rewriting may produce awkward phrasing, so always edit the result for sense and accuracy. In practice people reach for it for reword a paragraph or find alternatives, and sometimes quick edits. Expect text rewriting and simple interface, plus word replacement. Review any output before relying on it, and check the official site for current plans. It is best suited to this kind of need: quick rewording of short passages. Before committing, try it on one small real task, compare it with the related tools listed on this page, and note what you would still have to do by hand.",
+  "use_steps": [
+   "Open Spinbot on the official site or app and sign in if required.",
+   "Start with a small real task, such as reword a paragraph.",
+   "Review the output and adjust settings or prompts as needed.",
+   "Check results against your sources before using them."
+  ],
+  "pros": [
+   "Text rewriting is included",
+   "Simple interface supports everyday work",
+   "Easy to try on a small task",
+   "Paste workflow adds flexibility"
+  ],
+  "cons": [
+   "Output can be inaccurate, so human review is needed",
+   "Features and plans may change; verify on the official site"
+  ],
+  "alternatives": [
+   "grammarly",
+   "quillbot",
+   "wordtune"
+  ],
+  "tags": [
+   "spinner",
+   "paraphrase",
+   "rewrite",
+   "simple"
+  ],
+  "features": [
+   "Text rewriting",
+   "Simple interface",
+   "Word replacement",
+   "Paste workflow"
+  ],
+  "use_cases": [
+   "Reword a paragraph",
+   "Find alternatives",
+   "Quick edits"
+  ],
+  "pricing_details": "Plans and pricing change over time and are not verified here. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Spinbot?",
+    "a": "Simple web article spinner and paraphrasing tool. Check the official site for current details."
+   },
+   {
+    "q": "Who is Spinbot best for?",
+    "a": "Quick rewording of short passages."
+   },
+   {
+    "q": "Is Spinbot free?",
+    "a": "Pricing and free options change, so check the official site for current plans."
+   }
+  ],
+  "seo_title": "Spinbot: Features, Use Cases and Alternatives",
+  "seo_description": "Spinbot overview: Simple web article spinner and paraphrasing tool. See features, use cases, FAQs and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "amplenote",
+  "name": "Amplenote",
+  "category": "productivity",
+  "website_url": "https://www.amplenote.com",
+  "pricing": "Unknown",
+  "tagline": "Notes and tasks app with linked notes and an AI assistant.",
+  "best_for": "People who combine notes with task planning",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "Amplenote joins a note-taking app with a task list and calendar, and adds an AI assistant for working with note text. Notes can be linked together, and tasks live inside notes.\n\nIt appeals to people who want one place for thinking and planning, rather than separate notes and to-do apps. Typical tasks are daily planning, project notes and personal knowledge base, supported by linked notes, calendar view and aI assistant. Details can change between releases, so confirm what is included on the official site. It is best suited to this kind of need: people who combine notes with task planning. Before committing, try it on one small real task, compare it with the related tools listed on this page, and note what you would still have to do by hand.",
+  "use_steps": [
+   "Open Amplenote on the official site or app and sign in if required.",
+   "Start with a small real task, such as daily planning.",
+   "Review the output and adjust settings or prompts as needed.",
+   "Check results against your sources before using them."
+  ],
+  "pros": [
+   "Linked notes is included",
+   "Tasks inside notes supports everyday work",
+   "Easy to try on a small task",
+   "AI assistant adds flexibility"
+  ],
+  "cons": [
+   "Output can be inaccurate, so human review is needed",
+   "Features and plans may change; verify on the official site"
+  ],
+  "alternatives": [
+   "notion-ai",
+   "obsidian",
+   "tana"
+  ],
+  "tags": [
+   "notes",
+   "tasks",
+   "links",
+   "planning"
+  ],
+  "features": [
+   "Linked notes",
+   "Tasks inside notes",
+   "Calendar view",
+   "AI assistant"
+  ],
+  "use_cases": [
+   "Daily planning",
+   "Project notes",
+   "Personal knowledge base"
+  ],
+  "pricing_details": "Plans and pricing change over time and are not verified here. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Amplenote?",
+    "a": "Notes and tasks app with linked notes and an AI assistant. Check the official site for current details."
+   },
+   {
+    "q": "Who is Amplenote best for?",
+    "a": "People who combine notes with task planning."
+   },
+   {
+    "q": "Is Amplenote free?",
+    "a": "Pricing and free options change, so check the official site for current plans."
+   }
+  ],
+  "seo_title": "Amplenote: Features, Use Cases and Alternatives",
+  "seo_description": "Amplenote overview: Notes and tasks app with linked notes and an AI assistant. See features, use cases, FAQs and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "mymind",
+  "name": "mymind",
+  "category": "productivity",
+  "website_url": "https://mymind.com",
+  "pricing": "Unknown",
+  "tagline": "Private visual bookmarking and notes space that organizes itself.",
+  "best_for": "Saving ideas, images and links without folders",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android",
+   "Chrome"
+  ],
+  "description": "mymind is a personal space for saving notes, images, quotes and links. It tags and organizes saved items automatically so you search instead of filing.\n\nDesigners, writers and researchers use this style of tool to collect inspiration with minimal effort, then rediscover items through search. Common uses include inspiration boards, link saving and quote collection. Its main features are quick save, automatic tagging, visual layout and private by design. Plans and features change, so check the official site for current details. It is best suited to this kind of need: saving ideas, images and links without folders. Before committing, try it on one small real task, compare it with the related tools listed on this page, and note what you would still have to do by hand.",
+  "use_steps": [
+   "Open mymind on the official site or app and sign in if required.",
+   "Start with a small real task, such as inspiration boards.",
+   "Review the output and adjust settings or prompts as needed.",
+   "Check results against your sources before using them."
+  ],
+  "pros": [
+   "Quick save is included",
+   "Automatic tagging supports everyday work",
+   "Easy to try on a small task",
+   "Private by design adds flexibility"
+  ],
+  "cons": [
+   "Output can be inaccurate, so human review is needed",
+   "Features and plans may change; verify on the official site"
+  ],
+  "alternatives": [
+   "notion-ai",
+   "obsidian",
+   "tana"
+  ],
+  "tags": [
+   "bookmarks",
+   "notes",
+   "private",
+   "organizing"
+  ],
+  "features": [
+   "Quick save",
+   "Automatic tagging",
+   "Visual layout",
+   "Private by design"
+  ],
+  "use_cases": [
+   "Inspiration boards",
+   "Link saving",
+   "Quote collection"
+  ],
+  "pricing_details": "Plans and pricing change over time and are not verified here. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is mymind?",
+    "a": "Private visual bookmarking and notes space that organizes itself. Check the official site for current details."
+   },
+   {
+    "q": "Who is mymind best for?",
+    "a": "Saving ideas, images and links without folders."
+   },
+   {
+    "q": "Is mymind free?",
+    "a": "Pricing and free options change, so check the official site for current plans."
+   }
+  ],
+  "seo_title": "mymind: Features, Use Cases and Alternatives",
+  "seo_description": "mymind overview: Private visual bookmarking and notes space that organizes itself. See features, use cases, FAQs and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "saga-app",
+  "name": "Saga",
+  "category": "productivity",
+  "website_url": "https://saga.so",
+  "pricing": "Unknown",
+  "tagline": "Workspace that merges notes, docs and tasks with AI help.",
+  "best_for": "Teams wanting docs and tasks in one place",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Saga is a workspace combining documents, notes and task tracking, with AI features to help write and organize content. Pages link to each other.\n\nIt targets small teams and individuals looking for an all-in-one alternative to separate document and task tools. In practice people reach for it for project documentation or team notes, and sometimes planning. Expect linked pages and task tracking, plus aI writing help. Review any output before relying on it, and check the official site for current plans. It is best suited to this kind of need: teams wanting docs and tasks in one place. Before committing, try it on one small real task, compare it with the related tools listed on this page, and note what you would still have to do by hand.",
+  "use_steps": [
+   "Open Saga on the official site or app and sign in if required.",
+   "Start with a small real task, such as project documentation.",
+   "Review the output and adjust settings or prompts as needed.",
+   "Check results against your sources before using them."
+  ],
+  "pros": [
+   "Linked pages is included",
+   "Task tracking supports everyday work",
+   "Easy to try on a small task",
+   "Shared workspace adds flexibility"
+  ],
+  "cons": [
+   "Output can be inaccurate, so human review is needed",
+   "Features and plans may change; verify on the official site"
+  ],
+  "alternatives": [
+   "notion-ai",
+   "obsidian",
+   "tana"
+  ],
+  "tags": [
+   "workspace",
+   "docs",
+   "tasks",
+   "ai"
+  ],
+  "features": [
+   "Linked pages",
+   "Task tracking",
+   "AI writing help",
+   "Shared workspace"
+  ],
+  "use_cases": [
+   "Project documentation",
+   "Team notes",
+   "Planning"
+  ],
+  "pricing_details": "Plans and pricing change over time and are not verified here. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Saga?",
+    "a": "Workspace that merges notes, docs and tasks with AI help. Check the official site for current details."
+   },
+   {
+    "q": "Who is Saga best for?",
+    "a": "Teams wanting docs and tasks in one place."
+   },
+   {
+    "q": "Is Saga free?",
+    "a": "Pricing and free options change, so check the official site for current plans."
+   }
+  ],
+  "seo_title": "Saga: Features, Use Cases and Alternatives",
+  "seo_description": "Saga overview: Workspace that merges notes, docs and tasks with AI help. See features, use cases, FAQs and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "fathom-notes",
+  "name": "Fathom",
+  "category": "productivity",
+  "website_url": "https://fathom.video",
+  "pricing": "Unknown",
+  "tagline": "AI meeting recorder with highlights and summaries.",
+  "best_for": "Capturing key moments from video calls",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Fathom records video meetings, transcribes them and creates summaries with highlighted moments you can share. It works with popular conferencing tools.\n\nIndividuals and teams use it to skip manual note-taking and to send follow-ups with the key points already extracted. Typical tasks are customer calls, team syncs and interviews, supported by recording, summaries and shareable clips. Details can change between releases, so confirm what is included on the official site. It is best suited to this kind of need: capturing key moments from video calls. Before committing, try it on one small real task, compare it with the related tools listed on this page, and note what you would still have to do by hand.",
+  "use_steps": [
+   "Open Fathom on the official site or app and sign in if required.",
+   "Start with a small real task, such as customer calls.",
+   "Review the output and adjust settings or prompts as needed.",
+   "Check results against your sources before using them."
+  ],
+  "pros": [
+   "Recording is included",
+   "Highlights supports everyday work",
+   "Easy to try on a small task",
+   "Shareable clips adds flexibility"
+  ],
+  "cons": [
+   "Output can be inaccurate, so human review is needed",
+   "Features and plans may change; verify on the official site"
+  ],
+  "alternatives": [
+   "tldv",
+   "notta",
+   "read-ai"
+  ],
+  "tags": [
+   "meetings",
+   "summaries",
+   "video",
+   "highlights"
+  ],
+  "features": [
+   "Recording",
+   "Highlights",
+   "Summaries",
+   "Shareable clips"
+  ],
+  "use_cases": [
+   "Customer calls",
+   "Team syncs",
+   "Interviews"
+  ],
+  "pricing_details": "Plans and pricing change over time and are not verified here. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Fathom?",
+    "a": "AI meeting recorder with highlights and summaries. Check the official site for current details."
+   },
+   {
+    "q": "Who is Fathom best for?",
+    "a": "Capturing key moments from video calls."
+   },
+   {
+    "q": "Is Fathom free?",
+    "a": "Pricing and free options change, so check the official site for current plans."
+   }
+  ],
+  "seo_title": "Fathom: Features, Use Cases and Alternatives",
+  "seo_description": "Fathom overview: AI meeting recorder with highlights and summaries. See features, use cases, FAQs and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "plaud",
+  "name": "PLAUD",
+  "category": "productivity",
+  "website_url": "https://www.plaud.ai",
+  "pricing": "Unknown",
+  "tagline": "Wearable voice recorder with AI transcription and summaries.",
+  "best_for": "Recording in-person conversations",
+  "platforms": [
+   "Hardware",
+   "iOS",
+   "Android"
+  ],
+  "description": "PLAUD makes small voice recorders paired with an app that transcribes recordings and produces AI summaries. It is a hardware product with a software service.\n\nIt suits people who attend many in-person meetings or interviews and want a physical recorder rather than a phone app. Common uses include in-person meetings, interviews and lectures. Its main features are hardware recorder, transcription, aI summaries and companion app. Plans and features change, so check the official site for current details. It is best suited to this kind of need: recording in-person conversations. Before committing, try it on one small real task, compare it with the related tools listed on this page, and note what you would still have to do by hand.",
+  "use_steps": [
+   "Open PLAUD on the official site or app and sign in if required.",
+   "Start with a small real task, such as in-person meetings.",
+   "Review the output and adjust settings or prompts as needed.",
+   "Check results against your sources before using them."
+  ],
+  "pros": [
+   "Hardware recorder is included",
+   "Transcription supports everyday work",
+   "Easy to try on a small task",
+   "Companion app adds flexibility"
+  ],
+  "cons": [
+   "Output can be inaccurate, so human review is needed",
+   "Features and plans may change; verify on the official site"
+  ],
+  "alternatives": [
+   "tldv",
+   "notta",
+   "read-ai"
+  ],
+  "tags": [
+   "recorder",
+   "hardware",
+   "transcription",
+   "voice"
+  ],
+  "features": [
+   "Hardware recorder",
+   "Transcription",
+   "AI summaries",
+   "Companion app"
+  ],
+  "use_cases": [
+   "In-person meetings",
+   "Interviews",
+   "Lectures"
+  ],
+  "pricing_details": "Plans and pricing change over time and are not verified here. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is PLAUD?",
+    "a": "Wearable voice recorder with AI transcription and summaries. Check the official site for current details."
+   },
+   {
+    "q": "Who is PLAUD best for?",
+    "a": "Recording in-person conversations."
+   },
+   {
+    "q": "Is PLAUD free?",
+    "a": "Pricing and free options change, so check the official site for current plans."
+   }
+  ],
+  "seo_title": "PLAUD: Features, Use Cases and Alternatives",
+  "seo_description": "PLAUD overview: Wearable voice recorder with AI transcription and summaries. See features, use cases, FAQs and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "audiopen",
+  "name": "AudioPen",
+  "category": "productivity",
+  "website_url": "https://audiopen.ai",
+  "pricing": "Unknown",
+  "tagline": "Turns spoken ramblings into tidy written notes.",
+  "best_for": "Capturing ideas by voice",
+  "platforms": [
+   "Web",
+   "iOS"
+  ],
+  "description": "AudioPen takes a voice recording and converts it into clean text, tidying filler words and structure. You speak naturally and read a written version afterwards.\n\nIt helps people who think better out loud, such as writers and founders, to capture ideas quickly and edit them later. In practice people reach for it for idea capture or draft emails, and sometimes journaling. Expect voice to text and clean-up of speech, plus copy-ready notes. Review any output before relying on it, and check the official site for current plans. It is best suited to this kind of need: capturing ideas by voice. Before committing, try it on one small real task, compare it with the related tools listed on this page, and note what you would still have to do by hand.",
+  "use_steps": [
+   "Open AudioPen on the official site or app and sign in if required.",
+   "Start with a small real task, such as idea capture.",
+   "Review the output and adjust settings or prompts as needed.",
+   "Check results against your sources before using them."
+  ],
+  "pros": [
+   "Voice to text is included",
+   "Clean-up of speech supports everyday work",
+   "Easy to try on a small task",
+   "Quick capture adds flexibility"
+  ],
+  "cons": [
+   "Output can be inaccurate, so human review is needed",
+   "Features and plans may change; verify on the official site"
+  ],
+  "alternatives": [
+   "notion-ai",
+   "obsidian",
+   "tana"
+  ],
+  "tags": [
+   "voice",
+   "notes",
+   "dictation",
+   "capture"
+  ],
+  "features": [
+   "Voice to text",
+   "Clean-up of speech",
+   "Copy-ready notes",
+   "Quick capture"
+  ],
+  "use_cases": [
+   "Idea capture",
+   "Draft emails",
+   "Journaling"
+  ],
+  "pricing_details": "Plans and pricing change over time and are not verified here. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is AudioPen?",
+    "a": "Turns spoken ramblings into tidy written notes. Check the official site for current details."
+   },
+   {
+    "q": "Who is AudioPen best for?",
+    "a": "Capturing ideas by voice."
+   },
+   {
+    "q": "Is AudioPen free?",
+    "a": "Pricing and free options change, so check the official site for current plans."
+   }
+  ],
+  "seo_title": "AudioPen: Features, Use Cases and Alternatives",
+  "seo_description": "AudioPen overview: Turns spoken ramblings into tidy written notes. See features, use cases, FAQs and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "readwise",
+  "name": "Readwise",
+  "category": "research",
+  "website_url": "https://readwise.io",
+  "pricing": "Unknown",
+  "tagline": "Collects highlights and a reader app for articles, with AI features.",
+  "best_for": "Saving and reviewing what you read",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "Readwise collects highlights from books and articles and resurfaces them for review. Its Reader app saves web pages, newsletters and PDFs and includes AI features such as summaries.\n\nIt suits heavy readers who want one inbox for reading material and a way to remember it later. Typical tasks are reading research, book notes and newsletter triage, supported by highlight syncing, daily review and aI summaries. Details can change between releases, so confirm what is included on the official site. It is best suited to this kind of need: saving and reviewing what you read. Before committing, try it on one small real task, compare it with the related tools listed on this page, and note what you would still have to do by hand.",
+  "use_steps": [
+   "Open Readwise on the official site or app and sign in if required.",
+   "Start with a small real task, such as reading research.",
+   "Review the output and adjust settings or prompts as needed.",
+   "Check results against your sources before using them."
+  ],
+  "pros": [
+   "Highlight syncing is included",
+   "Reader app supports everyday work",
+   "Easy to try on a small task",
+   "AI summaries adds flexibility"
+  ],
+  "cons": [
+   "Output can be inaccurate, so human review is needed",
+   "Features and plans may change; verify on the official site"
+  ],
+  "alternatives": [
+   "scholarcy",
+   "humata",
+   "notebooklm"
+  ],
+  "tags": [
+   "reading",
+   "highlights",
+   "review",
+   "articles"
+  ],
+  "features": [
+   "Highlight syncing",
+   "Reader app",
+   "Daily review",
+   "AI summaries"
+  ],
+  "use_cases": [
+   "Reading research",
+   "Book notes",
+   "Newsletter triage"
+  ],
+  "pricing_details": "Plans and pricing change over time and are not verified here. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Readwise?",
+    "a": "Collects highlights and a reader app for articles, with AI features. Check the official site for current details."
+   },
+   {
+    "q": "Who is Readwise best for?",
+    "a": "Saving and reviewing what you read."
+   },
+   {
+    "q": "Is Readwise free?",
+    "a": "Pricing and free options change, so check the official site for current plans."
+   }
+  ],
+  "seo_title": "Readwise: Features, Use Cases and Alternatives",
+  "seo_description": "Readwise overview: Collects highlights and a reader app for articles, with AI features. See features, use cases, FAQs and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "glasp",
+  "name": "Glasp",
+  "category": "research",
+  "website_url": "https://glasp.co",
+  "pricing": "Unknown",
+  "tagline": "Social web highlighter with AI summaries for videos and articles.",
+  "best_for": "Highlighting and summarizing web content",
+  "platforms": [
+   "Chrome",
+   "Web"
+  ],
+  "description": "Glasp is a browser extension that lets you highlight web pages and videos and keep the highlights in one place. It also offers AI summaries of YouTube videos and articles.\n\nLearners and researchers use it to build a personal library of quotes and to see what others highlight. Common uses include video notes, article research and quote collection. Its main features are web highlighter, youTube summaries, highlight library and sharing. Plans and features change, so check the official site for current details. It is best suited to this kind of need: highlighting and summarizing web content. Before committing, try it on one small real task, compare it with the related tools listed on this page, and note what you would still have to do by hand.",
+  "use_steps": [
+   "Open Glasp on the official site or app and sign in if required.",
+   "Start with a small real task, such as video notes.",
+   "Review the output and adjust settings or prompts as needed.",
+   "Check results against your sources before using them."
+  ],
+  "pros": [
+   "Web highlighter is included",
+   "YouTube summaries supports everyday work",
+   "Easy to try on a small task",
+   "Sharing adds flexibility"
+  ],
+  "cons": [
+   "Output can be inaccurate, so human review is needed",
+   "Features and plans may change; verify on the official site"
+  ],
+  "alternatives": [
+   "scholarcy",
+   "humata",
+   "notebooklm"
+  ],
+  "tags": [
+   "highlighter",
+   "youtube",
+   "summary",
+   "notes"
+  ],
+  "features": [
+   "Web highlighter",
+   "YouTube summaries",
+   "Highlight library",
+   "Sharing"
+  ],
+  "use_cases": [
+   "Video notes",
+   "Article research",
+   "Quote collection"
+  ],
+  "pricing_details": "Plans and pricing change over time and are not verified here. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Glasp?",
+    "a": "Social web highlighter with AI summaries for videos and articles. Check the official site for current details."
+   },
+   {
+    "q": "Who is Glasp best for?",
+    "a": "Highlighting and summarizing web content."
+   },
+   {
+    "q": "Is Glasp free?",
+    "a": "Pricing and free options change, so check the official site for current plans."
+   }
+  ],
+  "seo_title": "Glasp: Features, Use Cases and Alternatives",
+  "seo_description": "Glasp overview: Social web highlighter with AI summaries for videos and articles. See features, use cases, FAQs and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "eightify",
+  "name": "Eightify",
+  "category": "research",
+  "website_url": "https://eightify.app",
+  "pricing": "Unknown",
+  "tagline": "YouTube video summarizer that extracts key points.",
+  "best_for": "Previewing long videos",
+  "platforms": [
+   "Chrome"
+  ],
+  "description": "Eightify is a browser extension that summarizes YouTube videos into key points so you can judge whether to watch the full video. It works directly on the video page.\n\nIt is helpful for lectures, interviews and long explainers, though summaries can miss nuance, so watch the video when details matter. In practice people reach for it for lecture previews or skimming interviews, and sometimes research triage. Expect video summaries and key points list, plus browser integration. Review any output before relying on it, and check the official site for current plans. It is best suited to this kind of need: previewing long videos. Before committing, try it on one small real task, compare it with the related tools listed on this page, and note what you would still have to do by hand.",
+  "use_steps": [
+   "Open Eightify on the official site or app and sign in if required.",
+   "Start with a small real task, such as lecture previews.",
+   "Review the output and adjust settings or prompts as needed.",
+   "Check results against your sources before using them."
+  ],
+  "pros": [
+   "Video summaries is included",
+   "Key points list supports everyday work",
+   "Easy to try on a small task",
+   "Quick preview adds flexibility"
+  ],
+  "cons": [
+   "Output can be inaccurate, so human review is needed",
+   "Features and plans may change; verify on the official site"
+  ],
+  "alternatives": [
+   "scholarcy",
+   "humata",
+   "notebooklm"
+  ],
+  "tags": [
+   "youtube",
+   "summarizer",
+   "extension",
+   "video"
+  ],
+  "features": [
+   "Video summaries",
+   "Key points list",
+   "Browser integration",
+   "Quick preview"
+  ],
+  "use_cases": [
+   "Lecture previews",
+   "Skimming interviews",
+   "Research triage"
+  ],
+  "pricing_details": "Plans and pricing change over time and are not verified here. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Eightify?",
+    "a": "YouTube video summarizer that extracts key points. Check the official site for current details."
+   },
+   {
+    "q": "Who is Eightify best for?",
+    "a": "Previewing long videos."
+   },
+   {
+    "q": "Is Eightify free?",
+    "a": "Pricing and free options change, so check the official site for current plans."
+   }
+  ],
+  "seo_title": "Eightify: Features, Use Cases and Alternatives",
+  "seo_description": "Eightify overview: YouTube video summarizer that extracts key points. See features, use cases, FAQs and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "summarize-tech",
+  "name": "Summarize.tech",
+  "category": "research",
+  "website_url": "https://www.summarize.tech",
+  "pricing": "Unknown",
+  "tagline": "Summaries of YouTube videos broken down by timestamp.",
+  "best_for": "Quickly scanning long YouTube videos",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Summarize.tech takes a YouTube link and returns a timestamped, section-by-section summary. It works through a simple page where you paste the URL.\n\nIt is useful for scanning long talks and livestreams to find the part that matters before watching. Typical tasks are long talks, livestream catch-up and research, supported by timestamped sections, section summaries and no installation. Details can change between releases, so confirm what is included on the official site. It is best suited to this kind of need: quickly scanning long YouTube videos. Before committing, try it on one small real task, compare it with the related tools listed on this page, and note what you would still have to do by hand.",
+  "use_steps": [
+   "Open Summarize.tech on the official site or app and sign in if required.",
+   "Start with a small real task, such as long talks.",
+   "Review the output and adjust settings or prompts as needed.",
+   "Check results against your sources before using them."
+  ],
+  "pros": [
+   "Timestamped sections is included",
+   "Link-based workflow supports everyday work",
+   "Easy to try on a small task",
+   "No installation adds flexibility"
+  ],
+  "cons": [
+   "Output can be inaccurate, so human review is needed",
+   "Features and plans may change; verify on the official site"
+  ],
+  "alternatives": [
+   "scholarcy",
+   "humata",
+   "notebooklm"
+  ],
+  "tags": [
+   "youtube",
+   "summary",
+   "timestamps",
+   "video"
+  ],
+  "features": [
+   "Timestamped sections",
+   "Link-based workflow",
+   "Section summaries",
+   "No installation"
+  ],
+  "use_cases": [
+   "Long talks",
+   "Livestream catch-up",
+   "Research"
+  ],
+  "pricing_details": "Plans and pricing change over time and are not verified here. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Summarize.tech?",
+    "a": "Summaries of YouTube videos broken down by timestamp. Check the official site for current details."
+   },
+   {
+    "q": "Who is Summarize.tech best for?",
+    "a": "Quickly scanning long YouTube videos."
+   },
+   {
+    "q": "Is Summarize.tech free?",
+    "a": "Pricing and free options change, so check the official site for current plans."
+   }
+  ],
+  "seo_title": "Summarize.tech: Features, Use Cases and Alternatives",
+  "seo_description": "Summarize.tech overview: Summaries of YouTube videos broken down by timestamp. See features, use cases, FAQs and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "resoomer",
+  "name": "Resoomer",
+  "category": "study",
+  "website_url": "https://resoomer.com",
+  "pricing": "Unknown",
+  "tagline": "Text summarizer that highlights key ideas for students.",
+  "best_for": "Summarizing articles and study texts",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Resoomer is a web summarizer that condenses pasted text into main ideas. It was built with students and exam preparation in mind and supports several languages.\n\nUse it to get the outline of a reading, then go back to the original for detail and exact wording. Common uses include study readings, article skimming and revision notes. Its main features are text summary, key idea marking, several languages and paste-in interface. Plans and features change, so check the official site for current details. It is best suited to this kind of need: summarizing articles and study texts. Before committing, try it on one small real task, compare it with the related tools listed on this page, and note what you would still have to do by hand.",
+  "use_steps": [
+   "Open Resoomer on the official site or app and sign in if required.",
+   "Start with a small real task, such as study readings.",
+   "Review the output and adjust settings or prompts as needed.",
+   "Check results against your sources before using them."
+  ],
+  "pros": [
+   "Text summary is included",
+   "Key idea marking supports everyday work",
+   "Easy to try on a small task",
+   "Paste-in interface adds flexibility"
+  ],
+  "cons": [
+   "Output can be inaccurate, so human review is needed",
+   "Features and plans may change; verify on the official site"
+  ],
+  "alternatives": [
+   "scholarcy",
+   "humata",
+   "notebooklm"
+  ],
+  "tags": [
+   "summarizer",
+   "students",
+   "text",
+   "study"
+  ],
+  "features": [
+   "Text summary",
+   "Key idea marking",
+   "Several languages",
+   "Paste-in interface"
+  ],
+  "use_cases": [
+   "Study readings",
+   "Article skimming",
+   "Revision notes"
+  ],
+  "pricing_details": "Plans and pricing change over time and are not verified here. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Resoomer?",
+    "a": "Text summarizer that highlights key ideas for students. Check the official site for current details."
+   },
+   {
+    "q": "Who is Resoomer best for?",
+    "a": "Summarizing articles and study texts."
+   },
+   {
+    "q": "Is Resoomer free?",
+    "a": "Pricing and free options change, so check the official site for current plans."
+   }
+  ],
+  "seo_title": "Resoomer: Features, Use Cases and Alternatives",
+  "seo_description": "Resoomer overview: Text summarizer that highlights key ideas for students. See features, use cases, FAQs and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "tldr-this",
+  "name": "TLDR This",
+  "category": "research",
+  "website_url": "https://tldrthis.com",
+  "pricing": "Unknown",
+  "tagline": "Summarizes web articles and long text into short overviews.",
+  "best_for": "Skimming articles fast",
+  "platforms": [
+   "Web",
+   "Chrome"
+  ],
+  "description": "TLDR This takes an article link or pasted text and returns a shorter overview. A browser extension makes it available while reading.\n\nIt fits readers who triage many pages per day and want a quick gist before deciding what to read in full. In practice people reach for it for news skimming or research triage, and sometimes reading lists. Expect article summaries and extension, plus text input. Review any output before relying on it, and check the official site for current plans. It is best suited to this kind of need: skimming articles fast. Before committing, try it on one small real task, compare it with the related tools listed on this page, and note what you would still have to do by hand.",
+  "use_steps": [
+   "Open TLDR This on the official site or app and sign in if required.",
+   "Start with a small real task, such as news skimming.",
+   "Review the output and adjust settings or prompts as needed.",
+   "Check results against your sources before using them."
+  ],
+  "pros": [
+   "Article summaries is included",
+   "Extension supports everyday work",
+   "Easy to try on a small task",
+   "Short overviews adds flexibility"
+  ],
+  "cons": [
+   "Output can be inaccurate, so human review is needed",
+   "Features and plans may change; verify on the official site"
+  ],
+  "alternatives": [
+   "scholarcy",
+   "humata",
+   "notebooklm"
+  ],
+  "tags": [
+   "summary",
+   "articles",
+   "extension",
+   "reading"
+  ],
+  "features": [
+   "Article summaries",
+   "Extension",
+   "Text input",
+   "Short overviews"
+  ],
+  "use_cases": [
+   "News skimming",
+   "Research triage",
+   "Reading lists"
+  ],
+  "pricing_details": "Plans and pricing change over time and are not verified here. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is TLDR This?",
+    "a": "Summarizes web articles and long text into short overviews. Check the official site for current details."
+   },
+   {
+    "q": "Who is TLDR This best for?",
+    "a": "Skimming articles fast."
+   },
+   {
+    "q": "Is TLDR This free?",
+    "a": "Pricing and free options change, so check the official site for current plans."
+   }
+  ],
+  "seo_title": "TLDR This: Features, Use Cases and Alternatives",
+  "seo_description": "TLDR This overview: Summarizes web articles and long text into short overviews. See features, use cases, FAQs and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "smmry",
+  "name": "SMMRY",
+  "category": "study",
+  "website_url": "https://smmry.com",
+  "pricing": "Unknown",
+  "tagline": "Simple extractive summarizer for text and web pages.",
+  "best_for": "Short summaries of articles",
+  "platforms": [
+   "Web"
+  ],
+  "description": "SMMRY condenses text or a web page into a few sentences chosen from the original. It is extractive, meaning it picks existing sentences instead of writing new ones.\n\nIt is a quick option for getting the gist of a page, with limited control compared with newer AI summarizers. Typical tasks are article gists, study skimming and quick briefings, supported by extractive summary, sentence count control and simple page. Details can change between releases, so confirm what is included on the official site. It is best suited to this kind of need: short summaries of articles. Before committing, try it on one small real task, compare it with the related tools listed on this page, and note what you would still have to do by hand.",
+  "use_steps": [
+   "Open SMMRY on the official site or app and sign in if required.",
+   "Start with a small real task, such as article gists.",
+   "Review the output and adjust settings or prompts as needed.",
+   "Check results against your sources before using them."
+  ],
+  "pros": [
+   "Extractive summary is included",
+   "URL input supports everyday work",
+   "Easy to try on a small task",
+   "Simple page adds flexibility"
+  ],
+  "cons": [
+   "Output can be inaccurate, so human review is needed",
+   "Features and plans may change; verify on the official site"
+  ],
+  "alternatives": [
+   "scholarcy",
+   "humata",
+   "notebooklm"
+  ],
+  "tags": [
+   "summary",
+   "extractive",
+   "simple",
+   "text"
+  ],
+  "features": [
+   "Extractive summary",
+   "URL input",
+   "Sentence count control",
+   "Simple page"
+  ],
+  "use_cases": [
+   "Article gists",
+   "Study skimming",
+   "Quick briefings"
+  ],
+  "pricing_details": "Plans and pricing change over time and are not verified here. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is SMMRY?",
+    "a": "Simple extractive summarizer for text and web pages. Check the official site for current details."
+   },
+   {
+    "q": "Who is SMMRY best for?",
+    "a": "Short summaries of articles."
+   },
+   {
+    "q": "Is SMMRY free?",
+    "a": "Pricing and free options change, so check the official site for current plans."
+   }
+  ],
+  "seo_title": "SMMRY: Features, Use Cases and Alternatives",
+  "seo_description": "SMMRY overview: Simple extractive summarizer for text and web pages. See features, use cases, FAQs and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "blinkist",
+  "name": "Blinkist",
+  "category": "study",
+  "website_url": "https://www.blinkist.com",
+  "pricing": "Unknown",
+  "tagline": "Condensed summaries of nonfiction books in short reads and audio.",
+  "best_for": "Learning book ideas in minutes",
+  "platforms": [
+   "Web",
+   "iOS",
+   "Android"
+  ],
+  "description": "Blinkist offers short written and audio summaries of nonfiction books, organized by topic. The summaries are written for quick consumption.\n\nIt suits busy readers who want to decide which books deserve a full read, or to refresh ideas from books they already know. Common uses include commute learning, book selection and quick refreshers. Its main features are book summaries, audio versions, topic browsing and mobile apps. Plans and features change, so check the official site for current details. It is best suited to this kind of need: learning book ideas in minutes. Before committing, try it on one small real task, compare it with the related tools listed on this page, and note what you would still have to do by hand.",
+  "use_steps": [
+   "Open Blinkist on the official site or app and sign in if required.",
+   "Start with a small real task, such as commute learning.",
+   "Review the output and adjust settings or prompts as needed.",
+   "Check results against your sources before using them."
+  ],
+  "pros": [
+   "Book summaries is included",
+   "Audio versions supports everyday work",
+   "Easy to try on a small task",
+   "Mobile apps adds flexibility"
+  ],
+  "cons": [
+   "Output can be inaccurate, so human review is needed",
+   "Features and plans may change; verify on the official site"
+  ],
+  "alternatives": [
+   "scholarcy",
+   "humata",
+   "notebooklm"
+  ],
+  "tags": [
+   "books",
+   "summaries",
+   "audio",
+   "learning"
+  ],
+  "features": [
+   "Book summaries",
+   "Audio versions",
+   "Topic browsing",
+   "Mobile apps"
+  ],
+  "use_cases": [
+   "Commute learning",
+   "Book selection",
+   "Quick refreshers"
+  ],
+  "pricing_details": "Plans and pricing change over time and are not verified here. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Blinkist?",
+    "a": "Condensed summaries of nonfiction books in short reads and audio. Check the official site for current details."
+   },
+   {
+    "q": "Who is Blinkist best for?",
+    "a": "Learning book ideas in minutes."
+   },
+   {
+    "q": "Is Blinkist free?",
+    "a": "Pricing and free options change, so check the official site for current plans."
+   }
+  ],
+  "seo_title": "Blinkist: Features, Use Cases and Alternatives",
+  "seo_description": "Blinkist overview: Condensed summaries of nonfiction books in short reads and audio. See features, use cases, FAQs and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "recall-ai",
+  "name": "Recall",
+  "category": "research",
+  "website_url": "https://www.getrecall.ai",
+  "pricing": "Unknown",
+  "tagline": "Saves content and summarizes it into a linked knowledge base.",
+  "best_for": "Building a searchable library of what you read",
+  "platforms": [
+   "Web",
+   "Chrome"
+  ],
+  "description": "Recall saves articles, videos and podcasts, creates summaries and links related items into a knowledge graph. A browser extension handles saving.\n\nIt suits people who consume lots of content online and want to search and connect it later. In practice people reach for it for research libraries or video notes, and sometimes reading backlog. Expect one-click save and summaries, plus knowledge graph. Review any output before relying on it, and check the official site for current plans. It is best suited to this kind of need: building a searchable library of what you read. Before committing, try it on one small real task, compare it with the related tools listed on this page, and note what you would still have to do by hand.",
+  "use_steps": [
+   "Open Recall on the official site or app and sign in if required.",
+   "Start with a small real task, such as research libraries.",
+   "Review the output and adjust settings or prompts as needed.",
+   "Check results against your sources before using them."
+  ],
+  "pros": [
+   "One-click save is included",
+   "Summaries supports everyday work",
+   "Easy to try on a small task",
+   "Chat with saved content adds flexibility"
+  ],
+  "cons": [
+   "Output can be inaccurate, so human review is needed",
+   "Features and plans may change; verify on the official site"
+  ],
+  "alternatives": [
+   "scholarcy",
+   "humata",
+   "notebooklm"
+  ],
+  "tags": [
+   "knowledge",
+   "summaries",
+   "saving",
+   "graph"
+  ],
+  "features": [
+   "One-click save",
+   "Summaries",
+   "Knowledge graph",
+   "Chat with saved content"
+  ],
+  "use_cases": [
+   "Research libraries",
+   "Video notes",
+   "Reading backlog"
+  ],
+  "pricing_details": "Plans and pricing change over time and are not verified here. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Recall?",
+    "a": "Saves content and summarizes it into a linked knowledge base. Check the official site for current details."
+   },
+   {
+    "q": "Who is Recall best for?",
+    "a": "Building a searchable library of what you read."
+   },
+   {
+    "q": "Is Recall free?",
+    "a": "Pricing and free options change, so check the official site for current plans."
+   }
+  ],
+  "seo_title": "Recall: Features, Use Cases and Alternatives",
+  "seo_description": "Recall overview: Saves content and summarizes it into a linked knowledge base. See features, use cases, FAQs and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "notegpt",
+  "name": "NoteGPT",
+  "category": "study",
+  "website_url": "https://notegpt.io",
+  "pricing": "Unknown",
+  "tagline": "Summarizes videos, PDFs and web pages into notes.",
+  "best_for": "Turning content into study notes",
+  "platforms": [
+   "Web",
+   "Chrome"
+  ],
+  "description": "NoteGPT creates summaries and notes from YouTube videos, documents and web pages. It also offers mind maps and flashcards in some features.\n\nStudents use this kind of tool to build first-pass notes, which they should check against the source. Typical tasks are lecture notes, reading summaries and exam revision, supported by video summaries, mind maps and flashcards. Details can change between releases, so confirm what is included on the official site. It is best suited to this kind of need: turning content into study notes. Before committing, try it on one small real task, compare it with the related tools listed on this page, and note what you would still have to do by hand.",
+  "use_steps": [
+   "Open NoteGPT on the official site or app and sign in if required.",
+   "Start with a small real task, such as lecture notes.",
+   "Review the output and adjust settings or prompts as needed.",
+   "Check results against your sources before using them."
+  ],
+  "pros": [
+   "Video summaries is included",
+   "PDF notes supports everyday work",
+   "Easy to try on a small task",
+   "Flashcards adds flexibility"
+  ],
+  "cons": [
+   "Output can be inaccurate, so human review is needed",
+   "Features and plans may change; verify on the official site"
+  ],
+  "alternatives": [
+   "scholarcy",
+   "humata",
+   "notebooklm"
+  ],
+  "tags": [
+   "notes",
+   "video",
+   "study",
+   "summaries"
+  ],
+  "features": [
+   "Video summaries",
+   "PDF notes",
+   "Mind maps",
+   "Flashcards"
+  ],
+  "use_cases": [
+   "Lecture notes",
+   "Reading summaries",
+   "Exam revision"
+  ],
+  "pricing_details": "Plans and pricing change over time and are not verified here. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is NoteGPT?",
+    "a": "Summarizes videos, PDFs and web pages into notes. Check the official site for current details."
+   },
+   {
+    "q": "Who is NoteGPT best for?",
+    "a": "Turning content into study notes."
+   },
+   {
+    "q": "Is NoteGPT free?",
+    "a": "Pricing and free options change, so check the official site for current plans."
+   }
+  ],
+  "seo_title": "NoteGPT: Features, Use Cases and Alternatives",
+  "seo_description": "NoteGPT overview: Summarizes videos, PDFs and web pages into notes. See features, use cases, FAQs and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "upword",
+  "name": "Upword",
+  "category": "research",
+  "website_url": "https://www.upword.ai",
+  "pricing": "Unknown",
+  "tagline": "Document summarizer for research with chat over your files.",
+  "best_for": "Summarizing reports and papers",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Upword summarizes uploaded documents and lets you ask questions about the content. It targets researchers who read long reports.\n\nIt helps with first-pass reading of lengthy files, with the caution that you verify any extracted claims against the original. Common uses include literature review, report reading and briefings. Its main features are document summaries, chat with files, organized library and report support. Plans and features change, so check the official site for current details. It is best suited to this kind of need: summarizing reports and papers. Before committing, try it on one small real task, compare it with the related tools listed on this page, and note what you would still have to do by hand.",
+  "use_steps": [
+   "Open Upword on the official site or app and sign in if required.",
+   "Start with a small real task, such as literature review.",
+   "Review the output and adjust settings or prompts as needed.",
+   "Check results against your sources before using them."
+  ],
+  "pros": [
+   "Document summaries is included",
+   "Chat with files supports everyday work",
+   "Easy to try on a small task",
+   "Report support adds flexibility"
+  ],
+  "cons": [
+   "Output can be inaccurate, so human review is needed",
+   "Features and plans may change; verify on the official site"
+  ],
+  "alternatives": [
+   "scholarcy",
+   "humata",
+   "notebooklm"
+  ],
+  "tags": [
+   "documents",
+   "research",
+   "summary",
+   "chat"
+  ],
+  "features": [
+   "Document summaries",
+   "Chat with files",
+   "Organized library",
+   "Report support"
+  ],
+  "use_cases": [
+   "Literature review",
+   "Report reading",
+   "Briefings"
+  ],
+  "pricing_details": "Plans and pricing change over time and are not verified here. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Upword?",
+    "a": "Document summarizer for research with chat over your files. Check the official site for current details."
+   },
+   {
+    "q": "Who is Upword best for?",
+    "a": "Summarizing reports and papers."
+   },
+   {
+    "q": "Is Upword free?",
+    "a": "Pricing and free options change, so check the official site for current plans."
+   }
+  ],
+  "seo_title": "Upword: Features, Use Cases and Alternatives",
+  "seo_description": "Upword overview: Document summarizer for research with chat over your files. See features, use cases, FAQs and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "hebbia",
+  "name": "Hebbia",
+  "category": "research",
+  "website_url": "https://www.hebbia.ai",
+  "pricing": "Unknown",
+  "tagline": "AI search and analysis over large document collections for firms.",
+  "best_for": "Professional teams searching big document sets",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Hebbia is an enterprise platform for searching and analyzing large collections of documents with AI. It is aimed at finance and legal-style work rather than casual users.\n\nIt is relevant if your team must extract answers across many contracts or filings, and requires contacting the vendor for details. In practice people reach for it for due diligence or contract review, and sometimes financial research. Expect document search and cross-file analysis, plus enterprise focus. Review any output before relying on it, and check the official site for current plans. It is best suited to this kind of need: professional teams searching big document sets. Before committing, try it on one small real task, compare it with the related tools listed on this page, and note what you would still have to do by hand.",
+  "use_steps": [
+   "Open Hebbia on the official site or app and sign in if required.",
+   "Start with a small real task, such as due diligence.",
+   "Review the output and adjust settings or prompts as needed.",
+   "Check results against your sources before using them."
+  ],
+  "pros": [
+   "Document search is included",
+   "Cross-file analysis supports everyday work",
+   "Easy to try on a small task",
+   "Structured answers adds flexibility"
+  ],
+  "cons": [
+   "Output can be inaccurate, so human review is needed",
+   "Features and plans may change; verify on the official site"
+  ],
+  "alternatives": [
+   "perplexity",
+   "you-com",
+   "phind"
+  ],
+  "tags": [
+   "enterprise",
+   "search",
+   "documents",
+   "analysis"
+  ],
+  "features": [
+   "Document search",
+   "Cross-file analysis",
+   "Enterprise focus",
+   "Structured answers"
+  ],
+  "use_cases": [
+   "Due diligence",
+   "Contract review",
+   "Financial research"
+  ],
+  "pricing_details": "Plans and pricing change over time and are not verified here. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Hebbia?",
+    "a": "AI search and analysis over large document collections for firms. Check the official site for current details."
+   },
+   {
+    "q": "Who is Hebbia best for?",
+    "a": "Professional teams searching big document sets."
+   },
+   {
+    "q": "Is Hebbia free?",
+    "a": "Pricing and free options change, so check the official site for current plans."
+   }
+  ],
+  "seo_title": "Hebbia: Features, Use Cases and Alternatives",
+  "seo_description": "Hebbia overview: AI search and analysis over large document collections for firms. See features, use cases, FAQs and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "iask-ai",
+  "name": "iAsk",
+  "category": "research",
+  "website_url": "https://iask.ai",
+  "pricing": "Unknown",
+  "tagline": "Question-answering search engine that cites its sources.",
+  "best_for": "Direct answers to factual questions",
+  "platforms": [
+   "Web"
+  ],
+  "description": "iAsk is an AI search engine that answers questions in short written responses with sources listed. It is designed for direct questions.\n\nUse it for quick factual lookups and open the sources to confirm key details. Typical tasks are fact lookups, homework help and topic overviews, supported by direct answers, question input and follow-ups. Details can change between releases, so confirm what is included on the official site. It is best suited to this kind of need: direct answers to factual questions. Before committing, try it on one small real task, compare it with the related tools listed on this page, and note what you would still have to do by hand.",
+  "use_steps": [
+   "Open iAsk on the official site or app and sign in if required.",
+   "Start with a small real task, such as fact lookups.",
+   "Review the output and adjust settings or prompts as needed.",
+   "Check results against your sources before using them."
+  ],
+  "pros": [
+   "Direct answers is included",
+   "Source links supports everyday work",
+   "Easy to try on a small task",
+   "Follow-ups adds flexibility"
+  ],
+  "cons": [
+   "Output can be inaccurate, so human review is needed",
+   "Features and plans may change; verify on the official site"
+  ],
+  "alternatives": [
+   "perplexity",
+   "you-com",
+   "phind"
+  ],
+  "tags": [
+   "search",
+   "answers",
+   "sources",
+   "questions"
+  ],
+  "features": [
+   "Direct answers",
+   "Source links",
+   "Question input",
+   "Follow-ups"
+  ],
+  "use_cases": [
+   "Fact lookups",
+   "Homework help",
+   "Topic overviews"
+  ],
+  "pricing_details": "Plans and pricing change over time and are not verified here. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is iAsk?",
+    "a": "Question-answering search engine that cites its sources. Check the official site for current details."
+   },
+   {
+    "q": "Who is iAsk best for?",
+    "a": "Direct answers to factual questions."
+   },
+   {
+    "q": "Is iAsk free?",
+    "a": "Pricing and free options change, so check the official site for current plans."
+   }
+  ],
+  "seo_title": "iAsk: Features, Use Cases and Alternatives",
+  "seo_description": "iAsk overview: Question-answering search engine that cites its sources. See features, use cases, FAQs and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "morphic",
+  "name": "Morphic",
+  "category": "research",
+  "website_url": "https://www.morphic.sh",
+  "pricing": "Open source",
+  "tagline": "Open-source AI answer engine with a generative UI.",
+  "best_for": "Developers exploring AI search",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Morphic is an open-source AI search project that answers questions with sources and related follow-ups. The code can be inspected and self-hosted by developers.\n\nIt is a good option for people who want to see how an AI search app is built, not only use one. Common uses include learning how AI search works, self-hosting and quick questions. Its main features are open source, source citations, follow-up suggestions and self-hostable. Plans and features change, so check the official site for current details. It is best suited to this kind of need: developers exploring AI search. Before committing, try it on one small real task, compare it with the related tools listed on this page, and note what you would still have to do by hand.",
+  "use_steps": [
+   "Open Morphic on the official site or app and sign in if required.",
+   "Start with a small real task, such as learning how AI search works.",
+   "Review the output and adjust settings or prompts as needed.",
+   "Check results against your sources before using them."
+  ],
+  "pros": [
+   "Open source is included",
+   "Source citations supports everyday work",
+   "Easy to try on a small task",
+   "Self-hostable adds flexibility"
+  ],
+  "cons": [
+   "Output can be inaccurate, so human review is needed",
+   "Features and plans may change; verify on the official site"
+  ],
+  "alternatives": [
+   "perplexity",
+   "you-com",
+   "phind"
+  ],
+  "tags": [
+   "open source",
+   "search",
+   "answers",
+   "developer"
+  ],
+  "features": [
+   "Open source",
+   "Source citations",
+   "Follow-up suggestions",
+   "Self-hostable"
+  ],
+  "use_cases": [
+   "Learning how AI search works",
+   "Self-hosting",
+   "Quick questions"
+  ],
+  "pricing_details": "Plans and pricing change over time and are not verified here. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Morphic?",
+    "a": "Open-source AI answer engine with a generative UI. Check the official site for current details."
+   },
+   {
+    "q": "Who is Morphic best for?",
+    "a": "Developers exploring AI search."
+   },
+   {
+    "q": "Is Morphic free?",
+    "a": "Pricing and free options change, so check the official site for current plans."
+   }
+  ],
+  "seo_title": "Morphic: Features, Use Cases and Alternatives",
+  "seo_description": "Morphic overview: Open-source AI answer engine with a generative UI. See features, use cases, FAQs and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "landbot",
+  "name": "Landbot",
+  "category": "marketing",
+  "website_url": "https://landbot.io",
+  "pricing": "Unknown",
+  "tagline": "No-code chatbot builder for lead generation and support.",
+  "best_for": "Conversational forms and bots",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Landbot is a no-code builder for chatbots and conversational pages, used for collecting leads and answering questions. You assemble flows visually.\n\nMarketers use it to replace static forms with conversations. In practice people reach for it for lead qualification or bookings, and sometimes fAQ bots. Expect visual builder and conversational forms, plus integrations. Review any output before relying on it, and check the official site for current plans. It is best suited to this kind of need: conversational forms and bots. Before committing, try it on one small real task, compare it with the related tools listed on this page, and note what you would still have to do by hand.",
+  "use_steps": [
+   "Open Landbot on the official site or app and sign in if required.",
+   "Start with a small real task, such as lead qualification.",
+   "Review the output and adjust settings or prompts as needed.",
+   "Check results against your sources before using them."
+  ],
+  "pros": [
+   "Visual builder is included",
+   "Conversational forms supports everyday work",
+   "Easy to try on a small task",
+   "Templates adds flexibility"
+  ],
+  "cons": [
+   "Output can be inaccurate, so human review is needed",
+   "Features and plans may change; verify on the official site"
+  ],
+  "alternatives": [
+   "botpress",
+   "chatbase",
+   "chatfuel"
+  ],
+  "tags": [
+   "chatbot",
+   "no-code",
+   "leads",
+   "forms"
+  ],
+  "features": [
+   "Visual builder",
+   "Conversational forms",
+   "Integrations",
+   "Templates"
+  ],
+  "use_cases": [
+   "Lead qualification",
+   "Bookings",
+   "FAQ bots"
+  ],
+  "pricing_details": "Plans and pricing change over time and are not verified here. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Landbot?",
+    "a": "No-code chatbot builder for lead generation and support. Check the official site for current details."
+   },
+   {
+    "q": "Who is Landbot best for?",
+    "a": "Conversational forms and bots."
+   },
+   {
+    "q": "Is Landbot free?",
+    "a": "Pricing and free options change, so check the official site for current plans."
+   }
+  ],
+  "seo_title": "Landbot: Features, Use Cases and Alternatives",
+  "seo_description": "Landbot overview: No-code chatbot builder for lead generation and support. See features, use cases, FAQs and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "kommunicate",
+  "name": "Kommunicate",
+  "category": "marketing",
+  "website_url": "https://www.kommunicate.io",
+  "pricing": "Unknown",
+  "tagline": "Customer support chatbot platform with human handoff.",
+  "best_for": "Support teams automating FAQs",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Kommunicate offers chatbot and live chat tools for customer support, with the option to hand a conversation to a human agent. Bots can be trained on help content.\n\nIt suits support teams that want automation without losing human backup. Typical tasks are support FAQs, lead capture and ticket triage, supported by chatbot, knowledge training and website widget. Details can change between releases, so confirm what is included on the official site. It is best suited to this kind of need: support teams automating FAQs. Before committing, try it on one small real task, compare it with the related tools listed on this page, and note what you would still have to do by hand.",
+  "use_steps": [
+   "Open Kommunicate on the official site or app and sign in if required.",
+   "Start with a small real task, such as support FAQs.",
+   "Review the output and adjust settings or prompts as needed.",
+   "Check results against your sources before using them."
+  ],
+  "pros": [
+   "Chatbot is included",
+   "Human handoff supports everyday work",
+   "Easy to try on a small task",
+   "Website widget adds flexibility"
+  ],
+  "cons": [
+   "Output can be inaccurate, so human review is needed",
+   "Features and plans may change; verify on the official site"
+  ],
+  "alternatives": [
+   "botpress",
+   "chatbase",
+   "chatfuel"
+  ],
+  "tags": [
+   "support",
+   "chatbot",
+   "handoff",
+   "faq"
+  ],
+  "features": [
+   "Chatbot",
+   "Human handoff",
+   "Knowledge training",
+   "Website widget"
+  ],
+  "use_cases": [
+   "Support FAQs",
+   "Lead capture",
+   "Ticket triage"
+  ],
+  "pricing_details": "Plans and pricing change over time and are not verified here. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Kommunicate?",
+    "a": "Customer support chatbot platform with human handoff. Check the official site for current details."
+   },
+   {
+    "q": "Who is Kommunicate best for?",
+    "a": "Support teams automating FAQs."
+   },
+   {
+    "q": "Is Kommunicate free?",
+    "a": "Pricing and free options change, so check the official site for current plans."
+   }
+  ],
+  "seo_title": "Kommunicate: Features, Use Cases and Alternatives",
+  "seo_description": "Kommunicate overview: Customer support chatbot platform with human handoff. See features, use cases, FAQs and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "circleback",
+  "name": "Circleback",
+  "category": "productivity",
+  "website_url": "https://circleback.ai",
+  "pricing": "Unknown",
+  "tagline": "Meeting notes and action items automatically organized.",
+  "best_for": "Capturing follow-ups from meetings",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Circleback records meetings and produces notes, action items and searchable transcripts. It also lets you route notes to other tools.\n\nIt suits teams that want follow-ups captured and shared without manual writing. Common uses include team meetings, client calls and follow-ups. Its main features are notes, action items, transcripts and integrations. Plans and features change, so check the official site for current details. It is best suited to this kind of need: capturing follow-ups from meetings. Before committing, try it on one small real task, compare it with the related tools listed on this page, and note what you would still have to do by hand.",
+  "use_steps": [
+   "Open Circleback on the official site or app and sign in if required.",
+   "Start with a small real task, such as team meetings.",
+   "Review the output and adjust settings or prompts as needed.",
+   "Check results against your sources before using them."
+  ],
+  "pros": [
+   "Notes is included",
+   "Action items supports everyday work",
+   "Easy to try on a small task",
+   "Integrations adds flexibility"
+  ],
+  "cons": [
+   "Output can be inaccurate, so human review is needed",
+   "Features and plans may change; verify on the official site"
+  ],
+  "alternatives": [
+   "tldv",
+   "notta",
+   "read-ai"
+  ],
+  "tags": [
+   "meetings",
+   "notes",
+   "actions",
+   "automation"
+  ],
+  "features": [
+   "Notes",
+   "Action items",
+   "Transcripts",
+   "Integrations"
+  ],
+  "use_cases": [
+   "Team meetings",
+   "Client calls",
+   "Follow-ups"
+  ],
+  "pricing_details": "Plans and pricing change over time and are not verified here. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Circleback?",
+    "a": "Meeting notes and action items automatically organized. Check the official site for current details."
+   },
+   {
+    "q": "Who is Circleback best for?",
+    "a": "Capturing follow-ups from meetings."
+   },
+   {
+    "q": "Is Circleback free?",
+    "a": "Pricing and free options change, so check the official site for current plans."
+   }
+  ],
+  "seo_title": "Circleback: Features, Use Cases and Alternatives",
+  "seo_description": "Circleback overview: Meeting notes and action items automatically organized. See features, use cases, FAQs and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "meetgeek",
+  "name": "MeetGeek",
+  "category": "productivity",
+  "website_url": "https://meetgeek.ai",
+  "pricing": "Unknown",
+  "tagline": "AI meeting assistant that records, transcribes and summarizes.",
+  "best_for": "Remote teams documenting meetings",
+  "platforms": [
+   "Web"
+  ],
+  "description": "MeetGeek joins online meetings to record and transcribe them, then generates summaries and highlights. It integrates with calendar and conferencing apps.\n\nIt suits teams who want an automatic archive of conversations. In practice people reach for it for team meetings or interviews, and sometimes client calls. Expect recording and summaries, plus highlights. Review any output before relying on it, and check the official site for current plans. It is best suited to this kind of need: remote teams documenting meetings. Before committing, try it on one small real task, compare it with the related tools listed on this page, and note what you would still have to do by hand.",
+  "use_steps": [
+   "Open MeetGeek on the official site or app and sign in if required.",
+   "Start with a small real task, such as team meetings.",
+   "Review the output and adjust settings or prompts as needed.",
+   "Check results against your sources before using them."
+  ],
+  "pros": [
+   "Recording is included",
+   "Summaries supports everyday work",
+   "Easy to try on a small task",
+   "Calendar link adds flexibility"
+  ],
+  "cons": [
+   "Output can be inaccurate, so human review is needed",
+   "Features and plans may change; verify on the official site"
+  ],
+  "alternatives": [
+   "tldv",
+   "notta",
+   "read-ai"
+  ],
+  "tags": [
+   "meetings",
+   "summaries",
+   "recording",
+   "transcripts"
+  ],
+  "features": [
+   "Recording",
+   "Summaries",
+   "Highlights",
+   "Calendar link"
+  ],
+  "use_cases": [
+   "Team meetings",
+   "Interviews",
+   "Client calls"
+  ],
+  "pricing_details": "Plans and pricing change over time and are not verified here. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is MeetGeek?",
+    "a": "AI meeting assistant that records, transcribes and summarizes. Check the official site for current details."
+   },
+   {
+    "q": "Who is MeetGeek best for?",
+    "a": "Remote teams documenting meetings."
+   },
+   {
+    "q": "Is MeetGeek free?",
+    "a": "Pricing and free options change, so check the official site for current plans."
+   }
+  ],
+  "seo_title": "MeetGeek: Features, Use Cases and Alternatives",
+  "seo_description": "MeetGeek overview: AI meeting assistant that records, transcribes and summarizes. See features, use cases, FAQs and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "avoma",
+  "name": "Avoma",
+  "category": "productivity",
+  "website_url": "https://www.avoma.com",
+  "pricing": "Unknown",
+  "tagline": "Meeting assistant with notes, scheduling and conversation insights.",
+  "best_for": "Customer-facing teams",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Avoma records and transcribes meetings, produces notes and tracks topics across conversations. It also helps with scheduling.\n\nIt mostly serves sales and customer success teams who review calls. Typical tasks are sales calls, customer reviews and coaching, supported by meeting notes, scheduling and cRM sync. Details can change between releases, so confirm what is included on the official site. It is best suited to this kind of need: customer-facing teams. Before committing, try it on one small real task, compare it with the related tools listed on this page, and note what you would still have to do by hand.",
+  "use_steps": [
+   "Open Avoma on the official site or app and sign in if required.",
+   "Start with a small real task, such as sales calls.",
+   "Review the output and adjust settings or prompts as needed.",
+   "Check results against your sources before using them."
+  ],
+  "pros": [
+   "Meeting notes is included",
+   "Call insights supports everyday work",
+   "Easy to try on a small task",
+   "CRM sync adds flexibility"
+  ],
+  "cons": [
+   "Output can be inaccurate, so human review is needed",
+   "Features and plans may change; verify on the official site"
+  ],
+  "alternatives": [
+   "tldv",
+   "notta",
+   "read-ai"
+  ],
+  "tags": [
+   "meetings",
+   "sales",
+   "insights",
+   "notes"
+  ],
+  "features": [
+   "Meeting notes",
+   "Call insights",
+   "Scheduling",
+   "CRM sync"
+  ],
+  "use_cases": [
+   "Sales calls",
+   "Customer reviews",
+   "Coaching"
+  ],
+  "pricing_details": "Plans and pricing change over time and are not verified here. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Avoma?",
+    "a": "Meeting assistant with notes, scheduling and conversation insights. Check the official site for current details."
+   },
+   {
+    "q": "Who is Avoma best for?",
+    "a": "Customer-facing teams."
+   },
+   {
+    "q": "Is Avoma free?",
+    "a": "Pricing and free options change, so check the official site for current plans."
+   }
+  ],
+  "seo_title": "Avoma: Features, Use Cases and Alternatives",
+  "seo_description": "Avoma overview: Meeting assistant with notes, scheduling and conversation insights. See features, use cases, FAQs and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "bluedot",
+  "name": "Bluedot",
+  "category": "productivity",
+  "website_url": "https://www.bluedothq.com",
+  "pricing": "Unknown",
+  "tagline": "Meeting recorder that works without a visible bot.",
+  "best_for": "Recording meetings via a browser extension",
+  "platforms": [
+   "Chrome"
+  ],
+  "description": "Bluedot records and transcribes meetings through a Chrome extension, then provides summaries and action items.\n\nIt suits people who prefer not to have a bot join calls. Common uses include client calls, team meetings and interviews. Its main features are extension recorder, summaries, action items and transcripts. Plans and features change, so check the official site for current details. It is best suited to this kind of need: recording meetings via a browser extension. Before committing, try it on one small real task, compare it with the related tools listed on this page, and note what you would still have to do by hand.",
+  "use_steps": [
+   "Open Bluedot on the official site or app and sign in if required.",
+   "Start with a small real task, such as client calls.",
+   "Review the output and adjust settings or prompts as needed.",
+   "Check results against your sources before using them."
+  ],
+  "pros": [
+   "Extension recorder is included",
+   "Summaries supports everyday work",
+   "Easy to try on a small task",
+   "Transcripts adds flexibility"
+  ],
+  "cons": [
+   "Output can be inaccurate, so human review is needed",
+   "Features and plans may change; verify on the official site"
+  ],
+  "alternatives": [
+   "tldv",
+   "notta",
+   "read-ai"
+  ],
+  "tags": [
+   "meetings",
+   "extension",
+   "summaries",
+   "recording"
+  ],
+  "features": [
+   "Extension recorder",
+   "Summaries",
+   "Action items",
+   "Transcripts"
+  ],
+  "use_cases": [
+   "Client calls",
+   "Team meetings",
+   "Interviews"
+  ],
+  "pricing_details": "Plans and pricing change over time and are not verified here. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Bluedot?",
+    "a": "Meeting recorder that works without a visible bot. Check the official site for current details."
+   },
+   {
+    "q": "Who is Bluedot best for?",
+    "a": "Recording meetings via a browser extension."
+   },
+   {
+    "q": "Is Bluedot free?",
+    "a": "Pricing and free options change, so check the official site for current plans."
+   }
+  ],
+  "seo_title": "Bluedot: Features, Use Cases and Alternatives",
+  "seo_description": "Bluedot overview: Meeting recorder that works without a visible bot. See features, use cases, FAQs and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "sembly",
+  "name": "Sembly",
+  "category": "productivity",
+  "website_url": "https://www.sembly.ai",
+  "pricing": "Unknown",
+  "tagline": "AI meeting assistant for notes and summaries.",
+  "best_for": "Recording and organizing meetings",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Sembly joins online meetings to transcribe them, producing summaries and tasks. It also supports uploaded recordings.\n\nIt suits teams wanting recorded and searchable archives. In practice people reach for it for team meetings or interviews, and sometimes lectures. Expect transcription and summaries, plus tasks. Review any output before relying on it, and check the official site for current plans. It is best suited to this kind of need: recording and organizing meetings. Before committing, try it on one small real task, compare it with the related tools listed on this page, and note what you would still have to do by hand.",
+  "use_steps": [
+   "Open Sembly on the official site or app and sign in if required.",
+   "Start with a small real task, such as team meetings.",
+   "Review the output and adjust settings or prompts as needed.",
+   "Check results against your sources before using them."
+  ],
+  "pros": [
+   "Transcription is included",
+   "Summaries supports everyday work",
+   "Easy to try on a small task",
+   "Uploads adds flexibility"
+  ],
+  "cons": [
+   "Output can be inaccurate, so human review is needed",
+   "Features and plans may change; verify on the official site"
+  ],
+  "alternatives": [
+   "tldv",
+   "notta",
+   "read-ai"
+  ],
+  "tags": [
+   "meetings",
+   "transcription",
+   "summaries",
+   "tasks"
+  ],
+  "features": [
+   "Transcription",
+   "Summaries",
+   "Tasks",
+   "Uploads"
+  ],
+  "use_cases": [
+   "Team meetings",
+   "Interviews",
+   "Lectures"
+  ],
+  "pricing_details": "Plans and pricing change over time and are not verified here. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Sembly?",
+    "a": "AI meeting assistant for notes and summaries. Check the official site for current details."
+   },
+   {
+    "q": "Who is Sembly best for?",
+    "a": "Recording and organizing meetings."
+   },
+   {
+    "q": "Is Sembly free?",
+    "a": "Pricing and free options change, so check the official site for current plans."
+   }
+  ],
+  "seo_title": "Sembly: Features, Use Cases and Alternatives",
+  "seo_description": "Sembly overview: AI meeting assistant for notes and summaries. See features, use cases, FAQs and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "persado",
+  "name": "Persado",
+  "category": "marketing",
+  "website_url": "https://www.persado.com",
+  "pricing": "Unknown",
+  "tagline": "Enterprise AI for marketing language and message testing.",
+  "best_for": "Large brands optimizing messaging",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Persado is an enterprise platform that uses AI to generate and optimize marketing language across channels. It is a vendor product sold to large organizations.\n\nIt fits brands with large messaging volume and testing programs. Typical tasks are email campaigns, ad messaging and push notifications, supported by message generation, enterprise support and multichannel. Details can change between releases, so confirm what is included on the official site. It is best suited to this kind of need: large brands optimizing messaging. Before committing, try it on one small real task, compare it with the related tools listed on this page, and note what you would still have to do by hand.",
+  "use_steps": [
+   "Open Persado on the official site or app and sign in if required.",
+   "Start with a small real task, such as email campaigns.",
+   "Review the output and adjust settings or prompts as needed.",
+   "Check results against your sources before using them."
+  ],
+  "pros": [
+   "Message generation is included",
+   "Testing supports everyday work",
+   "Easy to try on a small task",
+   "Multichannel adds flexibility"
+  ],
+  "cons": [
+   "Output can be inaccurate, so human review is needed",
+   "Features and plans may change; verify on the official site"
+  ],
+  "alternatives": [
+   "writesonic",
+   "copy-ai",
+   "jasper"
+  ],
+  "tags": [
+   "enterprise",
+   "marketing",
+   "language",
+   "testing"
+  ],
+  "features": [
+   "Message generation",
+   "Testing",
+   "Enterprise support",
+   "Multichannel"
+  ],
+  "use_cases": [
+   "Email campaigns",
+   "Ad messaging",
+   "Push notifications"
+  ],
+  "pricing_details": "Plans and pricing change over time and are not verified here. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Persado?",
+    "a": "Enterprise AI for marketing language and message testing. Check the official site for current details."
+   },
+   {
+    "q": "Who is Persado best for?",
+    "a": "Large brands optimizing messaging."
+   },
+   {
+    "q": "Is Persado free?",
+    "a": "Pricing and free options change, so check the official site for current plans."
+   }
+  ],
+  "seo_title": "Persado: Features, Use Cases and Alternatives",
+  "seo_description": "Persado overview: Enterprise AI for marketing language and message testing. See features, use cases, FAQs and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ },
+ {
+  "slug": "phrasee",
+  "name": "Phrasee",
+  "category": "marketing",
+  "website_url": "https://phrasee.co",
+  "pricing": "Unknown",
+  "tagline": "AI platform for brand-aware marketing copy.",
+  "best_for": "Brands optimizing subject lines and copy",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Phrasee provides AI for generating and testing marketing language such as email subject lines, aligned with brand voice. It is aimed at larger marketing teams.\n\nIt suits teams that run many campaigns and want data-led wording choices. Common uses include email subject lines, push copy and social ads. Its main features are brand voice, copy generation, testing and reporting. Plans and features change, so check the official site for current details. It is best suited to this kind of need: brands optimizing subject lines and copy. Before committing, try it on one small real task, compare it with the related tools listed on this page, and note what you would still have to do by hand.",
+  "use_steps": [
+   "Open Phrasee on the official site or app and sign in if required.",
+   "Start with a small real task, such as email subject lines.",
+   "Review the output and adjust settings or prompts as needed.",
+   "Check results against your sources before using them."
+  ],
+  "pros": [
+   "Brand voice is included",
+   "Copy generation supports everyday work",
+   "Easy to try on a small task",
+   "Reporting adds flexibility"
+  ],
+  "cons": [
+   "Output can be inaccurate, so human review is needed",
+   "Features and plans may change; verify on the official site"
+  ],
+  "alternatives": [
+   "writesonic",
+   "copy-ai",
+   "jasper"
+  ],
+  "tags": [
+   "enterprise",
+   "copywriting",
+   "email",
+   "brand voice"
+  ],
+  "features": [
+   "Brand voice",
+   "Copy generation",
+   "Testing",
+   "Reporting"
+  ],
+  "use_cases": [
+   "Email subject lines",
+   "Push copy",
+   "Social ads"
+  ],
+  "pricing_details": "Plans and pricing change over time and are not verified here. Check the official site for current options.",
+  "faq": [
+   {
+    "q": "What is Phrasee?",
+    "a": "AI platform for brand-aware marketing copy. Check the official site for current details."
+   },
+   {
+    "q": "Who is Phrasee best for?",
+    "a": "Brands optimizing subject lines and copy."
+   },
+   {
+    "q": "Is Phrasee free?",
+    "a": "Pricing and free options change, so check the official site for current plans."
+   }
+  ],
+  "seo_title": "Phrasee: Features, Use Cases and Alternatives",
+  "seo_description": "Phrasee overview: AI platform for brand-aware marketing copy. See features, use cases, FAQs and alternatives.",
+  "status": "draft",
+  "last_checked": "unverified"
+ }
+]

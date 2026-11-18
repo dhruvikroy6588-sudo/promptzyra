@@ -1,0 +1,1011 @@
+[
+ {
+  "slug": "charisma-ai",
+  "name": "Charisma AI",
+  "category": "chat-assistants",
+  "website_url": "https://charisma.ai/",
+  "pricing": "Freemium",
+  "tagline": "Platform for building conversational characters that mix scripted and generated dialogue.",
+  "best_for": "Training simulations, branded campaigns and interactive stories",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Charisma AI is a platform for building virtual characters you can talk to. Instead of a single chatbot, you design characters inside a visual graph or script editor, mixing lines you wrote yourself with generated responses. Characters can remember earlier turns and adapt as a conversation goes on, and projects can hold several characters and long branching dialogues.\n\nIt is aimed at teams making training simulations, brand campaigns and interactive stories, along with creators and enterprises that need governance. Experiences can be deployed to web, mobile, VR and game engines through SDKs. Check the official site for current plans and credit rules.",
+  "use_steps": [
+   "Create an account and open a new story project.",
+   "Add a character and sketch the conversation in the visual graph editor.",
+   "Write scripted lines and set where generated replies are allowed.",
+   "Test the dialogue in the preview, then deploy through an SDK or embed."
+  ],
+  "pros": [
+   "No-code visual editors for dialogue flow",
+   "Mix of scripted and generative lines",
+   "Guardrails and role-based permissions suit teams",
+   "Deploys to web, mobile, VR and game engines"
+  ],
+  "cons": [
+   "Learning the graph model takes time",
+   "Credit-based billing needs watching on long projects"
+  ],
+  "alternatives": [
+   "character-ai",
+   "chatgpt",
+   "poe"
+  ],
+  "tags": [
+   "conversational AI",
+   "characters",
+   "interactive stories",
+   "simulation",
+   "no-code"
+  ],
+  "features": [
+   "Visual graph and script flow editors",
+   "Speech-to-text and AI voice library",
+   "Real-time analytics dashboards",
+   "Content filtering and guardrails",
+   "Audit logs and role permissions"
+  ],
+  "use_cases": [
+   "Soft-skills training simulations",
+   "Branded interactive campaigns",
+   "Narrative games and stories"
+  ],
+  "pricing_details": "Described as freemium with pay-as-you-go credits and enterprise options. Plans change, so check the official site.",
+  "faq": [
+   {
+    "q": "What is Charisma AI used for?",
+    "a": "It is used to build conversational characters for training, marketing and interactive storytelling, combining written dialogue with generated replies."
+   },
+   {
+    "q": "Do I need to code to use it?",
+    "a": "The editors are visual and no-code, though deploying into a game engine or app uses the provided SDKs."
+   },
+   {
+    "q": "How is it priced?",
+    "a": "It is described as pay-as-you-go with credits and enterprise tiers for heavier use; confirm current terms on the official site."
+   }
+  ],
+  "seo_title": "Charisma AI - Features, Pricing and Alternatives",
+  "seo_description": "Platform for building conversational characters that mix scripted and generated dialogue. Overview of features, pricing model and who it suits.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "beyondwords",
+  "name": "BeyondWords",
+  "category": "audio",
+  "website_url": "https://beyondwords.io/",
+  "pricing": "Freemium",
+  "tagline": "Turns written articles into AI audio for sites, newsletters and podcasts.",
+  "best_for": "Publishers and content teams adding audio versions of articles",
+  "platforms": [
+   "Web",
+   "API"
+  ],
+  "description": "BeyondWords converts written articles into spoken audio using stock AI voices or cloned custom voices. The audio can be published through an embeddable player on a website or newsletter, and distributed through RSS to podcast apps, so one piece of writing reaches readers and listeners.\n\nIt is built for publishers, content marketers and media brands, especially those producing many articles. It includes a voice editor, scheduling, analytics on listens and completion, an API for bulk automation and CMS integrations such as WordPress. Check the official site for current plans and voice options.",
+  "use_steps": [
+   "Sign up and connect your CMS or paste an article.",
+   "Pick a stock voice or set up a custom cloned voice.",
+   "Generate the audio and review pronunciation in the editor.",
+   "Embed the player and optionally publish an RSS podcast feed."
+  ],
+  "pros": [
+   "Embeddable player and podcast feed from the same audio",
+   "Custom voice cloning",
+   "Analytics on listens and completion",
+   "API suits high-volume publishing"
+  ],
+  "cons": [
+   "Value shows mostly for regular publishers",
+   "Commercial rights and premium voices sit on paid plans"
+  ],
+  "alternatives": [
+   "elevenlabs",
+   "murf-ai",
+   "speechify"
+  ],
+  "tags": [
+   "text to speech",
+   "publishing",
+   "podcast",
+   "audio articles",
+   "API"
+  ],
+  "features": [
+   "AI voice generator",
+   "Custom voice cloning",
+   "Embeddable audio player",
+   "RSS and podcast distribution",
+   "Listen and completion analytics"
+  ],
+  "use_cases": [
+   "Audio versions of news articles",
+   "Newsletter audio",
+   "Turning blog posts into a podcast feed"
+  ],
+  "pricing_details": "A free plan with basic features exists; paid plans add branding, analytics, commercial rights and integrations. Check the official site.",
+  "faq": [
+   {
+    "q": "Can it work with WordPress?",
+    "a": "The product lists CMS integrations including WordPress, plus an API for custom workflows."
+   },
+   {
+    "q": "Can I use my own voice?",
+    "a": "Custom voice cloning is listed as a feature; availability can depend on the plan."
+   },
+   {
+    "q": "Is there a free plan?",
+    "a": "A free tier with basic features is described, while commercial rights come with paid plans. Verify current limits on the official site."
+   }
+  ],
+  "seo_title": "BeyondWords - Features, Pricing and Alternatives",
+  "seo_description": "Turns written articles into AI audio for sites, newsletters and podcasts. Overview of features, pricing model and who it suits.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "decopy-ai",
+  "name": "Decopy AI",
+  "category": "writing",
+  "website_url": "https://decopy.ai/",
+  "pricing": "Freemium",
+  "tagline": "Browser toolkit for AI text detection, rewriting AI drafts and summarizing.",
+  "best_for": "Marketers, students and editors checking or polishing AI-assisted text",
+  "platforms": [
+   "Web",
+   "Browser extension"
+  ],
+  "description": "Decopy AI bundles several text utilities in a browser. It can estimate whether text or an image was produced by AI, rewrite AI-sounding drafts into more natural wording, and summarize articles and YouTube videos. Extras such as OCR and multi-language support are part of the same library.\n\nIt is aimed at marketers, students, educators and SEO teams who publish AI-assisted content and want a quick review step. Detection tools give estimates, not proof, so treat the result as a prompt for human editing. A browser extension is also mentioned. Check the official site for current limits and privacy terms.",
+  "use_steps": [
+   "Open the site and choose the detector, humanizer or summarizer.",
+   "Paste your text or upload the image or video link.",
+   "Run the tool and read the result or rewritten draft.",
+   "Edit the output by hand and keep your own voice."
+  ],
+  "pros": [
+   "Several text tools in one place",
+   "Free tier for many actions",
+   "No installation needed",
+   "Handles images as well as text"
+  ],
+  "cons": [
+   "Detection scores are estimates and can be wrong",
+   "Rewriting still needs a human read-through"
+  ],
+  "alternatives": [
+   "quillbot",
+   "wordtune",
+   "grammarly"
+  ],
+  "tags": [
+   "AI detector",
+   "humanizer",
+   "summarizer",
+   "rewriting",
+   "writing"
+  ],
+  "features": [
+   "AI text detection",
+   "AI humanizer rewrite",
+   "Article and YouTube summarizers",
+   "AI image detector",
+   "Browser extension"
+  ],
+  "use_cases": [
+   "Checking a draft before publishing",
+   "Smoothing stiff AI-written copy",
+   "Summarizing long articles"
+  ],
+  "pricing_details": "Many actions are free with limits; higher limits and team features are paid. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "Can it prove text was written by AI?",
+    "a": "No detector can prove that. Results are estimates and should not be the sole basis for a decision."
+   },
+   {
+    "q": "Does it summarize videos?",
+    "a": "It lists summarizers for articles and YouTube videos."
+   },
+   {
+    "q": "Is it free?",
+    "a": "A free tier covers many actions with limits; paid plans raise them."
+   }
+  ],
+  "seo_title": "Decopy AI - Features, Pricing and Alternatives",
+  "seo_description": "Browser toolkit for AI text detection, rewriting AI drafts and summarizing. Overview of features, pricing model and who it suits.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "hume-ai",
+  "name": "Hume AI",
+  "category": "audio",
+  "website_url": "https://www.hume.ai/",
+  "pricing": "Freemium",
+  "tagline": "Expressive voice platform with emotion-aware text-to-speech and real-time voice interface.",
+  "best_for": "Developers and creators building expressive voice apps",
+  "platforms": [
+   "Web",
+   "API",
+   "SDK"
+  ],
+  "description": "Hume AI builds voice tools that pay attention to emotion. Octave is its text-to-speech engine, which predicts expression, cadence and prosody from the text. EVI is a real-time speech-to-speech interface that picks up emotional cues in a speaker's voice and responds accordingly, and a separate API measures emotional expression in audio, video, images and text.\n\nDevelopers, customer-service teams and content creators are the main audience, and the product also targets regulated fields such as healthcare and finance. Voices can be designed from a text description or cloned from a sample, and you can connect your own language model. Expressiveness is strongest in English. Check the official site for current plans.",
+  "use_steps": [
+   "Create an account and get an API key or open the web playground.",
+   "Describe or clone a voice, or choose one from the library.",
+   "Generate speech from text, or connect EVI to your app with an SDK.",
+   "Test with different emotional prompts and adjust the voice."
+  ],
+  "pros": [
+   "Voice design from a text description",
+   "Bring-your-own language model",
+   "SDKs for several languages",
+   "Free tier to experiment"
+  ],
+  "cons": [
+   "Strongest in English",
+   "Developer setup is needed for the real-time interface"
+  ],
+  "alternatives": [
+   "elevenlabs",
+   "murf-ai",
+   "speechify"
+  ],
+  "tags": [
+   "voice AI",
+   "text to speech",
+   "emotion",
+   "API",
+   "voice cloning"
+  ],
+  "features": [
+   "Octave text-to-speech",
+   "Empathic voice interface",
+   "Expression measurement API",
+   "Voice cloning and design",
+   "SDKs and integrations"
+  ],
+  "use_cases": [
+   "Voice agents with emotional tone",
+   "Narration with expressive delivery",
+   "Analyzing emotion in audio"
+  ],
+  "pricing_details": "A free tier and usage-based paid plans are described, with enterprise pricing. Plans change; check the official site.",
+  "faq": [
+   {
+    "q": "What is EVI?",
+    "a": "EVI is Hume's real-time speech-to-speech interface that detects emotional cues in a voice and replies with a matching tone."
+   },
+   {
+    "q": "Can I use my own LLM?",
+    "a": "Bring-your-own language model support is listed, including several major providers."
+   },
+   {
+    "q": "Is it only for developers?",
+    "a": "Creators can use the web tools, but real-time apps need SDK or API work."
+   }
+  ],
+  "seo_title": "Hume AI - Features, Pricing and Alternatives",
+  "seo_description": "Expressive voice platform with emotion-aware text-to-speech and real-time voice interface. Overview of features, pricing model and who it suits.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "ink-for-all",
+  "name": "Ink for All",
+  "category": "writing",
+  "website_url": "https://inkforall.com/",
+  "pricing": "Freemium",
+  "tagline": "AI writing assistant that scores SEO and keywords while you draft.",
+  "best_for": "Marketers and small teams writing blog posts and web copy",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Ink for All pairs an AI writing assistant with SEO tooling. You can generate blog posts, articles and marketing copy, and the editor gives a real-time optimization score based on readability, keyword use and structure. Keyword research with clustering and search-intent targeting sits in the same workspace.\n\nIt suits freelancers, creators, small businesses and larger teams who would otherwise juggle a writing tool and a separate SEO checker. A brand-voice setting controls tone, and content can be exported to CMS tools for team workflows. The listing tags it as paid, though its FAQ mentions a limited free plan, so check the official site for current plans.",
+  "use_steps": [
+   "Sign up and set your brand voice.",
+   "Enter a target keyword and run keyword research.",
+   "Generate a draft and watch the SEO score as you edit.",
+   "Export to your CMS after a manual fact-check."
+  ],
+  "pros": [
+   "Writing and SEO scoring in one editor",
+   "Keyword clustering and intent targeting",
+   "Brand-voice control",
+   "Works in the browser"
+  ],
+  "cons": [
+   "AI drafts still need fact-checking",
+   "Pricing details are unclear from public listings"
+  ],
+  "alternatives": [
+   "surfer-seo",
+   "writesonic",
+   "jasper"
+  ],
+  "tags": [
+   "SEO writing",
+   "blog posts",
+   "keywords",
+   "content marketing",
+   "brand voice"
+  ],
+  "features": [
+   "AI blog and copy generation",
+   "Real-time SEO score",
+   "Keyword research and clustering",
+   "Brand voice control",
+   "CMS export"
+  ],
+  "use_cases": [
+   "Blog post production",
+   "Optimizing existing articles",
+   "Keyword-led content plans"
+  ],
+  "pricing_details": "Listed as paid, with a limited free plan mentioned in its FAQ. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "Does it include keyword research?",
+    "a": "Yes, including clustering and intent targeting."
+   },
+   {
+    "q": "Is there a free plan?",
+    "a": "Its FAQ mentions a limited free plan, though the listing tags it as paid. Confirm on the official site."
+   },
+   {
+    "q": "Does it integrate with a CMS?",
+    "a": "Exports to CMS tools are listed."
+   }
+  ],
+  "seo_title": "Ink for All - Features, Pricing and Alternatives",
+  "seo_description": "AI writing assistant that scores SEO and keywords while you draft. Overview of features, pricing model and who it suits.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "resound-fm",
+  "name": "Resound",
+  "category": "audio",
+  "website_url": "https://resound.fm/",
+  "pricing": "Freemium",
+  "tagline": "Browser-based AI podcast editor that cuts filler words and silences.",
+  "best_for": "Podcasters who want faster first-pass editing",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Resound is a podcast editor that runs in the browser. It detects filler sounds such as ums and ahs and long silences, then marks them in a visual waveform so you can accept or reject each suggested cut. It can also reduce background noise, level volume, mix multiple tracks and master to loudness standards.\n\nHobbyists and professional podcast networks are the target, and no audio-editing background is assumed. Files export as MP3 or WAV. According to its FAQ there are no direct DAW timeline exports or API integrations, so it works best as a quick cleanup step. Check the official site for current plan limits.",
+  "use_steps": [
+   "Upload your recording to a new project.",
+   "Run filler-word and silence detection.",
+   "Review suggested edits on the waveform and accept or reject them.",
+   "Enhance, mix and master, then export MP3 or WAV."
+  ],
+  "pros": [
+   "Review each suggested cut before applying",
+   "Cleanup, mixing and mastering together",
+   "No software to install",
+   "Free plan for light use"
+  ],
+  "cons": [
+   "No DAW timeline export",
+   "Free editing time is limited"
+  ],
+  "alternatives": [
+   "descript",
+   "auphonic",
+   "podcastle"
+  ],
+  "tags": [
+   "podcast editing",
+   "filler words",
+   "audio cleanup",
+   "mastering",
+   "browser"
+  ],
+  "features": [
+   "Filler word detection",
+   "Silence detection",
+   "Noise reduction and leveling",
+   "Mix and master",
+   "Waveform review"
+  ],
+  "use_cases": [
+   "Cleaning interview recordings",
+   "Tightening solo episodes",
+   "Mastering finished mixes"
+  ],
+  "pricing_details": "A free plan with limited monthly editing exists; paid tiers add time and features. Check the official site.",
+  "faq": [
+   {
+    "q": "Does it delete things automatically?",
+    "a": "It suggests edits that you accept or reject in the waveform."
+   },
+   {
+    "q": "What formats can I export?",
+    "a": "MP3 and WAV."
+   },
+   {
+    "q": "Can I send the project to my DAW?",
+    "a": "Its FAQ says there are no direct DAW timeline exports."
+   }
+  ],
+  "seo_title": "Resound - Features, Pricing and Alternatives",
+  "seo_description": "Browser-based AI podcast editor that cuts filler words and silences. Overview of features, pricing model and who it suits.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "squadcast",
+  "name": "SquadCast",
+  "category": "audio",
+  "website_url": "https://squadcast.fm/",
+  "pricing": "Free trial",
+  "tagline": "Remote recording studio that captures each guest locally and uploads to the cloud.",
+  "best_for": "Podcasters and video producers recording remote interviews",
+  "platforms": [
+   "Web"
+  ],
+  "description": "SquadCast is a cloud-based studio for recording remote conversations. Each participant's audio and video is recorded on their own device and uploaded progressively, so a shaky connection during the call does not damage the final files. Every guest gets a separate track, with lossless WAV audio and up to 4K video listed.\n\nGuests join through a link in the browser with nothing to download, which keeps things simple for non-technical interviewees. The page names Chrome and says there are no native apps. It connects to Descript for editing and transcription and offers Dropbox integration and API access. SquadCast is owned by Descript. A short free trial is offered; check the official site for current plans.",
+  "use_steps": [
+   "Create a session and invite guests with a link.",
+   "Have guests join in Chrome and test their mic and camera.",
+   "Record and let local files upload to the cloud.",
+   "Download separate tracks or send them to Descript."
+  ],
+  "pros": [
+   "Local recording protects against connection drops",
+   "Separate tracks per guest",
+   "Guests need no downloads",
+   "Works with Descript"
+  ],
+  "cons": [
+   "No permanent free plan",
+   "Browser only; Chrome is named"
+  ],
+  "alternatives": [
+   "riverside",
+   "descript",
+   "zencastr"
+  ],
+  "tags": [
+   "remote recording",
+   "podcast",
+   "interviews",
+   "video",
+   "WAV"
+  ],
+  "features": [
+   "Local progressive-upload recording",
+   "Lossless WAV and up to 4K video",
+   "Separate participant tracks",
+   "Descript integration",
+   "Dropbox and API"
+  ],
+  "use_cases": [
+   "Remote podcast interviews",
+   "Video interview series",
+   "Multi-guest panel recordings"
+  ],
+  "pricing_details": "No permanent free plan; a 7-day free trial is described. Check the official site for current plans.",
+  "faq": [
+   {
+    "q": "Why record locally?",
+    "a": "Local capture means call quality issues do not affect the saved files."
+   },
+   {
+    "q": "Do guests install anything?",
+    "a": "No, they join from a browser through a link."
+   },
+   {
+    "q": "Who owns SquadCast?",
+    "a": "The listing states that Descript owns it."
+   }
+  ],
+  "seo_title": "SquadCast - Features, Pricing and Alternatives",
+  "seo_description": "Remote recording studio that captures each guest locally and uploads to the cloud. Overview of features, pricing model and who it suits.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "weavy",
+  "name": "Weavy (Figma Weave)",
+  "category": "design",
+  "website_url": "https://weave.figma.com/",
+  "pricing": "Freemium",
+  "tagline": "Node-based canvas that chains AI models and editing tools into reusable pipelines.",
+  "best_for": "Creative teams needing repeatable multi-model image and video workflows",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Weavy, now Figma Weave, is a browser canvas where you connect steps as nodes: generate an image with one model, refine it, composite it, then send it to video. Pipelines can be saved and shared, so a look that took effort to build can be repeated by others.\n\nIt lists models from many providers and editing tools such as masking, relighting, outpainting, upscaling and inpainting. App Mode builds a simplified interface from a workflow for people who do not want to touch nodes. Founded in 2024, it was acquired by Figma in late 2025, and the two products currently have separate billing and credits. Check the official site for current plans.",
+  "use_steps": [
+   "Open a new workflow on the canvas.",
+   "Add a model node and a prompt, and generate a first image.",
+   "Chain editing nodes such as upscaling or compositing.",
+   "Save the workflow and share it, optionally through App Mode."
+  ],
+  "pros": [
+   "Reusable shareable pipelines",
+   "Many models in one place",
+   "Pro editing tools alongside generation",
+   "Team credit management"
+  ],
+  "cons": [
+   "Node graphs have a learning curve",
+   "Credit-based usage"
+  ],
+  "alternatives": [
+   "figma",
+   "krea-ai",
+   "leonardo-ai"
+  ],
+  "tags": [
+   "node-based",
+   "AI workflows",
+   "image",
+   "video",
+   "creative teams"
+  ],
+  "features": [
+   "Node-based workflows",
+   "Multi-provider model access",
+   "Masking, relighting, upscaling",
+   "LoRA import for consistency",
+   "App Mode for simple UIs"
+  ],
+  "use_cases": [
+   "Repeatable ad creative pipelines",
+   "Moodboard to video workflows",
+   "Team asset production"
+  ],
+  "pricing_details": "A free tier with monthly credits and paid per-user plans are described. Plans change; check the official site.",
+  "faq": [
+   {
+    "q": "Is Weavy the same as Figma Weave?",
+    "a": "Yes, the product is now called Figma Weave and runs separately from Figma."
+   },
+   {
+    "q": "Do I need to build node graphs?",
+    "a": "App Mode can present a workflow as a simple interface."
+   },
+   {
+    "q": "Does it train on my content?",
+    "a": "The listing states a policy of not training on user content or outputs."
+   }
+  ],
+  "seo_title": "Weavy (Figma Weave) - Features, Pricing and Alternatives",
+  "seo_description": "Node-based canvas that chains AI models and editing tools into reusable pipelines. Overview of features, pricing model and who it suits.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "deep-image-ai",
+  "name": "Deep Image AI",
+  "category": "image",
+  "website_url": "https://deep-image.ai/",
+  "pricing": "Freemium",
+  "tagline": "Cloud image upscaler that enlarges photos and cleans noise.",
+  "best_for": "Ecommerce teams, designers and photographers enlarging many images",
+  "platforms": [
+   "Web",
+   "API"
+  ],
+  "description": "Deep Image AI enlarges and enhances photos in the browser. Upscaling reaches 4x, with noise and compression-artifact cleanup and face enhancement for portraits and lifestyle shots. It accepts JPG, PNG and WEBP files.\n\nIts audience is designers, marketers, ecommerce sellers, agencies and marketplaces, partly because of batch processing for whole folders and an API that connects to asset-management systems, shops and custom scripts. A free tier allows a limited number of upscales; paid plans offer higher limits, priority processing, commercial use and API access. Always compare results on a real image first, and check the official site for current plans.",
+  "use_steps": [
+   "Open the site and upload a JPG, PNG or WEBP.",
+   "Choose the upscale factor and enable denoise or face enhancement.",
+   "Compare before and after, then download.",
+   "For many images, use batch mode or the API."
+  ],
+  "pros": [
+   "Batch and API support",
+   "Handles noise and JPEG artifacts",
+   "Browser-based",
+   "Free tier to test"
+  ],
+  "cons": [
+   "Heavy enlargement can look artificial",
+   "Commercial use needs a paid plan"
+  ],
+  "alternatives": [
+   "upscayl"
+  ],
+  "tags": [
+   "upscaler",
+   "image enhancement",
+   "ecommerce",
+   "batch",
+   "API"
+  ],
+  "features": [
+   "Upscaling up to 4x",
+   "Denoise and deartifacting",
+   "Face enhancement",
+   "Batch folder processing",
+   "API access"
+  ],
+  "use_cases": [
+   "Product photo enlargement",
+   "Restoring compressed images",
+   "Print-ready scaling"
+  ],
+  "pricing_details": "A limited free tier and paid plans with higher limits and commercial use. Check the official site.",
+  "faq": [
+   {
+    "q": "What file types work?",
+    "a": "JPG, PNG and WEBP."
+   },
+   {
+    "q": "Can it process many images?",
+    "a": "Yes, batch processing and an API are listed."
+   },
+   {
+    "q": "Is it free?",
+    "a": "A free tier allows limited upscales."
+   }
+  ],
+  "seo_title": "Deep Image AI - Features, Pricing and Alternatives",
+  "seo_description": "Cloud image upscaler that enlarges photos and cleans noise. Overview of features, pricing model and who it suits.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "enhancor",
+  "name": "Enhancor",
+  "category": "image",
+  "website_url": "https://www.enhancor.ai/",
+  "pricing": "Freemium",
+  "tagline": "Restores skin texture on AI-generated portraits that look plastic.",
+  "best_for": "Creators polishing AI portraits from Midjourney, Flux or Stable Diffusion",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Enhancor targets one specific problem: AI-generated portraits that look waxy. It restores pores, tone and fine skin detail, with controls for targeting faces or skin areas, selective masking, edge preservation and optional film grain.\n\nIt is built for creators and small studios, mostly for tight head-and-shoulder shots. Batch processing, job queues and side-by-side previews with sliders speed up larger sets. Output is HD on entry plans and up to 4K on higher tiers, with exports meant to move into tools like Photoshop, Lightroom or Canva. The listing itself notes inconsistent results on full-body shots, heavily stylized renders and low-resolution inputs. Check the official site for current plans.",
+  "use_steps": [
+   "Upload a JPG or PNG portrait.",
+   "Select the face or skin region and set detail strength.",
+   "Compare with the slider preview and tune grain.",
+   "Export and finish in your usual editor."
+  ],
+  "pros": [
+   "Focused on a real AI-portrait weakness",
+   "Selective masking",
+   "Batch queues",
+   "Before and after slider"
+  ],
+  "cons": [
+   "Inconsistent on full-body or stylized images",
+   "Free trial output is watermarked"
+  ],
+  "alternatives": [
+   "remini"
+  ],
+  "tags": [
+   "portrait",
+   "AI images",
+   "skin texture",
+   "retouching",
+   "upscaling"
+  ],
+  "features": [
+   "Face detail recovery",
+   "Region targeting and masks",
+   "Film grain simulation",
+   "Batch processing",
+   "HD to 4K output"
+  ],
+  "use_cases": [
+   "Fixing AI headshots",
+   "Social content portraits",
+   "Batch retouching"
+  ],
+  "pricing_details": "Free trial with watermarks and paid tiers for higher resolution. Prices are not listed here; check the official site.",
+  "faq": [
+   {
+    "q": "What is it for?",
+    "a": "Removing the plastic look from AI portraits and restoring skin detail."
+   },
+   {
+    "q": "Does it work on full-body images?",
+    "a": "The listing reports inconsistent output there."
+   },
+   {
+    "q": "What resolution can I export?",
+    "a": "HD on entry plans and up to 4K on higher tiers."
+   }
+  ],
+  "seo_title": "Enhancor - Features, Pricing and Alternatives",
+  "seo_description": "Restores skin texture on AI-generated portraits that look plastic. Overview of features, pricing model and who it suits.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "flora-ai",
+  "name": "FLORA",
+  "category": "design",
+  "website_url": "https://www.florafauna.ai/",
+  "pricing": "Freemium",
+  "tagline": "Infinite canvas for planning and generating text, image and video with many models.",
+  "best_for": "Designers and agencies wanting controlled AI image and video workflows",
+  "platforms": [
+   "Web"
+  ],
+  "description": "FLORA is a browser-based creative canvas where prompts, assets and outputs are connected as visual blocks. You can plan an idea, generate text, images or video, branch variations and keep a history of decisions, all in one workspace instead of juggling separate generators.\n\nThe page lists 50 or more integrated models that you can swap per task, along with saved styles and presets for consistency and reusable workflow templates. Multiplayer collaboration, shared folders, team permissions and credit management are aimed at agencies and creative teams, though freelancers and startups are mentioned too. No desktop or mobile app is listed. Check the official site for current plans.",
+  "use_steps": [
+   "Create a project and open the canvas.",
+   "Add text, image or video blocks and connect them.",
+   "Pick a model for each block and generate.",
+   "Save styles as presets and invite teammates."
+  ],
+  "pros": [
+   "Many models in one workspace",
+   "Branching keeps history",
+   "Real-time collaboration",
+   "Free tier to test"
+  ],
+  "cons": [
+   "Canvas workflows take learning",
+   "Credits limit heavy use"
+  ],
+  "alternatives": [
+   "weavy",
+   "krea-ai",
+   "leonardo-ai"
+  ],
+  "tags": [
+   "canvas",
+   "AI workflows",
+   "image",
+   "video",
+   "collaboration"
+  ],
+  "features": [
+   "Infinite canvas",
+   "50+ models",
+   "Multiplayer collaboration",
+   "Saved styles and presets",
+   "Workflow templates"
+  ],
+  "use_cases": [
+   "Campaign concepting",
+   "Moodboards to visuals",
+   "Team creative review"
+  ],
+  "pricing_details": "A free tier with limits and paid plans from a stated low monthly price with team and enterprise options. Check the official site.",
+  "faq": [
+   {
+    "q": "Is it browser-based?",
+    "a": "Yes, no installation or local GPU is needed."
+   },
+   {
+    "q": "Can teams work together?",
+    "a": "Multiplayer collaboration and shared folders are listed."
+   },
+   {
+    "q": "Can I choose the model?",
+    "a": "Models can be swapped per task."
+   }
+  ],
+  "seo_title": "FLORA - Features, Pricing and Alternatives",
+  "seo_description": "Infinite canvas for planning and generating text, image and video with many models. Overview of features, pricing model and who it suits.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "lovart",
+  "name": "Lovart",
+  "category": "design",
+  "website_url": "https://www.lovart.ai/",
+  "pricing": "Freemium",
+  "tagline": "AI design agent that turns one prompt into a set of brand assets.",
+  "best_for": "Founders and marketers who need logos, posters and social visuals fast",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Lovart works like a design agent. You describe a brief in plain language and it plans and produces a set of assets: logos, packaging, posters, social content, product pages and video ads. It lives in a browser workspace called ChatCanvas, where you converse with the agent and click elements to change them.\n\nTouch Edit alters one element without disturbing the rest, text sits on editable layers, and styles are kept consistent across formats. It draws on several image and video models. Founders, marketers, small business owners and designers are the intended users. The free plan has a daily credit allowance; paid plans are credit-based and add commercial rights and team options. Check the official site for current terms.",
+  "use_steps": [
+   "Sign in and describe the brand and what you need.",
+   "Review the first set of assets on ChatCanvas.",
+   "Click an element and ask for a specific change.",
+   "Export in the formats you need after checking license terms."
+  ],
+  "pros": [
+   "One brief produces many formats",
+   "Targeted edits on single elements",
+   "Daily free credits",
+   "Editable text layers"
+  ],
+  "cons": [
+   "Credits do not roll over",
+   "Output still needs a designer's eye"
+  ],
+  "alternatives": [
+   "canva",
+   "adobe-firefly",
+   "recraft"
+  ],
+  "tags": [
+   "design agent",
+   "branding",
+   "logos",
+   "posters",
+   "social"
+  ],
+  "features": [
+   "Prompt-to-brand-asset generation",
+   "ChatCanvas workspace",
+   "Touch Edit",
+   "Style consistency",
+   "Multi-model generation"
+  ],
+  "use_cases": [
+   "Startup brand kits",
+   "Campaign visuals",
+   "Packaging ideas"
+  ],
+  "pricing_details": "A free daily credit allowance; paid credit-based plans add commercial use. Check the official site.",
+  "faq": [
+   {
+    "q": "What can it make?",
+    "a": "Logos, packaging, posters, social content, product pages and video ads."
+   },
+   {
+    "q": "Can I edit one part only?",
+    "a": "Touch Edit targets a specific element."
+   },
+   {
+    "q": "Do credits roll over?",
+    "a": "The page says they do not."
+   }
+  ],
+  "seo_title": "Lovart - Features, Pricing and Alternatives",
+  "seo_description": "AI design agent that turns one prompt into a set of brand assets. Overview of features, pricing model and who it suits.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "seedance",
+  "name": "Seedance",
+  "category": "video",
+  "website_url": "https://seedance.net/",
+  "pricing": "Freemium",
+  "tagline": "ByteDance Seed video model for text-to-video and image-to-video clips.",
+  "best_for": "Creators making short clips and trailers",
+  "platforms": [
+   "Web",
+   "API"
+  ],
+  "description": "Seedance is a video generation model from ByteDance Seed. It creates clips from text prompts or still images and is described as handling multi-shot generation with consistent characters and style, 1080p output, and a range of looks from photorealistic to illustrated.\n\nPrompt-following for actions, camera movement and scenes with several subjects is highlighted, along with fast inference. Access is cloud-only through partner platforms or an API rather than one standalone app, so what you get can depend on the platform you pick. Some partners offer trials or credits, and production use is paid. Check the official site and your chosen platform for current terms.",
+  "use_steps": [
+   "Choose a platform or API that offers Seedance.",
+   "Write a prompt describing action, shot and style, or upload a reference image.",
+   "Generate and review the clip for consistency.",
+   "Iterate or extend into additional shots."
+  ],
+  "pros": [
+   "Multi-shot character consistency",
+   "Image-to-video support",
+   "1080p output",
+   "Varied visual styles"
+  ],
+  "cons": [
+   "Access depends on partner platforms",
+   "Production use is paid"
+  ],
+  "alternatives": [
+   "kling-ai",
+   "runway",
+   "luma-dream-machine"
+  ],
+  "tags": [
+   "video generation",
+   "text to video",
+   "image to video",
+   "ByteDance",
+   "API"
+  ],
+  "features": [
+   "Text-to-video",
+   "Image-to-video",
+   "Multi-shot generation",
+   "1080p output",
+   "Prompt following for camera moves"
+  ],
+  "use_cases": [
+   "Short promo clips",
+   "Concept trailers",
+   "Social video shorts"
+  ],
+  "pricing_details": "Access varies by platform; some offer trials or credits and production use is paid. Check the official site.",
+  "faq": [
+   {
+    "q": "Who makes Seedance?",
+    "a": "ByteDance Seed."
+   },
+   {
+    "q": "Can I use a still image?",
+    "a": "Yes, image-to-video is listed."
+   },
+   {
+    "q": "Where can I use it?",
+    "a": "Through supported partner platforms or an API."
+   }
+  ],
+  "seo_title": "Seedance - Features, Pricing and Alternatives",
+  "seo_description": "ByteDance Seed video model for text-to-video and image-to-video clips. Overview of features, pricing model and who it suits.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ },
+ {
+  "slug": "patterned-ai",
+  "name": "Patterned AI",
+  "category": "design",
+  "website_url": "https://www.patterned.ai/",
+  "pricing": "Freemium",
+  "tagline": "Generates seamless tileable patterns from text or reference images.",
+  "best_for": "Designers working on textiles, packaging and branding",
+  "platforms": [
+   "Web"
+  ],
+  "description": "Patterned AI generates seamless patterns from a text prompt or an inspiration image. Tiles repeat cleanly, which matters for fabric, wallpaper, packaging and backgrounds, and outputs carry royalty-free licensing per the listing.\n\nYou can adjust color, complexity and format, apply style filters or start from pre-made samples, and export high-resolution files that work with Figma, Illustrator and Photoshop. It is aimed at designers, marketers and businesses in fashion, textiles, packaging and digital media who do not need advanced skills. A free tier allows limited generations; paid plans unlock higher resolution and commercial downloads. Check the official site for current plans.",
+  "use_steps": [
+   "Open the generator and type a pattern description or upload a reference.",
+   "Adjust color, complexity and style filters.",
+   "Check that the tile repeats cleanly.",
+   "Export in high resolution and place it in your design tool."
+  ],
+  "pros": [
+   "Seamless tiling built in",
+   "Exports for common design tools",
+   "Color and complexity controls",
+   "Free tier"
+  ],
+  "cons": [
+   "Niche, patterns only",
+   "Commercial downloads need a paid plan"
+  ],
+  "alternatives": [
+   "canva",
+   "adobe-firefly"
+  ],
+  "tags": [
+   "patterns",
+   "seamless tiles",
+   "textiles",
+   "packaging",
+   "generative design"
+  ],
+  "features": [
+   "Text-to-pattern",
+   "Image-guided generation",
+   "Style filters",
+   "High-resolution export",
+   "Color and format control"
+  ],
+  "use_cases": [
+   "Fabric prints",
+   "Packaging backgrounds",
+   "Brand pattern libraries"
+  ],
+  "pricing_details": "A free tier with limited generations; paid plans add resolution and commercial downloads. Check the official site.",
+  "faq": [
+   {
+    "q": "Are the patterns seamless?",
+    "a": "Yes, seamless tileable output is the core feature."
+   },
+   {
+    "q": "Can I use a reference image?",
+    "a": "Yes, as inspiration."
+   },
+   {
+    "q": "Is commercial use allowed?",
+    "a": "Commercial downloads are described as a paid feature; read the license terms."
+   }
+  ],
+  "seo_title": "Patterned AI - Features, Pricing and Alternatives",
+  "seo_description": "Generates seamless tileable patterns from text or reference images. Overview of features, pricing model and who it suits.",
+  "status": "draft",
+  "last_checked": "2026-11"
+ }
+]
