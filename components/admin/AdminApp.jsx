@@ -142,12 +142,12 @@ export default function AdminApp() {
       <div className="ad-side-foot"><a className="ad-nav" href="/" target="_blank" rel="noreferrer">View site ↗</a><button className="ad-nav" onClick={() => sb.auth.signOut()}>Sign out</button></div></aside>
     <main className="ad-main">
       {tab === 'overview' && <Overview sb={sb} go={setTab} />}
-      {tab === 'prompts' && <Manager key="p" sb={sb} table="pz_prompts" kind="prompt" label="Prompts" fields={PROMPT_FIELDS} titleKey="title" path="/prompts" cats={cats.prompt} notify={notify} />}
-      {tab === 'tools' && <Manager key="t" sb={sb} table="pz_tools" kind="tool" label="AI Tools" fields={TOOL_FIELDS} titleKey="name" path="/ai-tools" cats={cats.tool} notify={notify} />}
-      {tab === 'skills' && <Manager key="sk" sb={sb} table="pz_skills" kind="skill" label="Skills" fields={SKILL_FIELDS} titleKey="name" path="/skills" cats={cats.skill} notify={notify} />}
+      {tab === 'prompts' && <Manager key="p" sb={sb} table="pz_prompts" kind="prompt" label="Prompts" fields={PROMPT_FIELDS} titleKey="title" path="/prompts" cats={cats.prompt} notify={notify} onCatsChange={loadCats} />}
+      {tab === 'tools' && <Manager key="t" sb={sb} table="pz_tools" kind="tool" label="AI Tools" fields={TOOL_FIELDS} titleKey="name" path="/ai-tools" cats={cats.tool} notify={notify} onCatsChange={loadCats} />}
+      {tab === 'skills' && <Manager key="sk" sb={sb} table="pz_skills" kind="skill" label="Skills" fields={SKILL_FIELDS} titleKey="name" path="/skills" cats={cats.skill} notify={notify} onCatsChange={loadCats} />}
       {tab === 'courses' && <Manager key="crs" sb={sb} table="pz_courses" kind="course" label="AI Courses" fields={COURSE_FIELDS} titleKey="title" path="/courses" cats={COURSE_CAT_OPTS} notify={notify} />}
       {tab === 'components' && <Components sb={sb} cats={COMP_CAT_OPTS} notify={notify} />}
-      {tab === 'photo' && <Manager key="ph" sb={sb} table="pz_photo_prompts" kind="photo" label="Photo Prompts" fields={PHOTO_FIELDS} simple={PHOTO_SIMPLE} titleKey="title" path="/photo-prompts" cats={cats.photo} notify={notify} />}
+      {tab === 'photo' && <Manager key="ph" sb={sb} table="pz_photo_prompts" kind="photo" label="Photo Prompts" fields={PHOTO_FIELDS} simple={PHOTO_SIMPLE} titleKey="title" path="/photo-prompts" cats={cats.photo} notify={notify} onCatsChange={loadCats} />}
       {tab === 'blog' && <BlogManager sb={sb} cats={cats.blog} notify={notify} token={session.access_token} onCatsChange={loadCats} />}
       {tab === 'subscribers' && <Subscribers sb={sb} notify={notify} />}
       {tab === 'submissions' && <ToolSubmissions sb={sb} notify={notify} cats={cats.tool} />}

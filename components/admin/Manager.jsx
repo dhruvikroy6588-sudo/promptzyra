@@ -5,7 +5,30 @@ import { slugify } from '@/lib/site';
 import { uploadImage, imageKeys, collectR2Urls, replacedR2Urls, cleanupR2, exportRows } from './common';
 import { Loading, ErrorBanner } from './ui';
 
-export default function Manager({ sb, table, kind, label, fields, simple, titleKey, path, cats, notify, fixed }) {
+const CAT_KINDS = ['prompt', 'tool', 'skill', 'photo'];
+// Category dropdown with an inline "+ New category" so categories can be added without leaving the form.
+function CatPicker({ sb, kind, cats, v, onPick, notify, onCatsChange }) {
+  const [adding, setAdding] = useState(false); const [name, setName] = useState(''); const [busy, setBusy] = useState(false);
+  const can = CAT_KINDS.includes(kind) && typeof onCatsChange === 'function';
+  const add = async () => {
+    const n = name.trim(); if (!n) return notify('Type a category name', true);
+    const slug = slugify(n); if (cats.some((c) => c.slug === slug)) { onPick(slug); setAdding(false); setName(''); return; }
+    setBusy(true);
+    const { error } = await sb.from('pz_categories').insert({ kind, slug, name: n, description: '', intro: '', icon: '', sort_order: (cats.length + 1) * 10 });
+    setBusy(false);
+    if (error) return notify(error.message, true);
+    await onCatsChange(); onPick(slug); setAdding(false); setName(''); notify(`Category “${n}” added`);
+  };
+  return (<div style={{ display: 'grid', gap: 6 }}>
+    <select value={adding ? '__new' : v} onChange={(e) => { if (e.target.value === '__new') setAdding(true); else { setAdding(false); onPick(e.target.value); } }}>
+      {cats.map((c) => <option key={c.slug} value={c.slug}>{c.name}</option>)}
+      {can && <option value="__new">＋ New category…</option>}
+    </select>
+    {adding && <div style={{ display: 'flex', gap: 6 }}><input autoFocus value={name} placeholder="New category name" onChange={(e) => setName(e.target.value)} onKeyDown={(e) => { if (e.key === 'Enter') { e.preventDefault(); add(); } }} /><button type="button" className="btn pri sm" disabled={busy} onClick={add}>{busy ? 'Adding…' : 'Add'}</button><button type="button" className="btn sm" onClick={() => { setAdding(false); setName(''); }}>Cancel</button></div>}
+  </div>);
+}
+
+export default function Manager({ sb, table, kind, label, fields, simple, titleKey, path, cats, notify, fixed, onCatsChange }) {
   const [rows, setRows] = useState([]);
   const [loading, setLoading] = useState(true); const [err, setErr] = useState('');
   const imgCols = useMemo(() => imageKeys(fields), [fields]);
@@ -124,7 +147,7 @@ export default function Manager({ sb, table, kind, label, fields, simple, titleK
           {fd.t === 'area' && fd.max && <div className={`hint${String(v || '').length > fd.max ? ' over' : ''}`} style={{ textAlign: 'right', color: String(v || '').length > fd.max ? 'var(--dn, #ef4468)' : undefined }}>{String(v || '').length}/{fd.max}</div>}
           {(fd.t === 'list' || fd.t === 'faq') && <textarea rows={fd.rows || (fd.t === 'faq' ? 6 : 2)} value={v} onChange={(e) => setF(fd.k, e.target.value)} />}
           {fd.t === 'select' && <select value={v} onChange={(e) => setF(fd.k, e.target.value)}>{fd.opts.map((o) => <option key={o}>{o}</option>)}</select>}
-          {fd.t === 'cat' && <select value={v} onChange={(e) => setF(fd.k, e.target.value)}>{cats.map((c) => <option key={c.slug} value={c.slug}>{c.name}</option>)}</select>}
+          {fd.t === 'cat' && <CatPicker sb={sb} kind={kind} cats={cats} v={v} onPick={(x) => setF(fd.k, x)} notify={notify} onCatsChange={onCatsChange} />}
           {fd.t === 'models' && <div className="chk">{MODEL_OPTS.map((m) => <label key={m.id}><input type="checkbox" checked={v.includes(m.id)} onChange={(e) => setF(fd.k, e.target.checked ? [...v, m.id] : v.filter((x) => x !== m.id))} />{m.label}</label>)}</div>}
           {fd.t === 'bool' && <label style={{ display: 'flex', gap: 8, alignItems: 'center', color: 'var(--tx)' }}><input type="checkbox" checked={!!v} onChange={(e) => setF(fd.k, e.target.checked)} />{fd.l}</label>}
         </div>); })}
