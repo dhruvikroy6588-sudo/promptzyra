@@ -20,6 +20,7 @@ export const metadata = {
   applicationName: SITE_NAME,
   alternates: { canonical: SITE_URL },
   robots: { index: true, follow: true },
+  other: { "google-adsense-account": "ca-pub-7797090685469336" },
   openGraph: { siteName: SITE_NAME, type: 'website', url: SITE_URL, images: [{ url: '/og-default.png', width: 1200, height: 630 }] },
   twitter: { card: 'summary_large_image' },
 };
